@@ -43,12 +43,14 @@
 </section>
 <section class="section"><div class="head"><div><h2>תמונת המחירים לפי חדרים</h2><p>מחיר מבוקש מול מחיר ריאלי משוער</p></div><small id="asof"></small></div><div class="cards" id="roomCards"></div></section>
 <div class="two">
-<section class="section"><div class="head"><div><h2>רחובות חמים</h2><p>יד שנייה · מבוסס על מלאי מודעות פעיל</p></div><small id="streetCount"></small></div><div class="streetList" id="streets"></div></section>
+<section class="section"><div class="head"><div><h2>רחובות עם דירות למכירה</h2><p>יד שנייה · מבוסס על מלאי מודעות פעיל</p></div><small id="streetCount"></small></div><div class="streetList" id="streets"></div></section>
 <section class="section"><div class="head"><div><h2>דירות חדשות בסביבה</h2><p>אינדיקציית שוק · לצד פרויקטים LIVE</p></div><a class="headLink" href="../projects/">לכל הפרויקטים ←</a></div><div class="cards" id="newCards"></div></section>
 </div>
-<div class="status" id="status"><strong>מצב המערכת:</strong> טוען את קבצי הנתונים האחרונים.</div>
+<div class="status" id="status"><strong>מצב המערכת:</strong> טוען את קבצי הנתונים האחרונים.</div><div class="status"><strong>היקף האיסוף:</strong> 150 קבוצות מודעות מיד2 ומדלן לאחר התאמת כפילויות מזוהות · כיסוי חלקי · תצפית לוחות עד 02/10/2026. בדיקת רבעון 3: במרשם המשני ששויך לכרמי גת נמצאו 8 רשומות עסקה — 7 ביולי ואחת באוגוסט. קיימות גם 22 רשומות משלימות ממקורות משניים, העשויות לחפוף למרשם. אין עדיין כיסוי מלא של הרבעון; המודעות שנאספו באוקטובר אינן מלאי היסטורי שלו.</div>
 </main>
 <script>
+function formatDate(v){const m=String(v||'').match(/^(\d{4})-(\d{2})-(\d{2})/);return m?m[3]+'/'+m[2]+'/'+m[1]:String(v||'—')}
+
 const $=id=>document.getElementById(id);
 const mReal=$("mReal"),mAsk=$("mAsk"),mGap=$("mGap"),mTx=$("mTx"),mBaseNote=$("mBaseNote");
 const roomCards=$("roomCards"),newCards=$("newCards"),streets=$("streets"),streetCount=$("streetCount");
@@ -85,17 +87,17 @@ function renderStreets(){
           <div class="streetName">${g.street}</div>
           <div class="streetSub">${g.rooms} חדרים${g.median_area_sqm?" · כ-"+Math.round(g.median_area_sqm)+' מ״ר':""}</div>
         </div>
-        <span class="tag">רחוב חם</span>
+        <span class="tag">דירות למכירה</span>
       </div>
       <div class="streetPrice">${money(Number(g.median_asking_price_ils))}</div>
       <div class="mini">
         <div><span>מודעות פעילות</span><b>${g.active_count}</b></div>
         <div><span>שטח חציוני</span><b>${g.median_area_sqm?Math.round(g.median_area_sqm)+' מ״ר':"—"}</b></div>
-        <div><span>נצפה לאחרונה</span><b>${g.last_seen_at?String(g.last_seen_at).slice(0,10):"—"}</b></div>
+        <div><span>נצפה לאחרונה</span><b>${g.last_seen_at?'<bdi dir="ltr">'+formatDate(g.last_seen_at)+'</bdi>':"—"}</b></div>
       </div>
     </article>`).join("") || (streetsData?'<div class="empty">לא נמצאו רחובות התואמים למסנן.</div>':'<div class="empty">שכבת הרחובות תופיע לאחר ריצת האיסוף הבאה.</div>');
 }
-function render(){renderTop();renderRooms();renderNew();renderStreets();const d=book.as_of||book.updated_at||"";const sd=book.source_dates||{};asof.textContent=d?"נתוני מודל עד "+d:"";topUpdate.textContent=sd.transactions||sd.resale_listings||sd.new_build?("עסקאות: "+(sd.transactions||"—")+" · לוחות: "+String(sd.resale_listings||"—").slice(0,10)+" · חדשות: "+(sd.new_build||"—")):(d?"שכבת המחירון: "+d:"עדכונים ממקורות שונים")}
+function render(){renderTop();renderRooms();renderNew();renderStreets();const d=book.as_of||book.updated_at||"";const sd=book.source_dates||{};asof.textContent=d?"נתוני מודל עד "+formatDate(d):"";topUpdate.textContent=sd.transactions||sd.resale_listings||sd.new_build?("עסקאות: "+formatDate(sd.transactions)+" · לוחות: "+formatDate(sd.resale_listings)+" · חדשות: "+formatDate(sd.new_build)):(d?"שכבת המחירון: "+d:"עדכונים ממקורות שונים")}
 document.querySelectorAll(".room").forEach(b=>b.onclick=()=>{document.querySelectorAll(".room").forEach(x=>x.classList.remove("on"));b.classList.add("on");selected=b.dataset.room;render()});search.oninput=e=>{q=e.target.value;renderStreets()};
 (async()=>{let live=false;try{book=await loadJson("../data/pricebook.json");live=true}catch(e){console.error("pricebook",e);book=legacyFallback}try{streetsData=await loadJson("../data/streets.json")}catch(e){console.error("streets",e)}try{render();status.innerHTML=live?'<strong>מצב המערכת:</strong> המחירון מחובר למודל השוק המשולב: עסקאות סגורות + מודעות פעילות לאחר התאמת מו״מ.':'<strong>מצב המערכת:</strong> <span class="warn">מוצגים כרגע נתוני הגיבוי האחרונים.</span>'}catch(e){console.error("render",e);status.innerHTML='<strong>מצב המערכת:</strong> <span class="warn">אירעה שגיאת תצוגה. הנתונים קיימים אך לא הוצגו במלואם.</span>'}})()
 </script>
