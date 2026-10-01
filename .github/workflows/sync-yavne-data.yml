@@ -1,0 +1,87 @@
+name: Sync Yavne data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pull latest Yavne outputs
+        run: |
+          python - <<'PY'
+          import json
+          import urllib.request
+          from pathlib import Path
+
+          base = "https://raw.githubusercontent.com/ebs-hue/isnet-real-estate/main/data/processed"
+          out = Path("data/yavne")
+          out.mkdir(parents=True, exist_ok=True)
+
+          mapping = {
+              "yavne_public_beta.json": "pricebook.json",
+              "yavne_neighborhood_pricebooks.json": "neighborhood-pricebooks.json",
+              "yavne_neighborhoods.json": "neighborhoods.json",
+              "yavne_streets.json": "streets.json",
+          }
+
+          def fetch(name):
+              req = urllib.request.Request(
+                  f"{base}/{name}",
+                  headers={"User-Agent": "ISNET-Pricebook-Sync/1.0"},
+              )
+              with urllib.request.urlopen(req, timeout=60) as resp:
+                  return resp.read().decode("utf-8")
+
+          for src, dst in mapping.items():
+              text = fetch(src)
+              json.loads(text)
+              (out / dst).write_text(text, encoding="utf-8")
+
+          raw = json.loads(fetch("yavne_unique_inventory.json"))
+          public = {
+              "city": "יבנה",
+              "observed_at": max(
+                  [str(r.get("last_seen_at") or "") for r in raw.get("rows", [])] or [""]
+              ),
+              "note": "מלאי מודעות פעילות לצורך פילוח ממ״ד ומרפסת. null נשמר כלא ידוע ואינו מסווג כלא.",
+              "rows": [
+                  {
+                      "neighborhood": r.get("neighborhood"),
+                      "street": r.get("street"),
+                      "rooms": r.get("rooms"),
+                      "area_sqm": r.get("area_sqm"),
+                      "floor": r.get("floor"),
+                      "mamad": r.get("mamad"),
+                      "balcony": r.get("balcony"),
+                      "asking_price_ils": r.get("asking_price_ils"),
+                      "last_seen_at": r.get("last_seen_at"),
+                      "listing_kind": r.get("listing_kind"),
+                  }
+                  for r in raw.get("rows", [])
+              ],
+          }
+          (out / "inventory.json").write_text(
+              json.dumps(public, ensure_ascii=False, indent=2),
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "isnet-data-bot"
+          git config user.email "isnet-data-bot@users.noreply.github.com"
+          git add data/yavne
+          if git diff --cached --quiet; then
+            echo "No Yavne data changes"
+          else
+            git commit -m "data: sync Yavne pricebook"
+            git push
+          fi
