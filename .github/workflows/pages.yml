@@ -8,6 +8,7 @@ on:
       - "assets/**"
       - "data/**"
       - "projects/**"
+      - "project-live/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
