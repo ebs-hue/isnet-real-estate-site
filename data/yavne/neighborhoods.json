@@ -1,128 +1,259 @@
 {
   "city": "יבנה",
-  "observed_at": "2026-10-01",
-  "status": "asking_signal_only",
-  "note": "שכבת שכונות ראשונית המבוססת על מודעות פעילות בלבד. מחיר ריאלי שכונתי יפורסם רק לאחר שיוך אמין של עסקאות סגורות.",
   "rows": [
     {
-      "neighborhood": "נאות שמיר",
-      "active_count": 12,
-      "median_asking_price_ils": 2605000,
-      "median_area_sqm": 135.5,
-      "by_rooms": {
-        "3": {
-          "count": 2,
-          "median_asking_price_ils": 2287500
-        },
-        "4": {
-          "count": 5,
-          "median_asking_price_ils": 2530000
-        },
-        "5": {
-          "count": 5,
-          "median_asking_price_ils": 2930000
-        }
-      },
+      "neighborhood": "נאות אשכול",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 1490000.0,
+      "median_area_sqm": 72.0,
       "mamad_evidence": {
-        "yes": 8,
+        "yes": 0,
         "no": 0,
-        "unknown": 4
+        "unknown": 1
       },
       "balcony_evidence": {
-        "yes": 4,
+        "yes": 0,
         "no": 0,
-        "unknown": 8
-      }
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
     },
     {
-      "neighborhood": "נאות רבין",
-      "active_count": 9,
-      "median_asking_price_ils": 3100000,
-      "median_area_sqm": 143,
-      "by_rooms": {
-        "4": {
-          "count": 5,
-          "median_asking_price_ils": 3100000
-        },
-        "5": {
-          "count": 4,
-          "median_asking_price_ils": 3059500
-        }
-      },
+      "neighborhood": "נאות אשכול",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2220000.0,
+      "median_area_sqm": 123.0,
       "mamad_evidence": {
-        "yes": 4,
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות אשכול",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2800000.0,
+      "median_area_sqm": 125.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "rooms": 3.0,
+      "active_count": 7,
+      "median_asking_price_ils": 1985000.0,
+      "median_area_sqm": 99.0,
+      "mamad_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 5
+      },
+      "balcony_evidence": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 6
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "rooms": 4.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2230000.0,
+      "median_area_sqm": 96.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 2
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 2
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2120000.0,
+      "median_area_sqm": 115.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 1600000.0,
+      "median_area_sqm": 70.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "rooms": 4.0,
+      "active_count": 9,
+      "median_asking_price_ils": 1870000.0,
+      "median_area_sqm": 96.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 9
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 9
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "rooms": 5.0,
+      "active_count": 7,
+      "median_asking_price_ils": 2090000.0,
+      "median_area_sqm": 124.0,
+      "mamad_evidence": {
+        "yes": 2,
         "no": 0,
         "unknown": 5
       },
       "balcony_evidence": {
         "yes": 0,
         "no": 0,
-        "unknown": 9
-      }
+        "unknown": 7
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
     },
     {
-      "neighborhood": "נאות בן גוריון",
-      "active_count": 4,
-      "median_asking_price_ils": 2097500,
-      "median_area_sqm": 112.5,
-      "by_rooms": {
-        "4": {
-          "count": 2,
-          "median_asking_price_ils": 1960000
-        },
-        "5": {
-          "count": 2,
-          "median_asking_price_ils": 2147500
-        }
+      "neighborhood": "נאות רבין",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2220000.0,
+      "median_area_sqm": 85.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
       },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 1
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "rooms": 4.0,
+      "active_count": 14,
+      "median_asking_price_ils": 2590000.0,
+      "median_area_sqm": 117.0,
       "mamad_evidence": {
         "yes": 2,
         "no": 0,
-        "unknown": 2
+        "unknown": 12
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 14
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "rooms": 5.0,
+      "active_count": 19,
+      "median_asking_price_ils": 2890000.0,
+      "median_area_sqm": 139.0,
+      "mamad_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 17
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 19
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "rooms": 3.0,
+      "active_count": 4,
+      "median_asking_price_ils": 2085000.0,
+      "median_area_sqm": 85.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4
       },
       "balcony_evidence": {
         "yes": 0,
         "no": 0,
         "unknown": 4
-      }
-    },
-    {
-      "neighborhood": "נאות בגין",
-      "active_count": 3,
-      "median_asking_price_ils": 1930000,
-      "median_area_sqm": 100,
-      "by_rooms": {
-        "3": {
-          "count": 3,
-          "median_asking_price_ils": 1930000
-        }
       },
-      "mamad_evidence": {
-        "yes": 2,
-        "no": 0,
-        "unknown": 1
-      },
-      "balcony_evidence": {
-        "yes": 1,
-        "no": 0,
-        "unknown": 2
-      }
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
     },
     {
       "neighborhood": "נאות שז\"ר",
+      "rooms": 4.0,
       "active_count": 3,
-      "median_asking_price_ils": 2399000,
-      "median_area_sqm": 135,
-      "by_rooms": {
-        "4": {
-          "count": 2,
-          "median_asking_price_ils": 2394500
-        },
-        "5": {
-          "count": 1,
-          "median_asking_price_ils": 2995000
-        }
-      },
+      "median_asking_price_ils": 2399000.0,
+      "median_area_sqm": 116.0,
       "mamad_evidence": {
         "yes": 2,
         "no": 0,
@@ -132,29 +263,143 @@
         "yes": 0,
         "no": 0,
         "unknown": 3
-      }
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "rooms": 5.0,
+      "active_count": 7,
+      "median_asking_price_ils": 2850000.0,
+      "median_area_sqm": 132.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 7
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 7
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "rooms": 3.0,
+      "active_count": 5,
+      "median_asking_price_ils": 2260000.0,
+      "median_area_sqm": 98.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 5
+      },
+      "balcony_evidence": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 4
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "rooms": 4.0,
+      "active_count": 9,
+      "median_asking_price_ils": 2590000.0,
+      "median_area_sqm": 117.0,
+      "mamad_evidence": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 5
+      },
+      "balcony_evidence": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 8
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "rooms": 5.0,
+      "active_count": 9,
+      "median_asking_price_ils": 2950000.0,
+      "median_area_sqm": 135.0,
+      "mamad_evidence": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 5
+      },
+      "balcony_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 7
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "נווה אילן",
+      "rooms": 4.0,
+      "active_count": 3,
+      "median_asking_price_ils": 2760000.0,
+      "median_area_sqm": 110.0,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 3
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 3
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
     },
     {
       "neighborhood": "רמות ויצמן",
-      "active_count": 2,
-      "median_asking_price_ils": 2015000,
-      "median_area_sqm": 99.5,
-      "by_rooms": {
-        "4": {
-          "count": 2,
-          "median_asking_price_ils": 2015000
-        }
-      },
+      "rooms": 4.0,
+      "active_count": 3,
+      "median_asking_price_ils": 2350000.0,
+      "median_area_sqm": 90.0,
       "mamad_evidence": {
         "yes": 1,
         "no": 0,
-        "unknown": 1
+        "unknown": 2
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 3
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
+    },
+    {
+      "neighborhood": "רמות ויצמן",
+      "rooms": 5.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2300000.0,
+      "median_area_sqm": 138.5,
+      "mamad_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 2
       },
       "balcony_evidence": {
         "yes": 0,
         "no": 0,
         "unknown": 2
-      }
+      },
+      "last_seen_at": "2026-10-02",
+      "publication_status": "asking_signal_only"
     }
-  ]
+  ],
+  "note": "Neighborhood rows are active-listing signals only until closed transactions are reliably assigned to neighborhoods."
 }

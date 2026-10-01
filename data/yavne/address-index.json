@@ -918,7 +918,7 @@
     }
   ],
   "city": "יבנה",
-  "as_of": "2026-10-02",
+  "as_of": "2026-10-01",
   "methodology": {
     "rule": "עסקאות מוצגות לכתובת רק בחלקה בעלת כתובת יחידה לפי מקור משני מתועד. חלקות מרובות כתובות אינן משויכות לבניין מסוים.",
     "not_inferred": [
@@ -4188,8 +4188,23 @@
       "latest_transaction_date": "2026-05-28",
       "median_transaction_price_ils": 2102000.0,
       "median_price_per_sqm_ils": 27700,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 2,
+      "active_listings": [
+        {
+          "rooms": 5.0,
+          "area_sqm": 111.0,
+          "floor": 3.0,
+          "asking_price_ils": 1990000.0,
+          "last_seen_at": "2026-10-02"
+        },
+        {
+          "rooms": 5.0,
+          "area_sqm": 112.0,
+          "floor": 6.0,
+          "asking_price_ils": 2150000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "medium",
       "transactions": [
         {
@@ -4270,8 +4285,16 @@
       "latest_transaction_date": "2024-08-26",
       "median_transaction_price_ils": 2000000.0,
       "median_price_per_sqm_ils": 18636,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 1,
+      "active_listings": [
+        {
+          "rooms": 4.5,
+          "area_sqm": 122.0,
+          "floor": 1.0,
+          "asking_price_ils": 2080000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "medium",
       "transactions": [
         {
@@ -6154,8 +6177,16 @@
       "latest_transaction_date": "2024-10-01",
       "median_transaction_price_ils": 1995000.0,
       "median_price_per_sqm_ils": 22186,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 1,
+      "active_listings": [
+        {
+          "rooms": 4.0,
+          "area_sqm": 102.0,
+          "floor": 5.0,
+          "asking_price_ils": 2180000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "learning",
       "transactions": [
         {
@@ -6338,8 +6369,15 @@
       "latest_transaction_date": "2025-05-05",
       "median_transaction_price_ils": 1890000.0,
       "median_price_per_sqm_ils": 14787,
-      "active_listing_count": 1,
+      "active_listing_count": 2,
       "active_listings": [
+        {
+          "rooms": 5.0,
+          "area_sqm": 124.0,
+          "floor": 4.0,
+          "asking_price_ils": 2300000.0,
+          "last_seen_at": "2026-10-02"
+        },
         {
           "rooms": 5.0,
           "area_sqm": 138.0,
@@ -6668,8 +6706,16 @@
       "latest_transaction_date": "2024-12-06",
       "median_transaction_price_ils": 2042000.0,
       "median_price_per_sqm_ils": 21945,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 1,
+      "active_listings": [
+        {
+          "rooms": 5.0,
+          "area_sqm": 130.0,
+          "floor": 1.0,
+          "asking_price_ils": 2090000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "learning",
       "transactions": [
         {
@@ -7515,8 +7561,16 @@
       "latest_transaction_date": "2024-11-28",
       "median_transaction_price_ils": 1640000.0,
       "median_price_per_sqm_ils": 18022,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 1,
+      "active_listings": [
+        {
+          "rooms": 3.0,
+          "area_sqm": 80.0,
+          "floor": 6.0,
+          "asking_price_ils": 1890000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "learning",
       "transactions": [
         {
@@ -7848,8 +7902,16 @@
       "latest_transaction_date": "2025-04-08",
       "median_transaction_price_ils": 1780000.0,
       "median_price_per_sqm_ils": 21190,
-      "active_listing_count": 0,
-      "active_listings": [],
+      "active_listing_count": 1,
+      "active_listings": [
+        {
+          "rooms": 3.0,
+          "area_sqm": 70.0,
+          "floor": 4.0,
+          "asking_price_ils": 1600000.0,
+          "last_seen_at": "2026-10-02"
+        }
+      ],
       "confidence": "learning",
       "transactions": [
         {
