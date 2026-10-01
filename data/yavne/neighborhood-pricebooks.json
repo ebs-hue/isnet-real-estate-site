@@ -1,14 +1,8 @@
 {
   "city": "יבנה",
   "as_of": "2026-10-01",
-  "status": "beta",
-  "source": "עסקאות סגורות ממאגר העסקאות + מיפוי גוש/חלקה לשכונה + מודעות פעילות",
-  "mapped_standard_transactions": 788,
-  "publication_guard": {
-    "min_recent_transactions": 5,
-    "min_unique_parcels": 2
-  },
-  "note": "מחיר שכונתי מפורסם רק כאשר פלח חדרים כולל לפחות 5 עסקאות עדכניות משתי חלקות שונות לפחות. שיוכי השכונות עדיין בגרסת בטא עד להשלמת אימות GIS רשמי.",
+  "source": "saved tax-register transactions + verified parcel-neighborhood crosswalk + active resale listings",
+  "crosswalk_status": "beta",
   "neighborhoods": {
     "נווה אילן": {
       "status": "learning",
@@ -18,86 +12,196 @@
     "נאות בגין": {
       "status": "learning",
       "accepted_transactions": 26,
-      "rows": []
+      "source_dates": {
+        "transactions": "2026-07-08",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
+      "rows": [],
+      "review_rows": []
     },
     "רמות ויצמן": {
       "status": "beta",
       "accepted_transactions": 56,
-      "transaction_as_of": "2026-06-04",
+      "source_dates": {
+        "transactions": "2026-06-04",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
       "rows": [
         {
+          "scope": "rooms",
           "rooms": 3,
-          "realistic_price_ils": 1980000,
-          "low_ils": 1881000,
-          "high_ils": 2079000,
+          "size_band": null,
+          "median_asking_price_ils": null,
+          "projected_active_sale_price_ils": null,
+          "negotiation_discount_pct": null,
+          "active_listing_count": 0,
+          "calculation_observation_count": 11,
+          "transaction_weight_pct": 100.0,
+          "listing_weight_pct": 0.0,
+          "realistic_price_ils": 1980000.0,
+          "low_ils": 1881000.0,
+          "high_ils": 2079000.0,
           "transaction_count": 11,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": null,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
           "unique_parcel_count": 2,
-          "active_listing_count": 0,
-          "median_asking_price_ils": null,
-          "confidence": "medium"
+          "parcel_evidence": [
+            "4942|60",
+            "4942|61"
+          ]
         },
         {
-          "rooms": 4,
-          "realistic_price_ils": 2432000,
-          "low_ils": 2311000,
-          "high_ils": 2554000,
-          "transaction_count": 12,
-          "unique_parcel_count": 3,
-          "active_listing_count": 2,
-          "median_asking_price_ils": 2015000,
-          "confidence": "medium"
-        },
-        {
+          "scope": "rooms",
           "rooms": 5,
-          "realistic_price_ils": 2837000,
-          "low_ils": 2695000,
-          "high_ils": 2979000,
-          "transaction_count": 11,
-          "unique_parcel_count": 3,
-          "active_listing_count": 0,
+          "size_band": null,
           "median_asking_price_ils": null,
-          "confidence": "medium"
+          "projected_active_sale_price_ils": null,
+          "negotiation_discount_pct": null,
+          "active_listing_count": 0,
+          "calculation_observation_count": 11,
+          "transaction_weight_pct": 100.0,
+          "listing_weight_pct": 0.0,
+          "realistic_price_ils": 2837000.0,
+          "low_ils": 2695000.0,
+          "high_ils": 2979000.0,
+          "transaction_count": 11,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": null,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 3,
+          "parcel_evidence": [
+            "3512|397",
+            "4942|60",
+            "4942|61"
+          ]
+        }
+      ],
+      "review_rows": [
+        {
+          "scope": "rooms",
+          "rooms": 4,
+          "size_band": null,
+          "median_asking_price_ils": 2015000.0,
+          "projected_active_sale_price_ils": 2015000.0,
+          "negotiation_discount_pct": 0.0,
+          "active_listing_count": 2,
+          "calculation_observation_count": 14,
+          "transaction_weight_pct": 95.9,
+          "listing_weight_pct": 4.1,
+          "realistic_price_ils": 2432000.0,
+          "low_ils": 2311000.0,
+          "high_ils": 2554000.0,
+          "transaction_count": 12,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": 20.7,
+          "confidence": "medium",
+          "publication_status": "review",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 3,
+          "parcel_evidence": [
+            "3512|397",
+            "4942|60",
+            "4942|61"
+          ],
+          "review_reason": "asking_closed_gap_over_15pct"
         }
       ]
     },
     "נאות אשכול": {
       "status": "learning",
       "accepted_transactions": 7,
-      "rows": []
+      "source_dates": {
+        "transactions": "2026-07-08",
+        "resale_listings": null,
+        "new_build": null
+      },
+      "rows": [],
+      "review_rows": []
     },
     "נאות בן גוריון": {
       "status": "learning",
       "accepted_transactions": 113,
-      "rows": []
+      "source_dates": {
+        "transactions": "2026-06-30",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
+      "rows": [],
+      "review_rows": []
     },
     "נאות שז\"ר": {
       "status": "beta",
       "accepted_transactions": 96,
-      "transaction_as_of": "2026-07-27",
+      "source_dates": {
+        "transactions": "2026-07-27",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
       "rows": [
         {
+          "scope": "rooms",
           "rooms": 3,
-          "realistic_price_ils": 1767000,
-          "low_ils": 1679000,
-          "high_ils": 1855000,
-          "transaction_count": 5,
-          "unique_parcel_count": 5,
-          "active_listing_count": 0,
+          "size_band": null,
           "median_asking_price_ils": null,
-          "confidence": "medium"
+          "projected_active_sale_price_ils": null,
+          "negotiation_discount_pct": null,
+          "active_listing_count": 0,
+          "calculation_observation_count": 5,
+          "transaction_weight_pct": 100.0,
+          "listing_weight_pct": 0.0,
+          "realistic_price_ils": 1767000.0,
+          "low_ils": 1679000.0,
+          "high_ils": 1855000.0,
+          "transaction_count": 5,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": null,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 5,
+          "parcel_evidence": [
+            "4945|193",
+            "4945|204",
+            "4945|205",
+            "4945|4",
+            "4945|99"
+          ]
         },
         {
+          "scope": "rooms",
           "rooms": 5,
-          "realistic_price_ils": 2581000,
-          "low_ils": 2452000,
-          "high_ils": 2711000,
-          "transaction_count": 7,
-          "unique_parcel_count": 2,
+          "size_band": null,
+          "median_asking_price_ils": 2995000.0,
+          "projected_active_sale_price_ils": 2702000.0,
+          "negotiation_discount_pct": 9.77,
           "active_listing_count": 1,
-          "median_asking_price_ils": 2995000,
-          "confidence": "medium"
+          "calculation_observation_count": 8,
+          "transaction_weight_pct": 96.5,
+          "listing_weight_pct": 3.5,
+          "realistic_price_ils": 2581000.0,
+          "low_ils": 2452000.0,
+          "high_ils": 2711000.0,
+          "transaction_count": 7,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -13.8,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 2,
+          "parcel_evidence": [
+            "4945|204",
+            "4945|205"
+          ]
         }
-      ]
+      ],
+      "review_rows": []
     },
     "רמות בן צבי": {
       "status": "learning",
@@ -107,71 +211,211 @@
     "נאות רבין": {
       "status": "beta",
       "accepted_transactions": 299,
-      "transaction_as_of": "2026-09-10",
+      "source_dates": {
+        "transactions": "2026-09-10",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
       "rows": [
         {
-          "rooms": 4,
-          "realistic_price_ils": 2449000,
-          "low_ils": 2326000,
-          "high_ils": 2571000,
-          "transaction_count": 24,
-          "unique_parcel_count": 16,
-          "active_listing_count": 5,
-          "median_asking_price_ils": 3100000,
-          "confidence": "medium"
-        },
-        {
+          "scope": "rooms",
           "rooms": 5,
-          "realistic_price_ils": 2805000,
-          "low_ils": 2665000,
-          "high_ils": 2945000,
-          "transaction_count": 24,
-          "unique_parcel_count": 17,
+          "size_band": null,
+          "median_asking_price_ils": 3059500.0,
+          "projected_active_sale_price_ils": 2878000.0,
+          "negotiation_discount_pct": 5.94,
           "active_listing_count": 4,
-          "median_asking_price_ils": 3059500,
-          "confidence": "medium"
+          "calculation_observation_count": 28,
+          "transaction_weight_pct": 93.6,
+          "listing_weight_pct": 6.4,
+          "realistic_price_ils": 2805000.0,
+          "low_ils": 2665000.0,
+          "high_ils": 2945000.0,
+          "transaction_count": 24,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -8.3,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 19,
+          "parcel_evidence": [
+            "5959|11",
+            "5959|17",
+            "5959|20",
+            "5959|25",
+            "5959|27",
+            "5959|29",
+            "5959|31",
+            "5960|16",
+            "5960|17",
+            "5960|9",
+            "5961|5",
+            "80004|21",
+            "80004|6",
+            "80004|8",
+            "80005|11",
+            "80005|13",
+            "80005|14",
+            "80005|16",
+            "80005|18"
+          ]
+        }
+      ],
+      "review_rows": [
+        {
+          "scope": "rooms",
+          "rooms": 4,
+          "size_band": null,
+          "median_asking_price_ils": 3100000.0,
+          "projected_active_sale_price_ils": 2728000.0,
+          "negotiation_discount_pct": 12.0,
+          "active_listing_count": 5,
+          "calculation_observation_count": 29,
+          "transaction_weight_pct": 92.1,
+          "listing_weight_pct": 7.9,
+          "realistic_price_ils": 2449000.0,
+          "low_ils": 2326000.0,
+          "high_ils": 2571000.0,
+          "transaction_count": 24,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -21.0,
+          "confidence": "medium",
+          "publication_status": "review",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 17,
+          "parcel_evidence": [
+            "5959|19",
+            "5959|25",
+            "5959|26",
+            "5959|27",
+            "5959|29",
+            "5959|8",
+            "5960|16",
+            "5960|18",
+            "5962|6",
+            "5962|7",
+            "80004|12",
+            "80004|21",
+            "80005|11",
+            "80005|12",
+            "80005|16",
+            "80005|17",
+            "80005|18"
+          ],
+          "review_reason": "asking_closed_gap_over_15pct"
         }
       ]
     },
     "נאות שמיר": {
       "status": "beta",
       "accepted_transactions": 191,
-      "transaction_as_of": "2026-07-31",
+      "source_dates": {
+        "transactions": "2026-07-31",
+        "resale_listings": "2026-10-01",
+        "new_build": null
+      },
       "rows": [
         {
+          "scope": "rooms",
           "rooms": 3,
-          "realistic_price_ils": 2201000,
-          "low_ils": 2091000,
-          "high_ils": 2311000,
-          "transaction_count": 11,
-          "unique_parcel_count": 9,
+          "size_band": null,
+          "median_asking_price_ils": 2287500.0,
+          "projected_active_sale_price_ils": 2191000.0,
+          "negotiation_discount_pct": 4.21,
           "active_listing_count": 2,
-          "median_asking_price_ils": 2287500,
-          "confidence": "medium"
-        },
-        {
-          "rooms": 4,
-          "realistic_price_ils": 2477000,
-          "low_ils": 2353000,
-          "high_ils": 2601000,
-          "transaction_count": 11,
+          "calculation_observation_count": 12,
+          "transaction_weight_pct": 95.1,
+          "listing_weight_pct": 4.9,
+          "realistic_price_ils": 2152000.0,
+          "low_ils": 2044000.0,
+          "high_ils": 2260000.0,
+          "transaction_count": 10,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -5.9,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
           "unique_parcel_count": 8,
-          "active_listing_count": 5,
-          "median_asking_price_ils": 2530000,
-          "confidence": "medium"
+          "parcel_evidence": [
+            "3515|183",
+            "3515|185",
+            "3515|190",
+            "3515|194",
+            "5520|64",
+            "5520|70",
+            "5520|71",
+            "5520|78"
+          ]
         },
         {
-          "rooms": 5,
-          "realistic_price_ils": 2842000,
-          "low_ils": 2700000,
-          "high_ils": 2984000,
-          "transaction_count": 17,
-          "unique_parcel_count": 9,
+          "scope": "rooms",
+          "rooms": 4,
+          "size_band": null,
+          "median_asking_price_ils": 2530000.0,
+          "projected_active_sale_price_ils": 2484000.0,
+          "negotiation_discount_pct": 1.8,
           "active_listing_count": 5,
-          "median_asking_price_ils": 2930000,
-          "confidence": "medium"
+          "calculation_observation_count": 14,
+          "transaction_weight_pct": 87.5,
+          "listing_weight_pct": 12.5,
+          "realistic_price_ils": 2467000.0,
+          "low_ils": 2344000.0,
+          "high_ils": 2591000.0,
+          "transaction_count": 9,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -2.5,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 7,
+          "parcel_evidence": [
+            "3515|183",
+            "3515|188",
+            "3515|190",
+            "5520|107",
+            "5520|112",
+            "5520|70",
+            "5520|75"
+          ]
+        },
+        {
+          "scope": "rooms",
+          "rooms": 5,
+          "size_band": null,
+          "median_asking_price_ils": 2930000.0,
+          "projected_active_sale_price_ils": 2888000.0,
+          "negotiation_discount_pct": 1.43,
+          "active_listing_count": 5,
+          "calculation_observation_count": 17,
+          "transaction_weight_pct": 90.3,
+          "listing_weight_pct": 9.7,
+          "realistic_price_ils": 2872000.0,
+          "low_ils": 2728000.0,
+          "high_ils": 3015000.0,
+          "transaction_count": 12,
+          "unique_transaction_streets": 0,
+          "asking_gap_pct": -2.0,
+          "confidence": "medium",
+          "publication_status": "beta",
+          "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+          "unique_parcel_count": 12,
+          "parcel_evidence": [
+            "3515|188",
+            "3515|190",
+            "3515|223",
+            "3515|231",
+            "5520|105",
+            "5520|108",
+            "5520|112",
+            "5520|114",
+            "5520|64",
+            "5520|71",
+            "5520|78",
+            "5520|85"
+          ]
         }
-      ]
+      ],
+      "review_rows": []
     }
   }
 }
