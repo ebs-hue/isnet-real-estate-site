@@ -6369,21 +6369,14 @@
       "latest_transaction_date": "2025-05-05",
       "median_transaction_price_ils": 1890000.0,
       "median_price_per_sqm_ils": 14787,
-      "active_listing_count": 2,
+      "active_listing_count": 1,
       "active_listings": [
         {
           "rooms": 5.0,
-          "area_sqm": 124.0,
+          "area_sqm": 131.0,
           "floor": 4.0,
           "asking_price_ils": 2300000.0,
           "last_seen_at": "2026-10-02"
-        },
-        {
-          "rooms": 5.0,
-          "area_sqm": 138.0,
-          "floor": 4.0,
-          "asking_price_ils": 2300000.0,
-          "last_seen_at": "2026-10-01"
         }
       ],
       "confidence": "learning",

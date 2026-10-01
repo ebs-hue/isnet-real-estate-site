@@ -1,8 +1,8 @@
 {
-  "unique_listing_count": 131,
-  "multi_source_listing_count": 0,
-  "median_asking_price_ils": 2590000.0,
-  "median_asking_ppsqm": 21120.689655172413,
+  "unique_listing_count": 122,
+  "multi_source_listing_count": 9,
+  "median_asking_price_ils": 2595000.0,
+  "median_asking_ppsqm": 21127.011494252874,
   "rows": [
     {
       "canonical_id": "listing:57",
@@ -572,42 +572,17 @@
       "active": true
     },
     {
-      "canonical_id": "listing:14",
+      "canonical_id": "listing:14-78",
       "member_entity_ids": [
-        14
-      ],
-      "source_codes": [
-        "yad2"
-      ],
-      "source_count": 1,
-      "listing_kind": "broker",
-      "city": "יבנה",
-      "neighborhood": "נאות בגין",
-      "street": "האמוראים",
-      "house_number": null,
-      "rooms": 3.0,
-      "area_sqm": 100.0,
-      "floor": 1.0,
-      "mamad": true,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 1930000.0,
-      "min_asking_price_ils": 1930000.0,
-      "max_asking_price_ils": 1930000.0,
-      "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:78",
-      "member_entity_ids": [
+        14,
         78
       ],
       "source_codes": [
-        "madlan"
+        "madlan",
+        "yad2"
       ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
+      "source_count": 2,
+      "listing_kind": "broker",
       "city": "יבנה",
       "neighborhood": "נאות בגין",
       "street": "האמוראים",
@@ -615,13 +590,13 @@
       "rooms": 3.0,
       "area_sqm": 100.0,
       "floor": 1.0,
-      "mamad": null,
+      "mamad": true,
       "balcony": null,
       "balcony_sqm": null,
-      "asking_price_ils": 2200000.0,
-      "min_asking_price_ils": 2200000.0,
+      "asking_price_ils": 2065000.0,
+      "min_asking_price_ils": 1930000.0,
       "max_asking_price_ils": 2200000.0,
-      "first_seen_at": "2026-10-02",
+      "first_seen_at": "2026-10-01",
       "last_seen_at": "2026-10-02",
       "active": true
     },
@@ -761,129 +736,52 @@
       "active": true
     },
     {
-      "canonical_id": "listing:125",
+      "canonical_id": "listing:28-103",
       "member_entity_ids": [
-        125
-      ],
-      "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "broker",
-      "city": "יבנה",
-      "neighborhood": "נאות בן גוריון",
-      "street": "הדרור",
-      "house_number": null,
-      "rooms": 4.0,
-      "area_sqm": 96.0,
-      "floor": 5.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 1870000.0,
-      "min_asking_price_ils": 1870000.0,
-      "max_asking_price_ils": 1870000.0,
-      "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:103",
-      "member_entity_ids": [
+        28,
         103
       ],
       "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "broker",
-      "city": "יבנה",
-      "neighborhood": "נאות בן גוריון",
-      "street": "הדרור",
-      "house_number": null,
-      "rooms": 5.0,
-      "area_sqm": 119.0,
-      "floor": 2.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 1970000.0,
-      "min_asking_price_ils": 1970000.0,
-      "max_asking_price_ils": 1970000.0,
-      "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:28",
-      "member_entity_ids": [
-        28
-      ],
-      "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "broker",
       "city": "יבנה",
       "neighborhood": "נאות בן גוריון",
       "street": "הדרור",
       "house_number": null,
       "rooms": 5.0,
-      "area_sqm": 128.0,
+      "area_sqm": 123.5,
       "floor": 2.0,
       "mamad": true,
       "balcony": null,
       "balcony_sqm": null,
-      "asking_price_ils": 1995000.0,
-      "min_asking_price_ils": 1995000.0,
+      "asking_price_ils": 1982500.0,
+      "min_asking_price_ils": 1970000.0,
       "max_asking_price_ils": 1995000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
+      "last_seen_at": "2026-10-02",
       "active": true
     },
     {
-      "canonical_id": "listing:39",
+      "canonical_id": "listing:18-39",
       "member_entity_ids": [
+        18,
         39
       ],
       "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
-      "city": "יבנה",
-      "neighborhood": "נאות בן גוריון",
-      "street": "הדרור",
-      "house_number": "15",
-      "rooms": 5.0,
-      "area_sqm": 124.0,
-      "floor": 4.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2300000.0,
-      "min_asking_price_ils": 2300000.0,
-      "max_asking_price_ils": 2300000.0,
-      "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:18",
-      "member_entity_ids": [
-        18
-      ],
-      "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות בן גוריון",
       "street": "הדרור",
       "house_number": "15",
       "rooms": 5.0,
-      "area_sqm": 138.0,
+      "area_sqm": 131.0,
       "floor": 4.0,
       "mamad": true,
       "balcony": null,
@@ -892,7 +790,7 @@
       "min_asking_price_ils": 2300000.0,
       "max_asking_price_ils": 2300000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
+      "last_seen_at": "2026-10-02",
       "active": true
     },
     {
@@ -977,30 +875,32 @@
       "active": true
     },
     {
-      "canonical_id": "listing:26",
+      "canonical_id": "listing:26-125",
       "member_entity_ids": [
-        26
+        26,
+        125
       ],
       "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות בן גוריון",
       "street": "הדרור",
       "house_number": "33",
       "rooms": 4.0,
-      "area_sqm": 97.0,
+      "area_sqm": 96.5,
       "floor": 5.0,
       "mamad": null,
       "balcony": null,
       "balcony_sqm": null,
-      "asking_price_ils": 2200000.0,
-      "min_asking_price_ils": 2200000.0,
+      "asking_price_ils": 2035000.0,
+      "min_asking_price_ils": 1870000.0,
       "max_asking_price_ils": 2200000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
+      "last_seen_at": "2026-10-02",
       "active": true
     },
     {
@@ -1409,41 +1309,16 @@
       "active": true
     },
     {
-      "canonical_id": "listing:7",
+      "canonical_id": "listing:7-64",
       "member_entity_ids": [
-        7
-      ],
-      "source_codes": [
-        "yad2"
-      ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
-      "city": "יבנה",
-      "neighborhood": "נאות רבין",
-      "street": "המשוט",
-      "house_number": "6",
-      "rooms": 5.0,
-      "area_sqm": 130.0,
-      "floor": 5.0,
-      "mamad": true,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2700000.0,
-      "min_asking_price_ils": 2700000.0,
-      "max_asking_price_ils": 2700000.0,
-      "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:64",
-      "member_entity_ids": [
+        7,
         64
       ],
       "source_codes": [
-        "madlan"
+        "madlan",
+        "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות רבין",
@@ -1451,14 +1326,14 @@
       "house_number": "6",
       "rooms": 5.0,
       "area_sqm": 130.0,
-      "floor": 14.0,
-      "mamad": null,
+      "floor": 9.5,
+      "mamad": true,
       "balcony": null,
       "balcony_sqm": null,
-      "asking_price_ils": 2890000.0,
-      "min_asking_price_ils": 2890000.0,
+      "asking_price_ils": 2795000.0,
+      "min_asking_price_ils": 2700000.0,
       "max_asking_price_ils": 2890000.0,
-      "first_seen_at": "2026-10-02",
+      "first_seen_at": "2026-10-01",
       "last_seen_at": "2026-10-02",
       "active": true
     },
@@ -2219,33 +2094,6 @@
       "active": true
     },
     {
-      "canonical_id": "listing:51",
-      "member_entity_ids": [
-        51
-      ],
-      "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
-      "city": "יבנה",
-      "neighborhood": "נאות שמיר",
-      "street": "הרצל",
-      "house_number": "10",
-      "rooms": 4.0,
-      "area_sqm": 128.0,
-      "floor": 8.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2590000.0,
-      "min_asking_price_ils": 2590000.0,
-      "max_asking_price_ils": 2590000.0,
-      "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
-      "active": true
-    },
-    {
       "canonical_id": "listing:118",
       "member_entity_ids": [
         118
@@ -2268,33 +2116,6 @@
       "asking_price_ils": 3320000.0,
       "min_asking_price_ils": 3320000.0,
       "max_asking_price_ils": 3320000.0,
-      "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:67",
-      "member_entity_ids": [
-        67
-      ],
-      "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
-      "city": "יבנה",
-      "neighborhood": "נאות שמיר",
-      "street": "הרצל",
-      "house_number": "54",
-      "rooms": 5.0,
-      "area_sqm": 135.0,
-      "floor": 3.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2950000.0,
-      "min_asking_price_ils": 2950000.0,
-      "max_asking_price_ils": 2950000.0,
       "first_seen_at": "2026-10-02",
       "last_seen_at": "2026-10-02",
       "active": true
@@ -2354,14 +2175,16 @@
       "active": true
     },
     {
-      "canonical_id": "listing:33",
+      "canonical_id": "listing:33-97",
       "member_entity_ids": [
-        33
+        33,
+        97
       ],
       "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "broker",
       "city": "יבנה",
       "neighborhood": "נאות רבין",
@@ -2377,33 +2200,6 @@
       "min_asking_price_ils": 2580000.0,
       "max_asking_price_ils": 2580000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:97",
-      "member_entity_ids": [
-        97
-      ],
-      "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "broker",
-      "city": "יבנה",
-      "neighborhood": "נאות רבין",
-      "street": "התורן",
-      "house_number": null,
-      "rooms": 4.0,
-      "area_sqm": 117.0,
-      "floor": 4.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2580000.0,
-      "min_asking_price_ils": 2580000.0,
-      "max_asking_price_ils": 2580000.0,
-      "first_seen_at": "2026-10-02",
       "last_seen_at": "2026-10-02",
       "active": true
     },
@@ -2705,14 +2501,16 @@
       "active": true
     },
     {
-      "canonical_id": "listing:20",
+      "canonical_id": "listing:20-54",
       "member_entity_ids": [
-        20
+        20,
+        54
       ],
       "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות שז\"ר",
@@ -2728,33 +2526,6 @@
       "min_asking_price_ils": 2995000.0,
       "max_asking_price_ils": 2995000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
-      "active": true
-    },
-    {
-      "canonical_id": "listing:54",
-      "member_entity_ids": [
-        54
-      ],
-      "source_codes": [
-        "madlan"
-      ],
-      "source_count": 1,
-      "listing_kind": "second_hand",
-      "city": "יבנה",
-      "neighborhood": "נאות שז\"ר",
-      "street": "חרמון",
-      "house_number": "16",
-      "rooms": 5.0,
-      "area_sqm": 151.0,
-      "floor": 14.0,
-      "mamad": null,
-      "balcony": null,
-      "balcony_sqm": null,
-      "asking_price_ils": 2995000.0,
-      "min_asking_price_ils": 2995000.0,
-      "max_asking_price_ils": 2995000.0,
-      "first_seen_at": "2026-10-02",
       "last_seen_at": "2026-10-02",
       "active": true
     },
@@ -3461,14 +3232,16 @@
       "active": true
     },
     {
-      "canonical_id": "listing:5",
+      "canonical_id": "listing:5-51",
       "member_entity_ids": [
-        5
+        5,
+        51
       ],
       "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות שמיר",
@@ -3484,25 +3257,27 @@
       "min_asking_price_ils": 2590000.0,
       "max_asking_price_ils": 2590000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
+      "last_seen_at": "2026-10-02",
       "active": true
     },
     {
-      "canonical_id": "listing:8",
+      "canonical_id": "listing:8-67",
       "member_entity_ids": [
-        8
+        8,
+        67
       ],
       "source_codes": [
+        "madlan",
         "yad2"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "listing_kind": "second_hand",
       "city": "יבנה",
       "neighborhood": "נאות שמיר",
       "street": "שדרות הרצל",
       "house_number": "54",
       "rooms": 5.0,
-      "area_sqm": 147.0,
+      "area_sqm": 141.0,
       "floor": 3.0,
       "mamad": true,
       "balcony": null,
@@ -3511,7 +3286,7 @@
       "min_asking_price_ils": 2950000.0,
       "max_asking_price_ils": 2950000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-01",
+      "last_seen_at": "2026-10-02",
       "active": true
     },
     {
