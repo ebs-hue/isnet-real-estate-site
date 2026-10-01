@@ -1,0 +1,165 @@
+{
+  "id": 1,
+  "slug": "demo-karmi-gat-north",
+  "name": "NORTH PARK",
+  "client_name": "יזם לדוגמה",
+  "developer_name": "AURA DEMO",
+  "city": "קריית גת",
+  "neighborhood": "כרמי גת צפון",
+  "address": "כרמי גת צפון, קריית גת",
+  "project_type": "בנייה חדשה",
+  "marketing_status": "בשיווק",
+  "publish_state": "published",
+  "sponsored": true,
+  "standalone_enabled": true,
+  "embedded_enabled": true,
+  "hero_title": "לחיות גבוה. להרגיש בבית.",
+  "hero_subtitle": "חוויית מגורים חדשה למשפחות בכרמי גת צפון — תכנון מודרני, מרפסות רחבות וסביבת מגורים ירוקה.",
+  "description": "NORTH PARK הוא פרויקט DEMO שנבנה כדי להמחיש את PROJECT LIVE. המערכת מרכזת את כל מה שרוכש צריך כדי להתקדם בהחלטה: תמונות, טיפוסי דירות, תוכניות, מחירים, מבצעים ותנאי רכישה — ומאפשרת לפנות לצוות המכירות מתוך הדירה הספציפית שמעניינת אותו. כל הנתונים המסחריים בדוגמה הם להמחשה בלבד.",
+  "from_price_ils": 1720000,
+  "rooms_min": 3,
+  "rooms_max": 5,
+  "buildings": 5,
+  "floors_text": "4–10",
+  "expected_occupancy": "2029",
+  "payment_plan_label": "20/80",
+  "last_project_update": "2026-10-01",
+  "media": [
+    {
+      "media_type": "hero",
+      "url": "assets/demo-hero.svg",
+      "title": "הדמיית הפרויקט",
+      "active": true
+    },
+    {
+      "media_type": "gallery",
+      "url": "assets/demo-gallery-1.svg",
+      "title": "לובי וחללים",
+      "active": true
+    },
+    {
+      "media_type": "gallery",
+      "url": "assets/demo-gallery-2.svg",
+      "title": "מרפסת ונוף",
+      "active": true
+    },
+    {
+      "media_type": "gallery",
+      "url": "assets/demo-gallery-3.svg",
+      "title": "סביבת הפרויקט",
+      "active": true
+    }
+  ],
+  "amenities": [
+    {
+      "label": "מרפסות שמש רחבות"
+    },
+    {
+      "label": "חניה פרטית"
+    },
+    {
+      "label": "מחסן"
+    },
+    {
+      "label": "לובי מעוצב"
+    },
+    {
+      "label": "שטחים ירוקים"
+    },
+    {
+      "label": "מועדון דיירים"
+    },
+    {
+      "label": "הכנה לבית חכם"
+    },
+    {
+      "label": "עמדות טעינה"
+    }
+  ],
+  "offers": [
+    {
+      "title": "20/80 — משלמים 20% עכשיו",
+      "description": "תוכנית תשלום לדוגמה: 20% במעמד החוזה והיתרה בהתאם לתנאי ההסכם.",
+      "active": true
+    },
+    {
+      "title": "פגישת תכנון אישית",
+      "description": "לרוכשי דירה בתקופת ההשקה — פגישת התאמות ותכנון עם נציג הפרויקט. להמחשה בלבד.",
+      "active": true
+    }
+  ],
+  "contact": {
+    "sales_phone": "08-0000000",
+    "whatsapp_phone": "972500000000",
+    "sales_email": "sales@example.com",
+    "sales_office_address": "מרכז המכירות — כרמי גת צפון",
+    "appointment_url": "#lead",
+    "map_url": "https://maps.google.com/?q=Kiryat+Gat",
+    "brochure_url": "#"
+  },
+  "faq": [
+    {
+      "question": "אילו דירות משווקות בפרויקט?",
+      "answer": "בגרסת ההדגמה מוצגים טיפוסי 3, 4 ו-5 חדרים. בפרויקט אמיתי המלאי מתעדכן ממערכת הניהול."
+    },
+    {
+      "question": "האם ניתן לראות תוכניות דירה?",
+      "answer": "כן. לכל טיפוס דירה ניתן לצרף תוכנית PDF או תמונה ולמדוד פתיחות וצפיות."
+    },
+    {
+      "question": "איך קובעים פגישה?",
+      "answer": "אפשר להשאיר פרטים מתוך הדירה שנבחרה, להתקשר, לפתוח WhatsApp או להפעיל יומן פגישות."
+    },
+    {
+      "question": "האם הנתונים בדף ההדגמה אמיתיים?",
+      "answer": "לא. זהו DEMO בלבד שנועד להמחיש את חוויית PROJECT LIVE."
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "unit_code": "3A",
+      "rooms": 3,
+      "area_sqm": 82,
+      "balcony_sqm": 12,
+      "floor_text": "3–8",
+      "from_price_ils": 1720000,
+      "parking_spaces": 1,
+      "storage": true,
+      "status": "available",
+      "quantity_available": 8,
+      "floorplan_url": "assets/demo-floorplan-3a.svg",
+      "active": true
+    },
+    {
+      "id": 2,
+      "unit_code": "4A",
+      "rooms": 4,
+      "area_sqm": 108,
+      "balcony_sqm": 14,
+      "floor_text": "2–9",
+      "from_price_ils": 2030000,
+      "parking_spaces": 1,
+      "storage": true,
+      "status": "available",
+      "quantity_available": 11,
+      "floorplan_url": "assets/demo-floorplan-4a.svg",
+      "active": true
+    },
+    {
+      "id": 3,
+      "unit_code": "5A",
+      "rooms": 5,
+      "area_sqm": 128,
+      "balcony_sqm": 18,
+      "floor_text": "4–10",
+      "from_price_ils": 2400000,
+      "parking_spaces": 2,
+      "storage": true,
+      "status": "available",
+      "quantity_available": 4,
+      "floorplan_url": "assets/demo-floorplan-5a.svg",
+      "active": true
+    }
+  ]
+}
