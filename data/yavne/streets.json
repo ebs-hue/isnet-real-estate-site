@@ -1,6 +1,149 @@
 {
   "city": "יבנה",
-  "as_of": "2026-10-01",
-  "status": "collecting",
-  "rows": []
+  "neighborhood": null,
+  "rows": [
+    {
+      "neighborhood": "נאות בגין",
+      "street": "האמוראים",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 1930000.0,
+      "median_area_sqm": 100.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "street": "נופר",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2000000.0,
+      "median_area_sqm": 100.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "street": "סחלב",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 1920000.0,
+      "median_area_sqm": 90.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "המשוט",
+      "rooms": 5.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2935000.0,
+      "median_area_sqm": 136.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "התורן",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2550000.0,
+      "median_area_sqm": 130.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "street": "הכרמל",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2399000.0,
+      "median_area_sqm": 135.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "דבורה עומר",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2530000.0,
+      "median_area_sqm": 117.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "דליה רביקוביץ",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 3055000.0,
+      "median_area_sqm": 163.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "נעמי שמר",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2520000.0,
+      "median_area_sqm": 146.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "רחל המשוררת",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2885000.0,
+      "median_area_sqm": 141.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "שדרות הרצל",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2590000.0,
+      "median_area_sqm": 128.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "שדרות הרצל",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2950000.0,
+      "median_area_sqm": 147.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "רמות ויצמן",
+      "street": "הנחל",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2380000.0,
+      "median_area_sqm": 122.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    }
+  ]
 }
