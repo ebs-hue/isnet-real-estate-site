@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="210" viewBox="0 0 760 210" role="img" aria-labelledby="t d">
+<title id="t">מחירון הדירות הגדול</title><desc id="d">מבית ישראל נט</desc>
+<defs>
+  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#e7b34b"/><stop offset="1" stop-color="#ffd98a"/></linearGradient>
+  <linearGradient id="b" x1="0" x2="1"><stop stop-color="#132f58"/><stop offset="1" stop-color="#0a1830"/></linearGradient>
+</defs>
+<rect width="760" height="210" rx="26" fill="#fff"/>
+<g transform="translate(20 25)">
+  <path d="M22 92 93 35l72 57v67H22z" fill="url(#b)"/>
+  <path d="M54 159v-53h78v53" fill="#fff" opacity=".96"/>
+  <rect x="75" y="113" width="19" height="46" rx="3" fill="#eab64f"/>
+  <path d="M13 98 93 24l82 74" fill="none" stroke="url(#g)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="133" y="58" width="13" height="28" rx="3" fill="#6ee7ff"/>
+  <rect x="151" y="43" width="13" height="43" rx="3" fill="#8ccfff"/>
+  <rect x="169" y="25" width="13" height="61" rx="3" fill="#ffd98a"/>
+</g>
+<g font-family="Arial, sans-serif" text-anchor="end">
+  <text x="730" y="78" font-size="39" font-weight="800" fill="#14335d" direction="rtl">מחירון הדירות</text>
+  <text x="730" y="132" font-size="57" font-weight="900" fill="url(#g)" direction="rtl">הגדול</text>
+  <text x="730" y="171" font-size="21" font-weight="700" fill="#506783" direction="rtl">מבית ישראל נט</text>
+</g>
+</svg>
