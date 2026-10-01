@@ -45,6 +45,16 @@ jobs:
               json.loads(text)
               (out / dst).write_text(text, encoding="utf-8")
 
+          try:
+              insight_url = "https://raw.githubusercontent.com/ebs-hue/isnet-real-estate/main/data/insights/yavne_2024_2026.json"
+              req = urllib.request.Request(insight_url, headers={"User-Agent": "ISNET-Pricebook-Sync/1.0"})
+              with urllib.request.urlopen(req, timeout=60) as resp:
+                  insight_text = resp.read().decode("utf-8")
+              json.loads(insight_text)
+              (out / "insights.json").write_text(insight_text, encoding="utf-8")
+          except Exception as exc:
+              print(f"Yavne insights not available yet: {exc}")
+
           raw = json.loads(fetch("yavne_unique_inventory.json"))
           public = {
               "city": "יבנה",
