@@ -1,0 +1,177 @@
+{
+  "city": "יבנה",
+  "as_of": "2026-10-01",
+  "status": "beta",
+  "source": "עסקאות סגורות ממאגר העסקאות + מיפוי גוש/חלקה לשכונה + מודעות פעילות",
+  "mapped_standard_transactions": 788,
+  "publication_guard": {
+    "min_recent_transactions": 5,
+    "min_unique_parcels": 2
+  },
+  "note": "מחיר שכונתי מפורסם רק כאשר פלח חדרים כולל לפחות 5 עסקאות עדכניות משתי חלקות שונות לפחות. שיוכי השכונות עדיין בגרסת בטא עד להשלמת אימות GIS רשמי.",
+  "neighborhoods": {
+    "נווה אילן": {
+      "status": "learning",
+      "accepted_transactions": 0,
+      "rows": []
+    },
+    "נאות בגין": {
+      "status": "learning",
+      "accepted_transactions": 26,
+      "rows": []
+    },
+    "רמות ויצמן": {
+      "status": "beta",
+      "accepted_transactions": 56,
+      "transaction_as_of": "2026-06-04",
+      "rows": [
+        {
+          "rooms": 3,
+          "realistic_price_ils": 1980000,
+          "low_ils": 1881000,
+          "high_ils": 2079000,
+          "transaction_count": 11,
+          "unique_parcel_count": 2,
+          "active_listing_count": 0,
+          "median_asking_price_ils": null,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 4,
+          "realistic_price_ils": 2432000,
+          "low_ils": 2311000,
+          "high_ils": 2554000,
+          "transaction_count": 12,
+          "unique_parcel_count": 3,
+          "active_listing_count": 2,
+          "median_asking_price_ils": 2015000,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 5,
+          "realistic_price_ils": 2837000,
+          "low_ils": 2695000,
+          "high_ils": 2979000,
+          "transaction_count": 11,
+          "unique_parcel_count": 3,
+          "active_listing_count": 0,
+          "median_asking_price_ils": null,
+          "confidence": "medium"
+        }
+      ]
+    },
+    "נאות אשכול": {
+      "status": "learning",
+      "accepted_transactions": 7,
+      "rows": []
+    },
+    "נאות בן גוריון": {
+      "status": "learning",
+      "accepted_transactions": 113,
+      "rows": []
+    },
+    "נאות שז\"ר": {
+      "status": "beta",
+      "accepted_transactions": 96,
+      "transaction_as_of": "2026-07-27",
+      "rows": [
+        {
+          "rooms": 3,
+          "realistic_price_ils": 1767000,
+          "low_ils": 1679000,
+          "high_ils": 1855000,
+          "transaction_count": 5,
+          "unique_parcel_count": 5,
+          "active_listing_count": 0,
+          "median_asking_price_ils": null,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 5,
+          "realistic_price_ils": 2581000,
+          "low_ils": 2452000,
+          "high_ils": 2711000,
+          "transaction_count": 7,
+          "unique_parcel_count": 2,
+          "active_listing_count": 1,
+          "median_asking_price_ils": 2995000,
+          "confidence": "medium"
+        }
+      ]
+    },
+    "רמות בן צבי": {
+      "status": "learning",
+      "accepted_transactions": 0,
+      "rows": []
+    },
+    "נאות רבין": {
+      "status": "beta",
+      "accepted_transactions": 299,
+      "transaction_as_of": "2026-09-10",
+      "rows": [
+        {
+          "rooms": 4,
+          "realistic_price_ils": 2449000,
+          "low_ils": 2326000,
+          "high_ils": 2571000,
+          "transaction_count": 24,
+          "unique_parcel_count": 16,
+          "active_listing_count": 5,
+          "median_asking_price_ils": 3100000,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 5,
+          "realistic_price_ils": 2805000,
+          "low_ils": 2665000,
+          "high_ils": 2945000,
+          "transaction_count": 24,
+          "unique_parcel_count": 17,
+          "active_listing_count": 4,
+          "median_asking_price_ils": 3059500,
+          "confidence": "medium"
+        }
+      ]
+    },
+    "נאות שמיר": {
+      "status": "beta",
+      "accepted_transactions": 191,
+      "transaction_as_of": "2026-07-31",
+      "rows": [
+        {
+          "rooms": 3,
+          "realistic_price_ils": 2201000,
+          "low_ils": 2091000,
+          "high_ils": 2311000,
+          "transaction_count": 11,
+          "unique_parcel_count": 9,
+          "active_listing_count": 2,
+          "median_asking_price_ils": 2287500,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 4,
+          "realistic_price_ils": 2477000,
+          "low_ils": 2353000,
+          "high_ils": 2601000,
+          "transaction_count": 11,
+          "unique_parcel_count": 8,
+          "active_listing_count": 5,
+          "median_asking_price_ils": 2530000,
+          "confidence": "medium"
+        },
+        {
+          "rooms": 5,
+          "realistic_price_ils": 2842000,
+          "low_ils": 2700000,
+          "high_ils": 2984000,
+          "transaction_count": 17,
+          "unique_parcel_count": 9,
+          "active_listing_count": 5,
+          "median_asking_price_ils": 2930000,
+          "confidence": "medium"
+        }
+      ]
+    }
+  }
+}
