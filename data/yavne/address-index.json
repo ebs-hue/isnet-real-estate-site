@@ -1,0 +1,909 @@
+{
+  "city": "יבנה",
+  "as_of": "2026-10-01",
+  "methodology": {
+    "rule": "כתובת לבניין מפורסמת רק כאשר יש מיפוי גוש-חלקה לכתובת עם מקור מתועד.",
+    "not_inferred": [
+      "שכונה",
+      "גיל בניין",
+      "מודעה סמוכה"
+    ],
+    "transaction_source": "ארכיון עסקאות מרשם המסים"
+  },
+  "coverage": {
+    "city_standard_apartment_transactions": 1178,
+    "mapped_address_parcels": 7,
+    "mapped_transaction_count": 68,
+    "mapped_transaction_coverage_pct": 5.8,
+    "note": "הכיסוי יגדל רק לאחר אימות כתובת-גוש-חלקה נוסף; חלקות לא ממופות אינן מוצגות כבניינים."
+  },
+  "suggestions": [
+    {
+      "kind": "building",
+      "label": "האלון 22, יבנה",
+      "building_id": "parcel:4942|60",
+      "neighborhood": "רמות ויצמן"
+    },
+    {
+      "kind": "building",
+      "label": "עולי הגרדום 10, יבנה",
+      "building_id": "parcel:3511|242",
+      "neighborhood": "נאות בגין"
+    },
+    {
+      "kind": "building",
+      "label": "הנחל 1, יבנה",
+      "building_id": "parcel:3512|397",
+      "neighborhood": "רמות ויצמן"
+    },
+    {
+      "kind": "building",
+      "label": "אהרון חג'ג' 30, יבנה",
+      "building_id": "parcel:3506|122",
+      "neighborhood": "נאות אשכול"
+    },
+    {
+      "kind": "building",
+      "label": "נופר 32, יבנה",
+      "building_id": "parcel:5376|11",
+      "neighborhood": "נאות בגין"
+    },
+    {
+      "kind": "building",
+      "label": "העצמאות 1, יבנה",
+      "building_id": "parcel:4945|160",
+      "neighborhood": "נאות שז\"ר"
+    },
+    {
+      "kind": "building",
+      "label": "שדרות דואני 1, יבנה",
+      "building_id": "parcel:4942|36",
+      "neighborhood": "רמות ויצמן"
+    },
+    {
+      "kind": "street",
+      "label": "אהרון חג'ג'",
+      "street": "אהרון חג'ג'"
+    },
+    {
+      "kind": "street",
+      "label": "דואני",
+      "street": "דואני"
+    },
+    {
+      "kind": "street",
+      "label": "האלון",
+      "street": "האלון"
+    },
+    {
+      "kind": "street",
+      "label": "הנחל",
+      "street": "הנחל"
+    },
+    {
+      "kind": "street",
+      "label": "העצמאות",
+      "street": "העצמאות"
+    },
+    {
+      "kind": "street",
+      "label": "נופר",
+      "street": "נופר"
+    },
+    {
+      "kind": "street",
+      "label": "עולי הגרדום",
+      "street": "עולי הגרדום"
+    }
+  ],
+  "buildings": [
+    {
+      "id": "parcel:4942|60",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "רמות ויצמן",
+      "street": "האלון",
+      "house_number": "22",
+      "display_name": "האלון 22, יבנה",
+      "parcel": {
+        "gush": "4942",
+        "helka": "60"
+      },
+      "mapping": {
+        "status": "validated_secondary",
+        "confidence": "medium",
+        "source": "https://gushim.co.il/איתור-גוש-חלקה-לפי-כתובת/יבנה/האלון/22/",
+        "evidence": "Documented address-to-parcel lookup"
+      },
+      "transaction_count": 26,
+      "latest_transaction_date": "2026-06-04",
+      "median_transaction_price_ils": 2476000.0,
+      "median_price_per_sqm_ils": 23447,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "medium",
+      "transactions": [
+        {
+          "date": "2026-06-04",
+          "price_ils": 2800000,
+          "area_sqm": 141.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 19858,
+          "sub_helka": "015",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-06-04",
+          "price_ils": 2830000,
+          "area_sqm": 141.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 20071,
+          "sub_helka": "023",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-06-04",
+          "price_ils": 2785000,
+          "area_sqm": 141.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 19752,
+          "sub_helka": "011",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-06-02",
+          "price_ils": 2379450,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 22879,
+          "sub_helka": "040",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-05-27",
+          "price_ils": 2775000,
+          "area_sqm": 141.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 19681,
+          "sub_helka": "003",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-05-06",
+          "price_ils": 2320000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 22308,
+          "sub_helka": "012",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-03-25",
+          "price_ils": 1920000,
+          "area_sqm": 76.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25263,
+          "sub_helka": "006",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-26",
+          "price_ils": 1940000,
+          "area_sqm": 76.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25526,
+          "sub_helka": "018",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2882000,
+          "area_sqm": 125.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 23056,
+          "sub_helka": "041",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 3704000,
+          "area_sqm": 183.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 20240,
+          "sub_helka": "068",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 3241000,
+          "area_sqm": 131.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 24740,
+          "sub_helka": "066",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2070000,
+          "area_sqm": 80.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25875,
+          "sub_helka": "026",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2873000,
+          "area_sqm": 141.0,
+          "rooms": 6.0,
+          "price_per_sqm_ils": 20376,
+          "sub_helka": "007",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2462000,
+          "area_sqm": 104.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 23673,
+          "sub_helka": "002",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 3325000,
+          "area_sqm": 138.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 24094,
+          "sub_helka": "067",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2762000,
+          "area_sqm": 125.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 22096,
+          "sub_helka": "009",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2506000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 24096,
+          "sub_helka": "024",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-18",
+          "price_ils": 2491000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 23952,
+          "sub_helka": "020",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-03",
+          "price_ils": 1980000,
+          "area_sqm": 76.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 26053,
+          "sub_helka": "022",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-02",
+          "price_ils": 1935000,
+          "area_sqm": 76.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25461,
+          "sub_helka": "010",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-01-14",
+          "price_ils": 2565000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 24663,
+          "sub_helka": "048",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-01-06",
+          "price_ils": 2130000,
+          "area_sqm": 80.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 26625,
+          "sub_helka": "042",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-30",
+          "price_ils": 2415000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 23221,
+          "sub_helka": "008",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-30",
+          "price_ils": 2400000,
+          "area_sqm": 104.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 23077,
+          "sub_helka": "004",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-24",
+          "price_ils": 1950000,
+          "area_sqm": 76.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25658,
+          "sub_helka": "014",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-11-26",
+          "price_ils": 800000,
+          "area_sqm": 38.0,
+          "rooms": 2.0,
+          "price_per_sqm_ils": 21053,
+          "sub_helka": "011",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:3511|242",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "נאות בגין",
+      "street": "עולי הגרדום",
+      "house_number": "10",
+      "display_name": "עולי הגרדום 10, יבנה",
+      "parcel": {
+        "gush": "3511",
+        "helka": "242"
+      },
+      "mapping": {
+        "status": "validated_secondary",
+        "confidence": "medium",
+        "source": "https://gushim.co.il/איתור-גוש-חלקה-לפי-כתובת/יבנה/עולי-הגרדום/10/",
+        "evidence": "Documented address-to-parcel lookup"
+      },
+      "transaction_count": 19,
+      "latest_transaction_date": "2026-06-30",
+      "median_transaction_price_ils": 2790000.0,
+      "median_price_per_sqm_ils": 20611,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "medium",
+      "transactions": [
+        {
+          "date": "2026-06-30",
+          "price_ils": 2170000,
+          "area_sqm": 100.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 21700,
+          "sub_helka": "017",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-05-06",
+          "price_ils": 2800000,
+          "area_sqm": 148.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 18919,
+          "sub_helka": "004",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-04-28",
+          "price_ils": 3000000,
+          "area_sqm": 164.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 18293,
+          "sub_helka": "006",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-03",
+          "price_ils": 2675000,
+          "area_sqm": 136.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 19669,
+          "sub_helka": "005",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-18",
+          "price_ils": 2290000,
+          "area_sqm": 101.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 22673,
+          "sub_helka": "053",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-18",
+          "price_ils": 2500000,
+          "area_sqm": 148.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 16892,
+          "sub_helka": "024",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-11-20",
+          "price_ils": 2700000,
+          "area_sqm": 131.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 20611,
+          "sub_helka": "030",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-11-20",
+          "price_ils": 2640000,
+          "area_sqm": 130.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 20308,
+          "sub_helka": "010",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-11-20",
+          "price_ils": 2880000,
+          "area_sqm": 138.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 20870,
+          "sub_helka": "069",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-08-31",
+          "price_ils": 2830000,
+          "area_sqm": 140.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 20214,
+          "sub_helka": "033",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-08-27",
+          "price_ils": 3000000,
+          "area_sqm": 148.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 20270,
+          "sub_helka": "004",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-08-17",
+          "price_ils": 3030000,
+          "area_sqm": 148.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 20473,
+          "sub_helka": "009",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-07-17",
+          "price_ils": 2690000,
+          "area_sqm": 135.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 19926,
+          "sub_helka": "015",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-07-07",
+          "price_ils": 2100000,
+          "area_sqm": 86.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 24419,
+          "sub_helka": "017",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-07-06",
+          "price_ils": 3100000,
+          "area_sqm": 148.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 20946,
+          "sub_helka": "039",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-06-17",
+          "price_ils": 2950000,
+          "area_sqm": 143.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 20629,
+          "sub_helka": "009",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-06-17",
+          "price_ils": 2790000,
+          "area_sqm": 135.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 20667,
+          "sub_helka": "028",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-05-29",
+          "price_ils": 2970000,
+          "area_sqm": 138.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 21522,
+          "sub_helka": "019",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-05-27",
+          "price_ils": 2120000,
+          "area_sqm": 87.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 24368,
+          "sub_helka": "017",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:3512|397",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "רמות ויצמן",
+      "street": "הנחל",
+      "house_number": "1",
+      "display_name": "הנחל 1, יבנה",
+      "parcel": {
+        "gush": "3512",
+        "helka": "397"
+      },
+      "mapping": {
+        "status": "verified",
+        "confidence": "high",
+        "source": "https://gushim.co.il/איתור-כתובת-לפי-גוש-חלקה/גוש-3512/חלקה-397/",
+        "evidence": "Cross validation: WizBid הנחל 1"
+      },
+      "transaction_count": 11,
+      "latest_transaction_date": "2026-04-15",
+      "median_transaction_price_ils": 2385000.0,
+      "median_price_per_sqm_ils": 18908,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "high",
+      "transactions": [
+        {
+          "date": "2026-04-15",
+          "price_ils": 2450000,
+          "area_sqm": 109.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 22477,
+          "sub_helka": "037",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-03-17",
+          "price_ils": 2560000,
+          "area_sqm": 126.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 20317,
+          "sub_helka": "032",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-10",
+          "price_ils": 2275000,
+          "area_sqm": 108.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 21065,
+          "sub_helka": "158",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2026-02-01",
+          "price_ils": 2250000,
+          "area_sqm": 119.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 18908,
+          "sub_helka": "023",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-12-01",
+          "price_ils": 2300000,
+          "area_sqm": 134.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 17164,
+          "sub_helka": "095",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-10-20",
+          "price_ils": 2640000,
+          "area_sqm": 161.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 16398,
+          "sub_helka": "152",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-03-28",
+          "price_ils": 2320000,
+          "area_sqm": 127.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 18268,
+          "sub_helka": "116",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-08-14",
+          "price_ils": 2385000,
+          "area_sqm": 110.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 21682,
+          "sub_helka": "153",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-05-23",
+          "price_ils": 2320000,
+          "area_sqm": 127.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 18268,
+          "sub_helka": "038",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-05-23",
+          "price_ils": 2850000,
+          "area_sqm": 144.0,
+          "rooms": 5.0,
+          "price_per_sqm_ils": 19792,
+          "sub_helka": "139",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-01-21",
+          "price_ils": 2600000,
+          "area_sqm": 143.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 18182,
+          "sub_helka": "059",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:3506|122",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "נאות אשכול",
+      "street": "אהרון חג'ג'",
+      "house_number": "30",
+      "display_name": "אהרון חג'ג' 30, יבנה",
+      "parcel": {
+        "gush": "3506",
+        "helka": "122"
+      },
+      "mapping": {
+        "status": "verified",
+        "confidence": "high",
+        "source": "https://gushim.co.il/איתור-כתובת-לפי-גוש-חלקה/גוש-3506/חלקה-122/",
+        "evidence": "Cross validation: WizBid אהרון חג'ג' 30"
+      },
+      "transaction_count": 7,
+      "latest_transaction_date": "2026-07-08",
+      "median_transaction_price_ils": 1750000.0,
+      "median_price_per_sqm_ils": 20698,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "high",
+      "transactions": [
+        {
+          "date": "2026-07-08",
+          "price_ils": 1700000,
+          "area_sqm": 70.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 24286,
+          "sub_helka": "035",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-04-23",
+          "price_ils": 1830000,
+          "area_sqm": 87.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 21034,
+          "sub_helka": "014",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-02-09",
+          "price_ils": 1858000,
+          "area_sqm": 103.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 18039,
+          "sub_helka": "025",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2025-01-20",
+          "price_ils": 1750000,
+          "area_sqm": 68.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 25735,
+          "sub_helka": "064",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-08-14",
+          "price_ils": 1780000,
+          "area_sqm": 86.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 20698,
+          "sub_helka": "010",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-04-09",
+          "price_ils": 901371,
+          "area_sqm": 78.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 11556,
+          "sub_helka": "024",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-03-27",
+          "price_ils": 1700000,
+          "area_sqm": 83.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 20482,
+          "sub_helka": "017",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:5376|11",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "נאות בגין",
+      "street": "נופר",
+      "house_number": "32",
+      "display_name": "נופר 32, יבנה",
+      "parcel": {
+        "gush": "5376",
+        "helka": "11"
+      },
+      "mapping": {
+        "status": "verified",
+        "confidence": "high",
+        "source": "https://gushim.co.il/איתור-כתובת-לפי-גוש-חלקה/גוש-5376/חלקה-11/",
+        "evidence": "Cross validation: WizBid נופר 32"
+      },
+      "transaction_count": 3,
+      "latest_transaction_date": "2026-07-08",
+      "median_transaction_price_ils": 2050000.0,
+      "median_price_per_sqm_ils": 20707,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "medium",
+      "transactions": [
+        {
+          "date": "2026-07-08",
+          "price_ils": 2020000,
+          "area_sqm": 72.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 28056,
+          "sub_helka": "027",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-12-19",
+          "price_ils": 2280000,
+          "area_sqm": 118.0,
+          "rooms": 4.0,
+          "price_per_sqm_ils": 19322,
+          "sub_helka": "032",
+          "source": "tax_register_archive"
+        },
+        {
+          "date": "2024-07-08",
+          "price_ils": 2050000,
+          "area_sqm": 99.0,
+          "rooms": 3.0,
+          "price_per_sqm_ils": 20707,
+          "sub_helka": "013",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:4945|160",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "נאות שז\"ר",
+      "street": "העצמאות",
+      "house_number": "1",
+      "display_name": "העצמאות 1, יבנה",
+      "parcel": {
+        "gush": "4945",
+        "helka": "160"
+      },
+      "mapping": {
+        "status": "verified",
+        "confidence": "high",
+        "source": "https://gushim.co.il/איתור-כתובת-לפי-גוש-חלקה/גוש-4945/חלקה-160/",
+        "evidence": "Cross validation: WizBid העצמאות 1"
+      },
+      "transaction_count": 1,
+      "latest_transaction_date": "2024-01-24",
+      "median_transaction_price_ils": 1550000.0,
+      "median_price_per_sqm_ils": 21233,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "learning",
+      "transactions": [
+        {
+          "date": "2024-01-24",
+          "price_ils": 1550000,
+          "area_sqm": 73.0,
+          "rooms": 3.5,
+          "price_per_sqm_ils": 21233,
+          "sub_helka": "003",
+          "source": "tax_register_archive"
+        }
+      ]
+    },
+    {
+      "id": "parcel:4942|36",
+      "kind": "building",
+      "city": "יבנה",
+      "neighborhood": "רמות ויצמן",
+      "street": "שדרות דואני",
+      "house_number": "1",
+      "display_name": "שדרות דואני 1, יבנה",
+      "parcel": {
+        "gush": "4942",
+        "helka": "36"
+      },
+      "mapping": {
+        "status": "verified",
+        "confidence": "high",
+        "source": "https://gushim.co.il/איתור-כתובת-לפי-גוש-חלקה/גוש-4942/חלקה-36/",
+        "evidence": "Cross validation: WizBid דואני 1"
+      },
+      "transaction_count": 1,
+      "latest_transaction_date": "2024-07-16",
+      "median_transaction_price_ils": 1310000.0,
+      "median_price_per_sqm_ils": 25686,
+      "active_listing_count": 0,
+      "active_listings": [],
+      "confidence": "learning",
+      "transactions": [
+        {
+          "date": "2024-07-16",
+          "price_ils": 1310000,
+          "area_sqm": 51.0,
+          "rooms": 2.0,
+          "price_per_sqm_ils": 25686,
+          "sub_helka": "004",
+          "source": "tax_register_archive"
+        }
+      ]
+    }
+  ]
+}
