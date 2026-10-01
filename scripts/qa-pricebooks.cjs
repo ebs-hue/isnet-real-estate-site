@@ -31,10 +31,10 @@ async function check(city){
  {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'5',asset_area:'120',deal_amount:'2000000'},
  {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'160',deal_amount:'2000000'},
  {_usable_standard_full_apartment:false,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'120',deal_amount:'2000000'}]};
- run('quarterData=mockQuarter');assert.equal(run(`comparableDeals(4,100,'א').length`),1);
+ context.mockQuarter.city=run('book.city');context.mockQuarter.rows.forEach(r=>r.settlement=context.mockQuarter.city);context.mockQuarter.rows.push({...context.mockQuarter.rows[0],settlement:'גן יבנה',sub_chelka:'99'});run('quarterData=mockQuarter');assert.equal(run(`comparableDeals(4,100,'א').length`),1);
  assert.equal(run(`comparableDeals(4,100,'ב').length`),0);
  run(`renderEstimateComparables(3,100,'')`);assert(window.document.getElementById('estimateComparables').textContent.includes('לא נמצאו'));
- context.originalQuarter=original;run('quarterData=originalQuarter');
+ context.originalQuarter=original;run('quarterData=originalQuarter');assert(run('quarterRows().length')>0);if(city==='yavne'){assert.equal(run('quarterRows().length'),25);assert(run('quarterRows().every(r=>r.settlement==="יבנה")'));assert(run("comparableDeals(4,110,'').length")>0)}
 
  run(`document.getElementById('estAsk').value='2500000';renderEstimate()`);
  assert(window.document.getElementById('estimateComparison').textContent.includes('₪'));

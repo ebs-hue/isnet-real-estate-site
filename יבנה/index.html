@@ -100,7 +100,7 @@
 <section class="section" id="marketTrends" hidden><div class="head"><div><h2>מגמת שוק 2024–2026</h2><p>אותה תקופת השוואה בכל שנה · עסקאות סגורות בלבד</p></div><small id="trendPeriod"></small></div><div class="trendGrid" id="trendGrid"></div><div class="trendRooms" id="trendRooms"></div><div class="trendFoot" id="trendFoot"></div></section>
 <section class="section" id="recentDeals"><div class="head"><div><h2>עסקאות שדווחו ברבעון האחרון</h2><p>יולי–ספטמבר 2026 · סינון לפי החיפוש ומספר החדרים</p></div><small id="recentCount"></small></div><p class="addressNote" id="recentCoverage"></p><div class="transactionScroll" id="recentTable"></div></section>
 <details class="terms"><summary>מה ההבדל בין מחיר מבוקש, אומדן וחציון?</summary><p><b>מחיר מבוקש:</b> הסכום שפורסם במודעה; הוא אינו מוכיח בכמה נמכרה הדירה.</p><p><b>אומדן שווי:</b> תוצאת המודל לפלח דירות דומות, המבוססת על עסקאות ומודעות. טווח האומדן אינו טווח ביטחון סטטיסטי שנבדק.</p><p><b>חציון:</b> המחיר שבאמצע לאחר מיון המחירים. מחציתם נמוכים ממנו ומחציתם גבוהים ממנו.</p><p><b>רמת ביטחון:</b> מדד פנימי של איכות וכמות הראיות, שעדיין אינו שיעור דיוק שנמדד מול עסקאות עתידיות.</p></details>
-<section class="section" id="dataQuality"><div class="head"><div><h2>איכות וכיסוי הנתונים</h2><p>מה עומד מאחורי המספרים שמוצגים בעמוד</p></div><small id="qualityAsOf"></small></div><div class="qualityGrid" id="qualityGrid"></div><p class="featureNotice">כיסוי רבעון 3 של 2026 עדיין חלקי: בעותק מרשם רשות המסים שנבדק נמצאו 26 עסקאות ייחודיות — 23 ביולי, 2 באוגוסט ו־1 בספטמבר. זה אינו סך העסקאות בעיר. המודעות נאספו בתחילת אוקטובר ואינן מלאי היסטורי של הרבעון.</p></section>
+<section class="section" id="dataQuality"><div class="head"><div><h2>איכות וכיסוי הנתונים</h2><p>מה עומד מאחורי המספרים שמוצגים בעמוד</p></div><small id="qualityAsOf"></small></div><div class="qualityGrid" id="qualityGrid"></div><p class="featureNotice">כיסוי רבעון 3 של 2026 עדיין חלקי: בעותק מרשם רשות המסים שנבדק נמצאו 25 עסקאות ייחודיות — 22 ביולי, 2 באוגוסט ו־1 בספטמבר. זה אינו סך העסקאות בעיר. המודעות נאספו בתחילת אוקטובר ואינן מלאי היסטורי של הרבעון.</p></section>
 <section class="section"><div class="head"><div><h2>איך בנוי המחירון?</h2><p>שקיפות לפני דיוק מדומה</p></div><span id="freshnessBadge" class="freshBadge">בודק רעננות</span></div><div class="methodGrid"><div class="methodCard"><b>1. עסקאות סגורות הן העוגן</b><p>מחירי עסקאות עוברים ניקוי חריגים, סינון חלקי בעלות ומשקל לפי עדכניות ואיכות מקור. הם מקבלים עדיפות על פני מחיר מבוקש.</p></div><div class="methodCard"><b>2. שכונה רק כשהיא מוכחת</b><p>שיוך שכונות נעשה דרך גוש/חלקה מול שכבת GIS ציבורית של יבנה. פלח שכונתי מתפרסם רק אחרי מינימום עסקאות ומספר חלקות שונות.</p></div><div class="methodCard"><b>3. מודעות הן אות שוק, לא עסקה</b><p>מחירי ביקוש ומאפיינים כמו ממ״ד ומרפסת משמשים שכבת שוק משלימה. מידע חסר נשמר כ״לא ידוע״ ולא הופך אוטומטית ל״לא״.</p></div></div></section>
 <div class="two">
 <section class="section"><div class="head"><div><h2>השוק לפי שכונות</h2><p>מחיר ריאלי משוער כשיש מספיק עסקאות · אחרת מוצג המחיר המבוקש בשוק</p></div><small id="neighborhoodCount"></small></div><div class="neighborhoodGrid" id="neighborhoods"></div></section><section class="section"><div class="head"><div><h2>רחובות עם דירות למכירה</h2><p>יד שנייה · מבוסס על מודעות שנצפו באיסוף · זמינותן כיום לא אומתה</p></div><small id="streetCount"></small></div><div class="streetList" id="streets"></div></section>
@@ -279,11 +279,26 @@ document.querySelectorAll(".room").forEach(b=>b.onclick=()=>{document.querySelec
 document.querySelectorAll(".featureBtn").forEach(b=>b.onclick=()=>{const kind=b.dataset.feature;document.querySelectorAll('.featureBtn[data-feature="'+kind+'"]').forEach(x=>x.classList.remove("on"));b.classList.add("on");if(kind==="mamad")selectedMamad=b.dataset.value;else selectedBalcony=b.dataset.value;render()});
 search.oninput=e=>{q=e.target.value;renderRecentDeals();selectedBuilding=null;renderNeighborhoods();renderStreets();renderAddressResults();renderSearchSuggestions()};search.onfocus=renderSearchSuggestions;$("resetSearch").onclick=()=>{q="";selectedBuilding=null;search.value="";render();renderSearchSuggestions();search.focus()};$("printReport").onclick=()=>window.print();document.addEventListener("click",e=>{if(!e.target.closest(".searchWrap"))searchSuggestions.classList.remove("show")});estimateBtn.onclick=renderEstimate;estArea.addEventListener("keydown",e=>{if(e.key==="Enter")renderEstimate()});
 
+function quarterRows(){
+ const target=String(quarterData?.city||book.city||"" ).trim().replace("קרית","קריית");
+ const rows=[],seen=new Set();
+ for(const raw of quarterData?.rows||[]){
+  if(String(raw.settlement||"").trim().replace("קרית","קריית")!==target)continue;
+  const r={...raw},match=String(r.deal_date||"").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  r._event_date_iso=r._event_date_iso||(match?match[3]+"-"+match[2]+"-"+match[1]:null);
+  if(!r._event_date_iso||r._event_date_iso<quarterData.period_from||r._event_date_iso>quarterData.period_to)continue;
+  if(r._usable_standard_full_apartment==null)r._usable_standard_full_apartment=r.deal_nature==="דירה בבית קומות"&&Number(r.portion)===1&&positive(r.deal_amount)!=null&&Number(r.asset_area)>=20&&Number(r.asset_area)<=350&&Number(r.room_num)>=1&&Number(r.room_num)<=8;
+  const id=[r.gush,r.chelka,r.sub_chelka,r._event_date_iso,r.deal_amount,r.asset_area,r.room_num].join('|');
+  if(seen.has(id))continue;seen.add(id);rows.push(r);
+ }
+ return rows;
+}
+
 function comparableDeals(rooms,area,name){
  const from=quarterData?.period_from,to=quarterData?.period_to;
  if(!from||!to||!positive(area))return [];
  const seen=new Set();
- return (quarterData.rows||[]).filter(r=>{
+ return quarterRows().filter(r=>{
   const date=r._event_date_iso,price=positive(r.deal_amount),size=positive(r.asset_area);
   if(!r._usable_standard_full_apartment||!date||date<from||date>to||Number(r.room_num)!==rooms||!size||!price)return false;
   if(name&&normalizeSearch(r._neighborhood)!==normalizeSearch(name))return false;
@@ -302,9 +317,9 @@ function renderEstimateComparables(rooms,area,name){
 }
 
 function renderRecentDeals(){
- const rows=(quarterData?.rows||[]).filter(r=>r._usable_standard_full_apartment&&(selected==="all"||Number(r.room_num)===Number(selected))&&matchesSearch(r._street,r._neighborhood));
+ const rows=quarterRows().filter(r=>r._usable_standard_full_apartment&&(selected==="all"||Number(r.room_num)===Number(selected))&&matchesSearch(r._street,r._neighborhood));
  $("recentCount").textContent=rows.length+" עסקאות במדגם המסונן";
- $("recentCoverage").textContent=quarterData?"המרשם המשני שנבדק כולל "+Number(quarterData.register_unique_count||0)+" עסקאות ייחודיות ברבעון באזור. הכיסוי חלקי, לא כלל המכירות. מוצגות כאן עסקאות דירה רגילה במלוא הבעלות. מיפוי רחוב נגזר מחלקה ואינו זיהוי של בניין מסוים.":"נתוני עסקאות הרבעון עדיין אינם זמינים.";
+ $("recentCoverage").textContent=quarterData?"המרשם המשני שנבדק כולל "+quarterRows().length+" עסקאות ייחודיות ברבעון באזור. הכיסוי חלקי, לא כלל המכירות. מוצגות כאן עסקאות דירה רגילה במלוא הבעלות. מיפוי רחוב נגזר מחלקה ואינו זיהוי של בניין מסוים.":"נתוני עסקאות הרבעון עדיין אינם זמינים.";
  const integer=v=>positive(v)!=null?Number(v).toLocaleString("he-IL"):"—";
  $("recentTable").innerHTML=rows.length?'<table class="transactionTable"><caption>עסקאות מתוך המרשם המשני · מחיר עסקה סגורה</caption><thead><tr><th>תאריך</th><th>רחוב / חלקה</th><th>חדרים</th><th>שטח מדווח</th><th>מחיר עסקה</th><th>מחיר למ״ר</th></tr></thead><tbody>'+rows.slice().sort((a,b)=>String(b._event_date_iso).localeCompare(String(a._event_date_iso))).map(r=>'<tr><td>'+dateHtml(r._event_date_iso)+'</td><td>'+escapeHtml(r._street||('גוש '+r.gush+' / חלקה '+r.chelka))+'</td><td>'+integer(r.room_num)+'</td><td>'+integer(r.asset_area)+' מ״ר</td><td>'+integer(r.deal_amount)+' ₪</td><td>'+integer(positive(r.asset_area)?Number(r.deal_amount)/Number(r.asset_area):null)+' ₪</td></tr>').join('')+'</tbody></table>':'<div class="empty">אין במדגם הרבעון עסקה התואמת לחיפוש ולמסנן. אפשר לנקות את החיפוש או לבחור את כל החדרים.</div>';
 }

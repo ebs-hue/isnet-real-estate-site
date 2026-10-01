@@ -229,11 +229,26 @@ function render(){renderTop();renderRooms();renderSizes();renderQuality();render
 document.querySelectorAll(".room").forEach(b=>b.onclick=()=>{document.querySelectorAll(".room").forEach(x=>x.classList.remove("on"));b.classList.add("on");selected=b.dataset.room;render()});
 search.oninput=e=>{q=e.target.value;renderRecentDeals();selectedBuilding=null;renderStreets();renderAddressResults();renderSearchSuggestions()};search.onfocus=renderSearchSuggestions;$("resetSearch").onclick=()=>{q="";selectedBuilding=null;search.value="";render();renderSearchSuggestions();search.focus()};$("printReport").onclick=()=>window.print();document.addEventListener("click",e=>{if(!e.target.closest(".searchWrap"))searchSuggestions.classList.remove("show")});estimateBtn.onclick=renderEstimate;estArea.addEventListener("keydown",e=>{if(e.key==="Enter")renderEstimate()});
 
+function quarterRows(){
+ const target=String(quarterData?.city||book.city||"" ).trim().replace("קרית","קריית");
+ const rows=[],seen=new Set();
+ for(const raw of quarterData?.rows||[]){
+  if(String(raw.settlement||"").trim().replace("קרית","קריית")!==target)continue;
+  const r={...raw},match=String(r.deal_date||"").match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  r._event_date_iso=r._event_date_iso||(match?match[3]+"-"+match[2]+"-"+match[1]:null);
+  if(!r._event_date_iso||r._event_date_iso<quarterData.period_from||r._event_date_iso>quarterData.period_to)continue;
+  if(r._usable_standard_full_apartment==null)r._usable_standard_full_apartment=r.deal_nature==="דירה בבית קומות"&&Number(r.portion)===1&&positive(r.deal_amount)!=null&&Number(r.asset_area)>=20&&Number(r.asset_area)<=350&&Number(r.room_num)>=1&&Number(r.room_num)<=8;
+  const id=[r.gush,r.chelka,r.sub_chelka,r._event_date_iso,r.deal_amount,r.asset_area,r.room_num].join('|');
+  if(seen.has(id))continue;seen.add(id);rows.push(r);
+ }
+ return rows;
+}
+
 function comparableDeals(rooms,area,name){
  const from=quarterData?.period_from,to=quarterData?.period_to;
  if(!from||!to||!positive(area))return [];
  const seen=new Set();
- return (quarterData.rows||[]).filter(r=>{
+ return quarterRows().filter(r=>{
   const date=r._event_date_iso,price=positive(r.deal_amount),size=positive(r.asset_area);
   if(!r._usable_standard_full_apartment||!date||date<from||date>to||Number(r.room_num)!==rooms||!size||!price)return false;
   if(name&&normalizeSearch(r._neighborhood)!==normalizeSearch(name))return false;
@@ -252,9 +267,9 @@ function renderEstimateComparables(rooms,area,name){
 }
 
 function renderRecentDeals(){
- const rows=(quarterData?.rows||[]).filter(r=>r._usable_standard_full_apartment&&(selected==="all"||Number(r.room_num)===Number(selected))&&matchesSearch(r._street,r._neighborhood));
+ const rows=quarterRows().filter(r=>r._usable_standard_full_apartment&&(selected==="all"||Number(r.room_num)===Number(selected))&&matchesSearch(r._street,r._neighborhood));
  $("recentCount").textContent=rows.length+" עסקאות במדגם המסונן";
- $("recentCoverage").textContent=quarterData?"המרשם המשני שנבדק כולל "+Number(quarterData.register_unique_count||0)+" עסקאות ייחודיות ברבעון באזור. הכיסוי חלקי, לא כלל המכירות. מוצגות כאן עסקאות דירה רגילה במלוא הבעלות. מיפוי רחוב נגזר מחלקה ואינו זיהוי של בניין מסוים.":"נתוני עסקאות הרבעון עדיין אינם זמינים.";
+ $("recentCoverage").textContent=quarterData?"המרשם המשני שנבדק כולל "+quarterRows().length+" עסקאות ייחודיות ברבעון באזור. הכיסוי חלקי, לא כלל המכירות. מוצגות כאן עסקאות דירה רגילה במלוא הבעלות. מיפוי רחוב נגזר מחלקה ואינו זיהוי של בניין מסוים.":"נתוני עסקאות הרבעון עדיין אינם זמינים.";
  const integer=v=>positive(v)!=null?Number(v).toLocaleString("he-IL"):"—";
  $("recentTable").innerHTML=rows.length?'<table class="transactionTable"><caption>עסקאות מתוך המרשם המשני · מחיר עסקה סגורה</caption><thead><tr><th>תאריך</th><th>רחוב / חלקה</th><th>חדרים</th><th>שטח מדווח</th><th>מחיר עסקה</th><th>מחיר למ״ר</th></tr></thead><tbody>'+rows.slice().sort((a,b)=>String(b._event_date_iso).localeCompare(String(a._event_date_iso))).map(r=>'<tr><td>'+dateHtml(r._event_date_iso)+'</td><td>'+escapeHtml(r._street||('גוש '+r.gush+' / חלקה '+r.chelka))+'</td><td>'+integer(r.room_num)+'</td><td>'+integer(r.asset_area)+' מ״ר</td><td>'+integer(r.deal_amount)+' ₪</td><td>'+integer(positive(r.asset_area)?Number(r.deal_amount)/Number(r.asset_area):null)+' ₪</td></tr>').join('')+'</tbody></table>':'<div class="empty">אין במדגם הרבעון עסקה התואמת לחיפוש ולמסנן. אפשר לנקות את החיפוש או לבחור את כל החדרים.</div>';
 }
