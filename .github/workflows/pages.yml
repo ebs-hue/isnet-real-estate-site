@@ -9,6 +9,8 @@ on:
       - "data/**"
       - "projects/**"
       - "project-live/**"
+      - "יבנה/**"
+      - "כרמי-גת/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
