@@ -3,6 +3,17 @@
   "neighborhood": null,
   "rows": [
     {
+      "neighborhood": null,
+      "street": "דירה",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 3200000.0,
+      "median_area_sqm": 131.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
       "neighborhood": "נאות בגין",
       "street": "האמוראים",
       "rooms": 3.0,
@@ -36,12 +47,67 @@
       "balcony": "all"
     },
     {
+      "neighborhood": "נאות בן גוריון",
+      "street": "הדרור",
+      "rooms": 4.0,
+      "active_count": 2,
+      "median_asking_price_ils": 1960000.0,
+      "median_area_sqm": 96.5,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "street": "הדרור",
+      "rooms": 5.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2147500.0,
+      "median_area_sqm": 133.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "המפרש",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2949000.0,
+      "median_area_sqm": 143.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "המשוט",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 3250000.0,
+      "median_area_sqm": 182.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
       "neighborhood": "נאות רבין",
       "street": "המשוט",
       "rooms": 5.0,
-      "active_count": 2,
-      "median_asking_price_ils": 2935000.0,
-      "median_area_sqm": 136.0,
+      "active_count": 3,
+      "median_asking_price_ils": 3170000.0,
+      "median_area_sqm": 142.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "הרשת",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 3100000.0,
+      "median_area_sqm": 158.0,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
@@ -50,9 +116,20 @@
       "neighborhood": "נאות רבין",
       "street": "התורן",
       "rooms": 4.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2565000.0,
+      "median_area_sqm": 123.5,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "street": "נאות רבין",
+      "rooms": 4.0,
       "active_count": 1,
-      "median_asking_price_ils": 2550000.0,
-      "median_area_sqm": 130.0,
+      "median_asking_price_ils": 3100000.0,
+      "median_area_sqm": 155.0,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
@@ -64,6 +141,39 @@
       "active_count": 1,
       "median_asking_price_ils": 2399000.0,
       "median_area_sqm": 135.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "street": "חרמון",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2390000.0,
+      "median_area_sqm": 116.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "street": "חרמון",
+      "rooms": 5.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2995000.0,
+      "median_area_sqm": 151.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "דבורה עומר",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2395000.0,
+      "median_area_sqm": 147.0,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
@@ -82,10 +192,21 @@
     {
       "neighborhood": "נאות שמיר",
       "street": "דליה רביקוביץ",
-      "rooms": 5.0,
+      "rooms": 4.0,
       "active_count": 1,
-      "median_asking_price_ils": 3055000.0,
-      "median_area_sqm": 163.0,
+      "median_asking_price_ils": 2620000.0,
+      "median_area_sqm": 112.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "דליה רביקוביץ",
+      "rooms": 5.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2917500.0,
+      "median_area_sqm": 146.5,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
@@ -105,9 +226,31 @@
       "neighborhood": "נאות שמיר",
       "street": "רחל המשוררת",
       "rooms": 5.0,
+      "active_count": 2,
+      "median_asking_price_ils": 2907500.0,
+      "median_area_sqm": 141.5,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "ש\"י עגנון",
+      "rooms": 4.0,
       "active_count": 1,
-      "median_asking_price_ils": 2885000.0,
-      "median_area_sqm": 141.0,
+      "median_asking_price_ils": 2510000.0,
+      "median_area_sqm": 124.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "שדרות הרצל",
+      "rooms": 3.0,
+      "active_count": 1,
+      "median_asking_price_ils": 2180000.0,
+      "median_area_sqm": 117.0,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
@@ -141,6 +284,17 @@
       "active_count": 1,
       "median_asking_price_ils": 2380000.0,
       "median_area_sqm": 122.0,
+      "last_seen_at": "2026-10-01",
+      "mamad": "all",
+      "balcony": "all"
+    },
+    {
+      "neighborhood": "רמות ויצמן",
+      "street": "שדרות דואני",
+      "rooms": 4.0,
+      "active_count": 1,
+      "median_asking_price_ils": 1650000.0,
+      "median_area_sqm": 77.0,
       "last_seen_at": "2026-10-01",
       "mamad": "all",
       "balcony": "all"
