@@ -1,0 +1,160 @@
+{
+  "city": "יבנה",
+  "observed_at": "2026-10-01",
+  "status": "asking_signal_only",
+  "note": "שכבת שכונות ראשונית המבוססת על מודעות פעילות בלבד. מחיר ריאלי שכונתי יפורסם רק לאחר שיוך אמין של עסקאות סגורות.",
+  "rows": [
+    {
+      "neighborhood": "נאות שמיר",
+      "active_count": 12,
+      "median_asking_price_ils": 2605000,
+      "median_area_sqm": 135.5,
+      "by_rooms": {
+        "3": {
+          "count": 2,
+          "median_asking_price_ils": 2287500
+        },
+        "4": {
+          "count": 5,
+          "median_asking_price_ils": 2530000
+        },
+        "5": {
+          "count": 5,
+          "median_asking_price_ils": 2930000
+        }
+      },
+      "mamad_evidence": {
+        "yes": 8,
+        "no": 0,
+        "unknown": 4
+      },
+      "balcony_evidence": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 8
+      }
+    },
+    {
+      "neighborhood": "נאות רבין",
+      "active_count": 9,
+      "median_asking_price_ils": 3100000,
+      "median_area_sqm": 143,
+      "by_rooms": {
+        "4": {
+          "count": 5,
+          "median_asking_price_ils": 3100000
+        },
+        "5": {
+          "count": 4,
+          "median_asking_price_ils": 3059500
+        }
+      },
+      "mamad_evidence": {
+        "yes": 4,
+        "no": 0,
+        "unknown": 5
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 9
+      }
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "active_count": 4,
+      "median_asking_price_ils": 2097500,
+      "median_area_sqm": 112.5,
+      "by_rooms": {
+        "4": {
+          "count": 2,
+          "median_asking_price_ils": 1960000
+        },
+        "5": {
+          "count": 2,
+          "median_asking_price_ils": 2147500
+        }
+      },
+      "mamad_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 2
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 4
+      }
+    },
+    {
+      "neighborhood": "נאות בגין",
+      "active_count": 3,
+      "median_asking_price_ils": 1930000,
+      "median_area_sqm": 100,
+      "by_rooms": {
+        "3": {
+          "count": 3,
+          "median_asking_price_ils": 1930000
+        }
+      },
+      "mamad_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 2
+      }
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "active_count": 3,
+      "median_asking_price_ils": 2399000,
+      "median_area_sqm": 135,
+      "by_rooms": {
+        "4": {
+          "count": 2,
+          "median_asking_price_ils": 2394500
+        },
+        "5": {
+          "count": 1,
+          "median_asking_price_ils": 2995000
+        }
+      },
+      "mamad_evidence": {
+        "yes": 2,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 3
+      }
+    },
+    {
+      "neighborhood": "רמות ויצמן",
+      "active_count": 2,
+      "median_asking_price_ils": 2015000,
+      "median_area_sqm": 99.5,
+      "by_rooms": {
+        "4": {
+          "count": 2,
+          "median_asking_price_ils": 2015000
+        }
+      },
+      "mamad_evidence": {
+        "yes": 1,
+        "no": 0,
+        "unknown": 1
+      },
+      "balcony_evidence": {
+        "yes": 0,
+        "no": 0,
+        "unknown": 2
+      }
+    }
+  ]
+}
