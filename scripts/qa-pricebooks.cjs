@@ -19,6 +19,23 @@ async function check(city){
  run(`estArea.value='125';renderEstimate()`);
  assert(window.document.getElementById('estimateEvidence').textContent.includes('116 מ״ר ומעלה'),'Area must choose the correct model band');
  assert(!window.document.getElementById('estimateEvidence').textContent.includes('פלח גודל: עד 100'));
+ assert(window.document.querySelector('#estimateComparables h3'));
+ const comparable=run(`comparableDeals(4,125,'')`);
+ assert(comparable.length<=5);
+ assert(comparable.every(r=>Number(r.room_num)===4&&Math.abs(Number(r.asset_area)-125)/125<=.2));
+ const original=run('quarterData');
+ context.mockQuarter={period_from:'2026-07-01',period_to:'2026-09-30',rows:[
+ {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'120',deal_amount:'2000000',gush:'1',chelka:'2',sub_chelka:'1',_neighborhood:'א'},
+ {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'120',deal_amount:'2000000',gush:'1',chelka:'2',sub_chelka:'1',_neighborhood:'א'},
+ {_usable_standard_full_apartment:true,_event_date_iso:'2026-10-01',room_num:'4',asset_area:'120',deal_amount:'2000000'},
+ {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'5',asset_area:'120',deal_amount:'2000000'},
+ {_usable_standard_full_apartment:true,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'160',deal_amount:'2000000'},
+ {_usable_standard_full_apartment:false,_event_date_iso:'2026-08-01',room_num:'4',asset_area:'120',deal_amount:'2000000'}]};
+ run('quarterData=mockQuarter');assert.equal(run(`comparableDeals(4,100,'א').length`),1);
+ assert.equal(run(`comparableDeals(4,100,'ב').length`),0);
+ run(`renderEstimateComparables(3,100,'')`);assert(window.document.getElementById('estimateComparables').textContent.includes('לא נמצאו'));
+ context.originalQuarter=original;run('quarterData=originalQuarter');
+
  run(`document.getElementById('estAsk').value='2500000';renderEstimate()`);
  assert(window.document.getElementById('estimateComparison').textContent.includes('₪'));
  run(`estArea.value='301';renderEstimate()`);

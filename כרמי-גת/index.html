@@ -78,6 +78,8 @@
 
 
 .three>div:has(.money){grid-column:1/-1}.neighborhoodRooms{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}.estimateRange{line-height:1.8}.three span{margin-bottom:5px}.three .money .u{margin-bottom:0}
+
+.comparables{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.comparables h3{font-size:19px;margin:0 0 8px}.comparableGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}.comparableCard{padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--card);min-width:0}.comparableCard .row{flex-wrap:wrap;align-items:baseline}.comparableCard .displayDate{font-size:13px;color:var(--muted)}.comparablePrice{font-size:23px;font-weight:bold;color:var(--gold);margin:12px 0;direction:ltr;text-align:right;unicode-bidi:isolate}.comparableCard p,.comparableCard small{font-size:14px;line-height:1.6;color:var(--muted);margin:6px 0}.comparableCard small{display:block}@media print{.comparableCard{background:white;border-color:#aaa;break-inside:avoid}.comparablePrice,.comparableCard p,.comparableCard small{color:#111}}
 </style>
 </head>
 <body>
@@ -92,7 +94,7 @@
 <div class="metric"><span id="mGapLabel">פער מהמחיר המבוקש</span><strong class="green" id="mGap">—</strong><small id="mGapNote">אינדיקציה לפער שוק</small></div>
 <div class="metric"><span id="mTxLabel">בסיס החישוב</span><strong class="cyan" id="mTx">—</strong><small id="mBaseNote">עסקאות סגורות + מודעות שנאספו במחיר סגירה חזוי לפי המודל</small></div>
 </section>
-<section class="estimator" id="estimator"><div class="estimatorTitle">כמה הדירה שלי שווה?</div><p class="estimatorSub">אומדן לפי מספר חדרים ושטח, עם טווח מחירים ורמת ביטחון. אם אין מספיק עסקאות לפלח הגודל, מוצג עוגן לפי חדרים בלבד ומצוין שאין התאמת גודל.</p><div class="estimatorForm"><div class="field"><label for="estRooms">חדרים</label><select id="estRooms"><option value="3">3 חדרים</option><option value="4" selected>4 חדרים</option><option value="5">5 חדרים</option></select></div><div class="field"><label for="estArea">שטח הדירה במ״ר</label><input id="estArea" type="number" inputmode="numeric" min="35" max="300" step="1" value="110" placeholder="מ״ר"></div><select id="estNeighborhood" hidden><option value="">כרמי גת</option></select><div class="field"><label for="estAsk">מחיר מבוקש בש״ח · לא חובה</label><input id="estAsk" type="number" inputmode="numeric" min="1" step="1000" placeholder="למשל 2300000"></div><button class="estimateBtn" id="estimateBtn" type="button">חשב אומדן</button></div><div class="estimateResult" id="estimateResult"><div class="estimateValue" id="estimateValue">—</div><div class="estimateRange" id="estimateRange"></div><div class="estimateWhy" id="estimateWhy"></div><div class="estimateEvidence" id="estimateEvidence"></div><p class="estimateComparison" id="estimateComparison"></p><div class="resultActions"><button type="button" id="printReport">הדפסת האומדן</button></div></div></section>
+<section class="estimator" id="estimator"><div class="estimatorTitle">כמה הדירה שלי שווה?</div><p class="estimatorSub">אומדן לפי מספר חדרים ושטח, עם טווח מחירים ורמת ביטחון. אם אין מספיק עסקאות לפלח הגודל, מוצג עוגן לפי חדרים בלבד ומצוין שאין התאמת גודל.</p><div class="estimatorForm"><div class="field"><label for="estRooms">חדרים</label><select id="estRooms"><option value="3">3 חדרים</option><option value="4" selected>4 חדרים</option><option value="5">5 חדרים</option></select></div><div class="field"><label for="estArea">שטח הדירה במ״ר</label><input id="estArea" type="number" inputmode="numeric" min="35" max="300" step="1" value="110" placeholder="מ״ר"></div><select id="estNeighborhood" hidden><option value="">כרמי גת</option></select><div class="field"><label for="estAsk">מחיר מבוקש בש״ח · לא חובה</label><input id="estAsk" type="number" inputmode="numeric" min="1" step="1000" placeholder="למשל 2300000"></div><button class="estimateBtn" id="estimateBtn" type="button">חשב אומדן</button></div><div class="estimateResult" id="estimateResult"><div class="estimateValue" id="estimateValue">—</div><div class="estimateRange" id="estimateRange"></div><div class="estimateWhy" id="estimateWhy"></div><div class="estimateEvidence" id="estimateEvidence"></div><p class="estimateComparison" id="estimateComparison"></p><section id="estimateComparables" class="comparables" aria-live="polite"></section><div class="resultActions"><button type="button" id="printReport">הדפסת האומדן</button></div></div></section>
 <section class="section" id="roomOverview"><div class="head"><div><h2>תמונת המחירים לפי חדרים</h2><p>מחיר מבוקש מול מחיר ריאלי משוער</p></div><small id="asof"></small></div><div class="cards" id="roomCards"></div></section>
 <section class="section"><div class="head"><div><h2>מחיר לפי גודל הדירה</h2><p>פילוח מדויק יותר בתוך מספר החדרים</p></div><small>עסקאות + מלאי פעיל</small></div><div class="cards" id="sizeCards"></div></section>
 
@@ -159,7 +161,7 @@ function renderSizes(){
  sizeCards.innerHTML=rows.map(x=>'<article class="card"><div class="ctop"><div><b>'+Number(x.rooms)+' חדרים</b><small>'+String(x.size_band||"טווח גודל")+'</small></div><span class="tag">'+(positive(x.realistic_price_ils)?"ביטחון "+confidenceLabel(x.confidence):"אין מספיק עסקאות")+'</span></div><div class="three"><div class="priceConclusion"><span>מחיר ריאלי</span><b>'+money(Number(x.realistic_price_ils))+'</b></div><div><span>מבוקש</span><b>'+money(Number(x.median_asking_price_ils))+'</b></div><div><span>עסקאות</span><b>'+Number(x.transaction_count||0)+'</b></div></div>'+(x.low_ils&&x.high_ils?'<div class="note">טווח משוער: '+money(Number(x.low_ils))+' – '+money(Number(x.high_ils))+'</div>':'')+'</article>').join("")||'<div class="empty">אין עדיין פילוח גודל זמין.</div>';
 }
 function renderEstimate(){
- $("estimateComparison").textContent="";
+ $("estimateComparison").textContent="";$("estimateComparables").innerHTML="";
  const rooms=Number(estRooms.value),area=Number(estArea.value),name=estNeighborhood.value;
  if(!Number.isFinite(area)||area<35||area>300){estimateResult.classList.add("show");estimateValue.textContent="הזן שטח תקין";estimateRange.textContent="טווח נתמך: 35–300 מ״ר";estimateWhy.textContent="האומדן לא יחושב מחוץ לטווח כדי לא לייצר דיוק מדומה.";estimateEvidence.innerHTML="";return}
  const city=normalizedRows().find(r=>Number(r.rooms)===rooms),size=sizeRowFor(rooms,area),nr=name?neighborhoodRealRows(name).find(r=>Number(r.rooms)===rooms):null;
@@ -180,7 +182,7 @@ function renderEstimate(){
  estimateResult.classList.add("show");estimateValue.innerHTML=money(estimate);estimateRange.innerHTML="טווח אינדיקטיבי: "+money(low)+" – "+money(high);
  estimateWhy.textContent=why+" קומה, מצב הדירה והצמדות אינם משנים כרגע את האומדן ללא ראיית עסקאות מספקת.";
  const ask=positive($("estAsk").value);if(ask){const difference=ask-estimate;$("estimateComparison").textContent="המחיר המבוקש "+Math.round(ask).toLocaleString("he-IL")+" ₪ הוא "+Math.abs(Math.round(difference)).toLocaleString("he-IL")+" ₪ "+(difference>=0?"מעל":"מתחת ל")+" האומדן ("+Math.abs(difference/estimate*100).toFixed(1)+"%). ההשוואה אינה מתחשבת במצב הדירה, בקומה ובהצמדות."}
- const ev=[];if(size&&sizeReal!=null)ev.push("פלח גודל: "+String(size.size_band||"")+" · "+Number(size.transaction_count||0)+" עסקאות");if(nr)ev.push("שכונה: "+Number(nr.transaction_count||0)+" עסקאות · "+Number(nr.unique_parcel_count||0)+" חלקות");if(city)ev.push("שכונה: "+Number(city.tx||0)+" עסקאות");ev.push("רמת ביטחון במודל: "+confidence);ev.push("מועד נתוני המודל: "+formatDate(book.as_of));estimateEvidence.innerHTML=ev.map(x=>"<span>"+x+"</span>").join("");
+ const ev=[];if(size&&sizeReal!=null)ev.push("פלח גודל: "+String(size.size_band||"")+" · "+Number(size.transaction_count||0)+" עסקאות");if(nr)ev.push("שכונה: "+Number(nr.transaction_count||0)+" עסקאות · "+Number(nr.unique_parcel_count||0)+" חלקות");if(city)ev.push("שכונה: "+Number(city.tx||0)+" עסקאות");ev.push("רמת ביטחון במודל: "+confidence);ev.push("מועד נתוני המודל: "+formatDate(book.as_of));estimateEvidence.innerHTML=ev.map(x=>"<span>"+x+"</span>").join("");renderEstimateComparables(rooms,area,name);
 }
 function renderFreshness(){
  const sd=book.source_dates||{},listingDate=sd.resale_listings?String(sd.resale_listings).slice(0,10):"",today=new Date().toLocaleDateString("sv-SE",{timeZone:"Asia/Jerusalem"}),age=listingDate?Math.round((Date.parse(today)-Date.parse(listingDate))/86400000):null;
@@ -226,6 +228,28 @@ function renderQuality(){
 function render(){renderTop();renderRooms();renderSizes();renderQuality();renderFreshness();renderNew();renderStreets();renderAddressResults();renderRecentDeals();const d=book.as_of||book.updated_at||"",sd=book.source_dates||{};asof.textContent=d?"נתוני מודל עד "+formatDate(d):"";topUpdate.textContent=sd.transactions||sd.resale_listings||sd.new_build?("עסקאות: "+formatDate(sd.transactions)+" · לוחות: "+formatDate(sd.resale_listings)+" · חדשות: "+formatDate(sd.new_build)):(d?"שכבת המחירון: "+formatDate(d):"עדכונים ממקורות שונים")}
 document.querySelectorAll(".room").forEach(b=>b.onclick=()=>{document.querySelectorAll(".room").forEach(x=>x.classList.remove("on"));b.classList.add("on");selected=b.dataset.room;render()});
 search.oninput=e=>{q=e.target.value;renderRecentDeals();selectedBuilding=null;renderStreets();renderAddressResults();renderSearchSuggestions()};search.onfocus=renderSearchSuggestions;$("resetSearch").onclick=()=>{q="";selectedBuilding=null;search.value="";render();renderSearchSuggestions();search.focus()};$("printReport").onclick=()=>window.print();document.addEventListener("click",e=>{if(!e.target.closest(".searchWrap"))searchSuggestions.classList.remove("show")});estimateBtn.onclick=renderEstimate;estArea.addEventListener("keydown",e=>{if(e.key==="Enter")renderEstimate()});
+
+function comparableDeals(rooms,area,name){
+ const from=quarterData?.period_from,to=quarterData?.period_to;
+ if(!from||!to||!positive(area))return [];
+ const seen=new Set();
+ return (quarterData.rows||[]).filter(r=>{
+  const date=r._event_date_iso,price=positive(r.deal_amount),size=positive(r.asset_area);
+  if(!r._usable_standard_full_apartment||!date||date<from||date>to||Number(r.room_num)!==rooms||!size||!price)return false;
+  if(name&&normalizeSearch(r._neighborhood)!==normalizeSearch(name))return false;
+  if(Math.abs(size-area)/area>.2+1e-9)return false;
+  const id=[r.gush,r.chelka,r.sub_chelka,date,price,size,r.room_num].join('|');
+  if(seen.has(id))return false;seen.add(id);return true;
+ }).sort((a,b)=>Math.abs(Number(a.asset_area)-area)-Math.abs(Number(b.asset_area)-area)||b._event_date_iso.localeCompare(a._event_date_iso)).slice(0,5);
+}
+function renderEstimateComparables(rooms,area,name){
+ const rows=comparableDeals(rooms,area,name),panel=$("estimateComparables");
+ const location=name?" · "+escapeHtml(name):"";
+ const title='<h3>עסקאות דומות במדגם הרבעון</h3><p class="addressNote">'+rooms+' חדרים · שטח בטווח של עד 20% מהשטח שהזנתם'+location+'. התאמה לפי חדרים ושטח בלבד; אין התאמה מוכחת לקומה, מצב הדירה או הצמדות.</p>';
+ if(!rows.length){panel.innerHTML=title+'<div class="empty">לא נמצאו במדגם הרבעון עסקאות שעומדות בתנאים האלה. זה אינו אומר שלא בוצעו עסקאות באזור. האומדן נשען על פלח המודל שמפורט למעלה.</div>';return}
+ const number=v=>Number(v).toLocaleString("he-IL");
+ panel.innerHTML=title+'<div class="comparableGrid">'+rows.map(r=>'<article class="comparableCard"><div class="row"><b>'+escapeHtml(r._street||('גוש '+r.gush+' / חלקה '+r.chelka))+'</b>'+dateHtml(r._event_date_iso)+'</div><div class="comparablePrice">'+number(r.deal_amount)+' ₪</div><p>'+number(r.room_num)+' חדרים · '+number(r.asset_area)+' מ״ר מדווחים · '+number(Math.round(Number(r.deal_amount)/Number(r.asset_area)))+' ₪ למ״ר</p><small>פער שטח מהדירה שהזנתם: '+Math.abs(Number(r.asset_area)-area).toLocaleString("he-IL")+' מ״ר</small></article>').join('')+'</div><p class="addressNote">אלו עסקאות רקע להשוואה מתוך מרשם משני בכיסוי חלקי, ולא פירוט העסקאות שנכנסו לחישוב האומדן. הרחוב נגזר משיוך חלקה ואינו זיהוי של בניין מסוים. לא בוצעה השוואת מרחק.</p>';
+}
 
 function renderRecentDeals(){
  const rows=(quarterData?.rows||[]).filter(r=>r._usable_standard_full_apartment&&(selected==="all"||Number(r.room_num)===Number(selected))&&matchesSearch(r._street,r._neighborhood));
