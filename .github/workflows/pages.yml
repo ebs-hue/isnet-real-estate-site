@@ -12,6 +12,8 @@ on:
       - "יבנה/**"
       - "כרמי-גת/**"
       - ".github/workflows/pages.yml"
+      - "scripts/qa-pricebooks.cjs"
+      - "package*.json"
   workflow_dispatch:
 
 permissions:
@@ -32,6 +34,18 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set up Node for pricebook checks
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Check pricebook behavior before publication
+        run: |
+          mkdir -p "$RUNNER_TEMP/pricebook-qa"
+          cp package.json package-lock.json "$RUNNER_TEMP/pricebook-qa/"
+          npm ci --prefix "$RUNNER_TEMP/pricebook-qa" --ignore-scripts --no-audit --no-fund
+          NODE_PATH="$RUNNER_TEMP/pricebook-qa/node_modules" node scripts/qa-pricebooks.cjs
 
       - name: Configure Pages
         uses: actions/configure-pages@v5

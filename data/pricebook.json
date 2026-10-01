@@ -264,7 +264,9 @@
       "asking_gap_pct": -0.8,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": null,
+      "max_area_sqm": 80
     },
     {
       "scope": "room_size",
@@ -285,7 +287,9 @@
       "asking_gap_pct": -2.7,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": 80,
+      "max_area_sqm": 95
     },
     {
       "scope": "room_size",
@@ -306,7 +310,9 @@
       "asking_gap_pct": null,
       "confidence": "insufficient",
       "publication_status": "learning",
-      "note": "אין עדיין מספיק עסקאות סגורות בפלח הזה."
+      "note": "אין עדיין מספיק עסקאות סגורות בפלח הזה.",
+      "min_area_sqm": 95,
+      "max_area_sqm": null
     },
     {
       "scope": "room_size",
@@ -327,7 +333,9 @@
       "asking_gap_pct": -4.4,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": null,
+      "max_area_sqm": 100
     },
     {
       "scope": "room_size",
@@ -348,7 +356,9 @@
       "asking_gap_pct": -7.3,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": 100,
+      "max_area_sqm": 115
     },
     {
       "scope": "room_size",
@@ -369,7 +379,9 @@
       "asking_gap_pct": -9.6,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": 115,
+      "max_area_sqm": null
     },
     {
       "scope": "room_size",
@@ -390,7 +402,9 @@
       "asking_gap_pct": -5.2,
       "confidence": "medium",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": null,
+      "max_area_sqm": 120
     },
     {
       "scope": "room_size",
@@ -411,7 +425,9 @@
       "asking_gap_pct": 0,
       "confidence": "low",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
+      "min_area_sqm": 120,
+      "max_area_sqm": 135
     },
     {
       "scope": "room_size",
@@ -432,7 +448,9 @@
       "asking_gap_pct": null,
       "confidence": "insufficient",
       "publication_status": "learning",
-      "note": "אין עדיין מספיק עסקאות סגורות בפלח הזה."
+      "note": "אין עדיין מספיק עסקאות סגורות בפלח הזה.",
+      "min_area_sqm": 135,
+      "max_area_sqm": null
     }
   ]
 }
