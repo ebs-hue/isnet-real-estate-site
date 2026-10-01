@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#07111f">
+<meta name="pricebook-city" content="כרמי גת">
+<link rel="canonical" href="https://ebs-hue.github.io/isnet-real-estate-site/%D7%9B%D7%A8%D7%9E%D7%99-%D7%92%D7%AA/">
+<title>מחירון הדירות הגדול - כרמי גת</title>
+<style>
+:root{--bg:#07111f;--bg2:#0a1727;--card:#102033;--line:rgba(255,255,255,.09);--text:#f6f9fc;--muted:#9fb0c4;--cyan:#6ee7ff;--green:#7ee0b0;--gold:#ffd98a;--red:#ff8294;--shadow:0 18px 50px rgba(0,0,0,.32)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 5% 0,rgba(93,148,255,.18),transparent 26%),linear-gradient(180deg,var(--bg),#091522 62%,#0a1520);color:var(--text);font-family:Arial,"Noto Sans Hebrew",sans-serif}.wrap{width:min(100%,1180px);margin:auto;padding:0 16px}
+.top{position:sticky;top:0;z-index:30;background:rgba(5,14,27,.94);border-bottom:1px solid var(--line);box-shadow:0 10px 34px rgba(0,0,0,.26);backdrop-filter:blur(18px)}.topin{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:12px}.logoBox{background:transparent;border:0;border-radius:0;padding:0;box-shadow:none;display:flex;align-items:center;justify-content:flex-start}
+.logoImage{display:block;width:470px;max-width:60vw;height:auto;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(0,0,0,.22))}.sourceNote{text-align:left;font-size:10px;color:var(--muted);line-height:1.45}.sourceNote b{display:block;color:#eaf3fc;font-size:11px}
+.hero{padding:27px 0 17px}.hero .k{font-size:11px;font-weight:800;color:var(--cyan)}h1{font-size:34px;line-height:1.05;margin:7px 0 8px;letter-spacing:-.7px}.hero p{font-size:14px;color:var(--muted);line-height:1.55;margin:0;max-width:720px}.chips{display:flex;gap:7px;overflow:auto;padding:13px 0 2px;scrollbar-width:none}.chip{white-space:nowrap;padding:7px 10px;border:1px solid var(--line);border-radius:999px;font-size:10px;color:#dce6f1;background:rgba(255,255,255,.04)}
+.search{display:flex;gap:8px;padding:9px;border:1px solid var(--line);background:rgba(255,255,255,.05);border-radius:17px;box-shadow:var(--shadow)}.search input{min-width:0;flex:1;border:0;outline:0;background:none;color:#fff;padding:8px;font-size:14px}.search input::placeholder{color:#708299}
+.rooms{display:flex;gap:8px;overflow:auto;padding:12px 0 14px;scrollbar-width:none}.room{border:1px solid var(--line);background:rgba(255,255,255,.04);color:#cbd7e3;padding:9px 14px;border-radius:999px;white-space:nowrap}.room.on{background:linear-gradient(135deg,var(--cyan),#c5f7ff);color:#07111f;font-weight:900;border-color:transparent}
+.gridMetrics{display:flex;gap:10px;overflow:auto;margin:0 -16px;padding:0 16px 13px;scrollbar-width:none}.metric{flex:0 0 78%;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.035));border-radius:19px;padding:16px;box-shadow:var(--shadow)}.metric span{font-size:12.5px;color:var(--muted);line-height:1.35}.metric strong{display:block;font-size:27px;margin-top:8px}.metric small{display:block;color:var(--muted);font-size:12.5px;line-height:1.4;margin-top:7px}.cyan{color:var(--cyan)}.gold{color:var(--gold)}.green{color:var(--green)}
+.money{display:inline-flex;direction:rtl;gap:.25em;align-items:baseline;white-space:nowrap}.money .n{direction:ltr;unicode-bidi:isolate}.money .u{direction:rtl;unicode-bidi:isolate;font-size:.72em}
+.section{margin:4px 0 16px}.head{display:flex;justify-content:space-between;align-items:end;margin:0 2px 9px}.head h2{font-size:18px;margin:0 0 3px}.head p{margin:0;color:var(--muted);font-size:10px}.head small{font-size:9px;color:var(--muted)}.headLink{color:var(--cyan);text-decoration:none;font-size:11px;font-weight:900;padding:6px 9px;border:1px solid rgba(110,231,255,.2);border-radius:999px;background:rgba(110,231,255,.06)}
+.cards{display:flex;gap:10px;overflow:auto;margin:0 -16px;padding:0 16px 5px;scrollbar-width:none}.card{flex:0 0 82%;border-radius:19px;padding:15px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.075),rgba(255,255,255,.035));box-shadow:var(--shadow)}.ctop{display:flex;justify-content:space-between;gap:8px}.ctop b{font-size:18px}.ctop small{display:block;color:var(--muted);font-size:12.5px;line-height:1.35;margin-top:4px}.tag{font-size:11.25px;padding:5px 8px;height:max-content;border-radius:99px;border:1px solid rgba(126,224,176,.18);color:var(--green);background:rgba(126,224,176,.08)}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:12px}.three div{background:rgba(255,255,255,.035);border-radius:11px;padding:8px}.three span{display:block;color:var(--muted);font-size:10px;line-height:1.3;margin-bottom:5px}.three b{font-size:12px}.note{font-size:12.5px;line-height:1.45;color:var(--muted);margin-top:11px}
+.hot{border-color:rgba(255,130,148,.2);background:radial-gradient(circle at 100% 0,rgba(255,99,125,.12),transparent 30%),linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.035))}.hot .tag{color:#ffc0c9;border-color:rgba(255,130,148,.22);background:rgba(255,130,148,.08)}
+.new{border-color:rgba(110,231,255,.2);background:radial-gradient(circle at 100% 0,rgba(110,231,255,.11),transparent 30%),linear-gradient(180deg,rgba(255,255,255,.07),rgba(255,255,255,.035))}.new .tag{color:var(--cyan);border-color:rgba(110,231,255,.2);background:rgba(110,231,255,.08)}
+.streetList{display:grid;gap:9px}.street{border-radius:18px;padding:14px}.streetName{font-size:17px;font-weight:900}.streetSub{font-size:12.5px;line-height:1.35;color:var(--muted);margin-top:4px}.streetPrice{font-size:18px;font-weight:900;margin-top:10px}.row{display:flex;justify-content:space-between;gap:10px}.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:11px}.mini div{padding:8px;background:rgba(255,255,255,.035);border-radius:10px}.mini span{font-size:10px;line-height:1.3;color:var(--muted);display:block;margin-bottom:4px}.mini b{font-size:11px}
+.status{margin:12px 0 80px;padding:12px 14px;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:14px;color:var(--muted);font-size:10px;line-height:1.55}.status strong{color:#eaf4ff}.warn{color:#ffd6a5}
+.empty{padding:20px;border:1px dashed var(--line);border-radius:16px;color:var(--muted);font-size:12px}
+@media(min-width:760px){.logoImage{width:410px;max-width:48vw}.brandBadge{min-width:330px}.brandTitle{font-size:21px}.brandBig{font-size:31px}.topin{min-height:112px}.gridMetrics{display:grid;grid-template-columns:repeat(4,1fr);margin:0;padding:0 0 15px;overflow:visible}.metric{min-width:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);margin:0;padding:0;overflow:visible}.card{min-width:0}.streetList{grid-template-columns:1fr 1fr}}
+@media(min-width:1020px){.logoImage{width:440px}h1{font-size:48px}.logoImage{width:430px}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}.streetList{grid-template-columns:1fr}}
+@media(max-width:430px){.metric span,.metric small,.ctop small,.note,.streetSub{font-size:11.5px}.three span,.mini span{font-size:9.5px}.tag{font-size:10.5px}.logoImage{width:245px;max-width:64vw}.logoImage{width:245px;max-width:64vw}.brandBadge{min-width:0;padding:6px 9px;gap:7px}.brandIcon{width:50px;height:42px;flex-basis:50px;transform:scale(.82);transform-origin:center}.brandTitle{font-size:14px}.brandBig{font-size:21px}.brandBy{font-size:8px}.sourceNote{max-width:33vw;font-size:8px}.sourceNote b{font-size:9px}.topin{min-height:82px}h1{font-size:31px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap topin"><div class="logoBox"><img class="logoImage" src="../assets/logo-gold.png" alt="מחירון הדירות הגדול מבית ישראל נט"></div><div class="sourceNote"><b>מחירים, עסקאות ודירות חדשות</b><span id="topUpdate">הנתונים נטענים כעת</span></div></div></header>
+<main class="wrap">
+<section class="hero"><div class="k">תמונת שוק שכונתית</div><h1>כרמי גת.<br>כל השוק במסך אחד.</h1><p>מחיר השוק הנוכחי משלב עסקאות שבוצעו בפועל עם מודעות פעילות לאחר התאמתן למחיר סגירה חזוי לפי המודל. העסקאות מקבלות משקל גבוה יותר, והמודעות מוסיפות את אות השוק העדכני.</p><div class="chips"><a class="chip" href="../יבנה/" style="text-decoration:none;color:inherit">יבנה</a><span class="chip" style="border-color:rgba(110,231,255,.32);color:var(--cyan)">כרמי גת</span><span class="chip">יד שנייה</span><a class="chip" href="../projects/" style="text-decoration:none;color:inherit">פרויקטים LIVE</a><span class="chip">פילוח לפי חדרים</span><span class="chip">רחובות פעילים</span><span class="chip">אומדן נתונים — לא שמאות</span></div></section>
+<div class="search"><input id="search" placeholder="חפשו רחוב בכרמי גת"></div>
+<div class="rooms"><button class="room on" data-room="all">הכול</button><button class="room" data-room="3">3 חדרים</button><button class="room" data-room="4">4 חדרים</button><button class="room" data-room="5">5 חדרים</button></div>
+<section class="gridMetrics">
+<div class="metric"><span>מחיר ריאלי משוער</span><strong id="mReal">—</strong><small>בהתאם למסנן החדרים</small></div>
+<div class="metric"><span>מחיר מבוקש חציוני</span><strong class="gold" id="mAsk">—</strong><small>לוחות יד שנייה שנאספו</small></div>
+<div class="metric"><span>פער מהמחיר המבוקש</span><strong class="green" id="mGap">—</strong><small>אינדיקציה לפער שוק</small></div>
+<div class="metric"><span>בסיס החישוב</span><strong class="cyan" id="mTx">—</strong><small id="mBaseNote">עסקאות סגורות + מודעות פעילות במחיר סגירה חזוי לפי המודל</small></div>
+</section>
+<section class="section"><div class="head"><div><h2>תמונת המחירים לפי חדרים</h2><p>מחיר מבוקש מול מחיר ריאלי משוער</p></div><small id="asof"></small></div><div class="cards" id="roomCards"></div></section>
+<div class="two">
+<section class="section"><div class="head"><div><h2>רחובות חמים</h2><p>יד שנייה · מבוסס על מלאי מודעות פעיל</p></div><small id="streetCount"></small></div><div class="streetList" id="streets"></div></section>
+<section class="section"><div class="head"><div><h2>דירות חדשות בסביבה</h2><p>אינדיקציית שוק · לצד פרויקטים LIVE</p></div><a class="headLink" href="../projects/">לכל הפרויקטים ←</a></div><div class="cards" id="newCards"></div></section>
+</div>
+<div class="status" id="status"><strong>מצב המערכת:</strong> טוען את קבצי הנתונים האחרונים.</div>
+</main>
+<script>
+const $=id=>document.getElementById(id);
+const mReal=$("mReal"),mAsk=$("mAsk"),mGap=$("mGap"),mTx=$("mTx"),mBaseNote=$("mBaseNote");
+const roomCards=$("roomCards"),newCards=$("newCards"),streets=$("streets"),streetCount=$("streetCount");
+const asof=$("asof"),topUpdate=$("topUpdate"),status=$("status"),search=$("search");
+const legacyFallback={updated_at:"2026-09-30",resale:[{rooms:3,central_price_ils:1620000,median_asking_ils:1620000,collected_transactions:13,used_transactions:12},{rooms:4,central_price_ils:1810000,median_asking_ils:1950000,collected_transactions:28,used_transactions:24},{rooms:5,central_price_ils:2200000,median_asking_ils:2450000,collected_transactions:32,used_transactions:32}],new_build_from_prices:{"3":{regular_apartment_ils:[1720000,1740000]},"4":{regular_apartment_ils:[2023000,2080000]},"5":{regular_apartment_ils:[2400000,3070000]}}};
+let book=legacyFallback, streetsData=null, selected="all", q="";
+const median=a=>{const x=a.filter(v=>Number.isFinite(v)).sort((a,b)=>a-b);if(!x.length)return null;const m=Math.floor(x.length/2);return x.length%2?x[m]:(x[m-1]+x[m])/2};
+const money=v=>{if(!Number.isFinite(Number(v)))return "—";const n=(Number(v)/1e6).toFixed(2).replace(/\.00$/,"");return '<span class="money"><span class="n">'+n+'</span><span class="u">מיליון ש"ח</span></span>'};
+const pct=v=>Number.isFinite(Number(v))?(Number(v)>0?"+":"")+Number(v).toFixed(1)+"%":"—";
+async function loadJson(path){const r=await fetch(path+"?v="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return r.json()}
+function normalizedRows(){
+ if(Array.isArray(book.rows)) return book.rows.filter(r=>r.scope==="rooms").map(r=>({rooms:Number(r.rooms),real:r.realistic_price_ils,ask:r.median_asking_price_ils,projected:r.projected_active_sale_price_ils,discount:r.negotiation_discount_pct,low:r.low_ils,high:r.high_ils,tx:r.transaction_count,active:r.active_listing_count||0,calc:r.calculation_observation_count||(Number(r.transaction_count||0)+Number(r.active_listing_count||0)),txWeight:r.transaction_weight_pct,listingWeight:r.listing_weight_pct,gap:r.asking_gap_pct,confidence:r.confidence,status:r.publication_status}));
+ return (book.resale||[]).map(r=>({rooms:Number(r.rooms),real:r.central_price_ils,ask:r.median_asking_ils,projected:null,discount:null,low:r.low_ils,high:r.high_ils,tx:r.used_transactions||r.collected_transactions,active:0,calc:r.used_transactions||r.collected_transactions,gap:r.median_asking_ils&&r.central_price_ils?(r.central_price_ils-r.median_asking_ils)/r.median_asking_ils*100:null,confidence:r.confidence||"ראשוני",status:"beta"}))
+}
+function newRows(){
+ if(Array.isArray(book.new_build_premium)&&book.new_build_premium.length) return book.new_build_premium.map(r=>({rooms:Number(r.rooms),min:r.new_build_from_min_ils,max:r.new_build_from_max_ils,ref:r.new_build_reference_price_ils,count:r.new_build_project_count,resale:r.resale_realistic_price_ils}));
+ const src=book.new_build_from_prices||{};return Object.entries(src).map(([k,v])=>{const a=v.regular_apartment_ils||[];return {rooms:Number(k),min:a.length?Math.min(...a):null,max:a.length?Math.max(...a):null,ref:a.length?median(a):null,count:a.length,resale:(normalizedRows().find(x=>x.rooms===Number(k))||{}).real}})
+}
+function currentRows(){const r=normalizedRows();return selected==="all"?r:r.filter(x=>String(x.rooms)===selected)}
+function renderTop(){const r=currentRows();mReal.innerHTML=money(median(r.map(x=>Number(x.real))));mAsk.innerHTML=money(median(r.map(x=>Number(x.ask))));const gaps=r.map(x=>Number(x.gap)).filter(Number.isFinite);mGap.textContent=gaps.length?pct(median(gaps)):"—";const tx=r.reduce((a,x)=>a+(Number(x.tx)||0),0);const active=r.reduce((a,x)=>a+(Number(x.active)||0),0);mTx.textContent=tx+active;mBaseNote.textContent=tx+" עסקאות סגורות · "+active+" מודעות פעילות במחיר סגירה חזוי לפי המודל"}
+function renderRooms(){roomCards.innerHTML=normalizedRows().filter(x=>selected==="all"||String(x.rooms)===selected).map(x=>'<article class="card"><div class="ctop"><div><b>'+x.rooms+' חדרים</b><small>'+((x.tx||0))+' עסקאות · '+((x.active||0))+' מודעות פעילות</small></div><span class="tag">'+(x.status==="beta"?"מחירון פעיל":"באיסוף")+'</span></div><div class="three"><div><span>מבוקש</span><b>'+money(Number(x.ask))+'</b></div><div><span>מחיר ריאלי</span><b>'+money(Number(x.real))+'</b></div><div><span>פער</span><b>'+pct(Number(x.gap))+'</b></div></div>'+(x.low&&x.high?'<div class="note">טווח משוער: '+money(Number(x.low))+' – '+money(Number(x.high))+'</div>':'')+(x.projected?'<div class="note">מחיר מכירה חזוי למודעות: '+money(Number(x.projected))+(x.discount!=null?' · התאמת מו״מ '+Number(x.discount).toFixed(1)+'%':'')+'</div>':'')+'</article>').join("")||'<div class="empty">אין עדיין מספיק נתונים לפלח שנבחר.</div>'}
+function renderNew(){newCards.innerHTML=newRows().filter(x=>selected==="all"||String(x.rooms)===selected).map(x=>'<article class="card new"><div class="ctop"><div><b>'+x.rooms+' חדרים</b><small>דירה חדשה רגילה</small></div><span class="tag">חדש</span></div><div class="three"><div><span>מחיר כניסה נמוך</span><b>'+money(Number(x.min))+'</b></div><div><span>מחיר כניסה גבוה</span><b>'+money(Number(x.max))+'</b></div><div><span>מספר אותות מחיר</span><b>'+(x.count||"—")+'</b></div></div><div class="note">מחירי "החל מ-" הם אינדיקציה שיווקית ואינם מחיר עסקה סגורה.</div></article>').join("")||'<div class="empty">אין עדיין אות מחיר מספק לדירות חדשות בפלח שנבחר.</div>'}
+function groupedStreets(){
+ if(!streetsData||!Array.isArray(streetsData.rows))return [];
+ return streetsData.rows.filter(r=>(selected==="all"||String(Number(r.rooms))===selected)&&String(r.street||"").includes(q.trim())).sort((a,b)=>Number(b.active_count||0)-Number(a.active_count||0)||Number(b.median_asking_price_ils||0)-Number(a.median_asking_price_ils||0)).slice(0,10)
+}
+function renderStreets(){
+  const a=groupedStreets();
+  streetCount.textContent=a.length?a.length+" קבוצות פעילות":"";
+  streets.innerHTML=a.map(g=>`
+    <article class="street hot">
+      <div class="row">
+        <div>
+          <div class="streetName">${g.street}</div>
+          <div class="streetSub">${g.rooms} חדרים${g.median_area_sqm?" · כ-"+Math.round(g.median_area_sqm)+' מ״ר':""}</div>
+        </div>
+        <span class="tag">רחוב חם</span>
+      </div>
+      <div class="streetPrice">${money(Number(g.median_asking_price_ils))}</div>
+      <div class="mini">
+        <div><span>מודעות פעילות</span><b>${g.active_count}</b></div>
+        <div><span>שטח חציוני</span><b>${g.median_area_sqm?Math.round(g.median_area_sqm)+' מ״ר':"—"}</b></div>
+        <div><span>נצפה לאחרונה</span><b>${g.last_seen_at?String(g.last_seen_at).slice(0,10):"—"}</b></div>
+      </div>
+    </article>`).join("") || (streetsData?'<div class="empty">לא נמצאו רחובות התואמים למסנן.</div>':'<div class="empty">שכבת הרחובות תופיע לאחר ריצת האיסוף הבאה.</div>');
+}
+function render(){renderTop();renderRooms();renderNew();renderStreets();const d=book.as_of||book.updated_at||"";const sd=book.source_dates||{};asof.textContent=d?"נתוני מודל עד "+d:"";topUpdate.textContent=sd.transactions||sd.resale_listings||sd.new_build?("עסקאות: "+(sd.transactions||"—")+" · לוחות: "+String(sd.resale_listings||"—").slice(0,10)+" · חדשות: "+(sd.new_build||"—")):(d?"שכבת המחירון: "+d:"עדכונים ממקורות שונים")}
+document.querySelectorAll(".room").forEach(b=>b.onclick=()=>{document.querySelectorAll(".room").forEach(x=>x.classList.remove("on"));b.classList.add("on");selected=b.dataset.room;render()});search.oninput=e=>{q=e.target.value;renderStreets()};
+(async()=>{let live=false;try{book=await loadJson("../data/pricebook.json");live=true}catch(e){console.error("pricebook",e);book=legacyFallback}try{streetsData=await loadJson("../data/streets.json")}catch(e){console.error("streets",e)}try{render();status.innerHTML=live?'<strong>מצב המערכת:</strong> המחירון מחובר למודל השוק המשולב: עסקאות סגורות + מודעות פעילות לאחר התאמת מו״מ.':'<strong>מצב המערכת:</strong> <span class="warn">מוצגים כרגע נתוני הגיבוי האחרונים.</span>'}catch(e){console.error("render",e);status.innerHTML='<strong>מצב המערכת:</strong> <span class="warn">אירעה שגיאת תצוגה. הנתונים קיימים אך לא הוצגו במלואם.</span>'}})()
+</script>
+</body></html>
