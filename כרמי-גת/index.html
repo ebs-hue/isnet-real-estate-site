@@ -80,6 +80,19 @@
 .three>div:has(.money){grid-column:1/-1}.neighborhoodRooms{grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}.estimateRange{line-height:1.8}.three span{margin-bottom:5px}.three .money .u{margin-bottom:0}
 
 .comparables{margin-top:20px;padding-top:16px;border-top:1px solid var(--line)}.comparables h3{font-size:19px;margin:0 0 8px}.comparableGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}.comparableCard{padding:15px;border:1px solid var(--line);border-radius:12px;background:var(--card);min-width:0}.comparableCard .row{flex-wrap:wrap;align-items:baseline}.comparableCard .displayDate{font-size:13px;color:var(--muted)}.comparablePrice{font-size:23px;font-weight:bold;color:var(--gold);margin:12px 0;direction:ltr;text-align:right;unicode-bidi:isolate}.comparableCard p,.comparableCard small{font-size:14px;line-height:1.6;color:var(--muted);margin:6px 0}.comparableCard small{display:block}@media print{.comparableCard{background:white;border-color:#aaa;break-inside:avoid}.comparablePrice,.comparableCard p,.comparableCard small{color:#111}}
+
+/* Valuation conclusions retain their hierarchy inside nested money spans. */
+.metric strong .money .n{font-size:1em;color:inherit;font-weight:inherit}
+.metric strong .money .u{font-size:.55em;color:inherit}
+.metric #mAsk{color:var(--text)}
+.metric:has(#mReal .money){border-color:rgba(255,217,138,.65);background:linear-gradient(180deg,rgba(255,217,138,.16),rgba(255,217,138,.055));box-shadow:inset 0 4px 0 var(--gold),var(--shadow)}
+.metric:has(#mReal .money)>span{color:#f5e6c8;font-weight:700}
+.metric #mReal:has(.money){font-size:clamp(32px,4vw,40px);font-weight:900;line-height:1.25;margin-top:12px;text-align:right}
+.metric #mReal .money .n{color:var(--gold);font-size:1em;font-weight:900}
+.metric #mReal .money .u{color:#f5e6c8;font-size:.48em}
+.estimateResult.show:has(.estimateValue .money){box-shadow:inset 0 4px 0 var(--gold)}
+.estimateValue .money .n{color:var(--gold);font-size:1em;font-weight:900}
+.estimateValue .money .u{color:#f5e6c8;font-size:.55em}
 </style>
 </head>
 <body>
