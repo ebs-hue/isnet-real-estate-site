@@ -13,6 +13,8 @@ on:
       - "כרמי-גת/**"
       - ".github/workflows/pages.yml"
       - "scripts/qa-pricebooks.cjs"
+      - "scripts/prepare-pricebook-sync.py"
+      - "scripts/test-pricebook-sync.py"
       - "package*.json"
   workflow_dispatch:
 
@@ -40,6 +42,9 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Check sanitized dataset publication
+        run: python scripts/test-pricebook-sync.py
+
       - name: Check pricebook behavior before publication
         run: |
           mkdir -p "$RUNNER_TEMP/pricebook-qa"
@@ -60,3 +65,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+

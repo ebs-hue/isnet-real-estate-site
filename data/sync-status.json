@@ -1,0 +1,17 @@
+{
+  "engine_commit": "e8885517791fdff41d4454e8b34adb0233abcb07",
+  "method": "authorized_github_connector",
+  "files": [
+    "data/yavne/pricebook.json",
+    "data/yavne/inventory.json",
+    "data/yavne/neighborhood-pricebooks.json",
+    "data/yavne/neighborhoods.json",
+    "data/yavne/streets.json",
+    "data/yavne/address-index.json",
+    "data/yavne/quarter-2026-Q3.json",
+    "data/pricebook.json",
+    "data/karmi-gat-inventory.json",
+    "data/karmi-gat-quarter-2026-Q3.json"
+  ],
+  "note": "Source coverage remains partial; publication follows dataset QA."
+}
