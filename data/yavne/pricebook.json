@@ -63,6 +63,8 @@
       "scope": "rooms",
       "rooms": 3,
       "size_band": null,
+      "min_area_sqm": null,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2085000,
       "projected_active_sale_price_ils": 2026000,
       "negotiation_discount_pct": 2.85,
@@ -78,33 +80,39 @@
       "asking_gap_pct": -3.8,
       "confidence": "high",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+      "listing_fallback": null
     },
     {
       "scope": "rooms",
       "rooms": 4,
       "size_band": null,
+      "min_area_sqm": null,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2490000,
       "projected_active_sale_price_ils": 2474000,
       "negotiation_discount_pct": 0.64,
       "active_listing_count": 41,
-      "calculation_observation_count": 119,
+      "calculation_observation_count": 118,
       "transaction_weight_pct": 70,
       "listing_weight_pct": 30,
       "realistic_price_ils": 2469000,
       "low_ils": 2370000,
       "high_ils": 2490000,
-      "transaction_count": 78,
+      "transaction_count": 77,
       "unique_transaction_streets": 0,
       "asking_gap_pct": -0.8,
       "confidence": "high",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+      "listing_fallback": null
     },
     {
       "scope": "rooms",
       "rooms": 5,
       "size_band": null,
+      "min_area_sqm": null,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2860000,
       "projected_active_sale_price_ils": 2832000,
       "negotiation_discount_pct": 0.98,
@@ -120,12 +128,15 @@
       "asking_gap_pct": -1.3,
       "confidence": "high",
       "publication_status": "beta",
-      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ."
+      "note": "מחיר שוק נוכחי המשלב עסקאות סגורות עדכניות ומודעות פעילות לאחר התאמת מו״מ.",
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 3,
       "size_band": "עד 80 מ״ר",
+      "min_area_sqm": null,
+      "max_area_sqm": 80,
       "median_asking_price_ils": 1800000,
       "projected_active_sale_price_ils": 1800000,
       "negotiation_discount_pct": 0,
@@ -142,13 +153,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": null,
-      "max_area_sqm": 80
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 3,
       "size_band": "81–95 מ״ר",
+      "min_area_sqm": 80,
+      "max_area_sqm": 95,
       "median_asking_price_ils": 2150000,
       "projected_active_sale_price_ils": 2072000,
       "negotiation_discount_pct": 3.62,
@@ -165,13 +177,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 80,
-      "max_area_sqm": 95
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 3,
       "size_band": "96 מ״ר ומעלה",
+      "min_area_sqm": 95,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2185000,
       "projected_active_sale_price_ils": 2175000,
       "negotiation_discount_pct": 0.48,
@@ -188,13 +201,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 95,
-      "max_area_sqm": null
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 4,
       "size_band": "עד 100 מ״ר",
+      "min_area_sqm": null,
+      "max_area_sqm": 100,
       "median_asking_price_ils": 1975000,
       "projected_active_sale_price_ils": 1818000,
       "negotiation_discount_pct": 7.97,
@@ -211,13 +225,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": null,
-      "max_area_sqm": 100
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 4,
       "size_band": "101–115 מ״ר",
+      "min_area_sqm": 100,
+      "max_area_sqm": 115,
       "median_asking_price_ils": 2550000,
       "projected_active_sale_price_ils": 2494000,
       "negotiation_discount_pct": 2.2,
@@ -234,36 +249,38 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 100,
-      "max_area_sqm": 115
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 4,
       "size_band": "116 מ״ר ומעלה",
+      "min_area_sqm": 115,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2540000,
-      "projected_active_sale_price_ils": 2491000,
-      "negotiation_discount_pct": 1.93,
+      "projected_active_sale_price_ils": 2498000,
+      "negotiation_discount_pct": 1.65,
       "active_listing_count": 16,
-      "calculation_observation_count": 48,
+      "calculation_observation_count": 47,
       "transaction_weight_pct": 78.5,
       "listing_weight_pct": 21.5,
-      "realistic_price_ils": 2475000,
-      "low_ils": 2351000,
+      "realistic_price_ils": 2484000,
+      "low_ils": 2360000,
       "high_ils": 2540000,
-      "transaction_count": 32,
+      "transaction_count": 31,
       "unique_transaction_streets": 0,
-      "asking_gap_pct": -2.6,
+      "asking_gap_pct": -2.2,
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 115,
-      "max_area_sqm": null
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 5,
       "size_band": "עד 120 מ״ר",
+      "min_area_sqm": null,
+      "max_area_sqm": 120,
       "median_asking_price_ils": 2535000,
       "projected_active_sale_price_ils": 2484000,
       "negotiation_discount_pct": 2.02,
@@ -280,13 +297,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": null,
-      "max_area_sqm": 120
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 5,
       "size_band": "121–135 מ״ר",
+      "min_area_sqm": 120,
+      "max_area_sqm": 135,
       "median_asking_price_ils": 2830000,
       "projected_active_sale_price_ils": 2823000,
       "negotiation_discount_pct": 0.24,
@@ -303,13 +321,14 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 120,
-      "max_area_sqm": 135
+      "listing_fallback": null
     },
     {
       "scope": "room_size",
       "rooms": 5,
       "size_band": "136 מ״ר ומעלה",
+      "min_area_sqm": 135,
+      "max_area_sqm": null,
       "median_asking_price_ils": 2970000,
       "projected_active_sale_price_ils": 2865000,
       "negotiation_discount_pct": 3.54,
@@ -326,8 +345,7 @@
       "confidence": "medium",
       "publication_status": "beta",
       "note": "מחיר שוק נוכחי בפלח חדרים וגודל, המשלב עסקאות סגורות ומודעות פעילות לאחר התאמת מו״מ.",
-      "min_area_sqm": 135,
-      "max_area_sqm": null
+      "listing_fallback": null
     }
   ]
 }

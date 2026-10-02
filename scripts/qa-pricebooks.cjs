@@ -40,19 +40,26 @@ async function check(city){
  assert(window.document.getElementById('estimateComparison').textContent.includes('₪'));
  run(`estArea.value='301';renderEstimate()`);
  assert(window.document.getElementById('estimateValue').textContent.includes('תקין'));
- assert.equal(run('pct(null)'),'—');
+ assert.equal(run('pct(null)'),'—');assert.equal(run("listingFallback({realistic_price_ils:null,median_asking_price_ils:2000000,active_listing_count:3,publication_status:'learning'}).estimate_ils"),1850000);assert.equal(run("listingFallback({realistic_price_ils:1900000,median_asking_price_ils:2000000,active_listing_count:3})"),null);assert.equal(run("listingFallback({realistic_price_ils:null,median_asking_price_ils:2000000,active_listing_count:2})"),null);
  assert(run('money(null)').includes('אין נתונים'));
  if(city==='karmi'){
    assert.equal(window.document.querySelectorAll('.featureBtn').length,0);
-   run(`book.rows.find(r=>r.scope==='room_size'&&Number(r.rooms)===3&&r.min_area_sqm===95).realistic_price_ils=null;estRooms.innerHTML='<option value="3" selected>3</option>';estArea.value='110';renderEstimate()`);
+   run(`Object.assign(book.rows.find(r=>r.scope==='room_size'&&Number(r.rooms)===3&&r.min_area_sqm===95),{realistic_price_ils:null,listing_fallback:null,median_asking_price_ils:2000000,active_listing_count:4});estRooms.innerHTML='<option value="3" selected>3</option>';estArea.value='110';renderEstimate()`);
    assert(window.document.getElementById('estimateValue').textContent.includes('מיליון'));
-   assert(window.document.getElementById('estimateWhy').textContent.includes('אין מחיר שפורסם'));
-   assert(window.document.getElementById('estimateEvidence').textContent.includes('ללא התאמת גודל'));
+   assert(window.document.getElementById('estimateWhy').textContent.includes('אומדן מהלוחות בלבד'));assert(window.document.getElementById('estimateWhy').textContent.includes('7.5%'));assert.equal(run("listingFallback(sizeRowFor(3,110)).estimate_ils"),1850000);
+   assert(window.document.getElementById('estimateEvidence').textContent.includes('מבוסס מודעות'));
    run(`q='נחל ירקון';search.value=q;renderSearchSuggestions();renderRecentDeals();renderStreets()`);
    assert(window.document.querySelector('.suggestion').textContent.includes('נחל ירקון'));
    assert(window.document.querySelector('#recentTable tbody').textContent.includes('נחל ירקון'));
    assert([...window.document.querySelectorAll('#streets .streetName')].every(x=>x.textContent.includes('נחל ירקון')));
  }else{
+   const oldInventory=run('inventoryData'),oldNeighborhoods=run('neighborhoodPricebooks');
+   context.syntheticInventory={rows:[1,2,3].map(i=>({neighborhood:'בדיקה',rooms:4,area_sqm:110,asking_price_ils:2000000}))};
+   run('inventoryData=syntheticInventory;neighborhoodPricebooks={neighborhoods:{}}');
+   assert.equal(run("neighborhoodFallback('בדיקה',4,110).estimate_ils"),1850000);
+   run('inventoryData.rows.pop()');assert.equal(run("neighborhoodFallback('בדיקה',4,110)"),null);
+   run("inventoryData=syntheticInventory;neighborhoodPricebooks={neighborhoods:{'בדיקה':{review_rows:[{rooms:4}]}}}");assert.equal(run("neighborhoodFallback('בדיקה',4,110)"),null);
+   context.oldInventory=oldInventory;context.oldNeighborhoods=oldNeighborhoods;run('inventoryData=oldInventory;neighborhoodPricebooks=oldNeighborhoods');
    run(`q='נעמי שמר';search.value=q;renderSearchSuggestions()`);
    const opts=[...window.document.querySelectorAll('.suggestion')];assert(opts.some(x=>x.textContent.includes('נעמי שמר 14')));
    opts.find(x=>x.textContent.includes('נעמי שמר 14')).onclick();
