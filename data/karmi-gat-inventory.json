@@ -1,6 +1,6 @@
 {
   "city": "קריית גת",
-  "observed_at": "2026-10-02",
+  "observed_at": "2026-10-03",
   "coverage": "partial",
   "note": "מודעות שנאספו; כפילויות מזוהות אוחדו. מועד תצפית אינו אישור שהדירה עדיין מוצעת למכירה.",
   "rows": [
@@ -1619,20 +1619,6 @@
       "street": "רבקה אמנו",
       "house_number": null,
       "rooms": 3.0,
-      "area_sqm": 90.0,
-      "floor": 4.0,
-      "mamad": null,
-      "balcony": null,
-      "asking_price_ils": 1707500.0,
-      "first_seen_at": "2026-09-30",
-      "last_seen_at": "2026-10-02",
-      "listing_kind": "second_hand"
-    },
-    {
-      "neighborhood": "כרמי גת",
-      "street": "רבקה אמנו",
-      "house_number": null,
-      "rooms": 3.0,
       "area_sqm": 104.0,
       "floor": 3.0,
       "mamad": null,
@@ -1655,6 +1641,20 @@
       "first_seen_at": "2026-09-30",
       "last_seen_at": "2026-09-30",
       "listing_kind": "broker"
+    },
+    {
+      "neighborhood": "כרמי גת",
+      "street": "רבקה אמנו",
+      "house_number": "10",
+      "rooms": 3.0,
+      "area_sqm": 90.0,
+      "floor": 4.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1720000.0,
+      "first_seen_at": "2026-09-30",
+      "last_seen_at": "2026-10-03",
+      "listing_kind": "second_hand"
     },
     {
       "neighborhood": "כרמי גת",
