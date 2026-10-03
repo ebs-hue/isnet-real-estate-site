@@ -74,4 +74,4 @@ async function check(city){
  assert(run(`formatDate('2026-07-21')`)==='21/07/2026');
  console.log('PASS '+city+': actual datasets, size boundaries, estimates, missing values, search/reset, room filters, quarterly transactions and date order');
 }
-(async()=>{await check('yavne');await check('karmi')})().catch(e=>{console.error(e);process.exit(1)});
+(async()=>{await check('yavne');await check('karmi');const report=await require('./qa-estimate-scenarios.cjs').scenarios();console.log('PASS '+report.cases.length+' observed estimator scenarios')})().catch(e=>{console.error(e);process.exit(1)});
