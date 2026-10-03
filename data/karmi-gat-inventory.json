@@ -1093,7 +1093,7 @@
       "balcony": null,
       "asking_price_ils": 2500000,
       "first_seen_at": "2026-09-30",
-      "last_seen_at": "2026-09-30T12:23:00",
+      "last_seen_at": "2026-10-03T11:26:00.000Z",
       "listing_kind": "second_hand"
     },
     {
@@ -1667,7 +1667,7 @@
       "balcony": null,
       "asking_price_ils": 2300000,
       "first_seen_at": "2026-09-30T12:23:00",
-      "last_seen_at": "2026-09-30T12:23:00",
+      "last_seen_at": "2026-10-03T11:26:00.000Z",
       "listing_kind": "second_hand"
     },
     {
@@ -2103,14 +2103,46 @@
       "first_seen_at": "2026-09-30T12:23:00",
       "last_seen_at": "2026-09-30T12:23:00",
       "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": "כרמי גת",
+      "street": "שדרות לכיש",
+      "house_number": "125",
+      "rooms": 4,
+      "area_sqm": 115,
+      "floor": 12,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2280000,
+      "first_seen_at": "2026-10-03T11:26:00.000Z",
+      "last_seen_at": "2026-10-03T11:26:00.000Z",
+      "listing_kind": "second_hand",
+      "source_url": "https://www.yad2.co.il/realestate/forsale/south?area=72&city=2630&neighborhood=876",
+      "evidence_id": "karmi_gat_77633ea7fdf4d15fc86591c3688253aec7a247b0e1bce48050ac51910d37d122"
+    },
+    {
+      "neighborhood": "כרמי גת",
+      "street": "אסתר המלכה",
+      "house_number": "17",
+      "rooms": 3,
+      "area_sqm": 96,
+      "floor": 6,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1600000,
+      "first_seen_at": "2026-10-03T11:26:00.000Z",
+      "last_seen_at": "2026-10-03T11:26:00.000Z",
+      "listing_kind": "second_hand",
+      "source_url": "https://www.yad2.co.il/realestate/forsale/south?area=72&city=2630&neighborhood=876",
+      "evidence_id": "karmi_gat_77633ea7fdf4d15fc86591c3688253aec7a247b0e1bce48050ac51910d37d122"
     }
   ],
   "automated_screenshot_import": {
-    "last_capture": "karmi_gat_80568fc65032c93cae2e93965b48ce908889b3c98a734bd408e11a240ed3fdd4",
-    "captured_at": "2026-10-03T11:25:00.000Z",
-    "received_at": "2026-10-03T11:28:44.111Z",
-    "accepted": 1,
-    "added": 0,
+    "last_capture": "karmi_gat_77633ea7fdf4d15fc86591c3688253aec7a247b0e1bce48050ac51910d37d122",
+    "captured_at": "2026-10-03T11:26:00.000Z",
+    "received_at": "2026-10-03T11:30:11.977Z",
+    "accepted": 4,
+    "added": 2,
     "coverage": "partial",
     "price_kind": "asking"
   }
