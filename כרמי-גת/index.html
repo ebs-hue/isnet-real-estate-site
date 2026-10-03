@@ -233,7 +233,7 @@ function renderEstimate(){
  }
  if(!Number.isFinite(estimate)){estimateResult.classList.add("show");estimateValue.textContent="עדיין אין מספיק ראיות";estimateRange.textContent="";estimateWhy.textContent="המערכת מעדיפה לא לפרסם אומדן על פני מחיר שאין לו בסיס מספק.";estimateEvidence.innerHTML="";return}
  estimate=Math.round(estimate/1000)*1000;low=Math.round(low/1000)*1000;high=Math.round(high/1000)*1000;
- estimateResult.dataset.estimateIls=String(estimate);estimateResult.dataset.lowIls=String(low);estimateResult.dataset.highIls=String(high);renderEstimateBasis(basisRows,usedFallback,confidence);
+ estimateResult.dataset.estimateIls=String(estimate);estimateResult.dataset.lowIls=String(low);estimateResult.dataset.highIls=String(high);renderEstimateBasis(basisRows,usedFallback,confidence);if(!comparableDeals(rooms,area,name).length){const notice=document.createElement("div");notice.className="warn";notice.textContent="לא נמצאו עסקאות השוואה ברבעון שנאסף בטווח שטח קרוב. האומדן נשען על פלח רחב, והפער מהמחיר המבוקש אינו מוכיח שהדירה יקרה או זולה.";$("estimateBasis").appendChild(notice);}
  estimateResult.classList.add("show");estimateValue.innerHTML=money(estimate);estimateRange.innerHTML="טווח אינדיקטיבי: "+money(low)+" – "+money(high);
  estimateWhy.textContent=why+" קומה, מצב הדירה והצמדות אינם משנים כרגע את האומדן ללא ראיית עסקאות מספקת.";
  const ask=positive($("estAsk").value);if(ask){const difference=ask-estimate;$("estimateComparison").textContent="המחיר המבוקש "+Math.round(ask).toLocaleString("he-IL")+" ₪ הוא "+Math.abs(Math.round(difference)).toLocaleString("he-IL")+" ₪ "+(difference>=0?"מעל":"מתחת ל")+" האומדן ("+Math.abs(difference/estimate*100).toFixed(1)+"%). ההשוואה אינה מתחשבת במצב הדירה, בקומה ובהצמדות."}

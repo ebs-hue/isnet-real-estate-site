@@ -27,6 +27,7 @@ async function scenarios(root=path.join(__dirname,'..')){
    assert(basis.includes('אינו מספר העסקאות ברבעון'),'Model and quarter periods mixed');
    assert(window.document.getElementById('estimateComparison').textContent.includes('₪'));
    const comparable=run(`comparableDeals(${row.rooms},${row.area_sqm},'')`);
+   if(!comparable.length)assert(basis.includes('הפער מהמחיר המבוקש אינו מוכיח'),'Missing warning for weak individual comparables');
    assert(comparable.every(r=>r._usable_standard_full_apartment&&Number(r.room_num)===Number(row.rooms)));
    report.cases.push({city:city==='yavne'?'יבנה':'כרמי גת',street:row.street||null,rooms:row.rooms,area_sqm:row.area_sqm,asking_price_ils:row.asking_price_ils,estimate_ils:estimate,low_ils:low,high_ils:high,asking_difference_pct:Math.round((row.asking_price_ils-estimate)/estimate*1000)/10,quarter_comparables:comparable.length});
   }
