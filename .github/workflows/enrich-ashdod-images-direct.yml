@@ -1,0 +1,43 @@
+name: Enrich Ashdod images from event pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/enrich_event_images_direct.py"
+      - ".github/workflows/enrich-ashdod-images-direct.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-ashdod-images-direct
+  cancel-in-progress: true
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull images from each event page
+        run: python scripts/enrich_event_images_direct.py
+
+      - name: Commit enriched images and data
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json events-preview/ashdod/data/image-enrichment-report.json events-preview/ashdod/assets/events
+          if git diff --cached --quiet; then
+            echo "No image changes."
+            exit 0
+          fi
+          git commit -m "Enrich Ashdod events from direct event pages"
+          git push
