@@ -312,6 +312,41 @@ main{position:relative;z-index:3}
   position:absolute;inset:0;
   background:linear-gradient(0deg,rgba(4,19,37,.46),transparent 60%);
 }
+/* Category artwork is also wired in CSS so cards never fall back to a generic blue tile. */
+.cat-music .category-fallback{
+  background:linear-gradient(0deg,rgba(6,19,38,.18),rgba(6,19,38,.05)),url("assets/defaults/music.svg") center/cover no-repeat,linear-gradient(135deg,#111827,#7c3aed);
+}
+.cat-standup .category-fallback{
+  background:linear-gradient(0deg,rgba(20,4,14,.18),rgba(20,4,14,.02)),url("assets/defaults/standup.svg") center/cover no-repeat,linear-gradient(135deg,#240b36,#991b1b);
+}
+.cat-theatre .category-fallback{
+  background:linear-gradient(0deg,rgba(40,3,8,.18),rgba(40,3,8,.02)),url("assets/defaults/theatre.svg") center/cover no-repeat,linear-gradient(135deg,#4c0519,#991b1b);
+}
+.cat-kids .category-fallback{
+  background:linear-gradient(0deg,rgba(70,20,70,.12),rgba(70,20,70,.02)),url("assets/defaults/kids.svg") center/cover no-repeat,linear-gradient(135deg,#7c3aed,#f97316);
+}
+.cat-lecture .category-fallback{
+  background:linear-gradient(0deg,rgba(5,27,65,.16),rgba(5,27,65,.02)),url("assets/defaults/lecture.svg") center/cover no-repeat,linear-gradient(135deg,#0f172a,#0284c7);
+}
+.cat-exhibition .category-fallback{
+  background:linear-gradient(0deg,rgba(15,23,42,.10),rgba(15,23,42,0)),url("assets/defaults/exhibition.svg") center/cover no-repeat,linear-gradient(135deg,#e2e8f0,#c4b5fd);
+}
+.cat-workshop .category-fallback{
+  background:linear-gradient(0deg,rgba(35,15,70,.14),rgba(35,15,70,.02)),url("assets/defaults/workshop.svg") center/cover no-repeat,linear-gradient(135deg,#312e81,#f97316);
+}
+.cat-cinema .category-fallback{
+  background:linear-gradient(0deg,rgba(4,7,24,.18),rgba(4,7,24,.02)),url("assets/defaults/cinema.svg") center/cover no-repeat,linear-gradient(135deg,#111827,#4338ca);
+}
+.cat-festival .category-fallback,.cat-community .category-fallback,.cat-sport .category-fallback{
+  background:linear-gradient(0deg,rgba(6,14,40,.14),rgba(6,14,40,.02)),url("assets/defaults/festival.svg") center/cover no-repeat,linear-gradient(135deg,#172554,#f97316);
+}
+.cat-tour .category-fallback{
+  background:linear-gradient(0deg,rgba(15,23,42,.10),rgba(15,23,42,0)),url("assets/defaults/exhibition.svg") center/cover no-repeat,linear-gradient(135deg,#155e75,#8b5cf6);
+}
+.cat-other .category-fallback{
+  background:linear-gradient(0deg,rgba(6,19,38,.18),rgba(6,19,38,.05)),url("assets/defaults/music.svg") center/cover no-repeat,linear-gradient(135deg,#0f172a,#2563eb);
+}
+
 .heart{
   position:absolute;top:12px;left:12px;z-index:4;
   width:40px;height:40px;border:0;border-radius:50%;
