@@ -11,6 +11,7 @@ on:
       - "project-live/**"
       - "יבנה/**"
       - "כרמי-גת/**"
+      - "events-preview/**"
       - ".github/workflows/pages.yml"
       - "scripts/qa-pricebooks.cjs"
       - "scripts/prepare-pricebook-sync.py"
