@@ -34,6 +34,17 @@ function statusBadge(e){
   if(e.is_free===true)return '<span class="badge free">חינם</span>';
   return "";
 }
+function purchaseAction(e){
+  if(e.ticket_status==="sold_out")return null;
+  const phone=String(e.purchase_phone||"").trim();
+  if(phone){
+    const dial=phone.replace(/[^0-9+]/g,"");
+    if(dial)return {href:"tel:"+dial,label:"חייגו לרכישת כרטיסים",kind:"phone"};
+  }
+  const url=String(e.purchase_url||"").trim();
+  if(/^https?:\/\//i.test(url))return {href:url,label:"לרכישת כרטיסים",kind:"url"};
+  return null;
+}
 function saveFavorites(){localStorage.setItem("isnet-events-favorites",JSON.stringify([...favorites]))}
 function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);saveFavorites();render();}
 
@@ -269,7 +280,17 @@ function discoverEvents(){
   const rotated=diverse.slice(state.discoverSeed%Math.max(1,diverse.length)).concat(diverse.slice(0,state.discoverSeed%Math.max(1,diverse.length)));
   return rotated.slice(0,5);
 }
+function hasActiveSelection(){
+  return state.quick!=="all"||Boolean(state.date)||Boolean(state.category)||Boolean(state.query.trim())||state.favoritesOnly;
+}
 function renderDiscover(){
+  const section=$("discoverSection");
+  if(hasActiveSelection()){
+    section.hidden=true;
+    $("discoverGrid").innerHTML="";
+    return;
+  }
+  section.hidden=false;
   const arr=discoverEvents();
   $("discoverGrid").innerHTML=arr.map(featureCard).join("");
 }
@@ -315,7 +336,25 @@ function openEvent(id){
     ["מקום",e.venue||"יפורסם בהמשך"],
     ["מחיר",priceText(e)]
   ].map(([a,b])=>'<div class="fact"><b>'+a+'</b>'+escapeHtml(b)+'</div>').join("");
-  const link=$("modalTicket");link.href=e.ticket_url||e.sources?.[0]?.url||"#";link.style.display=(e.ticket_url||e.sources?.[0]?.url)?"inline-flex":"none";
+  const purchase=purchaseAction(e);
+  const link=$("modalTicket");
+  const note=$("modalPurchaseNote");
+  if(purchase){
+    link.href=purchase.href;
+    link.textContent=purchase.label;
+    link.style.display="inline-flex";
+    if(purchase.kind==="phone")link.removeAttribute("target");
+    else link.target="_blank";
+    note.hidden=true;
+    note.textContent="";
+  }else{
+    link.removeAttribute("href");
+    link.style.display="none";
+    note.hidden=false;
+    note.textContent=e.ticket_status==="sold_out"
+      ?"הכרטיסים לאירוע אזלו."
+      :"אין כרגע קישור רכישה ישיר מאומת. לא נפנה אתכם לעמוד לוח חיצוני; פרטי רכישה ישירים יעודכנו כאן.";
+  }
   const fav=$("modalFavorite");fav.dataset.id=id;fav.textContent=(favorites.has(id)?"♥ נשמר במועדפים":"♡ שמירה למועדפים");
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
@@ -323,7 +362,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-8").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-8").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-9").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-9").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
