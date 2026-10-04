@@ -1,32 +1,24 @@
 {
-  "generated_at": "2026-10-04T15:04:28Z",
+  "generated_at": "2026-10-04T15:07:49Z",
   "total_events": 100,
-  "events_with_publishable_images": 35,
-  "events_still_missing_images": 65,
+  "events_with_publishable_images": 50,
+  "events_still_missing_images": 50,
   "stats": {
-    "generic_images_cleared": 62
+    "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 39,
-    "mishkan_smarticket": 25,
-    "tickchak_ashdod": 3
+    "ashdod_smarticket": 29,
+    "mishkan_smarticket": 22
   },
   "missing_by_category": {
-    "workshop": 24,
-    "kids": 10,
+    "workshop": 16,
+    "kids": 7,
     "community": 2,
-    "theatre": 19,
+    "theatre": 17,
     "lecture": 4,
-    "standup": 1,
-    "music": 4,
-    "exhibition": 1
+    "music": 4
   },
   "missing": [
-    {
-      "event_id": "evt_1_20261004",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
-      "reason": "no_verified_source_image"
-    },
     {
       "event_id": "evt_2_20261004",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
@@ -58,23 +50,8 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_5_20261008",
-      "title": "סדנא - שימור ושיפור הזיכרון",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_69_20261008",
       "title": "מיקה שלי",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_70_20261010",
-      "title": "הלב זוכר",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_71_20261011",
-      "title": "הלב זוכר",
       "reason": "no_verified_source_image"
     },
     {
@@ -103,11 +80,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_97_20261020",
       "title": "סדנת הכנת לחמניות מתוקות",
       "reason": "no_verified_source_image"
@@ -118,18 +90,8 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_51_20261025",
-      "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_73_20261028",
       "title": "חלון לים התיכון",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_11_20261101",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
       "reason": "no_verified_source_image"
     },
     {
@@ -163,11 +125,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_17_20261105",
-      "title": "סדנא - שימור ושיפור הזיכרון",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_18_20261105",
       "title": "יום יהדות הודו 2026",
       "reason": "no_verified_source_image"
@@ -193,11 +150,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_98_20261113",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_77_20261116",
       "title": "החולה ההודי",
       "reason": "no_verified_source_image"
@@ -205,11 +157,6 @@
     {
       "event_id": "evt_21_20261117",
       "title": "הרקדן ואלרי פאנוב",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_99_20261117",
-      "title": "סיפור של חורף | שעת סיפור עם רינתי",
       "reason": "no_verified_source_image"
     },
     {
@@ -233,11 +180,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_22_20261123",
-      "title": "אני הרבה יותר ממה שחשבתי - ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_82_20261123",
       "title": "אשליות מתוקות",
       "reason": "no_verified_source_image"
@@ -245,11 +187,6 @@
     {
       "event_id": "evt_83_20261128",
       "title": "חיילים יצאו לדרך",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_24_20261130",
-      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - ייעודי לגדולות מהחיים",
       "reason": "no_verified_source_image"
     },
     {
@@ -268,16 +205,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "evt_27_20261203",
-      "title": "סדנא - שימור ושיפור הזיכרון",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_64_20261207",
-      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "evt_84_20261208",
       "title": "היפה והחיה",
       "reason": "no_verified_source_image"
@@ -285,11 +212,6 @@
     {
       "event_id": "evt_85_20261208",
       "title": "היפה והחיה",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "evt_28_20261213",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
       "reason": "no_verified_source_image"
     },
     {
