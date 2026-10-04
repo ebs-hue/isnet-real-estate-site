@@ -52,7 +52,9 @@ function hasTrustedSourceImage(e){
 function fallbackImage(e){
   return state.fallbacks?.[e.category]?.image||state.fallbacks?.other?.image||"";
 }
-function handleEventImageError(img){
+function setEventMediaBackdrop(container,src){
+  if(!container)return;
+  const safe=String(src||"").replace(/["\\]/g,"\\function handleEventImageError(img){
   const fallback=img.dataset.fallback;
   if(fallback&&!img.dataset.fallbackUsed){
     img.dataset.fallbackUsed="1";
@@ -60,13 +62,47 @@ function handleEventImageError(img){
     return;
   }
   img.remove();
+}");
+  container.style.setProperty("--event-image-bg",'url("'+safe+'")');
+}
+function handleEventImageLoad(img){
+  const container=img.parentElement;
+  if(!container)return;
+  const isSource=img.dataset.sourceImage==="1";
+  container.classList.toggle("has-source-image",isSource);
+  container.classList.toggle("has-fallback-image",!isSource);
+  if(isSource){
+    setEventMediaBackdrop(container,img.currentSrc||img.src);
+    const w=img.naturalWidth||1,h=img.naturalHeight||1,ratio=w/h;
+    container.dataset.imageRatio=ratio.toFixed(2);
+  }else{
+    container.style.removeProperty("--event-image-bg");
+    delete container.dataset.imageRatio;
+  }
+}
+function handleEventImageError(img){
+  const fallback=img.dataset.fallback;
+  if(fallback&&!img.dataset.fallbackUsed){
+    img.dataset.fallbackUsed="1";
+    img.dataset.sourceImage="0";
+    img.src=fallback;
+    return;
+  }
+  const container=img.parentElement;
+  if(container){
+    container.classList.remove("has-source-image");
+    container.classList.add("has-fallback-image");
+    container.style.removeProperty("--event-image-bg");
+  }
+  img.remove();
 }
 function eventImageHTML(e){
   const fallback=fallbackImage(e);
-  const primary=hasTrustedSourceImage(e)?e.image_url:fallback;
+  const isSource=hasTrustedSourceImage(e);
+  const primary=isSource?e.image_url:fallback;
   if(!primary)return "";
   const fallbackAttr=fallback&&primary!==fallback?' data-fallback="'+escapeHtml(fallback)+'"':"";
-  return '<img data-event-image src="'+escapeHtml(primary)+'"'+fallbackAttr+' alt="" loading="lazy" onerror="handleEventImageError(this)">';
+  return '<img data-event-image data-source-image="'+(isSource?"1":"0")+'" src="'+escapeHtml(primary)+'"'+fallbackAttr+' alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">';
 }
 
 function mediaHTML(e,cls="eventMedia"){
@@ -300,7 +336,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-5").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-5").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-6").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-6").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
