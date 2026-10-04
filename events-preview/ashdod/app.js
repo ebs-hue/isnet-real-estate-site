@@ -56,14 +56,17 @@ function featureCard(e){
 }
 
 function matchesQuick(e){
-  const d=localDate(e.start_date),t=today();
   if(state.quick==="all")return true;
-  if(state.quick==="today")return sameDay(d,t);
-  if(state.quick==="tomorrow")return sameDay(d,daysFrom(t,1));
-  if(state.quick==="week"){const end=daysFrom(t,6);return d>=t&&d<=end}
-  if(state.quick==="month")return d.getFullYear()===t.getFullYear()&&d.getMonth()===t.getMonth();
-  if(state.quick==="weekend"){const [fri,sat]=nextWeekendRange();return sameDay(d,fri)||sameDay(d,sat)}
+  if(state.quick==="kids")return e.category==="kids"||(e.audiences||[]).some(x=>x==="kids"||x==="families");
+  if(state.quick==="adults"){
+    if((e.audiences||[]).includes("adults")||Number(e.age_min)>=18)return true;
+    return ["standup","lecture"].includes(e.category);
+  }
   if(state.quick==="free")return e.is_free===true;
+  if(state.quick==="standup")return e.category==="standup";
+  if(state.quick==="music")return e.category==="music";
+  if(state.quick==="lecture")return e.category==="lecture";
+  if(state.quick==="theatre")return e.category==="theatre";
   return true
 }
 function normalizeSearch(s){
