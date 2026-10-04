@@ -313,7 +313,7 @@ function renderResults(){
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
   $("favoritesOnly").setAttribute("aria-pressed",state.favoritesOnly?"true":"false");
-  renderDates();renderCategories();renderHeroStats();renderDiscover();renderActiveFilters();renderResults();
+  renderDates();renderCategories();renderHeroStats();renderActiveFilters();renderResults();
   bindDynamic();
 }
 function bindDynamic(){
@@ -362,13 +362,13 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-10").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-10").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-13").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-13").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
   $("quickFilters").onclick=e=>{const b=e.target.closest("[data-quick]");if(!b)return;state.quick=b.dataset.quick;state.date=null;render()};
   $("resetDate").onclick=()=>{state.date=null;render()};
-  $("shuffleDiscover").onclick=()=>{state.discoverSeed++;renderDiscover();bindDynamic()};
+
   $("favoritesOnly").onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
   $("sortSelect").onchange=e=>{state.sort=e.target.value;render()};
   $("resetAll").onclick=resetAll;
