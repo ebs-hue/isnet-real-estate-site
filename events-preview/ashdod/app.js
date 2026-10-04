@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -211,6 +211,22 @@ function renderCategories(){
       '<span class="categoryCard__arrow">←</span>'+
     '</button>').join("");
 }
+function renderHeroStats(){
+  const el=$("heroStats");if(!el)return;
+  const upcoming=state.events.filter(e=>localDate(e.start_date)>=today());
+  const venues=new Set(upcoming.map(e=>e.venue).filter(Boolean));
+  const categories=new Set(upcoming.map(e=>e.category).filter(Boolean));
+  let updated="";
+  if(state.generatedAt){
+    const d=new Date(state.generatedAt);
+    if(!Number.isNaN(d.getTime()))updated=new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}).format(d);
+  }
+  el.innerHTML=
+    '<span><b>'+upcoming.length+'</b> אירועים קרובים</span>'+
+    '<span><b>'+venues.size+'</b> מוקדים בעיר</span>'+
+    '<span><b>'+categories.size+'</b> סוגי בילוי</span>'+
+    (updated?'<span>עודכן '+escapeHtml(updated)+'</span>':"");
+}
 function discoverEvents(){
   const upcoming=state.events.filter(e=>localDate(e.start_date)>=today()&&e.ticket_status!=="sold_out");
   const diverse=[],seen=new Set();
@@ -241,7 +257,7 @@ function renderResults(){
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
   $("favoritesOnly").setAttribute("aria-pressed",state.favoritesOnly?"true":"false");
-  renderDates();renderCategories();renderDiscover();renderActiveFilters();renderResults();
+  renderDates();renderCategories();renderHeroStats();renderDiscover();renderActiveFilters();renderResults();
   bindDynamic();
 }
 function bindDynamic(){
@@ -272,7 +288,7 @@ function resetAll(){state.quick="all";state.date=null;state.category=null;state.
 
 async function init(){
   const [data,fallbacks]=await Promise.all([fetch("data/events.json").then(r=>r.json()),fetch("category-fallbacks.json").then(r=>r.json()).catch(()=>({}))]);
-  state.events=data.events||[];state.fallbacks=fallbacks;render();
+  state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
   $("quickFilters").onclick=e=>{const b=e.target.closest("[data-quick]");if(!b)return;state.quick=b.dataset.quick;state.date=null;render()};
