@@ -6,20 +6,20 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="hero__glow"></div>
     <div class="shell">
-      <div class="brand"><span class="brand__dot"></span><span>אשדוד נט</span><b>EVENTS</b></div>
+      <div class="brand"><span class="brand__dot"></span><span>אשדוד נט</span><b>מה עושים בעיר</b></div>
       <div class="hero__content">
-        <p class="eyebrow">העיר שלך. הזמן שלך.</p>
-        <h1>מה עושים באשדוד?</h1>
-        <p class="hero__lead">כל מה ששווה לצאת בשבילו, במקום אחד.</p>
+        <p class="eyebrow">יוצאים. מבלים. מגלים.</p>
+        <h1>מה עושים<br><span>באשדוד?</span></h1>
+        <p class="hero__lead">הופעות, הצגות, ילדים, סטנדאפ, תרבות וכל מה שקורה בעיר — במקום אחד.</p>
         <div class="searchBox">
           <span class="searchBox__icon">⌕</span>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="חפשו אמן, מופע, מקום או משהו לעשות...">
+          <input id="searchInput" type="search" autocomplete="off" placeholder="מה מתחשק לכם לעשות? למשל: סטנדאפ, ילדים, מונארט...">
           <button id="clearSearch" class="searchBox__clear" aria-label="נקה חיפוש">×</button>
         </div>
         <div id="quickFilters" class="quickFilters">
@@ -39,7 +39,7 @@
   <main class="shell">
     <section class="section dateSection">
       <div class="sectionHead">
-        <div><span class="sectionHead__kicker">בחרו יום</span><h2>מה קורה בקרוב?</h2></div>
+        <div><span class="sectionHead__kicker">מתכננים קדימה</span><h2>בחרו יום שמתאים לכם</h2></div>
         <button id="resetDate" class="textButton">כל התאריכים</button>
       </div>
       <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
@@ -47,14 +47,14 @@
 
     <section class="section">
       <div class="sectionHead">
-        <div><span class="sectionHead__kicker">לפי מצב הרוח</span><h2>מה בא לכם?</h2></div>
+        <div><span class="sectionHead__kicker">לפי מצב הרוח</span><h2>מה מתחשק לכם?</h2></div>
       </div>
       <div id="categoryGrid" class="categoryGrid"></div>
     </section>
 
     <section id="discoverSection" class="section discover">
       <div class="sectionHead">
-        <div><span class="sectionHead__kicker">הבחירות שלנו</span><h2 id="discoverTitle">כדאי לראות עכשיו</h2></div>
+        <div><span class="sectionHead__kicker">שווה להציץ</span><h2 id="discoverTitle">אירועים שכדאי להכיר</h2></div>
         <button id="shuffleDiscover" class="textButton">תפתיעו אותי</button>
       </div>
       <div id="discoverGrid" class="discoverGrid"></div>
@@ -63,8 +63,8 @@
     <section class="section results">
       <div class="resultsTop">
         <div>
-          <span class="sectionHead__kicker">כל האפשרויות</span>
-          <h2>אירועים באשדוד</h2>
+          <span class="sectionHead__kicker">כל העיר במקום אחד</span>
+          <h2>כל האירועים באשדוד</h2>
           <p id="resultCount" class="muted"></p>
         </div>
         <div class="resultsActions">
