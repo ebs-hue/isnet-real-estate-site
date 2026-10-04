@@ -8,6 +8,7 @@ on:
       - "scripts/enrich_event_images.py"
       - "scripts/enrich_event_images_v2.py"
       - "scripts/enrich_event_images_v3.py"
+      - "scripts/clean_event_image_placeholders_v2.py"
       - ".github/workflows/enrich-events-images.yml"
 
 permissions:
@@ -34,6 +35,9 @@ jobs:
 
       - name: Pull images from recorded event sources
         run: python scripts/enrich_event_images_v3.py
+
+      - name: Remove generic image placeholders
+        run: python scripts/clean_event_image_placeholders_v2.py
 
       - name: Commit enriched event data
         run: |
