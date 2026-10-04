@@ -48,17 +48,8 @@ function purchaseAction(e){
 function saveFavorites(){localStorage.setItem("isnet-events-favorites",JSON.stringify([...favorites]))}
 function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);saveFavorites();render();}
 
-const trustedTickchakImageEvents=new Set([
-  "evt_35_20261005","evt_36_20261006","evt_37_20261006","evt_38_20261008",
-  "evt_43_20261015","evt_46_20261020","evt_47_20261022","evt_50_20261024",
-  "evt_52_20261028","evt_57_20261105","evt_58_20261112","evt_59_20261121",
-  "evt_62_20261203","evt_63_20261205","evt_65_20261212","evt_67_20270102"
-]);
 function hasTrustedSourceImage(e){
-  if(!(e.image_url&&e.image_publishable===true))return false;
-  const origin=String(e.image_origin_url||"");
-  if(origin.includes("static.tickchak.co.il")&&!trustedTickchakImageEvents.has(e.event_id))return false;
-  return true;
+  return Boolean(e.image_url&&e.image_publishable===true&&e.image_verified===true);
 }
 function fallbackImage(e){
   return state.fallbacks?.[e.category]?.image||state.fallbacks?.other?.image||"";
@@ -362,7 +353,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-13").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-13").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-14").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-14").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
