@@ -37,8 +37,28 @@ function statusBadge(e){
 function saveFavorites(){localStorage.setItem("isnet-events-favorites",JSON.stringify([...favorites]))}
 function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);saveFavorites();render();}
 
+function fallbackImage(e){
+  return state.fallbacks?.[e.category]?.image||state.fallbacks?.other?.image||"";
+}
+function handleEventImageError(img){
+  const fallback=img.dataset.fallback;
+  if(fallback&&!img.dataset.fallbackUsed){
+    img.dataset.fallbackUsed="1";
+    img.src=fallback;
+    return;
+  }
+  img.remove();
+}
+function eventImageHTML(e){
+  const fallback=fallbackImage(e);
+  const primary=e.image_url&&e.image_publishable?e.image_url:fallback;
+  if(!primary)return "";
+  const fallbackAttr=fallback&&primary!==fallback?' data-fallback="'+escapeHtml(fallback)+'"':"";
+  return '<img data-event-image src="'+escapeHtml(primary)+'"'+fallbackAttr+' alt="" loading="lazy" onerror="handleEventImageError(this)">';
+}
+
 function mediaHTML(e,cls="eventMedia"){
-  const img=e.image_url&&e.image_publishable?'<img src="'+escapeHtml(e.image_url)+'" alt="" loading="lazy" onerror="this.remove()">':"";
+  const img=eventImageHTML(e);
   return '<div class="'+cls+' cat-'+e.category+'">'+img+'<div class="category-fallback"></div><button class="heart '+(favorites.has(e.event_id)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(favorites.has(e.event_id)?"♥":"♡")+'</button></div>';
 }
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
@@ -227,7 +247,7 @@ function openEvent(id){
   $("modalTitle").textContent=e.title;
   $("modalDescription").textContent=e.description||"כל הפרטים החשובים במקום אחד. מומלץ לוודא את פרטי האירוע מול המארגן לפני הגעה.";
   $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e);
-  $("modalMedia").innerHTML=(e.image_url&&e.image_publishable?'<img src="'+escapeHtml(e.image_url)+'" alt="">':'<div class="category-fallback"></div>');
+  $("modalMedia").innerHTML=eventImageHTML(e)+'<div class="category-fallback"></div>';
   $("modalFacts").innerHTML=[
     ["תאריך",fmtFull.format(localDate(e.start_date))],
     ["שעה",formatTime(e.start_time)],
