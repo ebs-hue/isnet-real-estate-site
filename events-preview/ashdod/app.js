@@ -82,6 +82,15 @@ function featureCard(e){
 
 function matchesQuick(e){
   if(state.quick==="all")return true;
+  const d=localDate(e.start_date),t=today();
+  if(state.quick==="today")return sameDay(d,t);
+  if(state.quick==="tomorrow")return sameDay(d,daysFrom(t,1));
+  if(state.quick==="weekend"){
+    const [fri,sat]=nextWeekendRange();
+    return sameDay(d,fri)||sameDay(d,sat);
+  }
+  if(state.quick==="week")return d>=t&&d<=daysFrom(t,6);
+  if(state.quick==="month")return d>=t&&d.getMonth()===t.getMonth()&&d.getFullYear()===t.getFullYear();
   if(state.quick==="kids")return e.category==="kids"||(e.audiences||[]).some(x=>x==="kids"||x==="families");
   if(state.quick==="adults"){
     if((e.audiences||[]).includes("adults")||Number(e.age_min)>=18)return true;
