@@ -281,7 +281,7 @@ function discoverEvents(){
   return rotated.slice(0,5);
 }
 function hasActiveSelection(){
-  return state.quick!=="all"||Boolean(state.date)||Boolean(state.category)||Boolean(state.query.trim())||state.favoritesOnly;
+  return state.quick!=="all"||Boolean(state.date)||Boolean(state.category)||Boolean(state.query.trim())||state.favoritesOnly||state.sort!=="date";
 }
 function renderDiscover(){
   const section=$("discoverSection");
@@ -362,7 +362,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-9").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-9").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-10").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-10").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
@@ -370,7 +370,7 @@ async function init(){
   $("resetDate").onclick=()=>{state.date=null;render()};
   $("shuffleDiscover").onclick=()=>{state.discoverSeed++;renderDiscover();bindDynamic()};
   $("favoritesOnly").onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
-  $("sortSelect").onchange=e=>{state.sort=e.target.value;renderResults();bindDynamic()};
+  $("sortSelect").onchange=e=>{state.sort=e.target.value;render()};
   $("resetAll").onclick=resetAll;
   document.querySelectorAll("[data-close-modal]").forEach(x=>x.onclick=closeModal);
   $("modalFavorite").onclick=()=>{toggleFavorite($("modalFavorite").dataset.id);openEvent($("modalFavorite").dataset.id)};
