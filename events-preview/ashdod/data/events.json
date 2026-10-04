@@ -1831,8 +1831,10 @@
       "purchase_source": null,
       "image_verified": true,
       "image_strategy": "artist_fallback",
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_url": "assets/event-thumbs/eabfc2be80e93b6293266b.jpg",
+      "thumbnail_ready": true,
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_50_20261024",
