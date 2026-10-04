@@ -61,28 +61,25 @@ function handleEventImageLoad(img){
   const box=mediaBoxFor(img);
   if(!box)return;
   box.classList.add("has-source-image");
-  box.classList.remove("has-fallback-image","media-portrait","media-square","media-landscape");
-  const ratio=(img.naturalWidth||1)/(img.naturalHeight||1);
-  if(ratio<0.9)box.classList.add("media-portrait");
-  else if(ratio<1.35)box.classList.add("media-square");
-  else box.classList.add("media-landscape");
+  box.classList.remove("has-fallback-image");
 }
 function handleEventImageError(img){
   const box=mediaBoxFor(img);
   if(box){
-    box.classList.remove("has-source-image","media-portrait","media-square","media-landscape");
+    box.classList.remove("has-source-image");
     box.classList.add("has-fallback-image");
   }
   const stage=img.closest(".eventArtStage");
   if(stage)stage.remove();
   else img.remove();
 }
-function eventImageHTML(e){
+function eventImageHTML(e,mode="card"){
   if(!hasTrustedSourceImage(e))return "";
-  const src=escapeHtml(e.image_url);
-  return '<span class="eventArtStage">'+
-    '<img class="eventArtBackdrop" src="'+src+'" alt="" aria-hidden="true" loading="lazy">'+
-    '<img data-event-image class="eventArtMain" data-source-image="1" src="'+src+'" alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">'+
+  const useThumb=mode==="card"&&e.thumbnail_ready===true&&e.thumbnail_url;
+  const src=escapeHtml(useThumb?e.thumbnail_url:e.image_url);
+  const cls=useThumb?"eventArtMain eventArtThumb":"eventArtMain eventArtFull";
+  return '<span class="eventArtStage '+(useThumb?"is-thumbnail":"is-full-image")+'">'+
+    '<img data-event-image class="'+cls+'" src="'+src+'" alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">'+
   '</span>';
 }
 function fallbackMediaHTML(e){
@@ -92,7 +89,7 @@ function fallbackMediaHTML(e){
   '</div>';
 }
 function mediaHTML(e,cls="eventMedia"){
-  const img=eventImageHTML(e);
+  const img=eventImageHTML(e,"card");
   return '<div class="'+cls+' cat-'+e.category+' '+(img?"":"has-fallback-image")+'">'+
     img+fallbackMediaHTML(e)+
     '<button class="heart '+(favorites.has(e.event_id)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(favorites.has(e.event_id)?"♥":"♡")+'</button>'+
@@ -320,7 +317,7 @@ function openEvent(id){
   $("modalDescription").textContent=e.description||"כל הפרטים החשובים במקום אחד. מומלץ לוודא את פרטי האירוע מול המארגן לפני הגעה.";
   $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e);
   $("modalMedia").className="modal__media cat-"+(e.category||"other")+(hasTrustedSourceImage(e)?"":" has-fallback-image");
-  $("modalMedia").innerHTML=eventImageHTML(e)+fallbackMediaHTML(e);
+  $("modalMedia").innerHTML=eventImageHTML(e,"modal")+fallbackMediaHTML(e);
   $("modalFacts").innerHTML=[
     ["תאריך",fmtFull.format(localDate(e.start_date))],
     ["שעה",formatTime(e.start_time)],
@@ -353,7 +350,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-14").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-14").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-15").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-15").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
