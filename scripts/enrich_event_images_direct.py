@@ -119,6 +119,9 @@ class MetaParser(HTMLParser):
         self.title_parts = []
         self.in_title = False
         self.images = []
+        self.links = []
+        self._href = None
+        self._link_text = []
 
     def handle_starttag(self, tag, attrs):
         a = {str(k).lower(): (v or "") for k, v in attrs}
@@ -129,14 +132,24 @@ class MetaParser(HTMLParser):
             self.images.append(a)
         elif t == "title":
             self.in_title = True
+        elif t == "a":
+            self._href = a.get("href")
+            self._link_text = []
 
     def handle_data(self, data):
         if self.in_title:
             self.title_parts.append(data)
+        if self._href is not None:
+            self._link_text.append(data)
 
     def handle_endtag(self, tag):
         if tag.lower() == "title":
             self.in_title = False
+        elif tag.lower() == "a" and self._href is not None:
+            txt = re.sub(r"\s+", " ", " ".join(self._link_text)).strip()
+            self.links.append((self._href, txt))
+            self._href = None
+            self._link_text = []
 
 
 def parse_page(markup: str) -> MetaParser:
@@ -154,6 +167,31 @@ def page_identity(parser: MetaParser) -> str:
         if key in ("og:title", "twitter:title") and m.get("content"):
             return html.unescape(m["content"])
     return re.sub(r"\s+", " ", " ".join(parser.title_parts)).strip()
+
+
+def discover_detail_pages(event_title: str, root_url: str, markup: str, final_root: str):
+    parser = parse_page(markup)
+    ranked = []
+    for href, text in parser.links:
+        if not href or href.startswith(("#", "javascript:", "mailto:", "tel:")):
+            continue
+        u = urljoin(final_root, href)
+        if host(u) != host(final_root):
+            continue
+        score = title_match(event_title, text)
+        if score >= 0.55:
+            ranked.append((score, u.split("#", 1)[0], text))
+    ranked.sort(key=lambda x: (-x[0], len(x[1])))
+    out = []
+    seen = set()
+    for score, u, text in ranked:
+        if u in seen:
+            continue
+        seen.add(u)
+        out.append((u, score, text))
+        if len(out) >= 4:
+            break
+    return out
 
 
 def candidate_images(page_url: str, markup: str, parser: MetaParser):
@@ -298,6 +336,7 @@ def main():
     stats = Counter()
     failures = []
     page_cache = {}
+    root_cache = {}
     image_cache = {}
 
     stats["suspicious_tickchak_duplicates_cleared"] = clear_suspicious_tickchak_duplicates(events)
@@ -306,11 +345,37 @@ def main():
         title = e.get("title") or ""
         page_urls = []
 
+        # First discover exact event pages on official Smarticket sources.
+        for source in e.get("sources") or []:
+            root = source.get("url") or ""
+            if host(root).endswith("smarticket.co.il"):
+                root_candidates = [root]
+                iframe_root = root.rstrip("/") + "/iframe"
+                if iframe_root not in root_candidates:
+                    root_candidates.append(iframe_root)
+                for root_candidate in root_candidates:
+                    if root_candidate in root_cache:
+                        loaded_root = root_cache[root_candidate]
+                    else:
+                        try:
+                            time.sleep(PAUSE)
+                            loaded_root = fetch_html(root_candidate)
+                        except Exception:
+                            loaded_root = None
+                        root_cache[root_candidate] = loaded_root
+                    if not loaded_root:
+                        continue
+                    root_markup, final_root = loaded_root
+                    for detail_url, match_score, link_text in discover_detail_pages(title, root_candidate, root_markup, final_root):
+                        if detail_url not in page_urls and is_specific_event_page(detail_url):
+                            page_urls.append(detail_url)
+
+        # Then try the recorded event/ticket page (including Tickchak).
         ticket = e.get("ticket_url") or ""
-        if ticket and is_specific_event_page(ticket):
+        if ticket and is_specific_event_page(ticket) and ticket not in page_urls:
             page_urls.append(ticket)
 
-        # Prefer any previously recorded exact page as a secondary candidate.
+        # Finally use any previously recorded exact image source.
         image_source = e.get("image_source") or ""
         if image_source and is_specific_event_page(image_source) and image_source not in page_urls:
             page_urls.append(image_source)
