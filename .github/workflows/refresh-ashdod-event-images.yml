@@ -1,0 +1,57 @@
+name: Refresh Ashdod event source images
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/enrich_event_images_v3.py"
+      - "scripts/clean_event_image_placeholders_v2.py"
+      - "scripts/recover_event_listing_images.py"
+      - ".github/workflows/refresh-ashdod-event-images.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ashdod-event-source-images
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull event-page images from recorded sources
+        run: python scripts/enrich_event_images_v3.py
+
+      - name: Remove generic placeholders
+        run: python scripts/clean_event_image_placeholders_v2.py
+
+      - name: Recover images from source listing cards
+        run: python scripts/recover_event_listing_images.py
+
+      - name: Recalculate verified coverage
+        run: python scripts/clean_event_image_placeholders_v2.py
+
+      - name: Commit image enrichment
+        run: |
+          if git diff --quiet -- events-preview/ashdod/data/events.json events-preview/ashdod/data/image-enrichment-report.json; then
+            echo "No image changes."
+            exit 0
+          fi
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json events-preview/ashdod/data/image-enrichment-report.json
+          git commit -m "Refresh Ashdod source event images"
+          git push
