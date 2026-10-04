@@ -272,6 +272,7 @@ function openEvent(id){
   $("modalTitle").textContent=e.title;
   $("modalDescription").textContent=e.description||"כל הפרטים החשובים במקום אחד. מומלץ לוודא את פרטי האירוע מול המארגן לפני הגעה.";
   $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e);
+  $("modalMedia").className="modal__media cat-"+(e.category||"other");
   $("modalMedia").innerHTML=eventImageHTML(e)+'<div class="category-fallback"></div>';
   $("modalFacts").innerHTML=[
     ["תאריך",fmtFull.format(localDate(e.start_date))],
