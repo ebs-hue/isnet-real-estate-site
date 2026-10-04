@@ -600,3 +600,17 @@ main{position:relative;z-index:3}
 @media(prefers-reduced-motion:reduce){
   *{scroll-behavior:auto!important;animation:none!important;transition:none!important}
 }
+
+.discover[hidden]{display:none!important}
+.purchaseNote{
+  margin:16px 0 4px;
+  padding:12px 14px;
+  border-radius:14px;
+  background:#f4f7fb;
+  border:1px solid #e1e8f0;
+  color:#52657a;
+  font-size:14px;
+  font-weight:700;
+  line-height:1.5;
+}
+.purchaseNote[hidden]{display:none!important}
