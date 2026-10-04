@@ -40,4 +40,5 @@ jobs:
             exit 0
           fi
           git commit -m "Enrich Ashdod events from direct event pages"
+          git pull --rebase origin main
           git push
