@@ -1799,7 +1799,7 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": "https://live.tickchak.co.il/shows/event/edngdlDNL?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Trifonas%2C_January_2022_%286%29.jpg",
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trifonas%2C_January_2022_%286%29.jpg",
       "image_source": "https://commons.wikimedia.org/wiki/File:Trifonas,_January_2022_(6).jpg",
       "image_credit": "Dolev / Wikimedia Commons / CC BY-SA 4.0",
       "image_publishable": true,
@@ -1825,15 +1825,14 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Trifonas%2C_January_2022_%286%29.jpg",
+      "image_origin_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trifonas%2C_January_2022_%286%29.jpg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
       "image_strategy": "artist_fallback",
       "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "thumbnail_error": "HTTPError"
+      "thumbnail_ready": false
     },
     {
       "event_id": "evt_50_20261024",
