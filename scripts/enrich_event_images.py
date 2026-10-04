@@ -83,9 +83,15 @@ def same_host_family(a: str, b: str) -> bool:
 
 def requote_url(url: str) -> str:
     parts = urlsplit(url)
-    path = quote(parts.path, safe="/%:@-._~!def fetch_bytes(url: str, *, range_bytes: Optional[int] = None) -> Tuple[bytes, str, str]:
-    headers = {'()*+,;=")
-    query = quote(parts.query, safe="=&%:@/?-._~!
+    path = quote(parts.path, safe="/%:@-._~!$&()*+,;=")
+    query = quote(parts.query, safe="=&%:@/?-._~!$()*+,;")
+    fragment = quote(parts.fragment, safe="")
+    return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
+
+
+def fetch_bytes(url: str, *, range_bytes: Optional[int] = None) -> Tuple[bytes, str, str]:
+    url = requote_url(url)
+    headers = {
         "User-Agent": USER_AGENT,
         "Accept-Language": "he-IL,he;q=0.9,en;q=0.7",
         "Accept": "text/html,application/xhtml+xml,image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
