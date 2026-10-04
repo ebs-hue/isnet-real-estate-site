@@ -52,40 +52,49 @@ function hasTrustedSourceImage(e){
 function fallbackImage(e){
   return state.fallbacks?.[e.category]?.image||state.fallbacks?.other?.image||"";
 }
+function mediaBoxFor(img){
+  return img.closest(".featureMedia,.eventMedia,.modal__media");
+}
 function handleEventImageLoad(img){
-  const box=img.parentElement;
+  const box=mediaBoxFor(img);
   if(!box)return;
-  const source=img.dataset.sourceImage==="1";
-  box.classList.toggle("has-source-image",source);
-  box.classList.toggle("has-fallback-image",!source);
+  box.classList.add("has-source-image");
+  box.classList.remove("has-fallback-image","media-portrait","media-square","media-landscape");
+  const ratio=(img.naturalWidth||1)/(img.naturalHeight||1);
+  if(ratio<0.9)box.classList.add("media-portrait");
+  else if(ratio<1.35)box.classList.add("media-square");
+  else box.classList.add("media-landscape");
 }
 function handleEventImageError(img){
-  const fallback=img.dataset.fallback;
-  if(fallback&&!img.dataset.fallbackUsed){
-    img.dataset.fallbackUsed="1";
-    img.dataset.sourceImage="0";
-    img.src=fallback;
-    return;
-  }
-  const box=img.parentElement;
+  const box=mediaBoxFor(img);
   if(box){
-    box.classList.remove("has-source-image");
+    box.classList.remove("has-source-image","media-portrait","media-square","media-landscape");
     box.classList.add("has-fallback-image");
   }
-  img.remove();
+  const stage=img.closest(".eventArtStage");
+  if(stage)stage.remove();
+  else img.remove();
 }
 function eventImageHTML(e){
-  const fallback=fallbackImage(e);
-  const isSource=hasTrustedSourceImage(e);
-  const primary=isSource?e.image_url:fallback;
-  if(!primary)return "";
-  const fallbackAttr=fallback&&primary!==fallback?' data-fallback="'+escapeHtml(fallback)+'"':"";
-  return '<img data-event-image data-source-image="'+(isSource?"1":"0")+'" src="'+escapeHtml(primary)+'"'+fallbackAttr+' alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">';
+  if(!hasTrustedSourceImage(e))return "";
+  const src=escapeHtml(e.image_url);
+  return '<span class="eventArtStage">'+
+    '<img class="eventArtBackdrop" src="'+src+'" alt="" aria-hidden="true" loading="lazy">'+
+    '<img data-event-image class="eventArtMain" data-source-image="1" src="'+src+'" alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">'+
+  '</span>';
 }
-
+function fallbackMediaHTML(e){
+  return '<div class="category-fallback">'+
+    '<span class="fallbackMark">'+escapeHtml(catIcons[e.category]||"✦")+'</span>'+
+    '<span class="fallbackLabel">'+escapeHtml(catLabels[e.category]||"אירועים")+'</span>'+
+  '</div>';
+}
 function mediaHTML(e,cls="eventMedia"){
   const img=eventImageHTML(e);
-  return '<div class="'+cls+' cat-'+e.category+'">'+img+'<div class="category-fallback"></div><button class="heart '+(favorites.has(e.event_id)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(favorites.has(e.event_id)?"♥":"♡")+'</button></div>';
+  return '<div class="'+cls+' cat-'+e.category+' '+(img?"":"has-fallback-image")+'">'+
+    img+fallbackMediaHTML(e)+
+    '<button class="heart '+(favorites.has(e.event_id)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(favorites.has(e.event_id)?"♥":"♡")+'</button>'+
+  '</div>';
 }
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function eventCard(e){
@@ -298,8 +307,8 @@ function openEvent(id){
   $("modalTitle").textContent=e.title;
   $("modalDescription").textContent=e.description||"כל הפרטים החשובים במקום אחד. מומלץ לוודא את פרטי האירוע מול המארגן לפני הגעה.";
   $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e);
-  $("modalMedia").className="modal__media cat-"+(e.category||"other");
-  $("modalMedia").innerHTML=eventImageHTML(e)+'<div class="category-fallback"></div>';
+  $("modalMedia").className="modal__media cat-"+(e.category||"other")+(hasTrustedSourceImage(e)?"":" has-fallback-image");
+  $("modalMedia").innerHTML=eventImageHTML(e)+fallbackMediaHTML(e);
   $("modalFacts").innerHTML=[
     ["תאריך",fmtFull.format(localDate(e.start_date))],
     ["שעה",formatTime(e.start_time)],
@@ -314,7 +323,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-7").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-7").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-8").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-8").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
