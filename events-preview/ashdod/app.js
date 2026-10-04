@@ -52,33 +52,12 @@ function hasTrustedSourceImage(e){
 function fallbackImage(e){
   return state.fallbacks?.[e.category]?.image||state.fallbacks?.other?.image||"";
 }
-function setEventMediaBackdrop(container,src){
-  if(!container)return;
-  const safe=String(src||"").replace(/["\\]/g,"\\function handleEventImageError(img){
-  const fallback=img.dataset.fallback;
-  if(fallback&&!img.dataset.fallbackUsed){
-    img.dataset.fallbackUsed="1";
-    img.src=fallback;
-    return;
-  }
-  img.remove();
-}");
-  container.style.setProperty("--event-image-bg",'url("'+safe+'")');
-}
 function handleEventImageLoad(img){
-  const container=img.parentElement;
-  if(!container)return;
-  const isSource=img.dataset.sourceImage==="1";
-  container.classList.toggle("has-source-image",isSource);
-  container.classList.toggle("has-fallback-image",!isSource);
-  if(isSource){
-    setEventMediaBackdrop(container,img.currentSrc||img.src);
-    const w=img.naturalWidth||1,h=img.naturalHeight||1,ratio=w/h;
-    container.dataset.imageRatio=ratio.toFixed(2);
-  }else{
-    container.style.removeProperty("--event-image-bg");
-    delete container.dataset.imageRatio;
-  }
+  const box=img.parentElement;
+  if(!box)return;
+  const source=img.dataset.sourceImage==="1";
+  box.classList.toggle("has-source-image",source);
+  box.classList.toggle("has-fallback-image",!source);
 }
 function handleEventImageError(img){
   const fallback=img.dataset.fallback;
@@ -88,11 +67,10 @@ function handleEventImageError(img){
     img.src=fallback;
     return;
   }
-  const container=img.parentElement;
-  if(container){
-    container.classList.remove("has-source-image");
-    container.classList.add("has-fallback-image");
-    container.style.removeProperty("--event-image-bg");
+  const box=img.parentElement;
+  if(box){
+    box.classList.remove("has-source-image");
+    box.classList.add("has-fallback-image");
   }
   img.remove();
 }
@@ -336,7 +314,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-6").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-6").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261004-7").then(r=>r.json()),fetch("category-fallbacks.json?v=20261004-7").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
