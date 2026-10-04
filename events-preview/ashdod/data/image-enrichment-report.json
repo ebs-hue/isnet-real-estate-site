@@ -1,50 +1,351 @@
 {
-  "generated_at": "2026-10-04T15:01:25Z",
+  "generated_at": "2026-10-04T15:04:28Z",
   "total_events": 100,
-  "events_with_publishable_images": 97,
-  "events_still_missing_images": 3,
+  "events_with_publishable_images": 35,
+  "events_still_missing_images": 65,
   "stats": {
-    "generic_images_cleared": 63,
-    "enriched": 44,
-    "missing": 3,
-    "kept_existing": 34,
-    "reused_by_title": 19,
-    "from_source_listing": 1
+    "generic_images_cleared": 62
   },
   "missing_by_source": {
-    "mishkan_smarticket": 1,
-    "ashdod_smarticket": 1,
-    "tickchak_ashdod": 2
+    "ashdod_smarticket": 39,
+    "mishkan_smarticket": 25,
+    "tickchak_ashdod": 3
   },
   "missing_by_category": {
-    "kids": 2,
-    "standup": 1
+    "workshop": 24,
+    "kids": 10,
+    "community": 2,
+    "theatre": 19,
+    "lecture": 4,
+    "standup": 1,
+    "music": 4,
+    "exhibition": 1
   },
   "missing": [
     {
+      "event_id": "evt_1_20261004",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_2_20261004",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "evt_68_20261004",
       "title": "הדרדסים ההצגה - Live על הבמה",
-      "sources": [
-        "https://mishkan-ashdod.smarticket.co.il/",
-        "https://ashdod.smarticket.co.il/"
-      ],
-      "tried": []
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_3_20261004",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_4_20261005",
+      "title": "קורס גישור בסיסי בשילוב טאי־צ’י – דרך חדשה לדיאלוג ולחוסן אישי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_92_20261006",
+      "title": "הענק הכי גנדרן בעולם",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_93_20261006",
+      "title": "מועדון הקוראות הרומנטיות - מועדון קריאה שכולו אהבה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_5_20261008",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_69_20261008",
+      "title": "מיקה שלי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_70_20261010",
+      "title": "הלב זוכר",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_71_20261011",
+      "title": "הלב זוכר",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_94_20261012",
+      "title": "סערה בדלי מים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_95_20261012",
+      "title": "תשאירי פתוח",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_6_20261014",
+      "title": "עיצוב אורח חיים בריא",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_96_20261014",
+      "title": "דירה להכיר",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_7_20261015",
+      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_97_20261020",
+      "title": "סדנת הכנת לחמניות מתוקות",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_72_20261020",
+      "title": "היפהפיה הנרדמת",
+      "reason": "no_verified_source_image"
     },
     {
       "event_id": "evt_51_20261025",
       "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
-      "sources": [
-        "https://live.tickchak.co.il/ashdod"
-      ],
-      "tried": []
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_73_20261028",
+      "title": "חלון לים התיכון",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_11_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_12_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_13_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_14_20261102",
+      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_15_20261103",
+      "title": "השועל המוסיקלי כוורת",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_16_20261104",
+      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_74_20261104",
+      "title": "FATE & FIRE",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_17_20261105",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_18_20261105",
+      "title": "יום יהדות הודו 2026",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_19_20261109",
+      "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_20_20261110",
+      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_75_20261110",
+      "title": "הפיל שרצה להיות הכי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_76_20261111",
+      "title": "איסטנבול - נפולי -מרסיי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_98_20261113",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_77_20261116",
+      "title": "החולה ההודי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_21_20261117",
+      "title": "הרקדן ואלרי פאנוב",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_99_20261117",
+      "title": "סיפור של חורף | שעת סיפור עם רינתי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_78_20261117",
+      "title": "החולה ההודי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_79_20261118",
+      "title": "החולה ההודי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_80_20261119",
+      "title": "החולה ההודי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_81_20261121",
+      "title": "החולה ההודי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_22_20261123",
+      "title": "אני הרבה יותר ממה שחשבתי - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_82_20261123",
+      "title": "אשליות מתוקות",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_83_20261128",
+      "title": "חיילים יצאו לדרך",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_24_20261130",
+      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_100_20261202",
+      "title": "סדנת חופשה בקליק",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_25_20261203",
+      "title": "קורס קנווה עם מרים - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_26_20261203",
+      "title": "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_27_20261203",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "reason": "no_verified_source_image"
     },
     {
       "event_id": "evt_64_20261207",
       "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
-      "sources": [
-        "https://live.tickchak.co.il/ashdod"
-      ],
-      "tried": []
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_84_20261208",
+      "title": "היפה והחיה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_85_20261208",
+      "title": "היפה והחיה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_28_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_29_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_30_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_31_20261215",
+      "title": "השועל המוסיקלי החיפושיות",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_86_20261221",
+      "title": "האישה העשירה בעולם",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_33_20261224",
+      "title": "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_87_20261228",
+      "title": "אור לגויים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_34_20261229",
+      "title": "דקה לנשום – לצמוח מהכאב והקושי - ייעודי לגדולות מהחיים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_88_20261229",
+      "title": "אור לגויים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_89_20261230",
+      "title": "אור לגויים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_90_20261231",
+      "title": "אור לגויים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "evt_91_20270102",
+      "title": "אור לגויים",
+      "reason": "no_verified_source_image"
     }
   ]
 }
