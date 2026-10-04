@@ -1,14 +1,15 @@
 {
-  "generated_at": "2026-10-04T14:57:20Z",
+  "generated_at": "2026-10-04T15:01:25Z",
   "total_events": 100,
   "events_with_publishable_images": 97,
   "events_still_missing_images": 3,
   "stats": {
-    "generic_images_cleared": 53,
-    "enriched": 58,
+    "generic_images_cleared": 63,
+    "enriched": 44,
     "missing": 3,
-    "kept_existing": 20,
-    "reused_by_title": 19
+    "kept_existing": 34,
+    "reused_by_title": 19,
+    "from_source_listing": 1
   },
   "missing_by_source": {
     "mishkan_smarticket": 1,
