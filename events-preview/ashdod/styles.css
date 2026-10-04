@@ -626,3 +626,32 @@ main{position:relative;z-index:3}
   line-height:1.5;
 }
 .purchaseNote[hidden]{display:none!important}
+
+@media(min-width:1100px){
+  .eventsGrid{
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:15px;
+  }
+  .eventMedia{height:152px}
+  .eventBody{padding:15px 15px 16px}
+  .eventBody h3{
+    font-size:18px;
+    min-height:45px;
+  }
+  .eventInfo__row{font-size:13px}
+  .eventFooter{margin-top:14px;padding-top:12px}
+  .price{font-size:15px}
+  .dateChip{
+    min-width:49px;
+    right:9px;
+    bottom:9px;
+    padding:5px 6px;
+  }
+  .dateChip b{font-size:19px}
+  .dateChip span{font-size:11px}
+  .heart{
+    width:36px;height:36px;
+    top:10px;left:10px;
+    font-size:20px;
+  }
+}
