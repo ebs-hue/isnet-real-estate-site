@@ -286,69 +286,64 @@ main{position:relative;z-index:3}
 .featureCard:first-child{grid-row:span 2}
 .mediaWrap{position:relative}
 .featureMedia,.eventMedia,.modal__media{
-  position:relative;overflow:hidden;
-  background:linear-gradient(135deg,#163f72,#2e83d9);
-}
-.featureMedia,.eventMedia,.modal__media{
-  position:relative;overflow:hidden;
+  position:relative;
+  overflow:hidden;
   background:#101827;
 }
-.featureMedia{height:190px}
-.eventMedia{height:166px}
-
+.featureMedia{
+  aspect-ratio:4/3;
+  height:auto;
+}
+.eventMedia{
+  aspect-ratio:4/3;
+  height:auto;
+}
 .eventArtStage{
-  position:absolute;inset:0;z-index:2;
-  display:grid;place-items:center;overflow:hidden;
+  position:absolute;
+  inset:0;
+  z-index:2;
+  display:grid;
+  place-items:center;
+  overflow:hidden;
   background:#111827;
 }
-.eventArtBackdrop{
-  position:absolute;inset:-12%;
-  width:124%;height:124%;
+
+/* Cards always receive a pre-composed 4:3 thumbnail. This is the same
+   principle used by mature event boards: normalize the artwork once, then
+   let every card render it edge-to-edge without ad-hoc cropping. */
+.eventArtStage.is-thumbnail .eventArtThumb{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
   object-fit:cover;
-  filter:blur(22px) brightness(.48) saturate(1.08);
-  transform:scale(1.05);
-  opacity:.92;
-}
-.eventArtStage:after{
-  content:"";position:absolute;inset:0;z-index:1;
-  background:
-    linear-gradient(90deg,rgba(6,12,24,.30),transparent 24%,transparent 76%,rgba(6,12,24,.30)),
-    linear-gradient(180deg,rgba(5,12,23,.05),rgba(5,12,23,.18));
-  pointer-events:none;
-}
-.eventArtMain{
-  position:relative!important;z-index:2!important;
-  display:block!important;
-  object-position:center!important;
-  transform:none!important;
+  object-position:center;
+  display:block;
 }
 
-/* Horizontal photography should feel native to the card: it fills the new 2:1 strip. */
-.media-landscape .eventArtBackdrop{display:none}
-.media-landscape .eventArtStage:after{
-  background:linear-gradient(180deg,rgba(5,12,23,.02),rgba(5,12,23,.10));
+/* The modal keeps the full original artwork. */
+.modal__media .eventArtStage.is-full-image{
+  background:#0d1624;
 }
-.media-landscape .eventArtMain{
-  width:100%!important;height:100%!important;
-  object-fit:cover!important;
-  filter:none;
+.modal__media .eventArtFull{
+  position:relative;
+  z-index:2;
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  display:block;
 }
-
-/* Portrait posters stay fully visible, like a real poster mounted over a soft
-   extension of the same artwork. */
-.media-portrait .eventArtMain{
-  width:auto!important;height:100%!important;
-  max-width:58%!important;
-  object-fit:contain!important;
-  filter:drop-shadow(0 8px 16px rgba(0,0,0,.28));
-}
-.media-square .eventArtMain{
-  width:auto!important;height:100%!important;
-  max-width:76%!important;
-  object-fit:contain!important;
-  filter:drop-shadow(0 8px 16px rgba(0,0,0,.24));
+.modal__media .eventArtStage.is-full-image:before{
+  content:"";
+  position:absolute;
+  inset:-12%;
+  background:var(--modal-art-bg,linear-gradient(135deg,#0d1624,#1d2b3d));
+  opacity:.65;
 }
 .has-source-image .category-fallback{display:none}
+
+.category-fallback{display:none}
 
 .category-fallback{
   position:absolute;inset:0;z-index:0;
@@ -589,8 +584,6 @@ main{position:relative;z-index:3}
   .categoryCard__arrow{position:absolute;left:12px;bottom:12px}
   .discoverGrid,.eventsGrid{grid-template-columns:1fr}
   .featureCard:first-child{grid-column:auto}
-  .featureMedia{height:190px}
-  .eventMedia{height:180px}
   .featureBody h3{font-size:22px}
   .eventBody h3{font-size:20px;min-height:auto}
   .resultsTop{display:block}
@@ -632,7 +625,6 @@ main{position:relative;z-index:3}
     grid-template-columns:repeat(4,minmax(0,1fr));
     gap:15px;
   }
-  .eventMedia{height:152px}
   .eventBody{padding:15px 15px 16px}
   .eventBody h3{
     font-size:18px;
