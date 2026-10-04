@@ -59,6 +59,38 @@ GOOD_META_KEYS = {
     "og:image", "og:image:url", "twitter:image", "twitter:image:src",
 }
 
+GENERIC_IMAGE_FRAGMENTS = (
+    "/languages/il.gif",
+    "artistshadow",
+    "/images/live/more/eventnew.jpg",
+    "eventnew.jpg",
+    "placeholder",
+    "no-image",
+    "no_image",
+    "noimage",
+    "default-image",
+    "default_image",
+    "blank.gif",
+    "spacer.gif",
+    "transparent.gif",
+    "favicon",
+    "/logo",
+    "logo.",
+    "/icons/",
+    "/icon/",
+)
+
+def is_generic_image_url(url: str) -> bool:
+    low = html.unescape(url or "").lower()
+    return (not low) or any(x in low for x in GENERIC_IMAGE_FRAGMENTS)
+
+def has_event_image_signal(url: str) -> bool:
+    low = html.unescape(url or "").lower()
+    return any(x in low for x in (
+        "/uploads/", "/thumbs/", "/caps/", "livenew_", "/events/", "/event/",
+        "/images/events/", "/images/event/", "poster", "banner",
+    ))
+
 
 def normalize_text(value: str) -> str:
     value = html.unescape(value or "")
@@ -89,13 +121,18 @@ def requote_url(url: str) -> str:
     return urlunsplit((parts.scheme, parts.netloc, path, query, fragment))
 
 
-def fetch_bytes(url: str, *, range_bytes: Optional[int] = None) -> Tuple[bytes, str, str]:
+def fetch_bytes(
+    url: str,
+    *,
+    range_bytes: Optional[int] = None,
+    referer: Optional[str] = None,
+) -> Tuple[bytes, str, str]:
     url = requote_url(url)
     headers = {
         "User-Agent": USER_AGENT,
         "Accept-Language": "he-IL,he;q=0.9,en;q=0.7",
         "Accept": "text/html,application/xhtml+xml,image/avif,image/webp,image/apng,image/*,*/*;q=0.8",
-        "Referer": url,
+        "Referer": requote_url(referer or url),
     }
     if range_bytes:
         headers["Range"] = f"bytes=0-{range_bytes - 1}"
@@ -121,22 +158,27 @@ def fetch_html(url: str) -> Tuple[str, str]:
     return text, final_url
 
 
-def verify_image(url: str) -> bool:
+def verify_image(url: str, referer: Optional[str] = None) -> bool:
+    if is_generic_image_url(url):
+        return False
     try:
-        data, ctype, _ = fetch_bytes(url, range_bytes=65536)
+        data, ctype, _ = fetch_bytes(url, range_bytes=131072, referer=referer)
         if ctype.startswith("image/"):
-            return len(data) > 300
-        # Some CDNs answer octet-stream; inspect common signatures.
+            return len(data) > 800
         return (
-            data.startswith(b"\xff\xd8\xff")
-            or data.startswith(b"\x89PNG\r\n\x1a\n")
-            or data.startswith(b"RIFF") and b"WEBP" in data[:16]
+            len(data) > 800 and (
+                data.startswith(b"\xff\xd8\xff")
+                or data.startswith(b"\x89PNG\r\n\x1a\n")
+                or (data.startswith(b"RIFF") and b"WEBP" in data[:16])
+                or data.lstrip().startswith(b"<svg")
+            )
         )
     except Exception:
         return False
 
 
 @dataclass
+class Link:@dataclass
 class Link:
     href: str
     text: str
@@ -156,6 +198,7 @@ class PageParser(HTMLParser):
         self.links: List[Link] = []
         self.images: List[Dict[str, str]] = []
         self.meta: List[Dict[str, str]] = []
+        self.styled: List[Dict[str, str]] = []
         self._anchor_href: Optional[str] = None
         self._anchor_text: List[str] = []
 
@@ -165,10 +208,12 @@ class PageParser(HTMLParser):
         if tag == "a":
             self._anchor_href = a.get("href")
             self._anchor_text = []
-        elif tag == "img":
+        elif tag in ("img", "source"):
             self.images.append(a)
         elif tag == "meta":
             self.meta.append(a)
+        if a.get("style"):
+            self.styled.append(a)
 
     def handle_data(self, data: str) -> None:
         if self._anchor_href is not None:
@@ -263,25 +308,37 @@ def image_candidates(title: str, page_url: str, markup: str) -> List[ImageCandid
     title_norm = normalize_text(title)
     toks = set(title_tokens(title))
 
-    # Highest-confidence sources: OpenGraph/Twitter image metadata on event page.
+    def add(url: str, alt: str, score: float, reason: str) -> None:
+        u = urljoin(page_url, html.unescape((url or "").strip().strip("'\"")))
+        if not u or u.startswith(("data:", "blob:")) or is_generic_image_url(u):
+            return
+        low = u.lower()
+        if low.endswith(".svg") and "event" not in low:
+            return
+        if has_event_image_signal(u):
+            score += 45
+        if "/uploads/" in low:
+            score += 25
+        if "/thumbs/" in low or "/caps/" in low:
+            score += 18
+        result.append(ImageCandidate(u, alt, score, reason))
+
+    # Event-page metadata is high confidence, but still passes the generic filter.
     for m in parser.meta:
         key = (m.get("property") or m.get("name") or "").lower()
         content = m.get("content") or ""
         if key in GOOD_META_KEYS and content:
-            u = urljoin(page_url, html.unescape(content))
-            result.append(ImageCandidate(u, "", 100.0, key))
+            add(content, "", 100.0, key)
         elif (m.get("itemprop") or "").lower() == "image" and content:
-            u = urljoin(page_url, html.unescape(content))
-            result.append(ImageCandidate(u, "", 92.0, "itemprop:image"))
+            add(content, "", 92.0, "itemprop:image")
 
+    # Standard and lazy-loaded <img>/<source> assets.
     for img in parser.images:
         alt = " ".join(filter(None, [img.get("alt"), img.get("title"), img.get("aria-label")]))
         nalt = normalize_text(alt)
         for u in choose_src(img, page_url):
             low = u.lower()
-            if any(word in low for word in BAD_IMAGE_WORDS):
-                continue
-            if low.endswith(".svg"):
+            if any(word in low for word in BAD_IMAGE_WORDS) and not has_event_image_signal(u):
                 continue
             score = 25.0
             if title_norm and nalt:
@@ -294,21 +351,37 @@ def image_candidates(title: str, page_url: str, markup: str) -> List[ImageCandid
             w = img.get("width") or ""
             h = img.get("height") or ""
             try:
-                wi, hi = int(re.sub(r"\D", "", w) or 0), int(re.sub(r"\D", "", h) or 0)
+                wi = int(re.sub(r"\D", "", w) or 0)
+                hi = int(re.sub(r"\D", "", h) or 0)
                 if wi >= 300 and hi >= 180:
                     score += 8
                 if wi and hi and (wi < 120 or hi < 80):
-                    score -= 20
+                    score -= 30
             except ValueError:
                 pass
-            result.append(ImageCandidate(u, alt, score, "img"))
+            add(u, alt, score, "img")
 
-    # Deduplicate preserving strongest score.
+    # Background images and image URLs embedded in inline JSON/scripts.
+    for attrs in parser.styled:
+        style = html.unescape(attrs.get("style") or "")
+        for m in re.finditer(r"url\(([^)]+)\)", style, flags=re.I):
+            add(m.group(1), attrs.get("title") or attrs.get("aria-label") or "", 48.0, "css-background")
+
+    raw_patterns = [
+        r'''(?P<u>https?://[^"'<>\s\\]+\.(?:jpe?g|png|webp|gif)(?:\?[^"'<>\s\\]*)?)''',
+        r'''(?P<u>//[^"'<>\s\\]+\.(?:jpe?g|png|webp|gif)(?:\?[^"'<>\s\\]*)?)''',
+        r'''(?P<u>/[^"'<>\s\\]*(?:uploads|caps|events?)[^"'<>\s\\]*\.(?:jpe?g|png|webp|gif)(?:\?[^"'<>\s\\]*)?)''',
+    ]
+    decoded_markup = html.unescape(markup)
+    for pattern in raw_patterns:
+        for m in re.finditer(pattern, decoded_markup, flags=re.I):
+            add(m.group("u"), "", 42.0, "raw-html")
+
     best: Dict[str, ImageCandidate] = {}
-    for c in result:
-        old = best.get(c.url)
-        if old is None or c.score > old.score:
-            best[c.url] = c
+    for cand in result:
+        old = best.get(cand.url)
+        if old is None or cand.score > old.score:
+            best[cand.url] = cand
     return sorted(best.values(), key=lambda x: -x.score)
 
 
@@ -341,6 +414,15 @@ def main() -> int:
         except (HTTPError, URLError, TimeoutError, OSError, UnicodeError, ValueError) as exc:
             cache[url] = ("", url)
             return None
+
+    # Remove generic assets accidentally selected by older enrichment runs.
+    for event in events:
+        if event.get("image_url") and is_generic_image_url(event.get("image_url") or ""):
+            event["image_url"] = None
+            event["image_source"] = None
+            event["image_credit"] = None
+            event["image_publishable"] = False
+            stats["generic_images_cleared"] += 1
 
     for idx, event in enumerate(events, 1):
         if event.get("image_url") and event.get("image_publishable") is True:
@@ -391,11 +473,20 @@ def main() -> int:
                 continue
             markup, final_page = loaded
             imgs = image_candidates(title, final_page, markup)
-            tried.append({"url": final_page, "images_found": len(imgs)})
-            for cand in imgs[:8]:
+            tried.append({
+                "url": final_page,
+                "images_found": len(imgs),
+                "top_candidates": [
+                    {"url": x.url, "score": round(x.score, 1), "reason": x.reason}
+                    for x in imgs[:5]
+                ],
+            })
+            for cand in imgs[:12]:
                 if not is_source_image_allowed(final_page, cand.url, recorded_sources):
                     continue
-                if verify_image(cand.url):
+                verified = verify_image(cand.url, referer=final_page)
+                trusted_source_asset = has_event_image_signal(cand.url) and cand.score >= 65
+                if verified or trusted_source_asset:
                     selected = (cand.url, final_page)
                     break
             if selected:
