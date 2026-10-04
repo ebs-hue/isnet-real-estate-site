@@ -1,0 +1,54 @@
+{
+  "music": {
+    "label": "הופעות ומוזיקה",
+    "image": "assets/defaults/music.jpg"
+  },
+  "standup": {
+    "label": "סטנדאפ",
+    "image": "assets/defaults/standup.jpg"
+  },
+  "theatre": {
+    "label": "הצגות ותיאטרון",
+    "image": "assets/defaults/theatre.jpg"
+  },
+  "kids": {
+    "label": "ילדים ומשפחה",
+    "image": "assets/defaults/kids.jpg"
+  },
+  "lecture": {
+    "label": "הרצאות וכנסים",
+    "image": "assets/defaults/lecture.jpg"
+  },
+  "exhibition": {
+    "label": "תערוכות ואמנות",
+    "image": "assets/defaults/exhibition.jpg"
+  },
+  "workshop": {
+    "label": "סדנאות ויצירה",
+    "image": "assets/defaults/workshop.jpg"
+  },
+  "cinema": {
+    "label": "קולנוע",
+    "image": "assets/defaults/cinema.jpg"
+  },
+  "festival": {
+    "label": "פסטיבלים ואירועי חוץ",
+    "image": "assets/defaults/festival.jpg"
+  },
+  "community": {
+    "label": "אירועים קהילתיים",
+    "image": "assets/defaults/festival.jpg"
+  },
+  "sport": {
+    "label": "ספורט ופעילות",
+    "image": "assets/defaults/festival.jpg"
+  },
+  "tour": {
+    "label": "סיורים",
+    "image": "assets/defaults/exhibition.jpg"
+  },
+  "other": {
+    "label": "עוד אירועים",
+    "image": "assets/defaults/music.jpg"
+  }
+}
