@@ -291,101 +291,100 @@ main{position:relative;z-index:3}
 }
 .featureMedia{height:242px}
 .eventMedia{height:194px}
-.featureMedia img,.eventMedia img,.modal__media img{
-  width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:2;
-  transition:transform .35s ease,opacity .25s ease;
+.featureMedia,.eventMedia,.modal__media{
+  position:relative;overflow:hidden;
+  background:#101827;
 }
+.featureMedia{height:252px}
+.eventMedia{height:210px}
 
-/* Real event artwork is never cropped. The fixed card frame is filled by a
-   soft backdrop made from the same image, while the poster/photo itself stays
-   fully visible with object-fit: contain. */
-.featureMedia.has-source-image,
-.eventMedia.has-source-image,
-.modal__media.has-source-image{
-  background:linear-gradient(135deg,#eef2f7,#dce5ef);
-  isolation:isolate;
+.eventArtStage{
+  position:absolute;inset:0;z-index:2;
+  display:grid;place-items:center;overflow:hidden;
+  background:#111827;
 }
-.featureMedia.has-source-image:before,
-.eventMedia.has-source-image:before,
-.modal__media.has-source-image:before{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:0;
-  background:linear-gradient(135deg,rgba(255,255,255,.72),rgba(216,226,238,.82));
+.eventArtBackdrop{
+  position:absolute;inset:-12%;
+  width:124%;height:124%;
+  object-fit:cover;
+  filter:blur(22px) brightness(.48) saturate(1.08);
+  transform:scale(1.05);
+  opacity:.92;
+}
+.eventArtStage:after{
+  content:"";position:absolute;inset:0;z-index:1;
+  background:
+    linear-gradient(90deg,rgba(6,12,24,.30),transparent 24%,transparent 76%,rgba(6,12,24,.30)),
+    linear-gradient(180deg,rgba(5,12,23,.05),rgba(5,12,23,.18));
   pointer-events:none;
 }
-.featureMedia.has-source-image:after,
-.eventMedia.has-source-image:after,
-.modal__media.has-source-image:after{
-  content:"";
-  position:absolute;
-  inset:0;
-  z-index:1;
-  box-shadow:inset 0 0 0 1px rgba(22,45,73,.05);
-  pointer-events:none;
-}
-.featureMedia.has-source-image img,
-.eventMedia.has-source-image img,
-.modal__media.has-source-image img{
-  object-fit:contain;
-  object-position:center;
+.eventArtMain{
+  position:relative!important;z-index:2!important;
+  display:block!important;
+  object-fit:contain!important;object-position:center!important;
+  width:100%!important;height:100%!important;
+  max-width:100%;max-height:100%;
   transform:none!important;
-  z-index:2;
+  filter:drop-shadow(0 10px 18px rgba(0,0,0,.28));
 }
-.featureCard:hover .has-fallback-image img,
-.eventCard:hover .has-fallback-image img{transform:scale(1.035)}
+.media-portrait .eventArtMain{
+  width:66%!important;height:100%!important;
+}
+.media-square .eventArtMain{
+  width:84%!important;height:100%!important;
+}
+.media-landscape .eventArtMain{
+  width:100%!important;height:100%!important;
+}
+.has-source-image .category-fallback{display:none}
+
 .category-fallback{
   position:absolute;inset:0;z-index:0;
-  background:
-    radial-gradient(circle at 18% 20%,rgba(255,255,255,.25),transparent 22%),
-    linear-gradient(135deg,#123c6d,#2478ca);
+  display:grid;place-items:center;
+  overflow:hidden;
+  color:#fff;
+  background:linear-gradient(135deg,#13263b,#214a70);
 }
 .category-fallback:before{
-  content:"";
-  position:absolute;width:180px;height:180px;border:1px solid rgba(255,255,255,.16);
-  border-radius:50%;left:-35px;top:-50px;
+  content:"";position:absolute;inset:-35%;
+  background:
+    radial-gradient(circle at 25% 28%,rgba(255,255,255,.16),transparent 24%),
+    radial-gradient(circle at 76% 64%,rgba(255,255,255,.09),transparent 25%);
+  transform:rotate(-8deg);
 }
 .category-fallback:after{
-  content:"";
-  position:absolute;inset:0;
-  background:linear-gradient(0deg,rgba(4,19,37,.46),transparent 60%);
+  content:"";position:absolute;inset:0;
+  background:
+    linear-gradient(135deg,transparent 0 46%,rgba(255,255,255,.045) 46% 47%,transparent 47% 100%),
+    linear-gradient(0deg,rgba(4,11,23,.28),transparent 55%);
 }
-/* Category artwork is also wired in CSS so cards never fall back to a generic blue tile. */
-.cat-music .category-fallback{
-  background:linear-gradient(0deg,rgba(6,19,38,.18),rgba(6,19,38,.05)),url("assets/defaults/music.svg") center/cover no-repeat,linear-gradient(135deg,#111827,#7c3aed);
+.fallbackMark{
+  position:relative;z-index:1;
+  font:800 64px/1 "Heebo",sans-serif;
+  color:rgba(255,255,255,.20);
+  transform:translateY(-8px);
 }
-.cat-standup .category-fallback{
-  background:linear-gradient(0deg,rgba(20,4,14,.18),rgba(20,4,14,.02)),url("assets/defaults/standup.svg") center/cover no-repeat,linear-gradient(135deg,#240b36,#991b1b);
+.fallbackLabel{
+  position:absolute;right:18px;bottom:15px;z-index:2;
+  font:800 14px "Heebo",sans-serif;
+  letter-spacing:-.15px;color:rgba(255,255,255,.92);
 }
-.cat-theatre .category-fallback{
-  background:linear-gradient(0deg,rgba(40,3,8,.18),rgba(40,3,8,.02)),url("assets/defaults/theatre.svg") center/cover no-repeat,linear-gradient(135deg,#4c0519,#991b1b);
-}
-.cat-kids .category-fallback{
-  background:linear-gradient(0deg,rgba(70,20,70,.12),rgba(70,20,70,.02)),url("assets/defaults/kids.svg") center/cover no-repeat,linear-gradient(135deg,#7c3aed,#f97316);
-}
-.cat-lecture .category-fallback{
-  background:linear-gradient(0deg,rgba(5,27,65,.16),rgba(5,27,65,.02)),url("assets/defaults/lecture.svg") center/cover no-repeat,linear-gradient(135deg,#0f172a,#0284c7);
-}
-.cat-exhibition .category-fallback{
-  background:linear-gradient(0deg,rgba(15,23,42,.10),rgba(15,23,42,0)),url("assets/defaults/exhibition.svg") center/cover no-repeat,linear-gradient(135deg,#e2e8f0,#c4b5fd);
-}
-.cat-workshop .category-fallback{
-  background:linear-gradient(0deg,rgba(35,15,70,.14),rgba(35,15,70,.02)),url("assets/defaults/workshop.svg") center/cover no-repeat,linear-gradient(135deg,#312e81,#f97316);
-}
-.cat-cinema .category-fallback{
-  background:linear-gradient(0deg,rgba(4,7,24,.18),rgba(4,7,24,.02)),url("assets/defaults/cinema.svg") center/cover no-repeat,linear-gradient(135deg,#111827,#4338ca);
-}
-.cat-festival .category-fallback,.cat-community .category-fallback,.cat-sport .category-fallback{
-  background:linear-gradient(0deg,rgba(6,14,40,.14),rgba(6,14,40,.02)),url("assets/defaults/festival.svg") center/cover no-repeat,linear-gradient(135deg,#172554,#f97316);
-}
-.cat-tour .category-fallback{
-  background:linear-gradient(0deg,rgba(15,23,42,.10),rgba(15,23,42,0)),url("assets/defaults/exhibition.svg") center/cover no-repeat,linear-gradient(135deg,#155e75,#8b5cf6);
-}
-.cat-other .category-fallback{
-  background:linear-gradient(0deg,rgba(6,19,38,.18),rgba(6,19,38,.05)),url("assets/defaults/music.svg") center/cover no-repeat,linear-gradient(135deg,#0f172a,#2563eb);
-}
+.cat-music .category-fallback{background:linear-gradient(135deg,#18253f,#3f2b69 58%,#6d3d62)}
+.cat-standup .category-fallback{background:linear-gradient(135deg,#2c1720,#6b2632 58%,#8a3b2d)}
+.cat-theatre .category-fallback{background:linear-gradient(135deg,#311821,#762733 58%,#9b3a32)}
+.cat-kids .category-fallback{background:linear-gradient(135deg,#17384b,#355a67 52%,#65506f)}
+.cat-lecture .category-fallback{background:linear-gradient(135deg,#132b3f,#1f526c 58%,#315f76)}
+.cat-exhibition .category-fallback{background:linear-gradient(135deg,#27313b,#4e5c68 55%,#6b5c65)}
+.cat-workshop .category-fallback{background:linear-gradient(135deg,#2e2740,#5f4667 58%,#79566a)}
+.cat-cinema .category-fallback{background:linear-gradient(135deg,#181c31,#303c68 58%,#4c4668)}
+.cat-festival .category-fallback,.cat-community .category-fallback,.cat-sport .category-fallback{background:linear-gradient(135deg,#17333b,#315b58 55%,#67604f)}
+.cat-tour .category-fallback{background:linear-gradient(135deg,#17353b,#35606a 58%,#4f6673)}
+.cat-other .category-fallback{background:linear-gradient(135deg,#18283a,#314a66 58%,#5b5269)}
 
+.featureCard:hover,.eventCard:hover{
+  transform:translateY(-5px);
+}
+.eventArtMain,.eventArtBackdrop{transition:none!important}
 .heart{
   position:absolute;top:12px;left:12px;z-index:4;
   width:40px;height:40px;border:0;border-radius:50%;
