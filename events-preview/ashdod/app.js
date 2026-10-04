@@ -43,16 +43,21 @@ function mediaHTML(e,cls="eventMedia"){
 }
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function eventCard(e){
-  return '<article class="eventCard" data-event="'+e.event_id+'">'+mediaHTML(e)+
+  const d=localDate(e.start_date);
+  const dateChip='<div class="dateChip"><b>'+d.getDate()+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></div>';
+  return '<article class="eventCard" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChip+'</div>'+
     '<div class="eventBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
-    '<h3>'+escapeHtml(e.title)+'</h3><div class="meta"><span>◷ '+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
-    '<div class="meta"><span>⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</span></div>'+
-    '<div class="eventFooter"><div class="price">'+escapeHtml(priceText(e))+'</div><span class="linkCue">לפרטים ←</span></div></div></article>';
+    '<h3>'+escapeHtml(e.title)+'</h3>'+
+    '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(fmtFull.format(d))+' · '+escapeHtml(formatTime(e.start_time))+'</span></span>'+
+    '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
+    '<div class="eventFooter"><div class="price">'+escapeHtml(priceText(e))+'</div><span class="linkCue">לפרטים <b>←</b></span></div></div></article>';
 }
 function featureCard(e){
   return '<article class="featureCard" data-event="'+e.event_id+'">'+mediaHTML(e,"featureMedia")+
     '<div class="featureBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
-    '<h3>'+escapeHtml(e.title)+'</h3><div class="meta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>'+escapeHtml(formatTime(e.start_time))+'</span><span>'+escapeHtml(e.venue||"")+'</span></div></div></article>';
+    '<h3>'+escapeHtml(e.title)+'</h3>'+
+    '<div class="featureMeta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>·</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
+    '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
 }
 
 function matchesQuick(e){
@@ -170,7 +175,12 @@ function renderDates(){
 function renderCategories(){
   const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
   const counts={};state.events.forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
-  $("categoryGrid").innerHTML=cats.map(c=>'<button class="categoryCard '+(state.category===c?"is-active":"")+'" data-cat="'+c+'"><span>'+catIcons[c]+' '+catLabels[c]+' <small>('+((counts[c]||0))+')</small></span></button>').join("");
+  $("categoryGrid").innerHTML=cats.map(c=>
+    '<button class="categoryCard '+(state.category===c?"is-active":"")+'" data-cat="'+c+'">'+
+      '<span class="categoryCard__icon">'+catIcons[c]+'</span>'+
+      '<span class="categoryCard__copy"><b>'+catLabels[c]+'</b><small>'+((counts[c]||0))+' אירועים</small></span>'+
+      '<span class="categoryCard__arrow">←</span>'+
+    '</button>').join("");
 }
 function discoverEvents(){
   const upcoming=state.events.filter(e=>localDate(e.start_date)>=today()&&e.ticket_status!=="sold_out");
