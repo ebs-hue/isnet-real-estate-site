@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07162b">
+  <title>מה עושים באשדוד? | ISNET Events</title>
+  <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__glow"></div>
+    <div class="shell">
+      <div class="brand"><span class="brand__dot"></span><span>אשדוד נט</span><b>EVENTS</b></div>
+      <div class="hero__content">
+        <p class="eyebrow">העיר שלך. הזמן שלך.</p>
+        <h1>מה עושים באשדוד?</h1>
+        <p class="hero__lead">כל מה ששווה לצאת בשבילו, במקום אחד.</p>
+        <div class="searchBox">
+          <span class="searchBox__icon">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="חפשו אמן, מופע, מקום או משהו לעשות...">
+          <button id="clearSearch" class="searchBox__clear" aria-label="נקה חיפוש">×</button>
+        </div>
+        <div id="quickFilters" class="quickFilters">
+          <button data-quick="all" class="is-active">הכול</button>
+          <button data-quick="today">היום</button>
+          <button data-quick="tomorrow">מחר</button>
+          <button data-quick="weekend">סוף השבוע</button>
+          <button data-quick="week">השבוע</button>
+          <button data-quick="month">החודש</button>
+          <button data-quick="free">חינם</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="section dateSection">
+      <div class="sectionHead">
+        <div><span class="sectionHead__kicker">בחרו יום</span><h2>מה קורה בקרוב?</h2></div>
+        <button id="resetDate" class="textButton">כל התאריכים</button>
+      </div>
+      <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
+    </section>
+
+    <section class="section">
+      <div class="sectionHead">
+        <div><span class="sectionHead__kicker">לפי מצב הרוח</span><h2>מה בא לכם?</h2></div>
+      </div>
+      <div id="categoryGrid" class="categoryGrid"></div>
+    </section>
+
+    <section id="discoverSection" class="section discover">
+      <div class="sectionHead">
+        <div><span class="sectionHead__kicker">הבחירות שלנו</span><h2 id="discoverTitle">כדאי לראות עכשיו</h2></div>
+        <button id="shuffleDiscover" class="textButton">תפתיעו אותי</button>
+      </div>
+      <div id="discoverGrid" class="discoverGrid"></div>
+    </section>
+
+    <section class="section results">
+      <div class="resultsTop">
+        <div>
+          <span class="sectionHead__kicker">כל האפשרויות</span>
+          <h2>אירועים באשדוד</h2>
+          <p id="resultCount" class="muted"></p>
+        </div>
+        <div class="resultsActions">
+          <button id="favoritesOnly" class="pillAction" aria-pressed="false">♡ המועדפים שלי</button>
+          <select id="sortSelect" class="sortSelect" aria-label="מיון אירועים">
+            <option value="date">הקרובים ביותר</option>
+            <option value="priceLow">מחיר נמוך</option>
+            <option value="priceHigh">מחיר גבוה</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="activeFilters" class="activeFilters"></div>
+      <div id="eventsGrid" class="eventsGrid"></div>
+      <div id="emptyState" class="emptyState" hidden>
+        <div class="emptyState__icon">◌</div>
+        <h3>לא מצאנו בדיוק את זה</h3>
+        <p>נסו להסיר מסנן או לבחור תאריך אחר.</p>
+        <button id="resetAll" class="primaryButton">הציגו את כל האירועים</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="eventModal" class="modal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <article class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close-modal aria-label="סגירה">×</button>
+      <div id="modalMedia" class="modal__media"></div>
+      <div class="modal__body">
+        <div id="modalBadges" class="badges"></div>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription" class="modal__description"></p>
+        <div id="modalFacts" class="modal__facts"></div>
+        <div class="modal__actions">
+          <a id="modalTicket" class="primaryButton" target="_blank" rel="noopener">לפרטים וכרטיסים</a>
+          <button id="modalFavorite" class="secondaryButton">♡ שמירה למועדפים</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div><strong>מה עושים באשדוד?</strong><span>מוצר של אשדוד נט מבית ISNET</span></div>
+      <span>המידע נאסף ממקורות רשמיים ומערכות כרטיסים. מומלץ לאמת פרטים לפני הגעה.</span>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
