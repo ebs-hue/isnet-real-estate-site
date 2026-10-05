@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:false,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -438,6 +438,14 @@ function resetCalendarToToday(){
 }
 function renderDates(){
   ensureCalendarState();
+  const calendarBox=$("calendarBox"),resetButton=$("resetDate");
+  if(calendarBox)calendarBox.hidden=state.calendarCollapsed;
+  if(resetButton){
+    resetButton.textContent=state.calendarCollapsed?"בחר תאריך":"כל התאריכים";
+    resetButton.classList.toggle("calendarOpenButton",state.calendarCollapsed);
+  }
+  if(state.calendarCollapsed)return;
+
   const rail=$("dateRail"),monthGrid=$("monthGrid"),weekBox=$("weekCalendar"),monthBox=$("monthCalendar");
   const label=$("calendarPeriodLabel"),select=$("calendarMonthSelect");
   if(!rail||!monthGrid||!weekBox||!monthBox||!label||!select)return;
@@ -672,7 +680,7 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
+function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.calendarCollapsed=true;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
@@ -699,11 +707,20 @@ async function init(){
     state.periodEnd=null;
     state.periodType=null;
     state.quick="all";
+    state.calendarCollapsed=true;
     resetCalendarToToday();
     render();
     requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
   };
-  $("resetDate").onclick=clearCalendarSelection;
+  $("resetDate").onclick=()=>{
+    if(state.calendarCollapsed){
+      state.calendarCollapsed=false;
+      renderDates();
+      requestAnimationFrame(()=>$("calendarBox")?.scrollIntoView({behavior:"smooth",block:"nearest"}));
+      return;
+    }
+    clearCalendarSelection();
+  };
   $("calendarAllDates").onclick=clearCalendarSelection;
   $("weekViewButton").onclick=()=>{
     state.calendarMode="week";
@@ -736,6 +753,7 @@ async function init(){
   };
   $("calendarApply").onclick=()=>{
     ensureCalendarState();
+    state.calendarCollapsed=false;
     state.date=null;
     state.quick="all";
     if(state.calendarMode==="week"){
