@@ -246,3 +246,15 @@ a{text-decoration:none;color:inherit}
 }
 .sportHeroFallback strong{font:900 25px "Heebo",sans-serif;color:#fff}
 .sportHeroFallback small{font-size:13px;font-weight:800;color:#d8fff1}
+
+.scheduleVariant{
+  display:inline-flex;
+  width:max-content;
+  max-width:100%;
+  margin:4px 0 1px;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#edf6ff;
+  color:#1c5e97;
+  font:800 12px "Heebo",sans-serif;
+}
