@@ -15,6 +15,13 @@ function normalizeSearch(s){
     .replace(/[״"'׳.,!?():;\/\-–—]/g," ")
     .replace(/\s+/g," ").trim();
 }
+function eventGroupKey(e){
+  if(e?.series_id)return "series:"+String(e.series_id);
+  return normalizeSearch(e?.title||"");
+}
+function eventDisplayTitle(e){
+  return e?.series_title||e?.title||"אירוע";
+}
 function localDate(s){const [y,m,d]=String(s||"").split("-").map(Number);return new Date(y,m-1,d)}
 function formatTime(t){return t||"השעה תפורסם"}
 function priceText(e){
@@ -85,7 +92,7 @@ function richEvent(occ){
 function uniqueByTitle(events){
   const seen=new Set(),out=[];
   for(const e of events){
-    const k=normalizeSearch(e.title);
+    const k=eventGroupKey(e);
     if(seen.has(k))continue;
     seen.add(k);out.push(e);
   }
@@ -164,8 +171,9 @@ function autoSuitability(e){
 }
 
 function renderHero(e,occ,imageEvent){
-  document.title=e.title+" | מה עושים באשדוד?";
-  const desc=e.short_pitch||e.description||autoPitch(e);
+  const displayTitle=eventDisplayTitle(e);
+  document.title=displayTitle+" | מה עושים באשדוד?";
+  const desc=e.short_pitch||e.series_description||e.description||autoPitch({...e,title:displayTitle});
   document.querySelector('meta[name="description"]').setAttribute("content",desc);
 
   const sportBadge=e.category==="sport"?sportBranchMeta(e):null;
@@ -173,8 +181,8 @@ function renderHero(e,occ,imageEvent){
     '<span class="badge accent">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+
     (sportBadge?'<span class="badge">'+escapeHtml(sportBadge.icon)+' '+escapeHtml(sportBadge.label)+'</span>':"")+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים באשדוד</span>':"");
-  $("eventTitle").textContent=e.title;
-  $("eventPitch").textContent=e.short_pitch||e.description||autoPitch(e);
+  $("eventTitle").textContent=displayTitle;
+  $("eventPitch").textContent=e.short_pitch||e.series_description||e.description||autoPitch({...e,title:displayTitle});
 
   const venues=[...new Set(occ.map(x=>x.venue).filter(Boolean))];
   const dates=[...new Set(occ.map(x=>x.start_date).filter(Boolean))];
@@ -186,9 +194,9 @@ function renderHero(e,occ,imageEvent){
 
   if(trustedImage(imageEvent)){
     const src=imageEvent.thumbnail_ready&&imageEvent.thumbnail_url?imageEvent.thumbnail_url:imageEvent.image_url;
-    $("heroImage").innerHTML='<img src="'+escapeHtml(src)+'" alt="'+escapeHtml(e.title)+'">';
+    $("heroImage").innerHTML='<img src="'+escapeHtml(src)+'" alt="'+escapeHtml(eventDisplayTitle(e))+'">';
   }else{
-    $("heroImage").innerHTML=isRepresentativeHomeGame(e)?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(e.title)+'</div>';
+    $("heroImage").innerHTML=isRepresentativeHomeGame(e)?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(eventDisplayTitle(e))+'</div>';
   }
 
   const action=groupPurchaseAction(occ);
@@ -205,7 +213,7 @@ function renderHero(e,occ,imageEvent){
 }
 
 function renderStory(e,occ){
-  const paras=splitParagraphs(e.long_description||e.description);
+  const paras=splitParagraphs(e.long_description||e.series_description||e.description);
   const story=paras.length?paras:autoStory(e);
   $("eventStory").innerHTML=story.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
 
@@ -253,6 +261,7 @@ function renderSchedule(occ){
     return '<div class="scheduleItem">'+
       '<div class="scheduleDate"><b>'+String(d.getDate()).padStart(2,"0")+'</b><span>'+escapeHtml(fmtMonth.format(d))+'</span></div>'+
       '<div class="scheduleCopy"><b>'+escapeHtml(fmtFull.format(d))+'</b>'+
+        (e.variant_label?'<strong class="scheduleVariant">'+escapeHtml(e.variant_label)+'</strong>':"")+
         '<span>'+escapeHtml(formatTime(e.start_time))+' · '+escapeHtml(e.venue||"המיקום יפורסם")+'</span>'+
         (own?'<a class="scheduleBuy" href="'+escapeHtml(own.href)+'" '+(own.kind==="url"?'target="_blank" rel="noopener"':'')+'>לפרטים ורכישה ←</a>':"")+
       '</div>'+
@@ -282,9 +291,9 @@ function renderPractical(e,occ){
 }
 
 function renderRelated(current,all){
-  const currentKey=normalizeSearch(current.title);
+  const currentKey=eventGroupKey(current);
   const related=uniqueByTitle(
-    all.filter(e=>normalizeSearch(e.title)!==currentKey&&e.category===current.category)
+    all.filter(e=>eventGroupKey(e)!==currentKey&&e.category===current.category)
       .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")))
   ).slice(0,3);
 
@@ -293,7 +302,7 @@ function renderRelated(current,all){
     const img=e.thumbnail_ready&&e.thumbnail_url?e.thumbnail_url:(trustedImage(e)?e.image_url:null);
     return '<a class="relatedCard" href="'+directEventUrl(e.event_id)+'">'+
       '<div class="relatedCard__media">'+(img?'<img src="'+escapeHtml(img)+'" alt="">':'')+'</div>'+
-      '<div class="relatedCard__body"><h3>'+escapeHtml(e.title)+'</h3><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span></div>'+
+      '<div class="relatedCard__body"><h3>'+escapeHtml(eventDisplayTitle(e))+'</h3><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span></div>'+
     '</a>';
   }).join("");
 }
@@ -303,15 +312,15 @@ async function init(){
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
     const [data,sports]=await Promise.all([
-      fetch("data/events.json?v=20261005-25").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
+      fetch("data/events.json?v=20261005-26").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
     const all=data.events||[];
     const base=all.find(e=>e.event_id===id);
     if(!base)throw new Error("event");
-    const key=normalizeSearch(base.title);
-    const occ=all.filter(e=>normalizeSearch(e.title)===key)
+    const key=eventGroupKey(base);
+    const occ=all.filter(e=>eventGroupKey(e)===key)
       .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
     const e=richEvent(occ);
     const imageEvent=bestImageEvent(occ);
