@@ -1,100 +1,81 @@
 {
-  "generated_at": "2026-10-05T04:31:57Z",
+  "generated_at": "2026-10-05T04:32:28Z",
   "total_events": 100,
-  "verified_images": 42,
-  "still_missing": 58,
+  "verified_images": 52,
+  "still_missing": 48,
   "stats": {
-    "accepted": 11,
-    "rejected_duplicate_across_titles": 10
+    "accepted": 10
   },
   "newly_filled": [
     {
-      "event_id": "evt_40_20261012",
-      "title": "אֻמִּי",
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp",
       "source": "https://live.tickchak.co.il/ashdod",
-      "image": "https://static.tickchak.co.il/all/liveNew_090TQxMncwFmSTZ0axFXQUJDaChGU40kQu_S90TUad3URZVcPB1NvMEe5V2ThN1YsN3c.webp_030929fa-1b13-4052-a82e-7aae5257d0b0.webp",
-      "strategy": "source_listing",
-      "score": 162.6
+      "score": 191.2
     },
     {
-      "event_id": "evt_43_20261015",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "source": "https://live.tickchak.co.il/ashdod",
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
       "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "strategy": "source_listing",
-      "score": 162.6
-    },
-    {
-      "event_id": "evt_47_20261022",
-      "title": "מוטי אהרונוביץ במופע סטנדאפ",
-      "source": "https://live.tickchak.co.il/standup",
-      "image": "https://static.tickchak.co.il/all/updateArtistImage_share_1785402983d90TQ1RWRJZWbBFXc5sCaykGN1NmbmFlS__jhdyNZRw25l7M7BRr6h5.jpeg",
-      "strategy": "direct_event_page",
-      "score": 120
-    },
-    {
-      "event_id": "evt_53_20261029",
-      "title": "בן בן ברוך",
-      "source": "https://live.tickchak.co.il/ben-ben-baruch",
-      "image": "https://static.tickchak.co.il/all/updateArtistImage_share_1766949646W90zZaxkaxlzax52SThFNGZlRvMzVNtkd_qKua7wh4v02CqM2kjh6-K.jpeg",
-      "strategy": "direct_event_page",
-      "score": 120
-    },
-    {
-      "event_id": "evt_56_20261105",
-      "title": "זוגיות AI",
       "source": "https://live.tickchak.co.il/ashdod",
-      "image": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
-      "strategy": "source_listing",
-      "score": 161.9
+      "score": 183.4
     },
     {
-      "event_id": "evt_57_20261105",
-      "title": "אסף מור יוסף במופע סטנדאפ",
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "image": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
       "source": "https://live.tickchak.co.il/ashdod",
+      "score": 157.9
+    },
+    {
+      "event_id": "evt_54_20261031",
+      "title": "עומר בורשטיין",
       "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "strategy": "source_listing",
-      "score": 162.6
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 162.7
     },
     {
-      "event_id": "evt_58_20261112",
-      "title": "לה דולצ'ה נוטה – נוסטלגיה בהיכל בהנחיית דן כנר",
+      "event_id": "evt_55_20261103",
+      "title": "פאטמה הסטנדאפיסטית",
+      "image": "https://static.tickchak.co.il/all/updateArtistImage_round_1758022131X90TQvYkdwA1YkFHT5w2ZQ1Ebw52ZhhUQ_3rNS5JHSnmYoxRV7QI4Mw.webp",
       "source": "https://live.tickchak.co.il/ashdod",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zdKhWarkVOXJ1cZR2VulEZvVjMNxmTu_590zdal3M4Z2NFJFR5lzc5xWQERzc69SN.webp_3290e96d-bda5-447c-afe9-850c7abcdb6f.webp",
-      "strategy": "source_listing",
-      "score": 162.0
+      "score": 206.7
     },
     {
-      "event_id": "evt_63_20261205",
-      "title": "שושנה - בכיכובה של גל דה פז",
+      "event_id": "evt_60_20261124",
+      "title": "טוביה צפיר – 80 שנה של הומור!",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
       "source": "https://live.tickchak.co.il/ashdod",
+      "score": 166.2
+    },
+    {
+      "event_id": "evt_61_20261126",
+      "title": "מירית גליצקי - מוגזמת",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 152.6
+    },
+    {
+      "event_id": "evt_62_20261203",
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "image": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 181.0
+    },
+    {
+      "event_id": "evt_66_20261215",
+      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
       "image": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
-      "strategy": "source_listing",
-      "score": 162.6
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 176.0
     },
     {
-      "event_id": "evt_64_20261207",
-      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
-      "source": "https://ticket.gozalypro.com/112260?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
-      "image": "https://static.tickchak.co.il/all/hofbImg_1787600830090TQO5WSVdndvVjT0VEewxWR1dDbNp3Z_PUN_AtVCYppRxfXw_c6Vz.jpeg",
-      "strategy": "direct_event_page",
-      "score": 210
-    },
-    {
-      "event_id": "evt_33_20261224",
-      "title": "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים",
-      "source": "https://ashdod.smarticket.co.il/",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "strategy": "source_listing",
-      "score": 147.2
-    },
-    {
-      "event_id": "evt_34_20261229",
-      "title": "דקה לנשום – לצמוח מהכאב והקושי - ייעודי לגדולות מהחיים",
-      "source": "https://ashdod.smarticket.co.il/",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
-      "strategy": "source_listing",
-      "score": 140.2
+      "event_id": "evt_67_20270102",
+      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp",
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 189.8
     }
   ],
   "missing": [
@@ -102,1360 +83,289 @@
       "event_id": "evt_2_20261004",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%91____%D7%92__/?id=17235",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%91____%D7%92__/?id=17235",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%91____%D7%92__/?id=17235"
     },
     {
       "event_id": "evt_68_20261004",
       "title": "הדרדסים ההצגה - Live על הבמה",
       "category": "kids",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_3_20261004",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%92__%D7%A2%D7%93_%D7%93_/?id=17238",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%92__%D7%A2%D7%93_%D7%93_/?id=17238",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%92__%D7%A2%D7%93_%D7%93_/?id=17238"
     },
     {
       "event_id": "evt_4_20261005",
       "title": "קורס גישור בסיסי בשילוב טאי־צ’י – דרך חדשה לדיאלוג ולחוסן אישי",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166"
     },
     {
       "event_id": "evt_92_20261006",
       "title": "הענק הכי גנדרן בעולם",
       "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635"
     },
     {
       "event_id": "evt_93_20261006",
       "title": "מועדון הקוראות הרומנטיות - מועדון קריאה שכולו אהבה",
       "category": "community",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%94%D7%A7%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%94%D7%A8%D7%95%D7%9E%D7%A0%D7%98%D7%99%D7%95%D7%AA_-%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%A9%D7%9B%D7%95%D7%9C%D7%95_%D7%90%D7%94%D7%91%D7%94_%7C_%D7%A1%D7%93%D7%A8%D7%AA_%D7%9E%D7%A4%D7%92%D7%A9%D7%99%D7%9D_%D7%91%D7%94%D7%A0%D7%97%D7%99%D7%99%D7%AA_%D7%94%D7%A1%D7%95%D7%A4%D7%A8%D7%AA_%D7%A9%D7%A8%D7%99%D7%AA_%D7%97%D7%99%D7%99%D7%9D/?id=17315",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%94%D7%A7%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%94%D7%A8%D7%95%D7%9E%D7%A0%D7%98%D7%99%D7%95%D7%AA_-%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%A9%D7%9B%D7%95%D7%9C%D7%95_%D7%90%D7%94%D7%91%D7%94_%7C_%D7%A1%D7%93%D7%A8%D7%AA_%D7%9E%D7%A4%D7%92%D7%A9%D7%99%D7%9D_%D7%91%D7%94%D7%A0%D7%97%D7%99%D7%99%D7%AA_%D7%94%D7%A1%D7%95%D7%A4%D7%A8%D7%AA_%D7%A9%D7%A8%D7%99%D7%AA_%D7%97%D7%99%D7%99%D7%9D/?id=17315",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%94%D7%A7%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%94%D7%A8%D7%95%D7%9E%D7%A0%D7%98%D7%99%D7%95%D7%AA_-%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%A9%D7%9B%D7%95%D7%9C%D7%95_%D7%90%D7%94%D7%91%D7%94_%7C_%D7%A1%D7%93%D7%A8%D7%AA_%D7%9E%D7%A4%D7%92%D7%A9%D7%99%D7%9D_%D7%91%D7%94%D7%A0%D7%97%D7%99%D7%99%D7%AA_%D7%94%D7%A1%D7%95%D7%A4%D7%A8%D7%AA_%D7%A9%D7%A8%D7%99%D7%AA_%D7%97%D7%99%D7%99%D7%9D/?id=17315"
     },
     {
       "event_id": "evt_69_20261008",
       "title": "מיקה שלי",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%9E%D7%99%D7%A7%D7%94_%D7%A9%D7%9C%D7%99/?id=8214",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%9E%D7%99%D7%A7%D7%94_%D7%A9%D7%9C%D7%99/?id=8214",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%9E%D7%99%D7%A7%D7%94_%D7%A9%D7%9C%D7%99/?id=8214"
     },
     {
       "event_id": "evt_94_20261012",
       "title": "סערה בדלי מים",
       "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271"
     },
     {
       "event_id": "evt_95_20261012",
       "title": "תשאירי פתוח",
       "category": "theatre",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_41_20261013",
-      "title": "חגיגה בכוורת",
-      "category": "music",
-      "ticket_url": "https://live.tickchak.co.il/shows/event/eyjByZpVx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/shows/event/eyjByZpVx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 59
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp"
-            },
-            {
-              "score": 160.8,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp"
-            },
-            {
-              "score": 158.1,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zdKhWarkVOXJ1cZR2VulEZvVjMNxmTu_590zdal3M4Z2NFJFR5lzc5xWQERzc69SN.webp_3290e96d-bda5-447c-afe9-850c7abcdb6f.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269"
     },
     {
       "event_id": "evt_6_20261014",
       "title": "עיצוב אורח חיים בריא",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239"
     },
     {
       "event_id": "evt_96_20261014",
       "title": "דירה להכיר",
       "category": "theatre",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%94%D7%9B%D7%99%D7%A8_/?id=17305",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%94%D7%9B%D7%99%D7%A8_/?id=17305",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%94%D7%9B%D7%99%D7%A8_/?id=17305"
     },
     {
       "event_id": "evt_7_20261015",
       "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_44_20261017",
-      "title": "אסף יצחקי",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eyjBOpKln?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eyjBOpKln?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 62
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 153.2,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-            },
-            {
-              "score": 152.2,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
-      "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%A4%D7%96%D7%95%D7%9F_%D7%95%D7%96%D7%94%D7%99%D7%A8%D7%95%D7%9F_-_%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%94_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%94/?id=8215",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%A4%D7%96%D7%95%D7%9F_%D7%95%D7%96%D7%94%D7%99%D7%A8%D7%95%D7%9F_-_%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%94_%D7%91%D7%A9%D7%9B%D7%95%D7%A0%D7%94/?id=8215",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 157.6,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp"
-            },
-            {
-              "score": 140.2,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp"
-            },
-            {
-              "score": 136.7,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp"
-            }
-          ]
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209"
     },
     {
       "event_id": "evt_97_20261020",
       "title": "סדנת הכנת לחמניות מתוקות",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302"
     },
     {
       "event_id": "evt_72_20261020",
       "title": "היפהפיה הנרדמת",
       "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94%D7%A4%D7%99%D7%94_%D7%94%D7%A0%D7%A8%D7%93%D7%9E%D7%AA/?id=8059",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94%D7%A4%D7%99%D7%94_%D7%94%D7%A0%D7%A8%D7%93%D7%9E%D7%AA/?id=8059",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94%D7%A4%D7%99%D7%94_%D7%94%D7%A0%D7%A8%D7%93%D7%9E%D7%AA/?id=8059"
     },
     {
       "event_id": "evt_73_20261028",
       "title": "חלון לים התיכון",
       "category": "music",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_54_20261031",
-      "title": "עומר בורשטיין",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eBjZDXPEL?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eBjZDXPEL?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 59
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-            },
-            {
-              "score": 158.4,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 147.6,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113"
     },
     {
       "event_id": "evt_12_20261101",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
       "category": "workshop",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_13_20261101",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
       "category": "workshop",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_14_20261102",
       "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204"
     },
     {
       "event_id": "evt_15_20261103",
       "title": "השועל המוסיקלי כוורת",
       "category": "music",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_55_20261103",
-      "title": "פאטמה הסטנדאפיסטית",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eaxpXWvDx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eaxpXWvDx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 69
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.7,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 161.6,
-              "url": "https://static.tickchak.co.il/all/updateArtistImage_round_1776070646390TUhtESvVUev0kSadEOHJ3SxgVSrQEW_iuLziwk1hmi27_oZtimbI.webp"
-            },
-            {
-              "score": 159.5,
-              "url": "https://static.tickchak.co.il/all/updateArtistImage_round_1776068352090TQyVkTm1mdNh1KrhVcZBzTFh0MsJXb_fFZmDN7WNdsHoZhj2SVyT.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678"
     },
     {
       "event_id": "evt_16_20261104",
       "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A4%D7%90%D7%A0%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D?id=17026",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026"
     },
     {
       "event_id": "evt_74_20261104",
       "title": "FATE & FIRE",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135"
     },
     {
       "event_id": "evt_18_20261105",
       "title": "יום יהדות הודו 2026",
       "category": "community",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144"
     },
     {
       "event_id": "evt_19_20261109",
       "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202"
     },
     {
       "event_id": "evt_20_20261110",
       "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
       "category": "workshop",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_75_20261110",
       "title": "הפיל שרצה להיות הכי",
       "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%A4%D7%99%D7%9C_%D7%A9%D7%A8%D7%A6%D7%94_%D7%9C%D7%94%D7%99%D7%95%D7%AA_%D7%94%D7%9B%D7%99_9980ca8a64/?id=8216",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%A4%D7%99%D7%9C_%D7%A9%D7%A8%D7%A6%D7%94_%D7%9C%D7%94%D7%99%D7%95%D7%AA_%D7%94%D7%9B%D7%99_9980ca8a64/?id=8216",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%A4%D7%99%D7%9C_%D7%A9%D7%A8%D7%A6%D7%94_%D7%9C%D7%94%D7%99%D7%95%D7%AA_%D7%94%D7%9B%D7%99_9980ca8a64/?id=8216"
     },
     {
       "event_id": "evt_76_20261111",
       "title": "איסטנבול - נפולי -מרסיי",
       "category": "music",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111"
     },
     {
       "event_id": "evt_77_20261116",
       "title": "החולה ההודי",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%97%D7%95%D7%9C%D7%94_%D7%94%D7%94%D7%95%D7%93%D7%99/?id=8140",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%97%D7%95%D7%9C%D7%94_%D7%94%D7%94%D7%95%D7%93%D7%99/?id=8140",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%97%D7%95%D7%9C%D7%94_%D7%94%D7%94%D7%95%D7%93%D7%99/?id=8140"
     },
     {
       "event_id": "evt_21_20261117",
       "title": "הרקדן ואלרי פאנוב",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A8%D7%A7%D7%93%D7%9F___%D7%95%D7%90%D7%9C%D7%A8%D7%99_%D7%A4%D7%90%D7%A0%D7%95%D7%91/?id=17075",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%94%D7%A8%D7%A7%D7%93%D7%9F___%D7%95%D7%90%D7%9C%D7%A8%D7%99_%D7%A4%D7%90%D7%A0%D7%95%D7%91/?id=17075",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A8%D7%A7%D7%93%D7%9F___%D7%95%D7%90%D7%9C%D7%A8%D7%99_%D7%A4%D7%90%D7%A0%D7%95%D7%91/?id=17075"
     },
     {
       "event_id": "evt_78_20261117",
       "title": "החולה ההודי",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_79_20261118",
       "title": "החולה ההודי",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_80_20261119",
       "title": "החולה ההודי",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_81_20261121",
       "title": "החולה ההודי",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_82_20261123",
       "title": "אשליות מתוקות",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_60_20261124",
-      "title": "טוביה צפיר – 80 שנה של הומור!",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eBjZDMoEL?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eBjZDMoEL?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 56
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 162.3,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-            },
-            {
-              "score": 161.4,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 151.4,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "event_id": "evt_61_20261126",
-      "title": "מירית גליצקי - מוגזמת",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eWjeDbWXx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eWjeDbWXx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 57
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 160.6,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-            },
-            {
-              "score": 158.5,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109"
     },
     {
       "event_id": "evt_83_20261128",
       "title": "חיילים יצאו לדרך",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%99%D7%A6%D7%90%D7%95_%D7%9C%D7%93%D7%A8%D7%9A_/?id=8101",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%99%D7%A6%D7%90%D7%95_%D7%9C%D7%93%D7%A8%D7%9A_/?id=8101",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%99%D7%A6%D7%90%D7%95_%D7%9C%D7%93%D7%A8%D7%9A_/?id=8101"
     },
     {
       "event_id": "evt_100_20261202",
       "title": "סדנת חופשה בקליק",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609"
     },
     {
       "event_id": "evt_25_20261203",
       "title": "קורס קנווה עם מרים - ייעודי לגדולות מהחיים",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211"
     },
     {
       "event_id": "evt_26_20261203",
       "title": "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
       "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_62_20261203",
-      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
-      "category": "music",
-      "ticket_url": "https://live.tickchak.co.il/shows/event/evjAelYKj?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/shows/event/evjAelYKj?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 58
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp"
-            },
-            {
-              "score": 149.4,
-              "url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp"
-            },
-            {
-              "score": 147.0,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216"
     },
     {
       "event_id": "evt_84_20261208",
       "title": "היפה והחיה",
       "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129"
     },
     {
       "event_id": "evt_85_20261208",
       "title": "היפה והחיה",
       "category": "kids",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_29_20261213",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
       "category": "workshop",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_30_20261213",
       "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
       "category": "workshop",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_31_20261215",
       "title": "השועל המוסיקלי החיפושיות",
       "category": "music",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679",
-      "diagnostics": [
-        {
-          "page": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_66_20261215",
-      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eBxlpwMAx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eBxlpwMAx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-          "kind": "direct",
-          "candidates": 63
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 162.0,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 161.0,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp"
-            },
-            {
-              "score": 158.4,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679"
     },
     {
       "event_id": "evt_86_20261221",
       "title": "האישה העשירה בעולם",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106"
     },
     {
       "event_id": "evt_87_20261228",
       "title": "אור לגויים",
       "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149",
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149",
-          "kind": "direct",
-          "candidates": 0
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149"
     },
     {
       "event_id": "evt_88_20261229",
       "title": "אור לגויים",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_89_20261230",
       "title": "אור לגויים",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_90_20261231",
       "title": "אור לגויים",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
-    },
-    {
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
-      "category": "standup",
-      "ticket_url": "https://live.tickchak.co.il/standup/event/eNLqzyYZx?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "diagnostics": [
-        {
-          "page": "https://live.tickchak.co.il/standup/event/eNLqzyYZx?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-          "kind": "direct",
-          "candidates": 58
-        },
-        {
-          "page": "https://live.tickchak.co.il/ashdod",
-          "kind": "listing",
-          "top": [
-            {
-              "score": 161.9,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-            },
-            {
-              "score": 159.2,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp"
-            },
-            {
-              "score": 150.8,
-              "url": "https://static.tickchak.co.il/all/liveNew_090zdhtWOmV0dldkdlZHOEF3KIVWVot2du_290zZr9ybppGMTFFZrFjaGpkQxU1Q2gDN.webp_e244ff04-6d22-46c2-8878-07ad4570908a.webp"
-            }
-          ]
-        }
-      ]
+      "ticket_url": null
     },
     {
       "event_id": "evt_91_20270102",
       "title": "אור לגויים",
       "category": "theatre",
-      "ticket_url": null,
-      "diagnostics": [
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/",
-          "kind": "listing",
-          "top": []
-        },
-        {
-          "page": "https://mishkan-ashdod.smarticket.co.il/iframe",
-          "kind": "listing",
-          "top": []
-        }
-      ]
+      "ticket_url": null
     }
   ]
 }
