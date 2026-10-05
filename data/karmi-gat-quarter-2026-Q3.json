@@ -7,10 +7,10 @@
   "representative_quarter": false,
   "source": "OVER public mirror of Tax Authority register; neighborhood attribution is derived",
   "source_url": "https://www.over.org.il/projects/deals",
-  "register_unique_count": 8,
-  "standard_apartment_count": 6,
+  "register_unique_count": 9,
+  "standard_apartment_count": 7,
   "register_by_month": {
-    "2026-07": 7,
+    "2026-07": 8,
     "2026-08": 1
   },
   "secondary_seed_rows": 22,
@@ -21,6 +21,29 @@
   "register_refresh_available": true,
   "note": "Counts describe available evidence, not all neighborhood quarterly sales. Secondary seed counts may overlap the register and must not be added together. October listing observations are not quarterly historical inventory.",
   "rows": [
+    {
+      "settlement_code": "2630",
+      "settlement": "קריית גת",
+      "gush": "2812",
+      "chelka": "161",
+      "sub_chelka": "022",
+      "deal_date": "09/07/2026",
+      "deal_amount": "1900000",
+      "declared_amount": "1900000",
+      "deal_nature": "דירה בבית קומות",
+      "portion": "1.000",
+      "year_built": "2021",
+      "asset_area": "151",
+      "room_num": "4",
+      "scraped_at": "2026-08-09 00:12:58.706323+00",
+      "first_seen": "2026-09-18 12:31:00.666371+00:00",
+      "_event_date_iso": "2026-07-09",
+      "_gush_norm": "2812",
+      "_helka_norm": "161",
+      "_neighborhood": "כרמי גת",
+      "_street": null,
+      "_usable_standard_full_apartment": true
+    },
     {
       "settlement_code": "2630",
       "settlement": "קריית גת",
@@ -206,9 +229,9 @@
       "_usable_standard_full_apartment": true
     }
   ],
-  "raw_unique_count": 8,
+  "raw_unique_count": 9,
   "by_month": {
-    "2026-07": 7,
+    "2026-07": 8,
     "2026-08": 1
   }
 }

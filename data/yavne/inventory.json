@@ -1,6 +1,6 @@
 {
   "city": "יבנה",
-  "observed_at": "2026-10-04",
+  "observed_at": "2026-10-05",
   "coverage": "partial",
   "note": "מודעות שנאספו; כפילויות מזוהות אוחדו. מועד תצפית אינו אישור שהדירה עדיין מוצעת למכירה.",
   "rows": [
@@ -547,7 +547,7 @@
       "balcony": null,
       "asking_price_ils": 1690000.0,
       "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
+      "last_seen_at": "2026-10-05",
       "listing_kind": "broker"
     },
     {
@@ -1363,6 +1363,20 @@
       "listing_kind": "second_hand"
     },
     {
+      "neighborhood": "נאות אשכול",
+      "street": "הרב בוכריס",
+      "house_number": "6",
+      "rooms": 3.0,
+      "area_sqm": 50.0,
+      "floor": 3.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1700000.0,
+      "first_seen_at": "2026-10-05",
+      "last_seen_at": "2026-10-05",
+      "listing_kind": "second_hand"
+    },
+    {
       "neighborhood": "נאות שמיר",
       "street": "הרצל",
       "house_number": null,
@@ -1485,7 +1499,7 @@
       "balcony": null,
       "asking_price_ils": 2670000.0,
       "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-02",
+      "last_seen_at": "2026-10-05",
       "listing_kind": "broker"
     },
     {
