@@ -1418,3 +1418,19 @@ main{position:relative;z-index:3}
   .sportBranchFilters::-webkit-scrollbar{display:none}
   .sportBranchFilters button{white-space:nowrap}
 }
+
+/* Simplified date experience: keep the compact weekly strip only. */
+.dateSection > .sectionHead,
+.dateSection .calendarTop,
+.dateSection .monthCalendar{
+  display:none!important;
+}
+.dateSection{
+  padding-top:12px;
+}
+.dateSection .calendarBox{
+  padding-top:12px;
+}
+.dateSection .calendarPeriodLabel{
+  margin-top:0;
+}
