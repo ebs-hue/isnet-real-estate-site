@@ -1068,10 +1068,10 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
-      "image_url": "assets/events/ec1c4894f557c3316c37.png",
+      "image_url": null,
       "image_source": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
       "image_credit": "מרכז אפ 60+ אשדוד / Smarticket",
-      "image_publishable": true,
+      "image_publishable": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -1091,13 +1091,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/84263e84fb380852c961eb.jpg",
-      "thumbnail_ready": true,
-      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "image_strategy": "program_fallback",
+      "image_verified": false,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "image_origin_url": null,
+      "image_strategy": "category_fallback_pending_exact_image",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "category_fallback"
     },
     {
       "event_id": "evt_96_20261014",
@@ -1276,9 +1276,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/standup/event/eNLqzgzMx?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/d5ef1f857c9316987411.webp",
-      "image_source": "https://live.tickchak.co.il/standup/event/eNLqzgzMx?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_credit": null,
+      "image_url": "https://s3.eu-central-1.amazonaws.com/yt-s3/17d758f9-34e4-457a-a239-b677d77da94a.jpg",
+      "image_source": "https://www.leaan.co.il/events/נועה-מנור",
+      "image_credit": "ים שמש",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -1296,16 +1296,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_origin_url": "https://s3.eu-central-1.amazonaws.com/yt-s3/17d758f9-34e4-457a-a239-b677d77da94a.jpg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "image_strategy": "source_event",
-      "thumbnail_url": "assets/event-thumbs/150ce2a528c94ea35a405d.jpg",
+      "image_strategy": "official_event_page",
+      "thumbnail_url": "https://s3.eu-central-1.amazonaws.com/yt-s3/17d758f9-34e4-457a-a239-b677d77da94a.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "official_event_image"
     },
     {
       "event_id": "evt_43_20261015",
@@ -2516,9 +2516,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/standup/event/eaxpXWvDx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "image_url": "assets/events/a41eb9e8676f35c7e3c838.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
-      "image_credit": null,
+      "image_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/80ae1c7b-42e1-4959-1d9f-1f4604e11200/public",
+      "image_source": "https://friends-hist.co.il/show/%D7%A4%D7%90%D7%98%D7%9E%D7%94-%D7%94%D7%A1%D7%98%D7%A0%D7%93%D7%90%D7%A4%D7%99%D7%A1%D7%98%D7%99%D7%AA-%D7%94%D7%91%D7%93%D7%95%D7%90%D7%99%D7%AA/",
+      "image_credit": "גילה צימרמן",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -2536,16 +2536,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/updateArtistImage_round_1758022131X90TQvYkdwA1YkFHT5w2ZQ1Ebw52ZhhUQ_3rNS5JHSnmYoxRV7QI4Mw.webp",
+      "image_origin_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/80ae1c7b-42e1-4959-1d9f-1f4604e11200/public",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/3f45ad31695795e98fa647.jpg",
+      "thumbnail_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/80ae1c7b-42e1-4959-1d9f-1f4604e11200/public",
       "thumbnail_ready": true,
-      "image_strategy": "source_listing_card",
+      "image_strategy": "official_show_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "official_event_image"
     },
     {
       "event_id": "evt_16_20261104",
@@ -2776,9 +2776,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/theater/event/evLAMqXzL?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/7f46fc967e8cca5d0bd82c.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
-      "image_credit": null,
+      "image_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
+      "image_source": "https://friends-hist.co.il/event/%D7%96%D7%95%D7%92%D7%99%D7%95%D7%AA-ai-%D7%9E%D7%AA%D7%A0%D7%A1-%D7%93%D7%99%D7%95%D7%A0%D7%94-%D7%90%D7%A9%D7%93%D7%95%D7%93-05-11-2026/",
+      "image_credit": "פיני סילוק ועדי ברק",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -2796,16 +2796,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+      "image_origin_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/b7af7a5ed13a46f0d4b4c7.jpg",
+      "thumbnail_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
       "thumbnail_ready": true,
-      "image_strategy": "source_listing",
+      "image_strategy": "official_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "official_event_image"
     },
     {
       "event_id": "evt_57_20261105",
@@ -3108,9 +3108,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/event/eWxagVBvn?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/db57f109f3762ff94cf594.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
-      "image_credit": null,
+      "image_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/72686b1a-4a56-418b-7b63-0749e78c3f00/public",
+      "image_source": "https://friends-hist.co.il/show/%D7%9C%D7%94-%D7%93%D7%95%D7%9C%D7%A6%D7%94-%D7%A0%D7%95%D7%98%D7%94-%D7%A0%D7%95%D7%A1%D7%98%D7%9C%D7%92%D7%99%D7%94-%D7%91%D7%94%D7%99%D7%9B%D7%9C-%D7%91%D7%94%D7%A0%D7%97%D7%99%D7%99/",
+      "image_credit": "איל איזנמן",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -3128,16 +3128,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdKhWarkVOXJ1cZR2VulEZvVjMNxmTu_590zdal3M4Z2NFJFR5lzc5xWQERzc69SN.webp_3290e96d-bda5-447c-afe9-850c7abcdb6f.webp",
+      "image_origin_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/72686b1a-4a56-418b-7b63-0749e78c3f00/public",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/bf5e31d73e9769d30fb21d.jpg",
+      "thumbnail_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/72686b1a-4a56-418b-7b63-0749e78c3f00/public",
       "thumbnail_ready": true,
-      "image_strategy": "source_listing",
+      "image_strategy": "official_show_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "official_event_image"
     },
     {
       "event_id": "evt_98_20261113",
@@ -3882,10 +3882,10 @@
       "is_free": false,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/iframe/%D7%97%D7%95%D7%A8%D7%A3_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%A0%D7%99-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97",
-      "image_url": "assets/events/0297724a38ceaf805a1f.jpg",
-      "image_source": "https://ashdod.smarticket.co.il/%D7%90%D7%94%D7%91%D7%94-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97/?id=16037",
+      "image_url": null,
+      "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": null,
-      "image_publishable": true,
+      "image_publishable": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3902,16 +3902,16 @@
       "quality_flags": [
         "verified_enrichment"
       ],
-      "image_origin_url": "https://ashdod.smarticket.co.il//uploads/thumbs/thmb6a045647c7687744418925.jpeg",
+      "image_origin_url": null,
       "purchase_url": "https://ashdod.smarticket.co.il/iframe/%D7%97%D7%95%D7%A8%D7%A3_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%A0%D7%99-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": true,
-      "image_strategy": "source_event",
-      "thumbnail_url": "assets/event-thumbs/cf8adf5c7f766d3cc346f0.jpg",
-      "thumbnail_ready": true,
+      "image_verified": false,
+      "image_strategy": "no_official_image",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "category_fallback"
     },
     {
       "event_id": "evt_60_20261124",
@@ -4138,10 +4138,10 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
-      "image_url": "assets/events/ec1c4894f557c3316c37.png",
+      "image_url": null,
       "image_source": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
       "image_credit": "מרכז אפ 60+ אשדוד / Smarticket",
-      "image_publishable": true,
+      "image_publishable": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4161,13 +4161,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/16cb8658788460eb4a539a.jpg",
-      "thumbnail_ready": true,
-      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "image_strategy": "program_fallback",
+      "image_verified": false,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "image_origin_url": null,
+      "image_strategy": "category_fallback_pending_exact_image",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "category_fallback"
     },
     {
       "event_id": "evt_25_20261203",
@@ -5466,8 +5466,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/standup/event/eNLqzyYZx?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/76b55d83979023e2de124a.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fb3981d459c430166324.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/%D7%93%D7%A0%D7%99%D7%90%D7%9C_%D7%A1%D7%98%D7%99%D7%95%D7%A4%D7%99%D7%9F_%D7%A7%D7%95%D7%A4%D7%94_%D7%A8%D7%90%D7%A9%D7%99%D7%AA__%D7%A1%D7%98%D7%A0%D7%93%D7%90%D7%A4/?id=15678",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -5486,16 +5486,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp",
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fb3981d459c430166324.jpg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/3abb604c11e80af1ccb9af.jpg",
+      "thumbnail_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fb3981d459c430166324.jpg",
       "thumbnail_ready": true,
-      "image_strategy": "source_listing_card",
+      "image_strategy": "official_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "official_event_image"
     },
     {
       "event_id": "evt_91_20270102",
