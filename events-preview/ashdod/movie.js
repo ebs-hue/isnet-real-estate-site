@@ -87,7 +87,7 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const data=await fetch("data/cinema.json?v=20261005-3").then(r=>{if(!r.ok)throw new Error("data");return r.json()});
+    const data=await fetch("data/cinema.json?v=20261005-4").then(r=>{if(!r.ok)throw new Error("data");return r.json()});
     const movie=(data.movies||[]).find(m=>m.id===id);
     if(!movie)throw new Error("movie");
     renderHero(movie);
