@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07162b">
+  <title>מה עושים בראשון לציון? | ISNET Events</title>
+  <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות בראשון לציון במקום אחד.">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-33">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__glow"></div>
+    <div class="shell">
+      <div class="brandRow"><a class="brand" href="./" aria-label="מה עושים בראשון לציון? - עמוד הבית"><span class="brand__dot"></span><span>ראשון נט</span><b>מה עושים בעיר</b></a><a class="mainAshdodLink" href="https://www.rishonet.com/" target="_blank" rel="noopener">לאתר ראשון נט</a></div>
+      <div class="hero__content">
+        <p class="eyebrow">יוצאים. מבלים. מגלים.</p>
+        <h1>מה עושים<br><span>בראשון לציון?</span></h1>
+        <p class="hero__lead">הופעות, הצגות, ילדים, סטנדאפ, תרבות וכל מה שקורה בעיר — במקום אחד.</p>
+        <div class="searchBox">
+          <span class="searchBox__icon">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="מה מתחשק לכם לעשות? למשל: סטנדאפ, ילדים, מונארט...">
+          <button id="clearSearch" class="searchBox__clear" aria-label="נקה חיפוש">×</button>
+        </div>
+        <div id="quickFilters" class="quickFilters">
+          <button data-quick="all" class="is-active">הכול</button>
+          <button data-quick="today">היום</button>
+          <button data-quick="tomorrow">מחר</button>
+          <button data-quick="weekend">סופ"ש</button>
+          <button data-quick="kids">ילדים ומשפחה</button>
+          <button data-quick="adults">למבוגרים</button>
+          <button data-quick="free">חינם</button>
+          <button data-quick="standup">סטנדאפ</button>
+          <button data-quick="music">הופעות</button>
+          <button data-quick="lecture">הרצאות</button>
+          <button data-quick="theatre">תיאטרון</button>
+        </div>
+        <div id="heroStats" class="heroStats" aria-live="polite"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="section dateSection">
+      <div class="sectionHead">
+        <div><span class="sectionHead__kicker">מתכננים קדימה</span><h2>בחרו יום שמתאים לכם</h2></div>
+        <button id="resetDate" class="textButton">כל התאריכים</button>
+      </div>
+
+      <div id="calendarBox" class="calendarBox">
+        <div class="calendarTop">
+          <div class="calendarViewSwitch" aria-label="תצוגת יומן">
+            <button id="weekViewButton" class="is-active" type="button">שבוע</button>
+            <button id="monthViewButton" type="button">חודש</button>
+          </div>
+
+          <div class="calendarPeriodNav">
+            <button id="calendarPrev" class="calendarArrow" type="button" aria-label="תקופה קודמת">›</button>
+            <select id="calendarMonthSelect" class="calendarMonthSelect" aria-label="בחירת חודש"></select>
+            <button id="calendarApply" class="calendarApply calendarApply--inline" type="button">הצג אירועי השבוע</button>
+            <button id="calendarAllDates" class="calendarAllDates" type="button">כל התאריכים</button>
+            <button id="calendarNext" class="calendarArrow" type="button" aria-label="תקופה הבאה">‹</button>
+          </div>
+        </div>
+
+        <div id="calendarPeriodLabel" class="calendarPeriodLabel" aria-live="polite"></div>
+        <div id="calendarSelectionText" class="calendarSelectionText"></div>
+
+        <div id="weekCalendar" class="weekCalendar">
+          <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
+        </div>
+
+        <div id="monthCalendar" class="monthCalendar" hidden>
+          <div class="monthWeekdays" aria-hidden="true">
+            <span>א׳</span><span>ב׳</span><span>ג׳</span><span>ד׳</span><span>ה׳</span><span>ו׳</span><span>ש׳</span>
+          </div>
+          <div id="monthGrid" class="monthGrid" aria-label="יומן חודשי"></div>
+        </div>
+
+        <div class="calendarHint">
+          <span class="calendarHintDot"></span>
+          לחיצה על יום מציגה את אירועי אותו יום. לחיצה נוספת מחזירה לכל התאריכים.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="sectionHead">
+        <div><span class="sectionHead__kicker">לפי מצב הרוח</span><h2>מה מתחשק לכם?</h2></div>
+      </div>
+      <div id="categoryGrid" class="categoryGrid"></div>
+      <div class="fixedCategoryGrid" aria-label="מקומות קבועים בראשון לציון">
+        <a class="fixedCategoryCard" href="places.html?category=parks"><span>פארקים בראשון לציון</span><b>←</b></a>
+        <a class="fixedCategoryCard" href="places.html?category=nature"><span>טבע וטיולים</span><b>←</b></a>
+        <a class="fixedCategoryCard" href="places.html?category=beaches"><span>החופים בראשון לציון</span><b>←</b></a>
+        <a class="fixedCategoryCard" href="places.html?category=attractions"><span>אטרקציות</span><b>←</b></a>
+        <a class="fixedCategoryCard" href="places.html?category=culture"><span>מוסדות תרבות בראשון לציון</span><b>←</b></a>
+        <a class="fixedCategoryCard" href="places.html?category=must-see"><span>מקומות שחייבים להכיר</span><b>←</b></a>
+      </div>
+    </section>
+
+    <section id="cinemaSection" class="section cinemaSection" hidden>
+      <div class="cinemaPanel">
+        <div class="cinemaHead">
+          <div>
+            <span class="cinemaKicker">קולנוע בראשון לציון</span>
+            <h2>כל הסרטים בראשון לציון</h2>
+            <p>סרטים, שעות הקרנה וטריילרים — סינמה סיטי ו־HOT Cinema במקום אחד.</p>
+          </div>
+          <div class="cinemaHeadActions">
+            <button id="cinemaClose" class="cinemaBackButton" type="button">← חזרה לכל האירועים</button>
+          </div>
+        </div>
+        <div class="cinemaToolbar">
+          <div class="cinemaFilterGroups">
+            <div id="cinemaAudienceFilters" class="cinemaFilters" aria-label="סינון לפי סוג סרט">
+              <button data-audience="all" class="is-active">כל הסרטים</button>
+              <button data-audience="family">ילדים ומשפחה</button>
+            </div>
+            <div id="cinemaFilters" class="cinemaFilters" aria-label="סינון לפי בית קולנוע">
+              <button data-cinema="all" class="is-active">שני בתי הקולנוע</button>
+              <button data-cinema="cinema-city">סינמה סיטי</button>
+              <button data-cinema="hot-cinema">HOT Cinema</button>
+            </div>
+          </div>
+          <span id="cinemaUpdated" class="cinemaUpdated"></span>
+        </div>
+        <div id="cinemaGrid" class="cinemaGrid"></div>
+      </div>
+    </section>
+
+    <section id="sportsPanel" class="section sportsPanel" hidden>
+      <div class="sportsPanel__inner">
+        <div class="sportsPanel__head">
+          <div>
+            <span class="sectionHead__kicker">משחקי הבית של העיר</span>
+            <h2>ספורט בראשון לציון</h2>
+            <p>בחרו קבוצה או ענף. במשחקי הקבוצות מוצגים משחקי בית בראשון לציון בלבד.</p>
+          </div>
+          <button id="sportsReset" class="sportsReset" type="button">כל הספורט</button>
+        </div>
+        <div class="sportsFilterBlock">
+          <span class="sportsFilterLabel">לפי קבוצה</span>
+          <div id="sportTeamFilters" class="sportTeamFilters"></div>
+        </div>
+        <div class="sportsFilterBlock sportsFilterBlock--branches">
+          <span class="sportsFilterLabel">לפי ענף</span>
+          <div id="sportBranchFilters" class="sportBranchFilters"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section results">
+      <div class="resultsTop">
+        <div>
+          <span class="sectionHead__kicker">כל העיר במקום אחד</span>
+          <h2 id="resultsTitle">כל האירועים בראשון לציון</h2>
+          <p id="resultCount" class="muted"></p>
+        </div>
+        <div class="resultsActions">
+          <button id="favoritesOnly" class="pillAction" aria-pressed="false">♡ המועדפים שלי</button>
+          <select id="sortSelect" class="sortSelect" aria-label="מיון אירועים">
+            <option value="date">הקרובים ביותר</option>
+            <option value="priceLow">מחיר נמוך</option>
+            <option value="priceHigh">מחיר גבוה</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="activeFilters" class="activeFilters"></div>
+      <div id="eventsGrid" class="eventsGrid"></div>
+      <div id="emptyState" class="emptyState" hidden>
+        <div class="emptyState__icon">◌</div>
+        <h3>לא מצאנו בדיוק את זה</h3>
+        <p>נסו להסיר מסנן או לבחור תאריך אחר.</p>
+        <button id="resetAll" class="primaryButton">הציגו את כל האירועים</button>
+      </div>
+    </section>
+  </main>
+
+  <div id="trailerModal" class="trailerModal" hidden>
+    <div class="trailerModal__backdrop" data-close-trailer></div>
+    <article class="trailerModal__card" role="dialog" aria-modal="true" aria-labelledby="trailerTitle">
+      <button class="trailerModal__close" data-close-trailer aria-label="סגירה">×</button>
+      <div class="trailerModal__frame"><iframe id="trailerFrame" src="" title="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="trailerModal__body">
+        <span class="cinemaKicker">טריילר</span>
+        <h2 id="trailerTitle"></h2>
+        <p id="trailerSynopsis"></p>
+        <div id="trailerLinks" class="trailerLinks"></div>
+      </div>
+    </article>
+  </div>
+
+  <div id="eventModal" class="modal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <article class="modal__card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close-modal aria-label="סגירה">×</button>
+      <div id="modalMedia" class="modal__media"></div>
+      <div class="modal__body">
+        <div id="modalBadges" class="badges"></div>
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription" class="modal__description"></p>
+        <div id="modalFacts" class="modal__facts"></div>
+        <div id="modalPurchaseNote" class="purchaseNote" hidden></div>
+        <div class="modal__actions">
+          <a id="modalTicket" class="primaryButton" target="_blank" rel="noopener">לרכישת כרטיסים</a>
+          <button id="modalFavorite" class="secondaryButton">♡ שמירה למועדפים</button>
+        </div>
+      </div>
+    </article>
+  </div>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div><strong>מה עושים בראשון לציון?</strong><span>מוצר של ראשון נט מבית ISNET</span></div>
+      <div class="footerLinks"><a href="./">חזרה לראש העמוד</a><a href="https://www.rishonet.com/" target="_blank" rel="noopener">לאתר ראשון נט</a></div>
+    </div>
+  </footer>
+
+  <script src="app.js?v=20261005-35" defer></script>
+</body>
+</html>
