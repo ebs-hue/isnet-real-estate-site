@@ -167,7 +167,8 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "image_origin_url": "https://media.kobins.co.il/api/images/694cea6f1843a7f4768eb67e/696e84970ff1e7cf9af8fa99_kids_8755.webp",
-      "image_strategy": "event_board_poster"
+      "image_strategy": "event_board_poster",
+      "thumbnail_error": "HTTPError"
     },
     {
       "event_id": "evt_3_20261004",
@@ -1339,11 +1340,11 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/0ef0880cc4f17704dd290b.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_44_20261017",
@@ -1391,8 +1392,8 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/d065c765159d12ca78ef92.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
@@ -1449,8 +1450,8 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/50af076b9af7d66fba8918.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
@@ -1883,8 +1884,8 @@
       "purchase_source": null,
       "image_verified": true,
       "image_strategy": "artist_fallback",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/eabfc2be80e93b6293266b.jpg",
+      "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "thumbnail_error": "HTTPError"
@@ -2191,8 +2192,8 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/4c12e0265b5408308fc4ac.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
@@ -2803,11 +2804,11 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/44f71745a8b4f9a96dcaba.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_19_20261109",
@@ -2950,10 +2951,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/1ff516ed4c6f0bf1ce23b1.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
-      "image_strategy": "event_board_poster"
+      "image_strategy": "event_board_poster",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_76_20261111",
@@ -3777,8 +3780,8 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/c876e84ecedda2669851a3.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
@@ -4125,11 +4128,11 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/0b1dfd3f39ab1367ec2f66.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_63_20261205",
@@ -4177,11 +4180,11 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/b46ef32df118cff1ad9ce0.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_64_20261207",
@@ -4641,7 +4644,8 @@
       "thumbnail_ready": false,
       "image_strategy": "artist_group_promo",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "thumbnail_error": "HTTPError"
     },
     {
       "event_id": "evt_86_20261221",
