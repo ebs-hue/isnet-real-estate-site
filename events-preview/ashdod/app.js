@@ -74,6 +74,11 @@ function sportIdentityHTML(e){
     '<div class="sportIdentity__copy"><b>'+escapeHtml(name)+'</b><small><span class="sportGlyph">'+escapeHtml(branch.icon)+'</span>'+escapeHtml(branch.label)+' · משחק בית</small></div>'+
   '</div>';
 }
+function sportBranchBadgeHTML(e){
+  if(e.category!=="sport")return "";
+  const branch=sportBranchMeta(e);
+  return '<span class="badge sportBranchBadge">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span>';
+}
 function statusBadge(e){
   if(e.ticket_status==="sold_out")return '<span class="badge sold">אזלו הכרטיסים</span>';
   if(e.ticket_status==="last_tickets")return '<span class="badge last">כרטיסים אחרונים</span>';
@@ -238,7 +243,7 @@ function eventCard(e){
   const occ=eventOccurrences(e);
   const multi=occ.length>1;
   return '<article class="eventCard'+(e.category==="sport"?" eventCard--sport":"")+'" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
-    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
+    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+sportBranchBadgeHTML(e)+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
