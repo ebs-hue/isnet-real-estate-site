@@ -77,6 +77,42 @@ function renderSafety(cat){
   if(cat.tourism_source_url)tourism.href=cat.tourism_source_url;else tourism.hidden=true;
   $("safetyCard").hidden=false;
 }
+function renderBeachInfo(cat){
+  if(state.category!=="beaches")return;
+  const info=$("beachInfo"); if(!info)return;
+
+  if(cat.season){
+    $("seasonCard").innerHTML=
+      '<span class="infoPanel__label">עונת הרחצה</span>'+
+      '<h2>'+esc(cat.season.title||"")+'</h2>'+
+      '<div class="seasonDates"><b>'+esc(cat.season.start||"")+'</b><span>עד</span><b>'+esc(cat.season.end||"")+'</b></div>'+
+      '<strong class="seasonHours">'+esc(cat.season.current_hours||"")+'</strong>'+
+      '<p>'+esc(cat.season.note||"")+'</p>'+
+      (cat.season.source_url?'<a href="'+esc(cat.season.source_url)+'" target="_blank" rel="noopener">לשעות הרשמיות ←</a>':'');
+  }
+
+  if(cat.environment){
+    $("environmentCard").innerHTML=
+      '<span class="infoPanel__label">'+esc(cat.environment.badge||"")+'</span>'+
+      '<h2>'+esc(cat.environment.title||"")+'</h2>'+
+      '<p>'+esc(cat.environment.text||"")+'</p>'+
+      (cat.environment.source_url?'<a href="'+esc(cat.environment.source_url)+'" target="_blank" rel="noopener">למידע העירוני ←</a>':'');
+  }
+
+  if(cat.daily_status){
+    $("dailyStatusCard").innerHTML=
+      '<span class="infoPanel__label">מצב הים</span>'+
+      '<h2>'+esc(cat.daily_status.title||"")+'</h2>'+
+      '<p>'+esc(cat.daily_status.text||"")+'</p>'+
+      (cat.daily_status.source_url?'<a href="'+esc(cat.daily_status.source_url)+'" target="_blank" rel="noopener">מצב החופים באשדוד נט ←</a>':'');
+  }
+
+  $("beachRules").innerHTML=(cat.rules||[]).map((rule,i)=>
+    '<div class="beachRule"><span>'+(i+1)+'</span><p>'+esc(rule)+'</p></div>'
+  ).join("");
+
+  info.hidden=false;
+}
 function renderComingSoon(){
   const title=titles[state.category]||"מה עושים באשדוד?";
   $("placesHero").hidden=true;
@@ -89,13 +125,14 @@ function renderComingSoon(){
 }
 async function init(){
   try{
-    const data=await fetch("data/places.json?v=20261005-1").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
+    const data=await fetch("data/places.json?v=20261005-2").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
     state.data=data;
     const cat=data.categories?.[state.category];
     if(!cat){renderComingSoon();return}
     renderHero(cat);
     renderFilters(cat);
     renderGrid(cat);
+    renderBeachInfo(cat);
     renderSafety(cat);
     $("placesPanel").hidden=false;
   }catch(err){
