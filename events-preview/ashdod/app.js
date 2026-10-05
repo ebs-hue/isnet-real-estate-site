@@ -389,7 +389,7 @@ function render(){
   bindDynamic();
 }
 function bindDynamic(){
-  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart]"))return;openEvent(el.dataset.event)});
+  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart]"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{state.date=state.date===b.dataset.date?null:b.dataset.date;state.quick="all";render()});
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{state.category=state.category===b.dataset.cat?null:b.dataset.cat;render()});
@@ -447,7 +447,7 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-19").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-19").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-20").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
