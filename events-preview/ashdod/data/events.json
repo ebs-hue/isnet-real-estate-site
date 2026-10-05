@@ -840,8 +840,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
+      "image_url": "assets/events/0053cf46a5b771c27cf127.webp",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -860,13 +860,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TQxMncwFmSTZ0axFXQUJDaChGU40kQu_S90TUad3URZVcPB1NvMEe5V2ThN1YsN3c.webp_030929fa-1b13-4052-a82e-7aae5257d0b0.webp",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/cefaf4d92fc0a8aa2786a6.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_94_20261012",
@@ -1282,8 +1285,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/standup/event/eJxkDgOZj?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/standup/event/eJxkDgOZj?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
+      "image_url": "assets/events/0d140747d637094eb42cd6.jpg",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -1306,9 +1309,12 @@
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/03c1540a969ecad040330d.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_44_20261017",
@@ -1638,10 +1644,10 @@
       "is_free": null,
       "ticket_status": "last_tickets",
       "ticket_url": "https://live.tickchak.co.il/standup",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "assets/events/3f27ad5b9907279e020ba0.jpg",
+      "image_source": "https://live.tickchak.co.il/standup",
       "image_credit": null,
-      "image_publishable": false,
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -1658,13 +1664,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": null,
+      "image_origin_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1785402983d90TQ1RWRJZWbBFXc5sCaykGN1NmbmFlS__jhdyNZRw25l7M7BRr6h5.jpeg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/677a6140a274bca5840fe1.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "direct_event_page",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_48_20261022",
@@ -2061,10 +2070,10 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/ben-ben-baruch",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "assets/events/01c1ca69c3b6d2160259ff.jpg",
+      "image_source": "https://live.tickchak.co.il/ben-ben-baruch",
       "image_credit": null,
-      "image_publishable": false,
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2081,13 +2090,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": null,
+      "image_origin_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1766949646W90zZaxkaxlzax52SThFNGZlRvMzVNtkd_qKua7wh4v02CqM2kjh6-K.jpeg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/c010d2c89e4c8e6dd203dc.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "direct_event_page",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_54_20261031",
@@ -2648,8 +2660,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/theater/event/evLAMqXzL?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/theater/event/evLAMqXzL?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
+      "image_url": "assets/events/7f46fc967e8cca5d0bd82c.webp",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -2668,13 +2680,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/b7af7a5ed13a46f0d4b4c7.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_57_20261105",
@@ -2697,8 +2712,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": null,
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/standup/event/eJxkDgOZj?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
+      "image_url": "assets/events/0d140747d637094eb42cd6.jpg",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -2721,9 +2736,12 @@
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/87c15481f0bafe004db86b.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_19_20261109",
@@ -2938,8 +2956,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/event/eWxagVBvn?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/event/eWxagVBvn?live_ref=new-k0zbMBTeyFzKoB3Yx4manFENYZzV5NFbwJTR2VTQndFaJhlVtdWRGFTR0lEc",
+      "image_url": "assets/events/db57f109f3762ff94cf594.webp",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -2958,13 +2976,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdKhWarkVOXJ1cZR2VulEZvVjMNxmTu_590zdal3M4Z2NFJFR5lzc5xWQERzc69SN.webp_3290e96d-bda5-447c-afe9-850c7abcdb6f.webp",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/bf5e31d73e9769d30fb21d.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_98_20261113",
@@ -4026,8 +4047,8 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/shows/event/eZxQWOMdn?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "image_url": "assets/events/0d140747d637094eb42c.jpg",
-      "image_source": "https://live.tickchak.co.il/shows/event/eZxQWOMdn?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
+      "image_url": "assets/events/cc1f2d312487eca49564aa.webp",
+      "image_source": "https://live.tickchak.co.il/ashdod",
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
@@ -4046,13 +4067,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/d14c42272a6eab72b425fc.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_64_20261207",
@@ -4075,10 +4099,10 @@
       "is_free": null,
       "ticket_status": "last_tickets",
       "ticket_url": "https://ticket.gozalypro.com/112260?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "assets/events/3d5f65894f5b806c396ea3.jpg",
+      "image_source": "https://ticket.gozalypro.com/112260?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
       "image_credit": null,
-      "image_publishable": false,
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4095,13 +4119,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": null,
+      "image_origin_url": "https://static.tickchak.co.il/all/hofbImg_1787600830090TQO5WSVdndvVjT0VEewxWR1dDbNp3Z_PUN_AtVCYppRxfXw_c6Vz.jpeg",
       "purchase_url": "https://ticket.gozalypro.com/112260?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/d9f648325e3644f213ca7c.jpg",
+      "thumbnail_ready": true,
+      "image_strategy": "direct_event_page",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_84_20261208",
@@ -4617,10 +4644,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%A2%D7%95%D7%A3_%D7%94%D7%97%D7%95%D7%9C____%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D__%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%9E%D7%94%D7%A7%D7%95%D7%A9%D7%99___-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17215",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": null,
-      "image_publishable": false,
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4640,9 +4667,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%A2%D7%95%D7%A3_%D7%94%D7%97%D7%95%D7%9C____%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D__%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%9E%D7%94%D7%A7%D7%95%D7%A9%D7%99___-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17215",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/41ef202e84e4b8ef5e7d90.jpg",
+      "thumbnail_ready": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_87_20261228",
@@ -4713,10 +4744,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "assets/events/527f44c60ddb3cd2b02625.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": null,
-      "image_publishable": false,
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4736,9 +4767,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false
+      "image_verified": true,
+      "thumbnail_url": "assets/event-thumbs/baeca78543f88ae01dbf26.jpg",
+      "thumbnail_ready": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
+      "image_strategy": "source_listing",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_88_20261229",
