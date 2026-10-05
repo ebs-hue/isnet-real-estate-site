@@ -127,7 +127,7 @@ function renderComingSoon(){
 }
 async function init(){
   try{
-    const data=await fetch("data/places.json?v=20261005-4").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
+    const data=await fetch("data/places.json?v=20261005-5").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
     state.data=data;
     const cat=data.categories?.[state.category];
     if(!cat){renderComingSoon();return}
