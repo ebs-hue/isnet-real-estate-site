@@ -902,3 +902,20 @@ main{position:relative;z-index:3}
   .mainAshdodLink{font-size:12px;padding:6px 8px}
   .footerLinks{justify-content:center;flex-wrap:wrap;margin-top:10px}
 }
+
+.cinemaSection[hidden]{display:none!important}
+.cinemaHeadActions{display:flex;align-items:center;gap:10px}
+.cinemaBackButton{
+  border:1px solid rgba(255,255,255,.18);
+  background:rgba(255,255,255,.08);
+  color:#fff;
+  padding:11px 15px;
+  border-radius:14px;
+  font:800 14px "Heebo",sans-serif;
+  cursor:pointer;
+}
+.cinemaBackButton:hover{background:rgba(255,255,255,.14)}
+@media(max-width:650px){
+  .cinemaHeadActions{margin-top:14px}
+  .cinemaBackButton{width:100%}
+}
