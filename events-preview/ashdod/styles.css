@@ -919,3 +919,241 @@ main{position:relative;z-index:3}
   .cinemaHeadActions{margin-top:14px}
   .cinemaBackButton{width:100%}
 }
+
+
+/* Navigable event calendar */
+.calendarBox{
+  border:1px solid var(--line);
+  border-radius:26px;
+  background:rgba(255,255,255,.92);
+  box-shadow:0 10px 30px rgba(8,24,45,.055);
+  padding:16px;
+}
+.calendarTop{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  margin-bottom:10px;
+}
+.calendarViewSwitch{
+  display:inline-flex;
+  gap:4px;
+  padding:4px;
+  border-radius:14px;
+  background:#eef3f8;
+}
+.calendarViewSwitch button{
+  border:0;
+  background:transparent;
+  color:#64758a;
+  border-radius:10px;
+  padding:8px 14px;
+  font:800 13px "Heebo",sans-serif;
+  cursor:pointer;
+}
+.calendarViewSwitch button.is-active{
+  background:#fff;
+  color:#164f87;
+  box-shadow:0 3px 10px rgba(8,24,45,.08);
+}
+.calendarPeriodNav{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.calendarArrow{
+  width:39px;
+  height:39px;
+  border:1px solid #dbe5ef;
+  border-radius:12px;
+  background:#fff;
+  color:#214a74;
+  font:900 22px/1 "Heebo",sans-serif;
+  cursor:pointer;
+}
+.calendarArrow:hover:not(:disabled){background:#edf6ff;border-color:#c4daf0}
+.calendarArrow:disabled{opacity:.35;cursor:default}
+.calendarMonthSelect{
+  min-width:160px;
+  min-height:39px;
+  border:1px solid #dbe5ef;
+  border-radius:12px;
+  background:#fff;
+  color:#173a5e;
+  padding:7px 11px;
+  font:800 13px "Heebo",sans-serif;
+  outline:0;
+  cursor:pointer;
+}
+.calendarPeriodLabel{
+  text-align:center;
+  color:#253c55;
+  font:900 16px "Heebo",sans-serif;
+  margin:5px 0 10px;
+}
+.weekCalendar[hidden],.monthCalendar[hidden]{display:none!important}
+.dateRail{
+  display:grid;
+  grid-template-columns:repeat(7,minmax(0,1fr));
+  grid-auto-flow:initial;
+  grid-auto-columns:initial;
+  overflow:visible;
+  gap:8px;
+  padding:2px 0 4px;
+}
+.dateButton{
+  min-width:0;
+  min-height:105px;
+  border-radius:17px;
+  padding:9px 5px;
+}
+.dateButton .dateCount{
+  display:block;
+  margin-top:5px;
+  color:#246aaa;
+  font-size:10px;
+  font-weight:900;
+  white-space:nowrap;
+}
+.dateButton .dateCount.is-empty{color:#a2adba;font-weight:700}
+.dateButton.is-active .dateCount{color:#d8ebff}
+.dateButton.is-past{opacity:.35;transform:none!important;box-shadow:none}
+.monthWeekdays{
+  display:grid;
+  grid-template-columns:repeat(7,1fr);
+  gap:6px;
+  margin-bottom:6px;
+}
+.monthWeekdays span{
+  text-align:center;
+  color:#718196;
+  font-size:12px;
+  font-weight:900;
+  padding:5px 0;
+}
+.monthGrid{
+  display:grid;
+  grid-template-columns:repeat(7,minmax(0,1fr));
+  gap:6px;
+}
+.monthDay{
+  position:relative;
+  min-height:69px;
+  border:1px solid #e3eaf2;
+  border-radius:14px;
+  background:#fff;
+  color:#203a56;
+  padding:8px;
+  text-align:right;
+  cursor:pointer;
+  transition:.18s ease;
+}
+.monthDay:hover:not(:disabled){
+  transform:translateY(-2px);
+  border-color:#bfd5ec;
+  box-shadow:0 8px 18px rgba(8,24,45,.07);
+}
+.monthDay--empty{
+  min-height:69px;
+  border:0;
+  background:transparent;
+}
+.monthDay__num{font:900 15px "Heebo",sans-serif}
+.monthDay__count{
+  position:absolute;
+  left:7px;
+  bottom:7px;
+  min-width:23px;
+  height:23px;
+  border-radius:999px;
+  display:grid;
+  place-items:center;
+  padding:0 6px;
+  background:#e7f3ff;
+  color:#1763a9;
+  font:900 10px "Heebo",sans-serif;
+}
+.monthDay.has-events:after{
+  content:"";
+  position:absolute;
+  right:8px;
+  bottom:9px;
+  width:6px;
+  height:6px;
+  border-radius:50%;
+  background:#2b80cc;
+}
+.monthDay.is-active{
+  background:linear-gradient(145deg,#0b2341,#154d84);
+  color:#fff;
+  border-color:transparent;
+  box-shadow:0 10px 24px rgba(10,52,95,.22);
+}
+.monthDay.is-active .monthDay__count{background:#fff;color:#164d81}
+.monthDay.is-active:after{background:#fff}
+.monthDay.is-past{opacity:.3;cursor:default}
+.calendarHint{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+  margin-top:11px;
+  color:#78889b;
+  font-size:12px;
+  font-weight:700;
+}
+.calendarHintDot{
+  width:7px;height:7px;border-radius:50%;
+  background:#2b80cc;
+  box-shadow:0 0 0 4px #e7f3ff;
+}
+
+@media(max-width:650px){
+  .calendarBox{
+    margin-left:-4px;
+    margin-right:-4px;
+    border-radius:22px;
+    padding:12px 9px;
+  }
+  .calendarTop{
+    align-items:stretch;
+    flex-direction:column;
+    gap:9px;
+  }
+  .calendarViewSwitch{align-self:stretch}
+  .calendarViewSwitch button{flex:1}
+  .calendarPeriodNav{justify-content:space-between}
+  .calendarMonthSelect{flex:1;min-width:0}
+  .calendarPeriodLabel{font-size:15px;margin-top:2px}
+  .dateRail{
+    gap:5px;
+    overflow-x:auto;
+    grid-template-columns:repeat(7,minmax(67px,1fr));
+    padding-bottom:8px;
+    scrollbar-width:none;
+  }
+  .dateRail::-webkit-scrollbar{display:none}
+  .dateButton{
+    min-height:92px;
+    border-radius:15px;
+    padding:7px 3px;
+  }
+  .dateButton b{font-size:21px}
+  .dateButton .dateCount{font-size:9px}
+  .monthGrid{gap:4px}
+  .monthWeekdays{gap:4px}
+  .monthDay{
+    min-height:55px;
+    border-radius:11px;
+    padding:6px;
+  }
+  .monthDay--empty{min-height:55px}
+  .monthDay__count{
+    left:5px;bottom:5px;
+    min-width:19px;height:19px;
+    font-size:9px;padding:0 4px;
+  }
+  .monthDay.has-events:after{right:6px;bottom:7px;width:5px;height:5px}
+  .calendarHint{font-size:11px;text-align:center;padding:0 5px}
+}
