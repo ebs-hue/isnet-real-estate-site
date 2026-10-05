@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -197,6 +197,80 @@ function featureCard(e){
     '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
 }
 
+function cinemaScheduleInfo(venue){
+  const day=iso(today());
+  const schedule=venue.schedule||{};
+  if(Array.isArray(schedule[day])&&schedule[day].length){
+    return {date:day,label:"היום",times:schedule[day]};
+  }
+  const next=Object.keys(schedule).filter(d=>d>=day).sort()[0];
+  if(next){
+    const d=localDate(next);
+    const label=sameDay(d,daysFrom(today(),1))?"מחר":new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"}).format(d);
+    return {date:next,label,times:schedule[next]};
+  }
+  return {date:null,label:"לשעות מעודכנות",times:[]};
+}
+function cinemaCard(movie){
+  const visibleVenues=movie.venues.filter(v=>state.cinemaVenue==="all"||v.id===state.cinemaVenue);
+  const image="https://i.ytimg.com/vi/"+encodeURIComponent(movie.trailer_youtube_id)+"/hqdefault.jpg";
+  const venues=visibleVenues.map(v=>{
+    const info=cinemaScheduleInfo(v);
+    const times=info.times.length?info.times.slice(0,6).map(t=>'<span class="cinemaTime">'+escapeHtml(t)+'</span>').join(""):'<span class="cinemaNoTimes">בדקו שעות עדכניות</span>';
+    return '<div class="cinemaVenueRow">'+
+      '<div class="cinemaVenueName"><b>'+escapeHtml(v.name)+'</b><span>'+escapeHtml(info.label)+'</span></div>'+
+      '<div class="cinemaTimes">'+times+'</div>'+
+      '<a href="'+escapeHtml(v.article_url)+'" target="_blank" rel="noopener" class="cinemaDetails">שעות ופרטים ←</a>'+
+    '</div>';
+  }).join("");
+  return '<article class="cinemaCard">'+
+    '<button class="cinemaPoster" data-trailer="'+escapeHtml(movie.id)+'" aria-label="צפו בטריילר של '+escapeHtml(movie.title)+'">'+
+      '<img src="'+image+'" alt="" loading="lazy">'+
+      '<span class="cinemaPlay"><i>▶</i><b>צפו בטריילר</b></span>'+
+    '</button>'+
+    '<div class="cinemaCard__body">'+
+      '<div class="cinemaVenueBadges">'+visibleVenues.map(v=>'<span>'+escapeHtml(v.id==="cinema-city"?"סינמה סיטי":"HOT Cinema")+'</span>').join("")+'</div>'+
+      '<h3>'+escapeHtml(movie.title)+'</h3>'+
+      '<p>'+escapeHtml(movie.synopsis)+'</p>'+
+      '<div class="cinemaSchedules">'+venues+'</div>'+
+    '</div>'+
+  '</article>';
+}
+function renderCinema(){
+  const grid=$("cinemaGrid"); if(!grid)return;
+  const arr=state.cinema
+    .filter(m=>state.cinemaVenue==="all"||m.venues.some(v=>v.id===state.cinemaVenue))
+    .sort((a,b)=>{
+      const day=iso(today());
+      const at=a.venues.some(v=>Array.isArray(v.schedule?.[day])&&v.schedule[day].length)?0:1;
+      const bt=b.venues.some(v=>Array.isArray(v.schedule?.[day])&&v.schedule[day].length)?0:1;
+      return at-bt||a.title.localeCompare(b.title,"he");
+    });
+  grid.innerHTML=arr.map(cinemaCard).join("");
+  document.querySelectorAll("#cinemaFilters [data-cinema]").forEach(b=>b.classList.toggle("is-active",b.dataset.cinema===state.cinemaVenue));
+  document.querySelectorAll("[data-trailer]").forEach(b=>b.onclick=()=>openTrailer(b.dataset.trailer));
+  if(state.cinemaUpdatedAt){
+    const d=new Date(state.cinemaUpdatedAt);
+    $("cinemaUpdated").textContent=Number.isNaN(d.getTime())?"":"עודכן "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}).format(d);
+  }
+}
+function openTrailer(id){
+  const movie=state.cinema.find(m=>m.id===id); if(!movie)return;
+  $("trailerTitle").textContent=movie.title;
+  $("trailerSynopsis").textContent=movie.synopsis||"";
+  $("trailerFrame").src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(movie.trailer_youtube_id)+"?autoplay=1&rel=0";
+  $("trailerFrame").title="טריילר - "+movie.title;
+  $("trailerLinks").innerHTML=movie.venues.map(v=>'<a href="'+escapeHtml(v.article_url)+'" target="_blank" rel="noopener">'+escapeHtml(v.name)+' — לשעות ופרטים ←</a>').join("");
+  $("trailerModal").hidden=false;
+  document.body.style.overflow="hidden";
+}
+function closeTrailer(){
+  const modal=$("trailerModal"); if(!modal)return;
+  modal.hidden=true;
+  $("trailerFrame").src="";
+  if($("eventModal").hidden)document.body.style.overflow="";
+}
+
 function matchesQuick(e){
   if(state.quick==="all")return true;
   const d=localDate(e.start_date),t=today();
@@ -321,6 +395,7 @@ function renderDates(){
 function renderCategories(){
   const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
+  if(state.cinema.length)counts.cinema=state.cinema.length;
   $("categoryGrid").innerHTML=cats.map(c=>
     '<button class="categoryCard '+(state.category===c?"is-active":"")+'" data-cat="'+c+'">'+
       '<span class="categoryCard__icon">'+catIcons[c]+'</span>'+
@@ -392,7 +467,15 @@ function bindDynamic(){
   document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart]"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{state.date=state.date===b.dataset.date?null:b.dataset.date;state.quick="all";render()});
-  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{state.category=state.category===b.dataset.cat?null:b.dataset.cat;render()});
+  document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
+    if(b.dataset.cat==="cinema"){
+      state.category=null;
+      render();
+      $("cinemaSection")?.scrollIntoView({behavior:"smooth",block:"start"});
+      return;
+    }
+    state.category=state.category===b.dataset.cat?null:b.dataset.cat;render()
+  });
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{const k=b.dataset.remove;if(k==="quick")state.quick="all";if(k==="date")state.date=null;if(k==="category")state.category=null;if(k==="query"){state.query="";$("searchInput").value=""}if(k==="favorites")state.favoritesOnly=false;render()});
 }
 function modalScheduleText(e){
@@ -447,8 +530,18 @@ function closeModal(){$("eventModal").hidden=true;document.body.style.overflow="
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-22").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({}))]);
-  state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
+  const [data,fallbacks,cinema]=await Promise.all([
+    fetch("data/events.json?v=20261005-22").then(r=>r.json()),
+    fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({})),
+    fetch("data/cinema.json?v=20261005-1").then(r=>r.json()).catch(()=>({movies:[]}))
+  ]);
+  state.events=data.events||[];
+  state.fallbacks=fallbacks;
+  state.generatedAt=data.generated_at||null;
+  state.cinema=cinema.movies||[];
+  state.cinemaUpdatedAt=cinema.updated_at||null;
+  render();
+  renderCinema();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
   $("quickFilters").onclick=e=>{const b=e.target.closest("[data-quick]");if(!b)return;state.quick=b.dataset.quick;state.date=null;render()};
@@ -457,8 +550,13 @@ async function init(){
   $("favoritesOnly").onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
   $("sortSelect").onchange=e=>{state.sort=e.target.value;render()};
   $("resetAll").onclick=resetAll;
+  $("cinemaFilters").onclick=e=>{
+    const b=e.target.closest("[data-cinema]"); if(!b)return;
+    state.cinemaVenue=b.dataset.cinema; renderCinema();
+  };
+  document.querySelectorAll("[data-close-trailer]").forEach(x=>x.onclick=closeTrailer);
   document.querySelectorAll("[data-close-modal]").forEach(x=>x.onclick=closeModal);
   $("modalFavorite").onclick=()=>{toggleFavorite($("modalFavorite").dataset.id);openEvent($("modalFavorite").dataset.id)};
-  document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
+  document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModal();closeTrailer()} });
 }
 init().catch(err=>{console.error(err);$("eventsGrid").innerHTML='<div class="emptyState"><h3>לא הצלחנו לטעון את האירועים</h3><p>נסו לרענן את העמוד.</p></div>'});
