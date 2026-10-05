@@ -1,0 +1,16 @@
+:root{--bg:#f5f8fc;--ink:#0b1c31;--line:#dfe7ef;--blue:#2368f2}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Assistant",Arial,sans-serif}
+a{text-decoration:none;color:inherit}
+.shell{width:min(1100px,calc(100% - 32px));margin:auto}
+.topbar{background:#07162b;color:#fff}
+.topbar__inner{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font:900 18px "Heebo",sans-serif}
+.topbar nav{display:flex;gap:14px;font-weight:800;font-size:13px}
+.placesHero{padding:54px 0 26px}
+.placesHero>span{color:#3976b1;font-weight:800;font-size:13px}
+.placesHero h1{margin:5px 0 0;font:900 clamp(36px,6vw,62px)/1.05 "Heebo",sans-serif}
+.placesPanel{padding-bottom:70px}
+.placesGrid{min-height:260px;border:1px solid var(--line);border-radius:24px;background:#fff;display:grid;place-items:center;padding:30px;box-shadow:0 12px 34px rgba(8,24,45,.05)}
+.comingSoon{color:#718095;font-weight:800;text-align:center}
+@media(max-width:620px){.topbar__inner{align-items:flex-start;padding:12px 0}.topbar nav{flex-direction:column;gap:4px;text-align:left}.placesHero{padding-top:36px}}
