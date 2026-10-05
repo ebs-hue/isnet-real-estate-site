@@ -1345,7 +1345,7 @@ main{position:relative;z-index:3}
 }
 .sportTeamButton{
   position:relative;min-height:74px;border:1px solid #d8e6df;background:#fff;
-  border-radius:17px;padding:9px 11px;display:grid;grid-template-columns:56px 1fr;
+  border-radius:17px;padding:9px 11px;display:grid;grid-template-columns:62px 1fr;
   gap:10px;align-items:center;text-align:right;cursor:pointer;
   transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease
 }
@@ -1353,22 +1353,25 @@ main{position:relative;z-index:3}
 .sportTeamButton.is-active{
   border-color:#42a982;background:#f4fcf8;box-shadow:0 0 0 2px rgba(31,153,109,.10)
 }
-.sportTeamButton--all{grid-template-columns:56px 1fr}
+.sportTeamButton--all{grid-template-columns:62px 1fr}
 .sportTeamButton__logo,.sportIdentity__logo,.sportFallback__logo{
   position:relative;overflow:hidden;border-radius:50%;display:grid;place-items:center;
   background:#f5f8f7;border:1px solid #dde8e3;color:#315f50;font:900 13px "Heebo",sans-serif
 }
-.sportTeamButton__logo{width:56px;height:56px}
-.sportIdentity__logo{width:48px;height:48px}
-.sportFallback__logo{width:112px;height:112px;background:rgba(255,255,255,.96);border:4px solid rgba(255,255,255,.22);box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.sportTeamButton__logo{width:62px;height:62px}
+.sportIdentity__logo{width:54px;height:54px}
+.sportFallback__logo{width:132px;height:132px;background:rgba(255,255,255,.96);border:4px solid rgba(255,255,255,.22);box-shadow:0 10px 28px rgba(0,0,0,.12)}
 .sportTeamButton__logo img,.sportIdentity__logo img,.sportFallback__logo img{
-  position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff;transform:scale(1.12)
+  position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff
 }
+.sportTeamButton__logo img{transform:scale(1.16)}
+.sportIdentity__logo img{transform:scale(1.22)}
+.sportFallback__logo img{transform:scale(1.30)}
 .sportTeamButton__copy{min-width:0;display:flex;flex-direction:column}
 .sportTeamButton__copy b{font:900 14px "Heebo",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sportTeamButton__copy small{color:#6b7e76;font-size:11px;font-weight:700;margin-top:2px}
 .allSportsMark{
-  width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+  width:62px;height:62px;border-radius:50%;display:grid;place-items:center;
   background:linear-gradient(135deg,#0b694e,#22a879);color:#fff;font-size:20px
 }
 .sportBranchFilters{display:flex;flex-wrap:wrap;gap:7px}
@@ -1382,7 +1385,7 @@ main{position:relative;z-index:3}
 .sportBranchFilters button.is-active small{color:#d9f5e9}
 
 .sportIdentity{
-  display:grid;grid-template-columns:48px 1fr;gap:9px;align-items:center;
+  display:grid;grid-template-columns:54px 1fr;gap:9px;align-items:center;
   margin-bottom:11px;padding-bottom:10px;border-bottom:1px solid #e9efec
 }
 .sportIdentity__copy{display:flex;flex-direction:column;min-width:0}
