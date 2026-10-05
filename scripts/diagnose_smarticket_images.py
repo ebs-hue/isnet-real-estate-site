@@ -49,3 +49,16 @@ for base,eid,title in tests:
    print(" ",(lo+rel)-p,u)
   if us:break
  print("SNIPPET",re.sub(r"\s+"," ",html.unescape(src[max(0,p-1200):p+1200]))[:2400])
+
+
+print("\n=== LEGACY MISHKAN ===")
+src=get("https://mishkan-ashdod.co.il/events.asp")
+for title in ("מיקה שלי","החולה ההודי","אשליות מתוקות","היפה והחיה","אור לגויים","האישה העשירה בעולם","חלון לים התיכון"):
+ p=src.find(title)
+ print("\nLEGACY",title,"POS",p,"LEN",len(src))
+ if p<0:continue
+ lo=max(0,p-6000);hi=min(len(src),p+6000);chunk=src[lo:hi]
+ us=urls(chunk)
+ for rel,u in sorted(us,key=lambda x:abs((lo+x[0])-p))[:20]:
+  print(" ",(lo+rel)-p,u)
+ print("SNIP",re.sub(r"\s+"," ",html.unescape(src[max(0,p-1000):p+1000]))[:2000])
