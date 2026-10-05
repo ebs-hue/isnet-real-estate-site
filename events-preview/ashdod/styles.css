@@ -1194,3 +1194,64 @@ main{position:relative;z-index:3}
   }
   .calendarApply{width:100%;min-height:44px}
 }
+
+.calendarPeriodNav{
+  flex-wrap:wrap;
+}
+.calendarApply--inline{
+  min-height:39px;
+  padding:8px 14px;
+  box-shadow:none;
+}
+.calendarAllDates{
+  min-height:39px;
+  border:1px solid #d7e3ef;
+  border-radius:12px;
+  background:#fff;
+  color:#23567f;
+  padding:8px 13px;
+  font:800 13px "Heebo",sans-serif;
+  cursor:pointer;
+}
+.calendarAllDates:hover{
+  background:#f3f8fd;
+  border-color:#bfd4e8;
+}
+.calendarSelectionText{
+  text-align:center;
+  color:#6f8093;
+  font-size:12px;
+  font-weight:800;
+  margin:-3px 0 10px;
+}
+@media(max-width:650px){
+  .calendarPeriodNav{
+    display:grid;
+    grid-template-columns:38px minmax(0,1fr) 38px;
+    gap:7px;
+  }
+  .calendarPeriodNav .calendarMonthSelect{
+    grid-column:2;
+    grid-row:1;
+  }
+  .calendarPeriodNav #calendarPrev{
+    grid-column:1;
+    grid-row:1;
+  }
+  .calendarPeriodNav #calendarNext{
+    grid-column:3;
+    grid-row:1;
+  }
+  .calendarApply--inline{
+    grid-column:1 / span 2;
+    grid-row:2;
+    width:100%;
+  }
+  .calendarAllDates{
+    grid-column:3;
+    grid-row:2;
+    width:100%;
+    padding-inline:6px;
+    font-size:11px;
+  }
+}
