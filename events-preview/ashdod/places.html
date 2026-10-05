@@ -5,32 +5,83 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד?</title>
+  <meta name="description" content="מדריך החופים של אשדוד: תמונות, אופי החוף, למי מתאים, מה יש במקום ואיך מגיעים.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="places.css?v=20261005-1">
+  <link rel="stylesheet" href="places.css?v=20261005-2">
 </head>
 <body>
   <header class="topbar">
     <div class="shell topbar__inner">
-      <a class="brand" href="./">מה עושים באשדוד?</a>
-      <nav>
+      <a class="brand" href="./"><span class="brand__dot"></span><span>מה עושים באשדוד?</span></a>
+      <nav class="topnav">
         <a href="./">← חזרה לעמוד הראשי</a>
-        <a href="https://ashdodnet.com/" target="_blank" rel="noopener">לאתר אשדוד נט</a>
+        <a class="ashdodNetLink" href="https://ashdodnet.com/" target="_blank" rel="noopener">לאתר אשדוד נט</a>
       </nav>
     </div>
   </header>
-  <main class="shell">
-    <section class="placesHero">
-      <span>מה עושים באשדוד?</span>
-      <h1 id="placesTitle"></h1>
-    </section>
-    <section class="placesPanel">
-      <div id="placesGrid" class="placesGrid">
-        <div class="comingSoon">המקומות הקבועים בקטגוריה הזו יופיעו כאן.</div>
+
+  <main>
+    <section id="placesHero" class="placesHero">
+      <div id="heroBackdrop" class="placesHero__backdrop"></div>
+      <div class="placesHero__shade"></div>
+      <div class="shell placesHero__content">
+        <span id="placesEyebrow" class="eyebrow"></span>
+        <h1 id="placesTitle"></h1>
+        <p id="placesIntro" class="placesIntro"></p>
+        <div id="placesStats" class="placesStats"></div>
       </div>
+      <div id="heroCredit" class="heroCredit"></div>
     </section>
+
+    <div class="shell">
+      <section id="placesToolbar" class="placesToolbar" hidden>
+        <div>
+          <span class="sectionKicker">בחרו לפי מצב הרוח</span>
+          <h2>איזה חוף מתאים לכם?</h2>
+        </div>
+        <div id="placeFilters" class="placeFilters"></div>
+      </section>
+
+      <section id="placesPanel" class="placesPanel">
+        <div id="placesGrid" class="placesGrid">
+          <div class="loadingState"><span></span><b>טוענים את המקומות הכי יפים באשדוד...</b></div>
+        </div>
+      </section>
+
+      <section id="safetyCard" class="safetyCard" hidden>
+        <div class="safetyIcon">!</div>
+        <div class="safetyCopy">
+          <span class="sectionKicker">מידע חשוב</span>
+          <h2 id="safetyTitle"></h2>
+          <p id="safetyText"></p>
+          <div class="safetyLinks">
+            <a id="officialStatusLink" target="_blank" rel="noopener">לעדכון הרשמי על החופים ←</a>
+            <a id="tourismSourceLink" target="_blank" rel="noopener">מקור: תיירות אשדוד</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="comingSoon" class="comingSoon" hidden>
+        <span>מה עושים באשדוד?</span>
+        <h2 id="comingSoonTitle"></h2>
+        <p>אנחנו בונים גם את המדור הזה ברמה מלאה. בקרוב יופיעו כאן המקומות הטובים ביותר בעיר, עם תמונות, פרטים והמלצות.</p>
+        <a href="./">← חזרה למה עושים באשדוד?</a>
+      </section>
+    </div>
   </main>
-  <script src="places.js?v=20261005-1"></script>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div><strong>מה עושים באשדוד?</strong><span>מבית אשדוד נט</span></div>
+      <div class="footerLinks">
+        <a href="./">חזרה לעמוד הראשי</a>
+        <a href="https://ashdodnet.com/" target="_blank" rel="noopener">אשדוד נט</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="places.js?v=20261005-2" defer></script>
 </body>
 </html>
