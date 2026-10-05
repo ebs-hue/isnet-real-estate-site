@@ -177,7 +177,7 @@ function scheduleSummary(e){
   }
   const dates=uniqueOccurrenceDates(e);
   const times=[...new Set(occ.map(x=>formatTime(x.start_time)))];
-  return dates.length+' מועדים'+(times.length===1?' · '+times[0]:' · שעות שונות');
+  return occ.length+' מועדים'+(times.length===1?' · '+times[0]:' · שעות שונות');
 }
 function eventCard(e){
   const occ=eventOccurrences(e);
