@@ -7,7 +7,7 @@ const titles={
   culture:"מוסדות תרבות באשדוד",
   "must-see":"מקומות שחייבים להכיר"
 };
-const state={category:new URLSearchParams(location.search).get("category")||"parks",filter:"all",data:null};
+const state={category:new URLSearchParams(location.search).get("category")||"parks",filter:"all",data:null,cat:null};
 
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function mapsUrl(q){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q)}
@@ -17,6 +17,7 @@ function setMeta(title,intro){
   if(meta&&intro)meta.setAttribute("content",intro);
 }
 function renderHero(cat){
+  state.cat=cat;
   $("placesTitle").textContent=cat.title;
   $("placesEyebrow").textContent=cat.eyebrow||"";
   $("placesIntro").textContent=cat.intro||"";
@@ -37,7 +38,7 @@ function placeCard(item){
       (item.image_credit?'<small class="imageCredit">'+esc(item.image_credit)+'</small>':'')+
     '</div>'+
     '<div class="placeBody">'+
-      '<span class="placeType">'+(state.category==="beaches"?"חוף באשדוד":"מקום באשדוד")+'</span>'+
+      '<span class="placeType">'+esc(state.cat?.item_label||(state.category==="beaches"?"חוף באשדוד":"מקום באשדוד"))+'</span>'+
       '<h2>'+esc(item.name)+'</h2>'+
       '<h3>'+esc(item.tagline||"")+'</h3>'+
       '<p>'+esc(item.description||"")+'</p>'+
@@ -51,6 +52,8 @@ function placeCard(item){
 }
 function renderFilters(cat){
   const wrap=$("placeFilters");
+  const heading=$("placesFilterTitle");
+  if(heading)heading.textContent=cat.filter_title||"מה מתאים לכם?";
   wrap.innerHTML=(cat.filters||[]).map(f=>
     '<button class="'+(state.filter===f.id?"is-active":"")+'" data-filter="'+esc(f.id)+'">'+esc(f.label)+'</button>'
   ).join("");
@@ -125,7 +128,7 @@ function renderComingSoon(){
 }
 async function init(){
   try{
-    const data=await fetch("data/places.json?v=20261005-2").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
+    const data=await fetch("data/places.json?v=20261005-3").then(r=>{if(!r.ok)throw new Error("places data");return r.json()});
     state.data=data;
     const cat=data.categories?.[state.category];
     if(!cat){renderComingSoon();return}
