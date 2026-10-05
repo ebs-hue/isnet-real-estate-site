@@ -134,9 +134,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": null,
-      "image_url": "https://media.kobins.co.il/api/images/694cea6f1843a7f4768eb67e/696e84970ff1e7cf9af8fa99_kids_8755.webp",
-      "image_source": "https://ishow.co.il/events/general?name=הדרדסים ההצגה - Live על הבמה",
-      "image_credit": "חומרי קידום המופע / עדי ברק",
+      "image_url": "https://cdn.modulus.co.il/fetch/cinemacity/w_505%2Ch_721%2Cmode_%2Cquality_95%2Cv_4f7026f8-2419-4c0e-a835-774fecc120bf41/http%3A//80.178.112.171/images/%D7%93%D7%A8%D7%93%D7%A1%D7%99%D7%9D.jpg",
+      "image_source": "https://www.cinema-city.co.il/movie/5276",
+      "image_credit": "Cinema City / חומרי קידום הדרדסים",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -166,9 +166,8 @@
       "image_verified": true,
       "thumbnail_url": null,
       "thumbnail_ready": false,
-      "image_origin_url": "https://media.kobins.co.il/api/images/694cea6f1843a7f4768eb67e/696e84970ff1e7cf9af8fa99_kids_8755.webp",
-      "image_strategy": "event_board_poster",
-      "thumbnail_error": "HTTPError"
+      "image_origin_url": "https://cdn.modulus.co.il/fetch/cinemacity/w_505%2Ch_721%2Cmode_%2Cquality_95%2Cv_4f7026f8-2419-4c0e-a835-774fecc120bf41/http%3A//80.178.112.171/images/%D7%93%D7%A8%D7%93%D7%A1%D7%99%D7%9D.jpg",
+      "image_strategy": "event_board_poster"
     },
     {
       "event_id": "evt_3_20261004",
@@ -295,10 +294,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://ashdodnet.com/dyncontent/tmp/72/2025_1_15_b39764a0-7ea1-4b3b-b35d-06ae96022b15_1200_628_Fit_.jpg",
+      "image_source": "https://ashdodnet.com/אשדוד-בקהילה/מרכז-הגישור-העירוני-באשדוד-כמודל-616647",
+      "image_credit": "אשדוד נט / מרכז הגישור העירוני",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -318,9 +317,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdodnet.com/dyncontent/tmp/72/2025_1_15_b39764a0-7ea1-4b3b-b35d-06ae96022b15_1200_628_Fit_.jpg",
+      "image_strategy": "illustrative_source"
     },
     {
       "event_id": "evt_36_20261006",
@@ -1063,10 +1064,10 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ec1c4894f557c3316c37.png",
+      "image_source": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
+      "image_credit": "מרכז אפ 60+ אשדוד / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -1086,9 +1087,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "image_strategy": "program_fallback"
     },
     {
       "event_id": "evt_96_20261014",
@@ -1163,10 +1166,10 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -1186,9 +1189,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_8_20261015",
@@ -2015,10 +2020,10 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
+      "image_source": "https://first-digital.co.il/Shows/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/",
+      "image_credit": "First Digital / חומרי קידום המופע",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2038,9 +2043,11 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
+      "image_strategy": "official_production_art"
     },
     {
       "event_id": "evt_52_20261028",
@@ -2375,10 +2382,10 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2398,9 +2405,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_15_20261103",
@@ -2527,10 +2536,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2550,9 +2559,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_74_20261104",
@@ -2575,10 +2586,10 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://www.concerto.com.br/sites/default/files/akta.jpg",
+      "image_source": "https://coo.org.il/%D7%A1%D7%93%D7%A8%D7%95%D7%AA/%D7%94%D7%A1%D7%93%D7%A8%D7%94-%D7%94%D7%A4%D7%99%D7%9C%D7%94%D7%A8%D7%9E%D7%95%D7%A0%D7%99%D7%AA-%D7%90%D7%A9%D7%93%D7%95%D7%93-2026-2027/",
+      "image_credit": "דניאל אקטע, מצולמות קידום האמנית",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2598,9 +2609,11 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://www.concerto.com.br/sites/default/files/akta.jpg",
+      "image_strategy": "artist_fallback"
     },
     {
       "event_id": "evt_17_20261105",
@@ -2831,10 +2844,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2854,9 +2867,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_20_20261110",
@@ -2879,10 +2894,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": null,
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -2902,9 +2917,11 @@
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_75_20261110",
@@ -2979,10 +2996,10 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://images.makore.co.il/events/019a99f81bc0c09dd00baec926025140f037671822827df9fcb45f4b4e120387.webp?class=eventdetail1280",
+      "image_source": "https://www.makore.co.il/event/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C-%D7%A0%D7%A4%D7%95%D7%9C%D7%99-%D7%9E%D7%A8%D7%A1%D7%99%D7%99--434e98fc",
+      "image_credit": "מה קורה / חומרי קידום המופע",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3002,9 +3019,11 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://images.makore.co.il/events/019a99f81bc0c09dd00baec926025140f037671822827df9fcb45f4b4e120387.webp?class=eventdetail1280",
+      "image_strategy": "event_board_poster"
     },
     {
       "event_id": "evt_58_20261112",
@@ -3907,10 +3926,10 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ec1c4894f557c3316c37.png",
+      "image_source": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
+      "image_credit": "מרכז אפ 60+ אשדוד / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3930,9 +3949,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "image_strategy": "program_fallback"
     },
     {
       "event_id": "evt_25_20261203",
@@ -3955,10 +3976,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3978,9 +3999,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_26_20261203",
@@ -4003,10 +4026,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "assets/events/ff109db1f3200ccb83b4.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": "מועדון גדולות מהחיים / Smarticket",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4026,9 +4049,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "image_strategy": "series_fallback"
     },
     {
       "event_id": "evt_27_20261203",
@@ -4259,10 +4284,10 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_source": "https://www.srugim.co.il/",
+      "image_credit": "תמונת הפקה - היפה והחיה",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4282,9 +4307,11 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_strategy": "production_fallback"
     },
     {
       "event_id": "evt_85_20261208",
@@ -4307,10 +4334,10 @@
       "is_free": null,
       "ticket_status": "phone_only",
       "ticket_url": null,
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
+      "image_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_source": "https://www.srugim.co.il/",
+      "image_credit": "תמונת הפקה - היפה והחיה",
+      "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4330,9 +4357,11 @@
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
-      "image_verified": false,
+      "image_verified": true,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_strategy": "production_fallback"
     },
     {
       "event_id": "evt_65_20261212",
@@ -4615,9 +4644,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://live.tickchak.co.il/standup/event/eBxlpwMAx?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
-      "image_url": "https://www.kiryatono.muni.il/uploads/n/1766397621.8288.jpg",
-      "image_source": "https://www.kiryatono.muni.il/",
-      "image_credit": "חומרי קידום המופע",
+      "image_url": "https://medias.timeout.co.il/www/uploads/2013/11/720_Gil-Kopatch%D7%99%D7%95%D7%A1%D7%99-%D7%A6%D7%91%D7%A7%D7%A8-%D7%A6%D7%9C%D7%9D-17-1140x641.jpg",
+      "image_source": "https://timeout.co.il/event/%D7%92%D7%99%D7%9C-%D7%A7%D7%95%D7%A4%D7%98%D7%A9/",
+      "image_credit": "גיל קופטש, צילום: יוסי צבקר / Time Out",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -4635,17 +4664,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://www.kiryatono.muni.il/uploads/n/1766397621.8288.jpg",
+      "image_origin_url": "https://medias.timeout.co.il/www/uploads/2013/11/720_Gil-Kopatch%D7%99%D7%95%D7%A1%D7%99-%D7%A6%D7%91%D7%A7%D7%A8-%D7%A6%D7%9C%D7%9D-17-1140x641.jpg",
       "purchase_url": null,
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
       "thumbnail_url": null,
       "thumbnail_ready": false,
-      "image_strategy": "artist_group_promo",
+      "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
-      "thumbnail_error": "HTTPError"
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_86_20261221",
