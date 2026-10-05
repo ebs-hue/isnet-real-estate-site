@@ -1,6 +1,6 @@
 {
   "city": "אשדוד",
-  "updated_at": "2026-10-05T10:05:00+03:00",
+  "updated_at": "2026-10-05T10:15:00+03:00",
   "source_name": "אשדוד נט - סרטים באשדוד",
   "source_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93",
   "movies": [
@@ -467,21 +467,6 @@
       ]
     },
     {
-      "id": "tafiti",
-      "title": "טפיטי: הרפתקה במדבר - מדובב, הקרנה רגישה",
-      "is_family": true,
-      "trailer_youtube_id": null,
-      "synopsis": "הרפתקה קומית לכל המשפחה על סוריקטה וחזיר בר שיוצאים למצוא פרח קסום. ההקרנה מותאמת לקהל רגיש.",
-      "venues": [
-        {
-          "id": "hot-cinema",
-          "name": "HOT Cinema אשדוד",
-          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%98%D7%A4%D7%99%D7%98%D7%99-%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%94-%D7%91%D7%9E%D7%93%D7%91%D7%A8-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A2%D7%91%D7%A8%D7%99%D7%AA-%D7%94%D7%A7%D7%A8%D7%A0%D7%94-%D7%A8%D7%92%D7%99%D7%A9%D7%94",
-          "schedule": {}
-        }
-      ]
-    },
-    {
       "id": "forgotten-island-hebrew",
       "title": "האי הנעלם - מדובב לעברית",
       "is_family": true,
@@ -830,21 +815,6 @@
       ]
     },
     {
-      "id": "fast-furious-25",
-      "title": "מהיר ועצבני - חגיגות 25 שנה",
-      "is_family": false,
-      "trailer_youtube_id": null,
-      "synopsis": "הקרנה חגיגית לציון 25 שנה לסרט האקשן שהפך לאחת מסדרות הקולנוע המצליחות בעולם.",
-      "venues": [
-        {
-          "id": "cinema-city",
-          "name": "סינמה סיטי אשדוד",
-          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%9E%D7%94%D7%99%D7%A8-%D7%95%D7%A2%D7%A6%D7%91%D7%A0%D7%99-%D7%97%D7%92%D7%99%D7%92%D7%95%D7%AA-25-%D7%A9%D7%A0%D7%94-fast-furious%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
-          "schedule": {}
-        }
-      ]
-    },
-    {
       "id": "spinned",
       "title": "מרגלים מהאגדות - מדובב",
       "is_family": true,
@@ -1104,9 +1074,9 @@
     }
   ],
   "stats": {
-    "movie_cards": 31,
-    "family_movies": 8,
-    "cinema_city": 25,
-    "hot_cinema": 19
+    "movie_cards": 29,
+    "family_movies": 7,
+    "cinema_city": 24,
+    "hot_cinema": 18
   }
 }
