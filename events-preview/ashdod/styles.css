@@ -414,6 +414,31 @@ main{position:relative;z-index:3}
 .dateChip b{display:block;font:900 20px/1 "Heebo",sans-serif}
 .dateChip span{display:block;margin-top:2px;font-size:12px;color:#d7e7f8;font-weight:700}
 
+/* Repeated performances share one card. Their dates run vertically down
+   the image edge, so the user sees every available date at a glance. */
+.dateStack{
+  position:absolute;right:9px;top:9px;z-index:6;
+  display:flex;flex-direction:column;align-items:stretch;gap:5px;
+  max-height:calc(100% - 18px);
+}
+.multiDateChip{
+  min-width:51px;height:28px;padding:0 7px;
+  display:flex;align-items:center;justify-content:center;gap:4px;
+  border-radius:9px;
+  background:rgba(7,22,42,.88);color:#fff;
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 4px 12px rgba(0,0,0,.14);
+  backdrop-filter:blur(8px);
+  white-space:nowrap;
+}
+.multiDateChip b{font:900 15px/1 "Heebo",sans-serif}
+.multiDateChip span{font:800 10px/1 "Heebo",sans-serif;color:#dbeafa}
+.multiDateChip.is-active{
+  background:#fff;color:#15395e;border-color:#fff;
+}
+.multiDateChip.is-active span{color:#4f6f91}
+.badge.datesCount{background:#edf7ff;color:#226ca8}
+
 .featureBody,.eventBody{padding:18px}
 .featureBody h3,.eventBody h3{
   margin:8px 0 10px;
@@ -535,7 +560,7 @@ main{position:relative;z-index:3}
 }
 .modal__description{color:#53657a;font-size:16px}
 .modal__facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:21px 0}
-.fact{background:#f4f7fb;border-radius:16px;padding:13px}
+.fact{background:#f4f7fb;border-radius:16px;padding:13px;line-height:1.55}
 .fact b{display:block;color:#65758a;font-size:12px;margin-bottom:3px}
 .modal__actions{display:flex;gap:10px;flex-wrap:wrap}
 
@@ -646,4 +671,11 @@ main{position:relative;z-index:3}
     top:10px;left:10px;
     font-size:20px;
   }
+}
+
+@media(max-width:650px){
+  .dateStack{right:8px;top:8px;gap:4px}
+  .multiDateChip{min-width:48px;height:27px;padding:0 6px}
+  .multiDateChip b{font-size:14px}
+  .multiDateChip span{font-size:9px}
 }
