@@ -1157,3 +1157,40 @@ main{position:relative;z-index:3}
   .monthDay.has-events:after{right:6px;bottom:7px;width:5px;height:5px}
   .calendarHint{font-size:11px;text-align:center;padding:0 5px}
 }
+
+.calendarSelectionBar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:14px;
+  margin-top:13px;
+  padding:12px 13px;
+  border-radius:16px;
+  background:#f2f7fc;
+  border:1px solid #e1eaf3;
+}
+.calendarSelectionText{
+  color:#405970;
+  font-weight:800;
+  font-size:13px;
+}
+.calendarApply{
+  flex:0 0 auto;
+  border:0;
+  border-radius:13px;
+  padding:10px 16px;
+  background:linear-gradient(135deg,#2368f2,#2e91f1);
+  color:#fff;
+  font:900 13px "Heebo",sans-serif;
+  cursor:pointer;
+  box-shadow:0 8px 19px rgba(35,104,242,.2);
+}
+.calendarApply:hover{transform:translateY(-1px)}
+@media(max-width:650px){
+  .calendarSelectionBar{
+    align-items:stretch;
+    flex-direction:column;
+    text-align:center;
+  }
+  .calendarApply{width:100%;min-height:44px}
+}
