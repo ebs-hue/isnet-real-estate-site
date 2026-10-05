@@ -1,0 +1,758 @@
+{
+  "updated_at": "2026-10-05T13:10:00+03:00",
+  "categories": {
+    "parks": {
+      "title": "פארקים בראשון לציון",
+      "eyebrow": "ירוק, משפחה ומרחבים בעיר",
+      "intro": "הפארקים והגנים הבולטים בעיר לבילוי, פיקניק, משחק וטיול קצר.",
+      "hero_image": "../ashdod/assets/defaults/kids.svg",
+      "hero_credit": "",
+      "item_label": "פארק בראשון לציון",
+      "stats": [
+        {
+          "value": "5",
+          "label": "מוקדים ראשונים במאגר"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "הכול"
+        },
+        {
+          "id": "families",
+          "label": "משפחות"
+        },
+        {
+          "id": "nature",
+          "label": "טבע"
+        }
+      ],
+      "items": [
+        {
+          "id": "gan-hamoshava",
+          "name": "גן המושבה",
+          "tagline": "הלב הירוק וההיסטורי של מרכז העיר",
+          "description": "גן היסטורי עם שדרת דקלים, מדשאות, גן משחקים ופינות ישיבה.",
+          "image": "../ashdod/assets/defaults/kids.svg",
+          "image_credit": null,
+          "tags": [
+            "families",
+            "nature"
+          ],
+          "badges": [
+            "חינם",
+            "משפחות"
+          ],
+          "highlights": [
+            "שדרת דקלים",
+            "מדשאות",
+            "פיקניק"
+          ],
+          "map_query": "גן המושבה ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "gan-ivrit",
+          "name": "גן בעברית",
+          "tagline": "פארק גדול שמוקדש לשפה העברית",
+          "description": "פארק משפחתי גדול עם מתקנים, בריכות ביולוגיות, מזרקות ומגרשי ספורט.",
+          "image": "../ashdod/assets/defaults/kids.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "חינם",
+            "משפחות"
+          ],
+          "highlights": [
+            "כ-70 דונם",
+            "מתקנים לילדים"
+          ],
+          "map_query": "גן בעברית ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "neot-shikma",
+          "name": "פארק נאות שקמה",
+          "tagline": "160 דונם של ירוק במערב העיר",
+          "description": "פארק גדול ומונגש עם אומגות, מתקני משחק, כושר ומדשאות.",
+          "image": "../ashdod/assets/defaults/kids.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "חינם",
+            "מונגש"
+          ],
+          "highlights": [
+            "מתקני משחק",
+            "פיקניק"
+          ],
+          "map_query": "פארק נאות שקמה ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "lake",
+          "name": "פארק האגם ואגם הסופרלנד",
+          "tagline": "טבע עירוני לצד מוקדי הבילוי",
+          "description": "אזור האגם מתאים להליכה, טבע עירוני ושילוב עם אטרקציות סמוכות.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "nature",
+            "families"
+          ],
+          "badges": [
+            "טבע",
+            "משפחות"
+          ],
+          "highlights": [
+            "אגם עירוני",
+            "הליכה"
+          ],
+          "map_query": "אגם הסופרלנד ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "park-1000",
+          "name": "פארק האלף",
+          "tagline": "פארק חדש במערב העיר",
+          "description": "פארק עירוני חדש ומרווח באזור האלף.",
+          "image": "../ashdod/assets/defaults/kids.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "משפחות"
+          ],
+          "highlights": [
+            "מרחבים פתוחים"
+          ],
+          "map_query": "פארק האלף ראשון לציון",
+          "source_url": "https://club.rishonlezion.muni.il/"
+        }
+      ]
+    },
+    "nature": {
+      "title": "טבע וטיולים",
+      "eyebrow": "פינות טבע בעיר ובסביבה הקרובה",
+      "intro": "אגמים, חוף, פארקים וטיולים קצרים שמתאימים לכמה שעות בחוץ.",
+      "hero_image": "../ashdod/assets/defaults/exhibition.svg",
+      "hero_credit": "",
+      "item_label": "טיול באזור ראשון לציון",
+      "stats": [
+        {
+          "value": "4",
+          "label": "מוקדי טבע ראשונים"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "הכול"
+        },
+        {
+          "id": "city",
+          "label": "בתוך העיר"
+        },
+        {
+          "id": "nearby",
+          "label": "בסביבה הקרובה"
+        }
+      ],
+      "items": [
+        {
+          "id": "lake-nature",
+          "name": "אגם הסופרלנד",
+          "tagline": "טבע עירוני במערב ראשון",
+          "description": "אגם ושטחים פתוחים בלב אזור הבילוי המערבי.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "city"
+          ],
+          "badges": [
+            "טבע עירוני"
+          ],
+          "highlights": [
+            "צפרות",
+            "הליכה"
+          ],
+          "map_query": "אגם הסופרלנד ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "hamoshava-nature",
+          "name": "גן המושבה",
+          "tagline": "טבע והיסטוריה במרכז העיר",
+          "description": "גן ותיק עם שדרת דקלים ומרחבים ירוקים.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "city"
+          ],
+          "badges": [
+            "חינם"
+          ],
+          "highlights": [
+            "מרכז העיר",
+            "היסטוריה"
+          ],
+          "map_query": "גן המושבה ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "hof-nature",
+          "name": "חוף ראשון לציון",
+          "tagline": "ים, טיילת ושקיעה",
+          "description": "רצועת החוף העירונית לבילוי והליכה.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "city"
+          ],
+          "badges": [
+            "ים"
+          ],
+          "highlights": [
+            "טיילת",
+            "שקיעה"
+          ],
+          "map_query": "חוף ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "palmachim",
+          "name": "גן לאומי חוף פלמחים",
+          "tagline": "טיול קרוב מאוד לעיר",
+          "description": "חוף טבעי, רכס כורכר ושרידים ארכאולוגיים.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "nearby"
+          ],
+          "badges": [
+            "בסביבה הקרובה"
+          ],
+          "highlights": [
+            "חוף טבעי",
+            "ארכאולוגיה"
+          ],
+          "map_query": "גן לאומי חוף פלמחים",
+          "source_url": "https://www.parks.org.il/"
+        }
+      ]
+    },
+    "beaches": {
+      "title": "החופים בראשון לציון",
+      "eyebrow": "ים, טיילת ושעות הצלה",
+      "intro": "חופי ראשון לציון לבילוי, רחצה ושקיעה.",
+      "hero_image": "../ashdod/assets/defaults/cinema.svg",
+      "hero_credit": "",
+      "item_label": "חוף בראשון לציון",
+      "stats": [
+        {
+          "value": "5",
+          "label": "חופים ומקטעי חוף"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "כל החופים"
+        },
+        {
+          "id": "families",
+          "label": "משפחות"
+        },
+        {
+          "id": "separate",
+          "label": "רחצה נפרדת"
+        }
+      ],
+      "items": [
+        {
+          "id": "hofit",
+          "name": "חוף חופית",
+          "tagline": "חוף נגיש עם שירותי הצלה",
+          "description": "חוף עירוני מוכרז ונגיש.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "נגיש",
+            "חוף מוכרז"
+          ],
+          "highlights": [
+            "שירותי הצלה",
+            "טיילת"
+          ],
+          "map_query": "חוף חופית ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/ent/hofit-beach/"
+        },
+        {
+          "id": "blue",
+          "name": "החוף הכחול",
+          "tagline": "חוף עירוני מרכזי",
+          "description": "אחד מחופי הים המרכזיים ברצועת החוף.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "חוף ים"
+          ],
+          "highlights": [
+            "טיילת",
+            "ים"
+          ],
+          "map_query": "החוף הכחול ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "separate",
+          "name": "החוף הנפרד",
+          "tagline": "רחצה נפרדת בעונה",
+          "description": "חוף נגיש עם שעות רחצה נפרדות לפי הלוח העונתי.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [
+            "separate"
+          ],
+          "badges": [
+            "רחצה נפרדת",
+            "נגיש"
+          ],
+          "highlights": [
+            "שעות עונתיות"
+          ],
+          "map_query": "החוף הנפרד ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/ent/separate-beach"
+        },
+        {
+          "id": "kids",
+          "name": "חוף הילדים",
+          "tagline": "חוף ברצועת ראשון לציון",
+          "description": "מקטע חוף שמופיע במדריך התיירות העירוני.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [
+            "families"
+          ],
+          "badges": [
+            "חוף ים"
+          ],
+          "highlights": [
+            "ים",
+            "טיילת"
+          ],
+          "map_query": "חוף הילדים ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "tel-yona",
+          "name": "תל יונה",
+          "tagline": "מקטע חוף ומרחב פתוח",
+          "description": "מקום מוכר ברצועת החוף העירונית.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "חוף ים"
+          ],
+          "highlights": [
+            "ים",
+            "מרחב פתוח"
+          ],
+          "map_query": "תל יונה ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        }
+      ]
+    },
+    "attractions": {
+      "title": "אטרקציות בראשון לציון",
+      "eyebrow": "משפחה, אקשן ובילוי",
+      "intro": "האטרקציות הבולטות בעיר למשפחות ולבילוי.",
+      "hero_image": "../ashdod/assets/defaults/festival.svg",
+      "hero_credit": "",
+      "item_label": "אטרקציה בראשון לציון",
+      "stats": [
+        {
+          "value": "5",
+          "label": "אטרקציות מובילות"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "הכול"
+        },
+        {
+          "id": "kids",
+          "label": "ילדים ומשפחה"
+        },
+        {
+          "id": "action",
+          "label": "אקשן"
+        }
+      ],
+      "items": [
+        {
+          "id": "haikef",
+          "name": "חי כיף ראשון לציון",
+          "tagline": "גן החיות העירוני למשפחות",
+          "description": "מתחם בעלי חיים פתוח למשפחות במערב העיר.",
+          "image": "../ashdod/assets/defaults/festival.svg",
+          "image_credit": null,
+          "tags": [
+            "kids"
+          ],
+          "badges": [
+            "משפחות",
+            "בעלי חיים"
+          ],
+          "highlights": [
+            "מתחם פתוח",
+            "פעילות לילדים"
+          ],
+          "map_query": "חי כיף ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "superland",
+          "name": "סופרלנד",
+          "tagline": "פארק השעשועים של העיר",
+          "description": "פארק שעשועים גדול במערב ראשון לציון.",
+          "image": "../ashdod/assets/defaults/festival.svg",
+          "image_credit": null,
+          "tags": [
+            "kids",
+            "action"
+          ],
+          "badges": [
+            "משפחות",
+            "אקשן"
+          ],
+          "highlights": [
+            "מתקני שעשועים"
+          ],
+          "map_query": "סופרלנד ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "flybox",
+          "name": "FLYBOX",
+          "tagline": "מנהרת רוח וחוויית תעופה",
+          "description": "אטרקציית אקסטרים באזור האגם.",
+          "image": "../ashdod/assets/defaults/festival.svg",
+          "image_credit": null,
+          "tags": [
+            "action"
+          ],
+          "badges": [
+            "אקשן"
+          ],
+          "highlights": [
+            "מנהרת רוח"
+          ],
+          "map_query": "FLYBOX ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "ijump",
+          "name": "iJump ראשון לציון",
+          "tagline": "טרמפולינות ואקסטרים",
+          "description": "מתחם טרמפולינות, טיפוס ופעילויות אקשן.",
+          "image": "../ashdod/assets/defaults/festival.svg",
+          "image_credit": null,
+          "tags": [
+            "kids",
+            "action"
+          ],
+          "badges": [
+            "ילדים",
+            "אקשן"
+          ],
+          "highlights": [
+            "טרמפולינות",
+            "טיפוס"
+          ],
+          "map_query": "iJump ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/ent/?ent-type=attractions"
+        },
+        {
+          "id": "planet",
+          "name": "יס פלאנט ראשון לציון",
+          "tagline": "קולנוע ובילוי על שפת האגם",
+          "description": "מתחם קולנוע גדול עם מסעדות ואולמות מיוחדים.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [
+            "kids"
+          ],
+          "badges": [
+            "קולנוע",
+            "בילוי"
+          ],
+          "highlights": [
+            "26 אולמות",
+            "IMAX",
+            "4DX"
+          ],
+          "map_query": "יס פלאנט ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/ent/yes-planet/"
+        }
+      ]
+    },
+    "culture": {
+      "title": "מוסדות תרבות בראשון לציון",
+      "eyebrow": "מופעים, מוזיאונים, ספריות ומורשת",
+      "intro": "מוקדי התרבות המרכזיים בעיר.",
+      "hero_image": "../ashdod/assets/defaults/theatre.svg",
+      "hero_credit": "",
+      "item_label": "מוסד תרבות בראשון לציון",
+      "stats": [
+        {
+          "value": "4",
+          "label": "מוסדות עוגן"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "הכול"
+        },
+        {
+          "id": "museum",
+          "label": "מוזיאונים"
+        },
+        {
+          "id": "stage",
+          "label": "במה ומופעים"
+        },
+        {
+          "id": "library",
+          "label": "ספריות"
+        }
+      ],
+      "items": [
+        {
+          "id": "htrl",
+          "name": "היכל התרבות מאיר ניצן",
+          "tagline": "במת התרבות המרכזית בעיר",
+          "description": "תיאטרון, מוזיקה, מחול, ילדים, בידור ופסטיבלים.",
+          "image": "../ashdod/assets/defaults/theatre.svg",
+          "image_credit": null,
+          "tags": [
+            "stage"
+          ],
+          "badges": [
+            "מופעים"
+          ],
+          "highlights": [
+            "תיאטרון",
+            "מוזיקה",
+            "ילדים"
+          ],
+          "map_query": "היכל התרבות ראשון לציון",
+          "source_url": "https://htrl.co.il/"
+        },
+        {
+          "id": "yama",
+          "name": "מוזיאון אגם",
+          "tagline": "אמנות קינטית וחוויות תרבות",
+          "description": "מוזיאון יעקב אגם עם תערוכות, סיורים, סדנאות ומופעים.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "museum"
+          ],
+          "badges": [
+            "מוזיאון"
+          ],
+          "highlights": [
+            "תערוכות",
+            "סיורים"
+          ],
+          "map_query": "מוזיאון אגם ראשון לציון",
+          "source_url": "https://yama.smarticket.co.il/"
+        },
+        {
+          "id": "rlzm",
+          "name": "מוזיאון ראשון לציון",
+          "tagline": "הסיפור ההיסטורי של העיר",
+          "description": "אתר מורשת לאומית עם תערוכות, סיורים ואירועים.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [
+            "museum"
+          ],
+          "badges": [
+            "מורשת",
+            "מוזיאון"
+          ],
+          "highlights": [
+            "סיורים",
+            "תערוכות"
+          ],
+          "map_query": "מוזיאון ראשון לציון",
+          "source_url": "https://www.rlzm.co.il/"
+        },
+        {
+          "id": "kotar",
+          "name": "כותר ראשון חביב",
+          "tagline": "ספרייה, תרבות וקהילה",
+          "description": "שעות סיפור, סדנאות, הרצאות ומופעים.",
+          "image": "../ashdod/assets/defaults/lecture.svg",
+          "image_credit": null,
+          "tags": [
+            "library"
+          ],
+          "badges": [
+            "ספרייה"
+          ],
+          "highlights": [
+            "ילדים",
+            "הרצאות",
+            "סדנאות"
+          ],
+          "map_query": "כותר ראשון חביב",
+          "source_url": "https://www.kotar-rishon-lezion.org.il/"
+        }
+      ]
+    },
+    "must-see": {
+      "title": "מקומות שחייבים להכיר",
+      "eyebrow": "הבחירה הראשונה למי שרוצה להכיר את ראשון",
+      "intro": "שילוב של טבע, תרבות, משפחה והיסטוריה.",
+      "hero_image": "../ashdod/assets/defaults/music.svg",
+      "hero_credit": "",
+      "item_label": "מקום שחייבים להכיר",
+      "stats": [
+        {
+          "value": "6",
+          "label": "בחירות פתיחה"
+        }
+      ],
+      "filters": [
+        {
+          "id": "all",
+          "label": "הכול"
+        }
+      ],
+      "items": [
+        {
+          "id": "m-yama",
+          "name": "מוזיאון אגם",
+          "tagline": "אמנות בתנועה",
+          "description": "אחד ממוקדי התרבות המזוהים עם העיר.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "תרבות"
+          ],
+          "highlights": [
+            "אמנות קינטית"
+          ],
+          "map_query": "מוזיאון אגם ראשון לציון",
+          "source_url": "https://yama.smarticket.co.il/"
+        },
+        {
+          "id": "m-rlzm",
+          "name": "מוזיאון ראשון לציון",
+          "tagline": "העיר מספרת את הסיפור שלה",
+          "description": "אתר מורשת בלב המרכז ההיסטורי.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "מורשת"
+          ],
+          "highlights": [
+            "היסטוריה"
+          ],
+          "map_query": "מוזיאון ראשון לציון",
+          "source_url": "https://www.rlzm.co.il/"
+        },
+        {
+          "id": "m-lake",
+          "name": "אגם הסופרלנד",
+          "tagline": "טבע בלב מערב העיר",
+          "description": "אגם עירוני וסביבת בילוי.",
+          "image": "../ashdod/assets/defaults/exhibition.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "טבע"
+          ],
+          "highlights": [
+            "הליכה",
+            "צפרות"
+          ],
+          "map_query": "אגם הסופרלנד ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "m-hai",
+          "name": "חי כיף ראשון לציון",
+          "tagline": "בילוי משפחתי באוויר הפתוח",
+          "description": "גן החיות העירוני.",
+          "image": "../ashdod/assets/defaults/festival.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "משפחות"
+          ],
+          "highlights": [
+            "בעלי חיים"
+          ],
+          "map_query": "חי כיף ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "m-hamoshava",
+          "name": "גן המושבה",
+          "tagline": "המרכז ההיסטורי הירוק",
+          "description": "גן ותיק עם שדרת דקלים.",
+          "image": "../ashdod/assets/defaults/kids.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "חינם"
+          ],
+          "highlights": [
+            "מרכז העיר"
+          ],
+          "map_query": "גן המושבה ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        },
+        {
+          "id": "m-beach",
+          "name": "חוף ראשון לציון",
+          "tagline": "הים של העיר",
+          "description": "רצועת החוף והטיילת.",
+          "image": "../ashdod/assets/defaults/cinema.svg",
+          "image_credit": null,
+          "tags": [],
+          "badges": [
+            "ים"
+          ],
+          "highlights": [
+            "טיילת",
+            "שקיעה"
+          ],
+          "map_query": "חוף ראשון לציון",
+          "source_url": "https://www.visitrishon.co.il/"
+        }
+      ]
+    }
+  }
+}
