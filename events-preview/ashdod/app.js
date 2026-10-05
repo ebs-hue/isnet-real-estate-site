@@ -3,7 +3,7 @@ const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const currency=new Intl.NumberFormat("he-IL",{style:"currency",currency:"ILS",maximumFractionDigits:0});
-const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",exhibition:"תערוכות ואמנות",workshop:"סדנאות ויצירה",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט",tour:"סיורים",other:"עוד"};
+const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",exhibition:"תערוכות ואמנות",workshop:"סדנאות ויצירה",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"עוד"};
 const catIcons={music:"♫",standup:"◉",theatre:"◇",kids:"★",lecture:"▣",exhibition:"▤",workshop:"✦",cinema:"▶",festival:"✺",community:"◎",sport:"⚑",tour:"⌖",other:"+"};
 const favorites=new Set(JSON.parse(localStorage.getItem("isnet-events-favorites")||"[]"));
 
@@ -513,7 +513,7 @@ function renderDates(){
   $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
 }
 function renderCategories(){
-  const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
+  const cats=["music","standup","kids","sport","theatre","lecture","exhibition","workshop","cinema","festival"];
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
   $("categoryGrid").innerHTML=cats.map(c=>{
