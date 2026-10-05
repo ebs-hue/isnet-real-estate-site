@@ -790,9 +790,9 @@
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%9C%D7%91_%D7%96%D7%95%D7%9B%D7%A8/?id=8020",
-      "image_url": "assets/events/798bd8f4ba326af63d8f.jpg",
-      "image_source": "https://mishkan-ashdod.smarticket.co.il/הלב_זוכר/?id=8020",
-      "image_credit": null,
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PikiWiki%20Israel%2085170%20building%20for%20the%20performing%20arts%20ashdod.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_85170_building_for_the_performing_arts_ashdod.jpg",
+      "image_credit": "PikiWiki Israel / Wikimedia Commons",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -810,16 +810,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/uploads/upld6a5c7fc8020d1345424456.jpg",
+      "image_origin_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PikiWiki%20Israel%2085170%20building%20for%20the%20performing%20arts%20ashdod.jpg",
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%9C%D7%91_%D7%96%D7%95%D7%9B%D7%A8/?id=8020",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "image_strategy": "source_event",
-      "thumbnail_url": "assets/event-thumbs/368f9236552a8f17ed181a.jpg",
-      "thumbnail_ready": true,
+      "image_strategy": "mishkan_venue_fallback_temporary",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "direct_image"
     },
     {
       "event_id": "evt_71_20261011",
@@ -842,9 +842,9 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/הלב_זוכר/?id=8020",
-      "image_url": "assets/events/798bd8f4ba326af63d8f.jpg",
-      "image_source": "https://mishkan-ashdod.smarticket.co.il/הלב_זוכר/?id=8020",
-      "image_credit": null,
+      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PikiWiki%20Israel%2085170%20building%20for%20the%20performing%20arts%20ashdod.jpg",
+      "image_source": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_85170_building_for_the_performing_arts_ashdod.jpg",
+      "image_credit": "PikiWiki Israel / Wikimedia Commons",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -862,16 +862,16 @@
       "quality_flags": [
         "needs_detail_enrichment"
       ],
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/uploads/upld6a5c7fc8020d1345424456.jpg",
+      "image_origin_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/PikiWiki%20Israel%2085170%20building%20for%20the%20performing%20arts%20ashdod.jpg",
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/הלב_זוכר/?id=8020",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "image_strategy": "source_event",
-      "thumbnail_url": "assets/event-thumbs/b6e9846aedc8c2c0291552.jpg",
-      "thumbnail_ready": true,
+      "image_strategy": "mishkan_venue_fallback_temporary",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "direct_image"
     },
     {
       "event_id": "evt_40_20261012",
