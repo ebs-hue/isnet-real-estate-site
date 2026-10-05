@@ -1,6 +1,6 @@
 {
   "city": "אשדוד",
-  "updated_at": "2026-10-05T09:30:00+03:00",
+  "updated_at": "2026-10-05T09:55:00+03:00",
   "source_name": "אשדוד נט - סרטים באשדוד",
   "source_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93",
   "movies": [
@@ -60,7 +60,8 @@
             ]
           }
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "digger",
@@ -121,7 +122,8 @@
             ]
           }
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "her-private-hell",
@@ -170,7 +172,8 @@
             ]
           }
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "verity",
@@ -209,8 +212,15 @@
               "23:00"
             ]
           }
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%AA%D7%A2%D7%AA%D7%95%D7%A2",
+          "schedule": {}
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "waves-of-hope",
@@ -240,7 +250,8 @@
             ]
           }
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "madama-butterfly",
@@ -270,7 +281,8 @@
             ]
           }
         }
-      ]
+      ],
+      "is_family": false
     },
     {
       "id": "primavera",
@@ -291,7 +303,566 @@
             ]
           }
         }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "silence-of-the-lambs",
+      "title": "סינמה נוסטלגיה - שתיקת הכבשים",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "קלריס, צוערת FBI, נשלחת לראיין את חניבעל לקטר בתקווה להיעזר בו כדי ללכוד רוצח סדרתי אחר.",
+      "venues": [
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%A1%D7%99%D7%A0%D7%9E%D7%94-%D7%A0%D7%95%D7%A1%D7%98%D7%9C%D7%92%D7%99%D7%94-%D7%A9%D7%AA%D7%99%D7%A7%D7%AA-%D7%94%D7%9B%D7%91%D7%A9%D7%99%D7%9D",
+          "schedule": {
+            "2026-10-05": [
+              "20:00"
+            ],
+            "2026-10-06": [
+              "20:00"
+            ],
+            "2026-10-07": [
+              "20:00"
+            ],
+            "2026-10-08": [
+              "20:00"
+            ],
+            "2026-10-09": [
+              "20:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "land-of-sometimes",
+      "title": "אספן המשאלות - מדובב",
+      "is_family": true,
+      "trailer_youtube_id": "XjcCMji01b8",
+      "synopsis": "שני ילדים מקבלים שעון מיוחד שמכניס אותם לארץ שבה משאלות מתגשמות, אבל הם חייבים לחזור הביתה בזמן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%90%D7%A1%D7%A4%D7%9F-%D7%94%D7%9E%D7%A9%D7%90%D7%9C%D7%95%D7%AA-%D7%9E%D7%93%D7%95%D7%91%D7%91-the-land-of-sometimes%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "17:20"
+            ],
+            "2026-10-06": [
+              "14:30"
+            ],
+            "2026-10-07": [
+              "16:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "crawlers",
+      "title": "קרולרס",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "מותחן מצמרר מהמפיקים של ג'ון וויק.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%A7%D7%A8%D7%95%D7%9C%D7%A8%D7%A1-crawlers%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "runner-russian",
+      "title": "ראנר - מדובב לרוסית",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "בלדר לשעבר יוצא למירוץ נגד הזמן כדי להעביר איבר להשתלה לילדה בת שבע, כשארגון פשע בעקבותיו.",
+      "venues": [
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%A8%D7%90%D7%A0%D7%A8-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A8%D7%95%D7%A1%D7%99%D7%AA-%D0%BA%D1%83%D1%80%D1%8C%D0%B5%D1%80",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "heart-of-the-beast-russian",
+      "title": "בלב הפרא - מדובב לרוסית",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "קצין כוחות מיוחדים וכלבו נאלצים לשרוד יחד בשממה של אלסקה לאחר התרסקות מטוס.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%9C%D7%91-%D7%94%D7%A4%D7%A8%D7%90-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A8%D7%95%D7%A1%D7%99%D7%AA-%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5-%D0%B7%D0%B2%D0%B5%D1%80%D1%8F",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "tafiti",
+      "title": "טפיטי: הרפתקה במדבר - מדובב, הקרנה רגישה",
+      "is_family": true,
+      "trailer_youtube_id": null,
+      "synopsis": "הרפתקה קומית לכל המשפחה על סוריקטה וחזיר בר שיוצאים למצוא פרח קסום. ההקרנה מותאמת לקהל רגיש.",
+      "venues": [
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%98%D7%A4%D7%99%D7%98%D7%99-%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%94-%D7%91%D7%9E%D7%93%D7%91%D7%A8-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A2%D7%91%D7%A8%D7%99%D7%AA-%D7%94%D7%A7%D7%A8%D7%A0%D7%94-%D7%A8%D7%92%D7%99%D7%A9%D7%94",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "forgotten-island-hebrew",
+      "title": "האי הנעלם - מדובב לעברית",
+      "is_family": true,
+      "trailer_youtube_id": "cTlQCVhVDI4",
+      "synopsis": "סרט אנימציה צבעוני על שתי חברות שנשאבות לאי פנטסטי ונאבקות לחזור הביתה בלי לאבד את הזיכרונות המשותפים שלהן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%99-%D7%94%D7%A0%D7%A2%D7%9C%D7%9D-%D7%9E%D7%93%D7%95%D7%91%D7%91-forgotten-island%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "14:00",
+              "17:15"
+            ],
+            "2026-10-06": [
+              "17:15"
+            ],
+            "2026-10-07": [
+              "14:30",
+              "17:10"
+            ]
+          }
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%99-%D7%94%D7%A0%D7%A2%D7%9C%D7%9D-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A2%D7%91%D7%A8%D7%99%D7%AA",
+          "schedule": {
+            "2026-10-05": [
+              "14:40",
+              "17:00"
+            ],
+            "2026-10-06": [
+              "14:40",
+              "17:00"
+            ],
+            "2026-10-07": [
+              "14:40",
+              "17:00"
+            ],
+            "2026-10-08": [
+              "14:40",
+              "17:00"
+            ],
+            "2026-10-09": [
+              "14:40",
+              "17:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "forgotten-island-english",
+      "title": "האי הנעלם - אנגלית",
+      "is_family": true,
+      "trailer_youtube_id": "5o9H5AiH4k8",
+      "synopsis": "הגרסה באנגלית של סרט האנימציה על שתי חברות שנשאבות לאי מסתורי ומנסות להציל את החברות שלהן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%99-%D7%94%D7%A0%D7%A2%D7%9C%D7%9D-%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA-forgotten-island%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-07": [
+              "17:50"
+            ]
+          }
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%99-%D7%94%D7%A0%D7%A2%D7%9C%D7%9D-%D7%90%D7%A0%D7%92%D7%9C%D7%99%D7%AA",
+          "schedule": {
+            "2026-10-05": [
+              "14:00"
+            ],
+            "2026-10-06": [
+              "14:00"
+            ],
+            "2026-10-07": [
+              "14:00"
+            ],
+            "2026-10-08": [
+              "14:00"
+            ],
+            "2026-10-09": [
+              "14:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "resident-evil",
+      "title": "האויב שבפנים",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "גרסה חדשה ומטילת אימה לסדרת 'האויב שבפנים', על שליח רפואי שנקלע ללילה של הישרדות וכאוס.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%95%D7%99%D7%91-%D7%A9%D7%91%D7%A4%D7%A0%D7%99%D7%9D-resident-evil%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%90%D7%95%D7%99%D7%91-%D7%A9%D7%91%D7%A4%D7%A0%D7%99%D7%9D",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "heart-of-the-beast",
+      "title": "בלב הפרא",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "לאחר התרסקות מטוס, קצין כוחות מיוחדים וכלבו נאבקים לשרוד בשממה של אלסקה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%9C%D7%91-%D7%94%D7%A4%D7%A8%D7%90-heart-of-the-beast%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%9C%D7%91-%D7%94%D7%A4%D7%A8%D7%90",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "at-work",
+      "title": "בעבודה",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "צלם מצליח עוזב קריירה בטוחה כדי לרדוף אחרי חלום הכתיבה ומתמודד עם המחיר הכלכלי והאישי של הבחירה.",
+      "venues": [
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%A2%D7%91%D7%95%D7%93%D7%94",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "matchmaking-3",
+      "title": "בחורים טובים 3",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "קומדיה ישראלית על שדכן חסר מזל שנשאב למסע שידוכים בניו יורק רגע לפני חתונתו.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%97%D7%95%D7%A8%D7%99%D7%9D-%D7%98%D7%95%D7%91%D7%99%D7%9D-3-matchmaking-3%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%91%D7%97%D7%95%D7%A8%D7%99%D7%9D-%D7%98%D7%95%D7%91%D7%99%D7%9D-3",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "tuscany",
+      "title": "להתאהב בטוסקנה",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "סופר אנגלי שאיבד את ההשראה ואם לשלושה נפגשים במקרה בבית הארחה בטוסקנה ומגלים אפשרות להתחלה חדשה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%9C%D7%94%D7%AA%D7%90%D7%94%D7%91-%D7%91%D7%98%D7%95%D7%A1%D7%A7%D7%A0%D7%94-before-we-leave-tuscany%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "fall-2",
+      "title": "תלויה באוויר 2",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "שתי צעירות נלכדות על קרש צר בגובה מאות מטרים ונאלצות להתמודד עם פחדיהן כדי לשרוד.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%AA%D7%9C%D7%95%D7%99%D7%94-%D7%91%D7%90%D7%95%D7%95%D7%99%D7%A8-2-fall-2-deadpoint%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "fast-furious-25",
+      "title": "מהיר ועצבני - חגיגות 25 שנה",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "הקרנה חגיגית לציון 25 שנה לסרט האקשן שהפך לאחת מסדרות הקולנוע המצליחות בעולם.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%9E%D7%94%D7%99%D7%A8-%D7%95%D7%A2%D7%A6%D7%91%D7%A0%D7%99-%D7%97%D7%92%D7%99%D7%92%D7%95%D7%AA-25-%D7%A9%D7%A0%D7%94-fast-furious%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "spinned",
+      "title": "מרגלים מהאגדות - מדובב",
+      "is_family": true,
+      "trailer_youtube_id": "gSBWN-30kWc",
+      "synopsis": "הרפתקת אנימציה מטורפת וקורעת מצחוק לכל המשפחה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%9E%D7%A8%D7%92%D7%9C%D7%99%D7%9D-%D7%9E%D7%94%D7%90%D7%92%D7%93%D7%95%D7%AA-%D7%9E%D7%93%D7%95%D7%91%D7%91-spinned%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "14:10"
+            ],
+            "2026-10-06": [
+              "16:50"
+            ],
+            "2026-10-07": [
+              "15:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "dune-3",
+      "title": "חולית: חלק שלישי",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "הפרק השלישי והמסכם בטרילוגיה של דני וילנב, המבוסס על 'משיח חולית' מאת פרנק הרברט.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%97%D7%95%D7%9C%D7%99%D7%AA-%D7%97%D7%9C%D7%A7-%D7%A9%D7%9C%D7%99%D7%A9%D7%99-dune-part-three%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%97%D7%95%D7%9C%D7%99%D7%AA-%D7%97%D7%9C%D7%A7-%D7%A9%D7%9C%D7%99%D7%A9%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "desert-child",
+      "title": "ילד המדבר - מדובב",
+      "is_family": true,
+      "trailer_youtube_id": "D4g6qe_bwmA",
+      "synopsis": "סאן בת ה-14 מגלה שהסיפור שסבה סיפר לה על ילד שאבד במדבר אולי היה אמיתי יותר מכפי שחשבה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%99%D7%9C%D7%93-%D7%94%D7%9E%D7%93%D7%91%D7%A8-%D7%9E%D7%93%D7%95%D7%91%D7%91-the-desert-child%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "15:10",
+              "17:30"
+            ],
+            "2026-10-06": [
+              "17:50"
+            ],
+            "2026-10-07": [
+              "17:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sunny-dancer",
+      "title": "חולים על החיים",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "נערה בת 17 שניצחה את מחלת הסרטן מגיעה למחנה קיץ ומגלה חברות חדשה וחוויה שמשנה את הדרך שבה היא מסתכלת על החיים.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%97%D7%95%D7%9C%D7%99%D7%9D-%D7%A2%D7%9C-%D7%94%D7%97%D7%99%D7%99%D7%9D-sunny-dancer%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "wonderdog",
+      "title": "וונדר-דוג - מדובב",
+      "is_family": true,
+      "trailer_youtube_id": "sCeQE-QEW8A",
+      "synopsis": "צ'ארלי, כלב משפחתי אהוב, מגלה שקיבל כוחות מיוחדים ויוצא יחד עם דני להרפתקה של חברות ואומץ.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%95%D7%95%D7%A0%D7%93%D7%A8-%D7%93%D7%95%D7%92-%D7%9E%D7%93%D7%95%D7%91%D7%91-charlie-the-wonderdog%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "15:00",
+              "17:20"
+            ],
+            "2026-10-06": [
+              "15:30",
+              "17:10"
+            ],
+            "2026-10-07": [
+              "16:15"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "tad-magic-lamp",
+      "title": "טד החוקר ומנורת הקסמים - מדובב",
+      "is_family": true,
+      "trailer_youtube_id": "wHMwyvy4Jgs",
+      "synopsis": "טד ושרה יוצאים למסע בזמן כדי למנוע ממנורת קסמים לשנות את ההיסטוריה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%98%D7%93-%D7%94%D7%97%D7%95%D7%A7%D7%A8-%D7%95%D7%9E%D7%A0%D7%95%D7%A8%D7%AA-%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%91%D7%91-tad-and-the-magic-lamp%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {
+            "2026-10-05": [
+              "16:15"
+            ],
+            "2026-10-06": [
+              "14:45"
+            ],
+            "2026-10-07": [
+              "15:00"
+            ]
+          }
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%98%D7%93-%D7%94%D7%97%D7%95%D7%A7%D7%A8-%D7%95%D7%9E%D7%A0%D7%95%D7%A8%D7%AA-%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D-%D7%9E%D7%93%D7%95%D7%91%D7%91-%D7%9C%D7%A2%D7%91%D7%A8%D7%99%D7%AA",
+          "schedule": {
+            "2026-10-05": [
+              "14:30"
+            ],
+            "2026-10-06": [
+              "14:30"
+            ],
+            "2026-10-07": [
+              "14:30"
+            ],
+            "2026-10-08": [
+              "14:30"
+            ],
+            "2026-10-09": [
+              "14:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "uprising",
+      "title": "המרד",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "אפוס אקשן חדש בכיכובו של אנדרו גארפילד, בבימוי פול גרינגראס.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%94%D7%9E%D7%A8%D7%93-the-uprising%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "luckiest-man",
+      "title": "איש החידות",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "מבוסס על סיפורו האמיתי של האיש ששבר את השיטה וזכה בשעשועון היוקרתי ביותר בארצות הברית.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%90%D7%99%D7%A9-%D7%94%D7%97%D7%99%D7%93%D7%95%D7%AA-the-luckiest-man-in-america%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        }
+      ]
+    },
+    {
+      "id": "runner",
+      "title": "ראנר",
+      "is_family": false,
+      "trailer_youtube_id": null,
+      "synopsis": "קומדיית אקשן עם אלן ריצ'סון ואוון וילסון, על משימה להעביר איבר להשתלה כשארגון פשע מנסה להשיג אותו.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%A8%D7%90%D7%A0%D7%A8-runner%D7%91%D7%A1%D7%99%D7%A0%D7%99%D7%9E%D7%94-%D7%A1%D7%99%D7%98%D7%99",
+          "schedule": {}
+        },
+        {
+          "id": "hot-cinema",
+          "name": "HOT Cinema אשדוד",
+          "article_url": "https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93/%D7%A8%D7%90%D7%A0%D7%A8",
+          "schedule": {}
+        }
       ]
     }
-  ]
+  ],
+  "stats": {
+    "movie_cards": 31,
+    "family_movies": 8,
+    "cinema_city": 25,
+    "hot_cinema": 19
+  }
 }
