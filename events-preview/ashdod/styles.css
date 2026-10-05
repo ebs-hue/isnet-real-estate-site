@@ -870,3 +870,22 @@ main{position:relative;z-index:3}
   .trailerModal__body{padding:18px 19px 24px}
   .trailerModal__body h2{font-size:26px}
 }
+
+.cinemaFilterGroups{display:flex;flex-direction:column;gap:9px}
+.cinemaVenueBadges .family{background:#fff2d7;color:#9a6410}
+.cinemaPoster--fallback{
+  border:0;cursor:default;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:8px;padding:22px;text-align:center;color:#eef6ff;
+  background:
+    radial-gradient(circle at 20% 20%,rgba(255,255,255,.10),transparent 24%),
+    linear-gradient(135deg,#14243b,#273f5d 58%,#4e4968);
+}
+.cinemaPoster--fallback b{
+  font:900 22px/1.15 "Heebo",sans-serif;
+  max-width:90%;
+}
+.cinemaPoster--fallback>span:last-child{
+  font-size:12px;font-weight:700;color:#bbcade;
+}
+.cinemaFallbackIcon{font-size:34px}
