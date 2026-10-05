@@ -45,7 +45,6 @@ function placeCard(item){
       '<ul class="placeHighlights">'+highlights+'</ul>'+
       '<div class="placeActions">'+
         '<a class="primaryAction" href="'+mapsUrl(item.map_query||item.name+" אשדוד")+'" target="_blank" rel="noopener">איך מגיעים ←</a>'+
-        (item.source_url?'<a class="sourceAction" href="'+esc(item.source_url)+'" target="_blank" rel="noopener">מידע נוסף</a>':'')+
       '</div>'+
     '</div>'+
   '</article>';
