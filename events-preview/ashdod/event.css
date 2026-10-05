@@ -212,3 +212,16 @@ a{text-decoration:none;color:inherit}
   .footer__inner{display:block}
   .footer__inner>span{display:block;margin-top:10px}
 }
+
+.topbarLinks{display:flex;align-items:center;gap:9px}
+.topbarLinks a{color:#d7e6f6;font-weight:800;font-size:14px;padding:8px 11px;border-radius:11px}
+.topbarLinks a:hover{background:rgba(255,255,255,.08)}
+.topbarLinks .ashdodNetLink{border:1px solid rgba(255,255,255,.15)}
+.footerLinks{display:flex;align-items:center;gap:15px}
+.footerLinks a{color:#dbe8f6;font-weight:800}
+@media(max-width:620px){
+  .topbar__inner{height:auto;min-height:62px;padding:9px 0;align-items:flex-start}
+  .topbarLinks{flex-direction:column;align-items:flex-end;gap:1px}
+  .topbarLinks a{font-size:12px;padding:4px 6px}
+  .footerLinks{justify-content:center;flex-wrap:wrap;margin-top:10px}
+}
