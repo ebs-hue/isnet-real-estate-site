@@ -5159,10 +5159,10 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217",
-      "image_url": "assets/events/527f44c60ddb3cd2b02625.jpg",
-      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_url": null,
+      "image_source": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217",
       "image_credit": null,
-      "image_publishable": true,
+      "image_publishable": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -5174,21 +5174,22 @@
         }
       ],
       "observed_at": "2026-10-04T13:40:00+03:00",
-      "last_verified_at": null,
+      "last_verified_at": "2026-10-05T09:36:00+03:00",
       "status": "active",
       "quality_flags": [
-        "needs_detail_enrichment"
+        "needs_detail_enrichment",
+        "official_source_has_no_image"
       ],
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": true,
-      "thumbnail_url": "assets/event-thumbs/baeca78543f88ae01dbf26.jpg",
-      "thumbnail_ready": true,
-      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
-      "image_strategy": "source_listing",
+      "image_verified": false,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_strategy": "official_no_image_category_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "category_fallback"
     },
     {
       "event_id": "evt_88_20261229",
