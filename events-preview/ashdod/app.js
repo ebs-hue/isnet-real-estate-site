@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -388,6 +388,7 @@ function filtered(){
   let arr=state.events.filter(e=>{
     if(!matchesQuick(e))return false;
     if(state.date&&e.start_date!==state.date)return false;
+    if(state.periodStart&&state.periodEnd&&(e.start_date<state.periodStart||e.start_date>state.periodEnd))return false;
     if(state.category&&e.category!==state.category)return false;
     if(state.favoritesOnly&&!favorites.has(e.event_id))return false;
     if(q){
@@ -484,6 +485,21 @@ function renderDates(){
     monthGrid.innerHTML=cells.join("");
   }
 
+  const apply=$("calendarApply"),selectionText=$("calendarSelectionText");
+  if(apply&&selectionText){
+    if(state.calendarMode==="week"){
+      const start=startOfWeek(state.calendarWeek),end=daysFrom(start,6);
+      const count=state.events.filter(e=>e.start_date>=iso(start)&&e.start_date<=iso(end)).length;
+      apply.textContent="הצג אירועי השבוע";
+      selectionText.textContent=new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(start)+" – "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(end)+" · "+count+" אירועים";
+    }else{
+      const start=firstOfMonth(state.calendarMonth),end=new Date(start.getFullYear(),start.getMonth()+1,0);
+      const count=state.events.filter(e=>e.start_date>=iso(start)&&e.start_date<=iso(end)).length;
+      apply.textContent="הצג אירועי החודש";
+      selectionText.textContent=new Intl.DateTimeFormat("he-IL",{month:"long",year:"numeric"}).format(start)+" · "+count+" אירועים";
+    }
+  }
+
   const currentBoundary=state.calendarMode==="week"?startOfWeek(t):firstOfMonth(t);
   const viewedBoundary=state.calendarMode==="week"?startOfWeek(state.calendarWeek):firstOfMonth(state.calendarMonth);
   $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
@@ -529,7 +545,7 @@ function discoverEvents(){
   return rotated.slice(0,5);
 }
 function hasActiveSelection(){
-  return state.quick!=="all"||Boolean(state.date)||Boolean(state.category)||Boolean(state.query.trim())||state.favoritesOnly||state.sort!=="date";
+  return state.quick!=="all"||Boolean(state.date)||Boolean(state.periodStart)||Boolean(state.category)||Boolean(state.query.trim())||state.favoritesOnly||state.sort!=="date";
 }
 function renderDiscover(){
   const section=$("discoverSection");
@@ -546,6 +562,13 @@ function renderActiveFilters(){
   const x=[];
   if(state.quick!=="all")x.push({k:"quick",label:$("quickFilters").querySelector('[data-quick="'+state.quick+'"]')?.textContent||state.quick});
   if(state.date)x.push({k:"date",label:fmtFull.format(localDate(state.date))});
+  if(state.periodStart&&state.periodEnd){
+    const start=localDate(state.periodStart),end=localDate(state.periodEnd);
+    const label=state.periodType==="month"
+      ?new Intl.DateTimeFormat("he-IL",{month:"long",year:"numeric"}).format(start)
+      :"השבוע "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(start)+" – "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(end);
+    x.push({k:"period",label});
+  }
   if(state.category)x.push({k:"category",label:catLabels[state.category]||state.category});
   if(state.query)x.push({k:"query",label:'"'+state.query+'"'});
   if(state.favoritesOnly)x.push({k:"favorites",label:"מועדפים"});
@@ -567,7 +590,14 @@ function render(){
 function bindDynamic(){
   document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart]"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
-  document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{state.date=state.date===b.dataset.date?null:b.dataset.date;state.quick="all";render()});
+  document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{
+    const next=state.date===b.dataset.date?null:b.dataset.date;
+    state.date=next;
+    state.periodStart=null;state.periodEnd=null;state.periodType=null;
+    state.quick="all";
+    render();
+    if(next)requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
+  });
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
     if(b.dataset.cat==="cinema"){
       state.category=null;
@@ -582,7 +612,16 @@ function bindDynamic(){
     state.category=state.category===b.dataset.cat?null:b.dataset.cat;
     render();
   });
-  document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{const k=b.dataset.remove;if(k==="quick")state.quick="all";if(k==="date")state.date=null;if(k==="category")state.category=null;if(k==="query"){state.query="";$("searchInput").value=""}if(k==="favorites")state.favoritesOnly=false;render()});
+  document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{
+    const k=b.dataset.remove;
+    if(k==="quick")state.quick="all";
+    if(k==="date")state.date=null;
+    if(k==="period"){state.periodStart=null;state.periodEnd=null;state.periodType=null}
+    if(k==="category")state.category=null;
+    if(k==="query"){state.query="";$("searchInput").value=""}
+    if(k==="favorites")state.favoritesOnly=false;
+    render()
+  });
 }
 function modalScheduleText(e){
   const occ=eventOccurrences(e);
@@ -633,7 +672,7 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
+function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
@@ -650,8 +689,11 @@ async function init(){
   renderCinema();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
-  $("quickFilters").onclick=e=>{const b=e.target.closest("[data-quick]");if(!b)return;state.quick=b.dataset.quick;state.date=null;render()};
-  $("resetDate").onclick=()=>{state.date=null;resetCalendarToToday();render()};
+  $("quickFilters").onclick=e=>{
+    const b=e.target.closest("[data-quick]");if(!b)return;
+    state.quick=b.dataset.quick;state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;render()
+  };
+  $("resetDate").onclick=()=>{state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;resetCalendarToToday();render()};
   $("weekViewButton").onclick=()=>{
     state.calendarMode="week";
     if(state.date)state.calendarWeek=startOfWeek(localDate(state.date));
@@ -680,6 +722,20 @@ async function init(){
     state.calendarMonth=firstOfMonth(selected);
     state.calendarMode="month";
     renderDates();bindDynamic();
+  };
+  $("calendarApply").onclick=()=>{
+    ensureCalendarState();
+    state.date=null;
+    state.quick="all";
+    if(state.calendarMode==="week"){
+      const start=startOfWeek(state.calendarWeek),end=daysFrom(start,6);
+      state.periodStart=iso(start);state.periodEnd=iso(end);state.periodType="week";
+    }else{
+      const start=firstOfMonth(state.calendarMonth),end=new Date(start.getFullYear(),start.getMonth()+1,0);
+      state.periodStart=iso(start);state.periodEnd=iso(end);state.periodType="month";
+    }
+    render();
+    requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
   };
 
   $("favoritesOnly").onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
