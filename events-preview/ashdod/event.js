@@ -4,6 +4,7 @@ const catLabels={
   lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",
   festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"אירוע"
 };
+let sportsMeta={branches:{},teams:[]};
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const fmtMonth=new Intl.DateTimeFormat("he-IL",{month:"short"});
 const currency=new Intl.NumberFormat("he-IL",{style:"currency",currency:"ILS",maximumFractionDigits:0});
@@ -21,6 +22,30 @@ function priceText(e){
   if(e.price_min_ils==null)return "מחיר לא פורסם";
   if(e.price_max_ils!=null&&e.price_max_ils!==e.price_min_ils)return currency.format(e.price_min_ils)+"–"+currency.format(e.price_max_ils);
   return currency.format(e.price_min_ils);
+}
+function sportKey(e){
+  const b=String(e?.sport_branch||"");
+  if(b.includes("כדורגל"))return "football";
+  if(b.includes("כדורסל"))return "basketball";
+  if(b.includes("כדוריד"))return "handball";
+  if(b.includes("כדורעף"))return "volleyball";
+  return "other";
+}
+function sportBranchMeta(eOrKey){
+  const key=typeof eOrKey==="string"?eOrKey:sportKey(eOrKey);
+  return sportsMeta?.branches?.[key]||{label:"ספורט",icon:"⚑"};
+}
+function sportTeamConfig(e){
+  const home=String(e?.home_team||"").trim(),key=sportKey(e);
+  return (sportsMeta?.teams||[]).find(t=>(t.match_home_teams||[]).includes(home)&&(!(t.sports||[]).length||(t.sports||[]).includes(key)))||null;
+}
+function teamInitials(name){
+  return String(name||"קבוצה").split(/s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
+}
+function sportHeroFallback(e){
+  const team=sportTeamConfig(e),branch=sportBranchMeta(e),name=team?.name||e.home_team||"ספורט באשדוד";
+  const logo=team?.logo_url?'<img src="'+escapeHtml(team.logo_url)+'" alt="" onerror="this.remove()">':'<b>'+escapeHtml(teamInitials(name))+'</b>';
+  return '<div class="fallback sportHeroFallback"><span class="sportHeroLogo">'+logo+'</span><span class="sportHeroBranch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span><strong>'+escapeHtml(name)+'</strong><small>משחק בית באשדוד</small></div>';
 }
 function purchaseAction(e){
   if(e.ticket_status==="sold_out")return null;
@@ -139,8 +164,10 @@ function renderHero(e,occ,imageEvent){
   const desc=e.short_pitch||e.description||autoPitch(e);
   document.querySelector('meta[name="description"]').setAttribute("content",desc);
 
+  const sportBadge=e.category==="sport"?sportBranchMeta(e):null;
   $("heroBadges").innerHTML=
     '<span class="badge accent">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+
+    (sportBadge?'<span class="badge">'+escapeHtml(sportBadge.icon)+' '+escapeHtml(sportBadge.label)+'</span>':"")+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים באשדוד</span>':"");
   $("eventTitle").textContent=e.title;
   $("eventPitch").textContent=e.short_pitch||e.description||autoPitch(e);
@@ -157,7 +184,7 @@ function renderHero(e,occ,imageEvent){
     const src=imageEvent.thumbnail_ready&&imageEvent.thumbnail_url?imageEvent.thumbnail_url:imageEvent.image_url;
     $("heroImage").innerHTML='<img src="'+escapeHtml(src)+'" alt="'+escapeHtml(e.title)+'">';
   }else{
-    $("heroImage").innerHTML='<div class="fallback">'+escapeHtml(e.title)+'</div>';
+    $("heroImage").innerHTML=e.category==="sport"?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(e.title)+'</div>';
   }
 
   const action=groupPurchaseAction(occ);
@@ -271,10 +298,11 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const data=await fetch("data/events.json?v=20261005-24").then(r=>{
-      if(!r.ok)throw new Error("data");
-      return r.json();
-    });
+    const [data,sports]=await Promise.all([
+      fetch("data/events.json?v=20261005-24").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
+      fetch("data/sports.json?v=20261005-1").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
+    ]);
+    sportsMeta=sports||{branches:{},teams:[]};
     const all=data.events||[];
     const base=all.find(e=>e.event_id===id);
     if(!base)throw new Error("event");
