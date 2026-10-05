@@ -219,3 +219,69 @@ button{font:inherit}
   .safetyCard{grid-template-columns:1fr;padding:19px;margin-bottom:45px}.safetyIcon{width:42px;height:42px}
   .footer__inner{display:block;text-align:center}.footerLinks{justify-content:center;margin-top:10px;flex-wrap:wrap}
 }
+
+.beachInfo{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  margin:0 0 18px;
+}
+.infoPanel,.rulesPanel{
+  border:1px solid var(--line);
+  border-radius:22px;
+  background:#fff;
+  box-shadow:0 8px 25px rgba(8,36,64,.045);
+}
+.infoPanel{padding:20px}
+.infoPanel__label{
+  display:inline-flex;
+  padding:4px 8px;
+  border-radius:999px;
+  background:#e9f5fb;
+  color:#167494;
+  font:900 10px "Heebo",sans-serif
+}
+.infoPanel h2{margin:7px 0 8px;font:900 22px/1.1 "Heebo",sans-serif}
+.infoPanel p{margin:0;color:#627487;font-size:13px}
+.infoPanel a{display:inline-flex;margin-top:12px;color:#176ba7;font-weight:900;font-size:12px}
+.infoPanel--season{background:linear-gradient(145deg,#f7fbff,#eef7fc)}
+.infoPanel--environment{background:linear-gradient(145deg,#f7fcf7,#eef9ef)}
+.infoPanel--environment .infoPanel__label{background:#e5f5e7;color:#347a43}
+.infoPanel--status{background:linear-gradient(145deg,#fffaf1,#fff6df)}
+.infoPanel--status .infoPanel__label{background:#fff0c9;color:#8b6411}
+.seasonDates{display:flex;align-items:center;gap:7px;flex-wrap:wrap;color:#1b4968}
+.seasonDates b{font:900 16px "Heebo",sans-serif}
+.seasonDates span{font-size:11px;color:#7c8c9b}
+.seasonHours{display:block;margin:10px 0 5px;color:#0a6d90;font-size:13px}
+.rulesPanel{grid-column:1/-1;padding:22px}
+.rulesPanel__head{margin-bottom:15px}
+.rulesPanel__head .sectionKicker{color:#177f9f}
+.rulesPanel__head h2{margin:3px 0 0;font:900 26px "Heebo",sans-serif}
+.beachRules{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:9px
+}
+.beachRule{
+  display:grid;grid-template-columns:27px 1fr;gap:8px;align-items:start;
+  min-height:65px;padding:11px;
+  border:1px solid #e6edf3;border-radius:14px;background:#f9fbfd
+}
+.beachRule>span{
+  width:25px;height:25px;border-radius:50%;
+  display:grid;place-items:center;
+  background:#e4f3f8;color:#177b99;
+  font:900 10px "Heebo",sans-serif
+}
+.beachRule p{margin:1px 0 0;color:#475f72;font-size:12px;font-weight:700;line-height:1.45}
+@media(max-width:900px){
+  .beachInfo{grid-template-columns:1fr 1fr}
+  .infoPanel--status{grid-column:1/-1}
+  .beachRules{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .beachInfo{grid-template-columns:1fr}
+  .infoPanel--status{grid-column:auto}
+  .beachRules{grid-template-columns:1fr}
+  .rulesPanel{padding:18px}
+}
