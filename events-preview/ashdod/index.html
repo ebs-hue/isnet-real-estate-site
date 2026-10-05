@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-21">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-22">
 </head>
 <body>
   <header class="hero">
@@ -67,10 +67,16 @@
           <a class="cinemaAllLink" href="https://ashdodnet.com/%D7%A1%D7%A8%D7%98%D7%99%D7%9D-%D7%91%D7%90%D7%A9%D7%93%D7%95%D7%93" target="_blank" rel="noopener">לכל הסרטים באשדוד ←</a>
         </div>
         <div class="cinemaToolbar">
-          <div id="cinemaFilters" class="cinemaFilters" aria-label="סינון לפי בית קולנוע">
-            <button data-cinema="all" class="is-active">הכול</button>
-            <button data-cinema="cinema-city">סינמה סיטי</button>
-            <button data-cinema="hot-cinema">HOT Cinema</button>
+          <div class="cinemaFilterGroups">
+            <div id="cinemaAudienceFilters" class="cinemaFilters" aria-label="סינון לפי סוג סרט">
+              <button data-audience="all" class="is-active">כל הסרטים</button>
+              <button data-audience="family">ילדים ומשפחה</button>
+            </div>
+            <div id="cinemaFilters" class="cinemaFilters" aria-label="סינון לפי בית קולנוע">
+              <button data-cinema="all" class="is-active">שני בתי הקולנוע</button>
+              <button data-cinema="cinema-city">סינמה סיטי</button>
+              <button data-cinema="hot-cinema">HOT Cinema</button>
+            </div>
           </div>
           <span id="cinemaUpdated" class="cinemaUpdated"></span>
         </div>
@@ -146,6 +152,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-24" defer></script>
+  <script src="app.js?v=20261005-25" defer></script>
 </body>
 </html>
