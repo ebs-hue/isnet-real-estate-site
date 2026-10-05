@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-05T13:10:00+03:00",
+  "updated_at": "2026-10-05T15:39:00+03:00",
   "categories": {
     "parks": {
       "title": "פארקים בראשון לציון",
       "eyebrow": "ירוק, משפחה ומרחבים בעיר",
       "intro": "הפארקים והגנים הבולטים בעיר לבילוי, פיקניק, משחק וטיול קצר.",
-      "hero_image": "../ashdod/assets/defaults/kids.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-gan01.jpg",
+      "hero_credit": "MathKnight, Wikimedia Commons",
       "item_label": "פארק בראשון לציון",
       "stats": [
         {
@@ -34,8 +34,8 @@
           "name": "גן המושבה",
           "tagline": "הלב הירוק וההיסטורי של מרכז העיר",
           "description": "גן היסטורי עם שדרת דקלים, מדשאות, גן משחקים ופינות ישיבה.",
-          "image": "../ashdod/assets/defaults/kids.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-gan01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "families",
             "nature"
@@ -50,7 +50,8 @@
             "פיקניק"
           ],
           "map_query": "גן המושבה ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-gan01.jpg"
         },
         {
           "id": "gan-ivrit",
@@ -99,8 +100,8 @@
           "name": "פארק האגם ואגם הסופרלנד",
           "tagline": "טבע עירוני לצד מוקדי הבילוי",
           "description": "אזור האגם מתאים להליכה, טבע עירוני ושילוב עם אטרקציות סמוכות.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+          "image_credit": "Wikimedia Commons",
           "tags": [
             "nature",
             "families"
@@ -114,7 +115,8 @@
             "הליכה"
           ],
           "map_query": "אגם הסופרלנד ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg"
         },
         {
           "id": "park-1000",
@@ -141,8 +143,8 @@
       "title": "טבע וטיולים",
       "eyebrow": "פינות טבע בעיר ובסביבה הקרובה",
       "intro": "אגמים, חוף, פארקים וטיולים קצרים שמתאימים לכמה שעות בחוץ.",
-      "hero_image": "../ashdod/assets/defaults/exhibition.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+      "hero_credit": "Wikimedia Commons",
       "item_label": "טיול באזור ראשון לציון",
       "stats": [
         {
@@ -170,8 +172,8 @@
           "name": "אגם הסופרלנד",
           "tagline": "טבע עירוני במערב ראשון",
           "description": "אגם ושטחים פתוחים בלב אזור הבילוי המערבי.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+          "image_credit": "Wikimedia Commons",
           "tags": [
             "city"
           ],
@@ -183,15 +185,16 @@
             "הליכה"
           ],
           "map_query": "אגם הסופרלנד ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg"
         },
         {
           "id": "hamoshava-nature",
           "name": "גן המושבה",
           "tagline": "טבע והיסטוריה במרכז העיר",
           "description": "גן ותיק עם שדרת דקלים ומרחבים ירוקים.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-gan01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "city"
           ],
@@ -203,15 +206,16 @@
             "היסטוריה"
           ],
           "map_query": "גן המושבה ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-gan01.jpg"
         },
         {
           "id": "hof-nature",
           "name": "חוף ראשון לציון",
           "tagline": "ים, טיילת ושקיעה",
           "description": "רצועת החוף העירונית לבילוי והליכה.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "city"
           ],
@@ -223,7 +227,8 @@
             "שקיעה"
           ],
           "map_query": "חוף ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         },
         {
           "id": "palmachim",
@@ -251,8 +256,8 @@
       "title": "החופים בראשון לציון",
       "eyebrow": "ים, טיילת ושעות הצלה",
       "intro": "חופי ראשון לציון לבילוי, רחצה ושקיעה.",
-      "hero_image": "../ashdod/assets/defaults/cinema.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+      "hero_credit": "MathKnight, Wikimedia Commons",
       "item_label": "חוף בראשון לציון",
       "stats": [
         {
@@ -280,8 +285,8 @@
           "name": "חוף חופית",
           "tagline": "חוף נגיש עם שירותי הצלה",
           "description": "חוף עירוני מוכרז ונגיש.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "families"
           ],
@@ -294,15 +299,16 @@
             "טיילת"
           ],
           "map_query": "חוף חופית ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/ent/hofit-beach/"
+          "source_url": "https://www.visitrishon.co.il/ent/hofit-beach/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         },
         {
           "id": "blue",
           "name": "החוף הכחול",
           "tagline": "חוף עירוני מרכזי",
           "description": "אחד מחופי הים המרכזיים ברצועת החוף.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "families"
           ],
@@ -314,15 +320,16 @@
             "ים"
           ],
           "map_query": "החוף הכחול ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         },
         {
           "id": "separate",
           "name": "החוף הנפרד",
           "tagline": "רחצה נפרדת בעונה",
           "description": "חוף נגיש עם שעות רחצה נפרדות לפי הלוח העונתי.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "separate"
           ],
@@ -334,15 +341,16 @@
             "שעות עונתיות"
           ],
           "map_query": "החוף הנפרד ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/ent/separate-beach"
+          "source_url": "https://www.visitrishon.co.il/ent/separate-beach",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         },
         {
           "id": "kids",
           "name": "חוף הילדים",
           "tagline": "חוף ברצועת ראשון לציון",
           "description": "מקטע חוף שמופיע במדריך התיירות העירוני.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [
             "families"
           ],
@@ -354,15 +362,16 @@
             "טיילת"
           ],
           "map_query": "חוף הילדים ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         },
         {
           "id": "tel-yona",
           "name": "תל יונה",
           "tagline": "מקטע חוף ומרחב פתוח",
           "description": "מקום מוכר ברצועת החוף העירונית.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [],
           "badges": [
             "חוף ים"
@@ -372,7 +381,8 @@
             "מרחב פתוח"
           ],
           "map_query": "תל יונה ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         }
       ]
     },
@@ -380,8 +390,8 @@
       "title": "אטרקציות בראשון לציון",
       "eyebrow": "משפחה, אקשן ובילוי",
       "intro": "האטרקציות הבולטות בעיר למשפחות ולבילוי.",
-      "hero_image": "../ashdod/assets/defaults/festival.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+      "hero_credit": "Wikimedia Commons",
       "item_label": "אטרקציה בראשון לציון",
       "stats": [
         {
@@ -430,8 +440,8 @@
           "name": "סופרלנד",
           "tagline": "פארק השעשועים של העיר",
           "description": "פארק שעשועים גדול במערב ראשון לציון.",
-          "image": "../ashdod/assets/defaults/festival.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+          "image_credit": "Wikimedia Commons",
           "tags": [
             "kids",
             "action"
@@ -444,7 +454,8 @@
             "מתקני שעשועים"
           ],
           "map_query": "סופרלנד ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg"
         },
         {
           "id": "flybox",
@@ -492,8 +503,8 @@
           "name": "יס פלאנט ראשון לציון",
           "tagline": "קולנוע ובילוי על שפת האגם",
           "description": "מתחם קולנוע גדול עם מסעדות ואולמות מיוחדים.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+          "image_credit": "Wikimedia Commons",
           "tags": [
             "kids"
           ],
@@ -507,7 +518,8 @@
             "4DX"
           ],
           "map_query": "יס פלאנט ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/ent/yes-planet/"
+          "source_url": "https://www.visitrishon.co.il/ent/yes-planet/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg"
         }
       ]
     },
@@ -515,8 +527,8 @@
       "title": "מוסדות תרבות בראשון לציון",
       "eyebrow": "מופעים, מוזיאונים, ספריות ומורשת",
       "intro": "מוקדי התרבות המרכזיים בעיר.",
-      "hero_image": "../ashdod/assets/defaults/theatre.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RLZ%20Heichal17.JPG",
+      "hero_credit": "Neukoln, Wikimedia Commons (CC BY-SA 3.0)",
       "item_label": "מוסד תרבות בראשון לציון",
       "stats": [
         {
@@ -548,8 +560,8 @@
           "name": "היכל התרבות מאיר ניצן",
           "tagline": "במת התרבות המרכזית בעיר",
           "description": "תיאטרון, מוזיקה, מחול, ילדים, בידור ופסטיבלים.",
-          "image": "../ashdod/assets/defaults/theatre.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RLZ%20Heichal17.JPG",
+          "image_credit": "Neukoln, Wikimedia Commons (CC BY-SA 3.0)",
           "tags": [
             "stage"
           ],
@@ -562,15 +574,16 @@
             "ילדים"
           ],
           "map_query": "היכל התרבות ראשון לציון",
-          "source_url": "https://htrl.co.il/"
+          "source_url": "https://htrl.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:RLZ_Heichal17.JPG"
         },
         {
           "id": "yama",
           "name": "מוזיאון אגם",
           "tagline": "אמנות קינטית וחוויות תרבות",
           "description": "מוזיאון יעקב אגם עם תערוכות, סיורים, סדנאות ומופעים.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/142334%20rishon%20lezion%20agam%20museum%20PikiWiki%20Israel.jpg",
+          "image_credit": "PikiWiki Israel / Wikimedia Commons",
           "tags": [
             "museum"
           ],
@@ -582,15 +595,16 @@
             "סיורים"
           ],
           "map_query": "מוזיאון אגם ראשון לציון",
-          "source_url": "https://yama.smarticket.co.il/"
+          "source_url": "https://yama.smarticket.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:142334_rishon_lezion_agam_museum_PikiWiki_Israel.jpg"
         },
         {
           "id": "rlzm",
           "name": "מוזיאון ראשון לציון",
           "tagline": "הסיפור ההיסטורי של העיר",
           "description": "אתר מורשת לאומית עם תערוכות, סיורים ואירועים.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/128693%20rishon%20lezion%20museum%20PikiWiki%20Israel.jpg",
+          "image_credit": "PikiWiki Israel / Wikimedia Commons",
           "tags": [
             "museum"
           ],
@@ -603,7 +617,8 @@
             "תערוכות"
           ],
           "map_query": "מוזיאון ראשון לציון",
-          "source_url": "https://www.rlzm.co.il/"
+          "source_url": "https://www.rlzm.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:128693_rishon_lezion_museum_PikiWiki_Israel.jpg"
         },
         {
           "id": "kotar",
@@ -632,8 +647,8 @@
       "title": "מקומות שחייבים להכיר",
       "eyebrow": "הבחירה הראשונה למי שרוצה להכיר את ראשון",
       "intro": "שילוב של טבע, תרבות, משפחה והיסטוריה.",
-      "hero_image": "../ashdod/assets/defaults/music.svg",
-      "hero_credit": "",
+      "hero_image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/142334%20rishon%20lezion%20agam%20museum%20PikiWiki%20Israel.jpg",
+      "hero_credit": "PikiWiki Israel / Wikimedia Commons",
       "item_label": "מקום שחייבים להכיר",
       "stats": [
         {
@@ -653,8 +668,8 @@
           "name": "מוזיאון אגם",
           "tagline": "אמנות בתנועה",
           "description": "אחד ממוקדי התרבות המזוהים עם העיר.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/142334%20rishon%20lezion%20agam%20museum%20PikiWiki%20Israel.jpg",
+          "image_credit": "PikiWiki Israel / Wikimedia Commons",
           "tags": [],
           "badges": [
             "תרבות"
@@ -663,15 +678,16 @@
             "אמנות קינטית"
           ],
           "map_query": "מוזיאון אגם ראשון לציון",
-          "source_url": "https://yama.smarticket.co.il/"
+          "source_url": "https://yama.smarticket.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:142334_rishon_lezion_agam_museum_PikiWiki_Israel.jpg"
         },
         {
           "id": "m-rlzm",
           "name": "מוזיאון ראשון לציון",
           "tagline": "העיר מספרת את הסיפור שלה",
           "description": "אתר מורשת בלב המרכז ההיסטורי.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/128693%20rishon%20lezion%20museum%20PikiWiki%20Israel.jpg",
+          "image_credit": "PikiWiki Israel / Wikimedia Commons",
           "tags": [],
           "badges": [
             "מורשת"
@@ -680,15 +696,16 @@
             "היסטוריה"
           ],
           "map_query": "מוזיאון ראשון לציון",
-          "source_url": "https://www.rlzm.co.il/"
+          "source_url": "https://www.rlzm.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:128693_rishon_lezion_museum_PikiWiki_Israel.jpg"
         },
         {
           "id": "m-lake",
           "name": "אגם הסופרלנד",
           "tagline": "טבע בלב מערב העיר",
           "description": "אגם עירוני וסביבת בילוי.",
-          "image": "../ashdod/assets/defaults/exhibition.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon%20LeZion%20Lake%20Park%2C%20SuperLand%20and%20Yes%20Planet%20Aerial%20View%2002.jpg",
+          "image_credit": "Wikimedia Commons",
           "tags": [],
           "badges": [
             "טבע"
@@ -698,7 +715,8 @@
             "צפרות"
           ],
           "map_query": "אגם הסופרלנד ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg"
         },
         {
           "id": "m-hai",
@@ -722,8 +740,8 @@
           "name": "גן המושבה",
           "tagline": "המרכז ההיסטורי הירוק",
           "description": "גן ותיק עם שדרת דקלים.",
-          "image": "../ashdod/assets/defaults/kids.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-gan01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [],
           "badges": [
             "חינם"
@@ -732,15 +750,16 @@
             "מרכז העיר"
           ],
           "map_query": "גן המושבה ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-gan01.jpg"
         },
         {
           "id": "m-beach",
           "name": "חוף ראשון לציון",
           "tagline": "הים של העיר",
           "description": "רצועת החוף והטיילת.",
-          "image": "../ashdod/assets/defaults/cinema.svg",
-          "image_credit": null,
+          "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rishon-beach01.jpg",
+          "image_credit": "MathKnight, Wikimedia Commons",
           "tags": [],
           "badges": [
             "ים"
@@ -750,7 +769,8 @@
             "שקיעה"
           ],
           "map_query": "חוף ראשון לציון",
-          "source_url": "https://www.visitrishon.co.il/"
+          "source_url": "https://www.visitrishon.co.il/",
+          "image_source": "https://commons.wikimedia.org/wiki/File:Rishon-beach01.jpg"
         }
       ]
     }
