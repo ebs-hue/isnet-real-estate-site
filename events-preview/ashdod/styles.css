@@ -258,6 +258,7 @@ main{position:relative;z-index:3}
 .categoryCard[data-cat="music"]{background:linear-gradient(135deg,#2256ba,#1499df)}
 .categoryCard[data-cat="standup"]{background:linear-gradient(135deg,#7b255d,#df516b)}
 .categoryCard[data-cat="kids"]{background:linear-gradient(135deg,#ff8b42,#f7bf46)}
+.categoryCard[data-cat="sport"]{background:linear-gradient(135deg,#0b694e,#22a879)}
 .categoryCard[data-cat="theatre"]{background:linear-gradient(135deg,#6a1936,#b33e57)}
 .categoryCard[data-cat="lecture"]{background:linear-gradient(135deg,#1f4d87,#4e8fd6)}
 .categoryCard[data-cat="exhibition"]{background:linear-gradient(135deg,#55417f,#946bd0)}
