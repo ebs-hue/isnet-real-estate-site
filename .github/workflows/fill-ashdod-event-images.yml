@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - "scripts/fill_event_images_from_listings.py"
+      - "scripts/fast_fill_event_images_from_listings.py"
       - ".github/workflows/fill-ashdod-event-images.yml"
 
 permissions:
@@ -29,7 +30,7 @@ jobs:
           python-version: "3.12"
 
       - name: Recover source images
-        run: python scripts/fill_event_images_from_listings.py
+        run: python scripts/fast_fill_event_images_from_listings.py
 
       - name: Install Pillow
         run: python -m pip install --disable-pip-version-check Pillow==11.3.0
