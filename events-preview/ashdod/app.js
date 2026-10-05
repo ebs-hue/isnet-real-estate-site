@@ -37,6 +37,7 @@ function sportKey(e){
   if(b.includes("כדורסל"))return "basketball";
   if(b.includes("כדוריד"))return "handball";
   if(b.includes("כדורעף"))return "volleyball";
+  if(b.includes("גלישה"))return "surfing";
   return "other";
 }
 function sportBranchMeta(eOrKey){
@@ -51,7 +52,7 @@ function sportTeamConfig(e){
   )||null;
 }
 function teamInitials(name){
-  return String(name||"קבוצה").split(/s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
+  return String(name||"קבוצה").split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
 }
 function teamLogoHTML(team,cls="teamLogo"){
   const name=team?.name||"קבוצה";
@@ -60,7 +61,11 @@ function teamLogoHTML(team,cls="teamLogo"){
     :"";
   return '<span class="'+cls+'" aria-hidden="true"><b>'+escapeHtml(teamInitials(name))+'</b>'+img+'</span>';
 }
+function isRepresentativeHomeGame(e){
+  return e?.category==="sport"&&e?.is_home_game===true&&e?.representative_team===true&&Boolean(e?.home_team);
+}
 function sportIdentityHTML(e){
+  if(!isRepresentativeHomeGame(e))return "";
   const team=sportTeamConfig(e);
   const branch=sportBranchMeta(e);
   const name=team?.name||e.home_team||e.organizer||"קבוצה אשדודית";
@@ -187,7 +192,7 @@ function eventImageHTML(e,mode="card"){
   '</span>';
 }
 function fallbackMediaHTML(e){
-  if(e.category==="sport"){
+  if(e.category==="sport"&&isRepresentativeHomeGame(e)){
     const team=sportTeamConfig(e),branch=sportBranchMeta(e);
     return '<div class="category-fallback sportFallback">'+
       teamLogoHTML(team,"sportFallback__logo")+
@@ -233,7 +238,7 @@ function eventCard(e){
   const occ=eventOccurrences(e);
   const multi=occ.length>1;
   return '<article class="eventCard'+(e.category==="sport"?" eventCard--sport":"")+'" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
-    '<div class="eventBody">'+(e.category==="sport"?sportIdentityHTML(e):"")+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
+    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
@@ -241,7 +246,7 @@ function eventCard(e){
 }
 function featureCard(e){
   return '<article class="featureCard" data-event="'+e.event_id+'">'+mediaHTML(e,"featureMedia")+
-    '<div class="featureBody">'+(e.category==="sport"?sportIdentityHTML(e):"")+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
+    '<div class="featureBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="featureMeta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>·</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
     '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
@@ -633,7 +638,7 @@ function renderSportsFilters(){
 
   const teams=(state.sportsMeta?.teams||[]).filter(t=>teamCounts[t.id]);
   $("sportTeamFilters").innerHTML=
-    '<button class="sportTeamButton sportTeamButton--all '+(state.sportTeam==="all"?"is-active":"")+'" data-sport-team="all"><span class="allSportsMark">★</span><span><b>כל הקבוצות</b><small>'+sports.length+' משחקים ואירועי ספורט</small></span></button>'+
+    '<button class="sportTeamButton sportTeamButton--all '+(state.sportTeam==="all"?"is-active":"")+'" data-sport-team="all"><span class="allSportsMark">★</span><span><b>כל הספורט</b><small>'+sports.length+' משחקים ואירועי ספורט</small></span></button>'+
     teams.map(t=>{
       const icons=(t.sports||[]).map(k=>sportBranchMeta(k).icon).join(" ");
       return '<button class="sportTeamButton '+(state.sportTeam===t.id?"is-active":"")+'" data-sport-team="'+escapeHtml(t.id)+'">'+
@@ -793,10 +798,10 @@ function resetAll(){state.quick="all";state.date=null;state.periodStart=null;sta
 
 async function init(){
   const [data,fallbacks,cinema,sports]=await Promise.all([
-    fetch("data/events.json?v=20261005-24").then(r=>r.json()),
+    fetch("data/events.json?v=20261005-25").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
     fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]})),
-    fetch("data/sports.json?v=20261005-1").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
+    fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
   ]);
   state.events=data.events||[];
   state.fallbacks=fallbacks;
