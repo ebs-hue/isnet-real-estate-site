@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-24">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-25">
 </head>
 <body>
   <header class="hero">
@@ -46,7 +46,39 @@
         <div><span class="sectionHead__kicker">מתכננים קדימה</span><h2>בחרו יום שמתאים לכם</h2></div>
         <button id="resetDate" class="textButton">כל התאריכים</button>
       </div>
-      <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
+
+      <div class="calendarBox">
+        <div class="calendarTop">
+          <div class="calendarViewSwitch" aria-label="תצוגת יומן">
+            <button id="weekViewButton" class="is-active" type="button">שבוע</button>
+            <button id="monthViewButton" type="button">חודש</button>
+          </div>
+
+          <div class="calendarPeriodNav">
+            <button id="calendarPrev" class="calendarArrow" type="button" aria-label="תקופה קודמת">›</button>
+            <select id="calendarMonthSelect" class="calendarMonthSelect" aria-label="בחירת חודש"></select>
+            <button id="calendarNext" class="calendarArrow" type="button" aria-label="תקופה הבאה">‹</button>
+          </div>
+        </div>
+
+        <div id="calendarPeriodLabel" class="calendarPeriodLabel" aria-live="polite"></div>
+
+        <div id="weekCalendar" class="weekCalendar">
+          <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
+        </div>
+
+        <div id="monthCalendar" class="monthCalendar" hidden>
+          <div class="monthWeekdays" aria-hidden="true">
+            <span>א׳</span><span>ב׳</span><span>ג׳</span><span>ד׳</span><span>ה׳</span><span>ו׳</span><span>ש׳</span>
+          </div>
+          <div id="monthGrid" class="monthGrid" aria-label="יומן חודשי"></div>
+        </div>
+
+        <div class="calendarHint">
+          <span class="calendarHintDot"></span>
+          ימים מסומנים כוללים אירועים. אפשר לעבור שבועות וחודשים קדימה.
+        </div>
+      </div>
     </section>
 
     <section class="section">
@@ -154,6 +186,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-27" defer></script>
+  <script src="app.js?v=20261005-28" defer></script>
 </body>
 </html>
