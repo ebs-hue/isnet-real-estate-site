@@ -1,0 +1,46 @@
+name: Enrich Ashdod images from Ironit
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/enrich_event_images_ironit.py"
+      - ".github/workflows/enrich-ashdod-images-ironit.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-ashdod-images-ironit
+  cancel-in-progress: true
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull official Ironit event artwork
+        run: python scripts/enrich_event_images_ironit.py
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+      - name: Generate 4x3 thumbnails
+        run: python scripts/generate_event_thumbnails.py
+      - name: Commit images
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json                   events-preview/ashdod/data/ironit-image-report.json                   events-preview/ashdod/assets/events                   events-preview/ashdod/assets/event-thumbs
+          if git diff --cached --quiet; then
+            echo "No Ironit image changes."
+            exit 0
+          fi
+          git commit -m "Enrich Ashdod events with official Ironit artwork"
+          git pull --rebase origin main
+          git push
