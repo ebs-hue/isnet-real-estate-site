@@ -210,20 +210,27 @@ def main():
                 tried.append({"page":root,"kind":"listing","error":type(ex).__name__})
 
         if options:
-            options.sort(reverse=True,key=lambda x:x[0])
-            proposed[e["event_id"]]=options[0]
+            # Keep alternatives. Generic social images sometimes outrank the real card
+            # image, so duplicate detection below must be able to fall back.
+            best={}
+            for row in options:
+                score,u,ref,kind=row
+                if u not in best or score>best[u][0]: best[u]=row
+            proposed[e["event_id"]]=sorted(best.values(),reverse=True,key=lambda x:x[0])
         diagnostics[e["event_id"]]=tried
 
-    # Reject image URLs proposed for unrelated titles. Reuse is okay for identical production titles.
+    # Any candidate image that appears for unrelated productions is unsafe.
+    # This catches generic Tickchak/Smarticket social images while still allowing
+    # exact-title repeat performances to share artwork.
     usage=defaultdict(list)
     byid={e["event_id"]:e for e in events}
-    for eid,(_,u,_,_) in proposed.items():
-        usage[u].append(eid)
-    rejected=set()
+    for eid,rows in proposed.items():
+        for _,u,_,_ in rows:
+            usage[u].append(eid)
+    unsafe_urls=set()
     for u,ids in usage.items():
         titles={norm(byid[i].get("title")) for i in ids}
-        if len(titles)>1:
-            for i in ids: rejected.add(i)
+        if len(titles)>1: unsafe_urls.add(u)
 
     stats=Counter()
     accepted_by_title={}
@@ -232,9 +239,10 @@ def main():
         if e.get("image_verified") is True:
             accepted_by_title[norm(e.get("title"))]=e
             continue
-        p=proposed.get(e["event_id"])
-        if not p or e["event_id"] in rejected:
-            if e["event_id"] in rejected: stats["rejected_duplicate_across_titles"]+=1
+        rows=proposed.get(e["event_id"]) or []
+        p=next((row for row in rows if row[1] not in unsafe_urls),None)
+        if not p:
+            if rows: stats["rejected_duplicate_across_titles"]+=1
             continue
         score,u,ref,kind=p
         try:
