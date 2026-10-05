@@ -4101,10 +4101,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/8525b34da72c1ae57f1fb2.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://www.habama.co.il/Habama/Upload/Music/%D7%94%D7%90%D7%97%D7%99%D7%9D-%D7%90%D7%A1%D7%A0%D7%A8-%D7%A2%D7%A0%D7%A75.jpg",
-      "image_strategy": "artist_fallback_temporary"
+      "image_strategy": "artist_fallback_temporary",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_24_20261130",
