@@ -418,8 +418,9 @@ function calendarMonthOptions(){
   const t=today(),start=firstOfMonth(t);
   const eventDates=state.events.map(e=>localDate(e.start_date)).filter(d=>!Number.isNaN(d.getTime()));
   const latest=eventDates.length?new Date(Math.max(...eventDates.map(d=>d.getTime()))):start;
-  const floor=addMonths(start,12);
-  const end=latest>floor?firstOfMonth(latest):floor;
+  const floor=addMonths(start,18);
+  let end=latest>floor?firstOfMonth(latest):floor;
+  if(state.calendarMonth&&firstOfMonth(state.calendarMonth)>end)end=firstOfMonth(state.calendarMonth);
   const out=[];
   for(let d=new Date(start);d<=end;d=addMonths(d,1))out.push(new Date(d));
   return out;
@@ -465,6 +466,7 @@ function renderDates(){
       '</button>';
     }).join("");
     state.calendarMonth=firstOfMonth(start);
+    select.value=iso(state.calendarMonth);
   }else{
     const month=firstOfMonth(state.calendarMonth);
     label.textContent=monthFmt.format(month);
