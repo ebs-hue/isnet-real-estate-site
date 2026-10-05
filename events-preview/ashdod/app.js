@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -11,6 +11,10 @@ function localDate(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m
 function iso(d){return [d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-")}
 function today(){const d=new Date();d.setHours(0,0,0,0);return d}
 function daysFrom(base,n){const d=new Date(base);d.setDate(d.getDate()+n);return d}
+function startOfWeek(d){const x=new Date(d);x.setHours(0,0,0,0);x.setDate(x.getDate()-x.getDay());return x}
+function firstOfMonth(d){const x=new Date(d);x.setHours(0,0,0,0);x.setDate(1);return x}
+function addMonths(d,n){const x=new Date(d);x.setDate(1);x.setMonth(x.getMonth()+n);return x}
+function sameMonth(a,b){return a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()}
 function sameDay(a,b){return iso(a)===iso(b)}
 function isWeekendDate(d){return d.getDay()===5||d.getDay()===6}
 function nextWeekendRange(){
@@ -405,13 +409,82 @@ function filtered(){
   return groupEvents(arr)
 }
 
-function renderDates(){
-  const rail=$("dateRail"),t=today(),counts={};
+function calendarEventCounts(){
+  const counts={};
   state.events.forEach(e=>counts[e.start_date]=(counts[e.start_date]||0)+1);
-  rail.innerHTML=Array.from({length:21},(_,i)=>daysFrom(t,i)).map(d=>{
-    const id=iso(d),active=state.date===id?" is-active":"",cnt=counts[id]||0;
-    return '<button class="dateButton'+active+'" data-date="'+id+'"><small>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{weekday:"short"}).format(d))+'</small><b>'+d.getDate()+'</b><small>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+(cnt?" · "+cnt:"")+'</small></button>';
-  }).join("");
+  return counts;
+}
+function calendarMonthOptions(){
+  const t=today(),start=firstOfMonth(t);
+  const eventDates=state.events.map(e=>localDate(e.start_date)).filter(d=>!Number.isNaN(d.getTime()));
+  const latest=eventDates.length?new Date(Math.max(...eventDates.map(d=>d.getTime()))):start;
+  const floor=addMonths(start,12);
+  const end=latest>floor?firstOfMonth(latest):floor;
+  const out=[];
+  for(let d=new Date(start);d<=end;d=addMonths(d,1))out.push(new Date(d));
+  return out;
+}
+function ensureCalendarState(){
+  const t=today();
+  if(!state.calendarWeek)state.calendarWeek=startOfWeek(t);
+  if(!state.calendarMonth)state.calendarMonth=firstOfMonth(t);
+}
+function resetCalendarToToday(){
+  const t=today();
+  state.calendarWeek=startOfWeek(t);
+  state.calendarMonth=firstOfMonth(t);
+}
+function renderDates(){
+  ensureCalendarState();
+  const rail=$("dateRail"),monthGrid=$("monthGrid"),weekBox=$("weekCalendar"),monthBox=$("monthCalendar");
+  const label=$("calendarPeriodLabel"),select=$("calendarMonthSelect");
+  if(!rail||!monthGrid||!weekBox||!monthBox||!label||!select)return;
+
+  const t=today(),counts=calendarEventCounts();
+  const monthFmt=new Intl.DateTimeFormat("he-IL",{month:"long",year:"numeric"});
+  const dayFmt=new Intl.DateTimeFormat("he-IL",{weekday:"short"});
+  const shortMonthFmt=new Intl.DateTimeFormat("he-IL",{month:"short"});
+
+  const options=calendarMonthOptions();
+  select.innerHTML=options.map(d=>'<option value="'+iso(d)+'"'+(sameMonth(d,state.calendarMonth)?' selected':'')+'>'+escapeHtml(monthFmt.format(d))+'</option>').join("");
+
+  $("weekViewButton")?.classList.toggle("is-active",state.calendarMode==="week");
+  $("monthViewButton")?.classList.toggle("is-active",state.calendarMode==="month");
+  weekBox.hidden=state.calendarMode!=="week";
+  monthBox.hidden=state.calendarMode!=="month";
+
+  if(state.calendarMode==="week"){
+    const start=new Date(state.calendarWeek),end=daysFrom(start,6);
+    label.textContent=fmtDate.format(start)+" – "+fmtDate.format(end);
+    rail.innerHTML=Array.from({length:7},(_,i)=>daysFrom(start,i)).map(d=>{
+      const id=iso(d),cnt=counts[id]||0,active=state.date===id?" is-active":"",past=d<t?" is-past":"";
+      return '<button class="dateButton'+active+past+'" data-date="'+id+'" '+(d<t?'disabled':'')+'>'+
+        '<small>'+escapeHtml(dayFmt.format(d))+'</small><b>'+d.getDate()+'</b>'+
+        '<small>'+escapeHtml(shortMonthFmt.format(d))+'</small>'+
+        (cnt?'<span class="dateCount">'+cnt+' אירועים</span>':'<span class="dateCount is-empty">אין אירועים</span>')+
+      '</button>';
+    }).join("");
+    state.calendarMonth=firstOfMonth(start);
+  }else{
+    const month=firstOfMonth(state.calendarMonth);
+    label.textContent=monthFmt.format(month);
+    const y=month.getFullYear(),m=month.getMonth();
+    const last=new Date(y,m+1,0).getDate(),offset=month.getDay();
+    const cells=[];
+    for(let i=0;i<offset;i++)cells.push('<span class="monthDay monthDay--empty" aria-hidden="true"></span>');
+    for(let day=1;day<=last;day++){
+      const d=new Date(y,m,day),id=iso(d),cnt=counts[id]||0,active=state.date===id?" is-active":"",past=d<t?" is-past":"";
+      cells.push('<button class="monthDay'+active+past+(cnt?' has-events':'')+'" data-date="'+id+'" '+(d<t?'disabled':'')+'>'+
+        '<span class="monthDay__num">'+day+'</span>'+
+        (cnt?'<span class="monthDay__count">'+cnt+'</span>':'')+
+      '</button>');
+    }
+    monthGrid.innerHTML=cells.join("");
+  }
+
+  const currentBoundary=state.calendarMode==="week"?startOfWeek(t):firstOfMonth(t);
+  const viewedBoundary=state.calendarMode==="week"?startOfWeek(state.calendarWeek):firstOfMonth(state.calendarMonth);
+  $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
 }
 function renderCategories(){
   const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
@@ -558,7 +631,7 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
+function resetAll(){state.quick="all";state.date=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
@@ -576,7 +649,36 @@ async function init(){
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
   $("quickFilters").onclick=e=>{const b=e.target.closest("[data-quick]");if(!b)return;state.quick=b.dataset.quick;state.date=null;render()};
-  $("resetDate").onclick=()=>{state.date=null;render()};
+  $("resetDate").onclick=()=>{state.date=null;resetCalendarToToday();render()};
+  $("weekViewButton").onclick=()=>{
+    state.calendarMode="week";
+    if(state.date)state.calendarWeek=startOfWeek(localDate(state.date));
+    renderDates();bindDynamic();
+  };
+  $("monthViewButton").onclick=()=>{
+    state.calendarMode="month";
+    if(state.date)state.calendarMonth=firstOfMonth(localDate(state.date));
+    else if(state.calendarWeek)state.calendarMonth=firstOfMonth(state.calendarWeek);
+    renderDates();bindDynamic();
+  };
+  $("calendarPrev").onclick=()=>{
+    ensureCalendarState();
+    if(state.calendarMode==="week")state.calendarWeek=daysFrom(state.calendarWeek,-7);
+    else state.calendarMonth=addMonths(state.calendarMonth,-1);
+    renderDates();bindDynamic();
+  };
+  $("calendarNext").onclick=()=>{
+    ensureCalendarState();
+    if(state.calendarMode==="week")state.calendarWeek=daysFrom(state.calendarWeek,7);
+    else state.calendarMonth=addMonths(state.calendarMonth,1);
+    renderDates();bindDynamic();
+  };
+  $("calendarMonthSelect").onchange=e=>{
+    const selected=localDate(e.target.value);
+    state.calendarMonth=firstOfMonth(selected);
+    state.calendarMode="month";
+    renderDates();bindDynamic();
+  };
 
   $("favoritesOnly").onclick=()=>{state.favoritesOnly=!state.favoritesOnly;render()};
   $("sortSelect").onchange=e=>{state.sort=e.target.value;render()};
