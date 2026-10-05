@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-10-05T11:45:00+03:00",
+  "branches": {
+    "football": {
+      "label": "כדורגל",
+      "icon": "⚽"
+    },
+    "basketball": {
+      "label": "כדורסל",
+      "icon": "🏀"
+    },
+    "handball": {
+      "label": "כדוריד",
+      "icon": "🤾"
+    },
+    "volleyball": {
+      "label": "כדורעף",
+      "icon": "🏐"
+    },
+    "other": {
+      "label": "ספורט",
+      "icon": "⚑"
+    }
+  },
+  "teams": [
+    {
+      "id": "ms-ashdod",
+      "name": "מ.ס. אשדוד",
+      "sports": [
+        "football"
+      ],
+      "match_home_teams": [
+        "מ.ס. אשדוד"
+      ],
+      "logo_url": "https://assets.football-logos.cc/logos/israel/1500x1500/ashdod.5b9686e7.png",
+      "logo_source": "https://www.footylogos.com/logos/fc-ashdod"
+    },
+    {
+      "id": "ironi-ashdod",
+      "name": "מכבי עירוני אשדוד",
+      "sports": [
+        "football"
+      ],
+      "match_home_teams": [
+        "מכבי עירוני אשדוד"
+      ],
+      "logo_url": "https://ironi-ashdod.co.il/wp-content/uploads/2017/08/logoMIA.png",
+      "logo_source": "https://ironi-ashdod.co.il/"
+    },
+    {
+      "id": "maccabi-ashdod-basketball",
+      "name": "מכבי אשדוד כדורסל",
+      "sports": [
+        "basketball"
+      ],
+      "match_home_teams": [
+        "מכבי רוטשטיין אשדוד",
+        "מכבי אשדוד כדורסל"
+      ],
+      "logo_url": "https://assets.zyrosite.com/cdn-cgi/image/format%3Dauto%2Cw%3D1440%2Ch%3D756%2Cfit%3Dcrop%2Cf%3Djpeg/Y4LvPkJ56zt9pD30/500px-sport_maccabia-A85VMQ0jbNswweD1.jpg",
+      "logo_source": "https://www.maccabi-ashdod.com/basketball"
+    },
+    {
+      "id": "maccabi-bnot-ashdod",
+      "name": "מכבי בנות אשדוד",
+      "sports": [
+        "basketball"
+      ],
+      "match_home_teams": [
+        "מכבי בנות אשדוד"
+      ],
+      "logo_url": null,
+      "logo_source": "https://en.wikipedia.org/wiki/Maccabi_Bnot_Ashdod"
+    },
+    {
+      "id": "hapoel-ashdod-handball",
+      "name": "הפועל אשדוד כדוריד",
+      "sports": [
+        "handball"
+      ],
+      "match_home_teams": [
+        "הפועל אשדוד"
+      ],
+      "logo_url": "https://handballisr.co.il/Pics/2016/%D7%9C%D7%95%D7%92%D7%95%20%D7%90%D7%A9%D7%93%D7%95%D7%93.png",
+      "logo_source": "https://handballisr.co.il/teams.asp?AId=4"
+    },
+    {
+      "id": "maccabi-ashdod-volleyball",
+      "name": "מכבי אשדוד כדורעף",
+      "sports": [
+        "volleyball"
+      ],
+      "match_home_teams": [
+        "מכבי אשדוד"
+      ],
+      "logo_url": "https://assets.zyrosite.com/cdn-cgi/image/format%3Dauto%2Cw%3D1440%2Ch%3D756%2Cfit%3Dcrop%2Cf%3Djpeg/Y4LvPkJ56zt9pD30/500px-sport_maccabia-A85VMQ0jbNswweD1.jpg",
+      "logo_source": "https://www.maccabi-ashdod.com/volleyball"
+    }
+  ]
+}
