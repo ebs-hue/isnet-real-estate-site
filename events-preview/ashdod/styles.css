@@ -889,3 +889,16 @@ main{position:relative;z-index:3}
   font-size:12px;font-weight:700;color:#bbcade;
 }
 .cinemaFallbackIcon{font-size:34px}
+
+.brandRow{display:flex;align-items:center;justify-content:space-between;gap:16px;position:relative;z-index:2}
+.brandRow .brand{text-decoration:none}
+.mainAshdodLink{color:#e5f1fd;text-decoration:none;font-weight:800;font-size:13px;padding:8px 11px;border-radius:11px;border:1px solid rgba(255,255,255,.15);background:rgba(255,255,255,.06)}
+.mainAshdodLink:hover{background:rgba(255,255,255,.12)}
+.cinemaCard{cursor:pointer}
+.footerLinks{display:flex;align-items:center;gap:15px}
+.footerLinks a{color:#dbe8f6;text-decoration:none;font-weight:800}
+@media(max-width:650px){
+  .brandRow{align-items:flex-start}
+  .mainAshdodLink{font-size:12px;padding:6px 8px}
+  .footerLinks{justify-content:center;flex-wrap:wrap;margin-top:10px}
+}
