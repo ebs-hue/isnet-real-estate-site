@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07162b">
+  <title>סרט באשדוד | מה עושים באשדוד?</title>
+  <meta name="description" content="כל שעות ההקרנה, בתי הקולנוע, התקציר והטריילר של הסרט באשדוד.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="movie.css?v=20261005-1">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar__inner">
+      <a class="brand" href="https://ashdodnet.com/" target="_blank" rel="noopener"><span class="brand__dot"></span><span>אשדוד נט</span><b>מה עושים בעיר</b></a>
+      <nav class="topbarLinks">
+        <a href="./">← חזרה למה עושים באשדוד?</a>
+        <a class="ashdodNetLink" href="https://ashdodnet.com/" target="_blank" rel="noopener">לאתר אשדוד נט</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="page" hidden>
+    <section class="movieHero">
+      <div class="shell movieHero__grid">
+        <div class="movieHero__copy">
+          <div id="heroBadges" class="badges"></div>
+          <h1 id="movieTitle"></h1>
+          <p id="movieSynopsis" class="movieSynopsis"></p>
+          <div id="heroMeta" class="heroMeta"></div>
+          <div class="heroActions">
+            <a class="primaryButton" href="#showtimes">לכל הימים והשעות</a>
+            <button id="heroTrailer" class="secondaryButton" type="button">▶ צפו בטריילר</button>
+          </div>
+        </div>
+        <div id="heroMedia" class="movieHero__media"></div>
+      </div>
+    </section>
+
+    <div class="shell contentGrid">
+      <article class="mainColumn">
+        <section id="showtimes" class="contentCard">
+          <span class="kicker">כל ההקרנות במקום אחד</span>
+          <h2>ימים ושעות באשדוד</h2>
+          <div id="cinemaSchedules" class="cinemaSchedules"></div>
+        </section>
+
+        <section id="trailerSection" class="contentCard videoCard" hidden>
+          <span class="kicker">לפני שמחליטים</span>
+          <h2>טריילר</h2>
+          <div class="videoFrame"><iframe id="youtubeFrame" title="" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>
+        </section>
+
+        <section class="contentCard">
+          <span class="kicker">על הסרט</span>
+          <h2>תקציר</h2>
+          <p id="fullSynopsis" class="fullSynopsis"></p>
+        </section>
+
+        <section id="relatedSection" class="relatedSection">
+          <div class="sectionHead"><div><span class="kicker">עוד על המסך</span><h2>סרטים נוספים באשדוד</h2></div></div>
+          <div id="relatedGrid" class="relatedGrid"></div>
+        </section>
+      </article>
+
+      <aside class="sideColumn">
+        <section class="infoCard">
+          <span class="kicker">ניווט מהיר</span>
+          <div class="navActions">
+            <a href="./" class="navAction primary">← חזרה למה עושים באשדוד?</a>
+            <a href="https://ashdodnet.com/" target="_blank" rel="noopener" class="navAction">לאתר אשדוד נט</a>
+          </div>
+        </section>
+
+        <section class="infoCard">
+          <span class="kicker">מקור ועדכון</span>
+          <div id="sourceLinks" class="sourceLinks"></div>
+          <p id="updatedAt" class="updatedAt"></p>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div id="loadingState" class="state shell">
+    <div class="state__spinner"></div>
+    <p>טוענים את פרטי הסרט...</p>
+  </div>
+
+  <div id="errorState" class="state shell" hidden>
+    <h1>לא מצאנו את הסרט</h1>
+    <p>ייתכן שהסרט כבר אינו מוצג או שהקישור השתנה.</p>
+    <a class="primaryButton" href="./">חזרה למה עושים באשדוד?</a>
+  </div>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div><strong>מה עושים באשדוד?</strong><span>מבית אשדוד נט</span></div>
+      <div class="footerLinks">
+        <a href="./">חזרה לעמוד הראשי</a>
+        <a href="https://ashdodnet.com/" target="_blank" rel="noopener">אשדוד נט</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="movie.js?v=20261005-1"></script>
+</body>
+</html>
