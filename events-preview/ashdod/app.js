@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -213,7 +213,8 @@ function cinemaScheduleInfo(venue){
 }
 function cinemaCard(movie){
   const visibleVenues=movie.venues.filter(v=>state.cinemaVenue==="all"||v.id===state.cinemaVenue);
-  const image="https://i.ytimg.com/vi/"+encodeURIComponent(movie.trailer_youtube_id)+"/hqdefault.jpg";
+  const hasTrailer=Boolean(movie.trailer_youtube_id);
+  const image=hasTrailer?"https://i.ytimg.com/vi/"+encodeURIComponent(movie.trailer_youtube_id)+"/hqdefault.jpg":"";
   const venues=visibleVenues.map(v=>{
     const info=cinemaScheduleInfo(v);
     const times=info.times.length?info.times.slice(0,6).map(t=>'<span class="cinemaTime">'+escapeHtml(t)+'</span>').join(""):'<span class="cinemaNoTimes">בדקו שעות עדכניות</span>';
@@ -223,15 +224,21 @@ function cinemaCard(movie){
       '<a href="'+escapeHtml(v.article_url)+'" target="_blank" rel="noopener" class="cinemaDetails">שעות ופרטים ←</a>'+
     '</div>';
   }).join("");
+  const media=hasTrailer
+    ?'<button class="cinemaPoster" data-trailer="'+escapeHtml(movie.id)+'" aria-label="צפו בטריילר של '+escapeHtml(movie.title)+'">'+
+       '<img src="'+image+'" alt="" loading="lazy">'+
+       '<span class="cinemaPlay"><i>▶</i><b>צפו בטריילר</b></span>'+
+     '</button>'
+    :'<div class="cinemaPoster cinemaPoster--fallback"><span class="cinemaFallbackIcon">🎬</span><b>'+escapeHtml(movie.title)+'</b><span>לשעות ופרטים בעמוד הסרט</span></div>';
   return '<article class="cinemaCard">'+
-    '<button class="cinemaPoster" data-trailer="'+escapeHtml(movie.id)+'" aria-label="צפו בטריילר של '+escapeHtml(movie.title)+'">'+
-      '<img src="'+image+'" alt="" loading="lazy">'+
-      '<span class="cinemaPlay"><i>▶</i><b>צפו בטריילר</b></span>'+
-    '</button>'+
+    media+
     '<div class="cinemaCard__body">'+
-      '<div class="cinemaVenueBadges">'+visibleVenues.map(v=>'<span>'+escapeHtml(v.id==="cinema-city"?"סינמה סיטי":"HOT Cinema")+'</span>').join("")+'</div>'+
+      '<div class="cinemaVenueBadges">'+
+        (movie.is_family?'<span class="family">ילדים ומשפחה</span>':'')+
+        visibleVenues.map(v=>'<span>'+escapeHtml(v.id==="cinema-city"?"סינמה סיטי":"HOT Cinema")+'</span>').join("")+
+      '</div>'+
       '<h3>'+escapeHtml(movie.title)+'</h3>'+
-      '<p>'+escapeHtml(movie.synopsis)+'</p>'+
+      '<p>'+escapeHtml(movie.synopsis||"")+'</p>'+
       '<div class="cinemaSchedules">'+venues+'</div>'+
     '</div>'+
   '</article>';
@@ -239,6 +246,7 @@ function cinemaCard(movie){
 function renderCinema(){
   const grid=$("cinemaGrid"); if(!grid)return;
   const arr=state.cinema
+    .filter(m=>state.cinemaAudience==="all"||m.is_family===true)
     .filter(m=>state.cinemaVenue==="all"||m.venues.some(v=>v.id===state.cinemaVenue))
     .sort((a,b)=>{
       const day=iso(today());
@@ -248,14 +256,21 @@ function renderCinema(){
     });
   grid.innerHTML=arr.map(cinemaCard).join("");
   document.querySelectorAll("#cinemaFilters [data-cinema]").forEach(b=>b.classList.toggle("is-active",b.dataset.cinema===state.cinemaVenue));
+  document.querySelectorAll("#cinemaAudienceFilters [data-audience]").forEach(b=>b.classList.toggle("is-active",b.dataset.audience===state.cinemaAudience));
   document.querySelectorAll("[data-trailer]").forEach(b=>b.onclick=()=>openTrailer(b.dataset.trailer));
-  if(state.cinemaUpdatedAt){
-    const d=new Date(state.cinemaUpdatedAt);
-    $("cinemaUpdated").textContent=Number.isNaN(d.getTime())?"":"עודכן "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}).format(d);
+  const updated=$("cinemaUpdated");
+  if(updated){
+    let suffix=arr.length+" סרטים";
+    if(state.cinemaAudience==="family")suffix=arr.length+" סרטים לילדים ולמשפחה";
+    if(state.cinemaUpdatedAt){
+      const d=new Date(state.cinemaUpdatedAt);
+      const stamp=Number.isNaN(d.getTime())?"":" · עודכן "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"numeric",hour:"2-digit",minute:"2-digit"}).format(d);
+      updated.textContent=suffix+stamp;
+    }else updated.textContent=suffix;
   }
 }
 function openTrailer(id){
-  const movie=state.cinema.find(m=>m.id===id); if(!movie)return;
+  const movie=state.cinema.find(m=>m.id===id); if(!movie||!movie.trailer_youtube_id)return;
   $("trailerTitle").textContent=movie.title;
   $("trailerSynopsis").textContent=movie.synopsis||"";
   $("trailerFrame").src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(movie.trailer_youtube_id)+"?autoplay=1&rel=0";
@@ -533,7 +548,7 @@ async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
     fetch("data/events.json?v=20261005-23").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({})),
-    fetch("data/cinema.json?v=20261005-1").then(r=>r.json()).catch(()=>({movies:[]}))
+    fetch("data/cinema.json?v=20261005-2").then(r=>r.json()).catch(()=>({movies:[]}))
   ]);
   state.events=data.events||[];
   state.fallbacks=fallbacks;
@@ -553,6 +568,10 @@ async function init(){
   $("cinemaFilters").onclick=e=>{
     const b=e.target.closest("[data-cinema]"); if(!b)return;
     state.cinemaVenue=b.dataset.cinema; renderCinema();
+  };
+  $("cinemaAudienceFilters").onclick=e=>{
+    const b=e.target.closest("[data-audience]"); if(!b)return;
+    state.cinemaAudience=b.dataset.audience; renderCinema();
   };
   document.querySelectorAll("[data-close-trailer]").forEach(x=>x.onclick=closeTrailer);
   document.querySelectorAll("[data-close-modal]").forEach(x=>x.onclick=closeModal);
