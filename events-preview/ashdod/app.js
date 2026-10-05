@@ -98,7 +98,11 @@ function purchaseAction(e){
   return null;
 }
 function eventGroupKey(e){
+  if(e?.series_id)return "series:"+String(e.series_id);
   return normalizeSearch(e?.title||"");
+}
+function eventDisplayTitle(e){
+  return e?.series_title||e?.title||"אירוע";
 }
 function eventOccurrences(e){
   if(Array.isArray(e?._occurrences)&&e._occurrences.length)return e._occurrences;
@@ -116,12 +120,14 @@ function uniqueOccurrenceDates(e){
 }
 function groupedEvent(e,visibleOccurrence=e){
   const occ=eventOccurrences(e);
-  if(occ.length<=1)return e;
+  if(occ.length<=1)return e.series_title?{...e,title:eventDisplayTitle(e),description:e.series_description||e.description}:e;
   const imageEvent=occ.find(x=>hasTrustedSourceImage(x)&&x.thumbnail_ready===true)
     ||occ.find(x=>hasTrustedSourceImage(x))
     ||visibleOccurrence;
   return {
     ...visibleOccurrence,
+    title:eventDisplayTitle(visibleOccurrence),
+    description:visibleOccurrence.series_description||visibleOccurrence.description,
     image_url:imageEvent.image_url,
     image_origin_url:imageEvent.image_origin_url,
     image_source:imageEvent.image_source,
@@ -803,7 +809,7 @@ function resetAll(){state.quick="all";state.date=null;state.periodStart=null;sta
 
 async function init(){
   const [data,fallbacks,cinema,sports]=await Promise.all([
-    fetch("data/events.json?v=20261005-25").then(r=>r.json()),
+    fetch("data/events.json?v=20261005-26").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
     fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]})),
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
