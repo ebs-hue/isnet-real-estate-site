@@ -1,0 +1,51 @@
+name: Fill Ashdod event images from source listings
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fill_event_images_from_listings.py"
+      - ".github/workflows/fill-ashdod-event-images.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fill-ashdod-event-images
+  cancel-in-progress: true
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Recover source images
+        run: python scripts/fill_event_images_from_listings.py
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check Pillow==11.3.0
+
+      - name: Generate card thumbnails
+        run: python scripts/generate_event_thumbnails.py
+
+      - name: Commit recovered images and thumbnails
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json                   events-preview/ashdod/data/listing-image-fill-report.json                   events-preview/ashdod/assets/events                   events-preview/ashdod/assets/event-thumbs
+          if git diff --cached --quiet; then
+            echo "No event image changes."
+            exit 0
+          fi
+          git commit -m "Fill Ashdod event images from source listings"
+          git pull --rebase origin main
+          git push
