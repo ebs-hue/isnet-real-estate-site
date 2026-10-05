@@ -45,8 +45,70 @@ function purchaseAction(e){
   if(/^https?:\/\//i.test(url))return {href:url,label:"לרכישת כרטיסים",kind:"url"};
   return null;
 }
+function eventGroupKey(e){
+  return normalizeSearch(e?.title||"");
+}
+function eventOccurrences(e){
+  if(Array.isArray(e?._occurrences)&&e._occurrences.length)return e._occurrences;
+  const key=eventGroupKey(e);
+  return state.events
+    .filter(x=>eventGroupKey(x)===key)
+    .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
+}
+function uniqueOccurrenceDates(e){
+  const seen=new Set();
+  return eventOccurrences(e).filter(x=>{
+    if(seen.has(x.start_date))return false;
+    seen.add(x.start_date);return true;
+  });
+}
+function groupedEvent(e,visibleOccurrence=e){
+  const occ=eventOccurrences(e);
+  if(occ.length<=1)return e;
+  const imageEvent=occ.find(x=>hasTrustedSourceImage(x)&&x.thumbnail_ready===true)
+    ||occ.find(x=>hasTrustedSourceImage(x))
+    ||visibleOccurrence;
+  return {
+    ...visibleOccurrence,
+    image_url:imageEvent.image_url,
+    image_origin_url:imageEvent.image_origin_url,
+    image_source:imageEvent.image_source,
+    image_credit:imageEvent.image_credit,
+    image_publishable:imageEvent.image_publishable,
+    image_verified:imageEvent.image_verified,
+    thumbnail_url:imageEvent.thumbnail_url,
+    thumbnail_ready:imageEvent.thumbnail_ready,
+    thumbnail_ratio:imageEvent.thumbnail_ratio,
+    thumbnail_strategy:imageEvent.thumbnail_strategy,
+    _occurrences:occ,
+    _group_key:eventGroupKey(e)
+  };
+}
+function groupEvents(arr){
+  const grouped=[];
+  const seen=new Set();
+  for(const e of arr){
+    const key=eventGroupKey(e);
+    if(seen.has(key))continue;
+    seen.add(key);
+    grouped.push(groupedEvent(e,e));
+  }
+  return grouped;
+}
+function groupFavoriteIds(id){
+  const e=state.events.find(x=>x.event_id===id);
+  return e?eventOccurrences(e).map(x=>x.event_id):[id];
+}
+function isGroupFavorite(e){
+  return eventOccurrences(e).some(x=>favorites.has(x.event_id));
+}
 function saveFavorites(){localStorage.setItem("isnet-events-favorites",JSON.stringify([...favorites]))}
-function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);saveFavorites();render();}
+function toggleFavorite(id){
+  const ids=groupFavoriteIds(id);
+  const on=ids.some(x=>favorites.has(x));
+  ids.forEach(x=>on?favorites.delete(x):favorites.add(x));
+  saveFavorites();render();
+}
 
 function hasTrustedSourceImage(e){
   return Boolean(e.image_url&&e.image_publishable===true&&e.image_verified===true);
@@ -92,17 +154,38 @@ function mediaHTML(e,cls="eventMedia"){
   const img=eventImageHTML(e,"card");
   return '<div class="'+cls+' cat-'+e.category+' '+(img?"":"has-fallback-image")+'">'+
     img+fallbackMediaHTML(e)+
-    '<button class="heart '+(favorites.has(e.event_id)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(favorites.has(e.event_id)?"♥":"♡")+'</button>'+
+    '<button class="heart '+(isGroupFavorite(e)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(isGroupFavorite(e)?"♥":"♡")+'</button>'+
   '</div>';
 }
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+function dateChipHTML(e){
+  const dates=uniqueOccurrenceDates(e);
+  if(dates.length<=1){
+    const d=localDate(e.start_date);
+    return '<div class="dateChip"><b>'+d.getDate()+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></div>';
+  }
+  return '<div class="dateStack" aria-label="'+dates.length+' מועדים">'+dates.map(x=>{
+    const d=localDate(x.start_date);
+    const active=state.date===x.start_date?" is-active":"";
+    return '<span class="multiDateChip'+active+'"><b>'+String(d.getDate()).padStart(2,"0")+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></span>';
+  }).join("")+'</div>';
+}
+function scheduleSummary(e){
+  const occ=eventOccurrences(e);
+  if(occ.length<=1){
+    return fmtFull.format(localDate(e.start_date))+' · '+formatTime(e.start_time);
+  }
+  const dates=uniqueOccurrenceDates(e);
+  const times=[...new Set(occ.map(x=>formatTime(x.start_time)))];
+  return dates.length+' מועדים'+(times.length===1?' · '+times[0]:' · שעות שונות');
+}
 function eventCard(e){
-  const d=localDate(e.start_date);
-  const dateChip='<div class="dateChip"><b>'+d.getDate()+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></div>';
-  return '<article class="eventCard" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChip+'</div>'+
-    '<div class="eventBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
+  const occ=eventOccurrences(e);
+  const multi=occ.length>1;
+  return '<article class="eventCard" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
+    '<div class="eventBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
-    '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(fmtFull.format(d))+' · '+escapeHtml(formatTime(e.start_time))+'</span></span>'+
+    '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
     '<div class="eventFooter"><div class="price">'+escapeHtml(priceText(e))+'</div><span class="linkCue">לפרטים <b>←</b></span></div></div></article>';
 }
@@ -224,7 +307,7 @@ function filtered(){
   if(state.sort==="priceLow")arr.sort((a,b)=>(a.price_min_ils??999999)-(b.price_min_ils??999999)||a.start_date.localeCompare(b.start_date));
   else if(state.sort==="priceHigh")arr.sort((a,b)=>(b.price_min_ils??-1)-(a.price_min_ils??-1)||a.start_date.localeCompare(b.start_date));
   else arr.sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
-  return arr
+  return groupEvents(arr)
 }
 
 function renderDates(){
@@ -237,7 +320,7 @@ function renderDates(){
 }
 function renderCategories(){
   const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
-  const counts={};state.events.forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
+  const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   $("categoryGrid").innerHTML=cats.map(c=>
     '<button class="categoryCard '+(state.category===c?"is-active":"")+'" data-cat="'+c+'">'+
       '<span class="categoryCard__icon">'+catIcons[c]+'</span>'+
@@ -247,9 +330,10 @@ function renderCategories(){
 }
 function renderHeroStats(){
   const el=$("heroStats");if(!el)return;
-  const upcoming=state.events.filter(e=>localDate(e.start_date)>=today());
-  const venues=new Set(upcoming.map(e=>e.venue).filter(Boolean));
-  const categories=new Set(upcoming.map(e=>e.category).filter(Boolean));
+  const upcomingOccurrences=state.events.filter(e=>localDate(e.start_date)>=today());
+  const upcoming=groupEvents(upcomingOccurrences);
+  const venues=new Set(upcomingOccurrences.map(e=>e.venue).filter(Boolean));
+  const categories=new Set(upcomingOccurrences.map(e=>e.category).filter(Boolean));
   let updated="";
   if(state.generatedAt){
     const d=new Date(state.generatedAt);
@@ -311,20 +395,33 @@ function bindDynamic(){
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{state.category=state.category===b.dataset.cat?null:b.dataset.cat;render()});
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{const k=b.dataset.remove;if(k==="quick")state.quick="all";if(k==="date")state.date=null;if(k==="category")state.category=null;if(k==="query"){state.query="";$("searchInput").value=""}if(k==="favorites")state.favoritesOnly=false;render()});
 }
+function modalScheduleText(e){
+  const occ=eventOccurrences(e);
+  return occ.map(x=>fmtFull.format(localDate(x.start_date))+' · '+formatTime(x.start_time)).join(' | ');
+}
+function groupPurchaseAction(e){
+  for(const x of eventOccurrences(e)){
+    const action=purchaseAction(x);
+    if(action)return action;
+  }
+  return purchaseAction(e);
+}
 function openEvent(id){
-  const e=state.events.find(x=>x.event_id===id);if(!e)return;
+  const base=state.events.find(x=>x.event_id===id);if(!base)return;
+  const e=groupedEvent(base,base);
+  const occ=eventOccurrences(e);
   $("modalTitle").textContent=e.title;
   $("modalDescription").textContent=e.description||"כל הפרטים החשובים במקום אחד. מומלץ לוודא את פרטי האירוע מול המארגן לפני הגעה.";
-  $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e);
+  $("modalBadges").innerHTML='<span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(occ.length>1?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'');
   $("modalMedia").className="modal__media cat-"+(e.category||"other")+(hasTrustedSourceImage(e)?"":" has-fallback-image");
   $("modalMedia").innerHTML=eventImageHTML(e,"modal")+fallbackMediaHTML(e);
   $("modalFacts").innerHTML=[
-    ["תאריך",fmtFull.format(localDate(e.start_date))],
-    ["שעה",formatTime(e.start_time)],
+    [occ.length>1?"מועדים":"תאריך",occ.length>1?modalScheduleText(e):fmtFull.format(localDate(e.start_date))],
+    ...(occ.length>1?[]:[["שעה",formatTime(e.start_time)]]),
     ["מקום",e.venue||"יפורסם בהמשך"],
     ["מחיר",priceText(e)]
   ].map(([a,b])=>'<div class="fact"><b>'+a+'</b>'+escapeHtml(b)+'</div>').join("");
-  const purchase=purchaseAction(e);
+  const purchase=groupPurchaseAction(e);
   const link=$("modalTicket");
   const note=$("modalPurchaseNote");
   if(purchase){
@@ -339,18 +436,18 @@ function openEvent(id){
     link.removeAttribute("href");
     link.style.display="none";
     note.hidden=false;
-    note.textContent=e.ticket_status==="sold_out"
+    note.textContent=occ.every(x=>x.ticket_status==="sold_out")
       ?"הכרטיסים לאירוע אזלו."
       :"אין כרגע קישור רכישה ישיר מאומת. לא נפנה אתכם לעמוד לוח חיצוני; פרטי רכישה ישירים יעודכנו כאן.";
   }
-  const fav=$("modalFavorite");fav.dataset.id=id;fav.textContent=(favorites.has(id)?"♥ נשמר במועדפים":"♡ שמירה למועדפים");
+  const fav=$("modalFavorite");fav.dataset.id=id;fav.textContent=(isGroupFavorite(e)?"♥ נשמר במועדפים":"♡ שמירה למועדפים");
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
 function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
 
 async function init(){
-  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-17").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-17").then(r=>r.json()).catch(()=>({}))]);
+  const [data,fallbacks]=await Promise.all([fetch("data/events.json?v=20261005-18").then(r=>r.json()),fetch("category-fallbacks.json?v=20261005-18").then(r=>r.json()).catch(()=>({}))]);
   state.events=data.events||[];state.fallbacks=fallbacks;state.generatedAt=data.generated_at||null;render();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
   $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
