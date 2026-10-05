@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -244,7 +244,9 @@ function cinemaCard(movie){
   '</article>';
 }
 function renderCinema(){
-  const grid=$("cinemaGrid"); if(!grid)return;
+  const grid=$("cinemaGrid"),section=$("cinemaSection"); if(!grid||!section)return;
+  section.hidden=!state.cinemaOpen;
+  if(!state.cinemaOpen){grid.innerHTML="";return}
   const arr=state.cinema
     .filter(m=>state.cinemaAudience==="all"||m.is_family===true)
     .filter(m=>state.cinemaVenue==="all"||m.venues.some(v=>v.id===state.cinemaVenue))
@@ -415,12 +417,17 @@ function renderCategories(){
   const cats=["music","standup","kids","theatre","lecture","exhibition","workshop","cinema","festival"];
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
-  $("categoryGrid").innerHTML=cats.map(c=>
-    '<button class="categoryCard '+(state.category===c?"is-active":"")+'" data-cat="'+c+'">'+
+  $("categoryGrid").innerHTML=cats.map(c=>{
+    const isCinema=c==="cinema";
+    const active=isCinema?state.cinemaOpen:state.category===c;
+    const label=isCinema?"קולנוע באשדוד":catLabels[c];
+    const countLabel=(counts[c]||0)+" "+(isCinema?"סרטים":"אירועים");
+    return '<button class="categoryCard '+(active?"is-active":"")+'" data-cat="'+c+'">'+
       '<span class="categoryCard__icon">'+catIcons[c]+'</span>'+
-      '<span class="categoryCard__copy"><b>'+catLabels[c]+'</b><small>'+((counts[c]||0))+' אירועים</small></span>'+
+      '<span class="categoryCard__copy"><b>'+label+'</b><small>'+countLabel+'</small></span>'+
       '<span class="categoryCard__arrow">←</span>'+
-    '</button>').join("");
+    '</button>';
+  }).join("");
 }
 function renderHeroStats(){
   const el=$("heroStats");if(!el)return;
@@ -489,11 +496,16 @@ function bindDynamic(){
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
     if(b.dataset.cat==="cinema"){
       state.category=null;
+      state.cinemaOpen=true;
       render();
-      $("cinemaSection")?.scrollIntoView({behavior:"smooth",block:"start"});
+      renderCinema();
+      requestAnimationFrame(()=>$("cinemaSection")?.scrollIntoView({behavior:"smooth",block:"start"}));
       return;
     }
-    state.category=state.category===b.dataset.cat?null:b.dataset.cat;render()
+    state.cinemaOpen=false;
+    renderCinema();
+    state.category=state.category===b.dataset.cat?null:b.dataset.cat;
+    render();
   });
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{const k=b.dataset.remove;if(k==="quick")state.quick="all";if(k==="date")state.date=null;if(k==="category")state.category=null;if(k==="query"){state.query="";$("searchInput").value=""}if(k==="favorites")state.favoritesOnly=false;render()});
 }
@@ -546,7 +558,7 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.category=null;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render()}
+function resetAll(){state.quick="all";state.date=null;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
@@ -576,6 +588,12 @@ async function init(){
   $("cinemaAudienceFilters").onclick=e=>{
     const b=e.target.closest("[data-audience]"); if(!b)return;
     state.cinemaAudience=b.dataset.audience; renderCinema();
+  };
+  $("cinemaClose").onclick=()=>{
+    state.cinemaOpen=false;
+    renderCinema();
+    renderCategories();
+    $("categoryGrid")?.scrollIntoView({behavior:"smooth",block:"center"});
   };
   document.querySelectorAll("[data-close-trailer]").forEach(x=>x.onclick=closeTrailer);
   document.querySelectorAll("[data-close-modal]").forEach(x=>x.onclick=closeModal);
