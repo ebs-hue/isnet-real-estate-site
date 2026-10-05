@@ -693,7 +693,18 @@ async function init(){
     const b=e.target.closest("[data-quick]");if(!b)return;
     state.quick=b.dataset.quick;state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;render()
   };
-  $("resetDate").onclick=()=>{state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;resetCalendarToToday();render()};
+  const clearCalendarSelection=()=>{
+    state.date=null;
+    state.periodStart=null;
+    state.periodEnd=null;
+    state.periodType=null;
+    state.quick="all";
+    resetCalendarToToday();
+    render();
+    requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
+  };
+  $("resetDate").onclick=clearCalendarSelection;
+  $("calendarAllDates").onclick=clearCalendarSelection;
   $("weekViewButton").onclick=()=>{
     state.calendarMode="week";
     if(state.date)state.calendarWeek=startOfWeek(localDate(state.date));
