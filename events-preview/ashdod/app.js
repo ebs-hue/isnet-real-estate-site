@@ -221,7 +221,7 @@ function cinemaCard(movie){
     return '<div class="cinemaVenueRow">'+
       '<div class="cinemaVenueName"><b>'+escapeHtml(v.name)+'</b><span>'+escapeHtml(info.label)+'</span></div>'+
       '<div class="cinemaTimes">'+times+'</div>'+
-      '<a href="'+escapeHtml(v.article_url)+'" target="_blank" rel="noopener" class="cinemaDetails">שעות ופרטים ←</a>'+
+      '<a href="movie.html?id='+encodeURIComponent(movie.id)+'" class="cinemaDetails">כל הימים והשעות ←</a>'+
     '</div>';
   }).join("");
   const media=hasTrailer
@@ -230,7 +230,7 @@ function cinemaCard(movie){
        '<span class="cinemaPlay"><i>▶</i><b>צפו בטריילר</b></span>'+
      '</button>'
     :'<div class="cinemaPoster cinemaPoster--fallback"><span class="cinemaFallbackIcon">🎬</span><b>'+escapeHtml(movie.title)+'</b><span>לשעות ופרטים בעמוד הסרט</span></div>';
-  return '<article class="cinemaCard">'+
+  return '<article class="cinemaCard" data-movie="'+escapeHtml(movie.id)+'">'+
     media+
     '<div class="cinemaCard__body">'+
       '<div class="cinemaVenueBadges">'+
@@ -257,7 +257,11 @@ function renderCinema(){
   grid.innerHTML=arr.map(cinemaCard).join("");
   document.querySelectorAll("#cinemaFilters [data-cinema]").forEach(b=>b.classList.toggle("is-active",b.dataset.cinema===state.cinemaVenue));
   document.querySelectorAll("#cinemaAudienceFilters [data-audience]").forEach(b=>b.classList.toggle("is-active",b.dataset.audience===state.cinemaAudience));
-  document.querySelectorAll("[data-trailer]").forEach(b=>b.onclick=()=>openTrailer(b.dataset.trailer));
+  document.querySelectorAll("[data-trailer]").forEach(b=>b.onclick=e=>{e.stopPropagation();openTrailer(b.dataset.trailer)});
+  document.querySelectorAll("[data-movie]").forEach(card=>card.onclick=e=>{
+    if(e.target.closest("[data-trailer],a,button"))return;
+    location.href="movie.html?id="+encodeURIComponent(card.dataset.movie);
+  });
   const updated=$("cinemaUpdated");
   if(updated){
     let suffix=arr.length+" סרטים";
@@ -275,7 +279,7 @@ function openTrailer(id){
   $("trailerSynopsis").textContent=movie.synopsis||"";
   $("trailerFrame").src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(movie.trailer_youtube_id)+"?autoplay=1&rel=0";
   $("trailerFrame").title="טריילר - "+movie.title;
-  $("trailerLinks").innerHTML=movie.venues.map(v=>'<a href="'+escapeHtml(v.article_url)+'" target="_blank" rel="noopener">'+escapeHtml(v.name)+' — לשעות ופרטים ←</a>').join("");
+  $("trailerLinks").innerHTML='<a href="movie.html?id='+encodeURIComponent(movie.id)+'">כל הימים, השעות והפרטים אצלנו ←</a>';
   $("trailerModal").hidden=false;
   document.body.style.overflow="hidden";
 }
@@ -548,7 +552,7 @@ async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
     fetch("data/events.json?v=20261005-23").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({})),
-    fetch("data/cinema.json?v=20261005-2").then(r=>r.json()).catch(()=>({movies:[]}))
+    fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]}))
   ]);
   state.events=data.events||[];
   state.fallbacks=fallbacks;
