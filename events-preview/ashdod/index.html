@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-23">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-24">
 </head>
 <body>
   <header class="hero">
@@ -56,15 +56,17 @@
       <div id="categoryGrid" class="categoryGrid"></div>
     </section>
 
-    <section id="cinemaSection" class="section cinemaSection">
+    <section id="cinemaSection" class="section cinemaSection" hidden>
       <div class="cinemaPanel">
         <div class="cinemaHead">
           <div>
-            <span class="cinemaKicker">על המסך באשדוד</span>
-            <h2>הערב בקולנוע</h2>
+            <span class="cinemaKicker">קולנוע באשדוד</span>
+            <h2>כל הסרטים באשדוד</h2>
             <p>סרטים, שעות הקרנה וטריילרים — סינמה סיטי ו־HOT Cinema במקום אחד.</p>
           </div>
-          <a class="cinemaAllLink" href="#cinemaGrid">כל הסרטים, הימים והשעות אצלנו ↓</a>
+          <div class="cinemaHeadActions">
+            <button id="cinemaClose" class="cinemaBackButton" type="button">← חזרה לכל האירועים</button>
+          </div>
         </div>
         <div class="cinemaToolbar">
           <div class="cinemaFilterGroups">
@@ -152,6 +154,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-26" defer></script>
+  <script src="app.js?v=20261005-27" defer></script>
 </body>
 </html>
