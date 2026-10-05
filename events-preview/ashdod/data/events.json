@@ -164,10 +164,12 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/fb2f7d255776c2e4298ceb.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://cdn.modulus.co.il/fetch/cinemacity/w_505%2Ch_721%2Cmode_%2Cquality_95%2Cv_4f7026f8-2419-4c0e-a835-774fecc120bf41/http%3A//80.178.112.171/images/%D7%93%D7%A8%D7%93%D7%A1%D7%99%D7%9D.jpg",
-      "image_strategy": "event_board_poster"
+      "image_strategy": "event_board_poster",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_3_20261004",
@@ -318,10 +320,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/d7d5175d7ba6254787c434.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdodnet.com/dyncontent/tmp/72/2025_1_15_b39764a0-7ea1-4b3b-b35d-06ae96022b15_1200_628_Fit_.jpg",
-      "image_strategy": "illustrative_source"
+      "image_strategy": "illustrative_source",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_36_20261006",
@@ -1088,10 +1092,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/84263e84fb380852c961eb.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "image_strategy": "program_fallback"
+      "image_strategy": "program_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_96_20261014",
@@ -1190,10 +1196,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/79c8d554218ad9fd0449f1.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_8_20261015",
@@ -2044,10 +2052,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/ee7cd5bb8202839a4e3385.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
-      "image_strategy": "official_production_art"
+      "image_strategy": "official_production_art",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_52_20261028",
@@ -2406,10 +2416,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/53c1afcec99dc20ccbc70b.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_15_20261103",
@@ -2560,10 +2572,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/d850809219ad9a8690d468.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_74_20261104",
@@ -2610,10 +2624,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/3e26f785498476a51dfe83.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://www.concerto.com.br/sites/default/files/akta.jpg",
-      "image_strategy": "artist_fallback"
+      "image_strategy": "artist_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_17_20261105",
@@ -2868,10 +2884,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/4b6e97014ce71df113f3db.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_20_20261110",
@@ -2918,10 +2936,12 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/535e9cc1ded3354b36d21c.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_75_20261110",
@@ -3020,10 +3040,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/e8a1389d2b024a50200386.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://images.makore.co.il/events/019a99f81bc0c09dd00baec926025140f037671822827df9fcb45f4b4e120387.webp?class=eventdetail1280",
-      "image_strategy": "event_board_poster"
+      "image_strategy": "event_board_poster",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_58_20261112",
@@ -3950,10 +3972,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/16cb8658788460eb4a539a.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "image_strategy": "program_fallback"
+      "image_strategy": "program_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_25_20261203",
@@ -4000,10 +4024,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/834d0d9f5e14290abf2065.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_26_20261203",
@@ -4050,10 +4076,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/ab6aed22d0e338cc6c7945.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "image_strategy": "series_fallback"
+      "image_strategy": "series_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
     },
     {
       "event_id": "evt_27_20261203",
@@ -4308,10 +4336,12 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/37caa7fabf23fc8f8ff726.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
-      "image_strategy": "production_fallback"
+      "image_strategy": "production_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_85_20261208",
@@ -4358,10 +4388,12 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/e840645e979f1631a0597e.jpg",
+      "thumbnail_ready": true,
       "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
-      "image_strategy": "production_fallback"
+      "image_strategy": "production_fallback",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_65_20261212",
@@ -4669,11 +4701,11 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/bd8031ab0587c03e423002.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "landscape_cover"
     },
     {
       "event_id": "evt_86_20261221",
