@@ -99,6 +99,12 @@ function purchaseAction(e){
 }
 function eventGroupKey(e){
   if(e?.series_id)return "series:"+String(e.series_id);
+  if(isRepresentativeHomeGame(e)){
+    const team=sportTeamConfig(e);
+    const teamKey=team?.id||normalizeSearch(e.home_team||e.organizer||"sport-team");
+    const branchKey=normalizeSearch(e.sport_branch||sportBranchMeta(e).label||sportKey(e));
+    return "sport-team:"+teamKey+":"+branchKey;
+  }
   return normalizeSearch(e?.title||"");
 }
 function eventDisplayTitle(e){
@@ -124,10 +130,13 @@ function groupedEvent(e,visibleOccurrence=e){
   const imageEvent=occ.find(x=>hasTrustedSourceImage(x)&&x.thumbnail_ready===true)
     ||occ.find(x=>hasTrustedSourceImage(x))
     ||visibleOccurrence;
+  const isSportGroup=isRepresentativeHomeGame(visibleOccurrence);
+  const sportTeam=isSportGroup?sportTeamConfig(visibleOccurrence):null;
+  const sportName=sportTeam?.name||visibleOccurrence.home_team||visibleOccurrence.organizer||"הקבוצה";
   return {
     ...visibleOccurrence,
-    title:eventDisplayTitle(visibleOccurrence),
-    description:visibleOccurrence.series_description||visibleOccurrence.description,
+    title:isSportGroup?"משחקי הבית הקרובים":eventDisplayTitle(visibleOccurrence),
+    description:isSportGroup?occ.length+" משחקי הבית הקרובים של "+sportName:(visibleOccurrence.series_description||visibleOccurrence.description),
     image_url:imageEvent.image_url,
     image_origin_url:imageEvent.image_origin_url,
     image_source:imageEvent.image_source,
@@ -758,7 +767,11 @@ function bindDynamic(){
 }
 function modalScheduleText(e){
   const occ=eventOccurrences(e);
-  return occ.map(x=>fmtFull.format(localDate(x.start_date))+' · '+formatTime(x.start_time)).join(' | ');
+  return occ.map(x=>{
+    const base=fmtFull.format(localDate(x.start_date))+' · '+formatTime(x.start_time);
+    if(x.category==="sport"&&x.away_team)return base+" · מול "+x.away_team;
+    return base;
+  }).join(' | ');
 }
 function groupPurchaseAction(e){
   for(const x of eventOccurrences(e)){
