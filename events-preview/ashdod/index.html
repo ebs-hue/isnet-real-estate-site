@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-26">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-27">
 </head>
 <body>
   <header class="hero">
@@ -57,11 +57,14 @@
           <div class="calendarPeriodNav">
             <button id="calendarPrev" class="calendarArrow" type="button" aria-label="תקופה קודמת">›</button>
             <select id="calendarMonthSelect" class="calendarMonthSelect" aria-label="בחירת חודש"></select>
+            <button id="calendarApply" class="calendarApply calendarApply--inline" type="button">הצג אירועי השבוע</button>
+            <button id="calendarAllDates" class="calendarAllDates" type="button">כל התאריכים</button>
             <button id="calendarNext" class="calendarArrow" type="button" aria-label="תקופה הבאה">‹</button>
           </div>
         </div>
 
         <div id="calendarPeriodLabel" class="calendarPeriodLabel" aria-live="polite"></div>
+        <div id="calendarSelectionText" class="calendarSelectionText"></div>
 
         <div id="weekCalendar" class="weekCalendar">
           <div id="dateRail" class="dateRail" aria-label="בחירת תאריך"></div>
@@ -72,11 +75,6 @@
             <span>א׳</span><span>ב׳</span><span>ג׳</span><span>ד׳</span><span>ה׳</span><span>ו׳</span><span>ש׳</span>
           </div>
           <div id="monthGrid" class="monthGrid" aria-label="יומן חודשי"></div>
-        </div>
-
-        <div class="calendarSelectionBar">
-          <div id="calendarSelectionText" class="calendarSelectionText">בחרו יום, שבוע או חודש</div>
-          <button id="calendarApply" class="calendarApply" type="button">הצג אירועי השבוע</button>
         </div>
 
         <div class="calendarHint">
@@ -191,6 +189,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-29" defer></script>
+  <script src="app.js?v=20261005-30" defer></script>
 </body>
 </html>
