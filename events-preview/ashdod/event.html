@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07162b">
+  <title>אירוע באשדוד | מה עושים באשדוד?</title>
+  <meta name="description" content="כל מה שצריך לדעת על האירוע: סיפור, מועדים, מקום, וידאו ורכישת כרטיסים.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="event.css?v=20261005-1">
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell topbar__inner">
+      <a class="brand" href="./"><span class="brand__dot"></span><span>אשדוד נט</span><b>מה עושים בעיר</b></a>
+      <a class="backLink" href="./">← לכל האירועים</a>
+    </div>
+  </header>
+
+  <main id="page" hidden>
+    <section class="eventHero">
+      <div class="shell eventHero__grid">
+        <div class="eventHero__copy">
+          <div id="heroBadges" class="badges"></div>
+          <h1 id="eventTitle"></h1>
+          <p id="eventPitch" class="eventPitch"></p>
+          <div id="heroMeta" class="heroMeta"></div>
+          <div class="heroActions">
+            <a id="heroBuy" class="primaryButton" target="_blank" rel="noopener">לרכישת כרטיסים</a>
+            <a class="secondaryButton" href="#dates">לכל המועדים</a>
+          </div>
+          <p id="heroBuyNote" class="buyNote" hidden></p>
+        </div>
+        <div id="heroImage" class="eventHero__media"></div>
+      </div>
+    </section>
+
+    <div class="shell contentGrid">
+      <article class="storyColumn">
+        <section id="aboutSection" class="contentCard">
+          <span class="kicker">מה מחכה לכם</span>
+          <h2>על האירוע</h2>
+          <div id="eventStory" class="storyText"></div>
+        </section>
+
+        <section id="highlightsSection" class="contentCard">
+          <span class="kicker">לפני שמחליטים</span>
+          <h2>למה כדאי לשים לב</h2>
+          <div id="highlights" class="highlights"></div>
+          <p id="suitability" class="suitability"></p>
+        </section>
+
+        <section id="videoSection" class="contentCard videoCard" hidden>
+          <span class="kicker">תראו לפני שמזמינים</span>
+          <h2>וידאו מהמופע</h2>
+          <div class="videoFrame"><iframe id="youtubeFrame" title="" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div>
+          <h3 id="youtubeTitle"></h3>
+          <p id="youtubeNote" class="muted"></p>
+        </section>
+
+        <section id="peopleSection" class="contentCard" hidden>
+          <span class="kicker">מאחורי הבמה</span>
+          <h2>יוצרים ומשתתפים</h2>
+          <div id="peopleGrid" class="peopleGrid"></div>
+        </section>
+
+        <section id="relatedSection" class="relatedSection">
+          <div class="sectionHead">
+            <div><span class="kicker">עוד באותו כיוון</span><h2>אולי יעניין אתכם גם</h2></div>
+          </div>
+          <div id="relatedGrid" class="relatedGrid"></div>
+        </section>
+      </article>
+
+      <aside class="sideColumn">
+        <section id="dates" class="scheduleCard">
+          <span class="kicker">בחרו מועד</span>
+          <h2>מועדים באשדוד</h2>
+          <div id="scheduleList" class="scheduleList"></div>
+        </section>
+
+        <section class="infoCard">
+          <span class="kicker">פרטים שימושיים</span>
+          <div id="practicalInfo" class="practicalInfo"></div>
+        </section>
+      </aside>
+    </div>
+  </main>
+
+  <div id="loadingState" class="state shell">
+    <div class="state__spinner"></div>
+    <p>טוענים את פרטי האירוע...</p>
+  </div>
+
+  <div id="errorState" class="state shell" hidden>
+    <h1>לא מצאנו את האירוע</h1>
+    <p>ייתכן שהקישור השתנה או שהאירוע כבר אינו בלוח.</p>
+    <a class="primaryButton" href="./">חזרה לכל האירועים</a>
+  </div>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div><strong>מה עושים באשדוד?</strong><span>מבית אשדוד נט</span></div>
+      <span>הפרטים מתעדכנים ממקורות האירועים. מומלץ לוודא שעה וזמינות לפני הגעה.</span>
+    </div>
+  </footer>
+
+  <script src="event.js?v=20261005-1"></script>
+</body>
+</html>
