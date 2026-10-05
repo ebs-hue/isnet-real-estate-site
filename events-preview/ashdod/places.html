@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="places.css?v=20261005-2">
+  <link rel="stylesheet" href="places.css?v=20261005-3">
 </head>
 <body>
   <header class="topbar">
@@ -50,6 +50,19 @@
         </div>
       </section>
 
+      <section id="beachInfo" class="beachInfo" hidden>
+        <div id="seasonCard" class="infoPanel infoPanel--season"></div>
+        <div id="environmentCard" class="infoPanel infoPanel--environment"></div>
+        <div id="dailyStatusCard" class="infoPanel infoPanel--status"></div>
+        <div class="rulesPanel">
+          <div class="rulesPanel__head">
+            <span class="sectionKicker">כדאי לדעת לפני שמגיעים</span>
+            <h2>כללי ההתנהגות בחופי אשדוד</h2>
+          </div>
+          <div id="beachRules" class="beachRules"></div>
+        </div>
+      </section>
+
       <section id="safetyCard" class="safetyCard" hidden>
         <div class="safetyIcon">!</div>
         <div class="safetyCopy">
@@ -82,6 +95,6 @@
     </div>
   </footer>
 
-  <script src="places.js?v=20261005-2" defer></script>
+  <script src="places.js?v=20261005-3" defer></script>
 </body>
 </html>
