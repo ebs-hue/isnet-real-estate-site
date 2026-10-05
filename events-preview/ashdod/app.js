@@ -684,8 +684,8 @@ function resetAll(){state.quick="all";state.date=null;state.periodStart=null;sta
 
 async function init(){
   const [data,fallbacks,cinema]=await Promise.all([
-    fetch("data/events.json?v=20261005-23").then(r=>r.json()),
-    fetch("category-fallbacks.json?v=20261005-20").then(r=>r.json()).catch(()=>({})),
+    fetch("data/events.json?v=20261005-24").then(r=>r.json()),
+    fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
     fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]}))
   ]);
   state.events=data.events||[];
