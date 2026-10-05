@@ -1269,3 +1269,49 @@ main{position:relative;z-index:3}
   text-decoration:none;
   background:#f2f8fd;
 }
+
+.fixedCategoryGrid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:9px;
+  margin-top:11px;
+}
+.fixedCategoryCard{
+  min-height:48px;
+  padding:10px 13px;
+  border:1px solid #dce5ee;
+  border-radius:15px;
+  background:#f8fafc;
+  color:#29455f;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  text-decoration:none;
+  font:800 14px "Heebo",sans-serif;
+  box-shadow:0 4px 12px rgba(8,24,45,.025);
+  transition:.18s ease;
+}
+.fixedCategoryCard:hover{
+  transform:translateY(-2px);
+  background:#fff;
+  border-color:#c7d7e6;
+  box-shadow:0 8px 20px rgba(8,24,45,.06);
+}
+.fixedCategoryCard b{
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#e9f1f8;
+  color:#3972a7;
+  font-size:14px;
+}
+@media(max-width:760px){
+  .fixedCategoryGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:480px){
+  .fixedCategoryGrid{grid-template-columns:1fr}
+  .fixedCategoryCard{min-height:44px}
+}
