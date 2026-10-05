@@ -271,7 +271,7 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const data=await fetch("data/events.json?v=20261005-22").then(r=>{
+    const data=await fetch("data/events.json?v=20261005-23").then(r=>{
       if(!r.ok)throw new Error("data");
       return r.json();
     });
