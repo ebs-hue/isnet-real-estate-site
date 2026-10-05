@@ -1,4 +1,4 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:false,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:false,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -30,6 +30,44 @@ function priceText(e){
   if(e.price_min_ils==null)return "מחיר לא פורסם";
   if(e.price_max_ils!=null&&e.price_max_ils!==e.price_min_ils)return currency.format(e.price_min_ils)+"–"+currency.format(e.price_max_ils);
   return currency.format(e.price_min_ils);
+}
+function sportKey(e){
+  const b=String(e?.sport_branch||"");
+  if(b.includes("כדורגל"))return "football";
+  if(b.includes("כדורסל"))return "basketball";
+  if(b.includes("כדוריד"))return "handball";
+  if(b.includes("כדורעף"))return "volleyball";
+  return "other";
+}
+function sportBranchMeta(eOrKey){
+  const key=typeof eOrKey==="string"?eOrKey:sportKey(eOrKey);
+  return state.sportsMeta?.branches?.[key]||{label:"ספורט",icon:"⚑"};
+}
+function sportTeamConfig(e){
+  const home=String(e?.home_team||"").trim();
+  const key=sportKey(e);
+  return (state.sportsMeta?.teams||[]).find(t=>
+    (t.match_home_teams||[]).includes(home)&&(!(t.sports||[]).length||(t.sports||[]).includes(key))
+  )||null;
+}
+function teamInitials(name){
+  return String(name||"קבוצה").split(/s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
+}
+function teamLogoHTML(team,cls="teamLogo"){
+  const name=team?.name||"קבוצה";
+  const img=team?.logo_url
+    ?'<img src="'+escapeHtml(team.logo_url)+'" alt="" loading="lazy" onerror="this.remove()">'
+    :"";
+  return '<span class="'+cls+'" aria-hidden="true"><b>'+escapeHtml(teamInitials(name))+'</b>'+img+'</span>';
+}
+function sportIdentityHTML(e){
+  const team=sportTeamConfig(e);
+  const branch=sportBranchMeta(e);
+  const name=team?.name||e.home_team||e.organizer||"קבוצה אשדודית";
+  return '<div class="sportIdentity">'+
+    teamLogoHTML(team,"sportIdentity__logo")+
+    '<div class="sportIdentity__copy"><b>'+escapeHtml(name)+'</b><small><span class="sportGlyph">'+escapeHtml(branch.icon)+'</span>'+escapeHtml(branch.label)+' · משחק בית</small></div>'+
+  '</div>';
 }
 function statusBadge(e){
   if(e.ticket_status==="sold_out")return '<span class="badge sold">אזלו הכרטיסים</span>';
@@ -149,6 +187,14 @@ function eventImageHTML(e,mode="card"){
   '</span>';
 }
 function fallbackMediaHTML(e){
+  if(e.category==="sport"){
+    const team=sportTeamConfig(e),branch=sportBranchMeta(e);
+    return '<div class="category-fallback sportFallback">'+
+      teamLogoHTML(team,"sportFallback__logo")+
+      '<span class="sportFallback__branch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span>'+
+      '<span class="fallbackLabel">'+escapeHtml(team?.name||e.home_team||"ספורט באשדוד")+'</span>'+
+    '</div>';
+  }
   return '<div class="category-fallback">'+
     '<span class="fallbackMark">'+escapeHtml(catIcons[e.category]||"✦")+'</span>'+
     '<span class="fallbackLabel">'+escapeHtml(catLabels[e.category]||"אירועים")+'</span>'+
@@ -186,8 +232,8 @@ function scheduleSummary(e){
 function eventCard(e){
   const occ=eventOccurrences(e);
   const multi=occ.length>1;
-  return '<article class="eventCard" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
-    '<div class="eventBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
+  return '<article class="eventCard'+(e.category==="sport"?" eventCard--sport":"")+'" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
+    '<div class="eventBody">'+(e.category==="sport"?sportIdentityHTML(e):"")+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
@@ -195,7 +241,7 @@ function eventCard(e){
 }
 function featureCard(e){
   return '<article class="featureCard" data-event="'+e.event_id+'">'+mediaHTML(e,"featureMedia")+
-    '<div class="featureBody"><div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
+    '<div class="featureBody">'+(e.category==="sport"?sportIdentityHTML(e):"")+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="featureMeta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>·</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
     '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
@@ -390,6 +436,10 @@ function filtered(){
     if(state.date&&e.start_date!==state.date)return false;
     if(state.periodStart&&state.periodEnd&&(e.start_date<state.periodStart||e.start_date>state.periodEnd))return false;
     if(state.category&&e.category!==state.category)return false;
+    if(state.category==="sport"){
+      if(state.sportBranch!=="all"&&sportKey(e)!==state.sportBranch)return false;
+      if(state.sportTeam!=="all"&&sportTeamConfig(e)?.id!==state.sportTeam)return false;
+    }
     if(state.favoritesOnly&&!favorites.has(e.event_id))return false;
     if(q){
       if(intent.category&&e.category!==intent.category)return false;
@@ -566,6 +616,49 @@ function renderDiscover(){
   const arr=discoverEvents();
   $("discoverGrid").innerHTML=arr.map(featureCard).join("");
 }
+function renderSportsFilters(){
+  const panel=$("sportsPanel");
+  if(!panel)return;
+  const open=state.category==="sport";
+  panel.hidden=!open;
+  if(!open)return;
+
+  const sports=state.events.filter(e=>e.category==="sport"&&localDate(e.start_date)>=today());
+  const teamCounts={},branchCounts={};
+  sports.forEach(e=>{
+    const t=sportTeamConfig(e),b=sportKey(e);
+    if(t)teamCounts[t.id]=(teamCounts[t.id]||0)+1;
+    branchCounts[b]=(branchCounts[b]||0)+1;
+  });
+
+  const teams=(state.sportsMeta?.teams||[]).filter(t=>teamCounts[t.id]);
+  $("sportTeamFilters").innerHTML=
+    '<button class="sportTeamButton sportTeamButton--all '+(state.sportTeam==="all"?"is-active":"")+'" data-sport-team="all"><span class="allSportsMark">★</span><span><b>כל הקבוצות</b><small>'+sports.length+' משחקים ואירועי ספורט</small></span></button>'+
+    teams.map(t=>{
+      const icons=(t.sports||[]).map(k=>sportBranchMeta(k).icon).join(" ");
+      return '<button class="sportTeamButton '+(state.sportTeam===t.id?"is-active":"")+'" data-sport-team="'+escapeHtml(t.id)+'">'+
+        teamLogoHTML(t,"sportTeamButton__logo")+
+        '<span class="sportTeamButton__copy"><b>'+escapeHtml(t.name)+'</b><small>'+escapeHtml(icons)+' · '+teamCounts[t.id]+' משחקי בית</small></span>'+
+      '</button>';
+    }).join("");
+
+  const branches=Object.entries(state.sportsMeta?.branches||{}).filter(([k])=>branchCounts[k]);
+  $("sportBranchFilters").innerHTML=
+    '<button class="'+(state.sportBranch==="all"?"is-active":"")+'" data-sport-branch="all"><span>◎</span>כל הענפים</button>'+
+    branches.map(([k,b])=>'<button class="'+(state.sportBranch===k?"is-active":"")+'" data-sport-branch="'+escapeHtml(k)+'"><span>'+escapeHtml(b.icon)+'</span>'+escapeHtml(b.label)+' <small>'+branchCounts[k]+'</small></button>').join("");
+
+  $("sportsReset").onclick=()=>{state.sportTeam="all";state.sportBranch="all";render()};
+  $("sportTeamFilters").onclick=e=>{
+    const b=e.target.closest("[data-sport-team]");if(!b)return;
+    state.sportTeam=b.dataset.sportTeam;render();
+    requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
+  };
+  $("sportBranchFilters").onclick=e=>{
+    const b=e.target.closest("[data-sport-branch]");if(!b)return;
+    state.sportBranch=b.dataset.sportBranch;render();
+    requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
+  };
+}
 function renderActiveFilters(){
   const x=[];
   if(state.quick!=="all")x.push({k:"quick",label:$("quickFilters").querySelector('[data-quick="'+state.quick+'"]')?.textContent||state.quick});
@@ -578,6 +671,14 @@ function renderActiveFilters(){
     x.push({k:"period",label});
   }
   if(state.category)x.push({k:"category",label:catLabels[state.category]||state.category});
+  if(state.category==="sport"&&state.sportTeam!=="all"){
+    const t=(state.sportsMeta?.teams||[]).find(x=>x.id===state.sportTeam);
+    if(t)x.push({k:"sportTeam",label:t.name});
+  }
+  if(state.category==="sport"&&state.sportBranch!=="all"){
+    const b=sportBranchMeta(state.sportBranch);
+    x.push({k:"sportBranch",label:b.icon+" "+b.label});
+  }
   if(state.query)x.push({k:"query",label:'"'+state.query+'"'});
   if(state.favoritesOnly)x.push({k:"favorites",label:"מועדפים"});
   $("activeFilters").innerHTML=x.map(i=>'<button class="filterChip" data-remove="'+i.k+'">'+escapeHtml(i.label)+' ×</button>').join("");
@@ -585,14 +686,17 @@ function renderActiveFilters(){
 function renderResults(){
   const arr=filtered();
   $("eventsGrid").innerHTML=arr.map(eventCard).join("");
-  $("resultCount").textContent=arr.length+" אירועים נמצאו";
+  const sports=state.category==="sport";
+  const title=$("resultsTitle");
+  if(title)title.textContent=sports?"משחקי הבית ואירועי הספורט באשדוד":"כל האירועים באשדוד";
+  $("resultCount").textContent=arr.length+(sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
   $("emptyState").hidden=arr.length>0;
   $("eventsGrid").hidden=arr.length===0;
 }
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
   $("favoritesOnly").setAttribute("aria-pressed",state.favoritesOnly?"true":"false");
-  renderDates();renderCategories();renderHeroStats();renderActiveFilters();renderResults();
+  renderDates();renderCategories();renderHeroStats();renderSportsFilters();renderActiveFilters();renderResults();
   bindDynamic();
 }
 function bindDynamic(){
@@ -617,15 +721,20 @@ function bindDynamic(){
     }
     state.cinemaOpen=false;
     renderCinema();
-    state.category=state.category===b.dataset.cat?null:b.dataset.cat;
+    const nextCategory=state.category===b.dataset.cat?null:b.dataset.cat;
+    if(nextCategory!=="sport"){state.sportTeam="all";state.sportBranch="all"}
+    state.category=nextCategory;
     render();
+    if(state.category==="sport")requestAnimationFrame(()=>$("sportsPanel")?.scrollIntoView({behavior:"smooth",block:"start"}));
   });
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{
     const k=b.dataset.remove;
     if(k==="quick")state.quick="all";
     if(k==="date")state.date=null;
     if(k==="period"){state.periodStart=null;state.periodEnd=null;state.periodType=null}
-    if(k==="category")state.category=null;
+    if(k==="category"){state.category=null;state.sportTeam="all";state.sportBranch="all"}
+    if(k==="sportTeam")state.sportTeam="all";
+    if(k==="sportBranch")state.sportBranch="all";
     if(k==="query"){state.query="";$("searchInput").value=""}
     if(k==="favorites")state.favoritesOnly=false;
     render()
@@ -680,19 +789,21 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.calendarCollapsed=true;state.category=null;state.cinemaOpen=false;state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
+function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.calendarCollapsed=true;state.category=null;state.cinemaOpen=false;state.sportTeam="all";state.sportBranch="all";state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
-  const [data,fallbacks,cinema]=await Promise.all([
+  const [data,fallbacks,cinema,sports]=await Promise.all([
     fetch("data/events.json?v=20261005-24").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
-    fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]}))
+    fetch("data/cinema.json?v=20261005-3").then(r=>r.json()).catch(()=>({movies:[]})),
+    fetch("data/sports.json?v=20261005-1").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
   ]);
   state.events=data.events||[];
   state.fallbacks=fallbacks;
   state.generatedAt=data.generated_at||null;
   state.cinema=cinema.movies||[];
   state.cinemaUpdatedAt=cinema.updated_at||null;
+  state.sportsMeta=sports||{branches:{},teams:[]};
   render();
   renderCinema();
   $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
