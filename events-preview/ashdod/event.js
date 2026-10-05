@@ -29,6 +29,7 @@ function sportKey(e){
   if(b.includes("כדורסל"))return "basketball";
   if(b.includes("כדוריד"))return "handball";
   if(b.includes("כדורעף"))return "volleyball";
+  if(b.includes("גלישה"))return "surfing";
   return "other";
 }
 function sportBranchMeta(eOrKey){
@@ -40,7 +41,10 @@ function sportTeamConfig(e){
   return (sportsMeta?.teams||[]).find(t=>(t.match_home_teams||[]).includes(home)&&(!(t.sports||[]).length||(t.sports||[]).includes(key)))||null;
 }
 function teamInitials(name){
-  return String(name||"קבוצה").split(/s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
+  return String(name||"קבוצה").split(/\s+/).filter(Boolean).slice(0,2).map(x=>x[0]).join("");
+}
+function isRepresentativeHomeGame(e){
+  return e?.category==="sport"&&e?.is_home_game===true&&e?.representative_team===true&&Boolean(e?.home_team);
 }
 function sportHeroFallback(e){
   const team=sportTeamConfig(e),branch=sportBranchMeta(e),name=team?.name||e.home_team||"ספורט באשדוד";
@@ -184,7 +188,7 @@ function renderHero(e,occ,imageEvent){
     const src=imageEvent.thumbnail_ready&&imageEvent.thumbnail_url?imageEvent.thumbnail_url:imageEvent.image_url;
     $("heroImage").innerHTML='<img src="'+escapeHtml(src)+'" alt="'+escapeHtml(e.title)+'">';
   }else{
-    $("heroImage").innerHTML=e.category==="sport"?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(e.title)+'</div>';
+    $("heroImage").innerHTML=isRepresentativeHomeGame(e)?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(e.title)+'</div>';
   }
 
   const action=groupPurchaseAction(occ);
@@ -299,8 +303,8 @@ async function init(){
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
     const [data,sports]=await Promise.all([
-      fetch("data/events.json?v=20261005-24").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
-      fetch("data/sports.json?v=20261005-1").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
+      fetch("data/events.json?v=20261005-25").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
+      fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
     const all=data.events||[];
