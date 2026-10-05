@@ -1255,3 +1255,17 @@ main{position:relative;z-index:3}
     font-size:11px;
   }
 }
+
+.calendarBox[hidden]{display:none!important}
+.textButton.calendarOpenButton{
+  padding:9px 14px;
+  border:1px solid #cfe0ef;
+  border-radius:12px;
+  background:#fff;
+  color:#1e64a8;
+  box-shadow:0 5px 15px rgba(8,24,45,.05);
+}
+.textButton.calendarOpenButton:hover{
+  text-decoration:none;
+  background:#f2f8fd;
+}
