@@ -2,7 +2,7 @@ const $=id=>document.getElementById(id);
 const catLabels={
   music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים ומשפחה",theatre:"תיאטרון",
   lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",
-  festival:"פסטיבלים",community:"קהילה"
+  festival:"פסטיבלים",community:"קהילה",sport:"ספורט",tour:"סיורים",other:"אירוע"
 };
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const fmtMonth=new Intl.DateTimeFormat("he-IL",{month:"short"});
@@ -66,17 +66,84 @@ function directEventUrl(id){return "event.html?id="+encodeURIComponent(id)}
 function splitParagraphs(text){
   return String(text||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
 }
+function categoryExperience(e){
+  const map={
+    music:"ערב של מוזיקה והופעה חיה",
+    standup:"ערב של סטנדאפ והומור",
+    kids:"בילוי לילדים ולמשפחה",
+    theatre:"ערב של תיאטרון ובמה",
+    lecture:"מפגש של תוכן, ידע והשראה",
+    exhibition:"בילוי של אמנות ותרבות",
+    workshop:"פעילות מעשית וסדנה",
+    cinema:"אירוע קולנוע והקרנה",
+    festival:"אירוע פסטיבל וחוויה עירונית",
+    community:"מפגש קהילתי",
+    sport:"פעילות ספורטיבית",
+    tour:"סיור וחוויה בעיר"
+  };
+  return map[e.category]||"אירוע תרבות ופנאי";
+}
+function autoPitch(e){
+  const where=e.venue?" ב"+e.venue:"";
+  return e.title+" באשדוד"+where+" — "+categoryExperience(e)+". כאן תמצאו את כל המועדים, השעות ופרטי ההזמנה במקום אחד.";
+}
+function autoStory(e){
+  const where=e.venue?" ב"+e.venue:"";
+  const first='"'+e.title+'" מתקיים באשדוד'+where+'. בעמוד הזה ריכזנו את המידע המעשי שצריך לפני שמחליטים: תאריכים, שעות, מקום, מחיר וקישור ישיר לרכישה כאשר הוא זמין.';
+  const byCategory={
+    music:"אם אתם מחפשים ערב מוזיקלי בעיר, זה אירוע שכדאי לבדוק מול לוח הזמנים שלכם. המועדים והפרטים המעודכנים מרוכזים כאן כדי לחסוך מעבר בין כמה אתרים.",
+    standup:"אם מתחשק לכם ערב של הומור ויציאה מהשגרה, תוכלו לבדוק כאן את המועד הקרוב, מקום המופע ודרך ההזמנה הישירה.",
+    kids:"למשפחות שמחפשות פעילות באשדוד, ריכזנו כאן את כל מה שחשוב לתכנון היציאה. מומלץ לבדוק לפני ההזמנה גם את התאמת הגיל כפי שמפורסמת אצל המארגן.",
+    theatre:"לחובבי במה ותיאטרון, זה המקום לקבל תמונה מהירה של האירוע ולבחור את המועד שמתאים לכם. כל המידע המעשי מרוכז בעמוד אחד.",
+    lecture:"למי שמחפש תוכן, ידע או מפגש מעשיר בעיר, כאן אפשר לראות מתי ואיפה האירוע מתקיים ואיך נרשמים.",
+    exhibition:"לחובבי אמנות ותרבות, העמוד מרכז את פרטי הביקור והמידע המעשי הזמין על האירוע.",
+    workshop:"למי שמעדיף חוויה פעילה ולא רק צפייה מהצד, כאן מרוכזים פרטי הסדנה, המועדים והמיקום כפי שפורסמו.",
+    cinema:"למי שמתכנן יציאה לקולנוע או להקרנה מיוחדת, כאן מרוכזים זמן, מקום ופרטי ההזמנה הזמינים.",
+    community:"זהו מפגש קהילתי באשדוד. כאן תוכלו לראות את פרטי המועד והמקום ולבדוק אם נדרשת הרשמה מראש.",
+    sport:"למי שמחפש פעילות ספורטיבית בעיר, כאן מרוכזים המועד, המקום ופרטי ההרשמה הזמינים.",
+    festival:"למי שמחפש חוויה עירונית רחבה יותר, כאן מרוכזים פרטי האירוע והמועד כדי שתוכלו לתכנן את ההגעה.",
+    tour:"למי שרוצה להכיר את העיר דרך סיור או פעילות מודרכת, כאן תוכלו לראות את המועד ופרטי ההצטרפות."
+  };
+  return [first,byCategory[e.category]||"העמוד מתעדכן לפי המידע הזמין ממקורות האירוע, כך שקל יותר לתכנן יציאה בלי לחפש את הפרטים מחדש."];
+}
+function autoHighlights(e,occ){
+  const items=[];
+  if(occ.length>1)items.push(occ.length+" מועדים לבחירה באשדוד");
+  else items.push("מועד האירוע מרוכז וברור בעמוד");
+  if(e.venue)items.push("מיקום: "+e.venue);
+  else items.push("פרטי המקום יתעדכנו עם פרסומם");
+  if(groupPurchaseAction(occ))items.push("קישור רכישה ישיר זמין מהעמוד");
+  else items.push("פרטי רכישה יעודכנו לאחר אימות");
+  return items;
+}
+function autoSuitability(e){
+  const map={
+    music:"מתאים למי שמחפש ערב מוזיקלי ובילוי תרבותי באשדוד.",
+    standup:"מתאים למי שמחפש ערב סטנדאפ והומור. יש לבדוק מגבלת גיל אצל המארגן לפני רכישה.",
+    kids:"מתאים למשפחות וילדים; מומלץ לבדוק את טווח הגילים המדויק אצל המארגן.",
+    theatre:"מתאים לחובבי הצגות, במה ותיאטרון.",
+    lecture:"מתאים למי שמחפש הרצאה, העשרה ותוכן.",
+    exhibition:"מתאים לחובבי אמנות, תרבות ותערוכות.",
+    workshop:"מתאים למי שמחפש פעילות מעשית או סדנה.",
+    cinema:"מתאים למי שמחפש הקרנה או אירוע קולנוע.",
+    community:"מתאים למי שמחפש פעילות ומפגש קהילתי בעיר.",
+    sport:"מתאים למי שמחפש פעילות ספורטיבית; מומלץ לבדוק דרישות השתתפות אצל המארגן.",
+    festival:"מתאים למי שמחפש אירוע עירוני רחב וחוויית בילוי.",
+    tour:"מתאים למי שמחפש סיור או פעילות היכרות עם העיר."
+  };
+  return map[e.category]||"מתאים למי שמחפש בילוי, תרבות ופנאי באשדוד.";
+}
 
 function renderHero(e,occ,imageEvent){
   document.title=e.title+" | מה עושים באשדוד?";
-  const desc=e.short_pitch||e.description||"כל הפרטים על האירוע באשדוד.";
+  const desc=e.short_pitch||e.description||autoPitch(e);
   document.querySelector('meta[name="description"]').setAttribute("content",desc);
 
   $("heroBadges").innerHTML=
     '<span class="badge accent">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים באשדוד</span>':"");
   $("eventTitle").textContent=e.title;
-  $("eventPitch").textContent=e.short_pitch||e.description||"אירוע באשדוד — כל המידע, המועדים והפרטים במקום אחד.";
+  $("eventPitch").textContent=e.short_pitch||e.description||autoPitch(e);
 
   const venues=[...new Set(occ.map(x=>x.venue).filter(Boolean))];
   const dates=[...new Set(occ.map(x=>x.start_date).filter(Boolean))];
@@ -106,19 +173,17 @@ function renderHero(e,occ,imageEvent){
   }
 }
 
-function renderStory(e){
+function renderStory(e,occ){
   const paras=splitParagraphs(e.long_description||e.description);
-  if(!paras.length){
-    $("eventStory").innerHTML='<p>אנחנו משלימים כעת את הסיפור המלא של האירוע. בינתיים תוכלו לראות כאן את כל המועדים, המקום ופרטי ההגעה.</p>';
-  }else{
-    $("eventStory").innerHTML=paras.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
-  }
+  const story=paras.length?paras:autoStory(e);
+  $("eventStory").innerHTML=story.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
 
-  const highlights=Array.isArray(e.highlights)?e.highlights:[];
-  $("highlightsSection").hidden=!highlights.length&&!e.suitability;
+  const highlights=Array.isArray(e.highlights)&&e.highlights.length?e.highlights:autoHighlights(e,occ);
+  const suitability=e.suitability||autoSuitability(e);
+  $("highlightsSection").hidden=false;
   $("highlights").innerHTML=highlights.map(x=>'<div class="highlight">'+escapeHtml(x)+'</div>').join("");
-  $("suitability").textContent=e.suitability||"";
-  $("suitability").hidden=!e.suitability;
+  $("suitability").textContent=suitability;
+  $("suitability").hidden=false;
 }
 
 function renderVideo(e){
@@ -168,10 +233,18 @@ function renderPractical(e,occ){
   const venues=[...new Set(occ.map(x=>x.venue).filter(Boolean))];
   const prices=occ.map(priceText);
   const onePrice=[...new Set(prices)].length===1?prices[0]:"המחיר עשוי להשתנות לפי מועד";
+  const audience=(Array.isArray(e.audiences)&&e.audiences.length)?e.audiences.join(", "):null;
+  let age=null;
+  if(e.age_min!=null&&e.age_max!=null)age="גיל "+e.age_min+"–"+e.age_max;
+  else if(e.age_min!=null)age="מגיל "+e.age_min;
+  else if(e.age_max!=null)age="עד גיל "+e.age_max;
   const rows=[
     ["מקום",venues.join(" / ")||"יפורסם בהמשך"],
     ["מחיר",onePrice],
     ["משך",e.duration_minutes?e.duration_minutes+" דקות":"לא פורסם"],
+    ...(age?[["גילים",age]]:[]),
+    ...(audience?[["קהל",audience]]:[]),
+    ...(e.organizer?[["מארגן",e.organizer]]:[]),
     ["מספר מועדים",String(occ.length)]
   ];
   $("practicalInfo").innerHTML=rows.map(([a,b])=>'<div class="infoRow"><b>'+escapeHtml(a)+'</b><span>'+escapeHtml(b)+'</span></div>').join("");
@@ -212,7 +285,7 @@ async function init(){
     const imageEvent=bestImageEvent(occ);
 
     renderHero(e,occ,imageEvent);
-    renderStory(e);
+    renderStory(e,occ);
     renderVideo(e);
     renderPeople(e);
     renderSchedule(occ);
