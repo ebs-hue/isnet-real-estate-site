@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05T11:45:00+03:00",
+  "updated_at": "2026-10-05T11:52:00+03:00",
   "branches": {
     "football": {
       "label": "כדורגל",
@@ -20,6 +20,10 @@
     "other": {
       "label": "ספורט",
       "icon": "⚑"
+    },
+    "surfing": {
+      "label": "גלישה",
+      "icon": "🏄"
     }
   },
   "teams": [
@@ -69,7 +73,7 @@
       "match_home_teams": [
         "מכבי בנות אשדוד"
       ],
-      "logo_url": null,
+      "logo_url": "https://en.wikipedia.org/wiki/Special:Redirect/file/Maccabi_Bnot_Ashdod_logo.png",
       "logo_source": "https://en.wikipedia.org/wiki/Maccabi_Bnot_Ashdod"
     },
     {
