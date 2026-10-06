@@ -77,7 +77,6 @@ def fetch(url, binary=False):
             return bytes(buf)
         if "html" not in ctype and "xml" not in ctype and "text" not in ctype:
             return None
-        r.encoding = r.apparent_encoding or "utf-8"
         result = (r.url, BeautifulSoup(bytes(buf), "html.parser"))
         cache[url] = result
         return result
