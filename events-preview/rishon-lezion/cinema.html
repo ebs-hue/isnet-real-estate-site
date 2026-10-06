@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <!-- ISNET shared layout: edit the Ashdod source; synced automatically -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>סרטים בראשון לציון | מה עושים בראשון לציון?</title>
+  <meta name="description" content="כל הסרטים בראשון לציון, שעות הקרנה, טריילרים וסינון לפי בית קולנוע.">
+  <link rel="stylesheet" href="publisher-brand.css?v=c85648ab951c">
+  <link rel="stylesheet" href="cinema.css">
+</head>
+<body>
+  <header class="cinemaTop">
+    <div class="cinemaTop__inner">
+      <a class="cinemaBack" href="./">← חזרה למה עושים בראשון לציון?</a>
+      <div class="cinemaBrand">
+        <span class="cinemaKicker">ראשון נט מציג</span>
+        <h1>סרטים בראשון לציון</h1>
+        <p>כל הסרטים, שעות ההקרנה והטריילרים במקום אחד.</p>
+      </div>
+      <a class="cinemaPublisher" href="https://www.rishonet.com/" target="_blank" rel="noopener">לאתר ראשון נט ←</a>
+    </div>
+  </header>
+
+  <main class="cinemaPage">
+    <section class="cinemaIntro">
+      <div>
+        <span class="cinemaEyebrow">מה רואים היום?</span>
+        <h2>בחרו סרט וצפו בטריילר לפני שמזמינים</h2>
+      </div>
+      <div id="cinemaUpdated" class="cinemaUpdated"></div>
+    </section>
+
+    <section class="cinemaFiltersBox" aria-label="סינון סרטים">
+      <div class="filterGroup">
+        <span>לפי קהל</span>
+        <div id="audienceFilters" class="filterButtons">
+          <button class="is-active" data-audience="all">כל הסרטים</button>
+          <button data-audience="family">ילדים ומשפחה</button>
+        </div>
+      </div>
+      <div class="filterGroup">
+        <span>לפי בית קולנוע</span>
+        <div id="venueFilters" class="filterButtons">
+          <button class="is-active" data-venue="all">שני בתי הקולנוע</button>
+          <button data-venue="cinema-city">סינמה סיטי</button>
+          <button data-venue="hot-cinema">פלאנט</button>
+        </div>
+      </div>
+      <label class="cinemaSearch">
+        <span>חיפוש סרט</span>
+        <input id="movieSearch" type="search" placeholder="לדוגמה: ילדים, קומדיה, דיגר">
+      </label>
+    </section>
+
+    <section>
+      <div id="resultsMeta" class="resultsMeta"></div>
+      <div id="cinemaGrid" class="cinemaGrid"></div>
+      <div id="emptyState" class="emptyState" hidden>
+        <h3>לא מצאנו סרטים מתאימים</h3>
+        <p>נסו לשנות את הסינון או את החיפוש.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="trailerModal" class="trailerModal" hidden>
+    <button class="trailerBackdrop" type="button" data-close-trailer aria-label="סגירה"></button>
+    <div class="trailerDialog" role="dialog" aria-modal="true" aria-labelledby="trailerTitle">
+      <button class="trailerClose" type="button" data-close-trailer aria-label="סגירה">×</button>
+      <div class="trailerVideo"><iframe id="trailerFrame" src="" title="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <div class="trailerCopy">
+        <span>טריילר</span>
+        <h2 id="trailerTitle"></h2>
+        <p id="trailerSynopsis"></p>
+        <a id="trailerDetails" href="#">כל הימים, השעות והפרטים ←</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="cinema.js" defer></script>
+</body>
+</html>
