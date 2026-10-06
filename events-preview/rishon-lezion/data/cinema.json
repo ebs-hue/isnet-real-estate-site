@@ -1,7 +1,7 @@
 {
   "city": "ראשון לציון",
-  "updated_at": "2026-10-06T18:30:00+03:00",
-  "source_name": "Seret.co.il - Cinema City Rishon LeZion, 6-7 Oct 2026",
+  "updated_at": "2026-10-06T22:30:00+03:00",
+  "source_name": "Seret.co.il – סינמה סיטי ראשון לציון ופלאנט ראשון לציון",
   "source_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
   "movies": [
     {
@@ -64,6 +64,21 @@
               "23:00"
             ]
           }
+        },
+        {
+          "id": "planet",
+          "name": "פלאנט ראשון לציון",
+          "article_url": "https://www.seret.co.il/movies/s_theatres.asp?TID=162",
+          "schedule": {
+            "2026-10-06": [
+              "21:40"
+            ],
+            "2026-10-07": [
+              "17:00",
+              "19:20",
+              "21:40"
+            ]
+          }
         }
       ],
       "is_family": false
@@ -94,13 +109,314 @@
               "22:20"
             ]
           }
+        },
+        {
+          "id": "planet",
+          "name": "פלאנט ראשון לציון",
+          "article_url": "https://www.seret.co.il/movies/s_theatres.asp?TID=162",
+          "schedule": {
+            "2026-10-06": [
+              "21:30"
+            ],
+            "2026-10-07": [
+              "14:00",
+              "15:30",
+              "16:00",
+              "18:15",
+              "18:45",
+              "21:00",
+              "21:30"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "verity",
+      "title": "תעתוע",
+      "trailer_youtube_id": "cCqmo1XmjCc",
+      "synopsis": "מותחן פסיכולוגי על סופרת שמגיעה לאחוזה מבודדת כדי להשלים ספר ומגלה כתבים מטרידים שמטשטשים את הגבול בין אמת, מניפולציה ואובססיה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "13:15",
+              "15:00",
+              "16:15",
+              "19:15",
+              "21:20"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "13:30",
+              "14:05",
+              "16:40",
+              "18:50",
+              "19:50",
+              "21:50",
+              "22:50"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "matchmaking-3",
+      "title": "בחורים טובים 3",
+      "trailer_youtube_id": "-IjygQBfbaM",
+      "synopsis": "קומדיה ישראלית על שדכן חסר מזל שנשאב למסע שידוכים בניו יורק רגע לפני חתונתו.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:30",
+              "14:50",
+              "17:40",
+              "21:00",
+              "23:00"
+            ],
+            "2026-10-07": [
+              "11:40",
+              "13:50",
+              "14:30",
+              "16:30",
+              "17:20",
+              "19:10",
+              "20:10",
+              "22:10",
+              "22:45",
+              "23:00"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "crawlers",
+      "title": "קרולרס",
+      "trailer_youtube_id": "gELvmiffRN0",
+      "synopsis": "מותחן מצמרר מהמפיקים של ג'ון וויק.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "23:00"
+            ],
+            "2026-10-07": [
+              "22:30"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "heart-of-the-beast",
+      "title": "בלב הפרא",
+      "trailer_youtube_id": "JFQcDFhNh4o",
+      "synopsis": "לאחר התרסקות מטוס, קצין כוחות מיוחדים וכלבו נאבקים לשרוד בשממה של אלסקה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:00",
+              "11:00",
+              "13:45",
+              "16:10",
+              "16:15",
+              "20:40",
+              "23:00"
+            ],
+            "2026-10-07": [
+              "11:20",
+              "13:30",
+              "16:00",
+              "18:20",
+              "20:40",
+              "21:30",
+              "23:00"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "land-of-sometimes",
+      "title": "אספן המשאלות - מדובב",
+      "trailer_youtube_id": "XjcCMji01b8",
+      "synopsis": "שני ילדים מקבלים שעון מיוחד שמכניס אותם לארץ שבה משאלות מתגשמות, אבל הם חייבים לחזור הביתה בזמן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "15:35"
+            ],
+            "2026-10-07": [
+              "16:20"
+            ]
+          }
+        }
+      ],
+      "is_family": true
+    },
+    {
+      "id": "forgotten-island-hebrew",
+      "title": "האי הנעלם - מדובב לעברית",
+      "trailer_youtube_id": "cTlQCVhVDI4",
+      "synopsis": "סרט אנימציה צבעוני על שתי חברות שנשאבות לאי פנטסטי ונאבקות לחזור הביתה בלי לאבד את הזיכרונות המשותפים שלהן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:15",
+              "13:00",
+              "16:00"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "13:20",
+              "13:30",
+              "16:10"
+            ]
+          }
+        }
+      ],
+      "is_family": true
+    },
+    {
+      "id": "wonderdog",
+      "title": "וונדר-דוג - מדובב",
+      "trailer_youtube_id": "sCeQE-QEW8A",
+      "synopsis": "צ'ארלי, כלב משפחתי אהוב, מגלה שקיבל כוחות מיוחדים ויוצא יחד עם דני להרפתקה של חברות ואומץ.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "12:50",
+              "16:10"
+            ],
+            "2026-10-07": [
+              "15:10",
+              "17:30"
+            ]
+          }
+        }
+      ],
+      "is_family": true
+    },
+    {
+      "id": "primavera",
+      "title": "פרימוורה",
+      "trailer_youtube_id": "7sXaQnqQn-k",
+      "synopsis": "ונציה, תחילת המאה ה-18. מוזיקאית צעירה בבית יתומות פוגשת מורה חדש לכינור בשם אנטוניו ויוואלדי ומוצאת אומץ לרדוף אחר החופש והאמנות.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:00",
+              "10:45"
+            ],
+            "2026-10-07": [
+              "11:45",
+              "14:30"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "tuscany",
+      "title": "להתאהב בטוסקנה",
+      "trailer_youtube_id": "is7FShCwkII",
+      "synopsis": "סופר אנגלי שאיבד את ההשראה ואם לשלושה נפגשים במקרה בבית הארחה בטוסקנה ומגלים אפשרות להתחלה חדשה.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:00",
+              "11:10",
+              "13:20",
+              "15:50",
+              "18:20"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "15:50",
+              "18:20",
+              "20:40"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "fall-2",
+      "title": "תלויה באוויר 2",
+      "trailer_youtube_id": "2EdQCB9-um8",
+      "synopsis": "שתי צעירות נלכדות על קרש צר בגובה מאות מטרים ונאלצות להתמודד עם פחדיהן כדי לשרוד.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "18:00",
+              "20:30",
+              "22:50"
+            ],
+            "2026-10-07": [
+              "17:20",
+              "20:00",
+              "22:30"
+            ]
+          }
         }
       ],
       "is_family": false
     }
   ],
   "stats": {
-    "verified_cinema_city_movies": 3,
-    "planet_schedule_pending": true
+    "movie_cards": 13,
+    "cinema_city": 13,
+    "planet": 2,
+    "planet_schedule_partial": true,
+    "screening_dates": [
+      "2026-10-06",
+      "2026-10-07"
+    ]
   }
 }
