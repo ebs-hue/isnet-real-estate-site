@@ -473,12 +473,13 @@ function parseSearchIntent(q){
   const maxPrice=pm?Number(pm[1]):null;
   const ageMatch=s.match(/(?:בן|בת|גילאי?|גיל)\s*(\d{1,2})/);
   const age=ageMatch?Number(ageMatch[1]):null;
-  const words=s.split(/\s+/).filter(Boolean);
-  const remaining=words.filter(w=>
-    !SEARCH_STOPWORDS.has(w)&&
+  // Remove conversational instructions, prepositions and recognized concepts.
+  // Only specific names/venues remain as required keyword signals.
+  const conversational=new Set(["לאן","לאיפה","לאיזה","לאיזו","היכן","איפה","כיצד","איך","אפשרי","רעיונות","רעיון","המלצות","המלצה","הצעות","תציע","תציעו","להציע","תן","תני","תנו","תרצה","תמצאו","לצאת","לצאתם","ללכת","לבלות","בוא","בואו","כדאי","מומלץ","מומלצת","כייפי","כיפי","הילדים","הילדות","הקטנים","הקטנות","המשפחה","משפחתית","לילדים","למשפחה","והילדים","באשדוד","באזור","בסביבה","בסביבה שלי","הלילה","בערב","לערב","לשבת","בשבת","בסופש","במחר","להיום","השבת","בחינם","זול","זולה","מחיר","תקציב","מקסימום","בילוי","פעילות","פעילויות","אירוע","אירועים","דברים","אטרקציה","אטרקציות","מקומות","מקום","הצגה","הצגות","הופעה","הופעות","מופע","מופעים"]);
+  const remaining=s.split(/\s+/).filter(w=>
+    w&&!SEARCH_STOPWORDS.has(w)&&!conversational.has(w)&&
     !concepts.some(c=>textIncludesConcept(w,c.words))&&
-    !/^\d+$/.test(w)&&
-    !["הערב","לערב","היום בערב","לילדים","למשפחה","עם הילדים","איזה אירוע","מחיר","תקציב","מקסימום","בחינם","ילדים","הילדים","דברים","אירוע","אירועים","לשבת","בשבת","ביום","בשישי","למחר","להיום","בילוי","לבלות","דייטים","בשבוע","בקרוב","אטרקציה","אטרקציות"].includes(w)
+    !/^\d+$/.test(w)
   );
   return {concepts,date,free,maxPrice,age,terms:remaining,query:s};
 }
