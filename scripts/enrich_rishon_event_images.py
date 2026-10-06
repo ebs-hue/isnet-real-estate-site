@@ -217,6 +217,7 @@ def enrich():
     events = doc.get("events", [])
     OUT.mkdir(parents=True, exist_ok=True)
     found = {}
+    photo_owners = {}
     used = {}
     failures = []
     reasons = Counter()
@@ -255,9 +256,10 @@ def enrich():
                 if not raw:
                     continue
                 checksum = hashlib.sha256(raw).hexdigest()
-                previous_title = next((v for v in found.values() if v == checksum), None)
-                if previous_title and previous_title != norm(title):
+                previous_title = photo_owners.get(checksum)
+                if previous_title and title_score(previous_title, title) < .75:
                     continue
+                photo_owners[checksum] = title
                 name = checksum[:24] + ".webp"
                 (OUT / name).write_bytes(raw)
                 rel = "assets/events/" + name
