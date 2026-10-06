@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "scripts/sync_events_from_sources.py"
+      - "scripts/test_smarticket_details.py"
+      - "scripts/enrich_smarticket_event_details.py"
       - "scripts/ofek_event_source.py"
       - "scripts/test_ofek_event_source.py"
       - "scripts/test_city_event_intake.py"
@@ -43,6 +45,7 @@ jobs:
         run: |
           python scripts/test_city_event_intake.py
           python scripts/test_ofek_event_source.py
+          python scripts/test_smarticket_details.py
 
       - name: Discover and merge future public events
         id: collect
@@ -56,6 +59,9 @@ jobs:
             echo "Unexpected ingestion exception (exit code $rc)" >&2
             exit "$rc"
           fi
+
+      - name: Verify missing details on official event pages
+        run: python -u scripts/enrich_smarticket_event_details.py
 
       - name: Check dataset shape and source audit
         run: |
@@ -93,6 +99,7 @@ jobs:
               git reset --hard origin/main
               echo "Data changed during intake; merging fresh events again (attempt $retry)."
               python -u scripts/sync_events_from_sources.py
+              python -u scripts/enrich_smarticket_event_details.py
               git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json
               if git diff --cached --quiet; then
                 echo "Concurrent run already wrote the latest source data."

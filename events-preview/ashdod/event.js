@@ -305,7 +305,7 @@ async function init(){
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
     const [data,sports]=await Promise.all([
-      fetch("data/events.json?v=20261006-contact-details").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
+      fetch("data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
