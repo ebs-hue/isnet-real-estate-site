@@ -1,0 +1,29 @@
+name: Validate city event readers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/sync_events_from_sources.py"
+      - "scripts/test_city_event_intake.py"
+      - ".github/workflows/test-city-events.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install parser libraries
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Compile and test calendar readers
+        run: |
+          python -m py_compile scripts/sync_events_from_sources.py
+          python scripts/test_city_event_intake.py
