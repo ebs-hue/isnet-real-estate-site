@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-06T11:57:44Z",
+  "total_events": 93,
+  "verified_event_photos": 76,
+  "unverified_event_photos": 17,
+  "breakdown": {
+    "yama_matched": 6,
+    "kotar_rishon_missing": 9,
+    "htrl_matched": 51,
+    "RIZONE+_missing": 2,
+    "same_production_reused": 19,
+    "htrl_missing": 1,
+    "Eventim_missing": 2
+  },
+  "manual_review": [
+    {
+      "event_id": "r_k_1005_1100",
+      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_r_1011_0800",
+      "title": "כנס משתחררים.ות ראשון לציון",
+      "source": "RIZONE+",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_r_1011_1830",
+      "title": "יוגה באגם - גילאי 18-40",
+      "source": "RIZONE+",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1012_1700",
+      "title": "האריה הזללן",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1014_1700",
+      "title": "הברווזון המכוער",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1019_1700",
+      "title": "בגדי המלך החדשים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "htrl_20261022_2030_עפרה",
+      "title": "עפרה",
+      "source": "htrl",
+      "candidate_pages": [
+        "https://htrl.co.il/show/%D7%A2%D7%A4%D7%A8%D7%94/"
+      ]
+    },
+    {
+      "event_id": "r_k_1101_1830",
+      "title": "בוק סרפינג: מפגש בנושא כוחה של מילה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1109_1900",
+      "title": "שירה שווה: מופע ספרותי מוזיקלי",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1110_2000",
+      "title": "מעצבי תודעה: אם זכרוני אינו מטעה אותי",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1124_1900",
+      "title": "על מסע היצירה של הספרים \"סולם גנבים\" ו\"צומת מסובים\"",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1201_1900",
+      "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_e_1205_0900",
+      "title": "קסם של פסטיבל - חנוכה 2026",
+      "source": "Eventim",
+      "candidate_pages": [
+        "https://www.eventim.co.il/city/%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9C%D7%A6%D7%99%D7%95%D7%9F-1951/"
+      ]
+    },
+    {
+      "event_id": "r_e_1205_1000",
+      "title": "חנות סופגניות קטנה ומצחיקה - חנוכה 2026",
+      "source": "Eventim",
+      "candidate_pages": [
+        "https://www.eventim.co.il/city/%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9C%D7%A6%D7%99%D7%95%D7%9F-1951/"
+      ]
+    }
+  ]
+}
