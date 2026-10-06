@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-06T12:23:03Z",
+  "generated_at": "2026-10-06T12:25:34Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 366
+    "events": 356
   },
   "events": [
     {
@@ -661,55 +661,6 @@
     },
     {
       "city": "אשדוד",
-      "title": "הרצאה סיבוכי גמילה מחיתולים | מרכז להורות משמעותית אשדוד",
-      "description": null,
-      "start_date": "2026-10-06",
-      "end_date": null,
-      "start_time": "20:00",
-      "end_time": null,
-      "venue": "מרכז להורות משמעותית אשדוד",
-      "address": null,
-      "district": null,
-      "category": "lecture",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "https://static.tickchak.co.il/all/mobileScreenshot_1789477222090TUWFESMt0MvZ1L4ZVOwNnSVBDUxFWc_090TUEdzRQBXNn9CTzdlS6VEUoBzRxJ0V_UzUtNUy5ouKxbZelwhTaM.jpeg",
-      "image_source": "https://tickchak.co.il/113320?ref=2dmk&live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "image_credit": null,
-      "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "tickchak_ashdod",
-          "url": "https://live.tickchak.co.il/ashdod",
-          "source_type": "secondary",
-          "observed_at": "2026-10-06T12:20:01Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:01Z",
-      "last_verified_at": "2026-10-06T12:20:01Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_structured_event"
-      ],
-      "event_id": "auto_as_0353e7b16bc4b1bd74fa"
-    },
-    {
-      "city": "אשדוד",
       "title": "המרחב הבטוח לילדים ולהורים",
       "description": null,
       "start_date": "2026-10-07",
@@ -1118,55 +1069,6 @@
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover"
-    },
-    {
-      "city": "אשדוד",
-      "title": "חגיגה נפוליטנית מאת סטאס דוידוב   | מונארט אשדוד",
-      "description": null,
-      "start_date": "2026-10-08",
-      "end_date": null,
-      "start_time": "20:30",
-      "end_time": null,
-      "venue": "מונארט אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "https://static.tickchak.co.il/all/mobileScreenshot_1787748479090TUWFESMt0MvZ1L4ZVOwNnSVBDUxFWc_090TUEdzRQBXNn9CTzdlS6VEUoBzRxJ0V_QeI3LjEMeVi-vatFFPOlX.jpeg",
-      "image_source": "https://tickchak.co.il/112412?ref=2dmk&live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "image_credit": null,
-      "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "tickchak_ashdod",
-          "url": "https://live.tickchak.co.il/ashdod",
-          "source_type": "secondary",
-          "observed_at": "2026-10-06T12:20:01Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:01Z",
-      "last_verified_at": "2026-10-06T12:20:01Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_structured_event"
-      ],
-      "event_id": "auto_as_72601f936acd44c2fc6b"
     },
     {
       "event_id": "evt_69_20261008",
@@ -3802,104 +3704,6 @@
       "thumbnail_strategy": "poster_composite"
     },
     {
-      "city": "אשדוד",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון | המשכן לאמנויות הבמה אשדוד",
-      "description": null,
-      "start_date": "2026-10-18",
-      "end_date": null,
-      "start_time": "17:30",
-      "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
-      "image_source": "https://live.tickchak.co.il/childrens-shows/the-wizard-of-oz?live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "image_credit": null,
-      "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "tickchak_ashdod",
-          "url": "https://live.tickchak.co.il/ashdod",
-          "source_type": "secondary",
-          "observed_at": "2026-10-06T12:20:01Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:01Z",
-      "last_verified_at": "2026-10-06T12:20:01Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_structured_event"
-      ],
-      "event_id": "auto_as_792f403351fb6d8a6daa"
-    },
-    {
-      "city": "אשדוד",
-      "title": "חיפזון וזהירון - הרפתקה בשכונה",
-      "description": null,
-      "start_date": "2026-10-18",
-      "end_date": null,
-      "start_time": "17:30",
-      "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/חיפזון_וזהירון_-_הרפתקה_בשכונה/?id=8215",
-      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/חיפזון_וזהירון_-_הרפתקה_בשכונה/?id=8215",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "mishkan_smarticket",
-          "url": "https://mishkan-ashdod.smarticket.co.il/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_1d46b19b3d1b3df5e6d6"
-    },
-    {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
       "city": "אשדוד",
       "title": "הפועל אשדוד - בני הרצליה",
@@ -5507,55 +5311,6 @@
     },
     {
       "city": "אשדוד",
-      "title": "גברת רביע באשדוד | טיפול זוגי 5:55  | יד לבנים אשדוד",
-      "description": null,
-      "start_date": "2026-10-25",
-      "end_date": null,
-      "start_time": "20:30",
-      "end_time": null,
-      "venue": "יד לבנים אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1776068350k90zdI9ySwZHRnp1NxtyL2Z1aHRjRQ5mT_gnkPCQknrcMmRaR6nstXm.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
-      "image_credit": null,
-      "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "tickchak_ashdod",
-          "url": "https://live.tickchak.co.il/ashdod",
-          "source_type": "secondary",
-          "observed_at": "2026-10-06T12:20:01Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:01Z",
-      "last_verified_at": "2026-10-06T12:20:01Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_structured_event"
-      ],
-      "event_id": "auto_as_e7f9869c7e988f1b333b"
-    },
-    {
-      "city": "אשדוד",
       "title": "סדנת טיפוח-היופי מתחיל בך זמן לעצמך ולטיפוח",
       "description": null,
       "start_date": "2026-10-26",
@@ -5798,8 +5553,8 @@
           "observed_at": "2026-10-04T13:40:00+03:00"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "needs_detail_enrichment"
@@ -7391,55 +7146,6 @@
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
-    },
-    {
-      "city": "אשדוד",
-      "title": "פאנל \"עולם של אסתטיקה\" -עם גילה תורן חן , ורדה שחף, ורופאים -יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-11-04",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/פאנל__עולם_של_אסתטיקה__-עם_גילה_תורן_חן___ורדה_שחף__ורופאים_-יעודי_לגדולות_מהחיים/?id=17026",
-      "purchase_url": "https://ashdod.smarticket.co.il/פאנל__עולם_של_אסתטיקה__-עם_גילה_תורן_חן___ורדה_שחף__ורופאים_-יעודי_לגדולות_מהחיים/?id=17026",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_8f3a75c2ed0f0ef875bc"
     },
     {
       "event_id": "evt_74_20261104",
@@ -11207,8 +10913,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -11367,55 +11073,6 @@
     },
     {
       "city": "אשדוד",
-      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-11-30",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "sold_out",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_59d21b15c55e0e5716a8"
-    },
-    {
-      "city": "אשדוד",
       "title": "סטודיו פתוח",
       "description": null,
       "start_date": "2026-12-01",
@@ -11566,55 +11223,6 @@
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
-    },
-    {
-      "city": "אשדוד",
-      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-12-03",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_d9054166e8decd8ba99d"
     },
     {
       "event_id": "evt_27_20261203",
@@ -12110,8 +11718,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -12270,55 +11878,6 @@
       "image_strategy": "direct_event_page",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover"
-    },
-    {
-      "city": "אשדוד",
-      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה   | המשכן לאמנויות הבמה אשדוד",
-      "description": null,
-      "start_date": "2026-12-07",
-      "end_date": null,
-      "start_time": "17:30",
-      "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1776068350k90zdI9ySwZHRnp1NxtyL2Z1aHRjRQ5mT_gnkPCQknrcMmRaR6nstXm.webp",
-      "image_source": "https://live.tickchak.co.il/ashdod",
-      "image_credit": null,
-      "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "tickchak_ashdod",
-          "url": "https://live.tickchak.co.il/ashdod",
-          "source_type": "secondary",
-          "observed_at": "2026-10-06T12:20:01Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:01Z",
-      "last_verified_at": "2026-10-06T12:20:01Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_structured_event"
-      ],
-      "event_id": "auto_as_2ac29b05d414d9eab1f3"
     },
     {
       "city": "אשדוד",
@@ -13686,55 +13245,6 @@
       "event_id": "auto_as_f002977fe467c1b61d10"
     },
     {
-      "city": "אשדוד",
-      "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-12-24",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_2eb56d2075f1de010bd3"
-    },
-    {
       "event_id": "evt_33_20261224",
       "city": "אשדוד",
       "title": "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים",
@@ -14899,8 +14409,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -15549,7 +15059,7 @@
     },
     {
       "city": "אשדוד",
-      "title": "לחיות, להרגיש, להבין  | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
+      "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
       "description": null,
       "start_date": "2027-02-02",
       "end_date": null,
@@ -16029,8 +15539,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -16568,8 +16078,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -16823,7 +16333,7 @@
     },
     {
       "city": "אשדוד",
-      "title": "נשף פורים הצגה  | שעת סיפור עם רינתי",
+      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
       "description": null,
       "start_date": "2027-03-16",
       "end_date": null,
@@ -17352,8 +16862,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -18038,8 +17548,8 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:03Z",
-      "last_verified_at": "2026-10-06T12:23:03Z",
+      "observed_at": "2026-10-06T12:25:34Z",
+      "last_verified_at": "2026-10-06T12:25:34Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
@@ -18146,7 +17656,7 @@
     },
     {
       "city": "אשדוד",
-      "title": "לחיות, להרגיש, להבין |  הרצאה על המשוררת שיבטה טויו עם תמי כהן",
+      "title": "לחיות, להרגיש, להבין | הרצאה על המשוררת שיבטה טויו עם תמי כהן",
       "description": null,
       "start_date": "2027-06-22",
       "end_date": null,

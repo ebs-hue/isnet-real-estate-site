@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-06T12:23:10Z",
+  "generated_at": "2026-10-06T12:25:38Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-27"
   },
   "stats": {
-    "events": 211
+    "events": 204
   },
   "events": [
     {
@@ -2654,55 +2654,6 @@
     },
     {
       "city": "ראשון לציון",
-      "title": "בוב דילן:",
-      "description": null,
-      "start_date": "2026-10-26",
-      "end_date": null,
-      "start_time": "20:00",
-      "end_time": null,
-      "venue": "ספריית שיכון המזרח",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_c00e2b69f24478ad5b44"
-    },
-    {
-      "city": "ראשון לציון",
       "title": "בוב דילן: \"סדרת אל תוך השיר\"",
       "description": null,
       "start_date": "2026-10-26",
@@ -2804,55 +2755,6 @@
     },
     {
       "city": "ראשון לציון",
-      "title": "בחירות  2026 - משפחות",
-      "description": null,
-      "start_date": "2026-10-27",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "מוזיאון אגם",
-      "address": null,
-      "district": null,
-      "category": "exhibition",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
-      "purchase_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "yama",
-          "url": "https://yama.smarticket.co.il/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:23:10Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:23:10Z",
-      "last_verified_at": "2026-10-06T12:23:10Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6"
-    },
-    {
-      "city": "ראשון לציון",
       "title": "בחירות 2026 - כניסה",
       "description": null,
       "start_date": "2026-10-27",
@@ -2899,6 +2801,55 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_733c2543cc344156adb2"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בחירות 2026 - משפחות",
+      "description": null,
+      "start_date": "2026-10-27",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
+      "purchase_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6"
     },
     {
       "city": "ראשון לציון",
@@ -3205,7 +3156,7 @@
     },
     {
       "city": "ראשון לציון",
-      "title": "להקת המחול ורטיגו -\"נונה\" גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם\n\"נונה\" - גרסת המוזיאון\nחמישי | 29.10.26 | 20:00",
+      "title": "להקת המחול ורטיגו -\"נונה\" גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם \"נונה\" - גרסת המוזיאון חמישי | 29.10.26 | 20:00",
       "description": null,
       "start_date": "2026-10-29",
       "end_date": null,
@@ -3723,104 +3674,6 @@
       "image_strategy": "awaiting_official_event_image",
       "thumbnail_url": null,
       "thumbnail_strategy": "direct_local"
-    },
-    {
-      "city": "ראשון לציון",
-      "title": "סדרת",
-      "description": null,
-      "start_date": "2026-11-10",
-      "end_date": null,
-      "start_time": "20:00",
-      "end_time": null,
-      "venue": "ספריית שיכון המזרח",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_48cd23285f8d79744f14"
-    },
-    {
-      "city": "ראשון לציון",
-      "title": "סדרת \"מעצבי תודעה\": אם זכרוני אינו מטעה אותי",
-      "description": null,
-      "start_date": "2026-11-10",
-      "end_date": null,
-      "start_time": "20:00",
-      "end_time": null,
-      "venue": "ספריית שיכון המזרח",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_f4d5d621838ec1b805f4"
     },
     {
       "event_id": "htrl_20261110_2030_לנקות-את-הראש",
@@ -4341,7 +4194,7 @@
     },
     {
       "city": "ראשון לציון",
-      "title": "סדרת",
+      "title": "סדרת \"עולמו המופלא של התנ\"ך: ויהי ערב, ויהי בוקר",
       "description": null,
       "start_date": "2026-11-17",
       "end_date": null,
@@ -4357,56 +4210,7 @@
       "price_min_ils": null,
       "price_max_ils": null,
       "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_38c441e2caaac68a4c48"
-    },
-    {
-      "city": "ראשון לציון",
-      "title": "סדרת \"עולמו המופלא של התנ\"ך: ויהי ערב, ויהי בוקר - אזלו הכרטיסים",
-      "description": null,
-      "start_date": "2026-11-17",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "ספריית שיכון המזרח",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
+      "ticket_status": "sold_out",
       "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
       "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
       "purchase_phone": null,
@@ -5456,55 +5260,6 @@
       "event_id": "auto_ri_ee8e1de7b8555cc9bcff"
     },
     {
-      "city": "ראשון לציון",
-      "title": "אימפרבוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
-      "description": null,
-      "start_date": "2026-12-01",
-      "end_date": null,
-      "start_time": "19:00",
-      "end_time": null,
-      "venue": "כותר ראשון-שקמה",
-      "address": null,
-      "district": null,
-      "category": "music",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_7f4bc29ebeab48d62fbe"
-    },
-    {
       "event_id": "r_k_1201_1900",
       "city": "ראשון לציון",
       "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
@@ -5710,55 +5465,6 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_guy_yael.jpg",
       "thumbnail_url": "assets/events/3200ceb18b7b78b6094dfabc.webp",
       "thumbnail_strategy": "direct_local"
-    },
-    {
-      "city": "ראשון לציון",
-      "title": "גיא ויעל – בוא לא נדבר על זה",
-      "description": null,
-      "start_date": "2026-12-03",
-      "end_date": null,
-      "start_time": "21:00",
-      "end_time": null,
-      "venue": "היכל התרבות מאיר ניצן",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://htrl.co.il/לוח-שנה/",
-      "purchase_url": "https://htrl.co.il/לוח-שנה/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "htrl",
-          "url": "https://htrl.co.il/לוח-שנה/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:20:05Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:20:05Z",
-      "last_verified_at": "2026-10-06T12:20:05Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_calendar"
-      ],
-      "event_id": "auto_ri_dd542e51adf83bfdca92"
     },
     {
       "event_id": "htrl_20261204_2230_אדיר-מילר",
@@ -6127,8 +5833,8 @@
           "observed_at": "2026-10-06T12:20:05Z"
         }
       ],
-      "observed_at": "2026-10-06T12:23:10Z",
-      "last_verified_at": "2026-10-06T12:23:10Z",
+      "observed_at": "2026-10-06T12:25:38Z",
+      "last_verified_at": "2026-10-06T12:25:38Z",
       "status": "active",
       "quality_flags": [
         "automated_official_calendar"
@@ -7030,55 +6736,6 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_a62f0c2a656fc7a9a520"
-    },
-    {
-      "city": "ראשון לציון",
-      "title": "עין תחת עין: גלגולו של מושג הנקמה בתרבות - אזלו הכרטיסים",
-      "description": null,
-      "start_date": "2026-12-22",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "ספריית שיכון המזרח",
-      "address": null,
-      "district": null,
-      "category": "other",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "kotar_rishon",
-          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "source_type": "official",
-          "observed_at": "2026-10-06T12:21:47Z"
-        }
-      ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_ri_8969d31ff72fef479416"
     },
     {
       "city": "ראשון לציון",

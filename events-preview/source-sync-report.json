@@ -1,27 +1,27 @@
 {
-  "run_at": "2026-10-06T12:23:03Z",
+  "run_at": "2026-10-06T12:25:34Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 124,
+      "total_before": 366,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 218,
           "valid": 214,
-          "new": 175,
-          "updated": 9
+          "new": 0,
+          "updated": 2
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
           "discovered": 96,
           "valid": 96,
-          "new": 67,
-          "updated": 17
+          "new": 0,
+          "updated": 14
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -32,14 +32,16 @@
           "updated": 0
         }
       },
-      "new": 242,
-      "updated": 26,
+      "new": 0,
+      "updated": 16,
+      "removed_invalid": 0,
+      "removed_duplicates": 10,
       "errors": [],
-      "total_after": 366
+      "total_after": 356
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 204,
+      "total_before": 211,
       "sources": {
         "htrl": {
           "status": "ok",
@@ -54,14 +56,14 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 7,
-          "updated": 4
+          "new": 0,
+          "updated": 0
         },
         "kotar_rishon": {
           "status": "ok",
           "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "discovered": 76,
-          "valid": 42,
+          "discovered": 73,
+          "valid": 38,
           "new": 0,
           "updated": 0
         },
@@ -83,13 +85,15 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 7,
-      "updated": 6,
+      "new": 0,
+      "updated": 2,
+      "removed_invalid": 3,
+      "removed_duplicates": 5,
       "errors": [
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
       ],
-      "total_after": 211
+      "total_after": 204
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
