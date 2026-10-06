@@ -750,7 +750,10 @@ function bindDynamic(){
     if(nextCategory!=="sport"){state.sportTeam="all";state.sportBranch="all"}
     state.category=nextCategory;
     render();
-    if(state.category==="sport")requestAnimationFrame(()=>$("sportsPanel")?.scrollIntoView({behavior:"smooth",block:"start"}));
+    requestAnimationFrame(()=>{
+      const target=state.category==="sport"?$("sportsPanel"):$("resultsTitle");
+      target?.scrollIntoView({behavior:"smooth",block:"start"});
+    });
   });
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{
     const k=b.dataset.remove;
