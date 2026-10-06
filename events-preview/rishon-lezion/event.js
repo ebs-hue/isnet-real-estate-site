@@ -182,7 +182,15 @@ function renderHero(e,occ,imageEvent){
     const src=imageEvent.thumbnail_ready&&imageEvent.thumbnail_url?imageEvent.thumbnail_url:imageEvent.image_url;
     $("heroImage").innerHTML='<img src="'+escapeHtml(src)+'" alt="'+escapeHtml(eventDisplayTitle(e))+'">';
   }else{
-    $("heroImage").innerHTML=isRepresentativeHomeGame(e)?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(eventDisplayTitle(e))+'</div>';
+    if(e.category==="lecture"){
+      const key=String(e.event_id||e.title||"");
+      const theme=[...key].reduce((n,c)=>(n*29+c.charCodeAt(0))>>>0,3)%6;
+      $("heroImage").innerHTML='<div class="fallback detailLectureArt detailLectureArt--'+theme+'">'+
+        '<span class="detailLectureArt__symbol" aria-hidden="true">✦</span><strong>'+escapeHtml(eventDisplayTitle(e))+
+        '</strong><small>איור להמחשה</small></div>';
+    }else{
+      $("heroImage").innerHTML=isRepresentativeHomeGame(e)?sportHeroFallback(e):'<div class="fallback">'+escapeHtml(eventDisplayTitle(e))+'</div>';
+    }
   }
 
   const action=groupPurchaseAction(occ);
