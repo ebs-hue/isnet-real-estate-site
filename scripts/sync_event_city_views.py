@@ -39,6 +39,7 @@ def localize(content: str, name: str, city: dict, suffix: str) -> str:
     # Cinema venues are city-specific. Preserve IDs on the canonical Ashdod site.
     content = content.replace("HOT Cinema", city["second_cinema"])
     content = content.replace('data-cinema="hot-cinema"', 'data-cinema="' + city["second_cinema_id"] + '"')
+    content = content.replace('data-venue="hot-cinema"', 'data-venue="' + city["second_cinema_id"] + '"')
     content = content.replace('id==="hot-cinema"', 'id==="' + city["second_cinema_id"] + '"')
     # Avoid hardcoded dates on JS/CSS bundle URLs: the deployment adds fresh HTML
     # every time the Ashdod source changes.
