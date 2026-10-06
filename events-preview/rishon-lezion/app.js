@@ -240,11 +240,22 @@ function dateChipHTML(e){
     const d=localDate(e.start_date);
     return '<div class="dateChip"><b>'+d.getDate()+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></div>';
   }
-  return '<div class="dateStack" aria-label="'+dates.length+' מועדים">'+dates.map(x=>{
+  // The card previews five different dates on desktop and four on mobile.
+  // The full schedule still lives on the event page; never truncate stored dates.
+  const chips=dates.slice(0,5).map(x=>{
     const d=localDate(x.start_date);
     const active=state.date===x.start_date?" is-active":"";
     return '<span class="multiDateChip'+active+'"><b>'+String(d.getDate()).padStart(2,"0")+'</b><span>'+escapeHtml(new Intl.DateTimeFormat("he-IL",{month:"short"}).format(d))+'</span></span>';
-  }).join("")+'</div>';
+  }).join("");
+  const href="event.html?id="+encodeURIComponent(e.event_id)+"#dates";
+  const more=limit=>{
+    const remaining=dates.length-limit;
+    return remaining>0
+      ?'<a class="dateStack__more dateStack__more--'+(limit===4?"mobile":"desktop")+
+        '" href="'+escapeHtml(href)+'" aria-label="לצפייה בכל המועדים, עוד '+remaining+' מועדים">עוד '+remaining+' מועדים <span aria-hidden="true">←</span></a>'
+      :"";
+  };
+  return '<div class="dateStack" aria-label="'+dates.length+' תאריכים שונים">'+chips+more(5)+more(4)+'</div>';
 }
 function scheduleSummary(e){
   const occ=eventOccurrences(e);
@@ -828,7 +839,7 @@ function render(){
   bindDynamic();
 }
 function bindDynamic(){
-  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart]"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
+  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart], .dateStack__more"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{
     const next=state.date===b.dataset.date?null:b.dataset.date;

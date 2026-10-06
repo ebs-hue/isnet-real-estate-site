@@ -1506,3 +1506,55 @@ main{position:relative;z-index:3}
 }
 .searchFeedback[hidden]{display:none!important}
 #resultsTitle{scroll-margin-top:22px}
+
+/* Compact previews for multi-date events: never spill past the artwork. */
+.eventCard .dateStack{
+  top:8px;
+  right:8px;
+  bottom:auto;
+  gap:3px;
+  max-height:calc(100% - 16px);
+  overflow:hidden;
+  align-items:stretch;
+}
+.eventCard .multiDateChip{
+  height:23px;
+  min-height:23px;
+  min-width:49px;
+  box-sizing:border-box;
+  padding:0 5px;
+  border-radius:7px;
+}
+.eventCard .multiDateChip b{font-size:13px}
+.eventCard .multiDateChip span{font-size:9px}
+.dateStack__more{
+  box-sizing:border-box;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:4px;
+  min-width:49px;
+  min-height:23px;
+  padding:2px 5px;
+  border-radius:7px;
+  border:1px solid rgba(255,255,255,.34);
+  background:rgba(255,255,255,.96);
+  color:#123d6a;
+  text-align:center;
+  text-decoration:none;
+  white-space:nowrap;
+  font:800 10px/1.1 "Heebo",sans-serif;
+  box-shadow:0 3px 12px rgba(0,0,0,.18);
+}
+.dateStack__more:hover,.dateStack__more:focus-visible{background:#e8f4ff;text-decoration:underline}
+.dateStack__more--mobile{display:none}
+@media(max-width:650px){
+  .eventCard .dateStack{right:6px;top:6px;gap:2px;max-height:calc(100% - 12px)}
+  .eventCard .multiDateChip{height:19px;min-height:19px;min-width:42px;padding:0 4px;border-radius:6px;gap:2px}
+  .eventCard .multiDateChip b{font-size:11px}
+  .eventCard .multiDateChip span{font-size:8px}
+  .eventCard .dateStack .multiDateChip:nth-child(5){display:none}
+  .dateStack__more--desktop{display:none}
+  .dateStack__more--mobile{display:flex}
+  .dateStack__more{min-width:42px;min-height:20px;padding:2px 4px;font-size:9px;border-radius:6px}
+}
