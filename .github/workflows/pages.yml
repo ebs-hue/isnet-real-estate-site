@@ -14,6 +14,7 @@ on:
       - "events-preview/**"
       - "scripts/sync_event_city_views.py"
       - "scripts/test-event-date-chips.cjs"
+      - "scripts/test-institution-ui.cjs"
       - ".github/workflows/pages.yml"
       - "scripts/qa-pricebooks.cjs"
       - "scripts/prepare-pricebook-sync.py"
@@ -65,6 +66,9 @@ jobs:
 
       - name: Test compact event date previews
         run: node scripts/test-event-date-chips.cjs
+
+      - name: Verify organizer portals and institution links
+        run: node scripts/test-institution-ui.cjs
 
       - name: Check sanitized dataset publication
         run: python scripts/test-pricebook-sync.py
