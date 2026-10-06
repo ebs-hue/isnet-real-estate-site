@@ -1,0 +1,228 @@
+{
+  "city": "אשדוד",
+  "checked_at": "2026-10-06",
+  "institution_types": [
+    "operator",
+    "venue"
+  ],
+  "description": "Institutions and recurring organizers. Public-source verified; null means unverified, never guessed.",
+  "institutions": [
+    {
+      "id": "ofek_ashdod",
+      "kind": "operator",
+      "name": "הקתדרה העממית אופק",
+      "aliases": [
+        "קתדרת אופק להשכלת מבוגרים",
+        "קתדרת אופק",
+        "אופק השכלת מבוגרים",
+        "הקתדרה העממית אופק"
+      ],
+      "source_names": [
+        "ofek_ashdod"
+      ],
+      "featured": true,
+      "description": "מרכז עירוני להשכלת מבוגרים: הרצאות, קורסים, סדנאות וטיולים. חלק מהפעילויות מתקיימות במקומות אחרים בארץ ובעיר.",
+      "address": "רחוב העצמאות 54, אשדוד",
+      "phone": "08-9238680",
+      "phone_secondary": "08-9238681",
+      "email": "noamteb@ashdod.muni.il",
+      "website": "https://www.ofek-ashdod.org.il/",
+      "registration_url": "https://www.ofek-ashdod.org.il/page.php?type=contactUs",
+      "source_url": "https://www.ashdod.muni.il/he-il/אתר-העיר/חינוך/המרכז-להשכלת-מבוגרים-הקתדרה-העממית-אופק/"
+    },
+    {
+      "id": "mishkan_ashdod",
+      "kind": "venue",
+      "name": "המשכן לאמנויות הבמה אשדוד",
+      "aliases": [
+        "המשכן לאמנויות הבמה",
+        "המשכן לאומנויות הבמה אשדוד",
+        "משכן אשדוד"
+      ],
+      "address": "דרך ארץ 1, אשדוד",
+      "phone": "*5359",
+      "website": "https://mishkan-ashdod.co.il/",
+      "registration_url": "https://mishkan-ashdod.smarticket.co.il/",
+      "source_url": "https://mishkan-ashdod.co.il/"
+    },
+    {
+      "id": "ironit_safra",
+      "kind": "venue",
+      "name": "מרכז קהילתי ספרא",
+      "aliases": [
+        "מרכז קהילתי ספרא-רח' אב 4 אשדוד",
+        "מתנ״ס ספרא",
+        "ספרא"
+      ],
+      "address": "אב 4, אשדוד",
+      "phone": "08-8675261",
+      "email": "safra@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "ironit_diyona",
+      "kind": "venue",
+      "name": "מרכז קהילתי דיונה",
+      "aliases": [
+        "מתנ״ס דיונה",
+        "מתנס דיונה",
+        "דיונה אשדוד",
+        "מרכז דיונה"
+      ],
+      "address": "שדרות קק״ל 90, אשדוד",
+      "phone": "08-8648585",
+      "email": "duna@ironit.org.il",
+      "website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "source_url": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/"
+    },
+    {
+      "id": "monart_ashdod",
+      "kind": "venue",
+      "name": "מרכז מונארט לאמנויות",
+      "aliases": [
+        "מונארט",
+        "מרכז מונארט",
+        "מונארט מרכז תרבות",
+        "מרכז מונארט, אשדוד"
+      ],
+      "address": "דרך ארץ 8, אשדוד",
+      "phone": "08-8545170",
+      "email": "monart@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "museum_art_ashdod",
+      "kind": "venue",
+      "name": "מוזיאון אשדוד לאמנות",
+      "aliases": [
+        "מוזיאון אשדוד לאמנות",
+        "המוזיאון לאמנות אשדוד",
+        "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+        "אגף הסדנאות במוזיאון אשדוד"
+      ],
+      "address": "הגדוד העברי 12, אשדוד",
+      "phone": "08-8545180",
+      "email": "AAM@ironit.org.il",
+      "website": "https://www.ashdodartmuseum.org.il/",
+      "source_url": "https://www.ashdodartmuseum.org.il/contact-us/"
+    },
+    {
+      "id": "up60_ashdod",
+      "kind": "venue",
+      "name": "מרכז אפ 60+ אשדוד",
+      "aliases": [
+        "אפ 60+",
+        "מרכז אפ 60+",
+        "אפ 60 פלוס",
+        "מרכז אפ 60+ אשדוד רח' סטורמה 5"
+      ],
+      "address": "סטרומה 5, אשדוד",
+      "phone": "08-9238677",
+      "email": "up60plus@ashdod.muni.il",
+      "website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "source_url": "https://community.ashdod.muni.il/Ashdod_up60"
+    },
+    {
+      "id": "ironit_tene",
+      "kind": "venue",
+      "name": "מרכז קהילתי טנה",
+      "aliases": [
+        "מתנס טנה",
+        "מתנ״ס טנה",
+        "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד"
+      ],
+      "address": "שלום שבזי 3, אשדוד",
+      "phone": "08-8555478",
+      "email": "ashdodh@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "ironit_uziel",
+      "kind": "venue",
+      "name": "מרכז קהילתי עוזיאל",
+      "aliases": [
+        "מתנס עוזיאל",
+        "מתנ״ס עוזיאל"
+      ],
+      "address": "סיני 25, אשדוד",
+      "phone": "08-8565716",
+      "email": "Uziel@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "ironit_ahva",
+      "kind": "venue",
+      "name": "מרכז קהילתי אחווה",
+      "aliases": [
+        "מתנס אחווה",
+        "מתנ״ס אחווה"
+      ],
+      "address": "האצ״ל 7, אשדוד",
+      "phone": "08-8649687",
+      "email": "achva@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "ironit_dalet",
+      "kind": "venue",
+      "name": "מרכז קהילתי גולדי",
+      "aliases": [
+        "מרכז קהילתי גולדי",
+        "מתנס רובע ד"
+      ],
+      "address": "השייטים 16, אשדוד",
+      "phone": "08-8552721",
+      "email": "dalet@ironit.org.il",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "klang_ashdod",
+      "kind": "venue",
+      "name": "בית אריה קלנג",
+      "aliases": [
+        "בית קלנג",
+        "בית אריה קלנג"
+      ],
+      "address": "יאיר 2, אשדוד",
+      "phone": "08-9221883",
+      "email": "arieklangh@gmail.com",
+      "website": "https://www.ironit.org.il/",
+      "source_url": "https://www.ironit.org.il/forms/רשימת-כתובות-מרכזים-קהילתיים/"
+    },
+    {
+      "id": "yadlabanim_ashdod",
+      "kind": "venue",
+      "name": "בית יד לבנים אשדוד",
+      "aliases": [
+        "בית יד לבנים",
+        "יד לבנים אשדוד",
+        "יד לבנים"
+      ],
+      "address": null,
+      "phone": null,
+      "website": null,
+      "source_url": null,
+      "review_required": true
+    },
+    {
+      "id": "ashdod_city_library",
+      "kind": "venue",
+      "name": "הספרייה העירונית אשדוד ע״ש מאירהוף",
+      "aliases": [
+        "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב",
+        "הספרייה העירונית אשדוד",
+        "ספריית מאירהוף"
+      ],
+      "address": null,
+      "phone": null,
+      "website": "https://www.ironit.org.il/",
+      "review_required": true
+    }
+  ]
+}
