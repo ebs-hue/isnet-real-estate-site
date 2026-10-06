@@ -463,6 +463,43 @@ def clean_generated_duplicates(events):
     return removed_invalid, removed_duplicate
 
 
+
+def fix_imported_id_collisions(events):
+    """Do not publish two rows with one linkable event ID.
+
+    Different events occasionally shared a generated ID after source title
+    normalization. Editorial IDs are immutable. Only bot-owned conflicts are
+    assigned a new deterministic, venue-aware ID.
+    """
+    ids = set()
+    changed = 0
+    for e in events:
+        current = e.get("event_id")
+        if current not in ids:
+            ids.add(current)
+            continue
+        if not str(current).startswith("auto_"):
+            raise ValueError("Editorial event has conflicting ID: " + str(current))
+        fingerprint = "|".join([
+            str(current), e.get("title") or "", e.get("start_date") or "",
+            e.get("start_time") or "", e.get("venue") or "",
+            e.get("ticket_url") or "",
+        ])
+        i = 0
+        while True:
+            digest = hashlib.sha256((fingerprint + "|" + str(i)).encode()).hexdigest()[:20]
+            candidate = "auto_ri_" + digest if e.get("city") == "ראשון לציון" else "auto_as_" + digest
+            if candidate not in ids:
+                break
+            i += 1
+        e["event_id"] = candidate
+        ids.add(candidate)
+        changed += 1
+    if changed:
+        print(f"Reassigned {changed} colliding auto-import event IDs", flush=True)
+    return changed
+
+
 def iso_now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -616,6 +653,7 @@ def merge(city_slug, specs, dry_run=False):
         time.sleep(.3)
 
     summary["removed_invalid"], summary["removed_duplicates"] = clean_generated_duplicates(events)
+    summary["repaired_event_ids"] = fix_imported_id_collisions(events)
     surviving = {e.get("event_id") for e in events}
     summary["new"] = len(surviving - ids_before)
     for name, state in summary["sources"].items():
@@ -623,7 +661,7 @@ def merge(city_slug, specs, dry_run=False):
                            and any(x.get("name") == name for x in e.get("sources", [])))
     events.sort(key=lambda e: (e.get("start_date") or "9999", e.get("start_time") or "99:99", e.get("title") or ""))
     summary["total_after"] = len(events)
-    if summary["new"] or summary["updated"] or summary["removed_invalid"] or summary["removed_duplicates"]:
+    if summary["new"] or summary["updated"] or summary["removed_invalid"] or summary["removed_duplicates"] or summary["repaired_event_ids"]:
         payload["generated_at"] = now
         payload.setdefault("stats", {})["events"] = len(events)
         future = [e["start_date"] for e in events if e.get("start_date", "") >= today.isoformat()]
