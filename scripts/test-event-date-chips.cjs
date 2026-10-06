@@ -8,7 +8,7 @@ const css = fs.readFileSync("events-preview/ashdod/styles.css","utf8");
 const from = source.indexOf("function dateChipHTML(e){");
 const to = source.indexOf("\nfunction scheduleSummary", from);
 assert.ok(from >= 0 && to > from, "dateChipHTML exists");
-assert.ok(source.includes('[data-heart], .dateStack__more'),"More-link click is preserved");
+assert.ok(/\[data-heart\][^\n]*\.dateStack__more/.test(source),"More-link click is preserved");
 const state = {date:null};
 const all = Array.from({length:18}, (_,i)=>({start_date:"2026-10-"+String(i+6).padStart(2,"0")}));
 const ctx={
