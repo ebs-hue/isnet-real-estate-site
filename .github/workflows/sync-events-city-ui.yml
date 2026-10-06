@@ -33,6 +33,9 @@ jobs:
         run: |
           python scripts/sync_event_city_views.py
           python scripts/sync_event_city_views.py --check
+          # The build also fingerprints Ashdod HTML locally. These transient
+          # source changes are for deployment, not for this sync commit.
+          git restore -- events-preview/ashdod/*.html
       - name: Commit only city frontend changes (never city data)
         run: |
           git config user.name "isnet-events-bot"
