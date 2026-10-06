@@ -139,14 +139,14 @@
       "purchase_url": "https://yama.smarticket.co.il/כרטיסי_כניסה_34",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e866586c3738080cc0d15471.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99_%D7%9B%D7%A0%D7%99%D7%A1%D7%94_34",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb655325fe30e7c476139512.jpg",
+      "thumbnail_url": "assets/events/e866586c3738080cc0d15471.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -163,7 +163,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_7fad43d2d5311f87cfab"
+      "event_id": "auto_ri_7fad43d2d5311f87cfab",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -264,7 +265,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_ddd150519fa5366e7e70"
+      "event_id": "auto_ri_ddd150519fa5366e7e70",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -313,7 +315,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_feebac085a47bc2ba79e"
+      "event_id": "auto_ri_feebac085a47bc2ba79e",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_y_1008_1630",
@@ -417,7 +420,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_2a088f32e6a9729f383b"
+      "event_id": "auto_ri_2a088f32e6a9729f383b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_h_1009_1100",
@@ -682,7 +686,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_fc5a55d7397f123bab70"
+      "event_id": "auto_ri_fc5a55d7397f123bab70",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261010_2100_זוגיות-AI",
@@ -837,7 +842,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_9f1ceb0a59a88d6a3546"
+      "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -888,7 +894,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f034b0005aba57961c7e"
+      "event_id": "auto_ri_f034b0005aba57961c7e",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_r_1011_1830",
@@ -1043,7 +1050,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_2e27df52904543987be8"
+      "event_id": "auto_ri_2e27df52904543987be8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1012_1700",
@@ -1147,7 +1155,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_217b952badfd1b4d449f"
+      "event_id": "auto_ri_217b952badfd1b4d449f",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -1196,7 +1205,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_7f3f8603182bddf96986"
+      "event_id": "auto_ri_7f3f8603182bddf96986",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_h_1012_1730",
@@ -1302,7 +1312,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_47445078968e008a3590"
+      "event_id": "auto_ri_47445078968e008a3590",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -1353,7 +1364,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c29d4eb1580388cda652"
+      "event_id": "auto_ri_c29d4eb1580388cda652",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -1404,7 +1416,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ceed327264a9be96483d"
+      "event_id": "auto_ri_ceed327264a9be96483d",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -1455,7 +1468,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4e39de0caba699a70faf"
+      "event_id": "auto_ri_4e39de0caba699a70faf",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_h_1013_2030",
@@ -1772,7 +1786,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_50b4293a26086f6bd52d"
+      "event_id": "auto_ri_50b4293a26086f6bd52d",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261017_2030_מועדון-הזמר-של-אילנה-כץ-–-לו",
@@ -1925,7 +1940,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5c9135722c3f043cd513"
+      "event_id": "auto_ri_5c9135722c3f043cd513",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -1974,7 +1990,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_e505893f7b8f2841a928"
+      "event_id": "auto_ri_e505893f7b8f2841a928",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_r_1018_1830",
@@ -2079,7 +2096,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6a952281b9a1d50de945"
+      "event_id": "auto_ri_6a952281b9a1d50de945",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261018_2030_אור-לגויים",
@@ -2182,7 +2200,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_db3580485033a14ef6d5"
+      "event_id": "auto_ri_db3580485033a14ef6d5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1019_1700",
@@ -2286,7 +2305,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_e3d7cdfcbc169c4ed405"
+      "event_id": "auto_ri_e3d7cdfcbc169c4ed405",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261019_2030_אור-לגויים",
@@ -2389,7 +2409,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_fc5619ae590998dbc800"
+      "event_id": "auto_ri_fc5619ae590998dbc800",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -2440,7 +2461,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1ac2e2abafd31224d2b8"
+      "event_id": "auto_ri_1ac2e2abafd31224d2b8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -2491,7 +2513,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_747d4b2b4f68573f3c7c"
+      "event_id": "auto_ri_747d4b2b4f68573f3c7c",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -2540,7 +2563,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_02c01ca271e49574910d"
+      "event_id": "auto_ri_02c01ca271e49574910d",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -2591,7 +2615,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_809cbafc2de16600645a"
+      "event_id": "auto_ri_809cbafc2de16600645a",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -2640,7 +2665,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_eea0508fecc5a94b38c4"
+      "event_id": "auto_ri_eea0508fecc5a94b38c4",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261020_2030_אור-לגויים",
@@ -2743,7 +2769,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ccdb04e5dda0029fefcf"
+      "event_id": "auto_ri_ccdb04e5dda0029fefcf",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261021_2030_אדיר-מילר",
@@ -2844,7 +2871,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_e5b425e124767f709372"
+      "event_id": "auto_ri_e5b425e124767f709372",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261022_2030_עפרה",
@@ -3106,7 +3134,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8bf1857ce8efe2c7632b"
+      "event_id": "auto_ri_8bf1857ce8efe2c7632b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -3157,7 +3186,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f8c3bb5affa596c56f45"
+      "event_id": "auto_ri_f8c3bb5affa596c56f45",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261024_2030_Sinatra-My-Way-–-פרנק-סינטרה",
@@ -3258,7 +3288,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_264a4825f6f1153b1285"
+      "event_id": "auto_ri_264a4825f6f1153b1285",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -3307,7 +3338,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5db20ec91884846d7f9c"
+      "event_id": "auto_ri_5db20ec91884846d7f9c",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261025_1700_היפהפייה-הנרדמת-–-תיאטרון-הב",
@@ -3515,7 +3547,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5d36e550b39190e205f9"
+      "event_id": "auto_ri_5d36e550b39190e205f9",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261026_2030_מאיר-לביא-ועד-רוסיני",
@@ -3592,14 +3625,14 @@
       "purchase_url": "https://yama.smarticket.co.il/בחירות_2026_-_כניסה",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/46c2c4a3db1170d416a5e375.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_2026_-_%D7%9B%D7%A0%D7%99%D7%A1%D7%94",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6ac4f259d8321650352183.jpg",
+      "thumbnail_url": "assets/events/46c2c4a3db1170d416a5e375.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3616,7 +3649,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_733c2543cc344156adb2"
+      "event_id": "auto_ri_733c2543cc344156adb2",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -3641,14 +3675,14 @@
       "purchase_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/b752c805b587234ef1b7134e.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA__2026_-_%D7%9E%D7%A9%D7%A4%D7%97%D7%95%D7%AA",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6ac4f25ab9ec1580357122.jpg",
+      "thumbnail_url": "assets/events/b752c805b587234ef1b7134e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3665,7 +3699,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6"
+      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -3690,14 +3725,14 @@
       "purchase_url": "https://yama.smarticket.co.il/בחירות_2026_-_קהל_רחב",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/225e2ee2847e6275e4affed8.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA_2026_-_%D7%A7%D7%94%D7%9C_%D7%A8%D7%97%D7%91",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6ac4f25b95f1f870004766.jpg",
+      "thumbnail_url": "assets/events/225e2ee2847e6275e4affed8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -3714,7 +3749,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_9949c5fde18ab2a5ef50"
+      "event_id": "auto_ri_9949c5fde18ab2a5ef50",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261027_1930_קוולריה-רוסטיקנה",
@@ -3815,7 +3851,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_d94def1e415a270c1d23"
+      "event_id": "auto_ri_d94def1e415a270c1d23",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261028_2030_אף-מילה-לאמא",
@@ -3916,7 +3953,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_82e0b9c09be3f17fa569"
+      "event_id": "auto_ri_82e0b9c09be3f17fa569",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_y_1029_2000",
@@ -3993,14 +4031,14 @@
       "purchase_url": "https://yama.smarticket.co.il/להקת_המחול_ורטיגו_-_נונה__גרסת_המוזיאון",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/0afe2613f10626a97bf359ab.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%9C%D7%94%D7%A7%D7%AA_%D7%94%D7%9E%D7%97%D7%95%D7%9C_%D7%95%D7%A8%D7%98%D7%99%D7%92%D7%95_-_%D7%A0%D7%95%D7%A0%D7%94__%D7%92%D7%A8%D7%A1%D7%AA_%D7%94%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6a54b54c5f121069305316.jpg",
+      "thumbnail_url": "assets/events/0afe2613f10626a97bf359ab.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -4017,7 +4055,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5f6a849719b707076c93"
+      "event_id": "auto_ri_5f6a849719b707076c93",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261029_2030_אף-מילה-לאמא",
@@ -4172,7 +4211,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_268aa53a2a2e6191a461"
+      "event_id": "auto_ri_268aa53a2a2e6191a461",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261031_2030_אף-מילה-לאמא",
@@ -4329,7 +4369,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ba6b4e505006468bd433"
+      "event_id": "auto_ri_ba6b4e505006468bd433",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -4380,7 +4421,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4307094b3b636375d0a8"
+      "event_id": "auto_ri_4307094b3b636375d0a8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -4431,7 +4473,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_3f778d888bea8764a68c"
+      "event_id": "auto_ri_3f778d888bea8764a68c",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261104_2030_בן-בן-ברוך",
@@ -4586,7 +4629,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8929f9caaaca744a7355"
+      "event_id": "auto_ri_8929f9caaaca744a7355",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -4637,7 +4681,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ef5a2949e63b77022201"
+      "event_id": "auto_ri_ef5a2949e63b77022201",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1109_1900",
@@ -4740,7 +4785,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_58355c48443b8ba20e67"
+      "event_id": "auto_ri_58355c48443b8ba20e67",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -4791,7 +4837,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_707b45b8e577180319fb"
+      "event_id": "auto_ri_707b45b8e577180319fb",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_y_1110_1200",
@@ -4896,7 +4943,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_fd4a6591415646857006"
+      "event_id": "auto_ri_fd4a6591415646857006",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1110_2000",
@@ -5101,7 +5149,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5ae95426b72999337efa"
+      "event_id": "auto_ri_5ae95426b72999337efa",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261112_2000_VOCA-PEOPLE-ווקה-פיפל",
@@ -5285,14 +5334,14 @@
       "purchase_url": "https://yama.smarticket.co.il/הרפתקה_במוזיאון_-_הצגה_בתערוכה",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/661b27359b7b5b3fafbe6e44.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%94%D7%A8%D7%A4%D7%AA%D7%A7%D7%94_%D7%91%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_-_%D7%94%D7%A6%D7%92%D7%94_%D7%91%D7%AA%D7%A2%D7%A8%D7%95%D7%9B%D7%94",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6a2eaa9217012363281280.jpg",
+      "thumbnail_url": "assets/events/661b27359b7b5b3fafbe6e44.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -5309,7 +5358,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_f17a1350f016d7726b7c"
+      "event_id": "auto_ri_f17a1350f016d7726b7c",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -5360,7 +5410,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7b5b465ab1f330252c29"
+      "event_id": "auto_ri_7b5b465ab1f330252c29",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261114_2100_שקרים-קטנים",
@@ -5516,7 +5567,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_5afe05b14e34d576ef1b"
+      "event_id": "auto_ri_5afe05b14e34d576ef1b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5565,7 +5617,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_6aad8da7bc902f777752"
+      "event_id": "auto_ri_6aad8da7bc902f777752",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5616,7 +5669,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_94e5b4102820046ae0e6"
+      "event_id": "auto_ri_94e5b4102820046ae0e6",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5667,7 +5721,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ed6d091469f1efd1d75c"
+      "event_id": "auto_ri_ed6d091469f1efd1d75c",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5718,7 +5773,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_3eecf4ed903792fdc662"
+      "event_id": "auto_ri_3eecf4ed903792fdc662",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5769,7 +5825,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_76b151e71dfd68794b0a"
+      "event_id": "auto_ri_76b151e71dfd68794b0a",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -5794,14 +5851,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/6bb7e7c204531bef080b8564.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A4%D7%A1%D7%A0%D7%99%D7%90%D7%A8%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_fenisary.jpg",
+      "thumbnail_url": "assets/events/6bb7e7c204531bef080b8564.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -5818,7 +5875,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8f29732b6cef68a6354c"
+      "event_id": "auto_ri_8f29732b6cef68a6354c",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -5869,7 +5927,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_01ec9136220540e351ab"
+      "event_id": "auto_ri_01ec9136220540e351ab",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261118_2030_אוי-אלוהים",
@@ -6022,7 +6081,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_af02c6eaeb65f83de9e0"
+      "event_id": "auto_ri_af02c6eaeb65f83de9e0",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6073,7 +6133,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_bb0d87698633161782fa"
+      "event_id": "auto_ri_bb0d87698633161782fa",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261121_2030_אוי-אלוהים",
@@ -6174,7 +6235,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_0d8d53133bb98afc2c4f"
+      "event_id": "auto_ri_0d8d53133bb98afc2c4f",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6199,14 +6261,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/776df1b87936cf6508a45402.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A0%D7%95%D7%91%D7%94-%D7%97%D7%93%D7%A9%D7%94-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit-נובה.jpg",
+      "thumbnail_url": "assets/events/776df1b87936cf6508a45402.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -6223,7 +6285,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e88ad22e533510f99280"
+      "event_id": "auto_ri_e88ad22e533510f99280",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261123_2030_בילי-שוורץ",
@@ -6326,7 +6389,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6096a30d16df052784ba"
+      "event_id": "auto_ri_6096a30d16df052784ba",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6377,7 +6441,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_62bc846af26ed44811d8"
+      "event_id": "auto_ri_62bc846af26ed44811d8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1124_1900",
@@ -6534,7 +6599,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8456a441b67eb5c499a5"
+      "event_id": "auto_ri_8456a441b67eb5c499a5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6559,14 +6625,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/487127adee7f433ad2389a06.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%95-%D7%9C%D7%94-%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-3.jpg",
+      "thumbnail_url": "assets/events/487127adee7f433ad2389a06.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -6583,7 +6649,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8cb76fdf07e9b1d83318"
+      "event_id": "auto_ri_8cb76fdf07e9b1d83318",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261126_2030_שושנה-–-מחזמר",
@@ -6660,14 +6727,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/f580a7ca61cf8f591a5a248e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%96%D7%95%D7%92-%D7%9E%D7%A9%D7%9E%D7%99%D7%99%D7%9D/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_zoog.jpg",
+      "thumbnail_url": "assets/events/f580a7ca61cf8f591a5a248e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -6684,7 +6751,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_533cb34493b9a28371a8"
+      "event_id": "auto_ri_533cb34493b9a28371a8",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261128_1100_קוגומלו-–-שכחו-אותי-בג'ונגל",
@@ -6790,7 +6858,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_79f39b31e5ed04647185"
+      "event_id": "auto_ri_79f39b31e5ed04647185",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6815,14 +6884,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/12d386cd514e824295fc4159.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%9C%D7%90%D7%95%D7%A8-%D7%94%D7%96%D7%9B%D7%A8%D7%95%D7%A0%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-2.jpg",
+      "thumbnail_url": "assets/events/12d386cd514e824295fc4159.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -6839,7 +6908,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1fbddc3e2b7a2ec22e53"
+      "event_id": "auto_ri_1fbddc3e2b7a2ec22e53",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -6940,7 +7010,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_09bafa61f59918d579e0"
+      "event_id": "auto_ri_09bafa61f59918d579e0",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -6991,7 +7062,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ed225be0a53efca0fcf5"
+      "event_id": "auto_ri_ed225be0a53efca0fcf5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261129_2030_מורדות",
@@ -7144,7 +7216,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ee8e1de7b8555cc9bcff"
+      "event_id": "auto_ri_ee8e1de7b8555cc9bcff",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "r_k_1201_1900",
@@ -7299,7 +7372,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9"
+      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261203_2100_בוא-לא-נדבר-על-זה",
@@ -7402,7 +7476,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_566e9fcf9b2fb7750335"
+      "event_id": "auto_ri_566e9fcf9b2fb7750335",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261204_2230_אדיר-מילר",
@@ -7779,7 +7854,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7d6b6116d2ed50fe8043"
+      "event_id": "auto_ri_7d6b6116d2ed50fe8043",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -7830,7 +7906,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_664315092d2c22879f09"
+      "event_id": "auto_ri_664315092d2c22879f09",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -7855,14 +7932,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/c7fd558f794673fae0a89bbf.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%99%D7%99-%D7%A1%D7%A7%D7%95%D7%9C-%D7%93%D7%A8%D7%9E%D7%94-%D7%9E%D7%A9%D7%A4%D7%97%D7%AA-%D7%98%D7%A8%D7%A1%D7%95%D7%91/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450-18.jpg",
+      "thumbnail_url": "assets/events/c7fd558f794673fae0a89bbf.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -7879,7 +7956,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_949066053ff2bee127d6"
+      "event_id": "auto_ri_949066053ff2bee127d6",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -7904,14 +7982,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/c7fd558f794673fae0a89bbf.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%99%D7%99-%D7%A1%D7%A7%D7%95%D7%9C-%D7%93%D7%A8%D7%9E%D7%94-%D7%9E%D7%A9%D7%A4%D7%97%D7%AA-%D7%98%D7%A8%D7%A1%D7%95%D7%91/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450-18.jpg",
+      "thumbnail_url": "assets/events/c7fd558f794673fae0a89bbf.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -7928,7 +8006,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ac3f38940f5ebe925d30"
+      "event_id": "auto_ri_ac3f38940f5ebe925d30",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -7977,7 +8056,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_b8a3448ccd5dbbc2e5e8"
+      "event_id": "auto_ri_b8a3448ccd5dbbc2e5e8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261209_1545_קסם-של-כוכבים",
@@ -8410,7 +8490,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6e48e49de929a96372d6"
+      "event_id": "auto_ri_6e48e49de929a96372d6",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261212_1800_שומרי-הדרקונים",
@@ -8571,7 +8652,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_40c2da2d2eb1f0cf0869"
+      "event_id": "auto_ri_40c2da2d2eb1f0cf0869",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -8620,7 +8702,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_e6b14e9157c54d6e0c84"
+      "event_id": "auto_ri_e6b14e9157c54d6e0c84",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261215_2030_לילות-ספרד",
@@ -8721,7 +8804,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_82b655da225846c5e74b"
+      "event_id": "auto_ri_82b655da225846c5e74b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261217_2030_היומן",
@@ -8876,7 +8960,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_828ed0665a4870352dd7"
+      "event_id": "auto_ri_828ed0665a4870352dd7",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -8927,7 +9012,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_d847c14c34f54e74e442"
+      "event_id": "auto_ri_d847c14c34f54e74e442",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20261219_2030_היומן",
@@ -9030,7 +9116,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c3a283081eafdf399788"
+      "event_id": "auto_ri_c3a283081eafdf399788",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9079,7 +9166,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_a62f0c2a656fc7a9a520"
+      "event_id": "auto_ri_a62f0c2a656fc7a9a520",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9104,14 +9192,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/b4544515837f99dd2920bc44.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A0%D7%A9%D7%A3-%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%90%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450-17.jpg",
+      "thumbnail_url": "assets/events/b4544515837f99dd2920bc44.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9128,7 +9216,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8d93e30d9a57c67a8b5e"
+      "event_id": "auto_ri_8d93e30d9a57c67a8b5e",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
@@ -9234,7 +9323,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c837a6c5c4dcc45e3e26"
+      "event_id": "auto_ri_c837a6c5c4dcc45e3e26",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9283,7 +9373,8 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_ri_739f976aac5b7906b987"
+      "event_id": "auto_ri_739f976aac5b7906b987",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9334,7 +9425,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_42d5792076d7221fa16a"
+      "event_id": "auto_ri_42d5792076d7221fa16a",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9385,7 +9477,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c296579af71adc84b6ed"
+      "event_id": "auto_ri_c296579af71adc84b6ed",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9410,14 +9503,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d5bed8f626e490000c67ec2.webp",
+      "image_source": "https://htrl.co.il/show/%D7%99%D7%95%D7%A0%D7%94-%D7%A7%D7%A4%D7%97/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_yona.jpg",
+      "thumbnail_url": "assets/events/3d5bed8f626e490000c67ec2.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9434,7 +9527,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a77df64238624a04ebde"
+      "event_id": "auto_ri_a77df64238624a04ebde",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20261231_2300_אסף-יצחקי-–-מופע-סטנדאפ-לא-מ",
@@ -9537,7 +9631,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_31b7d0fef4cbb7eafaee"
+      "event_id": "auto_ri_31b7d0fef4cbb7eafaee",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
@@ -9643,7 +9738,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b25561e548c2994f563b"
+      "event_id": "auto_ri_b25561e548c2994f563b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "event_id": "htrl_20270102_2030_מחווה-לברברה-סטרייסנד",
@@ -9746,7 +9842,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c6545d6342cb0b0a748b"
+      "event_id": "auto_ri_c6545d6342cb0b0a748b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -9771,14 +9868,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
+      "thumbnail_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9795,7 +9892,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c73bd026b2b848287e0e"
+      "event_id": "auto_ri_c73bd026b2b848287e0e",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -9820,14 +9918,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
+      "thumbnail_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9844,7 +9942,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6cba9bfff171a9433eff"
+      "event_id": "auto_ri_6cba9bfff171a9433eff",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -9869,14 +9968,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
+      "thumbnail_url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9893,7 +9992,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_8361c4dcb9c8bf022984"
+      "event_id": "auto_ri_8361c4dcb9c8bf022984",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20270106_2000_ביג-בנד-–-תזמורת-הג'אז-ראשון",
@@ -9970,14 +10070,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/5c924db5fc807ab1efc5e71d.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A7%D7%A8%D7%95%D7%91-%D7%9C%D7%91%D7%99%D7%AA-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit3-קרוב-לבית.jpg",
+      "thumbnail_url": "assets/events/5c924db5fc807ab1efc5e71d.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -9994,7 +10094,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_70dedb798d17a8edcbe3"
+      "event_id": "auto_ri_70dedb798d17a8edcbe3",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10019,14 +10120,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/25bf3a1c656a6f6daa067de4.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A9%D7%95%D7%A8%D7%A8%D7%99-%D7%94%D7%A8%D7%95%D7%A7/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_rock.jpg",
+      "thumbnail_url": "assets/events/25bf3a1c656a6f6daa067de4.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10043,7 +10144,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ed11c78bb4fc7ee97b44"
+      "event_id": "auto_ri_ed11c78bb4fc7ee97b44",
+      "image_strategy": "official_event_poster"
     },
     {
       "event_id": "htrl_20270108_2130_אודי-כגן",
@@ -10201,7 +10303,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c255ca08e80dd0397608"
+      "event_id": "auto_ri_c255ca08e80dd0397608",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10252,7 +10355,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_3abe6d513dd3cfd846b8"
+      "event_id": "auto_ri_3abe6d513dd3cfd846b8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10277,14 +10381,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/83b652cd4061d5044267535e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%92%D7%93%D7%AA-%D7%94%D7%98%D7%A0%D7%92%D7%95-%D7%94%D7%A2%D7%95%D7%9C%D7%9E%D7%99%D7%AA-%D7%9E%D7%A8%D7%9B%D7%95%D7%A1-%D7%90%D7%A9%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450.jpg",
+      "thumbnail_url": "assets/events/83b652cd4061d5044267535e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10301,7 +10405,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a617e1b52f92a67688ee"
+      "event_id": "auto_ri_a617e1b52f92a67688ee",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10326,14 +10431,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/32a110a2f68b98e5ddcbb527.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_sinderella-2.jpg",
+      "thumbnail_url": "assets/events/32a110a2f68b98e5ddcbb527.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10350,7 +10455,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c9e4680d853c2131795e"
+      "event_id": "auto_ri_c9e4680d853c2131795e",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10401,7 +10507,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_de00461d92b9ccfed297"
+      "event_id": "auto_ri_de00461d92b9ccfed297",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10426,14 +10533,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/14226f5131a39173e2d043f9.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA-%D7%A9%D7%9E%D7%95%D7%A8%D7%99%D7%9D/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4505.jpg",
+      "thumbnail_url": "assets/events/14226f5131a39173e2d043f9.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10450,7 +10557,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0b7b2bf370a5926546d3"
+      "event_id": "auto_ri_0b7b2bf370a5926546d3",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10501,7 +10609,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_15daa1d82a2808917815"
+      "event_id": "auto_ri_15daa1d82a2808917815",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10526,14 +10635,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/2fbb3e62f1229c98abc64fa8.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%9B%D7%9E%D7%95-%D7%91%D7%A1%D7%A8%D7%98/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-3.jpg",
+      "thumbnail_url": "assets/events/2fbb3e62f1229c98abc64fa8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10550,7 +10659,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f9e6c592eff00206f764"
+      "event_id": "auto_ri_f9e6c592eff00206f764",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10575,14 +10685,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/14226f5131a39173e2d043f9.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A7%D7%95%D7%9E%D7%95%D7%AA-%D7%A9%D7%9E%D7%95%D7%A8%D7%99%D7%9D/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4505.jpg",
+      "thumbnail_url": "assets/events/14226f5131a39173e2d043f9.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10599,7 +10709,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e6e5bba71df8da42de78"
+      "event_id": "auto_ri_e6e5bba71df8da42de78",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10624,14 +10735,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/ece32a7822d43f30f3b52c52.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%A9%D7%9C%D7%95%D7%A9%D7%94-%D7%90%D7%92%D7%95%D7%96%D7%99%D7%9D/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_masse.jpg",
+      "thumbnail_url": "assets/events/ece32a7822d43f30f3b52c52.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10648,7 +10759,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9d3e5860ccc613dcbeb8"
+      "event_id": "auto_ri_9d3e5860ccc613dcbeb8",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10699,7 +10811,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6803db105ad81c735cbb"
+      "event_id": "auto_ri_6803db105ad81c735cbb",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10724,14 +10837,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/2c645330222a0889a493ac3c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%A8%D7%91%D7%A2-%D7%94%D7%A2%D7%95%D7%A0%D7%95%D7%AA-%D7%A9%D7%9C-%D7%A0%D7%99%D7%A7%D7%99-%D7%92%D7%95%D7%9C%D7%93%D7%A9%D7%98%D7%99%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-שוחט2.jpg",
+      "thumbnail_url": "assets/events/2c645330222a0889a493ac3c.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10748,7 +10861,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_461c03892973bf1ced6a"
+      "event_id": "auto_ri_461c03892973bf1ced6a",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10799,7 +10913,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9e8765db5f00f5b2dcd5"
+      "event_id": "auto_ri_9e8765db5f00f5b2dcd5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10850,7 +10965,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7010f8704a13da8e7eef"
+      "event_id": "auto_ri_7010f8704a13da8e7eef",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -10875,14 +10991,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/408dbb65416c4b84f1512592.webp",
+      "image_source": "https://htrl.co.il/show/%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%95%D7%A8%D7%A7%D7%A1%D7%98%D7%A8%D7%94-%D7%94%D7%97%D7%93%D7%A9%D7%94-3/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_orcestra.jpg",
+      "thumbnail_url": "assets/events/408dbb65416c4b84f1512592.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -10899,7 +11015,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_926a6208235f42404f92"
+      "event_id": "auto_ri_926a6208235f42404f92",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -10950,7 +11067,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1b1faa7ae65610b99d0f"
+      "event_id": "auto_ri_1b1faa7ae65610b99d0f",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11001,7 +11119,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4fca8df7328001e1d648"
+      "event_id": "auto_ri_4fca8df7328001e1d648",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11026,14 +11145,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/27d03800c7156d8da5558e4a.webp",
+      "image_source": "https://htrl.co.il/show/%D7%99%D7%95%D7%9D-%D7%94%D7%9E%D7%96%D7%9C-%D7%A9%D7%9C%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4508.jpg",
+      "thumbnail_url": "assets/events/27d03800c7156d8da5558e4a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11050,7 +11169,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_558a219d1052b39696d6"
+      "event_id": "auto_ri_558a219d1052b39696d6",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11075,14 +11195,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/27d03800c7156d8da5558e4a.webp",
+      "image_source": "https://htrl.co.il/show/%D7%99%D7%95%D7%9D-%D7%94%D7%9E%D7%96%D7%9C-%D7%A9%D7%9C%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4508.jpg",
+      "thumbnail_url": "assets/events/27d03800c7156d8da5558e4a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11099,7 +11219,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4f3600f81fc79e194691"
+      "event_id": "auto_ri_4f3600f81fc79e194691",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11124,14 +11245,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/35878b8f645ccc6550dcd0cd.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%99%D7%94-%D7%A4%D7%9C%D7%95%D7%98%D7%95/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_pluto.jpg",
+      "thumbnail_url": "assets/events/35878b8f645ccc6550dcd0cd.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11148,7 +11269,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_710472b6e59d7c304485"
+      "event_id": "auto_ri_710472b6e59d7c304485",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11199,7 +11321,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9143b93d1dba2cd9d09a"
+      "event_id": "auto_ri_9143b93d1dba2cd9d09a",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11224,14 +11347,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/aaeb73e670fcf8821cef837f.webp",
+      "image_source": "https://htrl.co.il/show/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%97%D7%9F-2/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_daniel.jpg",
+      "thumbnail_url": "assets/events/aaeb73e670fcf8821cef837f.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11248,7 +11371,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c9ca38ece861083f0aa0"
+      "event_id": "auto_ri_c9ca38ece861083f0aa0",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11299,7 +11423,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4752797d79f1e8b10783"
+      "event_id": "auto_ri_4752797d79f1e8b10783",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11324,14 +11449,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11348,7 +11473,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1b5c1261f2ec07967a9d"
+      "event_id": "auto_ri_1b5c1261f2ec07967a9d",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11373,14 +11499,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11397,7 +11523,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a1c4ffe96599dda7e103"
+      "event_id": "auto_ri_a1c4ffe96599dda7e103",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11448,7 +11575,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e231981777e3d462b16e"
+      "event_id": "auto_ri_e231981777e3d462b16e",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11473,14 +11601,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11497,7 +11625,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f1e0d465ae61c5771514"
+      "event_id": "auto_ri_f1e0d465ae61c5771514",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11522,14 +11651,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11546,7 +11675,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0ac7e78cf8e9ec8778c8"
+      "event_id": "auto_ri_0ac7e78cf8e9ec8778c8",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11571,14 +11701,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11595,7 +11725,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b527ce202428ac4fcb6f"
+      "event_id": "auto_ri_b527ce202428ac4fcb6f",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11646,7 +11777,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_51a977e786cea8a0efca"
+      "event_id": "auto_ri_51a977e786cea8a0efca",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11671,14 +11803,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%91%D7%99%D7%A8%D7%AA%D7%99-%D7%94%D7%A0%D7%90%D7%95%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
+      "thumbnail_url": "assets/events/3d7da91a82ef28209d526721.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11695,7 +11827,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_d8f2b53be8fca7562229"
+      "event_id": "auto_ri_d8f2b53be8fca7562229",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11746,7 +11879,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_76afa79ba60137c450ac"
+      "event_id": "auto_ri_76afa79ba60137c450ac",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11797,7 +11931,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b1d3d991d1f8d8042079"
+      "event_id": "auto_ri_b1d3d991d1f8d8042079",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11822,14 +11957,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/676ea8e32f625ba8f5a2a13c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%A0%D7%A2%D7%A8%D7%94-%D7%9E%D7%94%D7%93%D7%95%D7%90%D7%A8/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4507.jpg",
+      "thumbnail_url": "assets/events/676ea8e32f625ba8f5a2a13c.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11846,7 +11981,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_893e66b1831b18ea508e"
+      "event_id": "auto_ri_893e66b1831b18ea508e",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11897,7 +12033,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_94ade0bdfcafcb865920"
+      "event_id": "auto_ri_94ade0bdfcafcb865920",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -11922,14 +12059,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/676ea8e32f625ba8f5a2a13c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%A0%D7%A2%D7%A8%D7%94-%D7%9E%D7%94%D7%93%D7%95%D7%90%D7%A8/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4507.jpg",
+      "thumbnail_url": "assets/events/676ea8e32f625ba8f5a2a13c.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -11946,7 +12083,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a909045a85046ee95a26"
+      "event_id": "auto_ri_a909045a85046ee95a26",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -11997,7 +12135,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a822b32458e12a26bb4e"
+      "event_id": "auto_ri_a822b32458e12a26bb4e",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12048,7 +12187,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f7dab76c65c5e0654662"
+      "event_id": "auto_ri_f7dab76c65c5e0654662",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12073,14 +12213,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/91fc725c4d975bae0fd2d836.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A4%D7%98%D7%A8-%D7%95%D7%94%D7%96%D7%90%D7%91-2/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_wolf.jpg",
+      "thumbnail_url": "assets/events/91fc725c4d975bae0fd2d836.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12097,7 +12237,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_02ebffc6eafa01a5a110"
+      "event_id": "auto_ri_02ebffc6eafa01a5a110",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12148,7 +12289,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_848e9b60630b0b0653e5"
+      "event_id": "auto_ri_848e9b60630b0b0653e5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12199,7 +12341,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_85dab1def11db8e84dfe"
+      "event_id": "auto_ri_85dab1def11db8e84dfe",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12224,14 +12367,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/b832253da79a60ce9a39e3f6.webp",
+      "image_source": "https://htrl.co.il/show/%D7%91%D7%9C%D7%98-%D7%A4%D7%9C%D7%9E%D7%A0%D7%A7%D7%95-%D7%91%D7%A8%D7%A6%D7%9C%D7%95%D7%A0%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/01/new_site_320_450_flamenco.jpg",
+      "thumbnail_url": "assets/events/b832253da79a60ce9a39e3f6.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12248,7 +12391,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4a69f43df74357c6be79"
+      "event_id": "auto_ri_4a69f43df74357c6be79",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12273,14 +12417,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/68326949e84ccb7b4c1e32c7.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A8-%D7%92%D7%A8%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_green.jpg",
+      "thumbnail_url": "assets/events/68326949e84ccb7b4c1e32c7.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12297,7 +12441,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_404cd357af69f6f32349"
+      "event_id": "auto_ri_404cd357af69f6f32349",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12348,7 +12493,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_dc8d43558bed2a21f485"
+      "event_id": "auto_ri_dc8d43558bed2a21f485",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12373,14 +12519,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/68326949e84ccb7b4c1e32c7.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A8-%D7%92%D7%A8%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_green.jpg",
+      "thumbnail_url": "assets/events/68326949e84ccb7b4c1e32c7.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12397,7 +12543,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9794f2a615abbce012fb"
+      "event_id": "auto_ri_9794f2a615abbce012fb",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12448,7 +12595,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_3f13d02d1f4d1eb791b7"
+      "event_id": "auto_ri_3f13d02d1f4d1eb791b7",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12499,7 +12647,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0884d96fd15debfa455f"
+      "event_id": "auto_ri_0884d96fd15debfa455f",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12550,7 +12699,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4296856fe07cb91e6a1b"
+      "event_id": "auto_ri_4296856fe07cb91e6a1b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12575,14 +12725,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a44570b9804820903b9aad5d.webp",
+      "image_source": "https://htrl.co.il/show/%D7%97%D7%A0%D7%90%D7%9C-%D7%95%D7%9E%D7%9B%D7%91%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4506.jpg",
+      "thumbnail_url": "assets/events/a44570b9804820903b9aad5d.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12599,7 +12749,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_2a4d64e562e25b1eaed0"
+      "event_id": "auto_ri_2a4d64e562e25b1eaed0",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12624,14 +12775,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a44570b9804820903b9aad5d.webp",
+      "image_source": "https://htrl.co.il/show/%D7%97%D7%A0%D7%90%D7%9C-%D7%95%D7%9E%D7%9B%D7%91%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4506.jpg",
+      "thumbnail_url": "assets/events/a44570b9804820903b9aad5d.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12648,7 +12799,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_5a825892bd93dc7f1f90"
+      "event_id": "auto_ri_5a825892bd93dc7f1f90",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12699,7 +12851,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_907d8abdbf2d2dfc1e23"
+      "event_id": "auto_ri_907d8abdbf2d2dfc1e23",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12724,14 +12877,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/a98b5d2383f7b337089b1894.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%A6%D7%9C%D7%99%D7%9C%D7%99-%D7%94%D7%A0%D7%95%D7%A1%D7%98%D7%9C%D7%92%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-4-1.jpg",
+      "thumbnail_url": "assets/events/a98b5d2383f7b337089b1894.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12748,7 +12901,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e1c59473d35846923619"
+      "event_id": "auto_ri_e1c59473d35846923619",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12799,7 +12953,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7d5a22c25f13d23481ea"
+      "event_id": "auto_ri_7d5a22c25f13d23481ea",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12850,7 +13005,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_84dce0a5eda4ba4e6870"
+      "event_id": "auto_ri_84dce0a5eda4ba4e6870",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12875,14 +13031,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
+      "thumbnail_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12899,7 +13055,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_729c6a5194d2f00b4ee2"
+      "event_id": "auto_ri_729c6a5194d2f00b4ee2",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -12950,7 +13107,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f0a17c6bf13ea56215df"
+      "event_id": "auto_ri_f0a17c6bf13ea56215df",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -12975,14 +13133,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
+      "thumbnail_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -12999,7 +13157,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ef0b8bfdb7be40c143d8"
+      "event_id": "auto_ri_ef0b8bfdb7be40c143d8",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13024,14 +13183,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
+      "thumbnail_url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13048,7 +13207,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f0a341b59e3cb72a992b"
+      "event_id": "auto_ri_f0a341b59e3cb72a992b",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13099,7 +13259,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7148a81ea9703cea094b"
+      "event_id": "auto_ri_7148a81ea9703cea094b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13150,7 +13311,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1a4ce53424b416eddd00"
+      "event_id": "auto_ri_1a4ce53424b416eddd00",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13175,14 +13337,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/f9730dd7602ca72332cc1f01.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%A9%D7%95%D7%9F-%D7%92%D7%91%D7%90%D7%99-%D7%9E%D7%95%D7%A6%D7%90%D7%A8%D7%98-%D7%95%D7%A1%D7%90%D7%9C%D7%99%D7%99%D7%A8%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-שוחט3.jpg",
+      "thumbnail_url": "assets/events/f9730dd7602ca72332cc1f01.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13199,7 +13361,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4c1c7eaddbef90344034"
+      "event_id": "auto_ri_4c1c7eaddbef90344034",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13224,14 +13387,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-19.jpg",
+      "thumbnail_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13248,7 +13411,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1f79dd7b9c204fde6041"
+      "event_id": "auto_ri_1f79dd7b9c204fde6041",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13299,7 +13463,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1de888b22463559eb4f7"
+      "event_id": "auto_ri_1de888b22463559eb4f7",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13324,14 +13489,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-19.jpg",
+      "thumbnail_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13348,7 +13513,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a43543b8929c6b9b2a79"
+      "event_id": "auto_ri_a43543b8929c6b9b2a79",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13373,14 +13539,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-19.jpg",
+      "thumbnail_url": "assets/events/e3f158e0a0edb16e333def75.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13397,7 +13563,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0289eb1a9757155260d0"
+      "event_id": "auto_ri_0289eb1a9757155260d0",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13448,7 +13615,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a014fa8549f66e6e57ec"
+      "event_id": "auto_ri_a014fa8549f66e6e57ec",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13473,14 +13641,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/abce6ee187a16f1bbbc13a37.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%9E%D7%97%D7%AA-%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit4-שמחת-עולם.jpg",
+      "thumbnail_url": "assets/events/abce6ee187a16f1bbbc13a37.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13497,7 +13665,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_f31cad80c2e07b5b15ba"
+      "event_id": "auto_ri_f31cad80c2e07b5b15ba",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13522,14 +13691,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/9bb79de194a61e8ed815b8f1.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%95%D7%9C%D7%99%D7%99%D7%AA-%D7%94%D7%A7%D7%95%D7%A1%D7%9D/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_shulia.jpg",
+      "thumbnail_url": "assets/events/9bb79de194a61e8ed815b8f1.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13546,7 +13715,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7212c0b3856090e2c0cd"
+      "event_id": "auto_ri_7212c0b3856090e2c0cd",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13597,7 +13767,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_31822a9151f3171d03d1"
+      "event_id": "auto_ri_31822a9151f3171d03d1",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13622,14 +13793,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/679238a9204e1d3ac415b40a.webp",
+      "image_source": "https://htrl.co.il/show/70-fm/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_4503.jpg",
+      "thumbnail_url": "assets/events/679238a9204e1d3ac415b40a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13646,7 +13817,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_914cd224e8598f5f7144"
+      "event_id": "auto_ri_914cd224e8598f5f7144",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13671,14 +13843,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%99%D7%96%D7%91%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_isabela.jpg",
+      "thumbnail_url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13695,7 +13867,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_306da84ef9a9eb6f3316"
+      "event_id": "auto_ri_306da84ef9a9eb6f3316",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13746,7 +13919,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4e3b4ecf5ce1ee3a94c8"
+      "event_id": "auto_ri_4e3b4ecf5ce1ee3a94c8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13771,14 +13945,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%99%D7%96%D7%91%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_isabela.jpg",
+      "thumbnail_url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13795,7 +13969,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_74a430e4f689438c734a"
+      "event_id": "auto_ri_74a430e4f689438c734a",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13846,7 +14021,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0cc337d513531b6e3936"
+      "event_id": "auto_ri_0cc337d513531b6e3936",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -13871,14 +14047,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%92%D7%9E%D7%9E%D7%A0%D7%95%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_agamnon.jpg",
+      "thumbnail_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13895,7 +14071,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_091bb0fbcbe01707697b"
+      "event_id": "auto_ri_091bb0fbcbe01707697b",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13920,14 +14097,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%92%D7%9E%D7%9E%D7%A0%D7%95%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_agamnon.jpg",
+      "thumbnail_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13944,7 +14121,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9306625e115b2972d96b"
+      "event_id": "auto_ri_9306625e115b2972d96b",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -13969,14 +14147,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%92%D7%9E%D7%9E%D7%A0%D7%95%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_agamnon.jpg",
+      "thumbnail_url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -13993,7 +14171,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e6e3ec0d936cdd2d8cdd"
+      "event_id": "auto_ri_e6e3ec0d936cdd2d8cdd",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14044,7 +14223,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_d38d406865f99f218694"
+      "event_id": "auto_ri_d38d406865f99f218694",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14095,7 +14275,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_6303a1c02931ab1b11ab"
+      "event_id": "auto_ri_6303a1c02931ab1b11ab",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14120,14 +14301,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/01ad4e71675fb20a41243997.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%95%D7%A0%D7%90%D7%99%D7%9D-%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%90%D7%94%D7%91%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4509.jpg",
+      "thumbnail_url": "assets/events/01ad4e71675fb20a41243997.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14144,7 +14325,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b3669e960ae892cc69ae"
+      "event_id": "auto_ri_b3669e960ae892cc69ae",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14193,7 +14375,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_72244114dfc3d65f7e6a"
+      "event_id": "auto_ri_72244114dfc3d65f7e6a",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14218,14 +14401,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/01ad4e71675fb20a41243997.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A9%D7%95%D7%A0%D7%90%D7%99%D7%9D-%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%90%D7%94%D7%91%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4509.jpg",
+      "thumbnail_url": "assets/events/01ad4e71675fb20a41243997.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14242,7 +14425,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_92b757b44b60eb277aea"
+      "event_id": "auto_ri_92b757b44b60eb277aea",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14293,7 +14477,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_3874b24f4565aee87c5b"
+      "event_id": "auto_ri_3874b24f4565aee87c5b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14344,7 +14529,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0e31c5445fd7769536b1"
+      "event_id": "auto_ri_0e31c5445fd7769536b1",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14395,7 +14581,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_aea03051ae803ee77e04"
+      "event_id": "auto_ri_aea03051ae803ee77e04",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14446,7 +14633,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0b3ddb6fa1a3db88485e"
+      "event_id": "auto_ri_0b3ddb6fa1a3db88485e",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14497,7 +14685,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_65f4888cda7e9e02068b"
+      "event_id": "auto_ri_65f4888cda7e9e02068b",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14522,14 +14711,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/73cca8193285e847180b9e2e.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%A7%D7%99%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450-6.jpg",
+      "thumbnail_url": "assets/events/73cca8193285e847180b9e2e.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14546,7 +14735,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_7b363fd87bb0473e27eb"
+      "event_id": "auto_ri_7b363fd87bb0473e27eb",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14597,7 +14787,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ce80d1d7da5147b0f8e6"
+      "event_id": "auto_ri_ce80d1d7da5147b0f8e6",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14622,14 +14813,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/cfe3673818199f303d0334f8.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%B3%D7%99%D7%A0%D7%92%D7%B3%D7%99/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_gingi.jpg",
+      "thumbnail_url": "assets/events/cfe3673818199f303d0334f8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14646,7 +14837,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9e08833c5a4efeffb4a1"
+      "event_id": "auto_ri_9e08833c5a4efeffb4a1",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14671,14 +14863,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/0a7ab18b026a7b269655043b.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A4%D7%A2-%D7%9E%D7%97%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9C%D7%98%D7%95%D7%9F-%D7%92%D7%95%D7%9F/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_4504.jpg",
+      "thumbnail_url": "assets/events/0a7ab18b026a7b269655043b.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14695,7 +14887,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a4f8a6cc4add59cb1a53"
+      "event_id": "auto_ri_a4f8a6cc4add59cb1a53",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14746,7 +14939,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_a1491e70871c2b42ef32"
+      "event_id": "auto_ri_a1491e70871c2b42ef32",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14771,14 +14965,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/615c4c8c8df66fb238d6dafe.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A0%D7%93%D7%9C%D7%A1%D7%95%D7%9F-%D7%A4%D7%99%D7%A0%D7%AA-%D7%90%D7%95%D7%93%D7%99%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-שוחט4.jpg",
+      "thumbnail_url": "assets/events/615c4c8c8df66fb238d6dafe.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14795,7 +14989,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9fd9c0a7f4c18554ff95"
+      "event_id": "auto_ri_9fd9c0a7f4c18554ff95",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -14846,7 +15041,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_9be080c28e844e0f0ef0"
+      "event_id": "auto_ri_9be080c28e844e0f0ef0",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14897,7 +15093,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_defde076ea93a56a49fe"
+      "event_id": "auto_ri_defde076ea93a56a49fe",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14948,7 +15145,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_43772e9d971ecaeb6097"
+      "event_id": "auto_ri_43772e9d971ecaeb6097",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -14973,14 +15171,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/64c276f8ba637f170e904bac.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%93-%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit2-הד-אנדלוסי.jpg",
+      "thumbnail_url": "assets/events/64c276f8ba637f170e904bac.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -14997,7 +15195,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_69f43e51179a1699423e"
+      "event_id": "auto_ri_69f43e51179a1699423e",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15048,7 +15247,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_e2528c88fe0188779e67"
+      "event_id": "auto_ri_e2528c88fe0188779e67",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15073,14 +15273,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/9e656ecc459f7337e444dec9.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%94%D7%93%D7%99%D7%95%D7%95%D7%AA-%D7%94%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-6.jpg",
+      "thumbnail_url": "assets/events/9e656ecc459f7337e444dec9.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15097,7 +15297,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_682f12e71f6b6e7158be"
+      "event_id": "auto_ri_682f12e71f6b6e7158be",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15148,7 +15349,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_856dbd3b22911caaa590"
+      "event_id": "auto_ri_856dbd3b22911caaa590",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15173,14 +15375,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%90%D7%9C%D7%9E%D7%A0%D7%95%D7%AA-%D7%94%D7%A2%D7%9C%D7%99%D7%96%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-13.jpg",
+      "thumbnail_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15197,7 +15399,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ebc1f36f41b5acd259d8"
+      "event_id": "auto_ri_ebc1f36f41b5acd259d8",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15222,14 +15425,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%90%D7%9C%D7%9E%D7%A0%D7%95%D7%AA-%D7%94%D7%A2%D7%9C%D7%99%D7%96%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-13.jpg",
+      "thumbnail_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15246,7 +15449,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b97a7fcc29e440a57af1"
+      "event_id": "auto_ri_b97a7fcc29e440a57af1",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15297,7 +15501,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_aa370ea73e54f0311e2d"
+      "event_id": "auto_ri_aa370ea73e54f0311e2d",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15322,14 +15527,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%90%D7%9C%D7%9E%D7%A0%D7%95%D7%AA-%D7%94%D7%A2%D7%9C%D7%99%D7%96%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-13.jpg",
+      "thumbnail_url": "assets/events/58ca7c42f18b61db44a5c405.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15346,7 +15551,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_2d499be542e539f82445"
+      "event_id": "auto_ri_2d499be542e539f82445",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15397,7 +15603,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_fc5f145ceaede72d05c7"
+      "event_id": "auto_ri_fc5f145ceaede72d05c7",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15448,7 +15655,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_c2af9fd48475945f262c"
+      "event_id": "auto_ri_c2af9fd48475945f262c",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15473,14 +15681,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%9C%D7%91-%D7%A9%D7%9C%D7%99-%D7%A9%D7%9C%D7%9A/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_heart.jpg",
+      "thumbnail_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15497,7 +15705,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_08f111128ca403026d4d"
+      "event_id": "auto_ri_08f111128ca403026d4d",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15522,14 +15731,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%9C%D7%91-%D7%A9%D7%9C%D7%99-%D7%A9%D7%9C%D7%9A/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_heart.jpg",
+      "thumbnail_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15546,7 +15755,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_55798e6f8403eb7aef1b"
+      "event_id": "auto_ri_55798e6f8403eb7aef1b",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15571,14 +15781,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "image_source": "https://htrl.co.il/show/%D7%94%D7%9C%D7%91-%D7%A9%D7%9C%D7%99-%D7%A9%D7%9C%D7%9A/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_heart.jpg",
+      "thumbnail_url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15595,7 +15805,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_5356aa6cfb7b450260f4"
+      "event_id": "auto_ri_5356aa6cfb7b450260f4",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15646,7 +15857,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_2fa7fc9f6720628b7976"
+      "event_id": "auto_ri_2fa7fc9f6720628b7976",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15697,7 +15909,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ece19693282f1ce06100"
+      "event_id": "auto_ri_ece19693282f1ce06100",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15748,7 +15961,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_abb5a0267089df19bacf"
+      "event_id": "auto_ri_abb5a0267089df19bacf",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15799,7 +16013,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_4c773f396b1aaeaf46a5"
+      "event_id": "auto_ri_4c773f396b1aaeaf46a5",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15850,7 +16065,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_250edc799a3f7be8bcb8"
+      "event_id": "auto_ri_250edc799a3f7be8bcb8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -15875,14 +16091,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/215f92bf1520a1e188cbfd8b.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%9E%D7%A0%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-16.jpg",
+      "thumbnail_url": "assets/events/215f92bf1520a1e188cbfd8b.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15899,7 +16115,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_b7e64d3b019940e8e020"
+      "event_id": "auto_ri_b7e64d3b019940e8e020",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15924,14 +16141,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/215f92bf1520a1e188cbfd8b.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%9E%D7%A0%D7%95%D7%AA/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-16.jpg",
+      "thumbnail_url": "assets/events/215f92bf1520a1e188cbfd8b.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -15948,7 +16165,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_5fc31df0239cbf0894cf"
+      "event_id": "auto_ri_5fc31df0239cbf0894cf",
+      "image_strategy": "official_event_poster"
     },
     {
       "city": "ראשון לציון",
@@ -15999,7 +16217,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0625eb315eff9982ffa8"
+      "event_id": "auto_ri_0625eb315eff9982ffa8",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16050,7 +16269,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_bc0d747ee30a521df3bf"
+      "event_id": "auto_ri_bc0d747ee30a521df3bf",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16101,7 +16321,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_0540d1b4d7a15fbddf09"
+      "event_id": "auto_ri_0540d1b4d7a15fbddf09",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16152,7 +16373,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_ddeef1238328db9273ae"
+      "event_id": "auto_ri_ddeef1238328db9273ae",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16203,7 +16425,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_1649d4683c33e5b4a375"
+      "event_id": "auto_ri_1649d4683c33e5b4a375",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16254,7 +16477,8 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_d93faba6fc59caed91bb"
+      "event_id": "auto_ri_d93faba6fc59caed91bb",
+      "image_strategy": "awaiting_official_event_image"
     },
     {
       "city": "ראשון לציון",
@@ -16305,8 +16529,9 @@
       "quality_flags": [
         "automated_official_calendar"
       ],
-      "event_id": "auto_ri_dc1b4c93088470b99b92"
+      "event_id": "auto_ri_dc1b4c93088470b99b92",
+      "image_strategy": "awaiting_official_event_image"
     }
   ],
-  "image_audit_generated_at": "2026-10-06T11:57:44Z"
+  "image_audit_generated_at": "2026-10-06T13:12:41Z"
 }

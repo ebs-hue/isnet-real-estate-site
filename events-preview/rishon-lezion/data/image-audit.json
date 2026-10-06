@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-10-06T11:57:44Z",
-  "total_events": 93,
-  "verified_event_photos": 76,
-  "unverified_event_photos": 17,
+  "generated_at": "2026-10-06T13:12:41Z",
+  "total_events": 320,
+  "verified_event_photos": 156,
+  "unverified_event_photos": 164,
   "breakdown": {
+    "kotar_rishon_missing": 33,
     "yama_matched": 6,
-    "kotar_rishon_missing": 9,
-    "htrl_matched": 51,
+    "htrl_adults_missing": 103,
     "RIZONE+_missing": 2,
-    "same_production_reused": 19,
-    "htrl_missing": 1,
-    "Eventim_missing": 2
+    "htrl_missing": 3,
+    "htrl_matched": 46,
+    "Eventim_missing": 2,
+    "same_production_reused": 26
   },
   "manual_review": [
     {
@@ -20,9 +21,39 @@
       "candidate_pages": []
     },
     {
+      "event_id": "auto_ri_ddd150519fa5366e7e70",
+      "title": "שירותי הענן של מייקרוסופט",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_2a088f32e6a9729f383b",
+      "title": "מפגש עם הסופרת איילת מועלם אליה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_fc5a55d7397f123bab70",
+      "title": "שפת הגוף התנכ\"ית",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
       "event_id": "r_r_1011_0800",
       "title": "כנס משתחררים.ות ראשון לציון",
       "source": "RIZONE+",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
+      "title": "צלילים וסיפורונים לטף",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_f034b0005aba57961c7e",
+      "title": "פרלמנט גברים",
+      "source": "htrl_adults",
       "candidate_pages": []
     },
     {
@@ -38,15 +69,117 @@
       "candidate_pages": []
     },
     {
+      "event_id": "auto_ri_217b952badfd1b4d449f",
+      "title": "היה היה יער",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7f3f8603182bddf96986",
+      "title": "מפוחית וגיטרה עם יואב",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_47445078968e008a3590",
+      "title": "משחקי הכס – תה עם המלכה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c29d4eb1580388cda652",
+      "title": "סדנא באומנות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ceed327264a9be96483d",
+      "title": "הרצאה – על רגל אחת",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_4e39de0caba699a70faf",
+      "title": "מועדון ריקודים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
       "event_id": "r_k_1014_1700",
       "title": "הברווזון המכוער",
       "source": "kotar_rishon",
       "candidate_pages": []
     },
     {
+      "event_id": "auto_ri_50b4293a26086f6bd52d",
+      "title": "ידיעת זהב",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e505893f7b8f2841a928",
+      "title": "מעשה בשני אחים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6a952281b9a1d50de945",
+      "title": "דילמות במשפחה היהודית בתרבות היידיש",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_db3580485033a14ef6d5",
+      "title": "שושנה דמארי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
       "event_id": "r_k_1019_1700",
       "title": "בגדי המלך החדשים",
       "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e3d7cdfcbc169c4ed405",
+      "title": "מר צפרדע והנחל המתוק",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_fc5619ae590998dbc800",
+      "title": "סיור אומנות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_1ac2e2abafd31224d2b8",
+      "title": "הרצאה – סוד המוח הצעיר",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_747d4b2b4f68573f3c7c",
+      "title": "סוד המוח הצעיר",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_02c01ca271e49574910d",
+      "title": "סוד המוח הצעיר: הרצאה חווייתית הכוללת משחקי חשיבה וחידות היגיון",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_eea0508fecc5a94b38c4",
+      "title": "עומרי שומע?",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ccdb04e5dda0029fefcf",
+      "title": "תגבירו את המזגן – אני בוערת",
+      "source": "htrl_adults",
       "candidate_pages": []
     },
     {
@@ -58,9 +191,63 @@
       ]
     },
     {
+      "event_id": "auto_ri_8bf1857ce8efe2c7632b",
+      "title": "מגילת העצמאות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_f8c3bb5affa596c56f45",
+      "title": "תופעת הנבואה הקדומה בישראל",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5db20ec91884846d7f9c",
+      "title": "הסמול טוק: החשיבות הגדולה של “הדיבור הקטן”–העברת מסרים בתקשורת הבין אישית",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5d36e550b39190e205f9",
+      "title": "בוב דילן: \"סדרת אל תוך השיר\"",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_d94def1e415a270c1d23",
+      "title": "המסע לארץ החפצים האבודים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_268aa53a2a2e6191a461",
+      "title": "מרגלות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
       "event_id": "r_k_1101_1830",
       "title": "בוק סרפינג: מפגש בנושא כוחה של מילה",
       "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ba6b4e505006468bd433",
+      "title": "סדנא חוויתית",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_8929f9caaaca744a7355",
+      "title": "קבלת שבת עם הרבה תמרה שיפרין",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ef5a2949e63b77022201",
+      "title": "הספרים החיצוניים",
+      "source": "htrl_adults",
       "candidate_pages": []
     },
     {
@@ -70,9 +257,81 @@
       "candidate_pages": []
     },
     {
+      "event_id": "auto_ri_58355c48443b8ba20e67",
+      "title": "מופע מוזיקלי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
       "event_id": "r_k_1110_2000",
       "title": "מעצבי תודעה: אם זכרוני אינו מטעה אותי",
       "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5ae95426b72999337efa",
+      "title": "עולם האופנה: אומיגלי-אופנה יפנית",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7b5b465ab1f330252c29",
+      "title": "צלילי הכליזמר",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5afe05b14e34d576ef1b",
+      "title": "חילוץ תרמילאים נפגעי סמים בחו״ל",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6aad8da7bc902f777752",
+      "title": "סדרת \"עולמו המופלא של התנ\"ך: ויהי ערב, ויהי בוקר",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ed6d091469f1efd1d75c",
+      "title": "בארבע מעשיות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_3eecf4ed903792fdc662",
+      "title": "הקרנת סרט",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_01ec9136220540e351ab",
+      "title": "לחשוב מחוץ לקופסה – פרלמנט גברים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_af02c6eaeb65f83de9e0",
+      "title": "עולם האופנה: פועלת אופנה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0d8d53133bb98afc2c4f",
+      "title": "לשתול עץ דקל מעל קברי",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6096a30d16df052784ba",
+      "title": "אולסי פרי הסיפור שלא נגמר",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_62bc846af26ed44811d8",
+      "title": "רוקדים לצלילי אלביס",
+      "source": "htrl_adults",
       "candidate_pages": []
     },
     {
@@ -82,9 +341,53 @@
       "candidate_pages": []
     },
     {
+      "event_id": "auto_ri_8456a441b67eb5c499a5",
+      "title": "אלכסנדר פן: \"היה או לא היה\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_79f39b31e5ed04647185",
+      "title": "לוח השנה העברי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_09bafa61f59918d579e0",
+      "title": "משעמם לי!",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ed225be0a53efca0fcf5",
+      "title": "ימין ושמאל – רק חול וחול",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ee8e1de7b8555cc9bcff",
+      "title": "שיח המקדים ל\"מורדות\" עם אמנון לוי",
+      "source": "htrl",
+      "candidate_pages": [
+        "https://htrl.co.il/show/%D7%A9%D7%99%D7%97-%D7%94%D7%9E%D7%A7%D7%93%D7%99%D7%9D-%D7%9C-%D7%9E%D7%95%D7%A8%D7%93%D7%95%D7%AA-%D7%A2%D7%9D-%D7%90%D7%9E%D7%A0%D7%95%D7%9F-%D7%9C%D7%95%D7%99/"
+      ]
+    },
+    {
       "event_id": "r_k_1201_1900",
       "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
       "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9",
+      "title": "עולם האופנה: שמש ומדבר",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_566e9fcf9b2fb7750335",
+      "title": "קבלת שבת עם הרב בני מינץ",
+      "source": "htrl_adults",
       "candidate_pages": []
     },
     {
@@ -102,6 +405,484 @@
       "candidate_pages": [
         "https://www.eventim.co.il/city/%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9C%D7%A6%D7%99%D7%95%D7%9F-1951/"
       ]
+    },
+    {
+      "event_id": "auto_ri_7d6b6116d2ed50fe8043",
+      "title": "חנוכה, נר שני",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_664315092d2c22879f09",
+      "title": "אי טרופי אבוד – קובה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_b8a3448ccd5dbbc2e5e8",
+      "title": "חגיגת זמר ישראלית לכבוד חג האורות",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6e48e49de929a96372d6",
+      "title": "מכבים אנחנו",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_40c2da2d2eb1f0cf0869",
+      "title": "לגלות תרבות ממבט מגדרי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e6b14e9157c54d6e0c84",
+      "title": "אל תוך הנשמה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_82b655da225846c5e74b",
+      "title": "הבמה ככלי ריפוי: כי הגוף יודע...",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_828ed0665a4870352dd7",
+      "title": "פרשת השבוע",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_d847c14c34f54e74e442",
+      "title": "ג׳אז במדים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c3a283081eafdf399788",
+      "title": "מה שהיה בינינו",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a62f0c2a656fc7a9a520",
+      "title": "עין תחת עין: גלגולו של מושג הנקמה בתרבות",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c837a6c5c4dcc45e3e26",
+      "title": "שירי שבת בין ציון וציונות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_739f976aac5b7906b987",
+      "title": "ספריות, ידע ובינה מלאכותית בעידן של עומס המידע",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_42d5792076d7221fa16a",
+      "title": "בין יפו לפיראוס",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c296579af71adc84b6ed",
+      "title": "ויסלבה שימבורסקה \" אחדים אוהבים שירה\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_31b7d0fef4cbb7eafaee",
+      "title": "קבלת שבת עם אריאל הכהן",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_b25561e548c2994f563b",
+      "title": "חלקן של הנשים בחיי משה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c6545d6342cb0b0a748b",
+      "title": "מה זאת אהבה? מושג האהבה באומנויות ובתרבות בצרפת",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c255ca08e80dd0397608",
+      "title": "קין והבל",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_3abe6d513dd3cfd846b8",
+      "title": "חמישה חוקי טיפשות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_de00461d92b9ccfed297",
+      "title": "איך צ'רצ'יל נהיה צ'רצ'יל?",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_15daa1d82a2808917815",
+      "title": "עקדת יצחק",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6803db105ad81c735cbb",
+      "title": "מיערות הגשם לערים – אקוודור",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_9e8765db5f00f5b2dcd5",
+      "title": "משורר על הבמה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7010f8704a13da8e7eef",
+      "title": "דבר אליי בפרחים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_1b1faa7ae65610b99d0f",
+      "title": "איך זה שכוכב אחד מעז",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_4fca8df7328001e1d648",
+      "title": "בוב דילן: זמנים משתנים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_9143b93d1dba2cd9d09a",
+      "title": "כי האדם הוא עץ השדה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_4752797d79f1e8b10783",
+      "title": "אתונה פינת איזמיר",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e231981777e3d462b16e",
+      "title": "״הגלריה הלאומית\" לונדון",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_51a977e786cea8a0efca",
+      "title": "קבל שבת עם הרב בני מינץ",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_76afa79ba60137c450ac",
+      "title": "שיעור ראשון: יסודות הטלוויזיה והמדיה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_b1d3d991d1f8d8042079",
+      "title": "מאיר אריאל: \"צולל חפשי ללא מצנח\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_94ade0bdfcafcb865920",
+      "title": "ניגון נשמה בוכרית",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a822b32458e12a26bb4e",
+      "title": "איה – החמור, הפילוסוף של יער ת\"ק הפרסאות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_f7dab76c65c5e0654662",
+      "title": "שיעור שני: יסודות הטלוויזיה והמדיה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_848e9b60630b0b0653e5",
+      "title": "שיעור שלישי: יסודות הטלוויזיה והמדיה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_85dab1def11db8e84dfe",
+      "title": "שאנסונים על סיפורי האהבה הגדולים בהיסטוריה הצרפתית",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_dc8d43558bed2a21f485",
+      "title": "מפגש וסרט \"לחיות על אדמה רועדת\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_3f13d02d1f4d1eb791b7",
+      "title": "שיעור רביעי: יסודות הטלוויזיה והמדיה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0884d96fd15debfa455f",
+      "title": "נדודים לנצח – ערבות מונגוליה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_4296856fe07cb91e6a1b",
+      "title": "כשהסיפור שייך לה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7d5a22c25f13d23481ea",
+      "title": "שיעור חמישי: יסודות הטלוויזיה והמדיה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_84dce0a5eda4ba4e6870",
+      "title": "הזמיר הישראלי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_f0a17c6bf13ea56215df",
+      "title": "מוזיאון \"המטרופוליטן\" ניו יורק",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7148a81ea9703cea094b",
+      "title": "אני ונעמי סערות וגעגוע",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_1a4ce53424b416eddd00",
+      "title": "תרצה אתר: \"בגלל הלילה\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_1de888b22463559eb4f7",
+      "title": "הוליווד על הבמה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a014fa8549f66e6e57ec",
+      "title": "מסע אל לב השיר הצרפתי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_31822a9151f3171d03d1",
+      "title": "המוזיקאי ד\"ר רז יצחקי ידבר וינגן נינה סימון",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0cc337d513531b6e3936",
+      "title": "הקסם של הודו",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_d38d406865f99f218694",
+      "title": "חצות בפריז",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6303a1c02931ab1b11ab",
+      "title": "זה היה בסוף הקיץ",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_72244114dfc3d65f7e6a",
+      "title": "מועדון הזמר של אילנה כץ – איזה עולם מופלא",
+      "source": "htrl",
+      "candidate_pages": [
+        "https://htrl.co.il/show/%d7%9e%d7%95%d7%a2%d7%93%d7%95%d7%9f-%d7%94%d7%96%d7%9e%d7%a8-%d7%a9%d7%9c-%d7%90%d7%99%d7%9c%d7%a0%d7%94-%d7%9b%d7%a5-%d7%90%d7%99%d7%96%d7%94-%d7%a2%d7%95%d7%9c%d7%9d-%d7%9e%d7%95%d7%a4%d7%9c/",
+        "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%90%D7%99%D7%96%D7%94-%D7%A2%D7%95%D7%9C%D7%9D-%D7%9E%D7%95%D7%A4%D7%9C%D7%90/",
+        "https://htrl.co.il/show/%d7%9e%d7%95%d7%a2%d7%93%d7%95%d7%9f-%d7%94%d7%96%d7%9e%d7%a8-%d7%a9%d7%9c-%d7%90%d7%99%d7%9c%d7%a0%d7%94-%d7%9b%d7%a5-%d7%9c%d7%95%d7%9c%d7%99%d7%a4%d7%95%d7%a4/"
+      ]
+    },
+    {
+      "event_id": "auto_ri_3874b24f4565aee87c5b",
+      "title": "בוזזים חסרי בושה – סרט שהוקרן בפסטיבל אפוס 2026",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_aea03051ae803ee77e04",
+      "title": "לילה טוב אירופה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0b3ddb6fa1a3db88485e",
+      "title": "מקווינס סיטי לניו יורק – אמריקה בגוונים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_65f4888cda7e9e02068b",
+      "title": "\"הפירות האסורים\": שאנסונים על בגידות, פילגשים ומאהבים",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ce80d1d7da5147b0f8e6",
+      "title": "רעיונות אסתטיים ביפן המסורתית והעכשווית",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a1491e70871c2b42ef32",
+      "title": "סיפורי קהיר, העיר המנצחת",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_9be080c28e844e0f0ef0",
+      "title": "יוסיף סטאלין – האל האדום",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_43772e9d971ecaeb6097",
+      "title": "גואטמלה – ארץ פעימות הלב",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e2528c88fe0188779e67",
+      "title": "מוזיאון ״ד'אורסיי״ פריז",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_856dbd3b22911caaa590",
+      "title": "מדריך לספקן המודרני",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_aa370ea73e54f0311e2d",
+      "title": "ג'אז בוער – לטיני ואפרו קריבי חגיגה קובנית על הבמה!",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_fc5f145ceaede72d05c7",
+      "title": "איטליה – שבילים של תשוקה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_c2af9fd48475945f262c",
+      "title": "זן בודהיזם: פילוסופיה, פסיכולוגיה, ואומנות",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_2fa7fc9f6720628b7976",
+      "title": "קומקום ומטאטא",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ece19693282f1ce06100",
+      "title": "ג'ורג' ואיירה גרשווין Summertime",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_abb5a0267089df19bacf",
+      "title": "הסיפורים מאחורי שירי אהבה הגדולים של צרפת",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_4c773f396b1aaeaf46a5",
+      "title": "אנדלוסיה, ארכיטקטורה, תרבות מדע",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_250edc799a3f7be8bcb8",
+      "title": "מסע אל לב האימפריה – סין",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0625eb315eff9982ffa8",
+      "title": "בדרכי שלי \"פרנק סינטרה\"",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_bc0d747ee30a521df3bf",
+      "title": "ערב של אהבה",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_0540d1b4d7a15fbddf09",
+      "title": "מופע סיום – ג'אם סיישן",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_ddeef1238328db9273ae",
+      "title": "אהבה מהסרטים – על הזוגות המפורסמים של הקולנוע הצרפתי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_1649d4683c33e5b4a375",
+      "title": "העולם הצף",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_d93faba6fc59caed91bb",
+      "title": "טרובדור הזמר העברי",
+      "source": "htrl_adults",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_dc1b4c93088470b99b92",
+      "title": "ניגון ואגדה – כשהמשפחה, הניגון והאגדה נפגשים על לב אחד",
+      "source": "htrl_adults",
+      "candidate_pages": []
     }
   ]
 }
