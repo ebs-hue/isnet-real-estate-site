@@ -1,4 +1,40 @@
 // ISNET shared layout: edit events-preview/ashdod, not this generated file.
+// Ashdod GA4: public event metadata only; never transmit raw search text or URLs.
+(function () {
+  if (!/\/events-preview\/ashdod(?:\/|$)/.test(location.pathname) || window.ashdodAnalytics) return;
+  const id = "G-YEFDXMCHB1";
+  let debug = new URLSearchParams(location.search).get("ga_debug") === "1";
+  try { if (debug) sessionStorage.setItem("ashdod-ga-debug","1"); debug = debug || sessionStorage.getItem("ashdod-ga-debug") === "1"; } catch {}
+
+  const cleanUrl = value => { try { const u = new URL(value); return u.origin + u.pathname; } catch { return ""; } };
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  if (!window.__ashdodGa4Initialized) {
+    window.__ashdodGa4Initialized = true;
+    if (!document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+      const tag = document.createElement("script");
+      tag.async = true; tag.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+      document.head.appendChild(tag);
+      window.gtag("js", new Date());
+    }
+    window.gtag("config", id, {page_location:cleanUrl(location.href), page_referrer:cleanUrl(document.referrer), ...(debug ? {debug_mode:true} : {})});
+  }
+  const vocabulary = new Set("לאן לצאת מה עושים עם הילדים ילדים ילד ילדה משפחה משפחות היום מחר השבוע סוף שבוע סופש בסופש חינם זול הופעות הופעה מוזיקה מוסיקה סטנדאפ תיאטרון הצגות הצגה קולנוע סרט סרטים הרצאות הרצאה סדנאות סדנה יצירה אמנות אומנות תערוכות תערוכה פסטיבל פסטיבלים קהילה ספורט כדורגל כדורסל כדוריד כדורעף גלישה טיולים טבע פארקים פארק חופים חוף ים ראשון לציון בראשון לציון מבוגרים למבוגרים זוג זוגות ערב בוקר צהריים בילוי בילויים לנוער נוער לילדים קטנים קטנות".split(" "));
+  const safeSearch = value => {
+    const tokens = String(value).normalize("NFKC").toLowerCase().replace(/[^\p{L}\s]/gu," ").split(/\s+/).filter(Boolean);
+    // Only recognized generic activity words leave the browser; names, numbers,
+    // email addresses and other unknown terms are omitted altogether.
+    return [...new Set(tokens.filter(t => vocabulary.has(t)))].join(" ").slice(0,100) || "[withheld]";
+  };
+  const metadata = e => e ? {event_id:String(e.event_id || "").slice(0,100),event_title:String(e.series_title || e.title || "").slice(0,100),category:String(e.category || "").slice(0,40),event_date:/^\d{4}-\d{2}-\d{2}$/.test(e.start_date || "") ? e.start_date : ""} : {};
+  const allowed = new Set(["search","select_category","select_event","select_date","ticket_click"]);
+  const send = (name, params = {}) => {
+    if (!allowed.has(name)) return;
+    window.gtag("event",name,{...params,send_to:id,page_location:cleanUrl(location.href),page_referrer:cleanUrl(document.referrer),transport_type:"beacon",...(debug ? {debug_mode:true} : {})});
+  };
+  window.ashdodAnalytics = {send,metadata,safeSearch};
+})();
+
 const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:true,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
@@ -893,6 +929,7 @@ function bindDynamic(){
   document.querySelectorAll("[data-event-video]").forEach(b=>b.onclick=e=>{e.stopPropagation();openEventVideo(b.dataset.eventVideo)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{
     const next=state.date===b.dataset.date?null:b.dataset.date;
+    window.ashdodAnalytics?.send("select_date",{selected_date:next || "all",selection_type:next ? "day" : "clear"});
     state.date=next;
     state.periodStart=null;state.periodEnd=null;state.periodType=null;
     state.quick="all";
@@ -900,6 +937,7 @@ function bindDynamic(){
     if(next)requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
   });
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
+    window.ashdodAnalytics?.send("select_category",{category:b.dataset.cat,category_name:catLabels[b.dataset.cat] || b.dataset.cat,selection_type:state.category===b.dataset.cat ? "clear" : "select"});
     if(b.dataset.cat==="cinema"){
       location.href="cinema.html";
       return;
@@ -999,7 +1037,28 @@ async function init(){
   render();
   renderCinema();
   const searchInput=$("searchInput");
+  let searchTimer, lastMeasuredSearch = "";
+  const measureSearch = () => {
+    clearTimeout(searchTimer);
+    const query = searchInput.value.trim();
+    if (!query) { lastMeasuredSearch = ""; return; }
+    if (query === lastMeasuredSearch) return;
+    lastMeasuredSearch = query;
+    const analytics = window.ashdodAnalytics;
+    analytics?.send("search",{search_term:analytics.safeSearch(query),result_count:groupEvents(filtered()).length});
+  };
+  document.addEventListener("click", event => {
+    if (!(event.target instanceof Element)) return;
+    if (event.target.closest("[data-heart], [data-event-video]")) return;
+    const card = event.target.closest("[data-event]");
+    const link = event.target.closest('a[href*="event.html?id="]');
+    let id = card?.dataset.event;
+    if (link) id = new URL(link.href).searchParams.get("id");
+    const selected = state.events.find(item => item.event_id === id);
+    if (selected) window.ashdodAnalytics?.send("select_event",window.ashdodAnalytics.metadata(selected));
+  },true);
   const showSearchResults=()=>{
+    clearTimeout(searchTimer);
     state.query=searchInput.value.trim();
     state.quick="all";
     state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;
@@ -1008,18 +1067,22 @@ async function init(){
     state.favoritesOnly=false;
     render();
     renderCinema();
+    measureSearch();
     requestAnimationFrame(()=>($("resultsTitle")||$("eventsGrid"))?.scrollIntoView({behavior:"smooth",block:"start"}));
   };
-  searchInput.addEventListener("input",e=>{state.query=e.target.value;render()});
+  searchInput.addEventListener("input",e=>{state.query=e.target.value;render();clearTimeout(searchTimer);searchTimer=setTimeout(measureSearch,900)});
   searchInput.addEventListener("keydown",e=>{
     if(e.key==="Enter"){e.preventDefault();showSearchResults()}
   });
   $("searchSubmit").onclick=showSearchResults;
   $("clearSearch").onclick=()=>{
+    clearTimeout(searchTimer);lastMeasuredSearch="";
     state.query="";searchInput.value="";render();searchInput.focus();
   };
   $("quickFilters").onclick=e=>{
     const b=e.target.closest("[data-quick]");if(!b)return;
+    if (["kids","standup","music","lecture","theatre"].includes(b.dataset.quick)) window.ashdodAnalytics?.send("select_category",{category:b.dataset.quick,selection_type:"quick_filter"});
+    if (["today","tomorrow","weekend"].includes(b.dataset.quick)) window.ashdodAnalytics?.send("select_date",{selection_type:b.dataset.quick});
     state.quick=b.dataset.quick;state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;render()
   };
   const clearCalendarSelection=()=>{
@@ -1084,6 +1147,7 @@ async function init(){
       const start=firstOfMonth(state.calendarMonth),end=new Date(start.getFullYear(),start.getMonth()+1,0);
       state.periodStart=iso(start);state.periodEnd=iso(end);state.periodType="month";
     }
+    window.ashdodAnalytics?.send("select_date",{selection_type:state.periodType,date_start:state.periodStart,date_end:state.periodEnd});
     render();
     requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
   };
