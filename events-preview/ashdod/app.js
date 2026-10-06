@@ -421,42 +421,132 @@ function fuzzyTokenMatch(q,hay){
     return editDistance(qt,ht)<=Math.max(1,Math.floor(max*.28));
   }));
 }
-function parseSearchIntent(q){
+/* Hebrew intent search: local, explainable relevance ranking without an external AI API. */
+const SEARCH_CONCEPTS=[
+  {id:"family",words:["ילד","ילדים","ילדות","ילדה","קטנטנים","פעוט","פעוטות","משפחה","משפחות","הורים","בייבי","נוער","בן שלי","בת שלי","לילדים","עם הילד"],cats:{kids:15,workshop:7,festival:6,exhibition:4,theatre:3},eventWords:["ילדים","ילד","משפחה","ילדות","תינוק","הצגת ילדים","שעת סיפור"],label:"ילדים ומשפחה"},
+  {id:"funny",words:["צחוק","לצחוק","מצחיק","מצחיקה","מצחיקים","קומדיה","הומור","סטנדאפ","סטנד אפ","בידור","משעשע"],cats:{standup:18,theatre:7,kids:3},eventWords:["סטנדאפ","קומדיה","מצחיק","בידור"],label:"משהו מצחיק"},
+  {id:"music",words:["מוזיקה","מוסיקה","מופע","מופעים","הופעה","הופעות","זמר","זמרת","קונצרט","שירים","שירה","לייב"],cats:{music:16,festival:4},eventWords:["הופעה","מוזיקה","מוסיקה","קונצרט","זמר","שירה"],label:"הופעות ומוזיקה"},
+  {id:"theatre",words:["הצגה","הצגות","תיאטרון","מחזה","מחזמר","במה"],cats:{theatre:16,kids:7},eventWords:["הצגה","מחזמר","תיאטרון"],label:"הצגות"},
+  {id:"learn",words:["הרצאה","הרצאות","ללמוד","לימוד","להעשיר","ידע","העשרה","כנס","שיחה","מרצה"],cats:{lecture:15,workshop:9,exhibition:5},eventWords:["הרצאה","סדנה","כנס","מפגש"],label:"הרצאות והעשרה"},
+  {id:"create",words:["סדנה","סדנאות","סדנא","יצירה","יצירתי","לעשות משהו","פעילות","פעילויות","התנסות","ציור","אמנות מעשית"],cats:{workshop:16,kids:7,exhibition:4},eventWords:["סדנה","יצירה","מפגש","קורס"],label:"סדנאות ופעילויות"},
+  {id:"culture",words:["תרבות","מוזיאון","אמנות","אומנות","תערוכה","תערוכות","גלריה","היסטוריה"],cats:{exhibition:17,theatre:7,lecture:7,music:4},eventWords:["מוזיאון","תערוכה","אמנות","גלריה"],label:"תרבות ואמנות"},
+  {id:"sports",words:["ספורט","משחק","משחקים","כדורגל","כדורסל","כדוריד","כדורעף","קבוצה","קבוצות","אצטדיון"],cats:{sport:18},eventWords:["מכבי","הפועל","כדורגל","כדורסל","משחק"],label:"ספורט"},
+  {id:"outdoors",words:["בחוץ","באוויר הפתוח","בטבע","טבע","טיול","טיולים","פארק","ים","חוף","הליכה","בחיק הטבע","אטרקציות"],cats:{sport:4,festival:9,community:4,kids:2},eventWords:["חוף","ים","טיול","פארק","גלישה","שטח","אוויר הפתוח"],label:"בילוי בחוץ"},
+  {id:"dateNight",words:["זוג","זוגי","זוגית","זוגיות","דייט","רומנטי","רומנטית","בני זוג","ערב זוגי","בילוי זוגי"],cats:{music:9,standup:9,theatre:9},eventWords:["אהבה","זוג","רומנטי"],label:"בילוי זוגי"},
+  {id:"relax",words:["רגוע","רגועה","שקט","שקטה","נינוח","נינוחה","קליל","קלילה","לא רועש"],cats:{exhibition:9,lecture:7,workshop:5,music:4},eventWords:["מוזיאון","גלריה","קריאה","הרצאה"],label:"בילוי רגוע"},
+  {id:"seniors",words:["מבוגרים","מבוגר","בוגרים","גיל השלישי","גמלאים","פנסיונרים","ותיקים","ותיקות"],cats:{lecture:8,music:7,theatre:7,exhibition:7},eventWords:["גיל השלישי","ותיקים","60"],label:"למבוגרים"}
+];
+const SEARCH_STOPWORDS=new Set(["מה","יש","לי","לנו","עם","אני","אנחנו","רוצה","רוצים","רוצות","מחפש","מחפשת","מחפשים","תמצא","תמצאי","תן","תני","אפשר","בא","בא לי","לעשות","לצאת","לבלות","משהו","איזה","איזו","איפה","מתי","אשדוד","באשדוד","בעיר","קרוב","לי","לנו","הכי","של","על","את","או","ו","ב","ל","בבקשה","מתאים","שיתאים","מעניין","נחמד","כיף","כיפי","כיפית","טוב","טובה","היום","מחר","השבוע","החודש","שבת","שישי","בערב","ערב","הלילה","סופש","סוף","השבוע","ללא","תשלום","חינם","עד","שח","שקל","שקלים","ילד","ילדים","משפחה","משפחות","הופעה","הופעות","הצגה","הצגות","קולנוע","סרט","סרטים","בת","בן","גיל"]);
+function hebrewSearchText(s){
+  return normalizeSearch(s).replace(/[\u0591-\u05C7]/g,"").replace(/(?:ם)(?=\s|$)/g,"מ").replace(/(?:ן)(?=\s|$)/g,"נ");
+}
+function searchWordForms(w){
+  const x=hebrewSearchText(w);
+  const forms=new Set([x]);
+  if(x.length>=5&&/^[ובלכהמש]/.test(x))forms.add(x.slice(1));
+  if(x.length>=6&&/^(ליל|למש|במש)/.test(x))forms.add(x.slice(1));
+  return [...forms];
+}
+function textIncludesConcept(text,words){
+  const normalized=hebrewSearchText(text);
+  const tokens=normalized.split(" ");
+  return words.some(w=>{
+    const phrase=hebrewSearchText(w);
+    if(phrase.includes(" "))return normalized.includes(phrase);
+    return tokens.some(t=>searchWordForms(t).some(f=>f===phrase||(phrase.length>=4&&f.startsWith(phrase))||(f.length>=4&&phrase.startsWith(f))));
+  });
+}
+function intentSearchDate(q){
   const s=normalizeSearch(q);
-  const intent={category:null,quick:null,free:false,maxPrice:null,terms:[]};
-  const categoryAliases=[
-    ["kids",["ילדים","ילד","משפחה","משפחתי","הצגת ילדים","פעילות לילדים"]],
-    ["standup",["סטנדאפ","סטנד אפ","קומדיה","מצחיק","צחוקים"]],
-    ["music",["הופעה","הופעות","מוזיקה","מוסיקה","זמר","זמרת","קונצרט"]],
-    ["theatre",["הצגה","הצגות","תיאטרון","מחזה"]],
-    ["lecture",["הרצאה","הרצאות","כנס","שיחה"]],
-    ["exhibition",["תערוכה","תערוכות","אמנות","מוזיאון"]],
-    ["workshop",["סדנה","סדנא","סדנאות","יצירה","קורס"]],
-    ["cinema",["סרט","קולנוע","הקרנה"]],
-    ["festival",["פסטיבל","יריד","אירוע חוץ"]]
-  ];
-  for(const [cat,aliases] of categoryAliases){
-    if(aliases.some(a=>s.includes(normalizeSearch(a)))){intent.category=cat;break}
-  }
-  if(/\bהיום\b|הערב/.test(s))intent.quick="today";
-  else if(/\bמחר\b/.test(s))intent.quick="tomorrow";
-  else if(/סוף השבוע|סופש|שישי|שבת/.test(s))intent.quick="weekend";
-  else if(/השבוע/.test(s))intent.quick="week";
-  else if(/החודש/.test(s))intent.quick="month";
-  if(/חינם|ללא תשלום|כניסה חופשית/.test(s))intent.free=true;
-  const pm=s.match(/(?:עד|max|מקסימום)\s*(\d{1,4})\s*(?:שח|שקל|שקלים)?/);
-  if(pm)intent.maxPrice=Number(pm[1]);
-  const noise=["מה","יש","משהו","אני","רוצה","מחפש","מחפשת","לעשות","בא לי","אירוע","אירועים","היום","הערב","מחר","השבוע","החודש","סוף","השבוע","סופש","שישי","שבת","חינם","ללא","תשלום","כניסה","חופשית","עד","שקל","שקלים"];
-  intent.terms=s.split(" ").filter(t=>t&&!noise.includes(t));
-  return intent;
+  if(/מחר/.test(s))return "tomorrow";
+  if(/היום|הערב|הלילה/.test(s))return "today";
+  if(/סוף השבוע|סופש|בשבת|ביום שבת|יום שבת|בשישי|יום שישי/.test(s))return "weekend";
+  if(/השבוע/.test(s))return "week";
+  if(/החודש/.test(s))return "month";
+  return null;
+}
+function parseSearchIntent(q){
+  const s=normalizeSearch(q),concepts=SEARCH_CONCEPTS.filter(c=>textIncludesConcept(s,c.words));
+  const date=intentSearchDate(s);
+  const free=/חינם|ללא תשלום|בלי לשלם|לא עולה כסף/.test(s);
+  const pm=s.match(/(?:עד|מקסימום|תקציב)\s*(\d{1,4})\s*(?:שח|שקל|שקלים)?/);
+  const maxPrice=pm?Number(pm[1]):null;
+  const ageMatch=s.match(/(?:בן|בת|גילאי?|גיל)\s*(\d{1,2})/);
+  const age=ageMatch?Number(ageMatch[1]):null;
+  const words=s.split(/\s+/).filter(Boolean);
+  const remaining=words.filter(w=>
+    !SEARCH_STOPWORDS.has(w)&&
+    !concepts.some(c=>textIncludesConcept(w,c.words))&&
+    !/^\d+$/.test(w)&&
+    !["מחיר","תקציב","מקסימום","בחינם","ילדים","הילדים"].includes(w)
+  );
+  return {concepts,date,free,maxPrice,age,terms:remaining,query:s};
 }
 function eventSearchText(e){
-  return [e.title,e.description,e.venue,catLabels[e.category],...(e.audiences||[]),...(e.sources||[]).map(s=>s.name)].filter(Boolean).join(" ");
+  return [e.title,e.description,e.venue,e.organizer,e.home_team,e.away_team,e.sport_branch,catLabels[e.category],...(e.audiences||[]),...(e.sources||[]).map(s=>s.name)].filter(Boolean).join(" ");
+}
+function searchDateMatches(e,period){
+  if(!period)return true;
+  const d=localDate(e.start_date),t=today();
+  if(period==="today")return sameDay(d,t);
+  if(period==="tomorrow")return sameDay(d,daysFrom(t,1));
+  if(period==="weekend"){const [fri,sat]=nextWeekendRange();return sameDay(d,fri)||sameDay(d,sat)}
+  if(period==="week")return d>=t&&d<=daysFrom(t,6);
+  if(period==="month")return d>=t&&sameMonth(d,t);
+  return true;
+}
+function eventSemanticScore(e,intent){
+  if(intent.date&&!searchDateMatches(e,intent.date))return null;
+  if(intent.free&&e.is_free!==true)return null;
+  if(intent.maxPrice!=null&&(e.price_min_ils==null||e.price_min_ils>intent.maxPrice))return null;
+  if(intent.age!=null&&e.age_min!=null&&intent.age<e.age_min)return null;
+  if(intent.age!=null&&e.age_max!=null&&intent.age>e.age_max)return null;
+  const hay=eventSearchText(e),norm=hebrewSearchText(hay);
+  let score=0,matchedConcepts=0,matchedTerms=0;
+  for(const concept of intent.concepts){
+    let points=concept.cats[e.category]||0;
+    if(textIncludesConcept(hay,concept.eventWords))points+=5;
+    if(concept.id==="family"&&(e.audiences||[]).some(a=>["kids","families"].includes(a)))points+=8;
+    if(concept.id==="family"&&/הורה ילד|ילדי|ילדים|פעוט|גן חובה/.test(hay))points+=7;
+    if(concept.id==="outdoors"&&/חוף|ים|פארק|גלישה|טיילת|שטח/.test(hay))points+=8;
+    if(concept.id==="dateNight"&&/אהבה|זוגי|רומנטי/.test(hay))points+=7;
+    if(concept.id==="seniors"&&(e.audiences||[]).includes("seniors"))points+=8;
+    if(points){score+=points;matchedConcepts++}
+  }
+  for(const term of intent.terms){
+    const forms=searchWordForms(term);
+    const title=hebrewSearchText(e.title||"");
+    const venue=hebrewSearchText(e.venue||"");
+    if(forms.some(w=>w.length>=2&&(title.includes(w)||norm.startsWith(w)))){score+=22;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=2&&venue.includes(w))){score+=14;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=2&&norm.includes(w))){score+=9;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=4&&fuzzyTokenMatch(w,norm))){score+=5;matchedTerms++;continue}
+  }
+  const recognized=intent.concepts.length>0||intent.terms.length>0;
+  if(intent.concepts.length>0&&matchedConcepts===0&&matchedTerms===0)return null;
+  if(intent.terms.length>0&&matchedTerms===0&&matchedConcepts===0)return null;
+  if(!recognized)score=2;
+  if(score<=0)return null;
+  if(intent.terms.length>1&&matchedTerms<intent.terms.length)score-=4*(intent.terms.length-matchedTerms);
+  if(intent.concepts.length>1&&matchedConcepts<intent.concepts.length)score-=6*(intent.concepts.length-matchedConcepts);
+  if(e.start_date>=iso(today()))score+=3;
+  return score;
+}
+function searchIntentLabel(intent){
+  const labels=intent.concepts.slice(0,3).map(x=>x.label);
+  if(intent.date)labels.push(({today:"היום",tomorrow:"מחר",weekend:"בסוף השבוע",week:"השבוע",month:"החודש"})[intent.date]);
+  if(intent.free)labels.push("בחינם");
+  if(intent.age!=null)labels.push("לגיל "+intent.age);
+  return labels.join(" · ");
 }
 function filtered(){
-  const q=state.query.trim();
-  const intent=parseSearchIntent(q);
+  const q=state.query.trim(),intent=q?parseSearchIntent(q):null;
   let arr=state.events.filter(e=>{
+    if(q){
+      // A new conversational query stands on its own; older quick/date/category selections
+      // must not silently erase relevant recommendations.
+      return e.start_date>=iso(today())&&eventSemanticScore(e,intent)!=null;
+    }
     if(!matchesQuick(e))return false;
     if(state.date&&e.start_date!==state.date)return false;
     if(state.periodStart&&state.periodEnd&&(e.start_date<state.periodStart||e.start_date>state.periodEnd))return false;
@@ -466,23 +556,16 @@ function filtered(){
       if(state.sportTeam!=="all"&&sportTeamConfig(e)?.id!==state.sportTeam)return false;
     }
     if(state.favoritesOnly&&!favorites.has(e.event_id))return false;
-    if(q){
-      if(intent.category&&e.category!==intent.category)return false;
-      if(intent.quick){
-        const saved=state.quick;state.quick=intent.quick;const ok=matchesQuick(e);state.quick=saved;
-        if(!ok)return false;
-      }
-      if(intent.free&&e.is_free!==true)return false;
-      if(intent.maxPrice!=null&&(e.price_min_ils==null||e.price_min_ils>intent.maxPrice))return false;
-      const residual=intent.terms.join(" ");
-      if(residual&&!fuzzyTokenMatch(residual,eventSearchText(e)))return false;
-    }
     return true;
   });
-  if(state.sort==="priceLow")arr.sort((a,b)=>(a.price_min_ils??999999)-(b.price_min_ils??999999)||a.start_date.localeCompare(b.start_date));
+  if(q)arr.sort((a,b)=>{
+    const delta=eventSemanticScore(b,intent)-eventSemanticScore(a,intent);
+    return delta||(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99"));
+  });
+  else if(state.sort==="priceLow")arr.sort((a,b)=>(a.price_min_ils??999999)-(b.price_min_ils??999999)||a.start_date.localeCompare(b.start_date));
   else if(state.sort==="priceHigh")arr.sort((a,b)=>(b.price_min_ils??-1)-(a.price_min_ils??-1)||a.start_date.localeCompare(b.start_date));
   else arr.sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
-  return groupEvents(arr)
+  return groupEvents(arr);
 }
 
 function calendarEventCounts(){
