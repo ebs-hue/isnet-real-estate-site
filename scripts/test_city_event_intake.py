@@ -59,4 +59,16 @@ entries=[dupe,manual]
 invalid, removed = m.clean_generated_duplicates(entries)
 assert len(entries)==1 and entries[0]["event_id"]=="manual123" and removed==1, entries
 
+
+adult_source = {"name":"htrl_adults","url":"https://htrl.co.il/third-calendar/",
+                "venue":"לגלות תרבות, ראשון לציון","source_type":"official","parser":"htrl"}
+adult_html = """<div>שפת הגוף התנכ״ית</div><div>10.10.26</div><div>18:00</div>
+<div>שבת</div><div>בית יד לבנים</div><div>רכישה</div>
+<div>רצח רבין- כרוניקה של כישלון מבצעי</div><div>11.11.26</div>
+<div>00:11</div><div>רביעי</div><div>אודיטוריום היכל התרבות</div>"""
+adult_rows = m.htrl_rows(BeautifulSoup(adult_html,"html.parser"), adult_source)
+assert len(adult_rows)==1, adult_rows
+assert adult_rows[0]["venue"]=="בית יד לבנים, ראשון לציון", adult_rows
+assert adult_rows[0]["audiences"] == ["adults"]
+
 print("PASS: Smarticket Hebrew dates, HTRL, Kotar, JSON-LD, stable dedupe")
