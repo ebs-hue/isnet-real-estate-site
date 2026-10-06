@@ -335,6 +335,9 @@ def existing_match(old, incoming, srcname):
                 continue
             if event_key(item) == key:
                 return item
+        for item in old:
+            if item.get("city") == incoming.get("city") and clearly_same_event(item, incoming):
+                return item
         # If we have exactly one candidate on that date with matching title,
         # prefer updating it rather than creating a duplicate when a time changed.
         candidates = [
@@ -499,8 +502,9 @@ def merge(city_slug, specs, dry_run=False):
         for obj in rows[:600]:
             if not valid_row(obj, today):
                 continue
+            sold_out_in_title = "אזלו הכרטיסים" in obj["title"]
             obj["title"] = tidy_title(obj["title"], name, obj.get("venue") or "")
-            if "אזלו הכרטיסים" in obj.get("title", ""):
+            if sold_out_in_title:
                 obj["ticket_status"] = "sold_out"
             if not valid_title(obj["title"]):
                 continue
