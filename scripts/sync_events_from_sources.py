@@ -90,7 +90,8 @@ def iso_hebrew(match):
 def valid_title(title):
     title = re.sub(r"\s+", " ", title or "").strip()
     return (3 <= len(title) <= 155 and title not in BAD_TITLES and
-            not any(x in title for x in ("פרטים נוספים", "הכרטיסים אזלו", "הרשמה לניוזלטר")))
+            title not in {"סדרת"} and not title.endswith(":") and
+            not any(x in title for x in ("פרטים נוספים", "הכרטיסים אזלו", "הרשמה לניוזלטר")) )
 
 
 def choose_category(title, venue):
@@ -362,6 +363,76 @@ def reuse_official_image(old, incoming, srcname):
     return {}
 
 
+
+def tidy_title(title, source, venue=""):
+    title = re.sub(r"\s+", " ", str(title or "")).strip()
+    if title.endswith(" - אזלו הכרטיסים"):
+        title = title[:-len(" - אזלו הכרטיסים")].strip()
+    # Tickchak's JSON-LD sometimes appends the venue to a show title.
+    if source == "tickchak_ashdod" and " | " in title:
+        prefix, last = title.rsplit(" | ", 1)
+        if last and ("אשדוד" in last or text_norm(last) in text_norm(venue)):
+            title = prefix.strip()
+    return title
+
+
+def overlap_score(a, b):
+    aa = {w for w in text_norm(a).split() if len(w) > 1}
+    bb = {w for w in text_norm(b).split() if len(w) > 1}
+    return len(aa & bb) / max(1, len(aa), len(bb))
+
+
+def clearly_same_event(a, b):
+    if a.get("start_date") != b.get("start_date") or a.get("start_time") != b.get("start_time"):
+        return False
+    ta, tb = text_norm(a.get("title")), text_norm(b.get("title"))
+    if not ta or not tb:
+        return False
+    if ta == tb:
+        return True
+    sa = {s.get("name") for s in a.get("sources", [])}
+    sb = {s.get("name") for s in b.get("sources", [])}
+    same_source = bool(sa & sb)
+    va, vb = text_norm(a.get("venue")), text_norm(b.get("venue"))
+    same_venue = bool(va and vb and va == vb)
+    if not (same_source or same_venue):
+        return False
+    if overlap_score(ta, tb) >= .82:
+        return True
+    if same_source and same_venue and min(len(ta), len(tb)) >= 9 and (ta in tb or tb in ta):
+        return True
+    return False
+
+
+def clean_generated_duplicates(events):
+    """Keep all editorial entries; only discard demonstrably faulty auto-imports."""
+    removed_invalid, removed_duplicate = 0, 0
+    for e in events:
+        if str(e.get("event_id", "")).startswith("auto_"):
+            source = (e.get("sources") or [{}])[0].get("name", "")
+            previous = e.get("title") or ""
+            e["title"] = tidy_title(previous, source, e.get("venue") or "")
+            if "אזלו הכרטיסים" in previous:
+                e["ticket_status"] = "sold_out"
+    priority = lambda e: (str(e.get("event_id", "")).startswith("auto_"), -len(e.get("title") or ""))
+    kept = []
+    by_slot = {}
+    for e in sorted(events, key=priority):
+        is_auto = str(e.get("event_id", "")).startswith("auto_")
+        if is_auto and not valid_title(e.get("title", "")):
+            removed_invalid += 1
+            continue
+        slot = (e.get("start_date"), e.get("start_time"))
+        found = next((x for x in by_slot.get(slot, []) if clearly_same_event(x, e)), None)
+        if found is not None and is_auto:
+            removed_duplicate += 1
+            continue
+        kept.append(e)
+        by_slot.setdefault(slot, []).append(e)
+    events[:] = kept
+    return removed_invalid, removed_duplicate
+
+
 def iso_now():
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -382,11 +453,12 @@ def merge(city_slug, specs, dry_run=False):
     data_path = BASE / city_slug / "data" / "events.json"
     payload = json.loads(data_path.read_text(encoding="utf-8"))
     events = payload["events"]
+    ids_before = {e.get("event_id") for e in events}
     label = CITY_LABELS[city_slug]
     today = date.today()
     now = iso_now()
     summary = {"city": label, "total_before": len(events), "sources": {},
-               "new": 0, "updated": 0, "errors": []}
+               "new": 0, "updated": 0, "removed_invalid": 0, "removed_duplicates": 0, "errors": []}
     for spec in specs:
         name = spec["name"]
         source_status = {"status": "unknown", "url": spec["url"], "discovered": 0,
@@ -426,6 +498,11 @@ def merge(city_slug, specs, dry_run=False):
         seen = set()
         for obj in rows[:600]:
             if not valid_row(obj, today):
+                continue
+            obj["title"] = tidy_title(obj["title"], name, obj.get("venue") or "")
+            if "אזלו הכרטיסים" in obj.get("title", ""):
+                obj["ticket_status"] = "sold_out"
+            if not valid_title(obj["title"]):
                 continue
             key = event_key(obj)
             if key in seen:
@@ -494,9 +571,15 @@ def merge(city_slug, specs, dry_run=False):
               f"{source_status['new']} new, {source_status['updated']} updated", flush=True)
         time.sleep(.3)
 
+    summary["removed_invalid"], summary["removed_duplicates"] = clean_generated_duplicates(events)
+    surviving = {e.get("event_id") for e in events}
+    summary["new"] = len(surviving - ids_before)
+    for name, state in summary["sources"].items():
+        state["new"] = sum(1 for e in events if e.get("event_id") not in ids_before
+                           and any(x.get("name") == name for x in e.get("sources", [])))
     events.sort(key=lambda e: (e.get("start_date") or "9999", e.get("start_time") or "99:99", e.get("title") or ""))
     summary["total_after"] = len(events)
-    if summary["new"] or summary["updated"]:
+    if summary["new"] or summary["updated"] or summary["removed_invalid"] or summary["removed_duplicates"]:
         payload["generated_at"] = now
         payload.setdefault("stats", {})["events"] = len(events)
         future = [e["start_date"] for e in events if e.get("start_date", "") >= today.isoformat()]
