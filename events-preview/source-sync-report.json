@@ -1,0 +1,101 @@
+{
+  "run_at": "2026-10-06T12:20:01Z",
+  "version": 1,
+  "dry_run": false,
+  "cities": {
+    "ashdod": {
+      "city": "אשדוד",
+      "total_before": 115,
+      "sources": {
+        "ashdod_smarticket": {
+          "status": "no_parseable_events",
+          "url": "https://ashdod.smarticket.co.il/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0
+        },
+        "mishkan_smarticket": {
+          "status": "no_parseable_events",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0
+        },
+        "tickchak_ashdod": {
+          "status": "ok",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "discovered": 37,
+          "valid": 36,
+          "new": 9,
+          "updated": 0
+        }
+      },
+      "new": 9,
+      "updated": 0,
+      "errors": [
+        "ashdod_smarticket:no_parseable_events",
+        "mishkan_smarticket:no_parseable_events"
+      ],
+      "total_after": 124
+    },
+    "rishon-lezion": {
+      "city": "ראשון לציון",
+      "total_before": 93,
+      "sources": {
+        "htrl": {
+          "status": "ok",
+          "url": "https://htrl.co.il/לוח-שנה/",
+          "discovered": 147,
+          "valid": 147,
+          "new": 75,
+          "updated": 1
+        },
+        "yama": {
+          "status": "no_parseable_events",
+          "url": "https://yama.smarticket.co.il/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0
+        },
+        "kotar_rishon": {
+          "status": "no_parseable_events",
+          "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0
+        },
+        "RIZONE+": {
+          "status": "no_parseable_events",
+          "url": "https://club.rishonlezion.muni.il/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0
+        },
+        "Eventim": {
+          "status": "failed",
+          "url": "https://www.eventim.co.il/",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0,
+          "error": "ReadTimeout"
+        }
+      },
+      "new": 75,
+      "updated": 1,
+      "errors": [
+        "yama:no_parseable_events",
+        "kotar_rishon:no_parseable_events",
+        "RIZONE+:no_parseable_events",
+        "Eventim:ReadTimeout"
+      ],
+      "total_after": 168
+    }
+  },
+  "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
+}
