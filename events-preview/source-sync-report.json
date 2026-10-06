@@ -1,18 +1,18 @@
 {
-  "run_at": "2026-10-06T13:21:54Z",
+  "run_at": "2026-10-06T13:25:09Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 389,
+      "total_before": 390,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 219,
           "valid": 215,
-          "new": 1,
+          "new": 0,
           "updated": 0
         },
         "mishkan_smarticket": {
@@ -40,13 +40,13 @@
           "updated": 0
         }
       },
-      "new": 1,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
-      "removed_duplicates": 0,
+      "removed_duplicates": 1,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 390
+      "total_after": 389
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
