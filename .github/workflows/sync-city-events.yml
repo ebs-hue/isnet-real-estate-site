@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "scripts/sync_events_from_sources.py"
+      - "scripts/ofek_event_source.py"
+      - "scripts/test_ofek_event_source.py"
       - "scripts/test_city_event_intake.py"
       - ".github/workflows/sync-city-events.yml"
   schedule:
@@ -38,7 +40,9 @@ jobs:
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4
 
       - name: Validate event source adapters
-        run: python scripts/test_city_event_intake.py
+        run: |
+          python scripts/test_city_event_intake.py
+          python scripts/test_ofek_event_source.py
 
       - name: Discover and merge future public events
         id: collect
