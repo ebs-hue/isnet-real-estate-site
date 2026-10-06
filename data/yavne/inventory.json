@@ -1,6 +1,6 @@
 {
   "city": "יבנה",
-  "observed_at": "2026-10-05",
+  "observed_at": "2026-10-06",
   "coverage": "partial",
   "note": "מודעות שנאספו; כפילויות מזוהות אוחדו. מועד תצפית אינו אישור שהדירה עדיין מוצעת למכירה.",
   "rows": [
@@ -33,6 +33,20 @@
       "listing_kind": "broker"
     },
     {
+      "neighborhood": "נאות רבין",
+      "street": null,
+      "house_number": null,
+      "rooms": 5.0,
+      "area_sqm": 134.0,
+      "floor": 5.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2550000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
       "neighborhood": "נאות שמיר",
       "street": null,
       "house_number": null,
@@ -57,7 +71,7 @@
       "balcony": null,
       "asking_price_ils": 1850000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -73,6 +87,20 @@
       "first_seen_at": "2026-10-02",
       "last_seen_at": "2026-10-02",
       "listing_kind": "broker"
+    },
+    {
+      "neighborhood": "נאות בגין, לב יבנה",
+      "street": "אטד",
+      "house_number": null,
+      "rooms": 4.0,
+      "area_sqm": 104.0,
+      "floor": 3.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2280000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
     },
     {
       "neighborhood": "נאות שז\"ר",
@@ -155,7 +183,7 @@
       "balcony": null,
       "asking_price_ils": 2530000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -183,7 +211,7 @@
       "balcony": null,
       "asking_price_ils": 1725000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -253,7 +281,7 @@
       "balcony": null,
       "asking_price_ils": 3055000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -267,7 +295,7 @@
       "balcony": null,
       "asking_price_ils": 3550000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -295,7 +323,7 @@
       "balcony": null,
       "asking_price_ils": 3250000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -407,7 +435,7 @@
       "balcony": null,
       "asking_price_ils": 1930000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -449,7 +477,7 @@
       "balcony": null,
       "asking_price_ils": 2090000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -463,7 +491,7 @@
       "balcony": null,
       "asking_price_ils": 1990000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -477,7 +505,7 @@
       "balcony": null,
       "asking_price_ils": 2500000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -554,6 +582,20 @@
       "neighborhood": "נאות בן גוריון",
       "street": "הדרור",
       "house_number": null,
+      "rooms": 3.5,
+      "area_sqm": 75.0,
+      "floor": 2.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1780000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": "נאות בן גוריון",
+      "street": "הדרור",
+      "house_number": null,
       "rooms": 4.0,
       "area_sqm": 112.0,
       "floor": 4.0,
@@ -561,7 +603,7 @@
       "balcony": null,
       "asking_price_ils": 1850000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -575,7 +617,7 @@
       "balcony": null,
       "asking_price_ils": 1995000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "broker"
     },
     {
@@ -799,7 +841,7 @@
       "balcony": null,
       "asking_price_ils": 2399000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -813,7 +855,7 @@
       "balcony": null,
       "asking_price_ils": 2725000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -897,7 +939,7 @@
       "balcony": null,
       "asking_price_ils": 3150000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -911,7 +953,7 @@
       "balcony": null,
       "asking_price_ils": 2990000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1009,7 +1051,7 @@
       "balcony": null,
       "asking_price_ils": 2700000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1023,7 +1065,7 @@
       "balcony": null,
       "asking_price_ils": 3170000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1051,7 +1093,7 @@
       "balcony": null,
       "asking_price_ils": 2380000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1471,7 +1513,7 @@
       "balcony": null,
       "asking_price_ils": 3100000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1485,7 +1527,7 @@
       "balcony": null,
       "asking_price_ils": 2580000.0,
       "first_seen_at": "2026-10-01",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "broker"
     },
     {
@@ -1555,7 +1597,7 @@
       "balcony": null,
       "asking_price_ils": 2550000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1569,7 +1611,7 @@
       "balcony": null,
       "asking_price_ils": 2590000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1713,6 +1755,34 @@
       "listing_kind": "broker"
     },
     {
+      "neighborhood": "נאות שז\"ר",
+      "street": "חרמון 16",
+      "house_number": null,
+      "rooms": 4.0,
+      "area_sqm": 118.0,
+      "floor": 17.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2400000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": "נאות שז\"ר",
+      "street": "חרמון 18",
+      "house_number": null,
+      "rooms": 4.0,
+      "area_sqm": 116.0,
+      "floor": 8.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2390000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
       "neighborhood": "נאות אשכול",
       "street": "לילך",
       "house_number": null,
@@ -1793,7 +1863,7 @@
       "balcony": null,
       "asking_price_ils": 2000000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1835,7 +1905,7 @@
       "balcony": null,
       "asking_price_ils": 2520000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1881,6 +1951,20 @@
       "listing_kind": "broker"
     },
     {
+      "neighborhood": "נאות בגין, לב יבנה",
+      "street": "סחלב",
+      "house_number": null,
+      "rooms": 3.5,
+      "area_sqm": 91.0,
+      "floor": 2.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1850000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
       "neighborhood": "נאות בגין",
       "street": "סחלב",
       "house_number": "4",
@@ -1905,7 +1989,7 @@
       "balcony": null,
       "asking_price_ils": 1920000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -1975,7 +2059,7 @@
       "balcony": null,
       "asking_price_ils": 2090000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -2045,7 +2129,7 @@
       "balcony": null,
       "asking_price_ils": 2885000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -2087,7 +2171,21 @@
       "balcony": null,
       "asking_price_ils": 2510000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "ש\"י עגנון",
+      "house_number": null,
+      "rooms": 5.0,
+      "area_sqm": 137.0,
+      "floor": 2.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2690000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -2164,6 +2262,20 @@
       "neighborhood": "נאות שמיר",
       "street": "שדרות הרצל",
       "house_number": null,
+      "rooms": 3.0,
+      "area_sqm": 117.0,
+      "floor": 7.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 2140000.0,
+      "first_seen_at": "2026-10-06",
+      "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": "נאות שמיר",
+      "street": "שדרות הרצל",
+      "house_number": null,
       "rooms": 6.0,
       "area_sqm": 175.0,
       "floor": 3.0,
@@ -2213,7 +2325,7 @@
       "balcony": null,
       "asking_price_ils": 2590000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -2227,7 +2339,7 @@
       "balcony": null,
       "asking_price_ils": 2950000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
@@ -2241,7 +2353,7 @@
       "balcony": null,
       "asking_price_ils": 2830000.0,
       "first_seen_at": "2026-10-04",
-      "last_seen_at": "2026-10-04",
+      "last_seen_at": "2026-10-06",
       "listing_kind": "second_hand"
     },
     {
