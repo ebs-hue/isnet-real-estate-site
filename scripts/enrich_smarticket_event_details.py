@@ -91,6 +91,9 @@ def detail_facts(soup, original):
             break
         if "מפת הגעה" in text:
             text = text.split("מפת הגעה", 1)[0].strip(" ()")
+        # A repeat of the event title or a collection name is not a venue.
+        if normalize(text) == normalize(original.get("title")) or text.startswith("עולם ומלואו פותחים שנה"):
+            continue
         if 5 <= len(text) <= 150 and ("אשדוד" in text or "ראשון לציון" in text or "היכל" in text or "מרכז" in text):
             venue = text
             break
@@ -146,6 +149,16 @@ def run():
              and (not e.get("address") or e.get("price_min_ils") is None or not e.get("ticket_provider"))],
             key=lambda e: (e["start_date"],e.get("start_time") or "99:99"),
         )
+        corrected=0
+        for e in events:
+            if not e.get("details_verified"):
+                continue
+            venue=e.get("venue") or ""
+            if (venue and (normalize(venue) == normalize(e.get("title"))
+                          or venue.startswith("עולם ומלואו פותחים שנה"))):
+                e["venue"]=e.get("city") or ""
+                e["location_needs_verification"]=True
+                corrected+=1
         checked=updated=0
         blocked=set()
         for e in candidates:
@@ -176,11 +189,11 @@ def run():
                 updated+=1
             e["detail_source_url"]=url
             e["details_verified"]=True
-        if checked:
+        if checked or corrected:
             doc["detail_enrichment_checked_at"]=datetime.now(timezone.utc).isoformat()
             path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         total+=updated
-        print(f"{city}: {checked} official detail pages checked, {updated} records enriched, blocked_hosts={sorted(blocked)}",flush=True)
+        print(f"{city}: {checked} official detail pages checked, {updated} records enriched, {corrected} unverifiable venues cleared, blocked_hosts={sorted(blocked)}",flush=True)
     print(f"Total enriched records: {total}",flush=True)
 
 

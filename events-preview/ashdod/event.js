@@ -164,6 +164,7 @@ function renderHero(e,occ,imageEvent){
   $("heroBadges").innerHTML=
     '<span class="badge accent">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+
     (sportBadge?'<span class="badge">'+escapeHtml(sportBadge.icon)+' '+escapeHtml(sportBadge.label)+'</span>':"")+
+    (occ.every(x=>x.ticket_status==="sold_out")?'<span class="badge badge--soldout">אזלו הכרטיסים</span>':"")+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים באשדוד</span>':"");
   $("eventTitle").textContent=displayTitle;
   $("eventPitch").textContent=e.short_pitch||e.series_description||e.description||autoPitch({...e,title:displayTitle});
@@ -263,7 +264,7 @@ function renderPractical(e,occ){
   const audience=(Array.isArray(e.audiences)&&e.audiences.length)?e.audiences.join(", "):null;
   const age=e.age_min!=null?"מגיל "+e.age_min:null;
   const rows=[
-    ["מקום",venues.join(" / ")||"לא פורסם"],
+    ["מקום",venues.filter(v=>v!==e.city).join(" / ")||"המיקום המדויק לא פורסם במקור"],
     ...(e.address?[["כתובת",e.address]]:[]),
     ["מחיר",onePrice],
     ["כרטיסים",occ.every(x=>x.ticket_status==="sold_out")?"אזלו הכרטיסים":"יש לבדוק זמינות באתר המקור"],
@@ -276,7 +277,7 @@ function renderPractical(e,occ){
   ];
   const info=rows.map(([a,b])=>'<div class="infoRow"><b>'+escapeHtml(a)+'</b><span>'+escapeHtml(b)+'</span></div>').join("");
   const contact=String(e.contact_phone||e.purchase_phone||"").replace(/[^0-9+]/g,"");
-  const contactHtml=contact?'<div class="infoRow"><b>טלפון לבירורים</b><a href="tel:'+escapeHtml(contact)+'">'+escapeHtml(e.contact_phone||e.purchase_phone)+'</a></div>':"";
+  const contactHtml=contact?'<div class="infoRow"><b>טלפון לבירורים</b><a href="tel:'+escapeHtml(contact)+'">'+escapeHtml(e.contact_phone||e.purchase_phone)+'</a>'+(e.contact_phone_secondary?'<a class="contactSecondary" href="tel:'+escapeHtml(String(e.contact_phone_secondary).replace(/[^0-9+]/g,""))+'">'+escapeHtml(e.contact_phone_secondary)+'</a>':"")+'</div>':"";
   const venueAddress=e.address||(e.venue&&e.venue!=="אשדוד"?e.venue:"");
   const maps=venueAddress?'<div class="infoRow"><b>ניווט</b><a href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(venueAddress)+'" target="_blank" rel="noopener">לפתיחת מפה ←</a></div>':"";
   const origin=String(e.ticket_url||e.purchase_url||"");
