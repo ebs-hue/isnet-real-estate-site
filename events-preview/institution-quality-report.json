@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-10-06T13:47:51+00:00",
+  "cities": {
+    "ashdod": {
+      "city": "אשדוד",
+      "total_events": 389,
+      "institution_count": 14,
+      "venue_matched": 188,
+      "operator_matched": 24,
+      "events_with_contact_phone": 181,
+      "events_with_specific_address": 173,
+      "official_photos_verified": 99,
+      "lecture_total": 18,
+      "lectures_without_verified_event_photo": 13,
+      "operator_event_counts": {
+        "ofek_ashdod": 24
+      },
+      "frequently_unmatched_venue_names": [
+        {
+          "name": "מוזאון אשדוד לאמנות",
+          "count": 26
+        },
+        {
+          "name": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+          "count": 19
+        },
+        {
+          "name": "מונארט אשדוד",
+          "count": 8
+        },
+        {
+          "name": "מקיף י״א החדש, אשדוד",
+          "count": 5
+        },
+        {
+          "name": "מרכז לתרבות מונארט האולם האדום",
+          "count": 3
+        },
+        {
+          "name": "חוף ט\"ו אשדוד",
+          "count": 2
+        },
+        {
+          "name": "היכל הקריה, אשדוד",
+          "count": 2
+        },
+        {
+          "name": "בי״ס מקיף ט׳, אשדוד",
+          "count": 2
+        },
+        {
+          "name": "היכל הספורט מקיף ז׳, אשדוד",
+          "count": 2
+        },
+        {
+          "name": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+          "count": 2
+        },
+        {
+          "name": "אולם מונארט-דרך ארץ 8 אשדוד",
+          "count": 2
+        },
+        {
+          "name": "אשדוד - המגרש והשעה יעודכנו",
+          "count": 2
+        },
+        {
+          "name": "בית הנוער - דיונה",
+          "count": 2
+        },
+        {
+          "name": "מרכז פסגה",
+          "count": 2
+        },
+        {
+          "name": "מרכז להורות משמעותית אשדוד",
+          "count": 1
+        }
+      ]
+    },
+    "rishon-lezion": {
+      "city": "ראשון לציון",
+      "total_events": 321,
+      "institution_count": 5,
+      "venue_matched": 229,
+      "operator_matched": 302,
+      "events_with_contact_phone": 317,
+      "events_with_specific_address": 238,
+      "official_photos_verified": 157,
+      "lecture_total": 100,
+      "lectures_without_verified_event_photo": 98,
+      "operator_event_counts": {
+        "koter_rishon": 41,
+        "htrl": 146,
+        "htrl_adults": 115
+      },
+      "frequently_unmatched_venue_names": [
+        {
+          "name": "בית יד לבנים, ראשון לציון",
+          "count": 18
+        },
+        {
+          "name": "בית העם, ראשון לציון",
+          "count": 13
+        },
+        {
+          "name": "מוזיאון ראשון, ראשון לציון",
+          "count": 9
+        },
+        {
+          "name": "ספריית שיכון המזרח",
+          "count": 7
+        },
+        {
+          "name": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+          "count": 5
+        },
+        {
+          "name": "כותר חביב, כותר טף",
+          "count": 4
+        },
+        {
+          "name": "אחד העם 7",
+          "count": 3
+        },
+        {
+          "name": "גלריה בית לונדון, ראשון לציון",
+          "count": 3
+        },
+        {
+          "name": "רשת הספריות ראשון לציון",
+          "count": 2
+        },
+        {
+          "name": "פארק האגמים ראשון לציון",
+          "count": 2
+        },
+        {
+          "name": "כותר ראשון שקמה",
+          "count": 2
+        },
+        {
+          "name": "אודיטוריום, ראשון לציון",
+          "count": 2
+        },
+        {
+          "name": "ספריית רמת אליהו",
+          "count": 2
+        },
+        {
+          "name": "ספריית נווה חוף",
+          "count": 2
+        },
+        {
+          "name": "כותר ראשון, ראשון לציון",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "notes": [
+    "איורי המחשה אינם תמונות מקוריות של אירועים",
+    "כתובת מפעיל אינה בהכרח כתובת הפעילות או נקודת היציאה לטיול"
+  ]
+}
