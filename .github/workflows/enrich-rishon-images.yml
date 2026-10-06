@@ -1,0 +1,49 @@
+name: Verify and cache Rishon event photos
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/enrich_rishon_event_images.py
+      - .github/workflows/enrich-rishon-images.yml
+  schedule:
+    - cron: "17 4 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rishon-official-event-images
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image verification dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4 pillow
+
+      - name: Read official source pages and cache verified photographs
+        run: python -u scripts/enrich_rishon_event_images.py
+
+      - name: Commit event photos and review report
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/rishon-lezion/data/events.json events-preview/rishon-lezion/data/image-audit.json events-preview/rishon-lezion/assets/events/
+          if git diff --cached --quiet; then
+            echo "No event image updates."
+            exit 0
+          fi
+          git commit -m "Add verified Rishon LeZion event photos and image audit"
+          git push
