@@ -9,6 +9,7 @@ on:
       - "scripts/test_smarticket_details.py"
       - "scripts/enrich_smarticket_event_details.py"
       - "scripts/enrich_events_institutions.py"
+      - "scripts/audit_events_institutions.py"
       - "scripts/test_institution_enrichment.py"
       - "events-preview/ashdod/data/institutions.json"
       - "events-preview/rishon-lezion/data/institutions.json"
@@ -71,6 +72,9 @@ jobs:
       - name: Link verified local institutions and their contact details
         run: python -u scripts/enrich_events_institutions.py
 
+      - name: Audit missing institution contacts and lecture artwork
+        run: python -u scripts/audit_events_institutions.py
+
       - name: Check dataset shape and source audit
         run: |
           python - <<'PY'
@@ -91,7 +95,7 @@ jobs:
         run: |
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json
+          git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json events-preview/institution-quality-report.json
           if git diff --cached --quiet; then
             echo "No event data/report changes."
             exit 0
@@ -109,7 +113,8 @@ jobs:
               python -u scripts/sync_events_from_sources.py
               python -u scripts/enrich_smarticket_event_details.py
               python -u scripts/enrich_events_institutions.py
-              git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json
+              python -u scripts/audit_events_institutions.py
+              git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json events-preview/institution-quality-report.json
               if git diff --cached --quiet; then
                 echo "Concurrent run already wrote the latest source data."
                 exit 0
