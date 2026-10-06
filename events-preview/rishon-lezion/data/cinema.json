@@ -1,5 +1,106 @@
 {
   "city": "ראשון לציון",
-  "updated_at": "2026-10-05T13:10:00+03:00",
-  "movies": []
+  "updated_at": "2026-10-06T18:30:00+03:00",
+  "source_name": "Seret.co.il - Cinema City Rishon LeZion, 6-7 Oct 2026",
+  "source_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+  "movies": [
+    {
+      "id": "our-loves",
+      "title": "האהבות שלנו",
+      "trailer_youtube_id": "Oq7rPvdaxVE",
+      "synopsis": "סרטו החדש של אבי נשר עוקב אחר שבעה גיבורים שחייהם נשזרים זה בזה, כשהאהבה, היחסים והזיכרון של 6 באוקטובר מחברים ביניהם.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "12:30",
+              "14:10",
+              "15:20",
+              "16:00",
+              "17:20",
+              "19:00",
+              "19:45",
+              "21:00",
+              "22:00"
+            ],
+            "2026-10-07": [
+              "11:30",
+              "13:10",
+              "14:30",
+              "16:10",
+              "17:20",
+              "19:10",
+              "20:10",
+              "22:15",
+              "23:00"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "her-private-hell",
+      "title": "הגיהנום שבפנים",
+      "trailer_youtube_id": "tlcW1P7xJcg",
+      "synopsis": "מותחן אימה שבו ערפל מסתורי בולע עיר עתידנית. אישה צעירה יוצאת לחפש את אביה ונקלעת למסע הישרדות מסוכן.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "14:45",
+              "20:20",
+              "23:00"
+            ],
+            "2026-10-07": [
+              "17:45",
+              "20:20",
+              "23:00"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    },
+    {
+      "id": "digger",
+      "title": "דיגר",
+      "trailer_youtube_id": "TcNh0OjTSs8",
+      "synopsis": "קומדיה בקנה מידה קטסטרופלי בכיכובו של טום קרוז, בשיתוף פעולה ראשון עם הבמאי זוכה האוסקר אלחנדרו גונסלס איניארטו.",
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "13:00",
+              "17:50",
+              "20:50",
+              "22:10"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "13:00",
+              "16:10",
+              "17:10",
+              "19:15",
+              "22:20"
+            ]
+          }
+        }
+      ],
+      "is_family": false
+    }
+  ],
+  "stats": {
+    "verified_cinema_city_movies": 3,
+    "planet_schedule_pending": true
+  }
 }
