@@ -251,7 +251,7 @@ function dateChipHTML(e){
     const remaining=dates.length-limit;
     return remaining>0
       ?'<a class="dateStack__more dateStack__more--'+(limit===4?"mobile":"desktop")+
-        '" href="'+escapeHtml(href)+'" aria-label="לצפייה בכל המועדים, '+(remaining===1?"עוד מועד אחד":"עוד "+remaining+" מועדים")+'>'+(remaining===1?"עוד מועד אחד":"עוד "+remaining+" מועדים")+' <span aria-hidden="true">←</span></a>'
+        '" href="'+escapeHtml(href)+'" aria-label="לצפייה בכל המועדים, '+(remaining===1?"עוד מועד אחד":"עוד "+remaining+" מועדים")+'">'+(remaining===1?"עוד מועד אחד":"עוד "+remaining+" מועדים")+' <span aria-hidden="true">←</span></a>'
       :"";
   };
   return '<div class="dateStack" aria-label="'+dates.length+' תאריכים שונים">'+chips+more(5)+more(4)+'</div>';
