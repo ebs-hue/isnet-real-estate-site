@@ -1,0 +1,60 @@
+name: Share Ashdod event UI with city editions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "events-preview/ashdod/*.html"
+      - "events-preview/ashdod/*.js"
+      - "events-preview/ashdod/*.css"
+      - "scripts/sync_event_city_views.py"
+      - ".github/workflows/sync-events-city-ui.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isnet-events-shared-city-layout
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate and verify Rishon frontend from canonical Ashdod frontend
+        run: |
+          python scripts/sync_event_city_views.py
+          python scripts/sync_event_city_views.py --check
+      - name: Commit only city frontend changes (never city data)
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -- "events-preview/rishon-lezion/*.html" "events-preview/rishon-lezion/*.js" "events-preview/rishon-lezion/*.css"
+          if git diff --cached --quiet; then
+            echo "Shared layouts are current."
+            exit 0
+          fi
+          if git diff --cached --name-only | grep -Ev '^events-preview/rishon-lezion/[^/]+\.(html|css|js)$'; then
+            echo "Refusing to change city-specific datasets." >&2
+            exit 1
+          fi
+          git commit -m "Sync Rishon LeZion UI with Ashdod canonical design"
+          for retry in 1 2 3 4; do
+            git fetch origin main
+            git rebase origin/main || exit 1
+            if git push origin HEAD:main; then
+              echo "City layout changes synced."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Could not synchronize after retries." >&2
+          exit 1
