@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-06T12:21:44Z",
+  "run_at": "2026-10-06T12:23:03Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -8,20 +8,20 @@
       "total_before": 124,
       "sources": {
         "ashdod_smarticket": {
-          "status": "no_parseable_events",
+          "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 0,
-          "valid": 0,
-          "new": 0,
-          "updated": 0
+          "discovered": 218,
+          "valid": 214,
+          "new": 175,
+          "updated": 9
         },
         "mishkan_smarticket": {
-          "status": "no_parseable_events",
+          "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
-          "discovered": 0,
-          "valid": 0,
-          "new": 0,
-          "updated": 0
+          "discovered": 96,
+          "valid": 96,
+          "new": 67,
+          "updated": 17
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -32,17 +32,14 @@
           "updated": 0
         }
       },
-      "new": 0,
-      "updated": 0,
-      "errors": [
-        "ashdod_smarticket:no_parseable_events",
-        "mishkan_smarticket:no_parseable_events"
-      ],
-      "total_after": 124
+      "new": 242,
+      "updated": 26,
+      "errors": [],
+      "total_after": 366
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 168,
+      "total_before": 204,
       "sources": {
         "htrl": {
           "status": "ok",
@@ -53,19 +50,19 @@
           "updated": 2
         },
         "yama": {
-          "status": "no_parseable_events",
+          "status": "ok",
           "url": "https://yama.smarticket.co.il/",
-          "discovered": 0,
-          "valid": 0,
-          "new": 0,
-          "updated": 0
+          "discovered": 11,
+          "valid": 11,
+          "new": 7,
+          "updated": 4
         },
         "kotar_rishon": {
           "status": "ok",
           "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
           "discovered": 76,
           "valid": 42,
-          "new": 36,
+          "new": 0,
           "updated": 0
         },
         "RIZONE+": {
@@ -86,14 +83,13 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 36,
-      "updated": 2,
+      "new": 7,
+      "updated": 6,
       "errors": [
-        "yama:no_parseable_events",
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
       ],
-      "total_after": 204
+      "total_after": 211
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."

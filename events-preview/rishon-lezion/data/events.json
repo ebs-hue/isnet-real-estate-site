@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-06T12:21:47Z",
+  "generated_at": "2026-10-06T12:23:10Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-27"
   },
   "stats": {
-    "events": 204
+    "events": 211
   },
   "events": [
     {
@@ -114,6 +114,107 @@
       "image_strategy": "official_event_poster",
       "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
       "thumbnail_url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "כרטיסי כניסה",
+      "description": null,
+      "start_date": "2026-10-06",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/כרטיסי_כניסה_34",
+      "purchase_url": "https://yama.smarticket.co.il/כרטיסי_כניסה_34",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_7fad43d2d5311f87cfab"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "description": null,
+      "start_date": "2026-10-06",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/כניסה_וסיור_מודרך_לקהל_הרחב",
+      "purchase_url": "https://yama.smarticket.co.il/כניסה_וסיור_מודרך_לקהל_הרחב",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%95%D7%A1%D7%99%D7%95%D7%A8_%D7%9E%D7%95%D7%93%D7%A8%D7%9A_%D7%9C%D7%A7%D7%94%D7%9C_%D7%94%D7%A8%D7%97%D7%91",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
+      "thumbnail_url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "thumbnail_ready": true,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_526f2f4d5a05d1896e4c",
+      "image_strategy": "official_event_poster",
+      "thumbnail_ratio": null,
       "thumbnail_strategy": "direct_local"
     },
     {
@@ -237,7 +338,7 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://yama.smarticket.co.il/",
+      "ticket_url": "https://yama.smarticket.co.il/פעילויות_לכל_המשפחה",
       "image_url": "assets/events/e371313d0e3a31a8bc8fc2a1.webp",
       "image_source": "https://yama.smarticket.co.il/%D7%A4%D7%A2%D7%99%D7%9C%D7%95%D7%99%D7%95%D7%AA_%D7%9C%D7%9B%D7%9C_%D7%94%D7%9E%D7%A9%D7%A4%D7%97%D7%94",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -252,14 +353,14 @@
           "observed_at": "2026-10-05T13:10:00+03:00"
         }
       ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
       "status": "active",
       "quality_flags": [
         "seed_verified_official",
         "needs_image_enrichment"
       ],
-      "purchase_url": "https://yama.smarticket.co.il/",
+      "purchase_url": "https://yama.smarticket.co.il/פעילויות_לכל_המשפחה",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
@@ -445,7 +546,7 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://yama.smarticket.co.il/",
+      "ticket_url": "https://yama.smarticket.co.il/גמצ_יק_-_סיור_תיאטרלי_לקטנטנים",
       "image_url": "assets/events/2c0d3cb09de352b261d08e87.webp",
       "image_source": "https://yama.smarticket.co.il/%D7%92%D7%9E%D7%A6_%D7%99%D7%A7_-_%D7%A1%D7%99%D7%95%D7%A8_%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%9C%D7%99_%D7%9C%D7%A7%D7%98%D7%A0%D7%98%D7%A0%D7%99%D7%9D",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -460,14 +561,14 @@
           "observed_at": "2026-10-05T13:10:00+03:00"
         }
       ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
       "status": "active",
       "quality_flags": [
         "seed_verified_official",
         "needs_image_enrichment"
       ],
-      "purchase_url": "https://yama.smarticket.co.il/",
+      "purchase_url": "https://yama.smarticket.co.il/גמצ_יק_-_סיור_תיאטרלי_לקטנטנים",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
@@ -2103,7 +2204,7 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://yama.smarticket.co.il/",
+      "ticket_url": "https://yama.smarticket.co.il/שיח_גלריה_|_יניב_שפירא_|_אגם_וקדישמן",
       "image_url": "assets/events/507890dc24c67d451c709666.webp",
       "image_source": "https://yama.smarticket.co.il/%D7%A9%D7%99%D7%97_%D7%92%D7%9C%D7%A8%D7%99%D7%94_%7C_%D7%99%D7%A0%D7%99%D7%91_%D7%A9%D7%A4%D7%99%D7%A8%D7%90_%7C_%D7%90%D7%92%D7%9D_%D7%95%D7%A7%D7%93%D7%99%D7%A9%D7%9E%D7%9F",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -2118,14 +2219,14 @@
           "observed_at": "2026-10-05T13:10:00+03:00"
         }
       ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
       "status": "active",
       "quality_flags": [
         "seed_verified_official",
         "needs_image_enrichment"
       ],
-      "purchase_url": "https://yama.smarticket.co.il/",
+      "purchase_url": "https://yama.smarticket.co.il/שיח_גלריה_|_יניב_שפירא_|_אגם_וקדישמן",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
@@ -2702,6 +2803,153 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "בחירות  2026 - משפחות",
+      "description": null,
+      "start_date": "2026-10-27",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
+      "purchase_url": "https://yama.smarticket.co.il/בחירות__2026_-_משפחות",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בחירות 2026 - כניסה",
+      "description": null,
+      "start_date": "2026-10-27",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/בחירות_2026_-_כניסה",
+      "purchase_url": "https://yama.smarticket.co.il/בחירות_2026_-_כניסה",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_733c2543cc344156adb2"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בחירות 2026 - קהל רחב",
+      "description": null,
+      "start_date": "2026-10-27",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/בחירות_2026_-_קהל_רחב",
+      "purchase_url": "https://yama.smarticket.co.il/בחירות_2026_-_קהל_רחב",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_9949c5fde18ab2a5ef50"
+    },
+    {
       "event_id": "htrl_20261027_1930_קוולריה-רוסטיקנה",
       "city": "ראשון לציון",
       "title": "קוולריה רוסטיקנה",
@@ -2954,6 +3202,55 @@
       "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6a54b54c5f121069305316.jpg",
       "thumbnail_url": "assets/events/0afe2613f10626a97bf359ab.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "להקת המחול ורטיגו -\"נונה\" גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם\n\"נונה\" - גרסת המוזיאון\nחמישי | 29.10.26 | 20:00",
+      "description": null,
+      "start_date": "2026-10-29",
+      "end_date": null,
+      "start_time": "20:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/להקת_המחול_ורטיגו_-_נונה__גרסת_המוזיאון",
+      "purchase_url": "https://yama.smarticket.co.il/להקת_המחול_ורטיגו_-_נונה__גרסת_המוזיאון",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_5f6a849719b707076c93"
     },
     {
       "event_id": "htrl_20261029_2030_אף-מילה-לאמא",
@@ -3343,7 +3640,7 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://yama.smarticket.co.il/",
+      "ticket_url": "https://yama.smarticket.co.il/שלישי_לגיל_השלישי_-_תושבי_ראשון_לציון",
       "image_url": "assets/events/08eac202af624ded2daeda9e.webp",
       "image_source": "https://yama.smarticket.co.il/%D7%A9%D7%9C%D7%99%D7%A9%D7%99_%D7%9C%D7%92%D7%99%D7%9C_%D7%94%D7%A9%D7%9C%D7%99%D7%A9%D7%99_-_%D7%AA%D7%95%D7%A9%D7%91%D7%99_%D7%A8%D7%90%D7%A9%D7%95%D7%9F_%D7%9C%D7%A6%D7%99%D7%95%D7%9F",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -3358,14 +3655,14 @@
           "observed_at": "2026-10-05T13:10:00+03:00"
         }
       ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
       "status": "active",
       "quality_flags": [
         "seed_verified_official",
         "needs_image_enrichment"
       ],
-      "purchase_url": "https://yama.smarticket.co.il/",
+      "purchase_url": "https://yama.smarticket.co.il/שלישי_לגיל_השלישי_-_תושבי_ראשון_לציון",
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
@@ -3836,6 +4133,55 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_shtuzim.jpg",
       "thumbnail_url": "assets/events/005382b7bc3fa7b59a1eb319.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הרפתקה במוזיאון - הצגה בתערוכה",
+      "description": null,
+      "start_date": "2026-11-14",
+      "end_date": null,
+      "start_time": "12:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/הרפתקה_במוזיאון_-_הצגה_בתערוכה",
+      "purchase_url": "https://yama.smarticket.co.il/הרפתקה_במוזיאון_-_הצגה_בתערוכה",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:10Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_f17a1350f016d7726b7c"
     },
     {
       "event_id": "htrl_20261114_2100_שקרים-קטנים",
@@ -5781,8 +6127,8 @@
           "observed_at": "2026-10-06T12:20:05Z"
         }
       ],
-      "observed_at": "2026-10-06T12:21:47Z",
-      "last_verified_at": "2026-10-06T12:21:47Z",
+      "observed_at": "2026-10-06T12:23:10Z",
+      "last_verified_at": "2026-10-06T12:23:10Z",
       "status": "active",
       "quality_flags": [
         "automated_official_calendar"
