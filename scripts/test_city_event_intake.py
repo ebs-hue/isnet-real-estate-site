@@ -41,4 +41,22 @@ rows = m.generic_jsonld_rows(BeautifulSoup(ld, "html.parser"),base)
 assert len(rows) == 1 and rows[0]["start_date"] == "2026-11-06", rows
 
 assert m.event_key({"title":"ערב שירה – מקומית","start_date":"2026-11-06","start_time":"20:30"}) == m.event_key({"title":"ערב שירה - מקומית","start_date":"2026-11-06","start_time":"20:30"})
+
+original = {"city":"אשדוד","title":"מופע חגיגי","start_date":"2026-10-10",
+            "start_time":"17:00","ticket_url":"https://ashdod.smarticket.co.il/",
+            "sources":[{"name":"ashdod_smarticket"}],"venue":"היכל התרבות"}
+second = dict(original, start_time="21:00")
+assert m.existing_match([original], second, "ashdod_smarticket") is None, "Distinct showtimes must not overwrite each other"
+
+original_ticket = dict(original, ticket_url="https://ashdod.smarticket.co.il/מופע?id=100")
+changed = dict(original_ticket, start_date="2026-10-11", start_time="18:00")
+assert m.existing_match([original_ticket], changed, "ashdod_smarticket") is original_ticket, "Exact ticket ID may confirm a reschedule"
+
+manual = dict(original, event_id="manual123")
+dupe = dict(original, event_id="auto_as_a1", title="מופע חגיגי | היכל התרבות אשדוד",
+            sources=[{"name":"ashdod_smarticket"}])
+entries=[dupe,manual]
+invalid, removed = m.clean_generated_duplicates(entries)
+assert len(entries)==1 and entries[0]["event_id"]=="manual123" and removed==1, entries
+
 print("PASS: Smarticket Hebrew dates, HTRL, Kotar, JSON-LD, stable dedupe")
