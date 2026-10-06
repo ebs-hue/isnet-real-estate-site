@@ -478,7 +478,7 @@ function parseSearchIntent(q){
     !SEARCH_STOPWORDS.has(w)&&
     !concepts.some(c=>textIncludesConcept(w,c.words))&&
     !/^\d+$/.test(w)&&
-    !["מחיר","תקציב","מקסימום","בחינם","ילדים","הילדים"].includes(w)
+    !["מחיר","תקציב","מקסימום","בחינם","ילדים","הילדים","דברים","אירוע","אירועים","לשבת","בשבת","ביום","בשישי","למחר","להיום","בילוי","לבלות","דייטים","בשבוע","בקרוב","אטרקציה","אטרקציות"].includes(w)
   );
   return {concepts,date,free,maxPrice,age,terms:remaining,query:s};
 }
@@ -524,7 +524,8 @@ function eventSemanticScore(e,intent){
   }
   const recognized=intent.concepts.length>0||intent.terms.length>0;
   if(intent.concepts.length>0&&matchedConcepts===0&&matchedTerms===0)return null;
-  if(intent.terms.length>0&&matchedTerms===0&&matchedConcepts===0)return null;
+  // A name/venue in the query is a required signal, not just a weak preference.
+  if(intent.terms.length>0&&matchedTerms===0)return null;
   if(!recognized)score=2;
   if(score<=0)return null;
   if(intent.terms.length>1&&matchedTerms<intent.terms.length)score-=4*(intent.terms.length-matchedTerms);
@@ -798,15 +799,17 @@ function renderResults(){
   $("eventsGrid").innerHTML=arr.map(eventCard).join("");
   const sports=state.category==="sport";
   const title=$("resultsTitle");
-  if(title)title.textContent=sports?"משחקי הבית ואירועי הספורט באשדוד":"כל האירועים באשדוד";
-  $("resultCount").textContent=arr.length+(sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
+  const smartIntent=state.query.trim()?parseSearchIntent(state.query.trim()):null;
+  if(title)title.textContent=smartIntent?"האפשרויות שמצאנו בשבילכם":sports?"משחקי הבית ואירועי הספורט באשדוד":"כל האירועים באשדוד";
+  $("resultCount").textContent=arr.length+(smartIntent?" אפשרויות מתאימות":sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
   $("emptyState").hidden=arr.length>0;
   $("eventsGrid").hidden=arr.length===0;
   const feedback=$("searchFeedback");
   if(feedback){
     const query=state.query.trim();
     feedback.hidden=!query;
-    feedback.textContent=query?(arr.length?arr.length+" תוצאות עבור ״"+query+"״ · לחצו Enter להצגה":"לא נמצאו אירועים עבור ״"+query+"״ · נסו חיפוש אחר"):"";
+    const understood=query?searchIntentLabel(parseSearchIntent(query)):"";
+    feedback.textContent=query?(arr.length?(understood?"הבנתי: "+understood+" · ":"")+arr.length+" אפשרויות · Enter להצגת התוצאות":"לא מצאתי כרגע התאמה טובה. נסו לשנות תאריך, נושא או שם אירוע."):"";
   }
 }
 function render(){
