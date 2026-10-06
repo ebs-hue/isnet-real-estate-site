@@ -71,7 +71,8 @@
       "name": "כותר ראשון חביב",
       "aliases": [
         "כותר ראשון חביב",
-        "כותר טף ספריית חביב"
+        "כותר טף ספריית חביב",
+        "כותר חביב, כותר טף"
       ],
       "address": "אחד העם 7, ראשון לציון",
       "phone": "03-9689700",
@@ -94,6 +95,75 @@
       "email": "info@yama.co.il",
       "website": "https://yama.smarticket.co.il/",
       "source_url": "https://yama.smarticket.co.il/מידע_למבקר_page_19"
+    },
+    {
+      "id": "rishon_yad_labanim",
+      "kind": "venue",
+      "name": "בית יד לבנים ראשון לציון",
+      "aliases": [
+        "בית יד לבנים, ראשון לציון",
+        "בית יד לבנים",
+        "יד לבנים ראשון לציון"
+      ],
+      "address": "אחד העם 20, ראשון לציון",
+      "phone": "03-9518900",
+      "website": "https://rishonlezion.gal-ed.co.il/",
+      "source_url": "https://www.hironit.org.il/_Uploads/dbsAttachedFiles/009.pdf"
+    },
+    {
+      "id": "rishon_beit_haam",
+      "kind": "venue",
+      "name": "בית העם ראשון לציון",
+      "aliases": [
+        "בית העם, ראשון לציון",
+        "בית העם ראשון לציון",
+        "בית העם"
+      ],
+      "address": "זד״ל 3, ראשון לציון",
+      "phone": "03-9537000",
+      "website": null,
+      "source_url": "https://www.habama.co.il/Pages/HallSpecial.aspx?Area=2&HallGroupID=1363&HallID=1708&Subj=5"
+    },
+    {
+      "id": "rishon_city_museum",
+      "kind": "venue",
+      "name": "מוזאון ראשון לציון",
+      "aliases": [
+        "מוזיאון ראשון",
+        "מוזיאון ראשון, ראשון לציון",
+        "מוזיאון ראשון לציון",
+        "מוזאון ראשון לציון"
+      ],
+      "address": "אחד העם 2, ראשון לציון",
+      "phone": "03-9598862",
+      "website": "https://www.rlzm.co.il/",
+      "source_url": "https://shimur.org/sites/מוזיאון-ראשון-לציון/"
+    },
+    {
+      "id": "rishon_gallery_gordon",
+      "kind": "venue",
+      "name": "גלריה עירונית בית גורדון־לונדון",
+      "aliases": [
+        "גלריה בית לונדון, ראשון לציון",
+        "בית לונדון",
+        "גלריה בית לונדון"
+      ],
+      "address": "אחד העם 8, ראשון לציון",
+      "phone": "03-7572822",
+      "website": "https://bl-gallery.co.il/",
+      "source_url": "https://bl-gallery.co.il/about/"
+    },
+    {
+      "id": "koter_shikma",
+      "kind": "venue",
+      "name": "כותר ראשון שקמה",
+      "aliases": [
+        "כותר ראשון שקמה"
+      ],
+      "address": "חיים בר לב 8, ראשון לציון",
+      "phone": "03-9636800",
+      "website": "https://www.kotar-rishon-lezion.org.il/",
+      "source_url": "https://www.kotar-rishon-lezion.org.il/library/iplkhjkg-copy-3/"
     }
   ]
 }
