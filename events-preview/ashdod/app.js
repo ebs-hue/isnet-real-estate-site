@@ -506,6 +506,13 @@ function eventSemanticScore(e,intent){
   let score=0,matchedConcepts=0,matchedTerms=0;
   for(const concept of intent.concepts){
     let points=concept.cats[e.category]||0;
+    // Family searches should not recommend adult theatre or senior workshops
+    // merely because these categories occasionally contain children's events.
+    if(concept.id==="family"&&e.category!=="kids"&&
+       !(e.audiences||[]).some(a=>["kids","families"].includes(a))&&
+       !/ילד|פעוט|קטנט|משפח|גן חובה|נוער|בובות|שעת סיפור|לגילאי/.test(hay)){
+      points=0;
+    }
     if(textIncludesConcept(hay,concept.eventWords))points+=5;
     if(concept.id==="family"&&(e.audiences||[]).some(a=>["kids","families"].includes(a)))points+=8;
     if(concept.id==="family"&&/הורה ילד|ילדי|ילדים|פעוט|גן חובה/.test(hay))points+=7;
