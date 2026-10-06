@@ -159,8 +159,15 @@ function autoPitch(e){
   return e.title+where+" • "+fmtFull.format(localDate(e.start_date))+" • "+formatTime(e.start_time)+
     (e.ticket_status==="sold_out"?" • הכרטיסים אזלו":"");
 }
-function autoStory(e){
-  return ["תיאור מפורט של האירוע לא פורסם במקור שבדקנו. המועד, המחיר, המיקום ודרכי יצירת הקשר מופיעים בכרטיס הפרטים. מומלץ לעיין בעמוד האירוע הרשמי לפני הגעה."];
+function meaningfulEventDescription(e){
+  // Prefer editorial descriptions already attributed to this event.
+  // A short pitch is shown only when it adds information beyond the title.
+  const candidates=[e.long_description,e.series_description,e.description,e.short_pitch];
+  return candidates.map(v=>String(v||"").trim()).find(v=>
+    v.length>=25 &&
+    !v.includes("תיאור מפורט של האירוע לא פורסם") &&
+    !v.includes("המועד, המחיר, המיקום ודרכי יצירת הקשר מופיעים")
+  )||"";
 }
 function autoHighlights(e,occ){
   const items=[];
@@ -244,9 +251,12 @@ function renderHero(e,occ,imageEvent){
 }
 
 function renderStory(e,occ){
-  const paras=splitParagraphs(e.long_description||e.series_description||e.description);
-  const story=paras.length?paras:autoStory(e);
-  $("eventStory").innerHTML=story.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
+  const description=meaningfulEventDescription(e);
+  const paragraphs=splitParagraphs(description);
+  // Never display generic placeholder copy as event editorial content.
+  // Schedule, venue, prices and organizer contact remain in their own cards.
+  $("aboutSection").hidden=!paragraphs.length;
+  $("eventStory").innerHTML=paragraphs.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
 
   // Do not fabricate marketing claims when only ticket metadata is available.
   const highlights=Array.isArray(e.highlights)?e.highlights:[];
