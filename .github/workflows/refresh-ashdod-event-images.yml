@@ -9,6 +9,7 @@ on:
       - "scripts/clean_event_image_placeholders_v2.py"
       - "scripts/recover_event_listing_images.py"
       - ".github/workflows/refresh-ashdod-event-images.yml"
+      - "events-preview/ashdod/data/events.json"
 
 permissions:
   contents: write
@@ -20,7 +21,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - name: Checkout
         uses: actions/checkout@v4
