@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-06T13:57:05Z",
+  "generated_at": "2026-10-06T17:27:12Z",
   "total_events": 390,
-  "events_with_publishable_images": 172,
-  "events_still_missing_images": 218,
+  "events_with_publishable_images": 174,
+  "events_still_missing_images": 216,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 139,
+    "ashdod_smarticket": 137,
     "איגוד הכדורעף בישראל": 4,
     "ההתאחדות לכדורגל בישראל": 4,
     "mishkan_smarticket": 71
   },
   "missing_by_category": {
-    "other": 116,
-    "lecture": 8,
+    "other": 115,
     "kids": 12,
     "exhibition": 54,
     "workshop": 12,
+    "lecture": 7,
     "theatre": 5,
     "sport": 8,
     "standup": 3
@@ -26,11 +26,6 @@
     {
       "event_id": "auto_as_28fe848c6f89f60e0640",
       "title": "סטודיו פתוח",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_b6a70a7d39dab383c7cc",
-      "title": "מועדון הקוראות הרומנטיות -מועדון קריאה שכולו אהבה | סדרת מפגשים בהנחיית הסופרת שרית חיים",
       "reason": "no_verified_source_image"
     },
     {
@@ -369,11 +364,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "auto_as_28a0894af263d3e95052",
-      "title": "פילאטיס לאזרחים וותיקים",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_772312d4fce5baa32388",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
@@ -381,6 +371,11 @@
     {
       "event_id": "auto_as_6702385b6f68556b2c50",
       "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_a84790398264ca067403",
+      "title": "יריד בריאות לאזרחים וותיקים",
       "reason": "no_verified_source_image"
     },
     {
@@ -396,11 +391,6 @@
     {
       "event_id": "auto_as_0e470b243e0ad27cfecd",
       "title": "סדנת סטנדאפ ZEGEYE",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_45d7bf9ffa2f8ddfde8e",
-      "title": "פילאטיס לאזרחים ותיקים",
       "reason": "no_verified_source_image"
     },
     {
