@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-06T12:26:47Z",
+  "generated_at": "2026-10-06T13:03:02Z",
   "window": {
     "from": "2026-10-06",
-    "to": "2027-07-27"
+    "to": "2027-09-20"
   },
   "stats": {
-    "events": 204
+    "events": 320
   },
   "events": [
     {
@@ -634,6 +634,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "שפת הגוף התנכ\"ית",
+      "description": null,
+      "start_date": "2026-10-10",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_fc5a55d7397f123bab70"
+    },
+    {
       "event_id": "htrl_20261010_2100_זוגיות-AI",
       "city": "ראשון לציון",
       "title": "זוגיות AI",
@@ -787,6 +838,57 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_9f1ceb0a59a88d6a3546"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "פרלמנט גברים",
+      "description": null,
+      "start_date": "2026-10-11",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_f034b0005aba57961c7e"
     },
     {
       "event_id": "r_r_1011_1830",
@@ -1152,6 +1254,210 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "משחקי הכס – תה עם המלכה",
+      "description": null,
+      "start_date": "2026-10-12",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_47445078968e008a3590"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "סדנא באומנות",
+      "description": null,
+      "start_date": "2026-10-13",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "הסדנא לאומנויות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c29d4eb1580388cda652"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הרצאה – על רגל אחת",
+      "description": null,
+      "start_date": "2026-10-13",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ceed327264a9be96483d"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מועדון ריקודים",
+      "description": null,
+      "start_date": "2026-10-13",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4e39de0caba699a70faf"
+    },
+    {
       "event_id": "r_h_1013_2030",
       "city": "ראשון לציון",
       "title": "הלהקות הצבאיות חוזרות",
@@ -1418,6 +1724,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "ידיעת זהב",
+      "description": null,
+      "start_date": "2026-10-17",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_50b4293a26086f6bd52d"
+    },
+    {
       "event_id": "htrl_20261017_2030_מועדון-הזמר-של-אילנה-כץ-–-לו",
       "city": "ראשון לציון",
       "title": "מועדון הזמר של אילנה כץ – לוליפופ",
@@ -1674,6 +2031,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "דילמות במשפחה היהודית בתרבות היידיש",
+      "description": null,
+      "start_date": "2026-10-18",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6a952281b9a1d50de945"
+    },
+    {
       "event_id": "htrl_20261018_2030_אור-לגויים",
       "city": "ראשון לציון",
       "title": "אור לגויים",
@@ -1724,6 +2132,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_or_lagoim.jpg",
       "thumbnail_url": "assets/events/cd4f1ca0ad8e6dab130ba038.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שושנה דמארי",
+      "description": null,
+      "start_date": "2026-10-19",
+      "end_date": null,
+      "start_time": "09:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_db3580485033a14ef6d5"
     },
     {
       "event_id": "r_k_1019_1700",
@@ -1883,6 +2342,159 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "סיור אומנות",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "גלריה בית לונדון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_fc5619ae590998dbc800"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הרצאה – סוד המוח הצעיר",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "כותר אלון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_1ac2e2abafd31224d2b8"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "סוד המוח הצעיר",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "כותר ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_747d4b2b4f68573f3c7c"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "סוד המוח הצעיר: הרצאה חווייתית הכוללת משחקי חשיבה וחידות היגיון",
       "description": null,
       "start_date": "2026-10-20",
@@ -1929,6 +2541,57 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_02c01ca271e49574910d"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מועדון ריקודים",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_809cbafc2de16600645a"
     },
     {
       "city": "ראשון לציון",
@@ -2030,6 +2693,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_or_lagoim.jpg",
       "thumbnail_url": "assets/events/cd4f1ca0ad8e6dab130ba038.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "תגבירו את המזגן – אני בוערת",
+      "description": null,
+      "start_date": "2026-10-21",
+      "end_date": null,
+      "start_time": "19:30",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ccdb04e5dda0029fefcf"
     },
     {
       "event_id": "htrl_20261021_2030_אדיר-מילר",
@@ -2342,6 +3056,108 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/08/new_site_320_450_yael.jpg",
       "thumbnail_url": "assets/events/e6c11bfe374c081ba2f298f1.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מגילת העצמאות",
+      "description": null,
+      "start_date": "2026-10-24",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_8bf1857ce8efe2c7632b"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "תופעת הנבואה הקדומה בישראל",
+      "description": null,
+      "start_date": "2026-10-24",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_f8c3bb5affa596c56f45"
     },
     {
       "event_id": "htrl_20261024_2030_Sinatra-My-Way-–-פרנק-סינטרה",
@@ -3308,6 +4124,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "מרגלות",
+      "description": null,
+      "start_date": "2026-10-31",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_268aa53a2a2e6191a461"
+    },
+    {
       "event_id": "htrl_20261031_2030_אף-מילה-לאמא",
       "city": "ראשון לציון",
       "title": "אף מילה לאמא",
@@ -3414,6 +4281,159 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "סדנא חוויתית",
+      "description": null,
+      "start_date": "2026-11-03",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "סדנה לאמנות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ba6b4e505006468bd433"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "סיור אומנות",
+      "description": null,
+      "start_date": "2026-11-03",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "גלריה בית לונדון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4307094b3b636375d0a8"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מועדון ריקודים",
+      "description": null,
+      "start_date": "2026-11-03",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_3f778d888bea8764a68c"
+    },
+    {
       "event_id": "htrl_20261104_2030_בן-בן-ברוך",
       "city": "ראשון לציון",
       "title": "בן בן ברוך",
@@ -3518,6 +4538,108 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "קבלת שבת עם הרבה תמרה שיפרין",
+      "description": null,
+      "start_date": "2026-11-06",
+      "end_date": null,
+      "start_time": "15:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_8929f9caaaca744a7355"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הספרים החיצוניים",
+      "description": null,
+      "start_date": "2026-11-07",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ef5a2949e63b77022201"
+    },
+    {
       "event_id": "r_k_1109_1900",
       "city": "ראשון לציון",
       "title": "שירה שווה: מופע ספרותי מוזיקלי",
@@ -3568,6 +4690,108 @@
       "image_strategy": "awaiting_official_event_image",
       "thumbnail_url": null,
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מופע מוזיקלי",
+      "description": null,
+      "start_date": "2026-11-10",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "music",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_58355c48443b8ba20e67"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "סיור אומנות",
+      "description": null,
+      "start_date": "2026-11-10",
+      "end_date": null,
+      "start_time": "12:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_707b45b8e577180319fb"
     },
     {
       "event_id": "r_y_1110_1200",
@@ -3622,6 +4846,57 @@
       "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658414c70d926082067054.jpg",
       "thumbnail_url": "assets/events/08eac202af624ded2daeda9e.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מועדון ריקודים",
+      "description": null,
+      "start_date": "2026-11-10",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_fd4a6591415646857006"
     },
     {
       "event_id": "r_k_1110_2000",
@@ -4037,6 +5312,57 @@
       "event_id": "auto_ri_f17a1350f016d7726b7c"
     },
     {
+      "city": "ראשון לציון",
+      "title": "צלילי הכליזמר",
+      "description": null,
+      "start_date": "2026-11-14",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "music",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7b5b465ab1f330252c29"
+    },
+    {
       "event_id": "htrl_20261114_2100_שקרים-קטנים",
       "city": "ראשון לציון",
       "title": "שקרים קטנים",
@@ -4243,6 +5569,210 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "סיור אומנות",
+      "description": null,
+      "start_date": "2026-11-17",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "גלריה בית לונדון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_94e5b4102820046ae0e6"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בארבע מעשיות",
+      "description": null,
+      "start_date": "2026-11-17",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "כותר ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ed6d091469f1efd1d75c"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הקרנת סרט",
+      "description": null,
+      "start_date": "2026-11-17",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_3eecf4ed903792fdc662"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מועדון ריקודים",
+      "description": null,
+      "start_date": "2026-11-17",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_76b151e71dfd68794b0a"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "פסניארי",
       "description": null,
       "start_date": "2026-11-17",
@@ -4289,6 +5819,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_8f29732b6cef68a6354c"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "לחשוב מחוץ לקופסה – פרלמנט גברים",
+      "description": null,
+      "start_date": "2026-11-18",
+      "end_date": null,
+      "start_time": "18:30",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_01ec9136220540e351ab"
     },
     {
       "event_id": "htrl_20261118_2030_אוי-אלוהים",
@@ -4442,6 +6023,57 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_af02c6eaeb65f83de9e0"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הספרים החיצוניים",
+      "description": null,
+      "start_date": "2026-11-21",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_bb0d87698633161782fa"
     },
     {
       "event_id": "htrl_20261121_2030_אוי-אלוהים",
@@ -4646,6 +6278,108 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "אולסי פרי הסיפור שלא נגמר",
+      "description": null,
+      "start_date": "2026-11-24",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6096a30d16df052784ba"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "רוקדים לצלילי אלביס",
+      "description": null,
+      "start_date": "2026-11-24",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_62bc846af26ed44811d8"
+    },
+    {
       "event_id": "r_k_1124_1900",
       "city": "ראשון לציון",
       "title": "על מסע היצירה של הספרים \"סולם גנבים\" ו\"צומת מסובים\"",
@@ -4750,6 +6484,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/01/new_site_320_450_mika_new.jpg",
       "thumbnail_url": "assets/events/d16d764c994e2d9b18d7fa2f.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "אלכסנדר פן: \"היה או לא היה\"",
+      "description": null,
+      "start_date": "2026-11-25",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_8456a441b67eb5c499a5"
     },
     {
       "city": "ראשון לציון",
@@ -4958,6 +6743,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "לוח השנה העברי",
+      "description": null,
+      "start_date": "2026-11-28",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_79f39b31e5ed04647185"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מועדון הזמר של אילנה כץ – לאור הזכרונות",
       "description": null,
       "start_date": "2026-11-28",
@@ -5105,6 +6941,57 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_09bafa61f59918d579e0"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ימין ושמאל – רק חול וחול",
+      "description": null,
+      "start_date": "2026-11-29",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ed225be0a53efca0fcf5"
     },
     {
       "event_id": "htrl_20261129_2030_מורדות",
@@ -5467,6 +7354,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "קבלת שבת עם הרב בני מינץ",
+      "description": null,
+      "start_date": "2026-12-04",
+      "end_date": null,
+      "start_time": "15:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_566e9fcf9b2fb7750335"
+    },
+    {
       "event_id": "htrl_20261204_2230_אדיר-מילר",
       "city": "ראשון לציון",
       "title": "אדיר מילר",
@@ -5791,6 +7729,157 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450-20.jpg",
       "thumbnail_url": "assets/events/89a3eb2b9e1162db51560475.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "חנוכה, נר שני",
+      "description": null,
+      "start_date": "2026-12-05",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7d6b6116d2ed50fe8043"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "אי טרופי אבוד – קובה",
+      "description": null,
+      "start_date": "2026-12-07",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_664315092d2c22879f09"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "היי סקול דרמה – משפחת טרסוב",
+      "description": null,
+      "start_date": "2026-12-08",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "היכל התרבות מאיר ניצן",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl",
+          "url": "https://htrl.co.il/לוח-שנה/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_949066053ff2bee127d6"
     },
     {
       "city": "ראשון לציון",
@@ -6273,6 +8362,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "מכבים אנחנו",
+      "description": null,
+      "start_date": "2026-12-12",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6e48e49de929a96372d6"
+    },
+    {
       "event_id": "htrl_20261212_1800_שומרי-הדרקונים",
       "city": "ראשון לציון",
       "title": "שומרי הדרקונים",
@@ -6381,6 +8521,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_alisa.jpg",
       "thumbnail_url": "assets/events/cfaa3cba644472ea887ffc8d.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "לגלות תרבות ממבט מגדרי",
+      "description": null,
+      "start_date": "2026-12-13",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_40c2da2d2eb1f0cf0869"
     },
     {
       "city": "ראשון לציון",
@@ -6637,6 +8828,108 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "פרשת השבוע",
+      "description": null,
+      "start_date": "2026-12-19",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_828ed0665a4870352dd7"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ג׳אז במדים",
+      "description": null,
+      "start_date": "2026-12-19",
+      "end_date": null,
+      "start_time": "20:00",
+      "end_time": null,
+      "venue": "אודוטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_d847c14c34f54e74e442"
+    },
+    {
       "event_id": "htrl_20261219_2030_היומן",
       "city": "ראשון לציון",
       "title": "היומן",
@@ -6687,6 +8980,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_yoman-2.jpg",
       "thumbnail_url": "assets/events/418a1774ac7141146a0dd6e2.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מה שהיה בינינו",
+      "description": null,
+      "start_date": "2026-12-21",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c3a283081eafdf399788"
     },
     {
       "city": "ראשון לציון",
@@ -6843,6 +9187,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "שירי שבת בין ציון וציונות",
+      "description": null,
+      "start_date": "2026-12-26",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c837a6c5c4dcc45e3e26"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "ספריות, ידע ובינה מלאכותית בעידן של עומס המידע",
       "description": null,
       "start_date": "2026-12-27",
@@ -6889,6 +9284,108 @@
         "automated_official_listing"
       ],
       "event_id": "auto_ri_739f976aac5b7906b987"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בין יפו לפיראוס",
+      "description": null,
+      "start_date": "2026-12-27",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_42d5792076d7221fa16a"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ויסלבה שימבורסקה \" אחדים אוהבים שירה\"",
+      "description": null,
+      "start_date": "2026-12-30",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c296579af71adc84b6ed"
     },
     {
       "city": "ראשון לציון",
@@ -6992,6 +9489,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "קבלת שבת עם אריאל הכהן",
+      "description": null,
+      "start_date": "2027-01-01",
+      "end_date": null,
+      "start_time": "15:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_31b7d0fef4cbb7eafaee"
+    },
+    {
       "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
       "city": "ראשון לציון",
       "title": "כספיון – התיאטרון השחור",
@@ -7047,6 +9595,57 @@
       "thumbnail_strategy": "direct_local"
     },
     {
+      "city": "ראשון לציון",
+      "title": "חלקן של הנשים בחיי משה",
+      "description": null,
+      "start_date": "2027-01-02",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_b25561e548c2994f563b"
+    },
+    {
       "event_id": "htrl_20270102_2030_מחווה-לברברה-סטרייסנד",
       "city": "ראשון לציון",
       "title": "מחווה לברברה סטרייסנד",
@@ -7097,6 +9696,57 @@
       "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_4502.jpg",
       "thumbnail_url": "assets/events/5f8410e0ed0e7b6f6f4be0bb.webp",
       "thumbnail_strategy": "direct_local"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מה זאת אהבה? מושג האהבה באומנויות ובתרבות בצרפת",
+      "description": null,
+      "start_date": "2027-01-03",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c6545d6342cb0b0a748b"
     },
     {
       "city": "ראשון לציון",
@@ -7504,6 +10154,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "קין והבל",
+      "description": null,
+      "start_date": "2027-01-09",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c255ca08e80dd0397608"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "חמישה חוקי טיפשות",
+      "description": null,
+      "start_date": "2027-01-10",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_3abe6d513dd3cfd846b8"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "אגדת הטנגו העולמית מרכוס אשלה",
       "description": null,
       "start_date": "2027-01-10",
@@ -7602,6 +10354,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "איך צ'רצ'יל נהיה צ'רצ'יל?",
+      "description": null,
+      "start_date": "2027-01-13",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_de00461d92b9ccfed297"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מקומות שמורים",
       "description": null,
       "start_date": "2027-01-14",
@@ -7648,6 +10451,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_0b7b2bf370a5926546d3"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "עקדת יצחק",
+      "description": null,
+      "start_date": "2027-01-16",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_15daa1d82a2808917815"
     },
     {
       "city": "ראשון לציון",
@@ -7798,6 +10652,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "מיערות הגשם לערים – אקוודור",
+      "description": null,
+      "start_date": "2027-01-18",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6803db105ad81c735cbb"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "ארבע העונות של ניקי גולדשטיין",
       "description": null,
       "start_date": "2027-01-19",
@@ -7847,6 +10752,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "משורר על הבמה",
+      "description": null,
+      "start_date": "2027-01-20",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_9e8765db5f00f5b2dcd5"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "דבר אליי בפרחים",
+      "description": null,
+      "start_date": "2027-01-23",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7010f8704a13da8e7eef"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "תזמורת האורקסטרה החדשה",
       "description": null,
       "start_date": "2027-01-24",
@@ -7893,6 +10900,108 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_926a6208235f42404f92"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "איך זה שכוכב אחד מעז",
+      "description": null,
+      "start_date": "2027-01-25",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_1b1faa7ae65610b99d0f"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בוב דילן: זמנים משתנים",
+      "description": null,
+      "start_date": "2027-01-27",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4fca8df7328001e1d648"
     },
     {
       "city": "ראשון לציון",
@@ -8043,6 +11152,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "כי האדם הוא עץ השדה",
+      "description": null,
+      "start_date": "2027-01-30",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "בית יד לבנים, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_9143b93d1dba2cd9d09a"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "דניאל חן",
       "description": null,
       "start_date": "2027-01-30",
@@ -8089,6 +11249,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_c9ca38ece861083f0aa0"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "אתונה פינת איזמיר",
+      "description": null,
+      "start_date": "2027-01-31",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4752797d79f1e8b10783"
     },
     {
       "city": "ראשון לציון",
@@ -8187,6 +11398,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_a1c4ffe96599dda7e103"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "״הגלריה הלאומית\" לונדון",
+      "description": null,
+      "start_date": "2027-02-02",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_e231981777e3d462b16e"
     },
     {
       "city": "ראשון לציון",
@@ -8337,6 +11599,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "קבל שבת עם הרב בני מינץ",
+      "description": null,
+      "start_date": "2027-02-05",
+      "end_date": null,
+      "start_time": "15:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_51a977e786cea8a0efca"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "גבירתי הנאווה",
       "description": null,
       "start_date": "2027-02-06",
@@ -8383,6 +11696,108 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_d8f2b53be8fca7562229"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שיעור ראשון: יסודות הטלוויזיה והמדיה",
+      "description": null,
+      "start_date": "2027-02-07",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_76afa79ba60137c450ac"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מאיר אריאל: \"צולל חפשי ללא מצנח\"",
+      "description": null,
+      "start_date": "2027-02-10",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_b1d3d991d1f8d8042079"
     },
     {
       "city": "ראשון לציון",
@@ -8435,6 +11850,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "ניגון נשמה בוכרית",
+      "description": null,
+      "start_date": "2027-02-13",
+      "end_date": null,
+      "start_time": "20:00",
+      "end_time": null,
+      "venue": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_94ade0bdfcafcb865920"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "הנערה מהדואר",
       "description": null,
       "start_date": "2027-02-13",
@@ -8484,6 +11950,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "איה – החמור, הפילוסוף של יער ת\"ק הפרסאות",
+      "description": null,
+      "start_date": "2027-02-14",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_a822b32458e12a26bb4e"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שיעור שני: יסודות הטלוויזיה והמדיה",
+      "description": null,
+      "start_date": "2027-02-14",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_f7dab76c65c5e0654662"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "פטר והזאב",
       "description": null,
       "start_date": "2027-02-20",
@@ -8530,6 +12098,108 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_02ebffc6eafa01a5a110"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שיעור שלישי: יסודות הטלוויזיה והמדיה",
+      "description": null,
+      "start_date": "2027-02-21",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_848e9b60630b0b0653e5"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שאנסונים על סיפורי האהבה הגדולים בהיסטוריה הצרפתית",
+      "description": null,
+      "start_date": "2027-02-21",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_85dab1def11db8e84dfe"
     },
     {
       "city": "ראשון לציון",
@@ -8631,6 +12301,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "מפגש וסרט \"לחיות על אדמה רועדת\"",
+      "description": null,
+      "start_date": "2027-02-25",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_dc8d43558bed2a21f485"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מר גרין",
       "description": null,
       "start_date": "2027-02-25",
@@ -8677,6 +12398,159 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_9794f2a615abbce012fb"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "שיעור רביעי: יסודות הטלוויזיה והמדיה",
+      "description": null,
+      "start_date": "2027-02-28",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_3f13d02d1f4d1eb791b7"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "נדודים לנצח – ערבות מונגוליה",
+      "description": null,
+      "start_date": "2027-03-01",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0884d96fd15debfa455f"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "כשהסיפור שייך לה",
+      "description": null,
+      "start_date": "2027-03-03",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4296856fe07cb91e6a1b"
     },
     {
       "city": "ראשון לציון",
@@ -8778,6 +12652,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "קבלת שבת עם אריאל הכהן",
+      "description": null,
+      "start_date": "2027-03-05",
+      "end_date": null,
+      "start_time": "15:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_907d8abdbf2d2dfc1e23"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מועדון הזמר של אילנה כץ – צלילי הנוסטלגיה",
       "description": null,
       "start_date": "2027-03-06",
@@ -8827,6 +12752,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "שיעור חמישי: יסודות הטלוויזיה והמדיה",
+      "description": null,
+      "start_date": "2027-03-07",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית העם, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7d5a22c25f13d23481ea"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הזמיר הישראלי",
+      "description": null,
+      "start_date": "2027-03-07",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_84dce0a5eda4ba4e6870"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מסיבת אירוסין",
       "description": null,
       "start_date": "2027-03-08",
@@ -8873,6 +12900,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_729c6a5194d2f00b4ee2"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מוזיאון \"המטרופוליטן\" ניו יורק",
+      "description": null,
+      "start_date": "2027-03-09",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_f0a17c6bf13ea56215df"
     },
     {
       "city": "ראשון לציון",
@@ -8974,6 +13052,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "אני ונעמי סערות וגעגוע",
+      "description": null,
+      "start_date": "2027-03-15",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7148a81ea9703cea094b"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "תרצה אתר: \"בגלל הלילה\"",
+      "description": null,
+      "start_date": "2027-03-17",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_1a4ce53424b416eddd00"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "ששון גבאי – מוצארט וסאליירי",
       "description": null,
       "start_date": "2027-03-17",
@@ -9069,6 +13249,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_1f79dd7b9c204fde6041"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הוליווד על הבמה",
+      "description": null,
+      "start_date": "2027-03-27",
+      "end_date": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "venue": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_1de888b22463559eb4f7"
     },
     {
       "city": "ראשון לציון",
@@ -9170,6 +13401,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "מסע אל לב השיר הצרפתי",
+      "description": null,
+      "start_date": "2027-03-28",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_a014fa8549f66e6e57ec"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "שמחת עולם התזמורת האנדלוסית",
       "description": null,
       "start_date": "2027-03-29",
@@ -9265,6 +13547,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_7212c0b3856090e2c0cd"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "המוזיקאי ד\"ר רז יצחקי ידבר וינגן נינה סימון",
+      "description": null,
+      "start_date": "2027-03-31",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_31822a9151f3171d03d1"
     },
     {
       "city": "ראשון לציון",
@@ -9366,6 +13699,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "קבלת שבת עם הרב בני מינץ",
+      "description": null,
+      "start_date": "2027-04-02",
+      "end_date": null,
+      "start_time": "16:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4e3b4ecf5ce1ee3a94c8"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "איזבלה",
       "description": null,
       "start_date": "2027-04-03",
@@ -9412,6 +13796,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_74a430e4f689438c734a"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הקסם של הודו",
+      "description": null,
+      "start_date": "2027-04-05",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0cc337d513531b6e3936"
     },
     {
       "city": "ראשון לציון",
@@ -9562,6 +13997,108 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "חצות בפריז",
+      "description": null,
+      "start_date": "2027-04-11",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_d38d406865f99f218694"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "זה היה בסוף הקיץ",
+      "description": null,
+      "start_date": "2027-04-19",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6303a1c02931ab1b11ab"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "שונאים, סיפור אהבה",
       "description": null,
       "start_date": "2027-04-29",
@@ -9709,6 +14246,261 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "בוזזים חסרי בושה – סרט שהוקרן בפסטיבל אפוס 2026",
+      "description": null,
+      "start_date": "2027-05-04",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_3874b24f4565aee87c5b"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "קבלת שבת עם אריאל הכהן",
+      "description": null,
+      "start_date": "2027-05-07",
+      "end_date": null,
+      "start_time": "16:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0e31c5445fd7769536b1"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "לילה טוב אירופה",
+      "description": null,
+      "start_date": "2027-05-17",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_aea03051ae803ee77e04"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מקווינס סיטי לניו יורק – אמריקה בגוונים",
+      "description": null,
+      "start_date": "2027-05-22",
+      "end_date": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "venue": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0b3ddb6fa1a3db88485e"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "\"הפירות האסורים\": שאנסונים על בגידות, פילגשים ומאהבים",
+      "description": null,
+      "start_date": "2027-05-23",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_65f4888cda7e9e02068b"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מקסים גלקין",
       "description": null,
       "start_date": "2027-05-23",
@@ -9755,6 +14547,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_7b363fd87bb0473e27eb"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "רעיונות אסתטיים ביפן המסורתית והעכשווית",
+      "description": null,
+      "start_date": "2027-05-25",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ce80d1d7da5147b0f8e6"
     },
     {
       "city": "ראשון לציון",
@@ -9856,6 +14699,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "סיפורי קהיר, העיר המנצחת",
+      "description": null,
+      "start_date": "2027-05-30",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_a1491e70871c2b42ef32"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מנדלסון פינת אודיה",
       "description": null,
       "start_date": "2027-05-31",
@@ -9902,6 +14796,159 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_9fd9c0a7f4c18554ff95"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "יוסיף סטאלין – האל האדום",
+      "description": null,
+      "start_date": "2027-06-02",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_9be080c28e844e0f0ef0"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "קבלת שבת עם הרב בני מינץ",
+      "description": null,
+      "start_date": "2027-06-04",
+      "end_date": null,
+      "start_time": "16:00",
+      "end_time": null,
+      "venue": "מוזיאון ראשון, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_defde076ea93a56a49fe"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "גואטמלה – ארץ פעימות הלב",
+      "description": null,
+      "start_date": "2027-06-07",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_43772e9d971ecaeb6097"
     },
     {
       "city": "ראשון לציון",
@@ -9954,6 +15001,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "מוזיאון ״ד'אורסיי״ פריז",
+      "description": null,
+      "start_date": "2027-06-15",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "exhibition",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_e2528c88fe0188779e67"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מועדון הזמר של אילנה כץ – הדיוות הגדולות",
       "description": null,
       "start_date": "2027-06-19",
@@ -10000,6 +15098,57 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_682f12e71f6b6e7158be"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מדריך לספקן המודרני",
+      "description": null,
+      "start_date": "2027-06-20",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_856dbd3b22911caaa590"
     },
     {
       "city": "ראשון לציון",
@@ -10101,6 +15250,57 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "ג'אז בוער – לטיני ואפרו קריבי חגיגה קובנית על הבמה!",
+      "description": null,
+      "start_date": "2027-06-26",
+      "end_date": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "venue": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_aa370ea73e54f0311e2d"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "מועדון האלמנות העליזות",
       "description": null,
       "start_date": "2027-06-26",
@@ -10147,6 +15347,108 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_2d499be542e539f82445"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "איטליה – שבילים של תשוקה",
+      "description": null,
+      "start_date": "2027-06-27",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_fc5f145ceaede72d05c7"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "זן בודהיזם: פילוסופיה, פסיכולוגיה, ואומנות",
+      "description": null,
+      "start_date": "2027-07-01",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_c2af9fd48475945f262c"
     },
     {
       "city": "ראשון לציון",
@@ -10297,6 +15599,261 @@
     },
     {
       "city": "ראשון לציון",
+      "title": "קומקום ומטאטא",
+      "description": null,
+      "start_date": "2027-07-05",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_2fa7fc9f6720628b7976"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ג'ורג' ואיירה גרשווין Summertime",
+      "description": null,
+      "start_date": "2027-07-07",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ece19693282f1ce06100"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "הסיפורים מאחורי שירי אהבה הגדולים של צרפת",
+      "description": null,
+      "start_date": "2027-07-11",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_abb5a0267089df19bacf"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "אנדלוסיה, ארכיטקטורה, תרבות מדע",
+      "description": null,
+      "start_date": "2027-07-18",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_4c773f396b1aaeaf46a5"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מסע אל לב האימפריה – סין",
+      "description": null,
+      "start_date": "2027-07-26",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_250edc799a3f7be8bcb8"
+    },
+    {
+      "city": "ראשון לציון",
       "title": "אמנות",
       "description": null,
       "start_date": "2027-07-26",
@@ -10392,6 +15949,363 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_5fc31df0239cbf0894cf"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "בדרכי שלי \"פרנק סינטרה\"",
+      "description": null,
+      "start_date": "2027-08-04",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0625eb315eff9982ffa8"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ערב של אהבה",
+      "description": null,
+      "start_date": "2027-08-18",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_bc0d747ee30a521df3bf"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מופע סיום – ג'אם סיישן",
+      "description": null,
+      "start_date": "2027-09-04",
+      "end_date": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "venue": "אודיטוריום הגימנסיה הריאלית, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "music",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_0540d1b4d7a15fbddf09"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "אהבה מהסרטים – על הזוגות המפורסמים של הקולנוע הצרפתי",
+      "description": null,
+      "start_date": "2027-09-05",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_ddeef1238328db9273ae"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "העולם הצף",
+      "description": null,
+      "start_date": "2027-09-09",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_1649d4683c33e5b4a375"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "טרובדור הזמר העברי",
+      "description": null,
+      "start_date": "2027-09-15",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "music",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_d93faba6fc59caed91bb"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "ניגון ואגדה – כשהמשפחה, הניגון והאגדה נפגשים על לב אחד",
+      "description": null,
+      "start_date": "2027-09-20",
+      "end_date": null,
+      "start_time": "19:00",
+      "end_time": null,
+      "venue": "אודיטוריום היכל התרבות, ראשון לציון",
+      "address": null,
+      "district": null,
+      "category": "kids",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/third-calendar/",
+      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl_adults",
+          "url": "https://htrl.co.il/third-calendar/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T13:03:02Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:03:02Z",
+      "last_verified_at": "2026-10-06T13:03:02Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_dc1b4c93088470b99b92"
     }
   ],
   "image_audit_generated_at": "2026-10-06T11:57:44Z"

@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-06T12:58:59Z",
+  "run_at": "2026-10-06T13:02:42Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -37,14 +37,15 @@
           "discovered": 24,
           "valid": 24,
           "new": 0,
-          "updated": 9
+          "updated": 0
         }
       },
       "new": 0,
-      "updated": 9,
+      "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
+      "repaired_event_ids": 0,
       "total_after": 389
     },
     "rishon-lezion": {
@@ -56,7 +57,15 @@
           "url": "https://htrl.co.il/לוח-שנה/",
           "discovered": 147,
           "valid": 147,
-          "new": 0,
+          "new": 1,
+          "updated": 0
+        },
+        "htrl_adults": {
+          "status": "ok",
+          "url": "https://htrl.co.il/third-calendar/",
+          "discovered": 117,
+          "valid": 115,
+          "new": 115,
           "updated": 0
         },
         "yama": {
@@ -93,7 +102,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 0,
+      "new": 116,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
@@ -101,7 +110,8 @@
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
       ],
-      "total_after": 205
+      "repaired_event_ids": 1,
+      "total_after": 320
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
