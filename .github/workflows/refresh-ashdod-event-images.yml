@@ -12,8 +12,10 @@ on:
       - "events-preview/ashdod/data/events.json"
 
   workflow_run:
-    workflows: ["Daily city event intake"]
+    workflows: ["Verify and cache Rishon event photos"]
     types: [completed]
+  schedule:
+    - cron: "35 6 * * *"
 
 permissions:
   contents: write
