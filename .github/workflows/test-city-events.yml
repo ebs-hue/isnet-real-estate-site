@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "scripts/sync_events_from_sources.py"
+      - "scripts/ofek_event_source.py"
+      - "scripts/test_ofek_event_source.py"
       - "scripts/test_city_event_intake.py"
       - ".github/workflows/test-city-events.yml"
 
@@ -27,3 +29,4 @@ jobs:
         run: |
           python -m py_compile scripts/sync_events_from_sources.py
           python scripts/test_city_event_intake.py
+          python scripts/test_ofek_event_source.py
