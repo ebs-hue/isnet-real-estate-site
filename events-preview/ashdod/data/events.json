@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-06T12:26:43Z",
+  "generated_at": "2026-10-06T12:55:09Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 356
+    "events": 389
   },
   "events": [
     {
@@ -345,6 +345,58 @@
       "image_strategy": "illustrative_source",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
+    },
+    {
+      "city": "אשדוד",
+      "title": "הכרמל הר של אומנות",
+      "description": null,
+      "start_date": "2026-10-06",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33640",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33640",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_21b74de87d9353a296d9"
     },
     {
       "city": "אשדוד",
@@ -2700,6 +2752,58 @@
       "thumbnail_strategy": "landscape_cover"
     },
     {
+      "city": "אשדוד",
+      "title": "הזקן והים",
+      "description": null,
+      "start_date": "2026-10-15",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_382f5504e06e1fcda12e"
+    },
+    {
       "event_id": "evt_7_20261015",
       "city": "אשדוד",
       "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
@@ -2848,6 +2952,162 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_2559c75d5232e55ebb9a"
+    },
+    {
+      "city": "אשדוד",
+      "title": "יונתן גת מונארט 2026",
+      "description": null,
+      "start_date": "2026-10-15",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "מרכז מונארט, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 400,
+      "price_max_ils": 400,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28805",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28805",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_04029172fbcf458e2eb3"
+    },
+    {
+      "city": "אשדוד",
+      "title": "ישראל ארד מונארט 2026",
+      "description": null,
+      "start_date": "2026-10-15",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "מרכז מונארט, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 400,
+      "price_max_ils": 400,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28803",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28803",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_6c9c620a36d91d0e9a47"
+    },
+    {
+      "city": "אשדוד",
+      "title": "רועי עלוני מונארט 2026",
+      "description": null,
+      "start_date": "2026-10-15",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "מרכז מונארט, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 400,
+      "price_max_ils": 400,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_833b74952b8fcc17694c"
     },
     {
       "city": "אשדוד",
@@ -4028,6 +4288,58 @@
       "competition": "ליגה א׳",
       "is_home_game": true,
       "representative_team": true
+    },
+    {
+      "city": "אשדוד",
+      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33867",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33867",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_a24513b4e4cf7e5bbc06"
     },
     {
       "city": "אשדוד",
@@ -5471,6 +5783,58 @@
     },
     {
       "city": "אשדוד",
+      "title": "חלון לים התיכון",
+      "description": null,
+      "start_date": "2026-10-28",
+      "end_date": null,
+      "start_time": "09:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/חלון_לים_התיכון/?id=8113",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/חלון_לים_התיכון/?id=8113",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
+      "image_source": "https://first-digital.co.il/Shows/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/",
+      "image_credit": "First Digital / חומרי קידום המופע",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
+      "thumbnail_url": "assets/event-thumbs/ee7cd5bb8202839a4e3385.jpg",
+      "thumbnail_ready": true,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_85ef80d4838e92290fe0",
+      "image_strategy": "official_production_art",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "poster_composite"
+    },
+    {
+      "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
       "start_date": "2026-10-28",
@@ -6748,6 +7112,110 @@
     },
     {
       "city": "אשדוד",
+      "title": "סדנת צחוק, אורית שירי",
+      "description": null,
+      "start_date": "2026-11-02",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "workshop",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 500,
+      "price_max_ils": 500,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=34826",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=34826",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_a28e2e7dfb7c44f26606"
+    },
+    {
+      "city": "אשדוד",
+      "title": "התקווה 6",
+      "description": null,
+      "start_date": "2026-11-03",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33639",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33639",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_64cf140ac904f0ae4871"
+    },
+    {
+      "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
       "start_date": "2026-11-03",
@@ -7872,6 +8340,58 @@
       "event_id": "auto_as_d7c7d48fb762b43f9f53"
     },
     {
+      "city": "אשדוד",
+      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+      "description": null,
+      "start_date": "2026-11-10",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33637",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33637",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_f45962e796919e19fbcd"
+    },
+    {
       "event_id": "evt_20_20261110",
       "city": "אשדוד",
       "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
@@ -8620,6 +9140,55 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_b6539384c62acf076d94"
+    },
+    {
+      "city": "אשדוד",
+      "title": "עופרה",
+      "description": null,
+      "start_date": "2026-11-14",
+      "end_date": null,
+      "start_time": "21:00",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/עופרה_b339d2ee91/?id=8239",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/עופרה_b339d2ee91/?id=8239",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_1433fdc5973b6695bdc3"
     },
     {
       "city": "אשדוד",
@@ -10175,6 +10744,58 @@
     },
     {
       "city": "אשדוד",
+      "title": "סיור טעימות ברמלה",
+      "description": null,
+      "start_date": "2026-11-24",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_7baf69bd3cb635730590"
+    },
+    {
+      "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
       "start_date": "2026-11-24",
@@ -10878,7 +11499,7 @@
       "description": null,
       "start_date": "2026-11-29",
       "end_date": null,
-      "start_time": "18:30",
+      "start_time": "15:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": null,
@@ -10913,13 +11534,62 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_ccab329e9dce87dcb028"
+    },
+    {
+      "city": "אשדוד",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "description": null,
+      "start_date": "2026-11-29",
+      "end_date": null,
+      "start_time": "18:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "theatre",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שומרי_הדרקונים_-_מחזמר_הרפתקאות_-_חנוכה_2026/?id=8237",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שומרי_הדרקונים_-_מחזמר_הרפתקאות_-_חנוכה_2026/?id=8237",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_208cc1d709030d29da9a"
     },
     {
       "city": "אשדוד",
@@ -11070,6 +11740,58 @@
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite"
+    },
+    {
+      "city": "אשדוד",
+      "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
+      "description": null,
+      "start_date": "2026-12-01",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_399303973daa1a005314"
     },
     {
       "city": "אשדוד",
@@ -11683,7 +12405,7 @@
       "description": null,
       "start_date": "2026-12-07",
       "end_date": null,
-      "start_time": "11:30",
+      "start_time": "09:30",
       "end_time": null,
       "venue": "אשדוד",
       "address": null,
@@ -11718,13 +12440,62 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_7f6f806aaa9f19331b15"
+    },
+    {
+      "city": "אשדוד",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "description": null,
+      "start_date": "2026-12-07",
+      "end_date": null,
+      "start_time": "11:30",
+      "end_time": null,
+      "venue": "אשדוד",
+      "address": null,
+      "district": null,
+      "category": "kids",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17615",
+      "purchase_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17615",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_df38991c21985134c422"
     },
     {
       "city": "אשדוד",
@@ -12594,6 +13365,58 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_c16e2e89a69bbed03363"
+    },
+    {
+      "city": "אשדוד",
+      "title": "בעקבות סופרים בנחלאות",
+      "description": null,
+      "start_date": "2026-12-15",
+      "end_date": null,
+      "start_time": "08:00",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33641",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33641",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_3d3cdcdf993039f9fe16"
     },
     {
       "event_id": "evt_31_20261215",
@@ -13578,6 +14401,58 @@
       "rich_content_status": "enriched"
     },
     {
+      "city": "אשדוד",
+      "title": "בדרך ללב הפועם של רמת גן",
+      "description": null,
+      "start_date": "2026-12-29",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33871",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33871",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8"
+    },
+    {
       "event_id": "evt_34_20261229",
       "city": "אשדוד",
       "title": "דקה לנשום – לצמוח מהכאב והקושי - ייעודי לגדולות מהחיים",
@@ -14374,7 +15249,7 @@
       "description": null,
       "start_date": "2027-01-12",
       "end_date": null,
-      "start_time": "11:30",
+      "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": null,
@@ -14409,13 +15284,62 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_c5084f66863b9e27992a"
+    },
+    {
+      "city": "אשדוד",
+      "title": "נאמן למקור",
+      "description": null,
+      "start_date": "2027-01-12",
+      "end_date": null,
+      "start_time": "11:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_60cb539e4c684575d6a8"
     },
     {
       "city": "אשדוד",
@@ -14759,6 +15683,58 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_b2274dd31f58c6fcf843"
+    },
+    {
+      "city": "אשדוד",
+      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+      "description": null,
+      "start_date": "2027-01-19",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33643",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33643",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_9e8b223f38713dfb8a74"
     },
     {
       "city": "אשדוד",
@@ -15500,11 +16476,63 @@
     },
     {
       "city": "אשדוד",
+      "title": "אל עמק הברכה",
+      "description": null,
+      "start_date": "2027-02-09",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33644",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33644",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_2d86a3932207b0dfadb6"
+    },
+    {
+      "city": "אשדוד",
       "title": "בואי נעשה לנו חג",
       "description": null,
       "start_date": "2027-02-09",
       "end_date": null,
-      "start_time": "11:30",
+      "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": null,
@@ -15539,13 +16567,62 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_0a2955afc99e32e98101"
+    },
+    {
+      "city": "אשדוד",
+      "title": "בואי נעשה לנו חג",
+      "description": null,
+      "start_date": "2027-02-09",
+      "end_date": null,
+      "start_time": "11:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/בואי_נעשה_לנו_חג/?id=8122",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/בואי_נעשה_לנו_חג/?id=8122",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_ffc197d8a4343c6c1421"
     },
     {
       "city": "אשדוד",
@@ -15794,6 +16871,58 @@
     },
     {
       "city": "אשדוד",
+      "title": "סיור טעימות במחנה יהודה",
+      "description": null,
+      "start_date": "2027-02-16",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33872",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33872",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_96552a33f52aca95896d"
+    },
+    {
+      "city": "אשדוד",
       "title": "לוס אנג'לס - פרס האוסקר",
       "description": null,
       "start_date": "2027-02-17",
@@ -15889,6 +17018,58 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_b5598e9e1f88af009a2a"
+    },
+    {
+      "city": "אשדוד",
+      "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
+      "description": null,
+      "start_date": "2027-02-23",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33645",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33645",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_1bd891e217e32b97766c"
     },
     {
       "city": "אשדוד",
@@ -16039,11 +17220,63 @@
     },
     {
       "city": "אשדוד",
+      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
+      "description": null,
+      "start_date": "2027-03-09",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_6d281693df39376eb4d3"
+    },
+    {
+      "city": "אשדוד",
       "title": "שני עולמות",
       "description": null,
       "start_date": "2027-03-09",
       "end_date": null,
-      "start_time": "11:30",
+      "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": null,
@@ -16078,13 +17311,62 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_2477b1b0746b9c7835a2"
+    },
+    {
+      "city": "אשדוד",
+      "title": "שני עולמות",
+      "description": null,
+      "start_date": "2027-03-09",
+      "end_date": null,
+      "start_time": "11:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8124",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8124",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_0b79e886759de4901160"
     },
     {
       "city": "אשדוד",
@@ -16232,6 +17514,58 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_f90a3e4493591be402c4"
+    },
+    {
+      "city": "אשדוד",
+      "title": "גן נעול מעיין חתום",
+      "description": null,
+      "start_date": "2027-03-16",
+      "end_date": null,
+      "start_time": "08:00",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 100,
+      "price_max_ils": 100,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33646",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33646",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_be3243a1775666aa5d3f"
     },
     {
       "city": "אשדוד",
@@ -16578,6 +17912,58 @@
     },
     {
       "city": "אשדוד",
+      "title": "בעקבות \"ימים אדומים\" בירושלים",
+      "description": null,
+      "start_date": "2027-03-30",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33647",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33647",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_1b9d3f3328e7272edcef"
+    },
+    {
+      "city": "אשדוד",
       "title": "מלכת היופי של ירושלים",
       "description": null,
       "start_date": "2027-03-30",
@@ -16823,11 +18209,63 @@
     },
     {
       "city": "אשדוד",
+      "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
+      "description": null,
+      "start_date": "2027-04-06",
+      "end_date": null,
+      "start_time": "08:00",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33648",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33648",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_ed25c185b34074edfce1"
+    },
+    {
+      "city": "אשדוד",
       "title": "שביליסט",
       "description": null,
       "start_date": "2027-04-06",
       "end_date": null,
-      "start_time": "11:30",
+      "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": null,
@@ -16862,13 +18300,114 @@
           "observed_at": "2026-10-06T12:23:03Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
       "event_id": "auto_as_aa2b2468ee21cb65145c"
+    },
+    {
+      "city": "אשדוד",
+      "title": "שביליסט",
+      "description": null,
+      "start_date": "2027-04-06",
+      "end_date": null,
+      "start_time": "11:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שביליסט/?id=8126",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שביליסט/?id=8126",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_29f849d06f37052801c3"
+    },
+    {
+      "city": "אשדוד",
+      "title": "חיפה- עוגת חתונה",
+      "description": null,
+      "start_date": "2027-04-13",
+      "end_date": null,
+      "start_time": "08:00",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 100,
+      "price_max_ils": 100,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33649",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33649",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_a02e2e039fa2a5969f9b"
     },
     {
       "city": "אשדוד",
@@ -17215,6 +18754,58 @@
     },
     {
       "city": "אשדוד",
+      "title": "פסיפסים ועוד בגליל המערבי",
+      "description": null,
+      "start_date": "2027-05-18",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33650",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33650",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_6b0a85ae2a0051cd7218"
+    },
+    {
+      "city": "אשדוד",
       "title": "המדורה של רינתי | שעת סיפור עם רינתי",
       "description": null,
       "start_date": "2027-05-18",
@@ -17460,6 +19051,107 @@
     },
     {
       "city": "אשדוד",
+      "title": "סיור טעימות ואתרים באשדוד",
+      "description": null,
+      "start_date": "2027-06-01",
+      "end_date": null,
+      "start_time": "07:20",
+      "end_time": null,
+      "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
+      "address": null,
+      "district": null,
+      "category": "tour",
+      "audiences": [
+        "adults"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 140,
+      "price_max_ils": 140,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33651",
+      "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33651",
+      "purchase_phone": "08-9238680",
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "הקתדרה העממית \"אופק\" אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ofek_ashdod",
+          "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:55:09Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "official_ofek_ashdod",
+        "date_and_time_verified"
+      ],
+      "event_id": "auto_as_bf7028aa1130feeeda5e"
+    },
+    {
+      "city": "אשדוד",
+      "title": "חגיגה ברזילאית",
+      "description": null,
+      "start_date": "2027-06-01",
+      "end_date": null,
+      "start_time": "09:30",
+      "end_time": null,
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8127",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8127",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "mishkan_smarticket",
+          "url": "https://mishkan-ashdod.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-06T12:23:03Z"
+        }
+      ],
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_ebf2feea981459bed3cf"
+    },
+    {
+      "city": "אשדוד",
       "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
       "description": null,
       "start_date": "2027-06-01",
@@ -17526,8 +19218,8 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8127",
-      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8127",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8128",
+      "purchase_url": "https://mishkan-ashdod.smarticket.co.il/חגיגה_ברזילאית/?id=8128",
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": null,
@@ -17545,16 +19237,16 @@
           "name": "mishkan_smarticket",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
           "source_type": "official",
-          "observed_at": "2026-10-06T12:23:03Z"
+          "observed_at": "2026-10-06T12:55:09Z"
         }
       ],
-      "observed_at": "2026-10-06T12:26:43Z",
-      "last_verified_at": "2026-10-06T12:26:43Z",
+      "observed_at": "2026-10-06T12:55:09Z",
+      "last_verified_at": "2026-10-06T12:55:09Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ebf2feea981459bed3cf"
+      "event_id": "auto_as_52c1df237ce507a44b41"
     },
     {
       "city": "אשדוד",
