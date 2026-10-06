@@ -71,4 +71,14 @@ assert len(adult_rows)==1, adult_rows
 assert adult_rows[0]["venue"]=="בית יד לבנים, ראשון לציון", adult_rows
 assert adult_rows[0]["audiences"] == ["adults"]
 
+
+collision = [
+    {"event_id":"auto_ri_abc","city":"ראשון לציון","title":"שירה",
+     "start_date":"2026-10-06","start_time":"18:00","venue":"בית העם","ticket_url":""},
+    {"event_id":"auto_ri_abc","city":"ראשון לציון","title":"תיאטרון",
+     "start_date":"2026-10-06","start_time":"19:00","venue":"מוזיאון ראשון","ticket_url":""}
+]
+assert m.fix_imported_id_collisions(collision)==1
+assert len({x["event_id"] for x in collision})==2, collision
+
 print("PASS: Smarticket Hebrew dates, HTRL, Kotar, JSON-LD, stable dedupe")
