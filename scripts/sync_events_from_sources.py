@@ -40,6 +40,15 @@ SOURCES = {
          "venue": "המשכן לאמנויות הבמה אשדוד", "source_type": "official"},
         {"name": "tickchak_ashdod", "url": "https://live.tickchak.co.il/ashdod", "parser": "generic",
          "venue": "אשדוד", "source_type": "secondary"},
+        {"name": "ofek_ashdod", "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+         "parser": "ofek", "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
+         "source_type": "official",
+         "listing_pages": [
+             {"url": "https://www.ofek-ashdod.org.il/page.php?gr=644&m=296&type=events", "category": "tour"},
+             {"url": "https://www.ofek-ashdod.org.il/page.php?gr=643&m=296&type=events", "category": "lecture"},
+             {"url": "https://www.ofek-ashdod.org.il/page.php?gr=648&m=296&type=events", "category": "lecture"},
+             {"url": "https://www.ofek-ashdod.org.il/page.php?gr=1140&m=296&type=events", "category": "workshop"},
+         ]},
         # Sports calendars require independent fixture-level validation; not inferred
         # from an unrelated public events listing.
     ],
@@ -312,6 +321,9 @@ def generic_jsonld_rows(soup, source):
 def source_rows(soup, source):
     parser = source["parser"]
     structured = generic_jsonld_rows(soup, source)
+    if parser == "ofek":
+        from ofek_event_source import extract_ofek_events
+        return extract_ofek_events(soup, source, fetch_once)
     if parser == "htrl":
         return htrl_rows(soup, source) + structured
     if parser == "smarticket":
@@ -522,18 +534,18 @@ def merge(city_slug, specs, dry_run=False):
                 "end_time": None,
                 "venue": obj["venue"] or spec["venue"],
                 "address": None, "district": None,
-                "category": choose_category(obj["title"], obj["venue"]),
-                "audiences": [],
+                "category": obj.get("category") or choose_category(obj["title"], obj["venue"]),
+                "audiences": obj.get("audiences", []),
                 "age_min": None, "age_max": None,
-                "price_min_ils": None, "price_max_ils": None, "is_free": None,
+                "price_min_ils": obj.get("price_min_ils"), "price_max_ils": obj.get("price_max_ils"), "is_free": None,
                 "ticket_status": obj.get("ticket_status", "unknown"),
                 "ticket_url": obj.get("ticket_url") or spec["url"],
                 "purchase_url": obj.get("purchase_url") or spec["url"],
-                "purchase_phone": None, "purchase_source": "official_listing",
+                "purchase_phone": obj.get("purchase_phone"), "purchase_source": "official_listing",
                 "image_url": None, "image_source": None, "image_credit": None,
                 "image_publishable": False, "image_verified": False,
                 "image_origin_url": None, "thumbnail_url": None, "thumbnail_ready": False,
-                "organizer": None, "duration_minutes": None,
+                "organizer": obj.get("organizer"), "duration_minutes": None,
                 "sources": [{"name": name, "url": spec["url"],
                              "source_type": spec["source_type"], "observed_at": now}],
                 "observed_at": now, "last_verified_at": now,
