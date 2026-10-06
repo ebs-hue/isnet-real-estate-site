@@ -23,6 +23,8 @@ on:
     workflows:
       - "Verify and cache Rishon event photos"
       - "Share Ashdod event UI with city editions"
+      - "Daily city event intake"
+      - "Refresh Ashdod event source images"
     types: [completed]
 
 permissions:
