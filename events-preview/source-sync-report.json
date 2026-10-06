@@ -1,27 +1,27 @@
 {
-  "run_at": "2026-10-06T12:55:09Z",
+  "run_at": "2026-10-06T12:58:59Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 356,
+      "total_before": 389,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 218,
           "valid": 214,
-          "new": 1,
-          "updated": 1
+          "new": 0,
+          "updated": 0
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
           "discovered": 97,
           "valid": 97,
-          "new": 8,
-          "updated": 6
+          "new": 0,
+          "updated": 0
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -36,12 +36,12 @@
           "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
           "discovered": 24,
           "valid": 24,
-          "new": 24,
-          "updated": 0
+          "new": 0,
+          "updated": 9
         }
       },
-      "new": 33,
-      "updated": 7,
+      "new": 0,
+      "updated": 9,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
