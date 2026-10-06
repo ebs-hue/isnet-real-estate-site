@@ -1436,3 +1436,6 @@ main{position:relative;z-index:3}
 .dateSection .calendarPeriodLabel{
   margin-top:0;
 }
+
+/* The legacy instructional line must never reappear on cached markup. */
+.calendarHint{display:none!important}
