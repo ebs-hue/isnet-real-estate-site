@@ -4,6 +4,7 @@
   <!-- Google Analytics 4: Ashdod Net -->
   <script>
     (function () {
+      if (!/\/events-preview\/ashdod(?:\/|$)/.test(window.location.pathname)) return;
       var measurementId = 'G-YEFDXMCHB1';
       if (window.__ashdodGa4Initialized) return;
       window.__ashdodGa4Initialized = true;
