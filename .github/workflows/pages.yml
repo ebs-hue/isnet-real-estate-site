@@ -12,12 +12,18 @@ on:
       - "יבנה/**"
       - "כרמי-גת/**"
       - "events-preview/**"
+      - "scripts/sync_event_city_views.py"
       - ".github/workflows/pages.yml"
       - "scripts/qa-pricebooks.cjs"
       - "scripts/prepare-pricebook-sync.py"
       - "scripts/test-pricebook-sync.py"
       - "package*.json"
   workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Verify and cache Rishon event photos"
+      - "Share Ashdod event UI with city editions"
+    types: [completed]
 
 permissions:
   contents: read
@@ -30,6 +36,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -42,6 +49,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
+
+      - name: Synchronize city layouts and validate JavaScript
+        run: |
+          python scripts/sync_event_city_views.py
+          python scripts/sync_event_city_views.py --check
+          for script in events-preview/ashdod/*.js events-preview/rishon-lezion/*.js; do
+            node --check "$script"
+          done
 
       - name: Check sanitized dataset publication
         run: python scripts/test-pricebook-sync.py
