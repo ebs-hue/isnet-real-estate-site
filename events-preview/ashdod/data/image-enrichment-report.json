@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-06T13:15:32Z",
-  "total_events": 389,
-  "events_with_publishable_images": 171,
+  "generated_at": "2026-10-06T13:57:05Z",
+  "total_events": 390,
+  "events_with_publishable_images": 172,
   "events_still_missing_images": 218,
   "stats": {
     "generic_images_cleared": 0
@@ -13,11 +13,11 @@
     "mishkan_smarticket": 71
   },
   "missing_by_category": {
-    "other": 115,
+    "other": 116,
     "lecture": 8,
     "kids": 12,
     "exhibition": 54,
-    "workshop": 13,
+    "workshop": 12,
     "theatre": 5,
     "sport": 8,
     "standup": 3
@@ -369,6 +369,11 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_28a0894af263d3e95052",
+      "title": "פילאטיס לאזרחים וותיקים",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_772312d4fce5baa32388",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
@@ -626,11 +631,6 @@
     {
       "event_id": "auto_as_208cc1d709030d29da9a",
       "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_dd73d880a341a8a698b3",
-      "title": "סדנת עיצוב תכשיטים",
       "reason": "no_verified_source_image"
     },
     {
