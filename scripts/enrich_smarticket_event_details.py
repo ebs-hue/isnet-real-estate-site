@@ -28,7 +28,6 @@ MONTHS = {
     "ספטמבר": 9, "אוקטובר": 10, "נובמבר": 11, "דצמבר": 12,
 }
 CIVIL_DATE = re.compile(r"\b(\d{1,2})\s+(ינואר|פברואר|מרץ|אפריל|מאי|יוני|יולי|אוגוסט|ספטמבר|אוקטובר|נובמבר|דצמבר)\s+(\d{4})\b")
-COST = re.compile(r"(?:^|\s)מחיר\s*:?\s*([0-9][0-9,]*)\s*(?:₪|ש\"ח|ש״ח)\b?")
 # Avoid \\b after the shekel sign, which is not an alphanumeric character.
 COST = re.compile(r"(?:^|\s)מחיר\s*:?\s*([0-9][0-9,]*)\s*(?:₪|ש\"ח|ש״ח)")
 CLOCK = re.compile(r"\b([01]?\d|2[0-3]):([0-5]\d)\s*[-–]\s*([01]?\d|2[0-3]):([0-5]\d)\b")
