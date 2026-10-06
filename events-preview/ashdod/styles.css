@@ -1425,8 +1425,15 @@ main{position:relative;z-index:3}
 /* Keep the clean compact heading, but allow weekly/monthly
    calendar controls and the chosen month grid to be visible. */
 .dateSection > .sectionHead{
-  display:none!important;
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin:0 0 10px;
 }
+.dateSection > .sectionHead h2{font-size:18px;margin:0}
+.dateSection > .sectionHead .sectionHead__kicker{display:none}
+.dateSection .calendarBox[hidden]{display:none!important}
 .dateSection{
   padding-top:12px;
 }
