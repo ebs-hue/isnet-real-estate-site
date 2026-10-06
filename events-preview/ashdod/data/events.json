@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-06T12:58:59Z",
+  "generated_at": "2026-10-06T13:21:54Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 389
+    "events": 390
   },
   "events": [
     {
@@ -344,7 +344,8 @@
       "image_origin_url": "https://ashdodnet.com/dyncontent/tmp/72/2025_1_15_b39764a0-7ea1-4b3b-b35d-06ae96022b15_1200_628_Fit_.jpg",
       "image_strategy": "illustrative_source",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "detail_checked_at": "2026-10-06"
     },
     {
       "city": "אשדוד",
@@ -406,7 +407,7 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "other",
@@ -430,7 +431,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -445,7 +446,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_28fe848c6f89f60e0640"
+      "event_id": "auto_as_28fe848c6f89f60e0640",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17321",
+      "details_verified": true
     },
     {
       "event_id": "evt_36_20261006",
@@ -515,15 +520,15 @@
       "end_date": null,
       "start_time": "17:15",
       "end_time": "18:00",
-      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
       "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635",
@@ -532,7 +537,7 @@
       "image_credit": "החברה העירונית לתרבות הפנאי אשדוד",
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -556,7 +561,11 @@
       "image_origin_url": "https://www.ironit.org.il/wp-content/uploads/2026/09/הענק-הכי-גנדרן.jpeg",
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635",
+      "details_verified": true
     },
     {
       "event_id": "evt_93_20261006",
@@ -608,7 +617,8 @@
       "image_origin_url": "https://www.ironit.org.il/wp-content/uploads/2026/08/שירית-חיים-.jpg",
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06"
     },
     {
       "city": "אשדוד",
@@ -618,15 +628,15 @@
       "end_date": null,
       "start_time": "18:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
       "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 120,
+      "price_max_ils": 120,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מועדון_הקוראות_הרומנטיות_-מועדון_קריאה_שכולו_אהבה_|_סדרת_מפגשים_בהנחיית_הסופרת_שרית_חיים/?id=17315",
@@ -642,7 +652,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 120,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -657,7 +667,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b6a70a7d39dab383c7cc"
+      "event_id": "auto_as_b6a70a7d39dab383c7cc",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מועדון_הקוראות_הרומנטיות_-מועדון_קריאה_שכולו_אהבה_|_סדרת_מפגשים_בהנחיית_הסופרת_שרית_חיים/?id=17315",
+      "details_verified": true
     },
     {
       "event_id": "evt_37_20261006",
@@ -726,8 +740,8 @@
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17684",
@@ -743,7 +757,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -758,7 +772,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ad12fbe9a49b4c834b1c"
+      "event_id": "auto_as_ad12fbe9a49b4c834b1c",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17684",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -768,7 +786,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -792,7 +810,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 360,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -807,7 +825,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ea75f55954e1835c2191"
+      "event_id": "auto_as_ea75f55954e1835c2191",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17552",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -817,15 +839,15 @@
       "end_date": null,
       "start_time": "09:30",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/קפה_דעת_אשדוד-קצין_מיחידת_המסתערבים_של_משמר_הגבול__גב__לילי_כנפי__מר_רוני_אקריש/?id=17676",
@@ -841,7 +863,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 210,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -856,7 +878,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0b4b250a9cc0940ed28c"
+      "event_id": "auto_as_0b4b250a9cc0940ed28c",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/קפה_דעת_אשדוד-קצין_מיחידת_המסתערבים_של_משמר_הגבול__גב__לילי_כנפי__מר_רוני_אקריש/?id=17676",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -866,7 +892,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -890,7 +916,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 600,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -905,7 +931,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0ebf1cad124a8b7fb92d"
+      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17580",
+      "details_verified": true
     },
     {
       "event_id": "evt_5_20261008",
@@ -916,15 +946,15 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": "12:30",
-      "venue": "מרכז אפ 60+ אשדוד, סטורמה 5",
-      "address": null,
+      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
+      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 100,
+      "price_max_ils": 100,
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17220",
@@ -933,7 +963,7 @@
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 150,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -957,7 +987,11 @@
       "thumbnail_url": "assets/event-thumbs/4ee2351f80b13e8a1febd1.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17220",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -967,7 +1001,7 @@
       "end_date": null,
       "start_time": "16:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "other",
@@ -991,7 +1025,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1006,7 +1040,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_e4c26d0dfe196144a232"
+      "event_id": "auto_as_e4c26d0dfe196144a232",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17328",
+      "details_verified": true
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -1172,7 +1210,8 @@
       "image_origin_url": "https://www.to-mix.co.il/wp-content/uploads/2026/01/1080X1080.jpg",
       "image_strategy": "official_production_art",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "detail_checked_at": "2026-10-06"
     },
     {
       "event_id": "evt_39_20261008",
@@ -1234,7 +1273,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -1258,7 +1297,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1273,7 +1312,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b06a6b1900fbc4ab67f1"
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17531",
+      "details_verified": true
     },
     {
       "event_id": "sport_20261009_hapoel_ashdod_m_handball",
@@ -1345,7 +1388,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -1369,7 +1412,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1384,7 +1427,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_90e0977c4c75e8ca55a9"
+      "event_id": "auto_as_90e0977c4c75e8ca55a9",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17532",
+      "details_verified": true
     },
     {
       "event_id": "evt_70_20261010",
@@ -1395,7 +1442,7 @@
       "end_date": null,
       "start_time": "21:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": null,
       "district": null,
       "category": "theatre",
@@ -1436,7 +1483,10 @@
       "thumbnail_url": "assets/event-thumbs/e17c23d957a711d2d817e7.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%9C%D7%91_%D7%96%D7%95%D7%9B%D7%A8/?id=8020",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1446,7 +1496,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -1470,7 +1520,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 360,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1485,7 +1535,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0a8724d73a8a25785bcb"
+      "event_id": "auto_as_0a8724d73a8a25785bcb",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17553",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1495,15 +1549,15 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
+      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 50,
+      "price_max_ils": 50,
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_קאנבה__7e62109f46/?id=17604",
@@ -1519,7 +1573,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1534,7 +1588,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_d3d85fc677ccecdad1de"
+      "event_id": "auto_as_d3d85fc677ccecdad1de",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_קאנבה__7e62109f46/?id=17604",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1544,15 +1602,15 @@
       "end_date": null,
       "start_time": "10:30",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 70,
+      "price_max_ils": 70,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/שיטת_דורון_ואיזון_מפרקים/?id=17304",
@@ -1568,7 +1626,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1583,7 +1641,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_290506185823538d7274"
+      "event_id": "auto_as_290506185823538d7274",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/שיטת_דורון_ואיזון_מפרקים/?id=17304",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1593,7 +1655,7 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "other",
@@ -1617,7 +1679,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1632,7 +1694,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5dc325769e5e781143ee"
+      "event_id": "auto_as_5dc325769e5e781143ee",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17322",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1740,7 +1806,8 @@
       "thumbnail_url": "assets/event-thumbs/0dfcc77c127647f61f8253.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06"
     },
     {
       "city": "אשדוד",
@@ -1750,7 +1817,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -1774,7 +1841,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 600,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1789,7 +1856,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_fb3a2160cf3e31dedd3b"
+      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17581",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -1799,15 +1870,15 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
+      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 50,
+      "price_max_ils": 50,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_צילום_בסמארטפון_9590bf1074/?id=17606",
@@ -1823,7 +1894,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1838,7 +1909,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_c20ff116cd0b601fefa7"
+      "event_id": "auto_as_c20ff116cd0b601fefa7",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_צילום_בסמארטפון_9590bf1074/?id=17606",
+      "details_verified": true
     },
     {
       "event_id": "evt_40_20261012",
@@ -1901,15 +1976,15 @@
       "end_date": null,
       "start_time": "16:30",
       "end_time": "17:30",
-      "venue": "מרכז קהילתי מעלה",
+      "venue": "עולם ומלואו פותחים שנה במרכזים הקהילתיים",
       "address": null,
       "district": null,
       "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
@@ -1918,7 +1993,7 @@
       "image_credit": null,
       "image_publishable": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1938,7 +2013,11 @@
       "purchase_source": "direct",
       "image_verified": false,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
+      "details_verified": true
     },
     {
       "event_id": "evt_95_20261012",
@@ -1949,15 +2028,15 @@
       "end_date": null,
       "start_time": "20:00",
       "end_time": "21:00",
-      "venue": "מרכז קהילתי מעלה",
+      "venue": "עולם ומלואו פותחים שנה במרכזים הקהילתיים",
       "address": null,
       "district": null,
       "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
@@ -1966,7 +2045,7 @@
       "image_credit": null,
       "image_publishable": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1986,7 +2065,11 @@
       "purchase_source": "direct",
       "image_verified": false,
       "thumbnail_url": null,
-      "thumbnail_ready": false
+      "thumbnail_ready": false,
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
+      "details_verified": true
     },
     {
       "event_id": "sport_20261012_maccabi_ashdod_basketball",
@@ -6966,6 +7049,55 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_3f503485fb828450a686"
+    },
+    {
+      "city": "אשדוד",
+      "title": "פילאטיס לאזרחים וותיקים",
+      "description": null,
+      "start_date": "2026-11-02",
+      "end_date": null,
+      "start_time": "09:00",
+      "end_time": null,
+      "venue": "אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_וותיקים/?id=17706",
+      "purchase_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_וותיקים/?id=17706",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-06T13:21:54Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:21:54Z",
+      "last_verified_at": "2026-10-06T13:21:54Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_28a0894af263d3e95052"
     },
     {
       "city": "אשדוד",
@@ -20090,5 +20222,6 @@
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
-  "generatedAt": "2026-10-05T12:47:00+03:00"
+  "generatedAt": "2026-10-05T12:47:00+03:00",
+  "detail_enrichment_checked_at": "2026-10-06T13:23:02.909851+00:00"
 }
