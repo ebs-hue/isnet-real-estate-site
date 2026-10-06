@@ -59,14 +59,13 @@ function sportHeroFallback(e){
   return '<div class="fallback sportHeroFallback"><span class="sportHeroLogo">'+logo+'</span><span class="sportHeroBranch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span><strong>'+escapeHtml(name)+'</strong><small>משחק בית באשדוד</small></div>';
 }
 function purchaseAction(e){
-  if(e.ticket_status==="sold_out")return null;
-  const phone=String(e.purchase_phone||"").trim();
-  if(phone){
-    const dial=phone.replace(/[^0-9+]/g,"");
-    if(dial)return {href:"tel:"+dial,label:"חייגו לרכישת כרטיסים",kind:"phone"};
+  const url=String(e.purchase_url||e.ticket_url||"").trim();
+  if(/^https:\/\//i.test(url)){
+    return {href:url,label:e.ticket_status==="sold_out"?"לפרטים באתר המקור":"לפרטים ולהזמנה",kind:"url",soldOut:e.ticket_status==="sold_out"};
   }
-  const url=String(e.purchase_url||"").trim();
-  if(/^https?:\/\//i.test(url))return {href:url,label:"לרכישת כרטיסים",kind:"url"};
+  if(e.ticket_status==="sold_out")return null;
+  const phone=String(e.purchase_phone||"").trim().replace(/[^0-9+]/g,"");
+  if(phone)return {href:"tel:"+phone,label:"צרו קשר",kind:"phone"};
   return null;
 }
 function groupPurchaseAction(occ){
@@ -120,27 +119,12 @@ function categoryExperience(e){
   return map[e.category]||"אירוע תרבות ופנאי";
 }
 function autoPitch(e){
-  const where=e.venue?" ב"+e.venue:"";
-  return e.title+" באשדוד"+where+" — "+categoryExperience(e)+". כאן תמצאו את כל המועדים, השעות ופרטי ההזמנה במקום אחד.";
+  const where=e.venue&&e.venue!=="אשדוד"?" • "+e.venue:"";
+  return e.title+where+" • "+fmtFull.format(localDate(e.start_date))+" • "+formatTime(e.start_time)+
+    (e.ticket_status==="sold_out"?" • הכרטיסים אזלו":"");
 }
 function autoStory(e){
-  const where=e.venue?" ב"+e.venue:"";
-  const first='"'+e.title+'" מתקיים באשדוד'+where+'. בעמוד הזה ריכזנו את המידע המעשי שצריך לפני שמחליטים: תאריכים, שעות, מקום, מחיר וקישור ישיר לרכישה כאשר הוא זמין.';
-  const byCategory={
-    music:"אם אתם מחפשים ערב מוזיקלי בעיר, זה אירוע שכדאי לבדוק מול לוח הזמנים שלכם. המועדים והפרטים המעודכנים מרוכזים כאן כדי לחסוך מעבר בין כמה אתרים.",
-    standup:"אם מתחשק לכם ערב של הומור ויציאה מהשגרה, תוכלו לבדוק כאן את המועד הקרוב, מקום המופע ודרך ההזמנה הישירה.",
-    kids:"למשפחות שמחפשות פעילות באשדוד, ריכזנו כאן את כל מה שחשוב לתכנון היציאה. מומלץ לבדוק לפני ההזמנה גם את התאמת הגיל כפי שמפורסמת אצל המארגן.",
-    theatre:"לחובבי במה ותיאטרון, זה המקום לקבל תמונה מהירה של האירוע ולבחור את המועד שמתאים לכם. כל המידע המעשי מרוכז בעמוד אחד.",
-    lecture:"למי שמחפש תוכן, ידע או מפגש מעשיר בעיר, כאן אפשר לראות מתי ואיפה האירוע מתקיים ואיך נרשמים.",
-    exhibition:"לחובבי אמנות ותרבות, העמוד מרכז את פרטי הביקור והמידע המעשי הזמין על האירוע.",
-    workshop:"למי שמעדיף חוויה פעילה ולא רק צפייה מהצד, כאן מרוכזים פרטי הסדנה, המועדים והמיקום כפי שפורסמו.",
-    cinema:"למי שמתכנן יציאה לקולנוע או להקרנה מיוחדת, כאן מרוכזים זמן, מקום ופרטי ההזמנה הזמינים.",
-    community:"זהו מפגש קהילתי באשדוד. כאן תוכלו לראות את פרטי המועד והמקום ולבדוק אם נדרשת הרשמה מראש.",
-    sport:"משחקי הבית ואירועי הספורט הם חלק מלוח הבילוי של אשדוד. כאן מרוכזים המועד, האולם או האצטדיון ופרטי הכניסה הזמינים.",
-    festival:"למי שמחפש חוויה עירונית רחבה יותר, כאן מרוכזים פרטי האירוע והמועד כדי שתוכלו לתכנן את ההגעה.",
-    tour:"למי שרוצה להכיר את העיר דרך סיור או פעילות מודרכת, כאן תוכלו לראות את המועד ופרטי ההצטרפות."
-  };
-  return [first,byCategory[e.category]||"העמוד מתעדכן לפי המידע הזמין ממקורות האירוע, כך שקל יותר לתכנן יציאה בלי לחפש את הפרטים מחדש."];
+  return ["תיאור מפורט של האירוע לא פורסם במקור שבדקנו. המועד, המחיר, המיקום ודרכי יצירת הקשר מופיעים בכרטיס הפרטים. מומלץ לעיין בעמוד האירוע הרשמי לפני הגעה."];
 }
 function autoHighlights(e,occ){
   const items=[];
@@ -204,7 +188,9 @@ function renderHero(e,occ,imageEvent){
     const a=$("heroBuy");
     a.href=action.href;a.textContent=action.label;a.style.display="inline-flex";
     if(action.kind==="phone")a.removeAttribute("target");else a.target="_blank";
-    $("heroBuyNote").hidden=true;
+    const soldOut=occ.every(x=>x.ticket_status==="sold_out");
+    $("heroBuyNote").hidden=!soldOut;
+    if(soldOut)$("heroBuyNote").textContent="הכרטיסים לאירוע אזלו. אפשר לצפות בפרטים באתר המקור ולפנות למקום לבירור.";
   }else{
     $("heroBuy").style.display="none";
     $("heroBuyNote").hidden=false;
@@ -217,12 +203,13 @@ function renderStory(e,occ){
   const story=paras.length?paras:autoStory(e);
   $("eventStory").innerHTML=story.map(p=>'<p>'+escapeHtml(p)+'</p>').join("");
 
-  const highlights=Array.isArray(e.highlights)&&e.highlights.length?e.highlights:autoHighlights(e,occ);
-  const suitability=e.suitability||autoSuitability(e);
-  $("highlightsSection").hidden=false;
+  // Do not fabricate marketing claims when only ticket metadata is available.
+  const highlights=Array.isArray(e.highlights)?e.highlights:[];
+  const suitability=String(e.suitability||"").trim();
+  $("highlightsSection").hidden=!highlights.length&&!suitability;
   $("highlights").innerHTML=highlights.map(x=>'<div class="highlight">'+escapeHtml(x)+'</div>').join("");
   $("suitability").textContent=suitability;
-  $("suitability").hidden=false;
+  $("suitability").hidden=!suitability;
 }
 
 function renderVideo(e){
@@ -263,7 +250,7 @@ function renderSchedule(occ){
       '<div class="scheduleCopy"><b>'+escapeHtml(fmtFull.format(d))+'</b>'+
         (e.variant_label?'<strong class="scheduleVariant">'+escapeHtml(e.variant_label)+'</strong>':"")+
         '<span>'+escapeHtml(formatTime(e.start_time))+' · '+escapeHtml(e.venue||"המיקום יפורסם")+'</span>'+
-        (own?'<a class="scheduleBuy" href="'+escapeHtml(own.href)+'" '+(own.kind==="url"?'target="_blank" rel="noopener"':'')+'>לפרטים ורכישה ←</a>':"")+
+        (own?'<a class="scheduleBuy" href="'+escapeHtml(own.href)+'" '+(own.kind==="url"?'target="_blank" rel="noopener"':'')+'>'+(e.ticket_status==="sold_out"?"אזלו הכרטיסים · לפרטי המקור ←":"לפרטים ולהזמנה ←")+'</a>':"")+
       '</div>'+
     '</div>';
   }).join("");
@@ -272,24 +259,30 @@ function renderSchedule(occ){
 function renderPractical(e,occ){
   const venues=[...new Set(occ.map(x=>x.venue).filter(Boolean))];
   const prices=occ.map(priceText);
-  const onePrice=[...new Set(prices)].length===1?prices[0]:"המחיר עשוי להשתנות לפי מועד";
+  const onePrice=[...new Set(prices)].length===1?prices[0]:"המחיר משתנה לפי מועד";
   const audience=(Array.isArray(e.audiences)&&e.audiences.length)?e.audiences.join(", "):null;
-  let age=null;
-  if(e.age_min!=null&&e.age_max!=null)age="גיל "+e.age_min+"–"+e.age_max;
-  else if(e.age_min!=null)age="מגיל "+e.age_min;
-  else if(e.age_max!=null)age="עד גיל "+e.age_max;
+  const age=e.age_min!=null?"מגיל "+e.age_min:null;
   const rows=[
-    ["מקום",venues.join(" / ")||"יפורסם בהמשך"],
+    ["מקום",venues.join(" / ")||"לא פורסם"],
+    ...(e.address?[["כתובת",e.address]]:[]),
     ["מחיר",onePrice],
-    ["משך",e.duration_minutes?e.duration_minutes+" דקות":"לא פורסם"],
+    ["כרטיסים",occ.every(x=>x.ticket_status==="sold_out")?"אזלו הכרטיסים":"יש לבדוק זמינות באתר המקור"],
+    ...(e.duration_minutes?[["משך",e.duration_minutes+" דקות"]]:[]),
     ...(age?[["גילים",age]]:[]),
     ...(audience?[["קהל",audience]]:[]),
     ...(e.organizer?[["מארגן",e.organizer]]:[]),
+    ...(e.ticket_provider?[["מערכת כרטיסים",e.ticket_provider]]:[]),
     ["מספר מועדים",String(occ.length)]
   ];
-  $("practicalInfo").innerHTML=rows.map(([a,b])=>'<div class="infoRow"><b>'+escapeHtml(a)+'</b><span>'+escapeHtml(b)+'</span></div>').join("");
+  const info=rows.map(([a,b])=>'<div class="infoRow"><b>'+escapeHtml(a)+'</b><span>'+escapeHtml(b)+'</span></div>').join("");
+  const contact=String(e.contact_phone||e.purchase_phone||"").replace(/[^0-9+]/g,"");
+  const contactHtml=contact?'<div class="infoRow"><b>טלפון לבירורים</b><a href="tel:'+escapeHtml(contact)+'">'+escapeHtml(e.contact_phone||e.purchase_phone)+'</a></div>':"";
+  const venueAddress=e.address||(e.venue&&e.venue!=="אשדוד"?e.venue:"");
+  const maps=venueAddress?'<div class="infoRow"><b>ניווט</b><a href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(venueAddress)+'" target="_blank" rel="noopener">לפתיחת מפה ←</a></div>':"";
+  const origin=String(e.ticket_url||e.purchase_url||"");
+  const source=origin.startsWith("https://")?'<div class="infoRow"><b>מקור רשמי</b><a href="'+escapeHtml(origin)+'" target="_blank" rel="noopener">לעמוד האירוע ←</a></div>':"";
+  $("practicalInfo").innerHTML=info+contactHtml+maps+source;
 }
-
 function renderRelated(current,all){
   const currentKey=eventGroupKey(current);
   const related=uniqueByTitle(
@@ -312,7 +305,7 @@ async function init(){
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
     const [data,sports]=await Promise.all([
-      fetch("data/events.json?v=20261005-26").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
+      fetch("data/events.json?v=20261006-contact-details").then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};

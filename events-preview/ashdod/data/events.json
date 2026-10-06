@@ -1637,20 +1637,20 @@
     {
       "city": "אשדוד",
       "title": "הרצאה של יונתן סררו",
-      "description": null,
+      "description": "ההרצאה מתקיימת במרכז קהילתי ספרא, רחוב אב 4 באשדוד, ביום ראשון 11 באוקטובר 2026, בין 18:00 ל-19:30. מחיר הכרטיס שפורסם הוא 20 ש״ח, אך הכרטיסים אזלו. לברורים אפשר לפנות למרכז ספרא בטלפון 08-8675261. נושא ההרצאה המפורט לא פורסם בעמוד המקור.",
       "start_date": "2026-10-11",
       "end_date": null,
       "start_time": "18:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי ספרא, אשדוד",
+      "address": "רחוב אב 4, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/הרצאה_של_יונתן_סררו/?id=17695",
@@ -1665,8 +1665,8 @@
       "image_origin_url": null,
       "thumbnail_url": null,
       "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
+      "organizer": "מרכז קהילתי ספרא",
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -1679,9 +1679,16 @@
       "last_verified_at": "2026-10-06T12:23:03Z",
       "status": "active",
       "quality_flags": [
-        "automated_official_listing"
+        "automated_official_listing",
+        "official_event_details_verified"
       ],
-      "event_id": "auto_as_7fce1d9b4ab267e246e1"
+      "event_id": "auto_as_7fce1d9b4ab267e246e1",
+      "contact_phone": "08-8675261",
+      "contact_phone_secondary": "08-8675260",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "short_pitch": "הרצאה של יונתן סררו במרכז קהילתי ספרא, רחוב אב 4 באשדוד, ביום ראשון 11 באוקטובר 2026 בשעה 18:00. הכרטיסים אזלו.",
+      "detail_source_url": "https://ashdod.smarticket.co.il/הרצאה_של_יונתן_סררו/?id=17695",
+      "detail_verified_on": "2026-10-06"
     },
     {
       "event_id": "evt_71_20261011",
