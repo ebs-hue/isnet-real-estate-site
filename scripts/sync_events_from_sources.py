@@ -81,6 +81,9 @@ def iso_dmy(match):
 
 def iso_hebrew(match):
     day, month, year = match.groups()
+    # Hebrew source calendars write "באוקטובר", "בנובמבר", etc.
+    if month not in MONTHS and month.startswith("ב") and month[1:] in MONTHS:
+        month = month[1:]
     return date(int(year), MONTHS[month], int(day)).isoformat()
 
 
