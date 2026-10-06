@@ -938,7 +938,11 @@ function bindDynamic(){
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
     window.ashdodAnalytics?.send("select_category",{category:b.dataset.cat,category_name:catLabels[b.dataset.cat] || b.dataset.cat,selection_type:state.category===b.dataset.cat ? "clear" : "select"});
     if(b.dataset.cat==="cinema"){
-      location.href="cinema.html";
+      state.category=null;
+      state.cinemaOpen=true;
+      render();
+      renderCinema();
+      requestAnimationFrame(()=>$("cinemaSection")?.scrollIntoView({behavior:"smooth",block:"start"}));
       return;
     }
     state.cinemaOpen=false;
@@ -1033,8 +1037,10 @@ async function init(){
   state.cinema=cinema.movies||[];
   state.cinemaUpdatedAt=cinema.updated_at||null;
   state.sportsMeta=sports||{branches:{},teams:[]};
+  if(location.hash==="#cinema")state.cinemaOpen=true;
   render();
   renderCinema();
+  if(state.cinemaOpen)requestAnimationFrame(()=>$("cinemaSection")?.scrollIntoView({block:"start"}));
   const searchInput=$("searchInput");
   let searchTimer, lastMeasuredSearch = "";
   const measureSearch = () => {
