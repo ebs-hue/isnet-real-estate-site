@@ -212,6 +212,24 @@ function eventImageHTML(e,mode="card"){
     '<img data-event-image class="'+cls+'" src="'+src+'" alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">'+
   '</span>';
 }
+
+const LECTURE_FALLBACK_TOPICS=[
+ {label:"היסטוריה ומורשת",symbol:"⌛",words:/היסטור|תנך|תנ״ך|ארץ ישראל|ישראל|מורשת|מלחמ|אקטואל|רבינ|בגין|עבר/},
+ {label:"תרבות, ספרות ואמנות",symbol:"✺",words:/אמנות|אומנות|ציור|ספרו|ספר|קולנוע|מוזיק|יציר|תרבות|שירה|אמנ/},
+ {label:"מדע ומחשבה",symbol:"◇",words:/מדע|מוח|טכנולוג|חלל|בינה|מחשב|פיזיק|חקר|פילוסופ|פסיכולוג/},
+ {label:"בריאות ואורח חיים",symbol:"✧",words:/בריא|גוף|נפש|תזונה|יוגה|רפואה|הזדקנו|זיכרון|מיינדפולנס/},
+ {label:"משפחה וחברה",symbol:"♡",words:/משפח|הורו|יחסי|זוגי|קהיל|ילד|חינוך|חבר|התבגרו/},
+ {label:"הרצאות והעשרה",symbol:"✦",words:/$^/}
+];
+function lectureFallbackTopic(e){
+ const text=String(e.title||"");
+ const found=LECTURE_FALLBACK_TOPICS.find(x=>x.words.test(text));
+ if(found)return found;
+ const textId=String(e.event_id||e.title||"");
+ const hash=[...textId].reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,7);
+ const extras=[...LECTURE_FALLBACK_TOPICS];
+ return {label:"הרצאות והעשרה",symbol:extras[hash%extras.length].symbol};
+}
 function fallbackMediaHTML(e){
   if(e.category==="sport"&&isRepresentativeHomeGame(e)){
     const team=sportTeamConfig(e),branch=sportBranchMeta(e);
@@ -220,6 +238,12 @@ function fallbackMediaHTML(e){
       '<span class="sportFallback__branch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span>'+
       '<span class="fallbackLabel">'+escapeHtml(team?.name||e.home_team||"ספורט בראשון לציון")+'</span>'+
     '</div>';
+  }
+  if(e.category==="lecture"){
+    const topic=lectureFallbackTopic(e);
+    return '<div class="category-fallback lectureArtwork" aria-label="איור להמחשה: '+escapeHtml(topic.label)+'">'+
+      '<span class="fallbackMark">'+escapeHtml(topic.symbol)+'</span>'+
+      '<span class="fallbackLabel">'+escapeHtml(topic.label)+'</span></div>';
   }
   return '<div class="category-fallback">'+
     '<span class="fallbackMark">'+escapeHtml(catIcons[e.category]||"✦")+'</span>'+
