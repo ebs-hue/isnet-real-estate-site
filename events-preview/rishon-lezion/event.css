@@ -259,3 +259,10 @@ a{text-decoration:none;color:inherit}
   color:#1c5e97;
   font:800 12px "Heebo",sans-serif;
 }
+
+/* Practical event details need clear, tappable contacts and verified links. */
+.infoRow a{display:inline-flex;align-items:center;color:#1766b7;font-weight:800;
+  padding:5px 0;text-decoration:underline;text-underline-offset:3px}
+.infoRow a:hover,.infoRow a:focus-visible{color:#073e78}
+.infoRow .contactSecondary{margin-inline-start:16px}
+.badge--soldout{background:#fff0f0!important;color:#a12637!important;border:1px solid #f6c6c6}
