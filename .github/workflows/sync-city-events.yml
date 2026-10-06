@@ -85,7 +85,22 @@ jobs:
           git commit -m "Refresh city event data from official source calendars"
           for retry in 1 2 3 4; do
             git fetch origin main
-            git rebase origin/main || exit 1
+            if ! git rebase origin/main; then
+              # Another scheduled image/source job updated the same dataset.
+              # Rebuild on top of the freshest source rather than overwriting
+              # its changes, and retry with an idempotent merge.
+              git rebase --abort || true
+              git reset --hard origin/main
+              echo "Data changed during intake; merging fresh events again (attempt $retry)."
+              python -u scripts/sync_events_from_sources.py
+              git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json
+              if git diff --cached --quiet; then
+                echo "Concurrent run already wrote the latest source data."
+                exit 0
+              fi
+              git commit -m "Refresh city event data after concurrent source update"
+              continue
+            fi
             if git push origin HEAD:main; then
               echo "Event data and audit committed."
               exit 0
