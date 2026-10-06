@@ -1422,10 +1422,9 @@ main{position:relative;z-index:3}
   .sportBranchFilters button{white-space:nowrap}
 }
 
-/* Simplified date experience: keep the compact weekly strip only. */
-.dateSection > .sectionHead,
-.dateSection .calendarTop,
-.dateSection .monthCalendar{
+/* Keep the clean compact heading, but allow weekly/monthly
+   calendar controls and the chosen month grid to be visible. */
+.dateSection > .sectionHead{
   display:none!important;
 }
 .dateSection{
