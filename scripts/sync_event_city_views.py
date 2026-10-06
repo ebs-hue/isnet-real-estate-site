@@ -8,7 +8,7 @@ city-owned and are never copied. This only copies root-level HTML, CSS and JS.
 from __future__ import annotations
 
 import argparse
-import difflib
+import hashlib
 import re
 from pathlib import Path
 
@@ -43,8 +43,18 @@ def localize(content: str, name: str, city: dict, suffix: str) -> str:
     # Avoid hardcoded dates on JS/CSS bundle URLs: the deployment adds fresh HTML
     # every time the Ashdod source changes.
     if suffix == ".html":
-        content = re.sub(r"(\b(?:app|event|places|movie)\.js)\?v=[^\"'& ]+", r"\1", content)
-        content = re.sub(r"(\b(?:styles|event|places|movie)\.css)\?v=[^\"'& ]+", r"\1", content)
+        def cache_bust(match):
+            filename = match.group(1)
+            src = MASTER / filename
+            if not src.is_file():
+                return filename
+            localized = localize(src.read_text(encoding="utf-8"), filename, city, src.suffix)
+            digest = hashlib.sha256(localized.encode("utf-8")).hexdigest()[:12]
+            return filename + "?v=" + digest
+        content = re.sub(
+            r"\b((?:app|event|places|movie)\.js|(?:styles|event|places|movie)\.css)(?:\?v=[^\"'& ]+)?",
+            cache_bust, content,
+        )
         content = content.replace("<head>", "<head>\n  " + HEAD_MARKER, 1)
     elif suffix == ".css":
         content = CSS_MARKER + "\n" + content
