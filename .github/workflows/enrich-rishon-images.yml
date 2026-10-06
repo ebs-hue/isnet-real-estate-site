@@ -8,6 +8,9 @@ on:
       - scripts/enrich_rishon_event_images.py
       - .github/workflows/enrich-rishon-images.yml
       - events-preview/rishon-lezion/data/events.json
+  workflow_run:
+    workflows: ["Daily city event intake"]
+    types: [completed]
   schedule:
     - cron: "17 4 * * *"
 
@@ -15,11 +18,12 @@ permissions:
   contents: write
 
 concurrency:
-  group: rishon-official-event-images
+  group: isnet-event-data-writes
   cancel-in-progress: false
 
 jobs:
   enrich:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
