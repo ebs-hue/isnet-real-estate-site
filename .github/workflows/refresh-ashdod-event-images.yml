@@ -11,15 +11,20 @@ on:
       - ".github/workflows/refresh-ashdod-event-images.yml"
       - "events-preview/ashdod/data/events.json"
 
+  workflow_run:
+    workflows: ["Daily city event intake"]
+    types: [completed]
+
 permissions:
   contents: write
 
 concurrency:
-  group: refresh-ashdod-event-source-images
-  cancel-in-progress: true
+  group: isnet-event-data-writes
+  cancel-in-progress: false
 
 jobs:
   refresh:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
