@@ -52,12 +52,14 @@ def extract_ofek_events(first_soup, source, fetch_once, *, today=None, limit=80,
     """Return validated rows using fetch_once({url:...}) for public pages only."""
     today = today or date.today()
     seen, listings = set(), []
-    pages = [(source["url"], first_soup, "lecture")]
+    # Prefer explicit event categories before the mixed home calendar.
+    pages = []
     for page in source.get("listing_pages", []):
         new_source = {**source, "url": page["url"]}
         doc, error = fetch_once(new_source)
         if doc is not None and not error:
             pages.append((page["url"], doc, page["category"]))
+    pages.append((source["url"], first_soup, "lecture"))
     for origin, soup, category in pages:
         for link in soup.select("a[href]"):
             url = safe_link(link.get("href"), origin)
