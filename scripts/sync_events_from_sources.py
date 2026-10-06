@@ -398,6 +398,25 @@ def merge(city_slug, specs, dry_run=False):
         rows = source_rows(soup, spec)
         source_status["discovered"] = len(rows)
         if not rows:
+            debug_anchors = []
+            for a in soup.select("a[href]"):
+                t = a.get_text(" ", strip=True)
+                if t and ("אוקטובר" in t or "2026" in t or "פרטים נוספים" in t or "כרטיס" in t):
+                    debug_anchors.append({"text": t[:200], "href": (a.get("href") or "")[:180]})
+                    if len(debug_anchors) >= 4:
+                        break
+            snippets = []
+            for x in soup.stripped_strings:
+                t = x.strip()
+                if re.search(r"\d{1,2}[./]\d{1,2}[./]\d{4}|ביום\s+|אוקטובר", t) and len(t) < 240:
+                    snippets.append(t[:180])
+                    if len(snippets) >= 7:
+                        break
+            print("PARSER_DIAGNOSTICS", json.dumps({
+                "source": name, "title": (soup.title.get_text(" ", strip=True)[:100] if soup.title else ""),
+                "anchors": len(soup.select("a[href]")),
+                "links": debug_anchors, "dated_text": snippets,
+            }, ensure_ascii=False), flush=True)
             source_status["status"] = "no_parseable_events"
             summary["errors"].append(f"{name}:no_parseable_events")
             continue
