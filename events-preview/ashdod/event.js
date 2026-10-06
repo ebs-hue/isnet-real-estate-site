@@ -366,12 +366,27 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const [data,sports]=await Promise.all([
+    const [data,sports,editorial]=await Promise.all([
       fetch("data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
-      fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
+      fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
+      fetch("data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
-    const all=data.events||[];
+    const editorialById=editorial?.events||{};
+    const all=(data.events||[]).map(event=>{
+      const entry=editorialById[event.event_id];
+      if(!entry||typeof entry!=="object")return event;
+      const allowed={};
+      for(const field of ["long_description","short_pitch","youtube_title","youtube_note","suitability"]){
+        if(typeof entry[field]==="string"&&entry[field].trim())allowed[field]=entry[field].trim();
+      }
+      if(Array.isArray(entry.performers))allowed.performers=entry.performers.filter(x=>typeof x==="string");
+      if(Array.isArray(entry.creators))allowed.creators=entry.creators.filter(x=>typeof x==="string");
+      if(Array.isArray(entry.highlights))allowed.highlights=entry.highlights.filter(x=>typeof x==="string");
+      // Do not embed search results or unverified YouTube IDs.
+      if(/^[a-zA-Z0-9_-]{11}$/.test(entry.youtube_id||"") && entry.video_verified===true)allowed.youtube_id=entry.youtube_id;
+      return {...event,...allowed,rich_content_status:"enriched"};
+    });
     const base=all.find(e=>e.event_id===id);
     if(!base)throw new Error("event");
     const key=eventGroupKey(base);
