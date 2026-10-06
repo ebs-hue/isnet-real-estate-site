@@ -52,7 +52,7 @@ def localize(content: str, name: str, city: dict, suffix: str) -> str:
             digest = hashlib.sha256(localized.encode("utf-8")).hexdigest()[:12]
             return filename + "?v=" + digest
         content = re.sub(
-            r"\b((?:app|event|places|movie)\.js|(?:styles|event|places|movie)\.css)(?:\?v=[^\"'& ]+)?",
+            r"\b((?:app|event|places|movie)\.js|(?:styles|event|places|movie|publisher-brand)\.css)(?:\?v=[^\"'& ]+)?",
             cache_bust, content,
         )
         content = content.replace("<head>", "<head>\n  " + HEAD_MARKER, 1)
