@@ -16157,14 +16157,14 @@
       "purchase_url": "https://htrl.co.il/לוח-שנה/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": null,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "assets/events/aa705cce0b667cbb768811c4.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%90%D7%99%D7%96%D7%94-%D7%A2%D7%95%D7%9C%D7%9D-%D7%9E%D7%95%D7%A4%D7%9C/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-5.jpg",
+      "thumbnail_url": "assets/events/aa705cce0b667cbb768811c4.webp",
+      "thumbnail_ready": true,
       "organizer": "היכל התרבות מאיר ניצן",
       "duration_minutes": null,
       "sources": [
@@ -16182,7 +16182,7 @@
         "automated_official_calendar"
       ],
       "event_id": "auto_ri_72244114dfc3d65f7e6a",
-      "image_strategy": "awaiting_official_event_image",
+      "image_strategy": "official_event_poster",
       "operator_id": "htrl",
       "operator_name": "היכל התרבות מאיר ניצן",
       "contact_phone": "03-9488666",
@@ -18663,5 +18663,5 @@
       "address_source": "verified_institution_registry"
     }
   ],
-  "image_audit_generated_at": "2026-10-06T13:12:41Z"
+  "image_audit_generated_at": "2026-10-06T13:49:40Z"
 }
