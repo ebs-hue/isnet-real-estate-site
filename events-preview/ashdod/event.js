@@ -276,13 +276,20 @@ function renderPractical(e,occ){
     ["מספר מועדים",String(occ.length)]
   ];
   const info=rows.map(([a,b])=>'<div class="infoRow"><b>'+escapeHtml(a)+'</b><span>'+escapeHtml(b)+'</span></div>').join("");
-  const contact=String(e.contact_phone||e.purchase_phone||"").replace(/[^0-9+]/g,"");
+  const contact=String(e.contact_phone||e.purchase_phone||"").replace(/[^0-9+*]/g,"");
   const contactHtml=contact?'<div class="infoRow"><b>טלפון לבירורים</b><a href="tel:'+escapeHtml(contact)+'">'+escapeHtml(e.contact_phone||e.purchase_phone)+'</a>'+(e.contact_phone_secondary?'<a class="contactSecondary" href="tel:'+escapeHtml(String(e.contact_phone_secondary).replace(/[^0-9+]/g,""))+'">'+escapeHtml(e.contact_phone_secondary)+'</a>':"")+'</div>':"";
   const venueAddress=e.address||(e.venue&&e.venue!=="אשדוד"?e.venue:"");
   const maps=venueAddress?'<div class="infoRow"><b>ניווט</b><a href="https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(venueAddress)+'" target="_blank" rel="noopener">לפתיחת מפה ←</a></div>':"";
   const origin=String(e.ticket_url||e.purchase_url||"");
   const source=origin.startsWith("https://")?'<div class="infoRow"><b>מקור רשמי</b><a href="'+escapeHtml(origin)+'" target="_blank" rel="noopener">לעמוד האירוע ←</a></div>':"";
-  $("practicalInfo").innerHTML=info+contactHtml+maps+source;
+  const safeOperator=/^[a-z0-9_]+$/.test(e.operator_id||"")?e.operator_id:null;
+  const operatorPage=safeOperator?'<div class="infoRow"><b>כל הפעילויות של המפעיל</b>'+
+    '<a href="operator.html?id='+encodeURIComponent(safeOperator)+'">'+escapeHtml(e.operator_name||e.organizer||"כל הפעילויות")+' ←</a></div>':"";
+  const email=e.contact_email?'<div class="infoRow"><b>דואר אלקטרוני</b>'+
+    '<a href="mailto:'+escapeHtml(e.contact_email)+'">'+escapeHtml(e.contact_email)+'</a></div>':"";
+  const venuePhone=e.venue_phone&&e.venue_phone!==e.contact_phone?
+    '<div class="infoRow"><b>טלפון המקום</b><a href="tel:'+escapeHtml(e.venue_phone.replace(/[^0-9+*]/g,""))+'">'+escapeHtml(e.venue_phone)+'</a></div>':"";
+  $("practicalInfo").innerHTML=info+contactHtml+venuePhone+email+maps+operatorPage+source;
 }
 function renderRelated(current,all){
   const currentKey=eventGroupKey(current);
