@@ -1,40 +1,28 @@
 {
-  "generated_at": "2026-10-06T13:47:51+00:00",
+  "generated_at": "2026-10-06T13:53:18+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_events": 389,
-      "institution_count": 14,
-      "venue_matched": 188,
+      "total_events": 390,
+      "institution_count": 15,
+      "venue_matched": 245,
       "operator_matched": 24,
-      "events_with_contact_phone": 181,
-      "events_with_specific_address": 173,
+      "events_with_contact_phone": 237,
+      "events_with_specific_address": 227,
       "official_photos_verified": 99,
-      "lecture_total": 18,
-      "lectures_without_verified_event_photo": 13,
+      "lecture_total": 19,
+      "lectures_without_verified_event_photo": 14,
       "operator_event_counts": {
         "ofek_ashdod": 24
       },
       "frequently_unmatched_venue_names": [
         {
-          "name": "מוזאון אשדוד לאמנות",
-          "count": 26
-        },
-        {
           "name": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
           "count": 19
         },
         {
-          "name": "מונארט אשדוד",
-          "count": 8
-        },
-        {
           "name": "מקיף י״א החדש, אשדוד",
           "count": 5
-        },
-        {
-          "name": "מרכז לתרבות מונארט האולם האדום",
-          "count": 3
         },
         {
           "name": "חוף ט\"ו אשדוד",
@@ -53,14 +41,6 @@
           "count": 2
         },
         {
-          "name": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
-          "count": 2
-        },
-        {
-          "name": "אולם מונארט-דרך ארץ 8 אשדוד",
-          "count": 2
-        },
-        {
           "name": "אשדוד - המגרש והשעה יעודכנו",
           "count": 2
         },
@@ -75,18 +55,38 @@
         {
           "name": "מרכז להורות משמעותית אשדוד",
           "count": 1
+        },
+        {
+          "name": "בית לברון",
+          "count": 1
+        },
+        {
+          "name": "דרך ארץ 8, אשדוד",
+          "count": 1
+        },
+        {
+          "name": "אצטדיון הי״א, אשדוד",
+          "count": 1
+        },
+        {
+          "name": "מרכז קהילתי חרצית-שד' הפרחים 18",
+          "count": 1
+        },
+        {
+          "name": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
+          "count": 1
         }
       ]
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
       "total_events": 321,
-      "institution_count": 5,
-      "venue_matched": 229,
+      "institution_count": 10,
+      "venue_matched": 280,
       "operator_matched": 302,
       "events_with_contact_phone": 317,
-      "events_with_specific_address": 238,
-      "official_photos_verified": 157,
+      "events_with_specific_address": 288,
+      "official_photos_verified": 158,
       "lecture_total": 100,
       "lectures_without_verified_event_photo": 98,
       "operator_event_counts": {
@@ -96,18 +96,6 @@
       },
       "frequently_unmatched_venue_names": [
         {
-          "name": "בית יד לבנים, ראשון לציון",
-          "count": 18
-        },
-        {
-          "name": "בית העם, ראשון לציון",
-          "count": 13
-        },
-        {
-          "name": "מוזיאון ראשון, ראשון לציון",
-          "count": 9
-        },
-        {
           "name": "ספריית שיכון המזרח",
           "count": 7
         },
@@ -116,15 +104,7 @@
           "count": 5
         },
         {
-          "name": "כותר חביב, כותר טף",
-          "count": 4
-        },
-        {
           "name": "אחד העם 7",
-          "count": 3
-        },
-        {
-          "name": "גלריה בית לונדון, ראשון לציון",
           "count": 3
         },
         {
@@ -133,10 +113,6 @@
         },
         {
           "name": "פארק האגמים ראשון לציון",
-          "count": 2
-        },
-        {
-          "name": "כותר ראשון שקמה",
           "count": 2
         },
         {
@@ -154,6 +130,30 @@
         {
           "name": "כותר ראשון, ראשון לציון",
           "count": 2
+        },
+        {
+          "name": "כותר ראשון-אלון",
+          "count": 2
+        },
+        {
+          "name": "אחד העם 7, ראשל\"צ",
+          "count": 1
+        },
+        {
+          "name": "ספריית נחלת יהודה",
+          "count": 1
+        },
+        {
+          "name": "הסדנא לאומנויות, ראשון לציון",
+          "count": 1
+        },
+        {
+          "name": "מעגלים: הספרייה התורנית",
+          "count": 1
+        },
+        {
+          "name": "כותר אלון, ראשון לציון",
+          "count": 1
         }
       ]
     }

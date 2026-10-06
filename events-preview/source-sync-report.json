@@ -1,18 +1,18 @@
 {
-  "run_at": "2026-10-06T13:46:39Z",
+  "run_at": "2026-10-06T13:52:05Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 390,
+      "total_before": 389,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 219,
           "valid": 215,
-          "new": 0,
+          "new": 1,
           "updated": 0
         },
         "mishkan_smarticket": {
@@ -40,17 +40,17 @@
           "updated": 0
         }
       },
-      "new": 0,
+      "new": 1,
       "updated": 0,
       "removed_invalid": 0,
-      "removed_duplicates": 1,
+      "removed_duplicates": 0,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 389
+      "total_after": 390
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 320,
+      "total_before": 321,
       "sources": {
         "htrl": {
           "status": "ok",
@@ -73,7 +73,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 1,
+          "new": 0,
           "updated": 0
         },
         "kotar_rishon": {
@@ -102,7 +102,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 1,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
