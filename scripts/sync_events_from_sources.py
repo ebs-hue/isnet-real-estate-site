@@ -55,6 +55,8 @@ SOURCES = {
     "rishon-lezion": [
         {"name": "htrl", "url": "https://htrl.co.il/לוח-שנה/", "parser": "htrl",
          "venue": "היכל התרבות מאיר ניצן", "source_type": "official"},
+        {"name": "htrl_adults", "url": "https://htrl.co.il/third-calendar/", "parser": "htrl",
+         "venue": "לגלות תרבות, ראשון לציון", "source_type": "official"},
         {"name": "yama", "url": "https://yama.smarticket.co.il/", "parser": "smarticket",
          "venue": "מוזיאון אגם", "source_type": "official"},
         {"name": "kotar_rishon", "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
@@ -174,10 +176,24 @@ def htrl_rows(soup, source):
         except ValueError:
             continue
         venue = source["venue"]
-        if i + 3 < len(lines) and "אודיטוריום" in lines[i+3]:
+        if source["name"] == "htrl_adults":
+            # The adult-education calendar explicitly lists venue after weekday.
+            # Very early times are often source typos (e.g. 00:11 for 11:00).
+            if int(lines[i+1].split(":")[0]) < 6:
+                continue
+            if i + 3 < len(lines):
+                candidate = lines[i+3].strip()
+                if 3 <= len(candidate) <= 95 and candidate != "רכישה":
+                    venue = candidate + ", ראשון לציון"
+        elif i + 3 < len(lines) and "אודיטוריום" in lines[i+3]:
             venue = "אודיטוריום היכל התרבות ראשון לציון"
+        category = choose_category(title, venue)
+        if source["name"] == "htrl_adults" and category == "other":
+            category = "lecture"
         found.append({"title": title, "start_date": day, "start_time": lines[i+1],
                       "venue": venue, "ticket_url": source["url"], "purchase_url": source["url"],
+                      "category": category,
+                      "audiences": ["adults"] if source["name"] == "htrl_adults" else [],
                       "quality_flags": ["automated_official_calendar"]})
     return found
 
