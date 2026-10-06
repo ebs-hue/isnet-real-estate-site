@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: isnet-event-sources
+  group: isnet-event-data-writes
   cancel-in-progress: false
 
 jobs:
