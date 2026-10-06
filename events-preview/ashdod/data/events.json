@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-06T13:25:09Z",
+  "generated_at": "2026-10-06T13:37:28Z",
   "window": {
     "from": "2026-10-06",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 389
+    "events": 390
   },
   "events": [
     {
@@ -63,7 +63,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "גן חובה – כיתה א׳"
+      "variant_label": "גן חובה – כיתה א׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_2_20261004",
@@ -119,7 +121,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ב׳–ג׳"
+      "variant_label": "כיתות ב׳–ג׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_68_20261004",
@@ -131,7 +135,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -177,7 +181,12 @@
       "image_origin_url": "https://cdn.modulus.co.il/fetch/cinemacity/w_505%2Ch_721%2Cmode_%2Cquality_95%2Cv_4f7026f8-2419-4c0e-a835-774fecc120bf41/http%3A//80.178.112.171/images/%D7%93%D7%A8%D7%93%D7%A1%D7%99%D7%9D.jpg",
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_3_20261004",
@@ -233,7 +242,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ג׳–ד׳"
+      "variant_label": "כיתות ג׳–ד׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_35_20261005",
@@ -304,7 +315,7 @@
       "start_time": "17:00",
       "end_time": "21:00",
       "venue": "מרכז קהילתי ספרא",
-      "address": null,
+      "address": "אב 4, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -345,7 +356,13 @@
       "image_strategy": "illustrative_source",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "detail_checked_at": "2026-10-06"
+      "detail_checked_at": "2026-10-06",
+      "venue_institution_id": "ironit_safra",
+      "venue_phone": "08-8675261",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8675261",
+      "contact_email": "safra@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -397,7 +414,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_21b74de87d9353a296d9"
+      "event_id": "auto_as_21b74de87d9353a296d9",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -408,7 +430,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
-      "address": null,
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -450,7 +472,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17321",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "event_id": "evt_36_20261006",
@@ -565,7 +593,9 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_93_20261006",
@@ -618,7 +648,64 @@
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "detail_checked_at": "2026-10-06"
+      "detail_checked_at": "2026-10-06",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
+    },
+    {
+      "city": "אשדוד",
+      "title": "מועדון הקוראות הרומנטיות -מועדון קריאה שכולו אהבה | סדרת מפגשים בהנחיית הסופרת שרית חיים",
+      "description": null,
+      "start_date": "2026-10-06",
+      "end_date": null,
+      "start_time": "18:00",
+      "end_time": null,
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
+      "address": null,
+      "district": null,
+      "category": "lecture",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 120,
+      "price_max_ils": 120,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/מועדון_הקוראות_הרומנטיות_-מועדון_קריאה_שכולו_אהבה_|_סדרת_מפגשים_בהנחיית_הסופרת_שרית_חיים/?id=17315",
+      "purchase_url": "https://ashdod.smarticket.co.il/מועדון_הקוראות_הרומנטיות_-מועדון_קריאה_שכולו_אהבה_|_סדרת_מפגשים_בהנחיית_הסופרת_שרית_חיים/?id=17315",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": 120,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-06T13:37:28Z"
+        }
+      ],
+      "observed_at": "2026-10-06T13:37:28Z",
+      "last_verified_at": "2026-10-06T13:37:28Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_b6a70a7d39dab383c7cc",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מועדון_הקוראות_הרומנטיות_-מועדון_קריאה_שכולו_אהבה_|_סדרת_מפגשים_בהנחיית_הסופרת_שרית_חיים/?id=17315",
+      "details_verified": true,
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_37_20261006",
@@ -941,7 +1028,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17220",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "city": "אשדוד",
@@ -952,7 +1044,7 @@
       "start_time": "16:00",
       "end_time": null,
       "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
-      "address": null,
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -994,7 +1086,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17328",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -1120,7 +1218,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -1161,7 +1259,12 @@
       "image_strategy": "official_production_art",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "detail_checked_at": "2026-10-06"
+      "detail_checked_at": "2026-10-06",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_39_20261008",
@@ -1213,7 +1316,8 @@
       "thumbnail_url": "assets/event-thumbs/ad6ef2f37a0474d34a5ace.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -1395,7 +1499,7 @@
       "start_time": "21:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה - אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -1438,7 +1542,12 @@
       "thumbnail_strategy": "landscape_cover",
       "detail_checked_at": "2026-10-06",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%9C%D7%91_%D7%96%D7%95%D7%9B%D7%A8/?id=8020",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -1545,7 +1654,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_קאנבה__7e62109f46/?id=17604",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "city": "אשדוד",
@@ -1556,7 +1670,7 @@
       "start_time": "10:30",
       "end_time": null,
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -1598,7 +1712,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/שיטת_דורון_ואיזון_מפרקים/?id=17304",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -1609,7 +1729,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
-      "address": null,
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -1651,7 +1771,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17322",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -1707,7 +1833,11 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "short_pitch": "הרצאה של יונתן סררו במרכז קהילתי ספרא, רחוב אב 4 באשדוד, ביום ראשון 11 באוקטובר 2026 בשעה 18:00. הכרטיסים אזלו.",
       "detail_source_url": "https://ashdod.smarticket.co.il/הרצאה_של_יונתן_סררו/?id=17695",
-      "detail_verified_on": "2026-10-06"
+      "detail_verified_on": "2026-10-06",
+      "venue_institution_id": "ironit_safra",
+      "venue_phone": "08-8675261",
+      "venue_website": "https://www.ironit.org.il/",
+      "contact_email": "safra@ironit.org.il"
     },
     {
       "event_id": "evt_71_20261011",
@@ -1719,7 +1849,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -1760,7 +1890,12 @@
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "detail_checked_at": "2026-10-06"
+      "detail_checked_at": "2026-10-06",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -1867,7 +2002,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_צילום_בסמארטפון_9590bf1074/?id=17606",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "event_id": "evt_40_20261012",
@@ -2151,7 +2291,7 @@
       "start_time": "10:30",
       "end_time": null,
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -2193,7 +2333,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/שירי_קריוקי_בקצב_הדרבוקה/?id=17300",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -2204,7 +2350,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
-      "address": null,
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -2246,7 +2392,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17323",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -2299,7 +2451,9 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/איתמר_וכובע_הקסמים_/?id=17636",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "city": "אשדוד",
@@ -2310,7 +2464,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -2352,7 +2506,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_עיצוב_עוגות_בנטו_7534/?id=17641",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -2405,7 +2565,9 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_כתיבה_רומנטית_|_כותבים_אהבה_עם_שרית_חיים/?id=17316",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
@@ -2479,7 +2641,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -2519,7 +2681,13 @@
       "thumbnail_ready": true,
       "image_strategy": "official_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -2625,7 +2793,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_מבוא_לרשתות_חברתיות_bfd0446f13/?id=17607",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "event_id": "evt_6_20261014",
@@ -2681,7 +2854,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "city": "אשדוד",
@@ -2692,7 +2870,7 @@
       "start_time": "10:30",
       "end_time": null,
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -2734,7 +2912,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/בריאות_מיטבית-הסיבות_והמניעות_לחולי_בתקופה_המודרנית/?id=17301",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -2895,7 +3079,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_382f5504e06e1fcda12e"
+      "event_id": "auto_as_382f5504e06e1fcda12e",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "event_id": "evt_7_20261015",
@@ -2907,7 +3096,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -2951,7 +3140,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -3057,7 +3252,12 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סדנת_בינה_מלאכותית_Ai_/?id=17602",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "city": "אשדוד",
@@ -3068,7 +3268,7 @@
       "start_time": "11:00",
       "end_time": null,
       "venue": "מרכז מונארט, אשדוד",
-      "address": null,
+      "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [
@@ -3109,7 +3309,16 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_04029172fbcf458e2eb3"
+      "event_id": "auto_as_04029172fbcf458e2eb3",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "venue_institution_id": "monart_ashdod",
+      "venue_phone": "08-8545170",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "אשדוד",
@@ -3120,7 +3329,7 @@
       "start_time": "11:00",
       "end_time": null,
       "venue": "מרכז מונארט, אשדוד",
-      "address": null,
+      "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [
@@ -3161,7 +3370,16 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_6c9c620a36d91d0e9a47"
+      "event_id": "auto_as_6c9c620a36d91d0e9a47",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "venue_institution_id": "monart_ashdod",
+      "venue_phone": "08-8545170",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "אשדוד",
@@ -3172,7 +3390,7 @@
       "start_time": "11:00",
       "end_time": null,
       "venue": "מרכז מונארט, אשדוד",
-      "address": null,
+      "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [
@@ -3213,7 +3431,16 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_833b74952b8fcc17694c"
+      "event_id": "auto_as_833b74952b8fcc17694c",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "venue_institution_id": "monart_ashdod",
+      "venue_phone": "08-8545170",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "אשדוד",
@@ -3334,7 +3561,7 @@
       "start_time": "19:00",
       "end_time": "20:30",
       "venue": "בית קלנג",
-      "address": null,
+      "address": "יאיר 2, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -3378,7 +3605,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A1%D7%A7%D7%95_-__%D7%9B%D7%A9%D7%94%D7%A7%D7%A6%D7%91_%D7%9E%D7%A9%D7%97%D7%A8%D7%A8_%D7%90%D7%AA_%D7%94%D7%92%D7%95%D7%A3/?id=15549",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "klang_ashdod",
+      "venue_phone": "08-9221883",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-9221883",
+      "contact_email": "arieklangh@gmail.com"
     },
     {
       "event_id": "evt_43_20261015",
@@ -3450,7 +3683,8 @@
         "https://www.eventim.co.il/artist/%D7%90%D7%A1%D7%A3-%D7%9E%D7%95%D7%A8-%D7%99%D7%95%D7%A1%D7%A3/",
         "https://www.youtube.com/watch?v=KkUbknTc3lg"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "event_id": "evt_42_20261015",
@@ -3743,7 +3977,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה - אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -3784,7 +4018,12 @@
       "event_id": "auto_as_33cbee583475a04a7766",
       "detail_checked_at": "2026-10-06",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/דרושה_עוזרת_471f06b60d/?id=8221",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_44_20261017",
@@ -3836,7 +4075,8 @@
       "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -3953,7 +4193,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
-      "address": null,
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -3995,7 +4235,13 @@
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17324",
-      "details_verified": true
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -4005,15 +4251,15 @@
       "end_date": null,
       "start_time": "17:15",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "address": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 30,
+      "price_max_ils": 30,
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/איילת_מטיילת-_הצגה_מבית_רינתי/?id=17668",
@@ -4029,7 +4275,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4044,7 +4290,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b4d7bbb0c87879a7a8c9"
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/איילת_מטיילת-_הצגה_מבית_רינתי/?id=17668",
+      "details_verified": true
     },
     {
       "event_id": "evt_45_20261018",
@@ -4056,7 +4306,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -4102,7 +4352,13 @@
       "thumbnail_ready": true,
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "detail_checked_at": "2026-10-06",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
@@ -4174,7 +4430,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -4198,7 +4454,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 600,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4213,7 +4469,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_58c1ea1851030cfaaa11"
+      "event_id": "auto_as_58c1ea1851030cfaaa11",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17583",
+      "details_verified": true
     },
     {
       "event_id": "evt_9_20261019",
@@ -4225,7 +4485,7 @@
       "start_time": "17:30",
       "end_time": "19:00",
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [
@@ -4268,7 +4528,13 @@
       "thumbnail_url": "assets/event-thumbs/ef2364c5a85f7c4f620451.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -4278,7 +4544,7 @@
       "end_date": null,
       "start_time": "18:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
       "address": null,
       "district": null,
       "category": "other",
@@ -4302,7 +4568,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4317,7 +4583,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ab616d899c714d6fd180"
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/המספרה_של_ג_אקו_-_הפקת_מקור/?id=17265",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -4327,15 +4597,15 @@
       "end_date": null,
       "start_time": "19:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "אולם מונארט-דרך ארץ 8 אשדוד",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מוצאים_עוגן_בתוך_הסערה_|_לנשים_בלבד/?id=17638",
@@ -4351,7 +4621,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4366,7 +4636,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_c0a799e7b9e5b13ef6b9"
+      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מוצאים_עוגן_בתוך_הסערה_|_לנשים_בלבד/?id=17638",
+      "details_verified": true
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -4480,7 +4754,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_a24513b4e4cf7e5bbc06"
+      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -4490,7 +4769,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -4514,7 +4793,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 360,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4529,7 +4808,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_2e18ed2709b02baa3532"
+      "event_id": "auto_as_2e18ed2709b02baa3532",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17557",
+      "details_verified": true
     },
     {
       "event_id": "evt_97_20261020",
@@ -4540,15 +4823,15 @@
       "end_date": null,
       "start_time": "10:30",
       "end_time": "11:30",
-      "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302",
@@ -4557,7 +4840,7 @@
       "image_credit": "החברה העירונית לתרבות הפנאי אשדוד",
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4581,7 +4864,17 @@
       "image_origin_url": "https://www.ironit.org.il/wp-content/uploads/2026/01/Gemini_Generated_Image_oyksdoyksdoyksdo.jpg",
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302",
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -4591,8 +4884,8 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -4615,7 +4908,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4630,7 +4923,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_41ae0e273466d9a46327"
+      "event_id": "auto_as_41ae0e273466d9a46327",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17325",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -4640,15 +4943,15 @@
       "end_date": null,
       "start_time": "17:15",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/אצבעוני__/?id=17637",
@@ -4664,7 +4967,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4679,7 +4982,13 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_4b07ba21b782ea02a4ff"
+      "event_id": "auto_as_4b07ba21b782ea02a4ff",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/אצבעוני__/?id=17637",
+      "details_verified": true,
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_72_20261020",
@@ -4690,8 +4999,8 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -4731,7 +5040,15 @@
       "image_origin_url": "https://www.megalean.co.il/img_mega/sp_5983_961a109da5aeccf.jpg",
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "detail_checked_at": "2026-10-06",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94%D7%A4%D7%99%D7%94_%D7%94%D7%A0%D7%A8%D7%93%D7%9E%D7%AA/?id=8059",
+      "details_verified": true,
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -4741,15 +5058,15 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מעשה_בחמישה_בלונים_|_שעת_סיפור_עם_רינתי/?id=17643",
@@ -4765,7 +5082,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4780,7 +5097,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_61d612476128de680031"
+      "event_id": "auto_as_61d612476128de680031",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מעשה_בחמישה_בלונים_|_שעת_סיפור_עם_רינתי/?id=17643",
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "event_id": "evt_46_20261020",
@@ -4792,7 +5119,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -4832,7 +5159,13 @@
       "thumbnail_url": "assets/event-thumbs/d1215121209bd8df4ac7e4.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -4842,7 +5175,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -4866,7 +5199,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 360,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4881,7 +5214,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_9a8cdd916de4aaaf8311"
+      "event_id": "auto_as_9a8cdd916de4aaaf8311",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -4891,15 +5228,15 @@
       "end_date": null,
       "start_time": "18:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מרכז קהילתי תקוותנו-המעפילים 21 אשדוד",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
@@ -4915,7 +5252,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4930,7 +5267,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_8ac6ea288cb265605b77"
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -4940,15 +5281,15 @@
       "end_date": null,
       "start_time": "19:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "המשכן לאמנויות הבמה - רחוב דרך ארץ 1 אשדוד",
+      "address": "המשכן לאמנויות הבמה - רחוב דרך ארץ 1 אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/יום_העליה_בסימן_70_לאשדוד/?id=17678",
@@ -4964,7 +5305,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -4979,7 +5320,15 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_91024d3eccf55a0b44ad"
+      "event_id": "auto_as_91024d3eccf55a0b44ad",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/יום_העליה_בסימן_70_לאשדוד/?id=17678",
+      "details_verified": true,
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -4989,15 +5338,15 @@
       "end_date": null,
       "start_time": "19:30",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "address": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 25,
+      "price_max_ils": 25,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/ערב_נשים_עוצמתי_|_לאורה_של_רחל_אמנו/?id=17680",
@@ -5013,7 +5362,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5028,7 +5377,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ec0e8e6df83ab0a29247"
+      "event_id": "auto_as_ec0e8e6df83ab0a29247",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/ערב_נשים_עוצמתי_|_לאורה_של_רחל_אמנו/?id=17680",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -5038,7 +5391,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -5062,7 +5415,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 600,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5077,7 +5430,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ce847e364ee55065956b"
+      "event_id": "auto_as_ce847e364ee55065956b",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584",
+      "details_verified": true
     },
     {
       "event_id": "evt_47_20261022",
@@ -5181,7 +5538,8 @@
       "thumbnail_url": "assets/event-thumbs/7c4572a9cc450fa452786b.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "event_id": "evt_10_20261022",
@@ -5192,7 +5550,7 @@
       "end_date": null,
       "start_time": "21:30",
       "end_time": "23:00",
-      "venue": "אולם דיונה אשדוד",
+      "venue": "אולם דיונה -קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
       "category": "standup",
@@ -5241,7 +5599,11 @@
       "thumbnail_url": "assets/event-thumbs/81c81a00a0855f794f654b.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A4%D7%A2_%D7%A1%D7%98%D7%A0%D7%93_%D7%90%D7%A4_-_%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%98/?id=16089",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -5251,15 +5613,15 @@
       "end_date": null,
       "start_time": "09:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 1200,
+      "price_max_ils": 1200,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/קורס_קרמיקה_אבניים/?id=17621",
@@ -5275,7 +5637,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5290,7 +5652,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_6d352cd050d68d4a1163"
+      "event_id": "auto_as_6d352cd050d68d4a1163",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/קורס_קרמיקה_אבניים/?id=17621",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -5300,7 +5666,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -5324,7 +5690,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5339,7 +5705,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_1e5059b53915f4c7fe21"
+      "event_id": "auto_as_1e5059b53915f4c7fe21",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535",
+      "details_verified": true
     },
     {
       "event_id": "evt_49_20261023",
@@ -5351,7 +5721,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -5398,7 +5768,12 @@
       "thumbnail_ready": false,
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "thumbnail_error": "HTTPError"
+      "thumbnail_error": "HTTPError",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -5408,7 +5783,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -5432,7 +5807,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 240,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5447,7 +5822,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_a578c11cb7a7bacb36e1"
+      "event_id": "auto_as_a578c11cb7a7bacb36e1",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
+      "details_verified": true
     },
     {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
@@ -5561,7 +5940,8 @@
       "thumbnail_url": "assets/event-thumbs/7b5f60e44ee9ada76997ec.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -5571,7 +5951,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "מוזאון אשדוד לאמנות",
       "address": null,
       "district": null,
       "category": "exhibition",
@@ -5595,7 +5975,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 360,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5610,7 +5990,11 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b069b87dfeecdb648ea4"
+      "event_id": "auto_as_b069b87dfeecdb648ea4",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -5620,8 +6004,8 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -5644,7 +6028,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5659,7 +6043,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_3069ec1e14b7c33b581c"
+      "event_id": "auto_as_3069ec1e14b7c33b581c",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17326",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -5669,15 +6063,15 @@
       "end_date": null,
       "start_time": "18:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי ספרא-רח' אב 4 אשדוד",
+      "address": "מרכז קהילתי ספרא-רח' אב 4 אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/כשירות_תרבותית_וגישור_מסורתי-_סדרת_הרצאות_/?id=17679",
@@ -5693,7 +6087,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -5708,7 +6102,16 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_3a2c902c3450a6e70c14"
+      "event_id": "auto_as_3a2c902c3450a6e70c14",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כשירות_תרבותית_וגישור_מסורתי-_סדרת_הרצאות_/?id=17679",
+      "details_verified": true,
+      "venue_institution_id": "ironit_safra",
+      "venue_phone": "08-8675261",
+      "venue_website": "https://www.ironit.org.il/",
+      "contact_phone": "08-8675261",
+      "contact_email": "safra@ironit.org.il"
     },
     {
       "event_id": "evt_51_20261025",
@@ -5760,7 +6163,8 @@
       "thumbnail_url": "assets/event-thumbs/56af89844dde57f550cc62.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -5931,7 +6335,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -5972,7 +6376,12 @@
       "event_id": "auto_as_85ef80d4838e92290fe0",
       "image_strategy": "official_production_art",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -6033,7 +6442,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -6073,7 +6482,12 @@
       "image_origin_url": "https://first-digital.co.il/wp-content/uploads/2025/11/%D7%97%D7%9C%D7%95%D7%9F-%D7%9C%D7%99%D7%9D-%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F-3.jpg",
       "image_strategy": "official_production_art",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "sport_20261028_hapoel_ashdod_m_handball",
@@ -6258,7 +6672,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -6298,7 +6712,12 @@
       "thumbnail_url": "assets/event-thumbs/37b605b3f620c25f97cf27.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -6510,7 +6929,8 @@
       "thumbnail_ready": true,
       "image_strategy": "direct_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -6889,7 +7309,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "גן חובה – כיתה א׳"
+      "variant_label": "גן חובה – כיתה א׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_12_20261101",
@@ -6945,7 +7367,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ב׳–ג׳"
+      "variant_label": "כיתות ב׳–ג׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "city": "אשדוד",
@@ -7050,7 +7474,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ג׳–ד׳"
+      "variant_label": "כיתות ג׳–ד׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "city": "אשדוד",
@@ -7209,7 +7635,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [],
@@ -7249,7 +7675,13 @@
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -7309,7 +7741,7 @@
       "start_time": "18:00",
       "end_time": null,
       "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
-      "address": null,
+      "address": "רחוב העצמאות 54, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [
@@ -7350,7 +7782,16 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_a28e2e7dfb7c44f26606"
+      "event_id": "auto_as_a28e2e7dfb7c44f26606",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "venue_institution_id": "ofek_ashdod",
+      "venue_phone": "08-9238680",
+      "venue_website": "https://www.ofek-ashdod.org.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "אשדוד",
@@ -7402,7 +7843,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_64cf140ac904f0ae4871"
+      "event_id": "auto_as_64cf140ac904f0ae4871",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -7613,7 +8059,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -7653,7 +8099,13 @@
       "thumbnail_ready": true,
       "image_strategy": "official_show_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -7763,7 +8215,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [],
@@ -7803,7 +8255,13 @@
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "event_id": "evt_74_20261104",
@@ -7815,7 +8273,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -7855,7 +8313,12 @@
       "image_origin_url": "https://www.concerto.com.br/sites/default/files/akta.jpg",
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -7916,7 +8379,7 @@
       "start_time": "10:00",
       "end_time": "12:30",
       "venue": "מרכז אפ 60+ אשדוד, סטורמה 5",
-      "address": null,
+      "address": "סטרומה 5, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -7956,7 +8419,13 @@
       "thumbnail_url": "assets/event-thumbs/0cd8a9e25dfa4eda95c7f6.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "event_id": "evt_18_20261105",
@@ -7968,7 +8437,7 @@
       "start_time": "19:00",
       "end_time": "20:30",
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "community",
       "audiences": [],
@@ -8008,7 +8477,12 @@
       "image_origin_url": "https://www.ironit.org.il/wp-content/uploads/2026/07/ChatGPT-Image-Sep-24-מופע-לקהילה-ההודית-.jpg",
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_56_20261105",
@@ -8020,7 +8494,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -8060,7 +8534,13 @@
       "thumbnail_ready": true,
       "image_strategy": "official_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "event_id": "evt_57_20261105",
@@ -8132,7 +8612,8 @@
         "https://www.eventim.co.il/artist/%D7%90%D7%A1%D7%A3-%D7%9E%D7%95%D7%A8-%D7%99%D7%95%D7%A1%D7%A3/",
         "https://www.youtube.com/watch?v=KkUbknTc3lg"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -8389,7 +8870,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -8429,7 +8910,13 @@
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -8579,7 +9066,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_f45962e796919e19fbcd"
+      "event_id": "auto_as_f45962e796919e19fbcd",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "event_id": "evt_20_20261110",
@@ -8591,7 +9083,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -8631,7 +9123,13 @@
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -8790,7 +9288,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -8830,7 +9328,12 @@
       "image_origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -8891,7 +9394,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -8931,7 +9434,12 @@
       "image_origin_url": "https://images.makore.co.il/events/019a99f81bc0c09dd00baec926025140f037671822827df9fcb45f4b4e120387.webp?class=eventdetail1280",
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -9139,7 +9647,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [],
@@ -9179,7 +9687,13 @@
       "thumbnail_ready": true,
       "image_strategy": "official_show_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -9340,7 +9854,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -9378,7 +9892,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_1433fdc5973b6695bdc3"
+      "event_id": "auto_as_1433fdc5973b6695bdc3",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -9487,7 +10006,7 @@
       "start_time": "19:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -9525,7 +10044,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ef7ca0af669f34aae871"
+      "event_id": "auto_as_ef7ca0af669f34aae871",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -9684,7 +10208,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -9754,7 +10278,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%94%D7%97%D7%95%D7%9C%D7%94-%D7%94%D7%94%D7%95%D7%93%D7%99",
         "https://www.youtube.com/watch?v=pmMxI6vNrHs"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -9916,7 +10445,7 @@
       "start_time": "17:30",
       "end_time": "18:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -9956,7 +10485,13 @@
       "thumbnail_url": "assets/event-thumbs/5a2591cb4af6b5f8130653.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "event_id": "evt_78_20261117",
@@ -9968,7 +10503,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -10038,7 +10573,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%94%D7%97%D7%95%D7%9C%D7%94-%D7%94%D7%94%D7%95%D7%93%D7%99",
         "https://www.youtube.com/watch?v=pmMxI6vNrHs"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -10148,7 +10688,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -10218,7 +10758,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%94%D7%97%D7%95%D7%9C%D7%94-%D7%94%D7%94%D7%95%D7%93%D7%99",
         "https://www.youtube.com/watch?v=pmMxI6vNrHs"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -10328,7 +10873,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -10398,7 +10943,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%94%D7%97%D7%95%D7%9C%D7%94-%D7%94%D7%94%D7%95%D7%93%D7%99",
         "https://www.youtube.com/watch?v=pmMxI6vNrHs"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -10508,7 +11058,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -10578,7 +11128,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%94%D7%97%D7%95%D7%9C%D7%94-%D7%94%D7%94%D7%95%D7%93%D7%99",
         "https://www.youtube.com/watch?v=pmMxI6vNrHs"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_59_20261121",
@@ -10630,7 +11185,8 @@
       "thumbnail_url": "assets/event-thumbs/5163c1303f85bd482618a7.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -10789,7 +11345,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -10829,7 +11385,13 @@
       "thumbnail_url": "assets/event-thumbs/4e1dd34db44b28df27d9ee.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "event_id": "evt_82_20261123",
@@ -10841,7 +11403,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -10881,7 +11443,12 @@
       "image_origin_url": "https://cdn.bingebase.com/movies/109772/posters/eWPq3wSvJEMakESTXzaBECUNBYr.webp",
       "image_strategy": "film_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -10982,7 +11549,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_7baf69bd3cb635730590"
+      "event_id": "auto_as_7baf69bd3cb635730590",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -11144,7 +11716,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -11184,7 +11756,13 @@
       "thumbnail_ready": true,
       "image_strategy": "ironit_official_event_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -11383,7 +11961,8 @@
       "thumbnail_ready": true,
       "image_strategy": "event_board_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "city": "אשדוד",
@@ -11542,7 +12121,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -11583,7 +12162,12 @@
       "image_origin_url": "https://www.habama.co.il/Habama/Upload/Music/%D7%94%D7%90%D7%97%D7%99%D7%9D-%D7%90%D7%A1%D7%A0%D7%A8-%D7%A2%D7%A0%D7%A75.jpg",
       "image_strategy": "artist_fallback_temporary",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -11692,7 +12276,7 @@
       "start_time": "15:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -11730,7 +12314,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ccab329e9dce87dcb028"
+      "event_id": "auto_as_ccab329e9dce87dcb028",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -11741,7 +12330,7 @@
       "start_time": "18:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -11779,7 +12368,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_208cc1d709030d29da9a"
+      "event_id": "auto_as_208cc1d709030d29da9a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -11981,7 +12575,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_399303973daa1a005314"
+      "event_id": "auto_as_399303973daa1a005314",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -12042,7 +12641,7 @@
       "start_time": "10:00",
       "end_time": "13:00",
       "venue": "מרכז אפ 60+ אשדוד, סטורמה 5",
-      "address": null,
+      "address": "סטרומה 5, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -12082,7 +12681,13 @@
       "image_origin_url": null,
       "image_strategy": "category_fallback_pending_exact_image",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "category_fallback"
+      "thumbnail_strategy": "category_fallback",
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "event_id": "evt_26_20261203",
@@ -12146,7 +12751,7 @@
       "start_time": "10:00",
       "end_time": "12:30",
       "venue": "מרכז אפ 60+ אשדוד, סטורמה 5",
-      "address": null,
+      "address": "סטרומה 5, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -12186,7 +12791,13 @@
       "thumbnail_url": "assets/event-thumbs/be5f78695711793e25d5ca.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "up60_ashdod",
+      "venue_phone": "08-9238677",
+      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-9238677",
+      "contact_email": "up60plus@ashdod.muni.il"
     },
     {
       "event_id": "evt_25_20261203",
@@ -12198,7 +12809,7 @@
       "start_time": "10:00",
       "end_time": "11:30",
       "venue": "מרכז קהילתי טנה - אולם קטן",
-      "address": null,
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "workshop",
       "audiences": [],
@@ -12238,7 +12849,13 @@
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
       "image_strategy": "series_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -12347,7 +12964,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -12385,7 +13002,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5c82b36c5f0954a3ff95"
+      "event_id": "auto_as_5c82b36c5f0954a3ff95",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_62_20261203",
@@ -12397,7 +13019,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -12437,7 +13059,13 @@
       "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "event_id": "evt_63_20261205",
@@ -12449,7 +13077,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -12489,7 +13117,12 @@
       "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -12549,7 +13182,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -12587,7 +13220,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_4b2ebdf73be27f322465"
+      "event_id": "auto_as_4b2ebdf73be27f322465",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -12798,7 +13436,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -12838,7 +13476,12 @@
       "thumbnail_ready": true,
       "image_strategy": "direct_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -12849,7 +13492,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -12887,7 +13530,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0796e91ed6cd6d37f9ca"
+      "event_id": "auto_as_0796e91ed6cd6d37f9ca",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -12948,7 +13596,7 @@
       "start_time": "16:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -12988,7 +13636,12 @@
       "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
       "image_strategy": "production_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -13049,7 +13702,7 @@
       "start_time": "18:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -13089,7 +13742,12 @@
       "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
       "image_strategy": "production_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -13149,7 +13807,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -13187,7 +13845,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_53b36d3a117f507f77b7"
+      "event_id": "auto_as_53b36d3a117f507f77b7",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -13247,7 +13910,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -13285,7 +13948,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_927802792107d0068f24"
+      "event_id": "auto_as_927802792107d0068f24",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_65_20261212",
@@ -13337,7 +14005,8 @@
       "thumbnail_url": "assets/event-thumbs/384faba85eedac63f21dd5.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "yadlabanim_ashdod"
     },
     {
       "event_id": "evt_28_20261213",
@@ -13393,7 +14062,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "גן חובה – כיתה א׳"
+      "variant_label": "גן חובה – כיתה א׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_29_20261213",
@@ -13449,7 +14120,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ב׳–ג׳"
+      "variant_label": "כיתות ב׳–ג׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "event_id": "evt_30_20261213",
@@ -13505,7 +14178,9 @@
       "series_id": "reading-with-dogs-mairhoff",
       "series_title": "מפגשי קריאה בעזרת כלבים",
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
-      "variant_label": "כיתות ג׳–ד׳"
+      "variant_label": "כיתות ג׳–ד׳",
+      "venue_institution_id": "ashdod_city_library",
+      "venue_website": "https://www.ironit.org.il/"
     },
     {
       "city": "אשדוד",
@@ -13606,7 +14281,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_3d3cdcdf993039f9fe16"
+      "event_id": "auto_as_3d3cdcdf993039f9fe16",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "event_id": "evt_31_20261215",
@@ -13719,7 +14399,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -13759,7 +14439,13 @@
       "thumbnail_ready": true,
       "image_strategy": "artist_fallback",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -13770,7 +14456,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -13808,7 +14494,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_1248203a0850a8e67852"
+      "event_id": "auto_as_1248203a0850a8e67852",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -13868,7 +14559,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
@@ -13906,7 +14597,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_e989e0af031952a41c55"
+      "event_id": "auto_as_e989e0af031952a41c55",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -13966,7 +14662,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -14004,7 +14700,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_511ebde2aa175eaa7a56"
+      "event_id": "auto_as_511ebde2aa175eaa7a56",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -14065,7 +14766,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -14105,7 +14806,12 @@
       "image_origin_url": "https://donkeycomm-1.ams3.digitaloceanspaces.com/obrother-strapi/AfficheBE-1763464391936.jpg",
       "image_strategy": "official_film_poster",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -14465,7 +15171,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -14503,7 +15209,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_2526e830eef4d3d6705d"
+      "event_id": "auto_as_2526e830eef4d3d6705d",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_87_20261228",
@@ -14515,7 +15226,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -14588,7 +15299,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D",
         "https://www.youtube.com/watch?v=ZV2KP1tCBcQ"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -14599,7 +15315,7 @@
       "start_time": "07:20",
       "end_time": null,
       "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
-      "address": null,
+      "address": "רחוב העצמאות 54, אשדוד",
       "district": null,
       "category": "lecture",
       "audiences": [
@@ -14640,7 +15356,16 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8"
+      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "venue_institution_id": "ofek_ashdod",
+      "venue_phone": "08-9238680",
+      "venue_website": "https://www.ofek-ashdod.org.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "event_id": "evt_34_20261229",
@@ -14754,7 +15479,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -14827,7 +15552,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D",
         "https://www.youtube.com/watch?v=ZV2KP1tCBcQ"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_89_20261230",
@@ -14839,7 +15569,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -14912,7 +15642,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D",
         "https://www.youtube.com/watch?v=ZV2KP1tCBcQ"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_90_20261231",
@@ -14924,7 +15659,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -14997,7 +15732,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D",
         "https://www.youtube.com/watch?v=ZV2KP1tCBcQ"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_91_20270102",
@@ -15009,7 +15749,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -15082,7 +15822,12 @@
         "https://www.theatre-in-israel.co.il/shows/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D",
         "https://www.youtube.com/watch?v=ZV2KP1tCBcQ"
       ],
-      "rich_content_status": "enriched"
+      "rich_content_status": "enriched",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "event_id": "evt_67_20270102",
@@ -15094,7 +15839,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
@@ -15134,7 +15879,13 @@
       "thumbnail_ready": true,
       "image_strategy": "official_event_page",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -15194,7 +15945,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15235,7 +15986,12 @@
       "event_id": "auto_as_6d08db65cc9adf0eb6af",
       "image_strategy": "official_theatre_art",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15246,7 +16002,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15284,7 +16040,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_d0315a26e607910aebb5"
+      "event_id": "auto_as_d0315a26e607910aebb5",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15295,7 +16056,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15333,7 +16094,12 @@
       "quality_flags": [
         "automated_structured_event"
       ],
-      "event_id": "auto_as_3965330ca84880c5bf7a"
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15344,7 +16110,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15382,7 +16148,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5dda25a13333e0d8db14"
+      "event_id": "auto_as_5dda25a13333e0d8db14",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15393,7 +16164,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15431,7 +16202,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_e3ffc57670066fd5ea7a"
+      "event_id": "auto_as_e3ffc57670066fd5ea7a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15442,7 +16218,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15480,7 +16256,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_c5084f66863b9e27992a"
+      "event_id": "auto_as_c5084f66863b9e27992a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15491,7 +16272,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15529,7 +16310,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_60cb539e4c684575d6a8"
+      "event_id": "auto_as_60cb539e4c684575d6a8",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15638,7 +16424,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15676,7 +16462,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_337345b282aabb14f4ed"
+      "event_id": "auto_as_337345b282aabb14f4ed",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15687,7 +16478,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
@@ -15725,7 +16516,13 @@
       "quality_flags": [
         "automated_structured_event"
       ],
-      "event_id": "auto_as_d3cf764f28c61e301ce9"
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -15834,7 +16631,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15872,7 +16669,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b2274dd31f58c6fcf843"
+      "event_id": "auto_as_b2274dd31f58c6fcf843",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -15924,7 +16726,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_9e8b223f38713dfb8a74"
+      "event_id": "auto_as_9e8b223f38713dfb8a74",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -16082,7 +16889,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16120,7 +16927,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_f1f2c2a86e48f04a9c07"
+      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16131,7 +16943,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16172,7 +16984,12 @@
       "event_id": "auto_as_6810908ab34bc72b0557",
       "image_strategy": "official_production_art",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16183,7 +17000,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16221,7 +17038,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_e65f449f9c8e6f75c763"
+      "event_id": "auto_as_e65f449f9c8e6f75c763",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16330,7 +17152,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16368,7 +17190,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5c9acb9f3ebef3f3e018"
+      "event_id": "auto_as_5c9acb9f3ebef3f3e018",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16379,7 +17206,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16417,7 +17244,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ea016ff2f0c38ea8e2eb"
+      "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16477,7 +17309,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16515,7 +17347,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_50179a566f2b8b78f713"
+      "event_id": "auto_as_50179a566f2b8b78f713",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16526,7 +17363,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16564,7 +17401,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_44ade887868f332af978"
+      "event_id": "auto_as_44ade887868f332af978",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16624,7 +17466,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16662,7 +17504,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_3d668279eb3a8887ca1d"
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16714,7 +17561,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_2d86a3932207b0dfadb6"
+      "event_id": "auto_as_2d86a3932207b0dfadb6",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -16725,7 +17577,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16763,7 +17615,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0a2955afc99e32e98101"
+      "event_id": "auto_as_0a2955afc99e32e98101",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16774,7 +17631,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16812,7 +17669,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ffc197d8a4343c6c1421"
+      "event_id": "auto_as_ffc197d8a4343c6c1421",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -16921,7 +17783,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16959,7 +17821,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ecf2560c70689efc3475"
+      "event_id": "auto_as_ecf2560c70689efc3475",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17019,7 +17886,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17057,7 +17924,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_c41f0c83c1874a320cdf"
+      "event_id": "auto_as_c41f0c83c1874a320cdf",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17109,7 +17981,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_96552a33f52aca95896d"
+      "event_id": "auto_as_96552a33f52aca95896d",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -17120,7 +17997,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17158,7 +18035,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_8cfa7c9ae155b54ae894"
+      "event_id": "auto_as_8cfa7c9ae155b54ae894",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17169,7 +18051,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17207,7 +18089,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b5598e9e1f88af009a2a"
+      "event_id": "auto_as_b5598e9e1f88af009a2a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17259,7 +18146,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_1bd891e217e32b97766c"
+      "event_id": "auto_as_1bd891e217e32b97766c",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -17368,7 +18260,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17406,7 +18298,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_35b62174438a54f14368"
+      "event_id": "auto_as_35b62174438a54f14368",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17458,7 +18355,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_6d281693df39376eb4d3"
+      "event_id": "auto_as_6d281693df39376eb4d3",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -17469,7 +18371,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17507,7 +18409,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_2477b1b0746b9c7835a2"
+      "event_id": "auto_as_2477b1b0746b9c7835a2",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17518,7 +18425,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17556,7 +18463,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0b79e886759de4901160"
+      "event_id": "auto_as_0b79e886759de4901160",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17567,7 +18479,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17605,7 +18517,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_2d5eff340312fe7ebdd6"
+      "event_id": "auto_as_2d5eff340312fe7ebdd6",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17665,7 +18582,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17703,7 +18620,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_f90a3e4493591be402c4"
+      "event_id": "auto_as_f90a3e4493591be402c4",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -17755,7 +18677,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_be3243a1775666aa5d3f"
+      "event_id": "auto_as_be3243a1775666aa5d3f",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -17815,7 +18742,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17853,7 +18780,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_02e98c500343d8898158"
+      "event_id": "auto_as_02e98c500343d8898158",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18011,7 +18943,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18049,7 +18981,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ee8c99e88b2fabffda94"
+      "event_id": "auto_as_ee8c99e88b2fabffda94",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18060,7 +18997,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18098,7 +19035,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_6c4a2a4051f27539ead9"
+      "event_id": "auto_as_6c4a2a4051f27539ead9",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18150,7 +19092,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_1b9d3f3328e7272edcef"
+      "event_id": "auto_as_1b9d3f3328e7272edcef",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -18161,7 +19108,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18199,7 +19146,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_0b2aa6658e011fe663a1"
+      "event_id": "auto_as_0b2aa6658e011fe663a1",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18210,7 +19162,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18248,7 +19200,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_1caae4e5224cdc30a114"
+      "event_id": "auto_as_1caae4e5224cdc30a114",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18259,7 +19216,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18297,7 +19254,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5fd8a10ff2fd7e22564d"
+      "event_id": "auto_as_5fd8a10ff2fd7e22564d",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18308,7 +19270,7 @@
       "start_time": "21:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18346,7 +19308,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_5e9a7c24a75b670e4e6b"
+      "event_id": "auto_as_5e9a7c24a75b670e4e6b",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18447,7 +19414,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_ed25c185b34074edfce1"
+      "event_id": "auto_as_ed25c185b34074edfce1",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -18458,7 +19430,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18496,7 +19468,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_aa2b2468ee21cb65145c"
+      "event_id": "auto_as_aa2b2468ee21cb65145c",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18507,7 +19484,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18545,7 +19522,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_29f849d06f37052801c3"
+      "event_id": "auto_as_29f849d06f37052801c3",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18597,7 +19579,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_a02e2e039fa2a5969f9b"
+      "event_id": "auto_as_a02e2e039fa2a5969f9b",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -18608,7 +19595,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18646,7 +19633,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb"
+      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18706,7 +19698,7 @@
       "start_time": "20:00",
       "end_time": null,
       "venue": "אולם דיונה אשדוד",
-      "address": null,
+      "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18744,7 +19736,13 @@
       "quality_flags": [
         "automated_structured_event"
       ],
-      "event_id": "auto_as_3fa16619b6054a877bff"
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "venue_institution_id": "ironit_diyona",
+      "venue_phone": "08-8648585",
+      "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8648585",
+      "contact_email": "duna@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -18755,7 +19753,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18793,7 +19791,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_6b69e4a3d5d662cc0ef9"
+      "event_id": "auto_as_6b69e4a3d5d662cc0ef9",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18804,7 +19807,7 @@
       "start_time": "13:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18842,7 +19845,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_95f92aa282a0c631a783"
+      "event_id": "auto_as_95f92aa282a0c631a783",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18853,7 +19861,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -18891,7 +19899,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_f5a1dda55f5642c32383"
+      "event_id": "auto_as_f5a1dda55f5642c32383",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -18992,7 +20005,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_6b0a85ae2a0051cd7218"
+      "event_id": "auto_as_6b0a85ae2a0051cd7218",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -19052,7 +20070,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19090,7 +20108,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_17fa7f825b24639c734c"
+      "event_id": "auto_as_17fa7f825b24639c734c",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19101,7 +20124,7 @@
       "start_time": "17:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19139,7 +20162,12 @@
       "quality_flags": [
         "automated_structured_event"
       ],
-      "event_id": "auto_as_92a7794474ff45937b54"
+      "event_id": "auto_as_92a7794474ff45937b54",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19150,7 +20178,7 @@
       "start_time": "21:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19188,7 +20216,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_60639bfb8504f9553fcf"
+      "event_id": "auto_as_60639bfb8504f9553fcf",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19199,7 +20232,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19237,7 +20270,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_a6dda6455ef870d17dd0"
+      "event_id": "auto_as_a6dda6455ef870d17dd0",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19289,7 +20327,12 @@
         "official_ofek_ashdod",
         "date_and_time_verified"
       ],
-      "event_id": "auto_as_bf7028aa1130feeeda5e"
+      "event_id": "auto_as_bf7028aa1130feeeda5e",
+      "operator_id": "ofek_ashdod",
+      "operator_name": "הקתדרה העממית אופק",
+      "contact_phone": "08-9238680",
+      "contact_email": "noamteb@ashdod.muni.il",
+      "organizer_url": "https://www.ofek-ashdod.org.il/"
     },
     {
       "city": "אשדוד",
@@ -19300,7 +20343,7 @@
       "start_time": "09:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19338,7 +20381,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ebf2feea981459bed3cf"
+      "event_id": "auto_as_ebf2feea981459bed3cf",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19398,7 +20446,7 @@
       "start_time": "11:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19436,7 +20484,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_52c1df237ce507a44b41"
+      "event_id": "auto_as_52c1df237ce507a44b41",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19496,7 +20549,7 @@
       "start_time": "21:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19534,7 +20587,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_42692e3659956eb6defb"
+      "event_id": "auto_as_42692e3659956eb6defb",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19594,7 +20652,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
       "audiences": [],
@@ -19632,7 +20690,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_fc7e4b66f195b19083ff"
+      "event_id": "auto_as_fc7e4b66f195b19083ff",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19692,7 +20755,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19730,7 +20793,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_4ada58fcddb5e9649fac"
+      "event_id": "auto_as_4ada58fcddb5e9649fac",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19741,7 +20809,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19779,7 +20847,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_abc304d7ccc6bc7bf233"
+      "event_id": "auto_as_abc304d7ccc6bc7bf233",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19790,7 +20863,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19828,7 +20901,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_ff95c7afe95a5f2b09ae"
+      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19839,7 +20917,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19877,7 +20955,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_3f888b4ee71930056e2d"
+      "event_id": "auto_as_3f888b4ee71930056e2d",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19888,7 +20971,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19926,7 +21009,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_54dc0282144f7dc8152a"
+      "event_id": "auto_as_54dc0282144f7dc8152a",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19937,7 +21025,7 @@
       "start_time": "21:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -19975,7 +21063,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_be1fc4adb822731a5e36"
+      "event_id": "auto_as_be1fc4adb822731a5e36",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -19986,7 +21079,7 @@
       "start_time": "10:00",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20024,7 +21117,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_bddcc06ee533304d72a0"
+      "event_id": "auto_as_bddcc06ee533304d72a0",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -20035,7 +21133,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20073,7 +21171,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_11e60f4edfd1d4107da2"
+      "event_id": "auto_as_11e60f4edfd1d4107da2",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -20084,7 +21187,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20122,7 +21225,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_6cc18562a4c23b0da579"
+      "event_id": "auto_as_6cc18562a4c23b0da579",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -20133,7 +21241,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20171,7 +21279,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_45ff2f1bef22fa6ab053"
+      "event_id": "auto_as_45ff2f1bef22fa6ab053",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -20182,7 +21295,7 @@
       "start_time": "20:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20220,7 +21333,12 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_8d04bec27c9e62832439"
+      "event_id": "auto_as_8d04bec27c9e62832439",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     },
     {
       "city": "אשדוד",
@@ -20231,7 +21349,7 @@
       "start_time": "21:30",
       "end_time": null,
       "venue": "המשכן לאמנויות הבמה אשדוד",
-      "address": null,
+      "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -20269,10 +21387,15 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_84645c77451dbc1cbbe6"
+      "event_id": "auto_as_84645c77451dbc1cbbe6",
+      "venue_institution_id": "mishkan_ashdod",
+      "venue_phone": "*5359",
+      "venue_website": "https://mishkan-ashdod.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "*5359"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
   "generatedAt": "2026-10-05T12:47:00+03:00",
-  "detail_enrichment_checked_at": "2026-10-06T13:26:30.580300+00:00"
+  "detail_enrichment_checked_at": "2026-10-06T13:38:47.348652+00:00"
 }
