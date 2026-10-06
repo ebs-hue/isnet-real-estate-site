@@ -1,11 +1,11 @@
 {
-  "run_at": "2026-10-06T12:20:01Z",
+  "run_at": "2026-10-06T12:21:44Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 115,
+      "total_before": 124,
       "sources": {
         "ashdod_smarticket": {
           "status": "no_parseable_events",
@@ -28,11 +28,11 @@
           "url": "https://live.tickchak.co.il/ashdod",
           "discovered": 37,
           "valid": 36,
-          "new": 9,
+          "new": 0,
           "updated": 0
         }
       },
-      "new": 9,
+      "new": 0,
       "updated": 0,
       "errors": [
         "ashdod_smarticket:no_parseable_events",
@@ -42,15 +42,15 @@
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 93,
+      "total_before": 168,
       "sources": {
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
           "discovered": 147,
           "valid": 147,
-          "new": 75,
-          "updated": 1
+          "new": 0,
+          "updated": 2
         },
         "yama": {
           "status": "no_parseable_events",
@@ -61,11 +61,11 @@
           "updated": 0
         },
         "kotar_rishon": {
-          "status": "no_parseable_events",
+          "status": "ok",
           "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "discovered": 0,
-          "valid": 0,
-          "new": 0,
+          "discovered": 76,
+          "valid": 42,
+          "new": 36,
           "updated": 0
         },
         "RIZONE+": {
@@ -86,15 +86,14 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 75,
-      "updated": 1,
+      "new": 36,
+      "updated": 2,
       "errors": [
         "yama:no_parseable_events",
-        "kotar_rishon:no_parseable_events",
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
       ],
-      "total_after": 168
+      "total_after": 204
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
