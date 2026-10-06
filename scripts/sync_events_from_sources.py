@@ -327,24 +327,23 @@ def event_key(obj):
 
 
 def existing_match(old, incoming, srcname):
-    # Preserve existing manually assigned IDs, descriptions, images, and verified corrections.
+    """Only exact occurrence or unique ticket ID can prove this is the same show."""
     key = event_key(incoming)
-    if key[0] and key[1]:
-        for item in old:
-            if item.get("city") != incoming.get("city"):
-                continue
-            if event_key(item) == key:
-                return item
-        for item in old:
-            if item.get("city") == incoming.get("city") and clearly_same_event(item, incoming):
-                return item
-        # If we have exactly one candidate on that date with matching title,
-        # prefer updating it rather than creating a duplicate when a time changed.
+    if not key[0] or not key[1]:
+        return None
+    for item in old:
+        if item.get("city") == incoming.get("city") and event_key(item) == key:
+            return item
+    for item in old:
+        if item.get("city") == incoming.get("city") and clearly_same_event(item, incoming):
+            return item
+    url = incoming.get("ticket_url") or ""
+    parsed = urlsplit(url)
+    if parsed.query and ("id=" in parsed.query or "event=" in parsed.query):
         candidates = [
             item for item in old
             if item.get("city") == incoming.get("city")
-            and text_norm(item.get("title")) == key[0]
-            and item.get("start_date") == key[1]
+            and item.get("ticket_url") == url
             and any(x.get("name") == srcname for x in item.get("sources", []))
         ]
         if len(candidates) == 1:
@@ -545,7 +544,10 @@ def merge(city_slug, specs, dry_run=False):
                 changed = False
                 # Only update date/time from the same official source. A missing
                 # or changed price never silently destroys existing editorial data.
-                for field in ("start_time",):
+                source_link = incoming.get("ticket_url") or ""
+                exact_event_link = (match.get("ticket_url") == source_link
+                                    and any(part in urlsplit(source_link).query for part in ("id=", "event=")))
+                for field in (("start_date", "start_time") if exact_event_link else ()):
                     if match.get(field) != incoming[field]:
                         match[field] = incoming[field]
                         changed = True
