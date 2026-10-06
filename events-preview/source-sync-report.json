@@ -1,11 +1,11 @@
 {
-  "run_at": "2026-10-06T13:52:05Z",
+  "run_at": "2026-10-06T17:22:00Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 389,
+      "total_before": 390,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
@@ -43,7 +43,7 @@
       "new": 1,
       "updated": 0,
       "removed_invalid": 0,
-      "removed_duplicates": 0,
+      "removed_duplicates": 1,
       "errors": [],
       "repaired_event_ids": 0,
       "total_after": 390
@@ -73,7 +73,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 0,
+          "new": 1,
           "updated": 0
         },
         "kotar_rishon": {
@@ -102,7 +102,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 0,
+      "new": 1,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
@@ -111,7 +111,7 @@
         "Eventim:ReadTimeout"
       ],
       "repaired_event_ids": 0,
-      "total_after": 321
+      "total_after": 322
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
