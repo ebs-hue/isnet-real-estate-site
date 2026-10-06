@@ -719,6 +719,12 @@ function renderResults(){
   $("resultCount").textContent=arr.length+(sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
   $("emptyState").hidden=arr.length>0;
   $("eventsGrid").hidden=arr.length===0;
+  const feedback=$("searchFeedback");
+  if(feedback){
+    const query=state.query.trim();
+    feedback.hidden=!query;
+    feedback.textContent=query?(arr.length?arr.length+" תוצאות עבור ״"+query+"״ · לחצו Enter להצגה":"לא נמצאו אירועים עבור ״"+query+"״ · נסו חיפוש אחר"):"";
+  }
 }
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
@@ -840,8 +846,26 @@ async function init(){
   state.sportsMeta=sports||{branches:{},teams:[]};
   render();
   renderCinema();
-  $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
-  $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
+  const searchInput=$("searchInput");
+  const showSearchResults=()=>{
+    state.query=searchInput.value.trim();
+    state.quick="all";
+    state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;
+    state.category=null;state.sportTeam="all";state.sportBranch="all";
+    state.cinemaOpen=false;
+    state.favoritesOnly=false;
+    render();
+    renderCinema();
+    requestAnimationFrame(()=>($("resultsTitle")||$("eventsGrid"))?.scrollIntoView({behavior:"smooth",block:"start"}));
+  };
+  searchInput.addEventListener("input",e=>{state.query=e.target.value;render()});
+  searchInput.addEventListener("keydown",e=>{
+    if(e.key==="Enter"){e.preventDefault();showSearchResults()}
+  });
+  $("searchSubmit").onclick=showSearchResults;
+  $("clearSearch").onclick=()=>{
+    state.query="";searchInput.value="";render();searchInput.focus();
+  };
   $("quickFilters").onclick=e=>{
     const b=e.target.closest("[data-quick]");if(!b)return;
     state.quick=b.dataset.quick;state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;render()
