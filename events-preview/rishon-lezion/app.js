@@ -1,4 +1,5 @@
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:false,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+// ISNET shared layout: edit events-preview/ashdod, not this generated file.
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:true,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -99,6 +100,12 @@ function purchaseAction(e){
 }
 function eventGroupKey(e){
   if(e?.series_id)return "series:"+String(e.series_id);
+  if(isRepresentativeHomeGame(e)){
+    const team=sportTeamConfig(e);
+    const teamKey=team?.id||normalizeSearch(e.home_team||e.organizer||"sport-team");
+    const branchKey=normalizeSearch(e.sport_branch||sportBranchMeta(e).label||sportKey(e));
+    return "sport-team:"+teamKey+":"+branchKey;
+  }
   return normalizeSearch(e?.title||"");
 }
 function eventDisplayTitle(e){
@@ -124,10 +131,13 @@ function groupedEvent(e,visibleOccurrence=e){
   const imageEvent=occ.find(x=>hasTrustedSourceImage(x)&&x.thumbnail_ready===true)
     ||occ.find(x=>hasTrustedSourceImage(x))
     ||visibleOccurrence;
+  const isSportGroup=isRepresentativeHomeGame(visibleOccurrence);
+  const sportTeam=isSportGroup?sportTeamConfig(visibleOccurrence):null;
+  const sportName=sportTeam?.name||visibleOccurrence.home_team||visibleOccurrence.organizer||"הקבוצה";
   return {
     ...visibleOccurrence,
-    title:eventDisplayTitle(visibleOccurrence),
-    description:visibleOccurrence.series_description||visibleOccurrence.description,
+    title:isSportGroup?"משחקי הבית הקרובים":eventDisplayTitle(visibleOccurrence),
+    description:isSportGroup?occ.length+" משחקי הבית הקרובים של "+sportName:(visibleOccurrence.series_description||visibleOccurrence.description),
     image_url:imageEvent.image_url,
     image_origin_url:imageEvent.image_origin_url,
     image_source:imageEvent.image_source,
@@ -301,7 +311,7 @@ function cinemaCard(movie){
     '<div class="cinemaCard__body">'+
       '<div class="cinemaVenueBadges">'+
         (movie.is_family?'<span class="family">ילדים ומשפחה</span>':'')+
-        visibleVenues.map(v=>'<span>'+escapeHtml(v.id==="cinema-city"?"סינמה סיטי":"HOT Cinema")+'</span>').join("")+
+        visibleVenues.map(v=>'<span>'+escapeHtml(v.id==="cinema-city"?"סינמה סיטי":"פלאנט")+'</span>').join("")+
       '</div>'+
       '<h3>'+escapeHtml(movie.title)+'</h3>'+
       '<p>'+escapeHtml(movie.synopsis||"")+'</p>'+
@@ -412,42 +422,141 @@ function fuzzyTokenMatch(q,hay){
     return editDistance(qt,ht)<=Math.max(1,Math.floor(max*.28));
   }));
 }
-function parseSearchIntent(q){
+/* Hebrew intent search: local, explainable relevance ranking without an external AI API. */
+const SEARCH_CONCEPTS=[
+  {id:"family",words:["ילד","ילדים","ילדות","ילדה","קטנטנים","פעוט","פעוטות","משפחה","משפחות","הורים","בייבי","נוער","בן שלי","בת שלי","לילדים","עם הילד"],cats:{kids:15,workshop:7,festival:6,exhibition:4,theatre:3},eventWords:["ילדים","ילד","משפחה","ילדות","תינוק","הצגת ילדים","שעת סיפור"],label:"ילדים ומשפחה"},
+  {id:"funny",words:["צחוק","לצחוק","מצחיק","מצחיקה","מצחיקים","קומדיה","הומור","סטנדאפ","סטנד אפ","בידור","משעשע"],cats:{standup:18,theatre:7,kids:3},eventWords:["סטנדאפ","קומדיה","מצחיק","בידור"],label:"משהו מצחיק"},
+  {id:"music",words:["מוזיקה","מוסיקה","מופע","מופעים","הופעה","הופעות","זמר","זמרת","קונצרט","שירים","שירה","לייב"],cats:{music:16,festival:4},eventWords:["הופעה","מוזיקה","מוסיקה","קונצרט","זמר","שירה"],label:"הופעות ומוזיקה"},
+  {id:"theatre",words:["הצגה","הצגות","תיאטרון","מחזה","מחזמר","במה"],cats:{theatre:16,kids:7},eventWords:["הצגה","מחזמר","תיאטרון"],label:"הצגות"},
+  {id:"learn",words:["הרצאה","הרצאות","ללמוד","לימוד","להעשיר","ידע","העשרה","כנס","שיחה","מרצה"],cats:{lecture:15,workshop:9,exhibition:5},eventWords:["הרצאה","סדנה","כנס","מפגש"],label:"הרצאות והעשרה"},
+  {id:"create",words:["סדנה","סדנאות","סדנא","יצירה","יצירתי","לעשות משהו","פעילות","פעילויות","התנסות","ציור","אמנות מעשית"],cats:{workshop:16,kids:7,exhibition:4},eventWords:["סדנה","יצירה","מפגש","קורס"],label:"סדנאות ופעילויות"},
+  {id:"culture",words:["תרבות","מוזיאון","אמנות","אומנות","תערוכה","תערוכות","גלריה","היסטוריה"],cats:{exhibition:17,theatre:7,lecture:7,music:4},eventWords:["מוזיאון","תערוכה","אמנות","גלריה"],label:"תרבות ואמנות"},
+  {id:"sports",words:["ספורט","משחק","משחקים","כדורגל","כדורסל","כדוריד","כדורעף","קבוצה","קבוצות","אצטדיון"],cats:{sport:18},eventWords:["מכבי","הפועל","כדורגל","כדורסל","משחק"],label:"ספורט"},
+  {id:"outdoors",words:["בחוץ","באוויר הפתוח","בטבע","טבע","טיול","טיולים","פארק","ים","חוף","הליכה","בחיק הטבע","אטרקציות"],cats:{sport:4,festival:9,community:4,kids:2},eventWords:["חוף","ים","טיול","פארק","גלישה","שטח","אוויר הפתוח"],label:"בילוי בחוץ"},
+  {id:"dateNight",words:["זוג","זוגי","זוגית","זוגיות","דייט","רומנטי","רומנטית","בני זוג","ערב זוגי","בילוי זוגי"],cats:{music:9,standup:9,theatre:9},eventWords:["אהבה","זוג","רומנטי"],label:"בילוי זוגי"},
+  {id:"relax",words:["רגוע","רגועה","שקט","שקטה","נינוח","נינוחה","קליל","קלילה","לא רועש"],cats:{exhibition:9,lecture:7,workshop:5,music:4},eventWords:["מוזיאון","גלריה","קריאה","הרצאה"],label:"בילוי רגוע"},
+  {id:"seniors",words:["מבוגרים","מבוגר","בוגרים","גיל השלישי","גמלאים","פנסיונרים","ותיקים","ותיקות"],cats:{lecture:8,music:7,theatre:7,exhibition:7},eventWords:["גיל השלישי","ותיקים","60"],label:"למבוגרים"}
+];
+const SEARCH_STOPWORDS=new Set(["מה","יש","לי","לנו","עם","אני","אנחנו","רוצה","רוצים","רוצות","מחפש","מחפשת","מחפשים","תמצא","תמצאי","תן","תני","אפשר","בא","בא לי","לעשות","לצאת","לבלות","משהו","איזה","איזו","איפה","מתי","ראשון לציון","בראשון לציון","בעיר","קרוב","לי","לנו","הכי","של","על","את","או","ו","ב","ל","בבקשה","מתאים","שיתאים","מעניין","נחמד","כיף","כיפי","כיפית","טוב","טובה","היום","מחר","השבוע","החודש","שבת","שישי","בערב","ערב","הלילה","סופש","סוף","השבוע","ללא","תשלום","חינם","עד","שח","שקל","שקלים","ילד","ילדים","משפחה","משפחות","הופעה","הופעות","הצגה","הצגות","קולנוע","סרט","סרטים","בת","בן","גיל"]);
+function hebrewSearchText(s){
+  return normalizeSearch(s).replace(/[\u0591-\u05C7]/g,"").replace(/(?:ם)(?=\s|$)/g,"מ").replace(/(?:ן)(?=\s|$)/g,"נ");
+}
+function searchWordForms(w){
+  const x=hebrewSearchText(w);
+  const forms=new Set([x]);
+  if(x.length>=5&&/^[ובלכהמש]/.test(x))forms.add(x.slice(1));
+  if(x.length>=6&&/^(ליל|למש|במש)/.test(x))forms.add(x.slice(1));
+  return [...forms];
+}
+function textIncludesConcept(text,words){
+  const normalized=hebrewSearchText(text);
+  const tokens=normalized.split(" ");
+  return words.some(w=>{
+    const phrase=hebrewSearchText(w);
+    if(phrase.includes(" "))return normalized.includes(phrase);
+    return tokens.some(t=>searchWordForms(t).some(f=>f===phrase||(phrase.length>=4&&f.startsWith(phrase))||(f.length>=4&&phrase.startsWith(f))));
+  });
+}
+function intentSearchDate(q){
   const s=normalizeSearch(q);
-  const intent={category:null,quick:null,free:false,maxPrice:null,terms:[]};
-  const categoryAliases=[
-    ["kids",["ילדים","ילד","משפחה","משפחתי","הצגת ילדים","פעילות לילדים"]],
-    ["standup",["סטנדאפ","סטנד אפ","קומדיה","מצחיק","צחוקים"]],
-    ["music",["הופעה","הופעות","מוזיקה","מוסיקה","זמר","זמרת","קונצרט"]],
-    ["theatre",["הצגה","הצגות","תיאטרון","מחזה"]],
-    ["lecture",["הרצאה","הרצאות","כנס","שיחה"]],
-    ["exhibition",["תערוכה","תערוכות","אמנות","מוזיאון"]],
-    ["workshop",["סדנה","סדנא","סדנאות","יצירה","קורס"]],
-    ["cinema",["סרט","קולנוע","הקרנה"]],
-    ["festival",["פסטיבל","יריד","אירוע חוץ"]]
-  ];
-  for(const [cat,aliases] of categoryAliases){
-    if(aliases.some(a=>s.includes(normalizeSearch(a)))){intent.category=cat;break}
-  }
-  if(/\bהיום\b|הערב/.test(s))intent.quick="today";
-  else if(/\bמחר\b/.test(s))intent.quick="tomorrow";
-  else if(/סוף השבוע|סופש|שישי|שבת/.test(s))intent.quick="weekend";
-  else if(/השבוע/.test(s))intent.quick="week";
-  else if(/החודש/.test(s))intent.quick="month";
-  if(/חינם|ללא תשלום|כניסה חופשית/.test(s))intent.free=true;
-  const pm=s.match(/(?:עד|max|מקסימום)\s*(\d{1,4})\s*(?:שח|שקל|שקלים)?/);
-  if(pm)intent.maxPrice=Number(pm[1]);
-  const noise=["מה","יש","משהו","אני","רוצה","מחפש","מחפשת","לעשות","בא לי","אירוע","אירועים","היום","הערב","מחר","השבוע","החודש","סוף","השבוע","סופש","שישי","שבת","חינם","ללא","תשלום","כניסה","חופשית","עד","שקל","שקלים"];
-  intent.terms=s.split(" ").filter(t=>t&&!noise.includes(t));
-  return intent;
+  if(/מחר/.test(s))return "tomorrow";
+  if(/היום|הערב|הלילה/.test(s))return "today";
+  if(/סוף השבוע|סופש|בשבת|ביום שבת|יום שבת|בשישי|יום שישי/.test(s))return "weekend";
+  if(/השבוע/.test(s))return "week";
+  if(/החודש/.test(s))return "month";
+  return null;
+}
+function parseSearchIntent(q){
+  const s=normalizeSearch(q),concepts=SEARCH_CONCEPTS.filter(c=>textIncludesConcept(s,c.words));
+  const date=intentSearchDate(s);
+  const free=/חינם|ללא תשלום|בלי לשלם|לא עולה כסף/.test(s);
+  const pm=s.match(/(?:עד|מקסימום|תקציב)\s*(\d{1,4})\s*(?:שח|שקל|שקלים)?/);
+  const maxPrice=pm?Number(pm[1]):null;
+  const ageMatch=s.match(/(?:בן|בת|גילאי?|גיל)\s*(\d{1,2})/);
+  const age=ageMatch?Number(ageMatch[1]):null;
+  // Remove conversational instructions, prepositions and recognized concepts.
+  // Only specific names/venues remain as required keyword signals.
+  const conversational=new Set(["לאן","לאיפה","לאיזה","לאיזו","היכן","איפה","כיצד","איך","אפשרי","רעיונות","רעיון","המלצות","המלצה","הצעות","תציע","תציעו","להציע","תן","תני","תנו","תרצה","תמצאו","לצאת","לצאתם","ללכת","לבלות","בוא","בואו","כדאי","מומלץ","מומלצת","כייפי","כיפי","הילדים","הילדות","הקטנים","הקטנות","המשפחה","משפחתית","לילדים","למשפחה","והילדים","בראשון לציון","באזור","בסביבה","בסביבה שלי","הלילה","בערב","לערב","לשבת","בשבת","בסופש","במחר","להיום","השבת","בחינם","זול","זולה","מחיר","תקציב","מקסימום","בילוי","פעילות","פעילויות","אירוע","אירועים","דברים","אטרקציה","אטרקציות","מקומות","מקום","הצגה","הצגות","הופעה","הופעות","מופע","מופעים"]);
+  const remaining=s.split(/\s+/).filter(w=>
+    w&&!SEARCH_STOPWORDS.has(w)&&!conversational.has(w)&&
+    !concepts.some(c=>textIncludesConcept(w,c.words))&&
+    !/^\d+$/.test(w)
+  );
+  return {concepts,date,free,maxPrice,age,terms:remaining,query:s};
 }
 function eventSearchText(e){
-  return [e.title,e.description,e.venue,catLabels[e.category],...(e.audiences||[]),...(e.sources||[]).map(s=>s.name)].filter(Boolean).join(" ");
+  return [e.title,e.description,e.venue,e.organizer,e.home_team,e.away_team,e.sport_branch,catLabels[e.category],...(e.audiences||[]),...(e.sources||[]).map(s=>s.name)].filter(Boolean).join(" ");
+}
+function searchDateMatches(e,period){
+  if(!period)return true;
+  const d=localDate(e.start_date),t=today();
+  if(period==="today")return sameDay(d,t);
+  if(period==="tomorrow")return sameDay(d,daysFrom(t,1));
+  if(period==="weekend"){const [fri,sat]=nextWeekendRange();return sameDay(d,fri)||sameDay(d,sat)}
+  if(period==="week")return d>=t&&d<=daysFrom(t,6);
+  if(period==="month")return d>=t&&sameMonth(d,t);
+  return true;
+}
+function eventSemanticScore(e,intent){
+  if(intent.date&&!searchDateMatches(e,intent.date))return null;
+  if(intent.free&&e.is_free!==true)return null;
+  if(intent.maxPrice!=null&&(e.price_min_ils==null||e.price_min_ils>intent.maxPrice))return null;
+  if(intent.age!=null&&e.age_min!=null&&intent.age<e.age_min)return null;
+  if(intent.age!=null&&e.age_max!=null&&intent.age>e.age_max)return null;
+  const hay=eventSearchText(e),norm=hebrewSearchText(hay);
+  let score=0,matchedConcepts=0,matchedTerms=0;
+  for(const concept of intent.concepts){
+    let points=concept.cats[e.category]||0;
+    // Family searches should not recommend adult theatre or senior workshops
+    // merely because these categories occasionally contain children's events.
+    if(concept.id==="family"&&e.category!=="kids"&&
+       !(e.audiences||[]).some(a=>["kids","families"].includes(a))&&
+       !/ילד|פעוט|קטנט|משפח|גן חובה|נוער|בובות|שעת סיפור|לגילאי/.test(hay)){
+      points=0;
+    }
+    if(textIncludesConcept(hay,concept.eventWords))points+=5;
+    if(concept.id==="family"&&(e.audiences||[]).some(a=>["kids","families"].includes(a)))points+=8;
+    if(concept.id==="family"&&/הורה ילד|ילדי|ילדים|פעוט|גן חובה/.test(hay))points+=7;
+    if(concept.id==="outdoors"&&/חוף|ים|פארק|גלישה|טיילת|שטח/.test(hay))points+=8;
+    if(concept.id==="dateNight"&&/אהבה|זוגי|רומנטי/.test(hay))points+=7;
+    if(concept.id==="seniors"&&(e.audiences||[]).includes("seniors"))points+=8;
+    if(points){score+=points;matchedConcepts++}
+  }
+  for(const term of intent.terms){
+    const forms=searchWordForms(term);
+    const title=hebrewSearchText(e.title||"");
+    const venue=hebrewSearchText(e.venue||"");
+    if(forms.some(w=>w.length>=2&&(title.includes(w)||norm.startsWith(w)))){score+=22;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=2&&venue.includes(w))){score+=14;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=2&&norm.includes(w))){score+=9;matchedTerms++;continue}
+    if(forms.some(w=>w.length>=4&&fuzzyTokenMatch(w,norm))){score+=5;matchedTerms++;continue}
+  }
+  const recognized=intent.concepts.length>0||intent.terms.length>0;
+  if(intent.concepts.length>0&&matchedConcepts===0&&matchedTerms===0)return null;
+  // A name/venue in the query is a required signal, not just a weak preference.
+  if(intent.terms.length>0&&matchedTerms===0)return null;
+  if(!recognized)score=2;
+  if(score<=0)return null;
+  if(intent.terms.length>1&&matchedTerms<intent.terms.length)score-=4*(intent.terms.length-matchedTerms);
+  if(intent.concepts.length>1&&matchedConcepts<intent.concepts.length)score-=6*(intent.concepts.length-matchedConcepts);
+  if(e.start_date>=iso(today()))score+=3;
+  return score;
+}
+function searchIntentLabel(intent){
+  const labels=intent.concepts.slice(0,3).map(x=>x.label);
+  if(intent.date)labels.push(({today:"היום",tomorrow:"מחר",weekend:"בסוף השבוע",week:"השבוע",month:"החודש"})[intent.date]);
+  if(intent.free)labels.push("בחינם");
+  if(intent.age!=null)labels.push("לגיל "+intent.age);
+  return labels.join(" · ");
 }
 function filtered(){
-  const q=state.query.trim();
-  const intent=parseSearchIntent(q);
+  const q=state.query.trim(),intent=q?parseSearchIntent(q):null;
   let arr=state.events.filter(e=>{
+    if(q){
+      // A new conversational query stands on its own; older quick/date/category selections
+      // must not silently erase relevant recommendations.
+      return e.start_date>=iso(today())&&eventSemanticScore(e,intent)!=null;
+    }
     if(!matchesQuick(e))return false;
     if(state.date&&e.start_date!==state.date)return false;
     if(state.periodStart&&state.periodEnd&&(e.start_date<state.periodStart||e.start_date>state.periodEnd))return false;
@@ -457,23 +566,16 @@ function filtered(){
       if(state.sportTeam!=="all"&&sportTeamConfig(e)?.id!==state.sportTeam)return false;
     }
     if(state.favoritesOnly&&!favorites.has(e.event_id))return false;
-    if(q){
-      if(intent.category&&e.category!==intent.category)return false;
-      if(intent.quick){
-        const saved=state.quick;state.quick=intent.quick;const ok=matchesQuick(e);state.quick=saved;
-        if(!ok)return false;
-      }
-      if(intent.free&&e.is_free!==true)return false;
-      if(intent.maxPrice!=null&&(e.price_min_ils==null||e.price_min_ils>intent.maxPrice))return false;
-      const residual=intent.terms.join(" ");
-      if(residual&&!fuzzyTokenMatch(residual,eventSearchText(e)))return false;
-    }
     return true;
   });
-  if(state.sort==="priceLow")arr.sort((a,b)=>(a.price_min_ils??999999)-(b.price_min_ils??999999)||a.start_date.localeCompare(b.start_date));
+  if(q)arr.sort((a,b)=>{
+    const delta=eventSemanticScore(b,intent)-eventSemanticScore(a,intent);
+    return delta||(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99"));
+  });
+  else if(state.sort==="priceLow")arr.sort((a,b)=>(a.price_min_ils??999999)-(b.price_min_ils??999999)||a.start_date.localeCompare(b.start_date));
   else if(state.sort==="priceHigh")arr.sort((a,b)=>(b.price_min_ils??-1)-(a.price_min_ils??-1)||a.start_date.localeCompare(b.start_date));
   else arr.sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
-  return groupEvents(arr)
+  return groupEvents(arr);
 }
 
 function calendarEventCounts(){
@@ -507,7 +609,9 @@ function renderDates(){
   const calendarBox=$("calendarBox"),resetButton=$("resetDate");
   if(calendarBox)calendarBox.hidden=state.calendarCollapsed;
   if(resetButton){
-    resetButton.textContent=state.calendarCollapsed?"בחר תאריך":"כל התאריכים";
+    resetButton.innerHTML=state.calendarCollapsed
+      ?'<svg class="calendarOpenIcon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/><path d="m9 16 2 2 4-4"/></svg><span>בחרו תאריך</span>'
+      :"כל התאריכים";
     resetButton.classList.toggle("calendarOpenButton",state.calendarCollapsed);
   }
   if(state.calendarCollapsed)return;
@@ -704,10 +808,18 @@ function renderResults(){
   $("eventsGrid").innerHTML=arr.map(eventCard).join("");
   const sports=state.category==="sport";
   const title=$("resultsTitle");
-  if(title)title.textContent=sports?"משחקי הבית ואירועי הספורט בראשון לציון":"כל האירועים בראשון לציון";
-  $("resultCount").textContent=arr.length+(sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
+  const smartIntent=state.query.trim()?parseSearchIntent(state.query.trim()):null;
+  if(title)title.textContent=smartIntent?"האפשרויות שמצאנו בשבילכם":sports?"משחקי הבית ואירועי הספורט בראשון לציון":"כל האירועים בראשון לציון";
+  $("resultCount").textContent=arr.length+(smartIntent?" אפשרויות מתאימות":sports?" משחקים ואירועי ספורט נמצאו":" אירועים נמצאו");
   $("emptyState").hidden=arr.length>0;
   $("eventsGrid").hidden=arr.length===0;
+  const feedback=$("searchFeedback");
+  if(feedback){
+    const query=state.query.trim();
+    feedback.hidden=!query;
+    const understood=query?searchIntentLabel(parseSearchIntent(query)):"";
+    feedback.textContent=query?(arr.length?(understood?"הבנתי: "+understood+" · ":"")+arr.length+" אפשרויות · Enter להצגת התוצאות":"לא מצאתי כרגע התאמה טובה. נסו לשנות תאריך, נושא או שם אירוע."):"";
+  }
 }
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
@@ -741,7 +853,10 @@ function bindDynamic(){
     if(nextCategory!=="sport"){state.sportTeam="all";state.sportBranch="all"}
     state.category=nextCategory;
     render();
-    if(state.category==="sport")requestAnimationFrame(()=>$("sportsPanel")?.scrollIntoView({behavior:"smooth",block:"start"}));
+    requestAnimationFrame(()=>{
+      const target=state.category==="sport"?$("sportsPanel"):$("resultsTitle");
+      target?.scrollIntoView({behavior:"smooth",block:"start"});
+    });
   });
   document.querySelectorAll("[data-remove]").forEach(b=>b.onclick=()=>{
     const k=b.dataset.remove;
@@ -758,7 +873,11 @@ function bindDynamic(){
 }
 function modalScheduleText(e){
   const occ=eventOccurrences(e);
-  return occ.map(x=>fmtFull.format(localDate(x.start_date))+' · '+formatTime(x.start_time)).join(' | ');
+  return occ.map(x=>{
+    const base=fmtFull.format(localDate(x.start_date))+' · '+formatTime(x.start_time);
+    if(x.category==="sport"&&x.away_team)return base+" · מול "+x.away_team;
+    return base;
+  }).join(' | ');
 }
 function groupPurchaseAction(e){
   for(const x of eventOccurrences(e)){
@@ -809,7 +928,7 @@ function resetAll(){state.quick="all";state.date=null;state.periodStart=null;sta
 
 async function init(){
   const [data,fallbacks,cinema,sports]=await Promise.all([
-    fetch("data/events.json?v=20261005-28").then(r=>r.json()),
+    fetch("data/events.json?v=20261005-27").then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
     fetch("data/cinema.json?v=20261005-4").then(r=>r.json()).catch(()=>({movies:[]})),
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
@@ -822,8 +941,26 @@ async function init(){
   state.sportsMeta=sports||{branches:{},teams:[]};
   render();
   renderCinema();
-  $("searchInput").addEventListener("input",e=>{state.query=e.target.value;render()});
-  $("clearSearch").onclick=()=>{state.query="";$("searchInput").value="";render()};
+  const searchInput=$("searchInput");
+  const showSearchResults=()=>{
+    state.query=searchInput.value.trim();
+    state.quick="all";
+    state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;
+    state.category=null;state.sportTeam="all";state.sportBranch="all";
+    state.cinemaOpen=false;
+    state.favoritesOnly=false;
+    render();
+    renderCinema();
+    requestAnimationFrame(()=>($("resultsTitle")||$("eventsGrid"))?.scrollIntoView({behavior:"smooth",block:"start"}));
+  };
+  searchInput.addEventListener("input",e=>{state.query=e.target.value;render()});
+  searchInput.addEventListener("keydown",e=>{
+    if(e.key==="Enter"){e.preventDefault();showSearchResults()}
+  });
+  $("searchSubmit").onclick=showSearchResults;
+  $("clearSearch").onclick=()=>{
+    state.query="";searchInput.value="";render();searchInput.focus();
+  };
   $("quickFilters").onclick=e=>{
     const b=e.target.closest("[data-quick]");if(!b)return;
     state.quick=b.dataset.quick;state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;render()

@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="he" dir="rtl">
 <head>
+  <!-- ISNET shared layout: edit the Ashdod source; synced automatically -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#07162b">
   <title>מה עושים בראשון לציון? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות בראשון לציון במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261005-33">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
@@ -18,10 +19,11 @@
         <h1>מה עושים<br><span>בראשון לציון?</span></h1>
         <p class="hero__lead">הופעות, הצגות, ילדים, סטנדאפ, תרבות וכל מה שקורה בעיר — במקום אחד.</p>
         <div class="searchBox">
-          <span class="searchBox__icon">⌕</span>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="מה מתחשק לכם לעשות? למשל: סטנדאפ, ילדים, מונארט...">
-          <button id="clearSearch" class="searchBox__clear" aria-label="נקה חיפוש">×</button>
+          <button id="searchSubmit" class="searchBox__icon searchBox__submit" type="button" aria-label="חפשו אירועים" title="חפשו אירועים">⌕</button>
+          <input id="searchInput" type="search" autocomplete="off" enterkeyhint="search" aria-label="חיפוש אירועים" placeholder="ספרו מה מתחשק לכם: משהו מצחיק הערב, בילוי עם הילדים בשבת...">
+          <button id="clearSearch" class="searchBox__clear" type="button" aria-label="נקה חיפוש">×</button>
         </div>
+        <div id="searchFeedback" class="searchFeedback" role="status" aria-live="polite" hidden></div>
         <div id="quickFilters" class="quickFilters">
           <button data-quick="all" class="is-active">הכול</button>
           <button data-quick="today">היום</button>
@@ -42,12 +44,11 @@
 
   <main class="shell">
     <section class="section dateSection">
-      <div class="sectionHead">
-        <div><span class="sectionHead__kicker">מתכננים קדימה</span><h2>בחרו יום שמתאים לכם</h2></div>
+      <div class="sectionHead" dir="rtl">
         <button id="resetDate" class="textButton">כל התאריכים</button>
       </div>
 
-      <div id="calendarBox" class="calendarBox">
+      <div id="calendarBox" class="calendarBox" hidden>
         <div class="calendarTop">
           <div class="calendarViewSwitch" aria-label="תצוגת יומן">
             <button id="weekViewButton" class="is-active" type="button">שבוע</button>
@@ -77,10 +78,6 @@
           <div id="monthGrid" class="monthGrid" aria-label="יומן חודשי"></div>
         </div>
 
-        <div class="calendarHint">
-          <span class="calendarHintDot"></span>
-          לחיצה על יום מציגה את אירועי אותו יום. לחיצה נוספת מחזירה לכל התאריכים.
-        </div>
       </div>
     </section>
 
@@ -105,7 +102,7 @@
           <div>
             <span class="cinemaKicker">קולנוע בראשון לציון</span>
             <h2>כל הסרטים בראשון לציון</h2>
-            <p>סרטים, שעות הקרנה וטריילרים — סינמה סיטי ו־HOT Cinema במקום אחד.</p>
+            <p>סרטים, שעות הקרנה וטריילרים — סינמה סיטי ו־פלאנט במקום אחד.</p>
           </div>
           <div class="cinemaHeadActions">
             <button id="cinemaClose" class="cinemaBackButton" type="button">← חזרה לכל האירועים</button>
@@ -120,7 +117,7 @@
             <div id="cinemaFilters" class="cinemaFilters" aria-label="סינון לפי בית קולנוע">
               <button data-cinema="all" class="is-active">שני בתי הקולנוע</button>
               <button data-cinema="cinema-city">סינמה סיטי</button>
-              <button data-cinema="hot-cinema">HOT Cinema</button>
+              <button data-cinema="planet">פלאנט</button>
             </div>
           </div>
           <span id="cinemaUpdated" class="cinemaUpdated"></span>
@@ -218,6 +215,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261005-37" defer></script>
+  <script src="app.js" defer></script>
 </body>
 </html>

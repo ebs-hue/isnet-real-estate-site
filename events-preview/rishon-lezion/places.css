@@ -1,3 +1,4 @@
+/* ISNET shared layout: edit events-preview/ashdod, not this generated file. */
 :root{
   --bg:#f3f7fb;--surface:#fff;--ink:#071a2e;--muted:#6f8091;--line:#dce6ef;
   --blue:#176ba7;--sea:#0b7faf;--sea2:#2cb6c8;--sand:#f4d58b;--navy:#07162b;
@@ -110,7 +111,7 @@ button{font:inherit}
   background:linear-gradient(to top,rgba(4,17,29,.68),transparent)
 }
 .placeMedia.imageFailed:before{
-  content:"אשדוד · הים שלנו";position:absolute;inset:0;display:grid;place-items:center;
+  content:"ראשון לציון · הים שלנו";position:absolute;inset:0;display:grid;place-items:center;
   color:#fff;font:900 23px "Heebo",sans-serif;background:linear-gradient(135deg,#0c5471,#46baca)
 }
 .placeBadges{

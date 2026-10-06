@@ -1,3 +1,4 @@
+/* ISNET shared layout: edit events-preview/ashdod, not this generated file. */
 :root{
   --bg:#f5f8fc;
   --surface:#ffffff;
@@ -1345,7 +1346,7 @@ main{position:relative;z-index:3}
 }
 .sportTeamButton{
   position:relative;min-height:74px;border:1px solid #d8e6df;background:#fff;
-  border-radius:17px;padding:9px 11px;display:grid;grid-template-columns:50px 1fr;
+  border-radius:17px;padding:9px 11px;display:grid;grid-template-columns:62px 1fr;
   gap:10px;align-items:center;text-align:right;cursor:pointer;
   transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease
 }
@@ -1353,22 +1354,25 @@ main{position:relative;z-index:3}
 .sportTeamButton.is-active{
   border-color:#42a982;background:#f4fcf8;box-shadow:0 0 0 2px rgba(31,153,109,.10)
 }
-.sportTeamButton--all{grid-template-columns:50px 1fr}
+.sportTeamButton--all{grid-template-columns:62px 1fr}
 .sportTeamButton__logo,.sportIdentity__logo,.sportFallback__logo{
   position:relative;overflow:hidden;border-radius:50%;display:grid;place-items:center;
   background:#f5f8f7;border:1px solid #dde8e3;color:#315f50;font:900 13px "Heebo",sans-serif
 }
-.sportTeamButton__logo{width:50px;height:50px}
-.sportIdentity__logo{width:42px;height:42px}
-.sportFallback__logo{width:100px;height:100px;background:rgba(255,255,255,.96);border:4px solid rgba(255,255,255,.22);box-shadow:0 10px 28px rgba(0,0,0,.12)}
+.sportTeamButton__logo{width:62px;height:62px}
+.sportIdentity__logo{width:54px;height:54px}
+.sportFallback__logo{width:132px;height:132px;background:rgba(255,255,255,.96);border:4px solid rgba(255,255,255,.22);box-shadow:0 10px 28px rgba(0,0,0,.12)}
 .sportTeamButton__logo img,.sportIdentity__logo img,.sportFallback__logo img{
   position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff
 }
+.sportTeamButton__logo img{transform:scale(1.16)}
+.sportIdentity__logo img{transform:scale(1.22)}
+.sportFallback__logo img{transform:scale(1.30)}
 .sportTeamButton__copy{min-width:0;display:flex;flex-direction:column}
 .sportTeamButton__copy b{font:900 14px "Heebo",sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .sportTeamButton__copy small{color:#6b7e76;font-size:11px;font-weight:700;margin-top:2px}
 .allSportsMark{
-  width:50px;height:50px;border-radius:50%;display:grid;place-items:center;
+  width:62px;height:62px;border-radius:50%;display:grid;place-items:center;
   background:linear-gradient(135deg,#0b694e,#22a879);color:#fff;font-size:20px
 }
 .sportBranchFilters{display:flex;flex-wrap:wrap;gap:7px}
@@ -1382,7 +1386,7 @@ main{position:relative;z-index:3}
 .sportBranchFilters button.is-active small{color:#d9f5e9}
 
 .sportIdentity{
-  display:grid;grid-template-columns:42px 1fr;gap:9px;align-items:center;
+  display:grid;grid-template-columns:54px 1fr;gap:9px;align-items:center;
   margin-bottom:11px;padding-bottom:10px;border-bottom:1px solid #e9efec
 }
 .sportIdentity__copy{display:flex;flex-direction:column;min-width:0}
@@ -1419,12 +1423,18 @@ main{position:relative;z-index:3}
   .sportBranchFilters button{white-space:nowrap}
 }
 
-/* Simplified date experience: keep the compact weekly strip only. */
-.dateSection > .sectionHead,
-.dateSection .calendarTop,
-.dateSection .monthCalendar{
-  display:none!important;
+/* Keep the clean compact heading, but allow weekly/monthly
+   calendar controls and the chosen month grid to be visible. */
+.dateSection > .sectionHead{
+  display:flex!important;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin:0 0 10px;
 }
+.dateSection > .sectionHead h2{font-size:18px;margin:0}
+.dateSection > .sectionHead .sectionHead__kicker{display:none}
+.dateSection .calendarBox[hidden]{display:none!important}
 .dateSection{
   padding-top:12px;
 }
@@ -1434,3 +1444,65 @@ main{position:relative;z-index:3}
 .dateSection .calendarPeriodLabel{
   margin-top:0;
 }
+
+/* The legacy instructional line must never reappear on cached markup. */
+.calendarHint{display:none!important}
+
+/* Main event cards: 20% larger typography for readability. */
+.eventCard .eventBody h3{font-size:24px;line-height:1.3;min-height:63px}
+.eventCard .badges .badge{font-size:14.4px}
+.eventCard .eventInfo__row{font-size:16.8px;line-height:1.5}
+.eventCard .eventInfo__row i{width:27px;height:27px;flex-basis:27px;font-size:14.4px}
+.eventCard .eventFooter .price{font-size:19.2px}
+.eventCard .eventFooter .linkCue{font-size:16.8px}
+.eventCard .sportIdentity__copy>b{font-size:15.6px}
+.eventCard .sportIdentity__copy small{font-size:13.2px}
+
+/* Prominent right-aligned date picker in the compact home view. */
+.dateSection #resetDate.calendarOpenButton{
+  display:inline-flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font:800 18px "Heebo",sans-serif;
+  padding:12px 22px;
+  border:1px solid #1460b7;
+  border-radius:14px;
+  background:linear-gradient(135deg,#176ccf,#1157ab);
+  color:#fff;
+  box-shadow:0 5px 15px rgba(14,86,165,.22);
+  cursor:pointer;
+  text-decoration:none;
+}
+.dateSection #resetDate.calendarOpenButton:hover{
+  background:linear-gradient(135deg,#217add,#1460b7);
+  box-shadow:0 7px 18px rgba(14,86,165,.27);
+}
+.dateSection #resetDate.calendarOpenButton:focus-visible{
+  outline:3px solid #8bc5ff;
+  outline-offset:3px;
+}
+.dateSection #resetDate .calendarOpenIcon{width:22px;height:22px;flex-shrink:0}
+@media(max-width:600px){
+  .dateSection #resetDate.calendarOpenButton{font-size:17px;padding:11px 17px}
+}
+
+/* Search: actionable magnifier and immediately visible results feedback. */
+.searchBox__submit{
+  flex:0 0 42px;
+  border:0;
+  cursor:pointer;
+  transition:background .18s ease,transform .18s ease;
+}
+.searchBox__submit:hover{background:#d8eafb;transform:scale(1.05)}
+.searchBox__submit:focus-visible{outline:3px solid #70b7ff;outline-offset:3px}
+.searchFeedback{
+  max-width:820px;
+  margin:12px auto 0;
+  text-align:center;
+  font:700 15px "Heebo",sans-serif;
+  color:#f7fbff;
+}
+.searchFeedback[hidden]{display:none!important}
+#resultsTitle{scroll-margin-top:22px}

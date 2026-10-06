@@ -1,3 +1,4 @@
+// ISNET shared layout: edit events-preview/ashdod, not this generated file.
 const $=id=>document.getElementById(id);
 const titles={
   parks:"פארקים בראשון לציון",

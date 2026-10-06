@@ -1,10 +1,11 @@
+// ISNET shared layout: edit events-preview/ashdod, not this generated file.
 const $=id=>document.getElementById(id);
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const fmtShort=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function localDate(s){const [y,m,d]=String(s||"").split("-").map(Number);return new Date(y,m-1,d)}
 function movieUrl(id){return "movie.html?id="+encodeURIComponent(id)}
-function venueLabel(id){return id==="cinema-city"?"סינמה סיטי ראשון לציון":"HOT Cinema ראשון לציון"}
+function venueLabel(id){return id==="cinema-city"?"סינמה סיטי ראשון לציון":"פלאנט ראשון לציון"}
 function allDates(movie){
   const dates=new Set();
   movie.venues.forEach(v=>Object.keys(v.schedule||{}).forEach(d=>dates.add(d)));
@@ -79,7 +80,7 @@ function renderRelated(movie,all){
     const img=m.trailer_youtube_id?"https://i.ytimg.com/vi/"+encodeURIComponent(m.trailer_youtube_id)+"/hqdefault.jpg":"";
     return '<a class="relatedCard" href="'+movieUrl(m.id)+'">'+
       '<div class="relatedCard__media">'+(img?'<img src="'+img+'" alt="">':'<div class="relatedFallback">🎬</div>')+'</div>'+
-      '<div class="relatedCard__body">'+(m.is_family?'<span class="miniBadge">ילדים ומשפחה</span>':'')+'<h3>'+escapeHtml(m.title)+'</h3><span>'+escapeHtml(m.venues.map(v=>v.id==="cinema-city"?"סינמה סיטי":"HOT Cinema").join(" · "))+'</span></div>'+
+      '<div class="relatedCard__body">'+(m.is_family?'<span class="miniBadge">ילדים ומשפחה</span>':'')+'<h3>'+escapeHtml(m.title)+'</h3><span>'+escapeHtml(m.venues.map(v=>v.id==="cinema-city"?"סינמה סיטי":"פלאנט").join(" · "))+'</span></div>'+
     '</a>';
   }).join("");
 }
@@ -87,7 +88,7 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const data=await fetch("data/cinema.json?v=20261005-3").then(r=>{if(!r.ok)throw new Error("data");return r.json()});
+    const data=await fetch("data/cinema.json?v=20261005-4").then(r=>{if(!r.ok)throw new Error("data");return r.json()});
     const movie=(data.movies||[]).find(m=>m.id===id);
     if(!movie)throw new Error("movie");
     renderHero(movie);
