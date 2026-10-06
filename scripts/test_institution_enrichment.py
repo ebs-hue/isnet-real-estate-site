@@ -47,7 +47,11 @@ adult={"title":"הרצאה על אמנות","venue":"בית העם, ראשון �
        "sources":[{"name":"htrl_adults"}]}
 m.apply_registry(adult,r)
 assert adult["operator_id"]=="htrl_adults", adult
-assert not adult.get("address"),"Must not claim lecture takes place at HTRL's office"
+assert adult["address"]=="זד״ל 3, ראשון לציון","Matched venue must supply its own verified address, not HTRL office"
+assert adult["venue_institution_id"]=="rishon_beit_haam"
+unknown={"title":"מפגש במקום משתנה","venue":"אתר משתנה ללא כתובת מאומתת","city":"ראשון לציון","sources":[{"name":"htrl_adults"}]}
+m.apply_registry(unknown,r)
+assert unknown["operator_id"]=="htrl_adults" and not unknown.get("address"),"Organizer office must not be used for unknown venue"
 
 museum={"title":"תערוכה","venue":"מוזיאון אגם","city":"ראשון לציון",
         "sources":[{"name":"yama"}]}
