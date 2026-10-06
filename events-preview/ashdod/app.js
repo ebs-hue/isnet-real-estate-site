@@ -900,11 +900,7 @@ function bindDynamic(){
   });
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
     if(b.dataset.cat==="cinema"){
-      state.category=null;
-      state.cinemaOpen=true;
-      render();
-      renderCinema();
-      requestAnimationFrame(()=>$("cinemaSection")?.scrollIntoView({behavior:"smooth",block:"start"}));
+      location.href="cinema.html";
       return;
     }
     state.cinemaOpen=false;
