@@ -1557,3 +1557,9 @@ main{position:relative;z-index:3}
   .dateStack__more--mobile{display:flex}
   .dateStack__more{min-width:42px;min-height:20px;padding:2px 4px;font-size:9px;border-radius:6px}
 }
+
+/* Emergency failsafe: old cached scripts must not overflow date stacks. */
+.eventCard .dateStack .multiDateChip:nth-child(n+6){display:none!important}
+@media(max-width:650px){
+  .eventCard .dateStack .multiDateChip:nth-child(n+5){display:none!important}
+}

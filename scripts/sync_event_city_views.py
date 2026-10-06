@@ -63,6 +63,34 @@ def localize(content: str, name: str, city: dict, suffix: str) -> str:
     return content
 
 
+
+def fingerprint_master_html(check: bool = False) -> list[str]:
+    """Version Ashdod's own JS/CSS references on every publish, as for Rishon.
+
+    A fixed query string caused browsers to keep the previous date-stack UI.
+    Only local frontend assets are rewritten, and only in the build workspace.
+    """
+    changed = []
+    pattern = r"\b((?:app|event|places|movie)\.js|(?:styles|event|places|movie|publisher-brand)\.css)(?:\?v=[^\"'& ]+)?"
+    for html in sorted(MASTER.glob("*.html")):
+        original = html.read_text(encoding="utf-8")
+
+        def version_asset(match):
+            filename = match.group(1)
+            asset = MASTER / filename
+            if not asset.is_file():
+                return filename
+            digest = hashlib.sha256(asset.read_bytes()).hexdigest()[:12]
+            return filename + "?v=" + digest
+
+        expected = re.sub(pattern, version_asset, original)
+        if expected != original:
+            changed.append("ashdod/" + html.name)
+            if not check:
+                html.write_text(expected, encoding="utf-8")
+    return changed
+
+
 def files_to_sync():
     return sorted(
         (p for p in MASTER.iterdir()
@@ -74,7 +102,7 @@ def files_to_sync():
 def run(check: bool = False) -> int:
     source_files = files_to_sync()
     assert source_files and {"index.html", "app.js", "styles.css"} <= {p.name for p in source_files}
-    stale = []
+    stale = fingerprint_master_html(check=check)
     for slug, city in TARGETS.items():
         dest = ROOT / slug
         assert (dest / "data" / "events.json").is_file(), "City-specific event dataset missing: " + slug
