@@ -19,6 +19,8 @@ on:
       - "scripts/test-pricebook-sync.py"
       - "package*.json"
   workflow_dispatch:
+  schedule:
+    - cron: "30 7,19 * * *"
   workflow_run:
     workflows:
       - "Verify and cache Rishon event photos"
