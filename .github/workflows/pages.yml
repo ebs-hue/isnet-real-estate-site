@@ -13,6 +13,7 @@ on:
       - "כרמי-גת/**"
       - "events-preview/**"
       - "scripts/sync_event_city_views.py"
+      - "scripts/test-event-date-chips.cjs"
       - ".github/workflows/pages.yml"
       - "scripts/qa-pricebooks.cjs"
       - "scripts/prepare-pricebook-sync.py"
