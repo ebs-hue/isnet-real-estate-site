@@ -266,3 +266,22 @@ a{text-decoration:none;color:inherit}
 .infoRow a:hover,.infoRow a:focus-visible{color:#073e78}
 .infoRow .contactSecondary{margin-inline-start:16px}
 .badge--soldout{background:#fff0f0!important;color:#a12637!important;border:1px solid #f6c6c6}
+
+
+/* Six illustrative backgrounds for talks without an official image.
+   They are explicitly labeled, never claimed to be event photographs. */
+.eventHero__media .detailLectureArt{
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:25px 33px;gap:13px;text-align:center;overflow:hidden;
+  font-size:clamp(18px,3vw,28px);line-height:1.4;
+}
+.detailLectureArt strong{font:850 clamp(19px,3vw,27px)/1.35 "Heebo",sans-serif;max-width:490px}
+.detailLectureArt small{font:700 12px "Assistant",sans-serif;background:rgba(0,0,0,.19);border-radius:25px;padding:4px 12px}
+.detailLectureArt__symbol{font-size:70px;color:rgba(255,255,255,.65);line-height:1}
+.detailLectureArt--0{background:linear-gradient(135deg,#273e6d,#8c5c84)}
+.detailLectureArt--1{background:linear-gradient(135deg,#14516c,#67a1ab)}
+.detailLectureArt--2{background:linear-gradient(135deg,#213e78,#507fd3)}
+.detailLectureArt--3{background:linear-gradient(135deg,#21574c,#4da078)}
+.detailLectureArt--4{background:linear-gradient(135deg,#794365,#c78792)}
+.detailLectureArt--5{background:linear-gradient(135deg,#38326d,#8a70cc)}
+@media(max-width:650px){.eventHero__media .detailLectureArt{padding:16px;gap:8px}.detailLectureArt__symbol{font-size:42px}}
