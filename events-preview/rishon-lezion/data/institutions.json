@@ -1,0 +1,99 @@
+{
+  "city": "ראשון לציון",
+  "checked_at": "2026-10-06",
+  "institution_types": [
+    "operator",
+    "venue"
+  ],
+  "description": "Institutions and recurring organizers. Public-source verified; null means unverified, never guessed.",
+  "institutions": [
+    {
+      "id": "htrl",
+      "kind": "operator",
+      "name": "היכל התרבות מאיר ניצן",
+      "aliases": [
+        "היכל התרבות ראשון לציון",
+        "היכל התרבות מאיר ניצן",
+        "אודיטוריום היכל התרבות"
+      ],
+      "source_names": [
+        "htrl"
+      ],
+      "featured": false,
+      "address": "ז׳בוטינסקי 16, ראשון לציון",
+      "phone": "03-9488666",
+      "phone_secondary": "*3701",
+      "website": "https://htrl.co.il/",
+      "source_url": "https://htrl.smarticket.co.il/צור_קשר"
+    },
+    {
+      "id": "htrl_adults",
+      "kind": "operator",
+      "name": "לגלות תרבות",
+      "aliases": [
+        "לגלות תרבות",
+        "תוכנית לגלות תרבות",
+        "סדרת הרצאות לגלות תרבות"
+      ],
+      "source_names": [
+        "htrl_adults"
+      ],
+      "featured": true,
+      "description": "הרצאות, סיורים ומפגשי תרבות למבוגרים בהיכל התרבות ובמוסדות ברחבי ראשון לציון.",
+      "address": null,
+      "phone": "03-9488666",
+      "website": "https://htrl.co.il/third-calendar/",
+      "registration_url": "https://htrl.co.il/third-calendar/",
+      "source_url": "https://htrl.smarticket.co.il/צור_קשר"
+    },
+    {
+      "id": "koter_rishon",
+      "kind": "operator",
+      "name": "רשת כותר ראשון",
+      "aliases": [
+        "כותר ראשון",
+        "כותר ראשון חביב",
+        "כותר ראשון רשת הספריות",
+        "רשת הספריות ראשון לציון"
+      ],
+      "source_names": [
+        "kotar_rishon"
+      ],
+      "featured": false,
+      "address": "אחד העם 7, ראשון לציון",
+      "phone": "03-9689700",
+      "website": "https://www.kotar-rishon-lezion.org.il/",
+      "source_url": "https://www.kotar-rishon-lezion.org.il/contact/"
+    },
+    {
+      "id": "koter_haviv",
+      "kind": "venue",
+      "name": "כותר ראשון חביב",
+      "aliases": [
+        "כותר ראשון חביב",
+        "כותר טף ספריית חביב"
+      ],
+      "address": "אחד העם 7, ראשון לציון",
+      "phone": "03-9689700",
+      "website": "https://www.kotar-rishon-lezion.org.il/",
+      "source_url": "https://www.kotar-rishon-lezion.org.il/library/iplkhjkg-copy-4/"
+    },
+    {
+      "id": "yama_museum",
+      "kind": "venue",
+      "name": "מוזיאון אגם",
+      "aliases": [
+        "מוזיאון אגם ראשון לציון",
+        "מוזיאון אגם"
+      ],
+      "source_names": [
+        "yama"
+      ],
+      "address": "מיש״ר 1, קריית הלאום, ראשון לציון",
+      "phone": "03-5555900",
+      "email": "info@yama.co.il",
+      "website": "https://yama.smarticket.co.il/",
+      "source_url": "https://yama.smarticket.co.il/מידע_למבקר_page_19"
+    }
+  ]
+}
