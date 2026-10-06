@@ -9,6 +9,41 @@
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות בראשון לציון במקום אחד.">
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=0f724d808874">
   <link rel="stylesheet" href="publisher-brand.css?v=c85648ab951c">
+
+<style>
+/* Distinct editorial treatments for lecture cards. The actual six generated
+   illustrations are pending; these backgrounds are temporary and labeled. */
+.operatorStrip{display:flex;flex-wrap:wrap;justify-content:center;gap:11px;margin:16px 0 5px}
+.operatorStrip[hidden]{display:none!important}
+.operatorStrip a{display:flex;align-items:center;gap:9px;max-width:440px;text-decoration:none;
+  border-radius:17px;padding:11px 16px;background:#fff;color:#154271;box-shadow:0 9px 25px rgba(6,26,54,.16)}
+.operatorStrip a b{font:850 15px "Heebo",sans-serif}
+.operatorStrip a small{display:block;color:#617994;font-size:12px;font-weight:700}
+.operatorStrip a>span:last-child{margin-inline-start:auto;font-size:23px;color:#1768b2}
+.eventCard:nth-child(6n+1) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n+1) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#2a406d,#735177 62%,#b87560)}
+.eventCard:nth-child(6n+2) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n+2) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#164663,#258c9f 55%,#d99c67)}
+.eventCard:nth-child(6n+3) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n+3) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#162e56,#4065b7 50%,#7cbbd4)}
+.eventCard:nth-child(6n+4) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n+4) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#174a48,#398d76 60%,#c9b674)}
+.eventCard:nth-child(6n+5) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n+5) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#663f59,#b27288 60%,#e1ad84)}
+.eventCard:nth-child(6n) .eventMedia.cat-lecture .category-fallback,
+.featureCard:nth-child(6n) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#302e63,#6459b5 57%,#a99ccc)}
+.eventMedia.cat-lecture .category-fallback:before,
+.featureMedia.cat-lecture .category-fallback:before{inset:5% 15% 20% 15%;border:2px solid rgba(255,255,255,.13);
+  border-radius:50%;background:radial-gradient(circle at 65% 25%,rgba(255,255,255,.2),transparent 60%)}
+.eventMedia.cat-lecture .category-fallback:after,
+.featureMedia.cat-lecture .category-fallback:after{content:"איור להמחשה";display:block;position:absolute;inset:auto 12px 10px auto;
+  z-index:3;width:auto;height:auto;background:rgba(5,27,49,.32);
+  padding:3px 8px;border-radius:20px;font:700 10px "Assistant",sans-serif}
+.eventMedia.cat-lecture .fallbackMark,.featureMedia.cat-lecture .fallbackMark{font-size:62px!important;color:rgba(255,255,255,.39)!important;left:22px;top:17%}
+.eventMedia.cat-lecture .fallbackLabel,.featureMedia.cat-lecture .fallbackLabel{bottom:33px}
+@media(max-width:650px){.operatorStrip a{width:100%;padding:9px 12px}.operatorStrip a b{font-size:13px}}
+</style>
+
 </head>
 <body>
   <header class="hero">
@@ -44,6 +79,7 @@
           <button data-quick="lecture">הרצאות</button>
           <button data-quick="theatre">תיאטרון</button>
         </div>
+        <div id="operatorStrip" class="operatorStrip" hidden aria-label="כל הפעילויות של מפעילי התרבות"></div>
         <div id="heroStats" class="heroStats" aria-live="polite"></div>
       </div>
     </div>
@@ -224,5 +260,29 @@
   </footer>
 
   <script src="app.js?v=f509356d2f90" defer></script>
+
+<script>
+(async function(){
+  const mount=document.getElementById("operatorStrip");if(!mount)return;
+  try{
+    const [registry,data]=await Promise.all([
+      fetch("data/institutions.json",{cache:"no-store"}).then(x=>x.json()),
+      fetch("data/events.json",{cache:"no-store"}).then(x=>x.json())
+    ]);
+    const visible=(registry.institutions||[]).filter(x=>x.kind==="operator"&&x.featured);
+    const escape=v=>String(v||"").replace(/[&<>"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+    mount.innerHTML=visible.map(op=>{
+      const sourceNames=op.source_names||[];
+      const ids=new Set((data.events||[]).filter(e=>e.operator_id===op.id||
+        (e.sources||[]).some(s=>sourceNames.includes(s.name))).map(e=>e.event_id));
+      return '<a href="operator.html?id='+encodeURIComponent(op.id)+'" aria-label="כל הפעילויות של '+escape(op.name)+'">'+
+        '<strong aria-hidden="true">✦</strong><div><b>כל הפעילויות של '+escape(op.name)+'</b>'+
+        '<small>'+ids.size+' פעילויות · הרצאות, סדנאות וטיולים</small></div><span aria-hidden="true">←</span></a>';
+    }).join("");
+    mount.hidden=!visible.length;
+  }catch(error){mount.hidden=true}
+})();
+</script>
+
 </body>
 </html>
