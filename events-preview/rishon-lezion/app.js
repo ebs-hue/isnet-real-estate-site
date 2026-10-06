@@ -250,11 +250,23 @@ function fallbackMediaHTML(e){
     '<span class="fallbackLabel">'+escapeHtml(catLabels[e.category]||"אירועים")+'</span>'+
   '</div>';
 }
+function eventVideoInfo(e){
+  if(!["theatre","standup"].includes(e.category))return null;
+  const occurrence=(eventOccurrences(e)||[]).find(x=>/^[A-Za-z0-9_-]{11}$/.test(String(x.youtube_id||"")));
+  const item=occurrence||e;
+  const id=String(item.youtube_id||"");
+  return /^[A-Za-z0-9_-]{11}$/.test(id)?{id,title:item.youtube_title||"צפו בקטע מהמופע"}:null;
+}
+function eventVideoButton(e){
+  const video=eventVideoInfo(e);
+  if(!video)return "";
+  return '<button type="button" class="eventVideoButton" data-event-video="'+escapeHtml(e.event_id)+'" aria-label="צפו בסרטון מהאירוע '+escapeHtml(e.title)+'"><span aria-hidden="true">▶</span> צפו בסרטון</button>';
+}
 function mediaHTML(e,cls="eventMedia"){
   const img=eventImageHTML(e,"card");
   return '<div class="'+cls+' cat-'+e.category+' '+(img?"":"has-fallback-image")+'">'+
     img+fallbackMediaHTML(e)+
-    '<button class="heart '+(isGroupFavorite(e)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(isGroupFavorite(e)?"♥":"♡")+'</button>'+
+    '<button class="heart '+(isGroupFavorite(e)?"is-favorite":"")+'" data-heart="'+e.event_id+'" aria-label="שמירה למועדפים">'+(isGroupFavorite(e)?"♥":"♡")+'</button>'+eventVideoButton(e)+
   '</div>';
 }
 function escapeHtml(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
@@ -367,7 +379,7 @@ function renderCinema(){
       const bt=b.venues.some(v=>Array.isArray(v.schedule?.[day])&&v.schedule[day].length)?0:1;
       return at-bt||a.title.localeCompare(b.title,"he");
     });
-  grid.innerHTML=arr.map(cinemaCard).join("");
+  grid.innerHTML=arr.length?arr.map(cinemaCard).join(""):'<div class="cinemaEmpty"><h3>סרטי הקולנוע בעיר מתעדכנים</h3><p>עדיין אין במאגר סרטים מאומתים עם שעות הקרנה לבית הקולנוע שבחרתם. לא נציג שעות או טריילרים לא בדוקים.</p><p>ניתן בינתיים לבדוק את ההקרנות באתרים הרשמיים של בתי הקולנוע.</p><div class="cinemaEmpty__links"><a href="https://www.cinema-city.co.il/" target="_blank" rel="noopener noreferrer">סינמה סיטי ←</a><a href="https://www.planetcinema.co.il/rishon" target="_blank" rel="noopener noreferrer">פלאנט ראשון לציון ←</a></div></div>';
   document.querySelectorAll("#cinemaFilters [data-cinema]").forEach(b=>b.classList.toggle("is-active",b.dataset.cinema===state.cinemaVenue));
   document.querySelectorAll("#cinemaAudienceFilters [data-audience]").forEach(b=>b.classList.toggle("is-active",b.dataset.audience===state.cinemaAudience));
   document.querySelectorAll("[data-trailer]").forEach(b=>b.onclick=e=>{e.stopPropagation();openTrailer(b.dataset.trailer)});
@@ -393,6 +405,19 @@ function openTrailer(id){
   $("trailerFrame").src="https://www.youtube-nocookie.com/embed/"+encodeURIComponent(movie.trailer_youtube_id)+"?autoplay=1&rel=0";
   $("trailerFrame").title="טריילר - "+movie.title;
   $("trailerLinks").innerHTML='<a href="movie.html?id='+encodeURIComponent(movie.id)+'">כל הימים, השעות והפרטים אצלנו ←</a>';
+  $("trailerModal").hidden=false;
+  document.body.style.overflow="hidden";
+}
+function openEventVideo(eventId){
+  const e=state.events.find(item=>String(item.event_id)===String(eventId));
+  if(!e)return;
+  const video=eventVideoInfo(e);
+  if(!video)return;
+  $("trailerTitle").textContent=e.series_title||e.title||"סרטון מהאירוע";
+  $("trailerSynopsis").textContent=video.title;
+  $("trailerFrame").src="https://www.youtube-nocookie.com/embed/"+video.id+"?autoplay=1&rel=0";
+  $("trailerFrame").title=video.title;
+  $("trailerLinks").innerHTML='<a href="event.html?id='+encodeURIComponent(e.event_id)+'">כל פרטי האירוע והמועדים אצלנו ←</a>';
   $("trailerModal").hidden=false;
   document.body.style.overflow="hidden";
 }
@@ -863,8 +888,9 @@ function render(){
   bindDynamic();
 }
 function bindDynamic(){
-  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart], .dateStack__more"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
+  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart], [data-event-video], .dateStack__more"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
+  document.querySelectorAll("[data-event-video]").forEach(b=>b.onclick=e=>{e.stopPropagation();openEventVideo(b.dataset.eventVideo)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{
     const next=state.date===b.dataset.date?null:b.dataset.date;
     state.date=next;
