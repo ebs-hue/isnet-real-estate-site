@@ -1439,3 +1439,13 @@ main{position:relative;z-index:3}
 
 /* The legacy instructional line must never reappear on cached markup. */
 .calendarHint{display:none!important}
+
+/* Main event cards: 20% larger typography for readability. */
+.eventCard .eventBody h3{font-size:24px;line-height:1.3;min-height:63px}
+.eventCard .badges .badge{font-size:14.4px}
+.eventCard .eventInfo__row{font-size:16.8px;line-height:1.5}
+.eventCard .eventInfo__row i{width:27px;height:27px;flex-basis:27px;font-size:14.4px}
+.eventCard .eventFooter .price{font-size:19.2px}
+.eventCard .eventFooter .linkCue{font-size:16.8px}
+.eventCard .sportIdentity__copy>b{font-size:15.6px}
+.eventCard .sportIdentity__copy small{font-size:13.2px}
