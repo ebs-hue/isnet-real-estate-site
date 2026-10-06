@@ -563,6 +563,16 @@ def merge(city_slug, specs, dry_run=False):
                     if match.get(field) != incoming[field]:
                         match[field] = incoming[field]
                         changed = True
+                # Only bot-owned records from the same Ofek source may have
+                # categories/venues recategorized when a better official
+                # department page clarifies that a trip is not a lecture.
+                if name == "ofek_ashdod" and str(match.get("event_id", "")).startswith("auto_") and any(
+                    x.get("name") == "ofek_ashdod" for x in match.get("sources", [])
+                ):
+                    for field in ("category", "venue", "audiences", "organizer"):
+                        if incoming.get(field) and match.get(field) != incoming[field]:
+                            match[field] = incoming[field]
+                            changed = True
                 if match.get("ticket_status") != "sold_out" and incoming["ticket_status"] == "sold_out":
                     match["ticket_status"] = "sold_out"
                     changed = True
