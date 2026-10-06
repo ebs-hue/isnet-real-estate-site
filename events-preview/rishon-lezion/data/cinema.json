@@ -1,6 +1,6 @@
 {
   "city": "ראשון לציון",
-  "updated_at": "2026-10-06T22:30:00+03:00",
+  "updated_at": "2026-10-06T22:11:00+03:00",
   "source_name": "Seret.co.il – סינמה סיטי ראשון לציון ופלאנט ראשון לציון",
   "source_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
   "movies": [
@@ -407,11 +407,315 @@
         }
       ],
       "is_family": false
+    },
+    {
+      "id": "rishon-5d9-5ea-5d5-5dd",
+      "title": "יתום",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "12:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5d4-5e0-5d5-5e7-5de-5d9-5dd-3a-20-5e1-5d5-5e3-20-5d4-5de-5e9-5d7-5e7-20-5d4-5d3-5e8-5df",
+      "title": "הנוקמים: סוף המשחק הדרן",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "12:20",
+              "15:00",
+              "19:30"
+            ],
+            "2026-10-07": [
+              "14:10",
+              "14:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "runner",
+      "title": "ראנר",
+      "trailer_youtube_id": "2ZfuX4IBTXM",
+      "synopsis": "קומדיית אקשן עם אלן ריצ'סון ואוון וילסון, על משימה להעביר איבר להשתלה כשארגון פשע מנסה להשיג אותו.",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "22:30"
+            ],
+            "2026-10-07": [
+              "20:40",
+              "23:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "luckiest-man",
+      "title": "איש החידות",
+      "trailer_youtube_id": "9Yib_QHT3vk",
+      "synopsis": "מבוסס על סיפורו האמיתי של האיש ששבר את השיטה וזכה בשעשועון היוקרתי ביותר בארצות הברית.",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "21:20"
+            ],
+            "2026-10-07": [
+              "11:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sunny-dancer",
+      "title": "חולים על החיים",
+      "trailer_youtube_id": "57MHCaiTsno",
+      "synopsis": "נערה בת 17 שניצחה את מחלת הסרטן מגיעה למחנה קיץ ומגלה חברות חדשה וחוויה שמשנה את הדרך שבה היא מסתכלת על החיים.",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "10:50"
+            ],
+            "2026-10-07": [
+              "11:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "desert-child",
+      "title": "ילד המדבר - מדובב",
+      "trailer_youtube_id": "D4g6qe_bwmA",
+      "synopsis": "סאן בת ה-14 מגלה שהסיפור שסבה סיפר לה על ילד שאבד במדבר אולי היה אמיתי יותר מכפי שחשבה.",
+      "is_family": true,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "17:40"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "15:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5d1-5db-5dc-20-5de-5d7-5d9-5e8",
+      "title": "בכל מחיר",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "15:20",
+              "20:45"
+            ],
+            "2026-10-07": [
+              "13:20",
+              "22:50"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5e2-5e6-5de-5d0-5d5-5ea",
+      "title": "עצמאות",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "14:00",
+              "16:50",
+              "19:10",
+              "22:20"
+            ],
+            "2026-10-07": [
+              "11:00",
+              "14:00",
+              "16:50",
+              "19:45",
+              "22:40"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5e1-5e4-5d0-20-5d5-5d5-5d9-5e7-5e0-5d3",
+      "title": "ספא וויקנד",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "18:45"
+            ],
+            "2026-10-07": [
+              "12:45",
+              "18:10"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5e0-5e7-5de-5d4-20-5d1-5dc-5d1-20-5d9-5dd",
+      "title": "נקמה בלב ים",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "18:30"
+            ],
+            "2026-10-07": [
+              "20:00",
+              "22:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5d2-5d1-5e2-5d4-20-33-33-38",
+      "title": "גבעה 338",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "18:10"
+            ],
+            "2026-10-07": [
+              "18:50"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5ea-5d9-5db-5d5-5df-20-5de-5d2-5e9-5d9-5de-5d9-5dd",
+      "title": "תיכון מגשימים",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "13:30"
+            ],
+            "2026-10-07": [
+              "13:05"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "rishon-5e7-5d5-5e4-5d4-20-5e8-5d0-5e9-5d9-5ea",
+      "title": "קופה ראשית",
+      "trailer_youtube_id": null,
+      "synopsis": "",
+      "is_family": false,
+      "venues": [
+        {
+          "id": "cinema-city",
+          "name": "סינמה סיטי ראשון לציון",
+          "article_url": "https://m.seret.co.il/s_theatres.asp?m=0&tid=154",
+          "schedule": {
+            "2026-10-06": [
+              "13:40",
+              "16:00",
+              "18:20"
+            ],
+            "2026-10-07": [
+              "12:45",
+              "15:10",
+              "17:30",
+              "20:00"
+            ]
+          }
+        }
+      ]
     }
   ],
   "stats": {
-    "movie_cards": 13,
-    "cinema_city": 13,
+    "movie_cards": 26,
+    "cinema_city": 26,
     "planet": 2,
     "planet_schedule_partial": true,
     "screening_dates": [
