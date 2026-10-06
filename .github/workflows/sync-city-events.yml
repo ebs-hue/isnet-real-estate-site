@@ -8,6 +8,10 @@ on:
       - "scripts/sync_events_from_sources.py"
       - "scripts/test_smarticket_details.py"
       - "scripts/enrich_smarticket_event_details.py"
+      - "scripts/enrich_events_institutions.py"
+      - "scripts/test_institution_enrichment.py"
+      - "events-preview/ashdod/data/institutions.json"
+      - "events-preview/rishon-lezion/data/institutions.json"
       - "scripts/ofek_event_source.py"
       - "scripts/test_ofek_event_source.py"
       - "scripts/test_city_event_intake.py"
@@ -46,6 +50,7 @@ jobs:
           python scripts/test_city_event_intake.py
           python scripts/test_ofek_event_source.py
           python scripts/test_smarticket_details.py
+          python scripts/test_institution_enrichment.py
 
       - name: Discover and merge future public events
         id: collect
@@ -62,6 +67,9 @@ jobs:
 
       - name: Verify missing details on official event pages
         run: python -u scripts/enrich_smarticket_event_details.py
+
+      - name: Link verified local institutions and their contact details
+        run: python -u scripts/enrich_events_institutions.py
 
       - name: Check dataset shape and source audit
         run: |
@@ -100,6 +108,7 @@ jobs:
               echo "Data changed during intake; merging fresh events again (attempt $retry)."
               python -u scripts/sync_events_from_sources.py
               python -u scripts/enrich_smarticket_event_details.py
+              python -u scripts/enrich_events_institutions.py
               git add events-preview/ashdod/data/events.json events-preview/rishon-lezion/data/events.json events-preview/source-sync-report.json
               if git diff --cached --quiet; then
                 echo "Concurrent run already wrote the latest source data."
