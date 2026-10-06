@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#07162b">
   <title>מה עושים באשדוד? | ISNET Events</title>
   <meta name="description" content="כל האירועים, ההופעות, הסטנדאפ, הילדים, ההצגות, ההרצאות והתערוכות באשדוד במקום אחד.">
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261006-calendar-cta">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&family=Heebo:wght@500;600;700;800;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css?v=20261006-search-fix-1">
 </head>
 <body>
   <header class="hero">
@@ -18,10 +18,11 @@
         <h1>מה עושים<br><span>באשדוד?</span></h1>
         <p class="hero__lead">הופעות, הצגות, ילדים, סטנדאפ, תרבות וכל מה שקורה בעיר — במקום אחד.</p>
         <div class="searchBox">
-          <span class="searchBox__icon">⌕</span>
-          <input id="searchInput" type="search" autocomplete="off" placeholder="מה מתחשק לכם לעשות? למשל: סטנדאפ, ילדים, מונארט...">
-          <button id="clearSearch" class="searchBox__clear" aria-label="נקה חיפוש">×</button>
+          <button id="searchSubmit" class="searchBox__icon searchBox__submit" type="button" aria-label="חפשו אירועים" title="חפשו אירועים">⌕</button>
+          <input id="searchInput" type="search" autocomplete="off" enterkeyhint="search" aria-label="חיפוש אירועים" placeholder="מה מתחשק לכם לעשות? למשל: סטנדאפ, ילדים, מונארט...">
+          <button id="clearSearch" class="searchBox__clear" type="button" aria-label="נקה חיפוש">×</button>
         </div>
+        <div id="searchFeedback" class="searchFeedback" role="status" aria-live="polite" hidden></div>
         <div id="quickFilters" class="quickFilters">
           <button data-quick="all" class="is-active">הכול</button>
           <button data-quick="today">היום</button>
@@ -213,6 +214,6 @@
     </div>
   </footer>
 
-  <script src="app.js?v=20261006-calendar-cta" defer></script>
+  <script src="app.js?v=20261006-search-fix-1" defer></script>
 </body>
 </html>
