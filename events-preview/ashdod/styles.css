@@ -1456,3 +1456,33 @@ main{position:relative;z-index:3}
 .eventCard .eventFooter .linkCue{font-size:16.8px}
 .eventCard .sportIdentity__copy>b{font-size:15.6px}
 .eventCard .sportIdentity__copy small{font-size:13.2px}
+
+/* Prominent right-aligned date picker in the compact home view. */
+.dateSection #resetDate.calendarOpenButton{
+  display:inline-flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font:800 18px "Heebo",sans-serif;
+  padding:12px 22px;
+  border:1px solid #1460b7;
+  border-radius:14px;
+  background:linear-gradient(135deg,#176ccf,#1157ab);
+  color:#fff;
+  box-shadow:0 5px 15px rgba(14,86,165,.22);
+  cursor:pointer;
+  text-decoration:none;
+}
+.dateSection #resetDate.calendarOpenButton:hover{
+  background:linear-gradient(135deg,#217add,#1460b7);
+  box-shadow:0 7px 18px rgba(14,86,165,.27);
+}
+.dateSection #resetDate.calendarOpenButton:focus-visible{
+  outline:3px solid #8bc5ff;
+  outline-offset:3px;
+}
+.dateSection #resetDate .calendarOpenIcon{width:22px;height:22px;flex-shrink:0}
+@media(max-width:600px){
+  .dateSection #resetDate.calendarOpenButton{font-size:17px;padding:11px 17px}
+}
