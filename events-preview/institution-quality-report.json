@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-07T09:37:02+00:00",
+  "generated_at": "2026-10-07T09:39:40+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
       "total_events": 396,
       "institution_count": 15,
-      "venue_matched": 286,
+      "venue_matched": 293,
       "operator_matched": 24,
-      "events_with_contact_phone": 277,
-      "events_with_specific_address": 267,
+      "events_with_contact_phone": 284,
+      "events_with_specific_address": 274,
       "official_photos_verified": 99,
       "lecture_total": 18,
       "lectures_without_verified_event_photo": 13,
@@ -23,6 +23,10 @@
         {
           "name": "מקיף י״א החדש, אשדוד",
           "count": 5
+        },
+        {
+          "name": "אולם דיונה -קק\"ל 90 אשדוד",
+          "count": 3
         },
         {
           "name": "חוף ט\"ו אשדוד",
@@ -70,10 +74,6 @@
         },
         {
           "name": "מרכז קהילתי חרצית-שד' הפרחים 18",
-          "count": 1
-        },
-        {
-          "name": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
           "count": 1
         }
       ]

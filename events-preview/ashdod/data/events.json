@@ -15880,8 +15880,8 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -15904,7 +15904,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -15927,7 +15927,17 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17344",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "event_id": "evt_84_20261208",
@@ -15938,7 +15948,7 @@
       "end_date": null,
       "start_time": "16:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
@@ -15984,7 +15994,10 @@
       "venue_phone": "*5359",
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
-      "contact_phone": "*5359"
+      "contact_phone": "*5359",
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -15994,15 +16007,15 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "address": "שלום שבזי 3, אשדוד",
       "district": null,
       "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 20,
+      "price_max_ils": 20,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/סיפור_חנוכה_|_שעת_סיפור_עם_רינתי/?id=17645",
@@ -16018,7 +16031,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16033,7 +16046,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_b6b558da8a85b64e0cea"
+      "event_id": "auto_as_b6b558da8a85b64e0cea",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סיפור_חנוכה_|_שעת_סיפור_עם_רינתי/?id=17645",
+      "details_verified": true,
+      "venue_institution_id": "ironit_tene",
+      "venue_phone": "08-8555478",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8555478",
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "event_id": "evt_85_20261208",
@@ -16044,7 +16067,7 @@
       "end_date": null,
       "start_time": "18:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
@@ -16090,7 +16113,10 @@
       "venue_phone": "*5359",
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
-      "contact_phone": "*5359"
+      "contact_phone": "*5359",
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/היפה_והחיה__977306cac1/?id=8130",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16100,15 +16126,15 @@
       "end_date": null,
       "start_time": "10:30",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "אולם דיונה -קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
@@ -16124,7 +16150,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16147,7 +16173,11 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16157,7 +16187,7 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
@@ -16209,7 +16239,10 @@
           "source_url": "https://mishkan-ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/מפצח_האגוזים_5c5a8cdca0/?id=8219",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16219,15 +16252,15 @@
       "end_date": null,
       "start_time": "11:00",
       "end_time": null,
-      "venue": "אשדוד",
+      "venue": "אולם דיונה -קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
       "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 109,
+      "price_max_ils": 109,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/סינדרלה_aac72791b4/?id=17685",
@@ -16243,7 +16276,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16266,7 +16299,11 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סינדרלה_aac72791b4/?id=17685",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16276,15 +16313,15 @@
       "end_date": null,
       "start_time": "21:00",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "standup",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 129,
+      "price_max_ils": 129,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235",
@@ -16328,7 +16365,10 @@
           "source_url": "https://mishkan-ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235",
+      "details_verified": true
     },
     {
       "event_id": "evt_65_20261212",
@@ -16409,7 +16449,7 @@
       "image_credit": null,
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16439,7 +16479,11 @@
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
       "variant_label": "גן חובה – כיתה א׳",
       "venue_institution_id": "ashdod_city_library",
-      "venue_website": "https://www.ironit.org.il/"
+      "venue_website": "https://www.ironit.org.il/",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_לילדי_גן_חובה___כיתה_א__/?id=17230",
+      "details_verified": true
     },
     {
       "event_id": "evt_29_20261213",
@@ -16450,15 +16494,15 @@
       "end_date": null,
       "start_time": "17:00",
       "end_time": "17:45",
-      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 100,
+      "price_max_ils": 100,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_כיתות_ב____ג__/?id=17235",
@@ -16467,7 +16511,7 @@
       "image_credit": "החברה העירונית לתרבות ופנאי אשדוד",
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16497,7 +16541,11 @@
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
       "variant_label": "כיתות ב׳–ג׳",
       "venue_institution_id": "ashdod_city_library",
-      "venue_website": "https://www.ironit.org.il/"
+      "venue_website": "https://www.ironit.org.il/",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_כיתות_ב____ג__/?id=17235",
+      "details_verified": true
     },
     {
       "event_id": "evt_30_20261213",
@@ -16508,15 +16556,15 @@
       "end_date": null,
       "start_time": "18:00",
       "end_time": "18:45",
-      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
       "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 100,
+      "price_max_ils": 100,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_כיתות_ג__עד_ד_/?id=17238",
@@ -16525,7 +16573,7 @@
       "image_credit": "החברה העירונית לתרבות הפנאי אשדוד",
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 45,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16555,7 +16603,11 @@
       "series_description": "סדנת עידוד ושיפור קריאה בעזרת כלבים לילדים, המחולקת לקבוצות גיל ושעות שונות.",
       "variant_label": "כיתות ג׳–ד׳",
       "venue_institution_id": "ashdod_city_library",
-      "venue_website": "https://www.ironit.org.il/"
+      "venue_website": "https://www.ironit.org.il/",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_כיתות_ג__עד_ד_/?id=17238",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16565,15 +16617,15 @@
       "end_date": null,
       "start_time": "11:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
+      "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
@@ -16589,7 +16641,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16604,7 +16656,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_c16e2e89a69bbed03363"
+      "event_id": "auto_as_c16e2e89a69bbed03363",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
+      "details_verified": true,
+      "venue_institution_id": "monart_ashdod",
+      "venue_phone": "08-8545170",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545170",
+      "contact_email": "monart@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -16672,15 +16734,15 @@
       "end_date": null,
       "start_time": "11:00",
       "end_time": "12:30",
-      "venue": "מונארט אשדוד",
+      "venue": "אולם מונארט-דרך ארץ 8 אשדוד",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 30,
+      "price_max_ils": 30,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679",
@@ -16689,7 +16751,7 @@
       "image_credit": "החברה העירונית לתרבות ופנאי אשדוד",
       "image_publishable": true,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 90,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16719,7 +16781,11 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545170",
-      "contact_email": "monart@ironit.org.il"
+      "contact_email": "monart@ironit.org.il",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16729,8 +16795,8 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -16753,7 +16819,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16776,7 +16842,17 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17345",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "event_id": "evt_66_20261215",
@@ -16844,15 +16920,15 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 119,
+      "price_max_ils": 119,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/היי_סקול_דרמה_-_האקדמיה_למדעי_היוטיוב_-_חנוכה_2026_/?id=8227",
@@ -16896,7 +16972,10 @@
           "source_url": "https://mishkan-ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/היי_סקול_דרמה_-_האקדמיה_למדעי_היוטיוב_-_חנוכה_2026_/?id=8227",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16913,8 +16992,8 @@
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 25,
+      "price_max_ils": 25,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/עץ_הבלונים_/?id=17307",
@@ -16930,7 +17009,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -16953,7 +17032,11 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/עץ_הבלונים_/?id=17307",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -16963,7 +17046,7 @@
       "end_date": null,
       "start_time": "17:30",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "kids",
@@ -17015,7 +17098,10 @@
           "source_url": "https://mishkan-ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/סינדרלה_32a6d30b5e/?id=8234",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -17025,8 +17111,8 @@
       "end_date": null,
       "start_time": "09:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17049,7 +17135,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -17072,7 +17158,17 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17350",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -17082,15 +17178,15 @@
       "end_date": null,
       "start_time": "21:00",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 129,
+      "price_max_ils": 129,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/נישואים_גרעיניים/?id=8236",
@@ -17134,7 +17230,10 @@
           "source_url": "https://mishkan-ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/נישואים_גרעיניים/?id=8236",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -17144,8 +17243,8 @@
       "end_date": null,
       "start_time": "13:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "טכניקות- אגף הסדנאות במוזיאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
@@ -17168,7 +17267,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 180,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -17191,7 +17290,17 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17346",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il"
     },
     {
       "event_id": "evt_86_20261221",
@@ -17202,7 +17311,7 @@
       "end_date": null,
       "start_time": "10:00",
       "end_time": null,
-      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
       "category": "theatre",
@@ -17248,7 +17357,10 @@
       "venue_phone": "*5359",
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
-      "contact_phone": "*5359"
+      "contact_phone": "*5359",
+      "detail_checked_at": "2026-10-07",
+      "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -17258,15 +17370,15 @@
       "end_date": null,
       "start_time": "11:00",
       "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
+      "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
+      "address": "דרך ארץ 8, אשדוד",
       "district": null,
       "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
@@ -17282,7 +17394,7 @@
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
-      "duration_minutes": null,
+      "duration_minutes": 60,
       "sources": [
         {
           "name": "ashdod_smarticket",
@@ -17297,7 +17409,17 @@
       "quality_flags": [
         "automated_official_listing"
       ],
-      "event_id": "auto_as_fdeb756625c3f837de13"
+      "event_id": "auto_as_fdeb756625c3f837de13",
+      "detail_checked_at": "2026-10-07",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
+      "details_verified": true,
+      "venue_institution_id": "monart_ashdod",
+      "venue_phone": "08-8545170",
+      "venue_website": "https://www.ironit.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545170",
+      "contact_email": "monart@ironit.org.il"
     },
     {
       "event_id": "evt_32_20261222",
@@ -24432,5 +24554,5 @@
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
   "generatedAt": "2026-10-05T12:47:00+03:00",
-  "detail_enrichment_checked_at": "2026-10-07T09:37:02.128508+00:00"
+  "detail_enrichment_checked_at": "2026-10-07T09:39:40.366478+00:00"
 }
