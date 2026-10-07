@@ -18,7 +18,7 @@ $("saveBtn").addEventListener("click",()=>{
   const item={
     event_id:idFor(city),_citySlug:city,city:city==="ashdod"?"אשדוד":"ראשון לציון",
     title,short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),
-    category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
+    category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
     venue:$("venue").value.trim(),address:$("address").value.trim(),
     purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),
     image_credit:$("imageCredit").value.trim(),image_publishable:$("imageApproved").checked,
