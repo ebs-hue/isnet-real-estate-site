@@ -1,77 +1,10 @@
 {
-  "generated_at": "2026-10-07T19:32:12Z",
+  "generated_at": "2026-10-07T19:32:15Z",
   "model": "gpt-5-mini",
-  "checked": 11,
+  "checked": 0,
   "enriched": 0,
   "insufficient": 0,
-  "source_text_insufficient": 11,
+  "source_text_insufficient": 0,
   "model_failed": 0,
-  "events": [
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_4c773f396b1aaeaf46a5",
-      "title": "אנדלוסיה, ארכיטקטורה, תרבות מדע",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_250edc799a3f7be8bcb8",
-      "title": "מסע אל לב האימפריה – סין",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_b7e64d3b019940e8e020",
-      "title": "אמנות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_5fc31df0239cbf0894cf",
-      "title": "אמנות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_0625eb315eff9982ffa8",
-      "title": "בדרכי שלי \"פרנק סינטרה\"",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_bc0d747ee30a521df3bf",
-      "title": "ערב של אהבה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_0540d1b4d7a15fbddf09",
-      "title": "מופע סיום – ג'אם סיישן",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_ddeef1238328db9273ae",
-      "title": "אהבה מהסרטים – על הזוגות המפורסמים של הקולנוע הצרפתי",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_1649d4683c33e5b4a375",
-      "title": "העולם הצף",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_d93faba6fc59caed91bb",
-      "title": "טרובדור הזמר העברי",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_dc1b4c93088470b99b92",
-      "title": "ניגון ואגדה – כשהמשפחה, הניגון והאגדה נפגשים על לב אחד",
-      "status": "source_text_insufficient"
-    }
-  ]
+  "events": []
 }
