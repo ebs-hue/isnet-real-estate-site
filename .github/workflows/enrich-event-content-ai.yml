@@ -10,6 +10,8 @@ on:
   workflow_run:
     workflows: ["Daily city event intake"]
     types: [completed]
+  schedule:
+    - cron: "15 * * * *"
 
 permissions:
   contents: write
@@ -54,7 +56,7 @@ jobs:
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          for batch in $(seq 1 12); do
+          for batch in $(seq 1 24); do
             echo "=== Content enrichment batch $batch ==="
             python -u scripts/enrich_event_content_ai.py
 
