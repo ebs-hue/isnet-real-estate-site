@@ -7855,7 +7855,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1110_2000",
@@ -7913,7 +7916,24 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:58:17Z",
+      "missing_information": [
+        "שם המרצה או משתתפים אחרים",
+        "תקציר מפורט של נושא ההרצאה",
+        "משך האירוע",
+        "מחיר כרטיסים ואופן רכישה",
+        "האם נדרשת הרשמה מראש",
+        "מגבלות גיל או המלצות קהל יעד ספציפיות",
+        "שפת ההרצאה",
+        "מידע נגישות (נגישות לאנשים עם מגבלות)"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261110_2030_לנקות-את-הראש",
@@ -7972,7 +7992,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261111_2030_לנקות-את-הראש",
@@ -8031,7 +8055,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -8091,7 +8119,23 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:58:44Z",
+      "missing_information": [
+        "תיאור מפורט של התכנים (תצוגה, הרצאה, סדנה, תערוכה וכו')",
+        "שמות משתתפים/מעצבים/מנחים/דוגמנים",
+        "מחיר כרטיסים ואופן רכישה",
+        "הגבלת גיל ושפת האירוע",
+        "פורמט האירוע (משך, מבנה, צורך בהרשמה מראש)",
+        "מספר מקומות וזמינות כרטיסים",
+        "פרטי קשר ספציפיים לאירוע מעבר לארגון הכללי"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261112_2000_VOCA-PEOPLE-ווקה-פיפל",
@@ -8150,7 +8194,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261113_2100_ויוו-–-VIVO",
@@ -8209,7 +8257,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261114_1100_מחסן-השטוזים-של-דתיה",
@@ -8271,7 +8323,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -8327,7 +8383,54 @@
       "venue_website": "https://yama.smarticket.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "03-5555900",
-      "contact_email": "info@yama.co.il"
+      "contact_email": "info@yama.co.il",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://yama.smarticket.co.il/הרפתקה_במוזיאון_-_הצגה_בתערוכה",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:59:15Z",
+      "missing_information": [
+        "משך ההצגה (אורך מופע) לא מצוין",
+        "שפת ההצגה לא ציינה במפורש",
+        "האם סדנת היצירה כלולה במחיר הכרטיס או בתשלום נפרד",
+        "פרטי כניסה מדויקים (נקודת מפגש במוזיאון, דרכי הגעה, חנייה)",
+        "נגישות לנכים/כריתות קול (מידע על נגישות)",
+        "קישור רכישת כרטיסים ישיר או פרטי יצירת קשר למידע נוסף",
+        "מגבלת גיל עליונה או הוראות מיוחדות להתנהגות בקהל"
+      ],
+      "event_summary": "מופע גלריה אינטראקטיבי במוזיאון אגם שמשלב תיאטרון בובות וסיור בין היצירות. ההצגה עוסקת ב\"רוח האמנות\" ובשאלות על תפקיד האמנות, ומתאימה למשפחות ולילדים מגיל 5 ומעלה. מומלץ לשלב סדנת יצירה קצרה שמתקיימת לפני ההצגה בשעה 10:45. כרטיסים בתאריכים שונים, כולל 14.11.2026 בשעה 12:00 במוזיאון אגם.",
+      "short_pitch": "חוויה משפחתית במרחב התערוכה: הצגת תיאטרון בובות אינטראקטיבית שמתרחשת בין היצירות של מוזיאון אגם, עם סדנת יצירה מומלצת לפני המופע.",
+      "long_description": "\"הרפתקה במוזיאון\" היא הצגה שמתרחשת בתוך חלל התערוכה של מוזיאון אגם ומשלבת תיאטרון בובות עם מסלול גלריה אינטראקטיבי. ההצגה בוחנת את דמותה של \"רוח האמנות\" – דמות שובבה שמקורה בסיפורי מוזיאונים ומעוררת שאלות על הצורך באמנות ומה קורה אם היא נעלמת. ההצגה בנויה כך שהקהל נע בין יצירות במקום, פוגש את הבובות ומשתתף בחוויה רב-חושית הכוללת סאונד ומוזיקה מקורית. ההפקה של קבוצת הבובנאיות החופשיות נכתבה ובוימה על ידי מעין רזניק וליאת שבתאי; את העיבוד המוזיקלי והסאונד עשה דן קרגר, והקולות מבוצעים על ידי רותם גולדנברג וחן אלון. מומלץ לשלב את סדנת היצירה המוצעת לפני המופע (10:45) כהכנה לפעילות. מתאים להורים ולילדים מגיל 5 ומעלה; כרטיסים נעשים זמינים לטווח מחירים של כ־50–65 ₪.",
+      "event_type": "הצגה בתערוכה",
+      "participants": [
+        "קבוצת הבובנאיות החופשיות",
+        "מעין רזניק",
+        "ליאת שבתאי",
+        "דן קרגר",
+        "רותם גולדנברג",
+        "חן אלון",
+        "ציפור פרומקין",
+        "הילה פלשקס"
+      ],
+      "target_audience": [
+        "משפחות",
+        "הורים וילדים",
+        "ילדים מגיל 5 ומעלה"
+      ],
+      "visual_keywords": [
+        "בובות תיאטרון צבעוניות",
+        "יצירות אמנות על קירות גלריה",
+        "חלל מוזיאון מואר",
+        "ילדים מסתקרים וצופים",
+        "שולחן סדנת יצירה עם חומרים",
+        "שחקניות/שחקנים המפעילים בובות מאחורי הבמה",
+        "תאורת גלריה עדינה",
+        "אלמנט של רוח או בובה ריחפנית"
+      ],
+      "image_brief": "צילום כיסוי שיותאם לאירוע יציג סצנה מתוך המופע בתוך חלל מוזיאון: בובת מרכזית (המייצגת את \"רוח האמנות\") מוצגת לצד יצירות על הקיר, עם קבוצה קטנה של ילדים והורים צופים מהצד. ברקע ייראו קווים נקיים של גלריה ותאורה ממוקדת, ובפינה שולחן סדנה עם דפי נייר וצבעים שמרמז על פעילות היצירה המומלצת לפני ההצגה. התמונה תיתן תחושה אינטימית ומעשית של מפגש בין בובות לאמנות במרחב המוזיאון.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -8385,7 +8488,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261114_2100_שקרים-קטנים",
@@ -8444,7 +8550,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261115_1730_טינטן",
@@ -8506,7 +8616,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",

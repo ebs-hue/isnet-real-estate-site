@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T18:57:48Z",
+  "generated_at": "2026-10-07T18:59:18Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 3,
-  "insufficient": 0,
+  "enriched": 1,
+  "insufficient": 2,
   "source_text_insufficient": 9,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1101_1830",
-      "title": "בוק סרפינג: מפגש בנושא כוחה של מילה",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_ba6b4e505006468bd433",
-      "title": "סדנא חוויתית",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_4307094b3b636375d0a8",
-      "title": "סיור אומנות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_3f778d888bea8764a68c",
+      "event_id": "auto_ri_fd4a6591415646857006",
       "title": "מועדון ריקודים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261104_2030_בן-בן-ברוך",
-      "title": "בן בן ברוך",
+      "event_id": "r_k_1110_2000",
+      "title": "מעצבי תודעה: אם זכרוני אינו מטעה אותי",
+      "status": "insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261110_2030_לנקות-את-הראש",
+      "title": "לנקות את הראש",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261105_2000_בוריס-גרבנשיקוב",
-      "title": "בוריס גרבנשיקוב",
+      "event_id": "htrl_20261111_2030_לנקות-את-הראש",
+      "title": "לנקות את הראש",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_8929f9caaaca744a7355",
-      "title": "קבלת שבת עם הרבה תמרה שיפרין",
+      "event_id": "auto_ri_5ae95426b72999337efa",
+      "title": "עולם האופנה: אומיגלי-אופנה יפנית",
+      "status": "insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261112_2000_VOCA-PEOPLE-ווקה-פיפל",
+      "title": "VOCA PEOPLE ווקה פיפל",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_ef5a2949e63b77022201",
-      "title": "הספרים החיצוניים",
+      "event_id": "htrl_20261113_2100_ויוו-–-VIVO",
+      "title": "ויוו – VIVO",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1109_1900",
-      "title": "שירה שווה: מופע ספרותי מוזיקלי",
+      "event_id": "htrl_20261114_1100_מחסן-השטוזים-של-דתיה",
+      "title": "מחסן השטוזים של דתיה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_f17a1350f016d7726b7c",
+      "title": "הרפתקה במוזיאון - הצגה בתערוכה",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_58355c48443b8ba20e67",
-      "title": "מופע מוזיקלי",
+      "event_id": "auto_ri_7b5b465ab1f330252c29",
+      "title": "צלילי הכליזמר",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_707b45b8e577180319fb",
-      "title": "סיור אומנות",
+      "event_id": "htrl_20261114_2100_שקרים-קטנים",
+      "title": "שקרים קטנים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_y_1110_1200",
-      "title": "שלישי לגיל השלישי - תושבי ראשון לציון",
-      "status": "ready"
+      "event_id": "htrl_20261115_1730_טינטן",
+      "title": "טינטן",
+      "status": "source_text_insufficient"
     }
   ]
 }
