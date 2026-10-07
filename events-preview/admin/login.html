@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>כניסה למערכת הניהול | ISNET</title>
+<link rel="stylesheet" href="styles.css?v=20261007-1210">
+<style>
+.login-wrap{min-height:100vh;display:grid;place-items:center;padding:24px;background:linear-gradient(140deg,#071a35,#103d70)}
+.login-card{width:min(460px,100%);background:#fff;border-radius:20px;padding:30px;box-shadow:0 28px 80px #00142c55}
+.login-card h1{margin:0 0 8px;font-size:30px}.login-card p{color:#6d7789;margin:0 0 22px}
+.login-card label{display:flex;flex-direction:column;gap:7px;margin-bottom:15px;font-weight:800;font-size:13px}
+.login-card input{height:48px;border:1px solid #d8dfeb;border-radius:10px;padding:0 12px;font:inherit}
+.login-card button{width:100%;height:48px;border:0;border-radius:10px;background:#1267e5;color:#fff;font-weight:800;font:inherit;cursor:pointer}
+.login-logo{font-weight:900;color:#1267e5;margin-bottom:8px}.login-message{margin-top:14px!important;font-size:13px}.pilot{background:#fff7dc;border:1px solid #f0d77d;color:#765800;padding:11px;border-radius:10px;margin-bottom:18px}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth/config.js"></script>
+</head>
+<body>
+<div class="login-wrap">
+ <main class="login-card">
+  <div class="login-logo">ISNET AI CMS</div>
+  <h1>כניסה למערכת הניהול</h1>
+  <p>הזן אימייל וסיסמה.</p>
+  <div id="pilot" class="pilot" hidden>ההתחברות עדיין לא הופעלה. יש לחבר את פרטי פרויקט Supabase.</div>
+  <form id="loginForm">
+   <label><span>אימייל</span><input id="email" type="email" dir="ltr" autocomplete="username" required></label>
+   <label><span>סיסמה</span><input id="password" type="password" dir="ltr" autocomplete="current-password" required></label>
+   <button type="submit">כניסה</button>
+  </form>
+  <p id="message" class="login-message"></p>
+ </main>
+</div>
+<script type="module">
+import {authConfigured,getClient} from "./auth/supabase.js";
+const form=document.getElementById("loginForm"),msg=document.getElementById("message"),pilot=document.getElementById("pilot");
+if(!authConfigured()){pilot.hidden=false;form.querySelector("button").disabled=true}
+else{
+ const client=getClient();
+ const {data:{session}}=await client.auth.getSession();
+ if(session) location.replace("./");
+ form.addEventListener("submit",async e=>{
+  e.preventDefault();msg.textContent="מתחבר...";
+  const {error}=await client.auth.signInWithPassword({email:document.getElementById("email").value.trim(),password:document.getElementById("password").value});
+  if(error){msg.textContent="הכניסה נכשלה. בדוק אימייל וסיסמה.";return}
+  const next=new URLSearchParams(location.search).get("next")||"./";location.replace(next);
+ });
+}
+</script>
+</body></html>
