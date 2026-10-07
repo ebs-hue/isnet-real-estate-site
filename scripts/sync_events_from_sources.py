@@ -136,6 +136,63 @@ def safe_url(url, origin, allow_external=False):
     return u
 
 
+
+def image_candidate_from_node(node, source):
+    """Collect an event image candidate without claiming usage rights."""
+    if node is None:
+        return {}
+    attrs = []
+    for img in node.select("img, source"):
+        attrs.append(img.attrs or {})
+    for el in attrs:
+        values = []
+        for key in ("src", "data-src", "data-original", "data-lazy-src"):
+            if el.get(key):
+                values.append(el.get(key))
+        for key in ("srcset", "data-srcset"):
+            if el.get(key):
+                parts = [x.strip().split(" ")[0] for x in str(el.get(key)).split(",") if x.strip()]
+                if parts:
+                    values.append(parts[-1])
+        for raw in values:
+            url = safe_url(raw, source["url"], allow_external=True)
+            if url and not any(x in url.lower() for x in ("placeholder", "no-image", "no_image", "spacer", "favicon", "logo")):
+                return {
+                    "image_url": url,
+                    "image_source": source["url"],
+                    "image_origin_url": source["url"],
+                    "image_credit": None,
+                    "image_rights_status": "needs_review",
+                    "image_verified": False,
+                    "image_publishable": False,
+                    "image_candidates": [{"url": url, "source_url": source["url"], "rights_status": "needs_review"}],
+                }
+    return {}
+
+
+def jsonld_image_candidate(entry, source):
+    image = entry.get("image")
+    if isinstance(image, list):
+        image = image[0] if image else None
+    if isinstance(image, dict):
+        image = image.get("url") or image.get("contentUrl")
+    if not isinstance(image, str):
+        return {}
+    url = safe_url(image, source["url"], allow_external=True)
+    if not url:
+        return {}
+    return {
+        "image_url": url,
+        "image_source": source["url"],
+        "image_origin_url": entry.get("url") or source["url"],
+        "image_credit": None,
+        "image_rights_status": "needs_review",
+        "image_verified": False,
+        "image_publishable": False,
+        "image_candidates": [{"url": url, "source_url": entry.get("url") or source["url"], "rights_status": "needs_review"}],
+    }
+
+
 def fetch_once(source):
     url = source["url"]
     try:
@@ -231,10 +288,12 @@ def smarticket_rows(soup, source):
         if 3 <= len(venue_segment) <= 125:
             venue = venue_segment
         sold = "הכרטיסים אזלו" in text
-        found.append({"title": title, "start_date": d, "start_time": start,
-                      "venue": venue, "ticket_url": url, "purchase_url": url,
-                      "ticket_status": "sold_out" if sold else "unknown",
-                      "quality_flags": ["automated_official_listing"]})
+        row={"title": title, "start_date": d, "start_time": start,
+             "venue": venue, "ticket_url": url, "purchase_url": url,
+             "ticket_status": "sold_out" if sold else "unknown",
+             "quality_flags": ["automated_official_listing"]}
+        row.update(image_candidate_from_node(a, source))
+        found.append(row)
     return found
 
 
@@ -326,11 +385,13 @@ def generic_jsonld_rows(soup, source):
                 loc = loc[0] if loc else {}
             name = loc.get("name", "") if isinstance(loc, dict) else ""
             event_url = safe_url(entry.get("url", ""), source["url"])
-            found.append({"title": title, "start_date": d, "start_time": t,
-                          "venue": name or source["venue"],
-                          "ticket_url": event_url or source["url"],
-                          "purchase_url": event_url or source["url"],
-                          "quality_flags": ["automated_structured_event"]})
+            row={"title": title, "start_date": d, "start_time": t,
+                 "venue": name or source["venue"],
+                 "ticket_url": event_url or source["url"],
+                 "purchase_url": event_url or source["url"],
+                 "quality_flags": ["automated_structured_event"]}
+            row.update(jsonld_image_candidate(entry, source))
+            found.append(row)
     return found
 
 
@@ -529,7 +590,7 @@ def merge(city_slug, specs, dry_run=False):
     for spec in specs:
         name = spec["name"]
         source_status = {"status": "unknown", "url": spec["url"], "discovered": 0,
-                         "valid": 0, "new": 0, "updated": 0}
+                         "valid": 0, "new": 0, "updated": 0, "images_collected": 0}
         summary["sources"][name] = source_status
         soup, err = fetch_once(spec)
         if err:
@@ -577,6 +638,8 @@ def merge(city_slug, specs, dry_run=False):
                 continue
             seen.add(key)
             source_status["valid"] += 1
+            if obj.get("image_url"):
+                source_status["images_collected"] += 1
             incoming = {
                 "city": label,
                 "title": obj["title"].strip(),
@@ -595,9 +658,14 @@ def merge(city_slug, specs, dry_run=False):
                 "ticket_url": obj.get("ticket_url") or spec["url"],
                 "purchase_url": obj.get("purchase_url") or spec["url"],
                 "purchase_phone": obj.get("purchase_phone"), "purchase_source": "official_listing",
-                "image_url": None, "image_source": None, "image_credit": None,
-                "image_publishable": False, "image_verified": False,
-                "image_origin_url": None, "thumbnail_url": None, "thumbnail_ready": False,
+                "image_url": obj.get("image_url"), "image_source": obj.get("image_source"),
+                "image_credit": obj.get("image_credit"),
+                "image_publishable": obj.get("image_publishable", False),
+                "image_verified": obj.get("image_verified", False),
+                "image_rights_status": obj.get("image_rights_status", "missing" if not obj.get("image_url") else "needs_review"),
+                "image_candidates": obj.get("image_candidates", []),
+                "image_origin_url": obj.get("image_origin_url"),
+                "thumbnail_url": None, "thumbnail_ready": False,
                 "organizer": obj.get("organizer"), "duration_minutes": None,
                 "sources": [{"name": name, "url": spec["url"],
                              "source_type": spec["source_type"], "observed_at": now}],
@@ -633,6 +701,12 @@ def merge(city_slug, specs, dry_run=False):
                     match["ticket_url"] = incoming["ticket_url"]
                     match["purchase_url"] = incoming["ticket_url"]
                     changed = True
+                if incoming.get("image_url") and not match.get("image_url"):
+                    for field in ("image_url","image_source","image_credit","image_origin_url",
+                                  "image_rights_status","image_candidates","image_verified","image_publishable"):
+                        if field in incoming:
+                            match[field] = incoming.get(field)
+                    changed = True
                 if changed:
                     match["last_verified_at"] = now
                     match["observed_at"] = now
@@ -649,7 +723,8 @@ def merge(city_slug, specs, dry_run=False):
         if not source_status["valid"]:
             summary["errors"].append(f"{name}:no_valid_future_events")
         print(f"{label} / {name}: {source_status['status']}, {source_status['valid']} valid, "
-              f"{source_status['new']} new, {source_status['updated']} updated", flush=True)
+              f"{source_status['new']} new, {source_status['updated']} updated, "
+              f"{source_status['images_collected']} images collected", flush=True)
         time.sleep(.3)
 
     summary["removed_invalid"], summary["removed_duplicates"] = clean_generated_duplicates(events)
