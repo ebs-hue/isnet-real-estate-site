@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T16:03:19Z",
+  "generated_at": "2026-10-07T16:05:47Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 8,
+  "enriched": 7,
   "insufficient": 0,
-  "source_text_insufficient": 4,
+  "source_text_insufficient": 5,
   "model_failed": 0,
   "events": [
     {
@@ -27,56 +27,56 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_290506185823538d7274",
-      "title": "שיטת דורון ואיזון מפרקים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_5dc325769e5e781143ee",
-      "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_7fce1d9b4ab267e246e1",
-      "title": "הרצאה של יונתן סררו",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_71_20261011",
-      "title": "הלב זוכר",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_8c7a9c52a8e6e4de953e",
-      "title": "המרחב הבטוח לילדים ולהורים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_c20ff116cd0b601fefa7",
-      "title": "סדנת צילום בסמארטפון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
       "event_id": "evt_40_20261012",
       "title": "אֻמִּי",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_94_20261012",
-      "title": "סערה בדלי מים",
+      "event_id": "evt_95_20261012",
+      "title": "תשאירי פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261012_maccabi_ashdod_basketball",
+      "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_60cbf76aa783bbeb7d87",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_ffc63b0b4486bb31a455",
+      "title": "שירי קריוקי בקצב הדרבוקה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_746c9db0b742c132ff59",
+      "title": "סטודיו פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_7aa007ab073d5170f872",
+      "title": "סדנת עיצוב עוגות בנטו",
       "status": "ready"
     }
   ]
