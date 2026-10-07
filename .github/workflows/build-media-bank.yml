@@ -1,0 +1,57 @@
+name: Build central media bank
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_media_bank.py"
+      - "events-preview/ashdod/data/events.json"
+      - "events-preview/rishon-lezion/data/events.json"
+      - ".github/workflows/build-media-bank.yml"
+  workflow_run:
+    workflows:
+      - "Enrich Ashdod event images"
+      - "Verify and cache Rishon event photos"
+      - "Enrich event content with AI"
+    types: [completed]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isnet-media-bank
+  cancel-in-progress: true
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build media bank
+        run: python -u scripts/build_media_bank.py
+
+      - name: Commit media bank index
+        run: |
+          git config user.name "isnet-media-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/media-bank/data/media.json
+          if git diff --cached --quiet; then
+            echo "Media bank is already current."
+            exit 0
+          fi
+          git commit -m "Refresh central media bank"
+          git pull --rebase origin main
+          git push origin HEAD:main
