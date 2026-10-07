@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-07T19:35:14Z",
+  "generated_at": "2026-10-07T20:32:57Z",
   "total_events": 401,
-  "events_with_publishable_images": 267,
-  "events_still_missing_images": 134,
+  "events_with_publishable_images": 276,
+  "events_still_missing_images": 125,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 51,
+    "ashdod_smarticket": 50,
     "איגוד הכדורעף בישראל": 4,
-    "mishkan_smarticket": 75,
-    "ההתאחדות לכדורגל בישראל": 4
+    "ההתאחדות לכדורגל בישראל": 4,
+    "mishkan_smarticket": 67
   },
   "missing_by_category": {
-    "kids": 13,
+    "kids": 11,
     "workshop": 12,
-    "other": 86,
+    "other": 79,
     "lecture": 7,
     "theatre": 5,
     "sport": 8,
@@ -125,11 +125,6 @@
     {
       "event_id": "auto_as_a45bb3ac8e17b05e56df",
       "title": "סיפור יצירה | סדנה לילדים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_f49bff491bdc80b16bfb",
-      "title": "מעשה בחמישה בלונים",
       "reason": "no_verified_source_image"
     },
     {
@@ -303,11 +298,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "auto_as_f96995c1a51072386af2",
-      "title": "סינדרלה",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_927802792107d0068f24",
       "title": "שקרים קטנים קומדיה משפחתית מופרעת",
       "reason": "no_verified_source_image"
@@ -320,16 +310,6 @@
     {
       "event_id": "auto_as_78cf1d9cc9f217ab0259",
       "title": "עץ הבלונים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_e989e0af031952a41c55",
-      "title": "סינדרלה",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_511ebde2aa175eaa7a56",
-      "title": "נישואים גרעיניים",
       "reason": "no_verified_source_image"
     },
     {
@@ -635,31 +615,6 @@
     {
       "event_id": "auto_as_4ada58fcddb5e9649fac",
       "title": "CON TEH PARTIRO",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_abc304d7ccc6bc7bf233",
-      "title": "להתראות ותודה על הקרמשניט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
-      "title": "להתראות ותודה על הקרמשניט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_3f888b4ee71930056e2d",
-      "title": "להתראות ותודה על הקרמשניט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_54dc0282144f7dc8152a",
-      "title": "להתראות ותודה על הקרמשניט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_be1fc4adb822731a5e36",
-      "title": "להתראות ותודה על הקרמשניט",
       "reason": "no_verified_source_image"
     },
     {

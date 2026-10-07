@@ -1,90 +1,10 @@
 {
-  "generated_at": "2026-10-07T19:38:39Z",
+  "generated_at": "2026-10-07T20:31:21Z",
   "total_events": 401,
   "verified_images": 213,
   "still_missing": 188,
-  "stats": {
-    "central_bank_reuse": 11
-  },
-  "newly_filled": [
-    {
-      "event_id": "auto_as_f49bff491bdc80b16bfb",
-      "title": "מעשה בחמישה בלונים",
-      "image": "../rishon-lezion/assets/events/3d1a0f2000b578c8c7d30087.webp",
-      "source": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_f96995c1a51072386af2",
-      "title": "סינדרלה",
-      "image": "../rishon-lezion/assets/events/32a110a2f68b98e5ddcbb527.webp",
-      "source": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_e989e0af031952a41c55",
-      "title": "סינדרלה",
-      "image": "../rishon-lezion/assets/events/32a110a2f68b98e5ddcbb527.webp",
-      "source": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_511ebde2aa175eaa7a56",
-      "title": "נישואים גרעיניים",
-      "image": "../rishon-lezion/assets/events/2730fc92608007dfd2309838.webp",
-      "source": "https://htrl.co.il/show/%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9D-%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D-2/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_56006f0f4db06e0655a0",
-      "title": "המדורה של רינתי",
-      "image": "../ashdod/assets/event-thumbs/5a2591cb4af6b5f8130653.jpg",
-      "source": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_4ed466d9ac4036a41389",
-      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
-      "image": "../ashdod/assets/event-thumbs/5a2591cb4af6b5f8130653.jpg",
-      "source": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_abc304d7ccc6bc7bf233",
-      "title": "להתראות ותודה על הקרמשניט",
-      "image": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
-      "title": "להתראות ותודה על הקרמשניט",
-      "image": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_3f888b4ee71930056e2d",
-      "title": "להתראות ותודה על הקרמשניט",
-      "image": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_54dc0282144f7dc8152a",
-      "title": "להתראות ותודה על הקרמשניט",
-      "image": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_be1fc4adb822731a5e36",
-      "title": "להתראות ותודה על הקרמשניט",
-      "image": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "source": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "score": "central_bank"
-    }
-  ],
+  "stats": {},
+  "newly_filled": [],
   "missing": [
     {
       "event_id": "auto_as_21b74de87d9353a296d9",
