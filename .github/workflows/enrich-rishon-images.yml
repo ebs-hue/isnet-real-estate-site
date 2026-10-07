@@ -9,7 +9,7 @@ on:
       - .github/workflows/enrich-rishon-images.yml
       - events-preview/rishon-lezion/data/events.json
   workflow_run:
-    workflows: ["Daily city event intake"]
+    workflows: ["Enrich event content with AI"]
     types: [completed]
   schedule:
     - cron: "17 4 * * *"
