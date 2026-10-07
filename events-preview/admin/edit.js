@@ -137,3 +137,35 @@ $("restoreBtn").addEventListener("click",async()=>{if(!original)return;
 });
 $("previewBtn").addEventListener("click",()=>{if(!cfg||!id)return;window.open(cfg.base+"event.html?id="+encodeURIComponent(id),"_blank","noopener")});
 load().catch(err=>{$("pageTitle").textContent="לא ניתן לטעון את האירוע";$("pageMeta").textContent=String(err.message||err)});
+
+async function publishCurrentEvent(){
+  const btn=$("publishBtn");
+  const payload=collect();
+  if(!payload.title||!payload.start_date){
+    alert("אי אפשר לפרסם בלי כותרת ותאריך.");
+    return;
+  }
+  if(!payload.seo_slug){
+    payload.seo_slug=makeSlug(payload.title);
+    $("seoSlug").value=payload.seo_slug;
+  }
+  btn.disabled=true;
+  btn.textContent="מפרסם...";
+  $("saveNote").textContent="מפרסם את הגרסה הנוכחית...";
+  try{
+    const row=await window.ISNET_DB.publishEvent(city,id,payload,"override");
+    $("status").value="published";
+    dirty=false;
+    btn.textContent="פורסם ✓";
+    const slug=row?.seo_slug||payload.seo_slug;
+    const preview=cfg.base+"event.html?slug="+encodeURIComponent(slug);
+    $("saveNote").innerHTML='האירוע פורסם במערכת המרכזית. <a class="link" target="_blank" rel="noopener" href="'+preview+'">פתח את העמוד הציבורי ↗</a>';
+  }catch(err){
+    console.error(err);
+    btn.textContent="פרסום נכשל";
+    $("saveNote").textContent="לא ניתן היה לפרסם. ודא שמיגרציית הפרסום הופעלה ב-Supabase ונסה שוב.";
+  }finally{
+    btn.disabled=false;
+  }
+}
+$("publishBtn")?.addEventListener("click",publishCurrentEvent);
