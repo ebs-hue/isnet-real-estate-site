@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>עריכת אירוע | ISNET</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="edit.css">
+</head>
+<body>
+<header class="topbar edit-topbar">
+  <div>
+    <div class="eyebrow">ISNET AI CMS · עריכת אירוע</div>
+    <h1 id="pageTitle">טוען אירוע...</h1>
+    <p id="pageMeta"></p>
+  </div>
+  <div class="top-actions">
+    <a class="secondary action-link" href="./">חזרה לכל האירועים</a>
+    <button id="previewBtn" class="secondary">תצוגה באתר</button>
+  </div>
+</header>
+<main class="edit-main">
+  <div id="notice" class="notice">בשלב זה השינויים נשמרים כטיוטה בדפדפן בלבד. שכבת השמירה המאובטחת תחובר בשלב הבא.</div>
+  <section class="editor-layout">
+    <div class="editor-column">
+      <section class="panel edit-card">
+        <h2>תוכן האירוע</h2>
+        <label><span>כותרת</span><input id="title" type="text"></label>
+        <label><span>תקציר קצר</span><textarea id="shortPitch" rows="3"></textarea></label>
+        <label><span>על האירוע</span><textarea id="description" rows="10"></textarea></label>
+        <div class="two">
+          <label><span>קטגוריה</span><select id="category"></select></label>
+          <label><span>סטטוס</span><select id="status"><option value="active">פעיל</option><option value="draft">טיוטה</option><option value="hidden">מוסתר</option></select></label>
+        </div>
+      </section>
+
+      <section class="panel edit-card">
+        <h2>מועד ומקום</h2>
+        <div class="three">
+          <label><span>תאריך</span><input id="startDate" type="date"></label>
+          <label><span>שעה</span><input id="startTime" type="time"></label>
+          <label><span>מקום</span><input id="venue" type="text"></label>
+        </div>
+        <label><span>כתובת</span><input id="address" type="text"></label>
+      </section>
+
+      <section class="panel edit-card">
+        <h2>קישורים ווידאו</h2>
+        <label><span>קישור רכישה / פרטים</span><input id="purchaseUrl" type="url" dir="ltr"></label>
+        <label><span>YouTube ID</span><input id="youtubeId" type="text" dir="ltr" maxlength="11"></label>
+      </section>
+    </div>
+
+    <aside class="side-column">
+      <section class="panel edit-card media-card">
+        <h2>תמונה</h2>
+        <div id="imagePreview" class="large-preview"></div>
+        <div id="imageState" class="image-state"></div>
+        <label class="upload-btn">
+          העלאת תמונה חדשה
+          <input id="imageFile" type="file" accept="image/*" hidden>
+        </label>
+        <label><span>קרדיט / מקור</span><input id="imageCredit" type="text"></label>
+        <label class="checkbox"><input id="imageApproved" type="checkbox"> <span>התמונה מאושרת לשימוש</span></label>
+      </section>
+
+      <section class="panel edit-card">
+        <h2>פעולות</h2>
+        <button id="saveDraftBtn" class="primary wide">שמור טיוטה</button>
+        <button id="restoreBtn" class="ghost wide">חזור לנתוני המקור</button>
+        <p class="save-note" id="saveNote">אין שינויים שמורים.</p>
+      </section>
+    </aside>
+  </section>
+</main>
+<script src="edit.js"></script>
+</body>
+</html>
