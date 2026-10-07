@@ -6,6 +6,15 @@ const TODAY=new Date().toISOString().slice(0,10);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function normalize(s){return String(s||"").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim()}
+function setProgress(done,total,label){
+  const wrap=$("runProgressWrap"),bar=$("runProgressBar"),txt=$("runProgressText");
+  if(wrap)wrap.hidden=false;
+  const pct=total?Math.round(done/total*100):0;
+  if(bar)bar.style.width=pct+"%";
+  if(txt)txt.textContent=(label?label+" · ":"")+done+" מתוך "+total+" ("+pct+"%)";
+}
+function saveRunLog(data){try{localStorage.setItem("isnet-agents-last-run",JSON.stringify(data))}catch{}}
+function loadRunLog(){try{return JSON.parse(localStorage.getItem("isnet-agents-last-run")||"null")}catch{return null}}
 function slugify(value){
   return String(value||"").normalize("NFKC").trim().toLowerCase()
     .replace(/["'״׳]/g,"")
@@ -177,6 +186,6 @@ async function run(){
     }
   }catch(err){
     console.error(err);$("runStatus").textContent="אירעה שגיאה בהרצת הסוכנים.";
-  }finally{btn.disabled=false;btn.textContent="הרץ סוכנים עכשיו"}
+  }finally{btn.disabled=false;btn.textContent="הרץ סוכנים ופרסם תקינים"}
 }
 $("runAgentsBtn")?.addEventListener("click",run);
