@@ -11,6 +11,10 @@ const LOCAL_NEW_KEY="isnet-new-events";
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function fmtDate(s){if(!s)return"—";const [y,m,d]=s.split("-");return d+"/"+m+"/"+y}
+function horizonEnd(){
+  const d=new Date(); d.setHours(0,0,0,0); d.setMonth(d.getMonth()+5);
+  return [d.getFullYear(),String(d.getMonth()+1).padStart(2,"0"),String(d.getDate()).padStart(2,"0")].join("-");
+}
 function editorialEntry(editorial,id){return editorial?.events?.[id]||{}}
 function readJson(key,fallback){try{return JSON.parse(localStorage.getItem(key)||"")||fallback}catch{return fallback}}
 function localOverrides(){return readJson(LOCAL_OVERRIDES_KEY,{})}
@@ -72,7 +76,9 @@ function buildFilters(){
 }
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),city=$("city").value,cat=$("category").value,status=$("status").value,quality=$("quality").value;
+  const horizon=horizonEnd();
   return all.filter(e=>{
+    if(e.start_date&&e.start_date>horizon)return false;
     if(city&&e.city!==city)return false;
     if(cat&&e.category!==cat)return false;
     if(status==="active"&&(e.status!=="active"||e.start_date<TODAY))return false;
@@ -88,7 +94,8 @@ function filtered(){
   }).sort((a,b)=>(b.start_date+(b.start_time||"")).localeCompare(a.start_date+(a.start_time||"")));
 }
 function renderStats(){
-  const active=all.filter(e=>e.start_date>=TODAY);
+  const horizon=horizonEnd();
+  const active=all.filter(e=>e.start_date>=TODAY&&e.start_date<=horizon);
   const stats=[
     [all.length,"כל האירועים","כולל טיוטות מקומיות"],
     [active.filter(e=>e.status==="active").length,"אירועים עתידיים","פעילים מהיום והלאה"],
