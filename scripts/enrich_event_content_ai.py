@@ -165,7 +165,7 @@ def ask_model(event, source_text, source_url):
         json={
             "model": MODEL,
             "instructions": instructions,
-            "input": json.dumps(payload, ensure_ascii=False),
+            "input": "Return valid JSON only.\n" + json.dumps(payload, ensure_ascii=False),
             "text": {"format": {"type": "json_object"}},
         },
         timeout=90,
