@@ -20,7 +20,7 @@ function fill(e,ed={}){
   $("title").value=e.title||"";
   $("shortPitch").value=ed.short_pitch||e.short_pitch||"";
   $("description").value=ed.long_description||e.long_description||e.series_description||e.description||"";
-  $("category").value=e.category||"other"; $("status").value=e.status||"active";
+  $("category").value=e.category||"other"; $("status").value=e.status||"active"; $("promotion").value=e.promotion||"normal";
   $("startDate").value=e.start_date||""; $("startTime").value=e.start_time||"";
   $("venue").value=e.venue||""; $("address").value=e.address||"";
   $("purchaseUrl").value=e.purchase_url||e.ticket_url||"";
@@ -32,7 +32,7 @@ function fill(e,ed={}){
   $("imageState").innerHTML=img?($("imageApproved").checked?'<span class="tag good">יש תמונה · מאושרת</span>':'<span class="tag warn">יש תמונה · לבדיקה</span>'):'<span class="tag bad">אין תמונה</span>';
 }
 function collect(){
-  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,status:$("status").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
+  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
 }
 async function load(){
   if(!cfg||!id)throw Error("missing params");
