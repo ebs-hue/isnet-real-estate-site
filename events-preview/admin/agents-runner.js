@@ -40,11 +40,13 @@ function evaluate(e,dupes){
   const img=e.thumbnail_url||e.image_url;
   const imageApproved=Boolean(img&&((e.image_publishable===true&&e.image_verified===true)||e.image_approved===true));
   const desc=e.long_description||e.short_pitch||e.series_description||e.description||e._description||"";
+  const imageBrief=e.image_brief||"";
+  const contentReady=Boolean(e.content_ready_for_media===true || String(desc).trim().length>=80 || String(imageBrief).trim().length>=40);
   if(!e.title)blockers.push("חסרה כותרת");
   if(!e.start_date)blockers.push("חסר תאריך");
   if(!e.venue)warnings.push("חסר מקום");
   if(!e.category)warnings.push("חסרה קטגוריה");
-  if(!desc)warnings.push("חסר תוכן");
+  if(!contentReady)blockers.push("חסר תוכן מסביר לפני טיפול בתמונה");
   if(!img)blockers.push("אין תמונה");
   else if(!imageApproved)blockers.push("התמונה אינה מאושרת");
   if(!(e.purchase_url||e.ticket_url||e.purchase_phone))warnings.push("אין קישור פעולה");
@@ -62,7 +64,7 @@ function evaluate(e,dupes){
     score,confidence,blockers,warnings,ready,
     editorial_decision:editorial,
     publish_decision:ready?"auto_publish":"exception_queue",
-    media_action:!img?"find_or_generate_image":(!imageApproved?"review_rights":"none")
+    media_action:!img?(contentReady?"find_or_generate_image":"wait_for_content"):(!imageApproved?(contentReady?"review_rights":"wait_for_content"):"none")
   };
 }
 async function loadEvents(){
