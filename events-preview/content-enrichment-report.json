@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T16:47:17Z",
+  "generated_at": "2026-10-07T16:50:55Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 12,
+  "enriched": 11,
   "insufficient": 0,
-  "source_text_insufficient": 0,
+  "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_9eb4ea3b1be8386c949c",
+      "event_id": "evt_75_20261110",
+      "title": "הפיל שרצה להיות הכי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_8c0a6d5f1cabc435ad48",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0d5c53deefa1e10c5f4d",
+      "event_id": "evt_76_20261111",
+      "title": "איסטנבול - נפולי -מרסיי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d7864c780fea6cbdc43d",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b949a31a4fdf36a8df01",
-      "title": "סדנת קאנבה",
+      "event_id": "auto_as_c8e64b9c8e27da705c58",
+      "title": "סדנת בינה מלאכותית Ai",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a9e51b98a4ae798e4714",
+      "event_id": "auto_as_8d2a29d0cbadb103374e",
       "title": "סטודיו פתוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_19_20261109",
-      "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_a663288373fc699de50c",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f42edb321dbde7088a3a",
+      "event_id": "evt_58_20261112",
+      "title": "לה דולצ'ה נוטה – נוסטלגיה בהיכל בהנחיית דן כנר",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_65aaebf97ecda0981b5b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_d7c7d48fb762b43f9f53",
-      "title": "סדנת צרכנות דיגיטלית",
+      "event_id": "evt_98_20261113",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f45962e796919e19fbcd",
-      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_20_20261110",
-      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_9b5eea9e1acf1feac5cf",
+      "event_id": "auto_as_b6539384c62acf076d94",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b85b237616bfe945e8ea",
-      "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_30f82fe69bd135aabb33",
-      "title": "לצייר ובגדול | סדנה לילדים",
+      "event_id": "auto_as_1433fdc5973b6695bdc3",
+      "title": "עופרה",
       "status": "ready"
     }
   ]
