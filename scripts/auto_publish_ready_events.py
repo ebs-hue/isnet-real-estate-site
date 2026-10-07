@@ -130,6 +130,9 @@ def get_cms_records() -> dict[str, dict]:
     url = f"{SUPABASE_URL}/rest/v1/cms_event_records"
     params = {"select": "*"}
     r = SESSION.get(url, params=params, timeout=30)
+    if not r.ok:
+        body=(r.text or "")[:1000]
+        print(f"SUPABASE READ ERROR status={r.status_code} body={body}", file=sys.stderr)
     r.raise_for_status()
     rows = r.json()
     return {f'{row["city_slug"]}:{row["event_id"]}': row for row in rows}
