@@ -115,7 +115,7 @@ function render(){
     const src=(e.sources||[])[0]?.name||e.purchase_source||"—";
     const issues=e._issues.length?e._issues.map(i=>'<span class="tag '+i.level+'">'+esc(i.label)+'</span>').join(""):'<span class="tag good">תקין</span>';
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
-    const editUrl=(e._localNew?"new.html?v=20261007-1100&edit=1&city=":"edit.html?v=20261007-1100&city=")+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
+    const editUrl=(e._localNew?"new.html?v=20261007-1300&edit=1&city=":"edit.html?v=20261007-1300&city=")+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
     const statusLabel=e.status==="draft"?"טיוטה":e.status==="hidden"?"מוסתר":e.status==="archived"?"ארכיון":e.status==="trashed"?"בסל":"";
     const promotionLabel=e.promotion==="promoted"?"מקודם":e.promotion==="recommended"?"מומלץ":"רגיל";
     const promotionClass=e.promotion==="promoted"?"promotion-promoted":e.promotion==="recommended"?"promotion-recommended":"promotion-normal";
