@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:41:30Z",
+  "generated_at": "2026-10-07T18:45:12Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 11,
-  "insufficient": 1,
-  "source_text_insufficient": 0,
+  "enriched": 7,
+  "insufficient": 0,
+  "source_text_insufficient": 5,
   "model_failed": 0,
   "events": [
     {
-      "city": "ashdod",
-      "event_id": "auto_as_84645c77451dbc1cbbe6",
-      "title": "לא הייתם צריכים",
-      "status": "insufficient"
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_fc5a55d7397f123bab70",
+      "title": "שפת הגוף התנכ\"ית",
+      "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_8a5e128b1fdc9fda8ff4",
-      "title": "כרטיסי כניסה",
+      "event_id": "htrl_20261010_2100_זוגיות-AI",
+      "title": "זוגיות AI",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_r_1011_0800",
+      "title": "כנס משתחררים.ות ראשון לציון",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
+      "title": "צלילים וסיפורונים לטף",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_efdca1b53fd6cbb9b8b0",
-      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "event_id": "auto_ri_f034b0005aba57961c7e",
+      "title": "פרלמנט גברים",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_r_1011_1830",
+      "title": "יוגה באגם - גילאי 18-40",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1011_2030",
+      "title": "לה טרוויאטה – אופרה",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_feebac085a47bc2ba79e",
+      "event_id": "auto_ri_2e27df52904543987be8",
       "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_7b6497c1a29934dc91cd",
-      "title": "כרטיסי כניסה",
+      "event_id": "r_k_1012_1700",
+      "title": "האריה הזללן",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_y_1008_1630",
-      "title": "פעילויות לכל המשפחה",
+      "event_id": "auto_ri_217b952badfd1b4d449f",
+      "title": "היה היה יער",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_e5ac6e7aa5f50cab02a4",
-      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "event_id": "auto_ri_7f3f8603182bddf96986",
+      "title": "מפוחית וגיטרה עם יואב",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_2a088f32e6a9729f383b",
-      "title": "מפגש עם הסופרת איילת מועלם אליה",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_h_1009_1100",
-      "title": "שישי תרבות",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_h_1009_2130",
-      "title": "מדונה – מופע מחווה",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_y_1010_1015",
-      "title": "גמצ'יק - סיור תיאטרלי לקטנטנים",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_h_1010_1100",
-      "title": "חגיגה בחווה",
+      "event_id": "r_h_1012_1730",
+      "title": "המסע אל הכוכב – יובל המבולבל",
       "status": "ready"
     }
   ]
