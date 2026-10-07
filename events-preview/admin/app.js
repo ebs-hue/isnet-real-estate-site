@@ -80,13 +80,21 @@ function render(){
   $("resultCount").textContent=rows.length+" אירועים מוצגים מתוך "+all.length;
   $("empty").hidden=rows.length>0;
   $("rows").innerHTML=rows.slice(0,500).map(e=>{
-    const img=e.thumbnail_url||((e.image_publishable===true&&e.image_verified===true)?e.image_url:"");
+    const rawImg=e.thumbnail_url||e.image_url||"";
+    const img=rawImg ? (/^(https?:|data:)/.test(rawImg)?rawImg:e._cityBase+rawImg) : "";
+    const imageApproved=Boolean(rawImg&&e.image_publishable===true&&e.image_verified===true);
+    const imageStatus=!rawImg
+      ? '<span class="tag bad">אין תמונה</span>'
+      : imageApproved
+        ? '<span class="tag good">יש תמונה · מאושרת</span>'
+        : '<span class="tag warn">יש תמונה · לבדיקה</span>';
     const src=(e.sources||[])[0]?.name||e.purchase_source||"—";
     const issues=e._issues.length?e._issues.map(i=>'<span class="tag '+i.level+'">'+esc(i.label)+'</span>').join(""):'<span class="tag good">תקין</span>';
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
     return '<tr>'+
-      '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(e._cityBase+(/^(https?:|data:)/.test(img)?"":img))+'" alt="">':'<div class="thumb"></div>')+
+      '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
       '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div></div></div></td>'+
+      '<td class="image-status">'+imageStatus+'</td>'+
       '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td>'+
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
