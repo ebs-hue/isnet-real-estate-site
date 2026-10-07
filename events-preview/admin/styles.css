@@ -56,3 +56,15 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 .qa-meta>span:not(.tag){font-size:11px;background:#f1f5fa;color:#526079;border-radius:999px;padding:4px 7px;font-weight:800}
 .qa-source{display:block;margin-top:10px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media(max-width:800px){.qa-grid{grid-template-columns:1fr;padding:0 12px 18px}}
+
+.artist-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px;padding:0 20px 24px}
+.artist-card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 4px 18px #16325c0b}
+.artist-card>img,.artist-placeholder{width:100%;aspect-ratio:16/9;object-fit:cover;background:#eef2f7}
+.artist-placeholder{display:grid;place-items:center;color:var(--muted);font-weight:800}
+.artist-body{padding:14px}
+.artist-body h3{margin:0 0 5px;font-size:18px}
+.artist-body p{margin:0 0 8px;color:#526079}
+.artist-body small{display:block;color:var(--muted);margin-bottom:12px}
+.artist-body .edit-link{width:100%}
+@media(max-width:600px){.artist-grid{grid-template-columns:1fr 1fr;padding:0 12px 18px}}
+@media(max-width:420px){.artist-grid{grid-template-columns:1fr}}
