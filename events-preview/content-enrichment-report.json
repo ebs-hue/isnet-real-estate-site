@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T17:31:00Z",
+  "generated_at": "2026-10-07T17:34:41Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 12,
+  "enriched": 11,
   "insufficient": 0,
-  "source_text_insufficient": 0,
+  "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_87b190ce94eadcbb9bd1",
+      "event_id": "auto_as_a67f2f422700efb610d7",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a0037fde67580f44fd73",
-      "title": "סטודיו פתוח",
+      "event_id": "auto_as_9a3cbab50396fa3af0c3",
+      "title": "שלגיה ו-7 הגמדים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ef7ca0af669f34aae871",
-      "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_c5f6d02c4792bae76e1c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_737e086330f64f28c23c",
-      "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_5b928ef3e35d3eec9e4c",
-      "title": "מועדון קריאה -סדרת מפגשים מרתקים על יצירות ספרותיות בהנחיית הסופרת איריס ארגמן",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_77_20261116",
+      "event_id": "evt_79_20261118",
       "title": "החולה ההודי",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c67cb1fd7296d8873ca3",
+      "event_id": "auto_as_cc2beedf4f76f168e9ff",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_21_20261117",
-      "title": "הרקדן ואלרי פאנוב",
+      "event_id": "auto_as_d77f1323483fec7e92d1",
+      "title": "סדנת חנוכיות להורים ולילדים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_68b8df7f7f0c4644faa6",
-      "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_99_20261117",
-      "title": "סיפור של חורף | שעת סיפור עם רינתי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_78_20261117",
+      "event_id": "evt_80_20261119",
       "title": "החולה ההודי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_79ae8e00a4276dc2d62d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_eda485f329036f12976a",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_81_20261121",
+      "title": "החולה ההודי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_59_20261121",
+      "title": "אורי חזקיה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_9ae58929c271c5410eec",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_352f88495f20cea6b9d0",
+      "title": "סטודיו פתוח",
       "status": "ready"
     }
   ]
