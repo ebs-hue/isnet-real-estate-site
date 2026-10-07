@@ -52,7 +52,10 @@ jobs:
           fi
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events-preview/ashdod/data/events.json events-preview/ashdod/data/image-enrichment-report.json
+          git add events-preview/ashdod/data/events.json \
+                  events-preview/ashdod/data/image-enrichment-report.json \
+                  events-preview/ashdod/data/listing-image-fill-report.json \
+                  events-preview/ashdod/assets/events
           git commit -m "Enrich Ashdod events with source images"
           # Another automation may have updated main while image enrichment was running.
           # Rebase our generated data commit onto the latest main before pushing.
