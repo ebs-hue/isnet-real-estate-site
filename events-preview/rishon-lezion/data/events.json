@@ -8676,7 +8676,48 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:59:56Z",
+      "missing_information": [
+        "פורמט האירוע (הרצאה/סדנה/פאנל/הקרנה)",
+        "שמות דוברים ומשתתפים מפורטים",
+        "תוכנית מפורטת ותכנים שיוצגו",
+        "משך האירוע",
+        "דרישות רישום/כרטיסים ועלויות (אם יש)",
+        "שפת ההרצאה/המפגש",
+        "הגבלות גיל/קהל מועדף",
+        "איש קשר או טלפון לבירורים"
+      ],
+      "event_summary": "אירוע שעוסק בחילוץ תרמילאים שנפגעו משימוש בסמים במהלך שהותם בחו\"ל. האירוע יתקיים ב־16.11.2026 בשעה 19:00 בספריית רוזן בראשון לציון, ומאורגן על־ידי רשת כותר ראשון. מפרט התוכנית או דוברים לא פורסם במקור.",
+      "short_pitch": "מפגש ציבורי בנושא \"חילוץ תרמילאים נפגעי סמים בחו\"ל\" — אירוע מידע שנועד לעסוק בסוגיה של קשרים בין מטיילים, גורמי חירום וגורמי סיוע במצבי פגיעה כתוצאה משימוש בסמים בחו\"ל. פרטים נוספים על פורמט ודוברים יש לקראת פרסום המארגנים.",
+      "long_description": "הכותרת מציינת שמדובר באירוע העוסק בחילוץ תרמילאים שנפגעו משימוש בסמים בזמן שהותם בחו\"ל. האירוע נערך בספריית רוזן בראשון לציון ומאורגן על ידי רשת כותר ראשון, אך בתיאורי האירוע באתר המקור לא נמצא פירוט לגבי סוג המפגש (הרצאה, סדנה, פאנל), דוברים או תכנים מדויקים. עבור מטיילים, משפחות ומי שעוסקים בסיוע בינלאומי זו נושא רלוואנטי שיכול לכלול נושאים כמו זיהוי מצבי חירום, דרכי פנייה לשירותים מקומיים וקשר עם רשויות, אך יש לציין שפרטי התוכנית בפועל לא נמסרו. מומלץ לבדוק עדכונים ישירות אצל המארגנים לפני הגעה.",
+      "event_type": "אירוע מידע",
+      "participants": [
+        "רשת כותר ראשון",
+        "ספריית רוזן"
+      ],
+      "target_audience": [
+        "מטיילים/תרמילאים",
+        "משפחות וקרובי מטיילים",
+        "ארגוני סיוע ומתנדבים בחירום",
+        "ציבור המתעניין בבטיחות מטיילים"
+      ],
+      "visual_keywords": [
+        "תרמיל נסיעה על שולחן",
+        "ערכת עזרה ראשונה",
+        "דרכון ומפת עולם",
+        "מדפי ספרייה ברקע",
+        "שולחן עם מסמכים",
+        "אווירת דאגה/חירום",
+        "קבוצת מטיילים מדומיינת"
+      ],
+      "image_brief": "צילום אילוסטרטיבי: תרמיל גב מונח על שולחן עץ לצד ערכת עזרה ראשונה, דרכון ומפה חלקית של עולם; ברקע מדפי ספרים מטושטשים המייצגים את מיקום הספרייה. התאורה חמה מעט, זווית צילום מעט מלמעלה כדי להדגיש את הפריטים על השולחן ולשדר תחושת דחיפות ונסיעה.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -8732,7 +8773,42 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:00:33Z",
+      "missing_information": [
+        "פורמט האירוע (הרצאה, הצגה, סדנה או אחר)",
+        "מנחה/מרצה/משתתפים בפועל",
+        "אורך/משך המפגש",
+        "מגבלת גיל וקהלי יעד מפורשים",
+        "מחיר כרטיסים ופרטי רכישה (מלבד ההערה כי הכרטיסים אזלו)",
+        "שפה בה יועבר האירוע",
+        "מדיניות ביטולים/החזרים ספציפית לאירוע"
+      ],
+      "event_summary": "מפגש בסדרת 'עולמו המופלא של התנ\"ך', פרק שכותרתו 'ויהי ערב, ויהי בוקר'. האירוע נקבע ל-17.11.2026 בשעה 10:00 בספריית שיכון המזרח בראשון לציון, בהפקת רשת כותר ראשון. לפי פרסום המקור — הכרטיסים לאירוע אלו אזלו.",
+      "short_pitch": "מפגש בסדרת 'עולמו המופלא של התנ\"ך' המסומן כ'ויהי ערב, ויהי בוקר' — אירוע תרבותי-מקראי שייערך בספריית שיכון המזרח בראשון לציון ב-17 בנובמבר 2026 בשעה 10:00. שימו לב: לפי הפרסום הרשמי, כרטיסים אזלו.",
+      "long_description": "האירוע הוא חלק מסדרה בשם 'עולמו המופלא של התנ\"ך', שמהותו נובעת מהתייחסות למוטיבים וסיפורים מקראיים כפי שמשתקף בכותרת הפרק 'ויהי ערב, ויהי בוקר'. המפגש מתוכנן להתקיים בספריית שיכון המזרח בראשון לציון ביום 17.11.2026 בשעה 10:00, במיזם של רשת כותר ראשון. בפרסום הרשמי על האירוע צויין כי הכרטיסים אזלו. בפרטי המקור לא נכללו תיאור פורמט מפורש (הרצאה, הצגה, סדנה), מרצה או פרטים על משך המפגש, ולכן אין כאן מידע על תוכן מפורט או הנחיות כניסה ספציפיות. למידע נוסף יש לעקוב אחרי פרסומי המארגנים.",
+      "event_type": "סדרה תנ\"כית",
+      "target_audience": [
+        "מתעניינים בתנ\"ך",
+        "חובבי תרבות ומורשת",
+        "ציבור הרחב"
+      ],
+      "visual_keywords": [
+        "תנ\"ך פתוח על שולחן עץ",
+        "אור חם של שקיעה/בוקר",
+        "דפי קלף או ספרים ישנים",
+        "ענף זית",
+        "מדפי ספרייה מטושטשים ברקע",
+        "טקסט עברי עתיק",
+        "צללים רכים על דפים"
+      ],
+      "image_brief": "צילום רך ואטמוספירי של ספר תנ\"ך פתוח על שולחן עץ, מואר באור חם המעבר מקשת צבעי שקיעה לכיוון בוקר (גוני זהב וכתום עד אור צהבהב). על השולחן ענף זית קל ותלוי מטושטש של מדפי ספרים ברקע, בעומק שדה רדוד, ללא טקסט מוטבע. המוקד על הדפים הפתוחים כדי להעביר תחושת היסטוריה ומסורת.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -8794,7 +8870,10 @@
       "venue_website": "https://bl-gallery.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -8852,7 +8931,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -8914,7 +8996,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -8975,7 +9060,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9033,7 +9121,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9094,7 +9186,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261118_2030_אוי-אלוהים",
@@ -9153,7 +9248,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261119_1700_אוי-אלוהים",
@@ -9212,7 +9311,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9272,7 +9375,23 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:01:13Z",
+      "missing_information": [
+        "תיאור מפורט של תכני האירוע (האם תצוגה, סדנה, הרצאה, פאנל וכו')",
+        "שמות משתתפים/מעצבים/מרצים",
+        "משך האירוע ותוכנית זמנים",
+        "מחיר כרטיסים ואופן רכישה",
+        "הגבלת גיל/קהל יעד מדויק",
+        "שפת ההרצאה/המופע ונגישות (כגון תרגום/סאונד/נגישות נכים)",
+        "פרטי יצירת קשר ספציפיים לאירוע (חוץ מהמארגן הכללי)"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "city": "ראשון לציון",
@@ -9334,7 +9453,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261121_2030_אוי-אלוהים",
