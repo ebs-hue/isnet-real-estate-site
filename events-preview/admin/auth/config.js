@@ -1,7 +1,7 @@
 window.ISNET_AUTH_CONFIG = {
-  supabaseUrl: "https://YOUR_PROJECT.supabase.co",
-  supabaseAnonKey: "YOUR_PUBLIC_ANON_KEY",
+  supabaseUrl: "https://qomkxhafrprooekwgsxf.supabase.co",
+  supabaseAnonKey: "sb_publishable_njxvSKmgkOQqkGL3JbWiIA_od-9l3wb",
   enabled: false
 };
-// מצב פיילוט: האימות יופעל רק לאחר חיבור פרויקט Supabase אמיתי.
-// לעולם לא לשים כאן service_role key.
+// ההתחברות תופעל רק לאחר יצירת סכמת ההרשאות וחשבון מנהל־על.
+// לעולם לא לשים כאן service_role / secret key.
