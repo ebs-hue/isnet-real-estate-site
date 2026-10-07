@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T16:14:19Z",
+  "generated_at": "2026-10-07T16:14:44Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 2,
+  "enriched": 1,
   "insufficient": 0,
-  "source_text_insufficient": 10,
+  "source_text_insufficient": 11,
   "model_failed": 0,
   "events": [
     {
@@ -63,20 +63,20 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1671f155d6a206c3de2b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
       "event_id": "sport_20261016_ms_ashdod_football",
       "title": "מ.ס. אשדוד - מכבי קריית גת",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7b18a3b8878c1169693b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי חדרה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
       "status": "ready"
     }
   ]
