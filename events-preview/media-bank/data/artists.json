@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T18:49:17.920687+00:00",
+  "generated_at": "2026-10-07T18:53:15.378615+00:00",
   "artists": [
     {
       "artist_key": "alisha arora",
@@ -25,20 +25,6 @@
       ],
       "categories": [
         "community"
-      ]
-    },
-    {
-      "artist_key": "אבא מוריס",
-      "name": "אבא מוריס",
-      "media": [
-        "media_c252c53d87394302c89f51d1"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "other",
-        "theatre"
       ]
     },
     {
@@ -143,20 +129,6 @@
     {
       "artist_key": "אלבר",
       "name": "אלבר",
-      "media": [
-        "media_c252c53d87394302c89f51d1"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "other",
-        "theatre"
-      ]
-    },
-    {
-      "artist_key": "אמא",
-      "name": "אמא",
       "media": [
         "media_c252c53d87394302c89f51d1"
       ],
@@ -737,13 +709,15 @@
       "artist_key": "יניב שפירא",
       "name": "יניב שפירא",
       "media": [
-        "media_f77774082eb82bed03a12abe"
+        "media_f77774082eb82bed03a12abe",
+        "media_ea294e82b650c8ccb7a1ce25"
       ],
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
-        "exhibition"
+        "exhibition",
+        "lecture"
       ]
     },
     {
@@ -769,14 +743,16 @@
       "name": "יעקב אגם",
       "media": [
         "media_f77774082eb82bed03a12abe",
-        "media_88f39d2ee5c85bdaaa1f640d"
+        "media_88f39d2ee5c85bdaaa1f640d",
+        "media_ea294e82b650c8ccb7a1ce25"
       ],
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition",
-        "kids"
+        "kids",
+        "lecture"
       ]
     },
     {
@@ -940,13 +916,15 @@
       "name": "מנשה קדישמן",
       "media": [
         "media_f77774082eb82bed03a12abe",
-        "media_f855e5387c94ac0b0485e6ed"
+        "media_f855e5387c94ac0b0485e6ed",
+        "media_ea294e82b650c8ccb7a1ce25"
       ],
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
-        "exhibition"
+        "exhibition",
+        "lecture"
       ]
     },
     {
@@ -1381,6 +1359,22 @@
       ],
       "categories": [
         "music"
+      ]
+    },
+    {
+      "artist_key": "תיאטרון האור",
+      "name": "תיאטרון האור",
+      "media": [
+        "media_0ce16f5ab0113d5288c08df7"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "lecture",
+        "music",
+        "theatre"
       ]
     },
     {
