@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T19:08:11Z",
+  "generated_at": "2026-10-07T19:08:26Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 1,
+  "enriched": 0,
   "insufficient": 0,
-  "source_text_insufficient": 11,
+  "source_text_insufficient": 12,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_c837a6c5c4dcc45e3e26",
-      "title": "שירי שבת בין ציון וציונות",
+      "event_id": "auto_ri_c73bd026b2b848287e0e",
+      "title": "להתראות ותודה על הקרמשניט",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_739f976aac5b7906b987",
-      "title": "ספריות, ידע ובינה מלאכותית בעידן של עומס המידע",
-      "status": "ready"
+      "event_id": "auto_ri_6cba9bfff171a9433eff",
+      "title": "להתראות ותודה על הקרמשניט",
+      "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_7e8cfd70075e79bee52e",
+      "event_id": "auto_ri_8361c4dcb9c8bf022984",
+      "title": "להתראות ותודה על הקרמשניט",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20270106_2000_ביג-בנד-–-תזמורת-הג'אז-ראשון",
+      "title": "ביג בנד – תזמורת הג'אז ראשון לציון",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_70dedb798d17a8edcbe3",
+      "title": "קרוב לבית התזמורת האנדלוסית",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_ed11c78bb4fc7ee97b44",
+      "title": "משוררי הרוק",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20270108_2130_אודי-כגן",
+      "title": "אודי כגן",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20270109_1100_כראמל-1",
+      "title": "כראמל 1",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_c255ca08e80dd0397608",
+      "title": "קין והבל",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_3abe6d513dd3cfd846b8",
+      "title": "חמישה חוקי טיפשות",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_a617e1b52f92a67688ee",
+      "title": "אגדת הטנגו העולמית מרכוס אשלה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_c9e4680d853c2131795e",
       "title": "סינדרלה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_42d5792076d7221fa16a",
-      "title": "בין יפו לפיראוס",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_c296579af71adc84b6ed",
-      "title": "ויסלבה שימבורסקה \" אחדים אוהבים שירה\"",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_a77df64238624a04ebde",
-      "title": "יונה קפח",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261231_2300_אסף-יצחקי-–-מופע-סטנדאפ-לא-מ",
-      "title": "אסף יצחקי – מופע סטנדאפ לא מצונזר",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_31b7d0fef4cbb7eafaee",
-      "title": "קבלת שבת עם אריאל הכהן",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
-      "title": "כספיון – התיאטרון השחור",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_b25561e548c2994f563b",
-      "title": "חלקן של הנשים בחיי משה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20270102_2030_מחווה-לברברה-סטרייסנד",
-      "title": "מחווה לברברה סטרייסנד",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_c6545d6342cb0b0a748b",
-      "title": "מה זאת אהבה? מושג האהבה באומנויות ובתרבות בצרפת",
       "status": "source_text_insufficient"
     }
   ]
