@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T16:30:30Z",
+  "generated_at": "2026-10-07T16:33:47Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 7,
-  "insufficient": 0,
-  "source_text_insufficient": 5,
+  "enriched": 8,
+  "insufficient": 1,
+  "source_text_insufficient": 3,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_47_20261022",
-      "title": "מוטי אהרונוביץ במופע סטנדאפ",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_48_20261022",
-      "title": "מני עוזרי",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_10_20261022",
-      "title": "מופע סטנד אפ - שלומי קוריאט",
+      "event_id": "evt_51_20261025",
+      "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6d352cd050d68d4a1163",
-      "title": "קורס קרמיקה אבניים",
+      "event_id": "auto_as_9b9989a207c461446bb2",
+      "title": "סדנת טיפוח-היופי מתחיל בך זמן לעצמך ולטיפוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1e5059b53915f4c7fe21",
+      "event_id": "auto_as_e8d879a99bf64df31e3a",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_49_20261023",
-      "title": "טריפונס",
+      "event_id": "sport_20261026_maccabi_ashdod_basketball",
+      "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a578c11cb7a7bacb36e1",
+      "event_id": "auto_as_85ef80d4838e92290fe0",
+      "title": "חלון לים התיכון",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_823f171a4a98cd6fb9d9",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
-      "title": "מכבי אשדוד - הפועל חוסאם נצרת",
+      "event_id": "evt_73_20261028",
+      "title": "חלון לים התיכון",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261028_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - א.כ. נס ציונה",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_50_20261024",
-      "title": "שלום אסייג",
+      "event_id": "auto_as_799a6dbb87a8759e0be8",
+      "title": "הנמרה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי SVA רחובות",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b069b87dfeecdb648ea4",
+      "event_id": "evt_52_20261028",
+      "title": "אדיר מילר",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_626a62df2f41c6e27d8c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_3069ec1e14b7c33b581c",
-      "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_3a2c902c3450a6e70c14",
-      "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "status": "ready"
     }
   ]
