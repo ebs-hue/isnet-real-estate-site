@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:07:55Z",
+  "generated_at": "2026-10-07T18:12:14Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 10,
+  "enriched": 11,
   "insufficient": 1,
-  "source_text_insufficient": 1,
+  "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_d3cf764f28c61e301ce9",
-      "title": "שימי תבורי במופע להקה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_36c82ca8b0929268aff1",
-      "title": "טריפונס",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
-      "title": "אימי הגנרלית",
+      "event_id": "auto_as_e65f449f9c8e6f75c763",
+      "title": "מותרת לכל אדם",
       "status": "insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3356020481453510f22a",
-      "title": "מייפל הכלבלב – יחיד ומיוחד",
+      "event_id": "auto_as_53cf1f6df1acf20a2f40",
+      "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_cb3a4659aefbcd0529d0",
-      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_dd53408c64490661fa14",
+      "title": "דרור קרן – כל העולם במה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b2274dd31f58c6fcf843",
-      "title": "תיק 137",
+      "event_id": "auto_as_5c9acb9f3ebef3f3e018",
+      "title": "מותרת לכל אדם",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_9e8b223f38713dfb8a74",
-      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+      "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
+      "title": "מותרת לכל אדם",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_243390bd002ecc344da5",
-      "title": "השועל המוסיקלי המוסיקה האירית",
+      "event_id": "auto_as_97a74b6735c80cbe31dc",
+      "title": "קורס עיצוב אלבום משפחתי-ייעודי לגדולות מהחיים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_50179a566f2b8b78f713",
+      "title": "מותרת לכל אדם",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f1c4b053e11c06583785",
-      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_44ade887868f332af978",
+      "title": "מותרת לכל אדם",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
-      "title": "פרפר נחמד",
+      "event_id": "auto_as_60b18d8a145f11fd0362",
+      "title": "ספר הג'ונגל מבית רינתי",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6810908ab34bc72b0557",
-      "title": "מיקה שלי",
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "title": "כספיון - התאטרון השחור",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_2d86a3932207b0dfadb6",
+      "title": "אל עמק הברכה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_0a2955afc99e32e98101",
+      "title": "בואי נעשה לנו חג",
       "status": "ready"
     }
   ]
