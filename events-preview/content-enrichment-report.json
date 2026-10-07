@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T16:33:47Z",
+  "generated_at": "2026-10-07T16:36:26Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 8,
+  "enriched": 6,
   "insufficient": 1,
-  "source_text_insufficient": 3,
+  "source_text_insufficient": 5,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_51_20261025",
-      "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
+      "event_id": "auto_as_da9a146c50c48a0aa0f4",
+      "title": "סטודיו פתוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_9b9989a207c461446bb2",
-      "title": "סדנת טיפוח-היופי מתחיל בך זמן לעצמך ולטיפוח",
-      "status": "ready"
+      "event_id": "sport_20261029_hapoel_ashdod_w_handball",
+      "title": "הפועל אשדוד - הפועל קרית אונו",
+      "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_e8d879a99bf64df31e3a",
+      "event_id": "evt_53_20261029",
+      "title": "בן בן ברוך",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d6f20b5b24339863b497",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261026_maccabi_ashdod_basketball",
-      "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
+      "event_id": "sport_20261030_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - בני יהודה תל אביב",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_85ef80d4838e92290fe0",
-      "title": "חלון לים התיכון",
+      "event_id": "sport_20261030_ironi_ashdod_football",
+      "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_59e494c94b56ac9e6861",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_54_20261031",
+      "title": "עומר בורשטיין",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_1ae03ec698a65bb2455e",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_11_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_12_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_e8967396c917fb4211e4",
+      "title": "הרצאה של רנה סרור",
       "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_823f171a4a98cd6fb9d9",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_73_20261028",
-      "title": "חלון לים התיכון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261028_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - א.כ. נס ציונה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_799a6dbb87a8759e0be8",
-      "title": "הנמרה",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
-      "title": "מכבי אשדוד - מכבי SVA רחובות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_52_20261028",
-      "title": "אדיר מילר",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_626a62df2f41c6e27d8c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
     }
   ]
 }
