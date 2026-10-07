@@ -32,7 +32,7 @@ function renderEffective(){
 function openDrawer(id=null){
  const users=loadUsers(),u=id?users.find(x=>x.id===id):null;
  $("editingId").value=u?.id||"";$("displayName").value=u?.display_name||"";$("email").value=u?.email||"";
- $("role").innerHTML=config.roles.map(x=>'<option value="'+x.id+'">'+x.label+'</option>').join("");$("role").value=u?.role||"editor";
+ $("role").innerHTML=config.roles.filter(x=>u?.role==="super_admin"||x.id!=="super_admin").map(x=>'<option value="'+x.id+'">'+x.label+'</option>').join("");$("role").value=u?.role||"editor";
  renderOptions("siteOptions",config.sites,u?.sites||["ashdod"]);renderOptions("moduleOptions",config.modules,u?.modules||["events"]);
  $("active").checked=u?.active!==false;$("disableUserBtn").hidden=!u;$("drawerTitle").textContent=u?"עריכת משתמש":"הוספת משתמש";
  renderEffective();$("drawerBackdrop").hidden=false;$("userDrawer").classList.add("open");$("userDrawer").setAttribute("aria-hidden","false");
@@ -43,7 +43,7 @@ $("closeDrawer").onclick=closeDrawer;$("drawerBackdrop").onclick=closeDrawer;$("
 $("saveUserBtn").onclick=()=>{
  const name=$("displayName").value.trim(),email=$("email").value.trim();if(!name){alert("יש להזין שם משתמש.");return}
  const users=loadUsers(),id=$("editingId").value||("user-"+Date.now());
- const value={id,display_name:name,email,role:$("role").value,sites:selected("siteOptions"),modules:selected("moduleOptions"),active:$("active").checked,updated_at:new Date().toISOString()};
+ const chosenRole=$("role").value;if(chosenRole==="super_admin"&&$("editingId").value!=="owner-1"){alert("רק חשבון מנהל־העל הראשי יכול להיות מוגדר כמנהל־על.");return}const value={id,display_name:name,email,role:chosenRole,sites:selected("siteOptions"),modules:selected("moduleOptions"),active:$("active").checked,updated_at:new Date().toISOString()};
  const i=users.findIndex(x=>x.id===id);if(i>=0)users[i]={...users[i],...value};else users.push({...value,created_at:new Date().toISOString()});
  saveUsers(users);closeDrawer();render();
 };
