@@ -1,592 +1,67 @@
 {
-  "generated_at": "2026-10-07T11:21:03Z",
+  "generated_at": "2026-10-07T11:26:32Z",
   "total_events": 396,
-  "verified_images": 192,
-  "still_missing": 204,
+  "verified_images": 200,
+  "still_missing": 196,
   "stats": {
-    "accepted": 8,
-    "same_title_reuse": 75
+    "accepted": 4,
+    "same_title_reuse": 4
   },
   "newly_filled": [
     {
-      "event_id": "auto_as_ea75f55954e1835c2191",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 177.2
+      "event_id": "auto_as_028cca19d94dfafd0b51",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
+      "score": 186.6
     },
     {
-      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 186.7
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
+      "score": 186.0
     },
     {
-      "event_id": "auto_as_d6f20b5b24339863b497",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 187.0
+      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a930c99569b7364337836.jpeg",
+      "source": "https://ashdod.smarticket.co.il/iframe",
+      "score": 191.9
     },
     {
-      "event_id": "auto_as_59e494c94b56ac9e6861",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 217.0
+      "event_id": "auto_as_9a3cbab50396fa3af0c3",
+      "title": "שלגיה ו-7 הגמדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
+      "source": "https://ashdod.smarticket.co.il/iframe",
+      "score": 187.3
     },
     {
-      "event_id": "auto_as_1ae03ec698a65bb2455e",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 228.1
-    },
-    {
-      "event_id": "auto_as_0e504f3ec1134d211524",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 217.2
-    },
-    {
-      "event_id": "auto_as_665b57eff06e3c166682",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 185.7
-    },
-    {
-      "event_id": "auto_as_f002977fe467c1b61d10",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 223.4
-    },
-    {
-      "event_id": "auto_as_28fe848c6f89f60e0640",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_e4c26d0dfe196144a232",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_90e0977c4c75e8ca55a9",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_0a8724d73a8a25785bcb",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_5dc325769e5e781143ee",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_2e9b00b27cc3b531c934",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_746c9db0b742c132ff59",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_617490407af714bb4af4",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_7d3a5639ec3847f8a137",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_1671f155d6a206c3de2b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_7b18a3b8878c1169693b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_99d8856352ac024635f0",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_08f3d0b3508bb7dff7c9",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_58c1ea1851030cfaaa11",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_2e18ed2709b02baa3532",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_41ae0e273466d9a46327",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_9a8cdd916de4aaaf8311",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_ce847e364ee55065956b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_1e5059b53915f4c7fe21",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a578c11cb7a7bacb36e1",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_b069b87dfeecdb648ea4",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_3069ec1e14b7c33b581c",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_e8d879a99bf64df31e3a",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_823f171a4a98cd6fb9d9",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_626a62df2f41c6e27d8c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_da9a146c50c48a0aa0f4",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_772312d4fce5baa32388",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_180bd1ccf144be5544e3",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a523be9334deb93f5e65",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_2fda014dc7669a040b46",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_805c3f05170759f15ab0",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_243fa63e0656fad7477c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_9eb4ea3b1be8386c949c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_0d5c53deefa1e10c5f4d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a9e51b98a4ae798e4714",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_f42edb321dbde7088a3a",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_9b5eea9e1acf1feac5cf",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_b85b237616bfe945e8ea",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_8c0a6d5f1cabc435ad48",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_d7864c780fea6cbdc43d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_8d2a29d0cbadb103374e",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_65aaebf97ecda0981b5b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_b6539384c62acf076d94",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_87b190ce94eadcbb9bd1",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a0037fde67580f44fd73",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_c5f6d02c4792bae76e1c",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_c67cb1fd7296d8873ca3",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_68b8df7f7f0c4644faa6",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a67f2f422700efb610d7",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_cc2beedf4f76f168e9ff",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_79ae8e00a4276dc2d62d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_eda485f329036f12976a",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_9ae58929c271c5410eec",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_352f88495f20cea6b9d0",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_5276d7588775cf66475e",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_ed5e50ba93af66a6e37b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_0133c1d09d58f7aa05af",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_d56184583cc012704fb9",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_04e5b0c7c43ef1c5c535",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_fc3710430d80a20ff40c",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_255eb2a0c98790b70d69",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_a8e751087c2d16482459",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_f37ddc7e60553c75692d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_3ca3b2e37ec33ead2d63",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_6347127f965dcf0e1e59",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_54f7d788e86283b87fb1",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_50a7efb2b50ebe61a225",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_5f852eb04bb2d0cae7e1",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_59655390abaa9c53aa61",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_35bd1f217f32934d2492",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
       "score": "reuse"
     },
     {
-      "event_id": "auto_as_bca284c4df193823ce8c",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
+      "event_id": "auto_as_a663288373fc699de50c",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
       "score": "reuse"
     },
     {
-      "event_id": "auto_as_16220c6c0b421e0bd833",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
+      "event_id": "auto_as_7f6f806aaa9f19331b15",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
       "score": "reuse"
     },
     {
-      "event_id": "auto_as_7123985f38e74e783cb1",
-      "title": "סטודיו פתוח",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
+      "event_id": "auto_as_df38991c21985134c422",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
+      "source": "https://ashdod.smarticket.co.il/iframe",
       "score": "reuse"
     }
   ],
@@ -778,12 +253,6 @@
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804"
     },
     {
-      "event_id": "auto_as_028cca19d94dfafd0b51",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17613"
-    },
-    {
       "event_id": "sport_20261016_ms_ashdod_football",
       "title": "מ.ס. אשדוד - מכבי קריית גת",
       "category": "sport",
@@ -802,22 +271,10 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/דרושה_עוזרת_471f06b60d/?id=8221"
     },
     {
-      "event_id": "auto_as_a78d65b3f4ac3995294c",
-      "title": "מיסייה אלבר - הפקת מקור",
-      "category": "other",
-      "ticket_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17253"
-    },
-    {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
       "title": "הפועל אשדוד - בני הרצליה",
       "category": "sport",
       "ticket_url": "https://handballisr.co.il/team.asp?TId=131"
-    },
-    {
-      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
-      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
-      "category": "other",
-      "ticket_url": "https://ashdod.smarticket.co.il/מוצאים_עוגן_בתוך_הסערה_|_לנשים_בלבד/?id=17638"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -842,12 +299,6 @@
       "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/מעשה_בחמישה_בלונים_|_שעת_סיפור_עם_רינתי/?id=17643"
-    },
-    {
-      "event_id": "auto_as_8ac6ea288cb265605b77",
-      "title": "מיסייה אלבר - הפקת מקור",
-      "category": "other",
-      "ticket_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255"
     },
     {
       "event_id": "auto_as_91024d3eccf55a0b44ad",
@@ -1006,12 +457,6 @@
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_בינה_מלאכותית_Ai_/?id=17603"
     },
     {
-      "event_id": "auto_as_a663288373fc699de50c",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17614"
-    },
-    {
       "event_id": "auto_as_1433fdc5973b6695bdc3",
       "title": "עופרה",
       "category": "other",
@@ -1034,12 +479,6 @@
       "title": "מועדון קריאה -סדרת מפגשים מרתקים על יצירות ספרותיות בהנחיית הסופרת איריס ארגמן",
       "category": "lecture",
       "ticket_url": "https://ashdod.smarticket.co.il/מועדון_קריאה_-סדרת_מפגשים_מרתקים_על_יצירות_ספרותיות_בהנחיית_הסופרת_איריס_ארגמן/?id=17297"
-    },
-    {
-      "event_id": "auto_as_9a3cbab50396fa3af0c3",
-      "title": "שלגיה ו-7 הגמדים",
-      "category": "other",
-      "ticket_url": "https://ashdod.smarticket.co.il/שלגיה_ו-7_הגמדים/?id=17306"
     },
     {
       "event_id": "auto_as_7baf69bd3cb635730590",
@@ -1094,18 +533,6 @@
       "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/הקסם_שבצבע_-_בכיכובה_של_סתיו_בכל_הצבעים/?id=8226"
-    },
-    {
-      "event_id": "auto_as_7f6f806aaa9f19331b15",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17616"
-    },
-    {
-      "event_id": "auto_as_df38991c21985134c422",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17615"
     },
     {
       "event_id": "auto_as_19c0457586e8a88fbe65",
