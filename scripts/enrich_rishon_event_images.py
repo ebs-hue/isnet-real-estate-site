@@ -26,6 +26,8 @@ SITE = ROOT / "events-preview" / "rishon-lezion"
 DATA = SITE / "data" / "events.json"
 REPORT = SITE / "data" / "image-audit.json"
 OUT = SITE / "assets" / "events"
+MEDIA_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "media.json"
+PRODUCTIONS_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "productions.json"
 AGENTS = {"User-Agent": "Mozilla/5.0 (compatible; ISNET-EventsImageQA/1.0; editorial event listings)", "Accept-Language": "he-IL,he;q=0.9,en;q=0.8"}
 SITES = {
     "htrl": ["https://htrl.co.il/show/", "https://htrl.co.il/", "https://htrl.co.il/לוח-שנה/"],
@@ -211,6 +213,34 @@ def download_photo(url, origin):
     finally:
         session.headers.pop("Referer", None)
 
+def bank_asset_url(media):
+    u = media.get("url") or ""
+    if not u:
+        return None
+    if u.startswith(("http://", "https://", "data:")):
+        return u
+    city = (media.get("cities") or [None])[0]
+    if u.startswith("media-bank/"):
+        return "../" + u
+    if city:
+        return "../" + city + "/" + u
+    return u
+
+def load_bank_reuse():
+    if not MEDIA_INDEX.is_file() or not PRODUCTIONS_INDEX.is_file():
+        return {}
+    media_doc = json.loads(MEDIA_INDEX.read_text(encoding="utf-8"))
+    prod_doc = json.loads(PRODUCTIONS_INDEX.read_text(encoding="utf-8"))
+    by_id = {m.get("media_id"): m for m in media_doc.get("media", []) if m.get("media_id")}
+    out = {}
+    for p in prod_doc.get("productions", []):
+        mid = p.get("preferred_media_id")
+        m = by_id.get(mid)
+        if not m or m.get("status") != "approved" or m.get("publishable") is not True:
+            continue
+        out[p.get("production_key") or norm(p.get("name"))] = m
+    return out
+
 def content_ready_for_media(e):
     text = e.get("long_description") or e.get("short_pitch") or e.get("series_description") or e.get("description") or ""
     brief = e.get("image_brief") or ""
@@ -225,6 +255,7 @@ def enrich():
     used = {}
     failures = []
     reasons = Counter()
+    bank_reuse = load_bank_reuse()
     for ix, e in enumerate(events, 1):
         title = e.get("title", "")
         current = e.get("image_url") or ""
@@ -265,6 +296,32 @@ def enrich():
                 found[e.get("event_id")] = rel
                 reasons["verified_existing_candidate"] += 1
                 print(f"{ix:02}/{len(events)} VERIFIED EXISTING: {title}", flush=True)
+                continue
+
+        # Network-wide reuse: before any new source request, prefer an approved
+        # central bank image for the exact production/show identity.
+        pkey = norm(e.get("production_name") or e.get("series_name") or title)
+        bank_media = bank_reuse.get(pkey)
+        if bank_media:
+            full = bank_asset_url(bank_media)
+            thumb = "../" + bank_media["card_url"] if str(bank_media.get("card_url") or "").startswith("media-bank/") else full
+            if full:
+                e.update({
+                    "image_url": full,
+                    "image_source": bank_media.get("source_url"),
+                    "image_origin_url": bank_media.get("origin_url") or full,
+                    "image_credit": bank_media.get("credit"),
+                    "image_publishable": True,
+                    "image_verified": True,
+                    "image_rights_status": bank_media.get("rights_status") or "verified_reuse",
+                    "image_strategy": "central_media_bank_reuse",
+                    "thumbnail_url": thumb,
+                    "thumbnail_ready": bool(thumb),
+                    "media_bank_id": bank_media.get("media_id"),
+                })
+                found[e.get("event_id")] = full
+                reasons["central_media_bank_reuse"] += 1
+                print(f"{ix:02}/{len(events)} BANK REUSE: {title}", flush=True)
                 continue
 
         if not content_ready_for_media(e):
