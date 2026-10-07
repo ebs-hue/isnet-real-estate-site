@@ -54,3 +54,4 @@ jobs:
           SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL || secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY || secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -u scripts/auto_publish_ready_events.py
+# verification-trigger
