@@ -211,6 +211,11 @@ def download_photo(url, origin):
     finally:
         session.headers.pop("Referer", None)
 
+def content_ready_for_media(e):
+    text = e.get("long_description") or e.get("short_pitch") or e.get("series_description") or e.get("description") or ""
+    brief = e.get("image_brief") or ""
+    return bool(e.get("content_ready_for_media") is True or len(str(text).strip()) >= 80 or len(str(brief).strip()) >= 40)
+
 def enrich():
     doc = json.loads(DATA.read_text(encoding="utf-8"))
     events = doc.get("events", [])
@@ -261,6 +266,15 @@ def enrich():
                 reasons["verified_existing_candidate"] += 1
                 print(f"{ix:02}/{len(events)} VERIFIED EXISTING: {title}", flush=True)
                 continue
+
+        if not content_ready_for_media(e):
+            e["media_status"] = "waiting_for_content"
+            e["image_verified"] = False
+            e["image_publishable"] = False
+            e["image_rights_status"] = e.get("image_rights_status") or ("missing" if not current else "needs_review")
+            reasons["waiting_for_content"] += 1
+            print(f"{ix:02}/{len(events)} WAIT CONTENT: {title}", flush=True)
+            continue
 
         # Legacy SVG placeholders were incorrectly flagged as 'verified'.
         e["image_verified"] = False
