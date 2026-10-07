@@ -5,8 +5,15 @@ const params=new URLSearchParams(location.search);
 const city=params.get("city"),id=params.get("id");
 const cfg=cityMap[city];
 let original=null,currentImageData=null;
+const OVERRIDE_KEY="isnet-event-overrides";
 
 function draftKey(){return "isnet-event-draft:"+city+":"+id}
+function readOverrides(){try{return JSON.parse(localStorage.getItem(OVERRIDE_KEY)||"{}")}catch{return{}}}
+function saveOverride(status){
+  const map=readOverrides();map[city+":"+id]={status,updated_at:new Date().toISOString()};localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));
+  $("status").value=status;$("saveNote").textContent=status==="hidden"?"האירוע סומן כמוסתר.":status==="archived"?"האירוע הועבר לארכיון.":"האירוע הועבר לסל.";
+  setTimeout(()=>location.href="./",500);
+}
 function setOptions(){ $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("") }
 function imageUrl(e){const raw=e.thumbnail_url||e.image_url||"";return raw?(/^(https?:|data:)/.test(raw)?raw:cfg.base+raw):""}
 function fill(e,ed={}){
@@ -47,6 +54,9 @@ $("imageFile").addEventListener("change",e=>{
   const reader=new FileReader();reader.onload=()=>{currentImageData=reader.result;$("imagePreview").style.backgroundImage='url("'+reader.result+'")';$("imageApproved").checked=false;$("imageState").innerHTML='<span class="tag warn">תמונה חדשה · דורשת אישור</span>'};reader.readAsDataURL(file);
 });
 $("saveDraftBtn").addEventListener("click",()=>{localStorage.setItem(draftKey(),JSON.stringify(collect()));$("saveNote").textContent="הטיוטה נשמרה בדפדפן ב־"+new Date().toLocaleTimeString("he-IL",{hour:"2-digit",minute:"2-digit"});});
-$("restoreBtn").addEventListener("click",()=>{if(!original)return;localStorage.removeItem(draftKey());fill(original.event,original.editorial);$("saveNote").textContent="חזרת לנתוני המקור.";});
+$("hideBtn").addEventListener("click",()=>saveOverride("hidden"));
+$("archiveBtn").addEventListener("click",()=>saveOverride("archived"));
+$("trashBtn").addEventListener("click",()=>{if(confirm("להעביר את האירוע לסל? אפשר יהיה לשחזר אותו בהמשך."))saveOverride("trashed")});
+$("restoreBtn").addEventListener("click",()=>{if(!original)return;localStorage.removeItem(draftKey());const map=readOverrides();delete map[city+":"+id];localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));fill(original.event,original.editorial);$("saveNote").textContent="חזרת לנתוני המקור.";});
 $("previewBtn").addEventListener("click",()=>{if(!cfg||!id)return;window.open(cfg.base+"event.html?id="+encodeURIComponent(id),"_blank","noopener")});
 load().catch(err=>{$("pageTitle").textContent="לא ניתן לטעון את האירוע";$("pageMeta").textContent=String(err.message||err)});
