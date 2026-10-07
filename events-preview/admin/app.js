@@ -105,6 +105,8 @@ function render(){
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
     const editUrl=(e._localNew?"new.html?edit=1&city=":"edit.html?city=")+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
     const statusLabel=e.status==="draft"?"טיוטה":e.status==="hidden"?"מוסתר":e.status==="archived"?"ארכיון":e.status==="trashed"?"בסל":"";
+    const promotionLabel=e.promotion==="promoted"?"מקודם":e.promotion==="recommended"?"מומלץ":"רגיל";
+    const promotionClass=e.promotion==="promoted"?"promotion-promoted":e.promotion==="recommended"?"promotion-recommended":"promotion-normal";
     return '<tr>'+
       '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
       '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div>'+(statusLabel?'<span class="status-chip status-'+esc(e.status)+'">'+esc(statusLabel)+'</span>':'')+'</div></div></td>'+
@@ -112,6 +114,7 @@ function render(){
       '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td>'+
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
+      '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
       '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
       '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
       '<td><a class="edit-link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
