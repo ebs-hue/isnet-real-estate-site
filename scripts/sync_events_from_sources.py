@@ -226,6 +226,103 @@ def list_lines(soup):
     return [x.strip() for x in soup.get_text("\n", strip=True).splitlines() if x.strip()]
 
 
+def detail_text_from_page(soup):
+    """Extract useful editorial source text from one event detail page."""
+    clone = BeautifulSoup(str(soup), "html.parser")
+    for el in clone(["script", "style", "noscript", "svg", "nav", "footer", "form"]):
+        el.decompose()
+    parts = []
+    for sel in ("h1", ".event-description", ".description", ".content", "article", "main"):
+        for node in clone.select(sel):
+            txt = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+            if 30 <= len(txt) <= 12000:
+                parts.append(txt)
+    if not parts:
+        txt = re.sub(r"\s+", " ", clone.get_text(" ", strip=True)).strip()
+        if txt:
+            parts.append(txt)
+    # preserve order while removing duplicate blocks
+    seen, out = set(), []
+    for txt in parts:
+        key = text_norm(txt)[:500]
+        if not key or key in seen:
+            continue
+        seen.add(key); out.append(txt)
+    return " ".join(out)[:14000]
+
+
+def find_detail_link(soup, title, source_url):
+    """Find a likely exact event/show detail link from a listing page."""
+    nt = text_norm(title)
+    best = None
+    best_score = 0
+    for a in soup.select("a[href]"):
+        href = safe_url(a.get("href"), source_url)
+        if not href or href == source_url:
+            continue
+        label = text_norm(a.get_text(" ", strip=True))
+        if not label:
+            continue
+        score = 0
+        if label == nt:
+            score = 100
+        elif nt and nt in label:
+            score = 90
+        elif label and label in nt and len(label) >= 6:
+            score = 80
+        else:
+            ta, tb = set(nt.split()), set(label.split())
+            if ta:
+                overlap = len(ta & tb) / len(ta)
+                score = round(overlap * 70)
+        if score > best_score:
+            best_score, best = score, href
+    return best if best_score >= 65 else None
+
+
+def enrich_row_from_detail(row, listing_soup, source):
+    """Open an event card/detail page and preserve its richer source material."""
+    detail_url = row.get("ticket_url")
+    if not detail_url or detail_url == source["url"]:
+        detail_url = find_detail_link(listing_soup, row.get("title") or "", source["url"])
+    if not detail_url or detail_url == source["url"]:
+        return row
+    detail, err = fetch_once({"url": detail_url})
+    if not detail:
+        return row
+    row["detail_source_url"] = detail_url
+    text = detail_text_from_page(detail)
+    if text:
+        row["source_detail_text"] = text
+        row["source_detail_text_length"] = len(text)
+    # Prefer explicit social/structured event image from the detail page.
+    for selector in (
+        'meta[property="og:image"]',
+        'meta[property="og:image:url"]',
+        'meta[name="twitter:image"]',
+    ):
+        node = detail.select_one(selector)
+        if node and node.get("content"):
+            img = safe_url(node.get("content"), detail_url, allow_external=True)
+            if img:
+                row["image_url"] = img
+                row["image_source"] = detail_url
+                row["image_origin_url"] = img
+                row["image_rights_status"] = "needs_review"
+                row["image_verified"] = False
+                row["image_publishable"] = False
+                row["image_candidates"] = [{"url": img, "source_url": detail_url, "rights_status": "needs_review"}]
+                break
+    # The detail page is a better action URL than the general calendar.
+    row["ticket_url"] = detail_url
+    row["purchase_url"] = detail_url
+    flags = list(row.get("quality_flags") or [])
+    if "detail_page_collected" not in flags:
+        flags.append("detail_page_collected")
+    row["quality_flags"] = flags
+    return row
+
+
 def htrl_rows(soup, source):
     lines = list_lines(soup)
     found = []
@@ -410,14 +507,28 @@ def source_rows(soup, source):
     structured = generic_jsonld_rows(soup, source)
     if parser == "ofek":
         from ofek_event_source import extract_ofek_events
-        return extract_ofek_events(soup, source, fetch_once)
-    if parser == "htrl":
-        return htrl_rows(soup, source) + structured
-    if parser == "smarticket":
-        return smarticket_rows(soup, source) + structured
-    if parser == "kotar":
-        return kotar_rows(soup, source) + structured
-    return structured
+        rows = extract_ofek_events(soup, source, fetch_once)
+    elif parser == "htrl":
+        rows = htrl_rows(soup, source) + structured
+    elif parser == "smarticket":
+        rows = smarticket_rows(soup, source) + structured
+    elif parser == "kotar":
+        rows = kotar_rows(soup, source) + structured
+    else:
+        rows = structured
+
+    # Listing pages are discovery only. For events inside the five-month
+    # working horizon, open the actual event/show card and collect the richer
+    # source text before AI enrichment starts.
+    today = date.today()
+    horizon = add_months(today, EVENT_HORIZON_MONTHS).isoformat()
+    enriched = []
+    for row in rows:
+        d = str(row.get("start_date") or "")
+        if today.isoformat() <= d <= horizon:
+            row = enrich_row_from_detail(row, soup, source)
+        enriched.append(row)
+    return enriched
 
 
 def event_key(obj):
