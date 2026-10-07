@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>סוכנים ואוטומציות | ISNET</title>
+<link rel="stylesheet" href="styles.css?v=20261007-1400">
+<link rel="stylesheet" href="agents.css?v=20261007-1400">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth/config.js?v=20261007-1225"></script>
+</head>
+<body>
+<header class="topbar">
+ <div><div class="eyebrow">ISNET AI CMS · שכבת סוכנים</div><h1>סוכנים ואוטומציות</h1><p>שרשרת העבודה שמכינה כל פריט תוכן לאישור אנושי.</p></div>
+ <div class="top-actions"><a class="secondary action-link" href="./">חזרה למרכז הניהול</a></div>
+</header>
+<main class="agents-main">
+ <section class="panel pipeline-panel">
+  <div class="panel-title"><div><h2>שרשרת העבודה</h2><p>אף סוכן אינו מפרסם לבד בשלב זה.</p></div><span class="human-badge">אישור אנושי חובה</span></div>
+  <div id="pipeline" class="pipeline"></div>
+ </section>
+ <section class="panel">
+  <div class="panel-title"><div><h2>סוכני המערכת</h2><p>הגדרה מרכזית של אחריות, הרשאות ומגבלות.</p></div></div>
+  <div id="agentsGrid" class="agents-grid"></div>
+ </section>
+ <section class="panel media-policy">
+  <div class="panel-title"><div><h2>מדיניות סוכן התמונות</h2><p>סדר עדיפויות קבוע לפני שימוש או יצירת תמונה.</p></div></div>
+  <div id="mediaFlow" class="media-flow"></div>
+ </section>
+</main>
+<script src="agents.js?v=20261007-1400"></script>
+<script type="module">
+import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
+const auth=await requireAuth();
+if(auth && !auth.pilot){
+ const btn=document.createElement("button");btn.className="secondary";btn.textContent="התנתקות";btn.addEventListener("click",signOut);
+ document.querySelector(".top-actions")?.appendChild(btn);
+}
+</script>
+</body></html>
