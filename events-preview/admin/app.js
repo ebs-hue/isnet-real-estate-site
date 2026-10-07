@@ -91,6 +91,7 @@ function render(){
     const src=(e.sources||[])[0]?.name||e.purchase_source||"—";
     const issues=e._issues.length?e._issues.map(i=>'<span class="tag '+i.level+'">'+esc(i.label)+'</span>').join(""):'<span class="tag good">תקין</span>';
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
+    const editUrl="edit.html?city="+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
     return '<tr>'+
       '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
       '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div></div></div></td>'+
@@ -99,7 +100,7 @@ function render(){
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
-      '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
+      '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a><br><a class="link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
       '</tr>';
   }).join("");
 }
