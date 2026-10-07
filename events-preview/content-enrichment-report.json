@@ -1,40 +1,82 @@
 {
-  "generated_at": "2026-10-07T12:07:13Z",
+  "generated_at": "2026-10-07T16:00:10Z",
   "model": "gpt-5-mini",
-  "checked": 5,
-  "enriched": 5,
+  "checked": 12,
+  "enriched": 9,
   "insufficient": 0,
-  "source_text_insufficient": 0,
+  "source_text_insufficient": 3,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_ad12fbe9a49b4c834b1c",
+      "event_id": "auto_as_e4c26d0dfe196144a232",
+      "title": "סטודיו פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
+      "title": "הפועל אשדוד - מכבי פתח תקוה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_38_20261008",
+      "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_69_20261008",
+      "title": "מיקה שלי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_39_20261008",
+      "title": "קובי מימון",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_90e0977c4c75e8ca55a9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_70_20261010",
+      "title": "הלב זוכר",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_eedd7026c3a8b4e99863",
       "title": "המרחב הבטוח לילדים ולהורים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ea75f55954e1835c2191",
+      "event_id": "auto_as_0a8724d73a8a25785bcb",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0b4b250a9cc0940ed28c",
-      "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_5_20261008",
-      "title": "סדנא - שימור ושיפור הזיכרון",
+      "event_id": "auto_as_d3d85fc677ccecdad1de",
+      "title": "סדנת קאנבה",
       "status": "ready"
     }
   ]
