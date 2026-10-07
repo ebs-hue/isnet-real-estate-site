@@ -37,6 +37,13 @@ function renderAllTaxonomies(e={}){
   renderTaxonomy("organizations",orgs,e.organizations||[]);
   renderTaxonomy("distributionTargets",taxonomy.distribution_targets,e.distribution_targets||[]);
 }
+function makeSlug(value){
+  return String(value||"").normalize("NFKC").trim().toLowerCase()
+    .replace(/["'״׳]/g,"")
+    .replace(/[^\p{L}\p{N}]+/gu,"-")
+    .replace(/^-+|-+$/g,"")
+    .slice(0,90);
+}
 function imageUrl(e){const raw=e.thumbnail_url||e.image_url||"";return raw?(/^(https?:|data:)/.test(raw)?raw:cfg.base+raw):""}
 function fill(e,ed={}){
   $("title").value=e.title||"";
@@ -47,7 +54,7 @@ function fill(e,ed={}){
   $("smartDistribution").checked=e.smart_distribution!==false;
   $("seoTitle").value=e.seo_title||e.title||"";
   $("seoDescription").value=e.seo_description||ed.short_pitch||e.short_pitch||"";
-  $("seoSlug").value=e.seo_slug||"";
+  $("seoSlug").value=e.seo_slug||makeSlug(e.title||"");
   $("schemaType").value=e.schema_type||"Event";
   $("seoIndex").checked=e.seo_index!==false;
   $("promoteHome").checked=e.promote_home===true;
