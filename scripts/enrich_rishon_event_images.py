@@ -15,6 +15,7 @@ import unicodedata
 from collections import Counter
 from difflib import SequenceMatcher
 from pathlib import Path
+from datetime import date
 from urllib.parse import quote, unquote, urljoin, urlparse
 
 import requests
@@ -248,7 +249,7 @@ def content_ready_for_media(e):
 
 def enrich():
     doc = json.loads(DATA.read_text(encoding="utf-8"))
-    events = doc.get("events", [])
+    events = [e for e in doc.get("events", []) if in_horizon(e)]
     OUT.mkdir(parents=True, exist_ok=True)
     found = {}
     photo_owners = {}
