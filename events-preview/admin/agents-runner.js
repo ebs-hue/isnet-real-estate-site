@@ -1,3 +1,4 @@
+(function(){
 const CITY_CONFIG=[
   {slug:"ashdod",name:"אשדוד",base:"../ashdod/"},
   {slug:"rishon-lezion",name:"ראשון לציון",base:"../rishon-lezion/"}
@@ -188,4 +189,6 @@ async function run(){
     console.error(err);$("runStatus").textContent="אירעה שגיאה בהרצת הסוכנים.";
   }finally{btn.disabled=false;btn.textContent="הרץ סוכנים ופרסם תקינים"}
 }
+$("runStatus").textContent="המנוע מוכן להפעלה.";
 $("runAgentsBtn")?.addEventListener("click",run);
+})();
