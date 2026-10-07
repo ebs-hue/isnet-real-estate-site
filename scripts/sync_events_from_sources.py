@@ -295,24 +295,65 @@ def enrich_row_from_detail(row, listing_soup, source):
     if text:
         row["source_detail_text"] = text
         row["source_detail_text_length"] = len(text)
-    # Prefer explicit social/structured event image from the detail page.
-    for selector in (
-        'meta[property="og:image"]',
-        'meta[property="og:image:url"]',
-        'meta[name="twitter:image"]',
+    # Prefer the highest-quality image from the event detail page.
+    # Listing-card thumbnails are only fallback candidates.
+    image_candidates = []
+    for selector, score in (
+        ('meta[property="og:image"]', 120),
+        ('meta[property="og:image:url"]', 118),
+        ('meta[name="twitter:image"]', 115),
     ):
-        node = detail.select_one(selector)
-        if node and node.get("content"):
-            img = safe_url(node.get("content"), detail_url, allow_external=True)
-            if img:
-                row["image_url"] = img
-                row["image_source"] = detail_url
-                row["image_origin_url"] = img
-                row["image_rights_status"] = "needs_review"
-                row["image_verified"] = False
-                row["image_publishable"] = False
-                row["image_candidates"] = [{"url": img, "source_url": detail_url, "rights_status": "needs_review"}]
-                break
+        for node in detail.select(selector):
+            raw = node.get("content")
+            if raw:
+                img = safe_url(raw, detail_url, allow_external=True)
+                if img:
+                    image_candidates.append((score, img, "detail_meta"))
+
+    for img_node in detail.select("main img, article img, .content img, .event img, img"):
+        alt = text_norm((img_node.get("alt") or "") + " " + (img_node.get("title") or ""))
+        base_score = 80
+        title_norm = text_norm(row.get("title") or "")
+        if title_norm and alt:
+            if title_norm == alt:
+                base_score += 35
+            elif title_norm in alt or alt in title_norm:
+                base_score += 22
+
+        srcset = img_node.get("srcset") or img_node.get("data-srcset") or ""
+        if srcset:
+            parts = [x.strip().split()[0] for x in srcset.split(",") if x.strip()]
+            if parts:
+                img = safe_url(parts[-1], detail_url, allow_external=True)
+                if img:
+                    image_candidates.append((base_score + 20, img, "detail_srcset"))
+
+        for attr in ("data-src", "data-lazy-src", "data-original", "src"):
+            raw = img_node.get(attr)
+            if raw:
+                img = safe_url(raw, detail_url, allow_external=True)
+                if img:
+                    image_candidates.append((base_score, img, "detail_img"))
+
+    if image_candidates:
+        # De-duplicate and choose the strongest detail-page image.
+        best = {}
+        for score, img, why in image_candidates:
+            prev = best.get(img)
+            if prev is None or score > prev[0]:
+                best[img] = (score, img, why)
+        score, img, why = sorted(best.values(), key=lambda x: (-x[0], len(x[1])))[0]
+        row["image_url"] = img
+        row["image_source"] = detail_url
+        row["image_origin_url"] = img
+        row["image_rights_status"] = "needs_review"
+        row["image_verified"] = False
+        row["image_publishable"] = False
+        row["image_strategy"] = "detail_page_high_quality_candidate"
+        row["image_candidates"] = [
+            {"url": u, "source_url": detail_url, "rights_status": "needs_review", "score": s, "reason": w}
+            for s, u, w in sorted(best.values(), key=lambda x: -x[0])[:8]
+        ]
     # The detail page is a better action URL than the general calendar.
     row["ticket_url"] = detail_url
     row["purchase_url"] = detail_url
