@@ -1,6 +1,6 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-07T17:26:19Z",
+  "generated_at": "2026-10-07T22:13:33Z",
   "window": {
     "from": "2026-10-07",
     "to": "2027-09-20"
@@ -12638,16 +12638,16 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://htrl.co.il/third-calendar/",
-      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "ticket_url": "https://htrl.co.il/%d7%9c%d7%92%d7%9c%d7%95%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%9e%d7%95%d7%a4%d7%a2%d7%99%d7%9d/",
+      "purchase_url": "https://htrl.co.il/%d7%9c%d7%92%d7%9c%d7%95%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%9e%d7%95%d7%a4%d7%a2%d7%99%d7%9d/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+      "image_source": "https://htrl.co.il/%d7%9c%d7%92%d7%9c%d7%95%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%9e%d7%95%d7%a4%d7%a2%d7%99%d7%9d/",
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_origin_url": null,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": "לגלות תרבות",
@@ -12660,8 +12660,8 @@
           "observed_at": "2026-10-06T13:03:02Z"
         }
       ],
-      "observed_at": "2026-10-06T13:03:02Z",
-      "last_verified_at": "2026-10-06T13:03:02Z",
+      "observed_at": "2026-10-07T22:13:33Z",
+      "last_verified_at": "2026-10-07T22:13:33Z",
       "status": "active",
       "quality_flags": [
         "automated_official_calendar"
@@ -12680,7 +12680,14 @@
       "media_status": "waiting_for_content",
       "content_ready_for_media": false,
       "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_retry_after": "2026-10-14",
+      "image_candidates": [
+        {
+          "url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+          "source_url": "https://htrl.co.il/%d7%9c%d7%92%d7%9c%d7%95%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%9e%d7%95%d7%a4%d7%a2%d7%99%d7%9d/",
+          "rights_status": "needs_review"
+        }
+      ]
     },
     {
       "city": "ראשון לציון",
@@ -15561,16 +15568,16 @@
       "price_max_ils": null,
       "is_free": null,
       "ticket_status": "unknown",
-      "ticket_url": "https://htrl.co.il/third-calendar/",
-      "purchase_url": "https://htrl.co.il/third-calendar/",
+      "ticket_url": "https://htrl.co.il/actor/",
+      "purchase_url": "https://htrl.co.il/actor/",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
+      "image_url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+      "image_source": "https://htrl.co.il/actor/",
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_origin_url": null,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": "לגלות תרבות",
@@ -15583,8 +15590,8 @@
           "observed_at": "2026-10-06T13:03:02Z"
         }
       ],
-      "observed_at": "2026-10-06T13:03:02Z",
-      "last_verified_at": "2026-10-06T13:03:02Z",
+      "observed_at": "2026-10-07T22:13:33Z",
+      "last_verified_at": "2026-10-07T22:13:33Z",
       "status": "active",
       "quality_flags": [
         "automated_official_calendar"
@@ -15603,7 +15610,14 @@
       "media_status": "waiting_for_content",
       "content_ready_for_media": false,
       "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_retry_after": "2026-10-14",
+      "image_candidates": [
+        {
+          "url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+          "source_url": "https://htrl.co.il/actor/",
+          "rights_status": "needs_review"
+        }
+      ]
     },
     {
       "city": "ראשון לציון",
