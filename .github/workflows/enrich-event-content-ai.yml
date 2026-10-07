@@ -22,11 +22,11 @@ jobs:
   enrich:
     if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 120
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_EVENT_ENRICHMENT_MODEL: ${{ vars.OPENAI_EVENT_ENRICHMENT_MODEL || 'gpt-5-mini' }}
-      EVENT_ENRICHMENT_LIMIT: "5"
+      EVENT_ENRICHMENT_LIMIT: "12"
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -49,29 +49,33 @@ jobs:
             exit 2
           fi
 
-      - name: Enrich events that need media context
-        run: python -u scripts/enrich_event_content_ai.py
-
-      - name: Commit enriched event content
+      - name: Enrich and checkpoint event content in batches
         run: |
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events-preview/ashdod/data/events.json \
-                  events-preview/rishon-lezion/data/events.json \
-                  events-preview/content-enrichment-report.json
-          if git diff --cached --quiet; then
-            echo "No content enrichment changes."
-            exit 0
-          fi
-          git commit -m "Enrich event content and media briefs"
-          for retry in 1 2 3; do
-            git fetch origin main
-            if git rebase origin/main && git push origin HEAD:main; then
-              echo "Content enrichment committed."
-              exit 0
+
+          for batch in $(seq 1 12); do
+            echo "=== Content enrichment batch $batch ==="
+            python -u scripts/enrich_event_content_ai.py
+
+            git add events-preview/ashdod/data/events.json \
+                    events-preview/rishon-lezion/data/events.json \
+                    events-preview/content-enrichment-report.json
+
+            if git diff --cached --quiet; then
+              echo "No more enrichment changes."
+              break
             fi
-            git rebase --abort || true
-            sleep 3
+
+            git commit -m "Enrich event content batch $batch"
+
+            for retry in 1 2 3; do
+              git fetch origin main
+              if git rebase origin/main && git push origin HEAD:main; then
+                echo "Batch $batch saved."
+                break
+              fi
+              git rebase --abort || true
+              sleep 3
+            done
           done
-          echo "Could not publish content enrichment" >&2
-          exit 1
