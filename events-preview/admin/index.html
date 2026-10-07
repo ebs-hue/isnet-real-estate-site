@@ -6,6 +6,8 @@
   <meta name="robots" content="noindex,nofollow">
   <title>מרכז ניהול אירועים | ISNET</title>
   <link rel="stylesheet" href="styles.css?v=20261007-1150">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="auth/config.js?v=20261007-1225"></script>
 </head>
 <body>
   <header class="topbar">
@@ -107,5 +109,16 @@
     <article class="stat"><strong></strong><span></span><small></small></article>
   </template>
   <script src="app.js?v=20261007-1100"></script>
+<script type="module">
+import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
+const auth=await requireAuth();
+if(auth && !auth.pilot){
+  const btn=document.createElement("button");
+  btn.className="secondary";
+  btn.textContent="התנתקות";
+  btn.addEventListener("click",signOut);
+  document.querySelector(".top-actions")?.appendChild(btn);
+}
+</script>
 </body>
 </html>
