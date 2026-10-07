@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib, html, json, re, ssl, time, unicodedata
 from collections import defaultdict, Counter
 from pathlib import Path
+from datetime import date
 from urllib.parse import quote, urljoin, urlsplit, urlunsplit, parse_qs
 from urllib.request import Request, urlopen
 
@@ -13,6 +14,21 @@ REPORT=EVENT_ROOT/"data"/"listing-image-fill-report.json"
 OUT=EVENT_ROOT/"assets"/"events"
 MEDIA_INDEX=ROOT/"events-preview"/"media-bank"/"data"/"media.json"
 PRODUCTIONS_INDEX=ROOT/"events-preview"/"media-bank"/"data"/"productions.json"
+EVENT_HORIZON_MONTHS=5
+
+def add_months(d,months):
+    import calendar
+    month_index=d.month-1+months
+    year=d.year+month_index//12
+    month=month_index%12+1
+    day=min(d.day,calendar.monthrange(year,month)[1])
+    return date(year,month,day)
+
+def in_horizon(e):
+    d=str(e.get("start_date") or "")
+    today=date.today().isoformat()
+    return today <= d <= add_months(date.today(),EVENT_HORIZON_MONTHS).isoformat()
+
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
 BAD=("logo","favicon","facebook_oauth","google_oauth","microsoft_oauth","artistshadow","eventnew.jpg","placeholder","no_pic","no-pic","default","sprite","spinner","languages/")
 TIMEOUT=18
@@ -144,7 +160,7 @@ def load_bank_reuse():
     return out
 
 def main():
-    data=json.loads(DATA.read_text(encoding="utf-8"));events=data.get("events") or []
+    data=json.loads(DATA.read_text(encoding="utf-8"));events=[e for e in (data.get("events") or []) if in_horizon(e)]
     bank_reuse=load_bank_reuse()
     stats=Counter();new=[];accepted_title={}
     # Reuse an approved network-wide asset before any external source request.
