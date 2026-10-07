@@ -12,7 +12,7 @@ import json
 import os
 import re
 import time
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -68,6 +68,9 @@ def needs_enrichment(event):
     if event.get("content_locked") is True:
         return False
     if event.get("content_origin") in {"manual", "editorial"} and existing_context(event):
+        return False
+    retry_after = str(event.get("content_enrichment_retry_after") or "")
+    if event.get("content_enrichment_status") == "source_text_insufficient" and retry_after > date.today().isoformat():
         return False
     return event.get("content_enrichment_version") != 2
 
@@ -237,6 +240,7 @@ def main():
                 event["content_ready_for_media"] = False
                 event["media_status"] = "waiting_for_content"
                 event["content_enrichment_status"] = "source_text_insufficient"
+                event["content_enrichment_retry_after"] = (date.today() + timedelta(days=7)).isoformat()
                 fetch_failed += 1
                 changed = True
                 rows.append({"city": slug, "event_id": event.get("event_id"), "title": event.get("title"), "status": "source_text_insufficient"})
