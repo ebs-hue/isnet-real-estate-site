@@ -20,3 +20,6 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 .top-create{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:10px 16px;border-radius:10px;background:#1267e5;color:#fff;font-weight:800;border:1px solid #4f91ee}
 .status-chip{display:inline-flex;align-items:center;border-radius:999px;padding:4px 8px;font-size:11px;font-weight:800;margin-top:6px}
 .status-draft{background:#eef3fa;color:#40506a}.status-hidden{background:#fff4df;color:#9a5d00}.status-archived{background:#eee9ff;color:#6747b8}.status-trashed{background:#fdecec;color:#b03030}
+
+.promotion-chip{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800;white-space:nowrap}
+.promotion-normal{background:#eef3fa;color:#526079}.promotion-recommended{background:#e8f7f1;color:#14845f}.promotion-promoted{background:#e8f0ff;color:#0b4eb0;border:1px solid #b8cdf6}
