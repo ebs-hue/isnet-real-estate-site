@@ -165,6 +165,11 @@ def page_candidates(title,page,markup):
         if row[1] not in best or row[0]>best[row[1]][0]:best[row[1]]=row
     return sorted(best.values(),reverse=True)
 
+def content_ready_for_media(e):
+    text=(e.get("long_description") or e.get("short_pitch") or e.get("series_description") or e.get("description") or "")
+    brief=e.get("image_brief") or ""
+    return bool(e.get("content_ready_for_media") is True or len(str(text).strip())>=80 or len(str(brief).strip())>=40)
+
 def main():
     payload=json.loads(DATA.read_text(encoding="utf-8")); events=payload.get("events") or []
     stats=Counter(); failures=[]; roots={}; pages={}; title_cache={}
@@ -203,6 +208,13 @@ def main():
             e["image_strategy"]="collected_source_image_verified"
             stats["verified_existing_candidate"]+=1
             print(f"[{i:03d}/{len(events)}] VERIFIED EXISTING {title} -> {current}")
+            continue
+
+        if not content_ready_for_media(e):
+            stats["waiting_for_content"]+=1
+            e["media_status"]="waiting_for_content"
+            e["image_rights_status"]=e.get("image_rights_status") or ("missing" if not e.get("image_url") else "needs_review")
+            print(f"[{i:03d}/{len(events)}] WAIT CONTENT {title}")
             continue
 
         ck=(norm(title),tuple(sorted(urlparse(x).hostname or "" for x in sources)))
