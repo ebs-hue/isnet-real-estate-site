@@ -29,6 +29,16 @@ API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
 CONTENT_ENRICHMENT_VERSION = 6
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
+EVENT_HORIZON_MONTHS = 5
+
+
+def add_months(d, months):
+    import calendar
+    month_index = d.month - 1 + months
+    year = d.year + month_index // 12
+    month = month_index % 12 + 1
+    day = min(d.day, calendar.monthrange(year, month)[1])
+    return date(year, month, day)
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
 SESSION = requests.Session()
@@ -272,7 +282,9 @@ def main():
         print("OPENAI_API_KEY is not configured; content enrichment skipped.")
         return 0
 
-    today = date.today().isoformat()
+    today_date = date.today()
+    today = today_date.isoformat()
+    horizon_end = add_months(today_date, EVENT_HORIZON_MONTHS).isoformat()
     checked = enriched = insufficient = fetch_failed = model_failed = 0
     rows = []
 
@@ -282,7 +294,8 @@ def main():
         for event in doc.get("events") or []:
             if checked >= MAX_EVENTS:
                 break
-            if str(event.get("start_date") or "") < today or not needs_enrichment(event):
+            event_date = str(event.get("start_date") or "")
+            if event_date < today or event_date > horizon_end or not needs_enrichment(event):
                 continue
             checked += 1
             urls = source_urls(event)
