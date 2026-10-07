@@ -81,18 +81,37 @@
     },
     {
       "id": "enrichment",
-      "name": "סוכן העשרה",
-      "status": "planned",
+      "name": "סוכן כתיבה והעשרה",
+      "status": "priority",
       "order": 3,
-      "purpose": "השלמת תקציר, תיאור, שעות, מקום, כתובת, מחיר, קישורים ופרטים חסרים.",
+      "purpose": "לוקח את המידע הגולמי על האירוע והופך אותו לתוכן מלא ומוכן לפרסום: כותרת, תקציר, תיאור, פרטים שימושיים והשלמות ממקורות מאומתים בלבד.",
       "can": [
-        "suggest_content",
-        "update_draft_fields",
-        "flag_missing_data"
+        "write_title",
+        "write_short_pitch",
+        "write_long_description",
+        "complete_verified_details",
+        "rewrite_for_clarity",
+        "flag_missing_facts"
       ],
       "cannot": [
         "invent_facts",
+        "invent_quotes",
+        "invent_prices_or_times",
         "publish"
+      ],
+      "output_fields": [
+        "title",
+        "short_pitch",
+        "long_description",
+        "verified_facts",
+        "missing_information"
+      ],
+      "writing_rules": [
+        "עברית טבעית וקריאה",
+        "לא להמציא פרטים שאינם נתמכים במקור",
+        "להפריד בין עובדה למידע שיווקי של המארגן",
+        "להעדיף ניסוח מקומי ורלוונטי לעיר",
+        "להימנע מניסוחים גנריים או מלאכותיים"
       ]
     },
     {
