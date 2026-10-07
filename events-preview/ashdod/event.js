@@ -366,17 +366,41 @@ async function init(){
   try{
     const id=new URLSearchParams(location.search).get("id");
     if(!id)throw new Error("missing id");
-    const [data,sports,editorial]=await Promise.all([
+    const [data,sports,editorial,artistVideos]=await Promise.all([
       fetch("data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
-      fetch("data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}}))
+      fetch("data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}})),
+      fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]}))
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
     const editorialById=editorial?.events||{};
+    // Reuse a verified artist clip automatically across cities and future performances.
+    // Never guess an artist from a vague title or overwrite event-specific videos.
+    const artists=Array.isArray(artistVideos?.artists)?artistVideos.artists:[];
+    const matchArtistVideo=event=>{
+      if(event.category!=="standup")return null;
+      const title=String(event.title||"").normalize("NFKC");
+      const performers=Array.isArray(event.performers)?event.performers:[];
+      return artists.find(artist=>artist.video_verified===true &&
+        /^[a-zA-Z0-9_-]{11}$/.test(artist.youtube_id||"") &&
+        (artist.aliases||[artist.name]).some(alias=>{
+          const n=String(alias||"").normalize("NFKC").trim();
+          return n.length>=5 && (title.includes(n) || performers.some(p=>String(p).normalize("NFKC").includes(n)));
+        })
+      )||null;
+    };
     const all=(data.events||[]).map(event=>{
       const entry=editorialById[event.event_id];
-      if(!entry||typeof entry!=="object")return event;
+      const artistVideo=!event.youtube_id&&!entry?.youtube_id?matchArtistVideo(event):null;
+      if(!entry&&!artistVideo)return event;
       const allowed={};
+      if(artistVideo){
+        allowed.youtube_id=artistVideo.youtube_id;
+        allowed.youtube_title=artistVideo.youtube_title||"קטע סטנדאפ של "+artistVideo.name;
+        allowed.youtube_note=artistVideo.youtube_note||"קטע מייצג של האמן";
+      }
+      if(!entry||typeof entry!=="object")return {...event,...allowed};
+
       for(const field of ["long_description","short_pitch","youtube_title","youtube_note","suitability"]){
         if(typeof entry[field]==="string"&&entry[field].trim())allowed[field]=entry[field].trim();
       }
