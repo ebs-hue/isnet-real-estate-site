@@ -27,7 +27,7 @@ CITIES={
     "ashdod": EVENTS/"ashdod"/"data"/"events.json",
     "rishon-lezion": EVENTS/"rishon-lezion"/"data"/"events.json",
 }
-BAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel")
+GENERIC_PEOPLE={"אבא","אמא","הורים","ילדים","ילדות","משפחה","משפחות","קהל","משתתפים","משתתפות","מרצה","מנחה","אמן","אמנית","זמר","זמרת","שחקן","שחקנית"}\nBAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel")
 
 def norm(v):
     x=unicodedata.normalize("NFKC",str(v or "")).casefold()
@@ -68,7 +68,9 @@ def people(e):
     seen=set(); result=[]
     for x in out:
         n=norm(x)
-        if n and n not in seen:
+        if not n or n in GENERIC_PEOPLE or n.startswith("אבא ") or n.startswith("אמא "):
+            continue
+        if n not in seen:
             seen.add(n); result.append(x)
     return result
 
