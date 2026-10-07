@@ -5,7 +5,7 @@
 <meta name="robots" content="noindex,nofollow">
 <title>סוכנים ואוטומציות | ISNET</title>
 <link rel="stylesheet" href="styles.css?v=20261007-1400">
-<link rel="stylesheet" href="agents.css?v=20261007-1400">
+<link rel="stylesheet" href="agents.css?v=20261007-1700">
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="auth/config.js?v=20261007-1225"></script>
 </head>
@@ -21,6 +21,10 @@
    <button id="runAgentsBtn" class="primary top-create">הרץ סוכנים ופרסם תקינים</button>
   </div>
   <div id="runSummary" class="run-summary"></div>
+  <div id="runProgressWrap" class="run-progress-wrap" hidden>
+   <div class="run-progress-track"><div id="runProgressBar" class="run-progress-bar"></div></div>
+   <div id="runProgressText" class="run-progress-text">0%</div>
+  </div>
   <p id="runStatus" class="run-status">טרם בוצעה הרצה.</p>
   <p id="lastRun" class="last-run"></p>
  </section>
@@ -59,9 +63,9 @@
   <div id="mediaFlow" class="media-flow"></div>
  </section>
 </main>
-<script src="cms-db.js?v=20261007-1630"></script>
-<script src="agents.js?v=20261007-1630"></script>
-<script src="agents-runner.js?v=20261007-1630"></script>
+<script src="cms-db.js?v=20261007-1700"></script>
+<script src="agents.js?v=20261007-1700"></script>
+<script src="agents-runner.js?v=20261007-1700"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
