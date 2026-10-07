@@ -47,9 +47,21 @@ async function load(){
       return {...e,_citySlug:city.slug,_cityBase:city.base,_description:description,_video:video,_issues:null};
     });
   }));
-  const persisted=groups.flat().map(applyLocalOverride);
-  const local=localNewEvents().map(e=>({...e,_localNew:true,_cityBase:e._citySlug==="ashdod"?"../ashdod/":"../rishon-lezion/"}));
-  all=[...persisted,...local].map(e=>({...e,_issues:issuesFor(e)}));
+  const dbRecords=await (window.ISNET_DB?.listEventRecords?.()||Promise.resolve([]));
+  const dbMap=new Map(dbRecords.map(r=>[r.city_slug+":"+r.event_id,r]));
+  const persisted=groups.flat().map(e=>{
+    const db=dbMap.get(e._citySlug+":"+e.event_id);
+    if(db?.payload)return {...e,...db.payload,_dbRecord:true};
+    return applyLocalOverride(e);
+  });
+  const dbManual=dbRecords.filter(r=>r.record_type==="manual").map(r=>{
+    const e={...(r.payload||{}),event_id:r.event_id,_citySlug:r.city_slug,_dbRecord:true,_localNew:true};
+    e._cityBase=e._citySlug==="ashdod"?"../ashdod/":"../rishon-lezion/";
+    return e;
+  });
+  const dbManualKeys=new Set(dbManual.map(e=>e._citySlug+":"+e.event_id));
+  const local=localNewEvents().filter(e=>!dbManualKeys.has(e._citySlug+":"+e.event_id)).map(e=>({...e,_localNew:true,_cityBase:e._citySlug==="ashdod"?"../ashdod/":"../rishon-lezion/"}));
+  all=[...persisted,...dbManual,...local].map(e=>({...e,_issues:issuesFor(e)}));
   buildFilters();render();
 }
 function buildFilters(){
