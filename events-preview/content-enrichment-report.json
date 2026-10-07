@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:29:07Z",
+  "generated_at": "2026-10-07T18:32:39Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
-  "insufficient": 2,
+  "enriched": 11,
+  "insufficient": 0,
   "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_aa2b2468ee21cb65145c",
-      "title": "שביליסט",
+      "event_id": "auto_as_17fa7f825b24639c734c",
+      "title": "הקוסם מארץ עוץ",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_29f849d06f37052801c3",
-      "title": "שביליסט",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_a02e2e039fa2a5969f9b",
-      "title": "חיפה- עוגת חתונה",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb",
-      "title": "הכוכבים של סבא",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_aedfda463657de5ed2bf",
-      "title": "מיץ פטל | שעת סיפור עם רינתי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_3fa16619b6054a877bff",
-      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "event_id": "auto_as_92a7794474ff45937b54",
+      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6b69e4a3d5d662cc0ef9",
-      "title": "בוקרשט - בודפשט",
+      "event_id": "auto_as_60639bfb8504f9553fcf",
+      "title": "היו ימים חבר",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_95f92aa282a0c631a783",
-      "title": "מחווה ליורגוס דאלארס",
+      "event_id": "auto_as_a6dda6455ef870d17dd0",
+      "title": "עכשיו הזמן לאהבה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f5a1dda55f5642c32383",
-      "title": "RUSSIAN TITANS",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_56006f0f4db06e0655a0",
-      "title": "המדורה של רינתי",
+      "event_id": "auto_as_bf7028aa1130feeeda5e",
+      "title": "סיור טעימות ואתרים באשדוד",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6b0a85ae2a0051cd7218",
-      "title": "פסיפסים ועוד בגליל המערבי",
+      "event_id": "auto_as_ebf2feea981459bed3cf",
+      "title": "חגיגה ברזילאית",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_4ed466d9ac4036a41389",
-      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
+      "event_id": "auto_as_7a0d248903ac27e7d66a",
+      "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_52c1df237ce507a44b41",
+      "title": "חגיגה ברזילאית",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_874fbf8765c2eddd641d",
+      "title": "איילת מטיילת | שעת סיפור עם רינתי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_42692e3659956eb6defb",
+      "title": "תרועת הפסטיבלים .",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_86e8020e745d6b4201fb",
+      "title": "לחיות, להרגיש, להבין | הרצאה על המשוררת שיבטה טויו עם תמי כהן",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_fc7e4b66f195b19083ff",
+      "title": "לונדון בירת המוזיקה והתיאטרון",
       "status": "ready"
     }
   ]
