@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T16:20:57Z",
+  "generated_at": "2026-10-07T16:23:52Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 0,
+  "enriched": 9,
   "insufficient": 0,
-  "source_text_insufficient": 12,
+  "source_text_insufficient": 3,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
-      "title": "הפועל אשדוד - מכבי פתח תקוה",
+      "event_id": "auto_as_99d8856352ac024635f0",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_08f3d0b3508bb7dff7c9",
+      "title": "סטודיו פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - בני הרצליה",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_39_20261008",
-      "title": "קובי מימון",
+      "event_id": "auto_as_58c1ea1851030cfaaa11",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_9_20261019",
+      "title": "מיקי הבית של יעל",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "title": "המספרה של ג'אקו - הפקת מקור",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261019_ironi_ashdod_football",
+      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_40_20261012",
-      "title": "אֻמִּי",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261012_maccabi_ashdod_basketball",
-      "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
-      "title": "מכבי אשדוד - הפועל אריות ירושלים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_41_20261013",
-      "title": "חגיגה בכוורת",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_43_20261015",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_42_20261015",
-      "title": "נועה מנור",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261016_ms_ashdod_football",
-      "title": "מ.ס. אשדוד - מכבי קריית גת",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
-      "title": "מכבי אשדוד - מכבי חדרה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_44_20261017",
-      "title": "אסף יצחקי",
-      "status": "source_text_insufficient"
+      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+      "status": "ready"
     }
   ]
 }
