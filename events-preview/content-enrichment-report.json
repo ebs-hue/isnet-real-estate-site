@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:21:06Z",
+  "generated_at": "2026-10-07T18:25:10Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 10,
-  "insufficient": 2,
+  "enriched": 12,
+  "insufficient": 0,
   "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
-      "title": "כנר על הגג",
+      "event_id": "auto_as_1d3394c08366170bd945",
+      "title": "ציפי שביט – השירים שגדלנו עליהם",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_35b62174438a54f14368",
-      "title": "MALEVO",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_6d281693df39376eb4d3",
-      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
+      "event_id": "auto_as_5fed753ced32a09d6fd2",
+      "title": "המלך אמר",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_2477b1b0746b9c7835a2",
-      "title": "שני עולמות",
+      "event_id": "auto_as_ee8c99e88b2fabffda94",
+      "title": "VIENNA BALL",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0b79e886759de4901160",
-      "title": "שני עולמות",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_2d5eff340312fe7ebdd6",
-      "title": "שירים וחיוכים",
+      "event_id": "auto_as_b4d493b24cfeda03196b",
+      "title": "זוגיות AI",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_86a7ddbdc1657bad0dd0",
-      "title": "גלגולי המגילה | אסף אלברשטיין",
+      "event_id": "auto_as_6c4a2a4051f27539ead9",
+      "title": "מלכת היופי של ירושלים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f90a3e4493591be402c4",
-      "title": "צבעי הזמן",
+      "event_id": "auto_as_1b9d3f3328e7272edcef",
+      "title": "בעקבות \"ימים אדומים\" בירושלים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_be3243a1775666aa5d3f",
-      "title": "גן נעול מעיין חתום",
+      "event_id": "auto_as_0b2aa6658e011fe663a1",
+      "title": "מלכת היופי של ירושלים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3842e55c80605e16ed5b",
-      "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
+      "event_id": "auto_as_1caae4e5224cdc30a114",
+      "title": "מלכת היופי של ירושלים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_02e98c500343d8898158",
-      "title": "והילד הזה הוא אני",
+      "event_id": "auto_as_5fd8a10ff2fd7e22564d",
+      "title": "מלכת היופי של ירושלים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_25368623f148530af959",
-      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
+      "event_id": "auto_as_5e9a7c24a75b670e4e6b",
+      "title": "מלכת היופי של ירושלים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_e0cb25bb2e9038f9400d",
+      "title": "דירה להשכיר- מבית רינתי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_ed25c185b34074edfce1",
+      "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
       "status": "ready"
     }
   ]
