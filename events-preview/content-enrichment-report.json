@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T16:13:18Z",
+  "generated_at": "2026-10-07T16:14:19Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 5,
+  "enriched": 2,
   "insufficient": 0,
-  "source_text_insufficient": 7,
+  "source_text_insufficient": 10,
   "model_failed": 0,
   "events": [
     {
@@ -51,32 +51,32 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6c9c620a36d91d0e9a47",
-      "title": "ישראל ארד מונארט 2026",
+      "event_id": "evt_43_20261015",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_42_20261015",
+      "title": "נועה מנור",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_1671f155d6a206c3de2b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_833b74952b8fcc17694c",
-      "title": "רועי עלוני מונארט 2026",
-      "status": "ready"
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - מכבי קריית גת",
+      "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_028cca19d94dfafd0b51",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_013751f4bb1f253a4a2f",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_8_20261015",
-      "title": "דיסקו - כשהקצב משחרר את הגוף",
+      "event_id": "auto_as_7b18a3b8878c1169693b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     }
   ]
