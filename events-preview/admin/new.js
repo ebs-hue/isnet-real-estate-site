@@ -29,6 +29,42 @@ function makeSlug(value){
     .slice(0,90);
 }
 function idFor(city){return "manual_"+city.replace(/[^a-z0-9]+/gi,"_")+"_"+Date.now()}
+function normEventText(v){
+  return String(v||"").normalize("NFKC").toLowerCase()
+    .replace(/[\u0591-\u05c7]/g,"")
+    .replace(/["'״׳]/g,"")
+    .replace(/[^0-9a-zא-ת]+/g," ")
+    .replace(/\s+/g," ").trim();
+}
+async function existingEventsForCity(city){
+  const base=city==="ashdod"?"../ashdod/":"../rishon-lezion/";
+  const [data,records]=await Promise.all([
+    fetch(base+"data/events.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({events:[]})),
+    (window.ISNET_DB?.listEventRecords?.()||Promise.resolve([])).catch(()=>[])
+  ]);
+  const db=(records||[])
+    .filter(r=>r.city_slug===city)
+    .map(r=>({...(r.payload||{}),event_id:r.event_id,_citySlug:r.city_slug}));
+  return [...(data.events||[]),...db,...read().filter(e=>e._citySlug===city)];
+}
+async function editorialGate(candidate){
+  const events=await existingEventsForCity(candidate._citySlug);
+  const nt=normEventText(candidate.title), nv=normEventText(candidate.venue);
+  const exact=events.find(e=>
+    normEventText(e.title)===nt &&
+    String(e.start_date||"")===String(candidate.start_date||"") &&
+    (!nv || !e.venue || normEventText(e.venue)===nv)
+  );
+  if(exact)return {decision:"stop_duplicate",event:exact};
+
+  const sameProduction=events.find(e=>
+    normEventText(e.title)===nt &&
+    String(e.start_date||"")!==String(candidate.start_date||"")
+  );
+  if(sameProduction)return {decision:"existing_production_new_occurrence",event:sameProduction};
+
+  return {decision:"open_new_process"};
+}
 $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("");
 $("imageFile").addEventListener("change",e=>{
   const file=e.target.files?.[0];if(!file)return;
@@ -49,6 +85,30 @@ $("saveBtn").addEventListener("click",async()=>{
     thumbnail_ready:Boolean(imageData),sources:[{name:"manual_entry",source_type:"editorial"}],
     observed_at:new Date().toISOString(),updated_at:new Date().toISOString()
   };
+
+  $("saveNote").textContent="בודק אם האירוע כבר קיים במערכת...";
+  try{
+    const gate=await editorialGate(item);
+    if(gate.decision==="stop_duplicate"){
+      $("saveNote").textContent="התהליך נעצר: האירוע כבר קיים במערכת.";
+      alert("האירוע הזה כבר קיים במערכת ולכן לא נפתח אירוע חדש.");
+      return;
+    }
+    if(gate.decision==="existing_production_new_occurrence"){
+      const ok=confirm("נמצאה כבר אותה הפקה במערכת במועד אחר. ייתכן שזה מועד נוסף של אותו מופע. להמשיך וליצור רשומה חדשה בכל זאת?");
+      if(!ok){
+        $("saveNote").textContent="התהליך נעצר כדי למנוע כפילות. יש לצרף את המועד להפקה הקיימת.";
+        return;
+      }
+      item.editorial_gate_decision="existing_production_new_occurrence";
+      item.related_event_id=gate.event?.event_id||null;
+    }else{
+      item.editorial_gate_decision="open_new_process";
+    }
+  }catch(err){
+    console.warn("editorial gate unavailable",err);
+  }
+
   try{
     await window.ISNET_DB.saveEventRecord(city,item.event_id,item,"manual");
     $("saveNote").textContent="האירוע נשמר במערכת המרכזית כטיוטה. מחזיר לרשימה...";
