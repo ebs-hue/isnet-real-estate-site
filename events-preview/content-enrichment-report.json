@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:25:10Z",
+  "generated_at": "2026-10-07T18:29:07Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 12,
-  "insufficient": 0,
-  "source_text_insufficient": 0,
+  "enriched": 9,
+  "insufficient": 2,
+  "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_1d3394c08366170bd945",
-      "title": "ציפי שביט – השירים שגדלנו עליהם",
+      "event_id": "auto_as_aa2b2468ee21cb65145c",
+      "title": "שביליסט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_5fed753ced32a09d6fd2",
-      "title": "המלך אמר",
+      "event_id": "auto_as_29f849d06f37052801c3",
+      "title": "שביליסט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ee8c99e88b2fabffda94",
-      "title": "VIENNA BALL",
+      "event_id": "auto_as_a02e2e039fa2a5969f9b",
+      "title": "חיפה- עוגת חתונה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b4d493b24cfeda03196b",
-      "title": "זוגיות AI",
+      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb",
+      "title": "הכוכבים של סבא",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_aedfda463657de5ed2bf",
+      "title": "מיץ פטל | שעת סיפור עם רינתי",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6c4a2a4051f27539ead9",
-      "title": "מלכת היופי של ירושלים",
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_6b69e4a3d5d662cc0ef9",
+      "title": "בוקרשט - בודפשט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1b9d3f3328e7272edcef",
-      "title": "בעקבות \"ימים אדומים\" בירושלים",
+      "event_id": "auto_as_95f92aa282a0c631a783",
+      "title": "מחווה ליורגוס דאלארס",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0b2aa6658e011fe663a1",
-      "title": "מלכת היופי של ירושלים",
+      "event_id": "auto_as_f5a1dda55f5642c32383",
+      "title": "RUSSIAN TITANS",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_56006f0f4db06e0655a0",
+      "title": "המדורה של רינתי",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1caae4e5224cdc30a114",
-      "title": "מלכת היופי של ירושלים",
+      "event_id": "auto_as_6b0a85ae2a0051cd7218",
+      "title": "פסיפסים ועוד בגליל המערבי",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_5fd8a10ff2fd7e22564d",
-      "title": "מלכת היופי של ירושלים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_5e9a7c24a75b670e4e6b",
-      "title": "מלכת היופי של ירושלים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_e0cb25bb2e9038f9400d",
-      "title": "דירה להשכיר- מבית רינתי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ed25c185b34074edfce1",
-      "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
+      "event_id": "auto_as_4ed466d9ac4036a41389",
+      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
       "status": "ready"
     }
   ]
