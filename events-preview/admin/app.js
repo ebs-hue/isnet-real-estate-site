@@ -100,7 +100,8 @@ function render(){
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
-      '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a><br><a class="link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
+      '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
+      '<td><a class="edit-link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
       '</tr>';
   }).join("");
 }
