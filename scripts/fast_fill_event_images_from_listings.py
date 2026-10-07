@@ -11,6 +11,8 @@ EVENT_ROOT=ROOT/"events-preview"/"ashdod"
 DATA=EVENT_ROOT/"data"/"events.json"
 REPORT=EVENT_ROOT/"data"/"listing-image-fill-report.json"
 OUT=EVENT_ROOT/"assets"/"events"
+MEDIA_INDEX=ROOT/"events-preview"/"media-bank"/"data"/"media.json"
+PRODUCTIONS_INDEX=ROOT/"events-preview"/"media-bank"/"data"/"productions.json"
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
 BAD=("logo","favicon","facebook_oauth","google_oauth","microsoft_oauth","artistshadow","eventnew.jpg","placeholder","no_pic","no-pic","default","sprite","spinner","languages/")
 TIMEOUT=18
@@ -117,8 +119,54 @@ def download_image(url,ref):
     (OUT/name).write_bytes(raw)
     return "assets/events/"+name
 
+def bank_asset_url(media):
+    u=media.get("url") or ""
+    if not u:return None
+    if u.startswith(("http://","https://","data:")):return u
+    city=(media.get("cities") or [None])[0]
+    if u.startswith("media-bank/"):return "../"+u
+    if city:return "../"+city+"/"+u
+    return u
+
+def load_bank_reuse():
+    if not MEDIA_INDEX.is_file() or not PRODUCTIONS_INDEX.is_file():
+        return {}
+    media_doc=json.loads(MEDIA_INDEX.read_text(encoding="utf-8"))
+    prod_doc=json.loads(PRODUCTIONS_INDEX.read_text(encoding="utf-8"))
+    by_id={m.get("media_id"):m for m in media_doc.get("media",[]) if m.get("media_id")}
+    out={}
+    for p in prod_doc.get("productions",[]):
+        mid=p.get("preferred_media_id")
+        m=by_id.get(mid)
+        if not m or m.get("status")!="approved" or m.get("publishable") is not True:
+            continue
+        out[p.get("production_key") or norm(p.get("name"))]=m
+    return out
+
 def main():
     data=json.loads(DATA.read_text(encoding="utf-8"));events=data.get("events") or []
+    bank_reuse=load_bank_reuse()
+    stats=Counter();new=[];accepted_title={}
+    # Reuse an approved network-wide asset before any external source request.
+    for e in events:
+        if e.get("image_verified") is True:continue
+        key=norm(e.get("production_name") or e.get("series_name") or e.get("title"))
+        m=bank_reuse.get(key)
+        if not m:continue
+        full=bank_asset_url(m)
+        thumb="../"+m["card_url"] if m.get("card_url","").startswith("media-bank/") else full
+        if not full:continue
+        e.update({
+          "image_url":full,"thumbnail_url":thumb,"thumbnail_ready":bool(thumb),
+          "image_origin_url":m.get("origin_url") or full,"image_source":m.get("source_url"),
+          "image_credit":m.get("credit"),"image_publishable":True,"image_verified":True,
+          "image_rights_status":m.get("rights_status") or "verified_reuse",
+          "image_strategy":"central_media_bank_reuse","media_bank_id":m.get("media_id")
+        })
+        accepted_title[norm(e.get("title"))]=e
+        stats["central_bank_reuse"]+=1
+        new.append({"event_id":e["event_id"],"title":e.get("title"),"image":full,"source":m.get("source_url"),"score":"central_bank"})
+        print("BANK",e.get("title"),m.get("media_id"))
     roots=[]
     for e in events:
         if e.get("image_verified") is True:continue
@@ -166,7 +214,6 @@ def main():
         for _,u,_ in rows[:5]: usage[u].add(norm(byid[eid].get("title")))
     unsafe={u for u,titles in usage.items() if len(titles)>1}
 
-    stats=Counter();new=[];accepted_title={}
     for e in events:
         if e.get("image_verified") is True:
             accepted_title[norm(e.get("title"))]=e
