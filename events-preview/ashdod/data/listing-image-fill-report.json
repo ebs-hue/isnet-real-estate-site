@@ -1,371 +1,521 @@
 {
-  "generated_at": "2026-10-05T04:32:28Z",
-  "total_events": 100,
-  "verified_images": 52,
-  "still_missing": 48,
+  "generated_at": "2026-10-07T10:39:16Z",
+  "total_events": 396,
+  "verified_images": 322,
+  "still_missing": 74,
   "stats": {
-    "accepted": 10
+    "accepted": 8,
+    "same_title_reuse": 1
   },
   "newly_filled": [
     {
-      "event_id": "evt_41_20261013",
-      "title": "חגיגה בכוורת",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 191.2
+      "event_id": "auto_as_0b4b250a9cc0940ed28c",
+      "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_44_20261017",
-      "title": "אסף יצחקי",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 183.4
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
-      "image": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 157.9
+      "event_id": "auto_as_30f82fe69bd135aabb33",
+      "title": "לצייר ובגדול | סדנה לילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3642b53f94539993113.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_54_20261031",
-      "title": "עומר בורשטיין",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 162.7
+      "event_id": "auto_as_d77f1323483fec7e92d1",
+      "title": "סדנת חנוכיות להורים ולילדים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_55_20261103",
-      "title": "פאטמה הסטנדאפיסטית",
-      "image": "https://static.tickchak.co.il/all/updateArtistImage_round_1758022131X90TQvYkdwA1YkFHT5w2ZQ1Ebw52ZhhUQ_3rNS5JHSnmYoxRV7QI4Mw.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 206.7
+      "event_id": "auto_as_dcf769d1379befa09acc",
+      "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_60_20261124",
-      "title": "טוביה צפיר – 80 שנה של הומור!",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 166.2
+      "event_id": "auto_as_d206f17261a8fe553f04",
+      "title": "ציור בוטני | סדנה למבוגרים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3640cbb2b3064576397.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_61_20261126",
-      "title": "מירית גליצקי - מוגזמת",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 152.6
+      "event_id": "auto_as_cc2d1cac424acf768c45",
+      "title": "הצגת ענק עלילות המכבים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 246.8
     },
     {
-      "event_id": "evt_62_20261203",
-      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
-      "image": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 181.0
+      "event_id": "auto_as_fdeb756625c3f837de13",
+      "title": "בודי בלט| סדנא בונה עצם לנשים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": 215.4
     },
     {
-      "event_id": "evt_66_20261215",
-      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 176.0
-    },
-    {
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
-      "image": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp",
-      "source": "https://live.tickchak.co.il/ashdod",
-      "score": 189.8
+      "event_id": "auto_as_c16e2e89a69bbed03363",
+      "title": "בודי בלט| סדנא בונה עצם לנשים",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": "reuse"
     }
   ],
   "missing": [
     {
-      "event_id": "evt_2_20261004",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%91____%D7%92__/?id=17235"
+      "event_id": "auto_as_21b74de87d9353a296d9",
+      "title": "הכרמל הר של אומנות",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33640"
     },
     {
-      "event_id": "evt_68_20261004",
-      "title": "הדרדסים ההצגה - Live על הבמה",
-      "category": "kids",
+      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
+      "title": "הפועל אשדוד - מכבי פתח תקוה",
+      "category": "sport",
+      "ticket_url": "https://handballisr.co.il/team.asp?TId=70"
+    },
+    {
+      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
+      "category": "sport",
+      "ticket_url": "https://handballisr.co.il/team.asp?TId=358"
+    },
+    {
+      "event_id": "sport_20261012_maccabi_ashdod_basketball",
+      "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
+      "category": "sport",
+      "ticket_url": "https://basket.co.il/team.asp?TeamId=2123"
+    },
+    {
+      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל אריות ירושלים",
+      "category": "sport",
       "ticket_url": null
     },
     {
-      "event_id": "evt_3_20261004",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%A4%D7%92%D7%A9%D7%99_%D7%A7%D7%A8%D7%99%D7%90%D7%94_-%D7%A1%D7%93%D7%A0%D7%AA_%D7%A2%D7%99%D7%93%D7%95%D7%93_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%91%D7%A2%D7%96%D7%A8%D7%AA__%D7%9B%D7%9C%D7%91%D7%99%D7%9D_%D7%9B%D7%99%D7%AA%D7%95%D7%AA_%D7%92__%D7%A2%D7%93_%D7%93_/?id=17238"
+      "event_id": "auto_as_382f5504e06e1fcda12e",
+      "title": "הזקן והים",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638"
     },
     {
-      "event_id": "evt_4_20261005",
-      "title": "קורס גישור בסיסי בשילוב טאי־צ’י – דרך חדשה לדיאלוג ולחוסן אישי",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%92%D7%99%D7%A9%D7%95%D7%A8_%D7%91%D7%A1%D7%99%D7%A1%D7%99_%D7%91%D7%A9%D7%99%D7%9C%D7%95%D7%91_%D7%98%D7%90%D7%99_%D7%A6_%D7%99___%D7%93%D7%A8%D7%9A_%D7%97%D7%93%D7%A9%D7%94_%D7%9C%D7%93%D7%99%D7%90%D7%9C%D7%95%D7%92_%D7%95%D7%9C%D7%97%D7%95%D7%A1%D7%9F_%D7%90%D7%99%D7%A9%D7%99/?id=17166"
-    },
-    {
-      "event_id": "evt_92_20261006",
-      "title": "הענק הכי גנדרן בעולם",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A2%D7%A0%D7%A7_%D7%94%D7%9B%D7%99_%D7%92%D7%A0%D7%93%D7%A8%D7%9F_%D7%91%D7%A2%D7%95%D7%9C%D7%9D_/?id=17635"
-    },
-    {
-      "event_id": "evt_93_20261006",
-      "title": "מועדון הקוראות הרומנטיות - מועדון קריאה שכולו אהבה",
-      "category": "community",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%94%D7%A7%D7%95%D7%A8%D7%90%D7%95%D7%AA_%D7%94%D7%A8%D7%95%D7%9E%D7%A0%D7%98%D7%99%D7%95%D7%AA_-%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F_%D7%A7%D7%A8%D7%99%D7%90%D7%94_%D7%A9%D7%9B%D7%95%D7%9C%D7%95_%D7%90%D7%94%D7%91%D7%94_%7C_%D7%A1%D7%93%D7%A8%D7%AA_%D7%9E%D7%A4%D7%92%D7%A9%D7%99%D7%9D_%D7%91%D7%94%D7%A0%D7%97%D7%99%D7%99%D7%AA_%D7%94%D7%A1%D7%95%D7%A4%D7%A8%D7%AA_%D7%A9%D7%A8%D7%99%D7%AA_%D7%97%D7%99%D7%99%D7%9D/?id=17315"
-    },
-    {
-      "event_id": "evt_69_20261008",
-      "title": "מיקה שלי",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%9E%D7%99%D7%A7%D7%94_%D7%A9%D7%9C%D7%99/?id=8214"
-    },
-    {
-      "event_id": "evt_94_20261012",
-      "title": "סערה בדלי מים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271"
-    },
-    {
-      "event_id": "evt_95_20261012",
-      "title": "תשאירי פתוח",
-      "category": "theatre",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269"
-    },
-    {
-      "event_id": "evt_6_20261014",
-      "title": "עיצוב אורח חיים בריא",
+      "event_id": "auto_as_04029172fbcf458e2eb3",
+      "title": "יונתן גת מונארט 2026",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239"
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28805"
     },
     {
-      "event_id": "evt_96_20261014",
-      "title": "דירה להכיר",
-      "category": "theatre",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%94%D7%9B%D7%99%D7%A8_/?id=17305"
-    },
-    {
-      "event_id": "evt_7_20261015",
-      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209"
-    },
-    {
-      "event_id": "evt_97_20261020",
-      "title": "סדנת הכנת לחמניות מתוקות",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%94%D7%9B%D7%A0%D7%AA_%D7%9C%D7%97%D7%9E%D7%A0%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=17302"
-    },
-    {
-      "event_id": "evt_72_20261020",
-      "title": "היפהפיה הנרדמת",
-      "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94%D7%A4%D7%99%D7%94_%D7%94%D7%A0%D7%A8%D7%93%D7%9E%D7%AA/?id=8059"
-    },
-    {
-      "event_id": "evt_73_20261028",
-      "title": "חלון לים התיכון",
-      "category": "music",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113"
-    },
-    {
-      "event_id": "evt_12_20261101",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
-      "category": "workshop",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_13_20261101",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
-      "category": "workshop",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_14_20261102",
-      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_6c9c620a36d91d0e9a47",
+      "title": "ישראל ארד מונארט 2026",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204"
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28803"
     },
     {
-      "event_id": "evt_15_20261103",
-      "title": "השועל המוסיקלי כוורת",
-      "category": "music",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678"
-    },
-    {
-      "event_id": "evt_16_20261104",
-      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_833b74952b8fcc17694c",
+      "title": "רועי עלוני מונארט 2026",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026"
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804"
     },
     {
-      "event_id": "evt_74_20261104",
-      "title": "FATE & FIRE",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135"
-    },
-    {
-      "event_id": "evt_18_20261105",
-      "title": "יום יהדות הודו 2026",
-      "category": "community",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144"
-    },
-    {
-      "event_id": "evt_19_20261109",
-      "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202"
-    },
-    {
-      "event_id": "evt_20_20261110",
-      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
-      "category": "workshop",
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - מכבי קריית גת",
+      "category": "sport",
       "ticket_url": null
     },
     {
-      "event_id": "evt_75_20261110",
-      "title": "הפיל שרצה להיות הכי",
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי חדרה",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - בני הרצליה",
+      "category": "sport",
+      "ticket_url": "https://handballisr.co.il/team.asp?TId=131"
+    },
+    {
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "title": "המספרה של ג'אקו - הפקת מקור",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/המספרה_של_ג_אקו_-_הפקת_מקור/?id=17265"
+    },
+    {
+      "event_id": "sport_20261019_ironi_ashdod_football",
+      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33867"
+    },
+    {
+      "event_id": "auto_as_ec0e8e6df83ab0a29247",
+      "title": "ערב נשים עוצמתי | לאורה של רחל אמנו",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/ערב_נשים_עוצמתי_|_לאורה_של_רחל_אמנו/?id=17680"
+    },
+    {
+      "event_id": "auto_as_6d352cd050d68d4a1163",
+      "title": "קורס קרמיקה אבניים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/קורס_קרמיקה_אבניים/?id=17621"
+    },
+    {
+      "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל חוסאם נצרת",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_9b9989a207c461446bb2",
+      "title": "סדנת טיפוח-היופי מתחיל בך זמן לעצמך ולטיפוח",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנת_טיפוח-היופי_מתחיל_בך_זמן_לעצמך_ולטיפוח/?id=17699"
+    },
+    {
+      "event_id": "sport_20261026_maccabi_ashdod_basketball",
+      "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
+      "category": "sport",
+      "ticket_url": "https://basket.co.il/team.asp?TeamId=2123"
+    },
+    {
+      "event_id": "sport_20261028_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - א.כ. נס ציונה",
+      "category": "sport",
+      "ticket_url": "https://handballisr.co.il/team.asp?TId=22"
+    },
+    {
+      "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי SVA רחובות",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "sport_20261029_hapoel_ashdod_w_handball",
+      "title": "הפועל אשדוד - הפועל קרית אונו",
+      "category": "sport",
+      "ticket_url": "https://handballisr.co.il/team.asp?TId=51"
+    },
+    {
+      "event_id": "sport_20261030_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - בני יהודה תל אביב",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "sport_20261030_ironi_ashdod_football",
+      "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
+      "category": "sport",
+      "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_3f503485fb828450a686",
+      "title": "אדם וחותם-הקשר שבין האדם לאדמה",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/אדם_וחותם-הקשר_שבין_האדם_לאדמה/?id=17701"
+    },
+    {
+      "event_id": "auto_as_28a0894af263d3e95052",
+      "title": "פילאטיס לאזרחים וותיקים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_וותיקים/?id=17706"
+    },
+    {
+      "event_id": "auto_as_a28e2e7dfb7c44f26606",
+      "title": "סדנת צחוק, אורית שירי",
+      "category": "workshop",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=34826"
+    },
+    {
+      "event_id": "auto_as_64cf140ac904f0ae4871",
+      "title": "התקווה 6",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33639"
+    },
+    {
+      "event_id": "auto_as_45d7bf9ffa2f8ddfde8e",
+      "title": "פילאטיס לאזרחים ותיקים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_ותיקים/?id=17700"
+    },
+    {
+      "event_id": "auto_as_f45962e796919e19fbcd",
+      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33637"
+    },
+    {
+      "event_id": "auto_as_7baf69bd3cb635730590",
+      "title": "סיור טעימות ברמלה",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869"
+    },
+    {
+      "event_id": "evt_23_20261124",
+      "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
+      "category": "cinema",
+      "ticket_url": "https://ashdod.smarticket.co.il/iframe/%D7%97%D7%95%D7%A8%D7%A3_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%A0%D7%99-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97"
+    },
+    {
+      "event_id": "auto_as_dd73d880a341a8a698b3",
+      "title": "סדנת עיצוב תכשיטים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנת_עיצוב_תכשיטים_5e29d94ee1/?id=17702"
+    },
+    {
+      "event_id": "auto_as_399303973daa1a005314",
+      "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642"
+    },
+    {
+      "event_id": "auto_as_19c0457586e8a88fbe65",
+      "title": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/חגיגת_חנוכה_עיצוב_ספגניות_ומסיבת_חנוכה_עם_מעגל_מתופפים/?id=17698"
+    },
+    {
+      "event_id": "auto_as_b6b558da8a85b64e0cea",
+      "title": "סיפור חנוכה | שעת סיפור עם רינתי",
       "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%A4%D7%99%D7%9C_%D7%A9%D7%A8%D7%A6%D7%94_%D7%9C%D7%94%D7%99%D7%95%D7%AA_%D7%94%D7%9B%D7%99_9980ca8a64/?id=8216"
+      "ticket_url": "https://ashdod.smarticket.co.il/סיפור_חנוכה_|_שעת_סיפור_עם_רינתי/?id=17645"
     },
     {
-      "event_id": "evt_76_20261111",
-      "title": "איסטנבול - נפולי -מרסיי",
-      "category": "music",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111"
+      "event_id": "auto_as_3d3cdcdf993039f9fe16",
+      "title": "בעקבות סופרים בנחלאות",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33641"
     },
     {
-      "event_id": "evt_77_20261116",
-      "title": "החולה ההודי",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%97%D7%95%D7%9C%D7%94_%D7%94%D7%94%D7%95%D7%93%D7%99/?id=8140"
-    },
-    {
-      "event_id": "evt_21_20261117",
-      "title": "הרקדן ואלרי פאנוב",
+      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
+      "title": "בדרך ללב הפועם של רמת גן",
       "category": "lecture",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A8%D7%A7%D7%93%D7%9F___%D7%95%D7%90%D7%9C%D7%A8%D7%99_%D7%A4%D7%90%D7%A0%D7%95%D7%91/?id=17075"
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33871"
     },
     {
-      "event_id": "evt_78_20261117",
-      "title": "החולה ההודי",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+      "category": "standup",
+      "ticket_url": "https://ashdod.smarticket.co.il/דניאל_סטיופין_קופה_ראשית__סטנדאפ/?id=15678"
     },
     {
-      "event_id": "evt_79_20261118",
-      "title": "החולה ההודי",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "title": "שמעון בוסקילה – קרוב לבית",
+      "category": "other",
+      "ticket_url": "https://live.tickchak.co.il/ashdod"
     },
     {
-      "event_id": "evt_80_20261119",
-      "title": "החולה ההודי",
-      "category": "theatre",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_81_20261121",
-      "title": "החולה ההודי",
-      "category": "theatre",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_82_20261123",
-      "title": "אשליות מתוקות",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109"
-    },
-    {
-      "event_id": "evt_83_20261128",
-      "title": "חיילים יצאו לדרך",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%99%D7%A6%D7%90%D7%95_%D7%9C%D7%93%D7%A8%D7%9A_/?id=8101"
-    },
-    {
-      "event_id": "evt_100_20261202",
-      "title": "סדנת חופשה בקליק",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609"
-    },
-    {
-      "event_id": "evt_25_20261203",
-      "title": "קורס קנווה עם מרים - ייעודי לגדולות מהחיים",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211"
-    },
-    {
-      "event_id": "evt_26_20261203",
-      "title": "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
-      "category": "workshop",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216"
-    },
-    {
-      "event_id": "evt_84_20261208",
-      "title": "היפה והחיה",
+      "event_id": "auto_as_8adf0f4c675e74162830",
+      "title": "פיטר פן | שעת סיפור עם רינתי",
       "category": "kids",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129"
+      "ticket_url": "https://ashdod.smarticket.co.il/פיטר_פן_|_שעת_סיפור_עם_רינתי/?id=17646"
     },
     {
-      "event_id": "evt_85_20261208",
-      "title": "היפה והחיה",
-      "category": "kids",
-      "ticket_url": null
+      "event_id": "auto_as_c96d7be6d2804e749d2a",
+      "title": "הכלבלב השובב",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/הכלבלב_השובב_/?id=17308"
     },
     {
-      "event_id": "evt_29_20261213",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
-      "category": "workshop",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_30_20261213",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
-      "category": "workshop",
-      "ticket_url": null
-    },
-    {
-      "event_id": "evt_31_20261215",
-      "title": "השועל המוסיקלי החיפושיות",
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
       "category": "music",
-      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679"
+      "ticket_url": "https://live.tickchak.co.il/ashdod"
     },
     {
-      "event_id": "evt_86_20261221",
-      "title": "האישה העשירה בעולם",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106"
+      "event_id": "auto_as_3356020481453510f22a",
+      "title": "מייפל הכלבלב – יחיד ומיוחד",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/מייפל_הכלבלב___יחיד_ומיוחד/?id=17671"
     },
     {
-      "event_id": "evt_87_20261228",
-      "title": "אור לגויים",
-      "category": "theatre",
-      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149"
+      "event_id": "auto_as_cb3a4659aefbcd0529d0",
+      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/ספורט_על_כיסא_עם_אסתר-ייעודי_לגדולות_מהחיים_/?id=17205"
     },
     {
-      "event_id": "evt_88_20261229",
-      "title": "אור לגויים",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_9e8b223f38713dfb8a74",
+      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33643"
     },
     {
-      "event_id": "evt_89_20261230",
-      "title": "אור לגויים",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_97a74b6735c80cbe31dc",
+      "title": "קורס עיצוב אלבום משפחתי-ייעודי לגדולות מהחיים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/קורס_עיצוב_אלבום_משפחתי-ייעודי_לגדולות_מהחיים_/?id=17212"
     },
     {
-      "event_id": "evt_90_20261231",
-      "title": "אור לגויים",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_60b18d8a145f11fd0362",
+      "title": "ספר הג'ונגל מבית רינתי",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/ספר_הג_ונגל_מבית_רינתי/?id=17673"
     },
     {
-      "event_id": "evt_91_20270102",
-      "title": "אור לגויים",
-      "category": "theatre",
-      "ticket_url": null
+      "event_id": "auto_as_2d86a3932207b0dfadb6",
+      "title": "אל עמק הברכה",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33644"
+    },
+    {
+      "event_id": "auto_as_dd2216e2c4590b3b8095",
+      "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/מאמא_דייאלי_3585/?id=17250"
+    },
+    {
+      "event_id": "auto_as_ad9aa5d26bfb663907d7",
+      "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/כח_המילים_והשפעותיהם_על_החיים_-ייעודי_לגדולות_מהחיים_/?id=17207"
+    },
+    {
+      "event_id": "auto_as_96552a33f52aca95896d",
+      "title": "סיור טעימות במחנה יהודה",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33872"
+    },
+    {
+      "event_id": "auto_as_1bd891e217e32b97766c",
+      "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33645"
+    },
+    {
+      "event_id": "auto_as_2d713d64cea99683547f",
+      "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
+      "category": "lecture",
+      "ticket_url": "https://ashdod.smarticket.co.il/מריה_מונטוסורי-הקרנת_סרט_ומפגש_שיח/?id=16036"
+    },
+    {
+      "event_id": "auto_as_93de6870be8f46280fc1",
+      "title": "דירה להשכיר | שעת סיפור עם רינתי",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647"
+    },
+    {
+      "event_id": "auto_as_6d281693df39376eb4d3",
+      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873"
+    },
+    {
+      "event_id": "auto_as_86a7ddbdc1657bad0dd0",
+      "title": "גלגולי המגילה | אסף אלברשטיין",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/גלגולי_המגילה_|_אסף_אלברשטיין/?id=17672"
+    },
+    {
+      "event_id": "auto_as_be3243a1775666aa5d3f",
+      "title": "גן נעול מעיין חתום",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33646"
+    },
+    {
+      "event_id": "auto_as_3842e55c80605e16ed5b",
+      "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/לחיות___להרגיש___להבין_|_מותו_של_איוואן_איליץ___מרצה_תמי_כהן/?id=16948"
+    },
+    {
+      "event_id": "auto_as_5fed753ced32a09d6fd2",
+      "title": "המלך אמר",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/המלך_אמר/?id=17310"
+    },
+    {
+      "event_id": "auto_as_1b9d3f3328e7272edcef",
+      "title": "בעקבות \"ימים אדומים\" בירושלים",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33647"
+    },
+    {
+      "event_id": "auto_as_e0cb25bb2e9038f9400d",
+      "title": "דירה להשכיר- מבית רינתי",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/דירה_להשכיר-_מבית_רינתי/?id=17675"
+    },
+    {
+      "event_id": "auto_as_ed25c185b34074edfce1",
+      "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33648"
+    },
+    {
+      "event_id": "auto_as_a02e2e039fa2a5969f9b",
+      "title": "חיפה- עוגת חתונה",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33649"
+    },
+    {
+      "event_id": "auto_as_aedfda463657de5ed2bf",
+      "title": "מיץ פטל | שעת סיפור עם רינתי",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/מיץ_פטל_|_שעת_סיפור_עם_רינתי/?id=17649"
+    },
+    {
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "category": "other",
+      "ticket_url": "https://live.tickchak.co.il/ashdod"
+    },
+    {
+      "event_id": "auto_as_56006f0f4db06e0655a0",
+      "title": "המדורה של רינתי",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי/?id=17674"
+    },
+    {
+      "event_id": "auto_as_6b0a85ae2a0051cd7218",
+      "title": "פסיפסים ועוד בגליל המערבי",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33650"
+    },
+    {
+      "event_id": "auto_as_4ed466d9ac4036a41389",
+      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650"
+    },
+    {
+      "event_id": "auto_as_92a7794474ff45937b54",
+      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
+      "category": "other",
+      "ticket_url": "https://live.tickchak.co.il/ashdod"
+    },
+    {
+      "event_id": "auto_as_bf7028aa1130feeeda5e",
+      "title": "סיור טעימות ואתרים באשדוד",
+      "category": "tour",
+      "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33651"
+    },
+    {
+      "event_id": "auto_as_7a0d248903ac27e7d66a",
+      "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
+      "category": "lecture",
+      "ticket_url": "https://ashdod.smarticket.co.il/נדל_ן_סיפור_אהבה-הקרנת_סרט_ומפגש_שיח/?id=16035"
+    },
+    {
+      "event_id": "auto_as_874fbf8765c2eddd641d",
+      "title": "איילת מטיילת | שעת סיפור עם רינתי",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/איילת_מטיילת_|_שעת_סיפור_עם_רינתי/?id=17651"
     }
   ]
 }
