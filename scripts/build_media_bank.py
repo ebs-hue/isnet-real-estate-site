@@ -27,7 +27,8 @@ CITIES={
     "ashdod": EVENTS/"ashdod"/"data"/"events.json",
     "rishon-lezion": EVENTS/"rishon-lezion"/"data"/"events.json",
 }
-GENERIC_PEOPLE={"אבא","אמא","הורים","ילדים","ילדות","משפחה","משפחות","קהל","משתתפים","משתתפות","מרצה","מנחה","אמן","אמנית","זמר","זמרת","שחקן","שחקנית"}\nBAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel")
+GENERIC_PEOPLE={"אבא","אמא","הורים","ילדים","ילדות","משפחה","משפחות","קהל","משתתפים","משתתפות","מרצה","מנחה","אמן","אמנית","זמר","זמרת","שחקן","שחקנית"}
+BAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel")
 
 def norm(v):
     x=unicodedata.normalize("NFKC",str(v or "")).casefold()
