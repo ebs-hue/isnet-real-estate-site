@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>אירוע חדש | ISNET</title>
-  <link rel="stylesheet" href="styles.css?v=20261007-1030">
-  <link rel="stylesheet" href="edit.css?v=20261007-1050">
+  <link rel="stylesheet" href="styles.css?v=20261007-1100">
+  <link rel="stylesheet" href="edit.css?v=20261007-1100">
 </head>
 <body>
 <header class="topbar edit-topbar">
@@ -39,6 +39,34 @@
         <label><span>כותרת</span><input id="title" type="text" placeholder="שם האירוע"></label>
         <label><span>תקציר קצר</span><textarea id="shortPitch" rows="3"></textarea></label>
         <label><span>על האירוע</span><textarea id="description" rows="10"></textarea></label>
+      </section>
+
+      <section class="panel edit-card seo-card">
+        <div class="card-title-row">
+          <div>
+            <h2>קידום בגוגל ובהפצה</h2>
+            <p class="section-help">המערכת תציע ערכים אוטומטיים, והעורך יכול לשנות אותם.</p>
+          </div>
+          <span class="seo-badge">SEO</span>
+        </div>
+        <label><span>כותרת לגוגל</span><input id="seoTitle" type="text" maxlength="70" placeholder="אם ריק, המערכת תשתמש בכותרת האירוע"></label>
+        <label><span>תיאור לגוגל</span><textarea id="seoDescription" rows="3" maxlength="180" placeholder="תיאור קצר שמסביר לגוגל ולגולש על האירוע"></textarea></label>
+        <div class="two">
+          <label><span>כתובת ידידותית / Slug</span><input id="seoSlug" type="text" dir="ltr" placeholder="event-name-city"></label>
+          <label><span>סוג תוכן לגוגל</span>
+            <select id="schemaType">
+              <option value="Event">Event</option>
+              <option value="Article">Article</option>
+              <option value="NewsArticle">NewsArticle</option>
+            </select>
+          </label>
+        </div>
+        <div class="distribution-checks">
+          <label class="checkbox"><input id="seoIndex" type="checkbox" checked> <span>לאפשר אינדוקס בגוגל</span></label>
+          <label class="checkbox"><input id="promoteHome" type="checkbox"> <span>לקדם בדף הבית</span></label>
+          <label class="checkbox"><input id="promoteCity" type="checkbox" checked> <span>לקדם בדף העיר</span></label>
+          <label class="checkbox"><input id="promoteSection" type="checkbox" checked> <span>לקדם במדור / קטגוריה</span></label>
+        </div>
       </section>
 
       <section class="panel edit-card">
@@ -87,6 +115,6 @@
     </aside>
   </section>
 </main>
-<script src="new.js?v=20261007-1050"></script>
+<script src="new.js?v=20261007-1100"></script>
 </body>
 </html>
