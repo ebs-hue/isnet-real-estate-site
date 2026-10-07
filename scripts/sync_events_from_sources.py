@@ -558,18 +558,9 @@ def source_rows(soup, source):
     else:
         rows = structured
 
-    # Listing pages are discovery only. For events inside the five-month
-    # working horizon, open the actual event/show card and collect the richer
-    # source text before AI enrichment starts.
-    today = date.today()
-    horizon = add_months(today, EVENT_HORIZON_MONTHS).isoformat()
-    enriched = []
-    for row in rows:
-        d = str(row.get("start_date") or "")
-        if today.isoformat() <= d <= horizon:
-            row = enrich_row_from_detail(row, soup, source)
-        enriched.append(row)
-    return enriched
+    # Discovery phase only. Do not open event detail cards here.
+    # Detail pages are fetched later only for a genuinely new event.
+    return rows
 
 
 def event_key(obj):
@@ -875,6 +866,25 @@ def merge(city_slug, specs, dry_run=False):
                     summary["updated"] += 1
                     source_status["updated"] += 1
                 continue
+            # New event only: now open its detail card and collect the richer
+            # source text / best image. Existing events never reach this step.
+            obj = enrich_row_from_detail(obj, soup, spec)
+            incoming.update({
+                "ticket_url": obj.get("ticket_url") or incoming.get("ticket_url"),
+                "purchase_url": obj.get("purchase_url") or incoming.get("purchase_url"),
+                "detail_source_url": obj.get("detail_source_url"),
+                "source_detail_text": obj.get("source_detail_text"),
+                "source_detail_text_length": obj.get("source_detail_text_length"),
+                "image_url": obj.get("image_url") or incoming.get("image_url"),
+                "image_source": obj.get("image_source") or incoming.get("image_source"),
+                "image_origin_url": obj.get("image_origin_url") or incoming.get("image_origin_url"),
+                "image_rights_status": obj.get("image_rights_status") or incoming.get("image_rights_status"),
+                "image_candidates": obj.get("image_candidates") or incoming.get("image_candidates"),
+                "image_verified": obj.get("image_verified", incoming.get("image_verified", False)),
+                "image_publishable": obj.get("image_publishable", incoming.get("image_publishable", False)),
+                "image_strategy": obj.get("image_strategy") or incoming.get("image_strategy"),
+                "quality_flags": obj.get("quality_flags") or incoming.get("quality_flags"),
+            })
             stable = "|".join([name, label, *key])
             incoming["event_id"] = f"auto_{city_slug[:2]}_" + hashlib.sha256(stable.encode()).hexdigest()[:20]
             incoming.update(reuse_official_image(events, incoming, name))
