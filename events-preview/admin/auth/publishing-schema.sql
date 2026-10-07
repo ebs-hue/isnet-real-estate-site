@@ -31,3 +31,9 @@ using (publication_status='published');
 
 create index if not exists cms_event_records_publication_idx
 on public.cms_event_records(city_slug,publication_status,published_at desc);
+
+
+-- Server-side automation (GitHub Actions / Supabase secret key)
+grant usage on schema public to service_role;
+grant select, insert, update on public.cms_event_records to service_role;
+
