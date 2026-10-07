@@ -11923,7 +11923,43 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:05:43Z",
+      "missing_information": [
+        "שמות המבצעים או הרכבים המשתתפים",
+        "תוכנית המופע ורשימת השירים",
+        "מחירי כרטיסים ואמצעי רכישה",
+        "משך האירוע",
+        "האם האירוע מתאים לכל הגילים/הגבלות גיל",
+        "מדיניות כניסה/החזרים וביטולים ספציפית לאירוע",
+        "נגישות למוגבלים ונקודות חנייה"
+      ],
+      "event_summary": "חגיגת זמר ישראלית לכבוד חג האורות היא מופע מוזיקלי שמתקיים במסגרת פעילויות רשת כותר ראשון. האירוע יתקיים בספריית שיכון המזרח בראשון לציון בתאריך 8.12.2026 בשעה 20:00. הכותרת רומזת לערב שירים ישראליים ואווירה חגיגית לרגל חנוכה.",
+      "short_pitch": "ערב מוזיקלי לכבוד חנוכה בספריית שיכון המזרח בראשון לציון: חגיגת זמר ישראלית שמארגנת רשת כותר ראשון — הזדמנות להשתתף באירוע קהילתי מוסיקלי בערב החג.",
+      "long_description": "האירוע המוצג כ\"חגיגת זמר ישראלית לכבוד חג האורות\" מוגדר כמופע מוזיקלי שמטרתו לציין את חג החנוכה. לפי פרטי האירוע הקיימים, המופע נערך בספריית שיכון המזרח בראשון לציון, בתאריך 8 בדצמבר 2026 בשעה 20:00, ומאורגן על-ידי רשת כותר ראשון. מעבר לכותרת ולמיקום, אין במקור פירוט על המשתתפים, התוכנית המוזיקלית או מבנה המופע; ניתן לצפות לאווירה חגיגית ולקהל מקומי המעוניין באירועי מוזיקה סביב החג. אם אתם מתכננים להגיע — שימו לב שמידע על רכישת כרטיסים, הגבלת גיל, עלות ומושבי האירוע לא צוין במקור ויש לברר אותם מול המארגנים. לפרטים נוספים ועדכונים יש לעקוב אחרי פרסומי רשת כותר ראשון או קשרי הספרייה המקומית.",
+      "event_type": "קונצרט/חגיגה מוזיקלית",
+      "target_audience": [
+        "קהל הרחב",
+        "חובבי מוזיקה ישראלית",
+        "משפחות"
+      ],
+      "visual_keywords": [
+        "במה בספרייה",
+        "מנורה/חנוכייה",
+        "מיקרופון וזמר/ת בסילואט",
+        "אורות במה חמים",
+        "קהל יושב ומוחא כפיים",
+        "תווים מוזיקליים",
+        "עיטוד כחול וזהב (צבעי חנוכה)",
+        "שולחנות וספרים ברקע"
+      ],
+      "image_brief": "תצלום או אילוסטרציה של במה קטנה באולם ספרייה מוארת בחום, עם זמר/ת או סילואט של מבצע/ים ליד מיקרופון, מנורה (חנוכייה) מוארת קרובה לבמה ואנשי קהל יושבים וצופים. אפשר להראות רקע של מדפי ספרים ברפרוף, אורות במה זוהרים ותווים מוזיקליים דקורטיביים באווירה חגיגית בצבעים כחול וזהב.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261209_1545_קסם-של-כוכבים",
@@ -11985,7 +12021,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261210_1230_קרקס-החלומות-–-קרקס-בראבו",
@@ -12047,7 +12087,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261210_1600_קרקס-החלומות-–-קרקס-בראבו",
@@ -12109,7 +12153,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261211_2200_גיורא-זינגר",
@@ -12168,7 +12216,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261212_1000_שומרי-הדרקונים",
@@ -12230,7 +12282,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261212_1200_שומרי-הדרקונים",
@@ -12292,7 +12348,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261212_1600_שומרי-הדרקונים",
@@ -12354,7 +12414,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -12416,7 +12480,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261212_1800_שומרי-הדרקונים",
@@ -12478,7 +12545,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261213_1730_אליסה-בארץ-הפלאות-–-חנוכה-20",
@@ -12540,7 +12611,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -12602,7 +12677,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",

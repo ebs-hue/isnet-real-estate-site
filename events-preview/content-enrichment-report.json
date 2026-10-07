@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T19:05:08Z",
+  "generated_at": "2026-10-07T19:05:54Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 0,
+  "enriched": 1,
   "insufficient": 0,
-  "source_text_insufficient": 12,
+  "source_text_insufficient": 11,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261203_2100_בוא-לא-נדבר-על-זה",
-      "title": "בוא לא נדבר על זה",
+      "event_id": "auto_ri_b8a3448ccd5dbbc2e5e8",
+      "title": "חגיגת זמר ישראלית לכבוד חג האורות",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261209_1545_קסם-של-כוכבים",
+      "title": "קסם של כוכבים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_566e9fcf9b2fb7750335",
-      "title": "קבלת שבת עם הרב בני מינץ",
+      "event_id": "htrl_20261210_1230_קרקס-החלומות-–-קרקס-בראבו",
+      "title": "קרקס החלומות – קרקס בראבו",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261204_2230_אדיר-מילר",
-      "title": "אדיר מילר",
+      "event_id": "htrl_20261210_1600_קרקס-החלומות-–-קרקס-בראבו",
+      "title": "קרקס החלומות – קרקס בראבו",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_e_1205_0900",
-      "title": "קסם של פסטיבל - חנוכה 2026",
+      "event_id": "htrl_20261211_2200_גיורא-זינגר",
+      "title": "גיורא זינגר",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261205_1000_חנות-סופגניות-קטנה-ומצחיקה",
-      "title": "חנות סופגניות קטנה ומצחיקה",
+      "event_id": "htrl_20261212_1000_שומרי-הדרקונים",
+      "title": "שומרי הדרקונים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_e_1205_1000",
-      "title": "חנות סופגניות קטנה ומצחיקה - חנוכה 2026",
+      "event_id": "htrl_20261212_1200_שומרי-הדרקונים",
+      "title": "שומרי הדרקונים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261205_1200_חנות-סופגניות-קטנה-ומצחיקה",
-      "title": "חנות סופגניות קטנה ומצחיקה",
+      "event_id": "htrl_20261212_1600_שומרי-הדרקונים",
+      "title": "שומרי הדרקונים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261205_1600_חנות-סופגניות-קטנה-ומצחיקה",
-      "title": "חנות סופגניות קטנה ומצחיקה",
+      "event_id": "auto_ri_6e48e49de929a96372d6",
+      "title": "מכבים אנחנו",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_7d6b6116d2ed50fe8043",
-      "title": "חנוכה, נר שני",
+      "event_id": "htrl_20261212_1800_שומרי-הדרקונים",
+      "title": "שומרי הדרקונים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_664315092d2c22879f09",
-      "title": "אי טרופי אבוד – קובה",
+      "event_id": "htrl_20261213_1730_אליסה-בארץ-הפלאות-–-חנוכה-20",
+      "title": "אליסה בארץ הפלאות – חנוכה 2026",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_949066053ff2bee127d6",
-      "title": "היי סקול דרמה – משפחת טרסוב",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_ac3f38940f5ebe925d30",
-      "title": "היי סקול דרמה – משפחת טרסוב",
+      "event_id": "auto_ri_40c2da2d2eb1f0cf0869",
+      "title": "לגלות תרבות ממבט מגדרי",
       "status": "source_text_insufficient"
     }
   ]
