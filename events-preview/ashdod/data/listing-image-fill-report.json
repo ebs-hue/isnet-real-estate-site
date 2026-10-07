@@ -1,75 +1,18 @@
 {
-  "generated_at": "2026-10-07T10:39:16Z",
+  "generated_at": "2026-10-07T10:51:39Z",
   "total_events": 396,
-  "verified_images": 322,
-  "still_missing": 74,
+  "verified_images": 323,
+  "still_missing": 73,
   "stats": {
-    "accepted": 8,
-    "same_title_reuse": 1
+    "accepted": 1
   },
   "newly_filled": [
     {
-      "event_id": "auto_as_0b4b250a9cc0940ed28c",
-      "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "title": "המספרה של ג'אקו - הפקת מקור",
+      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a930c99569b7364337836.jpeg",
       "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
-      "title": "איילת מטיילת- הצגה מבית רינתי",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_30f82fe69bd135aabb33",
-      "title": "לצייר ובגדול | סדנה לילדים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3642b53f94539993113.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_d77f1323483fec7e92d1",
-      "title": "סדנת חנוכיות להורים ולילדים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_dcf769d1379befa09acc",
-      "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_d206f17261a8fe553f04",
-      "title": "ציור בוטני | סדנה למבוגרים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3640cbb2b3064576397.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_cc2d1cac424acf768c45",
-      "title": "הצגת ענק עלילות המכבים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 246.8
-    },
-    {
-      "event_id": "auto_as_fdeb756625c3f837de13",
-      "title": "בודי בלט| סדנא בונה עצם לנשים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": 215.4
-    },
-    {
-      "event_id": "auto_as_c16e2e89a69bbed03363",
-      "title": "בודי בלט| סדנא בונה עצם לנשים",
-      "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
+      "score": 223.4
     }
   ],
   "missing": [
@@ -144,12 +87,6 @@
       "title": "הפועל אשדוד - בני הרצליה",
       "category": "sport",
       "ticket_url": "https://handballisr.co.il/team.asp?TId=131"
-    },
-    {
-      "event_id": "auto_as_ab616d899c714d6fd180",
-      "title": "המספרה של ג'אקו - הפקת מקור",
-      "category": "other",
-      "ticket_url": "https://ashdod.smarticket.co.il/המספרה_של_ג_אקו_-_הפקת_מקור/?id=17265"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
