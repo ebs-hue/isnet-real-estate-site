@@ -1,0 +1,51 @@
+name: Auto-publish events after media QA
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Enrich Ashdod event images"
+      - "Verify and cache Rishon event photos"
+    types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: isnet-event-auto-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install publisher dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Verify secure CMS configuration
+        env:
+          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY }}
+        run: |
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "::error::Missing secure CMS publishing configuration."
+            exit 2
+          fi
+
+      - name: Re-run QA and publish every newly-ready event
+        env:
+          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY }}
+        run: python -u scripts/auto_publish_ready_events.py
