@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "publish_policy": "human_approval_required",
+  "workflow": [
+    "collector",
+    "dedupe",
+    "enrichment",
+    "media",
+    "taxonomy",
+    "seo",
+    "qa",
+    "ready_for_review"
+  ],
+  "agents": [
+    {
+      "id": "collector",
+      "name": "סוכן איסוף",
+      "status": "planned",
+      "order": 1,
+      "purpose": "איתור אירועים חדשים ממקורות שהוגדרו והכנסתם כטיוטה.",
+      "can": [
+        "read_sources",
+        "create_draft",
+        "attach_source"
+      ],
+      "cannot": [
+        "publish",
+        "delete_content"
+      ]
+    },
+    {
+      "id": "dedupe",
+      "name": "סוכן מניעת כפילויות",
+      "status": "planned",
+      "order": 2,
+      "purpose": "השוואת כותרת, תאריך, מקום, מארגן ומקור כדי למנוע יצירת אירועים כפולים.",
+      "can": [
+        "compare_events",
+        "flag_duplicate",
+        "merge_suggestion"
+      ],
+      "cannot": [
+        "hard_delete",
+        "publish"
+      ]
+    },
+    {
+      "id": "enrichment",
+      "name": "סוכן העשרה",
+      "status": "planned",
+      "order": 3,
+      "purpose": "השלמת תקציר, תיאור, שעות, מקום, כתובת, מחיר, קישורים ופרטים חסרים.",
+      "can": [
+        "suggest_content",
+        "update_draft_fields",
+        "flag_missing_data"
+      ],
+      "cannot": [
+        "invent_facts",
+        "publish"
+      ]
+    },
+    {
+      "id": "media",
+      "name": "סוכן מדיה ותמונות",
+      "status": "priority",
+      "order": 4,
+      "purpose": "איתור או יצירת תמונה רלוונטית, תוך שמירת מקור, קרדיט, זכויות וסימון AI.",
+      "strategy": [
+        "חיפוש בבנק המדיה הפנימי",
+        "חיפוש במקורות שמוגדרים כמורשים",
+        "אם אין תמונה מתאימה: יצירת אילוסטרציה רלוונטית ב-AI",
+        "בדיקת זכויות, קרדיט והתאמה",
+        "הצעה לעורך ולא פרסום אוטומטי"
+      ],
+      "can": [
+        "search_media_bank",
+        "search_allowed_sources",
+        "propose_image",
+        "generate_ai_image",
+        "record_credit",
+        "record_rights",
+        "flag_ai_generated"
+      ],
+      "cannot": [
+        "use_unclear_rights",
+        "misrepresent_ai_as_real_photo",
+        "publish"
+      ]
+    },
+    {
+      "id": "taxonomy",
+      "name": "סוכן שיוך",
+      "status": "planned",
+      "order": 5,
+      "purpose": "שיוך לקטגוריות, קהלים, נושאים, גופים ויעדי הפצה מתוך המילון המאושר בלבד.",
+      "can": [
+        "select_existing_taxonomy",
+        "suggest_distribution"
+      ],
+      "cannot": [
+        "create_taxonomy_value",
+        "publish"
+      ]
+    },
+    {
+      "id": "seo",
+      "name": "סוכן SEO וקידום",
+      "status": "planned",
+      "order": 6,
+      "purpose": "הכנת כותרת לגוגל, תיאור, Slug, Schema והמלצות קידום והפצה.",
+      "can": [
+        "suggest_seo",
+        "suggest_slug",
+        "suggest_promotion",
+        "suggest_internal_links"
+      ],
+      "cannot": [
+        "publish"
+      ]
+    },
+    {
+      "id": "qa",
+      "name": "סוכן בקרת איכות",
+      "status": "priority",
+      "order": 7,
+      "purpose": "בדיקה אחרונה של שלמות, אמינות, תמונה, זכויות, תאריך, קישורים, כפילויות ו-SEO.",
+      "can": [
+        "score_completeness",
+        "score_confidence",
+        "flag_errors",
+        "mark_ready_for_review"
+      ],
+      "cannot": [
+        "publish"
+      ]
+    }
+  ],
+  "media_policy": {
+    "statuses": [
+      "approved",
+      "needs_review",
+      "blocked"
+    ],
+    "types": [
+      "original_photo",
+      "press_photo",
+      "licensed_image",
+      "ai_generated",
+      "illustration"
+    ],
+    "required_metadata": [
+      "source",
+      "credit",
+      "rights_status",
+      "ai_generated",
+      "approved_for_homepage",
+      "approved_for_social"
+    ]
+  }
+}
