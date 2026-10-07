@@ -444,12 +444,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17321",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -479,8 +479,8 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
-      "image_strategy": "official_source_image"
+      "image_rights_status": "verified_official_source",
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_36_20261006",
@@ -766,7 +766,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -791,12 +792,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17552",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -821,7 +822,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17552",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -829,7 +830,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "city": "אשדוד",
@@ -912,12 +913,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17580",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -942,7 +943,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17580",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -950,7 +951,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "evt_5_20261008",
@@ -1036,12 +1037,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17328",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -1071,7 +1072,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -1079,7 +1080,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -1335,12 +1336,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17531",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -1365,7 +1366,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17531",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -1373,7 +1374,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261009_hapoel_ashdod_m_handball",
@@ -1460,12 +1461,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17532",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -1490,7 +1491,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17532",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -1498,7 +1499,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_70_20261010",
@@ -1620,7 +1621,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17708",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -1645,12 +1647,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17553",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -1675,7 +1677,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17553",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -1683,7 +1685,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -1750,7 +1752,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -1818,7 +1821,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -1843,12 +1847,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17322",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -1878,7 +1882,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -1886,7 +1890,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -2075,7 +2079,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17709",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -2100,12 +2105,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17581",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -2130,7 +2135,7 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17581",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -2138,7 +2143,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -2205,7 +2210,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_40_20261012",
@@ -2326,7 +2332,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_95_20261012",
@@ -2389,7 +2396,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "sport_20261012_maccabi_ashdod_basketball",
@@ -2513,7 +2521,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17710",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -2538,12 +2547,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17554",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -2573,7 +2582,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -2581,7 +2590,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -2649,7 +2658,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -2674,12 +2684,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17323",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -2709,7 +2719,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -2717,7 +2727,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -2781,7 +2791,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -2849,7 +2860,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -2913,7 +2925,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
@@ -2975,7 +2988,9 @@
       "away_team": "הפועל אריות ירושלים",
       "competition": "ליגת העל גברים, מחזור 1",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "event_id": "evt_41_20261013",
@@ -3095,7 +3110,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17711",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -3120,12 +3136,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17555",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -3155,7 +3171,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -3163,7 +3179,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -3230,7 +3246,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_6_20261014",
@@ -3299,7 +3316,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -3367,7 +3385,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -3429,7 +3448,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים_6297/?id=17712",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -3497,7 +3517,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_96_20261014",
@@ -3615,7 +3636,8 @@
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/מעשה_בחמישה_בלונים__6e4cbe7da0/?id=8240",
       "details_verified": true,
       "venue_institution_id": "yadlabanim_ashdod",
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -3759,12 +3781,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17582",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -3794,7 +3816,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -3802,7 +3824,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -3869,7 +3891,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -4120,7 +4143,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -4394,12 +4418,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17533",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -4429,7 +4453,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4437,7 +4461,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261016_ms_ashdod_football",
@@ -4499,7 +4523,9 @@
       "away_team": "מכבי קריית גת",
       "competition": "הליגה הלאומית",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "city": "אשדוד",
@@ -4524,12 +4550,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17534",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -4559,7 +4585,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4567,7 +4593,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
@@ -4629,7 +4655,9 @@
       "away_team": "מכבי חדרה",
       "competition": "ליגת העל נשים, מחזור 2",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "city": "אשדוד",
@@ -4695,7 +4723,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_44_20261017",
@@ -4773,12 +4802,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17556",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -4808,7 +4837,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4816,7 +4845,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -4878,7 +4907,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -4903,12 +4933,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17324",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -4938,7 +4968,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4946,7 +4976,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -5159,12 +5189,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17583",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -5194,7 +5224,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -5202,7 +5232,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_9_20261019",
@@ -5386,7 +5416,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -5448,7 +5479,9 @@
       "away_team": "שמשון תל אביב",
       "competition": "ליגה א׳",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "city": "אשדוד",
@@ -5530,12 +5563,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17557",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -5565,7 +5598,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -5573,7 +5606,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_97_20261020",
@@ -5660,12 +5693,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17325",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -5695,7 +5728,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -5703,7 +5736,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -5767,7 +5800,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_72_20261020",
@@ -5895,7 +5929,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_46_20261020",
@@ -5978,12 +6013,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6013,7 +6048,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6021,7 +6056,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -6083,7 +6118,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -6149,7 +6185,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -6232,12 +6269,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6267,7 +6304,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6275,7 +6312,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_47_20261022",
@@ -6534,12 +6571,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6569,7 +6606,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6577,7 +6614,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_49_20261023",
@@ -6666,12 +6703,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6701,7 +6738,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6709,7 +6746,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
@@ -6771,7 +6808,9 @@
       "away_team": "הפועל חוסאם נצרת",
       "competition": "ליגת העל גברים, מחזור 3",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "event_id": "evt_50_20261024",
@@ -6849,12 +6888,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6884,7 +6923,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6892,7 +6931,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -6917,12 +6956,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17326",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -6952,7 +6991,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6960,7 +6999,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -7027,7 +7066,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_51_20261025",
@@ -7164,12 +7204,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17585",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -7199,7 +7239,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7207,7 +7247,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261026_maccabi_ashdod_basketball",
@@ -7354,12 +7394,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17561",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -7389,7 +7429,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7397,7 +7437,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_73_20261028",
@@ -7581,7 +7621,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -7643,7 +7684,9 @@
       "away_team": "מכבי SVA רחובות",
       "competition": "ליגת העל נשים, מחזור 4",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "event_id": "evt_52_20261028",
@@ -7725,12 +7768,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -7760,7 +7803,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7768,7 +7811,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -7793,12 +7836,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17329",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -7828,7 +7871,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7836,7 +7879,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "sport_20261029_hapoel_ashdod_w_handball",
@@ -7976,12 +8019,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -8011,7 +8054,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8019,7 +8062,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -8081,7 +8124,9 @@
       "away_team": "בני יהודה תל אביב",
       "competition": "הליגה הלאומית",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "event_id": "sport_20261030_ironi_ashdod_football",
@@ -8143,7 +8188,9 @@
       "away_team": "הפועל ניר רמת השרון",
       "competition": "ליגה א׳",
       "is_home_game": true,
-      "representative_team": true
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "missing"
     },
     {
       "city": "אשדוד",
@@ -8168,12 +8215,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17538",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -8203,7 +8250,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8211,7 +8258,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "evt_54_20261031",
@@ -8294,12 +8341,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17562",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -8329,7 +8376,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8337,7 +8384,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "evt_11_20261101",
@@ -8528,7 +8575,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_13_20261101",
@@ -8733,12 +8781,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -8768,7 +8816,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8776,7 +8824,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_14_20261102",
@@ -8902,7 +8950,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -9088,7 +9137,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -9113,12 +9163,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -9148,7 +9198,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9156,7 +9206,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_15_20261103",
@@ -9243,12 +9293,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17334",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -9278,7 +9328,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9286,7 +9336,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -9354,7 +9404,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_55_20261103",
@@ -9496,12 +9547,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -9531,7 +9582,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9539,7 +9590,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_16_20261104",
@@ -9683,12 +9734,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -9718,7 +9769,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9726,7 +9777,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_17_20261105",
@@ -10005,12 +10056,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10040,7 +10091,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10048,7 +10099,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10073,12 +10124,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17540",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10108,7 +10159,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10116,7 +10167,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10141,12 +10192,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17565",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10176,7 +10227,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10184,7 +10235,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10251,7 +10302,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -10276,12 +10328,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17335",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10311,7 +10363,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10319,7 +10371,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_19_20261109",
@@ -10406,12 +10458,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17589",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10441,7 +10493,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10449,7 +10501,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10516,7 +10568,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -10660,12 +10713,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17566",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10695,7 +10748,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10703,7 +10756,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10728,12 +10781,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17336",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10763,7 +10816,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10771,7 +10824,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -10919,12 +10972,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17567",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -10954,7 +11007,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10962,7 +11015,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_76_20261111",
@@ -11047,12 +11100,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17590",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11082,7 +11135,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11090,7 +11143,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11157,7 +11210,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -11182,12 +11236,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17330",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11217,7 +11271,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11225,7 +11279,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11293,7 +11347,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_58_20261112",
@@ -11376,12 +11431,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17541",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11411,7 +11466,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11419,7 +11474,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_98_20261113",
@@ -11503,12 +11558,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17542",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11538,7 +11593,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11546,7 +11601,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11612,7 +11667,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -11637,12 +11693,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17568",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11672,7 +11728,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11680,7 +11736,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11705,12 +11761,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17337",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11740,7 +11796,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11748,7 +11804,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11814,7 +11870,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -11839,12 +11896,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17591",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -11874,7 +11931,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11882,7 +11939,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -11944,7 +12001,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -12008,7 +12066,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_77_20261116",
@@ -12123,12 +12182,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17569",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -12158,7 +12217,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12166,7 +12225,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_21_20261117",
@@ -12253,12 +12312,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17338",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -12288,7 +12347,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12296,7 +12355,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_99_20261117",
@@ -12473,12 +12532,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -12508,7 +12567,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12516,7 +12575,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -12578,7 +12637,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_79_20261118",
@@ -12693,12 +12753,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -12728,7 +12788,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12736,7 +12796,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -12914,12 +12974,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17543",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -12949,7 +13009,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12957,7 +13017,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -12982,12 +13042,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17544",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13017,7 +13077,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13025,7 +13085,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_81_20261121",
@@ -13193,12 +13253,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17571",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13228,7 +13288,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13236,7 +13296,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -13261,12 +13321,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17339",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13296,7 +13356,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13304,7 +13364,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -13513,12 +13573,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13548,7 +13608,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13556,7 +13616,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -13638,12 +13698,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13673,7 +13733,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13681,7 +13741,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_23_20261124",
@@ -13764,12 +13824,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17340",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13799,7 +13859,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13807,7 +13867,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_60_20261124",
@@ -13890,12 +13950,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17573",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13925,7 +13985,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13933,7 +13993,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -13958,12 +14018,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17594",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13993,7 +14053,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14001,7 +14061,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -14026,12 +14086,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17331",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14061,7 +14121,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14069,7 +14129,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_61_20261126",
@@ -14210,12 +14270,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17545",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14245,7 +14305,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14253,7 +14313,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -14278,12 +14338,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17546",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14313,7 +14373,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14321,7 +14381,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_83_20261128",
@@ -14407,12 +14467,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17574",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14442,7 +14502,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14450,7 +14510,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -14475,12 +14535,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17341",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14510,7 +14570,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14518,7 +14578,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -14584,7 +14644,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -14650,7 +14711,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -14734,12 +14796,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17595",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14759,7 +14821,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_6347127f965dcf0e1e59",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14777,7 +14839,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_24_20261130",
@@ -14912,12 +14974,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17342",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -14937,7 +14999,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_54f7d788e86283b87fb1",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14955,7 +15017,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_100_20261202",
@@ -15025,7 +15087,8 @@
       "detail_checked_at": "2026-10-07",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609",
-      "details_verified": true
+      "details_verified": true,
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_26_20261203",
@@ -15227,12 +15290,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17332",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/0cd545b49063026c3e11a9.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -15252,7 +15315,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_0e504f3ec1134d211524",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -15270,7 +15333,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "city": "אשדוד",
@@ -15398,7 +15461,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/_קסם_של_כוכבים__-_רועיקי_מצחיקי_וסמי_הכבאי/?id=8228",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_62_20261203",
@@ -15538,12 +15602,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17343",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -15563,7 +15627,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_50a7efb2b50ebe61a225",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -15581,7 +15645,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -15647,7 +15711,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/הקסם_שבצבע_-_בכיכובה_של_סתיו_בכל_הצבעים/?id=8226",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -15715,7 +15780,8 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -15783,7 +15849,8 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -16027,7 +16094,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/סיפור_הנס/?id=8223",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -16052,12 +16120,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17344",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -16077,7 +16145,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_5f852eb04bb2d0cae7e1",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -16095,7 +16163,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_84_20261208",
@@ -16336,7 +16404,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -16402,7 +16471,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/מפצח_האגוזים_5c5a8cdca0/?id=8219",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -16464,7 +16534,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/סינדרלה_aac72791b4/?id=17685",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -16530,7 +16601,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_65_20261212",
@@ -16976,12 +17048,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17345",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17001,7 +17073,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_59655390abaa9c53aa61",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17019,7 +17091,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_66_20261215",
@@ -17143,7 +17215,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/היי_סקול_דרמה_-_האקדמיה_למדעי_היוטיוב_-_חנוכה_2026_/?id=8227",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17205,7 +17278,8 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/עץ_הבלונים_/?id=17307",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17271,7 +17345,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/סינדרלה_32a6d30b5e/?id=8234",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17296,12 +17371,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17350",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17321,7 +17396,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_35bd1f217f32934d2492",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17339,7 +17414,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -17405,7 +17480,8 @@
       "detail_checked_at": "2026-10-07",
       "detail_source_url": "https://mishkan-ashdod.smarticket.co.il/נישואים_גרעיניים/?id=8236",
       "details_verified": true,
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17430,12 +17506,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17346",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17455,7 +17531,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_665b57eff06e3c166682",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17473,7 +17549,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "evt_86_20261221",
@@ -17679,12 +17755,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17347",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17704,7 +17780,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_f002977fe467c1b61d10",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17712,7 +17788,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "source_listing_card"
     },
     {
       "event_id": "evt_33_20261224",
@@ -17789,12 +17865,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17333",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17814,7 +17890,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_bca284c4df193823ce8c",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17822,7 +17898,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -17880,7 +17956,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17905,12 +17982,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17348",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17930,7 +18007,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_16220c6c0b421e0bd833",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17938,7 +18015,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "city": "אשדוד",
@@ -18001,7 +18078,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_87_20261228",
@@ -18213,7 +18291,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -18238,12 +18317,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17349",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+      "image_url": "assets/events/57344f337017ee61698c0e.jpg",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -18263,7 +18342,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_7123985f38e74e783cb1",
-      "image_rights_status": "missing",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -18271,7 +18350,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "same_production_reuse"
     },
     {
       "event_id": "evt_88_20261229",
@@ -18858,7 +18937,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -18975,7 +19055,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19038,7 +19119,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19101,7 +19183,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19164,7 +19247,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19325,7 +19409,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19541,7 +19626,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19656,7 +19742,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19714,7 +19801,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19772,7 +19860,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19835,7 +19924,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -19955,7 +20045,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20013,7 +20104,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20071,7 +20163,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20134,7 +20227,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20197,7 +20291,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20309,7 +20404,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20372,7 +20468,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20484,7 +20581,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20604,7 +20702,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20667,7 +20766,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20774,7 +20874,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20837,7 +20938,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -20949,7 +21051,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21069,7 +21172,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21132,7 +21236,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21350,7 +21455,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21470,7 +21576,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21533,7 +21640,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21596,7 +21704,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21708,7 +21817,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21877,7 +21987,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21935,7 +22046,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -21993,7 +22105,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22105,7 +22218,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22168,7 +22282,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22288,7 +22403,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22351,7 +22467,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22414,7 +22531,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22477,7 +22595,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22646,7 +22765,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22709,7 +22829,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22829,7 +22950,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -22996,7 +23118,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23059,7 +23182,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23122,7 +23246,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23340,7 +23465,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23457,7 +23583,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23520,7 +23647,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23640,7 +23768,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23752,7 +23881,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23864,7 +23994,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23922,7 +24053,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -23985,7 +24117,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24043,7 +24176,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24106,7 +24240,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24169,7 +24304,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24232,7 +24368,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24295,7 +24432,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24358,7 +24496,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24421,7 +24560,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24484,7 +24624,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24547,7 +24688,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24610,7 +24752,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24673,7 +24816,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24736,7 +24880,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24799,7 +24944,8 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image"
+      "image_strategy": "official_source_image",
+      "media_status": "waiting_for_content"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
