@@ -28,7 +28,7 @@ $("imageFile").addEventListener("change",e=>{
   if(file.size>5*1024*1024){alert("התמונה גדולה מ־5MB. בחר תמונה קטנה יותר.");e.target.value="";return}
   const reader=new FileReader();reader.onload=()=>{imageData=reader.result;$("imagePreview").style.backgroundImage='url("'+reader.result+'")';$("imageApproved").checked=false;$("imageState").innerHTML='<span class="tag warn">תמונה חדשה · דורשת אישור</span>'};reader.readAsDataURL(file);
 });
-$("saveBtn").addEventListener("click",()=>{
+$("saveBtn").addEventListener("click",async()=>{
   const title=$("title").value.trim(),date=$("startDate").value,city=$("city").value;
   if(!title||!date){alert("יש להזין לפחות כותרת ותאריך.");return}
   const item={
@@ -42,9 +42,15 @@ $("saveBtn").addEventListener("click",()=>{
     thumbnail_ready:Boolean(imageData),sources:[{name:"manual_entry",source_type:"editorial"}],
     observed_at:new Date().toISOString(),updated_at:new Date().toISOString()
   };
-  const list=read();list.unshift(item);write(list);
-  $("saveNote").textContent="האירוע נשמר כטיוטה. מחזיר לרשימה...";
-  setTimeout(()=>location.href="./?status=draft",500);
+  try{
+    await window.ISNET_DB.saveEventRecord(city,item.event_id,item,"manual");
+    $("saveNote").textContent="האירוע נשמר במערכת המרכזית כטיוטה. מחזיר לרשימה...";
+  }catch(err){
+    const list=read();list.unshift(item);write(list);
+    $("saveNote").textContent="השרת לא היה זמין; נשמר גיבוי מקומי.";
+    console.error(err);
+  }
+  setTimeout(()=>location.href="./?status=draft",700);
 });
 $("city").addEventListener("change",renderOrganizations);
 loadTaxonomy().catch(console.error);
