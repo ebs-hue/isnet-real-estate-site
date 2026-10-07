@@ -91,15 +91,21 @@ $("imageFile").addEventListener("change",e=>{
   const reader=new FileReader();reader.onload=()=>{currentImageData=reader.result;$("imagePreview").style.backgroundImage='url("'+reader.result+'")';$("imageApproved").checked=false;$("imageState").innerHTML='<span class="tag warn">תמונה חדשה · דורשת אישור</span>'};reader.readAsDataURL(file);
 });
 $("saveDraftBtn").addEventListener("click",async()=>{
-  const payload=collect();
+  const btn=$("saveDraftBtn"),originalText=btn.textContent,payload=collect();
+  btn.disabled=true;btn.textContent="שומר...";
+  $("saveNote").textContent="שומר את השינויים במערכת...";
   try{
     await window.ISNET_DB.saveEventRecord(city,id,payload,"override");
     localStorage.removeItem(draftKey());
+    btn.textContent="נשמר ✓";
     $("saveNote").textContent="נשמר במערכת המרכזית ב־"+new Date().toLocaleTimeString("he-IL",{hour:"2-digit",minute:"2-digit"});
+    setTimeout(()=>{btn.textContent=originalText;btn.disabled=false},1400);
   }catch(err){
     localStorage.setItem(draftKey(),JSON.stringify(payload));
-    $("saveNote").textContent="השרת לא היה זמין; נשמר גיבוי מקומי.";
+    btn.textContent="נשמר גיבוי מקומי";
+    $("saveNote").textContent="לא ניתן היה לשמור בשרת. נשמר גיבוי מקומי בדפדפן.";
     console.error(err);
+    setTimeout(()=>{btn.textContent=originalText;btn.disabled=false},2200);
   }
 });
 $("hideBtn").addEventListener("click",()=>saveOverride("hidden"));
