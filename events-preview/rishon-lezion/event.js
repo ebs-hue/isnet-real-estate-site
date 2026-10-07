@@ -426,11 +426,12 @@ async function init(){
     const requestedId=params.get("id");
     const requestedSlug=params.get("slug");
     if(!requestedId&&!requestedSlug)throw new Error("missing event key");
-    const [data,sports,editorial,artistVideos]=await Promise.all([
+    const [data,sports,editorial,artistVideos,publishedCmsRows]=await Promise.all([
       fetch("data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
       fetch("data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}})),
-      fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]}))
+      fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]})),
+      window.ISNET_PUBLIC_CMS?.publishedEvents?.(location.pathname.includes("/rishon-lezion/")?"rishon-lezion":"ashdod")||Promise.resolve([])
     ]);
     sportsMeta=sports||{branches:{},teams:[]};
     const editorialById=editorial?.events||{};
@@ -449,17 +450,21 @@ async function init(){
         })
       )||null;
     };
+    const cmsRows=Array.isArray(publishedCmsRows)?publishedCmsRows:[];
+    const cmsById=new Map(cmsRows.map(r=>[r.event_id,r]));
     const all=(data.events||[]).map(event=>{
       const entry=editorialById[event.event_id];
       const artistVideo=!event.youtube_id&&!entry?.youtube_id?matchArtistVideo(event):null;
-      if(!entry&&!artistVideo)return event;
+      const cms=cmsById.get(event.event_id);
+      const cmsPayload=cms?.payload&&typeof cms.payload==="object"?cms.payload:null;
+      if(!entry&&!artistVideo&&!cmsPayload)return event;
       const allowed={};
       if(artistVideo){
         allowed.youtube_id=artistVideo.youtube_id;
         allowed.youtube_title=artistVideo.youtube_title||"קטע סטנדאפ של "+artistVideo.name;
         allowed.youtube_note=artistVideo.youtube_note||"קטע מייצג של האמן";
       }
-      if(!entry||typeof entry!=="object")return {...event,...allowed};
+      if(!entry||typeof entry!=="object")return {...event,...allowed,...(cmsPayload||{}),rich_content_status:cmsPayload?"enriched":event.rich_content_status};
 
       for(const field of ["long_description","short_pitch","youtube_title","youtube_note","suitability"]){
         if(typeof entry[field]==="string"&&entry[field].trim())allowed[field]=entry[field].trim();
@@ -469,8 +474,15 @@ async function init(){
       if(Array.isArray(entry.highlights))allowed.highlights=entry.highlights.filter(x=>typeof x==="string");
       // Do not embed search results or unverified YouTube IDs.
       if(/^[a-zA-Z0-9_-]{11}$/.test(entry.youtube_id||"") && entry.video_verified===true)allowed.youtube_id=entry.youtube_id;
-      return {...event,...allowed,rich_content_status:"enriched"};
+      return {...event,...allowed,...(cmsPayload||{}),rich_content_status:(entry||artistVideo||cmsPayload)?"enriched":event.rich_content_status};
     });
+    const existingIds=new Set(all.map(e=>e.event_id));
+    for(const row of cmsRows){
+      if(row.record_type==="manual"&&!existingIds.has(row.event_id)&&row.payload){
+        all.push({...row.payload,event_id:row.event_id,seo_slug:row.seo_slug||row.payload.seo_slug,publication_status:"published"});
+      }
+    }
+
     const base=requestedId
       ? all.find(e=>e.event_id===requestedId)
       : all.find(e=>eventSlug(e)===slugifyHebrew(requestedSlug));
@@ -504,9 +516,11 @@ async function init(){
         if (row) analytics?.send("select_date",{...analytics.metadata(selected),selected_date:selected.start_date,selection_type:"event_occurrence"});
         analytics?.send("ticket_click",params);
       } else if (link.matches(".relatedCard")) {
-        const id = new URL(link.href).searchParams.get("id");
-        const selected = all.find(item => item.event_id === id);
-        if (selected) window.ashdodAnalytics?.send("select_event",window.ashdodAnalytics.metadata(selected));
+        const u=new URL(link.href);
+        const relatedId=u.searchParams.get("id");
+        const relatedSlug=u.searchParams.get("slug");
+        const selected=relatedId?all.find(item=>item.event_id===relatedId):all.find(item=>eventSlug(item)===slugifyHebrew(relatedSlug));
+        if(selected) window.ashdodAnalytics?.send("select_event",window.ashdodAnalytics.metadata(selected));
       }
     });
 
