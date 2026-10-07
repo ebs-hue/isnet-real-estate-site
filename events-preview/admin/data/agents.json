@@ -101,14 +101,17 @@
       "name": "סוכן כתיבה והעשרה",
       "status": "priority",
       "order": 3,
-      "purpose": "לוקח את המידע הגולמי על האירוע והופך אותו לתוכן מלא ומוכן לפרסום: כותרת, תקציר, תיאור, פרטים שימושיים והשלמות ממקורות מאומתים בלבד.",
+      "purpose": "לוקח את המידע הגולמי על האירוע והופך אותו לתוכן מלא ומוכן לפרסום, ובנוסף מייצר הבנת אירוע ובריף חזותי שמנחים את סוכן התמונות רק כאשר חסרה תמונה טובה.",
       "can": [
         "write_title",
         "write_short_pitch",
         "write_long_description",
         "complete_verified_details",
         "rewrite_for_clarity",
-        "flag_missing_facts"
+        "flag_missing_facts",
+        "classify_event_intent",
+        "write_image_brief",
+        "extract_visual_keywords"
       ],
       "cannot": [
         "invent_facts",
@@ -121,14 +124,23 @@
         "short_pitch",
         "long_description",
         "verified_facts",
-        "missing_information"
+        "missing_information",
+        "event_summary",
+        "event_type",
+        "participants",
+        "target_audience",
+        "visual_keywords",
+        "image_brief",
+        "content_ready_for_media"
       ],
       "writing_rules": [
         "עברית טבעית וקריאה",
         "לא להמציא פרטים שאינם נתמכים במקור",
         "להפריד בין עובדה למידע שיווקי של המארגן",
         "להעדיף ניסוח מקומי ורלוונטי לעיר",
-        "להימנע מניסוחים גנריים או מלאכותיים"
+        "להימנע מניסוחים גנריים או מלאכותיים",
+        "image_brief חייב לנבוע מהתוכן המאומת של האירוע ולא מהכותרת בלבד",
+        "אם אין מספיק מידע להבין את האירוע, לסמן content_ready_for_media=false ולא לנחש"
       ]
     },
     {
@@ -136,12 +148,14 @@
       "name": "סוכן מדיה ותמונות",
       "status": "priority",
       "order": 4,
-      "purpose": "מטפל רק באירועים שבהם אין תמונה תקינה מהאיסוף, או כשהתמונה בעייתית מבחינת זכויות, איכות או התאמה.",
+      "purpose": "מטפל רק באירועים שבהם אין תמונה תקינה לאחר האיסוף, ורק אחרי שסוכן הכתיבה וההעשרה יצר תוכן מסביר ובריף תמונה. תמונה מקורית טובה אינה מוחלפת.",
       "strategy": [
-        "בדיקת תמונת המקור שנאספה",
-        "חיפוש בבנק המדיה",
-        "חיפוש במקורות מורשים",
-        "יצירת AI רק אם לא נמצאה חלופה מתאימה",
+        "אם קיימת תמונת אירוע מקורית טובה ומאומתת - לא להפעיל את הסוכן",
+        "אם חסרה תמונה - לקרוא את התיאור, התקציר וה-image_brief שנוצרו על ידי סוכן התוכן",
+        "לחפש קודם תמונה ספציפית של האירוע במקור הרשמי",
+        "אחר כך בנק מדיה ומקורות מורשים",
+        "יצירת AI רק כאשר אין חלופה מתאימה ורק לפי image_brief",
+        "לא ליצור ולא לבחור תמונה כאשר אין מספיק תוכן להבין מהו האירוע",
         "שמירת מקור, קרדיט, זכויות וסימון AI"
       ],
       "can": [
@@ -156,13 +170,19 @@
       "cannot": [
         "use_unclear_rights",
         "misrepresent_ai_as_real_photo",
-        "publish"
+        "publish",
+        "run_without_content_context",
+        "generate_from_title_only"
       ],
       "trigger_when": [
-        "missing_image",
+        "missing_image_after_enrichment",
         "unclear_image_rights",
         "image_quality_low",
         "image_not_relevant"
+      ],
+      "requires_before_run": [
+        "content_ready_for_media=true",
+        "image_brief_or_sufficient_enriched_description"
       ]
     },
     {
