@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T16:14:44Z",
+  "generated_at": "2026-10-07T16:14:50Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 1,
+  "enriched": 0,
   "insufficient": 0,
-  "source_text_insufficient": 11,
+  "source_text_insufficient": 12,
   "model_failed": 0,
   "events": [
     {
@@ -75,9 +75,9 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_33cbee583475a04a7766",
-      "title": "דרושה עוזרת",
-      "status": "ready"
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
+      "status": "source_text_insufficient"
     }
   ]
 }

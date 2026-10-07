@@ -6772,7 +6772,10 @@
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "venue_institution_id": "yadlabanim_ashdod"
+      "venue_institution_id": "yadlabanim_ashdod",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient"
     },
     {
       "city": "אשדוד",
