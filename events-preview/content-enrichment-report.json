@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T18:53:44Z",
+  "generated_at": "2026-10-07T18:56:12Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 4,
+  "enriched": 5,
   "insufficient": 1,
-  "source_text_insufficient": 7,
+  "source_text_insufficient": 6,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_8bf1857ce8efe2c7632b",
-      "title": "מגילת העצמאות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_f8c3bb5affa596c56f45",
-      "title": "תופעת הנבואה הקדומה בישראל",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261024_2030_Sinatra-My-Way-–-פרנק-סינטרה",
-      "title": "Sinatra My Way – פרנק סינטרה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_264a4825f6f1153b1285",
-      "title": "צלילים וסיפורונים לטף",
+      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6",
+      "title": "בחירות 2026 - משפחות",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_5db20ec91884846d7f9c",
-      "title": "הסמול טוק: החשיבות הגדולה של “הדיבור הקטן”–העברת מסרים בתקשורת הבין אישית",
+      "event_id": "auto_ri_9949c5fde18ab2a5ef50",
+      "title": "בחירות 2026 - קהל רחב",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261025_1700_היפהפייה-הנרדמת-–-תיאטרון-הב",
-      "title": "היפהפייה הנרדמת – תיאטרון הבלט הלאומי של רוסיה",
+      "event_id": "htrl_20261027_1930_קוולריה-רוסטיקנה",
+      "title": "קוולריה רוסטיקנה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261025_2000_אגם-הברבורים-–-תיאטרון-הבלט-",
-      "title": "אגם הברבורים – תיאטרון הבלט הלאומי של רוסיה",
+      "event_id": "auto_ri_d94def1e415a270c1d23",
+      "title": "המסע לארץ החפצים האבודים",
+      "status": "insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261028_2030_אף-מילה-לאמא",
+      "title": "אף מילה לאמא",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1026_1100",
+      "event_id": "auto_ri_82e0b9c09be3f17fa569",
       "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_5d36e550b39190e205f9",
-      "title": "בוב דילן: \"סדרת אל תוך השיר\"",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261026_2030_מאיר-לביא-ועד-רוסיני",
-      "title": "מאיר לביא ועד רוסיני",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_6617a1d8a8c4f7f66161",
-      "title": "מאריק לביא ועד רוסיני",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_733c2543cc344156adb2",
-      "title": "בחירות 2026 - כניסה",
+      "event_id": "r_y_1029_2000",
+      "title": "להקת המחול ורטיגו - \"נונה\" גרסת המוזיאון",
       "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_5f6a849719b707076c93",
+      "title": "להקת המחול ורטיגו -\"נונה\" גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם \"נונה\" - גרסת המוזיאון חמישי | 29.10.26 | 20:00",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261029_2030_אף-מילה-לאמא",
+      "title": "אף מילה לאמא",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261029_2100_עידן-ניידיץ-–-סטנדאפ",
+      "title": "עידן ניידיץ – סטנדאפ",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_268aa53a2a2e6191a461",
+      "title": "מרגלות",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261031_2030_אף-מילה-לאמא",
+      "title": "אף מילה לאמא",
+      "status": "source_text_insufficient"
     }
   ]
 }
