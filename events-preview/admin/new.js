@@ -4,6 +4,7 @@ const KEY="isnet-new-events";
 let imageData=null;
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch{return[]}}
 function write(v){localStorage.setItem(KEY,JSON.stringify(v))}
+function splitList(v){return String(v||"").split(/[,;\n]/).map(x=>x.trim()).filter(Boolean)}
 function idFor(city){return "manual_"+city.replace(/[^a-z0-9]+/gi,"_")+"_"+Date.now()}
 $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("");
 $("imageFile").addEventListener("change",e=>{
@@ -17,7 +18,7 @@ $("saveBtn").addEventListener("click",()=>{
   const item={
     event_id:idFor(city),_citySlug:city,city:city==="ashdod"?"אשדוד":"ראשון לציון",
     title,short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),
-    category:$("category").value,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
+    category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
     venue:$("venue").value.trim(),address:$("address").value.trim(),
     purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),
     image_credit:$("imageCredit").value.trim(),image_publishable:$("imageApproved").checked,
