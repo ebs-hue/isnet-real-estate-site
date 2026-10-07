@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T16:27:43Z",
+  "generated_at": "2026-10-07T16:30:30Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 11,
+  "enriched": 7,
   "insufficient": 0,
-  "source_text_insufficient": 1,
+  "source_text_insufficient": 5,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_2e18ed2709b02baa3532",
+      "event_id": "evt_47_20261022",
+      "title": "מוטי אהרונוביץ במופע סטנדאפ",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_48_20261022",
+      "title": "מני עוזרי",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_10_20261022",
+      "title": "מופע סטנד אפ - שלומי קוריאט",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_6d352cd050d68d4a1163",
+      "title": "קורס קרמיקה אבניים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_1e5059b53915f4c7fe21",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_97_20261020",
-      "title": "סדנת הכנת לחמניות מתוקות",
+      "event_id": "evt_49_20261023",
+      "title": "טריפונס",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a578c11cb7a7bacb36e1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_41ae0e273466d9a46327",
+      "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל חוסאם נצרת",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_50_20261024",
+      "title": "שלום אסייג",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_b069b87dfeecdb648ea4",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_3069ec1e14b7c33b581c",
       "title": "סטודיו פתוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_4b07ba21b782ea02a4ff",
-      "title": "אצבעוני",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_72_20261020",
-      "title": "היפהפיה הנרדמת",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_61d612476128de680031",
-      "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_46_20261020",
-      "title": "פבלו רוזנברג",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_9a8cdd916de4aaaf8311",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_8ac6ea288cb265605b77",
-      "title": "מיסייה אלבר - הפקת מקור",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_91024d3eccf55a0b44ad",
-      "title": "יום העליה בסימן 70 לאשדוד",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ec0e8e6df83ab0a29247",
-      "title": "ערב נשים עוצמתי | לאורה של רחל אמנו",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ce847e364ee55065956b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_3a2c902c3450a6e70c14",
+      "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "status": "ready"
     }
   ]
