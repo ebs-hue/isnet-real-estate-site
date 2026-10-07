@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <title>אירוע חדש | ISNET</title>
   <link rel="stylesheet" href="styles.css?v=20261007-1030">
-  <link rel="stylesheet" href="edit.css?v=20261007-1030">
+  <link rel="stylesheet" href="edit.css?v=20261007-1040">
 </head>
 <body>
 <header class="topbar edit-topbar">
@@ -29,6 +29,13 @@
           <label><span>עיר</span><select id="city"><option value="ashdod">אשדוד</option><option value="rishon-lezion">ראשון לציון</option></select></label>
           <label><span>קטגוריה</span><select id="category"></select></label>
         </div>
+        <label><span>עדיפות / קידום</span>
+          <select id="promotion">
+            <option value="normal">רגיל</option>
+            <option value="recommended">מומלץ</option>
+            <option value="promoted">מקודם</option>
+          </select>
+        </label>
         <label><span>כותרת</span><input id="title" type="text" placeholder="שם האירוע"></label>
         <label><span>תקציר קצר</span><textarea id="shortPitch" rows="3"></textarea></label>
         <label><span>על האירוע</span><textarea id="description" rows="10"></textarea></label>
@@ -69,6 +76,6 @@
     </aside>
   </section>
 </main>
-<script src="new.js?v=20261007-1030"></script>
+<script src="new.js?v=20261007-1040"></script>
 </body>
 </html>
