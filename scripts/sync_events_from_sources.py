@@ -74,6 +74,16 @@ HOUR = re.compile(r"\b([01]?\d|2[0-3]):[0-5]\d\b")
 BAD_TITLES = ("פרטים נוספים", "רכישה", "לוח שנה", "כניסה לאתר", "לוח אירועים", "הצג עוד", "more", "קרא עוד")
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
+EVENT_HORIZON_MONTHS = 5
+
+
+def add_months(d, months):
+    month_index = d.month - 1 + months
+    year = d.year + month_index // 12
+    month = month_index % 12 + 1
+    import calendar
+    day = min(d.day, calendar.monthrange(year, month)[1])
+    return date(year, month, day)
 
 
 def text_norm(value):
@@ -574,7 +584,7 @@ def valid_row(obj, today):
         day = date.fromisoformat(obj["start_date"])
     except (ValueError, TypeError, KeyError):
         return False
-    return today - timedelta(days=1) <= day <= today + timedelta(days=370)
+    return today - timedelta(days=1) <= day <= add_months(today, EVENT_HORIZON_MONTHS)
 
 
 def merge(city_slug, specs, dry_run=False):
