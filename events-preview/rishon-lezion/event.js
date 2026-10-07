@@ -134,7 +134,66 @@ function uniqueByTitle(events){
   }
   return out;
 }
-function directEventUrl(id){return "event.html?id="+encodeURIComponent(id)}
+function slugifyHebrew(value){
+  return String(value||"").normalize("NFKC").trim().toLowerCase()
+    .replace(/["'״׳]/g,"")
+    .replace(/[^\p{L}\p{N}]+/gu,"-")
+    .replace(/^-+|-+$/g,"")
+    .slice(0,90);
+}
+function eventSlug(e){
+  if(e?.seo_slug)return slugifyHebrew(e.seo_slug);
+  const base=slugifyHebrew(eventDisplayTitle(e))||"event";
+  const suffix=String(e?.event_id||"").replace(/[^a-zA-Z0-9]+/g,"").slice(-8).toLowerCase();
+  return suffix?base+"-"+suffix:base;
+}
+function directEventUrl(eventOrId){
+  const e=typeof eventOrId==="object"?eventOrId:null;
+  return e?"event.html?slug="+encodeURIComponent(eventSlug(e)):"event.html?id="+encodeURIComponent(eventOrId);
+}
+function ensureMeta(propertyOrName,value,isProperty=false){
+  if(!value)return;
+  const selector=isProperty?'meta[property="'+propertyOrName+'"]':'meta[name="'+propertyOrName+'"]';
+  let el=document.head.querySelector(selector);
+  if(!el){el=document.createElement("meta");el.setAttribute(isProperty?"property":"name",propertyOrName);document.head.appendChild(el)}
+  el.setAttribute("content",value);
+}
+function applySeo(e){
+  const title=(e.seo_title||eventDisplayTitle(e))+" | מה עושים בראשון לציון?";
+  const desc=(e.seo_description||e.short_pitch||e.series_description||e.description||autoPitch({...e,title:eventDisplayTitle(e)})).slice(0,180);
+  const canonical=new URL("event.html?slug="+encodeURIComponent(eventSlug(e)),location.href).href;
+  document.title=title;
+  document.querySelector('meta[name="description"]')?.setAttribute("content",desc);
+  let link=document.head.querySelector('link[rel="canonical"]');
+  if(!link){link=document.createElement("link");link.rel="canonical";document.head.appendChild(link)}
+  link.href=canonical;
+  ensureMeta("og:type","website",true);
+  ensureMeta("og:title",title,true);
+  ensureMeta("og:description",desc,true);
+  ensureMeta("og:url",canonical,true);
+  const image=e.thumbnail_url||e.image_url;
+  if(image)ensureMeta("og:image",new URL(image,location.href).href,true);
+  ensureMeta("twitter:card",image?"summary_large_image":"summary");
+  ensureMeta("twitter:title",title);
+  ensureMeta("twitter:description",desc);
+  const schema={
+    "@context":"https://schema.org",
+    "@type":"Event",
+    name:eventDisplayTitle(e),
+    startDate:e.start_date+(e.start_time?"T"+e.start_time:""),
+    eventStatus:"https://schema.org/EventScheduled",
+    eventAttendanceMode:"https://schema.org/OfflineEventAttendanceMode",
+    location:e.venue?{"@type":"Place",name:e.venue,...(e.address?{address:e.address}:{})}:undefined,
+    image:image?[new URL(image,location.href).href]:undefined,
+    description:desc,
+    url:canonical,
+    offers:(e.purchase_url||e.ticket_url)?{"@type":"Offer",url:e.purchase_url||e.ticket_url,availability:e.ticket_status==="sold_out"?"https://schema.org/SoldOut":"https://schema.org/InStock"}:undefined
+  };
+  Object.keys(schema).forEach(k=>schema[k]===undefined&&delete schema[k]);
+  let script=document.getElementById("eventSchema");
+  if(!script){script=document.createElement("script");script.id="eventSchema";script.type="application/ld+json";document.head.appendChild(script)}
+  script.textContent=JSON.stringify(schema);
+}
 function splitParagraphs(text){
   return String(text||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
 }
@@ -200,9 +259,7 @@ function autoSuitability(e){
 
 function renderHero(e,occ,imageEvent){
   const displayTitle=eventDisplayTitle(e);
-  document.title=displayTitle+" | מה עושים בראשון לציון?";
-  const desc=e.short_pitch||e.series_description||e.description||autoPitch({...e,title:displayTitle});
-  document.querySelector('meta[name="description"]').setAttribute("content",desc);
+  applySeo(e);
 
   const sportBadge=e.category==="sport"?sportBranchMeta(e):null;
   $("heroBadges").innerHTML=
@@ -356,7 +413,7 @@ function renderRelated(current,all){
   if(!related.length){$("relatedSection").hidden=true;return}
   $("relatedGrid").innerHTML=related.map(e=>{
     const img=e.thumbnail_ready&&e.thumbnail_url?e.thumbnail_url:(trustedImage(e)?e.image_url:null);
-    return '<a class="relatedCard" href="'+directEventUrl(e.event_id)+'">'+
+    return '<a class="relatedCard" href="'+directEventUrl(e)+'">'+
       '<div class="relatedCard__media">'+(img?'<img src="'+escapeHtml(img)+'" alt="">':'')+'</div>'+
       '<div class="relatedCard__body"><h3>'+escapeHtml(eventDisplayTitle(e))+'</h3><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span></div>'+
     '</a>';
@@ -365,8 +422,10 @@ function renderRelated(current,all){
 
 async function init(){
   try{
-    const id=new URLSearchParams(location.search).get("id");
-    if(!id)throw new Error("missing id");
+    const params=new URLSearchParams(location.search);
+    const requestedId=params.get("id");
+    const requestedSlug=params.get("slug");
+    if(!requestedId&&!requestedSlug)throw new Error("missing event key");
     const [data,sports,editorial,artistVideos]=await Promise.all([
       fetch("data/events.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error("data");return r.json()}),
       fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
@@ -412,8 +471,14 @@ async function init(){
       if(/^[a-zA-Z0-9_-]{11}$/.test(entry.youtube_id||"") && entry.video_verified===true)allowed.youtube_id=entry.youtube_id;
       return {...event,...allowed,rich_content_status:"enriched"};
     });
-    const base=all.find(e=>e.event_id===id);
+    const base=requestedId
+      ? all.find(e=>e.event_id===requestedId)
+      : all.find(e=>eventSlug(e)===slugifyHebrew(requestedSlug));
     if(!base)throw new Error("event");
+    const canonicalSlug=eventSlug(base);
+    if(!requestedSlug || slugifyHebrew(requestedSlug)!==canonicalSlug){
+      history.replaceState(null,"","event.html?slug="+encodeURIComponent(canonicalSlug));
+    }
     const key=eventGroupKey(base);
     const occ=all.filter(e=>eventGroupKey(e)===key)
       .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
