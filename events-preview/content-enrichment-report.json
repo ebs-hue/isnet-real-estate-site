@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:36:40Z",
+  "generated_at": "2026-10-07T18:41:30Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 10,
-  "insufficient": 2,
+  "enriched": 11,
+  "insufficient": 1,
   "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_dc9099952fe4be222829",
-      "title": "קורס טיפים בנייד -ייעודי לגדולות מהחיים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_4ada58fcddb5e9649fac",
-      "title": "CON TEH PARTIRO",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_abc304d7ccc6bc7bf233",
-      "title": "להתראות ותודה על הקרמשניט",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
-      "title": "להתראות ותודה על הקרמשניט",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_3f888b4ee71930056e2d",
-      "title": "להתראות ותודה על הקרמשניט",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_54dc0282144f7dc8152a",
-      "title": "להתראות ותודה על הקרמשניט",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_be1fc4adb822731a5e36",
-      "title": "להתראות ותודה על הקרמשניט",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_bddcc06ee533304d72a0",
-      "title": "מחר יהיה טוב",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_11e60f4edfd1d4107da2",
-      "title": "לא הייתם צריכים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_6cc18562a4c23b0da579",
+      "event_id": "auto_as_84645c77451dbc1cbbe6",
       "title": "לא הייתם צריכים",
       "status": "insufficient"
     },
     {
-      "city": "ashdod",
-      "event_id": "auto_as_45ff2f1bef22fa6ab053",
-      "title": "לא הייתם צריכים",
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_8a5e128b1fdc9fda8ff4",
+      "title": "כרטיסי כניסה",
       "status": "ready"
     },
     {
-      "city": "ashdod",
-      "event_id": "auto_as_8d04bec27c9e62832439",
-      "title": "לא הייתם צריכים",
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_efdca1b53fd6cbb9b8b0",
+      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_feebac085a47bc2ba79e",
+      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_7b6497c1a29934dc91cd",
+      "title": "כרטיסי כניסה",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_y_1008_1630",
+      "title": "פעילויות לכל המשפחה",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_e5ac6e7aa5f50cab02a4",
+      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_2a088f32e6a9729f383b",
+      "title": "מפגש עם הסופרת איילת מועלם אליה",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1009_1100",
+      "title": "שישי תרבות",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1009_2130",
+      "title": "מדונה – מופע מחווה",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_y_1010_1015",
+      "title": "גמצ'יק - סיור תיאטרלי לקטנטנים",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1010_1100",
+      "title": "חגיגה בחווה",
       "status": "ready"
     }
   ]

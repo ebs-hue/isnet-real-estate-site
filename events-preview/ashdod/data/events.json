@@ -38120,7 +38120,24 @@
         }
       ],
       "image_strategy": "official_source_image",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8169",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:37:07Z",
+      "missing_information": [
+        "אופי וסוג האירוע (הצגה, קונצרט, הרצאה וכו')",
+        "שמות משתתפים, שחקנים או אמנים",
+        "שם המארגן או גורם מפיק",
+        "שפת ההופעה/האירוע",
+        "התאמת גיל וקהל יעד מפורט",
+        "מידע על נגישות (כניסה לנכים, כתוביות וכו')",
+        "פירוט על קטגוריות מושבים והמחירים המדויקים לכל סוג",
+        "קישור ישיר לרכישת כרטיסים ומידע על מדיניות ביטולים/החלפות"
+      ],
+      "content_enrichment_status": "insufficient"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
