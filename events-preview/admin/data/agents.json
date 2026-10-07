@@ -49,10 +49,10 @@
   "agents": [
     {
       "id": "collector",
-      "name": "סוכן איסוף",
+      "name": "סוכן איסוף ומחקר מקור",
       "status": "planned",
       "order": 1,
-      "purpose": "אוסף את נתוני האירוע מהמקור, כולל תמונה כאשר היא זמינה, יחד עם מקור, קרדיט וסטטוס זכויות ראשוני.",
+      "purpose": "אוסף את נתוני האירוע ומבצע מחקר מקור מלא, כולל איתור תמונה אמיתית ורלוונטית של האמן, המרצה, המופע או האירוע. האחריות למציאת תמונת המקור היא שלו; סוכן התמונות נכנס רק אם לאחר המחקר לא נמצאה תמונה טובה ומותרת לשימוש.",
       "can": [
         "collect_event_details",
         "collect_source_url",
@@ -61,11 +61,27 @@
         "collect_image_credit",
         "collect_image_candidates",
         "record_initial_rights_status",
-        "create_draft"
+        "create_draft",
+        "identify_artist_or_performer",
+        "identify_show_or_production",
+        "search_official_event_page",
+        "search_official_artist_source",
+        "search_official_producer_source",
+        "search_official_venue_source",
+        "search_artist_plus_show_context",
+        "rank_source_image_candidates",
+        "verify_image_event_relevance",
+        "verify_image_source_provenance",
+        "record_image_usage_basis"
       ],
       "cannot": [
         "publish",
-        "delete_content"
+        "delete_content",
+        "accept_technical_logo_as_event_image",
+        "accept_generic_site_asset_as_event_image",
+        "accept_unrelated_image",
+        "mark_unclear_rights_as_publishable",
+        "generate_ai_image"
       ],
       "output_fields": [
         "title",
@@ -77,7 +93,29 @@
         "image_source",
         "image_credit",
         "image_candidates",
-        "image_rights_status"
+        "image_rights_status",
+        "artist_name",
+        "production_name",
+        "image_origin_url",
+        "image_relevance",
+        "image_usage_basis",
+        "original_media_search_status"
+      ],
+      "image_search_priority": [
+        "תמונה רשמית וספציפית של האמן בהקשר למופע או לאירוע",
+        "תמונה רשמית וספציפית של המופע או ההפקה",
+        "תמונת יח״צ רשמית של האמן ממקור מורשה",
+        "תמונה רשמית מעמוד האירוע אצל המארגן, האולם או מפיק האירוע",
+        "רק אם לא נמצאה אף תמונת מקור טובה ומותרת לשימוש - לסמן original_media_search_status=exhausted ולהעביר לסוכן התמונות"
+      ],
+      "image_research_rules": [
+        "אין להסתפק בתמונה הראשונה שנמצאה בעמוד",
+        "אם האירוע מבוסס על אמן, מרצה או להקה - יש לזהות את האדם/ההרכב ולחפש תמונה שלהם בהקשר לאירוע",
+        "יש לחפש לפי שם האמן + שם המופע כאשר עמוד האירוע עצמו לא מספק תמונה איכותית",
+        "יש להעדיף אדם אמיתי או צילום מופע אמיתי על פני כרזה כללית או גרפיקה",
+        "לוגו אתר, OAuth, אייקון מערכת, placeholder או נכס טכני נפסלים אוטומטית",
+        "תמונה אינה מאושרת רק משום שהיא נמצאה באתר רשמי; יש לוודא גם שהיא קשורה לאירוע עצמו",
+        "חובה לשמור מקור, קרדיט, הקשר לאירוע וסטטוס שימוש"
       ]
     },
     {
@@ -140,23 +178,27 @@
         "להעדיף ניסוח מקומי ורלוונטי לעיר",
         "להימנע מניסוחים גנריים או מלאכותיים",
         "image_brief חייב לנבוע מהתוכן המאומת של האירוע ולא מהכותרת בלבד",
-        "אם אין מספיק מידע להבין את האירוע, לסמן content_ready_for_media=false ולא לנחש"
+        "אם אין מספיק מידע להבין את האירוע, לסמן content_ready_for_media=false ולא לנחש",
+        "יש לזהות במפורש אמן, מרצה, להקה, הפקה או דמות מרכזית כאשר הם נתמכים במקור, כדי לאפשר מחקר מדיה מדויק",
+        "image_brief הוא מסלול גיבוי לסוכן התמונות בלבד; הוא אינו מחליף חיפוש של תמונת מקור אמיתית"
       ]
     },
     {
       "id": "media",
-      "name": "סוכן מדיה ותמונות",
+      "name": "עורך התמונות",
       "status": "priority",
       "order": 4,
-      "purpose": "מטפל רק באירועים שבהם אין תמונה תקינה לאחר האיסוף, ורק אחרי שסוכן הכתיבה וההעשרה יצר תוכן מסביר ובריף תמונה. תמונה מקורית טובה אינה מוחלפת.",
+      "purpose": "ארט דיירקטור מקצועי שנכנס לפעולה רק לאחר שסוכן האיסוף ומחקר המקור מיצה את החיפוש ולא נמצאה תמונת מקור טובה, רלוונטית ומותרת לשימוש. הוא לעולם אינו מחליף תמונת אמן/מופע מקורית טובה.",
       "strategy": [
-        "אם קיימת תמונת אירוע מקורית טובה ומאומתת - לא להפעיל את הסוכן",
-        "אם חסרה תמונה - לקרוא את התיאור, התקציר וה-image_brief שנוצרו על ידי סוכן התוכן",
-        "לחפש קודם תמונה ספציפית של האירוע במקור הרשמי",
-        "אחר כך בנק מדיה ומקורות מורשים",
-        "יצירת AI רק כאשר אין חלופה מתאימה ורק לפי image_brief",
-        "לא ליצור ולא לבחור תמונה כאשר אין מספיק תוכן להבין מהו האירוע",
-        "שמירת מקור, קרדיט, זכויות וסימון AI"
+        "אם קיימת תמונת אמן או מופע מקורית, רלוונטית ומותרת לשימוש - לא להפעיל את עורך התמונות",
+        "להיכנס לפעולה רק כאשר מחקר המקור הסתיים ללא תמונה מאושרת",
+        "לקרוא את התיאור, התקציר, זהות האמן/המשתתפים וה-image_brief לפני כל החלטה",
+        "להעדיף פתרון חזותי שממחיש את תוכן האירוע ולא תמונה גנרית של הקטגוריה",
+        "אם קיימת חלופה מורשית בבנק המדיה - להעדיף אותה",
+        "רק כאשר אין חלופה אמיתית מתאימה - ליצור תמונה חדשה לפי image_brief",
+        "תמונת AI של אדם אמיתי אינה מוצגת כאילו היא אותו אמן; במקרה כזה יש ליצור דימוי קונספטואלי ולא חיקוי של האדם",
+        "לשמור מקור, קרדיט, זכויות וסימון AI",
+        "לא לפרסם לוגו טכני, placeholder, אייקון, תמונת מערכת, תמונה לא קשורה או תמונה באיכות ירודה"
       ],
       "can": [
         "search_media_bank",
@@ -172,17 +214,22 @@
         "misrepresent_ai_as_real_photo",
         "publish",
         "run_without_content_context",
-        "generate_from_title_only"
+        "generate_from_title_only",
+        "replace_verified_original_artist_photo",
+        "replace_verified_original_show_photo",
+        "treat_category_default_as_first_choice",
+        "depict_real_artist_as_ai_generated_likeness"
       ],
       "trigger_when": [
-        "missing_image_after_enrichment",
-        "unclear_image_rights",
-        "image_quality_low",
-        "image_not_relevant"
+        "original_media_search_exhausted",
+        "source_image_rejected_for_rights",
+        "source_image_rejected_for_quality",
+        "source_image_rejected_for_relevance"
       ],
       "requires_before_run": [
         "content_ready_for_media=true",
-        "image_brief_or_sufficient_enriched_description"
+        "image_brief_or_sufficient_enriched_description",
+        "original_media_search_status=exhausted_or_source_image_rejected"
       ]
     },
     {
@@ -322,6 +369,24 @@
       "ai_generated",
       "approved_for_homepage",
       "approved_for_social"
+    ],
+    "selection_priority": [
+      "verified_original_artist_or_performer_photo",
+      "verified_original_show_or_production_photo",
+      "verified_official_press_photo",
+      "verified_official_event_artwork",
+      "approved_media_bank_image",
+      "ai_generated_conceptual_fallback",
+      "category_default_last_resort"
+    ],
+    "hard_reject": [
+      "technical_logo",
+      "oauth_asset",
+      "site_icon",
+      "placeholder",
+      "unrelated_image",
+      "unclear_rights",
+      "low_quality_image"
     ]
   }
 }
