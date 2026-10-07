@@ -1,0 +1,226 @@
+{
+  "version": 1,
+  "secondary_categories": [
+    {
+      "id": "lectures",
+      "label": "הרצאות"
+    },
+    {
+      "id": "senior",
+      "label": "גיל הזהב"
+    },
+    {
+      "id": "health",
+      "label": "בריאות"
+    },
+    {
+      "id": "community",
+      "label": "קהילה"
+    },
+    {
+      "id": "culture",
+      "label": "תרבות"
+    },
+    {
+      "id": "kids-family",
+      "label": "ילדים ומשפחה"
+    },
+    {
+      "id": "music",
+      "label": "מוזיקה"
+    },
+    {
+      "id": "standup",
+      "label": "סטנדאפ"
+    },
+    {
+      "id": "theatre",
+      "label": "תיאטרון"
+    },
+    {
+      "id": "workshops",
+      "label": "סדנאות"
+    },
+    {
+      "id": "cinema",
+      "label": "קולנוע"
+    },
+    {
+      "id": "tours",
+      "label": "טיולים וסיורים"
+    },
+    {
+      "id": "sports",
+      "label": "ספורט"
+    },
+    {
+      "id": "education",
+      "label": "חינוך"
+    }
+  ],
+  "audiences": [
+    {
+      "id": "general",
+      "label": "קהל רחב"
+    },
+    {
+      "id": "families",
+      "label": "משפחות"
+    },
+    {
+      "id": "kids",
+      "label": "ילדים"
+    },
+    {
+      "id": "teens",
+      "label": "נוער"
+    },
+    {
+      "id": "young-adults",
+      "label": "צעירים"
+    },
+    {
+      "id": "adults",
+      "label": "מבוגרים"
+    },
+    {
+      "id": "seniors",
+      "label": "גיל הזהב"
+    },
+    {
+      "id": "parents",
+      "label": "הורים"
+    },
+    {
+      "id": "women",
+      "label": "נשים"
+    },
+    {
+      "id": "professionals",
+      "label": "אנשי מקצוע"
+    }
+  ],
+  "topics": [
+    {
+      "id": "culture",
+      "label": "תרבות"
+    },
+    {
+      "id": "health",
+      "label": "בריאות"
+    },
+    {
+      "id": "education",
+      "label": "חינוך"
+    },
+    {
+      "id": "leisure",
+      "label": "פנאי"
+    },
+    {
+      "id": "community",
+      "label": "קהילה"
+    },
+    {
+      "id": "sports",
+      "label": "ספורט"
+    },
+    {
+      "id": "music",
+      "label": "מוזיקה"
+    },
+    {
+      "id": "family",
+      "label": "משפחה"
+    },
+    {
+      "id": "wellbeing",
+      "label": "איכות חיים"
+    },
+    {
+      "id": "local-history",
+      "label": "היסטוריה מקומית"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "ashdod-municipality",
+      "label": "עיריית אשדוד",
+      "cities": [
+        "ashdod"
+      ]
+    },
+    {
+      "id": "ashdod-ironit",
+      "label": "החברה העירונית לתרבות ופנאי אשדוד",
+      "cities": [
+        "ashdod"
+      ]
+    },
+    {
+      "id": "yad-labanim-ashdod",
+      "label": "בית יד לבנים אשדוד",
+      "cities": [
+        "ashdod"
+      ]
+    },
+    {
+      "id": "monart-ashdod",
+      "label": "מונארט אשדוד",
+      "cities": [
+        "ashdod"
+      ]
+    },
+    {
+      "id": "rishon-municipality",
+      "label": "עיריית ראשון לציון",
+      "cities": [
+        "rishon-lezion"
+      ]
+    },
+    {
+      "id": "koter-rishon",
+      "label": "רשת כותר ראשון",
+      "cities": [
+        "rishon-lezion"
+      ]
+    },
+    {
+      "id": "yama-museum",
+      "label": "מוזיאון אגם",
+      "cities": [
+        "rishon-lezion"
+      ]
+    }
+  ],
+  "distribution_targets": [
+    {
+      "id": "city-home",
+      "label": "דף הבית העירוני"
+    },
+    {
+      "id": "events-home",
+      "label": "דף האירועים"
+    },
+    {
+      "id": "primary-category",
+      "label": "הקטגוריה הראשית"
+    },
+    {
+      "id": "secondary-categories",
+      "label": "קטגוריות נוספות"
+    },
+    {
+      "id": "audience-pages",
+      "label": "דפי קהלי יעד"
+    },
+    {
+      "id": "organization-pages",
+      "label": "דפי גופים ומוסדות"
+    },
+    {
+      "id": "network-home",
+      "label": "אתר הבית של הרשת"
+    }
+  ]
+}
