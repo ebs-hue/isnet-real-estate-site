@@ -11,14 +11,14 @@
 </head>
 <body>
 <header class="topbar">
- <div><div class="eyebrow">ISNET AI CMS · שכבת סוכנים</div><h1>סוכנים ואוטומציות</h1><p>שרשרת העבודה שמכינה כל פריט תוכן לאישור אנושי.</p></div>
+ <div><div class="eyebrow">ISNET AI CMS · שכבת סוכנים</div><h1>סוכנים ואוטומציות</h1><p>שרשרת אוטומטית לאיסוף, בדיקה ופרסום אירועים; רק חריגים נעצרים.</p></div>
  <div class="top-actions"><a class="secondary action-link" href="./">חזרה למרכז הניהול</a></div>
 </header>
 <main class="agents-main">
  <section class="panel operations-panel">
   <div class="panel-title">
-   <div><h2>הפעלה ובקרה</h2><p>בדיקת QA, החלטת עורך קטגוריה והחלטת פרסום על כל האירועים העתידיים.</p></div>
-   <button id="runAgentsBtn" class="primary top-create">הרץ סוכנים עכשיו</button>
+   <div><h2>הפעלה ובקרה</h2><p>בדיקת QA, החלטת עורך קטגוריה ופרסום אוטומטי של כל אירוע תקין. חריגים בלבד נעצרים.</p></div>
+   <button id="runAgentsBtn" class="primary top-create">הרץ סוכנים ופרסם תקינים</button>
   </div>
   <div id="runSummary" class="run-summary"></div>
   <p id="runStatus" class="run-status">טרם בוצעה הרצה.</p>
@@ -59,9 +59,9 @@
   <div id="mediaFlow" class="media-flow"></div>
  </section>
 </main>
-<script src="cms-db.js?v=20261007-1300"></script>
-<script src="agents.js?v=20261007-1430"></script>
-<script src="agents-runner.js?v=20261007-1430"></script>
+<script src="cms-db.js?v=20261007-1630"></script>
+<script src="agents.js?v=20261007-1630"></script>
+<script src="agents-runner.js?v=20261007-1630"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
