@@ -7,11 +7,8 @@ on:
     paths:
       - "scripts/enrich_event_content_ai.py"
       - ".github/workflows/enrich-event-content-ai.yml"
-  workflow_run:
-    workflows: ["Daily city event intake"]
-    types: [completed]
-  schedule:
-    - cron: "15 * * * *"
+      - "events-preview/ashdod/data/events.json"
+      - "events-preview/rishon-lezion/data/events.json"
 
 permissions:
   contents: write
@@ -22,7 +19,6 @@ concurrency:
 
 jobs:
   enrich:
-    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:
