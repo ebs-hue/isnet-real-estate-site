@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow">
   <title>מרכז ניהול אירועים | ISNET</title>
-  <link rel="stylesheet" href="styles.css?v=20261007-1008">
+  <link rel="stylesheet" href="styles.css?v=20261007-1030">
 </head>
 <body>
   <header class="topbar">
@@ -15,7 +15,8 @@
       <p>מסך בקרה ראשוני על אשדוד וראשון לציון. בשלב זה צפייה ובקרה בלבד.</p>
     </div>
     <div class="top-actions">
-      <span class="mode">מצב בטוח · ללא כתיבה</span>
+      <span class="mode">פיילוט CMS · טיוטות מקומיות</span>
+      <a class="primary top-create" href="new.html">+ אירוע חדש</a>
       <button id="refreshBtn" class="secondary">רענון נתונים</button>
     </div>
   </header>
@@ -50,6 +51,10 @@
             <option value="">הכול</option>
             <option value="active">פעיל</option>
             <option value="expired">עבר</option>
+            <option value="draft">טיוטה</option>
+            <option value="hidden">מוסתר</option>
+            <option value="archived">ארכיון</option>
+            <option value="trashed">סל</option>
           </select>
         </label>
         <label>
@@ -99,6 +104,6 @@
   <template id="statTemplate">
     <article class="stat"><strong></strong><span></span><small></small></article>
   </template>
-  <script src="app.js?v=20261007-1008"></script>
+  <script src="app.js?v=20261007-1030"></script>
 </body>
 </html>
