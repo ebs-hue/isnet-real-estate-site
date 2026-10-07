@@ -3376,7 +3376,46 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:47:56Z",
+      "missing_information": [
+        "מנחה/מציג ספציפי לאירוע בתאריך המדויק (18.10.2026) לא צוין במפורש",
+        "טווח גילאים מדויק (הגיל המומלץ או המינימלי אינו מפורט)",
+        "מחיר כרטיס וקישור לרכישה",
+        "משך הפעילות המדויק עבור המופע הזה",
+        "מספר מושבים פנויים וזמינות כרטיסים בזמן אמת",
+        "מדיניות החזר כספי מדויקת לאחראיות על האירוע (יש תיאורים שונים בטקסט המקור)"
+      ],
+      "event_summary": "צֵלִילִים וְסִפּוּרונִים לְטַף הוא מפגש מוזיקלי קצר לילדים קטנטנים שמתקיים בכותר טף בראשון־לציון. הפעילות משלב שירים, בובות, אביזרים ושעת סיפור בהנחיית מנחה שמתאימה לגיל הרך — אירוע מתאים להורים ומלווי ילדים שמחפשים מפגש חווייתי וקצר לילדיהם. הכניסה מותנית ברכישת כרטיס לכל משתתף וליווי מבוגר בלבד; מספר המקומות מוגבל.",
+      "short_pitch": "מפגש מוזיקלי אינטראקטיבי ב\"כותר טף\" שבו שירים, בובות וכלי נגינה פותחים עולם של דמיון לקטנטנים — חובה לרכוש כרטיס לכל משתתף, הכניסה על‑פי גיל וליווי מבוגר נדרש.",
+      "long_description": "\"צלילים וסיפורונים לטף\" הוא מפגש מוזיקלי המיועד לקטנטנים ומוצע במסגרת הפעילויות של רשת כותר. במהלך המפגש יש שילוב של שירה, נגינה, שעת סיפור קצרה, בובות ואביזרים שמזמינים את הילדים להשתתף בתנועה ובשירה. התכנים מובנים לגיל הרך ונועדו ליצור חוויה משותפת לילד ולמלווה המבוגר. בסדרה זו מופיעים בין היתר הופעות של תיאטרון של גלי (גלי פטילון) ולעתים מופעים עם מפוחית וגיטרה (יואב נאמן) — שמות אלה מוזכרים בתיאורי הפעילויות של הכותר. חשוב לדעת: הכניסה לפעילות בהתאם לגיל המצוין בלבד, הכלה של אחים אינה מותרת, כל משתתף חייב לרכוש כרטיס כולל הורה מלווה, ומספר המקומות מוגבל. לשאלות וביטולים מצוין בתיאורים לפנות לספרייה או למייל הרשמי של כותר טף.",
+      "event_type": "פעילות מוזיקלית לקטנטנים",
+      "participants": [
+        "גלי פטילון",
+        "יואב נאמן"
+      ],
+      "target_audience": [
+        "פעוטות/קטנטנים",
+        "הורים ומלווי ילדים",
+        "משפחות"
+      ],
+      "visual_keywords": [
+        "בובת כף יד צבעונית",
+        "גיטרה אקוסטית",
+        "מפוחית",
+        "ילדים יושבים על שטיח",
+        "מנחה עם אביזרים",
+        "ספר פתוח לשעת סיפור",
+        "חדר ספרייה מאוּר באופן חם",
+        "הורה מחזיק ילד על הברכיים"
+      ],
+      "image_brief": "תצלום ויזואלי של מפגש בכותר טף: קבוצה קטנה של ילדים יושבים על שטיח צבעוני בספרייה, מנחה מחזיקה בובת כף יד ומחייכת, לצד גיטרה ומפוחית מונחים על הרצפה ואביזרים צבעוניים פרושים מסביב. התאורה חמה ואינטימית; ברקע מדפי ספרים שמרמזים על מיקום בספרייה קהילתית.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -3432,7 +3471,46 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:48:21Z",
+      "missing_information": [
+        "מחיר כרטיסים",
+        "משך ההצגה/משך הפעילות",
+        "טווח גילאים מפורט להמלצה",
+        "שפת ההצגה",
+        "נגישות ושירותי נגישות במין המקום",
+        "נקודת רכישת הכרטיסים/קישור להזמנה",
+        "פרטי קשר ספציפיים למארגן עבור האירוע"
+      ],
+      "event_summary": "הצגת שעת סיפור לילדים המבוססת על הסיפור על שני האחים אפרים ומנשה, שחיו בהרי ירושלים וחולקו את התבואה, הפירות והכרמים. ההצגה חושפת שלב שבו החלוקה כבר לא שווה ומזמינה את הקהל הקטן לגלות יחד את המשמעות. מוצגת על-ידי תיאטרועי בראשון לציון במעגלים: הספרייה התורנית.",
+      "short_pitch": "הצגה משפתית לשעת סיפור על שני אחים, החלוקה ביניהם והתהפוכות שמגלות שהדברים כבר אינם שווים — מופע של תיאטרון סיפורי לילדים, בהצגת תיאטרועי. יש להגיע בליווי מבוגר; כל משתתף חייב כרטיס.",
+      "long_description": "מעשה בשני אחים היא שעת סיפור-תיאטרון לילדים, שמחזירה אותנו אל סיפור עממי אודות אפרים ומנשה, שני אחים שגרו \"אי שם בהרי ירושלים\" וחלקו שווה בשווה את התבואה, הפירות והכרמים — עד שיום אחד הם מגלים שהחלוקה כבר לא שווה. ההצגה, המוצגת על-ידי תיאטרועי, מציעה לילדים הזדמנות להצטרף למסע של גילוי וחשיבה על שיתוף, צדק ובעיות בין-אישיות במסגרת מותאמת לקהל הצעיר. האירוע מתקיים במעגלים: הספרייה התורנית בראשון לציון, במקום מוגבל במקומות. הכניסה מותנית ברכישת כרטיס מראש; כל משתתף, כולל הורה מלווה, נדרש לרכוש כרטיס. אין כניסה עם אחים קטנים וגדולים, וייתכנו שינויים בלוח המופעים. כרטיסים לשעות סיפור ניתנים לרכישה החל משבוע לפני המועד.",
+      "event_type": "הצגת ילדים",
+      "participants": [
+        "תיאטרועי"
+      ],
+      "target_audience": [
+        "ילדים",
+        "משפחות",
+        "הורים/מלווה מבוגר"
+      ],
+      "visual_keywords": [
+        "שני אחים",
+        "שדות ותבואה",
+        "כרמים",
+        "הרי ירושלים",
+        "חלוקת יבול",
+        "במה קטנה של שעת סיפור",
+        "ילדים בקהל",
+        "ספר פתוח בסגנון ילדים"
+      ],
+      "image_brief": "איור חם וצבעוני של שני אחים עומדים בשדה גבעי (כרמים ותבואה) בהרי ירושלים; אחד מחזיק אשכול ענבים והשני חבילה של תבואה, בתמונה ניכרת תחושת מרחק וחריגות בחלוקה. ברקע במה קטנה בסגנון שעת סיפור עם כמה ילדים ישובים בקדמת התמונה ולוויית ריהוט ספרייה עדין, צבעים חמים של ערב ותחושה של סיפור עממי.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "r_r_1018_1830",
@@ -3488,7 +3566,10 @@
       "thumbnail_url": null,
       "thumbnail_strategy": "direct_local",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -3550,7 +3631,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261018_2030_אור-לגויים",
@@ -3609,7 +3693,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -3671,7 +3759,10 @@
       "venue_website": "https://www.rlzm.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1019_1700",
@@ -3735,7 +3826,44 @@
       "venue_phone": "03-9689700",
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:48:50Z",
+      "missing_information": [
+        "מחיר כרטיסים",
+        "טווח גיל מומלץ מדויק",
+        "משך ההצגה (זמני ריצה)",
+        "שפת ההצגה והאם נדרשת תרגום/הנגשה",
+        "קישור או פרטי רכישת כרטיסים מדויקים",
+        "נגישות למוגבלים ופירוט אפשרויות ישיבה",
+        "שם השחקן/שחקנית או צוות ההפקה"
+      ],
+      "event_summary": "הצגת שחקן המבוססת על הסיפור הקלאסי \"בגדי המלך החדשים\" מאת הנס כריסטיאן אנדרסן, המוצגת על ידי תיאטרון האור. ההצגה עוסקת בכנות, אמון ועצמאות מחשבתית ומוגשת בשילוב משחק דמויות, תפאורה, שירה ותנועה עם שיתוף הקהל.",
+      "short_pitch": "הצגת תיאטרון לילדים עיבוד לסיפורו של הנס כריסטיאן אנדרסן, בה נבחנות סוגיות של אמת, היגיון ובטחון עצמי, במופע שחקן יחיד המערב את הילדים בתהליך הבידור וההבנה.",
+      "long_description": "הצגה חד-שחקנית של תיאטרון האור על פי הסיפור המפורסם של הנס כריסטיאן אנדרסן. ההצגה מספרת את סיפור ה\"תרמית\" סביב בגדי המלך ומדגישה מסרים חינוכיים: להקשיב לקול הפנימי, להבחין בין דעת הרוב לאמת ולחזק ביטחון עצמי ושיקול דעת. ההצגה מוגשת באופן בידורי ומשתף ילדים בקצב, בשירה, בתנועה ובמשחק דמויות; יש בה תפאורה ומשימות שמשלבות את הקהל הצעיר. לפי המידע שבמקור, כל משתתף — כולל הורה מלווה — נדרש בכרטיס, והכניסה באוויר בליווי מבוגר; אין כניסה באחיו של הילדים. ההצגה מיועדת לקהל ילדים ולמשפחות ומתקיימת בכותר ראשון, ראשון לציון בתאריך המצוין.",
+      "event_type": "תיאטרון ילדים",
+      "participants": [
+        "תיאטרון האור",
+        "הנס כריסטיאן אנדרסן"
+      ],
+      "target_audience": [
+        "ילדים",
+        "משפחות"
+      ],
+      "visual_keywords": [
+        "שחקן יחיד על הבמה",
+        "תחפושת מלכותית/כתר",
+        "תפאורה תיאטרלית צבעונית",
+        "אינטראקציה עם ילדים בקהל",
+        "תאורת במה חמה",
+        "תנועה ושירה על הבמה"
+      ],
+      "image_brief": "צילום או אילוסטרציה של שחקן בודד על במה קטנה, לבוש בתחפושת מלכותית (כובע או כתר בולטים), בתאורה חמה ותפאורה פשוטה המרמזת על חצר מלכותית; בקדמת התמונה נראים ילדים שצופים ומתעניינים. האווירה צריכה לשדר הצגה אינטימית, צבעונית וידידותית לילדים.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -3791,7 +3919,46 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:49:11Z",
+      "missing_information": [
+        "מחיר כרטיס",
+        "טווח גיל מדויק להופעה",
+        "משך ההצגה",
+        "נקודת רכישת כרטיסים/קישור מדויק",
+        "נגישות לנכים/תנאי כניסה מיוחדים",
+        "שפת ההצגה (פורמלית)"
+      ],
+      "event_summary": "הצגת ילדים מבוססת על ספרה של אליענה קרמרמן, המספרת על מר צפרדע שרוצה לצאת מהנחל המתוק אך נאבק בפחדים. ההצגה מועמדת על ידי 'תיאטרון חוויה' בספריית נווה חוף בראשון לציון. מומלצת לילדים בליווי הורה/מלווה; כל משתתף חייב כרטיס.",
+      "short_pitch": "הצגה על התמודדות עם פחדים, סקרנות והרפתקה — מר צפרדע לומד ש'מבלי לנסות לעולם לא אדע'. מופע תיאטרון לילדים המבוסס על ספר הילדים של אליענה קרמרמן, בהצגה של תיאטרון חוויה בספריית נווה חוף.",
+      "long_description": "מר צפרדע והנחל המתוק היא הצגה לילדים המבוססת על ספרה של אליענה קרמרמן. העלילה עוקבת אחרי צפרדע שרוצה לצאת מהנחל המוכר ולגלות את העולם, אך נתקעת מפאת פחדים. במהלך המסע הוא קורא, מדמיין ופוגש חברים, ולבסוף לומד להתמודד עם חששותיו ואמירת המסקנה \"מבלי לנסות לעולם לא אדע\". ההצגה מועברת על ידי תיאטרון חוויה ומוצגת בספריית נווה חוף בראשון לציון. חשוב לדעת: הכניסה להופעה היא בליווי מבוגר בלבד, אין כניסה לאחים קטנים או גדולים, וכל משתתף — כולל הורה מלווה — חייב בכרטיס. כרטיסים לשעות סיפור/הצגות מסוג זה מוצעים לרכישה החל משבוע לפני המועד; מספר המקומות מוגבל והזכות לשינויים שמורה.",
+      "event_type": "הצגת ילדים",
+      "participants": [
+        "אליענה קרמרמן",
+        "תיאטרון חוויה"
+      ],
+      "target_audience": [
+        "ילדים",
+        "הורים/מלווה",
+        "משפחות"
+      ],
+      "visual_keywords": [
+        "צפרדע",
+        "נחל/מים רדודים",
+        "במה תאטרון",
+        "שחקן על הבמה",
+        "ספר ילדים פתוח",
+        "קהל ילדים עם מבוגרים",
+        "תלבושות צבעוניות",
+        "אווירת הרפתקה"
+      ],
+      "image_brief": "צילום קומפוזיציה חמים וצבעוני של סצנה תיאטרלית: דמות צפרדע על במה, פונה אל נחל קטן רקע ציורי של מים וקנים, תאורה רכה וספוט על הדמות, בקדמת התמונה סילואטות של ילדים עם מבוגרים צופים. הבעת הפנים של הצפרדע משרה סקרנות וקצת חשש, ומתבטאת תחושת מסע ותקווה.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261019_2030_אור-לגויים",
@@ -3850,7 +4017,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -3912,7 +4083,10 @@
       "venue_website": "https://bl-gallery.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -3970,7 +4144,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -4030,7 +4207,11 @@
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
-      "image_strategy": "official_event_poster"
+      "image_strategy": "official_event_poster",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
