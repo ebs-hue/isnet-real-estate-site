@@ -4,12 +4,28 @@ import difflib, html, json, re, ssl, time, unicodedata
 from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
+from datetime import date
 from urllib.parse import quote, urljoin, urlparse, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"events-preview"/"ashdod"/"data"/"events.json"
 REPORT=ROOT/"events-preview"/"ashdod"/"data"/"image-enrichment-report.json"
+EVENT_HORIZON_MONTHS=5
+
+def add_months(d,months):
+    import calendar
+    month_index=d.month-1+months
+    year=d.year+month_index//12
+    month=month_index%12+1
+    day=min(d.day,calendar.monthrange(year,month)[1])
+    return date(year,month,day)
+
+def in_horizon(e):
+    d=str(e.get("start_date") or "")
+    today=date.today().isoformat()
+    return today <= d <= add_months(date.today(),EVENT_HORIZON_MONTHS).isoformat()
+
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
 GENERIC=("/languages/il.gif","artistshadow","/images/live/more/eventnew.jpg","eventnew.jpg","placeholder","no-image","no_image","noimage","no_pic","no-pic","blank.gif","spacer.gif","transparent.gif","favicon","smarticket_logo","microsoft_oauth_logo","google_oauth_logo","facebook_oauth","oauth_logo","oauth","/logo.","/logo/","/icons/","/icon/")
 SIGNALS=("/uploads/","/thumbs/","/caps/","livenew_","updateartistimage","/events/","/event/","poster","banner")
@@ -171,7 +187,7 @@ def content_ready_for_media(e):
     return bool(e.get("content_ready_for_media") is True or len(str(text).strip())>=80 or len(str(brief).strip())>=40)
 
 def main():
-    payload=json.loads(DATA.read_text(encoding="utf-8")); events=payload.get("events") or []
+    payload=json.loads(DATA.read_text(encoding="utf-8")); events=[e for e in (payload.get("events") or []) if in_horizon(e)]
     stats=Counter(); failures=[]; roots={}; pages={}; title_cache={}
     for e in events:
         if e.get("image_url") and generic(e["image_url"]):
