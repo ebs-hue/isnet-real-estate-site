@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-07T06:58:00Z",
-  "total_events": 390,
+  "generated_at": "2026-10-07T10:26:50Z",
+  "total_events": 396,
   "events_with_publishable_images": 174,
-  "events_still_missing_images": 216,
+  "events_still_missing_images": 222,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 137,
+    "ashdod_smarticket": 142,
     "איגוד הכדורעף בישראל": 4,
-    "ההתאחדות לכדורגל בישראל": 4,
-    "mishkan_smarticket": 71
+    "mishkan_smarticket": 72,
+    "ההתאחדות לכדורגל בישראל": 4
   },
   "missing_by_category": {
-    "other": 115,
-    "kids": 12,
+    "other": 116,
+    "kids": 17,
     "exhibition": 54,
     "workshop": 12,
     "lecture": 7,
@@ -59,6 +59,11 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_eedd7026c3a8b4e99863",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_0a8724d73a8a25785bcb",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
@@ -84,6 +89,11 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_8c7a9c52a8e6e4de953e",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_fb3a2160cf3e31dedd3b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
@@ -101,6 +111,11 @@
     {
       "event_id": "evt_95_20261012",
       "title": "תשאירי פתוח",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_60cbf76aa783bbeb7d87",
+      "title": "המרחב הבטוח לילדים ולהורים",
       "reason": "no_verified_source_image"
     },
     {
@@ -139,6 +154,11 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_d2e8ed455ccd01c6c474",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_617490407af714bb4af4",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
@@ -159,8 +179,18 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_19aaf1699672a7c27f57",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_a45bb3ac8e17b05e56df",
       "title": "סיפור יצירה | סדנה לילדים",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_f49bff491bdc80b16bfb",
+      "title": "מעשה בחמישה בלונים",
       "reason": "no_verified_source_image"
     },
     {
