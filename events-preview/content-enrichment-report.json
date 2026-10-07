@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T18:56:12Z",
+  "generated_at": "2026-10-07T18:57:48Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 5,
-  "insufficient": 1,
-  "source_text_insufficient": 6,
+  "enriched": 3,
+  "insufficient": 0,
+  "source_text_insufficient": 9,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_e1a8bffcf4854ad1d8f6",
-      "title": "בחירות 2026 - משפחות",
+      "event_id": "r_k_1101_1830",
+      "title": "בוק סרפינג: מפגש בנושא כוחה של מילה",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_9949c5fde18ab2a5ef50",
-      "title": "בחירות 2026 - קהל רחב",
+      "event_id": "auto_ri_ba6b4e505006468bd433",
+      "title": "סדנא חוויתית",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_4307094b3b636375d0a8",
+      "title": "סיור אומנות",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_3f778d888bea8764a68c",
+      "title": "מועדון ריקודים",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261104_2030_בן-בן-ברוך",
+      "title": "בן בן ברוך",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261105_2000_בוריס-גרבנשיקוב",
+      "title": "בוריס גרבנשיקוב",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_8929f9caaaca744a7355",
+      "title": "קבלת שבת עם הרבה תמרה שיפרין",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_ef5a2949e63b77022201",
+      "title": "הספרים החיצוניים",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_k_1109_1900",
+      "title": "שירה שווה: מופע ספרותי מוזיקלי",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261027_1930_קוולריה-רוסטיקנה",
-      "title": "קוולריה רוסטיקנה",
+      "event_id": "auto_ri_58355c48443b8ba20e67",
+      "title": "מופע מוזיקלי",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_d94def1e415a270c1d23",
-      "title": "המסע לארץ החפצים האבודים",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261028_2030_אף-מילה-לאמא",
-      "title": "אף מילה לאמא",
+      "event_id": "auto_ri_707b45b8e577180319fb",
+      "title": "סיור אומנות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_82e0b9c09be3f17fa569",
-      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
+      "event_id": "r_y_1110_1200",
+      "title": "שלישי לגיל השלישי - תושבי ראשון לציון",
       "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_y_1029_2000",
-      "title": "להקת המחול ורטיגו - \"נונה\" גרסת המוזיאון",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_5f6a849719b707076c93",
-      "title": "להקת המחול ורטיגו -\"נונה\" גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם \"נונה\" - גרסת המוזיאון חמישי | 29.10.26 | 20:00",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261029_2030_אף-מילה-לאמא",
-      "title": "אף מילה לאמא",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261029_2100_עידן-ניידיץ-–-סטנדאפ",
-      "title": "עידן ניידיץ – סטנדאפ",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_268aa53a2a2e6191a461",
-      "title": "מרגלות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261031_2030_אף-מילה-לאמא",
-      "title": "אף מילה לאמא",
-      "status": "source_text_insufficient"
     }
   ]
 }

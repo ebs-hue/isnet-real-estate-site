@@ -6992,7 +6992,43 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:56:41Z",
+      "missing_information": [
+        "שם המנחה או המשתתפים",
+        "פורמט מפורט של המפגש (הרצאה, שיחה פתוחה, סדנה וכדומה)",
+        "משך המפגש",
+        "פרטי כרטיסים/עלות והאם נדרשת הרשמה מראש",
+        "שפת ההרצאה",
+        "מגבלת גיל או קהל יעד מדויק",
+        "האם יתקיימו מכירת ספרים/חתימות או פעילויות נוספות"
+      ],
+      "event_summary": "״בוק סרפינג: מפגש בנושא כוחה של מילה״ הוא מפגש-הרצאה שייערך בספריית מעגלים בראשון לציון. המפגש עוסק ברעיון המרכזי שמילים וטקסטים משפיעים על חשיבה, תקשורת ותרבות. המארגן: רשת כותר ראשון; מועד: 1.11.2026, 18:30.",
+      "short_pitch": "מפגש-הרצאה בספריית מעגלים בנושא \"כוחה של מילה\" — הזדמנות לחשוב ולהדיין על המשמעות וההשפעה של המילים בספרות, בתקשורת ובשיח הציבורי. האירוע מאורגן על-ידי רשת כותר ראשון ומתוכנן ל-1 בנובמבר 2026 בשעה 18:30.",
+      "long_description": "הכותרת ״בוק סרפינג: מפגש בנושא כוחה של מילה״ מציעה מפגש-הרצאה בספריית מעגלים בראשון לציון, שמטרתו לבחון את תפקידן והשפעתן של מילים וטקסטים על הקורא והסביבה. האירוע מוקרן במסגרת פעילות של רשת כותר ראשון ומתוכנן ל-1.11.2026 בשעה 18:30. מהתוכן הזמין לא נמסרו פרטים על מנחה, משך מדויק של המפגש או על מתכונת (שיחה, סדנה או קריאה), ולכן מומלץ לבדוק מראש באתר המארגן או בספרייה לגבי רישום, עלות כניסה ותנאי השתתפות. המפגש עשוי לעניין מי שמתעניין בספרות, בלשון, בעיתונות ובשיח בין-אישי ובין-ציבורי.",
+      "event_type": "הרצאה",
+      "target_audience": [
+        "מבוגרים",
+        "חובבי ספרות ולשון",
+        "מתעניינים בתקשורת ושיח ציבורי"
+      ],
+      "visual_keywords": [
+        "ספר פתוח",
+        "עמוד עם מילה מודגשת",
+        "דפים מתהפכים",
+        "מדפי ספריה מטושטשים ברקע",
+        "ידיים שמחזיקות ספר",
+        "קהל מאזינים יושב",
+        "תאורה חמה פנימית",
+        "שולחן עץ וספל קפה"
+      ],
+      "image_brief": "צילום אינטימי בתוך ספרייה: ספר פתוח בחזית התמונה, עומק שדה רדוד כך שעמוד אחד או מילה מסוימת חדה וברקע מדפי ספרים מטושטשים. תאורה חמה יוצרת אווירה שקטה ואינטלקטואלית; אפשר לשלב יד שמצביעה בעדינות על השורה המדוברת. אין טקסט מוטמע בתמונה.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -7050,7 +7086,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -7112,7 +7151,10 @@
       "venue_website": "https://bl-gallery.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -7173,7 +7215,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261104_2030_בן-בן-ברוך",
@@ -7232,7 +7277,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261105_2000_בוריס-גרבנשיקוב",
@@ -7291,7 +7340,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -7353,7 +7406,10 @@
       "venue_website": "https://www.rlzm.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -7415,7 +7471,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1109_1900",
@@ -7473,7 +7532,43 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:57:11Z",
+      "missing_information": [
+        "שמות המשתתפים/מבצעים ומנחה האירוע",
+        "מבנה התוכנית (קריאות, שירה, מוזיקה חיה וכו')",
+        "משך המופע",
+        "מחיר וכיצד לרכוש כרטיסים",
+        "הגבלות גיל ודרישות כניסה (למשל ליווי הורים)",
+        "נגישות ושירותים מיוחדים (תמלול, כיסאות גלגלים)",
+        "פרטי יצירת קשר מדויקים להזמנות"
+      ],
+      "event_summary": "שירה שווה הוא 'מופע ספרותי מוזיקלי' המתוכנן לראשון לציון, שמתקיים ב־9 בנובמבר 2026 בשעה 19:00 ב\"כותר ראשון אלון\". האירוע מפגיש בין אלמנטים ספרותיים למוזיקליים (כפי שמעיד כותרת המופע) ומופק על ידי רשת כותר ראשון. באתר המקור לא מפורטים פרטי התוכנית והמנחים/מבצעים.",
+      "short_pitch": "מופע ספרותי-מוזיקלי המוקדש לחיבור בין טקסטים לשירה ומוזיקה — ערב שמתאים לחובבי קריאה ומאזינים שמעוניינים בחוויה תרבותית משולבת. האירוע מתקיים בכותר ראשון אלון, ראשון לציון, בהפקת רשת כותר ראשון.",
+      "long_description": "לפי כותרת האירוע, 'שירה שווה' הוא מופע ספרותי מוזיקלי שמחבר בין עולמות הספרות והמוזיקה. ההצגה תתקיים במתחם כותר ראשון אלון בראשון לציון בערב ה־9 בנובמבר 2026 בשעה 19:00, ומאורגנת על ידי רשת כותר ראשון. בפרסום המקורי לא מצוינים שמות המשתתפים, מבנה התכנית או משך המופע, לכן לא ניתן לפרט אם יכללו קריאות ספרותיות, שירים מקוריים, שיתוף קהל או מכירת ספרים. למידע על כרטיסים, תנאי כניסה ונגישות יש לעיין בפרסומי הרשת או ליצור קשר עם הכותר המקומי.",
+      "event_type": "מופע ספרותי-מוזיקלי",
+      "target_audience": [
+        "חובבי ספרות",
+        "מוזיקאים/מוסיקלים",
+        "ציבור מבוגר/בוגר צעיר",
+        "קהל תרבות כללי"
+      ],
+      "visual_keywords": [
+        "בימת הופעה קטנה בתוך חלל ספרייה",
+        "מיקרופון עומד",
+        "ספר פתוח על דוכן",
+        "תווי מוזיקה מודגשים",
+        "כיסאות בקהל",
+        "מדפי ספרים ברקע",
+        "תאורת במה חמה ואווירת ערב"
+      ],
+      "image_brief": "צילום או אילוסטרציה של במה קטנה בחלל ספרייה: דוכן עם ספר פתוח ומיקרופון עומד במרכז, תאורת במה חמה שמשליכה אור זהוב, מדפי ספרים ברקע וכסאות מסודרים לקהל. אין לזהות אנשים ידועים בתמונה — עדיפות לסילואט של מבצע או לקהל מעורפל כדי לשקף את אופי המופע הספרותי-מוזיקלי.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -7535,7 +7630,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -7597,7 +7695,10 @@
       "venue_website": "https://yama.smarticket.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_y_1110_1200",
@@ -7656,7 +7757,44 @@
       "venue_phone": "03-5555900",
       "venue_website": "https://yama.smarticket.co.il/",
       "contact_phone": "03-5555900",
-      "contact_email": "info@yama.co.il"
+      "contact_email": "info@yama.co.il",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://yama.smarticket.co.il/שלישי_לגיל_השלישי_-_תושבי_ראשון_לציון",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:57:48Z",
+      "missing_information": [
+        "משך זמן הסיור",
+        "שפת הסיור (עברית/שפות נוספות)",
+        "פרטים מדויקים על מי חויב ב-25 ₪ (האם זה מיועד לתושבי ראשון לציון שאינם גמלאים או לקבוצות אחרות)",
+        "מספר המקומות הפנויים והשיטה המדויקת להזמנה/רכישה (קישור להזמנה אונליין לא סופק)",
+        "נגישות פיזית מפורטת (נגישות לכיסאות גלגלים, שירותים נגישים וכו')",
+        "פרטי המארגן הרשמי של האירוע ומדיניות ביטולים"
+      ],
+      "event_summary": "סיור מודרך במוזיאון אגם בראשון לציון סביב יצירות האמן יעקב אגם, המיועד בעיקר לגיל השלישי. האירוע יתקיים ביום שלישי, 10 בנובמבר 2026 בשעה 12:00. כניסה חופשית לגיל השלישי — יש להציג תעודת זהות ומקומות מוגבלים. ניתן להזמין קרובי משפחה שאינם גמלאים; מוזכר תשלום של 25 ₪ לאדם עבור חלק מהמוזמנים.",
+      "short_pitch": "סיור מודרך חופשי לגיל השלישי במוזיאון אגם על יצירותיו של יעקב אגם — יום שלישי 10.11.2026, 12:00. הביאו תעודת זהות; מקומות מוגבלים. אפשר להזמין קרובים שאינם גמלאים (צויין תשלום של 25 ₪ לאדם).",
+      "long_description": "מוזיאון אגם מזמין את תושבי גיל השלישי לסיור מודרך סביב יצירותיו של האמן הבינלאומי יעקב אגם. הסיור יתקיים ביום שלישי, 10 בנובמבר 2026, בשעה 12:00 במוזיאון אגם (רחוב מיש\"ר 1, ראשון לציון). הכניסה מיועדת לגיל השלישי ולפי הפרסום הראשוני היא חופשית עבור משתתפים אלה; יש להגיע עם תעודת זהות והמקומות מוגבלים. ההודעה מאפשרת להזמין קרובים שאינם גמלאים, וצוין תשלום של 25 ₪ לאדם עבור משתתפים אלה. במוזיאון פועלים בהתאם להנחיות פיקוד העורף ולצד מרחב מוגן; מי שזכאיו לליווי מתבקש לציין זאת בעת ההזמנה — ליווי ללא תשלום. לפרטים וליצירת קשר: 03-5555-900, info@yama.co.il או YAMA.CO.IL. הזכות לשינויים שמורה.",
+      "event_type": "סיור מודרך במוזיאון",
+      "participants": [
+        "יעקב אגם"
+      ],
+      "target_audience": [
+        "גיל השלישי",
+        "תושבי ראשון לציון",
+        "בני משפחה/קרובים"
+      ],
+      "visual_keywords": [
+        "יצירות קינטיות וצבעוניות של יעקב אגם",
+        "קבוצת מבוגרים במוזיאון",
+        "מדריך מסביר מול עבודה אמנותית",
+        "אולם תצוגה פנימי של מוזיאון",
+        "תעודת זהות בכיס/יד מבקר",
+        "כניסה/חזית מוזיאון אגם"
+      ],
+      "image_brief": "צילום תקריב-רחב מתוך גלריה במוזיאון: קבוצת מבקרים מבוגרים מאזינה למדריך שמצביע לעבר עבודה קינטית צבעונית של יעקב אגם. האור הטבעי מהחלונות מדגיש את הצבעים והצורות הגאומטריות של היצירה; ברקע נראים קירות תצוגה נקיים ורצפת מוזיאון. האווירה סולידית וידידותית, ללא טקסט על התמונה.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
