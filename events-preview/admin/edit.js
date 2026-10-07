@@ -9,10 +9,19 @@ const OVERRIDE_KEY="isnet-event-overrides";
 
 function draftKey(){return "isnet-event-draft:"+city+":"+id}
 function readOverrides(){try{return JSON.parse(localStorage.getItem(OVERRIDE_KEY)||"{}")}catch{return{}}}
-function saveOverride(status){
-  const map=readOverrides();map[city+":"+id]={status,updated_at:new Date().toISOString()};localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));
-  $("status").value=status;$("saveNote").textContent=status==="hidden"?"האירוע סומן כמוסתר.":status==="archived"?"האירוע הועבר לארכיון.":"האירוע הועבר לסל.";
-  setTimeout(()=>location.href="./",500);
+async function saveOverride(status){
+  const payload={...collect(),status};
+  try{
+    await window.ISNET_DB.saveEventRecord(city,id,payload,"override");
+    localStorage.removeItem(draftKey());
+    $("status").value=status;
+    $("saveNote").textContent=status==="hidden"?"האירוע הוסתר ונשמר במערכת.":status==="archived"?"האירוע הועבר לארכיון ונשמר במערכת.":"האירוע הועבר לסל ונשמר במערכת.";
+  }catch(err){
+    const map=readOverrides();map[city+":"+id]={status,updated_at:new Date().toISOString()};localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));
+    $("saveNote").textContent="לא ניתן היה לשמור בשרת; נשמר גיבוי מקומי.";
+    console.error(err);
+  }
+  setTimeout(()=>location.href="./",700);
 }
 function setOptions(){ $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("") }
 function renderTaxonomy(containerId,items,selected=[]){
@@ -68,19 +77,38 @@ async function load(){
   const e=(data.events||[]).find(x=>x.event_id===id); if(!e)throw Error("event not found");
   original={event:e,editorial:editorial.events?.[id]||{}};
   $("pageTitle").textContent=e.title; $("pageMeta").textContent=cfg.name+" · "+(e.start_date||"");
+  const dbRecord=await window.ISNET_DB?.getEventRecord?.(city,id);
   const saved=localStorage.getItem(draftKey());
-  if(saved){const d=JSON.parse(saved);fill({...e,...d},{...original.editorial,...d});$("saveNote").textContent="נטענה טיוטה שנשמרה בדפדפן.";if(d.image_data_url){currentImageData=d.image_data_url;$("imagePreview").style.backgroundImage='url("'+d.image_data_url+'")'}}
-  else fill(e,original.editorial);
+  if(dbRecord?.payload){
+    const d=dbRecord.payload;fill({...e,...d},{...original.editorial,...d});$("saveNote").textContent="נטענה הגרסה השמורה במערכת המרכזית.";if(d.image_data_url){currentImageData=d.image_data_url;$("imagePreview").style.backgroundImage='url("'+d.image_data_url+'")'}
+  } else if(saved){
+    const d=JSON.parse(saved);fill({...e,...d},{...original.editorial,...d});$("saveNote").textContent="נטענה טיוטת גיבוי מקומית.";if(d.image_data_url){currentImageData=d.image_data_url;$("imagePreview").style.backgroundImage='url("'+d.image_data_url+'")'}
+  } else fill(e,original.editorial);
 }
 $("imageFile").addEventListener("change",e=>{
   const file=e.target.files?.[0];if(!file)return;
   if(file.size>5*1024*1024){alert("התמונה גדולה מ־5MB. בחר תמונה קטנה יותר.");e.target.value="";return}
   const reader=new FileReader();reader.onload=()=>{currentImageData=reader.result;$("imagePreview").style.backgroundImage='url("'+reader.result+'")';$("imageApproved").checked=false;$("imageState").innerHTML='<span class="tag warn">תמונה חדשה · דורשת אישור</span>'};reader.readAsDataURL(file);
 });
-$("saveDraftBtn").addEventListener("click",()=>{localStorage.setItem(draftKey(),JSON.stringify(collect()));$("saveNote").textContent="הטיוטה נשמרה בדפדפן ב־"+new Date().toLocaleTimeString("he-IL",{hour:"2-digit",minute:"2-digit"});});
+$("saveDraftBtn").addEventListener("click",async()=>{
+  const payload=collect();
+  try{
+    await window.ISNET_DB.saveEventRecord(city,id,payload,"override");
+    localStorage.removeItem(draftKey());
+    $("saveNote").textContent="נשמר במערכת המרכזית ב־"+new Date().toLocaleTimeString("he-IL",{hour:"2-digit",minute:"2-digit"});
+  }catch(err){
+    localStorage.setItem(draftKey(),JSON.stringify(payload));
+    $("saveNote").textContent="השרת לא היה זמין; נשמר גיבוי מקומי.";
+    console.error(err);
+  }
+});
 $("hideBtn").addEventListener("click",()=>saveOverride("hidden"));
 $("archiveBtn").addEventListener("click",()=>saveOverride("archived"));
 $("trashBtn").addEventListener("click",()=>{if(confirm("להעביר את האירוע לסל? אפשר יהיה לשחזר אותו בהמשך."))saveOverride("trashed")});
-$("restoreBtn").addEventListener("click",()=>{if(!original)return;localStorage.removeItem(draftKey());const map=readOverrides();delete map[city+":"+id];localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));fill(original.event,original.editorial);$("saveNote").textContent="חזרת לנתוני המקור.";});
+$("restoreBtn").addEventListener("click",async()=>{if(!original)return;
+  localStorage.removeItem(draftKey());const map=readOverrides();delete map[city+":"+id];localStorage.setItem(OVERRIDE_KEY,JSON.stringify(map));
+  try{await window.ISNET_DB.deleteEventRecord(city,id)}catch(err){console.error(err)}
+  fill(original.event,original.editorial);$("saveNote").textContent="חזרת לנתוני המקור והגרסה השמורה הוסרה.";
+});
 $("previewBtn").addEventListener("click",()=>{if(!cfg||!id)return;window.open(cfg.base+"event.html?id="+encodeURIComponent(id),"_blank","noopener")});
 load().catch(err=>{$("pageTitle").textContent="לא ניתן לטעון את האירוע";$("pageMeta").textContent=String(err.message||err)});
