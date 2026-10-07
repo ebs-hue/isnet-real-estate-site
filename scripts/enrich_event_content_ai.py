@@ -248,6 +248,7 @@ def main():
                 event["content_ready_for_media"] = False
                 event["media_status"] = "waiting_for_content"
                 event["content_enrichment_status"] = "source_text_insufficient"
+                event["content_enrichment_version"] = CONTENT_ENRICHMENT_VERSION
                 event["content_enrichment_retry_after"] = (date.today() + timedelta(days=7)).isoformat()
                 fetch_failed += 1
                 changed = True
