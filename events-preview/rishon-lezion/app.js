@@ -1032,7 +1032,8 @@ async function init(){
     fetch("data/cinema.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({movies:[]})),
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
   ]);
-  state.events=data.events||[];
+  const horizon=addMonths(today(),5); horizon.setDate(today().getDate());
+  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon));
   state.fallbacks=fallbacks;
   state.generatedAt=data.generated_at||null;
   state.cinema=cinema.movies||[];
