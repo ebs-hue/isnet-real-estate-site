@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:11:04.908374+00:00",
+  "generated_at": "2026-10-07T19:20:57.815486+00:00",
   "productions": [
     {
       "production_key": "70 fm",
@@ -7,12 +7,18 @@
       "media": [
         "media_12e8e782ffb567b37744eb30"
       ],
+      "approved_media": [
+        "media_12e8e782ffb567b37744eb30"
+      ],
+      "preferred_media_id": "media_12e8e782ffb567b37744eb30",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "fate fire",
@@ -20,12 +26,18 @@
       "media": [
         "media_9f9ca96824d9a448cc6b7bcd"
       ],
+      "approved_media": [
+        "media_9f9ca96824d9a448cc6b7bcd"
+      ],
+      "preferred_media_id": "media_9f9ca96824d9a448cc6b7bcd",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "sinatra my way פרנק סינטרה",
@@ -33,12 +45,18 @@
       "media": [
         "media_06ce12429cf75615253cf45a"
       ],
+      "approved_media": [
+        "media_06ce12429cf75615253cf45a"
+      ],
+      "preferred_media_id": "media_06ce12429cf75615253cf45a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "voca people ווקה פיפל",
@@ -46,12 +64,18 @@
       "media": [
         "media_89e983fc83b5c08ee283fe07"
       ],
+      "approved_media": [
+        "media_89e983fc83b5c08ee283fe07"
+      ],
+      "preferred_media_id": "media_89e983fc83b5c08ee283fe07",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אמי",
@@ -59,12 +83,18 @@
       "media": [
         "media_0053cf46a5b771c27cf127a3"
       ],
+      "approved_media": [
+        "media_0053cf46a5b771c27cf127a3"
+      ],
+      "preferred_media_id": "media_0053cf46a5b771c27cf127a3",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אבנר גדסי מנגן ושר אורח מיוחד ניסים סרוסי",
@@ -72,12 +102,18 @@
       "media": [
         "media_39c012c1c85bac8b231b3b50"
       ],
+      "approved_media": [
+        "media_39c012c1c85bac8b231b3b50"
+      ],
+      "preferred_media_id": "media_39c012c1c85bac8b231b3b50",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אגדת הטנגו העולמית מרכוס אשלה",
@@ -85,12 +121,18 @@
       "media": [
         "media_dfef838827c8df3eb7b18672"
       ],
+      "approved_media": [
+        "media_dfef838827c8df3eb7b18672"
+      ],
+      "preferred_media_id": "media_dfef838827c8df3eb7b18672",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אגם הברבורים תיאטרון הבלט הלאומי של רוסיה",
@@ -98,12 +140,18 @@
       "media": [
         "media_71f5bfc2d4de166e008f1131"
       ],
+      "approved_media": [
+        "media_71f5bfc2d4de166e008f1131"
+      ],
+      "preferred_media_id": "media_71f5bfc2d4de166e008f1131",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אגממנון",
@@ -111,12 +159,18 @@
       "media": [
         "media_6146e589c26e7930de248260"
       ],
+      "approved_media": [
+        "media_6146e589c26e7930de248260"
+      ],
+      "preferred_media_id": "media_6146e589c26e7930de248260",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אדיר מילר",
@@ -125,13 +179,20 @@
         "media_1863e01d5ab4452a02e644a9",
         "media_513c8562b102b049001e7987"
       ],
+      "approved_media": [
+        "media_1863e01d5ab4452a02e644a9",
+        "media_513c8562b102b049001e7987"
+      ],
+      "preferred_media_id": "media_1863e01d5ab4452a02e644a9",
       "cities": [
         "ashdod",
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "אדם וחותם הקשר שבין האדם לאדמה",
@@ -139,12 +200,16 @@
       "media": [
         "media_50043bb6a6b335bb03613845"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "אהבה הקרנת סרט ומפגש שיח",
@@ -152,12 +217,18 @@
       "media": [
         "media_0297724a38ceaf805a1f5e45"
       ],
+      "approved_media": [
+        "media_0297724a38ceaf805a1f5e45"
+      ],
+      "preferred_media_id": "media_0297724a38ceaf805a1f5e45",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "cinema"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אהבה בהפתעה",
@@ -165,12 +236,18 @@
       "media": [
         "media_e8e5bdb9afef0c34b9ea2c22"
       ],
+      "approved_media": [
+        "media_e8e5bdb9afef0c34b9ea2c22"
+      ],
+      "preferred_media_id": "media_e8e5bdb9afef0c34b9ea2c22",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "או לה לה",
@@ -178,12 +255,18 @@
       "media": [
         "media_8f5725ce3ae12a3db8db57f9"
       ],
+      "approved_media": [
+        "media_8f5725ce3ae12a3db8db57f9"
+      ],
+      "preferred_media_id": "media_8f5725ce3ae12a3db8db57f9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אודי כגן",
@@ -191,12 +274,18 @@
       "media": [
         "media_fcfa428eaac63aaaa48c32fd"
       ],
+      "approved_media": [
+        "media_fcfa428eaac63aaaa48c32fd"
+      ],
+      "preferred_media_id": "media_fcfa428eaac63aaaa48c32fd",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אוי אלוהים",
@@ -204,12 +293,18 @@
       "media": [
         "media_0f2994382e9449109c3d20f8"
       ],
+      "approved_media": [
+        "media_0f2994382e9449109c3d20f8"
+      ],
+      "preferred_media_id": "media_0f2994382e9449109c3d20f8",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אור לגויים",
@@ -218,6 +313,11 @@
         "media_fa7e37052b4c0ae36f400714",
         "media_baf1cb481d33a2caf91c4f49"
       ],
+      "approved_media": [
+        "media_fa7e37052b4c0ae36f400714",
+        "media_baf1cb481d33a2caf91c4f49"
+      ],
+      "preferred_media_id": "media_fa7e37052b4c0ae36f400714",
       "cities": [
         "ashdod",
         "rishon-lezion"
@@ -225,7 +325,9 @@
       "categories": [
         "other",
         "theatre"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "אורי חזקיה",
@@ -233,12 +335,18 @@
       "media": [
         "media_65d5159b231b8d68ce3f0e07"
       ],
+      "approved_media": [
+        "media_65d5159b231b8d68ce3f0e07"
+      ],
+      "preferred_media_id": "media_65d5159b231b8d68ce3f0e07",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "איה פלוטו",
@@ -246,12 +354,18 @@
       "media": [
         "media_23ed7bddde970e4d70b16303"
       ],
+      "approved_media": [
+        "media_23ed7bddde970e4d70b16303"
+      ],
+      "preferred_media_id": "media_23ed7bddde970e4d70b16303",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "איזבלה",
@@ -259,12 +373,18 @@
       "media": [
         "media_4994292c7c0d6c4050b33c98"
       ],
+      "approved_media": [
+        "media_4994292c7c0d6c4050b33c98"
+      ],
+      "preferred_media_id": "media_4994292c7c0d6c4050b33c98",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "איילת מטיילת שעת סיפור עם רינתי",
@@ -272,13 +392,17 @@
       "media": [
         "media_f798e963674e09fb07c19f38"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "איילת מטיילת הצגה מבית רינתי",
@@ -286,13 +410,17 @@
       "media": [
         "media_c252c53d87394302c89f51d1"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "אימפרובוק מופע תיאטרלי ספרותי שסופו לא ידוע",
@@ -300,6 +428,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -308,7 +438,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "איסטנבול נפולי מרסיי",
@@ -316,12 +448,18 @@
       "media": [
         "media_1ea0a109f88f0dfa572f6fc5"
       ],
+      "approved_media": [
+        "media_1ea0a109f88f0dfa572f6fc5"
+      ],
+      "preferred_media_id": "media_1ea0a109f88f0dfa572f6fc5",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אל עמק הברכה",
@@ -329,6 +467,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -336,7 +476,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "אליסה בארץ הפלאות חנוכה 2026",
@@ -344,12 +486,18 @@
       "media": [
         "media_e1f11d6ad6a0278b81a176e7"
       ],
+      "approved_media": [
+        "media_e1f11d6ad6a0278b81a176e7"
+      ],
+      "preferred_media_id": "media_e1f11d6ad6a0278b81a176e7",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אמנות",
@@ -357,12 +505,18 @@
       "media": [
         "media_62d74e1020de23c18337e804"
       ],
+      "approved_media": [
+        "media_62d74e1020de23c18337e804"
+      ],
+      "preferred_media_id": "media_62d74e1020de23c18337e804",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אני הרבה יותר ממה שחשבתי ייעודי לגדולות מהחיים",
@@ -370,6 +524,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -377,7 +533,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "אסף יצחקי",
@@ -385,12 +543,18 @@
       "media": [
         "media_b798020183538fcc746559e0"
       ],
+      "approved_media": [
+        "media_b798020183538fcc746559e0"
+      ],
+      "preferred_media_id": "media_b798020183538fcc746559e0",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אסף יצחקי מופע סטנדאפ לא מצונזר",
@@ -398,12 +562,18 @@
       "media": [
         "media_303e22fd86233094ae3135e0"
       ],
+      "approved_media": [
+        "media_303e22fd86233094ae3135e0"
+      ],
+      "preferred_media_id": "media_303e22fd86233094ae3135e0",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אסף מור יוסף במופע סטנדאפ",
@@ -411,12 +581,18 @@
       "media": [
         "media_dea96b94729e1a017cf0f177"
       ],
+      "approved_media": [
+        "media_dea96b94729e1a017cf0f177"
+      ],
+      "preferred_media_id": "media_dea96b94729e1a017cf0f177",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אף מילה לאמא",
@@ -424,12 +600,18 @@
       "media": [
         "media_8e4d3d7efc80e7751388217a"
       ],
+      "approved_media": [
+        "media_8e4d3d7efc80e7751388217a"
+      ],
+      "preferred_media_id": "media_8e4d3d7efc80e7751388217a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "ארבע העונות של ניקי גולדשטיין",
@@ -437,12 +619,18 @@
       "media": [
         "media_20068a39ed34752c21ada19f"
       ],
+      "approved_media": [
+        "media_20068a39ed34752c21ada19f"
+      ],
+      "preferred_media_id": "media_20068a39ed34752c21ada19f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "אשליות מתוקות",
@@ -450,12 +638,18 @@
       "media": [
         "media_3f772bb64c807088fdadc5e4"
       ],
+      "approved_media": [
+        "media_3f772bb64c807088fdadc5e4"
+      ],
+      "preferred_media_id": "media_3f772bb64c807088fdadc5e4",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בגדי המלך החדשים",
@@ -463,6 +657,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -471,7 +667,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בדרך ללב הפועם של רמת גן",
@@ -479,6 +677,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -486,7 +686,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בוא לא נדבר על זה",
@@ -494,12 +696,18 @@
       "media": [
         "media_c0281f4495dd8822be7b332e"
       ],
+      "approved_media": [
+        "media_c0281f4495dd8822be7b332e"
+      ],
+      "preferred_media_id": "media_c0281f4495dd8822be7b332e",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בודי בלט סדנא בונה עצם לנשים",
@@ -507,13 +715,17 @@
       "media": [
         "media_57344f337017ee61698c0e17"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בוק סרפינג מפגש בנושא כוחה של מילה",
@@ -521,6 +733,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -529,7 +743,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בוריס גרבנשיקוב",
@@ -537,12 +753,18 @@
       "media": [
         "media_0b56a666ff373df4e9ae5608"
       ],
+      "approved_media": [
+        "media_0b56a666ff373df4e9ae5608"
+      ],
+      "preferred_media_id": "media_0b56a666ff373df4e9ae5608",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בחירות 2026 כניסה",
@@ -550,12 +772,18 @@
       "media": [
         "media_a7bb87df4b613641ac3ea1b1"
       ],
+      "approved_media": [
+        "media_a7bb87df4b613641ac3ea1b1"
+      ],
+      "preferred_media_id": "media_a7bb87df4b613641ac3ea1b1",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בחירות 2026 משפחות",
@@ -563,12 +791,18 @@
       "media": [
         "media_004c7fa81f2fbc84ab2e0def"
       ],
+      "approved_media": [
+        "media_004c7fa81f2fbc84ab2e0def"
+      ],
+      "preferred_media_id": "media_004c7fa81f2fbc84ab2e0def",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בחירות 2026 קהל רחב",
@@ -576,12 +810,18 @@
       "media": [
         "media_7213e4d98c04817adc66e0bd"
       ],
+      "approved_media": [
+        "media_7213e4d98c04817adc66e0bd"
+      ],
+      "preferred_media_id": "media_7213e4d98c04817adc66e0bd",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "ביג בנד תזמורת הג אז ראשון לציון",
@@ -589,12 +829,18 @@
       "media": [
         "media_ed6969d2af626d54cc7d1148"
       ],
+      "approved_media": [
+        "media_ed6969d2af626d54cc7d1148"
+      ],
+      "preferred_media_id": "media_ed6969d2af626d54cc7d1148",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בילי שוורץ",
@@ -602,12 +848,18 @@
       "media": [
         "media_01d6c816c4eee88e5e087b5f"
       ],
+      "approved_media": [
+        "media_01d6c816c4eee88e5e087b5f"
+      ],
+      "preferred_media_id": "media_01d6c816c4eee88e5e087b5f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בלט פלמנקו ברצלונה",
@@ -615,12 +867,18 @@
       "media": [
         "media_7420f31db1fe1fd7c5bddfbd"
       ],
+      "approved_media": [
+        "media_7420f31db1fe1fd7c5bddfbd"
+      ],
+      "preferred_media_id": "media_7420f31db1fe1fd7c5bddfbd",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "בן בן ברוך",
@@ -629,13 +887,20 @@
         "media_01c1ca69c3b6d2160259ffa5",
         "media_36c1f2c48f0a342cc83d2e0c"
       ],
+      "approved_media": [
+        "media_01c1ca69c3b6d2160259ffa5",
+        "media_36c1f2c48f0a342cc83d2e0c"
+      ],
+      "preferred_media_id": "media_01c1ca69c3b6d2160259ffa5",
       "cities": [
         "ashdod",
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "בעקבות ימים אדומים בירושלים",
@@ -643,6 +908,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -650,7 +917,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בעקבות סופרים בנחלאות",
@@ -658,6 +927,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -665,7 +936,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "בעקבות רכבת העמק חמורו של הסולטאן",
@@ -673,6 +946,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -680,7 +955,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "גבירתי הנאווה",
@@ -688,12 +965,18 @@
       "media": [
         "media_1a1e251f6acc45405d9125dc"
       ],
+      "approved_media": [
+        "media_1a1e251f6acc45405d9125dc"
+      ],
+      "preferred_media_id": "media_1a1e251f6acc45405d9125dc",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "גברת רביע באשדוד טיפול זוגי 5 55",
@@ -701,12 +984,18 @@
       "media": [
         "media_8aa9b4635ea4946fc3450e51"
       ],
+      "approved_media": [
+        "media_8aa9b4635ea4946fc3450e51"
+      ],
+      "preferred_media_id": "media_8aa9b4635ea4946fc3450e51",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "גיורא זינגר",
@@ -714,12 +1003,18 @@
       "media": [
         "media_a4e5175231ad30ec63380eea"
       ],
+      "approved_media": [
+        "media_a4e5175231ad30ec63380eea"
+      ],
+      "preferred_media_id": "media_a4e5175231ad30ec63380eea",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "גיל קופטש משה פרסטר אריק זילברמן אמני הקומדי קלאב צוחקים ושרים",
@@ -727,12 +1022,18 @@
       "media": [
         "media_edd713f90fcc58093234312c"
       ],
+      "approved_media": [
+        "media_edd713f90fcc58093234312c"
+      ],
+      "preferred_media_id": "media_edd713f90fcc58093234312c",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "גלגולי המגילה אסף אלברשטיין",
@@ -740,13 +1041,17 @@
       "media": [
         "media_fd028402992e159c039841b0"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "גמצ יק סיור תיאטרלי לקטנטנים",
@@ -754,12 +1059,18 @@
       "media": [
         "media_88f39d2ee5c85bdaaa1f640d"
       ],
+      "approved_media": [
+        "media_88f39d2ee5c85bdaaa1f640d"
+      ],
+      "preferred_media_id": "media_88f39d2ee5c85bdaaa1f640d",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "גן נעול מעיין חתום",
@@ -767,6 +1078,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -774,7 +1087,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "ג ינג י",
@@ -782,12 +1097,18 @@
       "media": [
         "media_3432fe37735781775817f3bd"
       ],
+      "approved_media": [
+        "media_3432fe37735781775817f3bd"
+      ],
+      "preferred_media_id": "media_3432fe37735781775817f3bd",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "דיסקו כשהקצב משחרר את הגוף",
@@ -795,12 +1116,18 @@
       "media": [
         "media_fe6e8df1a4468d54960eaee1"
       ],
+      "approved_media": [
+        "media_fe6e8df1a4468d54960eaee1"
+      ],
+      "preferred_media_id": "media_fe6e8df1a4468d54960eaee1",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "דירה להכיר",
@@ -808,12 +1135,18 @@
       "media": [
         "media_550e833132524aa41043d627"
       ],
+      "approved_media": [
+        "media_550e833132524aa41043d627"
+      ],
+      "preferred_media_id": "media_550e833132524aa41043d627",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "דירה להשכיר שעת סיפור עם רינתי",
@@ -821,13 +1154,17 @@
       "media": [
         "media_fd028402992e159c039841b0"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "דירה להשכיר מבית רינתי",
@@ -835,13 +1172,17 @@
       "media": [
         "media_fb64341ebcb3600c9a2ebfd4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "דניאל חן",
@@ -849,12 +1190,18 @@
       "media": [
         "media_a1dd9957973686b2050eecb3"
       ],
+      "approved_media": [
+        "media_a1dd9957973686b2050eecb3"
+      ],
+      "preferred_media_id": "media_a1dd9957973686b2050eecb3",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "דניאל סטיופין קופה ראשית מופע סטנדאפ",
@@ -862,12 +1209,18 @@
       "media": [
         "media_7484e9bd8b0a9bb5a6bf0b87"
       ],
+      "approved_media": [
+        "media_7484e9bd8b0a9bb5a6bf0b87"
+      ],
+      "preferred_media_id": "media_7484e9bd8b0a9bb5a6bf0b87",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "דניאל סטיופין קופה ראשית סטנדאפ",
@@ -875,13 +1228,17 @@
       "media": [
         "media_527f44c60ddb3cd2b02625b6"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "האישה העשירה בעולם",
@@ -889,12 +1246,18 @@
       "media": [
         "media_ce884bf9f02def876c4e798e"
       ],
+      "approved_media": [
+        "media_ce884bf9f02def876c4e798e"
+      ],
+      "preferred_media_id": "media_ce884bf9f02def876c4e798e",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "האריה הזללן",
@@ -902,6 +1265,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -910,7 +1275,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הברווזון המכוער",
@@ -918,6 +1285,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -926,7 +1295,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הד אנדלוסי התזמורת האנדלוסית",
@@ -934,12 +1305,18 @@
       "media": [
         "media_1fcf64293d74d0343ae52feb"
       ],
+      "approved_media": [
+        "media_1fcf64293d74d0343ae52feb"
+      ],
+      "preferred_media_id": "media_1fcf64293d74d0343ae52feb",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הזקן והים",
@@ -947,6 +1324,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -954,7 +1333,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "החולה ההודי",
@@ -962,12 +1343,18 @@
       "media": [
         "media_8f297f8b91e325728d628397"
       ],
+      "approved_media": [
+        "media_8f297f8b91e325728d628397"
+      ],
+      "preferred_media_id": "media_8f297f8b91e325728d628397",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "היומן",
@@ -975,12 +1362,18 @@
       "media": [
         "media_4a37a28f82f70ca01bfb0a3f"
       ],
+      "approved_media": [
+        "media_4a37a28f82f70ca01bfb0a3f"
+      ],
+      "preferred_media_id": "media_4a37a28f82f70ca01bfb0a3f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "היי סקול דרמה משפחת טרסוב",
@@ -988,12 +1381,18 @@
       "media": [
         "media_d3b27081fca78d0f24a2de82"
       ],
+      "approved_media": [
+        "media_d3b27081fca78d0f24a2de82"
+      ],
+      "preferred_media_id": "media_d3b27081fca78d0f24a2de82",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "היפה והחיה",
@@ -1001,12 +1400,18 @@
       "media": [
         "media_820803571ee436d0f2e268bd"
       ],
+      "approved_media": [
+        "media_820803571ee436d0f2e268bd"
+      ],
+      "preferred_media_id": "media_820803571ee436d0f2e268bd",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "היפהפיה הנרדמת",
@@ -1014,12 +1419,18 @@
       "media": [
         "media_2059fe0fc26a72fc29929c8f"
       ],
+      "approved_media": [
+        "media_2059fe0fc26a72fc29929c8f"
+      ],
+      "preferred_media_id": "media_2059fe0fc26a72fc29929c8f",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "היפהפייה הנרדמת תיאטרון הבלט הלאומי של רוסיה",
@@ -1027,12 +1438,18 @@
       "media": [
         "media_e4e4d330bed7c87dd8f6eafb"
       ],
+      "approved_media": [
+        "media_e4e4d330bed7c87dd8f6eafb"
+      ],
+      "preferred_media_id": "media_e4e4d330bed7c87dd8f6eafb",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הכלבלב השובב",
@@ -1040,12 +1457,16 @@
       "media": [
         "media_76ed459ab93dcc1415fbc000"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הכנת תליונים סרוגים ייעודי לגדולות מהחיים",
@@ -1053,6 +1474,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1060,7 +1483,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הלב זוכר",
@@ -1068,12 +1493,18 @@
       "media": [
         "media_898c64ff59ec497ffc656be1"
       ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הלב שלי שלך",
@@ -1081,12 +1512,18 @@
       "media": [
         "media_9d125335260d720cab3f9610"
       ],
+      "approved_media": [
+        "media_9d125335260d720cab3f9610"
+      ],
+      "preferred_media_id": "media_9d125335260d720cab3f9610",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הלהקות הצבאיות חוזרות",
@@ -1094,12 +1531,18 @@
       "media": [
         "media_272909c778d74fced70509b7"
       ],
+      "approved_media": [
+        "media_272909c778d74fced70509b7"
+      ],
+      "preferred_media_id": "media_272909c778d74fced70509b7",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "המדורה של רינתי",
@@ -1107,13 +1550,19 @@
       "media": [
         "media_78e19fcc69b94704798dfead"
       ],
+      "approved_media": [
+        "media_78e19fcc69b94704798dfead"
+      ],
+      "preferred_media_id": "media_78e19fcc69b94704798dfead",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "המדורה של רינתי שעת סיפור עם רינתי",
@@ -1121,13 +1570,19 @@
       "media": [
         "media_78e19fcc69b94704798dfead"
       ],
+      "approved_media": [
+        "media_78e19fcc69b94704798dfead"
+      ],
+      "preferred_media_id": "media_78e19fcc69b94704798dfead",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "המלך אמר",
@@ -1135,13 +1590,17 @@
       "media": [
         "media_fb64341ebcb3600c9a2ebfd4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "המסע אל הכוכב יובל המבולבל",
@@ -1149,12 +1608,18 @@
       "media": [
         "media_3022d488620bcfbfa8f6d5d9"
       ],
+      "approved_media": [
+        "media_3022d488620bcfbfa8f6d5d9"
+      ],
+      "preferred_media_id": "media_3022d488620bcfbfa8f6d5d9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "המספרה של ג אקו הפקת מקור",
@@ -1162,12 +1627,16 @@
       "media": [
         "media_8d04f3e0fd5681900fcdd10a"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הנסיכה והכתר האבוד הצגה מבית אדווה בן גיגי מלול",
@@ -1175,6 +1644,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1182,7 +1653,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הנערה מהדואר",
@@ -1190,12 +1663,18 @@
       "media": [
         "media_f1abd4d53917ecdd3b80686c"
       ],
+      "approved_media": [
+        "media_f1abd4d53917ecdd3b80686c"
+      ],
+      "preferred_media_id": "media_f1abd4d53917ecdd3b80686c",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הפועל אשדוד א כ נס ציונה",
@@ -1203,12 +1682,16 @@
       "media": [
         "media_d4b807b6f546b5bbb55e946e"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הפועל אשדוד א ס sgs רמת השרון",
@@ -1216,12 +1699,16 @@
       "media": [
         "media_cda079a20047c064fb1f15f2"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הפועל אשדוד בני הרצליה",
@@ -1229,12 +1716,16 @@
       "media": [
         "media_200a6f733ca4bcb1d8ce642a"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הפועל אשדוד הפועל קרית אונו",
@@ -1242,12 +1733,16 @@
       "media": [
         "media_610a1826f3434d8791ed853e"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הפועל אשדוד מכבי פתח תקוה",
@@ -1255,12 +1750,16 @@
       "media": [
         "media_430ef7589bb1a2d825492f71"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הפיל שרצה להיות הכי",
@@ -1268,12 +1767,18 @@
       "media": [
         "media_96e5a8121db34efa5afc6450"
       ],
+      "approved_media": [
+        "media_96e5a8121db34efa5afc6450"
+      ],
+      "preferred_media_id": "media_96e5a8121db34efa5afc6450",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הפינה של גלי פעילות מוזיקאלית לקטנטנים",
@@ -1281,6 +1786,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -1289,7 +1796,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הצגת ענק עלילות המכבים",
@@ -1297,12 +1806,16 @@
       "media": [
         "media_0cd545b49063026c3e11a931"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הקוסם מארץ עוץ לוח הופעות והזמנת כרטיסים",
@@ -1310,12 +1823,16 @@
       "media": [
         "media_d5ef1f857c931698741175b4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הר הנגב בעקבות שירות בנתיבי המדבר",
@@ -1323,6 +1840,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1330,7 +1849,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "הרפתקה במוזיאון הצגה בתערוכה",
@@ -1338,12 +1859,18 @@
       "media": [
         "media_bcdd2b1cf07b9c10db1aee0b"
       ],
+      "approved_media": [
+        "media_bcdd2b1cf07b9c10db1aee0b"
+      ],
+      "preferred_media_id": "media_bcdd2b1cf07b9c10db1aee0b",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הרפתקה בשכונה חיפזון וזהירון",
@@ -1351,12 +1878,18 @@
       "media": [
         "media_01698eb20054879a7b879dcd"
       ],
+      "approved_media": [
+        "media_01698eb20054879a7b879dcd"
+      ],
+      "preferred_media_id": "media_01698eb20054879a7b879dcd",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "הרקדן ואלרי פאנוב",
@@ -1364,12 +1897,18 @@
       "media": [
         "media_6676d255798bb852bdf483f5"
       ],
+      "approved_media": [
+        "media_6676d255798bb852bdf483f5"
+      ],
+      "preferred_media_id": "media_6676d255798bb852bdf483f5",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "השועל המוסיקלי החיפושיות",
@@ -1377,12 +1916,18 @@
       "media": [
         "media_2134cfaef9dddd187740304c"
       ],
+      "approved_media": [
+        "media_2134cfaef9dddd187740304c"
+      ],
+      "preferred_media_id": "media_2134cfaef9dddd187740304c",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "השועל המוסיקלי כוורת",
@@ -1390,12 +1935,18 @@
       "media": [
         "media_a0d7180a2b50017bceca6eae"
       ],
+      "approved_media": [
+        "media_a0d7180a2b50017bceca6eae"
+      ],
+      "preferred_media_id": "media_a0d7180a2b50017bceca6eae",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "התקווה 6",
@@ -1403,6 +1954,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1410,7 +1963,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "ויוו vivo",
@@ -1418,12 +1973,18 @@
       "media": [
         "media_b0130b8bcce0ace53597815a"
       ],
+      "approved_media": [
+        "media_b0130b8bcce0ace53597815a"
+      ],
+      "preferred_media_id": "media_b0130b8bcce0ace53597815a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "זוג משמיים",
@@ -1431,12 +1992,18 @@
       "media": [
         "media_3fd0643aa7d58894403f927e"
       ],
+      "approved_media": [
+        "media_3fd0643aa7d58894403f927e"
+      ],
+      "preferred_media_id": "media_3fd0643aa7d58894403f927e",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "זוגיות ai",
@@ -1445,6 +2012,11 @@
         "media_efe9059eddc1d7d2d0753f73",
         "media_fd1f85d66ee66440a439d877"
       ],
+      "approved_media": [
+        "media_efe9059eddc1d7d2d0753f73",
+        "media_fd1f85d66ee66440a439d877"
+      ],
+      "preferred_media_id": "media_efe9059eddc1d7d2d0753f73",
       "cities": [
         "ashdod",
         "rishon-lezion"
@@ -1452,7 +2024,9 @@
       "categories": [
         "other",
         "theatre"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "חגיגה בחווה",
@@ -1460,12 +2034,18 @@
       "media": [
         "media_369b04f083f3f2d6ea1afcab"
       ],
+      "approved_media": [
+        "media_369b04f083f3f2d6ea1afcab"
+      ],
+      "preferred_media_id": "media_369b04f083f3f2d6ea1afcab",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חגיגה בכוורת",
@@ -1473,12 +2053,18 @@
       "media": [
         "media_ac936dcd2ec4f2dd3a42d89e"
       ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חגיגה נפוליטנית מאת סטאס דוידוב",
@@ -1486,12 +2072,18 @@
       "media": [
         "media_5da13fef7638731c1747766c"
       ],
+      "approved_media": [
+        "media_5da13fef7638731c1747766c"
+      ],
+      "preferred_media_id": "media_5da13fef7638731c1747766c",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
@@ -1499,12 +2091,16 @@
       "media": [
         "media_947c988f76f4f839d42361e5"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "חורף קוריאני הקרנת סרט ומפגש שיח",
@@ -1512,12 +2108,16 @@
       "media": [
         "media_c5b15dc04a3de22ead714dfa"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "cinema"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "חיילים יצאו לדרך",
@@ -1525,12 +2125,18 @@
       "media": [
         "media_3c0b3dfb18abf8d6701463fa"
       ],
+      "approved_media": [
+        "media_3c0b3dfb18abf8d6701463fa"
+      ],
+      "preferred_media_id": "media_3c0b3dfb18abf8d6701463fa",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חיפה עוגת חתונה",
@@ -1538,6 +2144,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1545,7 +2153,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "חלון לים התיכון",
@@ -1553,13 +2163,19 @@
       "media": [
         "media_1fc25d6f401234b2a405532b"
       ],
+      "approved_media": [
+        "media_1fc25d6f401234b2a405532b"
+      ],
+      "preferred_media_id": "media_1fc25d6f401234b2a405532b",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חלוקי נחל ייעודי לגדולות מהחיים",
@@ -1567,6 +2183,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1574,7 +2192,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "חן מזרחי",
@@ -1582,12 +2202,18 @@
       "media": [
         "media_51ba4acb352c46e1998e7fb4"
       ],
+      "approved_media": [
+        "media_51ba4acb352c46e1998e7fb4"
+      ],
+      "preferred_media_id": "media_51ba4acb352c46e1998e7fb4",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חנאל ומכבית",
@@ -1595,12 +2221,18 @@
       "media": [
         "media_b4f5a7d91606527de7580901"
       ],
+      "approved_media": [
+        "media_b4f5a7d91606527de7580901"
+      ],
+      "preferred_media_id": "media_b4f5a7d91606527de7580901",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חנות סופגניות קטנה ומצחיקה",
@@ -1608,12 +2240,18 @@
       "media": [
         "media_2f9b14eb1d1cce318b639a8a"
       ],
+      "approved_media": [
+        "media_2f9b14eb1d1cce318b639a8a"
+      ],
+      "preferred_media_id": "media_2f9b14eb1d1cce318b639a8a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "חנות סופגניות קטנה ומצחיקה חנוכה 2026",
@@ -1621,6 +2259,8 @@
       "media": [
         "media_12cacca1483b28cf2048bbdb"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -1628,7 +2268,9 @@
         "festival",
         "kids",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "חני נחמיאס קלסיקה ישראלית",
@@ -1636,12 +2278,16 @@
       "media": [
         "media_74a23bcd2fb4e098bb0ce909"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "טוביה צפיר 80 שנה של הומור",
@@ -1649,12 +2295,18 @@
       "media": [
         "media_3fae9a215b7f2316c1aacb2e"
       ],
+      "approved_media": [
+        "media_3fae9a215b7f2316c1aacb2e"
+      ],
+      "preferred_media_id": "media_3fae9a215b7f2316c1aacb2e",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "טינטן",
@@ -1662,12 +2314,18 @@
       "media": [
         "media_09ec7bd3511dbc6c1014b1c9"
       ],
+      "approved_media": [
+        "media_09ec7bd3511dbc6c1014b1c9"
+      ],
+      "preferred_media_id": "media_09ec7bd3511dbc6c1014b1c9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "טריפונס",
@@ -1675,13 +2333,19 @@
       "media": [
         "media_b4633628f67a433d3b0a87a2"
       ],
+      "approved_media": [
+        "media_b4633628f67a433d3b0a87a2"
+      ],
+      "preferred_media_id": "media_b4633628f67a433d3b0a87a2",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "יוגה באגם גילאי 18 40",
@@ -1689,12 +2353,16 @@
       "media": [
         "media_d904abe9ff1138def610891c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "community"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "יום המזל שלי",
@@ -1702,12 +2370,18 @@
       "media": [
         "media_afe35cdf1c308ff08682e641"
       ],
+      "approved_media": [
+        "media_afe35cdf1c308ff08682e641"
+      ],
+      "preferred_media_id": "media_afe35cdf1c308ff08682e641",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "יום יהדות הודו 2026",
@@ -1715,12 +2389,18 @@
       "media": [
         "media_ae77cd0ed098e29be65721c7"
       ],
+      "approved_media": [
+        "media_ae77cd0ed098e29be65721c7"
+      ],
+      "preferred_media_id": "media_ae77cd0ed098e29be65721c7",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "community"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "יונה קפח",
@@ -1728,12 +2408,18 @@
       "media": [
         "media_051274061d458226920df037"
       ],
+      "approved_media": [
+        "media_051274061d458226920df037"
+      ],
+      "preferred_media_id": "media_051274061d458226920df037",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "יונתן גת מונארט 2026",
@@ -1741,6 +2427,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1748,7 +2436,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "ישראל ארד מונארט 2026",
@@ -1756,6 +2446,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1763,7 +2455,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "כח המילים והשפעותיהם על החיים ייעודי לגדולות מהחיים",
@@ -1771,13 +2465,17 @@
       "media": [
         "media_4cf50b0982792975c54bf7c7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "lecture",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "כניסה וסיור מודרך לקהל הרחב",
@@ -1785,12 +2483,18 @@
       "media": [
         "media_f855e5387c94ac0b0485e6ed"
       ],
+      "approved_media": [
+        "media_f855e5387c94ac0b0485e6ed"
+      ],
+      "preferred_media_id": "media_f855e5387c94ac0b0485e6ed",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
@@ -1799,6 +2503,8 @@
         "media_88a4c7b1ea47a9b8bac0e8e0",
         "media_ec1c4894f557c3316c373766"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1806,7 +2512,9 @@
         "exhibition",
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 0
     },
     {
       "production_key": "כנס משתחררים ות ראשון לציון",
@@ -1814,12 +2522,16 @@
       "media": [
         "media_11fb32bf3fd53eb11a845596"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "community"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "כספיון התיאטרון השחור",
@@ -1827,12 +2539,18 @@
       "media": [
         "media_74b939937795dc8e2f9696b4"
       ],
+      "approved_media": [
+        "media_74b939937795dc8e2f9696b4"
+      ],
+      "preferred_media_id": "media_74b939937795dc8e2f9696b4",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "כראמל 1",
@@ -1840,12 +2558,18 @@
       "media": [
         "media_13ca18fe89fd897b7b941c57"
       ],
+      "approved_media": [
+        "media_13ca18fe89fd897b7b941c57"
+      ],
+      "preferred_media_id": "media_13ca18fe89fd897b7b941c57",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "כרטיסי כניסה",
@@ -1853,12 +2577,18 @@
       "media": [
         "media_f77774082eb82bed03a12abe"
       ],
+      "approved_media": [
+        "media_f77774082eb82bed03a12abe"
+      ],
+      "preferred_media_id": "media_f77774082eb82bed03a12abe",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "כשאני לא מצייר אני סיור מודרך וסדנה להורים ולילדים",
@@ -1866,13 +2596,17 @@
       "media": [
         "media_8d668caa6e3eeda8a81909b4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "exhibition",
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "לה דולצ ה נוטה נוסטלגיה בהיכל בהנחיית דן כנר",
@@ -1880,12 +2614,18 @@
       "media": [
         "media_2d0e71e271b15ec704342d2c"
       ],
+      "approved_media": [
+        "media_2d0e71e271b15ec704342d2c"
+      ],
+      "preferred_media_id": "media_2d0e71e271b15ec704342d2c",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "לה טרוויאטה אופרה",
@@ -1893,12 +2633,18 @@
       "media": [
         "media_f8666fbc69c971322f1f54d9"
       ],
+      "approved_media": [
+        "media_f8666fbc69c971322f1f54d9"
+      ],
+      "preferred_media_id": "media_f8666fbc69c971322f1f54d9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "להקת המחול ורטיגו נונה גרסת המוזיאון",
@@ -1906,13 +2652,19 @@
       "media": [
         "media_7cb41718e74bb9991750ce26"
       ],
+      "approved_media": [
+        "media_7cb41718e74bb9991750ce26"
+      ],
+      "preferred_media_id": "media_7cb41718e74bb9991750ce26",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "להקת המחול ורטיגו נונה גרסת המוזיאון להקת המחול ורטיגו במוזיאון אגם נונה גרסת המוזיאון חמישי 29 10 26 20 00",
@@ -1920,13 +2672,19 @@
       "media": [
         "media_7cb41718e74bb9991750ce26"
       ],
+      "approved_media": [
+        "media_7cb41718e74bb9991750ce26"
+      ],
+      "preferred_media_id": "media_7cb41718e74bb9991750ce26",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "exhibition",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "להתראות ותודה על הקרמשניט",
@@ -1934,12 +2692,18 @@
       "media": [
         "media_59837defc744825980731a48"
       ],
+      "approved_media": [
+        "media_59837defc744825980731a48"
+      ],
+      "preferred_media_id": "media_59837defc744825980731a48",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "לחיות להרגיש להבין מותו של איוואן איליץ מרצה תמי כהן",
@@ -1947,13 +2711,17 @@
       "media": [
         "media_fd028402992e159c039841b0"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "לילות ספרד",
@@ -1961,12 +2729,18 @@
       "media": [
         "media_79e4f9aef1abc6cdd9ff72c2"
       ],
+      "approved_media": [
+        "media_79e4f9aef1abc6cdd9ff72c2"
+      ],
+      "preferred_media_id": "media_79e4f9aef1abc6cdd9ff72c2",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "לנקות את הראש",
@@ -1974,12 +2748,18 @@
       "media": [
         "media_844062dc30e4af30e88c6183"
       ],
+      "approved_media": [
+        "media_844062dc30e4af30e88c6183"
+      ],
+      "preferred_media_id": "media_844062dc30e4af30e88c6183",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "לצייר ובגדול סדנה לילדים",
@@ -1987,12 +2767,18 @@
       "media": [
         "media_d0dea1a4d721e7e55f3d8dd5"
       ],
+      "approved_media": [
+        "media_d0dea1a4d721e7e55f3d8dd5"
+      ],
+      "preferred_media_id": "media_d0dea1a4d721e7e55f3d8dd5",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מאיר לביא ועד רוסיני",
@@ -2000,12 +2786,18 @@
       "media": [
         "media_76aea0993f072f484a9dcd74"
       ],
+      "approved_media": [
+        "media_76aea0993f072f484a9dcd74"
+      ],
+      "preferred_media_id": "media_76aea0993f072f484a9dcd74",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
@@ -2013,12 +2805,16 @@
       "media": [
         "media_b27ea9f51e8d1e9b027c0377"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מדונה מופע מחווה",
@@ -2026,12 +2822,18 @@
       "media": [
         "media_1b7b50d72a84982a04267550"
       ],
+      "approved_media": [
+        "media_1b7b50d72a84982a04267550"
+      ],
+      "preferred_media_id": "media_1b7b50d72a84982a04267550",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מוטי אהרונוביץ במופע סטנדאפ",
@@ -2039,12 +2841,18 @@
       "media": [
         "media_3f27ad5b9907279e020ba015"
       ],
+      "approved_media": [
+        "media_3f27ad5b9907279e020ba015"
+      ],
+      "preferred_media_id": "media_3f27ad5b9907279e020ba015",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון האלמנות העליזות",
@@ -2052,12 +2860,18 @@
       "media": [
         "media_d8625828df7e29e7aa810cff"
       ],
+      "approved_media": [
+        "media_d8625828df7e29e7aa810cff"
+      ],
+      "preferred_media_id": "media_d8625828df7e29e7aa810cff",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ איזה עולם מופלא",
@@ -2065,12 +2879,18 @@
       "media": [
         "media_e164e64eb0852a04db058ecb"
       ],
+      "approved_media": [
+        "media_e164e64eb0852a04db058ecb"
+      ],
+      "preferred_media_id": "media_e164e64eb0852a04db058ecb",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ הדיוות הגדולות",
@@ -2078,12 +2898,18 @@
       "media": [
         "media_1e792864967682af210ff1ee"
       ],
+      "approved_media": [
+        "media_1e792864967682af210ff1ee"
+      ],
+      "preferred_media_id": "media_1e792864967682af210ff1ee",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ כמו בסרט",
@@ -2091,12 +2917,18 @@
       "media": [
         "media_92fcbab3701a40a6e2f70345"
       ],
+      "approved_media": [
+        "media_92fcbab3701a40a6e2f70345"
+      ],
+      "preferred_media_id": "media_92fcbab3701a40a6e2f70345",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ לאור הזכרונות",
@@ -2104,12 +2936,18 @@
       "media": [
         "media_3ab341beb13d8b2fbc7572f3"
       ],
+      "approved_media": [
+        "media_3ab341beb13d8b2fbc7572f3"
+      ],
+      "preferred_media_id": "media_3ab341beb13d8b2fbc7572f3",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ לוליפופ",
@@ -2117,12 +2955,18 @@
       "media": [
         "media_bf8db1f068ffd1ef80ac59af"
       ],
+      "approved_media": [
+        "media_bf8db1f068ffd1ef80ac59af"
+      ],
+      "preferred_media_id": "media_bf8db1f068ffd1ef80ac59af",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ צלילי הנוסטלגיה",
@@ -2130,12 +2974,18 @@
       "media": [
         "media_10c91cc6fb7f85b3edc98a0f"
       ],
+      "approved_media": [
+        "media_10c91cc6fb7f85b3edc98a0f"
+      ],
+      "preferred_media_id": "media_10c91cc6fb7f85b3edc98a0f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מופע מחווה לאלטון ג ון",
@@ -2143,12 +2993,18 @@
       "media": [
         "media_9b131e342ff1776385f025fb"
       ],
+      "approved_media": [
+        "media_9b131e342ff1776385f025fb"
+      ],
+      "preferred_media_id": "media_9b131e342ff1776385f025fb",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מופע סטנד אפ שלומי קוריאט",
@@ -2156,12 +3012,18 @@
       "media": [
         "media_2baec52fc333c57a6cd74849"
       ],
+      "approved_media": [
+        "media_2baec52fc333c57a6cd74849"
+      ],
+      "preferred_media_id": "media_2baec52fc333c57a6cd74849",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מוצאים עוגן בתוך הסערה לנשים בלבד",
@@ -2169,12 +3031,16 @@
       "media": [
         "media_8d04f3e0fd5681900fcdd10a"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מורדות",
@@ -2182,12 +3048,18 @@
       "media": [
         "media_065643c238882147aa1aaf2a"
       ],
+      "approved_media": [
+        "media_065643c238882147aa1aaf2a"
+      ],
+      "preferred_media_id": "media_065643c238882147aa1aaf2a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מחווה לברברה סטרייסנד",
@@ -2195,12 +3067,18 @@
       "media": [
         "media_4072755ccc814e672e0388e4"
       ],
+      "approved_media": [
+        "media_4072755ccc814e672e0388e4"
+      ],
+      "preferred_media_id": "media_4072755ccc814e672e0388e4",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מחסן השטוזים של דתיה",
@@ -2208,12 +3086,18 @@
       "media": [
         "media_35eaf2a9c185c98f2308171d"
       ],
+      "approved_media": [
+        "media_35eaf2a9c185c98f2308171d"
+      ],
+      "preferred_media_id": "media_35eaf2a9c185c98f2308171d",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מייפל הכלבלב יחיד ומיוחד",
@@ -2221,12 +3105,16 @@
       "media": [
         "media_76ed459ab93dcc1415fbc000"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מיסייה אלבר הפקת מקור",
@@ -2234,13 +3122,17 @@
       "media": [
         "media_c252c53d87394302c89f51d1"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מיץ פטל שעת סיפור עם רינתי",
@@ -2248,13 +3140,17 @@
       "media": [
         "media_fb64341ebcb3600c9a2ebfd4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מיקה שלי",
@@ -2263,6 +3159,11 @@
         "media_2ebd52b882301742d4de29d2",
         "media_adf68b10ed368b2ba824ad06"
       ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2",
+        "media_adf68b10ed368b2ba824ad06"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
       "cities": [
         "ashdod",
         "rishon-lezion"
@@ -2270,7 +3171,9 @@
       "categories": [
         "other",
         "theatre"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "מיקי הבית של יעל",
@@ -2279,13 +3182,20 @@
         "media_2487a12688d1bbd41c09171d",
         "media_547b7913d3b4f5c9f10b57c7"
       ],
+      "approved_media": [
+        "media_2487a12688d1bbd41c09171d",
+        "media_547b7913d3b4f5c9f10b57c7"
+      ],
+      "preferred_media_id": "media_2487a12688d1bbd41c09171d",
       "cities": [
         "ashdod",
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "מירית גליצקי מוגזמת",
@@ -2293,12 +3203,18 @@
       "media": [
         "media_414e1cbd5cdc9b7d1201cbc5"
       ],
+      "approved_media": [
+        "media_414e1cbd5cdc9b7d1201cbc5"
+      ],
+      "preferred_media_id": "media_414e1cbd5cdc9b7d1201cbc5",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי רוטשטיין אשדוד הפועל גליל עליון",
@@ -2306,12 +3222,16 @@
       "media": [
         "media_77154e70f6e673f25e4e77c7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מכבי רוטשטיין אשדוד עירוני נס ציונה",
@@ -2319,12 +3239,16 @@
       "media": [
         "media_77154e70f6e673f25e4e77c7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "sport"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מנדלסון פינת אודיה",
@@ -2332,12 +3256,18 @@
       "media": [
         "media_fd6a7862d41723b06ff37427"
       ],
+      "approved_media": [
+        "media_fd6a7862d41723b06ff37427"
+      ],
+      "preferred_media_id": "media_fd6a7862d41723b06ff37427",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מני עוזרי",
@@ -2345,12 +3275,18 @@
       "media": [
         "media_57209d9191f8af725e2692da"
       ],
+      "approved_media": [
+        "media_57209d9191f8af725e2692da"
+      ],
+      "preferred_media_id": "media_57209d9191f8af725e2692da",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מסיבת אירוסין",
@@ -2358,12 +3294,18 @@
       "media": [
         "media_31725d98280b88301ab5677b"
       ],
+      "approved_media": [
+        "media_31725d98280b88301ab5677b"
+      ],
+      "preferred_media_id": "media_31725d98280b88301ab5677b",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מסייה אזנבור",
@@ -2371,12 +3313,18 @@
       "media": [
         "media_a6b840aedceb9c6897e988c1"
       ],
+      "approved_media": [
+        "media_a6b840aedceb9c6897e988c1"
+      ],
+      "preferred_media_id": "media_a6b840aedceb9c6897e988c1",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מעצבי תודעה אם זכרוני אינו מטעה אותי",
@@ -2384,6 +3332,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -2392,7 +3342,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מעשה בחמישה בלונים",
@@ -2400,12 +3352,18 @@
       "media": [
         "media_9300e0f7de398cd94516a367"
       ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מעשה בשלושה אגוזים",
@@ -2413,12 +3371,18 @@
       "media": [
         "media_de4188b7ed7024df6c456ce1"
       ],
+      "approved_media": [
+        "media_de4188b7ed7024df6c456ce1"
+      ],
+      "preferred_media_id": "media_de4188b7ed7024df6c456ce1",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מפגשי קריאה סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב ג",
@@ -2426,12 +3390,18 @@
       "media": [
         "media_e025cfed22ab4d6b8b17951d"
       ],
+      "approved_media": [
+        "media_e025cfed22ab4d6b8b17951d"
+      ],
+      "preferred_media_id": "media_e025cfed22ab4d6b8b17951d",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מפגשי קריאה סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג עד ד",
@@ -2439,12 +3409,18 @@
       "media": [
         "media_e025cfed22ab4d6b8b17951d"
       ],
+      "approved_media": [
+        "media_e025cfed22ab4d6b8b17951d"
+      ],
+      "preferred_media_id": "media_e025cfed22ab4d6b8b17951d",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מפגשי קריאה סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה כיתה א",
@@ -2452,13 +3428,17 @@
       "media": [
         "media_88a4c7b1ea47a9b8bac0e8e0"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "exhibition",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "מצחיקונת",
@@ -2466,12 +3446,18 @@
       "media": [
         "media_d611257fbf450b309abf6397"
       ],
+      "approved_media": [
+        "media_d611257fbf450b309abf6397"
+      ],
+      "preferred_media_id": "media_d611257fbf450b309abf6397",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מקומות שמורים",
@@ -2479,12 +3465,18 @@
       "media": [
         "media_1f1813d68451dd947f341dfb"
       ],
+      "approved_media": [
+        "media_1f1813d68451dd947f341dfb"
+      ],
+      "preferred_media_id": "media_1f1813d68451dd947f341dfb",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מקסים גלקין",
@@ -2492,12 +3484,18 @@
       "media": [
         "media_f492aebb07c5ff75a7da94fa"
       ],
+      "approved_media": [
+        "media_f492aebb07c5ff75a7da94fa"
+      ],
+      "preferred_media_id": "media_f492aebb07c5ff75a7da94fa",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מר גרין",
@@ -2505,12 +3503,18 @@
       "media": [
         "media_2af74d3447a286f59f8e7ac9"
       ],
+      "approved_media": [
+        "media_2af74d3447a286f59f8e7ac9"
+      ],
+      "preferred_media_id": "media_2af74d3447a286f59f8e7ac9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "מריה מונטוסורי הקרנת סרט ומפגש שיח",
@@ -2518,13 +3522,17 @@
       "media": [
         "media_4cf50b0982792975c54bf7c7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "lecture",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "משוררי הרוק",
@@ -2532,12 +3540,18 @@
       "media": [
         "media_e83b9cda0c8f481410da4f5f"
       ],
+      "approved_media": [
+        "media_e83b9cda0c8f481410da4f5f"
+      ],
+      "preferred_media_id": "media_e83b9cda0c8f481410da4f5f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "משכן אומנויות הבמה אשדוד סיפור הנס חיפזון וזהירון חנוכה",
@@ -2545,12 +3559,18 @@
       "media": [
         "media_3d5f65894f5b806c396ea3ac"
       ],
+      "approved_media": [
+        "media_3d5f65894f5b806c396ea3ac"
+      ],
+      "preferred_media_id": "media_3d5f65894f5b806c396ea3ac",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "נדל ן סיפור אהבה הקרנת סרט ומפגש שיח",
@@ -2558,13 +3578,17 @@
       "media": [
         "media_f798e963674e09fb07c19f38"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "נובה חדשה התזמורת האנדלוסית",
@@ -2572,12 +3596,18 @@
       "media": [
         "media_c4b1a92df16446299a74bcb9"
       ],
+      "approved_media": [
+        "media_c4b1a92df16446299a74bcb9"
+      ],
+      "preferred_media_id": "media_c4b1a92df16446299a74bcb9",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "נועה מנור",
@@ -2585,12 +3615,18 @@
       "media": [
         "media_9c9d33ef23b29a5bb246cc96"
       ],
+      "approved_media": [
+        "media_9c9d33ef23b29a5bb246cc96"
+      ],
+      "preferred_media_id": "media_9c9d33ef23b29a5bb246cc96",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "נישואים גרעיניים",
@@ -2598,12 +3634,18 @@
       "media": [
         "media_bb940a0f0f8f529cd4be9453"
       ],
+      "approved_media": [
+        "media_bb940a0f0f8f529cd4be9453"
+      ],
+      "preferred_media_id": "media_bb940a0f0f8f529cd4be9453",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "נמרולוגיה על בסיס קבלה ייעודי לגדולות מהחיים",
@@ -2611,6 +3653,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2618,7 +3662,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "נשף אמריקאי",
@@ -2626,12 +3672,18 @@
       "media": [
         "media_3632a7e8d64348d1cef7c755"
       ],
+      "approved_media": [
+        "media_3632a7e8d64348d1cef7c755"
+      ],
+      "preferred_media_id": "media_3632a7e8d64348d1cef7c755",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "סדנא אני הרבה יותר ממה שחשבתי ייעודי לגדולות מהחיים",
@@ -2639,6 +3691,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2646,7 +3700,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנא יצור תליון מסריגה ייעודי לגדולות מהחיים",
@@ -2654,6 +3710,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2661,7 +3719,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנא עוף החול דקה לנשום לצמוח מהכאב ומהקושי ייעודי לגדולות מהחיים",
@@ -2669,13 +3729,17 @@
       "media": [
         "media_57344f337017ee61698c0e17"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנא שימור ושיפור הזיכרון",
@@ -2683,6 +3747,8 @@
       "media": [
         "media_ec1c4894f557c3316c373766"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2690,7 +3756,9 @@
         "exhibition",
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנת הכנת לחמניות מתוקות",
@@ -2698,12 +3766,18 @@
       "media": [
         "media_03f05a767cb67ddd0c104d93"
       ],
+      "approved_media": [
+        "media_03f05a767cb67ddd0c104d93"
+      ],
+      "preferred_media_id": "media_03f05a767cb67ddd0c104d93",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "סדנת חנוכיות להורים ולילדים",
@@ -2711,13 +3785,17 @@
       "media": [
         "media_f343536ee3df3246b6a5cab7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנת טיפוח היופי מתחיל בך זמן לעצמך ולטיפוח",
@@ -2725,12 +3803,16 @@
       "media": [
         "media_b1ca8644883c0bf9105c0268"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנת עיצוב תכשיטים",
@@ -2738,12 +3820,16 @@
       "media": [
         "media_4d75d43099afdb9c2122ffd3"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סדנת צחוק אורית שירי",
@@ -2751,6 +3837,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2758,7 +3846,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סטודיו פתוח",
@@ -2767,13 +3857,17 @@
         "media_57344f337017ee61698c0e17",
         "media_0cd545b49063026c3e11a931"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 2,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
@@ -2781,6 +3875,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2788,7 +3884,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיור טעימות במחנה יהודה",
@@ -2796,6 +3894,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2803,7 +3903,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיור טעימות ברמלה",
@@ -2811,6 +3913,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2818,7 +3922,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיור טעימות ואתרים באשדוד",
@@ -2826,6 +3932,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2833,7 +3941,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיור פריחה דבש ויין בגדרה והסביבה",
@@ -2841,6 +3951,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2848,7 +3960,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיורים מודרכים במוזיאון אשדוד לאמנות",
@@ -2856,13 +3970,17 @@
       "media": [
         "media_8d668caa6e3eeda8a81909b4"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "exhibition",
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סינדרלה",
@@ -2870,12 +3988,18 @@
       "media": [
         "media_371567e34c76640a3a0560ab"
       ],
+      "approved_media": [
+        "media_371567e34c76640a3a0560ab"
+      ],
+      "preferred_media_id": "media_371567e34c76640a3a0560ab",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "סיפור חנוכה שעת סיפור עם רינתי",
@@ -2883,13 +4007,17 @@
       "media": [
         "media_527f44c60ddb3cd2b02625b6"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "סיפור של חורף שעת סיפור עם רינתי",
@@ -2897,13 +4025,19 @@
       "media": [
         "media_78e19fcc69b94704798dfead"
       ],
+      "approved_media": [
+        "media_78e19fcc69b94704798dfead"
+      ],
+      "preferred_media_id": "media_78e19fcc69b94704798dfead",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "ספורט על כיסא עם אסתר ייעודי לגדולות מהחיים",
@@ -2911,12 +4045,16 @@
       "media": [
         "media_76ed459ab93dcc1415fbc000"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "ספר הג ונגל מבית רינתי",
@@ -2924,12 +4062,16 @@
       "media": [
         "media_b27ea9f51e8d1e9b027c0377"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "עוטף עזה בעקבות אירועי ה 7 באוקטובר",
@@ -2937,6 +4079,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2944,7 +4088,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "עומר בורשטיין",
@@ -2952,12 +4098,18 @@
       "media": [
         "media_dd90fee0cf5fa24af5b83489"
       ],
+      "approved_media": [
+        "media_dd90fee0cf5fa24af5b83489"
+      ],
+      "preferred_media_id": "media_dd90fee0cf5fa24af5b83489",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "עידן ניידיץ סטנדאפ",
@@ -2965,12 +4117,18 @@
       "media": [
         "media_590a6bf48b6e3e54201c2d16"
       ],
+      "approved_media": [
+        "media_590a6bf48b6e3e54201c2d16"
+      ],
+      "preferred_media_id": "media_590a6bf48b6e3e54201c2d16",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "על מסע היצירה של הספרים סולם גנבים ו צומת מסובים",
@@ -2978,6 +4136,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -2986,7 +4146,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "עפרה",
@@ -2994,6 +4156,8 @@
       "media": [
         "media_12cacca1483b28cf2048bbdb"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -3001,7 +4165,9 @@
         "festival",
         "kids",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "ערב נשים עוצמתי לאורה של רחל אמנו",
@@ -3009,12 +4175,16 @@
       "media": [
         "media_1f2be9f217c1512fe2585580"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פאטמה הסטנדאפיסטית",
@@ -3022,12 +4192,18 @@
       "media": [
         "media_b1263ba6a5dfe100bb45033a"
       ],
+      "approved_media": [
+        "media_b1263ba6a5dfe100bb45033a"
+      ],
+      "preferred_media_id": "media_b1263ba6a5dfe100bb45033a",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "פאנל עולם של אסתטיקה עם גילה תורן חן ורדה שחף ורופאים ייעודי לגדולות מהחיים",
@@ -3035,6 +4211,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3042,7 +4220,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פבלו רוזנברג",
@@ -3050,12 +4230,18 @@
       "media": [
         "media_328f23cb0e8c8293f26adca4"
       ],
+      "approved_media": [
+        "media_328f23cb0e8c8293f26adca4"
+      ],
+      "preferred_media_id": "media_328f23cb0e8c8293f26adca4",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "פטר והזאב",
@@ -3063,12 +4249,18 @@
       "media": [
         "media_d295d21f62eef282cbb09195"
       ],
+      "approved_media": [
+        "media_d295d21f62eef282cbb09195"
+      ],
+      "preferred_media_id": "media_d295d21f62eef282cbb09195",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "פיטר פן שעת סיפור עם רינתי",
@@ -3076,13 +4268,17 @@
       "media": [
         "media_527f44c60ddb3cd2b02625b6"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פילאטיס לאזרחים וותיקים",
@@ -3090,12 +4286,16 @@
       "media": [
         "media_298af59ee2c18974133930fe"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פילאטיס לאזרחים ותיקים",
@@ -3103,12 +4303,16 @@
       "media": [
         "media_479ebf77677a6efbb6b2aeda"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פסיפסים ועוד בגליל המערבי",
@@ -3116,6 +4320,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3123,7 +4329,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "פסניארי",
@@ -3131,12 +4339,18 @@
       "media": [
         "media_78f5e0a2cc3ba8f0c9e53b7e"
       ],
+      "approved_media": [
+        "media_78f5e0a2cc3ba8f0c9e53b7e"
+      ],
+      "preferred_media_id": "media_78f5e0a2cc3ba8f0c9e53b7e",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "פעילויות לכל המשפחה",
@@ -3144,12 +4358,18 @@
       "media": [
         "media_e022690e0c20b86c39cf91c4"
       ],
+      "approved_media": [
+        "media_e022690e0c20b86c39cf91c4"
+      ],
+      "preferred_media_id": "media_e022690e0c20b86c39cf91c4",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "ציור בוטני סדנה למבוגרים",
@@ -3157,12 +4377,18 @@
       "media": [
         "media_09e5152130ec243c733f36ad"
       ],
+      "approved_media": [
+        "media_09e5152130ec243c733f36ad"
+      ],
+      "preferred_media_id": "media_09e5152130ec243c733f36ad",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קובי מימון",
@@ -3170,12 +4396,18 @@
       "media": [
         "media_221cbce45ca635408c709a48"
       ],
+      "approved_media": [
+        "media_221cbce45ca635408c709a48"
+      ],
+      "preferred_media_id": "media_221cbce45ca635408c709a48",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קוגומלו שכחו אותי בג ונגל",
@@ -3183,12 +4415,18 @@
       "media": [
         "media_3a2b625be1f98f7da79669a8"
       ],
+      "approved_media": [
+        "media_3a2b625be1f98f7da79669a8"
+      ],
+      "preferred_media_id": "media_3a2b625be1f98f7da79669a8",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קוולריה רוסטיקנה",
@@ -3196,12 +4434,18 @@
       "media": [
         "media_6eb406acd312ec1532a69fc1"
       ],
+      "approved_media": [
+        "media_6eb406acd312ec1532a69fc1"
+      ],
+      "preferred_media_id": "media_6eb406acd312ec1532a69fc1",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קורס עיצוב אלבום משפחתי ייעודי לגדולות מהחיים",
@@ -3209,12 +4453,16 @@
       "media": [
         "media_b27ea9f51e8d1e9b027c0377"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "קורס קנווה עם מרים ייעודי לגדולות מהחיים",
@@ -3222,6 +4470,8 @@
       "media": [
         "media_ff109db1f3200ccb83b4f4fc"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3229,7 +4479,9 @@
         "lecture",
         "theatre",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "קורס קרמיקה אבניים",
@@ -3237,12 +4489,16 @@
       "media": [
         "media_10d17227dab4defadf95dcc7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "קסם של כוכבים",
@@ -3250,12 +4506,18 @@
       "media": [
         "media_9bfa632cf05c57194fd76426"
       ],
+      "approved_media": [
+        "media_9bfa632cf05c57194fd76426"
+      ],
+      "preferred_media_id": "media_9bfa632cf05c57194fd76426",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קסם של פסטיבל חנוכה 2026",
@@ -3263,6 +4525,8 @@
       "media": [
         "media_12cacca1483b28cf2048bbdb"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -3270,7 +4534,9 @@
         "festival",
         "kids",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "קפה דעת אשדוד קצין מיחידת המסתערבים של משמר הגבול גב לילי כנפי מר רוני אקריש",
@@ -3278,6 +4544,8 @@
       "media": [
         "media_ec1c4894f557c3316c373766"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3285,7 +4553,9 @@
         "exhibition",
         "other",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "קרוב לבית התזמורת האנדלוסית",
@@ -3293,12 +4563,18 @@
       "media": [
         "media_7ea1cfbb4a09f7a296d5125a"
       ],
+      "approved_media": [
+        "media_7ea1cfbb4a09f7a296d5125a"
+      ],
+      "preferred_media_id": "media_7ea1cfbb4a09f7a296d5125a",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "קרקס החלומות קרקס בראבו",
@@ -3306,12 +4582,18 @@
       "media": [
         "media_26134bec0a465756d5031a4f"
       ],
+      "approved_media": [
+        "media_26134bec0a465756d5031a4f"
+      ],
+      "preferred_media_id": "media_26134bec0a465756d5031a4f",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "רועי עלוני מונארט 2026",
@@ -3319,6 +4601,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3326,7 +4610,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "רמלה אוצר של סיפורים בין יפו לירושלים",
@@ -3334,6 +4620,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3341,7 +4629,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "שוליית הקוסם",
@@ -3349,12 +4639,18 @@
       "media": [
         "media_69306cabcb2302ef0bae311c"
       ],
+      "approved_media": [
+        "media_69306cabcb2302ef0bae311c"
+      ],
+      "preferred_media_id": "media_69306cabcb2302ef0bae311c",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שומרי הדרקונים",
@@ -3362,12 +4658,18 @@
       "media": [
         "media_4ca3403d4c98568839c0b797"
       ],
+      "approved_media": [
+        "media_4ca3403d4c98568839c0b797"
+      ],
+      "preferred_media_id": "media_4ca3403d4c98568839c0b797",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "kids"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שונאים סיפור אהבה",
@@ -3375,12 +4677,18 @@
       "media": [
         "media_ff10d5157a7a3ef0ffd417ad"
       ],
+      "approved_media": [
+        "media_ff10d5157a7a3ef0ffd417ad"
+      ],
+      "preferred_media_id": "media_ff10d5157a7a3ef0ffd417ad",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שושנה בכיכובה של גל דה פז",
@@ -3388,12 +4696,18 @@
       "media": [
         "media_743998acd446ed4756ad12b2"
       ],
+      "approved_media": [
+        "media_743998acd446ed4756ad12b2"
+      ],
+      "preferred_media_id": "media_743998acd446ed4756ad12b2",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שושנה מחזמר",
@@ -3401,12 +4715,18 @@
       "media": [
         "media_f04eac714840c05d18f5d635"
       ],
+      "approved_media": [
+        "media_f04eac714840c05d18f5d635"
+      ],
+      "preferred_media_id": "media_f04eac714840c05d18f5d635",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שיח גלריה יניב שפירא אגם וקדישמן",
@@ -3414,12 +4734,18 @@
       "media": [
         "media_ea294e82b650c8ccb7a1ce25"
       ],
+      "approved_media": [
+        "media_ea294e82b650c8ccb7a1ce25"
+      ],
+      "preferred_media_id": "media_ea294e82b650c8ccb7a1ce25",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שימי תבורי במופע להקה",
@@ -3427,12 +4753,16 @@
       "media": [
         "media_4f6bc196c8aefc5ca16ac9d3"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "שירה שווה מופע ספרותי מוזיקלי",
@@ -3440,6 +4770,8 @@
       "media": [
         "media_0ce16f5ab0113d5288c08df7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "rishon-lezion"
       ],
@@ -3448,7 +4780,9 @@
         "lecture",
         "music",
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "שישי תרבות",
@@ -3456,12 +4790,18 @@
       "media": [
         "media_82553bcfa3ee474822033389"
       ],
+      "approved_media": [
+        "media_82553bcfa3ee474822033389"
+      ],
+      "preferred_media_id": "media_82553bcfa3ee474822033389",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "lecture"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שלגיה ו 7 הגמדים",
@@ -3469,13 +4809,17 @@
       "media": [
         "media_f343536ee3df3246b6a5cab7"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "kids",
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "שלום אסייג",
@@ -3483,12 +4827,18 @@
       "media": [
         "media_d30c98ba668b5f1d6a3555ca"
       ],
+      "approved_media": [
+        "media_d30c98ba668b5f1d6a3555ca"
+      ],
+      "preferred_media_id": "media_d30c98ba668b5f1d6a3555ca",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "standup"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שלום בית",
@@ -3496,12 +4846,18 @@
       "media": [
         "media_29ea2257f1914527dcc184db"
       ],
+      "approved_media": [
+        "media_29ea2257f1914527dcc184db"
+      ],
+      "preferred_media_id": "media_29ea2257f1914527dcc184db",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שלישי לגיל השלישי תושבי ראשון לציון",
@@ -3509,12 +4865,18 @@
       "media": [
         "media_10330aa5eeda42119de8a267"
       ],
+      "approved_media": [
+        "media_10330aa5eeda42119de8a267"
+      ],
+      "preferred_media_id": "media_10330aa5eeda42119de8a267",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "community"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שמחת עולם התזמורת האנדלוסית",
@@ -3522,12 +4884,18 @@
       "media": [
         "media_69efc33f634886876a1a2495"
       ],
+      "approved_media": [
+        "media_69efc33f634886876a1a2495"
+      ],
+      "preferred_media_id": "media_69efc33f634886876a1a2495",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "שמעון בוסקילה קרוב לבית",
@@ -3535,12 +4903,16 @@
       "media": [
         "media_399142e07d1a5514d567da44"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "production_key": "שקרים קטנים",
@@ -3548,12 +4920,18 @@
       "media": [
         "media_723f66754f5dcd3d7def935d"
       ],
+      "approved_media": [
+        "media_723f66754f5dcd3d7def935d"
+      ],
+      "preferred_media_id": "media_723f66754f5dcd3d7def935d",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "theatre"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "ששון גבאי מוצארט וסאליירי",
@@ -3561,12 +4939,18 @@
       "media": [
         "media_8f188bb139a2777e1b8a2059"
       ],
+      "approved_media": [
+        "media_8f188bb139a2777e1b8a2059"
+      ],
+      "preferred_media_id": "media_8f188bb139a2777e1b8a2059",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "other"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "תזמורת האורקסטרה החדשה",
@@ -3574,12 +4958,18 @@
       "media": [
         "media_3fba98914effdca3c470e9f8"
       ],
+      "approved_media": [
+        "media_3fba98914effdca3c470e9f8"
+      ],
+      "preferred_media_id": "media_3fba98914effdca3c470e9f8",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "תנועת ה עפלה 80 שנה אחרי",
@@ -3587,6 +4977,8 @@
       "media": [
         "media_3b84511ac285cabdb69bee1c"
       ],
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3594,7 +4986,9 @@
         "lecture",
         "tour",
         "workshop"
-      ]
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     }
   ]
 }
