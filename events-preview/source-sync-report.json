@@ -1,51 +1,51 @@
 {
-  "run_at": "2026-10-07T17:25:57Z",
+  "run_at": "2026-10-07T21:48:14Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 396,
+      "total_before": 401,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 220,
-          "valid": 216,
+          "valid": 202,
           "new": 0,
-          "updated": 50,
-          "images_collected": 216
+          "updated": 45,
+          "images_collected": 202
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
           "discovered": 102,
-          "valid": 102,
-          "new": 5,
-          "updated": 72,
-          "images_collected": 102
+          "valid": 64,
+          "new": 0,
+          "updated": 35,
+          "images_collected": 64
         },
         "tickchak_ashdod": {
           "status": "ok",
           "url": "https://live.tickchak.co.il/ashdod",
           "discovered": 36,
-          "valid": 35,
+          "valid": 33,
           "new": 0,
           "updated": 0,
-          "images_collected": 35
+          "images_collected": 33
         },
         "ofek_ashdod": {
           "status": "ok",
           "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
           "discovered": 23,
-          "valid": 23,
+          "valid": 16,
           "new": 0,
           "updated": 0,
           "images_collected": 0
         }
       },
-      "new": 5,
-      "updated": 122,
+      "new": 0,
+      "updated": 80,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
@@ -54,14 +54,14 @@
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 324,
+      "total_before": 327,
       "sources": {
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
           "discovered": 148,
-          "valid": 148,
-          "new": 1,
+          "valid": 116,
+          "new": 0,
           "updated": 0,
           "images_collected": 0
         },
@@ -69,7 +69,7 @@
           "status": "ok",
           "url": "https://htrl.co.il/third-calendar/",
           "discovered": 117,
-          "valid": 115,
+          "valid": 78,
           "new": 0,
           "updated": 0,
           "images_collected": 0
@@ -79,7 +79,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 2,
+          "new": 0,
           "updated": 0,
           "images_collected": 11
         },
@@ -112,7 +112,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 3,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
