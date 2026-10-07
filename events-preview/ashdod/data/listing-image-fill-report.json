@@ -1,10 +1,20 @@
 {
-  "generated_at": "2026-10-07T17:03:11Z",
-  "total_events": 396,
-  "verified_images": 200,
-  "still_missing": 196,
-  "stats": {},
-  "newly_filled": [],
+  "generated_at": "2026-10-07T18:12:45Z",
+  "total_events": 401,
+  "verified_images": 202,
+  "still_missing": 199,
+  "stats": {
+    "same_title_reuse": 1
+  },
+  "newly_filled": [
+    {
+      "event_id": "auto_as_b4d493b24cfeda03196b",
+      "title": "זוגיות AI",
+      "image": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
+      "source": "https://friends-hist.co.il/event/%D7%96%D7%95%D7%92%D7%99%D7%95%D7%AA-ai-%D7%9E%D7%AA%D7%A0%D7%A1-%D7%93%D7%99%D7%95%D7%A0%D7%94-%D7%90%D7%A9%D7%93%D7%95%D7%93-05-11-2026/",
+      "score": "reuse"
+    }
+  ],
   "missing": [
     {
       "event_id": "auto_as_21b74de87d9353a296d9",
@@ -469,6 +479,12 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/_קסם_של_כוכבים__-_רועיקי_מצחיקי_וסמי_הכבאי/?id=8228"
     },
     {
+      "event_id": "auto_as_7f6c622ca25cec1d9507",
+      "title": "שושנה",
+      "category": "other",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שושנה/?id=8243"
+    },
+    {
       "event_id": "auto_as_4b2ebdf73be27f322465",
       "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
       "category": "other",
@@ -635,6 +651,12 @@
       "title": "שימי תבורי במופע להקה",
       "category": "music",
       "ticket_url": "https://live.tickchak.co.il/ashdod"
+    },
+    {
+      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+      "title": "אימי הגנרלית",
+      "category": "other",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/אימי_הגנרלית/?id=8244"
     },
     {
       "event_id": "auto_as_3356020481453510f22a",
@@ -827,6 +849,12 @@
       "title": "דירה להשכיר | שעת סיפור עם רינתי",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647"
+    },
+    {
+      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+      "title": "כנר על הגג",
+      "category": "other",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/כנר_על_הגג_5e3c66a747/?id=8242"
     },
     {
       "event_id": "auto_as_35b62174438a54f14368",

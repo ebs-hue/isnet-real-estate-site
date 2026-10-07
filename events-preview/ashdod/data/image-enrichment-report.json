@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-10-07T17:03:41Z",
-  "total_events": 396,
-  "events_with_publishable_images": 265,
-  "events_still_missing_images": 131,
+  "generated_at": "2026-10-07T18:14:01Z",
+  "total_events": 401,
+  "events_with_publishable_images": 267,
+  "events_still_missing_images": 134,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
     "ashdod_smarticket": 51,
     "איגוד הכדורעף בישראל": 4,
-    "mishkan_smarticket": 72,
+    "mishkan_smarticket": 75,
     "ההתאחדות לכדורגל בישראל": 4
   },
   "missing_by_category": {
     "kids": 13,
     "workshop": 12,
-    "other": 83,
+    "other": 86,
     "lecture": 7,
     "theatre": 5,
     "sport": 8,
@@ -278,6 +278,11 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_7f6c622ca25cec1d9507",
+      "title": "שושנה",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_4b2ebdf73be27f322465",
       "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
       "reason": "no_verified_source_image"
@@ -370,6 +375,11 @@
     {
       "event_id": "auto_as_337345b282aabb14f4ed",
       "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+      "title": "אימי הגנרלית",
       "reason": "no_verified_source_image"
     },
     {
@@ -470,6 +480,11 @@
     {
       "event_id": "auto_as_b5598e9e1f88af009a2a",
       "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+      "title": "כנר על הגג",
       "reason": "no_verified_source_image"
     },
     {
