@@ -40,7 +40,19 @@ SESSION.headers.update({
 # and must not be sent as Authorization: Bearer.
 if SERVICE_KEY.count(".") == 2 and not SERVICE_KEY.startswith("sb_secret_"):
     SESSION.headers["Authorization"] = f"Bearer {SERVICE_KEY}"
-TODAY = date.today().isoformat()
+TODAY_DATE = date.today()
+TODAY = TODAY_DATE.isoformat()
+EVENT_HORIZON_MONTHS = 5
+
+def add_months(d, months):
+    import calendar
+    month_index = d.month - 1 + months
+    year = d.year + month_index // 12
+    month = month_index % 12 + 1
+    day = min(d.day, calendar.monthrange(year, month)[1])
+    return date(year, month, day)
+
+HORIZON_END = add_months(TODAY_DATE, EVENT_HORIZON_MONTHS).isoformat()
 
 def norm(value: str) -> str:
     value = unicodedata.normalize("NFKC", str(value or "")).lower()
@@ -148,7 +160,8 @@ def load_events(cms: dict[str, dict]) -> list[dict]:
     for city, path in CITIES.items():
         doc = json.loads(path.read_text(encoding="utf-8"))
         for base in doc.get("events", []):
-            if str(base.get("start_date") or "") < TODAY:
+            event_date = str(base.get("start_date") or "")
+            if event_date < TODAY or event_date > HORIZON_END:
                 continue
             key = f'{city}:{base.get("event_id")}'
             row = cms.get(key)
@@ -166,7 +179,8 @@ def load_events(cms: dict[str, dict]) -> list[dict]:
         if row.get("record_type") != "manual" or key in static_keys:
             continue
         payload = row.get("payload") or {}
-        if str(payload.get("start_date") or "") < TODAY:
+        event_date = str(payload.get("start_date") or "")
+        if event_date < TODAY or event_date > HORIZON_END:
             continue
         if payload.get("status") in {"archived", "trashed", "hidden"}:
             continue
