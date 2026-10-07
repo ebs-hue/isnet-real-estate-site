@@ -1,13 +1,19 @@
 {
   "version": 1,
   "publish_policy": {
-    "mode": "hybrid",
-    "default_mode": "approval_required",
+    "mode": "automatic_for_events",
+    "default_mode": "automatic",
+    "module_overrides": {
+      "events": "automatic"
+    },
     "automatic_when": {
       "qa_passed": true,
       "image_rights": "approved",
       "duplicate_risk": "low",
-      "source_confidence": "high",
+      "source_confidence": [
+        "high",
+        "medium"
+      ],
       "required_fields_complete": true,
       "category_editor_decision": [
         "normal",
@@ -16,15 +22,17 @@
         "hero_candidate"
       ]
     },
-    "force_human_review_when": [
+    "exception_queue_when": [
       "low_confidence",
       "unclear_image_rights",
       "possible_duplicate",
       "missing_required_field",
-      "sensitive_content",
-      "legal_risk",
-      "manual_only_category"
-    ]
+      "broken_ticket_or_source_link",
+      "date_or_location_conflict",
+      "sensitive_or_legal_risk"
+    ],
+    "exception_behavior": "hold_and_surface",
+    "human_approval_required_for_events": false
   },
   "workflow": [
     "collector",
@@ -167,7 +175,7 @@
       "name": "סוכן עורך קטגוריה",
       "status": "priority",
       "order": 8,
-      "purpose": "עורך את המדור ברמת התמונה הרחבה: חשיבות, בולטות, איזון תוכן, קידום והמלצת פרסום.",
+      "purpose": "עורך את המדור אוטומטית: חשיבות, בולטות, איזון תוכן וקידום; אירועים תקינים ממשיכים לפרסום ללא המתנה לאדם.",
       "can": [
         "review_section_mix",
         "score_editorial_value",
@@ -211,7 +219,7 @@
       "name": "סוכן פרסום",
       "status": "priority",
       "order": 10,
-      "purpose": "מקבל את החלטת המערכת ומבצע פרסום, תזמון, הפצה או עצירה לפי רמת הסיכון וכללי המדיניות.",
+      "purpose": "מפרסם אוטומטית אירועים שעברו את כל הבדיקות; רק חריגים נעצרים ונכנסים לתור טיפול.",
       "can": [
         "publish",
         "schedule",
@@ -226,10 +234,10 @@
       ],
       "modes": [
         "automatic",
-        "approval_required",
+        "exception_queue",
         "manual_only"
       ],
-      "default_mode": "approval_required"
+      "default_mode": "automatic"
     }
   ],
   "media_policy": {
