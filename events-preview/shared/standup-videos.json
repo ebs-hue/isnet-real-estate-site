@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-07",
+  "description": "Curated artist-level YouTube clips. A representative video must never be labeled as a trailer for a specific show.",
+  "artists": [
+    {
+      "name": "קובי מימון",
+      "aliases": [
+        "קובי מימון"
+      ],
+      "youtube_id": "p1zXPS5RXbg",
+      "youtube_title": "קובי מימון – סטנדאפ 2025 חלק ב׳",
+      "youtube_note": "קטע סטנדאפ מייצג מתוך ערוץ האמן, לא בהכרח מתוך המופע הזה.",
+      "youtube_url": "https://www.youtube.com/watch?v=p1zXPS5RXbg",
+      "channel_name": "Kobi maymon | קובי מימון",
+      "video_verified": true,
+      "clip_type": "representative",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "name": "אסף מור יוסף",
+      "aliases": [
+        "אסף מור יוסף"
+      ],
+      "youtube_id": "gM0ZQZK6rPc",
+      "youtube_title": "אסף מור יוסף – לא כיף באילת",
+      "youtube_note": "קטע סטנדאפ מייצג מערוץ האמן, לא בהכרח מתוך המופע הזה.",
+      "youtube_url": "https://www.youtube.com/watch?v=gM0ZQZK6rPc",
+      "channel_name": "אסף מור יוסף - Asaf Mor Yosef",
+      "video_verified": true,
+      "clip_type": "representative",
+      "verified_at": "2026-10-07"
+    }
+  ]
+}
