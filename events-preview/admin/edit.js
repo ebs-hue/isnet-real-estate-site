@@ -4,7 +4,7 @@ const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search);
 const city=params.get("city"),id=params.get("id");
 const cfg=cityMap[city];
-let original=null,currentImageData=null;
+let original=null,currentImageData=null,taxonomy=null;
 const OVERRIDE_KEY="isnet-event-overrides";
 
 function draftKey(){return "isnet-event-draft:"+city+":"+id}
@@ -15,18 +15,26 @@ function saveOverride(status){
   setTimeout(()=>location.href="./",500);
 }
 function setOptions(){ $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("") }
-function splitList(v){return String(v||"").split(/[,;\n]/).map(x=>x.trim()).filter(Boolean)}
+function renderTaxonomy(containerId,items,selected=[]){
+  const selectedSet=new Set(selected||[]);
+  $(containerId).innerHTML=(items||[]).map(item=>'<label class="tax-option"><input type="checkbox" value="'+item.id+'" '+(selectedSet.has(item.id)||selectedSet.has(item.label)?'checked':'')+'><span>'+item.label+'</span></label>').join("");
+}
+function selectedTaxonomy(containerId){return Array.from($(containerId).querySelectorAll('input[type="checkbox"]:checked')).map(x=>x.value)}
+function renderAllTaxonomies(e={}){
+  renderTaxonomy("secondaryCategories",taxonomy.secondary_categories,e.secondary_categories||[]);
+  renderTaxonomy("audiencesText",taxonomy.audiences,e.audiences||[]);
+  renderTaxonomy("topics",taxonomy.topics,e.topics||[]);
+  const orgs=(taxonomy.organizations||[]).filter(x=>!x.cities||x.cities.includes(city));
+  renderTaxonomy("organizations",orgs,e.organizations||[]);
+  renderTaxonomy("distributionTargets",taxonomy.distribution_targets,e.distribution_targets||[]);
+}
 function imageUrl(e){const raw=e.thumbnail_url||e.image_url||"";return raw?(/^(https?:|data:)/.test(raw)?raw:cfg.base+raw):""}
 function fill(e,ed={}){
   $("title").value=e.title||"";
   $("shortPitch").value=ed.short_pitch||e.short_pitch||"";
   $("description").value=ed.long_description||e.long_description||e.series_description||e.description||"";
   $("category").value=e.category||"other"; $("status").value=e.status||"active"; $("promotion").value=e.promotion||"normal";
-  $("secondaryCategories").value=(e.secondary_categories||[]).join(", ");
-  $("audiencesText").value=(e.audiences||[]).join(", ");
-  $("topics").value=(e.topics||[]).join(", ");
-  $("organizations").value=(e.organizations||[]).join(", ");
-  $("distributionTargets").value=(e.distribution_targets||[]).join(", ");
+  renderAllTaxonomies(e);
   $("smartDistribution").checked=e.smart_distribution!==false;
   $("seoTitle").value=e.seo_title||e.title||"";
   $("seoDescription").value=e.seo_description||ed.short_pitch||e.short_pitch||"";
@@ -47,11 +55,12 @@ function fill(e,ed={}){
   $("imageState").innerHTML=img?($("imageApproved").checked?'<span class="tag good">יש תמונה · מאושרת</span>':'<span class="tag warn">יש תמונה · לבדיקה</span>'):'<span class="tag bad">אין תמונה</span>';
 }
 function collect(){
-  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
+  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
 }
 async function load(){
   if(!cfg||!id)throw Error("missing params");
   setOptions();
+  taxonomy=await fetch("data/taxonomy.json",{cache:"no-store"}).then(r=>r.json());
   const [data,editorial]=await Promise.all([
     fetch(cfg.base+"data/events.json",{cache:"no-store"}).then(r=>r.json()),
     fetch(cfg.base+"data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}}))
