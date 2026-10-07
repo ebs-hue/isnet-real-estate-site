@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-MAX_EVENTS = max(500, int(os.getenv("EVENT_ENRICHMENT_LIMIT", "80")))
+MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
 SESSION = requests.Session()
