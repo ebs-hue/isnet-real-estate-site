@@ -70,10 +70,13 @@ function render(){
   }).join("");
 }
 async function load(){
+  const params=new URLSearchParams(location.search);
   const r=await fetch("../media-bank/data/media.json",{cache:"no-store"});
   if(!r.ok)throw new Error("media bank unavailable");
   bank=await r.json();
-  buildFilters();render();
+  buildFilters();
+  if(params.get("q")) $("mediaQ").value=params.get("q");
+  render();
 }
 ["mediaQ","mediaCity","mediaCategory","mediaStatus"].forEach(id=>$(id).addEventListener("input",render));
 $("mediaClear").addEventListener("click",()=>{["mediaQ","mediaCity","mediaCategory","mediaStatus"].forEach(id=>$(id).value="");render()});
