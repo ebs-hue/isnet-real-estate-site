@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T16:43:25Z",
+  "generated_at": "2026-10-07T16:47:17Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
+  "enriched": 12,
   "insufficient": 0,
-  "source_text_insufficient": 3,
+  "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_0e470b243e0ad27cfecd",
-      "title": "סדנת סטנדאפ ZEGEYE",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_55_20261103",
-      "title": "פאטמה הסטנדאפיסטית",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_45d7bf9ffa2f8ddfde8e",
-      "title": "פילאטיס לאזרחים ותיקים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_2fda014dc7669a040b46",
+      "event_id": "auto_as_9eb4ea3b1be8386c949c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_16_20261104",
-      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_74_20261104",
-      "title": "FATE & FIRE",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_805c3f05170759f15ab0",
+      "event_id": "auto_as_0d5c53deefa1e10c5f4d",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_17_20261105",
-      "title": "סדנא - שימור ושיפור הזיכרון",
+      "event_id": "auto_as_b949a31a4fdf36a8df01",
+      "title": "סדנת קאנבה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_18_20261105",
-      "title": "יום יהדות הודו 2026",
+      "event_id": "auto_as_a9e51b98a4ae798e4714",
+      "title": "סטודיו פתוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_56_20261105",
-      "title": "זוגיות AI",
-      "status": "source_text_insufficient"
+      "event_id": "evt_19_20261109",
+      "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
+      "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_57_20261105",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_243fa63e0656fad7477c",
+      "event_id": "auto_as_f42edb321dbde7088a3a",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d7c7d48fb762b43f9f53",
+      "title": "סדנת צרכנות דיגיטלית",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_f45962e796919e19fbcd",
+      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_20_20261110",
+      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_9b5eea9e1acf1feac5cf",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_b85b237616bfe945e8ea",
+      "title": "סטודיו פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_30f82fe69bd135aabb33",
+      "title": "לצייר ובגדול | סדנה לילדים",
       "status": "ready"
     }
   ]
