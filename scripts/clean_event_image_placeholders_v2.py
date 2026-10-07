@@ -7,7 +7,7 @@ root=Path(__file__).resolve().parents[1]
 events_path=root/"events-preview"/"ashdod"/"data"/"events.json"
 report_path=root/"events-preview"/"ashdod"/"data"/"image-enrichment-report.json"
 data=json.loads(events_path.read_text(encoding="utf-8"))
-bad=("/languages/il.gif","artistshadow","eventnew.jpg","no_pic","no-pic","placeholder","smarticket_logo","_logo_")
+bad=("/languages/il.gif","artistshadow","eventnew.jpg","no_pic","no-pic","placeholder","smarticket_logo","microsoft_oauth_logo","google_oauth_logo","facebook_oauth","oauth_logo","oauth","_logo_")
 cleared=0
 for e in data.get("events",[]):
     u=(e.get("image_url") or "").lower()
@@ -16,6 +16,12 @@ for e in data.get("events",[]):
         e["image_source"]=None
         e["image_credit"]=None
         e["image_publishable"]=False
+        e["image_verified"]=False
+        e["image_rights_status"]="rejected_generic_asset"
+        e["image_strategy"]="rejected_generic_asset"
+        e["image_origin_url"]=None
+        e["thumbnail_ready"]=False
+        e["thumbnail_url"]=None
         cleared+=1
 
 events=data.get("events",[])
