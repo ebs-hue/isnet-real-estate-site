@@ -229,6 +229,7 @@ def enrich():
         # Legacy SVG placeholders were incorrectly flagged as 'verified'.
         e["image_verified"] = False
         e["image_publishable"] = False
+        e["image_rights_status"] = "needs_review"
         e["thumbnail_ready"] = False
         e["thumbnail_url"] = None
         e["image_strategy"] = "awaiting_official_event_image"
@@ -269,6 +270,7 @@ def enrich():
                     "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
                     "image_publishable": True,
                     "image_verified": True,
+                    "image_rights_status": "verified_official_source",
                     "image_strategy": "official_event_poster",
                     "thumbnail_url": rel,
                     "thumbnail_ready": True,
