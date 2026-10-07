@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:03:53Z",
+  "generated_at": "2026-10-07T18:07:55Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
+  "enriched": 10,
   "insufficient": 1,
-  "source_text_insufficient": 2,
+  "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
-      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+      "event_id": "auto_as_36c82ca8b0929268aff1",
+      "title": "טריפונס",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6d08db65cc9adf0eb6af",
-      "title": "אור לגויים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_d0315a26e607910aebb5",
-      "title": "סידני מחווה לביג'יז",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_3965330ca84880c5bf7a",
-      "title": "שמעון בוסקילה – קרוב לבית",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_5dda25a13333e0d8db14",
-      "title": "עוד לא תמו כל פלאייך",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_e3ffc57670066fd5ea7a",
-      "title": "THE ROMANTIC SOUL",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_c5084f66863b9e27992a",
-      "title": "נאמן למקור",
+      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+      "title": "אימי הגנרלית",
       "status": "insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_60cb539e4c684575d6a8",
-      "title": "נאמן למקור",
+      "event_id": "auto_as_3356020481453510f22a",
+      "title": "מייפל הכלבלב – יחיד ומיוחד",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_8adf0f4c675e74162830",
-      "title": "פיטר פן | שעת סיפור עם רינתי",
+      "event_id": "auto_as_cb3a4659aefbcd0529d0",
+      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c96d7be6d2804e749d2a",
-      "title": "הכלבלב השובב",
+      "event_id": "auto_as_b2274dd31f58c6fcf843",
+      "title": "תיק 137",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_337345b282aabb14f4ed",
-      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "event_id": "auto_as_9e8b223f38713dfb8a74",
+      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_243390bd002ecc344da5",
+      "title": "השועל המוסיקלי המוסיקה האירית",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
+      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_f1c4b053e11c06583785",
+      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+      "title": "פרפר נחמד",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_6810908ab34bc72b0557",
+      "title": "מיקה שלי",
       "status": "ready"
     }
   ]
