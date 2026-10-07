@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-07T09:38:31Z",
+  "run_at": "2026-10-07T17:25:57Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -10,20 +10,20 @@
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 222,
-          "valid": 218,
+          "discovered": 220,
+          "valid": 216,
           "new": 0,
-          "updated": 0,
-          "images_collected": 218
+          "updated": 50,
+          "images_collected": 216
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
-          "discovered": 98,
-          "valid": 98,
-          "new": 0,
-          "updated": 0,
-          "images_collected": 98
+          "discovered": 102,
+          "valid": 102,
+          "new": 5,
+          "updated": 72,
+          "images_collected": 102
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -44,13 +44,13 @@
           "images_collected": 0
         }
       },
-      "new": 0,
-      "updated": 0,
+      "new": 5,
+      "updated": 122,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 396
+      "total_after": 401
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
@@ -59,9 +59,9 @@
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
-          "discovered": 149,
-          "valid": 149,
-          "new": 0,
+          "discovered": 148,
+          "valid": 148,
+          "new": 1,
           "updated": 0,
           "images_collected": 0
         },
@@ -79,7 +79,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 0,
+          "new": 2,
           "updated": 0,
           "images_collected": 11
         },
@@ -112,7 +112,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 0,
+      "new": 3,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
@@ -121,7 +121,7 @@
         "Eventim:ReadTimeout"
       ],
       "repaired_event_ids": 0,
-      "total_after": 324
+      "total_after": 327
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."

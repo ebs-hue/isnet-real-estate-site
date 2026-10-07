@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-07T09:39:40+00:00",
+  "generated_at": "2026-10-07T17:26:56+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_events": 396,
+      "total_events": 401,
       "institution_count": 15,
-      "venue_matched": 293,
+      "venue_matched": 298,
       "operator_matched": 24,
-      "events_with_contact_phone": 284,
-      "events_with_specific_address": 274,
-      "official_photos_verified": 99,
+      "events_with_contact_phone": 289,
+      "events_with_specific_address": 279,
+      "official_photos_verified": 201,
       "lecture_total": 18,
       "lectures_without_verified_event_photo": 13,
       "operator_event_counts": {
@@ -80,18 +80,18 @@
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_events": 324,
+      "total_events": 327,
       "institution_count": 10,
-      "venue_matched": 283,
-      "operator_matched": 304,
-      "events_with_contact_phone": 320,
-      "events_with_specific_address": 291,
-      "official_photos_verified": 160,
+      "venue_matched": 286,
+      "operator_matched": 305,
+      "events_with_contact_phone": 323,
+      "events_with_specific_address": 294,
+      "official_photos_verified": 163,
       "lecture_total": 100,
       "lectures_without_verified_event_photo": 98,
       "operator_event_counts": {
         "koter_rishon": 41,
-        "htrl": 148,
+        "htrl": 149,
         "htrl_adults": 115
       },
       "frequently_unmatched_venue_names": [

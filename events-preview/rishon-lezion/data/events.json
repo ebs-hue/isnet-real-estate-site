@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-07T09:36:20Z",
+  "generated_at": "2026-10-07T17:26:19Z",
   "window": {
     "from": "2026-10-07",
     "to": "2027-09-20"
   },
   "stats": {
-    "events": 324
+    "events": 327
   },
   "events": [
     {
@@ -473,6 +473,72 @@
       "media_status": "waiting_for_content"
     },
     {
+      "city": "ראשון לציון",
+      "title": "כרטיסי כניסה",
+      "description": null,
+      "start_date": "2026-10-08",
+      "end_date": null,
+      "start_time": "16:00",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": "מיש״ר 1, קריית הלאום, ראשון לציון",
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/כרטיסי_כניסה_34",
+      "purchase_url": "https://yama.smarticket.co.il/כרטיסי_כניסה_34",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "assets/events/e866586c3738080cc0d15471.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99_%D7%9B%D7%A0%D7%99%D7%A1%D7%94_34",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://yama.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://yama.smarticket.co.il/",
+          "rights_status": "needs_review"
+        }
+      ],
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb655325fe30e7c476139512.jpg",
+      "thumbnail_url": "assets/events/e866586c3738080cc0d15471.webp",
+      "thumbnail_ready": true,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-07T17:26:19Z"
+        }
+      ],
+      "observed_at": "2026-10-07T17:26:19Z",
+      "last_verified_at": "2026-10-07T17:26:19Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_7b6497c1a29934dc91cd",
+      "image_strategy": "official_event_poster",
+      "thumbnail_ratio": null,
+      "thumbnail_strategy": null,
+      "venue_institution_id": "yama_museum",
+      "venue_phone": "03-5555900",
+      "venue_website": "https://yama.smarticket.co.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "03-5555900",
+      "contact_email": "info@yama.co.il"
+    },
+    {
       "event_id": "r_y_1008_1630",
       "city": "ראשון לציון",
       "title": "פעילויות לכל המשפחה",
@@ -529,6 +595,72 @@
       "venue_institution_id": "yama_museum",
       "venue_phone": "03-5555900",
       "venue_website": "https://yama.smarticket.co.il/",
+      "contact_phone": "03-5555900",
+      "contact_email": "info@yama.co.il"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "כניסה וסיור מודרך לקהל הרחב",
+      "description": null,
+      "start_date": "2026-10-08",
+      "end_date": null,
+      "start_time": "18:30",
+      "end_time": null,
+      "venue": "מוזיאון אגם",
+      "address": "מיש״ר 1, קריית הלאום, ראשון לציון",
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://yama.smarticket.co.il/כניסה_וסיור_מודרך_לקהל_הרחב",
+      "purchase_url": "https://yama.smarticket.co.il/כניסה_וסיור_מודרך_לקהל_הרחב",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "image_source": "https://yama.smarticket.co.il/%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%95%D7%A1%D7%99%D7%95%D7%A8_%D7%9E%D7%95%D7%93%D7%A8%D7%9A_%D7%9C%D7%A7%D7%94%D7%9C_%D7%94%D7%A8%D7%97%D7%91",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://yama.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://yama.smarticket.co.il/",
+          "rights_status": "needs_review"
+        }
+      ],
+      "image_origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
+      "thumbnail_url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "thumbnail_ready": true,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "yama",
+          "url": "https://yama.smarticket.co.il/",
+          "source_type": "official",
+          "observed_at": "2026-10-07T17:26:19Z"
+        }
+      ],
+      "observed_at": "2026-10-07T17:26:19Z",
+      "last_verified_at": "2026-10-07T17:26:19Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_ri_e5ac6e7aa5f50cab02a4",
+      "image_strategy": "official_event_poster",
+      "thumbnail_ratio": null,
+      "thumbnail_strategy": "direct_local",
+      "venue_institution_id": "yama_museum",
+      "venue_phone": "03-5555900",
+      "venue_website": "https://yama.smarticket.co.il/",
+      "address_source": "verified_institution_registry",
       "contact_phone": "03-5555900",
       "contact_email": "info@yama.co.il"
     },
@@ -4299,6 +4431,65 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מאריק לביא ועד רוסיני",
+      "description": null,
+      "start_date": "2026-10-26",
+      "end_date": null,
+      "start_time": "20:30",
+      "end_time": null,
+      "venue": "היכל התרבות מאיר ניצן",
+      "address": "ז׳בוטינסקי 16, ראשון לציון",
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "missing",
+      "image_candidates": [],
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "היכל התרבות מאיר ניצן",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl",
+          "url": "https://htrl.co.il/לוח-שנה/",
+          "source_type": "official",
+          "observed_at": "2026-10-07T17:26:19Z"
+        }
+      ],
+      "observed_at": "2026-10-07T17:26:19Z",
+      "last_verified_at": "2026-10-07T17:26:19Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_6617a1d8a8c4f7f66161",
+      "operator_id": "htrl",
+      "operator_name": "היכל התרבות מאיר ניצן",
+      "contact_phone": "03-9488666",
+      "organizer_url": "https://htrl.co.il/",
+      "venue_institution_id": "htrl",
+      "venue_phone": "03-9488666",
+      "venue_website": "https://htrl.co.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "ראשון לציון",
