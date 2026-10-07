@@ -5,11 +5,20 @@ const cityConfig=[
   {slug:"rishon-lezion",name:"ראשון לציון",base:"../rishon-lezion/"}
 ];
 let all=[];
+const LOCAL_OVERRIDES_KEY="isnet-event-overrides";
+const LOCAL_NEW_KEY="isnet-new-events";
 
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function fmtDate(s){if(!s)return"—";const [y,m,d]=s.split("-");return d+"/"+m+"/"+y}
 function editorialEntry(editorial,id){return editorial?.events?.[id]||{}}
+function readJson(key,fallback){try{return JSON.parse(localStorage.getItem(key)||"")||fallback}catch{return fallback}}
+function localOverrides(){return readJson(LOCAL_OVERRIDES_KEY,{})}
+function localNewEvents(){return readJson(LOCAL_NEW_KEY,[])}
+function applyLocalOverride(e){
+  const patch=localOverrides()[e._citySlug+":"+e.event_id];
+  return patch?{...e,...patch,_localOverride:true}:e;
+}
 function artistVideoFor(event,catalog){
   if(event.category!=="standup")return null;
   const title=String(event.title||"").normalize("NFKC");
@@ -38,7 +47,9 @@ async function load(){
       return {...e,_citySlug:city.slug,_cityBase:city.base,_description:description,_video:video,_issues:null};
     });
   }));
-  all=groups.flat().map(e=>({...e,_issues:issuesFor(e)}));
+  const persisted=groups.flat().map(applyLocalOverride);
+  const local=localNewEvents().map(e=>({...e,_localNew:true,_cityBase:e._citySlug==="ashdod"?"../ashdod/":"../rishon-lezion/"}));
+  all=[...persisted,...local].map(e=>({...e,_issues:issuesFor(e)}));
   buildFilters();render();
 }
 function buildFilters(){
@@ -52,8 +63,9 @@ function filtered(){
   return all.filter(e=>{
     if(city&&e.city!==city)return false;
     if(cat&&e.category!==cat)return false;
-    if(status==="active"&&e.start_date<TODAY)return false;
-    if(status==="expired"&&e.start_date>=TODAY)return false;
+    if(status==="active"&&(e.status!=="active"||e.start_date<TODAY))return false;
+    if(status==="expired"&&(e.status!=="active"||e.start_date>=TODAY))return false;
+    if(["draft","hidden","archived","trashed"].includes(status)&&e.status!==status)return false;
     if(quality==="clean"&&e._issues.length)return false;
     if(quality&&quality!=="clean"&&!e._issues.some(i=>i.key===quality))return false;
     if(q){
@@ -66,8 +78,8 @@ function filtered(){
 function renderStats(){
   const active=all.filter(e=>e.start_date>=TODAY);
   const stats=[
-    [all.length,"כל האירועים","בשתי הערים"],
-    [active.length,"אירועים עתידיים","מהיום והלאה"],
+    [all.length,"כל האירועים","כולל טיוטות מקומיות"],
+    [active.filter(e=>e.status==="active").length,"אירועים עתידיים","פעילים מהיום והלאה"],
     [active.filter(e=>!e._description).length,"חסר תוכן","דורש העשרה"],
     [active.filter(e=>e._issues.some(i=>i.key==="needs_image")).length,"בעיית תמונה","חסרה או לא מאושרת"],
     [active.filter(e=>e.category==="standup"&&!e._video).length,"סטנדאפ בלי וידאו","משימת מדיה"]
@@ -91,10 +103,11 @@ function render(){
     const src=(e.sources||[])[0]?.name||e.purchase_source||"—";
     const issues=e._issues.length?e._issues.map(i=>'<span class="tag '+i.level+'">'+esc(i.label)+'</span>').join(""):'<span class="tag good">תקין</span>';
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
-    const editUrl="edit.html?city="+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
+    const editUrl=(e._localNew?"new.html?edit=1&city=":"edit.html?city=")+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
+    const statusLabel=e.status==="draft"?"טיוטה":e.status==="hidden"?"מוסתר":e.status==="archived"?"ארכיון":e.status==="trashed"?"בסל":"";
     return '<tr>'+
       '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
-      '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div></div></div></td>'+
+      '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div>'+(statusLabel?'<span class="status-chip status-'+esc(e.status)+'">'+esc(statusLabel)+'</span>':'')+'</div></div></td>'+
       '<td class="image-status">'+imageStatus+'</td>'+
       '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td>'+
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
