@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-06T17:22:00Z",
+  "run_at": "2026-10-07T05:24:59Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -10,9 +10,9 @@
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 219,
-          "valid": 215,
-          "new": 1,
+          "discovered": 217,
+          "valid": 213,
+          "new": 0,
           "updated": 0
         },
         "mishkan_smarticket": {
@@ -26,38 +26,38 @@
         "tickchak_ashdod": {
           "status": "ok",
           "url": "https://live.tickchak.co.il/ashdod",
-          "discovered": 37,
-          "valid": 36,
+          "discovered": 36,
+          "valid": 35,
           "new": 0,
           "updated": 0
         },
         "ofek_ashdod": {
           "status": "ok",
           "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
-          "discovered": 24,
-          "valid": 24,
+          "discovered": 23,
+          "valid": 23,
           "new": 0,
           "updated": 0
         }
       },
-      "new": 1,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
-      "removed_duplicates": 1,
+      "removed_duplicates": 0,
       "errors": [],
       "repaired_event_ids": 0,
       "total_after": 390
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 321,
+      "total_before": 322,
       "sources": {
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
-          "discovered": 147,
-          "valid": 147,
-          "new": 0,
+          "discovered": 148,
+          "valid": 148,
+          "new": 1,
           "updated": 0
         },
         "htrl_adults": {
@@ -73,14 +73,14 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 1,
+          "new": 0,
           "updated": 0
         },
         "kotar_rishon": {
           "status": "ok",
           "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
-          "discovered": 73,
-          "valid": 38,
+          "discovered": 71,
+          "valid": 37,
           "new": 0,
           "updated": 0
         },
@@ -111,7 +111,7 @@
         "Eventim:ReadTimeout"
       ],
       "repaired_event_ids": 0,
-      "total_after": 322
+      "total_after": 323
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."

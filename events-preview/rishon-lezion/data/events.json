@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-06T17:22:22Z",
+  "generated_at": "2026-10-07T05:25:23Z",
   "window": {
-    "from": "2026-10-06",
+    "from": "2026-10-07",
     "to": "2027-09-20"
   },
   "stats": {
-    "events": 322
+    "events": 323
   },
   "events": [
     {
@@ -10664,6 +10664,66 @@
       "operator_name": "רשת כותר ראשון",
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "סינדרלה",
+      "description": null,
+      "start_date": "2026-12-27",
+      "end_date": null,
+      "start_time": "17:30",
+      "end_time": null,
+      "venue": "היכל התרבות מאיר ניצן",
+      "address": "ז׳בוטינסקי 16, ראשון לציון",
+      "district": null,
+      "category": "kids",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "assets/events/32a110a2f68b98e5ddcbb527.webp",
+      "image_source": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_sinderella-2.jpg",
+      "thumbnail_url": "assets/events/32a110a2f68b98e5ddcbb527.webp",
+      "thumbnail_ready": true,
+      "organizer": "היכל התרבות מאיר ניצן",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl",
+          "url": "https://htrl.co.il/לוח-שנה/",
+          "source_type": "official",
+          "observed_at": "2026-10-07T05:25:23Z"
+        }
+      ],
+      "observed_at": "2026-10-07T05:25:23Z",
+      "last_verified_at": "2026-10-07T05:25:23Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_7e8cfd70075e79bee52e",
+      "image_strategy": "official_event_poster",
+      "thumbnail_ratio": null,
+      "thumbnail_strategy": null,
+      "operator_id": "htrl",
+      "operator_name": "היכל התרבות מאיר ניצן",
+      "contact_phone": "03-9488666",
+      "organizer_url": "https://htrl.co.il/",
+      "venue_institution_id": "htrl",
+      "venue_phone": "03-9488666",
+      "venue_website": "https://htrl.co.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "ראשון לציון",
