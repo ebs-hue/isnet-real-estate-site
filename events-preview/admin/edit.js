@@ -28,6 +28,14 @@ function fill(e,ed={}){
   $("organizations").value=(e.organizations||[]).join(", ");
   $("distributionTargets").value=(e.distribution_targets||[]).join(", ");
   $("smartDistribution").checked=e.smart_distribution!==false;
+  $("seoTitle").value=e.seo_title||e.title||"";
+  $("seoDescription").value=e.seo_description||ed.short_pitch||e.short_pitch||"";
+  $("seoSlug").value=e.seo_slug||"";
+  $("schemaType").value=e.schema_type||"Event";
+  $("seoIndex").checked=e.seo_index!==false;
+  $("promoteHome").checked=e.promote_home===true;
+  $("promoteCity").checked=e.promote_city!==false;
+  $("promoteSection").checked=e.promote_section!==false;
   $("startDate").value=e.start_date||""; $("startTime").value=e.start_time||"";
   $("venue").value=e.venue||""; $("address").value=e.address||"";
   $("purchaseUrl").value=e.purchase_url||e.ticket_url||"";
@@ -39,7 +47,7 @@ function fill(e,ed={}){
   $("imageState").innerHTML=img?($("imageApproved").checked?'<span class="tag good">יש תמונה · מאושרת</span>':'<span class="tag warn">יש תמונה · לבדיקה</span>'):'<span class="tag bad">אין תמונה</span>';
 }
 function collect(){
-  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
+  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,secondary_categories:splitList($("secondaryCategories").value),audiences:splitList($("audiencesText").value),topics:splitList($("topics").value),organizations:splitList($("organizations").value),distribution_targets:splitList($("distributionTargets").value),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
 }
 async function load(){
   if(!cfg||!id)throw Error("missing params");
