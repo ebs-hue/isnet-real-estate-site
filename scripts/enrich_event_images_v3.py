@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"events-preview"/"ashdod"/"data"/"events.json"
 REPORT=ROOT/"events-preview"/"ashdod"/"data"/"image-enrichment-report.json"
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
-GENERIC=("/languages/il.gif","artistshadow","/images/live/more/eventnew.jpg","eventnew.jpg","placeholder","no-image","no_image","noimage","no_pic","no-pic","blank.gif","spacer.gif","transparent.gif","favicon","smarticket_logo","/logo.","/logo/","/icons/","/icon/")
+GENERIC=("/languages/il.gif","artistshadow","/images/live/more/eventnew.jpg","eventnew.jpg","placeholder","no-image","no_image","noimage","no_pic","no-pic","blank.gif","spacer.gif","transparent.gif","favicon","smarticket_logo","microsoft_oauth_logo","google_oauth_logo","facebook_oauth","oauth_logo","oauth","/logo.","/logo/","/icons/","/icon/")
 SIGNALS=("/uploads/","/thumbs/","/caps/","livenew_","updateartistimage","/events/","/event/","poster","banner")
 
 def norm(s):
