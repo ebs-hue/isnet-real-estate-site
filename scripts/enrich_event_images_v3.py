@@ -170,7 +170,9 @@ def main():
     stats=Counter(); failures=[]; roots={}; pages={}; title_cache={}
     for e in events:
         if e.get("image_url") and generic(e["image_url"]):
-            e["image_url"]=None;e["image_source"]=None;e["image_credit"]=None;e["image_publishable"]=False
+            e["image_url"]=None;e["image_source"]=None;e["image_credit"]=None
+            e["image_publishable"]=False;e["image_verified"]=False
+            e["image_rights_status"]="missing"
             stats["generic_images_cleared"]+=1
 
     def cached(url,cache):
@@ -188,8 +190,16 @@ def main():
             failures.append({"event_id":e.get("event_id"),"title":title,"reason":"no_source"});continue
         ck=(norm(title),tuple(sorted(urlparse(x).hostname or "" for x in sources)))
         if ck in title_cache:
-            img,src=title_cache[ck];e["image_url"]=img;e["image_source"]=src;e["image_publishable"]=True
-            stats["reused_by_title"]+=1;continue
+            img,src=title_cache[ck]
+            e["image_url"]=img
+            e["image_source"]=src
+            e["image_origin_url"]=img
+            e["image_publishable"]=True
+            e["image_verified"]=True
+            e["image_rights_status"]="verified_official_source"
+            e["image_strategy"]="official_source_image"
+            stats["reused_by_title"]+=1
+            continue
 
         detail=[]; listing=[]
         if e.get("ticket_url"):detail.append(e["ticket_url"])
@@ -227,8 +237,16 @@ def main():
                     break
 
         if selected:
-            img,src=selected;e["image_url"]=img;e["image_source"]=src;e["image_publishable"]=True
-            title_cache[ck]=selected;stats["enriched"]+=1
+            img,src=selected
+            e["image_url"]=img
+            e["image_source"]=src
+            e["image_origin_url"]=img
+            e["image_publishable"]=True
+            e["image_verified"]=True
+            e["image_rights_status"]="verified_official_source"
+            e["image_strategy"]="official_source_image"
+            title_cache[ck]=selected
+            stats["enriched"]+=1
             print(f"[{i:03d}/{len(events)}] IMAGE {title} -> {img}")
         else:
             stats["missing"]+=1;failures.append({"event_id":e.get("event_id"),"title":title,"sources":sources,"tried":tried})
