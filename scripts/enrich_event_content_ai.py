@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 6
+CONTENT_ENRICHMENT_VERSION = 7
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 EVENT_HORIZON_MONTHS = 5
 
@@ -299,13 +299,16 @@ def main():
                 continue
             checked += 1
             urls = source_urls(event)
-            source_url = ""
-            source_text = ""
-            for u in urls:
-                source_text = fetch_source_text(u)
-                if len(source_text) >= 180:
-                    source_url = u
-                    break
+            source_url = clean_text(event.get("detail_source_url") or event.get("content_enrichment_source") or "")
+            source_text = clean_text(event.get("source_detail_text") or "")
+            if len(source_text) < 180:
+                for u in urls:
+                    fetched = fetch_source_text(u)
+                    if len(fetched) > len(source_text):
+                        source_text = fetched
+                        source_url = u
+                    if len(source_text) >= 180:
+                        break
             require_web_search = len(source_text) < 180
             try:
                 result = ask_model(event, source_text, source_url, require_web_search=require_web_search)
