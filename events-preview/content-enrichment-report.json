@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:32:39Z",
+  "generated_at": "2026-10-07T18:36:40Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 11,
-  "insufficient": 0,
-  "source_text_insufficient": 1,
+  "enriched": 10,
+  "insufficient": 2,
+  "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_17fa7f825b24639c734c",
-      "title": "הקוסם מארץ עוץ",
+      "event_id": "auto_as_dc9099952fe4be222829",
+      "title": "קורס טיפים בנייד -ייעודי לגדולות מהחיים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_92a7794474ff45937b54",
-      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_60639bfb8504f9553fcf",
-      "title": "היו ימים חבר",
+      "event_id": "auto_as_4ada58fcddb5e9649fac",
+      "title": "CON TEH PARTIRO",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a6dda6455ef870d17dd0",
-      "title": "עכשיו הזמן לאהבה",
+      "event_id": "auto_as_abc304d7ccc6bc7bf233",
+      "title": "להתראות ותודה על הקרמשניט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_bf7028aa1130feeeda5e",
-      "title": "סיור טעימות ואתרים באשדוד",
+      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
+      "title": "להתראות ותודה על הקרמשניט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ebf2feea981459bed3cf",
-      "title": "חגיגה ברזילאית",
+      "event_id": "auto_as_3f888b4ee71930056e2d",
+      "title": "להתראות ותודה על הקרמשניט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7a0d248903ac27e7d66a",
-      "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
+      "event_id": "auto_as_54dc0282144f7dc8152a",
+      "title": "להתראות ותודה על הקרמשניט",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_be1fc4adb822731a5e36",
+      "title": "להתראות ותודה על הקרמשניט",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_52c1df237ce507a44b41",
-      "title": "חגיגה ברזילאית",
+      "event_id": "auto_as_bddcc06ee533304d72a0",
+      "title": "מחר יהיה טוב",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_874fbf8765c2eddd641d",
-      "title": "איילת מטיילת | שעת סיפור עם רינתי",
+      "event_id": "auto_as_11e60f4edfd1d4107da2",
+      "title": "לא הייתם צריכים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_42692e3659956eb6defb",
-      "title": "תרועת הפסטיבלים .",
+      "event_id": "auto_as_6cc18562a4c23b0da579",
+      "title": "לא הייתם צריכים",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_45ff2f1bef22fa6ab053",
+      "title": "לא הייתם צריכים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_86e8020e745d6b4201fb",
-      "title": "לחיות, להרגיש, להבין | הרצאה על המשוררת שיבטה טויו עם תמי כהן",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_fc7e4b66f195b19083ff",
-      "title": "לונדון בירת המוזיקה והתיאטרון",
+      "event_id": "auto_as_8d04bec27c9e62832439",
+      "title": "לא הייתם צריכים",
       "status": "ready"
     }
   ]
