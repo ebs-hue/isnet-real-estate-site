@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>מרכז ניהול אירועים | ISNET</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">ISNET AI CMS · פיילוט אירועים</div>
+      <h1>מרכז ניהול אירועים</h1>
+      <p>מסך בקרה ראשוני על אשדוד וראשון לציון. בשלב זה צפייה ובקרה בלבד.</p>
+    </div>
+    <div class="top-actions">
+      <span class="mode">מצב בטוח · ללא כתיבה</span>
+      <button id="refreshBtn" class="secondary">רענון נתונים</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="summary" class="stats" aria-label="סיכום"></section>
+
+    <section class="panel filters">
+      <div class="panel-title">
+        <div>
+          <h2>חיפוש וסינון</h2>
+          <p>אפשר לחפש לפי שם אירוע, מקום, קטגוריה או מזהה.</p>
+        </div>
+        <button id="clearBtn" class="text-btn">נקה מסננים</button>
+      </div>
+      <div class="filter-grid">
+        <label class="search">
+          <span>חיפוש</span>
+          <input id="q" type="search" placeholder="למשל: סטנדאפ, מוזיאון, קובי מימון">
+        </label>
+        <label>
+          <span>עיר</span>
+          <select id="city"><option value="">כל הערים</option></select>
+        </label>
+        <label>
+          <span>קטגוריה</span>
+          <select id="category"><option value="">כל הקטגוריות</option></select>
+        </label>
+        <label>
+          <span>מצב</span>
+          <select id="status">
+            <option value="">הכול</option>
+            <option value="active">פעיל</option>
+            <option value="expired">עבר</option>
+          </select>
+        </label>
+        <label>
+          <span>בקרת איכות</span>
+          <select id="quality">
+            <option value="">הכול</option>
+            <option value="needs_content">חסר תוכן</option>
+            <option value="needs_image">חסרה/לא מאושרת תמונה</option>
+            <option value="needs_video">סטנדאפ ללא סרטון</option>
+            <option value="needs_ticket">ללא קישור פעולה</option>
+            <option value="clean">ללא חוסרים בולטים</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">
+        <div>
+          <h2>כל האירועים</h2>
+          <p id="resultCount">טוען...</p>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>אירוע</th>
+              <th>עיר</th>
+              <th>קטגוריה</th>
+              <th>מועד</th>
+              <th>מקום</th>
+              <th>איכות</th>
+              <th>מקור</th>
+              <th>צפייה</th>
+            </tr>
+          </thead>
+          <tbody id="rows"></tbody>
+        </table>
+      </div>
+      <div id="empty" class="empty" hidden>לא נמצאו אירועים התואמים למסננים.</div>
+    </section>
+  </main>
+
+  <template id="statTemplate">
+    <article class="stat"><strong></strong><span></span><small></small></article>
+  </template>
+  <script src="app.js"></script>
+</body>
+</html>
