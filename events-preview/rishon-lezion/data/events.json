@@ -9515,7 +9515,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9575,7 +9579,23 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:01:42Z",
+      "missing_information": [
+        "תיאור מפורש של מטרת האירוע ותוכנו",
+        "שם מרצים/מנחים/משתתפים",
+        "משך האירוע ותכנית מפורטת",
+        "דרישות רישום וכרטיסים/עלות",
+        "האם האירוע פתוח לקהל או ברישום מראש בלבד",
+        "שפה בה יתקיים האירוע ואמצעי נגישות",
+        "פרטי קשר ספציפיים לאחראים על האירוע"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "city": "ראשון לציון",
@@ -9633,7 +9653,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261123_2030_בילי-שוורץ",
@@ -9692,7 +9716,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9754,7 +9782,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9815,7 +9846,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1124_1900",
@@ -9875,7 +9909,43 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:02:11Z",
+      "missing_information": [
+        "שם או זהות המגיש/ת/דוברים של ההרצאה",
+        "פורמט המפגש (הרצאה בלבד, קריאות, שאלות ותשובות וכו')",
+        "משך האירוע",
+        "מחיר כרטיס או דרישות רישום",
+        "שפת האירוע",
+        "האם יתקיים מכירת ספרים או חתימה"
+      ],
+      "event_summary": "הרצאה בספריית רמת אליהו בראשון לציון העוסקת \"על מסע היצירה של הספרים 'סולם גנבים' ו'צומת מסובים'\". האירוע מציג התמקדות בתהליך היצירה מאחורי שני כותרים אלה—נושא שיכול לעניין חובבי ספרות ויוצרים בשכונה.",
+      "short_pitch": "מפגש-הרצאה בספריית רמת אליהו בשעה 19:00 שמביא הצצה למסע היצירה של שני ספרים: 'סולם גנבים' ו'צומת מסובים'. מתאים לחובבי ספרות ולמעוניינים בתהליכי כתיבה ויצירה ספרותית.",
+      "long_description": "האירוע \"על מסע היצירה של הספרים 'סולם גנבים' ו'צומת מסובים'\" מתקיים בספריית רמת אליהו בראשון לציון. כפי שכותרת האירוע מרמזת, הוא מוקדש למסע היצירה של שני הכותרים הללו—השלבים שבהם נולדים רעיונות, האבולוציה של הטקסט וההתלבטויות היצירתיות שבדרך. ההרצאה מיועדת למי שמעניינת עבודת הכתיבה מאחורי הקלעים ולחובבי ספרות המעוניינים להבין טוב יותר כיצד סיפור או מבנה עלילתי מתגבשים מהרעיון הראשוני ועד לטקסט המודפס. האירוע מתקיים בערב, בסביבה ספרייתית שקטה ונגישה. מידע מפורט לגבי דוברים, רישום, עלות או מבנה מפגש (קריאות, שיחה פתוחה או שאלות) אינו מפורט במידע הזמין — מומלץ לבדוק באתר המארגן לקבלת פרטים מעודכנים.",
+      "event_type": "הרצאה",
+      "target_audience": [
+        "חובבי ספרות",
+        "יוצרים וסופרים בתחילת הדרך",
+        "ציבור כללי",
+        "תושבי ראשון לציון"
+      ],
+      "visual_keywords": [
+        "מדפי ספרים",
+        "כריכות ספרים",
+        "ספר פתוח על שולחן",
+        "ספרייה פנים",
+        "מנורת שולחן חמה",
+        "מחברת ועט",
+        "קהל קטן בצללית",
+        "כיסא וכרית קריאה"
+      ],
+      "image_brief": "צילום פנים של ספרייה נעימה: מדף מלא ספרים וניצב לפנים שולחן עץ עם ספר פתוח, עט או מחברת מונחת לצד, תאורה חמה ומושכת. ברקע יתוארו כיסאות מסודרים לשמעי הרצאה—יצירת אווירה אינטימית של מפגש ספרותי בלי לכלול טקסט חקוק על התמונה.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261124_2030_מיקה-שלי",
@@ -9934,7 +10004,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -9996,7 +10070,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10054,7 +10131,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261126_2030_שושנה-–-מחזמר",
@@ -10113,7 +10194,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10171,7 +10256,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261128_1100_קוגומלו-–-שכחו-אותי-בג'ונגל",

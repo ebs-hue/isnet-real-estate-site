@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T19:01:15Z",
+  "generated_at": "2026-10-07T19:02:16Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 2,
+  "enriched": 1,
   "insufficient": 1,
-  "source_text_insufficient": 9,
+  "source_text_insufficient": 10,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_5afe05b14e34d576ef1b",
-      "title": "חילוץ תרמילאים נפגעי סמים בחו״ל",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_6aad8da7bc902f777752",
-      "title": "סדרת \"עולמו המופלא של התנ\"ך: ויהי ערב, ויהי בוקר",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_94e5b4102820046ae0e6",
-      "title": "סיור אומנות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_ed6d091469f1efd1d75c",
-      "title": "בארבע מעשיות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_3eecf4ed903792fdc662",
-      "title": "הקרנת סרט",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_76b151e71dfd68794b0a",
-      "title": "מועדון ריקודים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_8f29732b6cef68a6354c",
-      "title": "פסניארי",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_01ec9136220540e351ab",
-      "title": "לחשוב מחוץ לקופסה – פרלמנט גברים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261118_2030_אוי-אלוהים",
+      "event_id": "htrl_20261121_2030_אוי-אלוהים",
       "title": "אוי אלוהים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261119_1700_אוי-אלוהים",
-      "title": "אוי אלוהים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_af02c6eaeb65f83de9e0",
-      "title": "עולם האופנה: פועלת אופנה",
+      "event_id": "auto_ri_0d8d53133bb98afc2c4f",
+      "title": "לשתול עץ דקל מעל קברי",
       "status": "insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_bb0d87698633161782fa",
-      "title": "הספרים החיצוניים",
+      "event_id": "auto_ri_e88ad22e533510f99280",
+      "title": "נובה חדשה התזמורת האנדלוסית",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261123_2030_בילי-שוורץ",
+      "title": "בילי שוורץ",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_6096a30d16df052784ba",
+      "title": "אולסי פרי הסיפור שלא נגמר",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_62bc846af26ed44811d8",
+      "title": "רוקדים לצלילי אלביס",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_k_1124_1900",
+      "title": "על מסע היצירה של הספרים \"סולם גנבים\" ו\"צומת מסובים\"",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261124_2030_מיקה-שלי",
+      "title": "מיקה שלי",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_8456a441b67eb5c499a5",
+      "title": "אלכסנדר פן: \"היה או לא היה\"",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_8cb76fdf07e9b1d83318",
+      "title": "או לה לה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261126_2030_שושנה-–-מחזמר",
+      "title": "שושנה – מחזמר",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_533cb34493b9a28371a8",
+      "title": "זוג משמיים",
       "status": "source_text_insufficient"
     }
   ]
