@@ -1,14 +1,98 @@
 {
-  "generated_at": "2026-10-07T19:39:16.706500+00:00",
+  "generated_at": "2026-10-07T20:31:10.129017+00:00",
   "stats": {
     "events_scanned": 711,
-    "image_links": 431,
+    "image_links": 440,
     "unique_images": 206,
     "approved": 166,
     "needs_review": 40,
     "rejected": 0
   },
   "media": [
+    {
+      "media_id": "media_59837defc744825980731a48",
+      "url": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "להתראות ותודה על הקרמשניט"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_abc304d7ccc6bc7bf233",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-06-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ff95c7afe95a5f2b09ae",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-06-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3f888b4ee71930056e2d",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-06-30"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_54dc0282144f7dc8152a",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-07-01"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_be1fc4adb822731a5e36",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-07-03"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_c73bd026b2b848287e0e",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-03"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_6cba9bfff171a9433eff",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-04"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_8361c4dcb9c8bf022984",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-05"
+        }
+      ],
+      "usage_count": 8,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_width": 450,
+      "card_height": 320,
+      "card_bytes": 12946,
+      "card_url": "media-bank/cards/a53014fdfc1c7bfb7db66b3e.webp",
+      "original_checksum": "a53014fdfc1c7bfb7db66b3e44916d0e3c527a63d8abf0e179870908268b7031"
+    },
     {
       "media_id": "media_1a1e251f6acc45405d9125dc",
       "url": "assets/events/3d7da91a82ef28209d526721.webp",
@@ -216,6 +300,75 @@
       "card_bytes": 22870,
       "card_url": "media-bank/cards/0702ceaa45427ca8911641e5.webp",
       "original_checksum": "0702ceaa45427ca8911641e57c6e10f328695a665d631ee32056d187f826a3b3"
+    },
+    {
+      "media_id": "media_371567e34c76640a3a0560ab",
+      "url": "../rishon-lezion/assets/events/32a110a2f68b98e5ddcbb527.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_sinderella-2.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [
+        "נעמה סופר על",
+        "שמחה גואטה",
+        "גל רובין",
+        "מאיר תמם",
+        "אביתר עוזרי",
+        "שירן אליהו",
+        "נועה כדריה",
+        "רומי סטאר"
+      ],
+      "productions": [
+        "סינדרלה"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f96995c1a51072386af2",
+          "title": "סינדרלה",
+          "date": "2026-12-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e989e0af031952a41c55",
+          "title": "סינדרלה",
+          "date": "2026-12-17"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_7e8cfd70075e79bee52e",
+          "title": "סינדרלה",
+          "date": "2026-12-27"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_c9e4680d853c2131795e",
+          "title": "סינדרלה",
+          "date": "2027-01-12"
+        }
+      ],
+      "usage_count": 4,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_width": 450,
+      "card_height": 320,
+      "card_bytes": 33006,
+      "card_url": "media-bank/cards/32a110a2f68b98e5ddcbb527.webp",
+      "original_checksum": "32a110a2f68b98e5ddcbb5272a50335f6c8c311bc12b294318c8528a004e4123"
     },
     {
       "media_id": "media_4ca3403d4c98568839c0b797",
@@ -655,59 +808,6 @@
       "card_bytes": 14158,
       "card_url": "media-bank/cards/418a1774ac7141146a0dd6e2.webp",
       "original_checksum": "418a1774ac7141146a0dd6e2a763e3ca3c8e79a43e370f2542c08b24fdf119b8"
-    },
-    {
-      "media_id": "media_59837defc744825980731a48",
-      "url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "להתראות ותודה על הקרמשניט"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_c73bd026b2b848287e0e",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-03"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_6cba9bfff171a9433eff",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-04"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_8361c4dcb9c8bf022984",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-05"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 12946,
-      "card_url": "media-bank/cards/a53014fdfc1c7bfb7db66b3e.webp",
-      "original_checksum": "a53014fdfc1c7bfb7db66b3e44916d0e3c527a63d8abf0e179870908268b7031"
     },
     {
       "media_id": "media_6146e589c26e7930de248260",
@@ -1317,53 +1417,6 @@
       "original_checksum": "1aad9f16d3478c8e3c5476b8594476b080bb69add6f94e06c5fd34a26523f862"
     },
     {
-      "media_id": "media_371567e34c76640a3a0560ab",
-      "url": "assets/events/32a110a2f68b98e5ddcbb527.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_sinderella-2.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A1%D7%99%D7%A0%D7%93%D7%A8%D7%9C%D7%94/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "סינדרלה"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_7e8cfd70075e79bee52e",
-          "title": "סינדרלה",
-          "date": "2026-12-27"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_c9e4680d853c2131795e",
-          "title": "סינדרלה",
-          "date": "2027-01-12"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 33006,
-      "card_url": "media-bank/cards/32a110a2f68b98e5ddcbb527.webp",
-      "original_checksum": "32a110a2f68b98e5ddcbb5272a50335f6c8c311bc12b294318c8528a004e4123"
-    },
-    {
       "media_id": "media_4994292c7c0d6c4050b33c98",
       "url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_isabela.jpg",
@@ -1652,6 +1705,55 @@
       "original_checksum": "819e85707a1b9ca96b747329e4511e42f35ac240eefe65325112bf0a158658a4"
     },
     {
+      "media_id": "media_9300e0f7de398cd94516a367",
+      "url": "../rishon-lezion/assets/events/3d1a0f2000b578c8c7d30087.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_baloon.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "מעשה בחמישה בלונים"
+      ],
+      "categories": [
+        "other",
+        "kids"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f49bff491bdc80b16bfb",
+          "title": "מעשה בחמישה בלונים",
+          "date": "2026-10-14"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
+          "title": "מעשה בחמישה בלונים",
+          "date": "2026-12-26"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_width": 450,
+      "card_height": 320,
+      "card_bytes": 24034,
+      "card_url": "media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
+      "original_checksum": "3d1a0f2000b578c8c7d30087326b750e06c5b937481719a2e191081e153ee321"
+    },
+    {
       "media_id": "media_afe35cdf1c308ff08682e641",
       "url": "assets/events/27d03800c7156d8da5558e4a.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4508.jpg",
@@ -1787,6 +1889,55 @@
       "card_bytes": 27312,
       "card_url": "media-bank/cards/a44570b9804820903b9aad5d.webp",
       "original_checksum": "a44570b9804820903b9aad5dc6e5c54ec910d58d72b4979f151f572bab6a7e2b"
+    },
+    {
+      "media_id": "media_bb940a0f0f8f529cd4be9453",
+      "url": "../rishon-lezion/assets/events/2730fc92608007dfd2309838.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_marriage.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9D-%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D-2/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "נישואים גרעיניים"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_511ebde2aa175eaa7a56",
+          "title": "נישואים גרעיניים",
+          "date": "2026-12-19"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "r_h_1016_2100",
+          "title": "נישואים גרעיניים",
+          "date": "2026-10-16"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_width": 450,
+      "card_height": 320,
+      "card_bytes": 23876,
+      "card_url": "media-bank/cards/2730fc92608007dfd2309838.webp",
+      "original_checksum": "2730fc92608007dfd23098388569c0c155d65ccaead3bbf132269cfa84c51112"
     },
     {
       "media_id": "media_d3b27081fca78d0f24a2de82",
@@ -5506,47 +5657,6 @@
       "original_checksum": "2fbb3e62f1229c98abc64fa899e262dfedecbee909c0d02932247639f3509680"
     },
     {
-      "media_id": "media_9300e0f7de398cd94516a367",
-      "url": "assets/events/3d1a0f2000b578c8c7d30087.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_baloon.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מעשה בחמישה בלונים"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
-          "title": "מעשה בחמישה בלונים",
-          "date": "2026-12-26"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 24034,
-      "card_url": "media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
-      "original_checksum": "3d1a0f2000b578c8c7d30087326b750e06c5b937481719a2e191081e153ee321"
-    },
-    {
       "media_id": "media_96e5a8121db34efa5afc6450",
       "url": "assets/event-thumbs/1ff516ed4c6f0bf1ce23b1.jpg",
       "origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
@@ -6207,47 +6317,6 @@
       "card_bytes": 17714,
       "card_url": "media-bank/cards/e9853671eefd61e6f69ea451.webp",
       "original_checksum": "e9853671eefd61e6f69ea45152a37e0c2b6e16b3ba90c90745dee074761125a8"
-    },
-    {
-      "media_id": "media_bb940a0f0f8f529cd4be9453",
-      "url": "assets/events/2730fc92608007dfd2309838.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_marriage.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9D-%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "נישואים גרעיניים"
-      ],
-      "categories": [
-        "theatre"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "r_h_1016_2100",
-          "title": "נישואים גרעיניים",
-          "date": "2026-10-16"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 23876,
-      "card_url": "media-bank/cards/2730fc92608007dfd2309838.webp",
-      "original_checksum": "2730fc92608007dfd23098388569c0c155d65ccaead3bbf132269cfa84c51112"
     },
     {
       "media_id": "media_bcdd2b1cf07b9c10db1aee0b",
@@ -7081,8 +7150,8 @@
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 34972,
-      "card_url": "media-bank/cards/7492b87d7c05d6498a634bfe.webp",
-      "original_checksum": "7492b87d7c05d6498a634bfe259f7cabf124ce3024bd2f841e48e3080ca3d881"
+      "card_url": "media-bank/cards/f4269358c4fc1cfc20fd51fc.webp",
+      "original_checksum": "f4269358c4fc1cfc20fd51fc1cfa8170e0a8f1d2bd0d81e62e052cb3c2d1044e"
     },
     {
       "media_id": "media_f04eac714840c05d18f5d635",
@@ -7339,7 +7408,7 @@
     },
     {
       "media_id": "media_88a4c7b1ea47a9b8bac0e8e0",
-      "url": "assets/events/88a4c7b1ea47a9b8bac0e8.jpg",
+      "url": "assets/event-thumbs/8d2a5e446b77201c56b3a5.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -7702,7 +7771,7 @@
     },
     {
       "media_id": "media_57344f337017ee61698c0e17",
-      "url": "assets/events/57344f337017ee61698c0e.jpg",
+      "url": "assets/event-thumbs/2a05cd559e31a8e1216047.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -8332,7 +8401,7 @@
     },
     {
       "media_id": "media_8d668caa6e3eeda8a81909b4",
-      "url": "assets/events/8d668caa6e3eeda8a81909.png",
+      "url": "assets/event-thumbs/76cd539ff1663432b132b2.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
       "source_url": "https://ashdod.smarticket.co.il/iframe",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -8411,7 +8480,7 @@
     },
     {
       "media_id": "media_ec1c4894f557c3316c373766",
-      "url": "assets/events/ec1c4894f557c3316c3737.png",
+      "url": "assets/event-thumbs/3471b66b657a23df219f06.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -8708,7 +8777,7 @@
     },
     {
       "media_id": "media_c252c53d87394302c89f51d1",
-      "url": "assets/events/c252c53d87394302c89f51.png",
+      "url": "assets/event-thumbs/15e52e2b5aefd0fcb23e13.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
       "source_url": "https://ashdod.smarticket.co.il/iframe",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -8875,7 +8944,7 @@
     },
     {
       "media_id": "media_0cd545b49063026c3e11a931",
-      "url": "assets/events/0cd545b49063026c3e11a9.jpg",
+      "url": "assets/event-thumbs/cb3d5fe0140db408d8a521.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -9012,7 +9081,7 @@
     },
     {
       "media_id": "media_8d04f3e0fd5681900fcdd10a",
-      "url": "assets/events/8d04f3e0fd5681900fcdd1.jpg",
+      "url": "assets/event-thumbs/c6688e4247a8da77a2f844.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a930c99569b7364337836.jpeg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -9099,7 +9168,7 @@
     },
     {
       "media_id": "media_f343536ee3df3246b6a5cab7",
-      "url": "assets/events/f343536ee3df3246b6a5ca.jpg",
+      "url": "assets/event-thumbs/bdbd7f2dc93b559d9b3d22.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
       "source_url": "https://ashdod.smarticket.co.il/iframe",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -9899,8 +9968,8 @@
     "target_width": 900,
     "format": "webp",
     "quality": 80,
-    "created": 0,
-    "reused": 165,
+    "created": 1,
+    "reused": 164,
     "skipped": 1
   }
 }
