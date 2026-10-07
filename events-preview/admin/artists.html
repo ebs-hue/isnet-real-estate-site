@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>מאגר אמנים | ISNET</title>
+<link rel="stylesheet" href="styles.css?v=20261007-artists">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth/config.js?v=20261007-1225"></script>
+</head>
+<body>
+<header class="topbar">
+<div><div class="eyebrow">ISNET AI CMS · מאגר אמנים</div><h1>אמנים ודמויות</h1>
+<p>תמונות מאושרות נשמרות תחת האמן ומשמשות מחדש בכל ערי הרשת.</p></div>
+<div class="top-actions">
+<a class="secondary action-link" href="media.html">🖼️ בנק מדיה</a>
+<a class="secondary action-link" href="index.html">← אירועים</a>
+</div>
+</header>
+<main>
+<section id="artistStats" class="stats"></section>
+<section class="panel filters">
+<div class="panel-title"><div><h2>חיפוש אמן</h2><p>המאגר כולל רק שמות שזוהו מתוך מידע מאומת של האירועים.</p></div></div>
+<div class="filter-grid media-filter-grid">
+<label class="search"><span>חיפוש</span><input id="artistQ" type="search" placeholder="שם אמן, להקה או מרצה"></label>
+<label><span>עיר</span><select id="artistCity"><option value="">כל הערים</option></select></label>
+<label><span>קטגוריה</span><select id="artistCategory"><option value="">כל הקטגוריות</option></select></label>
+</div>
+</section>
+<section class="panel">
+<div class="panel-title"><div><h2>אמנים</h2><p id="artistCount">טוען...</p></div></div>
+<div id="artistGrid" class="artist-grid"></div>
+<div id="artistEmpty" class="empty" hidden>לא נמצאו אמנים.</div>
+</section>
+</main>
+<script src="artists.js?v=20261007-artists"></script>
+<script type="module">import {requireAuth} from "./auth/guard.js?v=20261007-1225"; await requireAuth();</script>
+</body></html>
