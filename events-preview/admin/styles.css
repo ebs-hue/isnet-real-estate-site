@@ -23,3 +23,5 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 
 .promotion-chip{display:inline-flex;align-items:center;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800;white-space:nowrap}
 .promotion-normal{background:#eef3fa;color:#526079}.promotion-recommended{background:#e8f7f1;color:#14845f}.promotion-promoted{background:#e8f0ff;color:#0b4eb0;border:1px solid #b8cdf6}
+
+.permissions-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;padding:10px 16px;border-radius:10px;background:#fff;color:#103d70;font-weight:800;border:1px solid #cfe0f7;box-shadow:0 3px 10px #071a3522}.permissions-link:hover{background:#eef5ff}
