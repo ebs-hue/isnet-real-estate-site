@@ -15,6 +15,26 @@
  <div class="top-actions"><a class="secondary action-link" href="./">חזרה למרכז הניהול</a></div>
 </header>
 <main class="agents-main">
+ <section class="panel operations-panel">
+  <div class="panel-title">
+   <div><h2>הפעלה ובקרה</h2><p>בדיקת QA, החלטת עורך קטגוריה והחלטת פרסום על כל האירועים העתידיים.</p></div>
+   <button id="runAgentsBtn" class="primary top-create">הרץ סוכנים עכשיו</button>
+  </div>
+  <div id="runSummary" class="run-summary"></div>
+  <p id="runStatus" class="run-status">טרם בוצעה הרצה.</p>
+  <p id="lastRun" class="last-run"></p>
+ </section>
+
+ <section class="panel exceptions-panel">
+  <div class="panel-title"><div><h2>תור חריגים</h2><p>רק אירועים שלא יכולים לעבור לפרסום אוטומטי.</p></div></div>
+  <div class="table-wrap">
+   <table class="exceptions-table">
+    <thead><tr><th>אירוע</th><th>עיר</th><th>תאריך</th><th>ציון</th><th>מה עוצר פרסום</th><th>הסוכן הבא</th></tr></thead>
+    <tbody id="exceptionRows"></tbody>
+   </table>
+  </div>
+  <div id="exceptionsEmpty" class="empty">טרם בוצעה בדיקה.</div>
+ </section>
  <section class="panel pipeline-panel">
   <div class="panel-title"><div><h2>שרשרת העבודה</h2><p>באירועים, פרסום תקין הוא אוטומטי; רק חריגים נעצרים לבדיקה.</p></div><span class="human-badge">פרסום אוטומטי באירועים</span></div>
   <div id="pipeline" class="pipeline"></div>
@@ -39,7 +59,9 @@
   <div id="mediaFlow" class="media-flow"></div>
  </section>
 </main>
-<script src="agents.js?v=20261007-1400"></script>
+<script src="cms-db.js?v=20261007-1300"></script>
+<script src="agents.js?v=20261007-1430"></script>
+<script src="agents-runner.js?v=20261007-1430"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
