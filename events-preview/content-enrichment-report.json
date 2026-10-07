@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T18:51:14Z",
+  "generated_at": "2026-10-07T18:53:44Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 3,
+  "enriched": 4,
   "insufficient": 1,
-  "source_text_insufficient": 8,
+  "source_text_insufficient": 7,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_747d4b2b4f68573f3c7c",
-      "title": "סוד המוח הצעיר",
+      "event_id": "auto_ri_8bf1857ce8efe2c7632b",
+      "title": "מגילת העצמאות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_02c01ca271e49574910d",
-      "title": "סוד המוח הצעיר: הרצאה חווייתית הכוללת משחקי חשיבה וחידות היגיון",
+      "event_id": "auto_ri_f8c3bb5affa596c56f45",
+      "title": "תופעת הנבואה הקדומה בישראל",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261024_2030_Sinatra-My-Way-–-פרנק-סינטרה",
+      "title": "Sinatra My Way – פרנק סינטרה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_264a4825f6f1153b1285",
+      "title": "צלילים וסיפורונים לטף",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_809cbafc2de16600645a",
-      "title": "מועדון ריקודים",
+      "event_id": "auto_ri_5db20ec91884846d7f9c",
+      "title": "הסמול טוק: החשיבות הגדולה של “הדיבור הקטן”–העברת מסרים בתקשורת הבין אישית",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261025_1700_היפהפייה-הנרדמת-–-תיאטרון-הב",
+      "title": "היפהפייה הנרדמת – תיאטרון הבלט הלאומי של רוסיה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_eea0508fecc5a94b38c4",
-      "title": "עומרי שומע?",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261020_2030_אור-לגויים",
-      "title": "אור לגויים",
+      "event_id": "htrl_20261025_2000_אגם-הברבורים-–-תיאטרון-הבלט-",
+      "title": "אגם הברבורים – תיאטרון הבלט הלאומי של רוסיה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_ccdb04e5dda0029fefcf",
-      "title": "תגבירו את המזגן – אני בוערת",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261021_2030_אדיר-מילר",
-      "title": "אדיר מילר",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_e5b425e124767f709372",
+      "event_id": "r_k_1026_1100",
       "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261022_2030_עפרה",
-      "title": "עפרה",
+      "event_id": "auto_ri_5d36e550b39190e205f9",
+      "title": "בוב דילן: \"סדרת אל תוך השיר\"",
+      "status": "insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261026_2030_מאיר-לביא-ועד-רוסיני",
+      "title": "מאיר לביא ועד רוסיני",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_y_1023_1100",
-      "title": "שיח גלריה | יניב שפירא | אגם וקדישמן",
+      "event_id": "auto_ri_6617a1d8a8c4f7f66161",
+      "title": "מאריק לביא ועד רוסיני",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_733c2543cc344156adb2",
+      "title": "בחירות 2026 - כניסה",
       "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261023_2130_אהבה-בהפתעה",
-      "title": "אהבה בהפתעה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261024_1100_מיקי-–-הבית-של-יעל",
-      "title": "מיקי – הבית של יעל",
-      "status": "source_text_insufficient"
     }
   ]
 }

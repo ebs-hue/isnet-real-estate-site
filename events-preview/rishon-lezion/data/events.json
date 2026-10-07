@@ -5145,7 +5145,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -5207,7 +5210,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261024_2030_Sinatra-My-Way-–-פרנק-סינטרה",
@@ -5266,7 +5272,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -5326,7 +5336,46 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:51:54Z",
+      "missing_information": [
+        "טווח גילאים מדויק למשתתפים (מספר שנים)",
+        "מחיר כרטיס ורכישת כרטיסים (קישור/נקודת מכירה)",
+        "משך המפגש המדויק",
+        "מספר מקומות מדויק וקישור לרישום מראש",
+        "מידע על נגישות ופירוט תנאי השבתה/החזר כספי ספציפיים לאירוע",
+        "שפת ההנחיה המדויקת"
+      ],
+      "event_summary": "פעילות מוזיקלית קצרה לילדים קטנים המשלבת שירים, אביזרים ובובות עם שעת סיפור. בתוכנית מוזמנים הילדים לשיר, להקשיב לכלי נגינה (מפוחית וגיטרה) ולהשתתף בפעילויות אינטראקטיביות בהנחיית צוות כותר טף. מתאים לקטנטנים ולמלווה מבוגר.",
+      "short_pitch": "מפגש מוזיקלי ויצירתי לקטנטנים בכותר טף בראשון לציון: שירים, מפוחית וגיטרה, בובות ושעת סיפור — פעילות שמשלבת הקשבה, תנועה והשתתפות פעילה, עם הדגשים על כניסה מלווה וכרטיס לכל משתתף.",
+      "long_description": "צלילים וסיפורונים לטף היא פעילות מוזיקלית המיועדת לילדים קטנים בכותר טף של רשת כותר ראשון. המפגש מציע שירה משותפת, נגינה של כלי נשיפה וגיטרה, שימוש באביזרים ובובות ושעת סיפור קצרה שבה הילדים מוזמנים להקשיב ולהשתתף. מהתכנים שבאתר עולה שהמופעים מועברים על-ידי תיאטרון של גלי וכוללים גם הופעה מוזיקלית עם יואב (מפוחית וגיטרה). הפעילות נערכת במתכונת ליווי מבוגר: כל משתתף נדרש בכרטיס כולל הורה מלווה, ואין כניסה לאחים קטנים וגדולים ללא רישום. מספר המקומות מוגבל והזכות לשינויים שמורה. לפני הגעה רצוי לבדוק פרטי רכישה והתניה ספציפיים מול הכותר המקומי, מכיוון שהסבירות להגבלות כרטיסים וביטולים מצוינת בתיאורי הפעילויות.",
+      "event_type": "פעילות מוזיקלית לילדים",
+      "participants": [
+        "גלי פטילון",
+        "תיאטרון של גלי",
+        "יואב נאמן"
+      ],
+      "target_audience": [
+        "קטנטנים/פעוטות",
+        "הורים ומלווים מבוגרים",
+        "משפחות"
+      ],
+      "visual_keywords": [
+        "גיטרה",
+        "מפוחית",
+        "בובות יד",
+        "ילדים ישובים על שטיח בספרייה",
+        "מנחה שרה ומנענעת ידיים",
+        "אביזרי מופע צבעוניים",
+        "ספר פתוח לשעת סיפור"
+      ],
+      "image_brief": "צילום חם וצבעוני של קבוצת ילדים קטנים ישובים על שטיח בספריית ילדים, מול מנחה שמחזיקה גיטרה ומנגן, ליד בובות ואביזרים על קרש קטן. הרקע מציג מדפי ספרים ועיצוב ילדים בהירים; הילדים צופים במרוכז וחלקם מחייכים או מניפים יד. האור טבעי ורך, אווירה מזמינה ופעילה.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -5386,7 +5435,41 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:52:15Z",
+      "missing_information": [
+        "שם/זהות הדובר(ים) או מנחה האירוע",
+        "פורמט מדויק של המפגש (הרצאה, סדנה, פאנל וכו')",
+        "משך האירוע",
+        "קהל יעד מפורט לפי גיל או מקצוע (אם יש הגבלה)",
+        "מחיר כרטיסים ואופן רכישה",
+        "שפת ההרצאה",
+        "הנחיות כניסה או תנאי השתתפות ספציפיים"
+      ],
+      "event_summary": "הסמול טוק: החשיבות הגדולה של “הדיבור הקטן” הוא אירוע על העברת מסרים בתקשורת הבין‑אישית. בכותרת האירוע מדובר בהתייחסות לתפקידו של \"הדיבור הקטן\" (Small Talk) בהיווצרות קשרים ובהעברת מסרים בין אנשים. האירוע מתקיים בראשון לציון, במתחם כותר חביב/כותר טף, ב‑25.10.2026 בשעה 12:00, ומאורגן על ידי רשת כותר ראשון.",
+      "short_pitch": "שיחה ציבורית על משמעות ה\"דיבור הקטן\" בתקשורת בין‑אישית: איך דיאלוג יומיומי קצר משפיע על העברת מסרים, יצירת קרבה ובניית רושם — מפגש מעמיק וברור על נושא רלוונטי לכל מי שמתקשר עם אחרים ביומיום. במקום: כותר חביב/כותר טף, ראשון לציון. מאורגן על ידי רשת כותר ראשון.",
+      "long_description": "הסמול טוק: החשיבות הגדולה של \"הדיבור הקטן\"–העברת מסרים בתקשורת הבין‑אישית מזמין את הקהל לחשוב מחדש על שיחות יומיומיות שנראות שוליֹת אך משפיעות. מה שמוכר כ\"דיבור קטן\" כולל ברכות, החלפת משפטים קצרים ושאלות כלליות — ובאירוע זה נבחנת תרומתם להעברת מסרים, ליצירת אמון ראשוני ולבניית נקודות תורפה וחוזק בקשרים בין‑אישיים. האירוע מועבר במסגרת פעילויות כותר ויُערך בכותר חביב/כותר טף בראשון לציון; המארגנת: רשת כותר ראשון. הפרטים המפורטים באתר מציינים את נושא השיחה וזמני המפגש, אך לא מפרטים דוברים או פורמט מדויק (הרצאה, סדנה או פאנל). האירוע עשוי לעניין אנשי מקצוע בתחומי חינוך, תקשורת ושירות לקוחות וכן כל אדם המעוניין לשפר אינטראקציות יומיומיות, לקבל תובנות מעשיות ולהבין טוב יותר כיצד מסרים עוברים בתוך שיחה קצרה.",
+      "event_type": "שיח/הרצאה",
+      "target_audience": [
+        "קהל בוגר",
+        "כלל הקהל",
+        "מעוניינים בתקשורת בין‑אישית"
+      ],
+      "visual_keywords": [
+        "שתי דמויות משוחחות ליד שולחן קפה",
+        "חדר ישיבות קטן או חלל ספרייה",
+        "מיקרופון שולחני או דוכן שיחה",
+        "קהל מאזין ישוב בכיסאות",
+        "תאורה חמה ואינטימית",
+        "אווירה ידידותית ובלתי פורמלית"
+      ],
+      "image_brief": "צילום על‑ידי מצלמה ברמת עין: חלל אירוע קטן עם קהל ישוב, שני אנשים בשיחה מקרבת ליד שולחן קפה או דוכן שיחה, תאורה חמה שמבליטה הבעות פנים ותקשורת בלתי‑מילולית (חיוכים, הקשבה). הרקע מרמז על ספרייה או חלל קהילתי ללא טקסט בולט בתמונה. הדגשת האינטראקציה האנושית והאווירה הלא‑פורמלית.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261025_1700_היפהפייה-הנרדמת-–-תיאטרון-הב",
@@ -5445,7 +5528,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261025_2000_אגם-הברבורים-–-תיאטרון-הבלט-",
@@ -5504,7 +5591,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1026_1100",
@@ -5568,7 +5659,47 @@
       "venue_phone": "03-9689700",
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:52:53Z",
+      "missing_information": [
+        "טווח גיל מדויק שהוגדר לאירוע (הטקסט מציין 'על-פי הגיל המצוין' אך הגיל לא נכלל במידע שסופק)",
+        "מחיר כרטיס",
+        "אופן ורכישה: קישור או נקודת מכירה ספציפית",
+        "משך מדויק של המופע",
+        "מספר מקומות מדויק/קיבולת האולם",
+        "פרטי נגישות (נגישות לנכים, רכיבה וכו')",
+        "מדיניות ביטולים מפורטת מעבר לכך שאין החזר על אי הגעה"
+      ],
+      "event_summary": "פעילות מוזיקלית אינטראקטיבית לקטנטנים המוצגת על-ידי גלי פטילון (תיאטרון של גלי). המפגש כולל הפעלה מוזיקלית איכותית עם בובות, אביזרים ושעת סיפור קצרה. האירוע יתקיים בכותר ראשון חביב, ראשון לציון, ב-26.10.2026 בשעה 11:00. הכניסה לפי הגיל המצויין בלבד; כל משתתף חייב כרטיס וליווי מבוגר דרוש.",
+      "short_pitch": "הצטרפו להפעלה מוזיקלית לקטנטנים של גלי פטילון: בובות ואביזרים, שעת סיפור קצרה ואינטראקציה עם הילדים. האירוע מתקיים בכותר ראשון חביב בראשון לציון — כרטיס לכל משתתף נחוץ, מקומות מוגבלים.",
+      "long_description": "הפינה של גלי היא מפגש מוזיקלי מיועד לקטנטנים שמציע שילוב של שירה, משחק אינטראקטיבי, בובות ואביזרים לצד שעת סיפור קצרה. המופע מועבר על-ידי גלי פטילון (תיאטרון של גלי) ונועד לעודד השתתפות של הילדים דרך מוזיקה, הקשבה והפעלות פשוטות. האירוע מתקיים בכותר ראשון חביב בראשון לציון ב-26.10.2026 בשעה 11:00, ומוצע במסגרת פעילויות כותר טף של רשת כותר ראשון. יש לשים לב לכללי הכניסה: הכניסה לשעת הסיפור על-פי הגיל המצוין בלבד, אין כניסה של אחים קטנים/גדולים, הכניסה מותרת בליווי מבוגר בלבד, וכל משתתף — כולל הורה מלווה — חייב ברכישת כרטיס. מצוין שאין החזר כספי על אי הגעה ומספר המקומות מוגבל; הזכות לשינויים נשמרת. לפרטי תקנון נוספים יש לעיין בתנאי כותר טף של המארגנים.",
+      "event_type": "פעילות מוזיקלית לקטנטנים",
+      "participants": [
+        "גלי פטילון",
+        "תיאטרון של גלי"
+      ],
+      "target_audience": [
+        "קטנטנים",
+        "הורים/מלוים",
+        "משפחות עם ילדים"
+      ],
+      "visual_keywords": [
+        "בובות כף-יד צבעוניות",
+        "אביזרים תיאטרליים",
+        "מצלול/מוזיקה חיה",
+        "שעת סיפור קצרה",
+        "הופעה אינטראקטיבית",
+        "ילדים צופים ומשתתפים",
+        "מלווה מבוגר לצד הילדים",
+        "חלל ספרייה/אולם קטן"
+      ],
+      "image_brief": "כיסוי ויזואלי: גלי פטילון על במה קטנה או בפינת ספרייה, מחזיקה בובות יד צבעוניות ואביזרים; מספר ילדים יושבים מול המופע והורה מלווה עומד או יושב סמוך. ברקע מדפי ספרים או קיר עמעם, תאורה חמה וצבעונית שמדגישה את האווירה ההשתתפותית. התמונה מדגישה קשר עין בין המבצעת לילדים ואת הבובות כאמצעי מרכזי.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -5624,7 +5755,23 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:53:23Z",
+      "missing_information": [
+        "פורמט האירוע (מופע מוזיקלי / הרצאה / הקרנה / סדנה)",
+        "שמות משתתפים, מנחים או מבצעים",
+        "מחיר כרטיסים ואופן רכישה",
+        "משך האירוע",
+        "המלצות גיל או הגבלות גיל",
+        "שפת האירוע",
+        "פרטי קשר ספציפיים להזמנות מעבר לאתר"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261026_2030_מאיר-לביא-ועד-רוסיני",
@@ -5683,7 +5830,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -5742,7 +5893,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -5798,7 +5953,49 @@
       "venue_website": "https://yama.smarticket.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "03-5555900",
-      "contact_email": "info@yama.co.il"
+      "contact_email": "info@yama.co.il",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://yama.smarticket.co.il/בחירות_2026_-_כניסה",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:53:44Z",
+      "missing_information": [
+        "מחיר כרטיסים או האם הכניסה בחינם",
+        "האם נדרש רישום מראש או כמות מקומות מוגבלת",
+        "משך כל פעילות ולוח זמנים מפורט",
+        "שפות ההדרכות והסיורים",
+        "פרטי מאורגן/איש קשר ופרטי קשר",
+        "מידע נגישות ונגישות לנכים",
+        "טווח גילאים מומלץ לסדנאות"
+      ],
+      "event_summary": "במוזיאון אגם בראשון לציון מתקיים ביום הבחירות (27 באוקטובר 2026, 10:00) יום פתוח של פעילות תרבותית למשפחות וקהל הרחב. התוכנית כוללת סיורים מודרכים לקהל הרחב ולמשפחות, סדנאות יצירה קינטיות לילדים ותצוגה זמנית בשם \"מעבר לנגלה\" המפגישה יצירות של יעקב אגם ומנשה קדישמן. האירוע מיועד להציע אלטרנטיבה יצירתית ליום הבחירות ולחגוג אמנות ותנועה לכל הגילאים.",
+      "short_pitch": "ביום של הבחירות מוזיאון אגם מזמין את הציבור ליהנות מסיורים מודרכים, סדנאות יצירה קינטיות לילדים ותערוכה מתחלפת שבה מוצגות עבודות של יעקב אגם ומנשה קדישמן — פעילות משפחתית ותרבותית במקום אחד.",
+      "long_description": "ביום שלישי, 27 באוקטובר 2026, מוזיאון אגם פותח את שעריו בבוקר לביקור חווייתי למשפחות ולחובבי אמנות. במהלך היום יתקיימו סיורים מודרכים לקהל הרחב וכן גרסה מותאמת למשפחות, שמטרתה להקריב את היכרות עם עבודותיו ועולמו של יעקב אגם בדרך חווייתית. לילדים מוצעות סדנאות יצירה קינטיות בהשראת שפת התנועה והצבע של האמן. במקביל מוגשת תערוכה מתחלפת בשם \"מעבר לנגלה\", שמפגישה בין יצירות של יעקב אגם ומנשה קדישמן ומזמינה להתבוננות מעמיקה ולאפשרות לראות מעבר למופע החיצוני של היצירה. האירוע מתאים למי שמחפש פעילות תרבותית משפחתית ביום הבחירות ולכל מי שמעוניין לסייר במוזיאון ולצפות בתערוכה זמנית. פרטים טכניים נוספים לגבי כרטיסים ורישום לא צוינו במידע המקורי.",
+      "event_type": "תערוכה וסדנאות",
+      "participants": [
+        "יעקב אגם",
+        "מנשה קדישמן"
+      ],
+      "target_audience": [
+        "משפחות",
+        "ילדים",
+        "קהל הרחב",
+        "חובבי אמנות"
+      ],
+      "visual_keywords": [
+        "גלריה של מוזיאון",
+        "יצירות של יעקב אגם",
+        "עבודות של מנשה קדישמן",
+        "צבעים בולטים ותנועה",
+        "סדנת יצירה קינטית לילדים",
+        "משפחות בסיור מודרך",
+        "חומרי יצירה על שולחן",
+        "מדריך מסביר לקהל"
+      ],
+      "image_brief": "צילום כיסוי שמצולם בתוך גלריית מוזיאון: ברקע נראים קירות עם יצירות בתצוגה (כולל עבודות המציגות תנועה וצבעוניות המזוהה עם יעקב אגם), ובחזית משפחה עם ילדים המשתתפים בסדנת יצירה קינטית — שולחן עבודה עם חומרים, ילד/ה עסוקים ביצירה ומדריך בקרבתם. האווירה מוארת, פעילה ומשפחתית, ללא טקסט מוטמע בתמונה.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
