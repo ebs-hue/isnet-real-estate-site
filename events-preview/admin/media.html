@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>בנק המדיה | ISNET</title>
+  <link rel="stylesheet" href="styles.css?v=20261007-media">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="auth/config.js?v=20261007-1225"></script>
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">ISNET AI CMS · בנק מדיה</div>
+    <h1>בנק התמונות המרכזי</h1>
+    <p>תמונות מאושרות לפי אמן, מופע, קטגוריה, עיר ומקור. אותה תמונה משמשת את כל הרשת בלי שכפול.</p>
+  </div>
+  <div class="top-actions">
+    <a class="secondary action-link" href="index.html">← מרכז ניהול אירועים</a>
+    <a class="secondary action-link" href="agents.html">🤖 סוכנים</a>
+  </div>
+</header>
+<main>
+  <section id="mediaStats" class="stats"></section>
+  <section class="panel filters">
+    <div class="panel-title">
+      <div><h2>חיפוש בבנק</h2><p>חיפוש לפי אמן, מופע, קטגוריה, עיר, אירוע או מקור.</p></div>
+      <button id="mediaClear" class="text-btn">נקה מסננים</button>
+    </div>
+    <div class="filter-grid media-filter-grid">
+      <label class="search"><span>חיפוש</span><input id="mediaQ" type="search" placeholder="למשל: קובי מימון, ילדים, אשדוד"></label>
+      <label><span>עיר</span><select id="mediaCity"><option value="">כל הערים</option></select></label>
+      <label><span>קטגוריה</span><select id="mediaCategory"><option value="">כל הקטגוריות</option></select></label>
+      <label><span>סטטוס</span><select id="mediaStatus"><option value="">הכול</option><option value="approved">מאושרות</option><option value="needs_review">לבדיקה</option><option value="rejected">פסולות</option></select></label>
+    </div>
+  </section>
+  <section class="panel">
+    <div class="panel-title"><div><h2>נכסי מדיה</h2><p id="mediaCount">טוען...</p></div></div>
+    <div id="mediaGrid" class="media-grid"></div>
+    <div id="mediaEmpty" class="empty" hidden>לא נמצאו תמונות.</div>
+  </section>
+</main>
+<script src="media.js?v=20261007-media"></script>
+<script type="module">
+import {requireAuth} from "./auth/guard.js?v=20261007-1225";
+await requireAuth();
+</script>
+</body>
+</html>
