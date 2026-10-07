@@ -10322,7 +10322,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10384,7 +10388,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10442,7 +10449,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10502,7 +10513,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10558,7 +10573,25 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:03:04Z",
+      "missing_information": [
+        "תיאור מפורט של תוכן האירוע (האם סדנה, הצגה, הרצאה וכו')",
+        "גיל יעד של המשתתפים",
+        "משך המפגש",
+        "מחיר כרטיסים או קישור לרכישה",
+        "שמות משתתפים, מנחים או שחקנים מעורבים",
+        "שפת האירוע",
+        "פרטי הרשמה מראש ונוהל קבלת כרטיסים",
+        "נגישות (נגישות פיזית/שירותי שמיעה/תרגום)",
+        "פרטי קשר מדויקים לצורך בירורים והבהרות מעבר לכתובת האימייל הכללית"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "city": "ראשון לציון",
@@ -10620,7 +10653,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261129_2030_מורדות",
@@ -10679,7 +10715,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261130_1700_מורדות",
@@ -10738,7 +10778,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10798,7 +10842,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_k_1201_1900",
@@ -10861,7 +10908,44 @@
       "venue_phone": "03-9636800",
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:03:38Z",
+      "missing_information": [
+        "תקציר מלא או תוכן המופע",
+        "שמות המשתתפים (שחקנים, במאי, שדרים וכו')",
+        "משך ההצגה",
+        "מחיר כרטיסים ופרטי רכישה",
+        "הגבלת גיל/המלצות גיל",
+        "שפת המופע",
+        "נגישות המקום (נגישות לנכים, תרגום/שירותי שמיעה)",
+        "מדיניות החזרת כרטיסים או ביטול"
+      ],
+      "event_summary": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע הוא ערב תיאטרלי-ספרותי שייארח בראשון לציון. האירוע מתוכנן ל-1.12.2026 בשעה 19:00 בכותר ראשון שקמה. הכותרת מרמזת על מופע שבו סוף ההצגה אינו קבוע או ידוע מראש.",
+      "short_pitch": "מופע תיאטרלי-ספרותי בשם \"אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע\" — ערב במה שמשלב אלמנטים ספרותיים ותיאטרליים, שיתקיים בכותר ראשון שקמה בראשון לציון ב-1.12.2026 בשעה 19:00. הכותרת מציינת שסיום המופע אינו קבוע, מה שמרמז על אופי אימפרוביזציה או הפתעה.",
+      "long_description": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע מיועד לקהל שמחפש ערב תרבותי שבו מילים ומשחק במה נפגשים. לפי הכותרת, הערב מציע אלמנט של חוסר ודאות בסיום — מאפיין שמזכיר מופעי אימפרוביזציה או ניסוי סיפורי בתיאטרון. המידע שברשותנו כולל את שם המופע, התאריך, השעה והמקום (כותר ראשון שקמה, ראשון לציון), אך אין פירוט על המשתתפים, משך ההצגה או תוכן העלילה. מי שמתעניין במפגש בין ספרות לתיאטרון עשוי למצוא כאן חוויה בלתי שגרתית; מומלץ לבדוק פרטים נוספים מול מארגני רשת כותר ראשון לפני רכישת כרטיסים.",
+      "event_type": "מופע תיאטרלי-ספרותי",
+      "target_audience": [
+        "חובבי תיאטרון",
+        "חובבי ספרות",
+        "קהל הבוגר/ציבור הרחב"
+      ],
+      "visual_keywords": [
+        "במה קטנה",
+        "ספר פתוח",
+        "פנס במה (ספוט)",
+        "שחקנים בתנועה מטושטשת",
+        "וילון תיאטרון כהה",
+        "צללים וקווי אור דרמטיים",
+        "מיקרופון או שרפרף על הבמה",
+        "סימן שאלה כסימבול של מסתורין"
+      ],
+      "image_brief": "צילום או אילוסטרציה של במה תיאטרלית חשוכה: ספוט בודד מאיר ספר פתוח המונח על שרפרף במרכז הבמה. ברקע וילון כהה ודמויות שחקנים מטושטשות בתנועה, שיוצרות תחושת תנועה ואי־וודאות. תאורה דרמטית וצללים חזקים ידגישו את הממד הספרותי־מסתורי של האירוע; אין להכליל לוגואים או טקסט מוטבע בתמונה.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261201_2030_מורדות",
@@ -10920,7 +11004,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -10980,7 +11068,44 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:04:19Z",
+      "missing_information": [
+        "שמות המבצעים והאורחים",
+        "משך המופע ותוכנית השירים",
+        "מחירי כרטיסים ואופן רכישה",
+        "האם יש הנחות/כרטיסים לילדים",
+        "הגבלות גיל או התאמות למשפחות",
+        "מידע על נגישות ונוחיות (חנייה, מעליות וכו')",
+        "שפת ההופעה (עברית/שפות נוספות)",
+        "האם המופע בפנים/בחוץ ותנאי מזג־אוויר חליפיים",
+        "פרטי קשר מעודכנים להזמנות ושאלות"
+      ],
+      "event_summary": "עולם האופנה: שמש ומדבר היא חגיגת זמר ישראלית לכבוד חג האורות, שתתקיים בראשון לציון. המופע ייערך ב־כותר ראשון – חביב בתאריך 3.12.2026 בשעה 19:00 ומאורגן על־ידי רשת כותר ראשון. האירוע מיועד למי שמתעניין בשירה הישראלית ובאירועי חג באווירה מוזיקלית.",
+      "short_pitch": "מופע זמר ישראלי לכבוד חג האורות בשם \"עולם האופנה: שמש ומדבר\" — ערב מוזיקלי בכותר ראשון – חביב בראשון לציון ב־3.12.2026, המאורגן על ידי רשת כותר ראשון. ערב שמתמקד בשירי זמר ישראלי ולאור חנוכה.",
+      "long_description": "האירוע \"עולם האופנה: שמש ומדבר\" מוצג כחגיגת זמר ישראלית לציון חג האורות. לפי פרטי המקור, זהו מופע מוזיקלי שייערך בערב ה־3 בדצמבר 2026 בכותר ראשון – חביב בראשון לציון, בהפקת רשת כותר ראשון. הכותרת משלבת שני מוטיבים בולטים — שמש ומדבר — והאמירה על חגיגת זמר מצביעה על דגש על שירה ישראלית כמייצג תרבותי וחגיגי של העונה. המידע הזמין אינו מפרט את רשימת המשתתפים, את משך המופע או את מבנה התוכנית, לכן מומלץ לבדוק פרטים מעודכנים מול המארגנים לפני רכישת כרטיסים. האירוע מתאים לקהל כללי ולאוהבי מוזיקה ישראלית המחפשים ערב חגיגי ומוזיקלי בחג החנוכה.",
+      "event_type": "מופע זמר",
+      "target_audience": [
+        "קהל כללי",
+        "משפחות",
+        "אוהבי מוזיקה ישראלית"
+      ],
+      "visual_keywords": [
+        "שמש זהובה נמוכה על רקע",
+        "דיונות מדבר",
+        "במה עם מיקרופון",
+        "תאורה חמה זהובה",
+        "חנוכיה או נרות חנוכה ברקע",
+        "קהל מאזין",
+        "צלליות של זמר/זמרת"
+      ],
+      "image_brief": "צילום או איור אופייני למסע פרסומי: במה מוארת באור חם זהוב, מיקרופון במרכז והצללית של זמר/זמרת עומד/ת על הבמה. ברקע מעוצב גרפית מוטיב של שמש ושורות דיונות מדבר, ולצד הבמה ניכרת חנוכיה עם להבה עדינה שמרמזת על חנוכה. האווירה חמימה וחגיגית, בהדגשת מוזיקה ושורשיות ישראלית.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261203_2100_בוא-לא-נדבר-על-זה",

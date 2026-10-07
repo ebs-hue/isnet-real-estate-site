@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T19:02:16Z",
+  "generated_at": "2026-10-07T19:04:19Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 1,
+  "enriched": 2,
   "insufficient": 1,
-  "source_text_insufficient": 10,
+  "source_text_insufficient": 9,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261121_2030_אוי-אלוהים",
-      "title": "אוי אלוהים",
+      "event_id": "htrl_20261128_1100_קוגומלו-–-שכחו-אותי-בג'ונגל",
+      "title": "קוגומלו – שכחו אותי בג'ונגל",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_0d8d53133bb98afc2c4f",
-      "title": "לשתול עץ דקל מעל קברי",
+      "event_id": "auto_ri_79f39b31e5ed04647185",
+      "title": "לוח השנה העברי",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_1fbddc3e2b7a2ec22e53",
+      "title": "מועדון הזמר של אילנה כץ – לאור הזכרונות",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_272fe5273dff3cca64c2",
+      "title": "זוגיות AI",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_09bafa61f59918d579e0",
+      "title": "משעמם לי!",
       "status": "insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_e88ad22e533510f99280",
-      "title": "נובה חדשה התזמורת האנדלוסית",
+      "event_id": "auto_ri_ed225be0a53efca0fcf5",
+      "title": "ימין ושמאל – רק חול וחול",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261123_2030_בילי-שוורץ",
-      "title": "בילי שוורץ",
+      "event_id": "htrl_20261129_2030_מורדות",
+      "title": "מורדות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_6096a30d16df052784ba",
-      "title": "אולסי פרי הסיפור שלא נגמר",
+      "event_id": "htrl_20261130_1700_מורדות",
+      "title": "מורדות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_62bc846af26ed44811d8",
-      "title": "רוקדים לצלילי אלביס",
+      "event_id": "auto_ri_ee8e1de7b8555cc9bcff",
+      "title": "שיח המקדים ל\"מורדות\" עם אמנון לוי",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1124_1900",
-      "title": "על מסע היצירה של הספרים \"סולם גנבים\" ו\"צומת מסובים\"",
+      "event_id": "r_k_1201_1900",
+      "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261124_2030_מיקה-שלי",
-      "title": "מיקה שלי",
+      "event_id": "htrl_20261201_2030_מורדות",
+      "title": "מורדות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_8456a441b67eb5c499a5",
-      "title": "אלכסנדר פן: \"היה או לא היה\"",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_8cb76fdf07e9b1d83318",
-      "title": "או לה לה",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261126_2030_שושנה-–-מחזמר",
-      "title": "שושנה – מחזמר",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_533cb34493b9a28371a8",
-      "title": "זוג משמיים",
-      "status": "source_text_insufficient"
+      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9",
+      "title": "עולם האופנה: שמש ומדבר",
+      "status": "ready"
     }
   ]
 }
