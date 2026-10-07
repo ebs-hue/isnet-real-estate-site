@@ -24,12 +24,12 @@ def get_json(url):
 def artist_names(event):
     if event.get("category") != "standup":
         return []
-    title = re.sub(r"\\s+", " ", str(event.get("title") or "")).strip()
+    title = re.sub(r"\s+", " ", str(event.get("title") or "")).strip()
     names = [str(p).strip() for p in event.get("performers", []) if isinstance(p, str)]
     # Stand-up event titles sometimes contain only the comedian's name.
     # Do NOT infer the artist from generic show names or arbitrary first words.
     if 5 <= len(title) <= 35 and not re.search(r"[-–|:]|מופע של|ערב סטנדאפ|פסטיבל|מרתון|קומדי|סטנדאפ עם", title):
-        title = re.sub(r"\\s+(?:במופע|בסטנדאפ|סטנדאפ).*?$", "", title).strip()
+        title = re.sub(r"\s+(?:במופע|בסטנדאפ|סטנדאפ).*?$", "", title).strip()
         if len(title.split()) in (2, 3):
             names.append(title)
     return sorted({n for n in names if len(n) >= MIN_NAME_LENGTH})
@@ -75,7 +75,7 @@ def main():
                                    "review_status": "pending"})
     out = Path(os.getenv("OUTPUT_PATH", "/tmp/standup-review.json"))
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"pending_review": candidates}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    out.write_text(json.dumps({"pending_review": candidates}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Discovered {len(candidates)} candidate clips from {len(artists)} uncovered artists.")
     print("Review channel identity, artist identity, embeddability and rights before adding to shared catalog.")
     return 0
