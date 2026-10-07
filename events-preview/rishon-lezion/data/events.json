@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-07T05:25:23Z",
+  "generated_at": "2026-10-07T09:36:20Z",
   "window": {
     "from": "2026-10-07",
     "to": "2027-09-20"
   },
   "stats": {
-    "events": 323
+    "events": 324
   },
   "events": [
     {
@@ -2871,6 +2871,65 @@
       "operator_name": "לגלות תרבות",
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/"
+    },
+    {
+      "city": "ראשון לציון",
+      "title": "מסייה אזנבור",
+      "description": null,
+      "start_date": "2026-10-20",
+      "end_date": null,
+      "start_time": "11:00",
+      "end_time": null,
+      "venue": "היכל התרבות מאיר ניצן",
+      "address": "ז׳בוטינסקי 16, ראשון לציון",
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_url": "https://htrl.co.il/לוח-שנה/",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": null,
+      "image_source": null,
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "missing",
+      "image_candidates": [],
+      "image_origin_url": null,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": "היכל התרבות מאיר ניצן",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "htrl",
+          "url": "https://htrl.co.il/לוח-שנה/",
+          "source_type": "official",
+          "observed_at": "2026-10-07T09:36:20Z"
+        }
+      ],
+      "observed_at": "2026-10-07T09:36:20Z",
+      "last_verified_at": "2026-10-07T09:36:20Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_calendar"
+      ],
+      "event_id": "auto_ri_2b73e142970ab3ea5828",
+      "operator_id": "htrl",
+      "operator_name": "היכל התרבות מאיר ניצן",
+      "contact_phone": "03-9488666",
+      "organizer_url": "https://htrl.co.il/",
+      "venue_institution_id": "htrl",
+      "venue_phone": "03-9488666",
+      "venue_website": "https://htrl.co.il/",
+      "address_source": "verified_institution_registry"
     },
     {
       "city": "ראשון לציון",

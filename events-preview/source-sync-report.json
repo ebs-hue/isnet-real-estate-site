@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-07T05:24:59Z",
+  "run_at": "2026-10-07T09:35:56Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -10,18 +10,20 @@
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 217,
-          "valid": 213,
-          "new": 0,
-          "updated": 0
+          "discovered": 222,
+          "valid": 218,
+          "new": 5,
+          "updated": 136,
+          "images_collected": 218
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
-          "discovered": 97,
-          "valid": 97,
-          "new": 0,
-          "updated": 0
+          "discovered": 98,
+          "valid": 98,
+          "new": 1,
+          "updated": 71,
+          "images_collected": 98
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -29,7 +31,8 @@
           "discovered": 36,
           "valid": 35,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 35
         },
         "ofek_ashdod": {
           "status": "ok",
@@ -37,28 +40,30 @@
           "discovered": 23,
           "valid": 23,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 0
         }
       },
-      "new": 0,
-      "updated": 0,
+      "new": 6,
+      "updated": 207,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 390
+      "total_after": 396
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 322,
+      "total_before": 323,
       "sources": {
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
-          "discovered": 148,
-          "valid": 148,
+          "discovered": 149,
+          "valid": 149,
           "new": 1,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 0
         },
         "htrl_adults": {
           "status": "ok",
@@ -66,7 +71,8 @@
           "discovered": 117,
           "valid": 115,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 0
         },
         "yama": {
           "status": "ok",
@@ -74,7 +80,8 @@
           "discovered": 11,
           "valid": 11,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 11
         },
         "kotar_rishon": {
           "status": "ok",
@@ -82,7 +89,8 @@
           "discovered": 71,
           "valid": 37,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 0
         },
         "RIZONE+": {
           "status": "no_parseable_events",
@@ -90,7 +98,8 @@
           "discovered": 0,
           "valid": 0,
           "new": 0,
-          "updated": 0
+          "updated": 0,
+          "images_collected": 0
         },
         "Eventim": {
           "status": "failed",
@@ -99,6 +108,7 @@
           "valid": 0,
           "new": 0,
           "updated": 0,
+          "images_collected": 0,
           "error": "ReadTimeout"
         }
       },
@@ -111,7 +121,7 @@
         "Eventim:ReadTimeout"
       ],
       "repaired_event_ids": 0,
-      "total_after": 323
+      "total_after": 324
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."
