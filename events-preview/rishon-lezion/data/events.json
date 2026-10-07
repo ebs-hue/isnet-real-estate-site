@@ -12736,7 +12736,25 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:06:19Z",
+      "missing_information": [
+        "תיאור תכני האירוע — אין בתמליל המקור תיאור של מהות האירוע בשם \"אל תוך הנשמה\".",
+        "פורמט מדויק — האם מדובר בהרצאה, מופע מוזיקלי, שיחה עם סופרת, סדנה או פעילות אחרת לא צוין.",
+        "משתתפים ואמנים — שמות מובילים או משתתפים לא מוזכרים במקור כקשורים לכותר זה.",
+        "קהל יעד מפורט — לא ידוע האם האירוע מיועד לילדים, למבוגרים, למשפחות או לקהל מקצועי.",
+        "מחיר כרטיסים וזמינות — אין מידע על מחירים, נקודות רכישה או מדיניות החזר עבור האירוע הזה.",
+        "משך האירוע — לא צוינה משך משוער.",
+        "שפה/שפות בהן יתקיים האירוע — לא מצוין.",
+        "דרישות כניסה — גיל מינימלי, ליווי הורים או כל תנאי כניסה אחרים אינם ידועים.",
+        "פרטי התקשרות לרכישה/להבהרות — אין פרטי יצירת קשר ספציפיים לאירוע זה במקור."
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261215_2030_לילות-ספרד",
@@ -12795,7 +12813,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -12851,7 +12873,26 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:06:51Z",
+      "missing_information": [
+        "תיאור מפורט של תכני האירוע (פורמט: הרצאה/סדנה/הצגה/וובשופ)",
+        "שם/שמות המנחים והמשתתפים",
+        "משך הפעילות",
+        "עלות/מחיר כרטיסים ותנאי רכישה",
+        "אמצעי רישום וקישור לרכישת כרטיסים",
+        "מגבלות גיל וקהל יעד מדויק",
+        "נגישות ונוחיות (נגישות לנכים, תרגום לשפת סימנים)",
+        "האם נדרש ציוד מיוחד או הכנה מראש",
+        "כמות מקומות/הגבלת קיבולת",
+        "שפת המפגש"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261217_2030_היומן",
@@ -12910,7 +12951,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261218_1200_היומן",
@@ -12969,7 +13014,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13031,7 +13080,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13089,7 +13141,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261219_2030_היומן",
@@ -13148,7 +13203,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13210,7 +13269,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13266,7 +13328,25 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:07:28Z",
+      "missing_information": [
+        "פורמט האירוע (האם הרצאה, שיחה, מפגש שולחן עגול, סדנה או משהו אחר)",
+        "שם/שמות דוברים או משתתפים",
+        "תכנית מפורטת או נקודות שיחה",
+        "אורך/משך האירוע",
+        "שפת האירוע",
+        "מחיר/תנאי רכישת כרטיסים (נוסף על העובדה שאזלו)",
+        "מידע על נגישות ונוחיות (כגון נגישות לנכים)",
+        "האם יתקיים שידור או הקלטה",
+        "מספר מקומות מדויק והגבלות כניסה נוספות"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "city": "ראשון לציון",
@@ -13324,7 +13404,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
@@ -13386,7 +13470,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
