@@ -188,6 +188,23 @@ def main():
         title=e.get("title") or ""; sources=[x.get("url") for x in e.get("sources",[]) if x.get("url")]
         if not sources:
             failures.append({"event_id":e.get("event_id"),"title":title,"reason":"no_source"});continue
+
+        # Fast path: an image was already collected during intake. Verify the binary
+        # against its recorded official/event source before performing a new search.
+        current=e.get("image_url") or ""
+        current_ref=e.get("image_source") or e.get("image_origin_url") or e.get("ticket_url") or sources[0]
+        source_related=any(same_host(current_ref,s) or same_host(current,s) for s in sources)
+        if current.startswith("https://") and source_related and verify(current,current_ref):
+            e["image_source"]=current_ref
+            e["image_origin_url"]=e.get("image_origin_url") or current
+            e["image_publishable"]=True
+            e["image_verified"]=True
+            e["image_rights_status"]="verified_official_source"
+            e["image_strategy"]="collected_source_image_verified"
+            stats["verified_existing_candidate"]+=1
+            print(f"[{i:03d}/{len(events)}] VERIFIED EXISTING {title} -> {current}")
+            continue
+
         ck=(norm(title),tuple(sorted(urlparse(x).hostname or "" for x in sources)))
         if ck in title_cache:
             img,src=title_cache[ck]
