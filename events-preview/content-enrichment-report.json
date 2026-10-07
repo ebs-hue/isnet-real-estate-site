@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T17:49:33Z",
+  "generated_at": "2026-10-07T17:52:53Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 10,
-  "insufficient": 1,
+  "enriched": 11,
+  "insufficient": 0,
   "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_50a7efb2b50ebe61a225",
-      "title": "סטודיו פתוח",
+      "event_id": "auto_as_61122eedddd876637d0d",
+      "title": "פסטיבל ילד פלא - יעודי לגדולות מהחיים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_4b2ebdf73be27f322465",
-      "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
+      "event_id": "auto_as_53b36d3a117f507f77b7",
+      "title": "מפצח האגוזים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7f6f806aaa9f19331b15",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "event_id": "auto_as_f96995c1a51072386af2",
+      "title": "סינדרלה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_df38991c21985134c422",
-      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "event_id": "auto_as_927802792107d0068f24",
+      "title": "שקרים קטנים קומדיה משפחתית מופרעת",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_19c0457586e8a88fbe65",
-      "title": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_6edc79b3206c44047ae2",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_64_20261207",
-      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
+      "event_id": "evt_65_20261212",
+      "title": "חן מזרחי",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0796e91ed6cd6d37f9ca",
-      "title": "סיפור הנס",
-      "status": "insufficient"
+      "event_id": "evt_28_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_5f852eb04bb2d0cae7e1",
+      "event_id": "evt_29_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_30_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_c16e2e89a69bbed03363",
+      "title": "בודי בלט| סדנא בונה עצם לנשים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_3d3cdcdf993039f9fe16",
+      "title": "בעקבות סופרים בנחלאות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_31_20261215",
+      "title": "השועל המוסיקלי החיפושיות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_59655390abaa9c53aa61",
       "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_84_20261208",
-      "title": "היפה והחיה",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_b6b558da8a85b64e0cea",
-      "title": "סיפור חנוכה | שעת סיפור עם רינתי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_85_20261208",
-      "title": "היפה והחיה",
       "status": "ready"
     }
   ]
