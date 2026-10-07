@@ -13,6 +13,7 @@ import json
 import re
 import unicodedata
 from collections import defaultdict
+from difflib import SequenceMatcher
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -20,6 +21,8 @@ from urllib.parse import urlparse
 ROOT=Path(__file__).resolve().parents[1]
 EVENTS=ROOT/"events-preview"
 OUT=EVENTS/"media-bank"/"data"/"media.json"
+ARTISTS_OUT=EVENTS/"media-bank"/"data"/"artists.json"
+PRODUCTIONS_OUT=EVENTS/"media-bank"/"data"/"productions.json"
 CITIES={
     "ashdod": EVENTS/"ashdod"/"data"/"events.json",
     "rishon-lezion": EVENTS/"rishon-lezion"/"data"/"events.json",
@@ -43,6 +46,14 @@ def image_key(e):
 
 def category_label(e):
     return e.get("category") or "other"
+
+def similarity(a,b):
+    a,b=norm(a),norm(b)
+    if not a or not b: return 0.0
+    if a==b: return 1.0
+    sa,sb=set(a.split()),set(b.split())
+    token=(len(sa&sb)/max(1,len(sa|sb)))
+    return .7*SequenceMatcher(None,a,b).ratio()+.3*token
 
 def people(e):
     out=[]
@@ -120,11 +131,47 @@ def main():
             a["usage_count"]=len(a["events"])
             stats["image_links"]+=1
 
+    # Detect suspicious image reuse across unrelated productions. Do not hard reject:
+    # flag for media QA so a legitimate series/artist image can still be kept.
+    for a in assets.values():
+        titles=[x for x in a.get("productions",[]) if x]
+        min_sim=1.0
+        if len(titles)>1:
+            for i in range(len(titles)):
+                for j in range(i+1,len(titles)):
+                    min_sim=min(min_sim,similarity(titles[i],titles[j]))
+        a["reuse_risk"]="review" if len(titles)>1 and min_sim<0.24 else "low"
+        a["reuse_similarity_floor"]=round(min_sim,3) if len(titles)>1 else None
+        if a["reuse_risk"]=="review" and a["status"]=="approved":
+            a["status"]="needs_review"
+            a["publishable"]=False
+            a["review_reason"]="same_image_used_for_dissimilar_event_titles"
+
     rows=sorted(assets.values(),key=lambda x:(x["status"]!="approved",-x["usage_count"],x["media_id"]))
     for x in rows: stats[x["status"]]+=1
     stats["unique_images"]=len(rows)
     OUT.parent.mkdir(parents=True,exist_ok=True)
-    OUT.write_text(json.dumps({"generated_at":now,"stats":stats,"media":rows},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    payload={"generated_at":now,"stats":stats,"media":rows}
+    OUT.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+
+    # Reusable entity indexes. These are intentionally network-wide rather than city-owned.
+    artist_map={}
+    production_map={}
+    for a in rows:
+        for artist in a.get("artists",[]):
+            key=norm(artist)
+            ent=artist_map.setdefault(key,{"artist_key":key,"name":artist,"media":[],"cities":[],"categories":[]})
+            ent["media"].append(a["media_id"])
+            ent["cities"]=sorted(set(ent["cities"]+a.get("cities",[])))
+            ent["categories"]=sorted(set(ent["categories"]+a.get("categories",[])))
+        for production in a.get("productions",[]):
+            key=norm(production)
+            ent=production_map.setdefault(key,{"production_key":key,"name":production,"media":[],"cities":[],"categories":[]})
+            ent["media"].append(a["media_id"])
+            ent["cities"]=sorted(set(ent["cities"]+a.get("cities",[])))
+            ent["categories"]=sorted(set(ent["categories"]+a.get("categories",[])))
+    ARTISTS_OUT.write_text(json.dumps({"generated_at":now,"artists":sorted(artist_map.values(),key=lambda x:x["name"])},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    PRODUCTIONS_OUT.write_text(json.dumps({"generated_at":now,"productions":sorted(production_map.values(),key=lambda x:x["name"])},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(stats,ensure_ascii=False))
 
 if __name__=="__main__":
