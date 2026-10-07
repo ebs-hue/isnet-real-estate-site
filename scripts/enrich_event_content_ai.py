@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 4
+CONTENT_ENRICHMENT_VERSION = 5
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
@@ -128,18 +128,35 @@ def fetch_source_text(url):
         return ""
 
 def ask_model(event, source_text, source_url):
-    instructions = """אתה עורך תוכן בכיר ברשת מקומונים ישראלית.
-המטרה: להפוך כל רשומת אירוע גולמית לעמוד אירוע מקורי, ברור, שימושי ומעניין לקורא.
+    instructions = """אתה עורך תרבות ואירועים בכיר ברשת מקומונים ישראלית.
+המטרה: להפוך כל רשומת אירוע גולמית לעמוד תוכן מקורי, קולח, ברור ושימושי לקורא שמתלבט אם להגיע.
 
-עקרונות חובה:
-- השתמש רק בעובדות הנתמכות בנתוני האירוע ובטקסט המקור.
+עיקרון העל:
+קודם להבין מהו האירוע עצמו כיצירה, מופע, הצגה, הרצאה, סדנה, תערוכה או פעילות. רק אחר כך לחבר אליו את פרטי ההופעה המקומית כמו עיר, אולם, תאריך ושעה.
+אל תכתוב תוכן כאילו האירוע "שייך" לעיר מסוימת אם מדובר במופע נודד, הצגה רצה, הרצאה חוזרת או הפקה שמופיעה במקומות שונים.
+
+מה חשוב לקורא:
+- במה האירוע עוסק בפועל.
+- מה הסיפור, הנושא, הקונספט או החוויה.
+- מה מיוחד או מעניין בו לעומת אירועים דומים.
+- מי היוצרים, השחקנים, האמנים, המרצים או המשתתפים המרכזיים, כאשר הדבר נתמך במקורות.
+- למי האירוע מתאים.
+- מידע שימושי אמיתי שעוזר להבין אם כדאי להגיע.
+- רק בסוף, ובמידת הצורך, לחבר את פרטי המועד המקומי: מקום, תאריך, שעה ורכישה.
+
+כללי מחקר וכתיבה:
+- השתמש רק בעובדות הנתמכות בנתוני האירוע ובמקורות אמינים ורלוונטיים.
+- כאשר המקור הראשוני דל, יש ללמוד את האירוע ממקורות טובים נוספים שמדברים על אותה יצירה/הפקה/הרצאה, ולא להסתפק בלוח האירועים.
+- יש להעדיף מקורות רשמיים של ההפקה, התיאטרון, האמן, המרצה, המפיק או גוף תרבות מוכר; אחריהם מקורות תקשורת אמינים וביקורות.
+- אין להוסיף את שם העיר לשאילתת המחקר אלא אם הוא נחוץ לזיהוי חד-משמעי של האירוע.
+- כן להשתמש בסוג האירוע כדי לדייק את החיפוש: למשל "הצגת תיאטרון + שם", "הרצאה + שם", "מופע סטנדאפ + שם", "הצגת ילדים + שם".
+- אם שם האירוע כללי או עמום, השתמש גם בשם האמן/המרצה/ההפקה כדי למנוע בלבול.
 - אסור להמציא שמות, משתתפים, עלילה, מחירים, שעות, ציטוטים או פרטים.
-- אין להעתיק ניסוחים ארוכים מהמקור; כתוב מחדש בעברית טבעית ומקורית.
-- פתח בהסבר ברור מהו האירוע ולמה הוא עשוי לעניין את הקורא.
-- הימנע מטקסט גנרי, מנופח או שיווקי מדי.
-- כאשר המקור דל, כתוב טקסט קצר יותר ואל תשלים פרטים שלא ידועים.
-- אם אין מספיק מידע כדי להסביר מהו האירוע, החזר content_ready_for_media=false.
-- image_brief חייב לנבוע מהתוכן, להיות חזותי, קונקרטי וללא טקסט מוטמע.
+- אין להעתיק ניסוחים ארוכים מהמקור; כתוב מחדש בעברית טבעית, עיתונאית ונעימה.
+- אל תכתוב טקסט גנרי שאפשר להדביק על כל אירוע.
+- אין צורך לנפח: עדיף טקסט מדויק, מעניין וקולח על פני מלל ארוך.
+- אם המידע עדיין לא מספיק כדי להבין מהו האירוע, החזר content_ready_for_media=false.
+- image_brief חייב לנבוע מהתוכן המהותי של האירוע, לא מהמיקום או מהקטגוריה בלבד.
 - אין להשתמש בלוגו כתחליף לתמונת אירוע אלא אם הלוגו עצמו הוא נושא האירוע.
 החזר JSON בלבד."""
     payload = {
@@ -155,9 +172,9 @@ def ask_model(event, source_text, source_url):
         "source_url": source_url,
         "source_text": source_text,
         "required_output": {
-            "event_summary": "2-4 informative Hebrew sentences explaining what the event is",
-            "short_pitch": "one concise, attractive but factual Hebrew paragraph",
-            "long_description": "original Hebrew editorial description, usually 100-260 words when the source supports it",
+            "event_summary": "2-4 informative Hebrew sentences that explain the essence of the event itself, not merely when and where it happens",
+            "short_pitch": "45-75 Hebrew words: concise, attractive and factual; explain what the audience will experience and why it may interest them",
+            "long_description": "120-220 Hebrew words: original editorial description focused on subject/story/concept, distinguishing qualities, key participants and audience fit; local venue/date details should be secondary",
             "event_type": "short Hebrew label",
             "participants": ["supported names only"],
             "target_audience": ["supported or safely inferable broad audience labels"],
