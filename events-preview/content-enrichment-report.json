@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T16:23:52Z",
+  "generated_at": "2026-10-07T16:27:43Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
+  "enriched": 11,
   "insufficient": 0,
-  "source_text_insufficient": 3,
+  "source_text_insufficient": 1,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_99d8856352ac024635f0",
+      "event_id": "auto_as_2e18ed2709b02baa3532",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a78d65b3f4ac3995294c",
-      "title": "מיסייה אלבר - הפקת מקור",
+      "event_id": "evt_97_20261020",
+      "title": "סדנת הכנת לחמניות מתוקות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_08f3d0b3508bb7dff7c9",
+      "event_id": "auto_as_41ae0e273466d9a46327",
       "title": "סטודיו פתוח",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
-      "title": "איילת מטיילת- הצגה מבית רינתי",
+      "event_id": "auto_as_4b07ba21b782ea02a4ff",
+      "title": "אצבעוני",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "event_id": "evt_72_20261020",
+      "title": "היפהפיה הנרדמת",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - בני הרצליה",
+      "event_id": "auto_as_61d612476128de680031",
+      "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_46_20261020",
+      "title": "פבלו רוזנברג",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_58c1ea1851030cfaaa11",
+      "event_id": "auto_as_9a8cdd916de4aaaf8311",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_9_20261019",
-      "title": "מיקי הבית של יעל",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ab616d899c714d6fd180",
-      "title": "המספרה של ג'אקו - הפקת מקור",
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
-      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
+      "event_id": "auto_as_91024d3eccf55a0b44ad",
+      "title": "יום העליה בסימן 70 לאשדוד",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261019_ironi_ashdod_football",
-      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
-      "status": "source_text_insufficient"
+      "event_id": "auto_as_ec0e8e6df83ab0a29247",
+      "title": "ערב נשים עוצמתי | לאורה של רחל אמנו",
+      "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
-      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+      "event_id": "auto_as_ce847e364ee55065956b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     }
   ]
