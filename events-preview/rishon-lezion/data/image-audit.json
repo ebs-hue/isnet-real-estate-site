@@ -1,10 +1,138 @@
 {
-  "generated_at": "2026-10-07T17:03:05Z",
-  "total_events": 324,
-  "verified_event_photos": 161,
-  "unverified_event_photos": 163,
+  "generated_at": "2026-10-07T19:09:01Z",
+  "total_events": 327,
+  "verified_event_photos": 163,
+  "unverified_event_photos": 164,
   "breakdown": {
-    "waiting_for_content": 163
+    "waiting_for_content": 136,
+    "kotar_rishon_missing": 21
   },
-  "manual_review": []
+  "manual_review": [
+    {
+      "event_id": "auto_ri_feebac085a47bc2ba79e",
+      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_2a088f32e6a9729f383b",
+      "title": "מפגש עם הסופרת איילת מועלם אליה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
+      "title": "צלילים וסיפורונים לטף",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1012_1700",
+      "title": "האריה הזללן",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_217b952badfd1b4d449f",
+      "title": "היה היה יער",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_7f3f8603182bddf96986",
+      "title": "מפוחית וגיטרה עם יואב",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1014_1700",
+      "title": "הברווזון המכוער",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e505893f7b8f2841a928",
+      "title": "מעשה בשני אחים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1019_1700",
+      "title": "בגדי המלך החדשים",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_e3d7cdfcbc169c4ed405",
+      "title": "מר צפרדע והנחל המתוק",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_02c01ca271e49574910d",
+      "title": "סוד המוח הצעיר: הרצאה חווייתית הכוללת משחקי חשיבה וחידות היגיון",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5db20ec91884846d7f9c",
+      "title": "הסמול טוק: החשיבות הגדולה של “הדיבור הקטן”–העברת מסרים בתקשורת הבין אישית",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1101_1830",
+      "title": "בוק סרפינג: מפגש בנושא כוחה של מילה",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1109_1900",
+      "title": "שירה שווה: מופע ספרותי מוזיקלי",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_5afe05b14e34d576ef1b",
+      "title": "חילוץ תרמילאים נפגעי סמים בחו״ל",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_6aad8da7bc902f777752",
+      "title": "סדרת \"עולמו המופלא של התנ\"ך: ויהי ערב, ויהי בוקר",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1124_1900",
+      "title": "על מסע היצירה של הספרים \"סולם גנבים\" ו\"צומת מסובים\"",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "r_k_1201_1900",
+      "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9",
+      "title": "עולם האופנה: שמש ומדבר",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_b8a3448ccd5dbbc2e5e8",
+      "title": "חגיגת זמר ישראלית לכבוד חג האורות",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_739f976aac5b7906b987",
+      "title": "ספריות, ידע ובינה מלאכותית בעידן של עומס המידע",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    }
+  ]
 }
