@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T19:07:30Z",
+  "generated_at": "2026-10-07T19:08:11Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 0,
-  "insufficient": 3,
-  "source_text_insufficient": 9,
+  "enriched": 1,
+  "insufficient": 0,
+  "source_text_insufficient": 11,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_e6b14e9157c54d6e0c84",
-      "title": "אל תוך הנשמה",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261215_2030_לילות-ספרד",
-      "title": "לילות ספרד",
+      "event_id": "auto_ri_c837a6c5c4dcc45e3e26",
+      "title": "שירי שבת בין ציון וציונות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_82b655da225846c5e74b",
-      "title": "הבמה ככלי ריפוי: כי הגוף יודע...",
-      "status": "insufficient"
+      "event_id": "auto_ri_739f976aac5b7906b987",
+      "title": "ספריות, ידע ובינה מלאכותית בעידן של עומס המידע",
+      "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261217_2030_היומן",
-      "title": "היומן",
+      "event_id": "auto_ri_7e8cfd70075e79bee52e",
+      "title": "סינדרלה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261218_1200_היומן",
-      "title": "היומן",
+      "event_id": "auto_ri_42d5792076d7221fa16a",
+      "title": "בין יפו לפיראוס",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_828ed0665a4870352dd7",
-      "title": "פרשת השבוע",
+      "event_id": "auto_ri_c296579af71adc84b6ed",
+      "title": "ויסלבה שימבורסקה \" אחדים אוהבים שירה\"",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_d847c14c34f54e74e442",
-      "title": "ג׳אז במדים",
+      "event_id": "auto_ri_a77df64238624a04ebde",
+      "title": "יונה קפח",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261219_2030_היומן",
-      "title": "היומן",
+      "event_id": "htrl_20261231_2300_אסף-יצחקי-–-מופע-סטנדאפ-לא-מ",
+      "title": "אסף יצחקי – מופע סטנדאפ לא מצונזר",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_c3a283081eafdf399788",
-      "title": "מה שהיה בינינו",
+      "event_id": "auto_ri_31b7d0fef4cbb7eafaee",
+      "title": "קבלת שבת עם אריאל הכהן",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_a62f0c2a656fc7a9a520",
-      "title": "עין תחת עין: גלגולו של מושג הנקמה בתרבות",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_8d93e30d9a57c67a8b5e",
-      "title": "נשף אמריקאי",
+      "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
+      "title": "כספיון – התיאטרון השחור",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
-      "title": "מעשה בחמישה בלונים",
+      "event_id": "auto_ri_b25561e548c2994f563b",
+      "title": "חלקן של הנשים בחיי משה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20270102_2030_מחווה-לברברה-סטרייסנד",
+      "title": "מחווה לברברה סטרייסנד",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_c6545d6342cb0b0a748b",
+      "title": "מה זאת אהבה? מושג האהבה באומנויות ובתרבות בצרפת",
       "status": "source_text_insufficient"
     }
   ]

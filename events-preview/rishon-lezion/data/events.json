@@ -13536,7 +13536,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13592,7 +13595,46 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T19:08:02Z",
+      "missing_information": [
+        "פורמט מדויק של המפגש (הרצאה, פאנל, סדנה וכו')",
+        "שמות המרצים/משתתפים",
+        "שפה בה יינתן האירוע",
+        "עלות הכניסה ותנאי הרשמה",
+        "משך האירוע ולוח זמנים מפורט",
+        "מיקום מדויק בתוך רשת הספריות (איזו ספרייה/חדר)",
+        "נגישות ותנאי הגעה (חנייה, נגישות לנכים)",
+        "חומרי רקע או חומרים להורדה מראש"
+      ],
+      "event_summary": "מפגש ציבורי בספריות ראשון לציון שעוסק בקשר בין ספריות, ניהול ידע ובינה מלאכותית בעידן של עומס המידע. האירוע יתקיים ב‑27.12.2026 בשעה 12:00 ברשת הספריות של ראשון לציון ומאורגן על ידי רשת כותר ראשון. האירוע עשוי לעניין מי שעוסק בהנגשת מידע, בארכיבציה וביישומי טכנולוגיה במרחב הציבורי.",
+      "short_pitch": "מפגש סביב האתגר של עומס המידע והאפשרויות שפותחת בינה מלאכותית לניהול, חיפוש והנגשה בספריות — אירוע מעשי ותיאורטי לקהל העוסקים במידע, טכנולוגיה וציבור המתעניין במדיניות מידע.",
+      "long_description": "השם של האירוע מעיד על מוקד מרכזי: הקשר בין תפקיד הספרייה כמרכז ידע לבין כלי בינה מלאכותית והאתגרים שנוצרים בעידן של הצפה מידעית. במסגרת המפגש יוצגו נושאים מרכזיים שאפשר לשער שיידונו או יהיו רלוונטיים — דרכי סינון וניטור תכנים, כלים משולבי AI לשיפור חיפוש והמלצות, סוגיות של אמינות ומניעת מידע מטעה, וכן השפעות על פרטיות וניהול ארכיונים דיגיטליים. האירוע יכול לשמש פלטפורמה להכרה בכלים חדשים, לשיח על מדיניות גישה והנגשה של ידע ולהחלפת ניסיון בין מקצוענים בספרייה, חוקרי מידע ומפתחים. חשוב לציין שהתוכנית המלאה, המרצים והפורמט המדויק לא צוינו במקור; מומלץ לבדוק פרטים נוספים מול רשת כותר ראשון או ספריית היעד.",
+      "event_type": "מפגש",
+      "target_audience": [
+        "ספרנים/ות ועובדי ספרייה",
+        "עוסקים במידע וארכיבציה",
+        "מטפלים בטכנולוגיה ובינה מלאכותית",
+        "סטודנטים ואקדמאים בתחום המידע",
+        "ציבור המתעניין במדיניות מידע"
+      ],
+      "visual_keywords": [
+        "מדפי ספרים בספרייה מודרנית",
+        "מחשב נייד על שולחן קריאה",
+        "אייקון של מוח/רשת עצבית דיגיטלית",
+        "גל של נתונים/נקודות אור צפות",
+        "אנשים בדיון סביב שולחן",
+        "ספר פתוח עם שכבות דיגיטליות",
+        "תאורת פנים חמימה בספרייה",
+        "לוח רעיונות או פרזנטציה"
+      ],
+      "image_brief": "צילום פנורמי של חלל ספרייה מודרנית: מדפי ספרים מטושטשים ברקע, בשולחן הקדמי ספר פתוח ולצידו מחשב נייד פתוח. מעל הספר מוקרנים באופן גרפי אלמנטים דיגיטליים־שקופים (נקודות אור או קווים המחברים בין מילים) שמרמזים על זרימת מידע ובינה מלאכותית. תמונה מאוזנת, תאורה חמה ונקודת מיקוד על הממשק בין החומרי לדיגיטלי.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -13652,7 +13694,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13714,7 +13760,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13776,7 +13825,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13834,7 +13886,11 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261231_2300_אסף-יצחקי-–-מופע-סטנדאפ-לא-מ",
@@ -13893,7 +13949,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -13955,7 +14015,10 @@
       "venue_website": "https://www.rlzm.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
@@ -14017,7 +14080,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -14079,7 +14146,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20270102_2030_מחווה-לברברה-סטרייסנד",
@@ -14138,7 +14208,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -14200,7 +14274,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
