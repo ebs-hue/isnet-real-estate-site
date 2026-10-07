@@ -36,8 +36,8 @@ jobs:
 
       - name: Verify secure CMS configuration
         env:
-          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY }}
+          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL || secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY || secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
             echo "::error::Missing secure CMS publishing configuration."
@@ -46,6 +46,6 @@ jobs:
 
       - name: Re-run QA and publish every newly-ready event
         env:
-          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY }}
+          SUPABASE_URL: ${{ secrets.CMS_SUPABASE_URL || secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY || secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -u scripts/auto_publish_ready_events.py
