@@ -1,7 +1,7 @@
 const LABELS={music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים",theatre:"תיאטרון",lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט",tour:"סיורים",other:"אחר"};
 const $=id=>document.getElementById(id); const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let artists=[],mediaById=new Map();
-function imgFor(a){for(const id of a.media||[]){const m=mediaById.get(id);if(!m||m.status!=="approved")continue;const u=m.card_url||m.url||"";if(!u)continue;if(/^(https?:|data:)/.test(u))return u;if(u.startsWith("media-bank/"))return "../"+u;const city=(m.cities||[])[0];return city?("../"+city+"/"+u):u;}return "";}
+function imgFor(a){const ordered=[a.preferred_media_id,...(a.media||[])].filter((x,i,arr)=>x&&arr.indexOf(x)===i);for(const id of ordered){const m=mediaById.get(id);if(!m||m.status!=="approved")continue;const u=m.card_url||m.url||"";if(!u)continue;if(/^(https?:|data:)/.test(u))return u;if(u.startsWith("media-bank/"))return "../"+u;const city=(m.cities||[])[0];return city?("../"+city+"/"+u):u;}return "";}
 function render(){
  const q=$("artistQ").value.trim().toLowerCase(),city=$("artistCity").value,cat=$("artistCategory").value;
  const rows=artists.filter(a=>{if(q&&!a.name.toLowerCase().includes(q))return false;if(city&&!(a.cities||[]).includes(city))return false;if(cat&&!(a.categories||[]).includes(cat))return false;return true;});
