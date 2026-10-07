@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-07T16:05:47Z",
+  "generated_at": "2026-10-07T16:07:34Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 7,
+  "enriched": 5,
   "insufficient": 0,
-  "source_text_insufficient": 5,
+  "source_text_insufficient": 7,
   "model_failed": 0,
   "events": [
     {
@@ -33,50 +33,50 @@
     },
     {
       "city": "ashdod",
-      "event_id": "evt_95_20261012",
-      "title": "תשאירי פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
       "event_id": "sport_20261012_maccabi_ashdod_basketball",
       "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
       "status": "source_text_insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_60cbf76aa783bbeb7d87",
+      "event_id": "auto_as_ea30456fe3f841bc7e84",
+      "title": "סדנת כתיבה רומנטית | כותבים אהבה עם שרית חיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל אריות ירושלים",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d2e8ed455ccd01c6c474",
       "title": "המרחב הבטוח לילדים ולהורים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "event_id": "auto_as_617490407af714bb4af4",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ffc63b0b4486bb31a455",
-      "title": "שירי קריוקי בקצב הדרבוקה",
+      "event_id": "auto_as_6b20839c16bfa66f9657",
+      "title": "סדנת מבוא לרשתות חברתיות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_746c9db0b742c132ff59",
-      "title": "סטודיו פתוח",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_d857a17bf47a6e2337e5",
-      "title": "איתמר וכובע הקסמים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_7aa007ab073d5170f872",
-      "title": "סדנת עיצוב עוגות בנטו",
+      "event_id": "evt_6_20261014",
+      "title": "עיצוב אורח חיים בריא",
       "status": "ready"
     }
   ]
