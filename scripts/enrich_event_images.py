@@ -38,6 +38,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "events-preview" / "ashdod" / "data" / "events.json"
 REPORT_PATH = ROOT / "events-preview" / "ashdod" / "data" / "image-enrichment-report.json"
+MEDIA_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "media.json"
+PRODUCTIONS_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "productions.json"
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -392,6 +394,34 @@ def is_source_image_allowed(page_url: str, image_url: str, recorded_sources: Lis
     return any(same_host_family(page_url, src) for src in recorded_sources)
 
 
+def bank_asset_url(media):
+    u = media.get("url") or ""
+    if not u:
+        return None
+    if u.startswith(("http://", "https://", "data:")):
+        return u
+    city = (media.get("cities") or [None])[0]
+    if u.startswith("media-bank/"):
+        return "../" + u
+    if city:
+        return "../" + city + "/" + u
+    return u
+
+def load_bank_reuse():
+    if not MEDIA_INDEX.is_file() or not PRODUCTIONS_INDEX.is_file():
+        return {}
+    media_doc = json.loads(MEDIA_INDEX.read_text(encoding="utf-8"))
+    prod_doc = json.loads(PRODUCTIONS_INDEX.read_text(encoding="utf-8"))
+    by_id = {m.get("media_id"): m for m in media_doc.get("media", []) if m.get("media_id")}
+    out = {}
+    for p in prod_doc.get("productions", []):
+        mid = p.get("preferred_media_id")
+        m = by_id.get(mid)
+        if not m or m.get("status") != "approved" or m.get("publishable") is not True:
+            continue
+        out[p.get("production_key") or normalize_text(p.get("name"))] = m
+    return out
+
 def main() -> int:
     payload = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     events = payload.get("events") or []
@@ -402,6 +432,7 @@ def main() -> int:
 
     stats = Counter()
     failures = []
+    bank_reuse = load_bank_reuse()
 
     def get_html_cached(url: str, cache: Dict[str, Tuple[str, str]]) -> Optional[Tuple[str, str]]:
         if url in cache:
@@ -430,6 +461,30 @@ def main() -> int:
             continue
 
         title = event.get("title") or ""
+
+        # Reuse a positively approved network-wide asset before any new source request.
+        pkey = normalize_text(event.get("production_name") or event.get("series_name") or title)
+        bank_media = bank_reuse.get(pkey)
+        if bank_media:
+            full = bank_asset_url(bank_media)
+            thumb = "../" + bank_media["card_url"] if str(bank_media.get("card_url") or "").startswith("media-bank/") else full
+            if full:
+                event.update({
+                    "image_url": full,
+                    "thumbnail_url": thumb,
+                    "thumbnail_ready": bool(thumb),
+                    "image_source": bank_media.get("source_url"),
+                    "image_origin_url": bank_media.get("origin_url") or full,
+                    "image_credit": bank_media.get("credit"),
+                    "image_publishable": True,
+                    "image_verified": True,
+                    "image_rights_status": bank_media.get("rights_status") or "verified_reuse",
+                    "image_strategy": "central_media_bank_reuse",
+                    "media_bank_id": bank_media.get("media_id"),
+                })
+                stats["central_media_bank_reuse"] += 1
+                continue
+
         recorded_sources = [s.get("url") for s in event.get("sources", []) if s.get("url")]
         if not recorded_sources:
             stats["no_source"] += 1
