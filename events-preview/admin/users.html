@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>משתמשים והרשאות | ISNET</title>
+  <link rel="stylesheet" href="styles.css?v=20261007-1140">
+  <link rel="stylesheet" href="users.css?v=20261007-1140">
+</head>
+<body>
+<header class="topbar users-topbar">
+  <div>
+    <div class="eyebrow">ISNET AI CMS · ניהול מערכת</div>
+    <h1>משתמשים והרשאות</h1>
+    <p>מי יכול לעשות מה, באיזה אתר ובאיזה מודול.</p>
+  </div>
+  <div class="top-actions">
+    <a class="secondary action-link" href="./">חזרה לאירועים</a>
+    <button id="addUserBtn" class="primary top-create">+ הוספת משתמש</button>
+  </div>
+</header>
+
+<main class="users-main">
+  <div class="notice security-note">
+    זהו מודל ההרשאות של ה-CMS. כרגע ההגדרות נשמרות מקומית לצורך הפיילוט; האכיפה האמיתית תתחיל עם חיבור Login ו-Backend.
+  </div>
+
+  <section class="panel users-summary" id="summary"></section>
+
+  <section class="panel">
+    <div class="panel-title">
+      <div><h2>משתמשי המערכת</h2><p>אפשר להגדיר תפקיד וטווח גישה לכל משתמש.</p></div>
+    </div>
+    <div class="table-wrap">
+      <table class="users-table">
+        <thead><tr><th>משתמש</th><th>תפקיד</th><th>אתרים</th><th>מודולים</th><th>מצב</th><th>עריכה</th></tr></thead>
+        <tbody id="userRows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel roles-panel">
+    <div class="panel-title"><div><h2>תפקידי מערכת</h2><p>מודל הרשאות מרכזי שמשמש את כל המודולים.</p></div></div>
+    <div id="rolesGrid" class="roles-grid"></div>
+  </section>
+</main>
+
+<div id="drawerBackdrop" class="drawer-backdrop" hidden></div>
+<aside id="userDrawer" class="user-drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <div><h2 id="drawerTitle">הוספת משתמש</h2><p>הגדר את טווח הגישה המדויק.</p></div>
+    <button id="closeDrawer" class="icon-btn" aria-label="סגור">×</button>
+  </div>
+  <div class="drawer-body">
+    <input id="editingId" type="hidden">
+    <label><span>שם</span><input id="displayName" type="text" placeholder="שם המשתמש"></label>
+    <label><span>אימייל</span><input id="email" type="email" dir="ltr" placeholder="name@example.com"></label>
+    <label><span>תפקיד</span><select id="role"></select></label>
+
+    <div class="scope-section"><strong>אתרים / ערים</strong><div id="siteOptions" class="permission-options"></div></div>
+    <div class="scope-section"><strong>מודולים</strong><div id="moduleOptions" class="permission-options"></div></div>
+    <label class="toggle-row"><input id="active" type="checkbox" checked><span>משתמש פעיל</span></label>
+
+    <div class="effective-box">
+      <strong>הרשאות התפקיד</strong>
+      <div id="effectivePermissions" class="effective-permissions"></div>
+    </div>
+  </div>
+  <div class="drawer-actions">
+    <button id="saveUserBtn" class="primary wide">שמור משתמש</button>
+    <button id="disableUserBtn" class="danger wide" hidden>השבת משתמש</button>
+  </div>
+</aside>
+
+<script src="users.js?v=20261007-1140"></script>
+</body>
+</html>
