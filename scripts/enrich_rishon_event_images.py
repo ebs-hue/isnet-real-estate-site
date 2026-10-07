@@ -226,6 +226,42 @@ def enrich():
         if e.get("image_strategy") == "official_event_poster" and current.startswith("assets/events/") and (SITE / current).is_file():
             found[e.get("event_id")] = current
             continue
+
+        # Fast path: intake may already have collected the correct official image.
+        # Validate and cache it locally before doing a broader page search.
+        source = (e.get("sources") or [{}])[0].get("name", "")
+        official_roots = SITES.get(source, [])
+        current_ref = e.get("image_source") or e.get("image_origin_url") or e.get("ticket_url") or ""
+        current_host = (urlparse(current).hostname or "").lower()
+        root_hosts = {(urlparse(u).hostname or "").lower() for u in official_roots}
+        source_related = bool(current.startswith("https://") and current_host and (
+            current_host in root_hosts or
+            any(current_host.endswith("." + h) or h.endswith("." + current_host) for h in root_hosts if h)
+        ))
+        if current.startswith("https://") and source_related:
+            raw = download_photo(current, current_ref or current)
+            if raw:
+                checksum = hashlib.sha256(raw).hexdigest()
+                name = checksum[:24] + ".webp"
+                (OUT / name).write_bytes(raw)
+                rel = "assets/events/" + name
+                e.update({
+                    "image_url": rel,
+                    "image_source": current_ref or current,
+                    "image_origin_url": current,
+                    "image_credit": e.get("image_credit") or "צילום או כרזה: אתר המארגן הרשמי",
+                    "image_publishable": True,
+                    "image_verified": True,
+                    "image_rights_status": "verified_official_source",
+                    "image_strategy": "collected_source_image_verified",
+                    "thumbnail_url": rel,
+                    "thumbnail_ready": True,
+                })
+                found[e.get("event_id")] = rel
+                reasons["verified_existing_candidate"] += 1
+                print(f"{ix:02}/{len(events)} VERIFIED EXISTING: {title}", flush=True)
+                continue
+
         # Legacy SVG placeholders were incorrectly flagged as 'verified'.
         e["image_verified"] = False
         e["image_publishable"] = False
