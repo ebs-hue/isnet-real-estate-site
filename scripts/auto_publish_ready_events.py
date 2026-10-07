@@ -33,9 +33,13 @@ if not SUPABASE_URL or not SERVICE_KEY:
 SESSION = requests.Session()
 SESSION.headers.update({
     "apikey": SERVICE_KEY,
-    "Authorization": f"Bearer {SERVICE_KEY}",
     "Content-Type": "application/json",
 })
+# Legacy service_role keys are JWTs and may be used as Bearer tokens.
+# New Supabase secret keys (sb_secret_...) authenticate through the apikey header
+# and must not be sent as Authorization: Bearer.
+if SERVICE_KEY.count(".") == 2 and not SERVICE_KEY.startswith("sb_secret_"):
+    SESSION.headers["Authorization"] = f"Bearer {SERVICE_KEY}"
 TODAY = date.today().isoformat()
 
 def norm(value: str) -> str:
