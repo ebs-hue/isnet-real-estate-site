@@ -90,23 +90,35 @@ $("imageFile").addEventListener("change",e=>{
   if(file.size>5*1024*1024){alert("התמונה גדולה מ־5MB. בחר תמונה קטנה יותר.");e.target.value="";return}
   const reader=new FileReader();reader.onload=()=>{currentImageData=reader.result;$("imagePreview").style.backgroundImage='url("'+reader.result+'")';$("imageApproved").checked=false;$("imageState").innerHTML='<span class="tag warn">תמונה חדשה · דורשת אישור</span>'};reader.readAsDataURL(file);
 });
+let dirty=false;
+function markDirty(){
+  dirty=true;
+  const btn=$("saveDraftBtn");
+  if(!btn.disabled) btn.textContent="שמור שינויים";
+  $("saveNote").textContent="יש שינויים שעדיין לא נשמרו.";
+}
 $("saveDraftBtn").addEventListener("click",async()=>{
-  const btn=$("saveDraftBtn"),originalText=btn.textContent,payload=collect();
+  const btn=$("saveDraftBtn"),payload=collect();
   btn.disabled=true;btn.textContent="שומר...";
   $("saveNote").textContent="שומר את השינויים במערכת...";
   try{
     await window.ISNET_DB.saveEventRecord(city,id,payload,"override");
     localStorage.removeItem(draftKey());
+    dirty=false;
     btn.textContent="נשמר ✓";
     $("saveNote").textContent="נשמר במערכת המרכזית ב־"+new Date().toLocaleTimeString("he-IL",{hour:"2-digit",minute:"2-digit"});
-    setTimeout(()=>{btn.textContent=originalText;btn.disabled=false},1400);
   }catch(err){
     localStorage.setItem(draftKey(),JSON.stringify(payload));
     btn.textContent="נשמר גיבוי מקומי";
     $("saveNote").textContent="לא ניתן היה לשמור בשרת. נשמר גיבוי מקומי בדפדפן.";
     console.error(err);
-    setTimeout(()=>{btn.textContent=originalText;btn.disabled=false},2200);
+  }finally{
+    btn.disabled=false;
   }
+});
+document.querySelectorAll(".editor-column input,.editor-column textarea,.editor-column select,.side-column input,.side-column textarea,.side-column select").forEach(el=>{
+  el.addEventListener("input",markDirty);
+  el.addEventListener("change",markDirty);
 });
 $("hideBtn").addEventListener("click",()=>saveOverride("hidden"));
 $("archiveBtn").addEventListener("click",()=>saveOverride("archived"));
