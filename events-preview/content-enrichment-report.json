@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:17:03Z",
+  "generated_at": "2026-10-07T18:21:06Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
-  "insufficient": 3,
+  "enriched": 10,
+  "insufficient": 2,
   "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_ffc197d8a4343c6c1421",
-      "title": "בואי נעשה לנו חג",
+      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+      "title": "כנר על הגג",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_35b62174438a54f14368",
+      "title": "MALEVO",
       "status": "insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_dd2216e2c4590b3b8095",
-      "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
+      "event_id": "auto_as_6d281693df39376eb4d3",
+      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_5b3592e6f2e52fe56817",
-      "title": "המחזמר ואני",
+      "event_id": "auto_as_2477b1b0746b9c7835a2",
+      "title": "שני עולמות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ecf2560c70689efc3475",
-      "title": "סופיה פאפאזוגלו",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_ad9aa5d26bfb663907d7",
-      "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_c41f0c83c1874a320cdf",
-      "title": "מפה לשם",
+      "event_id": "auto_as_0b79e886759de4901160",
+      "title": "שני עולמות",
       "status": "insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_96552a33f52aca95896d",
-      "title": "סיור טעימות במחנה יהודה",
+      "event_id": "auto_as_2d5eff340312fe7ebdd6",
+      "title": "שירים וחיוכים",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_8cfa7c9ae155b54ae894",
-      "title": "לוס אנג'לס - פרס האוסקר",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_b5598e9e1f88af009a2a",
-      "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
+      "event_id": "auto_as_86a7ddbdc1657bad0dd0",
+      "title": "גלגולי המגילה | אסף אלברשטיין",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1bd891e217e32b97766c",
-      "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
+      "event_id": "auto_as_f90a3e4493591be402c4",
+      "title": "צבעי הזמן",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_2d713d64cea99683547f",
-      "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
+      "event_id": "auto_as_be3243a1775666aa5d3f",
+      "title": "גן נעול מעיין חתום",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_93de6870be8f46280fc1",
-      "title": "דירה להשכיר | שעת סיפור עם רינתי",
+      "event_id": "auto_as_3842e55c80605e16ed5b",
+      "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_02e98c500343d8898158",
+      "title": "והילד הזה הוא אני",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_25368623f148530af959",
+      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
       "status": "ready"
     }
   ]
