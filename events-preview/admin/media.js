@@ -3,9 +3,10 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 let bank={media:[],stats:{}};
 function imageUrl(item){
-  const u=item.url||"";
+  const u=item.card_url||item.url||"";
   if(!u)return "";
   if(/^(https?:|data:)/.test(u))return u;
+  if(u.startsWith("media-bank/"))return "../"+u;
   const city=(item.cities||[])[0];
   return city?("../"+city+"/"+u):u;
 }
