@@ -9,7 +9,7 @@ m = importlib.util.module_from_spec(s)
 s.loader.exec_module(m)
 
 base = {"name":"sample","url":"https://ashdod.smarticket.co.il/","venue":"אשדוד","source_type":"official","parser":"smarticket"}
-html = """<main><a href="מופע_חדש/?id=11"><div>06 אוקטובר מופע לילדים פרטים נוספים
+html = """<main><a href="מופע_חדש/?id=11"><img src="/uploads/poster.jpg" alt="מופע לילדים"><div>06 אוקטובר מופע לילדים פרטים נוספים
 מופע לילדים המשכן לאמנויות הבמה אשדוד ביום שלישי, 6 באוקטובר 2026 בשעה 17:30
 </div></a><a href="סתם">לוח אירועים</a></main>"""
 rows = m.smarticket_rows(BeautifulSoup(html, "html.parser"), base)
@@ -17,6 +17,9 @@ assert len(rows) == 1, rows
 assert rows[0]["start_date"] == "2026-10-06", rows
 assert rows[0]["start_time"] == "17:30", rows
 assert rows[0]["ticket_url"] == "https://ashdod.smarticket.co.il/מופע_חדש/?id=11", rows
+assert rows[0]["image_url"] == "https://ashdod.smarticket.co.il/uploads/poster.jpg", rows
+assert rows[0]["image_rights_status"] == "needs_review", rows
+assert rows[0]["image_publishable"] is False, rows
 
 source = {"name":"htrl","url":"https://htrl.co.il/לוח-שנה/","venue":"היכל התרבות מאיר ניצן","source_type":"official","parser":"htrl"}
 html = "<div>אודי כגן</div><div>08.01.27</div><div>21:30</div><div>שישי</div><div>היכל התרבות</div><a>רכישה</a>"
@@ -36,9 +39,10 @@ rows = m.kotar_rows(BeautifulSoup(html,"html.parser"),source)
 assert len(rows) == 1, rows
 assert rows[0]["start_time"] == "11:00", rows
 
-ld = '<script type="application/ld+json">{"@type":"Event","name":"ערב שירה מקומית","startDate":"2026-11-06T20:30:00+02:00","location":{"name":"אולם דיונה אשדוד"}}</script>'
+ld = '<script type="application/ld+json">{"@type":"Event","name":"ערב שירה מקומית","startDate":"2026-11-06T20:30:00+02:00","image":"https://ashdod.smarticket.co.il/uploads/song.jpg","location":{"name":"אולם דיונה אשדוד"}}</script>'
 rows = m.generic_jsonld_rows(BeautifulSoup(ld, "html.parser"),base)
 assert len(rows) == 1 and rows[0]["start_date"] == "2026-11-06", rows
+assert rows[0]["image_url"].endswith("/uploads/song.jpg"), rows
 
 assert m.event_key({"title":"ערב שירה – מקומית","start_date":"2026-11-06","start_time":"20:30"}) == m.event_key({"title":"ערב שירה - מקומית","start_date":"2026-11-06","start_time":"20:30"})
 
