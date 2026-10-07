@@ -59,13 +59,17 @@ def image_is_usable(event):
     )
 
 def needs_enrichment(event):
-    if image_is_usable(event):
+    """Every future event should receive editorial enrichment.
+
+    Human/editorial content can explicitly opt out with content_locked=true.
+    Bot-generated content is refreshed when missing or when its enrichment
+    version is older than the current editorial pipeline.
+    """
+    if event.get("content_locked") is True:
         return False
-    if event.get("content_ready_for_media") is True:
+    if event.get("content_origin") in {"manual", "editorial"} and existing_context(event):
         return False
-    if len(existing_context(event)) >= 80 or len(clean_text(event.get("image_brief"))) >= 40:
-        return False
-    return True
+    return event.get("content_enrichment_version") != 2
 
 def source_urls(event):
     vals = []
@@ -116,12 +120,19 @@ def fetch_source_text(url):
         return ""
 
 def ask_model(event, source_text, source_url):
-    instructions = """אתה עורך תוכן של לוח אירועים מקומי.
-השתמש אך ורק בעובדות שמופיעות בנתוני האירוע ובטקסט המקור שסופק.
-אסור להמציא שמות, משתתפים, עלילה, מחירים, שעות, ציטוטים או פרטים שיווקיים.
-אם אין מספיק מידע כדי להבין במה עוסק האירוע, החזר content_ready_for_media=false.
-image_brief חייב לנבוע מהתוכן, להיות חזותי וברור, וללא טקסט שמוטמע בתוך התמונה.
-אין להשתמש בלוגו כתחליף לתמונת אירוע, אלא אם מדובר בזהות חזותית מהותית של האירוע עצמו.
+    instructions = """אתה עורך תוכן בכיר ברשת מקומונים ישראלית.
+המטרה: להפוך כל רשומת אירוע גולמית לעמוד אירוע מקורי, ברור, שימושי ומעניין לקורא.
+
+עקרונות חובה:
+- השתמש רק בעובדות הנתמכות בנתוני האירוע ובטקסט המקור.
+- אסור להמציא שמות, משתתפים, עלילה, מחירים, שעות, ציטוטים או פרטים.
+- אין להעתיק ניסוחים ארוכים מהמקור; כתוב מחדש בעברית טבעית ומקורית.
+- פתח בהסבר ברור מהו האירוע ולמה הוא עשוי לעניין את הקורא.
+- הימנע מטקסט גנרי, מנופח או שיווקי מדי.
+- כאשר המקור דל, כתוב טקסט קצר יותר ואל תשלים פרטים שלא ידועים.
+- אם אין מספיק מידע כדי להסביר מהו האירוע, החזר content_ready_for_media=false.
+- image_brief חייב לנבוע מהתוכן, להיות חזותי, קונקרטי וללא טקסט מוטמע.
+- אין להשתמש בלוגו כתחליף לתמונת אירוע אלא אם הלוגו עצמו הוא נושא האירוע.
 החזר JSON בלבד."""
     payload = {
         "event": {
@@ -136,9 +147,9 @@ image_brief חייב לנבוע מהתוכן, להיות חזותי וברור, 
         "source_url": source_url,
         "source_text": source_text,
         "required_output": {
-            "event_summary": "2-4 sentences in Hebrew",
-            "short_pitch": "one concise Hebrew paragraph",
-            "long_description": "clear Hebrew explanation, 80-220 words when supported",
+            "event_summary": "2-4 informative Hebrew sentences explaining what the event is",
+            "short_pitch": "one concise, attractive but factual Hebrew paragraph",
+            "long_description": "original Hebrew editorial description, usually 100-260 words when the source supports it",
             "event_type": "short Hebrew label",
             "participants": ["supported names only"],
             "target_audience": ["supported or safely inferable broad audience labels"],
@@ -177,6 +188,8 @@ def apply_result(event, result, source_url):
     event["content_ready_for_media"] = ready
     event["content_enrichment_source"] = source_url
     event["content_enrichment_model"] = MODEL
+    event["content_enrichment_version"] = 2
+    event["content_origin"] = "ai_enriched"
     event["content_enriched_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     event["missing_information"] = result.get("missing_information") or []
     if not ready:
