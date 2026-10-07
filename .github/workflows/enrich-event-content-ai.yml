@@ -26,7 +26,7 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_EVENT_ENRICHMENT_MODEL: ${{ vars.OPENAI_EVENT_ENRICHMENT_MODEL || 'gpt-5-mini' }}
-      EVENT_ENRICHMENT_LIMIT: "250"
+      EVENT_ENRICHMENT_LIMIT: "5"
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
