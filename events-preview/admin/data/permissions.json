@@ -1,0 +1,202 @@
+{
+  "version": 1,
+  "roles": [
+    {
+      "id": "super_admin",
+      "label": "מנהל־על",
+      "description": "גישה מלאה לכל המערכת",
+      "permissions": [
+        "*"
+      ]
+    },
+    {
+      "id": "admin",
+      "label": "מנהל מערכת",
+      "description": "ניהול תוכן, משתמשים והגדרות בטווח שהוגדר",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "publish",
+        "schedule",
+        "hide",
+        "archive",
+        "trash",
+        "manage_media",
+        "manage_taxonomy",
+        "manage_users"
+      ]
+    },
+    {
+      "id": "site_admin",
+      "label": "מנהל אתר / עיר",
+      "description": "ניהול מלא של תוכן באתר או בעיר שהוגדרו",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "publish",
+        "schedule",
+        "hide",
+        "archive",
+        "trash",
+        "manage_media",
+        "manage_homepage"
+      ]
+    },
+    {
+      "id": "editor",
+      "label": "עורך",
+      "description": "עריכה, אישור ופרסום תוכן",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "publish",
+        "schedule",
+        "hide",
+        "manage_media",
+        "manage_homepage"
+      ]
+    },
+    {
+      "id": "writer",
+      "label": "כתב / יוצר תוכן",
+      "description": "יצירה ועריכה ללא פרסום עצמאי",
+      "permissions": [
+        "view",
+        "create",
+        "edit",
+        "manage_media"
+      ]
+    },
+    {
+      "id": "viewer",
+      "label": "צפייה בלבד",
+      "description": "צפייה ללא שינוי",
+      "permissions": [
+        "view"
+      ]
+    },
+    {
+      "id": "agent",
+      "label": "סוכן AI",
+      "description": "הרשאות מוגבלות לפי משימה ובטווח שהוגדר",
+      "permissions": [
+        "view",
+        "create",
+        "edit"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "ashdod",
+      "label": "אשדוד נט"
+    },
+    {
+      "id": "rishon-lezion",
+      "label": "ראשון נט"
+    },
+    {
+      "id": "all",
+      "label": "כל אתרי הרשת"
+    }
+  ],
+  "modules": [
+    {
+      "id": "events",
+      "label": "אירועים"
+    },
+    {
+      "id": "articles",
+      "label": "כתבות"
+    },
+    {
+      "id": "sports",
+      "label": "ספורט"
+    },
+    {
+      "id": "classes",
+      "label": "חוגים"
+    },
+    {
+      "id": "real-estate",
+      "label": "נדל״ן"
+    },
+    {
+      "id": "media",
+      "label": "בנק מדיה"
+    },
+    {
+      "id": "taxonomy",
+      "label": "קטגוריות ושיוכים"
+    },
+    {
+      "id": "homepage",
+      "label": "ראשיות וקידום"
+    },
+    {
+      "id": "users",
+      "label": "משתמשים והרשאות"
+    },
+    {
+      "id": "settings",
+      "label": "הגדרות מערכת"
+    }
+  ],
+  "actions": [
+    {
+      "id": "view",
+      "label": "צפייה"
+    },
+    {
+      "id": "create",
+      "label": "יצירה"
+    },
+    {
+      "id": "edit",
+      "label": "עריכה"
+    },
+    {
+      "id": "publish",
+      "label": "פרסום"
+    },
+    {
+      "id": "schedule",
+      "label": "תזמון"
+    },
+    {
+      "id": "hide",
+      "label": "הסתרה"
+    },
+    {
+      "id": "archive",
+      "label": "ארכיון"
+    },
+    {
+      "id": "trash",
+      "label": "העברה לסל"
+    },
+    {
+      "id": "manage_media",
+      "label": "ניהול מדיה"
+    },
+    {
+      "id": "manage_taxonomy",
+      "label": "ניהול קטגוריות ושיוכים"
+    },
+    {
+      "id": "manage_homepage",
+      "label": "ניהול ראשיות וקידום"
+    },
+    {
+      "id": "manage_users",
+      "label": "ניהול משתמשים"
+    },
+    {
+      "id": "manage_settings",
+      "label": "הגדרות מערכת"
+    }
+  ]
+}
