@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="edit.css?v=20261007-1120">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="auth/config.js?v=20261007-1225"></script>
-  <script src="cms-db.js?v=20261007-1300"></script>
+  <script src="cms-db.js?v=20261007-1600"></script>
 </head>
 <body>
 <header class="topbar edit-topbar">
@@ -24,7 +24,7 @@
   </div>
 </header>
 <main class="edit-main">
-  <div id="notice" class="notice">בשלב זה השינויים נשמרים כטיוטה בדפדפן בלבד. שכבת השמירה המאובטחת תחובר בשלב הבא.</div>
+  <div id="notice" class="notice">השינויים נשמרים במערכת המרכזית. פרסום הופך את הגרסה הנוכחית לזמינה לצד הציבורי.</div>
   <section class="editor-layout">
     <div class="editor-column">
       <section class="panel edit-card">
@@ -34,7 +34,7 @@
         <label><span>על האירוע</span><textarea id="description" rows="10"></textarea></label>
         <div class="two">
           <label><span>קטגוריה</span><select id="category"></select></label>
-          <label><span>סטטוס</span><select id="status"><option value="active">פעיל</option><option value="draft">טיוטה</option><option value="hidden">מוסתר</option></select></label>
+          <label><span>סטטוס</span><select id="status"><option value="active">פעיל</option><option value="draft">טיוטה</option><option value="hidden">מוסתר</option><option value="published">פורסם</option></select></label>
         </div>
         <label><span>עדיפות / קידום</span>
           <select id="promotion">
@@ -116,7 +116,8 @@
 
       <section class="panel edit-card">
         <h2>פעולות</h2>
-        <button id="saveDraftBtn" class="primary wide">שמור טיוטה</button>
+        <button id="publishBtn" class="primary wide">פרסם באתר</button>
+        <button id="saveDraftBtn" class="ghost wide">שמור טיוטה</button>
         <button id="hideBtn" class="ghost wide">הסתר מהמערכת</button>
         <button id="archiveBtn" class="ghost wide">העבר לארכיון</button>
         <button id="trashBtn" class="danger wide">העבר לסל</button>
@@ -126,7 +127,7 @@
     </aside>
   </section>
 </main>
-<script src="edit.js?v=20261007-1510"></script>
+<script src="edit.js?v=20261007-1600"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
