@@ -2,6 +2,11 @@ name: Auto-publish events after media QA
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/auto_publish_ready_events.py"
+      - ".github/workflows/auto-publish-events-after-media.yml"
   workflow_run:
     workflows:
       - "Enrich Ashdod event images"
