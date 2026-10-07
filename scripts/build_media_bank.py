@@ -23,21 +23,32 @@ EVENTS=ROOT/"events-preview"
 OUT=EVENTS/"media-bank"/"data"/"media.json"
 ARTISTS_OUT=EVENTS/"media-bank"/"data"/"artists.json"
 PRODUCTIONS_OUT=EVENTS/"media-bank"/"data"/"productions.json"
+QUALITY_OUT=EVENTS/"media-bank"/"data"/"quality.json"
 CITIES={
     "ashdod": EVENTS/"ashdod"/"data"/"events.json",
     "rishon-lezion": EVENTS/"rishon-lezion"/"data"/"events.json",
 }
 GENERIC_PEOPLE={"אבא","אמא","הורים","ילדים","ילדות","משפחה","משפחות","קהל","משתתפים","משתתפות","מרצה","מנחה","אמן","אמנית","זמר","זמרת","שחקן","שחקנית"}
-BAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel")
+BAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel","apple-touch-icon","default_avatar","default-image","blank.gif","transparent.gif","spacer.gif")
 
 def norm(v):
     x=unicodedata.normalize("NFKC",str(v or "")).casefold()
     x=re.sub(r"[\u0591-\u05c7]","",x)
     return re.sub(r"\s+"," ",re.sub(r"[^0-9a-zא-ת]+"," ",x)).strip()
 
-def is_bad(url):
+def bad_reason(url):
     low=str(url or "").lower()
-    return any(x in low for x in BAD)
+    for token in BAD:
+        if token in low:
+            return "technical_asset:"+token
+    return None
+
+def is_bad(url):
+    return bad_reason(url) is not None
+
+def reusable(a):
+    """Only a positively approved, publishable, low-risk asset can become an entity default."""
+    return bool(a.get("status")=="approved" and a.get("publishable") is True and a.get("reuse_risk","low")=="low")
 
 def image_key(e):
     origin=e.get("image_origin_url") or ""
@@ -90,7 +101,8 @@ def main():
             if not raw: continue
             key=image_key(e)
             if not key: continue
-            rejected=is_bad(raw) or is_bad(e.get("image_origin_url"))
+            reject_reason=bad_reason(raw) or bad_reason(e.get("image_origin_url"))
+            rejected=bool(reject_reason)
             approved=bool(e.get("image_verified") is True and e.get("image_publishable") is True and not rejected)
             status="approved" if approved else ("rejected" if rejected else "needs_review")
             if key not in assets:
@@ -113,6 +125,7 @@ def main():
                     "events":[],
                     "usage_count":0,
                     "created_from":"event_dataset",
+                    "review_reason":reject_reason,
                 }
             a=assets[key]
             if a["status"]!="rejected":
@@ -160,21 +173,48 @@ def main():
     # Reusable entity indexes. These are intentionally network-wide rather than city-owned.
     artist_map={}
     production_map={}
+    rejected_reasons=defaultdict(int)
+    source_domains=defaultdict(lambda: {"images":0,"approved":0,"review":0,"rejected":0})
     for a in rows:
+        if a.get("status")=="rejected":
+            rejected_reasons[a.get("review_reason") or "unknown"]+=1
+        domain=urlparse(a.get("origin_url") or a.get("source_url") or "").netloc.lower() or "local"
+        source_domains[domain]["images"]+=1
+        source_domains[domain]["approved" if a.get("status")=="approved" else "rejected" if a.get("status")=="rejected" else "review"]+=1
         for artist in a.get("artists",[]):
             key=norm(artist)
-            ent=artist_map.setdefault(key,{"artist_key":key,"name":artist,"media":[],"cities":[],"categories":[]})
+            ent=artist_map.setdefault(key,{"artist_key":key,"name":artist,"media":[],"approved_media":[],"preferred_media_id":None,"cities":[],"categories":[]})
             ent["media"].append(a["media_id"])
+            if reusable(a): ent["approved_media"].append(a["media_id"])
             ent["cities"]=sorted(set(ent["cities"]+a.get("cities",[])))
             ent["categories"]=sorted(set(ent["categories"]+a.get("categories",[])))
         for production in a.get("productions",[]):
             key=norm(production)
-            ent=production_map.setdefault(key,{"production_key":key,"name":production,"media":[],"cities":[],"categories":[]})
+            ent=production_map.setdefault(key,{"production_key":key,"name":production,"media":[],"approved_media":[],"preferred_media_id":None,"cities":[],"categories":[]})
             ent["media"].append(a["media_id"])
+            if reusable(a): ent["approved_media"].append(a["media_id"])
             ent["cities"]=sorted(set(ent["cities"]+a.get("cities",[])))
             ent["categories"]=sorted(set(ent["categories"]+a.get("categories",[])))
+    by_id={a["media_id"]:a for a in rows}
+    for collection in (artist_map,production_map):
+        for ent in collection.values():
+            ent["approved_media"]=sorted(set(ent["approved_media"]),key=lambda mid:(-by_id[mid].get("usage_count",0),mid))
+            ent["preferred_media_id"]=ent["approved_media"][0] if ent["approved_media"] else None
+            ent["media_count"]=len(set(ent["media"]))
+            ent["approved_media_count"]=len(ent["approved_media"])
     ARTISTS_OUT.write_text(json.dumps({"generated_at":now,"artists":sorted(artist_map.values(),key=lambda x:x["name"])},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     PRODUCTIONS_OUT.write_text(json.dumps({"generated_at":now,"productions":sorted(production_map.values(),key=lambda x:x["name"])},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    quality={
+        "generated_at":now,
+        "stats":stats,
+        "rejected_reasons":dict(sorted(rejected_reasons.items())),
+        "source_domains":dict(sorted(source_domains.items(),key=lambda kv:(-kv[1]["images"],kv[0]))),
+        "reusable_artists":sum(1 for x in artist_map.values() if x.get("preferred_media_id")),
+        "reusable_productions":sum(1 for x in production_map.values() if x.get("preferred_media_id")),
+        "artists_total":len(artist_map),
+        "productions_total":len(production_map),
+    }
+    QUALITY_OUT.write_text(json.dumps(quality,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(stats,ensure_ascii=False))
 
 if __name__=="__main__":
