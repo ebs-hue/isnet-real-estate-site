@@ -52,15 +52,32 @@
       "name": "סוכן איסוף",
       "status": "planned",
       "order": 1,
-      "purpose": "איתור אירועים חדשים ממקורות שהוגדרו והכנסתם כטיוטה.",
+      "purpose": "אוסף את נתוני האירוע מהמקור, כולל תמונה כאשר היא זמינה, יחד עם מקור, קרדיט וסטטוס זכויות ראשוני.",
       "can": [
-        "read_sources",
-        "create_draft",
-        "attach_source"
+        "collect_event_details",
+        "collect_source_url",
+        "collect_image_url",
+        "collect_image_source",
+        "collect_image_credit",
+        "collect_image_candidates",
+        "record_initial_rights_status",
+        "create_draft"
       ],
       "cannot": [
         "publish",
         "delete_content"
+      ],
+      "output_fields": [
+        "title",
+        "start_date",
+        "start_time",
+        "venue",
+        "source_url",
+        "image_url",
+        "image_source",
+        "image_credit",
+        "image_candidates",
+        "image_rights_status"
       ]
     },
     {
@@ -119,13 +136,13 @@
       "name": "סוכן מדיה ותמונות",
       "status": "priority",
       "order": 4,
-      "purpose": "איתור או יצירת תמונה רלוונטית, תוך שמירת מקור, קרדיט, זכויות וסימון AI.",
+      "purpose": "מטפל רק באירועים שבהם אין תמונה תקינה מהאיסוף, או כשהתמונה בעייתית מבחינת זכויות, איכות או התאמה.",
       "strategy": [
-        "חיפוש בבנק המדיה הפנימי",
-        "חיפוש במקורות שמוגדרים כמורשים",
-        "אם אין תמונה מתאימה: יצירת אילוסטרציה רלוונטית ב-AI",
-        "בדיקת זכויות, קרדיט והתאמה",
-        "הצעה לעורך ולא פרסום אוטומטי"
+        "בדיקת תמונת המקור שנאספה",
+        "חיפוש בבנק המדיה",
+        "חיפוש במקורות מורשים",
+        "יצירת AI רק אם לא נמצאה חלופה מתאימה",
+        "שמירת מקור, קרדיט, זכויות וסימון AI"
       ],
       "can": [
         "search_media_bank",
@@ -140,6 +157,12 @@
         "use_unclear_rights",
         "misrepresent_ai_as_real_photo",
         "publish"
+      ],
+      "trigger_when": [
+        "missing_image",
+        "unclear_image_rights",
+        "image_quality_low",
+        "image_not_relevant"
       ]
     },
     {
