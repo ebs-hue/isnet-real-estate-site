@@ -1,0 +1,36 @@
+name: Discover stand-up videos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate discovery script
+        run: python -m py_compile scripts/discover_standup_videos.py
+      - name: Find videos for new stand-up performers
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          OUTPUT_PATH: standup-review.json
+        run: |
+          export TODAY="$(date -u +%F)"
+          python scripts/discover_standup_videos.py
+      - name: Upload editorial review queue
+        if: ${{ hashFiles('standup-review.json') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: standup-video-candidates
+          path: standup-review.json
+          retention-days: 14
