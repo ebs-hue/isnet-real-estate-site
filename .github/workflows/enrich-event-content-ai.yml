@@ -2,6 +2,11 @@ name: Enrich event content with AI
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/enrich_event_content_ai.py"
+      - ".github/workflows/enrich-event-content-ai.yml"
   workflow_run:
     workflows: ["Daily city event intake"]
     types: [completed]
@@ -21,7 +26,7 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_EVENT_ENRICHMENT_MODEL: ${{ vars.OPENAI_EVENT_ENRICHMENT_MODEL || 'gpt-5-mini' }}
-      EVENT_ENRICHMENT_LIMIT: "80"
+      EVENT_ENRICHMENT_LIMIT: "250"
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
