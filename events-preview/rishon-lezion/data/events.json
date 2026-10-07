@@ -2464,7 +2464,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -2522,7 +2525,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -2584,7 +2590,10 @@
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -2645,7 +2654,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_h_1013_2030",
@@ -2705,7 +2717,49 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://htrl.co.il/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:45:47Z",
+      "missing_information": [
+        "שמות הלהקות המשתתפות",
+        "רפרטואר ומסלול התוכנית",
+        "מחירי כרטיסים וזמינות מושבים",
+        "משך משוער של המופע וזמני פתיחת דלתות",
+        "האם יש הנחות/מנויים וקישורי רכישה ספציפיים",
+        "מידע על נגישות עבור נכים",
+        "האם האירוע מיועד לכל הגילאים או יש מגבלות גיל",
+        "פרטים טכניים (חניה, כניסה עם ציוד, מדיניות צילום)"
+      ],
+      "event_summary": "האירוע \"הלהקות הצבאיות חוזרות\" הוא קונצרט שיתקיים בהיכל התרבות מאיר ניצן בראשון לציון ב-13.10.2026 בשעה 20:30. מהכותרת ניתן להבין שמדובר במופע של להקות צבאיות, אך בפרטי המקור לא נמסרו שמות הלהקות או פרטי התוכנית. לפרטים נוספים על כרטיסים, הרכב המשתתפים וזמני פתיחת דלתות יש לפנות למארגן.",
+      "short_pitch": "קונצרט מוזיקלי תחת הכותרת \"הלהקות הצבאיות חוזרות\" בהיכל התרבות מאיר ניצן — ערב מוזיקה שיעורר עניין אצל חובבי ביצועים תזמורתיים ורפרטואר צבאי-מוזיקלי. האירוע מתקיים ב-13.10.2026 בשעה 20:30; יש לוודא פרטי כרטיס ופרטי ההרכב מול ההיכל.",
+      "long_description": "בהיכל התרבות מאיר ניצן בראשון לציון מתוכנן קונצרט תחת השם \"הלהקות הצבאיות חוזרות\" שיערך ב-13 באוקטובר 2026 בשעה 20:30. מהכותרת משתמע שמדובר בהופעה בה ילקחו חלק להקות צבאיות או הרכבים תזמורתיים ברוח זו; עם זאת, אין ברשותנו רשימת משתתפים, תוכנית שירים או פירוט ייחודי של האירוע. ההופעה מתקיימת באולם ההיכל — מבנה מוכר בעיר שמציג מופעים במגוון ז'אנרים — והאחראי על האירוע מצוין כ'היכל התרבות מאיר ניצן'. אם אתם שוקלים להגיע, כדאי לבדוק באתר ההיכל או בקופת הכרטיסים לגבי מחירי כרטיסים, אמצעי הגעה, נגישות, ומידע על משך האירוע ומקומות ישיבה. ההצגה עשויה לעניין מי שמחפש ערב מוזיקלי קונצרטנטי עם הדגשים על כלי נשיפה וכלי הקשה, אך פרטים קונקרטיים על התוכן לא פורסמו.",
+      "event_type": "מוזיקה / קונצרט",
+      "participants": [
+        "היכל התרבות מאיר ניצן"
+      ],
+      "target_audience": [
+        "חובבי מוזיקה",
+        "ציבור הרחב",
+        "משפחות",
+        "חובבי הרכבים תזמורתיים וציבוריים"
+      ],
+      "visual_keywords": [
+        "להקה צבאית במדי הופעה",
+        "חצוצרות וחצוצרנים",
+        "כלי הקשה ותופים",
+        "אולם היכל תרבות פנימי",
+        "תאורת במה צבעונית",
+        "קהל יושבים",
+        "מנצח על הבמה",
+        "תזמורת בהרכבה רחבה"
+      ],
+      "image_brief": "צילום ממוקד על הבמה בתוך היכל התרבות: להקה צבאית לבושה במדי הופעה מתייצבת על במת קונצרט מלאה בחצוצרות, חצצורות, תופים וכלי נשיפה אחרים; תאורת במה חמה מדגישה את כלי הנחושת והמתכת, ובשולי הפריים נראה קהל יושב בשורות האולם. אין טקסט מוטמע, הרקע מציג את קירות האולם ותאורת התקרה.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "r_k_1014_1700",
@@ -2766,7 +2820,49 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:46:18Z",
+      "missing_information": [
+        "טווח גיל מומלץ/מדויק",
+        "משך ההצגה (דקות)",
+        "מחיר כרטיס ופירוט הנחות, אם יש",
+        "קישור או אמצעי רכישת כרטיסים מדויק",
+        "שפות המופע (האם בעברית בלבד)",
+        "מידע על נגישות לנכים/עגלות",
+        "יכולת רכישה מראש וזמני פתיחת מכירה ספציפיים לאירוע זה",
+        "האם יש מדיניות החזר מלאה או חלקית מעבר להנחיות כלליות"
+      ],
+      "event_summary": "הצגת ילדים מוזיקלית המבוססת על הסיפור המפורסם של הנס כריסטיאן אנדרסן — \"הברווזון המכוער\". ההצגה משלבת שירה ונגינה עם בובות תיאטרון (ברווז וברבור) והשתתפות קהל. תיאטרון שיר מציג את המופע בספריית רמת אליהו בראשון לציון ב-14.10.2026 בשעה 17:00. כניסה בתשלום, בליווי מבוגר; כל משתתף חייב לרכוש כרטיס כולל הורה מלווה, ומספר המקומות מוגבל.",
+      "short_pitch": "הצגה מוזיקלית ובובתית לקטנים ולמשפחות: עיבוד לשירת ועיבוד מוסיקלי ל\"הברווזון המכוער\" של אנדרסן, בהשתתפות הקהל ובביצוע תיאטרון שיר — בערב של סיפור, שירים ובובות בספריית רמת אליהו.",
+      "long_description": "הצגה משפחתית-ילדית המבוססת על מעשייתו הקלאסית של הנס כריסטיאן אנדרסן, בעיבוד מוסיקלי ובשילוב שירה, נגינה ובובות תיאטרון. במרכז המופע בובות של הברווזון והברבור, והצופים מוזמנים לקחת חלק פעיל בשירה ובהנאה הקבוצתית. ההצגה מועברת על ידי תיאטרון שיר ומוצגת בספריית רמת אליהו במסגרת פעילויות הילדים של רשת כותר ראשון. חשוב לדעת: הכניסה בפיקוח מבוגר בלבד — אין כניסה של אחים קטנים/גדולים ללא רישום נפרד, וכל משתתף (כולל ההורה המלווה) חייב כרטיס. מספר המקומות מוגבל; בנוגע לרכישת כרטיסים לשעות סיפור מצוין כי בדרך כלל ניתן לרכוש כרטיסים החל משבוע לפני תאריך האירוע, ולעיתים נפתחת אפשרות רכישת כרטיסים בשעות מסוימות בשבוע שלפני המועד. לפרטים וביטולים יש לפנות לספרייה המארחת.",
+      "event_type": "הצגת ילדים / בובות מוזיקלית",
+      "participants": [
+        "תיאטרון שיר",
+        "רשת כותר ראשון",
+        "הנס כריסטיאן אנדרסן"
+      ],
+      "target_audience": [
+        "ילדים",
+        "משפחות",
+        "הורים ומלווי ילדים"
+      ],
+      "visual_keywords": [
+        "בובת ברווזון",
+        "בובת ברבור",
+        "במה קטנה צבעונית",
+        "שחקן/בובנאי עם כלי נגינה",
+        "ילדים צופים נרגשים",
+        "אלמנטים מתוך ספר סיפורים",
+        "אביזרי תיאטרון בובות",
+        "אינטראקציה קהל-שחקנים"
+      ],
+      "image_brief": "צילום או אילוסטרציה של במה קטנה צבעונית בתוך ספרייה: במרכז בובת ברווזון ובובת ברבור המוצבות בסצנה ירוקה/מימית, מעט מאחור בובנאי שמנגן על כלי נגינה קטן, ושורה של ילדים צופים וצוחקים כשהם יושבים על שטיחים או כסאות נמוכים. התאורה חמה ומזמינה, והרקע כולל מדפי ספרים מטושטשים כדי להדגיש את האווירה הספרייתית-תיאטרונית.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "r_k_1015_1100",
@@ -2830,7 +2926,45 @@
       "venue_phone": "03-9689700",
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:46:54Z",
+      "missing_information": [
+        "טווח גיל מדויק (הגיל המצוין לא מפורט בטקסט שסופק)",
+        "מחיר כרטיס",
+        "אופן ורכישת הכרטיסים (קישור להזמנה/עמדת מכירה)",
+        "אורך משוער של הפעילות המדויק (משך מופע לא צויין עבור גלי)",
+        "נגישות ונוחות הגעה (גישה לנכים, חניה)",
+        "פרטי קשר ישירים נוספים מעבר לכתובת האתר הכללית"
+      ],
+      "event_summary": "פעילות מוזיקלית עבור קטנטנים, המוצגת על-ידי גלי פטילון ותיאטרון של גלי בכותר ראשון בחביב בראשון לציון. המופע משלב שירים, בובות, אביזרים ושעת סיפור קצרה. הכניסה לפי הגיל המצוין בלבד ובבליווי מבוגר; כל משתתף חייב כרטיס.",
+      "short_pitch": "הפינה של גלי היא הפעלה מוזיקלית קצרה ופעילה לקטנטנים: בובות, אביזרים, שירים ושעת סיפור עם גלי פטילון בתיאטרון של גלי. מושלם לקטנים ולמלווה – אבל יש לרכוש כרטיס לכל משתתף ולהקפיד על כללי הכניסה של הספרייה.",
+      "long_description": "הפינה של גלי היא מפגש מוזיקלי-בימתי לילדים צעירים המוצג על-ידי גלי פטילון (תיאטרון של גלי) בכותר ראשון חביב. הפעילות משלבת שירה ומוזיקה, הופעת בובות, שימוש באביזרים ובשעת סיפור קצרה שמיועדת לקהל הצעיר. המופע בנוי כדי ליצור חוויה אינטראקטיבית שבה הילדים משתתפים בהאזנה לשירים, בציפייה למגע עם בובות ובהנעה רגשית דרך סיפור קצר. הכניסה מותנית בגיל כפי שמצוין לפרסום האירוע, אין כניסה לאחים קטנים וגדולים, וכל ילד נכנס בליווי מבוגר; על כל משתתף — כולל הורה מלווה — יש לרכוש כרטיס. בעלי המקום מודיעים שמספר המקומות מוגבל והזכות לשינויים שמורה; אין החזר כספי על אי הגעה. האירוע מתאים להיכרות ראשונית של ילדים קטנים עם מוזיקה, שפה ותיאטרון בובות בסביבה של ספרייה קהילתית.",
+      "event_type": "פעילות מוזיקלית לקטנטנים",
+      "participants": [
+        "גלי פטילון",
+        "תיאטרון של גלי"
+      ],
+      "target_audience": [
+        "קטנטנים",
+        "הורים/מלווה"
+      ],
+      "visual_keywords": [
+        "בובות יד",
+        "אביזרים בימתיים צבעוניים",
+        "שעת סיפור קצרה",
+        "ילדים יושבים במעגל",
+        "מובילי מופע/מנחה",
+        "חלל ספרייה קטן",
+        "הורים עם ילדים",
+        "אווירה חמה וביתית"
+      ],
+      "image_brief": "צילום של במה קטנה בספרייה: מנחה עם בובות יד ואביזרים צבעוניים עומדת מול קבוצה של ילדים יושבים במעגל, הורים במעגל החיצוני. תאורה חמה, מוטיבים פסטליים ואווירת אינטראקציה — ילדים מרותקים לבובות ולשרשרת פעילויות על הרצפה. אין טקסט מוטבע בתמונה.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261015_2030_מצחיקונת",
@@ -2889,7 +3023,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_h_1016_2100",
@@ -2949,7 +3087,45 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://htrl.co.il/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:47:15Z",
+      "missing_information": [
+        "שמות שחקנים ובמאי",
+        "משך המופע (אורך)",
+        "שפת ההצגה",
+        "מחבר/מחזאי והפקה",
+        "מחיר כרטיסים וזמינות מושבים",
+        "המלצות גיל או הגבלות תוכן",
+        "פרטי נגישות במקום"
+      ],
+      "event_summary": "נישואים גרעיניים היא קומדיה זוגית פרועה ומצחיקה, שמוצגת בהיכל התרבות מאיר ניצן בראשון לציון. ההצגה עוקבת אחרי זוג נשוי שמגיע לאודישן לתוכנית ריאליטי חדשה שעתידה לבחון את נישואיהם עד הקצה. לפי תיאור ההצגה, העלילה בוחנת את השילוב בין אהבה לשגרה תחת לחצים של הופעה ציבורית וריאליטי. ההצגה מתקיימת ב-16.10 בשעה 21:00 בהיכל התרבות מאיר ניצן.",
+      "short_pitch": "קומדיה זוגית פרועה ומצחיקה על זוג נשוי שמגיע לאודישן לתוכנית ריאליטי שמבחנת את נישואיהם — מופע על אהבה, שגרה ולחץ ציבורי, בהיכל התרבות מאיר ניצן, 16.10 בשעה 21:00.",
+      "long_description": "נישואים גרעיניים מוצגת כקומדיה זוגית אנרגטית שמציבה את הזוגיות במרכז מבחן ריאליטי. הטקסט המתפרסם מתאר זוג נשוי עם אהבה גדולה ושגרה מטורללת שמגיעים לאודישן לתוכנית חדשה — ההצגה מבקשת להרחיב על המצבים הקומיים והמתוחים שנוצרים כשחיי הנישואים נחשפים ונבחנים בציבור. ההצגה מתוארת כפרועה ומצחיקה, ומציעה נקודת מבט הומוריסטית על האינטראקציה בין חיי משפחה, יחסים אישיים והצורך להופיע מול מצלמות וקהל. המופע יתקיים בהיכל התרבות מאיר ניצן בראשון לציון.",
+      "event_type": "קומדיה זוגית",
+      "target_audience": [
+        "מבוגרים",
+        "זוגות",
+        "חובבי קומדיה",
+        "צופי תיאטרון"
+      ],
+      "visual_keywords": [
+        "זוג על במה",
+        "תאורת במה דרמטית",
+        "מיקרופון/אודישן",
+        "מצלמת טלוויזיה/אולפן",
+        "קהל צוחק ברקע",
+        "הבעות קומיות ודרמטיות",
+        "בגדים יומיומיים של זוג",
+        "תפאורה שמשמיעה בית ושגרה"
+      ],
+      "image_brief": "תמונה חפתית של במה תיאטרלית מוארת היטב שבה זוג עומד במרכז, בפוזה סוחפת שמשלבת הבעה קומית ומעט מתוחה; מאחור מצלמה או ציוד שידור מטושטש ברקע כדי לרמז על אודישן/ריאליטי, וקהל מעומעם ברקע שמצמיח אווירת מופע. התאורה חמה וממוקדת על הדמויות, התלבושות יומיומיות ולא מצועצעות, כדי להבליט את הקונפליקט בין שגרת הבית לבין הבימה הציבורית.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -3011,7 +3187,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261017_2030_מועדון-הזמר-של-אילנה-כץ-–-לו",
@@ -3070,7 +3249,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261017_2100_מצחיקונת",
@@ -3129,7 +3312,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",

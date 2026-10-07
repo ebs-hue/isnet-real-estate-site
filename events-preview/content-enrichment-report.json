@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T18:45:12Z",
+  "generated_at": "2026-10-07T18:47:18Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 7,
+  "enriched": 4,
   "insufficient": 0,
-  "source_text_insufficient": 5,
+  "source_text_insufficient": 8,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_fc5a55d7397f123bab70",
-      "title": "שפת הגוף התנכ\"ית",
+      "event_id": "auto_ri_47445078968e008a3590",
+      "title": "משחקי הכס – תה עם המלכה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261010_2100_זוגיות-AI",
-      "title": "זוגיות AI",
+      "event_id": "auto_ri_c29d4eb1580388cda652",
+      "title": "סדנא באומנות",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_r_1011_0800",
-      "title": "כנס משתחררים.ות ראשון לציון",
+      "event_id": "auto_ri_ceed327264a9be96483d",
+      "title": "הרצאה – על רגל אחת",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
-      "title": "צלילים וסיפורונים לטף",
+      "event_id": "auto_ri_4e39de0caba699a70faf",
+      "title": "מועדון ריקודים",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1013_2030",
+      "title": "הלהקות הצבאיות חוזרות",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_f034b0005aba57961c7e",
-      "title": "פרלמנט גברים",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_r_1011_1830",
-      "title": "יוגה באגם - גילאי 18-40",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_h_1011_2030",
-      "title": "לה טרוויאטה – אופרה",
+      "event_id": "r_k_1014_1700",
+      "title": "הברווזון המכוער",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_2e27df52904543987be8",
+      "event_id": "r_k_1015_1100",
       "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1012_1700",
-      "title": "האריה הזללן",
+      "event_id": "htrl_20261015_2030_מצחיקונת",
+      "title": "מצחיקונת",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_h_1016_2100",
+      "title": "נישואים גרעיניים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_217b952badfd1b4d449f",
-      "title": "היה היה יער",
-      "status": "ready"
+      "event_id": "auto_ri_50b4293a26086f6bd52d",
+      "title": "ידיעת זהב",
+      "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_7f3f8603182bddf96986",
-      "title": "מפוחית וגיטרה עם יואב",
-      "status": "ready"
+      "event_id": "htrl_20261017_2030_מועדון-הזמר-של-אילנה-כץ-–-לו",
+      "title": "מועדון הזמר של אילנה כץ – לוליפופ",
+      "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_h_1012_1730",
-      "title": "המסע אל הכוכב – יובל המבולבל",
-      "status": "ready"
+      "event_id": "htrl_20261017_2100_מצחיקונת",
+      "title": "מצחיקונת",
+      "status": "source_text_insufficient"
     }
   ]
 }
