@@ -96,6 +96,12 @@ def evaluate(event: dict, dupes: set[str]) -> dict:
         or event.get("description")
         or ""
     )
+    image_brief = event.get("image_brief") or ""
+    content_ready = bool(
+        event.get("content_ready_for_media") is True
+        or len(str(description).strip()) >= 80
+        or len(str(image_brief).strip()) >= 40
+    )
     if not event.get("title"):
         blockers.append("missing_title")
     if not event.get("start_date"):
@@ -104,8 +110,8 @@ def evaluate(event: dict, dupes: set[str]) -> dict:
         warnings.append("missing_venue")
     if not event.get("category"):
         warnings.append("missing_category")
-    if not description:
-        warnings.append("missing_content")
+    if not content_ready:
+        blockers.append("missing_explanatory_content")
     if not image:
         blockers.append("missing_image")
     elif not image_ok:
