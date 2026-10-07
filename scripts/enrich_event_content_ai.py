@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 5
+CONTENT_ENRICHMENT_VERSION = 6
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
@@ -127,7 +127,7 @@ def fetch_source_text(url):
     except requests.RequestException:
         return ""
 
-def ask_model(event, source_text, source_url):
+def ask_model(event, source_text, source_url, require_web_search=False):
     instructions = """אתה עורך תרבות ואירועים בכיר ברשת מקומונים ישראלית.
 המטרה: להפוך כל רשומת אירוע גולמית לעמוד תוכן מקורי, קולח, ברור ושימושי לקורא שמתלבט אם להגיע.
 
@@ -159,7 +159,36 @@ def ask_model(event, source_text, source_url):
 - image_brief חייב לנבוע מהתוכן המהותי של האירוע, לא מהמיקום או מהקטגוריה בלבד.
 - אין להשתמש בלוגו כתחליף לתמונת אירוע אלא אם הלוגו עצמו הוא נושא האירוע.
 החזר JSON בלבד."""
+    category_search_labels = {
+        "theatre": "הצגת תיאטרון",
+        "kids": "הצגת ילדים",
+        "music": "מופע מוזיקה",
+        "standup": "מופע סטנדאפ",
+        "lecture": "הרצאה",
+        "exhibition": "תערוכה",
+        "workshop": "סדנה",
+        "tour": "סיור",
+        "festival": "פסטיבל",
+        "cinema": "סרט",
+        "sport": "אירוע ספורט",
+    }
+    event_type_query = category_search_labels.get(event.get("category"), "אירוע")
+    research_query = " ".join(x for x in [
+        event_type_query,
+        clean_text(event.get("title")),
+        clean_text(event.get("artist_name") or event.get("performer") or event.get("speaker")),
+        clean_text(event.get("production_name") or event.get("series_name")),
+    ] if x).strip()
+
     payload = {
+        "research_query": research_query,
+        "research_rules": [
+            "חפש קודם לפי סוג האירוע + שם האירוע",
+            "הוסף אמן/מרצה/הפקה אם הדבר עוזר לזהות את האירוע",
+            "אל תוסיף עיר או אולם כברירת מחדל; הם פרטי המועד המקומי ולא זהות היצירה",
+            "העדף מקורות רשמיים של ההפקה/האמן/התיאטרון/המרצה ואחריהם מקורות תקשורת אמינים",
+            "ודא שהמקורות מתייחסים לאותה יצירה ולא לאירוע אחר בעל שם דומה",
+        ],
         "event": {
             "title": event.get("title"),
             "city": event.get("city"),
@@ -186,16 +215,19 @@ def ask_model(event, source_text, source_url):
             "missing_information": ["unsupported details that remain unknown"],
         },
     }
+    request_body = {
+        "model": MODEL,
+        "instructions": instructions,
+        "input": "Return valid JSON only. Use web search when the supplied source text is insufficient or when additional reliable context is needed to understand the event.\n" + json.dumps(payload, ensure_ascii=False),
+        "text": {"format": {"type": "json_object"}},
+        "tools": [{"type": "web_search", "search_context_size": "medium"}],
+        "tool_choice": "required" if require_web_search else "auto",
+    }
     r = requests.post(
         "https://api.openai.com/v1/responses",
         headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"},
-        json={
-            "model": MODEL,
-            "instructions": instructions,
-            "input": "Return valid JSON only.\n" + json.dumps(payload, ensure_ascii=False),
-            "text": {"format": {"type": "json_object"}},
-        },
-        timeout=90,
+        json=request_body,
+        timeout=120,
     )
     if not r.ok:
         body = (r.text or "")[:1600]
@@ -261,18 +293,9 @@ def main():
                 if len(source_text) >= 180:
                     source_url = u
                     break
-            if len(source_text) < 180:
-                event["content_ready_for_media"] = False
-                event["media_status"] = "waiting_for_content"
-                event["content_enrichment_status"] = "source_text_insufficient"
-                event["content_enrichment_version"] = CONTENT_ENRICHMENT_VERSION
-                event["content_enrichment_retry_after"] = (date.today() + timedelta(days=7)).isoformat()
-                fetch_failed += 1
-                changed = True
-                rows.append({"city": slug, "event_id": event.get("event_id"), "title": event.get("title"), "status": "source_text_insufficient"})
-                continue
+            require_web_search = len(source_text) < 180
             try:
-                result = ask_model(event, source_text, source_url)
+                result = ask_model(event, source_text, source_url, require_web_search=require_web_search)
                 ok = apply_result(event, result, source_url)
                 event["content_enrichment_status"] = "ready" if ok else "insufficient"
                 enriched += int(ok)
