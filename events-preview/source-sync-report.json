@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-07T22:11:26Z",
+  "run_at": "2026-10-07T22:26:08Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -31,7 +31,7 @@
           "discovered": 36,
           "valid": 33,
           "new": 0,
-          "updated": 3,
+          "updated": 0,
           "images_collected": 33
         },
         "ofek_ashdod": {
@@ -41,11 +41,11 @@
           "valid": 16,
           "new": 0,
           "updated": 0,
-          "images_collected": 16
+          "images_collected": 0
         }
       },
       "new": 0,
-      "updated": 3,
+      "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
@@ -71,8 +71,8 @@
           "discovered": 117,
           "valid": 78,
           "new": 0,
-          "updated": 2,
-          "images_collected": 2
+          "updated": 0,
+          "images_collected": 0
         },
         "yama": {
           "status": "ok",
@@ -113,7 +113,7 @@
         }
       },
       "new": 0,
-      "updated": 2,
+      "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [
