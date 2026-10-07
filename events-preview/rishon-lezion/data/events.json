@@ -4269,7 +4269,10 @@
       "contact_phone": "03-9488666",
       "organizer_url": "https://htrl.co.il/third-calendar/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -4325,7 +4328,45 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:49:47Z",
+      "missing_information": [
+        "עלות/מחיר כרטיסים",
+        "משך הפעילות (משך ההרצאה)",
+        "האם נדרשת הרשמה מראש או כרטיסים מראש",
+        "הגבלות גיל או המלצות גיל",
+        "פרטי יצירת קשר להרשמה",
+        "שפת ההרצאה (אם לא עברית)"
+      ],
+      "event_summary": "הרצאה חווייתית על שיפור תפקוד המוח באמצעות משחקי חשיבה וחידות. המשתתפים יכירו טכניקות לאימון קוגניטיבי ויבצעו תרגילים מעשיים בדגש על חידות היגיון ותשבצים. מרצה: עמי גולן. האירוע יתקיים בכותר ראשון-אלון, ראשון לציון, ב-20.10.2026 בשעה 11:00.",
+      "short_pitch": "הצטרפו להרצאה חווייתית של עמי גולן על אימון המוח דרך חידות ותשבצים — מפגש מעשי שבו תתנסו בפתרון חידות היגיון ותתרגלו כלים לשיפור היכולות הקוגניטיביות.",
+      "long_description": "“סוד המוח הצעיר” היא הרצאה-סדנה שמציעה אימון קוגניטיבי קצר, מעשי ומהנה בניהולו של עמי גולן. במהלך המפגש ילמדו המשתתפים דרכי שיפור של תפקודי המוח ויבצעו תרגילים בפתרון חידות היגיון, עם דגש על סוגי חידות נפוצים כגון תשבצים וחידות \"תרתי משמע\". ההרצאה מבוססת על עבודה אינטראקטיבית: ההסבר התיאורטי משולב בתרגול מעשי כדי להמחיש אסטרטגיות חשיבה ולשפר מיומנויות פתרון בעיות. מרצה האירוע — עמי גולן — מצוין כמנחה מנוסה שמעביר סדנאות וחוגים בתחום שיפור התפקוד המנטלי באמצעות משחקי חשיבה. האירוע מתאים למי שמעוניין לאתגר את עצמו, לפתח חשיבה לוגית ולרכוש שיטות עבודה מעשיות עם חידות והיגיון. תאריך ומקום: 20.10.2026, כותר ראשון-אלון, ראשון לציון, שעה 11:00.",
+      "event_type": "הרצאה חווייתית",
+      "participants": [
+        "עמי גולן"
+      ],
+      "target_audience": [
+        "חובבי חידות ותשבצים",
+        "מעוניינים בשיפור קוגניטיבי",
+        "ציבור בוגרים"
+      ],
+      "visual_keywords": [
+        "איור של מוח סטייל אורבני/גרפי",
+        "דפי תשבצים וכרטיסיות חידות",
+        "יד מחזיקה עט ופותרת תשבץ",
+        "קבוצה קטנה מאזינה בהרצאה",
+        "מרצה עומד ליד שולחן עם חידות",
+        "מחברת פתוחה ודגלון סמן",
+        "קוביות חשיבה או פאזל",
+        "אווירת ספריה/אולם קהילה"
+      ],
+      "image_brief": "תמונה קונספטואלית: ידיים פותרות דף תשבץ עם עיפרון ומחברת פתוחה לצידן; ברקע מחשוף מטושטש של אולם קטן או שולחן הרצאה עם אנשים יושבים ומקשיבים. מעל הדף, באופן ויזואלי, אלמנט גרפי עדין של מוח מצויר או קווי חיבור להעביר את רעיון ה\"אימון הקוגניטיבי\". צבעים חמים ונעימים, תאורה פנימית טבעית ותחושה אינטימית של מפגש למידה.",
+      "content_enrichment_status": "ready"
     },
     {
       "city": "ראשון לציון",
@@ -4386,7 +4427,10 @@
       "venue_phone": "03-9537000",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -4446,7 +4490,24 @@
       "venue_website": "https://www.kotar-rishon-lezion.org.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:50:16Z",
+      "missing_information": [
+        "תיאור מפורט של התוכנית ותכנים",
+        "מנחים/מופיעים/משתתפים",
+        "קהל יעד/טווח גילאים",
+        "משך האירוע",
+        "מחיר כרטיס/אופן רכישה וקישור לרכישה",
+        "שפת האירוע",
+        "נגישות והסדרי חניה/תחבורה",
+        "האם יש רישום מראש והגבלות מקום"
+      ],
+      "content_enrichment_status": "insufficient"
     },
     {
       "event_id": "htrl_20261020_2030_אור-לגויים",
@@ -4505,7 +4566,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -4567,7 +4632,10 @@
       "venue_website": "https://rishonlezion.gal-ed.co.il/",
       "address_source": "verified_institution_registry",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261021_2030_אדיר-מילר",
@@ -4626,7 +4694,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
@@ -4682,7 +4754,46 @@
       "contact_phone": "03-9689700",
       "organizer_url": "https://www.kotar-rishon-lezion.org.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "ready_for_media",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:50:50Z",
+      "missing_information": [
+        "מחיר כרטיס",
+        "טווח גיל מדויק (אילו גילאים נחשבים כ'קטנטנים' לאירוע זה)",
+        "משך הפעילות המדויק",
+        "אופן רכישת כרטיסים (קישור/נקודת מכירה)",
+        "מספר מקומות מדויק",
+        "מידע על נגישות ו/או שפות ההנחיה"
+      ],
+      "event_summary": "הפינה של גלי היא הפעלה מוזיקלית לקטנטנים שמציעה בובות, אביזרים ושעת סיפור קצרה בהנחיית גלי פטילון (תיאטרון של גלי). האירוע נערך בספרייה בכתובת אחד העם 7, ראשון לציון והוא מיועד לילדים קטנים ולמבוגרים מלווים. הכניסה לפי הגיל המצוין בלבד; כל משתתף חייב בכרטיס, כולל הורה מלווה, והכניסה ללא אחים.",
+      "short_pitch": "הצטרפו להפעלה מוזיקלית אינטראקטיבית עם גלי פטילון: שירים, בובות ואביזרים לצד שעת סיפור קצרה — פעילות מותאמת לקטנטנים שדורשת רכישת כרטיס לכל משתתף וכניסה בליווי מבוגר.",
+      "long_description": "הפינה של גלי היא מפגש מוזיקלי-ספרותי קצר המיועד לקטנטנים ומשפחות, ומוצג על-ידי גלי פטילון (תיאטרון של גלי). במסגרת הפעילות יתקיימו שירים והפעלות אינטראקטיביות בשילוב בובות ואביזרים וכן שעת סיפור קצרה — כל זאת במתכונת שמזמינה השתתפות של הילדים. האירוע מתקיים בספרייה ברחוב אחד העם 7 בראשון לציון ומוצע על ידי רשת כותר ראשון. חשוב לדעת: הכניסה מותנית בגיל המצוין לאירוע, אין כניסה לאחים קטנים או גדולים, והכניסה מותרת בליווי מבוגר בלבד. לכל משתתף—כולל הורה מלווה—חייב להירכש כרטיס; אין החזר כספי על אי הגעה. מספר המקומות מוגבל והזכות לשינויים שמורה.",
+      "event_type": "הפעלה מוזיקלית לקטנטנים",
+      "participants": [
+        "גלי פטילון",
+        "תיאטרון של גלי"
+      ],
+      "target_audience": [
+        "קטנטנים",
+        "הורים",
+        "משפחות עם ילדים צעירים"
+      ],
+      "visual_keywords": [
+        "בובות יד",
+        "אביזרים צבעוניים",
+        "מעגל ילדים והורים",
+        "מנחה עם בובה",
+        "שעת סיפור",
+        "מדפי ספרים ברקע",
+        "צעצועים מוזיקליים",
+        "אווירה חמה וביתית"
+      ],
+      "image_brief": "צילום כיסוי המציג את המנחה (גלי פטילון) באמצע מעגל ילדים, מחזיקה בובות יד וצוחקת עם הילדים. בתצלום נראים ילדים קטנים יושבים על שטיח צבעוני והורים עומדים או יושבים מאחור; אביזרים צבעוניים ופינות ספרים ברקע משדרים אווירת ספרייה קהילתית. התאורה חמה וטבעית, אין טקסט מוטמע או לוגואים בתמונה.",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261022_2030_עפרה",
@@ -4743,7 +4854,10 @@
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
       "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "r_y_1023_1100",
@@ -4800,7 +4914,47 @@
       "venue_phone": "03-5555900",
       "venue_website": "https://yama.smarticket.co.il/",
       "contact_phone": "03-5555900",
-      "contact_email": "info@yama.co.il"
+      "contact_email": "info@yama.co.il",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://yama.smarticket.co.il/שיח_גלריה_|_יניב_שפירא_|_אגם_וקדישמן",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 2,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T18:51:12Z",
+      "missing_information": [
+        "משך השיח/משך האירוע המדויק",
+        "עלות כניסה או דרישות רישום מוקדם",
+        "שפת השיח (עברית/שפה אחרת) לא צוינה",
+        "מגבלות גיל או נגישות",
+        "האם האירוע פתוח לקהל הרחב ללא תשלום"
+      ],
+      "event_summary": "שיח גלריה במוזיאון אגם על התערוכה 'מעבר לנגלה: יעקב אגם ומנשה קדישמן'. אוצר התערוכה, יניב שפירא, ידבר עם הקהל על הסיפור שמאחורי התערוכה ועל הדיאלוג האמנותי בין השניים. המפגש יתקיים ביום שישי, 23 באוקטובר 2026, בשעה 11:00 במוזיאון אגם בראשון לציון.",
+      "short_pitch": "שיח גלריה עם אוצר התערוכה יניב שפירא על 'מעבר לנגלה', תערוכה הבוחנת את המפגש הייחודי בין יעקב אגם ומנשה קדישמן — הזדמנות לשמוע על הרקע והדיאלוג האמנותי מאחורי העבודות.",
+      "long_description": "מוזיאון אגם מזמין לשיח גלריה במסגרת התערוכה 'מעבר לנגלה: יעקב אגם ומנשה קדישמן'. האוצר יניב שפירא יוביל שיחה עם הקהל על הסיפור שמאחורי התערוכה, על המפגש היצירתי בין שניים מענקי האמנות הישראלית ועל האופן שבו עבודותיהם יוצרות דיאלוג בלתי צפוי. האירוע מיועד למי שמתעניין בהיכרות מעמיקה יותר עם התערוכה ובהבנת נקודות המפגש והשוני בין תפיסות העולם של האמנים. השיח יתקיים במוזיאון אגם, מיש\"ר 1, ראשון לציון, ביום שישי 23.10.2026 בשעה 11:00. לפרטים נוספים ועדכונים יש לקבל מידע ישירות ממוזיאון אגם או מאתר המוזיאון.",
+      "event_type": "שיח גלריה",
+      "participants": [
+        "יניב שפירא",
+        "יעקב אגם",
+        "מנשה קדישמן"
+      ],
+      "target_audience": [
+        "חובבי אמנות ישראלית",
+        "מבקרים ומבקרות של מוזיאונים",
+        "סטודנטים לאמנות ועיצוב",
+        "קהל שמתעניין בדיאלוגים אמנותיים"
+      ],
+      "visual_keywords": [
+        "גלריה פנימית של מוזיאון",
+        "יצירות של יעקב אגם",
+        "יצירות של מנשה קדישמן",
+        "אוצר מדבר לקהל",
+        "קהל מאזין בכיסאות",
+        "תאורה מוזיאלית על עבודות",
+        "מבט על פרטים של יצירות"
+      ],
+      "image_brief": "צילום רחב של חלל תערוכה במוזיאון אגם: קירות לבנים עם עבודות מהתערוכה 'מעבר לנגלה' ברקע, יניב שפירא עומד מול קהל ומנהל שיחה, קהל מאזין בסטנדרט מוזיאלי (כיסאות או עומדים), תאורה ממוקדת על יצירות והרגשה של מפגש ציבורי-תרבותי בתוך חלל תצוגה. אין טקסט חופף או לוגואים בתמונה.",
+      "media_status": "ready_for_media",
+      "content_enrichment_status": "ready"
     },
     {
       "event_id": "htrl_20261023_2130_אהבה-בהפתעה",
@@ -4859,7 +5013,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "event_id": "htrl_20261024_1100_מיקי-–-הבית-של-יעל",
@@ -4921,7 +5079,11 @@
       "organizer_url": "https://htrl.co.il/",
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
-      "venue_website": "https://htrl.co.il/"
+      "venue_website": "https://htrl.co.il/",
+      "content_ready_for_media": false,
+      "media_status": "waiting_for_content",
+      "content_enrichment_status": "source_text_insufficient",
+      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",

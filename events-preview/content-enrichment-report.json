@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-07T18:49:15Z",
+  "generated_at": "2026-10-07T18:51:14Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 4,
-  "insufficient": 0,
+  "enriched": 3,
+  "insufficient": 1,
   "source_text_insufficient": 8,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_5c9135722c3f043cd513",
-      "title": "צלילים וסיפורונים לטף",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_e505893f7b8f2841a928",
-      "title": "מעשה בשני אחים",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "r_r_1018_1830",
-      "title": "יוגה באגם - גילאי 18-40",
+      "event_id": "auto_ri_747d4b2b4f68573f3c7c",
+      "title": "סוד המוח הצעיר",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_6a952281b9a1d50de945",
-      "title": "דילמות במשפחה היהודית בתרבות היידיש",
+      "event_id": "auto_ri_02c01ca271e49574910d",
+      "title": "סוד המוח הצעיר: הרצאה חווייתית הכוללת משחקי חשיבה וחידות היגיון",
+      "status": "ready"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_809cbafc2de16600645a",
+      "title": "מועדון ריקודים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261018_2030_אור-לגויים",
+      "event_id": "auto_ri_eea0508fecc5a94b38c4",
+      "title": "עומרי שומע?",
+      "status": "insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "htrl_20261020_2030_אור-לגויים",
       "title": "אור לגויים",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_db3580485033a14ef6d5",
-      "title": "שושנה דמארי",
+      "event_id": "auto_ri_ccdb04e5dda0029fefcf",
+      "title": "תגבירו את המזגן – אני בוערת",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1019_1700",
-      "title": "בגדי המלך החדשים",
+      "event_id": "htrl_20261021_2030_אדיר-מילר",
+      "title": "אדיר מילר",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_e5b425e124767f709372",
+      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_e3d7cdfcbc169c4ed405",
-      "title": "מר צפרדע והנחל המתוק",
+      "event_id": "htrl_20261022_2030_עפרה",
+      "title": "עפרה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "r_y_1023_1100",
+      "title": "שיח גלריה | יניב שפירא | אגם וקדישמן",
       "status": "ready"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261019_2030_אור-לגויים",
-      "title": "אור לגויים",
+      "event_id": "htrl_20261023_2130_אהבה-בהפתעה",
+      "title": "אהבה בהפתעה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_fc5619ae590998dbc800",
-      "title": "סיור אומנות",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_1ac2e2abafd31224d2b8",
-      "title": "הרצאה – סוד המוח הצעיר",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_2b73e142970ab3ea5828",
-      "title": "מסייה אזנבור",
+      "event_id": "htrl_20261024_1100_מיקי-–-הבית-של-יעל",
+      "title": "מיקי – הבית של יעל",
       "status": "source_text_insufficient"
     }
   ]
