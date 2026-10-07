@@ -21,6 +21,13 @@ function renderOrganizations(){
   const city=$("city").value;
   renderTaxonomy("organizations",(taxonomy.organizations||[]).filter(x=>!x.cities||x.cities.includes(city)));
 }
+function makeSlug(value){
+  return String(value||"").normalize("NFKC").trim().toLowerCase()
+    .replace(/["'״׳]/g,"")
+    .replace(/[^\p{L}\p{N}]+/gu,"-")
+    .replace(/^-+|-+$/g,"")
+    .slice(0,90);
+}
 function idFor(city){return "manual_"+city.replace(/[^a-z0-9]+/gi,"_")+"_"+Date.now()}
 $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("");
 $("imageFile").addEventListener("change",e=>{
@@ -34,7 +41,7 @@ $("saveBtn").addEventListener("click",async()=>{
   const item={
     event_id:idFor(city),_citySlug:city,city:city==="ashdod"?"אשדוד":"ראשון לציון",
     title,short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),
-    category:$("category").value,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
+    category:$("category").value,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim()||makeSlug(title),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
     venue:$("venue").value.trim(),address:$("address").value.trim(),
     purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),
     image_credit:$("imageCredit").value.trim(),image_publishable:$("imageApproved").checked,
