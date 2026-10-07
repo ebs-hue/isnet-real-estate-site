@@ -1,6 +1,31 @@
 {
   "version": 1,
-  "publish_policy": "human_approval_required",
+  "publish_policy": {
+    "mode": "hybrid",
+    "default_mode": "approval_required",
+    "automatic_when": {
+      "qa_passed": true,
+      "image_rights": "approved",
+      "duplicate_risk": "low",
+      "source_confidence": "high",
+      "required_fields_complete": true,
+      "category_editor_decision": [
+        "normal",
+        "recommended",
+        "promoted",
+        "hero_candidate"
+      ]
+    },
+    "force_human_review_when": [
+      "low_confidence",
+      "unclear_image_rights",
+      "possible_duplicate",
+      "missing_required_field",
+      "sensitive_content",
+      "legal_risk",
+      "manual_only_category"
+    ]
+  },
   "workflow": [
     "collector",
     "dedupe",
@@ -9,7 +34,9 @@
     "taxonomy",
     "seo",
     "qa",
-    "ready_for_review"
+    "category_editor",
+    "chief_editor",
+    "publisher"
   ],
   "agents": [
     {
@@ -134,6 +161,75 @@
       "cannot": [
         "publish"
       ]
+    },
+    {
+      "id": "category_editor",
+      "name": "סוכן עורך קטגוריה",
+      "status": "priority",
+      "order": 8,
+      "purpose": "עורך את המדור ברמת התמונה הרחבה: חשיבות, בולטות, איזון תוכן, קידום והמלצת פרסום.",
+      "can": [
+        "review_section_mix",
+        "score_editorial_value",
+        "recommend_promotion",
+        "recommend_hold",
+        "recommend_publish",
+        "recommend_homepage_position"
+      ],
+      "cannot": [
+        "change_taxonomy_dictionary",
+        "bypass_quality_rules"
+      ],
+      "decision_outputs": [
+        "normal",
+        "recommended",
+        "promoted",
+        "hero_candidate",
+        "hold",
+        "reject"
+      ]
+    },
+    {
+      "id": "chief_editor",
+      "name": "סוכן עורך ראשי",
+      "status": "planned",
+      "order": 9,
+      "purpose": "מסתכל על כלל הערים והקטגוריות, מזהה חשיבות רוחבית ומחליט מה ראוי לחשיפה רחבה ברשת.",
+      "can": [
+        "compare_across_sites",
+        "recommend_network_promotion",
+        "prioritize_breaking_or_high_value_content",
+        "resolve_editorial_conflicts"
+      ],
+      "cannot": [
+        "override_blocked_rights",
+        "bypass_high_risk_review"
+      ]
+    },
+    {
+      "id": "publisher",
+      "name": "סוכן פרסום",
+      "status": "priority",
+      "order": 10,
+      "purpose": "מקבל את החלטת המערכת ומבצע פרסום, תזמון, הפצה או עצירה לפי רמת הסיכון וכללי המדיניות.",
+      "can": [
+        "publish",
+        "schedule",
+        "distribute_to_city",
+        "distribute_to_section",
+        "distribute_to_homepage",
+        "return_for_review"
+      ],
+      "cannot": [
+        "publish_blocked_content",
+        "publish_without_required_fields"
+      ],
+      "modes": [
+        "automatic",
+        "approval_required",
+        "manual_only"
+      ],
+      "default_mode": "approval_required"
     }
   ],
   "media_policy": {
