@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T16:36:26Z",
+  "generated_at": "2026-10-07T16:40:31Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 6,
-  "insufficient": 1,
-  "source_text_insufficient": 5,
+  "enriched": 12,
+  "insufficient": 0,
+  "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_da9a146c50c48a0aa0f4",
+      "event_id": "evt_13_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_3f503485fb828450a686",
+      "title": "אדם וחותם-הקשר שבין האדם לאדמה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_28a0894af263d3e95052",
+      "title": "פילאטיס לאזרחים וותיקים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_772312d4fce5baa32388",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_14_20261102",
+      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_6702385b6f68556b2c50",
+      "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a28e2e7dfb7c44f26606",
+      "title": "סדנת צחוק, אורית שירי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_64cf140ac904f0ae4871",
+      "title": "התקווה 6",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a84790398264ca067403",
+      "title": "יריד בריאות לאזרחים וותיקים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_180bd1ccf144be5544e3",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_15_20261103",
+      "title": "השועל המוסיקלי כוורת",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a523be9334deb93f5e65",
       "title": "סטודיו פתוח",
       "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261029_hapoel_ashdod_w_handball",
-      "title": "הפועל אשדוד - הפועל קרית אונו",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_53_20261029",
-      "title": "בן בן ברוך",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_d6f20b5b24339863b497",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261030_ms_ashdod_football",
-      "title": "מ.ס. אשדוד - בני יהודה תל אביב",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261030_ironi_ashdod_football",
-      "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_59e494c94b56ac9e6861",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_54_20261031",
-      "title": "עומר בורשטיין",
-      "status": "source_text_insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_1ae03ec698a65bb2455e",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_11_20261101",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_12_20261101",
-      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_e8967396c917fb4211e4",
-      "title": "הרצאה של רנה סרור",
-      "status": "insufficient"
     }
   ]
 }
