@@ -6,7 +6,7 @@
   <meta name="robots" content="noindex,nofollow">
   <title>עריכת אירוע | ISNET</title>
   <link rel="stylesheet" href="styles.css?v=20261007-1030">
-  <link rel="stylesheet" href="edit.css?v=20261007-1030">
+  <link rel="stylesheet" href="edit.css?v=20261007-1040">
 </head>
 <body>
 <header class="topbar edit-topbar">
@@ -33,6 +33,13 @@
           <label><span>קטגוריה</span><select id="category"></select></label>
           <label><span>סטטוס</span><select id="status"><option value="active">פעיל</option><option value="draft">טיוטה</option><option value="hidden">מוסתר</option></select></label>
         </div>
+        <label><span>עדיפות / קידום</span>
+          <select id="promotion">
+            <option value="normal">רגיל</option>
+            <option value="recommended">מומלץ</option>
+            <option value="promoted">מקודם</option>
+          </select>
+        </label>
       </section>
 
       <section class="panel edit-card">
@@ -77,6 +84,6 @@
     </aside>
   </section>
 </main>
-<script src="edit.js?v=20261007-1030"></script>
+<script src="edit.js?v=20261007-1040"></script>
 </body>
 </html>
