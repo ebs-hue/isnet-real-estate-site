@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 3
+CONTENT_ENRICHMENT_VERSION = 4
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
@@ -163,6 +163,8 @@ def ask_model(event, source_text, source_url):
             "target_audience": ["supported or safely inferable broad audience labels"],
             "visual_keywords": ["5-10 concrete visual concepts"],
             "image_brief": "one Hebrew paragraph describing a relevant cover image, without embedded text",
+            "seo_title": "concise factual Hebrew Google title, usually up to 60 characters",
+            "seo_description": "useful factual Hebrew meta description, usually 120-160 characters",
             "content_ready_for_media": True,
             "missing_information": ["unsupported details that remain unknown"],
         },
@@ -208,6 +210,7 @@ def apply_result(event, result, source_url):
     for key in (
         "event_summary", "short_pitch", "long_description", "event_type",
         "participants", "target_audience", "visual_keywords", "image_brief",
+        "seo_title", "seo_description",
     ):
         value = result.get(key)
         if value not in (None, "", []):
