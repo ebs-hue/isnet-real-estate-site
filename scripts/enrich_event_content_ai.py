@@ -170,7 +170,9 @@ def ask_model(event, source_text, source_url):
         },
         timeout=90,
     )
-    r.raise_for_status()
+    if not r.ok:
+        body = (r.text or "")[:1600]
+        raise RuntimeError(f"OpenAI API {r.status_code}: {body}")
     obj = r.json()
     text = clean_text(obj.get("output_text"))
     if not text:
@@ -250,8 +252,9 @@ def main():
             except Exception as exc:
                 model_failed += 1
                 event["content_enrichment_status"] = "model_error"
-                rows.append({"city": slug, "event_id": event.get("event_id"), "title": event.get("title"), "status": "model_error", "error": type(exc).__name__})
-                print("MODEL ERROR", slug, event.get("event_id"), type(exc).__name__, flush=True)
+                err = clean_text(str(exc))[:1200]
+                rows.append({"city": slug, "event_id": event.get("event_id"), "title": event.get("title"), "status": "model_error", "error": err})
+                print("MODEL ERROR", slug, event.get("event_id"), err, flush=True)
             time.sleep(0.15)
         if changed:
             path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
