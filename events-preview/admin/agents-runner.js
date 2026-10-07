@@ -6,6 +6,19 @@ const TODAY=new Date().toISOString().slice(0,10);
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function normalize(s){return String(s||"").normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim()}
+function slugify(value){
+  return String(value||"").normalize("NFKC").trim().toLowerCase()
+    .replace(/["'״׳]/g,"")
+    .replace(/[^\p{L}\p{N}]+/gu,"-")
+    .replace(/^-+|-+$/g,"")
+    .slice(0,90);
+}
+function stableSlug(e){
+  if(e.seo_slug)return slugify(e.seo_slug);
+  const base=slugify(e.title)||"event";
+  const suffix=String(e.event_id||"").replace(/[^a-zA-Z0-9]+/g,"").slice(-8).toLowerCase();
+  return suffix?base+"-"+suffix:base;
+}
 function sourceConfidence(e){
   const src=(e.sources||[])[0]?.name||e.purchase_source||"";
   if(!src)return "low";
@@ -15,7 +28,7 @@ function sourceConfidence(e){
 function evaluate(e,dupes){
   const blockers=[],warnings=[];
   const img=e.thumbnail_url||e.image_url;
-  const imageApproved=Boolean(img&&e.image_publishable===true&&e.image_verified===true);
+  const imageApproved=Boolean(img&&((e.image_publishable===true&&e.image_verified===true)||e.image_approved===true));
   const desc=e.long_description||e.short_pitch||e.series_description||e.description||e._description||"";
   if(!e.title)blockers.push("חסרה כותרת");
   if(!e.start_date)blockers.push("חסר תאריך");
@@ -76,6 +89,38 @@ async function dbClient(){
   if(!cfg.enabled||!window.supabase)return null;
   return window.supabase.createClient(cfg.supabaseUrl,cfg.supabaseAnonKey,{auth:{persistSession:true,autoRefreshToken:true}});
 }
+async function autoPublishReady(results){
+  const ready=results.filter(x=>x.result.ready);
+  let published=0,alreadyPublished=0,failed=0;
+  const failures=[];
+  for(const {event,result} of ready){
+    if(event.publication_status==="published"){
+      alreadyPublished++;continue;
+    }
+    const payload={
+      ...event,
+      seo_slug:stableSlug(event),
+      promotion:event.promotion||result.editorial_decision||"normal",
+      agent_qa_score:result.score,
+      agent_source_confidence:result.confidence,
+      agent_editorial_decision:result.editorial_decision,
+      agent_publish_decision:"auto_publish"
+    };
+    delete payload._citySlug;
+    delete payload._description;
+    try{
+      await window.ISNET_DB.publishEvent(event._citySlug,event.event_id,payload,event._localNew?"manual":"override");
+      event.publication_status="published";
+      event.seo_slug=payload.seo_slug;
+      published++;
+    }catch(err){
+      failed++;
+      failures.push({event,result,error:err});
+      console.error("automatic publish failed",event.event_id,err);
+    }
+  }
+  return {published,alreadyPublished,failed,failures};
+}
 async function persistTasks(results){
   const db=await dbClient();if(!db)throw new Error("אין חיבור למסד הנתונים");
   const {data:{user}}=await db.auth.getUser();if(!user)throw new Error("המשתמש אינו מחובר");
@@ -115,13 +160,20 @@ async function run(){
     const events=await loadEvents(),dupes=duplicateSet(events);
     const results=events.map(event=>({event,result:evaluate(event,dupes)}));
     renderResults(results);
-    $("runStatus").textContent="הבדיקה הסתיימה. שומר תוצאות במערכת...";
+    $("runStatus").textContent="הבדיקה הסתיימה. סוכן הפרסום מפרסם את האירועים התקינים...";
+    const publication=await autoPublishReady(results);
     try{
       await persistTasks(results);
-      $("runStatus").textContent="ההרצה הושלמה ותוצאות הסוכנים נשמרו ב-Supabase.";
     }catch(err){
-      console.error(err);
-      $("runStatus").textContent="הבדיקה הושלמה, אך תוצאותיה לא נשמרו. ייתכן שטבלאות הסוכנים עדיין לא הוקמו.";
+      console.error("agent task log unavailable",err);
+    }
+    const exceptionCount=results.filter(x=>!x.result.ready).length+publication.failed;
+    $("runStatus").textContent=
+      "ההרצה הושלמה: "+publication.published+" פורסמו אוטומטית, "+
+      publication.alreadyPublished+" כבר היו מפורסמים, "+
+      exceptionCount+" נשארו בתור החריגים.";
+    if(publication.failed){
+      $("runStatus").textContent+=" "+publication.failed+" אירועים תקינים נכשלו טכנית בפרסום ונשארו לטיפול.";
     }
   }catch(err){
     console.error(err);$("runStatus").textContent="אירעה שגיאה בהרצת הסוכנים.";
