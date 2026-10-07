@@ -27,6 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
+CONTENT_ENRICHMENT_VERSION = 3
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 UA = "ISNET-EventsContent/1.0 (editorial enrichment from recorded official sources)"
 
@@ -70,13 +71,17 @@ def needs_enrichment(event):
     if event.get("content_origin") in {"manual", "editorial"} and existing_context(event):
         return False
     retry_after = str(event.get("content_enrichment_retry_after") or "")
-    if event.get("content_enrichment_status") == "source_text_insufficient" and retry_after > date.today().isoformat():
+    if (
+        event.get("content_enrichment_status") == "source_text_insufficient"
+        and event.get("content_enrichment_version") == CONTENT_ENRICHMENT_VERSION
+        and retry_after > date.today().isoformat()
+    ):
         return False
-    return event.get("content_enrichment_version") != 2
+    return event.get("content_enrichment_version") != CONTENT_ENRICHMENT_VERSION
 
 def source_urls(event):
     vals = []
-    for key in ("detail_source_url", "ticket_url", "purchase_url"):
+    for key in ("detail_source_url", "image_source", "content_enrichment_source", "ticket_url", "purchase_url"):
         u = clean_text(event.get(key))
         if u.startswith("https://"):
             vals.append(u)
@@ -193,7 +198,7 @@ def apply_result(event, result, source_url):
     event["content_ready_for_media"] = ready
     event["content_enrichment_source"] = source_url
     event["content_enrichment_model"] = MODEL
-    event["content_enrichment_version"] = 2
+    event["content_enrichment_version"] = CONTENT_ENRICHMENT_VERSION
     event["content_origin"] = "ai_enriched"
     event["content_enriched_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     event["missing_information"] = result.get("missing_information") or []
