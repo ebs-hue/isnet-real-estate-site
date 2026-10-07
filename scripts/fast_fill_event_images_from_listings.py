@@ -180,7 +180,9 @@ def main():
             stats["download_failed"]+=1;continue
         e.update({
           "image_url":local,"image_origin_url":u,"image_source":ref,
+          "image_credit":e.get("image_credit") or "צילום או כרזה: אתר המארגן הרשמי",
           "image_publishable":True,"image_verified":True,
+          "image_rights_status":"verified_official_source",
           "image_strategy":"source_listing_card",
           "thumbnail_ready":False,"thumbnail_url":None
         })
@@ -196,7 +198,7 @@ def main():
         if not src:continue
         for k in ("image_url","image_origin_url","image_source","image_credit"):
             e[k]=src.get(k)
-        e.update({"image_publishable":True,"image_verified":True,"image_strategy":"same_production_reuse","thumbnail_ready":False,"thumbnail_url":None})
+        e.update({"image_publishable":True,"image_verified":True,"image_rights_status":"verified_official_source","image_strategy":"same_production_reuse","thumbnail_ready":False,"thumbnail_url":None})
         stats["same_title_reuse"]+=1
         new.append({"event_id":e["event_id"],"title":e.get("title"),"image":e.get("image_origin_url"),"source":e.get("image_source"),"score":"reuse"})
 
