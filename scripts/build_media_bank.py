@@ -29,6 +29,16 @@ CITIES={
     "rishon-lezion": EVENTS/"rishon-lezion"/"data"/"events.json",
 }
 GENERIC_PEOPLE={"אבא","אמא","הורים","ילדים","ילדות","משפחה","משפחות","קהל","משתתפים","משתתפות","מרצה","מנחה","אמן","אמנית","זמר","זמרת","שחקן","שחקנית"}
+EVENT_HORIZON_MONTHS=5
+
+def add_months(d, months):
+    import calendar
+    month_index=d.month-1+months
+    year=d.year+month_index//12
+    month=month_index%12+1
+    day=min(d.day,calendar.monthrange(year,month)[1])
+    return d.replace(year=year,month=month,day=day)
+
 BAD=("microsoft_oauth","google_oauth","facebook_oauth","oauth","placeholder","no-image","no_image","favicon","sprite","loading","pixel","apple-touch-icon","default_avatar","default-image","blank.gif","transparent.gif","spacer.gif")
 
 def norm(v):
@@ -90,11 +100,14 @@ def main():
     assets={}
     links=defaultdict(list)
     now=datetime.now(timezone.utc).isoformat()
+    today=datetime.now().date()
+    horizon_end=add_months(today,EVENT_HORIZON_MONTHS).isoformat()
     stats={"events_scanned":0,"image_links":0,"unique_images":0,"approved":0,"needs_review":0,"rejected":0}
     for city,path in CITIES.items():
         doc=json.loads(path.read_text(encoding="utf-8"))
         for e in doc.get("events",[]):
-            if str(e.get("start_date") or "") < datetime.now().date().isoformat():
+            event_date=str(e.get("start_date") or "")
+            if event_date < today.isoformat() or event_date > horizon_end:
                 continue
             stats["events_scanned"]+=1
             raw=e.get("thumbnail_url") or e.get("image_url") or ""
