@@ -1,83 +1,83 @@
 {
-  "generated_at": "2026-10-07T19:04:19Z",
+  "generated_at": "2026-10-07T19:05:08Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 2,
-  "insufficient": 1,
-  "source_text_insufficient": 9,
+  "enriched": 0,
+  "insufficient": 0,
+  "source_text_insufficient": 12,
   "model_failed": 0,
   "events": [
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261128_1100_קוגומלו-–-שכחו-אותי-בג'ונגל",
-      "title": "קוגומלו – שכחו אותי בג'ונגל",
+      "event_id": "htrl_20261203_2100_בוא-לא-נדבר-על-זה",
+      "title": "בוא לא נדבר על זה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_79f39b31e5ed04647185",
-      "title": "לוח השנה העברי",
+      "event_id": "auto_ri_566e9fcf9b2fb7750335",
+      "title": "קבלת שבת עם הרב בני מינץ",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_1fbddc3e2b7a2ec22e53",
-      "title": "מועדון הזמר של אילנה כץ – לאור הזכרונות",
+      "event_id": "htrl_20261204_2230_אדיר-מילר",
+      "title": "אדיר מילר",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_272fe5273dff3cca64c2",
-      "title": "זוגיות AI",
+      "event_id": "r_e_1205_0900",
+      "title": "קסם של פסטיבל - חנוכה 2026",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_09bafa61f59918d579e0",
-      "title": "משעמם לי!",
-      "status": "insufficient"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "auto_ri_ed225be0a53efca0fcf5",
-      "title": "ימין ושמאל – רק חול וחול",
+      "event_id": "htrl_20261205_1000_חנות-סופגניות-קטנה-ומצחיקה",
+      "title": "חנות סופגניות קטנה ומצחיקה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261129_2030_מורדות",
-      "title": "מורדות",
+      "event_id": "r_e_1205_1000",
+      "title": "חנות סופגניות קטנה ומצחיקה - חנוכה 2026",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "htrl_20261130_1700_מורדות",
-      "title": "מורדות",
+      "event_id": "htrl_20261205_1200_חנות-סופגניות-קטנה-ומצחיקה",
+      "title": "חנות סופגניות קטנה ומצחיקה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_ee8e1de7b8555cc9bcff",
-      "title": "שיח המקדים ל\"מורדות\" עם אמנון לוי",
+      "event_id": "htrl_20261205_1600_חנות-סופגניות-קטנה-ומצחיקה",
+      "title": "חנות סופגניות קטנה ומצחיקה",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "r_k_1201_1900",
-      "title": "אימפרובוק: מופע תיאטרלי ספרותי שסופו לא ידוע",
-      "status": "ready"
-    },
-    {
-      "city": "rishon-lezion",
-      "event_id": "htrl_20261201_2030_מורדות",
-      "title": "מורדות",
+      "event_id": "auto_ri_7d6b6116d2ed50fe8043",
+      "title": "חנוכה, נר שני",
       "status": "source_text_insufficient"
     },
     {
       "city": "rishon-lezion",
-      "event_id": "auto_ri_a2b1fe8b83fdb2561ef9",
-      "title": "עולם האופנה: שמש ומדבר",
-      "status": "ready"
+      "event_id": "auto_ri_664315092d2c22879f09",
+      "title": "אי טרופי אבוד – קובה",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_949066053ff2bee127d6",
+      "title": "היי סקול דרמה – משפחת טרסוב",
+      "status": "source_text_insufficient"
+    },
+    {
+      "city": "rishon-lezion",
+      "event_id": "auto_ri_ac3f38940f5ebe925d30",
+      "title": "היי סקול דרמה – משפחת טרסוב",
+      "status": "source_text_insufficient"
     }
   ]
 }
