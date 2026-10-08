@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:44:28Z",
+  "generated_at": "2026-10-08T11:45:08Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,42 +9,42 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_58_20261112",
-      "title": "לה דולצ'ה נוטה – נוסטלגיה בהיכל בהנחיית דן כנר",
+      "event_id": "auto_as_ef7ca0af669f34aae871",
+      "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_65aaebf97ecda0981b5b",
+      "event_id": "auto_as_c5f6d02c4792bae76e1c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_98_20261113",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_d40a31ca190750c33df1",
+      "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_b6539384c62acf076d94",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_737e086330f64f28c23c",
+      "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1433fdc5973b6695bdc3",
-      "title": "עופרה",
+      "event_id": "evt_77_20261116",
+      "title": "החולה ההודי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_87b190ce94eadcbb9bd1",
+      "event_id": "auto_as_c67cb1fd7296d8873ca3",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"

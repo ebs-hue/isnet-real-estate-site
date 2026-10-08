@@ -14484,7 +14484,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/צוות_מצדיעים_לצה_ל_ולכוחות_הביטחון_/?id=8233",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:28:13Z",
       "missing_information": [
@@ -14514,7 +14514,8 @@
         "אווירת מחווה וכבוד"
       ],
       "image_brief": "צילום כותרת למאמר: תקריב של הבמה במשכן לאמנויות הבמה באשדוד מואר בתאורה תיאטרלית, עם מושבים מלאים בחזית, קהל יושב וקטע במה ריק המתקשר לאווירת מחווה. ברקע ניתן לכלול דגלי ישראל או אלמנטים סימבוליים עדינים (לא טקסט), כאשר הדגש הוא על אווירת ערב תרבותי ומכובד.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14586,7 +14587,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17591",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:28:30Z",
       "missing_information": [
@@ -14623,9 +14624,10 @@
       ],
       "image_brief": "צילום חלל תצוגה במוזיאון: קיר גדול שעליו תלוי ציור מופשט רחב היקף בצבעים חזקים וטקסטורות בולטות, למקבילו מסך או התקן וידאו שמקרין עבודות וידאו מהאוסף. בתמונה ניכרת תאורה מוזיאונית בהירה ורצפה נקייה, המבליטה את הקונטרסט בין הציור לבין ההקרנה הוויזואלית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14746,7 +14748,10 @@
       "venue_phone": "08-8675261",
       "venue_website": "https://www.ironit.org.il/",
       "contact_phone": "08-8675261",
-      "contact_email": "safra@ironit.org.il"
+      "contact_email": "safra@ironit.org.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14813,7 +14818,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/נקודת_מפגש-בין_היסטוריה_לסיפור_חיים/?id=17677",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:28:47Z",
       "missing_information": [
@@ -14849,7 +14854,8 @@
         "תצוגות זכוכית ומדפים"
       ],
       "image_brief": "צילום כיסוי שמציג חלק מתערוכת \"עולמם של הפלשתים\" בתוך המוזאון: תצוגות מוצגים מוארות ברקע ומספר מבקרים בקבוצת הדרכה בשורה או מעגל קטן שמקשיבים למדריך. התאורה חמימה, עומק שדה שמדגיש פריטים בתצוגה ומרחב מוזאוני מסודר, אווירה שקטה של התבוננות ושיחה לאחר הסיור.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_77_20261116",
@@ -14943,7 +14949,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%97%D7%95%D7%9C%D7%94_%D7%94%D7%94%D7%95%D7%93%D7%99/?id=8140",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:29:25Z",
       "missing_information": [
@@ -14974,9 +14980,10 @@
       ],
       "image_brief": "צילום מעט מרחוק של במה תאטרלית מוכנה להופעה: בבמה ספסלים או אביזרים מינימליים, ספוטלייט בוהק שיוצר עיגול אור מרכזי, ושורות כיסאות של חלל התיאטרון ברקע. האווירה ערבית וחמה, עם דגש על התאורה ותחושת ציפייה לקראת תחילת ההצגה. אין טקסט מוטמן בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8f297f8b91e325728d628397"
+      "media_bank_id": "media_8f297f8b91e325728d628397",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -15048,7 +15055,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17569",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:29:44Z",
       "missing_information": [
@@ -15086,9 +15093,10 @@
       ],
       "image_brief": "צילום תקריב של חלל תצוגה במוזיאון: קיר שבו תלוי ציור מופשט רחב היקף עם משיחות וצבע עשיר, בחזית תמונה משטח רצפה נקי ופינת תצוגה עם מסך וידאו או פרויקטור המציג קליפ קצר. התאורה רכה וניטרלית, והפריים מדגיש את הקונטרסט בין הציור החומרי לבין מסכי הווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_21_20261117",
