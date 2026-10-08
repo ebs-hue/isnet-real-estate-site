@@ -3,7 +3,9 @@ name: Enrich Ashdod event images
 on:
   workflow_dispatch:
   workflow_run:
-    workflows: ["Enrich event content with AI"]
+    workflows:
+      - "Daily city event intake"
+      - "Enrich event content with AI"
     types: [completed]
   push:
     branches: [main]
