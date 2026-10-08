@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-07T22:13:33Z",
+  "generated_at": "2026-10-08T06:09:40Z",
   "window": {
-    "from": "2026-10-07",
+    "from": "2026-10-08",
     "to": "2027-09-20"
   },
   "stats": {
-    "events": 327
+    "events": 325
   },
   "events": [
     {
@@ -1784,65 +1784,6 @@
       "content_enrichment_retry_after": "2026-10-14"
     },
     {
-      "event_id": "r_r_1011_1830",
-      "city": "ראשון לציון",
-      "title": "יוגה באגם - גילאי 18-40",
-      "description": null,
-      "start_date": "2026-10-11",
-      "end_date": null,
-      "start_time": "18:30",
-      "end_time": null,
-      "venue": "פארק האגמים ראשון לציון",
-      "address": "פארק האגמים, ראשון לציון",
-      "district": null,
-      "category": "community",
-      "audiences": [
-        "adults"
-      ],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 0,
-      "price_max_ils": null,
-      "is_free": true,
-      "ticket_status": "unknown",
-      "ticket_url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/238578",
-      "image_url": "assets/local/lake.svg",
-      "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg",
-      "image_credit": "ויזואל מקומי של ISNET עד להחלפתו בתמונת האירוע",
-      "image_publishable": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "RIZONE+",
-          "url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/238578",
-          "source_type": "official",
-          "observed_at": "2026-10-05T13:10:00+03:00"
-        }
-      ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
-      "status": "active",
-      "quality_flags": [
-        "seed_verified_official",
-        "needs_image_enrichment"
-      ],
-      "purchase_url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/238578",
-      "purchase_phone": null,
-      "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_ready": false,
-      "image_origin_url": "assets/local/lake.svg",
-      "image_strategy": "awaiting_official_event_image",
-      "thumbnail_url": null,
-      "thumbnail_strategy": "direct_local",
-      "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content",
-      "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
-    },
-    {
       "event_id": "r_h_1011_2030",
       "city": "ראשון לציון",
       "title": "לה טרוויאטה – אופרה",
@@ -3551,65 +3492,6 @@
       ],
       "image_brief": "איור חם וצבעוני של שני אחים עומדים בשדה גבעי (כרמים ותבואה) בהרי ירושלים; אחד מחזיק אשכול ענבים והשני חבילה של תבואה, בתמונה ניכרת תחושת מרחק וחריגות בחלוקה. ברקע במה קטנה בסגנון שעת סיפור עם כמה ילדים ישובים בקדמת התמונה ולוויית ריהוט ספרייה עדין, צבעים חמים של ערב ותחושה של סיפור עממי.",
       "content_enrichment_status": "ready"
-    },
-    {
-      "event_id": "r_r_1018_1830",
-      "city": "ראשון לציון",
-      "title": "יוגה באגם - גילאי 18-40",
-      "description": null,
-      "start_date": "2026-10-18",
-      "end_date": null,
-      "start_time": "18:30",
-      "end_time": null,
-      "venue": "פארק האגמים ראשון לציון",
-      "address": "פארק האגמים, ראשון לציון",
-      "district": null,
-      "category": "community",
-      "audiences": [
-        "adults"
-      ],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 0,
-      "price_max_ils": null,
-      "is_free": true,
-      "ticket_status": "unknown",
-      "ticket_url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/274852",
-      "image_url": "assets/local/lake.svg",
-      "image_source": "https://commons.wikimedia.org/wiki/File:Rishon_LeZion_Lake_Park,_SuperLand_and_Yes_Planet_Aerial_View_02.jpg",
-      "image_credit": "ויזואל מקומי של ISNET עד להחלפתו בתמונת האירוע",
-      "image_publishable": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "RIZONE+",
-          "url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/274852",
-          "source_type": "official",
-          "observed_at": "2026-10-05T13:10:00+03:00"
-        }
-      ],
-      "observed_at": "2026-10-05T13:10:00+03:00",
-      "last_verified_at": "2026-10-05T13:10:00+03:00",
-      "status": "active",
-      "quality_flags": [
-        "seed_verified_official",
-        "needs_image_enrichment"
-      ],
-      "purchase_url": "https://club.rishonlezion.muni.il/RishonLeZion_Club_18-40/274852",
-      "purchase_phone": null,
-      "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_ready": false,
-      "image_origin_url": "assets/local/lake.svg",
-      "image_strategy": "awaiting_official_event_image",
-      "thumbnail_url": null,
-      "thumbnail_strategy": "direct_local",
-      "image_rights_status": "needs_review",
-      "media_status": "waiting_for_content",
-      "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
     },
     {
       "city": "ראשון לציון",
