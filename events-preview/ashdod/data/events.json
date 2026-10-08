@@ -24984,7 +24984,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מיקה_שלי/?id=8214",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:07:55Z",
       "missing_information": [
@@ -25017,9 +25017,10 @@
       ],
       "image_brief": "צילום כיסוי שידגיש את המשכן לאמנויות הבמה: תמונה פנורמית של האולם הראשי עם במה מוארת ברקע ושורות כיסאות בארבעה צבעים חמים בחזית. על מושב קרוב ניתן להציב בכוונה כרטיס או גליון מידע ממוקד בחלק התחתון של התמונה, כאשר התאורה יוצרת קרני אור דרמטיות שמובילות את המבט אל הבמה, ותחושת ערב תרבותי ניכרת במעטה התאורה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_2ebd52b882301742d4de29d2"
+      "media_bank_id": "media_2ebd52b882301742d4de29d2",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25087,7 +25088,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מותרת_לכל_אדם/?id=8150",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:08:26Z",
       "missing_information": [
@@ -25100,7 +25101,8 @@
         "פרטי כרטוס מפורטים (קטגוריות מושבים, הנחות)",
         "זמינות ומלאי כרטיסים מדויק"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25163,7 +25165,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/לחיות__להרגיש__להבין__|_חרוז_תחבולה_וצחוק_הרצאה_מאת_תמי_כהן/?id=16950",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:08:45Z",
       "missing_information": [
@@ -25195,7 +25197,8 @@
         "אור חם ונעים על דף עתיק"
       ],
       "image_brief": "תמונה כיסוי תציג דף פתוח של כתבי יד עבריים עתיקים (שורות של כתב ברור, מעט קמטים וצבע קרם של דף), לידו נוצת עט או קולמוס על רקע מטושטש של דוכן הרצאה עם מיקרופון וכיסאות בקהל. התמונה תעביר תחושה של מפגש בין המורשת העתיקה והמופע הציבורי המודרני—אור חם ורך, טקסטורות של נייר וקולמוס בקדמת התמונה, רקע אנושי מטושטש שירמז על הרצאה חיה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25258,7 +25261,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/דרור_קרן___כל_העולם_במה_/?id=17359",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:09:02Z",
       "missing_information": [
@@ -25293,7 +25296,8 @@
         "תאורה תיאטרלית חמה"
       ],
       "image_brief": "צילום ממסגרת הבמה: דרור קרן עומד במרכז במה תחת זרקורים חמים עם מיקרופון, משני צדיו שני זמרים אורחים בעמידה; ברקע מטפחת תאורה תיאטרלית ואפשר לראות שורות קהל יושבות באולם דיונה. התמונה תעביר תחושה של מופע אינטימי ושיתופי, בלי טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25361,7 +25365,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מותרת_לכל_אדם/?id=8151",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:09:23Z",
       "missing_information": [
@@ -25395,7 +25399,8 @@
         "חזית המשכן (חזית בניין)"
       ],
       "image_brief": "צילום כיסוי שיופיע היטב עם נוכחות האירוע: פנים אודיטוריום של המשכן לאמנויות הבמה באשדוד — קו כיסאות ריקים שמובילים אל במה עם וילון כבד ותאורה חמה מוסטת. בפרונט אפשר לכלול כרטיס על משטח או ביד, ומעט תאורה שמדגישה את האווירה הערבית־תרבותית של ערב הצגה. אין טקסט מוצמד לתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25463,7 +25468,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מותרת_לכל_אדם/?id=8152",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:09:50Z",
       "missing_information": [
@@ -25495,7 +25500,8 @@
         "אווירת ערב עירונית"
       ],
       "image_brief": "תצלום כיסוי אפשרי: מבט פנורמי על האולם במשכן לאמנויות הבמה באשדוד בשעת ערב — כיסאות הקהל ברמת תאורה נמוכה ובמה מוארת בספוטלייט אחד או שניים, כשהוילון ברקע. האווירה צריכה להעביר תחושה של אירוע תרבותי לילה/ערב, בלי טקסטים או לוגואים על התמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
