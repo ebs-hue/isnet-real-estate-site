@@ -205,6 +205,10 @@ def main():
     options={}
     for e in events:
         if e.get("image_verified") is True:continue
+        # If we know the exact event detail page, do not guess an image from
+        # the surrounding listing page. The detail-page agent must handle it.
+        if e.get("detail_source_url"):
+            continue
         rows=[]
         allowed_roots=set()
         for s in e.get("sources") or []:
