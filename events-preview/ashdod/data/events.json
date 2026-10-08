@@ -7463,7 +7463,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מעשה_בחמישה_בלונים_|_שעת_סיפור_עם_רינתי/?id=17643",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:26:06Z",
       "missing_information": [
@@ -7497,7 +7497,8 @@
         "כסאות שורות לאנשים בוגרים וילדים"
       ],
       "image_brief": "תצלום או איור אופייני לשעת סיפור בחדר קטן: מסביב לאולם ילדים יושבים על כיסאות או על מחצלות, באמצע דמות מספרת (רינתי) יושבת או עומדת עם ספר פתוח. בחזית חמשת בלונים בצבעים בולטים — חלקם שלמים וחלקם מקולפים/מנופצים בפינה, כדי להעביר את נושא הפרידה. תאורה חמה ותחושת קירוב קהילתי; רקע של קירות פשוטים של מרכז קהילתי ולא לוגואים.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_46_20261020",
@@ -7558,10 +7559,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_328f23cb0e8c8293f26adca4"
+      "media_bank_id": "media_328f23cb0e8c8293f26adca4",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -7633,7 +7635,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:26:30Z",
       "missing_information": [
@@ -7670,9 +7672,10 @@
       ],
       "image_brief": "צילום כיסוי המראה חלל תצוגה של מוזאון אשדוד לאמנות: קיר עם ציור מופשט רחב היקף במרכז המסגרת, בקדמת התמונה מבקרים מסתכלים על העבודה וברקע מסכי וידאו מוארים. התאורה מוזיאלית נקייה והקירות ניטרליים, עם תחושה של מרחב פתוח המעביר את האופי הרב-תחומי של התערוכה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -7739,7 +7742,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:26:50Z",
       "missing_information": [
@@ -7774,9 +7777,10 @@
         "מרכז קהילתי בחוץ/שלט מבנה"
       ],
       "image_brief": "צילום כיסוי שמראה את 'מיסייה אלבר' על במה קטנה במרכז הקהילתי: דמות יושבת על כסא חוף, מחזיקה חכה בדמות אביזר, סביב חתיכות תפאורה שמזכירות חנות דגים ותיבות עץ. באור חם של תאורה לבמה נראית קהלית סמוכה מחייכת וצוחקת; ברקע ניכר חזית המבנה הקהילתי כדי להצביע על המיקום המקומי של המופע.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -7847,7 +7851,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/יום_העליה_בסימן_70_לאשדוד/?id=17678",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:27:09Z",
       "missing_information": [
@@ -7877,7 +7881,8 @@
         "רחוב דרך ארץ בסביבה עירונית"
       ],
       "image_brief": "צילום כיסוי פנימי של המשכן לאמנויות הבמה: במה מוארת עם כיסא או מיקרופון במרכז, שורות כיסאות ובהן קהל יושב מבחוץ או מבט מהכניסה אל האולם שמדגיש את האווירה הקהילתית של ערב תרבותי בעיר. אם אפשר לשלב, צילום חיצוני של חזית המבנה ברחוב דרך ארץ בזווית רחבה ימחיש את מיקום האירוע מבלי להטמיע טקסט בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -7939,7 +7944,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/ערב_נשים_עוצמתי_|_לאורה_של_רחל_אמנו/?id=17680",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:27:26Z",
       "missing_information": [
@@ -7974,7 +7979,8 @@
       ],
       "image_brief": "תמונת כריכה המציגה שולחן ארוך במרכז קהילתי עם חלה מרכזית וערכת הפרשת חלה לצד צלחות וכוסות; מספר נשים ישובות סביב השולחן בשיחה, ברקע נגנית או צוות מוזיקלי מטושטש ותחושת תאורה חמימה. התמונה תעביר תחושת מפגש קהילתי, מסורת וחמימות מבלי לכלול טקסט מוטמע.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -8046,7 +8052,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:27:43Z",
       "missing_information": [
@@ -8082,9 +8088,10 @@
       ],
       "image_brief": "צילום כיסוי רצוי: חלל גלריה במוזיאון אשדוד לאמנות בו נראות בד צביעה גדול ומופשט בתצוגה מרכזית, לצד מסכי וידאו המוצגים על קיר סמוך. התמונה תכלול גם פינה של הקיר הלבן והתאורה המוזיאלית, עם עומק שדה קל שמבליט את מרקמי הצבע והמרחב של היצירה. יש להימנע מטקסט מוטמע ולשמור על קומפוזיציה נקייה שמדגישה את הממשק בין ציור סטטי להקרנות וידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_47_20261022",
@@ -8145,10 +8152,11 @@
       "contact_email": "monart@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_3f27ad5b9907279e020ba015"
+      "media_bank_id": "media_3f27ad5b9907279e020ba015",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_48_20261022",
@@ -8204,10 +8212,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_57209d9191f8af725e2692da"
+      "media_bank_id": "media_57209d9191f8af725e2692da",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_10_20261022",
@@ -8275,7 +8284,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%9E%D7%95%D7%A4%D7%A2_%D7%A1%D7%98%D7%A0%D7%93_%D7%90%D7%A4_-_%D7%A9%D7%9C%D7%95%D7%9E%D7%99_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%98/?id=16089",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:28:14Z",
       "missing_information": [
@@ -8312,9 +8321,10 @@
       ],
       "image_brief": "צילום־שער של המופע: שלומי קוריאט על במה מוארת בספוטלייט יחיד, אוחז במיקרופון בעת שהוא מדבר לקהל. ברקע חושך חלקי של האולם וצללית של קהל צוחק. התאורה חמה (צהבהבה/כתומה) שמדגישה את הדינמיקה הבימתית והאנרגיה של הערב.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_2baec52fc333c57a6cd74849"
+      "media_bank_id": "media_2baec52fc333c57a6cd74849",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -8386,7 +8396,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:28:55Z",
       "missing_information": [
@@ -8425,9 +8435,10 @@
       ],
       "image_brief": "צילום כיסוי יכול להראות חדר גלריה רחב עם ציור מופשט גדול התופס קיר שלם — שטחי צבע עזים וטקסטורה בולטת — ובצד אחר מסך וידאו פעיל או התקנת וידאו. התאורה צריכה להדגיש את מגע החומר והגודל של היצירות, עם קווי רצפה נקיים ורקע גלרייתי ניטרלי.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_49_20261023",
@@ -8494,10 +8505,11 @@
       "contact_phone": "*5359",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_b4633628f67a433d3b0a87a2"
+      "media_bank_id": "media_b4633628f67a433d3b0a87a2",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
