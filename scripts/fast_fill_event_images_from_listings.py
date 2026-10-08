@@ -196,10 +196,58 @@ def load_bank_reuse():
         out[p.get("production_key") or norm(p.get("name"))]=m
     return out
 
+def clear_bad_repeated_images(events):
+    """Revoke obviously generic/reused artwork before any fill pass.
+
+    A source image repeated across many unrelated titles is almost certainly a
+    logo/placeholder/page chrome rather than event artwork. Internal ISNET
+    representative fallbacks are exempt because they are intentionally generic
+    and explicitly labelled as such.
+    """
+    groups=defaultdict(list)
+    for e in events:
+        if e.get("image_verified") is not True:
+            continue
+        if e.get("image_strategy")=="super_editor_representative_fallback":
+            continue
+        key=e.get("image_origin_url") or e.get("image_url") or ""
+        if key:
+            groups[key].append(e)
+
+    revoked=0
+    revoked_assets=[]
+    for key,rows in groups.items():
+        titles={norm(e.get("title")) for e in rows if norm(e.get("title"))}
+        low=key.lower()
+        obvious_generic=any(x in low for x in BAD)
+        suspicious_repeat=len(titles)>=3 and len(rows)>=3
+        if not (obvious_generic or suspicious_repeat):
+            continue
+        for e in rows:
+            e.update({
+              "image_url":None,
+              "image_origin_url":None,
+              "image_source":None,
+              "image_credit":None,
+              "image_publishable":False,
+              "image_verified":False,
+              "image_rights_status":"revoked_generic_or_mismatched",
+              "image_strategy":"revoked_by_super_editor",
+              "thumbnail_ready":False,
+              "thumbnail_url":None
+            })
+            revoked+=1
+        revoked_assets.append({"asset":key,"events":len(rows),"distinct_titles":len(titles)})
+    return revoked,revoked_assets
+
 def main():
     data=json.loads(DATA.read_text(encoding="utf-8"));events=[e for e in (data.get("events") or []) if in_horizon(e)]
     bank_reuse=load_bank_reuse()
     stats=Counter();new=[];accepted_title={}
+    revoked_count,revoked_assets=clear_bad_repeated_images(events)
+    stats["revoked_generic_or_mismatched"]=revoked_count
+    if revoked_assets:
+        print("SUPER-EDITOR REVOKED",json.dumps(revoked_assets,ensure_ascii=False))
     # Reuse an approved network-wide asset before any external source request.
     for e in events:
         if e.get("image_verified") is True:continue
@@ -338,7 +386,7 @@ def main():
     report={
       "generated_at":time.strftime("%Y-%m-%dT%H:%M:%SZ",time.gmtime()),
       "total_events":len(events),"verified_images":len(events)-len(missing),"still_missing":len(missing),
-      "stats":dict(stats),"newly_filled":new,
+      "stats":dict(stats),"revoked_assets":revoked_assets,"newly_filled":new,
       "missing":[{"event_id":e.get("event_id"),"title":e.get("title"),"category":e.get("category"),"ticket_url":e.get("ticket_url")} for e in missing]
     }
     DATA.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
