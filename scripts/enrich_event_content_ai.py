@@ -229,7 +229,6 @@ def ask_model(event, source_text, source_url, require_web_search=False):
         "model": MODEL,
         "instructions": instructions,
         "input": "Return valid JSON only. Use web search when the supplied source text is insufficient or when additional reliable context is needed to understand the event.\n" + json.dumps(payload, ensure_ascii=False),
-        "text": {"format": {"type": "json_object"}},
         "tools": [{"type": "web_search", "search_context_size": "medium"}],
         "tool_choice": "required" if require_web_search else "auto",
     }
