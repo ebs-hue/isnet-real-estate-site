@@ -29,11 +29,11 @@ jobs:
           test -f /tmp/isnet-restore-check/events-preview/ashdod/index.html
           test -f /tmp/isnet-restore-check/events-preview/rishon-lezion/data/events.json
           echo "Backup integrity and restore check passed."
-      - name: Keep a 30-day recovery artifact
+      - name: Keep a 7-day recovery artifact
         uses: actions/upload-artifact@v4
         with:
           name: isnet-source-backup-${{ github.run_id }}
           path: backup/isnet-source.bundle
-          retention-days: 30
+          retention-days: 7
           if-no-files-found: error
           compression-level: 0
