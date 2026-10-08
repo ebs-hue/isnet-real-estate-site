@@ -124,7 +124,7 @@ def choose_category(title, venue):
         return "exhibition"
     if any(x in s for x in ("הרצאה", "כנס", "מפגש", "שיחה")):
         return "lecture"
-    if any(x in s for x in ("סדנה", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים", "הפעלה", "יצירה")):
+    if any(x in s for x in ("סדנה", "סדנא", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים", "הפעלה", "יצירה")):
         return "classes"
     if any(x in s for x in ("מחול", "מחזמר", "תיאטרון", "הצגה", "אופרה")):
         return "theatre"
