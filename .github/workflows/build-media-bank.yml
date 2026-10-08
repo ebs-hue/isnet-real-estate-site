@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "scripts/build_media_bank.py"
+      - "scripts/optimize_media_bank_images.py"
+      - "scripts/reuse_media_bank_images.py"
       - "events-preview/ashdod/data/events.json"
       - "events-preview/rishon-lezion/data/events.json"
       - ".github/workflows/build-media-bank.yml"
@@ -40,20 +42,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install image optimizer
-        run: python -m pip install --disable-pip-version-check pillow
-
       - name: Install media dependencies
         run: python -m pip install --disable-pip-version-check pillow requests
 
       - name: Build media bank
         run: python -u scripts/build_media_bank.py
-
-      - name: Build lightweight card variants
-        run: python -u scripts/optimize_media_bank_cards.py
-
-      - name: Build artist and production profiles
-        run: python -u scripts/build_media_entities.py
 
       - name: Create lightweight card images
         run: python -u scripts/optimize_media_bank_images.py
