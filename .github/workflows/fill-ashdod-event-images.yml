@@ -1,20 +1,7 @@
-name: Fill Ashdod event images from source listings
+name: Fill Ashdod event images
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/fill_event_images_from_listings.py"
-      - "scripts/fast_fill_event_images_from_listings.py"
-      - ".github/workflows/fill-ashdod-event-images.yml"
-
-permissions:
-  contents: write
-
-concurrency:
-  group: fill-ashdod-event-images
-  cancel-in-progress: true
 
 jobs:
   fill:
