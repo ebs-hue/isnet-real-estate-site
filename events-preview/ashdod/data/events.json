@@ -21352,7 +21352,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/נישואים_גרעיניים/?id=8236",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:54:40Z",
       "missing_information": [
@@ -21384,10 +21384,11 @@
         "קהל נכנס לאולם"
       ],
       "image_brief": "צילום פנורמי של אולם הופעות במשכן: במה מוארת בספוטלייט חמים במרכז התמונה, שורות כיסאות חשוכות מעט בחזית והתמקדות באווירת ערב תרבותי לפני פתיחת המופע. התמונה תמחיש את המקום והאווירה ולא תכלול טקסט מוטמע.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "media_bank_id": "media_bb940a0f0f8f529cd4be9453",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_86_20261221",
@@ -21451,7 +21452,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:55:21Z",
       "missing_information": [
@@ -21483,9 +21484,10 @@
       ],
       "image_brief": "תצלום רחב של אולם המשכן לאמנויות הבמה מהשורה האחורית: הבמה עם הוילון הסגור ומנורות תאורה חמות, שורות מושבים ריקות שמובילות אל הבמה ובחזית תמונה של כוס קפה ומאפה מונחים על מושב או שולחן קטן להמחשת פתיחת השערים. האווירה צריכה להעביר תחושת מוכנות למופע בוקר — תאורה רכה, חלל תיאטרון מזמין וקו ראייה ברור אל הבמה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_ce884bf9f02def876c4e798e"
+      "media_bank_id": "media_ce884bf9f02def876c4e798e",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -21552,7 +21554,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:55:42Z",
       "missing_information": [
@@ -21587,14 +21589,15 @@
       ],
       "image_brief": "צילום פנורמי של סטודיו מחול מואר במקצת, קבוצה קטנה של נשים בעמדות תנועה עדינות בהנחיית מדריכה שמולן. רצפת הסטודיו וניתן לראות מוט/מקום אימון רקע ריקודי, כולם בלבוש אימון נוח. התמונה משדרת שיעור תנועתי בוקר, אווירה שקטה וממוקדת, ללא טקסט על התמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_32_20261222",
@@ -21656,7 +21659,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/iframe/%D7%90%D7%94%D7%91%D7%94-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:56:05Z",
       "missing_information": [
@@ -21692,9 +21695,10 @@
       ],
       "image_brief": "צילום קירוב לאווירה: אולם הקרנה קטן ומואר בעדינות, במרכז מסך גדול נראה רגע שקט של שתי דמויות היושבות על מעבורת ומשוחחות; בחזית הסצנה סילואט של קהל יושב. הצבעים רכים, אור חם מהמפרץ/מעבורת וצללים עדינים מהאולם, ללא טקסט מוטמע.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_0297724a38ceaf805a1f5e45"
+      "media_bank_id": "media_0297724a38ceaf805a1f5e45",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -21807,7 +21811,10 @@
       "source_detail_text": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים דף הבית סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים 24/12/2026 10:00 סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים מרכז פסגה (מפת הגעה) ביום חמישי, 24 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 443,
       "image_strategy": "detail_page_high_quality_candidate",
-      "event_id": "auto_as_2eb56d2075f1de010bd3"
+      "event_id": "auto_as_2eb56d2075f1de010bd3",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -21875,7 +21882,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אליסה_בארץ_הפלאות/?id=8222",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:02Z",
       "missing_information": [
@@ -21905,7 +21912,8 @@
         "רקע צבעוני סוריאליסטי"
       ],
       "image_brief": "צילום כיסוי שמתרכז בבמה של המשכן בתאורה חמה: סצנה מרכזית עם דמות בדמות אליסה כצללית או דמות לבושה בסגנון וינטג׳, אביזרי במה גדולים כמו כוס תה או קלפים מסודרים מסביב, ורקע צבעוני מעט סוריאליסטי. בתחתית התמונה נראים קווי מושבים וקהל מעומעם להדגשת אווירת הצפייה בתיאטרון. אין טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_87_20261228",
