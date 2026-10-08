@@ -26763,7 +26763,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מפה_לשם/?id=8193",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:14:44Z",
       "missing_information": [
@@ -26775,7 +26775,8 @@
         "תמחור מפורט לפי מושבים (אם רלוונטי) ופרטי הנחה",
         "תיאור מפורט של התוכן, תכנית או פורמט הערב"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -26836,7 +26837,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33872",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:01Z",
       "missing_information": [
@@ -26873,12 +26874,13 @@
       ],
       "image_brief": "צילום כיסוי המציג קבוצה קטנה של מבקרים מטיילת בין דוכני שוק בעיצומו של בוקר: דוכנים מלאים בפירות וירקות צבעוניים, ערכות טעימות על צלחות קטנות ונוף של מעברי שוק צפופים. התמונה תתמקד באווירה שוקית חיה, אור בוקר טבעי ופרטים של מזון ודוכנים — ללא טקסט מוטמע.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -26946,7 +26948,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/לוס_אנג_לס_-_פרס_האוסקר/?id=8115",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:28Z",
       "missing_information": [
@@ -26958,7 +26960,8 @@
         "מדיניות כניסה (הגבלת גיל, איסור צילום וכו')",
         "פרטי קשר או זהות המארגן"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -27026,7 +27029,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/רומאו_ויוליה_-_בלט_פלמנקו_ברצלונה/?id=8006",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:57Z",
       "missing_information": [
@@ -27060,7 +27063,8 @@
         "רגעי תנועה דינאמית"
       ],
       "image_brief": "צילום כיסוי שמדגיש את הטון התיאטרלי: תמונה על במה שבה רקדנית או רקדנים בתנוחה דרמטית של פלמנקו/בלט, חצאית או תלבושת זורמת בתנועה, תאורה חמה ודרמטית (גווני אדום/צהוב או אור נקודתי) והרכב הבמה מטושטש ברקע. המוקד על התנועה והבעה גופנית, עם תחושה של רגע מושלם מתוך הצגה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -27121,7 +27125,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33645",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:16:20Z",
       "missing_information": [
@@ -27156,12 +27160,13 @@
       ],
       "image_brief": "תצלום קבוצתי רחב של משתתפי סיור בשעות הבוקר המוקדמות באשדוד, רגע היציאה: אנשים עומדים יחד בכיכר או ברחוב עירוני, אחד מהם מחזיק מפת סיור או עלון מידע, האור נמוך ורך של בוקר. הרקע מציג מבנים עירוניים טיפוסיים של אשדוד, לבוש עונתי קל, והרגשה של התחלה ותנועה. אין טקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -27214,7 +27219,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מריה_מונטוסורי-הקרנת_סרט_ומפגש_שיח/?id=16036",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:16:43Z",
       "missing_information": [
@@ -27253,14 +27258,15 @@
       ],
       "image_brief": "תמונה שאפשר להשתמש בה ככריכה: קומפוזיציה שקטה המשלבת דיוקן מעורפל של אישה מחנכת (מייצג את מריה מונטסורי) משמאל, וסצנה וינטאג׳ של אם וילדה מימין; ברקע טקסטורה של גלגלי הצילום או מסך הקרנה מטושטש המשרה אווירת קולנוע תיעודי היסטורי. צבעים חמים מעט, ניגודיות מתונה, אווירה נוסטלגית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_4cf50b0982792975c54bf7c7"
+      "media_bank_id": "media_4cf50b0982792975c54bf7c7",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",

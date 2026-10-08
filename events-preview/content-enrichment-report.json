@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:58:25Z",
+  "generated_at": "2026-10-08T11:59:09Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_0a2955afc99e32e98101",
-      "title": "בואי נעשה לנו חג",
+      "event_id": "auto_as_c41f0c83c1874a320cdf",
+      "title": "מפה לשם",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ffc197d8a4343c6c1421",
-      "title": "בואי נעשה לנו חג",
+      "event_id": "auto_as_96552a33f52aca95896d",
+      "title": "סיור טעימות במחנה יהודה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_dd2216e2c4590b3b8095",
-      "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
+      "event_id": "auto_as_8cfa7c9ae155b54ae894",
+      "title": "לוס אנג'לס - פרס האוסקר",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_5b3592e6f2e52fe56817",
-      "title": "המחזמר ואני",
+      "event_id": "auto_as_b5598e9e1f88af009a2a",
+      "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ecf2560c70689efc3475",
-      "title": "סופיה פאפאזוגלו",
+      "event_id": "auto_as_1bd891e217e32b97766c",
+      "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ad9aa5d26bfb663907d7",
-      "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_2d713d64cea99683547f",
+      "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
