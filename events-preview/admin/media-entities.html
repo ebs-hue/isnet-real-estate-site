@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>אמנים ומופעים | ISNET</title>
+<link rel="stylesheet" href="styles.css?v=20261008-entities">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth/config.js?v=20261007-1225"></script>
+</head>
+<body>
+<header class="topbar">
+ <div><div class="eyebrow">ISNET AI CMS · מאגר רשת</div><h1>אמנים ומופעים</h1>
+ <p>פרופילים משותפים לכל הערים. תמונה מאושרת נשמרת פעם אחת ומשמשת אירועים חוזרים ברשת.</p></div>
+ <div class="top-actions">
+  <a class="secondary action-link" href="media.html">🖼️ בנק מדיה</a>
+  <a class="secondary action-link" href="media-qa.html">🔎 בקרת תמונות</a>
+  <a class="secondary action-link" href="index.html">← מרכז הניהול</a>
+ </div>
+</header>
+<main>
+<section id="entityStats" class="stats"></section>
+<section class="panel filters">
+ <div class="panel-title"><div><h2>חיפוש</h2><p>חפש אמן או מופע שכבר מוכר למערכת.</p></div></div>
+ <div class="filter-grid entity-filter-grid">
+  <label class="search"><span>חיפוש</span><input id="entityQ" type="search" placeholder="למשל: קובי מימון"></label>
+  <label><span>סוג</span><select id="entityType"><option value="artist">אמנים</option><option value="production">מופעים והפקות</option></select></label>
+  <label><span>תמונה לשימוש חוזר</span><select id="entityReusable"><option value="">הכול</option><option value="yes">יש תמונה מאושרת</option><option value="no">עדיין אין</option></select></label>
+ </div>
+</section>
+<section class="panel">
+ <div class="panel-title"><div><h2 id="entityTitle">אמנים</h2><p id="entityCount">טוען...</p></div></div>
+ <div id="entityGrid" class="entity-grid"></div>
+ <div id="entityEmpty" class="empty" hidden>לא נמצאו פרופילים.</div>
+</section>
+</main>
+<script src="media-entities.js?v=20261008-entities"></script>
+<script type="module">import {requireAuth} from "./auth/guard.js?v=20261007-1225";await requireAuth();</script>
+</body></html>
