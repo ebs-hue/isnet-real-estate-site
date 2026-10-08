@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-08T06:57:13Z",
+  "generated_at": "2026-10-08T07:06:04Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 12,
-  "insufficient": 0,
+  "enriched": 10,
+  "insufficient": 2,
   "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_0b4b250a9cc0940ed28c",
-      "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
-      "status": "ready"
+      "event_id": "auto_as_7fce1d9b4ab267e246e1",
+      "title": "הרצאה של יונתן סררו",
+      "status": "insufficient"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_9d51882890e01e5a8488",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
-      "title": "הפועל אשדוד - מכבי פתח תקוה",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_38_20261008",
-      "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_69_20261008",
-      "title": "מיקה שלי",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_39_20261008",
-      "title": "קובי מימון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_90e0977c4c75e8ca55a9",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_70_20261010",
+      "event_id": "evt_71_20261011",
       "title": "הלב זוכר",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_0a8724d73a8a25785bcb",
+      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_40_20261012",
+      "title": "אֻמִּי",
+      "status": "insufficient"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_94_20261012",
+      "title": "סערה בדלי מים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_95_20261012",
+      "title": "תשאירי פתוח",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261012_maccabi_ashdod_basketball",
+      "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_ffc63b0b4486bb31a455",
+      "title": "שירי קריוקי בקצב הדרבוקה",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל אריות ירושלים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
       "status": "ready"
     }
   ]
