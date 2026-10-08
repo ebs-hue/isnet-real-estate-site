@@ -10,8 +10,6 @@ on:
     paths:
       - "scripts/enrich_event_content_ai.py"
       - ".github/workflows/enrich-event-content-ai.yml"
-      - "events-preview/ashdod/data/events.json"
-      - "events-preview/rishon-lezion/data/events.json"
 
 permissions:
   contents: write
