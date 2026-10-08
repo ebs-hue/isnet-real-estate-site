@@ -13,7 +13,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/"events-preview"
 BANK=BASE/"media-bank"/"data"/"media.json"
-ARTISTS=BASE/"media-bank"/"data"/"artists.json"\nPRODUCTIONS=BASE/"media-bank"/"data"/"productions.json"
+ARTISTS=BASE/"media-bank"/"data"/"artists.json"
+PRODUCTIONS=BASE/"media-bank"/"data"/"productions.json"
 
 def norm(v):
     x=unicodedata.normalize("NFKC",str(v or "")).casefold()
