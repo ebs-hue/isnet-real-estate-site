@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-10-07T22:26:08Z",
+  "run_at": "2026-10-08T05:28:07Z",
   "version": 1,
   "dry_run": false,
   "cities": {
@@ -10,20 +10,20 @@
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 220,
-          "valid": 202,
-          "new": 0,
-          "updated": 0,
-          "images_collected": 202
+          "discovered": 221,
+          "valid": 203,
+          "new": 3,
+          "updated": 162,
+          "images_collected": 203
         },
         "mishkan_smarticket": {
           "status": "ok",
           "url": "https://mishkan-ashdod.smarticket.co.il/",
           "discovered": 102,
-          "valid": 64,
+          "valid": 65,
           "new": 0,
-          "updated": 0,
-          "images_collected": 64
+          "updated": 36,
+          "images_collected": 65
         },
         "tickchak_ashdod": {
           "status": "ok",
@@ -44,13 +44,13 @@
           "images_collected": 0
         }
       },
-      "new": 0,
-      "updated": 0,
+      "new": 3,
+      "updated": 198,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 401
+      "total_after": 404
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
@@ -60,7 +60,7 @@
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
           "discovered": 148,
-          "valid": 116,
+          "valid": 117,
           "new": 0,
           "updated": 0,
           "images_collected": 0
