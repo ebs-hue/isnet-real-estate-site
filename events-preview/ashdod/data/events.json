@@ -11932,7 +11932,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:42:07Z",
       "missing_information": [
@@ -11963,9 +11963,10 @@
       ],
       "image_brief": "צילום פנימי של אולם המשכן לאמנויות הבמה: במה ריקה עם וילון בימה ומספר זרקורים חמים מאירים את המרכז, בשורה קדמית של מושבים ותחושת ערב תיאטרלי. התמונה משדרת את האווירה הבימתית והציפייה לפתיחת ההצגה, ללא טקסט מוטמע או לוגו.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_9f9ca96824d9a448cc6b7bcd"
+      "media_bank_id": "media_9f9ca96824d9a448cc6b7bcd",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12037,7 +12038,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:42:27Z",
       "missing_information": [
@@ -12077,9 +12078,10 @@
       ],
       "image_brief": "תצלום חלל תצוגה במוזיאון: קיר עם ציור מופשט רחב היקף הממלא חלק גדול מהמסגרת, רצפת גלריה מבריקה ותאורת מסלול המדגישה מרקם וצבע. בצד ניתן לכלול מסך או התקנה וידאו בעומק החלל ומספר מבקרים קטנים המתבוננים בעבודות, כדי להעביר את תחושת המומנט והגודל של התצוגה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12200,7 +12202,10 @@
       "venue_phone": "08-9238677",
       "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
       "contact_phone": "08-9238677",
-      "contact_email": "up60plus@ashdod.muni.il"
+      "contact_email": "up60plus@ashdod.muni.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_18_20261105",
@@ -12265,7 +12270,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:43:02Z",
       "missing_information": [
@@ -12299,9 +12304,10 @@
       ],
       "image_brief": "צילום כיסוי שמציג את הופעת הבמה המרכזית: שני זמרים עומדים בקדמת הבמה עם שישה נגנים מאחור, תאורת במה חמה וספוטלייטים שמבליטים את המבצעים, וקהל בשורה הראשונה מבחינים בצפייה ובהתרגשות. התמונה תעביר אווירה חגיגית ומוזיקלית, בלי טקסט מוטמע.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_ae77cd0ed098e29be65721c7"
+      "media_bank_id": "media_ae77cd0ed098e29be65721c7",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_56_20261105",
@@ -12362,10 +12368,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_efe9059eddc1d7d2d0753f73"
+      "media_bank_id": "media_efe9059eddc1d7d2d0753f73",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_57_20261105",
@@ -12441,10 +12448,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_dea96b94729e1a017cf0f177"
+      "media_bank_id": "media_dea96b94729e1a017cf0f177",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -12516,7 +12524,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:43:25Z",
       "missing_information": [
@@ -12554,9 +12562,10 @@
       ],
       "image_brief": "צילום של חלל תצוגה במוזיאון: בקדמה ציור מופשט רחב־היקף המייצג את עבודותיו של עמית קבסה, מאחוריו מסכי וידאו או לוחות הקרנה המייצגים את פרקטיקת הווידאו מהאוסף. המבקרים עומדים או מסתכלים מרחוק, התאורה ממוקדת על העבודות והקירות לבנים מדגישים את הצבע והחומר.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12628,7 +12637,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17540",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:43:46Z",
       "missing_information": [
@@ -12665,9 +12674,10 @@
       ],
       "image_brief": "תצלום רחב של חלל התצוגה במוזיאון: קיר לבן עם בד צבעוני גדול ומרקמי (המחשה של ציור מופשט בקנה מידה גדול), במרכז החלל זוג מבקרים משוחחים ועומדים מול יצירה, ובקיר הצדי מספר מסכי וידאו שמוקרנים ברצף. התאורה מוזיאלית נקייה שמדגישה את מרקמי הצבע והנפח של הציורים. התמונה תעביר את התחושה של תערוכה רב־תחומית במוזיאון עירוני.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12739,7 +12749,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17565",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:44:05Z",
       "missing_information": [
@@ -12778,9 +12788,10 @@
       ],
       "image_brief": "צילום כיסוי של חלל גלריה במוזיאון אשדוד לאמנות: קיר ריק עם מספר ציורים רחבי פורמט בצבעים חזקים המודגשים בתאורת גלריה נקייה, ולצדם מסך או עמדת וידאו המשקפת את תצוגת עבודות המדיה. התמונה תכלול זווית שמדגישה את גודל היצירות והמרווח בין העבודות, בלי טקסט מוטבע או לוגו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12902,7 +12913,10 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -12974,7 +12988,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17589",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:45:28Z",
       "missing_information": [
@@ -13013,9 +13027,10 @@
       ],
       "image_brief": "צילום מצופה של חלל תצוגה במוזאון: ציור מופשט רחב היקף שתופס קיר מרכזי עם צבעים חזקים וטקסטורות בולטות, במקביל למסכי וידאו קטנים או פרויקציות על קיר אחר; כמה מבקרים עומדים ומסתכלים מרחוק. התאורה גלרייתית נקייה, קירות לבנים ורצפת גלריה חשופה; אין טקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -13076,7 +13091,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33637",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:46:04Z",
       "missing_information": [
@@ -13115,12 +13130,13 @@
       ],
       "image_brief": "צילום כותרתי של קבוצת משתתפים בשעת בוקר מוקדמת, עומדים ליד נקודת יציאה מחוץ לעיר; ברקע נוף מישור פתוח עם אור בוקר נמוך. התמונה תכלול רמזות לפעילות שדה (תיקים קלים, מפה או שלט קטן 'יציאה לסיור') ולתחושת יציאה משותפת מהעיר אל אזור חיצוני.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
