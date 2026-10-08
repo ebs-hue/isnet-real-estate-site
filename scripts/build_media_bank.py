@@ -57,8 +57,13 @@ def is_bad(url):
     return bad_reason(url) is not None
 
 def reusable(a):
-    """Only a positively approved, publishable, low-risk asset can become an entity default."""
-    return bool(a.get("status")=="approved" and a.get("publishable") is True and a.get("reuse_risk","low")=="low")
+    """Only a positively approved, publishable, low-risk, event-specific asset can become an entity default."""
+    return bool(
+        a.get("status")=="approved"
+        and a.get("publishable") is True
+        and a.get("reuse_risk","low")=="low"
+        and a.get("strategy")!="super_editor_representative_fallback"
+    )
 
 def image_key(e):
     origin=e.get("image_origin_url") or ""
@@ -171,7 +176,11 @@ def main():
                     min_sim=min(min_sim,similarity(titles[i],titles[j]))
         a["reuse_risk"]="review" if len(titles)>1 and min_sim<0.24 else "low"
         a["reuse_similarity_floor"]=round(min_sim,3) if len(titles)>1 else None
-        if a["reuse_risk"]=="review" and a["status"]=="approved":
+        if len(titles)>=3 and min_sim<0.24:
+            a["status"]="rejected"
+            a["publishable"]=False
+            a["review_reason"]="same_image_used_for_multiple_dissimilar_event_titles"
+        elif a["reuse_risk"]=="review" and a["status"]=="approved":
             a["status"]="needs_review"
             a["publishable"]=False
             a["review_reason"]="same_image_used_for_dissimilar_event_titles"
