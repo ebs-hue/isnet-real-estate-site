@@ -1,20 +1,20 @@
 {
-  "run_at": "2026-10-08T06:09:18Z",
+  "run_at": "2026-10-08T06:36:29Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 365,
+      "total_before": 327,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 221,
-          "valid": 134,
+          "valid": 126,
           "new": 0,
           "updated": 0,
-          "images_collected": 134
+          "images_collected": 126
         },
         "mishkan_smarticket": {
           "status": "ok",
@@ -48,14 +48,14 @@
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
-      "removed_classes": 38,
+      "removed_classes": 0,
       "errors": [],
       "repaired_event_ids": 0,
       "total_after": 327
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 327,
+      "total_before": 325,
       "sources": {
         "htrl": {
           "status": "ok",
@@ -70,7 +70,7 @@
           "status": "ok",
           "url": "https://htrl.co.il/third-calendar/",
           "discovered": 117,
-          "valid": 78,
+          "valid": 77,
           "new": 0,
           "updated": 0,
           "images_collected": 0
@@ -117,7 +117,7 @@
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
-      "removed_classes": 2,
+      "removed_classes": 0,
       "errors": [
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
