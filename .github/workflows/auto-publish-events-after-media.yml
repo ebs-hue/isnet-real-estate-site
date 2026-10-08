@@ -10,6 +10,7 @@ on:
   workflow_run:
     workflows:
       - "Enrich Ashdod event images"
+      - "Ashdod 25 missing-image pilot"
       - "Verify and cache Rishon event photos"
     types: [completed]
 
