@@ -20173,7 +20173,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:56Z",
       "missing_information": [
@@ -20207,7 +20207,8 @@
         "דוכן כרטיסים/שולחן קבלה"
       ],
       "image_brief": "צילום צבעוני של אולם קטן לפני תחילת מופע: משפחות עם ילדים עומדות או יושבות מול במה מוארת שבה מיקרופון עומד מוכוון לקהל. קדמת התמונה מציגה הורים עם עגלות וכיסאות, וגם דוכן כרטיסים ליד הכניסה. האווירה בוקרית וחמימה, עם קישוטים פשוטים (בלונים או דגלונים) שממחישים אירוע ילדים קלאסי.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -20278,7 +20279,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מפצח_האגוזים_5c5a8cdca0/?id=8219",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:15Z",
       "missing_information": [
@@ -20310,7 +20311,8 @@
         "פנסי תאורה על הבמה"
       ],
       "image_brief": "תמונה אופיינית לכיסוי האירוע: מבט פנימי לאולם המשכן לפני תחילת המופע — שורות מושבים מלאים בחלקן, אורות במה חמים מנצנצים מעל הבמה הנשענת מאחורי וילון, וביד של צופה כרטיס או כרטיסייה. הצילום ישדר אווירת ערב תיאטרלית ומתח לפני תחילת המופע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -20377,7 +20379,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/סינדרלה_aac72791b4/?id=17685",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:37Z",
       "missing_information": [
@@ -20417,10 +20419,11 @@
         "נסיך"
       ],
       "image_brief": "צילום במה רחבה של רגע מתוך ההצגה: סצנה מרכזית שבה שחקנית בתור 'סינדרלה' עומדת במרכז הבמה בשמלה זוהרת אך פשוטה, בצידה דמות של פיה קסומה עם כנפיים או מטה, ובצדדים אחיות חורגות בלבוש צבעוני והומוריסטי. תאורת במה חמימה ונוצצת, תפאורה צבעונית שמרמזת על נשף ואווירה מוזיקלית משפחתית. אין טקסט מוטבע בתמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "media_bank_id": "media_371567e34c76640a3a0560ab",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -20491,7 +20494,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:52Z",
       "missing_information": [
@@ -20523,7 +20526,8 @@
         "חיוך וצחוק משפחתי"
       ],
       "image_brief": "צילום כיסוי שמראה את במה המשכן לאמנויות הבמה בתאורת ערב חמה, עם ספוטלייט מואר במרכז ובקהל מטושטש ברקע שמגיב בצחוק. התמונה תעביר תחושת מופע תיאטרלי אינטימי בערב — אור עמום מאחורי הבמה, כיסאות תיאטרון וסילואטה של דמות עומדת על הבמה, בלי המלצה על טקסט או לוגו משולב.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_65_20261212",
@@ -20579,10 +20583,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_51ba4acb352c46e1998e7fb4"
+      "media_bank_id": "media_51ba4acb352c46e1998e7fb4",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -20649,7 +20654,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:52:08Z",
       "missing_information": [
@@ -20683,14 +20688,15 @@
       ],
       "image_brief": "תצלום כיסוי המציג קבוצה קטנה של נשים בתלבושות אימון קלות מבצעות תרגיל בסטודיו בלט: מדריכה מדגימה תנועה בחזית, רקע של רצפת עץ ומראות קיר המשקפות את התנועה. התאורה טבעית וחמימה, האווירה ממוקדת ונינוחה, ללא טקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
