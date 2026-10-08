@@ -745,7 +745,7 @@ function renderDates(){
 
   $("weekViewButton")?.classList.toggle("is-active",state.calendarMode==="week");
   $("monthViewButton")?.classList.toggle("is-active",state.calendarMode==="month");
-  weekBox.hidden=state.calendarMode!=="week";
+  weekBox.hidden=true;
   monthBox.hidden=state.calendarMode!=="month";
 
   if(state.calendarMode==="week"){
