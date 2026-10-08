@@ -19609,7 +19609,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/סיורים_מודרכים_במוזיאון_אשדוד_לאמנות/?id=17620",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:47:59Z",
       "missing_information": [
@@ -19648,7 +19648,7 @@
       ],
       "image_brief": "צילום כיסוי שאינו כולל טקסט: חלל גלריה לבן במוזאון אשדוד לאמנות עם כמה עבודות לתצוגה — סדרת צילומים תלויים על אחד הקירות, בצד אחר קנבס גדול וצבעוני, ומסך קטן המציג קטע וידאו. תאורה מוזיאלית נעימה שמדגישה את המרקם והצבעים, רצפת גלריה נקייה ומסדר תצוגה שמעביר אופי של תערוכה עכשווית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_candidates": [
         {
@@ -19656,7 +19656,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_64_20261207",
@@ -19716,10 +19717,11 @@
       "contact_phone": "*5359",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_3d5f65894f5b806c396ea3ac"
+      "media_bank_id": "media_3d5f65894f5b806c396ea3ac",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -19790,7 +19792,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/סיפור_הנס/?id=8223",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:48:20Z",
       "missing_information": [
@@ -19803,7 +19805,8 @@
         "זמינות כרטיסים ותנאי החזר/ביטול",
         "פרטים טכניים נוספים (כניסות, הפסקות, כניסה מאוחרת)"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_84_20261208",
@@ -19867,7 +19870,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%99%D7%A4%D7%94_%D7%95%D7%94%D7%97%D7%99%D7%94_/?id=8129",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:01Z",
       "missing_information": [
@@ -19898,9 +19901,10 @@
       ],
       "image_brief": "צילום שער מציג סצנה במהית: במה תאורה חמה עם רקע של טירה או ארמון מעומעם, שחקנים בתלבושות תקופתיות במרכז המסך (ללא זיהוי שמות), ורד בודד או אקססוריז פרחוני בקדמת הבמה. בשורות הקדמיות נראים ילדים והורים צופים, כדי להעביר את אווירת המופע המשפחתית. הימנעו משילוב טקסט על התמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_820803571ee436d0f2e268bd"
+      "media_bank_id": "media_820803571ee436d0f2e268bd",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -19963,7 +19967,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/סיפור_חנוכה_|_שעת_סיפור_עם_רינתי/?id=17645",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:18Z",
       "missing_information": [
@@ -19996,7 +20000,7 @@
       ],
       "image_brief": "תמונה אופיינית לשעת סיפור: רינתי עומדת או יושבת בחזית אולם קטן ומוארת ברקע, ילדים יושבים על שטיח או כיסאות במבט מרוכז. בצד התמונה ניכרת אווירת חנוכה — תאורה חמה שמרמזת על נרות, וקישוטים צבעוניים עדינים. התמונה תעביר תחושת חום, תנועה וקשב קבוצתי, ללא טקסט מוטמע.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_strategy": "needs_exact_event_image",
       "image_candidates": [
@@ -20005,7 +20009,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_85_20261208",
@@ -20069,7 +20074,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/היפה_והחיה__977306cac1/?id=8130",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:33Z",
       "missing_information": [
@@ -20098,9 +20103,10 @@
       ],
       "image_brief": "תצלום או אילוסטרציה של סצנה תיאטרלית על הבמה: רקע של טירה או עיצוב קסום, דמות מרכזית בלבוש סיפורתי מול דמות מחופשת/מסכה שמייצגת את ה'חיה', תאורה חמה שמדגישה את האווירה המשפחתית, וקווים של קהל ישוב מתוך האולם כדי להראות שמדובר בהצגה חיה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_820803571ee436d0f2e268bd"
+      "media_bank_id": "media_820803571ee436d0f2e268bd",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
