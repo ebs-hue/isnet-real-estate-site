@@ -9674,7 +9674,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הנמרה/?id=17259",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:03Z",
       "missing_information": [
@@ -9707,7 +9707,8 @@
         "אווירת מסיבה תיאטרלית"
       ],
       "image_brief": "תצלום אופייני לכיסוי: לימור יצחייק באמצע הופעה על במה, אוחזת מיקרופון בתנועה אנרגטית, ואחורה מואר די‑ג'יי (דפנה שרעבי) ליד שולחן ערבוב. תאורת במה צבעונית מייצרת קונטרסט חם, והקהל מטושטש ברקע כדי לשדר אווירת מופע תוססת. התמונה תעביר תחושת אנרגיה, הומור וחיבור אישי של העוסקת בתוכן.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -9773,8 +9774,9 @@
       "media_status": "waiting_for_content",
       "image_rights_status": "missing",
       "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_52_20261028",
@@ -9835,7 +9837,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://live.tickchak.co.il/adir-miller",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:27Z",
       "missing_information": [
@@ -9872,9 +9874,10 @@
       ],
       "image_brief": "צילום רחב-חצי של אדיר מילר על במה בזמן הופעה: הוא מחזיק מיקרופון בידו, ספוטלייט מרכזי מאיר אותו, הקהל ברקע מופיע כסילואטים וצוחק. התפאורה תיעשה כך שתדגיש את אווירת ההופעה התיאטרלית של המשכן לאמנויות הבמה אשדוד — כיסאות שורות, במה ברורה ותאורה דרמטית. אין לכלול טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_513c8562b102b049001e7987"
+      "media_bank_id": "media_513c8562b102b049001e7987",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -9946,7 +9949,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:47Z",
       "missing_information": [
@@ -9983,9 +9986,10 @@
       ],
       "image_brief": "צילום קוֹרה של היכל התצוגה במוזאון אשדוד לאמנות: קנבס גדול בצבעים עזים תופס קיר מרכזי, ולידו הקרנה או מסך שמציג עבודה וידאו; התאורה התערוכתית מדגישה את מרקם הצבע והחומר בעבודות. ניתן לכלול צללית של מבקר/ת מרחוק כדי להמחיש מימד מרחבי, אך להימנע מטקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261029_hapoel_ashdod_w_handball",
@@ -10050,8 +10054,9 @@
       "representative_team": true,
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_53_20261029",
@@ -10107,10 +10112,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_01c1ca69c3b6d2160259ffa5"
+      "media_bank_id": "media_01c1ca69c3b6d2160259ffa5",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -10182,7 +10188,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:34:37Z",
       "missing_information": [
@@ -10219,9 +10225,10 @@
       ],
       "image_brief": "צילום תקריב רחב של חלל תצוגה במוזיאון: על קיר גדול תלוי ציור מופשט רחב היקף עם צבעים חזקים ומרקמים בולטים, ובמרחק קצר בחדר סמוך מופיע מסך הקרנה או פינה מואפלת המציגה עבודה וידאו. התאורה המוזיאלית מדגישה את עובי הצבע ואת תחושת המרחב; אין טקסט משולב בתמונה, ומתמקדים באווירת התערוכה ובקנה המידה של העבודות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -10287,8 +10294,9 @@
       "media_status": "waiting_for_content",
       "image_rights_status": "missing",
       "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "sport_20261030_ironi_ashdod_football",
@@ -10354,8 +10362,9 @@
       "media_status": "waiting_for_content",
       "image_rights_status": "missing",
       "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -10427,7 +10436,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17538",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:35:03Z",
       "missing_information": [
@@ -10465,9 +10474,10 @@
       ],
       "image_brief": "צילום כיסוי המראה גלריה פתוחה במוזיאון: קיר עליו תלוי ציור מופשט רחב היקף של עמית קבסה עם מרקם וחומר בולטים, בצבעים אינטנסיביים; משמאל או מאחורה נראית הקרנת וידאו שמתחלפת על משטח קיר/מסך. רצפת הגלריה ונקודות תאורה מוזיאליות מדגישות את הממדים של היצירות; התמונה משדרת את המפגש בין ציור גדול והעבודות המוקרנות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_54_20261031",
@@ -10528,10 +10538,11 @@
       "contact_email": "monart@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_dd90fee0cf5fa24af5b83489"
+      "media_bank_id": "media_dd90fee0cf5fa24af5b83489",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -10603,7 +10614,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17562",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:35:27Z",
       "missing_information": [
@@ -10640,9 +10651,10 @@
       ],
       "image_brief": "צילום כיסוי רצוי: חלל גלריה של מוזאון אשדוד לאמנות עם קיר עליו תלוי ציור מופשט גדול הממחיש צבע וחומר, ומולו או בסמוך מסך או תחנת הקרנה המציג עבודת וידאו. התאורה מוזיאלית עדינה, רצפת גלריה נקייה ומעט מבקרים צופים ביצירות — תמונה המציגה את השילוב בין ציור מול מדיה וידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
