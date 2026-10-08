@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T04:24:26.431914+00:00",
+  "generated_at": "2026-10-08T04:25:06.682359+00:00",
   "stats": {
     "events_scanned": 580,
-    "image_links": 240,
-    "unique_images": 170,
-    "approved": 150,
-    "needs_review": 20,
+    "image_links": 265,
+    "unique_images": 180,
+    "approved": 159,
+    "needs_review": 21,
     "rejected": 0
   },
   "media": [
@@ -2230,6 +2230,44 @@
       "original_checksum": "e83c156dbd38f3442cd641c61c7cd098f2cec2f40429591129476b45b0215216"
     },
     {
+      "media_id": "media_0cd545b49063026c3e11a931",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
+      "source_url": "https://ashdod.smarticket.co.il/הצגת_ענק_עלילות_המכבים/?id=17670",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "אסף אלברשטיין"
+      ],
+      "productions": [
+        "הצגת ענק עלילות המכבים"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_cc2d1cac424acf768c45",
+          "title": "הצגת ענק עלילות המכבים",
+          "date": "2026-12-03"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_10330aa5eeda42119de8a267",
       "url": "assets/events/08eac202af624ded2daeda9e.webp",
       "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658414c70d926082067054.jpg",
@@ -3638,6 +3676,47 @@
       "original_checksum": "f84ea6f1b7d11cfc8cfd1c5d65eff204e1578626e70eebbfdf559627f31580a1"
     },
     {
+      "media_id": "media_4cf50b0982792975c54bf7c7",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a04059c1dce8576891333.jpeg",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a04059c1dce8576891333.jpeg",
+      "source_url": "https://ashdod.smarticket.co.il/מריה_מונטוסורי-הקרנת_סרט_ומפגש_שיח/?id=16036",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "מריה מונטסורי",
+        "לאה טודורוב",
+        "לילי דאלניי",
+        "טינה"
+      ],
+      "productions": [
+        "מריה מונטוסורי-הקרנת סרט ומפגש שיח"
+      ],
+      "categories": [
+        "lecture"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2d713d64cea99683547f",
+          "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
+          "date": "2027-02-23"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_513c8562b102b049001e7987",
       "url": "assets/event-thumbs/37b605b3f620c25f97cf27.jpg",
       "origin_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1776068350k90zdI9ySwZHRnp1NxtyL2Z1aHRjRQ5mT_gnkPCQknrcMmRaR6nstXm.webp",
@@ -3720,6 +3799,44 @@
       "card_bytes": 9804,
       "card_url": "media-bank/cards/33411fe1991c053598c5816b.webp",
       "original_checksum": "33411fe1991c053598c5816bd137b0e2d6641a449f2becc7bfb76f0d72d2cf71"
+    },
+    {
+      "media_id": "media_527f44c60ddb3cd2b02625b6",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
+      "source_url": "https://ashdod.smarticket.co.il/דניאל_סטיופין_קופה_ראשית__סטנדאפ/?id=15678",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "דניאל סטיופין (אנטולי \"קופה ראשית\")"
+      ],
+      "productions": [
+        "דניאל סטיופין(קופה ראשית) סטנדאפ"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+          "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+          "date": "2027-01-02"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_547b7913d3b4f5c9f10b57c7",
@@ -4388,6 +4505,44 @@
       "card_bytes": 18062,
       "card_url": "media-bank/cards/396889b2c744aa3b9bad08c3.webp",
       "original_checksum": "396889b2c744aa3b9bad08c3d0c7dbbd21f939a4d73f1561af3ce2c45e34ae96"
+    },
+    {
+      "media_id": "media_76ed459ab93dcc1415fbc000",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4baef7bd99752970290.png",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4baef7bd99752970290.png",
+      "source_url": "https://ashdod.smarticket.co.il/מייפל_הכלבלב___יחיד_ומיוחד/?id=17671",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "רינה שמחי"
+      ],
+      "productions": [
+        "מייפל הכלבלב – יחיד ומיוחד"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3356020481453510f22a",
+          "title": "מייפל הכלבלב – יחיד ומיוחד",
+          "date": "2027-01-17"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_78e19fcc69b94704798dfead",
@@ -5431,6 +5586,49 @@
       "original_checksum": "58a58b719e8f6c67633e531284941e990d73c92c7bf352b4a95fe89005f8fc8c"
     },
     {
+      "media_id": "media_b27ea9f51e8d1e9b027c0377",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb596aa31811657971.png",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb596aa31811657971.png",
+      "source_url": "https://ashdod.smarticket.co.il/ספר_הג_ונגל_מבית_רינתי/?id=17673",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "מוגלי",
+        "בגירה הפנתר השחור",
+        "בלו הדב",
+        "שירחן",
+        "קאה",
+        "באנה"
+      ],
+      "productions": [
+        "ספר הג'ונגל מבית רינתי"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_60b18d8a145f11fd0362",
+          "title": "ספר הג'ונגל מבית רינתי",
+          "date": "2027-02-07"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_b798020183538fcc746559e0",
       "url": "assets/event-thumbs/d065c765159d12ca78ef92.jpg",
       "origin_url": "https://www.goshow.co.il/manager/userfiles/gallery/%D7%90%D7%A1%D7%A3_%D7%99%D7%A6%D7%97%D7%A7%D7%99_%D7%A8%D7%99%D7%91%D7%95%D7%A2_2019.jpg",
@@ -5602,6 +5800,44 @@
       "card_bytes": 7936,
       "card_url": "media-bank/cards/3200ceb18b7b78b6094dfabc.webp",
       "original_checksum": "3200ceb18b7b78b6094dfabc487d1e8bb824cee671ce3621b7261b3410860b36"
+    },
+    {
+      "media_id": "media_c252c53d87394302c89f51d1",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
+      "source_url": "https://ashdod.smarticket.co.il/איילת_מטיילת-_הצגה_מבית_רינתי/?id=17668",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "איילת"
+      ],
+      "productions": [
+        "איילת מטיילת- הצגה מבית רינתי"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+          "title": "איילת מטיילת- הצגה מבית רינתי",
+          "date": "2026-10-18"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_c4b1a92df16446299a74bcb9",
@@ -6225,6 +6461,46 @@
       "original_checksum": "507890dc24c67d451c7096668940617eec298524f322cc900c7aa7f585b43cbe"
     },
     {
+      "media_id": "media_ec1c4894f557c3316c373766",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "source_url": "https://ashdod.smarticket.co.il/קפה_דעת_אשדוד-קצין_מיחידת_המסתערבים_של_משמר_הגבול__גב__לילי_כנפי__מר_רוני_אקריש/?id=17676",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "קצין מיחידת המסתערבים של משמר הגבול",
+        "גב' לילי כנפי",
+        "מר רוני אקריש"
+      ],
+      "productions": [
+        "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0b4b250a9cc0940ed28c",
+          "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
+          "date": "2026-10-08"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_ed6969d2af626d54cc7d1148",
       "url": "assets/events/2f0a68ef95a254eb68a48ee1.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_jazz.jpg",
@@ -6387,6 +6663,42 @@
       "card_bytes": 14710,
       "card_url": "media-bank/cards/113461b3a2eeeadce8fadad3.webp",
       "original_checksum": "113461b3a2eeeadce8fadad34a64de57b0be235f40bf725156695ef60b3cdfe8"
+    },
+    {
+      "media_id": "media_f343536ee3df3246b6a5cab7",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
+      "source_url": "https://ashdod.smarticket.co.il/סדנת_חנוכיות_להורים_ולילדים/?id=17689",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [],
+      "productions": [
+        "סדנת חנוכיות להורים ולילדים"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d77f1323483fec7e92d1",
+          "title": "סדנת חנוכיות להורים ולילדים",
+          "date": "2026-11-19"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_f77774082eb82bed03a12abe",
@@ -6606,6 +6918,194 @@
       "card_bytes": 30098,
       "card_url": "media-bank/cards/865237abab18869b895459c7.webp",
       "original_checksum": "865237abab18869b895459c76675bfe7c3b8099ded655c821084bb10a7bd7890"
+    },
+    {
+      "media_id": "media_ff109db1f3200ccb83b4f4fc",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
+      "source_url": "https://ashdod.smarticket.co.il/הנסיכה_והכתר_האבוד-_הצגה_מבית_אדווה_בן_גיגי_מלול/?id=17669",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "אדוה בן גיגי מלול",
+        "אדווה בן גיגי מלול"
+      ],
+      "productions": [
+        "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_dcf769d1379befa09acc",
+          "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
+          "date": "2026-11-22"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_3b84511ac285cabdb69bee1c",
+      "url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
+      "origin_url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
+      "source_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638&ht=הזקן והים 15/10/26&bc=",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "needs_review",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "הקתדרה העממית \"אופק\" אשדוד",
+        "יונתן גת",
+        "ישראל ארד",
+        "רועי עלוני",
+        "אורית שירי"
+      ],
+      "productions": [
+        "הזקן והים",
+        "יונתן גת מונארט 2026",
+        "ישראל ארד מונארט 2026",
+        "רועי עלוני מונארט 2026",
+        "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+        "סדנת צחוק, אורית שירי",
+        "התקווה 6",
+        "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+        "סיור טעימות ברמלה",
+        "הר הנגב – בעקבות שירות בנתיבי המדבר",
+        "בעקבות סופרים בנחלאות",
+        "בדרך ללב הפועם של רמת גן",
+        "רמלה – אוצר של סיפורים בין יפו לירושלים",
+        "אל עמק הברכה",
+        "סיור טעימות במחנה יהודה",
+        "תנועת ה\"עפלה\" 80 שנה אחרי"
+      ],
+      "categories": [
+        "tour",
+        "lecture",
+        "workshop"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_382f5504e06e1fcda12e",
+          "title": "הזקן והים",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_04029172fbcf458e2eb3",
+          "title": "יונתן גת מונארט 2026",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6c9c620a36d91d0e9a47",
+          "title": "ישראל ארד מונארט 2026",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_833b74952b8fcc17694c",
+          "title": "רועי עלוני מונארט 2026",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+          "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a28e2e7dfb7c44f26606",
+          "title": "סדנת צחוק, אורית שירי",
+          "date": "2026-11-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_64cf140ac904f0ae4871",
+          "title": "התקווה 6",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f45962e796919e19fbcd",
+          "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+          "date": "2026-11-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7baf69bd3cb635730590",
+          "title": "סיור טעימות ברמלה",
+          "date": "2026-11-24"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_399303973daa1a005314",
+          "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
+          "date": "2026-12-01"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3d3cdcdf993039f9fe16",
+          "title": "בעקבות סופרים בנחלאות",
+          "date": "2026-12-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
+          "title": "בדרך ללב הפועם של רמת גן",
+          "date": "2026-12-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9e8b223f38713dfb8a74",
+          "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+          "date": "2027-01-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2d86a3932207b0dfadb6",
+          "title": "אל עמק הברכה",
+          "date": "2027-02-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_96552a33f52aca95896d",
+          "title": "סיור טעימות במחנה יהודה",
+          "date": "2027-02-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1bd891e217e32b97766c",
+          "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
+          "date": "2027-02-23"
+        }
+      ],
+      "usage_count": 16,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.028
     },
     {
       "media_id": "media_0ce16f5ab0113d5288c08df7",
@@ -7456,6 +7956,6 @@
     "quality": 80,
     "created": 0,
     "reused": 149,
-    "skipped": 1
+    "skipped": 10
   }
 }

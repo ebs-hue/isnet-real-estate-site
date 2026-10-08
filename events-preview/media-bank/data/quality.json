@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T04:24:26.431914+00:00",
+  "generated_at": "2026-10-08T04:25:06.682359+00:00",
   "stats": {
     "events_scanned": 580,
-    "image_links": 240,
-    "unique_images": 170,
-    "approved": 150,
-    "needs_review": 20,
+    "image_links": 265,
+    "unique_images": 180,
+    "approved": 159,
+    "needs_review": 21,
     "rejected": 0
   },
   "rejected_reasons": {},
@@ -17,8 +17,8 @@
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 18,
-      "approved": 8,
+      "images": 27,
+      "approved": 17,
       "review": 10,
       "rejected": 0
     },
@@ -172,6 +172,12 @@
       "review": 0,
       "rejected": 0
     },
+    "www.ofek-ashdod.org.il": {
+      "images": 1,
+      "approved": 0,
+      "review": 1,
+      "rejected": 0
+    },
     "www.tel-aviv.gov.il": {
       "images": 1,
       "approved": 1,
@@ -203,8 +209,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 55,
-  "reusable_productions": 146,
-  "artists_total": 73,
-  "productions_total": 177
+  "reusable_artists": 74,
+  "reusable_productions": 155,
+  "artists_total": 97,
+  "productions_total": 202
 }
