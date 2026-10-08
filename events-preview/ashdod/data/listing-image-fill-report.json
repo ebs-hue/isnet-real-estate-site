@@ -1,16 +1,94 @@
 {
-  "generated_at": "2026-10-07T21:49:41Z",
-  "total_events": 329,
-  "verified_images": 194,
-  "still_missing": 135,
-  "stats": {},
-  "newly_filled": [],
+  "generated_at": "2026-10-08T02:59:36Z",
+  "total_events": 328,
+  "verified_images": 80,
+  "still_missing": 248,
+  "stats": {
+    "central_bank_reuse": 6,
+    "accepted": 2
+  },
+  "newly_filled": [
+    {
+      "event_id": "evt_12_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "image": "../ashdod/assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
+      "source": "https://www.ironit.org.il/pastime/event/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "evt_13_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "image": "../ashdod/assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
+      "source": "https://www.ironit.org.il/pastime/event/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "auto_as_30f82fe69bd135aabb33",
+      "title": "לצייר ובגדול | סדנה לילדים",
+      "image": "../ashdod/assets/event-thumbs/57ff16332873ab888af19c.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "auto_as_d206f17261a8fe553f04",
+      "title": "ציור בוטני | סדנה למבוגרים",
+      "image": "../ashdod/assets/event-thumbs/f355f476142af83ba585f7.jpg",
+      "source": "https://ashdod.smarticket.co.il/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "evt_29_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ב' – ג'",
+      "image": "../ashdod/assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
+      "source": "https://www.ironit.org.il/pastime/event/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "evt_30_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים כיתות ג' עד ד'",
+      "image": "../ashdod/assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
+      "source": "https://www.ironit.org.il/pastime/event/",
+      "score": "central_bank"
+    },
+    {
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "title": "שמעון בוסקילה – קרוב לבית",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 180.7
+    },
+    {
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
+      "image": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+      "source": "https://live.tickchak.co.il/ashdod",
+      "score": 189.1
+    }
+  ],
   "missing": [
     {
-      "event_id": "auto_as_ad12fbe9a49b4c834b1c",
-      "title": "המרחב הבטוח לילדים ולהורים",
-      "category": "kids",
-      "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17684"
+      "event_id": "auto_as_0b4b250a9cc0940ed28c",
+      "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/קפה_דעת_אשדוד-קצין_מיחידת_המסתערבים_של_משמר_הגבול__גב__לילי_כנפי__מר_רוני_אקריש/?id=17676"
+    },
+    {
+      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17580"
+    },
+    {
+      "event_id": "evt_5_20261008",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17220"
+    },
+    {
+      "event_id": "auto_as_e4c26d0dfe196144a232",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17328"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -19,16 +97,34 @@
       "ticket_url": "https://handballisr.co.il/team.asp?TId=70"
     },
     {
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17531"
+    },
+    {
       "event_id": "sport_20261009_hapoel_ashdod_m_handball",
       "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
       "category": "sport",
       "ticket_url": "https://handballisr.co.il/team.asp?TId=358"
     },
     {
+      "event_id": "auto_as_90e0977c4c75e8ca55a9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17532"
+    },
+    {
       "event_id": "auto_as_eedd7026c3a8b4e99863",
       "title": "המרחב הבטוח לילדים ולהורים",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17708"
+    },
+    {
+      "event_id": "auto_as_0a8724d73a8a25785bcb",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17553"
     },
     {
       "event_id": "auto_as_d3d85fc677ccecdad1de",
@@ -43,6 +139,12 @@
       "ticket_url": "https://ashdod.smarticket.co.il/שיטת_דורון_ואיזון_מפרקים/?id=17304"
     },
     {
+      "event_id": "auto_as_5dc325769e5e781143ee",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17322"
+    },
+    {
       "event_id": "auto_as_7fce1d9b4ab267e246e1",
       "title": "הרצאה של יונתן סררו",
       "category": "lecture",
@@ -53,6 +155,12 @@
       "title": "המרחב הבטוח לילדים ולהורים",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17709"
+    },
+    {
+      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17581"
     },
     {
       "event_id": "auto_as_c20ff116cd0b601fefa7",
@@ -85,10 +193,22 @@
       "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17710"
     },
     {
+      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17554"
+    },
+    {
       "event_id": "auto_as_ffc63b0b4486bb31a455",
       "title": "שירי קריוקי בקצב הדרבוקה",
       "category": "other",
       "ticket_url": "https://ashdod.smarticket.co.il/שירי_קריוקי_בקצב_הדרבוקה/?id=17300"
+    },
+    {
+      "event_id": "auto_as_746c9db0b742c132ff59",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17323"
     },
     {
       "event_id": "auto_as_d857a17bf47a6e2337e5",
@@ -119,6 +239,12 @@
       "title": "המרחב הבטוח לילדים ולהורים",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/המרחב_הבטוח_לילדים_ולהורים/?id=17711"
+    },
+    {
+      "event_id": "auto_as_617490407af714bb4af4",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17555"
     },
     {
       "event_id": "auto_as_6b20839c16bfa66f9657",
@@ -157,6 +283,18 @@
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638"
     },
     {
+      "event_id": "evt_7_20261015",
+      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%A7%D7%99_%D7%A0%D7%97%D7%9C-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17209"
+    },
+    {
+      "event_id": "auto_as_7d3a5639ec3847f8a137",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17582"
+    },
+    {
       "event_id": "auto_as_2559c75d5232e55ebb9a",
       "title": "סדנת בינה מלאכותית Ai",
       "category": "workshop",
@@ -181,10 +319,34 @@
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804"
     },
     {
+      "event_id": "auto_as_028cca19d94dfafd0b51",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17613"
+    },
+    {
+      "event_id": "auto_as_013751f4bb1f253a4a2f",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/סיורים_מודרכים_במוזיאון_אשדוד_לאמנות/?id=17618"
+    },
+    {
+      "event_id": "auto_as_1671f155d6a206c3de2b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17533"
+    },
+    {
       "event_id": "sport_20261016_ms_ashdod_football",
       "title": "מ.ס. אשדוד - מכבי קריית גת",
       "category": "sport",
       "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_7b18a3b8878c1169693b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17534"
     },
     {
       "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
@@ -199,10 +361,52 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/דרושה_עוזרת_471f06b60d/?id=8221"
     },
     {
+      "event_id": "auto_as_99d8856352ac024635f0",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17556"
+    },
+    {
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17253"
+    },
+    {
+      "event_id": "auto_as_08f3d0b3508bb7dff7c9",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17324"
+    },
+    {
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
+      "category": "theatre",
+      "ticket_url": "https://ashdod.smarticket.co.il/איילת_מטיילת-_הצגה_מבית_רינתי/?id=17668"
+    },
+    {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
       "title": "הפועל אשדוד - בני הרצליה",
       "category": "sport",
       "ticket_url": "https://handballisr.co.il/team.asp?TId=131"
+    },
+    {
+      "event_id": "auto_as_58c1ea1851030cfaaa11",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17583"
+    },
+    {
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "title": "המספרה של ג'אקו - הפקת מקור",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/המספרה_של_ג_אקו_-_הפקת_מקור/?id=17265"
+    },
+    {
+      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/מוצאים_עוגן_בתוך_הסערה_|_לנשים_בלבד/?id=17638"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -217,6 +421,18 @@
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33867"
     },
     {
+      "event_id": "auto_as_2e18ed2709b02baa3532",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17557"
+    },
+    {
+      "event_id": "auto_as_41ae0e273466d9a46327",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17325"
+    },
+    {
       "event_id": "auto_as_4b07ba21b782ea02a4ff",
       "title": "אצבעוני",
       "category": "other",
@@ -227,6 +443,18 @@
       "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
       "category": "kids",
       "ticket_url": "https://ashdod.smarticket.co.il/מעשה_בחמישה_בלונים_|_שעת_סיפור_עם_רינתי/?id=17643"
+    },
+    {
+      "event_id": "auto_as_9a8cdd916de4aaaf8311",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558"
+    },
+    {
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255"
     },
     {
       "event_id": "auto_as_91024d3eccf55a0b44ad",
@@ -241,16 +469,46 @@
       "ticket_url": "https://ashdod.smarticket.co.il/ערב_נשים_עוצמתי_|_לאורה_של_רחל_אמנו/?id=17680"
     },
     {
+      "event_id": "auto_as_ce847e364ee55065956b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584"
+    },
+    {
       "event_id": "auto_as_6d352cd050d68d4a1163",
       "title": "קורס קרמיקה אבניים",
       "category": "other",
       "ticket_url": "https://ashdod.smarticket.co.il/קורס_קרמיקה_אבניים/?id=17621"
     },
     {
+      "event_id": "auto_as_1e5059b53915f4c7fe21",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535"
+    },
+    {
+      "event_id": "auto_as_a578c11cb7a7bacb36e1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536"
+    },
+    {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
       "title": "מכבי אשדוד - הפועל חוסאם נצרת",
       "category": "sport",
       "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_b069b87dfeecdb648ea4",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559"
+    },
+    {
+      "event_id": "auto_as_3069ec1e14b7c33b581c",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17326"
     },
     {
       "event_id": "auto_as_3a2c902c3450a6e70c14",
@@ -265,10 +523,22 @@
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_טיפוח-היופי_מתחיל_בך_זמן_לעצמך_ולטיפוח/?id=17699"
     },
     {
+      "event_id": "auto_as_e8d879a99bf64df31e3a",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17585"
+    },
+    {
       "event_id": "sport_20261026_maccabi_ashdod_basketball",
       "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
       "category": "sport",
       "ticket_url": "https://basket.co.il/team.asp?TeamId=2123"
+    },
+    {
+      "event_id": "auto_as_823f171a4a98cd6fb9d9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17561"
     },
     {
       "event_id": "sport_20261028_hapoel_ashdod_m_handball",
@@ -289,10 +559,28 @@
       "ticket_url": null
     },
     {
+      "event_id": "auto_as_626a62df2f41c6e27d8c",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586"
+    },
+    {
+      "event_id": "auto_as_da9a146c50c48a0aa0f4",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17329"
+    },
+    {
       "event_id": "sport_20261029_hapoel_ashdod_w_handball",
       "title": "הפועל אשדוד - הפועל קרית אונו",
       "category": "sport",
       "ticket_url": "https://handballisr.co.il/team.asp?TId=51"
+    },
+    {
+      "event_id": "auto_as_d6f20b5b24339863b497",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -305,6 +593,24 @@
       "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
       "category": "sport",
       "ticket_url": null
+    },
+    {
+      "event_id": "auto_as_59e494c94b56ac9e6861",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17538"
+    },
+    {
+      "event_id": "auto_as_1ae03ec698a65bb2455e",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17562"
+    },
+    {
+      "event_id": "evt_11_20261101",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_לילדי_גן_חובה___כיתה_א__/?id=17230"
     },
     {
       "event_id": "auto_as_e8967396c917fb4211e4",
@@ -323,6 +629,18 @@
       "title": "פילאטיס לאזרחים וותיקים",
       "category": "other",
       "ticket_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_וותיקים/?id=17706"
+    },
+    {
+      "event_id": "auto_as_772312d4fce5baa32388",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587"
+    },
+    {
+      "event_id": "evt_14_20261102",
+      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+      "category": "lecture",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204"
     },
     {
       "event_id": "auto_as_6702385b6f68556b2c50",
@@ -349,6 +667,18 @@
       "ticket_url": "https://ashdod.smarticket.co.il/יריד_בריאות_לאזרחים_וותיקים/?id=17707"
     },
     {
+      "event_id": "auto_as_180bd1ccf144be5544e3",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563"
+    },
+    {
+      "event_id": "auto_as_a523be9334deb93f5e65",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17334"
+    },
+    {
       "event_id": "auto_as_0e470b243e0ad27cfecd",
       "title": "סדנת סטנדאפ ZEGEYE",
       "category": "standup",
@@ -361,10 +691,70 @@
       "ticket_url": "https://ashdod.smarticket.co.il/פילאטיס_לאזרחים_ותיקים/?id=17700"
     },
     {
+      "event_id": "auto_as_2fda014dc7669a040b46",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564"
+    },
+    {
+      "event_id": "evt_16_20261104",
+      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
+      "category": "lecture",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026"
+    },
+    {
+      "event_id": "auto_as_805c3f05170759f15ab0",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588"
+    },
+    {
+      "event_id": "evt_17_20261105",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17221"
+    },
+    {
+      "event_id": "auto_as_243fa63e0656fad7477c",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539"
+    },
+    {
+      "event_id": "auto_as_9eb4ea3b1be8386c949c",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17540"
+    },
+    {
+      "event_id": "auto_as_0d5c53deefa1e10c5f4d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17565"
+    },
+    {
       "event_id": "auto_as_b949a31a4fdf36a8df01",
       "title": "סדנת קאנבה",
       "category": "workshop",
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_קאנבה__7e62109f46/?id=17605"
+    },
+    {
+      "event_id": "auto_as_a9e51b98a4ae798e4714",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17335"
+    },
+    {
+      "event_id": "evt_19_20261109",
+      "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%94%D7%9B%D7%A0%D7%AA_%D7%AA%D7%9C%D7%99%D7%95%D7%A0%D7%99%D7%9D_%D7%A1%D7%A8%D7%95%D7%92%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17202"
+    },
+    {
+      "event_id": "auto_as_f42edb321dbde7088a3a",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17589"
     },
     {
       "event_id": "auto_as_d7c7d48fb762b43f9f53",
@@ -379,10 +769,70 @@
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33637"
     },
     {
+      "event_id": "evt_20_20261110",
+      "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17210"
+    },
+    {
+      "event_id": "auto_as_9b5eea9e1acf1feac5cf",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17566"
+    },
+    {
+      "event_id": "auto_as_b85b237616bfe945e8ea",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17336"
+    },
+    {
+      "event_id": "auto_as_8c0a6d5f1cabc435ad48",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17567"
+    },
+    {
+      "event_id": "auto_as_d7864c780fea6cbdc43d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17590"
+    },
+    {
       "event_id": "auto_as_c8e64b9c8e27da705c58",
       "title": "סדנת בינה מלאכותית Ai",
       "category": "workshop",
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_בינה_מלאכותית_Ai_/?id=17603"
+    },
+    {
+      "event_id": "auto_as_8d2a29d0cbadb103374e",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17330"
+    },
+    {
+      "event_id": "auto_as_a663288373fc699de50c",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17614"
+    },
+    {
+      "event_id": "auto_as_65aaebf97ecda0981b5b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17541"
+    },
+    {
+      "event_id": "evt_98_20261113",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D_%D7%9E%D7%95%D7%93%D7%A8%D7%9B%D7%99%D7%9D_%D7%91%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%90%D7%A9%D7%93%D7%95%D7%93_%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA/?id=17620"
+    },
+    {
+      "event_id": "auto_as_b6539384c62acf076d94",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17542"
     },
     {
       "event_id": "auto_as_1433fdc5973b6695bdc3",
@@ -391,10 +841,28 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/עופרה_b339d2ee91/?id=8239"
     },
     {
+      "event_id": "auto_as_87b190ce94eadcbb9bd1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17568"
+    },
+    {
+      "event_id": "auto_as_a0037fde67580f44fd73",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17337"
+    },
+    {
       "event_id": "auto_as_ef7ca0af669f34aae871",
       "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/צוות_מצדיעים_לצה_ל_ולכוחות_הביטחון_/?id=8233"
+    },
+    {
+      "event_id": "auto_as_c5f6d02c4792bae76e1c",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17591"
     },
     {
       "event_id": "auto_as_737e086330f64f28c23c",
@@ -409,16 +877,148 @@
       "ticket_url": "https://ashdod.smarticket.co.il/מועדון_קריאה_-סדרת_מפגשים_מרתקים_על_יצירות_ספרותיות_בהנחיית_הסופרת_איריס_ארגמן/?id=17297"
     },
     {
+      "event_id": "auto_as_c67cb1fd7296d8873ca3",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17569"
+    },
+    {
+      "event_id": "auto_as_68b8df7f7f0c4644faa6",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17338"
+    },
+    {
+      "event_id": "auto_as_a67f2f422700efb610d7",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570"
+    },
+    {
+      "event_id": "auto_as_9a3cbab50396fa3af0c3",
+      "title": "שלגיה ו-7 הגמדים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/שלגיה_ו-7_הגמדים/?id=17306"
+    },
+    {
+      "event_id": "auto_as_cc2beedf4f76f168e9ff",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592"
+    },
+    {
+      "event_id": "auto_as_d77f1323483fec7e92d1",
+      "title": "סדנת חנוכיות להורים ולילדים",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנת_חנוכיות_להורים_ולילדים/?id=17689"
+    },
+    {
+      "event_id": "auto_as_79ae8e00a4276dc2d62d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17543"
+    },
+    {
+      "event_id": "auto_as_eda485f329036f12976a",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17544"
+    },
+    {
+      "event_id": "auto_as_9ae58929c271c5410eec",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17571"
+    },
+    {
+      "event_id": "auto_as_352f88495f20cea6b9d0",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17339"
+    },
+    {
+      "event_id": "auto_as_dcf769d1379befa09acc",
+      "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
+      "category": "theatre",
+      "ticket_url": "https://ashdod.smarticket.co.il/הנסיכה_והכתר_האבוד-_הצגה_מבית_אדווה_בן_גיגי_מלול/?id=17669"
+    },
+    {
+      "event_id": "evt_22_20261123",
+      "title": "אני הרבה יותר ממה שחשבתי - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%90%D7%A0%D7%99_%D7%94%D7%A8%D7%91%D7%94_%D7%99%D7%95%D7%AA%D7%A8_%D7%9E%D7%9E%D7%94_%D7%A9%D7%97%D7%A9%D7%91%D7%AA%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17203"
+    },
+    {
+      "event_id": "auto_as_5276d7588775cf66475e",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593"
+    },
+    {
       "event_id": "auto_as_7baf69bd3cb635730590",
       "title": "סיור טעימות ברמלה",
       "category": "tour",
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869"
     },
     {
+      "event_id": "auto_as_ed5e50ba93af66a6e37b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572"
+    },
+    {
       "event_id": "evt_23_20261124",
       "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
       "category": "cinema",
       "ticket_url": "https://ashdod.smarticket.co.il/iframe/%D7%97%D7%95%D7%A8%D7%A3_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%A0%D7%99-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97"
+    },
+    {
+      "event_id": "auto_as_0133c1d09d58f7aa05af",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17340"
+    },
+    {
+      "event_id": "auto_as_d56184583cc012704fb9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17573"
+    },
+    {
+      "event_id": "auto_as_04e5b0c7c43ef1c5c535",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17594"
+    },
+    {
+      "event_id": "auto_as_fc3710430d80a20ff40c",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17331"
+    },
+    {
+      "event_id": "auto_as_255eb2a0c98790b70d69",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17545"
+    },
+    {
+      "event_id": "auto_as_a8e751087c2d16482459",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17546"
+    },
+    {
+      "event_id": "auto_as_f37ddc7e60553c75692d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17574"
+    },
+    {
+      "event_id": "auto_as_3ca3b2e37ec33ead2d63",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17341"
     },
     {
       "event_id": "auto_as_ccab329e9dce87dcb028",
@@ -439,16 +1039,64 @@
       "ticket_url": "https://ashdod.smarticket.co.il/סדנת_עיצוב_תכשיטים_5e29d94ee1/?id=17702"
     },
     {
+      "event_id": "auto_as_6347127f965dcf0e1e59",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17595"
+    },
+    {
+      "event_id": "evt_24_20261130",
+      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%90%D7%A0%D7%99_%D7%94%D7%A8%D7%91%D7%94_%D7%99%D7%95%D7%AA%D7%A8_%D7%9E%D7%9E%D7%94_%D7%A9%D7%97%D7%A9%D7%91%D7%AA%D7%99__-_%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17214"
+    },
+    {
       "event_id": "auto_as_399303973daa1a005314",
       "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
       "category": "tour",
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642"
     },
     {
+      "event_id": "auto_as_54f7d788e86283b87fb1",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17342"
+    },
+    {
       "event_id": "evt_100_20261202",
       "title": "סדנת חופשה בקליק",
       "category": "workshop",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%AA_%D7%97%D7%95%D7%A4%D7%A9%D7%94_%D7%91%D7%A7%D7%9C%D7%99%D7%A7/?id=17609"
+    },
+    {
+      "event_id": "evt_26_20261203",
+      "title": "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%99%D7%A6%D7%95%D7%A8_%D7%AA%D7%9C%D7%99%D7%95%D7%9F_%D7%9E%D7%A1%D7%A8%D7%99%D7%92%D7%94__%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17216"
+    },
+    {
+      "event_id": "evt_27_20261203",
+      "title": "סדנא - שימור ושיפור הזיכרון",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90-_%D7%A9%D7%99%D7%9E%D7%95%D7%A8_%D7%95%D7%A9%D7%99%D7%A4%D7%95%D7%A8_%D7%94%D7%96%D7%99%D7%9B%D7%A8%D7%95%D7%9F_/?id=17222"
+    },
+    {
+      "event_id": "evt_25_20261203",
+      "title": "קורס קנווה עם מרים - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A7%D7%95%D7%A8%D7%A1_%D7%A7%D7%A0%D7%95%D7%95%D7%94_%D7%A2%D7%9D_%D7%9E%D7%A8%D7%99%D7%9D-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17211"
+    },
+    {
+      "event_id": "auto_as_0e504f3ec1134d211524",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17332"
+    },
+    {
+      "event_id": "auto_as_cc2d1cac424acf768c45",
+      "title": "הצגת ענק עלילות המכבים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/הצגת_ענק_עלילות_המכבים/?id=17670"
     },
     {
       "event_id": "auto_as_5c82b36c5f0954a3ff95",
@@ -463,10 +1111,28 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שושנה/?id=8243"
     },
     {
+      "event_id": "auto_as_50a7efb2b50ebe61a225",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17343"
+    },
+    {
       "event_id": "auto_as_4b2ebdf73be27f322465",
       "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/הקסם_שבצבע_-_בכיכובה_של_סתיו_בכל_הצבעים/?id=8226"
+    },
+    {
+      "event_id": "auto_as_7f6f806aaa9f19331b15",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17616"
+    },
+    {
+      "event_id": "auto_as_df38991c21985134c422",
+      "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
+      "category": "kids",
+      "ticket_url": "https://ashdod.smarticket.co.il/כשאני_לא_מצייר_אני..._|_סיור_מודרך_וסדנה_להורים_ולילדים/?id=17615"
     },
     {
       "event_id": "auto_as_19c0457586e8a88fbe65",
@@ -475,10 +1141,22 @@
       "ticket_url": "https://ashdod.smarticket.co.il/חגיגת_חנוכה_עיצוב_ספגניות_ומסיבת_חנוכה_עם_מעגל_מתופפים/?id=17698"
     },
     {
+      "event_id": "auto_as_6edc79b3206c44047ae2",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "category": "exhibition",
+      "ticket_url": "https://ashdod.smarticket.co.il/סיורים_מודרכים_במוזיאון_אשדוד_לאמנות/?id=17620"
+    },
+    {
       "event_id": "auto_as_0796e91ed6cd6d37f9ca",
       "title": "סיפור הנס",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/סיפור_הנס/?id=8223"
+    },
+    {
+      "event_id": "auto_as_5f852eb04bb2d0cae7e1",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17344"
     },
     {
       "event_id": "auto_as_b6b558da8a85b64e0cea",
@@ -505,10 +1183,28 @@
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235"
     },
     {
+      "event_id": "evt_28_20261213",
+      "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/מפגשי_קריאה_-סדנת_עידוד_ושיפור_קריאה_בעזרת__כלבים_לילדי_גן_חובה___כיתה_א__/?id=17230"
+    },
+    {
+      "event_id": "auto_as_c16e2e89a69bbed03363",
+      "title": "בודי בלט| סדנא בונה עצם לנשים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276"
+    },
+    {
       "event_id": "auto_as_3d3cdcdf993039f9fe16",
       "title": "בעקבות סופרים בנחלאות",
       "category": "tour",
       "ticket_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33641"
+    },
+    {
+      "event_id": "auto_as_59655390abaa9c53aa61",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17345"
     },
     {
       "event_id": "auto_as_1248203a0850a8e67852",
@@ -523,10 +1219,52 @@
       "ticket_url": "https://ashdod.smarticket.co.il/עץ_הבלונים_/?id=17307"
     },
     {
+      "event_id": "auto_as_35bd1f217f32934d2492",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17350"
+    },
+    {
+      "event_id": "auto_as_665b57eff06e3c166682",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17346"
+    },
+    {
+      "event_id": "auto_as_fdeb756625c3f837de13",
+      "title": "בודי בלט| סדנא בונה עצם לנשים",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277"
+    },
+    {
+      "event_id": "auto_as_f002977fe467c1b61d10",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17347"
+    },
+    {
+      "event_id": "evt_33_20261224",
+      "title": "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים",
+      "category": "workshop",
+      "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%93%D7%A0%D7%90__%D7%A2%D7%95%D7%A3_%D7%94%D7%97%D7%95%D7%9C____%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D__%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%9E%D7%94%D7%A7%D7%95%D7%A9%D7%99___-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17215"
+    },
+    {
+      "event_id": "auto_as_bca284c4df193823ce8c",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17333"
+    },
+    {
       "event_id": "auto_as_bfc275d130b48018ef2e",
       "title": "\"סדנה ריקודי עם \" - יעודי לגדולות מהחיים",
       "category": "workshop",
       "ticket_url": "https://ashdod.smarticket.co.il/_סדנה_ריקודי_עם___-_יעודי_לגדולות_מהחיים/?id=17696"
+    },
+    {
+      "event_id": "auto_as_16220c6c0b421e0bd833",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17348"
     },
     {
       "event_id": "auto_as_2526e830eef4d3d6705d",
@@ -547,6 +1285,12 @@
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%93%D7%A7%D7%94_%D7%9C%D7%A0%D7%A9%D7%95%D7%9D___%D7%9C%D7%A6%D7%9E%D7%95%D7%97_%D7%9E%D7%94%D7%9B%D7%90%D7%91_%D7%95%D7%94%D7%A7%D7%95%D7%A9%D7%99-%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17217"
     },
     {
+      "event_id": "auto_as_7123985f38e74e783cb1",
+      "title": "סטודיו פתוח",
+      "category": "other",
+      "ticket_url": "https://ashdod.smarticket.co.il/סטודיו_פתוח/?id=17349"
+    },
+    {
       "event_id": "auto_as_64cf83ea3dc5bbb34e58",
       "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
       "category": "standup",
@@ -557,12 +1301,6 @@
       "title": "סידני מחווה לביג'יז",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/סידני_מחווה_לביג_יז/?id=8114"
-    },
-    {
-      "event_id": "auto_as_3965330ca84880c5bf7a",
-      "title": "שמעון בוסקילה – קרוב לבית",
-      "category": "other",
-      "ticket_url": "https://live.tickchak.co.il/ashdod"
     },
     {
       "event_id": "auto_as_5dda25a13333e0d8db14",
@@ -605,12 +1343,6 @@
       "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/אגדת_הטנגו_העולמי_מרכוס_אשלה_-_Tango_Buenos_Aires_/?id=8093"
-    },
-    {
-      "event_id": "auto_as_d3cf764f28c61e301ce9",
-      "title": "שימי תבורי במופע להקה",
-      "category": "music",
-      "ticket_url": "https://live.tickchak.co.il/ashdod"
     },
     {
       "event_id": "auto_as_c7c22bce65a95aaeb0d8",
@@ -815,6 +1547,12 @@
       "title": "כנר על הגג",
       "category": "other",
       "ticket_url": "https://mishkan-ashdod.smarticket.co.il/כנר_על_הגג_5e3c66a747/?id=8242"
+    },
+    {
+      "event_id": "auto_as_35b62174438a54f14368",
+      "title": "MALEVO",
+      "category": "other",
+      "ticket_url": "https://mishkan-ashdod.smarticket.co.il/MALEVO/?id=8224"
     }
   ]
 }
