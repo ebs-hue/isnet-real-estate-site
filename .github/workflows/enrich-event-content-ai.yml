@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: isnet-event-data-writes
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   enrich:
@@ -26,7 +26,7 @@ jobs:
     env:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_EVENT_ENRICHMENT_MODEL: ${{ vars.OPENAI_EVENT_ENRICHMENT_MODEL || 'gpt-5-mini' }}
-      EVENT_ENRICHMENT_LIMIT: "12"
+      EVENT_ENRICHMENT_LIMIT: "6"
       EVENT_ENRICHMENT_CITY: "ashdod"
     steps:
       - name: Checkout latest main
@@ -55,7 +55,7 @@ jobs:
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          for batch in $(seq 1 24); do
+          for batch in $(seq 1 48); do
             echo "=== Content enrichment batch $batch ==="
             python -u scripts/enrich_event_content_ai.py
 
