@@ -133,11 +133,16 @@ def choose_category(title, venue):
     return "other"
 
 
-CLASSES_TERMS = ("סדנה", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים", "סדרת מפגשים", "מחזור לימודים")
+CLASSES_TERMS = (
+    "סדנה", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים",
+    "סדרת מפגשים", "מחזור לימודים", "פילאטיס", "יוגה", "טאי צ'י", "טאי־צ’י",
+    "התעמלות", "סטודיו פתוח", "המרחב הבטוח", "שיטת דורון", "איזון מפרקים",
+    "מפגשים שבועיים", "אימון קבוע"
+)
 
-def is_classes_candidate(title, category=None):
-    s = text_norm(title or "")
-    return category in {"workshop", "classes"} or any(term in s for term in CLASSES_TERMS)
+def is_classes_candidate(title, category=None, description=None, series_title=None, variant_label=None):
+    s = text_norm(" ".join(str(x or "") for x in (title, description, series_title, variant_label)))
+    return category in {"workshop", "classes"} or any(text_norm(term) in s for term in CLASSES_TERMS)
 
 
 def safe_url(url, origin, allow_external=False):
@@ -740,9 +745,13 @@ def merge(city_slug, specs, dry_run=False):
     data_path = BASE / city_slug / "data" / "events.json"
     payload = json.loads(data_path.read_text(encoding="utf-8"))
     events = payload["events"]
-    removed_classes = [e for e in events if is_classes_candidate(e.get("title"), e.get("category"))]
+    removed_classes = [e for e in events if is_classes_candidate(
+        e.get("title"), e.get("category"), e.get("description"), e.get("series_title"), e.get("variant_label")
+    )]
     if removed_classes:
-        events[:] = [e for e in events if not is_classes_candidate(e.get("title"), e.get("category"))]
+        events[:] = [e for e in events if not is_classes_candidate(
+            e.get("title"), e.get("category"), e.get("description"), e.get("series_title"), e.get("variant_label")
+        )]
     ids_before = {e.get("event_id") for e in events}
     label = CITY_LABELS[city_slug]
     today = date.today()
