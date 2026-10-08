@@ -1,32 +1,10 @@
 {
-  "generated_at": "2026-10-08T11:59:32Z",
+  "generated_at": "2026-10-08T11:59:34Z",
   "model": "gpt-5-mini",
-  "checked": 3,
+  "checked": 0,
   "enriched": 0,
   "insufficient": 0,
   "source_text_insufficient": 0,
-  "model_failed": 3,
-  "events": [
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_93de6870be8f46280fc1",
-      "title": "דירה להשכיר | שעת סיפור עם רינתי",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
-      "title": "כנר על הגג",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_35b62174438a54f14368",
-      "title": "MALEVO",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    }
-  ]
+  "model_failed": 0,
+  "events": []
 }
