@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:18:18.349915+00:00",
+  "generated_at": "2026-10-08T04:21:02.595350+00:00",
   "stats": {
     "events_scanned": 580,
     "image_links": 240,
@@ -7605,7 +7605,7 @@
     }
   ],
   "card_optimization": {
-    "generated_at": "2026-10-08T04:18:22Z",
+    "generated_at": "2026-10-08T04:21:06Z",
     "max_width": 960,
     "max_height": 720,
     "target_bytes": 170000,
@@ -7618,8 +7618,8 @@
     "target_width": 900,
     "format": "webp",
     "quality": 80,
-    "created": 2,
-    "reused": 147,
+    "created": 0,
+    "reused": 149,
     "skipped": 1
   }
 }
