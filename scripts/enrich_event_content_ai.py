@@ -266,12 +266,17 @@ def sanitize_editorial_text(value):
     text = clean_text(value)
     if not text:
         return text
+    # Normalize common backslash-escaped markdown artifacts returned by web-search output.
+    text = text.replace('\\(', '(').replace('\\)', ')').replace('\\_', '_').replace('\\:', ':').replace('\\/', '/')
     # Markdown links: [label](https://example.com/...)
-    text = re.sub(r'\[([^\]]+)\]\(https?://[^)]+\)', r'\1', text)
-    # Parenthesized markdown/citation wrappers that may remain after model web search.
-    text = re.sub(r'\(\s*\[([^\]]+)\]\s*\)', r'\1', text)
-    # Raw URLs.
-    text = re.sub(r'https?://\S+', '', text)
+    text = re.sub(r'\[([^\]]+)\]\(\s*https?://[^)]+\)', r'\1', text)
+    # Citation wrappers such as ([domain](https://...)) or ([domain]).
+    text = re.sub(r'\(\s*\[([^\]]+)\]\(\s*https?://[^)]+\)\s*\)', '', text)
+    text = re.sub(r'\(\s*\[([^\]]+)\]\s*\)', '', text)
+    # Any remaining source-domain label immediately followed by a URL.
+    text = re.sub(r'\[?(?:www\.)?[A-Za-z0-9.-]+\.(?:co\.il|com|org|net|il)\]?\s*\(?\s*https?://[^)\s]+\)?', '', text)
+    # Raw URLs, including query strings.
+    text = re.sub(r'https?://[^\s)]+', '', text)
     # Common source-only parentheticals such as "(assafitzhaki.com)".
     text = re.sub(r'\(\s*(?:www\.)?[A-Za-z0-9.-]+\.(?:co\.il|com|org|net|il)\s*\)', '', text)
     text = re.sub(r'\s+([,.;:!?])', r'\1', text)
