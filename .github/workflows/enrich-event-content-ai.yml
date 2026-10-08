@@ -27,6 +27,7 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       OPENAI_EVENT_ENRICHMENT_MODEL: ${{ vars.OPENAI_EVENT_ENRICHMENT_MODEL || 'gpt-5-mini' }}
       EVENT_ENRICHMENT_LIMIT: "12"
+      EVENT_ENRICHMENT_CITY: "ashdod"
     steps:
       - name: Checkout latest main
         uses: actions/checkout@v4
@@ -59,7 +60,6 @@ jobs:
             python -u scripts/enrich_event_content_ai.py
 
             git add events-preview/ashdod/data/events.json \
-                    events-preview/rishon-lezion/data/events.json \
                     events-preview/content-enrichment-report.json
 
             if git diff --cached --quiet; then
