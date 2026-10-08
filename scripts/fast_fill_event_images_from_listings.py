@@ -33,11 +33,48 @@ UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safa
 BAD=("logo","favicon","facebook_oauth","google_oauth","microsoft_oauth","artistshadow","eventnew.jpg","placeholder","no_pic","no-pic","default","sprite","spinner","languages/")
 TIMEOUT=18
 
+SYSTEM_FALLBACKS={
+  "music":"assets/defaults/music.svg",
+  "standup":"assets/defaults/standup.svg",
+  "theatre":"assets/defaults/theatre.svg",
+  "kids":"assets/defaults/kids.svg",
+  "lecture":"assets/defaults/lecture.svg",
+  "exhibition":"assets/defaults/exhibition.svg",
+  "workshop":"assets/defaults/workshop.svg",
+  "cinema":"assets/defaults/cinema.svg",
+  "festival":"assets/defaults/festival.svg",
+  "community":"assets/defaults/festival.svg",
+  "sport":"assets/defaults/sport.svg",
+  "tour":"assets/defaults/exhibition.svg",
+}
+
+
 def norm(s):
     s=html.unescape(s or "")
     s=unicodedata.normalize("NFKC",s).replace("־","-").replace("–","-").replace("—","-")
     s=re.sub(r"[\u0591-\u05C7]","",s)
     return re.sub(r"\s+"," ",re.sub(r"[^0-9A-Za-zא-ת]+"," ",s.lower())).strip()
+
+def representative_category(e):
+    cat=e.get("category") or "other"
+    if cat in SYSTEM_FALLBACKS:
+        return cat
+    t=norm(" ".join(str(e.get(k) or "") for k in ("title","description","venue_name")))
+    rules=(
+      ("kids",r"ילד|ילדים|משפחה|שעת סיפור|סיפור|קטנט|נוער|רינת|אצבעוני|כובע הקסמים"),
+      ("lecture",r"הרצא|כנס|פאנל|בריאות|זיכרון|נמרולוג|קבלה|היסטור|אסתטיקה|עולם של"),
+      ("workshop",r"סדנ|סדנא|יצירה|הכנת|סרוג|חלוקי נחל|קורס"),
+      ("theatre",r"הצגה|תיאטר|הפקת מקור|מחזה|דרושה עוזרת|הנמרה|המספרה"),
+      ("exhibition",r"מוזיאון|תערוכ|אמנות|גלריה|סיור"),
+      ("standup",r"סטנדאפ|קומד"),
+      ("music",r"מופע|מוזיק|שיר|קריוקי|זמר|קונצרט|דרבוקה"),
+      ("sport",r"מכבי|הפועל|מ\.ס\.|עירוני|כדורגל|כדורסל|כדורעף|כדוריד"),
+      ("festival",r"פסטיבל|יריד|הפנינג|יום העליה|אירוע חוץ"),
+    )
+    for fallback,pat in rules:
+        if re.search(pat,t):
+            return fallback
+    return "community"
 
 def safe_url(url):
     p=urlsplit(url)
@@ -268,6 +305,34 @@ def main():
         e.update({"image_publishable":True,"image_verified":True,"image_rights_status":"verified_official_source","image_strategy":"same_production_reuse","thumbnail_ready":False,"thumbnail_url":None})
         stats["same_title_reuse"]+=1
         new.append({"event_id":e["event_id"],"title":e.get("title"),"image":e.get("image_origin_url"),"source":e.get("image_source"),"score":"reuse"})
+
+    # Super-editor safety net: no event inside the active horizon should remain
+    # visually blank after the official-source agents finish. If no licensed
+    # event-specific artwork was found, attach an owned ISNET representative
+    # category asset. These are explicitly marked as representative, never as
+    # official production artwork, so a later agent can replace them safely.
+    for e in events:
+        if e.get("image_verified") is True:
+            continue
+        fallback_cat=representative_category(e)
+        asset=SYSTEM_FALLBACKS.get(fallback_cat,SYSTEM_FALLBACKS["community"])
+        e.update({
+          "image_url":asset,
+          "image_origin_url":asset,
+          "image_source":"ISNET internal representative artwork",
+          "image_credit":"איור מייצג: ISNET",
+          "image_publishable":True,
+          "image_verified":True,
+          "image_rights_status":"owned_system_asset",
+          "image_strategy":"super_editor_representative_fallback",
+          "image_represents_event":False,
+          "image_represents_category":True,
+          "thumbnail_ready":False,
+          "thumbnail_url":None
+        })
+        stats["super_editor_fallback"]+=1
+        new.append({"event_id":e["event_id"],"title":e.get("title"),"image":asset,"source":"ISNET","score":"representative_fallback"})
+        print("SUPER-FALLBACK",e.get("title"),fallback_cat,asset)
 
     missing=[e for e in events if e.get("image_verified") is not True]
     report={
