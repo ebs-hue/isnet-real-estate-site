@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-07T20:33:16.721505+00:00",
+  "generated_at": "2026-10-08T04:18:18.349915+00:00",
   "stats": {
-    "events_scanned": 711,
-    "image_links": 440,
-    "unique_images": 206,
-    "approved": 166,
-    "needs_review": 40,
+    "events_scanned": 580,
+    "image_links": 240,
+    "unique_images": 170,
+    "approved": 150,
+    "needs_review": 20,
     "rejected": 0
   },
   "rejected_reasons": {},
   "source_domains": {
     "htrl.co.il": {
-      "images": 99,
-      "approved": 99,
-      "review": 0,
+      "images": 82,
+      "approved": 81,
+      "review": 1,
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 33,
+      "images": 18,
       "approved": 8,
-      "review": 25,
+      "review": 10,
       "rejected": 0
     },
     "static.tickchak.co.il": {
-      "images": 11,
-      "approved": 11,
+      "images": 13,
+      "approved": 13,
       "review": 0,
       "rejected": 0
     },
@@ -46,12 +46,6 @@
       "review": 5,
       "rejected": 0
     },
-    "live.tickchak.co.il": {
-      "images": 4,
-      "approved": 0,
-      "review": 4,
-      "rejected": 0
-    },
     "local": {
       "images": 4,
       "approved": 0,
@@ -68,12 +62,6 @@
       "images": 3,
       "approved": 3,
       "review": 0,
-      "rejected": 0
-    },
-    "basket.co.il": {
-      "images": 1,
-      "approved": 0,
-      "review": 1,
       "rejected": 0
     },
     "benefits.isracard.co.il": {
@@ -184,12 +172,6 @@
       "review": 0,
       "rejected": 0
     },
-    "www.ofek-ashdod.org.il": {
-      "images": 1,
-      "approved": 0,
-      "review": 1,
-      "rejected": 0
-    },
     "www.tel-aviv.gov.il": {
       "images": 1,
       "approved": 1,
@@ -222,7 +204,7 @@
     }
   },
   "reusable_artists": 55,
-  "reusable_productions": 164,
-  "artists_total": 124,
-  "productions_total": 265
+  "reusable_productions": 146,
+  "artists_total": 73,
+  "productions_total": 177
 }

@@ -1,98 +1,14 @@
 {
-  "generated_at": "2026-10-07T20:33:16.721505+00:00",
+  "generated_at": "2026-10-08T04:18:18.349915+00:00",
   "stats": {
-    "events_scanned": 711,
-    "image_links": 440,
-    "unique_images": 206,
-    "approved": 166,
-    "needs_review": 40,
+    "events_scanned": 580,
+    "image_links": 240,
+    "unique_images": 170,
+    "approved": 150,
+    "needs_review": 20,
     "rejected": 0
   },
   "media": [
-    {
-      "media_id": "media_59837defc744825980731a48",
-      "url": "../rishon-lezion/assets/events/a53014fdfc1c7bfb7db66b3e.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "central_media_bank_reuse",
-      "artists": [],
-      "productions": [
-        "להתראות ותודה על הקרמשניט"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod",
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_abc304d7ccc6bc7bf233",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-06-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ff95c7afe95a5f2b09ae",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-06-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3f888b4ee71930056e2d",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-06-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_54dc0282144f7dc8152a",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-07-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_be1fc4adb822731a5e36",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-07-03"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_c73bd026b2b848287e0e",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-03"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_6cba9bfff171a9433eff",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-04"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_8361c4dcb9c8bf022984",
-          "title": "להתראות ותודה על הקרמשניט",
-          "date": "2027-01-05"
-        }
-      ],
-      "usage_count": 8,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 12946,
-      "card_url": "media-bank/cards/a53014fdfc1c7bfb7db66b3e.webp",
-      "original_checksum": "a53014fdfc1c7bfb7db66b3e44916d0e3c527a63d8abf0e179870908268b7031"
-    },
     {
       "media_id": "media_1a1e251f6acc45405d9125dc",
       "url": "assets/events/3d7da91a82ef28209d526721.webp",
@@ -158,10 +74,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3d7da91a82ef28209d526721.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 18854,
-      "card_url": "media-bank/cards/3d7da91a82ef28209d526721.webp",
+      "card_quality": 80,
       "original_checksum": "3d7da91a82ef28209d5267213a8bb2970d06c062ed0794d55e5b19e7f47514e6"
     },
     {
@@ -230,10 +147,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/1e28d63f5a684ac7b7dfebd3.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 36944,
-      "card_url": "media-bank/cards/1e28d63f5a684ac7b7dfebd3.webp",
+      "card_quality": 80,
       "original_checksum": "1e28d63f5a684ac7b7dfebd3732b5e6b72c38b9d6bab77887461b99057863254"
     },
     {
@@ -295,10 +213,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/0702ceaa45427ca8911641e5.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 22870,
-      "card_url": "media-bank/cards/0702ceaa45427ca8911641e5.webp",
+      "card_quality": 80,
       "original_checksum": "0702ceaa45427ca8911641e57c6e10f328695a665d631ee32056d187f826a3b3"
     },
     {
@@ -364,10 +283,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/32a110a2f68b98e5ddcbb527.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 33006,
-      "card_url": "media-bank/cards/32a110a2f68b98e5ddcbb527.webp",
+      "card_quality": 80,
       "original_checksum": "32a110a2f68b98e5ddcbb5272a50335f6c8c311bc12b294318c8528a004e4123"
     },
     {
@@ -423,15 +343,16 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/0ca1455a55977ecfae171047.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 40830,
-      "card_url": "media-bank/cards/0ca1455a55977ecfae171047.webp",
+      "card_quality": 80,
       "original_checksum": "0ca1455a55977ecfae1710470bf5bb5d01bcd76e5733c16c16250b0309fc44ea"
     },
     {
       "media_id": "media_e025cfed22ab4d6b8b17951d",
-      "url": "assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
+      "url": "../ashdod/assets/event-thumbs/10d1fe025ca2681fd76bd6.jpg",
       "origin_url": "https://www.ironit.org.il/wp-content/uploads/2024/12/עידוד-קריאה.jpeg",
       "source_url": "https://www.ironit.org.il/pastime/event/",
       "credit": "החברה העירונית לתרבות ופנאי אשדוד",
@@ -440,7 +361,7 @@
       "verified": true,
       "publishable": true,
       "ai_generated": false,
-      "strategy": "ironit_official_series",
+      "strategy": "central_media_bank_reuse",
       "artists": [
         "שרון כהן"
       ],
@@ -485,10 +406,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": 0.883,
+      "card_url": "media-bank/cards/5eb07175945fb1d9913fab94.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 17086,
-      "card_url": "media-bank/cards/5eb07175945fb1d9913fab94.webp",
+      "card_quality": 80,
       "original_checksum": "5eb07175945fb1d9913fab9429c7eef0fb92d3404eede6e403d4b1b2b87022ca"
     },
     {
@@ -538,10 +460,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/4054901f4ad45b08f48d7bf0.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 8492,
-      "card_url": "media-bank/cards/4054901f4ad45b08f48d7bf0.webp",
+      "card_quality": 80,
       "original_checksum": "4054901f4ad45b08f48d7bf05a566f9edafe9e759560ee00659da0234e37fbfa"
     },
     {
@@ -591,64 +514,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/d9fa954dca019f7ab606e41b.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14816,
-      "card_url": "media-bank/cards/d9fa954dca019f7ab606e41b.webp",
+      "card_quality": 80,
       "original_checksum": "d9fa954dca019f7ab606e41b2d616d2912a9e335e166100bc807a97d93d18419"
-    },
-    {
-      "media_id": "media_29ea2257f1914527dcc184db",
-      "url": "assets/events/e3f158e0a0edb16e333def75.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-19.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%9C%D7%95%D7%9D-%D7%91%D7%99%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "שלום בית"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_1f79dd7b9c204fde6041",
-          "title": "שלום בית",
-          "date": "2027-03-25"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_a43543b8929c6b9b2a79",
-          "title": "שלום בית",
-          "date": "2027-03-27"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_0289eb1a9757155260d0",
-          "title": "שלום בית",
-          "date": "2027-03-28"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 900,
-      "card_height": 640,
-      "card_bytes": 84286,
-      "card_url": "media-bank/cards/e3f158e0a0edb16e333def75.webp",
-      "original_checksum": "e3f158e0a0edb16e333def750d2459080ba07827ff3bcd3a736e590c2455448b"
     },
     {
       "media_id": "media_2f9b14eb1d1cce318b639a8a",
@@ -697,64 +568,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/89a3eb2b9e1162db51560475.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 34936,
-      "card_url": "media-bank/cards/89a3eb2b9e1162db51560475.webp",
+      "card_quality": 80,
       "original_checksum": "89a3eb2b9e1162db515604757e562fde3303a0afd94f9fc2aeb9d420b646db81"
-    },
-    {
-      "media_id": "media_31725d98280b88301ab5677b",
-      "url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מסיבת אירוסין"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_729c6a5194d2f00b4ee2",
-          "title": "מסיבת אירוסין",
-          "date": "2027-03-08"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_ef0b8bfdb7be40c143d8",
-          "title": "מסיבת אירוסין",
-          "date": "2027-03-09"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_f0a341b59e3cb72a992b",
-          "title": "מסיבת אירוסין",
-          "date": "2027-03-10"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 30114,
-      "card_url": "media-bank/cards/ad03e13f2d38a0cd64bf307e.webp",
-      "original_checksum": "ad03e13f2d38a0cd64bf307e6e0f8c756cf505c60025c54359c05d8ab6639798"
     },
     {
       "media_id": "media_4a37a28f82f70ca01bfb0a3f",
@@ -803,17 +622,18 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/418a1774ac7141146a0dd6e2.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14158,
-      "card_url": "media-bank/cards/418a1774ac7141146a0dd6e2.webp",
+      "card_quality": 80,
       "original_checksum": "418a1774ac7141146a0dd6e2a763e3ca3c8e79a43e370f2542c08b24fdf119b8"
     },
     {
-      "media_id": "media_6146e589c26e7930de248260",
-      "url": "assets/events/90e1f6ea29dc38d76dd5b386.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_agamnon.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%92%D7%9E%D7%9E%D7%A0%D7%95%D7%9F/",
+      "media_id": "media_59837defc744825980731a48",
+      "url": "assets/events/a53014fdfc1c7bfb7db66b3e.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4502-1.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9C%D7%94%D7%AA%D7%A8%D7%90%D7%95%D7%AA-%D7%95%D7%AA%D7%95%D7%93%D7%94-%D7%A2%D7%9C-%D7%94%D7%A7%D7%A8%D7%9E%D7%A9%D7%A0%D7%99%D7%98/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
       "rights_status": "unknown",
       "status": "approved",
@@ -823,7 +643,7 @@
       "strategy": "official_event_poster",
       "artists": [],
       "productions": [
-        "אגממנון"
+        "להתראות ותודה על הקרמשניט"
       ],
       "categories": [
         "other"
@@ -834,21 +654,21 @@
       "events": [
         {
           "city": "rishon-lezion",
-          "event_id": "auto_ri_091bb0fbcbe01707697b",
-          "title": "אגממנון",
-          "date": "2027-04-07"
+          "event_id": "auto_ri_c73bd026b2b848287e0e",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-03"
         },
         {
           "city": "rishon-lezion",
-          "event_id": "auto_ri_9306625e115b2972d96b",
-          "title": "אגממנון",
-          "date": "2027-04-08"
+          "event_id": "auto_ri_6cba9bfff171a9433eff",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-04"
         },
         {
           "city": "rishon-lezion",
-          "event_id": "auto_ri_e6e3ec0d936cdd2d8cdd",
-          "title": "אגממנון",
-          "date": "2027-04-10"
+          "event_id": "auto_ri_8361c4dcb9c8bf022984",
+          "title": "להתראות ותודה על הקרמשניט",
+          "date": "2027-01-05"
         }
       ],
       "usage_count": 3,
@@ -856,69 +676,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a53014fdfc1c7bfb7db66b3e.webp",
       "card_width": 450,
       "card_height": 320,
-      "card_bytes": 12944,
-      "card_url": "media-bank/cards/90e1f6ea29dc38d76dd5b386.webp",
-      "original_checksum": "90e1f6ea29dc38d76dd5b3865017f1c27c1aa9d3636d34231178fdc0e3ac1c6f"
-    },
-    {
-      "media_id": "media_78e19fcc69b94704798dfead",
-      "url": "assets/event-thumbs/5a2591cb4af6b5f8130653.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
-      "source_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "source_event",
-      "artists": [
-        "רינתי"
-      ],
-      "productions": [
-        "סיפור של חורף | שעת סיפור עם רינתי",
-        "המדורה של רינתי",
-        "המדורה של רינתי | שעת סיפור עם רינתי"
-      ],
-      "categories": [
-        "kids",
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_99_20261117",
-          "title": "סיפור של חורף | שעת סיפור עם רינתי",
-          "date": "2026-11-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_56006f0f4db06e0655a0",
-          "title": "המדורה של רינתי",
-          "date": "2027-05-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_4ed466d9ac4036a41389",
-          "title": "המדורה של רינתי | שעת סיפור עם רינתי",
-          "date": "2027-05-18"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": 0.413,
-      "card_width": 720,
-      "card_height": 540,
-      "card_bytes": 32560,
-      "card_url": "media-bank/cards/0d0db547de538bb97ef8c847.webp",
-      "original_checksum": "0d0db547de538bb97ef8c847a61e8edbbe935e38f6131ae8f2f98bb58bc55406"
+      "card_bytes": 12946,
+      "card_quality": 80,
+      "original_checksum": "a53014fdfc1c7bfb7db66b3e44916d0e3c527a63d8abf0e179870908268b7031"
     },
     {
       "media_id": "media_8e4d3d7efc80e7751388217a",
@@ -967,64 +730,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/34b966213809ad2fd26c5d5b.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 27892,
-      "card_url": "media-bank/cards/34b966213809ad2fd26c5d5b.webp",
+      "card_quality": 80,
       "original_checksum": "34b966213809ad2fd26c5d5b125aa023d0c09b43ce4707d27e6ea098e92ed89d"
-    },
-    {
-      "media_id": "media_9d125335260d720cab3f9610",
-      "url": "assets/events/e1bfd01c6e46f8924025ebe8.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_heart.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%94%D7%9C%D7%91-%D7%A9%D7%9C%D7%99-%D7%A9%D7%9C%D7%9A/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "הלב שלי שלך"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_08f111128ca403026d4d",
-          "title": "הלב שלי שלך",
-          "date": "2027-07-01"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_55798e6f8403eb7aef1b",
-          "title": "הלב שלי שלך",
-          "date": "2027-07-03"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_5356aa6cfb7b450260f4",
-          "title": "הלב שלי שלך",
-          "date": "2027-07-04"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 22380,
-      "card_url": "media-bank/cards/e1bfd01c6e46f8924025ebe8.webp",
-      "original_checksum": "e1bfd01c6e46f8924025ebe84713bd1d902717da00877d7d07af3625533e37d3"
     },
     {
       "media_id": "media_baf1cb481d33a2caf91c4f49",
@@ -1073,64 +784,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cd4f1ca0ad8e6dab130ba038.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 28460,
-      "card_url": "media-bank/cards/cd4f1ca0ad8e6dab130ba038.webp",
+      "card_quality": 80,
       "original_checksum": "cd4f1ca0ad8e6dab130ba03871e5c52d95bdee459108de45bcf25a555c825e7d"
-    },
-    {
-      "media_id": "media_d8625828df7e29e7aa810cff",
-      "url": "assets/events/58ca7c42f18b61db44a5c405.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-13.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%90%D7%9C%D7%9E%D7%A0%D7%95%D7%AA-%D7%94%D7%A2%D7%9C%D7%99%D7%96%D7%95%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מועדון האלמנות העליזות"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_ebc1f36f41b5acd259d8",
-          "title": "מועדון האלמנות העליזות",
-          "date": "2027-06-23"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_b97a7fcc29e440a57af1",
-          "title": "מועדון האלמנות העליזות",
-          "date": "2027-06-24"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_2d499be542e539f82445",
-          "title": "מועדון האלמנות העליזות",
-          "date": "2027-06-26"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 8214,
-      "card_url": "media-bank/cards/58ca7c42f18b61db44a5c405.webp",
-      "original_checksum": "58ca7c42f18b61db44a5c4056293a692287903ef0a800280a3529adf561ab183"
     },
     {
       "media_id": "media_1863e01d5ab4452a02e644a9",
@@ -1173,10 +832,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/80bbccde72839133486c16b2.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 8996,
-      "card_url": "media-bank/cards/80bbccde72839133486c16b2.webp",
+      "card_quality": 80,
       "original_checksum": "80bbccde72839133486c16b2d3e03c1cfbf8202d2312aeb09c6bcbe20835382b"
     },
     {
@@ -1220,10 +880,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/14226f5131a39173e2d043f9.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 32766,
-      "card_url": "media-bank/cards/14226f5131a39173e2d043f9.webp",
+      "card_quality": 80,
       "original_checksum": "14226f5131a39173e2d043f95859ffb29d1304ae00438adcd45e67d03532f8ec"
     },
     {
@@ -1268,10 +929,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/1cb75ec3b194877299d81bfa.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 19638,
-      "card_url": "media-bank/cards/1cb75ec3b194877299d81bfa.webp",
+      "card_quality": 80,
       "original_checksum": "1cb75ec3b194877299d81bfa2632eb0e518973004920b6c94986b7d6069db5e1"
     },
     {
@@ -1315,10 +977,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/81c06f3f83396ed43ddf6f77.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 48894,
-      "card_url": "media-bank/cards/81c06f3f83396ed43ddf6f77.webp",
+      "card_quality": 80,
       "original_checksum": "81c06f3f83396ed43ddf6f773d97fcc29dc84047ee82a8117fd99f79344e7250"
     },
     {
@@ -1362,10 +1025,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/68326949e84ccb7b4c1e32c7.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 17830,
-      "card_url": "media-bank/cards/68326949e84ccb7b4c1e32c7.webp",
+      "card_quality": 80,
       "original_checksum": "68326949e84ccb7b4c1e32c70e11283289666253b6b971fc71dabeb69e39a1f2"
     },
     {
@@ -1410,105 +1074,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/1aad9f16d3478c8e3c5476b8.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 25014,
-      "card_url": "media-bank/cards/1aad9f16d3478c8e3c5476b8.webp",
+      "card_quality": 80,
       "original_checksum": "1aad9f16d3478c8e3c5476b8594476b080bb69add6f94e06c5fd34a26523f862"
-    },
-    {
-      "media_id": "media_4994292c7c0d6c4050b33c98",
-      "url": "assets/events/9d6e12de24f44ff5bc40777c.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_isabela.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%99%D7%96%D7%91%D7%9C%D7%94/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "איזבלה"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_306da84ef9a9eb6f3316",
-          "title": "איזבלה",
-          "date": "2027-04-01"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_74a430e4f689438c734a",
-          "title": "איזבלה",
-          "date": "2027-04-03"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 7364,
-      "card_url": "media-bank/cards/9d6e12de24f44ff5bc40777c.webp",
-      "original_checksum": "9d6e12de24f44ff5bc40777cc9ef67da47a5e56b9ac9c605f8c5d5faeac6556d"
-    },
-    {
-      "media_id": "media_62d74e1020de23c18337e804",
-      "url": "assets/events/215f92bf1520a1e188cbfd8b.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450-16.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%9E%D7%A0%D7%95%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "אמנות"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_b7e64d3b019940e8e020",
-          "title": "אמנות",
-          "date": "2027-07-26"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_5fc31df0239cbf0894cf",
-          "title": "אמנות",
-          "date": "2027-07-27"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 5664,
-      "card_url": "media-bank/cards/215f92bf1520a1e188cbfd8b.webp",
-      "original_checksum": "215f92bf1520a1e188cbfd8bdac61756ba77aec1035f120a2dbb707d6e81e8f0"
     },
     {
       "media_id": "media_7cb41718e74bb9991750ce26",
@@ -1557,10 +1128,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": 0.481,
+      "card_url": "media-bank/cards/0afe2613f10626a97bf359ab.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 20502,
-      "card_url": "media-bank/cards/0afe2613f10626a97bf359ab.webp",
+      "card_quality": 80,
       "original_checksum": "0afe2613f10626a97bf359ab50d3f46847b3b67f18facbd46544a2a0e09c9034"
     },
     {
@@ -1604,10 +1176,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 43880,
-      "card_url": "media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "card_quality": 80,
       "original_checksum": "178f6bb6bc13b69ccf729de07774cb634e3b0edc7182d8b89f1f446bbe9be411"
     },
     {
@@ -1651,10 +1224,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/75b5d2c5ab61d8c677969cdf.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 26930,
-      "card_url": "media-bank/cards/75b5d2c5ab61d8c677969cdf.webp",
+      "card_quality": 80,
       "original_checksum": "75b5d2c5ab61d8c677969cdffb935bdfbedc17d2e515ed3d7dcc697dd620df25"
     },
     {
@@ -1698,10 +1272,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/819e85707a1b9ca96b747329.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 105610,
-      "card_url": "media-bank/cards/819e85707a1b9ca96b747329.webp",
+      "card_quality": 80,
       "original_checksum": "819e85707a1b9ca96b747329e4511e42f35ac240eefe65325112bf0a158658a4"
     },
     {
@@ -1747,10 +1322,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 24034,
-      "card_url": "media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
+      "card_quality": 80,
       "original_checksum": "3d1a0f2000b578c8c7d30087326b750e06c5b937481719a2e191081e153ee321"
     },
     {
@@ -1794,10 +1370,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/27d03800c7156d8da5558e4a.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 17662,
-      "card_url": "media-bank/cards/27d03800c7156d8da5558e4a.webp",
+      "card_quality": 80,
       "original_checksum": "27d03800c7156d8da5558e4a70c05202f4809a9596e3230816cc75bd8ccf2c1c"
     },
     {
@@ -1841,7 +1418,12 @@
       "created_from": "event_dataset",
       "review_reason": null,
       "reuse_risk": "low",
-      "reuse_similarity_floor": null
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/assets/cards/b4633628f67a433d3b0a87a2.webp",
+      "card_width": 829,
+      "card_height": 720,
+      "card_bytes": 60678,
+      "card_quality": 80
     },
     {
       "media_id": "media_b4f5a7d91606527de7580901",
@@ -1884,10 +1466,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a44570b9804820903b9aad5d.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 27312,
-      "card_url": "media-bank/cards/a44570b9804820903b9aad5d.webp",
+      "card_quality": 80,
       "original_checksum": "a44570b9804820903b9aad5dc6e5c54ec910d58d72b4979f151f572bab6a7e2b"
     },
     {
@@ -1933,10 +1516,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2730fc92608007dfd2309838.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 23876,
-      "card_url": "media-bank/cards/2730fc92608007dfd2309838.webp",
+      "card_quality": 80,
       "original_checksum": "2730fc92608007dfd23098388569c0c155d65ccaead3bbf132269cfa84c51112"
     },
     {
@@ -1980,10 +1564,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/c7fd558f794673fae0a89bbf.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 35168,
-      "card_url": "media-bank/cards/c7fd558f794673fae0a89bbf.webp",
+      "card_quality": 80,
       "original_checksum": "c7fd558f794673fae0a89bbfe971cd0efa6e56497f0376f32def38ad49f1bf76"
     },
     {
@@ -2027,10 +1612,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/465a1f8a104f880bdad86d71.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 30914,
-      "card_url": "media-bank/cards/465a1f8a104f880bdad86d71.webp",
+      "card_quality": 80,
       "original_checksum": "465a1f8a104f880bdad86d710682d495cf8244daf6bf542c9e0803dd16d5cd82"
     },
     {
@@ -2074,59 +1660,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/113502ec2dff834367b78ce8.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 16452,
-      "card_url": "media-bank/cards/113502ec2dff834367b78ce8.webp",
+      "card_quality": 80,
       "original_checksum": "113502ec2dff834367b78ce8b6df43732b8f9e1c9896ff347a9279e01fddc721"
-    },
-    {
-      "media_id": "media_efe9059eddc1d7d2d0753f73",
-      "url": "assets/event-thumbs/cf09225f0aca0e7d11041a.jpg",
-      "origin_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
-      "source_url": "https://friends-hist.co.il/event/%D7%96%D7%95%D7%92%D7%99%D7%95%D7%AA-ai-%D7%9E%D7%AA%D7%A0%D7%A1-%D7%93%D7%99%D7%95%D7%A0%D7%94-%D7%90%D7%A9%D7%93%D7%95%D7%93-05-11-2026/",
-      "credit": "פיני סילוק ועדי ברק",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_page",
-      "artists": [],
-      "productions": [
-        "זוגיות AI"
-      ],
-      "categories": [
-        "theatre",
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_56_20261105",
-          "title": "זוגיות AI",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b4d493b24cfeda03196b",
-          "title": "זוגיות AI",
-          "date": "2027-03-20"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 720,
-      "card_height": 540,
-      "card_bytes": 48354,
-      "card_url": "media-bank/cards/2e3bcd722ed9909b042a2e00.webp",
-      "original_checksum": "2e3bcd722ed9909b042a2e0083734bde1c3816175500e4eff50d063056d61b8d"
     },
     {
       "media_id": "media_f1abd4d53917ecdd3b80686c",
@@ -2169,112 +1708,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/676ea8e32f625ba8f5a2a13c.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 9104,
-      "card_url": "media-bank/cards/676ea8e32f625ba8f5a2a13c.webp",
+      "card_quality": 80,
       "original_checksum": "676ea8e32f625ba8f5a2a13cc8cf416a51ce4a5a125b3425dfbc927ee26fe2f3"
-    },
-    {
-      "media_id": "media_f77774082eb82bed03a12abe",
-      "url": "assets/events/e866586c3738080cc0d15471.webp",
-      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb655325fe30e7c476139512.jpg",
-      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99_%D7%9B%D7%A0%D7%99%D7%A1%D7%94_34",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [
-        "יעקב אגם",
-        "מנשה קדישמן",
-        "יניב שפירא"
-      ],
-      "productions": [
-        "כרטיסי כניסה"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_8a5e128b1fdc9fda8ff4",
-          "title": "כרטיסי כניסה",
-          "date": "2026-10-07"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_7b6497c1a29934dc91cd",
-          "title": "כרטיסי כניסה",
-          "date": "2026-10-08"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 844,
-      "card_height": 555,
-      "card_bytes": 26954,
-      "card_url": "media-bank/cards/e866586c3738080cc0d15471.webp",
-      "original_checksum": "e866586c3738080cc0d154719c42d3c569e0e7ecc208f91da3aceb643118086c"
-    },
-    {
-      "media_id": "media_f855e5387c94ac0b0485e6ed",
-      "url": "assets/events/cfdfe2329303fedf5babcb25.webp",
-      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
-      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%95%D7%A1%D7%99%D7%95%D7%A8_%D7%9E%D7%95%D7%93%D7%A8%D7%9A_%D7%9C%D7%A7%D7%94%D7%9C_%D7%94%D7%A8%D7%97%D7%91",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [
-        "עקב אגם",
-        "מנשה קדישמן"
-      ],
-      "productions": [
-        "כניסה וסיור מודרך לקהל הרחב"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_efdca1b53fd6cbb9b8b0",
-          "title": "כניסה וסיור מודרך לקהל הרחב",
-          "date": "2026-10-07"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_e5ac6e7aa5f50cab02a4",
-          "title": "כניסה וסיור מודרך לקהל הרחב",
-          "date": "2026-10-08"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 844,
-      "card_height": 555,
-      "card_bytes": 29970,
-      "card_url": "media-bank/cards/cfdfe2329303fedf5babcb25.webp",
-      "original_checksum": "cfdfe2329303fedf5babcb251a71864cc758f48cc2eb9f6456668d309ad4c6b6"
     },
     {
       "media_id": "media_fd1f85d66ee66440a439d877",
@@ -2318,58 +1757,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/67b8f9c4379b0e769b4bcea9.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 31478,
-      "card_url": "media-bank/cards/67b8f9c4379b0e769b4bcea9.webp",
+      "card_quality": 80,
       "original_checksum": "67b8f9c4379b0e769b4bcea9a867921790cc0b7e69bd45a0364d5c5283a6cf0f"
-    },
-    {
-      "media_id": "media_ff10d5157a7a3ef0ffd417ad",
-      "url": "assets/events/01ad4e71675fb20a41243997.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4509.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%95%D7%A0%D7%90%D7%99%D7%9D-%D7%A1%D7%99%D7%A4%D7%95%D7%A8-%D7%90%D7%94%D7%91%D7%94/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "שונאים, סיפור אהבה"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_b3669e960ae892cc69ae",
-          "title": "שונאים, סיפור אהבה",
-          "date": "2027-04-29"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_92b757b44b60eb277aea",
-          "title": "שונאים, סיפור אהבה",
-          "date": "2027-05-01"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 23250,
-      "card_url": "media-bank/cards/01ad4e71675fb20a41243997.webp",
-      "original_checksum": "01ad4e71675fb20a412439977b117e339bbea062ad833c10cc85e6b5869b0d9c"
     },
     {
       "media_id": "media_004c7fa81f2fbc84ab2e0def",
@@ -2409,10 +1802,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/b752c805b587234ef1b7134e.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 17844,
-      "card_url": "media-bank/cards/b752c805b587234ef1b7134e.webp",
+      "card_quality": 80,
       "original_checksum": "b752c805b587234ef1b7134e8b11bd674412f977eafc2960d2f48a8a68a241d9"
     },
     {
@@ -2450,10 +1844,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/29c3b12f38ae80168982fe0e.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 31980,
-      "card_url": "media-bank/cards/29c3b12f38ae80168982fe0e.webp",
+      "card_quality": 80,
       "original_checksum": "29c3b12f38ae80168982fe0e6257d615736e02d80885981911c8dde369f0c509"
     },
     {
@@ -2491,10 +1886,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/52d7820f8589880116551dc3.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 58156,
-      "card_url": "media-bank/cards/52d7820f8589880116551dc3.webp",
+      "card_quality": 80,
       "original_checksum": "52d7820f8589880116551dc379f75298544821c9546c5f85578d896446aeaa86"
     },
     {
@@ -2532,10 +1928,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/aa74c1e002ed968522d3d978.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 15406,
-      "card_url": "media-bank/cards/aa74c1e002ed968522d3d978.webp",
+      "card_quality": 80,
       "original_checksum": "aa74c1e002ed968522d3d9782f28958caaa309495d46203e54fb7ac96e9fb660"
     },
     {
@@ -2573,10 +1970,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/c4df1ec8d514f7ddb1a6a61e.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 22440,
-      "card_url": "media-bank/cards/c4df1ec8d514f7ddb1a6a61e.webp",
+      "card_quality": 80,
       "original_checksum": "c4df1ec8d514f7ddb1a6a61e1b02f3e15561fdda8273d8dcb92b7ab5bdeb7fb4"
     },
     {
@@ -2617,10 +2015,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/04d22ea578526e2ce0749425.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 29372,
-      "card_url": "media-bank/cards/04d22ea578526e2ce0749425.webp",
+      "card_quality": 80,
       "original_checksum": "04d22ea578526e2ce07494252b53774f79917429095a863c9dae03c0661653d9"
     },
     {
@@ -2660,10 +2059,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/5443ccc7ee913a23541e00c4.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 56472,
-      "card_url": "media-bank/cards/5443ccc7ee913a23541e00c4.webp",
+      "card_quality": 80,
       "original_checksum": "5443ccc7ee913a23541e00c427ef10e5e3cdbc493fd628408967e3474fb476dc"
     },
     {
@@ -2701,10 +2101,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3d5bed8f626e490000c67ec2.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 12208,
-      "card_url": "media-bank/cards/3d5bed8f626e490000c67ec2.webp",
+      "card_quality": 80,
       "original_checksum": "3d5bed8f626e490000c67ec2032e538c135d8fe35a43a9cc17c1c63fe262c565"
     },
     {
@@ -2742,15 +2143,16 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/d333dc1554f34a0dfacfb25d.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 27750,
-      "card_url": "media-bank/cards/d333dc1554f34a0dfacfb25d.webp",
+      "card_quality": 80,
       "original_checksum": "d333dc1554f34a0dfacfb25dfce66be875843e7d229226053c947d70a38e8d09"
     },
     {
       "media_id": "media_09e5152130ec243c733f36ad",
-      "url": "assets/event-thumbs/f355f476142af83ba585f7.jpg",
+      "url": "../ashdod/assets/event-thumbs/f355f476142af83ba585f7.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3640cbb2b3064576397.jpg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -2759,7 +2161,7 @@
       "verified": true,
       "publishable": true,
       "ai_generated": false,
-      "strategy": "source_listing_card",
+      "strategy": "central_media_bank_reuse",
       "artists": [
         "עפרה אייל"
       ],
@@ -2785,10 +2187,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/7a58a2210108fabde73ac2a6.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 31964,
-      "card_url": "media-bank/cards/7a58a2210108fabde73ac2a6.webp",
+      "card_quality": 80,
       "original_checksum": "7a58a2210108fabde73ac2a63aff23f2ec3e015c5447887bae45d707be541494"
     },
     {
@@ -2826,10 +2229,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/21f0c397b33c00438257d788.webp",
       "card_width": 900,
       "card_height": 640,
       "card_bytes": 95136,
-      "card_url": "media-bank/cards/21f0c397b33c00438257d788.webp",
+      "card_quality": 80,
       "original_checksum": "21f0c397b33c00438257d788ed46baecf676212194897d7ea69e3037115a6de1"
     },
     {
@@ -2867,10 +2271,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e83c156dbd38f3442cd641c6.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 27500,
-      "card_url": "media-bank/cards/e83c156dbd38f3442cd641c6.webp",
+      "card_quality": 80,
       "original_checksum": "e83c156dbd38f3442cd641c61c7cd098f2cec2f40429591129476b45b0215216"
     },
     {
@@ -2910,10 +2315,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/08eac202af624ded2daeda9e.webp",
       "card_width": 844,
       "card_height": 555,
       "card_bytes": 18310,
-      "card_url": "media-bank/cards/08eac202af624ded2daeda9e.webp",
+      "card_quality": 80,
       "original_checksum": "08eac202af624ded2daeda9ec91fada0dd535b42dca02c815d7ef4f64673b730"
     },
     {
@@ -2951,52 +2357,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a98b5d2383f7b337089b1894.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 17276,
-      "card_url": "media-bank/cards/a98b5d2383f7b337089b1894.webp",
+      "card_quality": 80,
       "original_checksum": "a98b5d2383f7b337089b189416fb23c69032a06be1f2207c0aa8486f84ec071b"
-    },
-    {
-      "media_id": "media_12e8e782ffb567b37744eb30",
-      "url": "assets/events/679238a9204e1d3ac415b40a.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_4503.jpg",
-      "source_url": "https://htrl.co.il/show/70-fm/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "70 FM"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_914cd224e8598f5f7144",
-          "title": "70 FM",
-          "date": "2027-03-31"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 27064,
-      "card_url": "media-bank/cards/679238a9204e1d3ac415b40a.webp",
-      "original_checksum": "679238a9204e1d3ac415b40a42fc594e1837de75b3a7714474fb9c9d413da3c2"
     },
     {
       "media_id": "media_13ca18fe89fd897b7b941c57",
@@ -3033,10 +2399,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/69f2f34d92ad7cbec5221909.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 22752,
-      "card_url": "media-bank/cards/69f2f34d92ad7cbec5221909.webp",
+      "card_quality": 80,
       "original_checksum": "69f2f34d92ad7cbec5221909a25bed2bfb4646f49238f88e6413d2f43bb58da7"
     },
     {
@@ -3076,52 +2443,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/6cf4b79e350ed46042c219c6.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 15616,
-      "card_url": "media-bank/cards/6cf4b79e350ed46042c219c6.webp",
+      "card_quality": 80,
       "original_checksum": "6cf4b79e350ed46042c219c681987d59945f493a2a84a0da98dbdef71e8e58e0"
-    },
-    {
-      "media_id": "media_1e792864967682af210ff1ee",
-      "url": "assets/events/9e656ecc459f7337e444dec9.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-6.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%94%D7%93%D7%99%D7%95%D7%95%D7%AA-%D7%94%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מועדון הזמר של אילנה כץ – הדיוות הגדולות"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_682f12e71f6b6e7158be",
-          "title": "מועדון הזמר של אילנה כץ – הדיוות הגדולות",
-          "date": "2027-06-19"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 15300,
-      "card_url": "media-bank/cards/9e656ecc459f7337e444dec9.webp",
-      "original_checksum": "9e656ecc459f7337e444dec96ebca0511ba8232ab03f3b7c3e9c00a8bd7cdde5"
     },
     {
       "media_id": "media_1ea0a109f88f0dfa572f6fc5",
@@ -3158,52 +2485,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/ca74d37b5990bd325ac26381.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 20004,
-      "card_url": "media-bank/cards/ca74d37b5990bd325ac26381.webp",
+      "card_quality": 80,
       "original_checksum": "ca74d37b5990bd325ac263812791bbd386740b791bfe8e1286dd263362ca03ab"
-    },
-    {
-      "media_id": "media_1fcf64293d74d0343ae52feb",
-      "url": "assets/events/64c276f8ba637f170e904bac.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit2-הד-אנדלוסי.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%94%D7%93-%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "הד אנדלוסי התזמורת האנדלוסית"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_69f43e51179a1699423e",
-          "title": "הד אנדלוסי התזמורת האנדלוסית",
-          "date": "2027-06-08"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 29324,
-      "card_url": "media-bank/cards/64c276f8ba637f170e904bac.webp",
-      "original_checksum": "64c276f8ba637f170e904bac04c0008a43c0259130f5dc10e65bf498fc48975b"
     },
     {
       "media_id": "media_20068a39ed34752c21ada19f",
@@ -3240,10 +2527,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2c645330222a0889a493ac3c.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 18182,
-      "card_url": "media-bank/cards/2c645330222a0889a493ac3c.webp",
+      "card_quality": 80,
       "original_checksum": "2c645330222a0889a493ac3ca27c94b9186895182492dc67c7ae83b76b1293d6"
     },
     {
@@ -3281,10 +2569,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/5bd8ec5c1588598124582f75.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 57108,
-      "card_url": "media-bank/cards/5bd8ec5c1588598124582f75.webp",
+      "card_quality": 80,
       "original_checksum": "5bd8ec5c1588598124582f7548cf0f9c4042a23e5149b53be27b66fb15a1d1a1"
     },
     {
@@ -3322,10 +2611,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/0fedc313b1c715e51d48d0bd.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 75750,
-      "card_url": "media-bank/cards/0fedc313b1c715e51d48d0bd.webp",
+      "card_quality": 80,
       "original_checksum": "0fedc313b1c715e51d48d0bdd50576630f06408f2547dc9385612f159f4ae6da"
     },
     {
@@ -3363,10 +2653,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cc472035801b481c750460d0.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 17522,
-      "card_url": "media-bank/cards/cc472035801b481c750460d0.webp",
+      "card_quality": 80,
       "original_checksum": "cc472035801b481c750460d0ab0b9b5f7a9ae17797a9049f77d65dbf29448a79"
     },
     {
@@ -3404,10 +2695,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/35878b8f645ccc6550dcd0cd.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 31640,
-      "card_url": "media-bank/cards/35878b8f645ccc6550dcd0cd.webp",
+      "card_quality": 80,
       "original_checksum": "35878b8f645ccc6550dcd0cd101932c9b9753a83455468be2f9a60eeb2c50f8c"
     },
     {
@@ -3445,10 +2737,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 24248,
-      "card_url": "media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "card_quality": 80,
       "original_checksum": "e6c11bfe374c081ba2f298f130136936cc94b4b97165e4c7750e3a36211e9246"
     },
     {
@@ -3488,10 +2781,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/c382f59e875b0b15c6b646d8.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 37962,
-      "card_url": "media-bank/cards/c382f59e875b0b15c6b646d8.webp",
+      "card_quality": 80,
       "original_checksum": "c382f59e875b0b15c6b646d814afabdae63e01602117191bb046a957b0737fbf"
     },
     {
@@ -3532,10 +2826,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f0d7ba5978ed441f19a6a0f4.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 27860,
-      "card_url": "media-bank/cards/f0d7ba5978ed441f19a6a0f4.webp",
+      "card_quality": 80,
       "original_checksum": "f0d7ba5978ed441f19a6a0f446fab553c43ec1085efbcd9cfb1de94228bfce1d"
     },
     {
@@ -3573,10 +2868,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/afbe439fd8d916f1cdd7e587.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 50482,
-      "card_url": "media-bank/cards/afbe439fd8d916f1cdd7e587.webp",
+      "card_quality": 80,
       "original_checksum": "afbe439fd8d916f1cdd7e5871ab337475a641dd8dee31b98f15db55b96efa445"
     },
     {
@@ -3616,10 +2912,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/5ce0f24b39ef25f801300bd0.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 21216,
-      "card_url": "media-bank/cards/5ce0f24b39ef25f801300bd0.webp",
+      "card_quality": 80,
       "original_checksum": "5ce0f24b39ef25f801300bd00e523abf5da2b038552e3fc0e5adc211f42c1c0c"
     },
     {
@@ -3657,11 +2954,54 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/bc6579147441f8d57b24cadc.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 9908,
-      "card_url": "media-bank/cards/bc6579147441f8d57b24cadc.webp",
+      "card_quality": 80,
       "original_checksum": "bc6579147441f8d57b24cadc44fd9137951f4d560ecad4dbb3437856b2cf296f"
+    },
+    {
+      "media_id": "media_31725d98280b88301ab5677b",
+      "url": "assets/events/ad03e13f2d38a0cd64bf307e.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_event_poster",
+      "artists": [],
+      "productions": [
+        "מסיבת אירוסין"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_729c6a5194d2f00b4ee2",
+          "title": "מסיבת אירוסין",
+          "date": "2027-03-08"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/ad03e13f2d38a0cd64bf307e.webp",
+      "card_width": 450,
+      "card_height": 320,
+      "card_bytes": 30114,
+      "card_quality": 80,
+      "original_checksum": "ad03e13f2d38a0cd64bf307e6e0f8c756cf505c60025c54359c05d8ab6639798"
     },
     {
       "media_id": "media_328f23cb0e8c8293f26adca4",
@@ -3698,52 +3038,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/fd7492970a53874972f00813.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 14524,
-      "card_url": "media-bank/cards/fd7492970a53874972f00813.webp",
+      "card_quality": 80,
       "original_checksum": "fd7492970a53874972f00813dfede7e57802dd05bebbc659302780bb7ce33e8b"
-    },
-    {
-      "media_id": "media_3432fe37735781775817f3bd",
-      "url": "assets/events/cfe3673818199f303d0334f8.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_gingi.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%92%D7%B3%D7%99%D7%A0%D7%92%D7%B3%D7%99/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "ג׳ינג׳י"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_9e08833c5a4efeffb4a1",
-          "title": "ג׳ינג׳י",
-          "date": "2027-05-26"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 900,
-      "card_height": 640,
-      "card_bytes": 91788,
-      "card_url": "media-bank/cards/cfe3673818199f303d0334f8.webp",
-      "original_checksum": "cfe3673818199f303d0334f8e2705ca977cd203a4446e5e0b5af82c569f2d6c2"
     },
     {
       "media_id": "media_35eaf2a9c185c98f2308171d",
@@ -3780,10 +3080,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/005382b7bc3fa7b59a1eb319.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 31504,
-      "card_url": "media-bank/cards/005382b7bc3fa7b59a1eb319.webp",
+      "card_quality": 80,
       "original_checksum": "005382b7bc3fa7b59a1eb3197905675dc6d04dc7d50cc888cc4728113da528e9"
     },
     {
@@ -3821,10 +3122,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/b4544515837f99dd2920bc44.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 30900,
-      "card_url": "media-bank/cards/b4544515837f99dd2920bc44.webp",
+      "card_quality": 80,
       "original_checksum": "b4544515837f99dd2920bc44ae5f3f1f58b9c7c7dfec0ff99483b3c97ef5f6e9"
     },
     {
@@ -3865,10 +3167,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/ebea4e4461ef30f5bbe76d5d.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 37276,
-      "card_url": "media-bank/cards/ebea4e4461ef30f5bbe76d5d.webp",
+      "card_quality": 80,
       "original_checksum": "ebea4e4461ef30f5bbe76d5d4dfea2975494fe1381fb230de44b8e393ec07dc5"
     },
     {
@@ -3906,10 +3209,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14554,
-      "card_url": "media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
+      "card_quality": 80,
       "original_checksum": "34494ab0a77f7a1558dd3abb2527e5e14ad9c5540d8d7e27ff87e83e7487c085"
     },
     {
@@ -3947,10 +3251,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e7be64f34e089e6c4194f0a3.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 15314,
-      "card_url": "media-bank/cards/e7be64f34e089e6c4194f0a3.webp",
+      "card_quality": 80,
       "original_checksum": "e7be64f34e089e6c4194f0a36947b9b4816d7c1bfce5872838c488fbeaba13bb"
     },
     {
@@ -3988,10 +3293,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/8a65637d8743bbfb569eff3a.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 43298,
-      "card_url": "media-bank/cards/8a65637d8743bbfb569eff3a.webp",
+      "card_quality": 80,
       "original_checksum": "8a65637d8743bbfb569eff3a31688b45aed31eab4b8b84de371ed5f58cd9f1d0"
     },
     {
@@ -4029,10 +3335,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/12d386cd514e824295fc4159.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 17524,
-      "card_url": "media-bank/cards/12d386cd514e824295fc4159.webp",
+      "card_quality": 80,
       "original_checksum": "12d386cd514e824295fc4159b993f9a09cd0ea92f78346d474e0890f7fcbfed0"
     },
     {
@@ -4070,10 +3377,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/08744e7bbc0a3de2bd7a6a84.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 19062,
-      "card_url": "media-bank/cards/08744e7bbc0a3de2bd7a6a84.webp",
+      "card_quality": 80,
       "original_checksum": "08744e7bbc0a3de2bd7a6a84a129c76c1bebac6f8150900cf20dae577beece1e"
     },
     {
@@ -4111,10 +3419,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/1478c7746a71135ea4519b11.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 80952,
-      "card_url": "media-bank/cards/1478c7746a71135ea4519b11.webp",
+      "card_quality": 80,
       "original_checksum": "1478c7746a71135ea4519b11a1871fdf66a92e18d2b84f39d4948443223ae695"
     },
     {
@@ -4152,10 +3461,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/452a2f2cf9decaf263279a8b.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 35372,
-      "card_url": "media-bank/cards/452a2f2cf9decaf263279a8b.webp",
+      "card_quality": 80,
       "original_checksum": "452a2f2cf9decaf263279a8bc1e316569e77bda63187a5c85b31e5ada9dc9830"
     },
     {
@@ -4193,10 +3503,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f7e1cef73147fd2e61669b4d.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 30146,
-      "card_url": "media-bank/cards/f7e1cef73147fd2e61669b4d.webp",
+      "card_quality": 80,
       "original_checksum": "f7e1cef73147fd2e61669b4d2eedd953cb38253a4486b754c31e2d5274e7cab6"
     },
     {
@@ -4234,10 +3545,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/abf2b1abc26912a23bac503d.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 9256,
-      "card_url": "media-bank/cards/abf2b1abc26912a23bac503d.webp",
+      "card_quality": 80,
       "original_checksum": "abf2b1abc26912a23bac503dbcac32e67c36bf3e2b58c0adc227a5154405a521"
     },
     {
@@ -4275,10 +3587,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/408dbb65416c4b84f1512592.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 39572,
-      "card_url": "media-bank/cards/408dbb65416c4b84f1512592.webp",
+      "card_quality": 80,
       "original_checksum": "408dbb65416c4b84f1512592e8892307e6985d9974850e03bca6fab21e4a55d4"
     },
     {
@@ -4316,10 +3629,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f580a7ca61cf8f591a5a248e.webp",
       "card_width": 900,
       "card_height": 640,
       "card_bytes": 21308,
-      "card_url": "media-bank/cards/f580a7ca61cf8f591a5a248e.webp",
+      "card_quality": 80,
       "original_checksum": "f580a7ca61cf8f591a5a248e720ffc7c13d1396e18c3b525960f78f2c10d13e5"
     },
     {
@@ -4357,10 +3671,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/5f8410e0ed0e7b6f6f4be0bb.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 32312,
-      "card_url": "media-bank/cards/5f8410e0ed0e7b6f6f4be0bb.webp",
+      "card_quality": 80,
       "original_checksum": "5f8410e0ed0e7b6f6f4be0bbc5d0375040f6710eece0ac9391f497ecb7e41ec6"
     },
     {
@@ -4398,10 +3713,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f84ea6f1b7d11cfc8cfd1c5d.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 24812,
-      "card_url": "media-bank/cards/f84ea6f1b7d11cfc8cfd1c5d.webp",
+      "card_quality": 80,
       "original_checksum": "f84ea6f1b7d11cfc8cfd1c5d65eff204e1578626e70eebbfdf559627f31580a1"
     },
     {
@@ -4441,10 +3757,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/6ef6ed980e965f4420257a00.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 14594,
-      "card_url": "media-bank/cards/6ef6ed980e965f4420257a00.webp",
+      "card_quality": 80,
       "original_checksum": "6ef6ed980e965f4420257a008ae2c65e34df6084110be40a8978a5601a159d84"
     },
     {
@@ -4482,10 +3799,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/33411fe1991c053598c5816b.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 9804,
-      "card_url": "media-bank/cards/33411fe1991c053598c5816b.webp",
+      "card_quality": 80,
       "original_checksum": "33411fe1991c053598c5816bd137b0e2d6641a449f2becc7bfb76f0d72d2cf71"
     },
     {
@@ -4523,10 +3841,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3226a87ee028d7cc6558cc2f.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 31772,
-      "card_url": "media-bank/cards/3226a87ee028d7cc6558cc2f.webp",
+      "card_quality": 80,
       "original_checksum": "3226a87ee028d7cc6558cc2f84daed249874ab847435f8c42945fb120022c171"
     },
     {
@@ -4564,10 +3883,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/fec15fbaeacb4d9a5ef867df.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 33792,
-      "card_url": "media-bank/cards/fec15fbaeacb4d9a5ef867df.webp",
+      "card_quality": 80,
       "original_checksum": "fec15fbaeacb4d9a5ef867dfbaf2e57a32c83f3e805bafdac4d7e4f584327636"
     },
     {
@@ -4605,10 +3925,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/7ec508952fdeddaa0e9ad7bf.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 43410,
-      "card_url": "media-bank/cards/7ec508952fdeddaa0e9ad7bf.webp",
+      "card_quality": 80,
       "original_checksum": "7ec508952fdeddaa0e9ad7bf6ac3ff44f977538c7d5cfd1bc1bc97118f2f8779"
     },
     {
@@ -4646,10 +3967,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/03ac4578a3573a1e32a5f69e.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 11078,
-      "card_url": "media-bank/cards/03ac4578a3573a1e32a5f69e.webp",
+      "card_quality": 80,
       "original_checksum": "03ac4578a3573a1e32a5f69e5869fc6d587f78c7c6879be91b116c3a3bd8eba6"
     },
     {
@@ -4694,10 +4016,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f3e5657d4ab6d91ae86ecea9.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 74086,
-      "card_url": "media-bank/cards/f3e5657d4ab6d91ae86ecea9.webp",
+      "card_quality": 80,
       "original_checksum": "f3e5657d4ab6d91ae86ecea9ad421c7baf9d75bbf7a4ab55bcba140e04abe82a"
     },
     {
@@ -4735,10 +4058,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 37024,
-      "card_url": "media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
+      "card_quality": 80,
       "original_checksum": "eafdd6cf0530f8a21e1a40295d5915a12c8f2e6897797878f066b20e15e4da2c"
     },
     {
@@ -4778,93 +4102,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cdbebdacf6f278a28213ff74.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 27636,
-      "card_url": "media-bank/cards/cdbebdacf6f278a28213ff74.webp",
+      "card_quality": 80,
       "original_checksum": "cdbebdacf6f278a28213ff74937da6cb20e7d08f289e05b86eaac82225fa0013"
-    },
-    {
-      "media_id": "media_69306cabcb2302ef0bae311c",
-      "url": "assets/events/9bb79de194a61e8ed815b8f1.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_shulia.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%95%D7%9C%D7%99%D7%99%D7%AA-%D7%94%D7%A7%D7%95%D7%A1%D7%9D/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "שוליית הקוסם"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_7212c0b3856090e2c0cd",
-          "title": "שוליית הקוסם",
-          "date": "2027-03-30"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 900,
-      "card_height": 640,
-      "card_bytes": 96094,
-      "card_url": "media-bank/cards/9bb79de194a61e8ed815b8f1.webp",
-      "original_checksum": "9bb79de194a61e8ed815b8f10d4e5ac341ea277d3e5be2d7f733131c66b95a94"
-    },
-    {
-      "media_id": "media_69efc33f634886876a1a2495",
-      "url": "assets/events/abce6ee187a16f1bbbc13a37.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_andelusit4-שמחת-עולם.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%9E%D7%97%D7%AA-%D7%A2%D7%95%D7%9C%D7%9D-%D7%94%D7%AA%D7%96%D7%9E%D7%95%D7%A8%D7%AA-%D7%94%D7%90%D7%A0%D7%93%D7%9C%D7%95%D7%A1%D7%99%D7%AA/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "שמחת עולם התזמורת האנדלוסית"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_f31cad80c2e07b5b15ba",
-          "title": "שמחת עולם התזמורת האנדלוסית",
-          "date": "2027-03-29"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 27944,
-      "card_url": "media-bank/cards/abce6ee187a16f1bbbc13a37.webp",
-      "original_checksum": "abce6ee187a16f1bbbc13a37052419f6b581cab75dfbaa0942c98febd73faa77"
     },
     {
       "media_id": "media_6eb406acd312ec1532a69fc1",
@@ -4901,10 +4144,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a64574b9e43d06bb111c9ed7.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 13992,
-      "card_url": "media-bank/cards/a64574b9e43d06bb111c9ed7.webp",
+      "card_quality": 80,
       "original_checksum": "a64574b9e43d06bb111c9ed758003bc88a6c99449406737775661069d887b834"
     },
     {
@@ -4942,10 +4186,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e8cb6cae922b4d2946fde02e.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 12388,
-      "card_url": "media-bank/cards/e8cb6cae922b4d2946fde02e.webp",
+      "card_quality": 80,
       "original_checksum": "e8cb6cae922b4d2946fde02e13d5e2e61943cd137632ddc21bbe156fd8080eaf"
     },
     {
@@ -4986,10 +4231,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/225e2ee2847e6275e4affed8.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 17266,
-      "card_url": "media-bank/cards/225e2ee2847e6275e4affed8.webp",
+      "card_quality": 80,
       "original_checksum": "225e2ee2847e6275e4affed85ff10acc68532fe91ebe047b377cad92626e7cf3"
     },
     {
@@ -5027,10 +4273,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/0b2de201e656a0cb8196ed31.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 20284,
-      "card_url": "media-bank/cards/0b2de201e656a0cb8196ed31.webp",
+      "card_quality": 80,
       "original_checksum": "0b2de201e656a0cb8196ed3191af6e03236be7fce685f4bd52db9da89141e685"
     },
     {
@@ -5068,10 +4315,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/b832253da79a60ce9a39e3f6.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 28010,
-      "card_url": "media-bank/cards/b832253da79a60ce9a39e3f6.webp",
+      "card_quality": 80,
       "original_checksum": "b832253da79a60ce9a39e3f67204ab566111facf6b62fd55e3c68df28be2c10b"
     },
     {
@@ -5109,10 +4357,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/836355fc83c65884b4908edf.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 42748,
-      "card_url": "media-bank/cards/836355fc83c65884b4908edf.webp",
+      "card_quality": 80,
       "original_checksum": "836355fc83c65884b4908edffaf6d509402ba9548fb9a857d308068d3fea5e85"
     },
     {
@@ -5150,10 +4399,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/7cb8da6226ec413bfc913497.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 17204,
-      "card_url": "media-bank/cards/7cb8da6226ec413bfc913497.webp",
+      "card_quality": 80,
       "original_checksum": "7cb8da6226ec413bfc913497d48ac0afbf00e4d505373e17fa5cc3eee9cf0d1b"
     },
     {
@@ -5191,10 +4441,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2af882446741fc2af16bebf2.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 12658,
-      "card_url": "media-bank/cards/2af882446741fc2af16bebf2.webp",
+      "card_quality": 80,
       "original_checksum": "2af882446741fc2af16bebf2fa89c1c434d2d5efee71124807a81b0f12bb8874"
     },
     {
@@ -5232,11 +4483,56 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/396889b2c744aa3b9bad08c3.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 18062,
-      "card_url": "media-bank/cards/396889b2c744aa3b9bad08c3.webp",
+      "card_quality": 80,
       "original_checksum": "396889b2c744aa3b9bad08c3d0c7dbbd21f939a4d73f1561af3ce2c45e34ae96"
+    },
+    {
+      "media_id": "media_78e19fcc69b94704798dfead",
+      "url": "assets/event-thumbs/5a2591cb4af6b5f8130653.jpg",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
+      "source_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
+      "credit": null,
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "source_event",
+      "artists": [
+        "רינתי"
+      ],
+      "productions": [
+        "סיפור של חורף | שעת סיפור עם רינתי"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_99_20261117",
+          "title": "סיפור של חורף | שעת סיפור עם רינתי",
+          "date": "2026-11-17"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/0d0db547de538bb97ef8c847.webp",
+      "card_width": 720,
+      "card_height": 540,
+      "card_bytes": 32560,
+      "card_quality": 80,
+      "original_checksum": "0d0db547de538bb97ef8c847a61e8edbbe935e38f6131ae8f2f98bb58bc55406"
     },
     {
       "media_id": "media_78f5e0a2cc3ba8f0c9e53b7e",
@@ -5273,10 +4569,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/6bb7e7c204531bef080b8564.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 33044,
-      "card_url": "media-bank/cards/6bb7e7c204531bef080b8564.webp",
+      "card_quality": 80,
       "original_checksum": "6bb7e7c204531bef080b85645738eb25060b6ba4d5f86a753b399a5e472477d0"
     },
     {
@@ -5314,10 +4611,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/43cf114daa6a366b0dd8033a.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 33868,
-      "card_url": "media-bank/cards/43cf114daa6a366b0dd8033a.webp",
+      "card_quality": 80,
       "original_checksum": "43cf114daa6a366b0dd8033a8519fc75ce5d31372d31627211ce1fac1c652172"
     },
     {
@@ -5355,11 +4653,54 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/5c924db5fc807ab1efc5e71d.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 20698,
-      "card_url": "media-bank/cards/5c924db5fc807ab1efc5e71d.webp",
+      "card_quality": 80,
       "original_checksum": "5c924db5fc807ab1efc5e71df7b8ed39b2a3c76a7066f0e06b405feed2a28940"
+    },
+    {
+      "media_id": "media_808157ae718d94b9dc61cd6b",
+      "url": "assets/event-thumbs/38d623dbe81e0716324482.jpg",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+      "source_url": "https://live.tickchak.co.il/ashdod",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "source_listing_card",
+      "artists": [],
+      "productions": [
+        "שימי תבורי במופע להקה"
+      ],
+      "categories": [
+        "music"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d3cf764f28c61e301ce9",
+          "title": "שימי תבורי במופע להקה",
+          "date": "2027-01-14"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/d589e67421ac9da774b4b06b.webp",
+      "card_width": 720,
+      "card_height": 540,
+      "card_bytes": 11608,
+      "card_quality": 80,
+      "original_checksum": "d589e67421ac9da774b4b06b66d1e34e996e44566ea5847c4e3fc8a6b725a3e9"
     },
     {
       "media_id": "media_82553bcfa3ee474822033389",
@@ -5399,10 +4740,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/212a658066f96772bf50fde5.webp",
       "card_width": 540,
       "card_height": 320,
       "card_bytes": 31256,
-      "card_url": "media-bank/cards/212a658066f96772bf50fde5.webp",
+      "card_quality": 80,
       "original_checksum": "212a658066f96772bf50fde52432934ba1af033ce81dc0aca969ed814953483b"
     },
     {
@@ -5443,10 +4785,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2c0d3cb09de352b261d08e87.webp",
       "card_width": 844,
       "card_height": 555,
       "card_bytes": 56344,
-      "card_url": "media-bank/cards/2c0d3cb09de352b261d08e87.webp",
+      "card_quality": 80,
       "original_checksum": "2c0d3cb09de352b261d08e87e85c1f2598d2e598a6a47179fa906149b3559a3b"
     },
     {
@@ -5484,10 +4827,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/aee6b013743c8c91a497e895.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 15866,
-      "card_url": "media-bank/cards/aee6b013743c8c91a497e895.webp",
+      "card_quality": 80,
       "original_checksum": "aee6b013743c8c91a497e8952143bd80156086cbbdee5309552296749263bf75"
     },
     {
@@ -5527,52 +4871,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/91ba88fba58b253b1c01930f.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 30988,
-      "card_url": "media-bank/cards/91ba88fba58b253b1c01930f.webp",
+      "card_quality": 80,
       "original_checksum": "91ba88fba58b253b1c01930f1e2726f88b58d714dcf93c31af17dbbdca0a8a94"
-    },
-    {
-      "media_id": "media_8f188bb139a2777e1b8a2059",
-      "url": "assets/events/f9730dd7602ca72332cc1f01.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-שוחט3.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%A9%D7%95%D7%9F-%D7%92%D7%91%D7%90%D7%99-%D7%9E%D7%95%D7%A6%D7%90%D7%A8%D7%98-%D7%95%D7%A1%D7%90%D7%9C%D7%99%D7%99%D7%A8%D7%99/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "ששון גבאי – מוצארט וסאליירי"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_4c1c7eaddbef90344034",
-          "title": "ששון גבאי – מוצארט וסאליירי",
-          "date": "2027-03-17"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 17446,
-      "card_url": "media-bank/cards/f9730dd7602ca72332cc1f01.webp",
-      "original_checksum": "f9730dd7602ca72332cc1f01aec16aa23da9d4ea6c5d56a0a121502edb65eb41"
     },
     {
       "media_id": "media_8f5725ce3ae12a3db8db57f9",
@@ -5609,10 +4913,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/487127adee7f433ad2389a06.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 16348,
-      "card_url": "media-bank/cards/487127adee7f433ad2389a06.webp",
+      "card_quality": 80,
       "original_checksum": "487127adee7f433ad2389a06f2b805ed482a90b4bba8c2aaf6a70272930a87d6"
     },
     {
@@ -5650,10 +4955,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2fbb3e62f1229c98abc64fa8.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14900,
-      "card_url": "media-bank/cards/2fbb3e62f1229c98abc64fa8.webp",
+      "card_quality": 80,
       "original_checksum": "2fbb3e62f1229c98abc64fa899e262dfedecbee909c0d02932247639f3509680"
     },
     {
@@ -5691,52 +4997,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/7f2715a02aee3987f2626a4d.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 56256,
-      "card_url": "media-bank/cards/7f2715a02aee3987f2626a4d.webp",
+      "card_quality": 80,
       "original_checksum": "7f2715a02aee3987f2626a4d7cbd28bb60cf6f86147f2649018d88a76b7c13f6"
-    },
-    {
-      "media_id": "media_9b131e342ff1776385f025fb",
-      "url": "assets/events/0a7ab18b026a7b269655043b.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_4504.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A4%D7%A2-%D7%9E%D7%97%D7%95%D7%95%D7%94-%D7%9C%D7%90%D7%9C%D7%98%D7%95%D7%9F-%D7%92%D7%95%D7%9F/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מופע מחווה לאלטון ג'ון"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_a4f8a6cc4add59cb1a53",
-          "title": "מופע מחווה לאלטון ג'ון",
-          "date": "2027-05-29"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 39644,
-      "card_url": "media-bank/cards/0a7ab18b026a7b269655043b.webp",
-      "original_checksum": "0a7ab18b026a7b269655043b488442cbedbae05d9d793bd2659f93e9f97faebf"
     },
     {
       "media_id": "media_9bfa632cf05c57194fd76426",
@@ -5773,10 +5039,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/15f8f8acbc6e5a22d81632fc.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 40224,
-      "card_url": "media-bank/cards/15f8f8acbc6e5a22d81632fc.webp",
+      "card_quality": 80,
       "original_checksum": "15f8f8acbc6e5a22d81632fca621d4aff4b68ed58c5fc4ffac0deeee2b373083"
     },
     {
@@ -5814,10 +5081,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/666f5e7af10b3c7e0164fe05.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 31754,
-      "card_url": "media-bank/cards/666f5e7af10b3c7e0164fe05.webp",
+      "card_quality": 80,
       "original_checksum": "666f5e7af10b3c7e0164fe054eb68919cb46a10ce4cd096292a3ac194d4a173e"
     },
     {
@@ -5855,10 +5123,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/14c2b0f01d7a796881c70dde.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 34208,
-      "card_url": "media-bank/cards/14c2b0f01d7a796881c70dde.webp",
+      "card_quality": 80,
       "original_checksum": "14c2b0f01d7a796881c70dde6d45962ac5afb20556a8916220295c65ff1aaaa8"
     },
     {
@@ -5896,10 +5165,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a780bcfdab94a6e9a1f4e555.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 75198,
-      "card_url": "media-bank/cards/a780bcfdab94a6e9a1f4e555.webp",
+      "card_quality": 80,
       "original_checksum": "a780bcfdab94a6e9a1f4e555dbb56e12b0be2677e812eafe7435e6546754ae52"
     },
     {
@@ -5937,10 +5207,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/aaeb73e670fcf8821cef837f.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 16774,
-      "card_url": "media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "card_quality": 80,
       "original_checksum": "aaeb73e670fcf8821cef837f883d5ef2fa25396dfa2a5cf25733c7eaa98e14de"
     },
     {
@@ -5978,10 +5249,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2f32c76e774a9c97698c6380.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 12930,
-      "card_url": "media-bank/cards/2f32c76e774a9c97698c6380.webp",
+      "card_quality": 80,
       "original_checksum": "2f32c76e774a9c97698c6380bcaef68f31e64da0979e0bb4bbc05461c7b7410e"
     },
     {
@@ -6019,10 +5291,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/10b8b94ceafd2a7800abb845.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14030,
-      "card_url": "media-bank/cards/10b8b94ceafd2a7800abb845.webp",
+      "card_quality": 80,
       "original_checksum": "10b8b94ceafd2a7800abb845f79618d3727a50af2115583d171c749897a2a74f"
     },
     {
@@ -6063,10 +5336,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/46c2c4a3db1170d416a5e375.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 17534,
-      "card_url": "media-bank/cards/46c2c4a3db1170d416a5e375.webp",
+      "card_quality": 80,
       "original_checksum": "46c2c4a3db1170d416a5e37560c23e0bfb4040fbd526950adda7cb751131b037"
     },
     {
@@ -6104,10 +5378,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/9d51171bc91beef04964b124.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 43170,
-      "card_url": "media-bank/cards/9d51171bc91beef04964b124.webp",
+      "card_quality": 80,
       "original_checksum": "9d51171bc91beef04964b124e8bed6d4fe02c42b41fdbc98d7c8f753a140a098"
     },
     {
@@ -6145,10 +5420,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/d16d764c994e2d9b18d7fa2f.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 13806,
-      "card_url": "media-bank/cards/d16d764c994e2d9b18d7fa2f.webp",
+      "card_quality": 80,
       "original_checksum": "d16d764c994e2d9b18d7fa2f41039f5534e120ecd8d43a41711613f491ce3bd9"
     },
     {
@@ -6189,10 +5465,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3e657b566190c326bc485ff7.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 62210,
-      "card_url": "media-bank/cards/3e657b566190c326bc485ff7.webp",
+      "card_quality": 80,
       "original_checksum": "3e657b566190c326bc485ff716f1a3c8f662fde8d72ab3ce21b3f20042d40bd7"
     },
     {
@@ -6230,10 +5507,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/b1980221ae785fe67569f5fe.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 18054,
-      "card_url": "media-bank/cards/b1980221ae785fe67569f5fe.webp",
+      "card_quality": 80,
       "original_checksum": "b1980221ae785fe67569f5feff3e64b2950d4322a71d38300dcf96851f26f111"
     },
     {
@@ -6271,10 +5549,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/58a58b719e8f6c67633e5312.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 39172,
-      "card_url": "media-bank/cards/58a58b719e8f6c67633e5312.webp",
+      "card_quality": 80,
       "original_checksum": "58a58b719e8f6c67633e531284941e990d73c92c7bf352b4a95fe89005f8fc8c"
     },
     {
@@ -6312,10 +5591,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e9853671eefd61e6f69ea451.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 17714,
-      "card_url": "media-bank/cards/e9853671eefd61e6f69ea451.webp",
+      "card_quality": 80,
       "original_checksum": "e9853671eefd61e6f69ea45152a37e0c2b6e16b3ba90c90745dee074761125a8"
     },
     {
@@ -6362,10 +5642,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/661b27359b7b5b3fafbe6e44.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 26878,
-      "card_url": "media-bank/cards/661b27359b7b5b3fafbe6e44.webp",
+      "card_quality": 80,
       "original_checksum": "661b27359b7b5b3fafbe6e44c9a1d7edbda084dcfb3462e1242d496aac468cd6"
     },
     {
@@ -6403,10 +5684,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/1d00ffe0ffe6336959ba3635.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 18136,
-      "card_url": "media-bank/cards/1d00ffe0ffe6336959ba3635.webp",
+      "card_quality": 80,
       "original_checksum": "1d00ffe0ffe6336959ba36357d36cb458bb585cc3a94de42e5c80e6424a99896"
     },
     {
@@ -6444,10 +5726,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/3200ceb18b7b78b6094dfabc.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 7936,
-      "card_url": "media-bank/cards/3200ceb18b7b78b6094dfabc.webp",
+      "card_quality": 80,
       "original_checksum": "3200ceb18b7b78b6094dfabc487d1e8bb824cee671ce3621b7261b3410860b36"
     },
     {
@@ -6485,11 +5768,54 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/776df1b87936cf6508a45402.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 23746,
-      "card_url": "media-bank/cards/776df1b87936cf6508a45402.webp",
+      "card_quality": 80,
       "original_checksum": "776df1b87936cf6508a45402aa8e2c8900dc2e39a99a2d33bd3ef2d27bc0b004"
+    },
+    {
+      "media_id": "media_cc1f2d312487eca49564aa7c",
+      "url": "assets/event-thumbs/1aac76324f165ae1c59fc5.jpg",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
+      "source_url": "https://live.tickchak.co.il/ashdod",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "verified_official_source",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "source_listing_card",
+      "artists": [],
+      "productions": [
+        "שמעון בוסקילה – קרוב לבית"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3965330ca84880c5bf7a",
+          "title": "שמעון בוסקילה – קרוב לבית",
+          "date": "2027-01-07"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/b848848a723dcc2008fb5d1f.webp",
+      "card_width": 720,
+      "card_height": 540,
+      "card_bytes": 17208,
+      "card_quality": 80,
+      "original_checksum": "b848848a723dcc2008fb5d1f21c0a35c43e986c1664fdf34052ada6e87b5c393"
     },
     {
       "media_id": "media_ce884bf9f02def876c4e798e",
@@ -6526,15 +5852,16 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e7f9a3fd39aba609c51ea0d1.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 22624,
-      "card_url": "media-bank/cards/e7f9a3fd39aba609c51ea0d1.webp",
+      "card_quality": 80,
       "original_checksum": "e7f9a3fd39aba609c51ea0d1329168415983f2024e83517acb7c21fc4d3dfe3b"
     },
     {
       "media_id": "media_d0dea1a4d721e7e55f3d8dd5",
-      "url": "assets/event-thumbs/57ff16332873ab888af19c.jpg",
+      "url": "../ashdod/assets/event-thumbs/57ff16332873ab888af19c.jpg",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac3642b53f94539993113.jpg",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -6543,7 +5870,7 @@
       "verified": true,
       "publishable": true,
       "ai_generated": false,
-      "strategy": "source_listing_card",
+      "strategy": "central_media_bank_reuse",
       "artists": [
         "עמית קבסה"
       ],
@@ -6569,10 +5896,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/9170358be447d8e262950516.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 36832,
-      "card_url": "media-bank/cards/9170358be447d8e262950516.webp",
+      "card_quality": 80,
       "original_checksum": "9170358be447d8e2629505168e2326b10dce34fe4738f03d46253eb87686b7be"
     },
     {
@@ -6610,10 +5938,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/91fc725c4d975bae0fd2d836.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 32220,
-      "card_url": "media-bank/cards/91fc725c4d975bae0fd2d836.webp",
+      "card_quality": 80,
       "original_checksum": "91fc725c4d975bae0fd2d8368e6b870c51ee3e0b63c793d569da397e44f87900"
     },
     {
@@ -6651,10 +5980,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/7256c4b760472ad262b6e4c8.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 8480,
-      "card_url": "media-bank/cards/7256c4b760472ad262b6e4c8.webp",
+      "card_quality": 80,
       "original_checksum": "7256c4b760472ad262b6e4c8ccce61f2cb9be4047a5bdbf06ca31f5090564506"
     },
     {
@@ -6692,10 +6022,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 44240,
-      "card_url": "media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "card_quality": 80,
       "original_checksum": "9d1ef6753f3bd4cea6919fc6be90b462809399b58957f389789c1024a0023cba"
     },
     {
@@ -6733,10 +6064,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/ece32a7822d43f30f3b52c52.webp",
       "card_width": 900,
       "card_height": 640,
       "card_bytes": 100554,
-      "card_url": "media-bank/cards/ece32a7822d43f30f3b52c52.webp",
+      "card_quality": 80,
       "original_checksum": "ece32a7822d43f30f3b52c5228ab0dd8d87ef2d3a943928866ee98dae68137c8"
     },
     {
@@ -6774,10 +6106,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/83b652cd4061d5044267535e.webp",
       "card_width": 900,
       "card_height": 640,
       "card_bytes": 47832,
-      "card_url": "media-bank/cards/83b652cd4061d5044267535e.webp",
+      "card_quality": 80,
       "original_checksum": "83b652cd4061d5044267535e5cb60a7ae3fbb6c3be07e3f21703fe2192833db7"
     },
     {
@@ -6815,52 +6148,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/e371313d0e3a31a8bc8fc2a1.webp",
       "card_width": 844,
       "card_height": 555,
       "card_bytes": 39878,
-      "card_url": "media-bank/cards/e371313d0e3a31a8bc8fc2a1.webp",
+      "card_quality": 80,
       "original_checksum": "e371313d0e3a31a8bc8fc2a16ebf86bf653a631ae7153ef7932668958f407f48"
-    },
-    {
-      "media_id": "media_e164e64eb0852a04db058ecb",
-      "url": "assets/events/aa705cce0b667cbb768811c4.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_אילנה-מופע-5.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%95%D7%A2%D7%93%D7%95%D7%9F-%D7%94%D7%96%D7%9E%D7%A8-%D7%A9%D7%9C-%D7%90%D7%99%D7%9C%D7%A0%D7%94-%D7%9B%D7%A5-%D7%90%D7%99%D7%96%D7%94-%D7%A2%D7%95%D7%9C%D7%9D-%D7%9E%D7%95%D7%A4%D7%9C/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מועדון הזמר של אילנה כץ – איזה עולם מופלא"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_72244114dfc3d65f7e6a",
-          "title": "מועדון הזמר של אילנה כץ – איזה עולם מופלא",
-          "date": "2027-05-01"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 15488,
-      "card_url": "media-bank/cards/aa705cce0b667cbb768811c4.webp",
-      "original_checksum": "aa705cce0b667cbb768811c47beb44c888ef7764f326eb5646f277e56b74a130"
     },
     {
       "media_id": "media_e1f11d6ad6a0278b81a176e7",
@@ -6897,10 +6190,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 41906,
-      "card_url": "media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
+      "card_quality": 80,
       "original_checksum": "cfaa3cba644472ea887ffc8d60f4ce4e558566e804f8eec96a78f4e8ff284285"
     },
     {
@@ -6938,10 +6232,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cb4b5bdde28be2a6da782d2a.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 31276,
-      "card_url": "media-bank/cards/cb4b5bdde28be2a6da782d2a.webp",
+      "card_quality": 80,
       "original_checksum": "cb4b5bdde28be2a6da782d2a736842dffad5ba68fd98c4ffc045e1be6d113374"
     },
     {
@@ -6979,10 +6274,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/25bf3a1c656a6f6daa067de4.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 12276,
-      "card_url": "media-bank/cards/25bf3a1c656a6f6daa067de4.webp",
+      "card_quality": 80,
       "original_checksum": "25bf3a1c656a6f6daa067de4f1d6b62e86cb31cac321d0d80d3fe7f334863b8b"
     },
     {
@@ -7020,10 +6316,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/00bbad65c9a5a80e234eb0bc.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 20914,
-      "card_url": "media-bank/cards/00bbad65c9a5a80e234eb0bc.webp",
+      "card_quality": 80,
       "original_checksum": "00bbad65c9a5a80e234eb0bc2654572465b976bea645b1339701cc8eed302bc7"
     },
     {
@@ -7065,10 +6362,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/507890dc24c67d451c709666.webp",
       "card_width": 555,
       "card_height": 365,
       "card_bytes": 30690,
-      "card_url": "media-bank/cards/507890dc24c67d451c709666.webp",
+      "card_quality": 80,
       "original_checksum": "507890dc24c67d451c7096668940617eec298524f322cc900c7aa7f585b43cbe"
     },
     {
@@ -7106,10 +6404,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2f0a68ef95a254eb68a48ee1.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 25618,
-      "card_url": "media-bank/cards/2f0a68ef95a254eb68a48ee1.webp",
+      "card_quality": 80,
       "original_checksum": "2f0a68ef95a254eb68a48ee19589d1bdbc4de5f1588ad082df96eeb6da1a1a97"
     },
     {
@@ -7147,11 +6446,54 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/f4269358c4fc1cfc20fd51fc.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 34972,
-      "card_url": "media-bank/cards/f4269358c4fc1cfc20fd51fc.webp",
+      "card_quality": 80,
       "original_checksum": "f4269358c4fc1cfc20fd51fc1cfa8170e0a8f1d2bd0d81e62e052cb3c2d1044e"
+    },
+    {
+      "media_id": "media_efe9059eddc1d7d2d0753f73",
+      "url": "assets/event-thumbs/cf09225f0aca0e7d11041a.jpg",
+      "origin_url": "https://imagedelivery.net/H97yLaUYEkme1ie0DgmsbQ/8264e022-a161-473c-ffaf-854a4cbd5b00/public",
+      "source_url": "https://friends-hist.co.il/event/%D7%96%D7%95%D7%92%D7%99%D7%95%D7%AA-ai-%D7%9E%D7%AA%D7%A0%D7%A1-%D7%93%D7%99%D7%95%D7%A0%D7%94-%D7%90%D7%A9%D7%93%D7%95%D7%93-05-11-2026/",
+      "credit": "פיני סילוק ועדי ברק",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_event_page",
+      "artists": [],
+      "productions": [
+        "זוגיות AI"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_56_20261105",
+          "title": "זוגיות AI",
+          "date": "2026-11-05"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/2e3bcd722ed9909b042a2e00.webp",
+      "card_width": 720,
+      "card_height": 540,
+      "card_bytes": 48354,
+      "card_quality": 80,
+      "original_checksum": "2e3bcd722ed9909b042a2e0083734bde1c3816175500e4eff50d063056d61b8d"
     },
     {
       "media_id": "media_f04eac714840c05d18f5d635",
@@ -7188,30 +6530,35 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/113461b3a2eeeadce8fadad3.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 14710,
-      "card_url": "media-bank/cards/113461b3a2eeeadce8fadad3.webp",
+      "card_quality": 80,
       "original_checksum": "113461b3a2eeeadce8fadad34a64de57b0be235f40bf725156695ef60b3cdfe8"
     },
     {
-      "media_id": "media_f492aebb07c5ff75a7da94fa",
-      "url": "assets/events/73cca8193285e847180b9e2e.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450-6.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A7%D7%A1%D7%99%D7%9D-%D7%92%D7%9C%D7%A7%D7%99%D7%9F/",
+      "media_id": "media_f77774082eb82bed03a12abe",
+      "url": "assets/events/e866586c3738080cc0d15471.webp",
+      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb655325fe30e7c476139512.jpg",
+      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99_%D7%9B%D7%A0%D7%99%D7%A1%D7%94_34",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
+      "rights_status": "needs_review",
       "status": "approved",
       "verified": true,
       "publishable": true,
       "ai_generated": false,
       "strategy": "official_event_poster",
-      "artists": [],
+      "artists": [
+        "יעקב אגם",
+        "מנשה קדישמן",
+        "יניב שפירא"
+      ],
       "productions": [
-        "מקסים גלקין"
+        "כרטיסי כניסה"
       ],
       "categories": [
-        "other"
+        "exhibition"
       ],
       "cities": [
         "rishon-lezion"
@@ -7219,9 +6566,9 @@
       "events": [
         {
           "city": "rishon-lezion",
-          "event_id": "auto_ri_7b363fd87bb0473e27eb",
-          "title": "מקסים גלקין",
-          "date": "2027-05-23"
+          "event_id": "auto_ri_7b6497c1a29934dc91cd",
+          "title": "כרטיסי כניסה",
+          "date": "2026-10-08"
         }
       ],
       "usage_count": 1,
@@ -7229,11 +6576,57 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 22138,
-      "card_url": "media-bank/cards/73cca8193285e847180b9e2e.webp",
-      "original_checksum": "73cca8193285e847180b9e2e734e27aa6a620e37a04a33e65a95b51aa5a4ae50"
+      "card_url": "media-bank/cards/e866586c3738080cc0d15471.webp",
+      "card_width": 844,
+      "card_height": 555,
+      "card_bytes": 26954,
+      "card_quality": 80,
+      "original_checksum": "e866586c3738080cc0d154719c42d3c569e0e7ecc208f91da3aceb643118086c"
+    },
+    {
+      "media_id": "media_f855e5387c94ac0b0485e6ed",
+      "url": "assets/events/cfdfe2329303fedf5babcb25.webp",
+      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
+      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%95%D7%A1%D7%99%D7%95%D7%A8_%D7%9E%D7%95%D7%93%D7%A8%D7%9A_%D7%9C%D7%A7%D7%94%D7%9C_%D7%94%D7%A8%D7%97%D7%91",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "needs_review",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_event_poster",
+      "artists": [
+        "עקב אגם",
+        "מנשה קדישמן"
+      ],
+      "productions": [
+        "כניסה וסיור מודרך לקהל הרחב"
+      ],
+      "categories": [
+        "exhibition"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_e5ac6e7aa5f50cab02a4",
+          "title": "כניסה וסיור מודרך לקהל הרחב",
+          "date": "2026-10-08"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/cfdfe2329303fedf5babcb25.webp",
+      "card_width": 844,
+      "card_height": 555,
+      "card_bytes": 29970,
+      "card_quality": 80,
+      "original_checksum": "cfdfe2329303fedf5babcb251a71864cc758f48cc2eb9f6456668d309ad4c6b6"
     },
     {
       "media_id": "media_f8666fbc69c971322f1f54d9",
@@ -7275,10 +6668,11 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/58f7ee1fcb1bf4a2fe0f48ca.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 21276,
-      "card_url": "media-bank/cards/58f7ee1fcb1bf4a2fe0f48ca.webp",
+      "card_quality": 80,
       "original_checksum": "58f7ee1fcb1bf4a2fe0f48ca646d36c1f60074863a65f74723c5dded3d91da84"
     },
     {
@@ -7316,52 +6710,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
       "card_width": 450,
       "card_height": 320,
       "card_bytes": 8806,
-      "card_url": "media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
+      "card_quality": 80,
       "original_checksum": "a02f1571fbcc3e37a337b80c5440ea09322b806d1bc246bbf561079fa6cee556"
-    },
-    {
-      "media_id": "media_fd6a7862d41723b06ff37427",
-      "url": "assets/events/615c4c8c8df66fb238d6dafe.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450-שוחט4.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A0%D7%93%D7%9C%D7%A1%D7%95%D7%9F-%D7%A4%D7%99%D7%A0%D7%AA-%D7%90%D7%95%D7%93%D7%99%D7%94/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מנדלסון פינת אודיה"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_9fd9c0a7f4c18554ff95",
-          "title": "מנדלסון פינת אודיה",
-          "date": "2027-05-31"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 450,
-      "card_height": 320,
-      "card_bytes": 18560,
-      "card_url": "media-bank/cards/615c4c8c8df66fb238d6dafe.webp",
-      "original_checksum": "615c4c8c8df66fb238d6dafebeac18a8e141c205efc27065cde5733988f58410"
     },
     {
       "media_id": "media_fe6e8df1a4468d54960eaee1",
@@ -7400,788 +6754,12 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null,
+      "card_url": "media-bank/cards/865237abab18869b895459c7.webp",
       "card_width": 720,
       "card_height": 540,
       "card_bytes": 30098,
-      "card_url": "media-bank/cards/865237abab18869b895459c7.webp",
+      "card_quality": 80,
       "original_checksum": "865237abab18869b895459c76675bfe7c3b8099ded655c821084bb10a7bd7890"
-    },
-    {
-      "media_id": "media_88a4c7b1ea47a9b8bac0e8e0",
-      "url": "assets/event-thumbs/8d2a5e446b77201c56b3a5.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb66c1dc73ecc63896466748.jpg",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "same_production_reuse",
-      "artists": [
-        "הדס סט",
-        "עמית קבסה",
-        "יעל כץ בן שלום",
-        "מוזיאון אשדוד לאמנות",
-        "שרון כהן",
-        "מוזאון אשדוד לאמנות"
-      ],
-      "productions": [
-        "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-        "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'"
-      ],
-      "categories": [
-        "exhibition",
-        "workshop"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_90e0977c4c75e8ca55a9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0a8724d73a8a25785bcb",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fb3a2160cf3e31dedd3b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e9b00b27cc3b531c934",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_617490407af714bb4af4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7d3a5639ec3847f8a137",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1671f155d6a206c3de2b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7b18a3b8878c1169693b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_99d8856352ac024635f0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_58c1ea1851030cfaaa11",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e18ed2709b02baa3532",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9a8cdd916de4aaaf8311",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ce847e364ee55065956b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1e5059b53915f4c7fe21",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a578c11cb7a7bacb36e1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b069b87dfeecdb648ea4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e8d879a99bf64df31e3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_823f171a4a98cd6fb9d9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_626a62df2f41c6e27d8c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d6f20b5b24339863b497",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_59e494c94b56ac9e6861",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-31"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1ae03ec698a65bb2455e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_11_20261101",
-          "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
-          "date": "2026-11-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_772312d4fce5baa32388",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_180bd1ccf144be5544e3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2fda014dc7669a040b46",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_805c3f05170759f15ab0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_243fa63e0656fad7477c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9eb4ea3b1be8386c949c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0d5c53deefa1e10c5f4d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f42edb321dbde7088a3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9b5eea9e1acf1feac5cf",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8c0a6d5f1cabc435ad48",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d7864c780fea6cbdc43d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_65aaebf97ecda0981b5b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b6539384c62acf076d94",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_87b190ce94eadcbb9bd1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c5f6d02c4792bae76e1c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c67cb1fd7296d8873ca3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a67f2f422700efb610d7",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cc2beedf4f76f168e9ff",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_79ae8e00a4276dc2d62d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_eda485f329036f12976a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9ae58929c271c5410eec",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5276d7588775cf66475e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ed5e50ba93af66a6e37b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d56184583cc012704fb9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_04e5b0c7c43ef1c5c535",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_255eb2a0c98790b70d69",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-27"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a8e751087c2d16482459",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f37ddc7e60553c75692d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6347127f965dcf0e1e59",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_28_20261213",
-          "title": "מפגשי קריאה - סדנת עידוד ושיפור קריאה בעזרת כלבים לילדי גן חובה – כיתה א'",
-          "date": "2026-12-13"
-        }
-      ],
-      "usage_count": 54,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.163
-    },
-    {
-      "media_id": "media_57344f337017ee61698c0e17",
-      "url": "assets/event-thumbs/2a05cd559e31a8e1216047.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a040552e3047551434853.jpeg",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "same_production_reuse",
-      "artists": [
-        "אנסטסיה מרטיאנוב",
-        "מועדון גדולות מהחיים"
-      ],
-      "productions": [
-        "סטודיו פתוח",
-        "בודי בלט| סדנא בונה עצם לנשים",
-        "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים"
-      ],
-      "categories": [
-        "other",
-        "workshop"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e4c26d0dfe196144a232",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5dc325769e5e781143ee",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_746c9db0b742c132ff59",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_08f3d0b3508bb7dff7c9",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_41ae0e273466d9a46327",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3069ec1e14b7c33b581c",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_da9a146c50c48a0aa0f4",
-          "title": "סטודיו פתוח",
-          "date": "2026-10-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a523be9334deb93f5e65",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a9e51b98a4ae798e4714",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b85b237616bfe945e8ea",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8d2a29d0cbadb103374e",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a0037fde67580f44fd73",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_68b8df7f7f0c4644faa6",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_352f88495f20cea6b9d0",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0133c1d09d58f7aa05af",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fc3710430d80a20ff40c",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3ca3b2e37ec33ead2d63",
-          "title": "סטודיו פתוח",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_54f7d788e86283b87fb1",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_50a7efb2b50ebe61a225",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5f852eb04bb2d0cae7e1",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c16e2e89a69bbed03363",
-          "title": "בודי בלט| סדנא בונה עצם לנשים",
-          "date": "2026-12-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_59655390abaa9c53aa61",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_35bd1f217f32934d2492",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_665b57eff06e3c166682",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fdeb756625c3f837de13",
-          "title": "בודי בלט| סדנא בונה עצם לנשים",
-          "date": "2026-12-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f002977fe467c1b61d10",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_33_20261224",
-          "title": "סדנא \"עוף החול\" - דקה לנשום, לצמוח מהכאב ומהקושי - ייעודי לגדולות מהחיים",
-          "date": "2026-12-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_bca284c4df193823ce8c",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_16220c6c0b421e0bd833",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-27"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7123985f38e74e783cb1",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-29"
-        }
-      ],
-      "usage_count": 30,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.129
-    },
-    {
-      "media_id": "media_3b84511ac285cabdb69bee1c",
-      "url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
-      "origin_url": null,
-      "source_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638&ht=הזקן והים 15/10/26&bc=",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "הקתדרה העממית \"אופק\" אשדוד",
-        "יונתן גת",
-        "ישראל ארד",
-        "רועי עלוני",
-        "אורית שירי"
-      ],
-      "productions": [
-        "הזקן והים",
-        "יונתן גת מונארט 2026",
-        "ישראל ארד מונארט 2026",
-        "רועי עלוני מונארט 2026",
-        "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-        "סדנת צחוק, אורית שירי",
-        "התקווה 6",
-        "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-        "סיור טעימות ברמלה",
-        "הר הנגב – בעקבות שירות בנתיבי המדבר",
-        "בעקבות סופרים בנחלאות",
-        "בדרך ללב הפועם של רמת גן",
-        "רמלה – אוצר של סיפורים בין יפו לירושלים",
-        "אל עמק הברכה",
-        "סיור טעימות במחנה יהודה",
-        "תנועת ה\"עפלה\" 80 שנה אחרי",
-        "סיור פריחה דבש ויין בגדרה והסביבה",
-        "גן נעול מעיין חתום",
-        "בעקבות \"ימים אדומים\" בירושלים",
-        "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
-        "חיפה- עוגת חתונה",
-        "פסיפסים ועוד בגליל המערבי",
-        "סיור טעימות ואתרים באשדוד"
-      ],
-      "categories": [
-        "tour",
-        "lecture",
-        "workshop"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_382f5504e06e1fcda12e",
-          "title": "הזקן והים",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_04029172fbcf458e2eb3",
-          "title": "יונתן גת מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6c9c620a36d91d0e9a47",
-          "title": "ישראל ארד מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_833b74952b8fcc17694c",
-          "title": "רועי עלוני מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a24513b4e4cf7e5bbc06",
-          "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a28e2e7dfb7c44f26606",
-          "title": "סדנת צחוק, אורית שירי",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_64cf140ac904f0ae4871",
-          "title": "התקווה 6",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f45962e796919e19fbcd",
-          "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7baf69bd3cb635730590",
-          "title": "סיור טעימות ברמלה",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_399303973daa1a005314",
-          "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
-          "date": "2026-12-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3d3cdcdf993039f9fe16",
-          "title": "בעקבות סופרים בנחלאות",
-          "date": "2026-12-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-          "title": "בדרך ללב הפועם של רמת גן",
-          "date": "2026-12-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9e8b223f38713dfb8a74",
-          "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
-          "date": "2027-01-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2d86a3932207b0dfadb6",
-          "title": "אל עמק הברכה",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_96552a33f52aca95896d",
-          "title": "סיור טעימות במחנה יהודה",
-          "date": "2027-02-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1bd891e217e32b97766c",
-          "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
-          "date": "2027-02-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6d281693df39376eb4d3",
-          "title": "סיור פריחה דבש ויין בגדרה והסביבה",
-          "date": "2027-03-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_be3243a1775666aa5d3f",
-          "title": "גן נעול מעיין חתום",
-          "date": "2027-03-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1b9d3f3328e7272edcef",
-          "title": "בעקבות \"ימים אדומים\" בירושלים",
-          "date": "2027-03-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ed25c185b34074edfce1",
-          "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
-          "date": "2027-04-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a02e2e039fa2a5969f9b",
-          "title": "חיפה- עוגת חתונה",
-          "date": "2027-04-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6b0a85ae2a0051cd7218",
-          "title": "פסיפסים ועוד בגליל המערבי",
-          "date": "2027-05-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_bf7028aa1130feeeda5e",
-          "title": "סיור טעימות ואתרים באשדוד",
-          "date": "2027-06-01"
-        }
-      ],
-      "usage_count": 23,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.028
     },
     {
       "media_id": "media_0ce16f5ab0113d5288c08df7",
@@ -8293,270 +6871,6 @@
       "reuse_similarity_floor": 0.089
     },
     {
-      "media_id": "media_ff109db1f3200ccb83b4f4fc",
-      "url": "assets/event-thumbs/79c8d554218ad9fd0449f1.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bac4ebf9c651658615.png",
-      "source_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
-      "credit": "מועדון גדולות מהחיים / Smarticket",
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "series_fallback",
-      "artists": [
-        "גילה תורן חן",
-        "ורדה שחף",
-        "רופאים",
-        "אדוה בן גיגי מלול",
-        "אדווה בן גיגי מלול",
-        "מרים"
-      ],
-      "productions": [
-        "חלוקי נחל - ייעודי לגדולות מהחיים",
-        "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
-        "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-        "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
-        "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
-        "אני הרבה יותר ממה שחשבתי - ייעודי לגדולות מהחיים",
-        "סדנא \"אני הרבה יותר ממה שחשבתי\" - ייעודי לגדולות מהחיים",
-        "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
-        "קורס קנווה עם מרים - ייעודי לגדולות מהחיים"
-      ],
-      "categories": [
-        "workshop",
-        "lecture",
-        "theatre"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_7_20261015",
-          "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_14_20261102",
-          "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_16_20261104",
-          "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-          "date": "2026-11-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_19_20261109",
-          "title": "הכנת תליונים סרוגים - ייעודי לגדולות מהחיים",
-          "date": "2026-11-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_20_20261110",
-          "title": "חלוקי נחל - ייעודי לגדולות מהחיים",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_dcf769d1379befa09acc",
-          "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
-          "date": "2026-11-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_22_20261123",
-          "title": "אני הרבה יותר ממה שחשבתי - ייעודי לגדולות מהחיים",
-          "date": "2026-11-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_24_20261130",
-          "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - ייעודי לגדולות מהחיים",
-          "date": "2026-11-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_26_20261203",
-          "title": "סדנא \"יצור תליון מסריגה\" - ייעודי לגדולות מהחיים",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_25_20261203",
-          "title": "קורס קנווה עם מרים - ייעודי לגדולות מהחיים",
-          "date": "2026-12-03"
-        }
-      ],
-      "usage_count": 10,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.054
-    },
-    {
-      "media_id": "media_8d668caa6e3eeda8a81909b4",
-      "url": "assets/event-thumbs/76cd539ff1663432b132b2.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a4e38f5e0a97440060324.png",
-      "source_url": "https://ashdod.smarticket.co.il/iframe",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "הדס סט",
-        "רוני כהן-בנימיני",
-        "עמית קבסה",
-        "יעל כץ בן שלום"
-      ],
-      "productions": [
-        "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-        "סיורים מודרכים במוזיאון אשדוד לאמנות"
-      ],
-      "categories": [
-        "kids",
-        "exhibition"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_028cca19d94dfafd0b51",
-          "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_013751f4bb1f253a4a2f",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a663288373fc699de50c",
-          "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-          "date": "2026-11-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_98_20261113",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7f6f806aaa9f19331b15",
-          "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-          "date": "2026-12-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_df38991c21985134c422",
-          "title": "כשאני לא מצייר אני... | סיור מודרך וסדנה להורים ולילדים",
-          "date": "2026-12-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6edc79b3206c44047ae2",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-12-07"
-        }
-      ],
-      "usage_count": 7,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.228
-    },
-    {
-      "media_id": "media_ec1c4894f557c3316c373766",
-      "url": "assets/event-thumbs/3471b66b657a23df219f06.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "הדס סט",
-        "עמית קבסה",
-        "יעל כץ בן שלום",
-        "מוזיאון אשדוד לאמנות",
-        "קצין מיחידת המסתערבים של משמר הגבול",
-        "גב' לילי כנפי",
-        "מר רוני אקריש"
-      ],
-      "productions": [
-        "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-        "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
-        "סדנא - שימור ושיפור הזיכרון"
-      ],
-      "categories": [
-        "exhibition",
-        "other",
-        "workshop"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ea75f55954e1835c2191",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0b4b250a9cc0940ed28c",
-          "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_5_20261008",
-          "title": "סדנא - שימור ושיפור הזיכרון",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_17_20261105",
-          "title": "סדנא - שימור ושיפור הזיכרון",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_27_20261203",
-          "title": "סדנא - שימור ושיפור הזיכרון",
-          "date": "2026-12-03"
-        }
-      ],
-      "usage_count": 6,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.093
-    },
-    {
       "media_id": "media_12cacca1483b28cf2048bbdb",
       "url": "assets/local/culture-hall.svg",
       "origin_url": "assets/local/culture-hall.svg",
@@ -8609,520 +6923,47 @@
       "reuse_similarity_floor": 0.068
     },
     {
-      "media_id": "media_527f44c60ddb3cd2b02625b6",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/פיטר_פן_|_שעת_סיפור_עם_רינתי/?id=17646",
+      "media_id": "media_ab601944f3d135bd4143d538",
+      "url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/03/logo.jpg",
+      "source_url": "https://htrl.co.il/%d7%9c%d7%92%d7%9c%d7%95%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%9e%d7%95%d7%a4%d7%a2%d7%99%d7%9d/",
       "credit": null,
-      "rights_status": "unknown",
+      "rights_status": "needs_review",
       "status": "needs_review",
       "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "רינתי",
-        "דניאל סטיופין (אנטולי \"קופה ראשית\")"
-      ],
-      "productions": [
-        "סיפור חנוכה | שעת סיפור עם רינתי",
-        "דניאל סטיופין(קופה ראשית) סטנדאפ",
-        "פיטר פן | שעת סיפור עם רינתי"
-      ],
-      "categories": [
-        "kids",
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b6b558da8a85b64e0cea",
-          "title": "סיפור חנוכה | שעת סיפור עם רינתי",
-          "date": "2026-12-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_64cf83ea3dc5bbb34e58",
-          "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
-          "date": "2027-01-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8adf0f4c675e74162830",
-          "title": "פיטר פן | שעת סיפור עם רינתי",
-          "date": "2027-01-12"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.221
-    },
-    {
-      "media_id": "media_76ed459ab93dcc1415fbc000",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4baef7bd99752970290.png",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/הכלבלב_השובב_/?id=17308",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "תיאטרון קמגולם",
-        "בית לברון",
-        "רינה שמחי",
-        "אסתר"
-      ],
-      "productions": [
-        "הכלבלב השובב",
-        "מייפל הכלבלב – יחיד ומיוחד",
-        "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c96d7be6d2804e749d2a",
-          "title": "הכלבלב השובב",
-          "date": "2027-01-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3356020481453510f22a",
-          "title": "מייפל הכלבלב – יחיד ומיוחד",
-          "date": "2027-01-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cb3a4659aefbcd0529d0",
-          "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
-          "date": "2027-01-18"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.025
-    },
-    {
-      "media_id": "media_b27ea9f51e8d1e9b027c0377",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb596aa31811657971.png",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/קורס_עיצוב_אלבום_משפחתי-ייעודי_לגדולות_מהחיים_/?id=17212",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "מוגלי",
-        "בגירה הפנתר השחור",
-        "בלו הדב",
-        "שירחן",
-        "קאה",
-        "באנה",
-        "מועדון גדולות מהחיים"
-      ],
-      "productions": [
-        "קורס עיצוב אלבום משפחתי-ייעודי לגדולות מהחיים",
-        "ספר הג'ונגל מבית רינתי",
-        "מאמא דייאלי אירוע שנתי של גדולות מהחיים"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_97a74b6735c80cbe31dc",
-          "title": "קורס עיצוב אלבום משפחתי-ייעודי לגדולות מהחיים",
-          "date": "2027-02-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_60b18d8a145f11fd0362",
-          "title": "ספר הג'ונגל מבית רינתי",
-          "date": "2027-02-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_dd2216e2c4590b3b8095",
-          "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
-          "date": "2027-02-09"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.115
-    },
-    {
-      "media_id": "media_c252c53d87394302c89f51d1",
-      "url": "assets/event-thumbs/15e52e2b5aefd0fcb23e13.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb26c2882989270457.png",
-      "source_url": "https://ashdod.smarticket.co.il/iframe",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
       "publishable": false,
       "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "אלבר",
-        "חבר טוב",
-        "איילת",
-        "מיסייה אלבר",
-        "מוריס"
-      ],
+      "strategy": "awaiting_official_event_image",
+      "artists": [],
       "productions": [
-        "מיסייה אלבר - הפקת מקור",
-        "איילת מטיילת- הצגה מבית רינתי"
+        "לגלות תרבות ממבט מגדרי",
+        "משורר על הבמה"
       ],
       "categories": [
-        "other",
-        "theatre"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a78d65b3f4ac3995294c",
-          "title": "מיסייה אלבר - הפקת מקור",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
-          "title": "איילת מטיילת- הצגה מבית רינתי",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8ac6ea288cb265605b77",
-          "title": "מיסייה אלבר - הפקת מקור",
-          "date": "2026-10-21"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.2
-    },
-    {
-      "media_id": "media_fb64341ebcb3600c9a2ebfd4",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4bb9089723321825781.png",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/המלך_אמר/?id=17310",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "מזל מרציאנו",
-        "יוסי טייב",
-        "חן ליאור",
-        "רינתי"
-      ],
-      "productions": [
-        "המלך אמר",
-        "דירה להשכיר- מבית רינתי",
-        "מיץ פטל | שעת סיפור עם רינתי"
-      ],
-      "categories": [
-        "other",
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5fed753ced32a09d6fd2",
-          "title": "המלך אמר",
-          "date": "2027-03-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e0cb25bb2e9038f9400d",
-          "title": "דירה להשכיר- מבית רינתי",
-          "date": "2027-04-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_aedfda463657de5ed2bf",
-          "title": "מיץ פטל | שעת סיפור עם רינתי",
-          "date": "2027-04-13"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.165
-    },
-    {
-      "media_id": "media_fd028402992e159c039841b0",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba31dec0c453769298.png",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "רינתי",
-        "אסף אלברשטיין",
-        "תמי כהן"
-      ],
-      "productions": [
-        "דירה להשכיר | שעת סיפור עם רינתי",
-        "גלגולי המגילה | אסף אלברשטיין",
-        "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן"
-      ],
-      "categories": [
-        "kids",
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_93de6870be8f46280fc1",
-          "title": "דירה להשכיר | שעת סיפור עם רינתי",
-          "date": "2027-02-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_86a7ddbdc1657bad0dd0",
-          "title": "גלגולי המגילה | אסף אלברשטיין",
-          "date": "2027-03-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3842e55c80605e16ed5b",
-          "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
-          "date": "2027-03-16"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.171
-    },
-    {
-      "media_id": "media_0cd545b49063026c3e11a931",
-      "url": "assets/event-thumbs/cb3d5fe0140db408d8a521.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac2138444b6f378578808.jpg",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "אסף אלברשטיין"
-      ],
-      "productions": [
-        "סטודיו פתוח",
-        "הצגת ענק עלילות המכבים"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0e504f3ec1134d211524",
-          "title": "סטודיו פתוח",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cc2d1cac424acf768c45",
-          "title": "הצגת ענק עלילות המכבים",
-          "date": "2026-12-03"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.085
-    },
-    {
-      "media_id": "media_4cf50b0982792975c54bf7c7",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a04059c1dce8576891333.jpeg",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/כח_המילים_והשפעותיהם_על_החיים_-ייעודי_לגדולות_מהחיים_/?id=17207",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "מריה מונטסורי",
-        "לאה טודורוב",
-        "לילי דאלניי",
-        "טינה"
-      ],
-      "productions": [
-        "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
-        "מריה מונטוסורי-הקרנת סרט ומפגש שיח"
-      ],
-      "categories": [
-        "other",
         "lecture"
       ],
       "cities": [
-        "ashdod"
+        "rishon-lezion"
       ],
       "events": [
         {
-          "city": "ashdod",
-          "event_id": "auto_as_ad9aa5d26bfb663907d7",
-          "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
-          "date": "2027-02-14"
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_40c2da2d2eb1f0cf0869",
+          "title": "לגלות תרבות ממבט מגדרי",
+          "date": "2026-12-13"
         },
         {
-          "city": "ashdod",
-          "event_id": "auto_as_2d713d64cea99683547f",
-          "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
-          "date": "2027-02-23"
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_9e8765db5f00f5b2dcd5",
+          "title": "משורר על הבמה",
+          "date": "2027-01-20"
         }
       ],
       "usage_count": 2,
       "created_from": "event_dataset",
       "review_reason": null,
       "reuse_risk": "review",
-      "reuse_similarity_floor": 0.115
-    },
-    {
-      "media_id": "media_77154e70f6e673f25e4e77c7",
-      "url": "https://basket.co.il/pics/2026-2027/%D7%A9%D7%95%D7%A0%D7%95%D7%AA/IMG_0026%20(1).PNG",
-      "origin_url": null,
-      "source_url": "https://basket.co.il/team.asp?TeamId=2123",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "category_fallback",
-      "artists": [],
-      "productions": [
-        "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
-        "מכבי רוטשטיין אשדוד - הפועל גליל עליון"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261012_maccabi_ashdod_basketball",
-          "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261026_maccabi_ashdod_basketball",
-          "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
-          "date": "2026-10-26"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": 0.593
-    },
-    {
-      "media_id": "media_8d04f3e0fd5681900fcdd10a",
-      "url": "assets/event-thumbs/c6688e4247a8da77a2f844.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a930c99569b7364337836.jpeg",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "ג׳קו"
-      ],
-      "productions": [
-        "המספרה של ג'אקו - הפקת מקור",
-        "מוצאים עוגן בתוך הסערה | לנשים בלבד"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ab616d899c714d6fd180",
-          "title": "המספרה של ג'אקו - הפקת מקור",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
-          "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
-          "date": "2026-10-19"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.169
+      "reuse_similarity_floor": 0.16
     },
     {
       "media_id": "media_d904abe9ff1138def610891c",
@@ -9165,101 +7006,6 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_f343536ee3df3246b6a5cab7",
-      "url": "assets/event-thumbs/bdbd7f2dc93b559d9b3d22.jpg",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac363df096e5299271074.jpg",
-      "source_url": "https://ashdod.smarticket.co.il/iframe",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "source_listing_card",
-      "artists": [
-        "תיאטרון החלומות של אסיק"
-      ],
-      "productions": [
-        "שלגיה ו-7 הגמדים",
-        "סדנת חנוכיות להורים ולילדים"
-      ],
-      "categories": [
-        "other",
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9a3cbab50396fa3af0c3",
-          "title": "שלגיה ו-7 הגמדים",
-          "date": "2026-11-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d77f1323483fec7e92d1",
-          "title": "סדנת חנוכיות להורים ולילדים",
-          "date": "2026-11-19"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.228
-    },
-    {
-      "media_id": "media_f798e963674e09fb07c19f38",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a0405c46d32a853395555.jpeg",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/נדל_ן_סיפור_אהבה-הקרנת_סרט_ומפגש_שיח/?id=16035",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "מרה",
-        "אדם",
-        "תמרה",
-        "רינתי"
-      ],
-      "productions": [
-        "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
-        "איילת מטיילת | שעת סיפור עם רינתי"
-      ],
-      "categories": [
-        "lecture",
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7a0d248903ac27e7d66a",
-          "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
-          "date": "2027-06-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_874fbf8765c2eddd641d",
-          "title": "איילת מטיילת | שעת סיפור עם רינתי",
-          "date": "2027-06-15"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": 0.316
     },
     {
       "media_id": "media_10d17227dab4defadf95dcc7",
@@ -9442,42 +7188,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_399142e07d1a5514d567da44",
-      "url": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp",
-      "origin_url": null,
-      "source_url": "https://live.tickchak.co.il/shows/event/eKxMqvVkx?live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [],
-      "productions": [
-        "שמעון בוסקילה – קרוב לבית"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3965330ca84880c5bf7a",
-          "title": "שמעון בוסקילה – קרוב לבית",
-          "date": "2027-01-07"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_430ef7589bb1a2d825492f71",
       "url": "https://handballisr.co.il/Pics/team%20logos/250px-Hapoel_Ashdod_Handball_cross.png",
       "origin_url": null,
@@ -9591,42 +7301,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_4f6bc196c8aefc5ca16ac9d3",
-      "url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp",
-      "origin_url": null,
-      "source_url": "https://live.tickchak.co.il/shows/event/eQLoBDQYn?live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [],
-      "productions": [
-        "שימי תבורי במופע להקה"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d3cf764f28c61e301ce9",
-          "title": "שימי תבורי במופע להקה",
-          "date": "2027-01-14"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_50043bb6a6b335bb03613845",
       "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ac4d76d465eb273388575.jfif",
       "origin_url": null,
@@ -9692,42 +7366,6 @@
           "event_id": "sport_20261029_hapoel_ashdod_w_handball",
           "title": "הפועל אשדוד - הפועל קרית אונו",
           "date": "2026-10-29"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_74a23bcd2fb4e098bb0ce909",
-      "url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
-      "origin_url": null,
-      "source_url": "https://live.tickchak.co.il/shows/event/eNjqmKvyj?live_ref=new-c90zd2gzLWVESqN2ZzVjMT9EVRRTUU1mN",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [],
-      "productions": [
-        "חני נחמיאס – קלסיקה ישראלית"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3fa16619b6054a877bff",
-          "title": "חני נחמיאס – קלסיקה ישראלית",
-          "date": "2027-04-13"
         }
       ],
       "usage_count": 1,
@@ -9928,10 +7566,10 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_d5ef1f857c931698741175b4",
-      "url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "media_id": "media_fd028402992e159c039841b0",
+      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba31dec0c453769298.png",
       "origin_url": null,
-      "source_url": "https://live.tickchak.co.il/ashdod",
+      "source_url": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647",
       "credit": null,
       "rights_status": "unknown",
       "status": "needs_review",
@@ -9939,12 +7577,14 @@
       "publishable": true,
       "ai_generated": false,
       "strategy": null,
-      "artists": [],
+      "artists": [
+        "רינתי"
+      ],
       "productions": [
-        "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים"
+        "דירה להשכיר | שעת סיפור עם רינתי"
       ],
       "categories": [
-        "other"
+        "kids"
       ],
       "cities": [
         "ashdod"
@@ -9952,9 +7592,9 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "auto_as_92a7794474ff45937b54",
-          "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
-          "date": "2027-05-18"
+          "event_id": "auto_as_93de6870be8f46280fc1",
+          "title": "דירה להשכיר | שעת סיפור עם רינתי",
+          "date": "2027-02-23"
         }
       ],
       "usage_count": 1,
@@ -9964,12 +7604,22 @@
       "reuse_similarity_floor": null
     }
   ],
+  "card_optimization": {
+    "generated_at": "2026-10-08T04:18:22Z",
+    "max_width": 960,
+    "max_height": 720,
+    "target_bytes": 170000,
+    "generated": 150,
+    "reused": 0,
+    "failed": 0,
+    "total_card_bytes": 4516308
+  },
   "optimization": {
     "target_width": 900,
     "format": "webp",
     "quality": 80,
-    "created": 0,
-    "reused": 165,
+    "created": 2,
+    "reused": 147,
     "skipped": 1
   }
 }
