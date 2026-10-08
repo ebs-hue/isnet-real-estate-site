@@ -1,63 +1,39 @@
 <!doctype html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <title>בקרת תמונות | ISNET</title>
-  <link rel="stylesheet" href="styles.css?v=20261007-mediaqa">
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="auth/config.js?v=20261007-1225"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>בקרת תמונות | ISNET</title>
+<link rel="stylesheet" href="styles.css?v=20261008-mediaqa">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="auth/config.js?v=20261007-1225"></script>
 </head>
 <body>
 <header class="topbar">
-  <div>
-    <div class="eyebrow">ISNET AI CMS · בקרת תמונות</div>
-    <h1>בקרת התאמת תמונה לתוכן</h1>
-    <p>השוואה בין מה שסוכן התוכן הבין, בריף התמונה, והתמונה שנבחרה בפועל.</p>
-  </div>
-  <div class="top-actions">
-    <a class="secondary action-link" href="media.html">🖼️ בנק מדיה</a>
-    <a class="secondary action-link" href="index.html">← אירועים</a>
-  </div>
+ <div><div class="eyebrow">ISNET AI CMS · בקרת מדיה</div><h1>בקרת תמונות מול תוכן</h1>
+ <p>השוואה בין מה שהסוכן הבין מהאירוע, הבריף החזותי והתמונה שנבחרה בפועל.</p></div>
+ <div class="top-actions">
+  <a class="secondary action-link" href="media.html">🖼️ בנק מדיה</a>
+  <a class="secondary action-link" href="index.html">← מרכז הניהול</a>
+ </div>
 </header>
 <main>
-  <section id="qaStats" class="stats"></section>
-  <section class="panel filters">
-    <div class="panel-title">
-      <div><h2>סינון לבקרה</h2><p>ברירת המחדל מציגה אירועים עתידיים שסוכן התוכן כבר עיבד.</p></div>
-      <button id="qaClear" class="text-btn">נקה מסננים</button>
-    </div>
-    <div class="filter-grid media-filter-grid">
-      <label class="search"><span>חיפוש</span><input id="qaQ" type="search" placeholder="אמן, מופע, תקציר, קטגוריה"></label>
-      <label><span>עיר</span><select id="qaCity"><option value="">כל הערים</option></select></label>
-      <label><span>מצב תמונה</span>
-        <select id="qaImage">
-          <option value="">הכול</option>
-          <option value="approved">מאושרת</option>
-          <option value="review">לבדיקה</option>
-          <option value="missing">חסרה</option>
-        </select>
-      </label>
-      <label><span>שימוש חוזר</span>
-        <select id="qaReuse">
-          <option value="">הכול</option>
-          <option value="review">חשוד</option>
-          <option value="low">תקין</option>
-        </select>
-      </label>
-    </div>
-  </section>
-  <section class="panel">
-    <div class="panel-title"><div><h2>אירועים לבדיקה</h2><p id="qaCount">טוען...</p></div></div>
-    <div id="qaGrid" class="qa-grid"></div>
-    <div id="qaEmpty" class="empty" hidden>לא נמצאו אירועים.</div>
-  </section>
+<section id="qaStats" class="stats"></section>
+<section class="panel filters">
+ <div class="panel-title"><div><h2>סינון</h2><p>מומלץ להתחיל באירועים שכבר עברו העשרת תוכן ויש להם תמונה.</p></div><button id="qaClear" class="text-btn">נקה מסננים</button></div>
+ <div class="filter-grid media-filter-grid">
+  <label class="search"><span>חיפוש</span><input id="qaQ" type="search" placeholder="שם אירוע, אמן או מילה מהבריף"></label>
+  <label><span>עיר</span><select id="qaCity"><option value="">כל הערים</option><option value="ashdod">אשדוד</option><option value="rishon-lezion">ראשון לציון</option></select></label>
+  <label><span>מצב תמונה</span><select id="qaStatus"><option value="">הכול</option><option value="approved">מאושרת</option><option value="review">לבדיקה</option><option value="missing">חסרה</option></select></label>
+  <label><span>תוכן</span><select id="qaContent"><option value="enriched">עבר העשרה</option><option value="">הכול</option><option value="ready">מוכן למדיה</option></select></label>
+ </div>
+</section>
+<section class="panel">
+ <div class="panel-title"><div><h2>אירועים לבדיקה</h2><p id="qaCount">טוען...</p></div></div>
+ <div id="qaGrid" class="qa-grid"></div>
+ <div id="qaEmpty" class="empty" hidden>לא נמצאו אירועים.</div>
+</section>
 </main>
-<script src="media-qa.js?v=20261007-mediaqa"></script>
-<script type="module">
-import {requireAuth} from "./auth/guard.js?v=20261007-1225";
-await requireAuth();
-</script>
-</body>
-</html>
+<script src="media-qa.js?v=20261008-mediaqa"></script>
+<script type="module">import {requireAuth} from "./auth/guard.js?v=20261007-1225";await requireAuth();</script>
+</body></html>
