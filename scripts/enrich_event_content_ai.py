@@ -222,7 +222,9 @@ def ask_model(event, source_text, source_url, require_web_search=False):
             "participants": ["supported names only"],
             "target_audience": ["supported or safely inferable broad audience labels"],
             "visual_keywords": ["5-10 concrete visual concepts"],
-            "image_brief": "one Hebrew paragraph describing a relevant cover image, without embedded text",
+            "image_brief": "one Hebrew paragraph describing what a genuinely relevant cover image must show, without embedded text",
+            "image_subject_type": "one of: event_poster, artist_or_speaker, production_or_book, program_or_institution, topical_fallback",
+            "image_search_queries": ["2-4 precise search phrases ordered from strongest to weakest; prefer exact event/artist/production identity over generic category terms"],
             "seo_title": "concise factual Hebrew Google title, usually up to 60 characters",
             "seo_description": "useful factual Hebrew meta description, usually 120-160 characters",
             "content_ready_for_media": True,
@@ -272,6 +274,7 @@ def apply_result(event, result, source_url):
     for key in (
         "event_summary", "short_pitch", "long_description", "event_type",
         "participants", "target_audience", "visual_keywords", "image_brief",
+        "image_subject_type", "image_search_queries",
         "seo_title", "seo_description",
     ):
         value = result.get(key)
