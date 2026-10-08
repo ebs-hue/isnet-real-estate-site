@@ -47,7 +47,6 @@ SOURCES = {
              {"url": "https://www.ofek-ashdod.org.il/page.php?gr=644&m=296&type=events", "category": "tour"},
              {"url": "https://www.ofek-ashdod.org.il/page.php?gr=643&m=296&type=events", "category": "lecture"},
              {"url": "https://www.ofek-ashdod.org.il/page.php?gr=648&m=296&type=events", "category": "lecture"},
-             {"url": "https://www.ofek-ashdod.org.il/page.php?gr=1140&m=296&type=events", "category": "workshop"},
          ]},
         # Sports calendars require independent fixture-level validation; not inferred
         # from an unrelated public events listing.
@@ -125,13 +124,20 @@ def choose_category(title, venue):
         return "exhibition"
     if any(x in s for x in ("הרצאה", "כנס", "מפגש", "שיחה")):
         return "lecture"
-    if any(x in s for x in ("סדנה", "סדנת", "הפעלה", "יצירה")):
-        return "workshop"
+    if any(x in s for x in ("סדנה", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים", "הפעלה", "יצירה")):
+        return "classes"
     if any(x in s for x in ("מחול", "מחזמר", "תיאטרון", "הצגה", "אופרה")):
         return "theatre"
     if any(x in s for x in ("מוזיקה", "מופע", "תזמורת", "זמר", "קונצרט", "הופעה")):
         return "music"
     return "other"
+
+
+CLASSES_TERMS = ("סדנה", "סדנת", "סדנאות", "קורס", "קורסים", "חוג", "חוגים", "סדרת מפגשים", "מחזור לימודים")
+
+def is_classes_candidate(title, category=None):
+    s = text_norm(title or "")
+    return category in {"workshop", "classes"} or any(term in s for term in CLASSES_TERMS)
 
 
 def safe_url(url, origin, allow_external=False):
@@ -734,12 +740,16 @@ def merge(city_slug, specs, dry_run=False):
     data_path = BASE / city_slug / "data" / "events.json"
     payload = json.loads(data_path.read_text(encoding="utf-8"))
     events = payload["events"]
+    removed_classes = [e for e in events if is_classes_candidate(e.get("title"), e.get("category"))]
+    if removed_classes:
+        events[:] = [e for e in events if not is_classes_candidate(e.get("title"), e.get("category"))]
     ids_before = {e.get("event_id") for e in events}
     label = CITY_LABELS[city_slug]
     today = date.today()
     now = iso_now()
-    summary = {"city": label, "total_before": len(events), "sources": {},
-               "new": 0, "updated": 0, "removed_invalid": 0, "removed_duplicates": 0, "errors": []}
+    summary = {"city": label, "total_before": len(events) + len(removed_classes), "sources": {},
+               "new": 0, "updated": 0, "removed_invalid": 0, "removed_duplicates": 0,
+               "removed_classes": len(removed_classes), "errors": []}
     for spec in specs:
         name = spec["name"]
         source_status = {"status": "unknown", "url": spec["url"], "discovered": 0,
@@ -786,6 +796,10 @@ def merge(city_slug, specs, dry_run=False):
                 obj["ticket_status"] = "sold_out"
             if not valid_title(obj["title"]):
                 continue
+            candidate_category = obj.get("category") or choose_category(obj["title"], obj.get("venue") or "")
+            if is_classes_candidate(obj["title"], candidate_category):
+                continue
+            obj["category"] = candidate_category
             key = event_key(obj)
             if key in seen:
                 continue
@@ -908,7 +922,7 @@ def merge(city_slug, specs, dry_run=False):
                            and any(x.get("name") == name for x in e.get("sources", [])))
     events.sort(key=lambda e: (e.get("start_date") or "9999", e.get("start_time") or "99:99", e.get("title") or ""))
     summary["total_after"] = len(events)
-    if summary["new"] or summary["updated"] or summary["removed_invalid"] or summary["removed_duplicates"] or summary["repaired_event_ids"]:
+    if summary["new"] or summary["updated"] or summary["removed_invalid"] or summary["removed_duplicates"] or summary["removed_classes"] or summary["repaired_event_ids"]:
         payload["generated_at"] = now
         payload.setdefault("stats", {})["events"] = len(events)
         future = [e["start_date"] for e in events if e.get("start_date", "") >= today.isoformat()]
