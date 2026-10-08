@@ -200,6 +200,16 @@ function applySeo(e){
   if(!script){script=document.createElement("script");script.id="eventSchema";script.type="application/ld+json";document.head.appendChild(script)}
   script.textContent=JSON.stringify(schema);
 }
+function cleanEditorialText(value){
+  let text=String(value||"");
+  text=text.replace(/\\([()_:/])/g,"$1");
+  text=text.replace(/\(\s*\[([^\]]+)\]\(\s*https?:\/\/[^)]+\)\s*\)/gi,"");
+  text=text.replace(/\[([^\]]+)\]\(\s*https?:\/\/[^)]+\)/gi,"$1");
+  text=text.replace(/\(\s*\[([^\]]+)\]\s*\)/g,"");
+  text=text.replace(/\[?(?:www\.)?[A-Za-z0-9.-]+\.(?:co\.il|com|org|net|il)\]?\s*\(?\s*https?:\/\/[^)\s]+\)?/gi,"");
+  text=text.replace(/https?:\/\/[^\s)]+/gi,"");
+  return text.replace(/\s+([,.;:!?])/g,"$1").replace(/\(\s*\)/g,"").replace(/\s{2,}/g," ").trim();
+}
 function splitParagraphs(text){
   return String(text||"").split(/\n\s*\n/).map(x=>x.trim()).filter(Boolean);
 }
@@ -227,9 +237,9 @@ function autoPitch(e){
 }
 function meaningfulEventDescription(e){
   // Prefer editorial descriptions already attributed to this event.
-  // A short pitch is shown only when it adds information beyond the title.
+  // Research citations and URLs are never part of public editorial copy.
   const candidates=[e.long_description,e.series_description,e.description,e.short_pitch];
-  return candidates.map(v=>String(v||"").trim()).find(v=>
+  return candidates.map(cleanEditorialText).find(v=>
     v.length>=25 &&
     !v.includes("תיאור מפורט של האירוע לא פורסם") &&
     !v.includes("המועד, המחיר, המיקום ודרכי יצירת הקשר מופיעים")
@@ -274,7 +284,7 @@ function renderHero(e,occ,imageEvent){
     (occ.every(x=>x.ticket_status==="sold_out")?'<span class="badge badge--soldout">אזלו הכרטיסים</span>':"")+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים בראשון לציון</span>':"");
   $("eventTitle").textContent=displayTitle;
-  $("eventPitch").textContent=e.short_pitch||e.series_description||e.description||autoPitch({...e,title:displayTitle});
+  $("eventPitch").textContent=cleanEditorialText(e.short_pitch||e.series_description||e.description)||autoPitch({...e,title:displayTitle});
 
   const venues=[...new Set(occ.map(x=>x.venue).filter(Boolean))];
   const dates=[...new Set(occ.map(x=>x.start_date).filter(Boolean))];
