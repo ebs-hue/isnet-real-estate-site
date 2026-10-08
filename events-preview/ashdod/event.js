@@ -37,7 +37,7 @@
 const $=id=>document.getElementById(id);
 const catLabels={
   music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים ומשפחה",theatre:"תיאטרון",
-  lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",
+  lecture:"הרצאות",exhibition:"תערוכות",cinema:"קולנוע",
   festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"אירוע"
 };
 let sportsMeta={branches:{},teams:[]};
@@ -262,7 +262,7 @@ function renderHero(e,occ,imageEvent){
 
   const sportBadge=e.category==="sport"?sportBranchMeta(e):null;
   $("heroBadges").innerHTML=
-    '<span class="badge accent">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+
+    '<a class="badge accent categoryLink" href="index.html?category='+encodeURIComponent(e.category||"other")+'#events" title="לעוד אירועים בקטגוריה">'+escapeHtml(catLabels[e.category]||"אירוע")+' ←</a>'+
     (sportBadge?'<span class="badge">'+escapeHtml(sportBadge.icon)+' '+escapeHtml(sportBadge.label)+'</span>':"")+
     (occ.every(x=>x.ticket_status==="sold_out")?'<span class="badge badge--soldout">אזלו הכרטיסים</span>':"")+
     (occ.length>1?'<span class="badge">'+occ.length+' מועדים באשדוד</span>':"");
