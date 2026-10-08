@@ -17734,7 +17734,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17545",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:39:31Z",
       "missing_information": [
@@ -17774,9 +17774,10 @@
       ],
       "image_brief": "צילום פנורמי של חלל התערוכה במוזאון: קיר עם ציור מופשט רחב היקף המודגש בשדות צבע גדולים, לידו מסכי וידאו המוקרנים על קירות או תומכים. התמונה תכלול רצפה ותקרה של גלריה מודרנית, תאורה מכוונת על העבודות וביתרון ריק של מבקרים כדי להדגיש את הממד המרחבי והחומרי של היצירות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -17848,7 +17849,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17546",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:39:53Z",
       "missing_information": [
@@ -17886,9 +17887,10 @@
       ],
       "image_brief": "צילום של חלל תצוגה במוזאון: קיר גדול שעליו ציור מופשט רחב היקף הממלא חלק מהחדר, לצד אזור שבו מוקרן או מוצג וידאו על מסך/קיר. התאורה מוזיאלית נקודתית המדגישה את מרקם הציורים והחומר, עם רמת קנה מידה שתיתן תחושת עומק ומרחב. אין טקסט מוטמע בתמונה; הדגש על צבע, חומר והקשר בין ציור לווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_83_20261128",
@@ -17953,7 +17955,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%99%D7%A6%D7%90%D7%95_%D7%9C%D7%93%D7%A8%D7%9A_/?id=8101",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:40:10Z",
       "missing_information": [
@@ -17986,9 +17988,10 @@
       ],
       "image_brief": "צילום ביעד כיסוי של חזית המשכן לאמנויות הבמה באשדוד בשעת ערב, עם תאורת מבנה מוארת ורמזים לקהל (אנשים עוברים בכניסה) או תמונת אולם תיאטרון מבפנים: מושבים מסומנים, במה עם וילון/תאורה דרמטית וכרטיסים מונחים על מושב או שולחן. התמונה תעביר אווירה של ערב תיאטרלי ממתין למופע, בלי לשלב טקסט מוטבע.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_3c0b3dfb18abf8d6701463fa"
+      "media_bank_id": "media_3c0b3dfb18abf8d6701463fa",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18060,7 +18063,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17574",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:40:32Z",
       "missing_information": [
@@ -18098,9 +18101,10 @@
       ],
       "image_brief": "צילום רחב-זווית של חלל תצוגה במוזיאון: על קיר מרכזי ציור מופשט גדול בצבעים עזים ומרקמים בולטים, בצד תמונה של מסך וידאו פעיל המציג עבודה וידאו; רצפת החלל נקייה ותאורה נקודתית מדגישה את משטחי היצירות. אין טקסט משולב בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18171,7 +18175,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שומרי_הדרקונים_-_מחזמר_הרפתקאות_-_חנוכה_2026/?id=8238",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:41:05Z",
       "missing_information": [
@@ -18204,7 +18208,8 @@
         "אווירת חנוכה"
       ],
       "image_brief": "צילום שער ישקף סצנה במה פעלתנית: שחקנים בלבביים בתלבושות צבעוניות ותנועה דינמית, אביזרים או צללית שמזכירים דרקון ותאורת במה חמה שמבליטה עומק וזוויות. ברקע ייראה חלל הבמה והתפאורה ההרפתקנית; בקדמת התמונה ייתכן טווח שמראה קהל משפחות בצללית כדי להעביר את האופי המשפחתי של המופע. אין לכלול טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18275,7 +18280,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שומרי_הדרקונים_-_מחזמר_הרפתקאות_-_חנוכה_2026/?id=8237",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:41:21Z",
       "missing_information": [
@@ -18308,7 +18313,8 @@
         "אקססוריז חג חנוכה (נרות/חנוכייה באופן עקיף)"
       ],
       "image_brief": "תצלום כיסוי של במה תיאטרלית בערב: שחקנים בתלבושות צבעוניות וסגנון פנטזיה מופיעים תחת תאורה חמה וססגונית, עם רמזי עיצוב שמצביעים על מוטיב דרקונים (כמו כנפיים או פסלים על הבמה). בקדמת התמונה נראים מבט אל קהל משפחתי שצופה במופע, והאווירה ברורה כחגיגית-ערבית. התמונה תדגיש את התנועה על הבמה ואת האינטימיות של חלל המשכן, בלי טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",

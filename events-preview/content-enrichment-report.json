@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:47:52Z",
+  "generated_at": "2026-10-08T11:48:32Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_ed5e50ba93af66a6e37b",
+      "event_id": "auto_as_255eb2a0c98790b70d69",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_23_20261124",
-      "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_60_20261124",
-      "title": "טוביה צפיר – 80 שנה של הומור!",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_d56184583cc012704fb9",
+      "event_id": "auto_as_a8e751087c2d16482459",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_04e5b0c7c43ef1c5c535",
+      "event_id": "evt_83_20261128",
+      "title": "חיילים יצאו לדרך",
+      "status": "model_error",
+      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_f37ddc7e60553c75692d",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_61_20261126",
-      "title": "מירית גליצקי - מוגזמת",
+      "event_id": "auto_as_ccab329e9dce87dcb028",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "status": "model_error",
+      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_208cc1d709030d29da9a",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
