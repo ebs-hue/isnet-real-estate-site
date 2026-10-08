@@ -83,7 +83,7 @@ def needs_enrichment(event):
         return False
     retry_after = str(event.get("content_enrichment_retry_after") or "")
     if (
-        event.get("content_enrichment_status") == "source_text_insufficient"
+        event.get("content_enrichment_status") in {"source_text_insufficient", "model_error"}
         and event.get("content_enrichment_version") == CONTENT_ENRICHMENT_VERSION
         and retry_after > date.today().isoformat()
     ):
@@ -345,9 +345,22 @@ def main():
                         break
             require_web_search = len(source_text) < 180
             try:
-                result = ask_model(event, source_text, source_url, require_web_search=require_web_search)
+                result = None
+                last_exc = None
+                for attempt in range(1, 4):
+                    try:
+                        result = ask_model(event, source_text, source_url, require_web_search=require_web_search)
+                        break
+                    except Exception as exc:
+                        last_exc = exc
+                        print("MODEL RETRY", slug, event.get("event_id"), attempt, clean_text(str(exc))[:400], flush=True)
+                        time.sleep(2 * attempt)
+                if result is None:
+                    raise last_exc or RuntimeError("model request failed")
                 ok = apply_result(event, result, source_url)
                 event["content_enrichment_status"] = "ready" if ok else "insufficient"
+                if not ok:
+                    event["content_enrichment_retry_after"] = (date.today() + timedelta(days=1)).isoformat()
                 enriched += int(ok)
                 insufficient += int(not ok)
                 changed = True
@@ -355,9 +368,12 @@ def main():
             except Exception as exc:
                 model_failed += 1
                 event["content_enrichment_status"] = "model_error"
+                event["content_enrichment_version"] = CONTENT_ENRICHMENT_VERSION
+                event["content_enrichment_retry_after"] = (date.today() + timedelta(days=1)).isoformat()
                 err = clean_text(str(exc))[:1200]
                 rows.append({"city": slug, "event_id": event.get("event_id"), "title": event.get("title"), "status": "model_error", "error": err})
-                print("MODEL ERROR", slug, event.get("event_id"), err, flush=True)
+                print("MODEL ERROR - deferred", slug, event.get("event_id"), err, flush=True)
+                changed = True
             time.sleep(0.15)
         if changed:
             path.write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -374,7 +390,7 @@ def main():
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print("CONTENT ENRICHMENT", json.dumps({k:v for k,v in report.items() if k != "events"}, ensure_ascii=False), flush=True)
-    return 0 if model_failed == 0 else 1
+    return 0
 
 if __name__ == "__main__":
     raise SystemExit(main())
