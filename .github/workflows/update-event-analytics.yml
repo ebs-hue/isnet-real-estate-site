@@ -1,0 +1,57 @@
+name: Update event analytics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isnet-event-analytics
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install GA4 client
+        run: python -m pip install --disable-pip-version-check google-analytics-data google-auth
+
+      - name: Verify GA4 configuration
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        run: |
+          test -n "$GA4_PROPERTY_ID" || { echo "::error::Missing GA4_PROPERTY_ID"; exit 2; }
+          test -n "$GA4_SERVICE_ACCOUNT_JSON" || { echo "::error::Missing GA4_SERVICE_ACCOUNT_JSON"; exit 2; }
+
+      - name: Fetch event analytics
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/fetch_event_analytics.py
+
+      - name: Commit analytics snapshot
+        run: |
+          git config user.name "isnet-analytics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/event-analytics.json
+          if git diff --cached --quiet; then
+            echo "No analytics changes."
+            exit 0
+          fi
+          git commit -m "Update event analytics"
+          git pull --rebase origin main
+          git push origin HEAD:main
