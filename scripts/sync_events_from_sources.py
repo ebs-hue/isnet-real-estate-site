@@ -291,6 +291,24 @@ def find_detail_link(soup, title, source_url):
     return best if best_score >= 65 else None
 
 
+def direct_purchase_link_from_detail(detail, detail_url):
+    """Return only a direct seller URL. Never use Tickchak Live/listing pages as checkout targets."""
+    blocked = ("tickchak.co.il", "live.tickchak.co.il")
+    candidates = []
+    for a in detail.select("a[href]"):
+        label = text_norm(a.get_text(" ", strip=True))
+        if not any(term in label for term in ("לרכישת כרטיסים", "לאתר המכירה", "רכישת כרטיסים", "הזמנת כרטיסים", "כרטיסים")):
+            continue
+        href = safe_url(a.get("href"), detail_url, allow_external=True)
+        if not href:
+            continue
+        host = (urlsplit(href).hostname or "").lower()
+        if any(host == b or host.endswith("." + b) for b in blocked):
+            continue
+        candidates.append(href)
+    return candidates[0] if candidates else None
+
+
 def enrich_row_from_detail(row, listing_soup, source):
     """Open an event card/detail page and preserve its richer source material."""
     detail_url = row.get("ticket_url")
@@ -365,9 +383,15 @@ def enrich_row_from_detail(row, listing_soup, source):
             {"url": u, "source_url": detail_url, "rights_status": "needs_review", "score": s, "reason": w}
             for s, u, w in sorted(best.values(), key=lambda x: -x[0])[:8]
         ]
-    # The detail page is a better action URL than the general calendar.
+    # Keep the detail page only as provenance. A purchase CTA must point to the
+    # actual seller, never to a competing discovery/listing page.
     row["ticket_url"] = detail_url
-    row["purchase_url"] = detail_url
+    direct_purchase = direct_purchase_link_from_detail(detail, detail_url)
+    if direct_purchase:
+        row["purchase_url"] = direct_purchase
+        row["purchase_source"] = "direct_seller_link"
+    elif source.get("source_type") == "secondary":
+        row["purchase_url"] = None
     flags = list(row.get("quality_flags") or [])
     if "detail_page_collected" not in flags:
         flags.append("detail_page_collected")
@@ -547,7 +571,7 @@ def generic_jsonld_rows(soup, source):
             row={"title": title, "start_date": d, "start_time": t,
                  "venue": name or source["venue"],
                  "ticket_url": event_url or source["url"],
-                 "purchase_url": event_url or source["url"],
+                 "purchase_url": None if source.get("source_type") == "secondary" else (event_url or source["url"]),
                  "quality_flags": ["automated_structured_event"]}
             row.update(jsonld_image_candidate(entry, source))
             found.append(row)
@@ -745,6 +769,13 @@ def merge(city_slug, specs, dry_run=False):
     data_path = BASE / city_slug / "data" / "events.json"
     payload = json.loads(data_path.read_text(encoding="utf-8"))
     events = payload["events"]
+    for e in events:
+        pu = str(e.get("purchase_url") or "")
+        host = (urlsplit(pu).hostname or "").lower() if pu else ""
+        if host == "tickchak.co.il" or host == "live.tickchak.co.il" or host.endswith(".tickchak.co.il"):
+            e["purchase_url"] = None
+            if e.get("purchase_source") in (None, "official_listing", "direct"):
+                e["purchase_source"] = "blocked_competitor_listing"
     removed_classes = [e for e in events if is_classes_candidate(
         e.get("title"), e.get("category"), e.get("description"), e.get("series_title"), e.get("variant_label")
     )]
@@ -875,7 +906,8 @@ def merge(city_slug, specs, dry_run=False):
                     changed = True
                 if incoming["ticket_url"] != spec["url"] and match.get("ticket_url") in (None, spec["url"]):
                     match["ticket_url"] = incoming["ticket_url"]
-                    match["purchase_url"] = incoming["ticket_url"]
+                    if incoming.get("purchase_url"):
+                        match["purchase_url"] = incoming["purchase_url"]
                     changed = True
                 if incoming.get("image_url") and not match.get("image_url"):
                     for field in ("image_url","image_source","image_credit","image_origin_url",
