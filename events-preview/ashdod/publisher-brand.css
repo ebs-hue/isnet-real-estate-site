@@ -140,3 +140,49 @@
   }
   .siteTopbar__events img{width:126px}
 }
+
+
+/* Equal-size dual brand cards */
+.siteTopbar__ashdodnet,
+.siteTopbar__events{
+  width:176px;
+  height:64px;
+  min-height:64px;
+  padding:7px 12px;
+  border-radius:14px;
+  background:#fff;
+  box-shadow:0 6px 18px rgba(0,0,0,.18);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-sizing:border-box;
+}
+.siteTopbar__ashdodnet img{
+  width:auto;
+  height:50px;
+  max-width:150px;
+  object-fit:contain;
+}
+.siteTopbar__events img{
+  width:auto;
+  height:50px;
+  max-width:150px;
+  object-fit:contain;
+  filter:none;
+}
+@media(max-width:650px){
+  .siteTopbar__ashdodnet,
+  .siteTopbar__events{
+    width:136px;
+    height:52px;
+    min-height:52px;
+    padding:5px 9px;
+    border-radius:10px;
+  }
+  .siteTopbar__ashdodnet img,
+  .siteTopbar__events img{
+    width:auto;
+    height:40px;
+    max-width:118px;
+  }
+}
