@@ -176,9 +176,11 @@ def bank_asset_url(media):
     u=media.get("url") or ""
     if not u:return None
     if u.startswith(("http://","https://","data:")):return u
+    if u.startswith("/events-preview/"): return u
+    if u.startswith("events-preview/"): return "/"+u
     city=(media.get("cities") or [None])[0]
-    if u.startswith("media-bank/"):return "../"+u
-    if city:return "../"+city+"/"+u
+    if u.startswith("media-bank/"):return "/events-preview/"+u
+    if u.startswith("assets/") and city:return "/events-preview/"+city+"/"+u
     return u
 
 def load_bank_reuse():
@@ -192,6 +194,8 @@ def load_bank_reuse():
         mid=p.get("preferred_media_id")
         m=by_id.get(mid)
         if not m or m.get("status")!="approved" or m.get("publishable") is not True:
+            continue
+        if m.get("strategy")=="super_editor_representative_fallback":
             continue
         out[p.get("production_key") or norm(p.get("name"))]=m
     return out
