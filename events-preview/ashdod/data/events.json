@@ -15851,7 +15851,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:32:12Z",
       "missing_information": [
@@ -15890,9 +15890,10 @@
       ],
       "image_brief": "צילום רחב של חלל גלריה במוזאון: בד גדול אחד או שניים תלויים על קיר לבן, עם מיטת צבע מרקמית ובשדות צבע נשירים, ובצד תמונה או מבנה של מספר מסכי וידאו שמוקרנים. תאורת מוזיאון רכה ושקטה, רצפת גלריה נקייה ומבקר בודד או שניים מרחפים במרחב, מה שמתקשר לצדדים הציוריים והווידאוליים של התערוכה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_80_20261119",
@@ -15986,7 +15987,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8143",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:32:45Z",
       "missing_information": [
@@ -16016,9 +16017,10 @@
       ],
       "image_brief": "תצלום פנורמי של בימת תיאטרון פנויה: וילון אדום מעט פתוח, ספוטלייט יחיד מאיר כיסא מרכזי על הבמה, ובשורות הראשונות רואים מושבים ריקים שמדריכים את המבט לעבר האור. אווירת תיאטרון ערבית, תאורה חמה ותחושה של רגע לפני תחילת הצגה. אין טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8f297f8b91e325728d628397"
+      "media_bank_id": "media_8f297f8b91e325728d628397",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -16090,7 +16092,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17543",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:33:11Z",
       "missing_information": [
@@ -16132,9 +16134,10 @@
       ],
       "image_brief": "צילום כיסוי מומלץ: מבט פנורמי לתוך חלל גלריה לבן במוזיאון, שבו תלוי ציור מופשט רחב היקף העוטף קיר שלם ומדגיש מרקמי צבע וחומר; לצד הקיר מופיעים מסכי וידאו או מוניטורים המציגים עבודות מהאוסף. התאורה רכה, רצפה נקייה וקו ריהוט מינימליסטי שישדרו אווירה מוזיאלית עכשווית. בלי טקסט מוטמע.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -16206,7 +16209,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17544",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:33:33Z",
       "missing_information": [
@@ -16242,9 +16245,10 @@
       ],
       "image_brief": "צילום חלל תצוגה במוזיאון: קיר לבן גדול שעליו תלוי ציור מופשט רחב היקף עם שטחי צבע וטקסטורה בולטים; בחלק אחר של החלל הקרנה וידאו על מסך/קיר נפרד. במרכז החלל כמה מבקרים צופים ביצירות, התאורה המוזיאונית מדגישה את פני השטח והמרקם של הציור.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_81_20261121",
@@ -16338,7 +16342,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8144",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:33:55Z",
       "missing_information": [
@@ -16369,9 +16373,10 @@
       ],
       "image_brief": "צילום אווירה של במה באולם המשכן לאמנויות הבמה: וילון חלקי או ויטראז׳ ברקע, תאורה דרמטית שמדגישה את מרכז הבמה ומושבי הקהל בחזית מטושטשים ברקע. התמונה תעביר תחושת ערב תיאטרלי ותכין את הצופה לאירוע בהפגנת מומנט של תאורת במה ואדריכלות האולם.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8f297f8b91e325728d628397"
+      "media_bank_id": "media_8f297f8b91e325728d628397",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_59_20261121",
@@ -16427,10 +16432,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_65d5159b231b8d68ce3f0e07"
+      "media_bank_id": "media_65d5159b231b8d68ce3f0e07",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
