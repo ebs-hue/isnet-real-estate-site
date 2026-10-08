@@ -19071,7 +19071,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/_קסם_של_כוכבים__-_רועיקי_מצחיקי_וסמי_הכבאי/?id=8228",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:45:43Z",
       "missing_information": [
@@ -19104,7 +19104,8 @@
         "הרגשת ערב הופעה"
       ],
       "image_brief": "תמונת שער שמתמקדת בבמה המשכן: שתי דמויות מטושטשות עומדות על הבמה תחת ספוטים חמים, הקהל ברקע יושב בסדרות כיסאות תיאטרון ותאורה על רקע שמיימי או רקע עם אורות דקורטיביים המדמים כוכבים. זווית רחבה שמציגה גם את חלל האולם והאווירה של ערב הופעה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_62_20261203",
@@ -19165,10 +19166,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_39c012c1c85bac8b231b3b50"
+      "media_bank_id": "media_39c012c1c85bac8b231b3b50",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -19237,7 +19239,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שושנה/?id=8243",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:46:00Z",
       "missing_information": [
@@ -19269,8 +19271,9 @@
       ],
       "image_brief": "צילום כיסוי אפשרי: מבט פנורמי על אולם המשכן לאמנויות הבמה באשדוד לפני תחילת ההצגה — שורות מושבים ריקות, במה עם וילון וסידור תאורה חמה המכוונת אל הבמה, או תצלום חיצוני של חזית המשכן בערב עם תאורה חיצונית. אין להטמיע טקסט בתמונה; התמונה תעביר את התחושה של ערב תרבות והתכנסות באולם.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
-      "image_strategy": "needs_exact_event_image"
+      "content_enrichment_status": "model_error",
+      "image_strategy": "needs_exact_event_image",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_63_20261205",
@@ -19330,10 +19333,11 @@
       "contact_phone": "*5359",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_743998acd446ed4756ad12b2"
+      "media_bank_id": "media_743998acd446ed4756ad12b2",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -19404,7 +19408,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/הקסם_שבצבע_-_בכיכובה_של_סתיו_בכל_הצבעים/?id=8226",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:46:44Z",
       "missing_information": [
@@ -19438,7 +19442,8 @@
         "תנועת בד/תלבושות צבעוניות"
       ],
       "image_brief": "צילום כיסוי מומלץ: דמות אחת על במה חשוכה, מוקפת אור צבעוני עשיר (גוונים של תכלת, ורוד וזהב) שיוצרים שובל צבעים מאחורי הדמות; הבמה מעט מטושטשת ברקע עם וילון תיאטרון כהה ותאורת ספוטלייט שמבליטה את הדמות. התמונה מדגישה תחושת תנועה וצבע ולא כוללת טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -19501,7 +19506,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/חגיגת_חנוכה_עיצוב_ספגניות_ומסיבת_חנוכה_עם_מעגל_מתופפים/?id=17698",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:47:40Z",
       "missing_information": [
@@ -19537,7 +19542,8 @@
       ],
       "image_brief": "צילום רחב ומאיר של שולחן סדנה שמלא בכלי קישוט לסופגניות — צנצנות קרם, צ'יפס שוקולד, סוכריות וידיים של משתתפים מקשטות סופגניות; ברקע נראה חלק ממעגל מתופפים על רקע האולם האדום של מרכז מונארט וקבוצה של אנשים רוקדים או צוחקים, המשדר אווירת חג חמה וקהילתית.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
