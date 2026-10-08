@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:53:21Z",
+  "generated_at": "2026-10-08T11:54:03Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_87_20261228",
+      "event_id": "evt_91_20270102",
       "title": "אור לגויים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-      "title": "בדרך ללב הפועם של רמת גן",
+      "event_id": "evt_67_20270102",
+      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7f19ce4f79e93abe6dc9",
-      "title": "דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_88_20261229",
+      "event_id": "auto_as_6d08db65cc9adf0eb6af",
       "title": "אור לגויים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_89_20261230",
-      "title": "אור לגויים",
+      "event_id": "auto_as_d0315a26e607910aebb5",
+      "title": "סידני מחווה לביג'יז",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_90_20261231",
-      "title": "אור לגויים",
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "title": "שמעון בוסקילה – קרוב לבית",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
