@@ -52,6 +52,9 @@ jobs:
       - name: Build lightweight card variants
         run: python -u scripts/optimize_media_bank_cards.py
 
+      - name: Build artist and production profiles
+        run: python -u scripts/build_media_entities.py
+
       - name: Create lightweight card images
         run: python -u scripts/optimize_media_bank_images.py
 
