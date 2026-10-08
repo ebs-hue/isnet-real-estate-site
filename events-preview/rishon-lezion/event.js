@@ -27,7 +27,7 @@
     return [...new Set(tokens.filter(t => vocabulary.has(t)))].join(" ").slice(0,100) || "[withheld]";
   };
   const metadata = e => e ? {event_id:String(e.event_id || "").slice(0,100),event_title:String(e.series_title || e.title || "").slice(0,100),category:String(e.category || "").slice(0,40),event_date:/^\d{4}-\d{2}-\d{2}$/.test(e.start_date || "") ? e.start_date : ""} : {};
-  const allowed = new Set(["search","select_category","select_event","select_date","ticket_click"]);
+  const allowed = new Set(["search","select_category","select_event","select_date","ticket_click","view_item"]);
   const send = (name, params = {}) => {
     if (!allowed.has(name)) return;
     window.gtag("event",name,{...params,send_to:id,page_location:cleanUrl(location.href),page_referrer:cleanUrl(document.referrer),transport_type:"beacon",...(debug ? {debug_mode:true} : {})});
@@ -512,6 +512,18 @@ async function init(){
       .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
     const e=richEvent(occ);
     const imageEvent=bestImageEvent(occ);
+
+    // GA4 standard ecommerce-style event view. item_id lets the Data API
+    // aggregate views per event without exposing personal information.
+    window.ashdodAnalytics?.send("view_item",{
+      currency:"ILS",
+      value:Number(e.price_min_ils||0),
+      items:[{
+        item_id:String(e.event_id||"").slice(0,100),
+        item_name:String(e.series_title||e.title||"").slice(0,100),
+        item_category:String(e.category||"").slice(0,40)
+      }]
+    });
 
     renderHero(e,occ,imageEvent);
     renderStory(e,occ);
