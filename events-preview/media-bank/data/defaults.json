@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "defaults": [
+    {
+      "key": "kids_theatre_default",
+      "name": "הצגת ילדים, ברירת מחדל",
+      "category": "kids",
+      "subtype": "theatre",
+      "url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
+      "format": "svg",
+      "aspect_ratio": "16:9",
+      "owned_by": "ISNET",
+      "rights_status": "owned_system_asset",
+      "publishable": true,
+      "reusable": true,
+      "strategy": "media_bank_default"
+    }
+  ]
+}
