@@ -27319,7 +27319,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:02Z",
       "missing_information": [
@@ -27353,7 +27353,8 @@
       ],
       "image_brief": "צילום צבעוני של שעת סיפור במרכז קהילתי: מספרת (רינתי) עומדת או יושבת בקדמת הבמה הקטנה ומדברת אל קבוצת ילדים שמסביב משתתפים בתנועה. בתפאורה אלמנטים של בניין בדימיון — דלתות וחלונות מצוירים או עמדות בובות שמייצגות דיירים. התאורה חמימה, הילדים לבושים באופן יום־יומי ונראים מעורבים בפעילות. התמונה תעביר תחושת אינטראקטיביות, תנועה וחמימות קהילתית.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -27420,7 +27421,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/כנר_על_הגג_5e3c66a747/?id=8242",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:25Z",
       "missing_information": [
@@ -27450,8 +27451,9 @@
         "קהל בצפייה"
       ],
       "image_brief": "תצלום או אילוסטרציה של דמות כנר (סילואט) עומדת על גג בעיר בשעת דמדומים, מול רקע שמיים חמים ותאורת במה עדינה; ברקע מטושטש ניתן לראות שערי תאורה ובית קולנוע/אולם, וקהל מרוחק/כיסאות שורות המוצללות. התמונה תשדר אווירת ערב תיאטרלית ומוזיקלית בלי טקסט מוטמע.",
-      "content_enrichment_status": "ready",
-      "image_strategy": "needs_exact_event_image"
+      "content_enrichment_status": "model_error",
+      "image_strategy": "needs_exact_event_image",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -27519,7 +27521,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/MALEVO/?id=8224",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:46Z",
       "missing_information": [
@@ -27532,7 +27534,8 @@
         "פירוט מחירים לפי קטגוריות מושבים",
         "פרטי המארגן ודרכי יצירת קשר נוספים"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
