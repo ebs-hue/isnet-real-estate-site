@@ -37,7 +37,7 @@ SYSTEM_FALLBACKS={
   "music":"assets/defaults/music.svg",
   "standup":"assets/defaults/standup.svg",
   "theatre":"assets/defaults/theatre.svg",
-  "kids":"assets/defaults/kids.svg",
+  "kids":"/events-preview/media-bank/defaults/kids-theatre-default.svg",
   "lecture":"assets/defaults/lecture.svg",
   "exhibition":"assets/defaults/exhibition.svg",
   "workshop":"assets/defaults/workshop.svg",
