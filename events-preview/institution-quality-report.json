@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-08T05:29:09+00:00",
+  "generated_at": "2026-10-08T05:56:11+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_events": 404,
+      "total_events": 365,
       "institution_count": 15,
-      "venue_matched": 301,
-      "operator_matched": 24,
-      "events_with_contact_phone": 292,
-      "events_with_specific_address": 282,
-      "official_photos_verified": 125,
-      "lecture_total": 18,
-      "lectures_without_verified_event_photo": 10,
+      "venue_matched": 265,
+      "operator_matched": 23,
+      "events_with_contact_phone": 267,
+      "events_with_specific_address": 257,
+      "official_photos_verified": 112,
+      "lecture_total": 17,
+      "lectures_without_verified_event_photo": 9,
       "operator_event_counts": {
-        "ofek_ashdod": 24
+        "ofek_ashdod": 23
       },
       "frequently_unmatched_venue_names": [
         {
@@ -49,11 +49,7 @@
           "count": 2
         },
         {
-          "name": "בית הנוער - דיונה",
-          "count": 2
-        },
-        {
-          "name": "מרכז פסגה",
+          "name": "בית הנוער - דיונה קק\"ל 90 אשדוד",
           "count": 2
         },
         {
@@ -74,6 +70,10 @@
         },
         {
           "name": "מרכז קהילתי חרצית-שד' הפרחים 18",
+          "count": 1
+        },
+        {
+          "name": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
           "count": 1
         }
       ]

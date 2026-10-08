@@ -1,20 +1,20 @@
 {
-  "run_at": "2026-10-08T05:28:07Z",
+  "run_at": "2026-10-08T05:55:08Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 401,
+      "total_before": 404,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 221,
-          "valid": 203,
-          "new": 3,
-          "updated": 162,
-          "images_collected": 203
+          "valid": 170,
+          "new": 11,
+          "updated": 0,
+          "images_collected": 170
         },
         "mishkan_smarticket": {
           "status": "ok",
@@ -22,7 +22,7 @@
           "discovered": 102,
           "valid": 65,
           "new": 0,
-          "updated": 36,
+          "updated": 0,
           "images_collected": 65
         },
         "tickchak_ashdod": {
@@ -38,19 +38,20 @@
           "status": "ok",
           "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
           "discovered": 23,
-          "valid": 16,
+          "valid": 15,
           "new": 0,
           "updated": 0,
           "images_collected": 0
         }
       },
-      "new": 3,
-      "updated": 198,
+      "new": 11,
+      "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
+      "removed_classes": 50,
       "errors": [],
       "repaired_event_ids": 0,
-      "total_after": 404
+      "total_after": 365
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
@@ -87,7 +88,7 @@
           "status": "ok",
           "url": "https://www.kotar-rishon-lezion.org.il/events-category/eventsactivities/",
           "discovered": 71,
-          "valid": 37,
+          "valid": 36,
           "new": 0,
           "updated": 0,
           "images_collected": 0
@@ -116,6 +117,7 @@
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
+      "removed_classes": 0,
       "errors": [
         "RIZONE+:no_parseable_events",
         "Eventim:ReadTimeout"
