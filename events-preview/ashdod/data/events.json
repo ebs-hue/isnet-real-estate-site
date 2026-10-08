@@ -8581,7 +8581,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:29:32Z",
       "missing_information": [
@@ -8620,9 +8620,10 @@
       ],
       "image_brief": "צילום רחב של חלל גלריה במוזאון: בקדמת התמונה ציור מופשט רחב היקף הממלא קיר אחד, צמוד לו התקנת וידאו על מסך או מתקן הקרנה שמייצר תנועה בתמונה. הקומפוזיציה מדגישה את מרקם הצבע על הקנבס, הניגוד בינה לבין התמונה המוקרנת וקו־העיניים של המבקרים בתוך חלל גלריה לבן ופשוט.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
@@ -8688,8 +8689,9 @@
       "media_status": "waiting_for_content",
       "image_rights_status": "missing",
       "content_ready_for_media": false,
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "event_id": "evt_50_20261024",
@@ -8745,10 +8747,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_d30c98ba668b5f1d6a3555ca"
+      "media_bank_id": "media_d30c98ba668b5f1d6a3555ca",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -8820,7 +8823,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:29:54Z",
       "missing_information": [
@@ -8857,9 +8860,10 @@
       ],
       "image_brief": "צילום כיסוי רצוי יראה חלל גלריה פתוח במוזאון עם ציור אבסטרקט גדול על קיר לבן, מסך וידאו פועל ברקע ותאורה מוזיאלית נקודתית. המסגרת תכלול מבקר/ת אחד או שניים במרחק מתון כדי להמחיש מימד אנושי ולהדגיש את קנה המידה של היצירות, ללא טקסט מוטמע או לוגו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -8931,7 +8935,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כשירות_תרבותית_וגישור_מסורתי-_סדרת_הרצאות_/?id=17679",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:30:30Z",
       "missing_information": [
@@ -8966,7 +8970,8 @@
         "לוח או מצגת רקע עם נקודות שיח"
       ],
       "image_brief": "צילום כיסוי אנכי של מעגל דיון בחדר מפגש של מרכז קהילתי: מספר משתתפים במושבים מסודרים בצורת עיגול, מנחה עומד ומדבר, הבעות קשב ושיתוף על הפנים. התאורה חמימה, רקע של קירות פשוטים עם מדף ספרים או לוח קיר ועיצוב קהילתי ניטרלי. התמונה מדגישה מפגש בין-תרבותי ועשויה לכלול משתתפים בגילאים שונים, ללא לוגואים או טקסטים מוטמעים.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_51_20261025",
@@ -9023,7 +9028,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://gveret-rabia.tickchak.co.il/111257?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:30:51Z",
       "missing_information": [
@@ -9058,9 +9063,10 @@
       ],
       "image_brief": "תמונת שער אינטימית של המופע: גברת רביע עומדת על במה בתאורה נקודתית, מחזיקה מיקרופון, והקהל מאחוריה צוחק ומוחא כפיים. ברקע נראית וילון תיאטרון או קירות האולם של יד לבנים, עם אווירת ערב חמה ומזמינה. הדיון אינו צריך לכלול טקסט מוטמע או לוגואים — הדגש על אינטראקציה בין הקומיקאית לקהל ועל תחושת הופעה חיה המאולתרת.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8aa9b4635ea4946fc3450e51"
+      "media_bank_id": "media_8aa9b4635ea4946fc3450e51",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -9132,7 +9138,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17585",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:31:37Z",
       "missing_information": [
@@ -9171,9 +9177,10 @@
       ],
       "image_brief": "צילום כיסוי שמתרכז בחלל גלריה של מוזאון אשדוד לאמנות: קנווס גדול עם צבעים חזקים ומרקם בולט מונח על הקיר מול רצפת גלריה נקייה, לצד אזור שבו מוקם מסך או פלטפורמה לעבודה וידאו. התאורה ממוקדת המדגישה את עובי הצבע והטקסטורה, וברקע ניכרת הגדרה אדריכלית של חלל תערוכה פתוח.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261026_maccabi_ashdod_basketball",
@@ -9238,10 +9245,11 @@
       "representative_team": true,
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "image_rights_status": "needs_review",
-      "image_candidates": []
+      "image_candidates": [],
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -9305,7 +9313,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/חלון_לים_התיכון/?id=8113",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:32:00Z",
       "missing_information": [
@@ -9319,9 +9327,10 @@
         "מדיניות ביטולים והחלפות כרטיסים"
       ],
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "insufficient",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_1fc25d6f401234b2a405532b"
+      "media_bank_id": "media_1fc25d6f401234b2a405532b",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -9393,7 +9402,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17561",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:32:24Z",
       "missing_information": [
@@ -9430,9 +9439,10 @@
       ],
       "image_brief": "צילום של אחת מחללי התערוכה במוזאון אשדוד לאמנות: קיר עם ציור מופשט רחב היקף במרכז התמונה, תקריב על מרקם הצבע והמשיכות מברשת, וברקע מסך שמציג עבודה וידאו עדינה. התאורה המוזיאלית מדגישה את הטקסטורות והקונטראסט בין שטחי הצבע לפתחים הלבנים של החלל.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_73_20261028",
@@ -9496,7 +9506,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%97%D7%9C%D7%95%D7%9F_%D7%9C%D7%99%D7%9D_%D7%94%D7%AA%D7%99%D7%9B%D7%95%D7%9F/?id=8113",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:32:48Z",
       "missing_information": [
@@ -9527,9 +9537,10 @@
       ],
       "image_brief": "תצלום כיסוי שמרכז במה מוארת בתוך האולם של המשכן לאמנויות הבמה, עם קהל יושב מטושטש ברקע. יש להוסיף נגיעה ויזואלית המרחפת באווירת הים התיכון — למשל תאורה בגווני כחול עדינים או טקסטורה אופקית שמרמזת לקו אופק ולים, בלי טקסט מוטמע. הדגש על אווירת מופע חמה ומזמינה: כיסאות תיאטרון, אורות במה, נקודת מבט שמזמינה לצפות.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_1fc25d6f401234b2a405532b"
+      "media_bank_id": "media_1fc25d6f401234b2a405532b",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "sport_20261028_hapoel_ashdod_m_handball",
@@ -9594,8 +9605,9 @@
       "representative_team": true,
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
