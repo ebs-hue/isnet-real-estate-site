@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="150" viewBox="0 0 420 150" role="img" aria-labelledby="title desc">
+  <title id="title">מה עושים באשדוד</title>
+  <desc id="desc">לוגו מה עושים באשדוד</desc>
+  <defs>
+    <linearGradient id="cityBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18d6f2"/>
+      <stop offset="1" stop-color="#1c63f2"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff7a21"/>
+      <stop offset="1" stop-color="#ffd21f"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="150" fill="none"/>
+  <g text-anchor="middle" font-family="Heebo, Arial, sans-serif" font-weight="900" direction="rtl">
+    <text x="210" y="58" font-size="48" fill="#08346d">מה עושים</text>
+    <text x="210" y="112" font-size="52" fill="url(#cityBlue)">באשדוד</text>
+  </g>
+  <path d="M92 128 C170 145 260 143 333 126" fill="none" stroke="url(#warm)" stroke-width="11" stroke-linecap="round"/>
+</svg>
