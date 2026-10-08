@@ -116,15 +116,27 @@
   box-shadow:0 6px 18px rgba(0,0,0,.18);
 }
 .siteTopbar__ashdodnet img{display:block;width:108px;height:auto}
+.siteTopbar__events{
+  background:#fff;
+  padding:7px 14px;
+  border-radius:14px;
+  box-shadow:0 6px 18px rgba(0,0,0,.18);
+  min-height:58px;
+}
 .siteTopbar__events img{
   display:block;
-  width:185px;
+  width:176px;
   height:auto;
-  filter:drop-shadow(0 4px 10px rgba(0,0,0,.14));
+  filter:none;
 }
 @media(max-width:650px){
   .siteTopbar__inner{min-height:64px;width:min(100% - 20px,1200px);gap:12px}
   .siteTopbar__ashdodnet{padding:3px 5px;border-radius:9px}
   .siteTopbar__ashdodnet img{width:76px}
-  .siteTopbar__events img{width:138px}
+  .siteTopbar__events{
+    padding:5px 9px;
+    border-radius:10px;
+    min-height:48px;
+  }
+  .siteTopbar__events img{width:126px}
 }
