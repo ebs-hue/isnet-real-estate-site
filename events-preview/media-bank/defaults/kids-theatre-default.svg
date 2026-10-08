@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="הצגת ילדים - ברירת מחדל">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#173f8f"/><stop offset="1" stop-color="#0d2357"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f6c46d"/><stop offset="1" stop-color="#c98232"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<ellipse cx="800" cy="680" rx="520" ry="110" fill="#ffd56a" opacity=".22" filter="url(#glow)"/>
+<path d="M0 0h310c10 180 35 330 120 470-120 40-220 120-300 250H0z" fill="#9f1239"/>
+<path d="M1600 0h-310c-10 180-35 330-120 470 120 40 220 120 300 250h130z" fill="#9f1239"/>
+<path d="M0 0h1600v85c-260 50-520 65-800 65S260 135 0 85z" fill="#b91c3b"/>
+<path d="M0 85c250 42 500 62 800 62s550-20 800-62" fill="none" stroke="#f8c54e" stroke-width="18"/>
+<g fill="#ffd34f">
+  <polygon points="350,175 370,220 420,225 382,258 394,306 350,280 306,306 318,258 280,225 330,220"/>
+  <polygon points="1250,175 1270,220 1320,225 1282,258 1294,306 1250,280 1206,306 1218,258 1180,225 1230,220"/>
+  <polygon points="800,145 820,190 870,195 832,228 844,276 800,250 756,276 768,228 730,195 780,190"/>
+</g>
+<g fill="#fff" opacity=".95">
+  <ellipse cx="520" cy="300" rx="110" ry="48"/><ellipse cx="455" cy="310" rx="65" ry="38"/><ellipse cx="585" cy="312" rx="60" ry="35"/>
+  <ellipse cx="1080" cy="300" rx="110" ry="48"/><ellipse cx="1015" cy="310" rx="65" ry="38"/><ellipse cx="1145" cy="312" rx="60" ry="35"/>
+</g>
+<g transform="translate(505 340)">
+  <path d="M0 180c70-150 145-150 215 0" fill="none" stroke="#f43f5e" stroke-width="44"/>
+  <path d="M30 180c58-115 112-115 170 0" fill="none" stroke="#f59e0b" stroke-width="36"/>
+  <path d="M58 180c42-82 75-82 118 0" fill="none" stroke="#facc15" stroke-width="30"/>
+  <path d="M83 180c28-52 44-52 70 0" fill="none" stroke="#22c55e" stroke-width="24"/>
+  <path d="M104 180c15-28 24-28 34 0" fill="none" stroke="#38bdf8" stroke-width="18"/>
+</g>
+<g transform="translate(1050 390)">
+  <rect x="0" y="150" width="250" height="170" rx="8" fill="#f4d7a1"/>
+  <rect x="42" y="65" width="72" height="255" fill="#f0c98a"/>
+  <rect x="148" y="35" width="72" height="285" fill="#efc27d"/>
+  <polygon points="42,65 78,20 114,65" fill="#ef476f"/><polygon points="148,35 184,-10 220,35" fill="#ef476f"/>
+  <rect x="95" y="235" width="60" height="85" rx="28" fill="#7a4a2b"/>
+</g>
+<g transform="translate(175 410)">
+  <rect x="105" y="180" width="24" height="170" fill="#7c4a2d"/>
+  <circle cx="70" cy="135" r="78" fill="#51a94f"/><circle cx="140" cy="125" r="78" fill="#5abf58"/><circle cx="110" cy="75" r="72" fill="#65c95f"/>
+</g>
+<path d="M0 690c250-110 480-120 720-35 245 85 560 75 880-35v280H0z" fill="#2f7d44"/>
+<rect y="720" width="1600" height="180" fill="url(#floor)"/>
+<g fill="#ffd34f">
+  <polygon points="180,680 200,725 250,730 212,763 224,811 180,785 136,811 148,763 110,730 160,725"/>
+  <polygon points="1420,680 1440,725 1490,730 1452,763 1464,811 1420,785 1376,811 1388,763 1350,730 1400,725"/>
+</g>
+<g>
+  <circle cx="120" cy="560" r="42" fill="#ef4444"/><circle cx="175" cy="535" r="42" fill="#38bdf8"/><circle cx="145" cy="610" r="42" fill="#facc15"/>
+  <circle cx="1480" cy="560" r="42" fill="#f59e0b"/><circle cx="1425" cy="535" r="42" fill="#22c55e"/><circle cx="1455" cy="610" r="42" fill="#38bdf8"/>
+</g>
+</svg>
