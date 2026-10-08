@@ -94,10 +94,16 @@ function sportHeroFallback(e){
   const logo=team?.logo_url?'<img src="'+escapeHtml(team.logo_url)+'" alt="" onerror="this.remove()">':'<b>'+escapeHtml(teamInitials(name))+'</b>';
   return '<div class="fallback sportHeroFallback"><span class="sportHeroLogo">'+logo+'</span><span class="sportHeroBranch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span><strong>'+escapeHtml(name)+'</strong><small>משחק בית באשדוד</small></div>';
 }
+function isBlockedPurchaseUrl(url){
+  try{
+    const host=new URL(url,location.href).hostname.toLowerCase();
+    return host==="live.tickchak.co.il"||host==="tickchak.co.il"||host.endsWith(".tickchak.co.il");
+  }catch{return true}
+}
 function purchaseAction(e){
-  const url=String(e.purchase_url||e.ticket_url||"").trim();
-  if(/^https:\/\//i.test(url)){
-    return {href:url,label:e.ticket_status==="sold_out"?"לפרטים באתר המקור":"לפרטים ולהזמנה",kind:"url",soldOut:e.ticket_status==="sold_out"};
+  const url=String(e.purchase_url||"").trim();
+  if(/^https:\/\//i.test(url)&&!isBlockedPurchaseUrl(url)){
+    return {href:url,label:e.ticket_status==="sold_out"?"פרטי הרכישה":"לרכישת כרטיסים",kind:"url",soldOut:e.ticket_status==="sold_out"};
   }
   if(e.ticket_status==="sold_out")return null;
   const phone=String(e.purchase_phone||"").trim().replace(/[^0-9+]/g,"");
