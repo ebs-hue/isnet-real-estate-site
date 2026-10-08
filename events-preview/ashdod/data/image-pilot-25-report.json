@@ -1,0 +1,163 @@
+{
+  "pilot": "ashdod_missing_images_25",
+  "selected": 25,
+  "filled": 25,
+  "elapsed_seconds": 9.47,
+  "stats": {
+    "same_title": 11,
+    "fallback": 14
+  },
+  "non_target_events_changed": 0,
+  "events": [
+    {
+      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_90e0977c4c75e8ca55a9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_0a8724d73a8a25785bcb",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_fb3a2160cf3e31dedd3b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_617490407af714bb4af4",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_7d3a5639ec3847f8a137",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_1671f155d6a206c3de2b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_7b18a3b8878c1169693b",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_99d8856352ac024635f0",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "method": "same_title",
+      "image": "assets/events/ec1c4894f557c3316c3737.png"
+    },
+    {
+      "event_id": "auto_as_9d51882890e01e5a8488",
+      "title": "סדנא- שימור ושיפור הזיכרון",
+      "method": "fallback",
+      "image": "assets/defaults/lecture.svg"
+    },
+    {
+      "event_id": "auto_as_7fce1d9b4ab267e246e1",
+      "title": "הרצאה של יונתן סררו",
+      "method": "fallback",
+      "image": "assets/defaults/lecture.svg"
+    },
+    {
+      "event_id": "evt_94_20261012",
+      "title": "סערה בדלי מים",
+      "method": "fallback",
+      "image": "/events-preview/media-bank/defaults/kids-theatre-default.svg"
+    },
+    {
+      "event_id": "evt_95_20261012",
+      "title": "תשאירי פתוח",
+      "method": "fallback",
+      "image": "assets/defaults/theatre.svg"
+    },
+    {
+      "event_id": "auto_as_ffc63b0b4486bb31a455",
+      "title": "שירי קריוקי בקצב הדרבוקה",
+      "method": "fallback",
+      "image": "assets/defaults/music.svg"
+    },
+    {
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "method": "fallback",
+      "image": "/events-preview/media-bank/defaults/kids-theatre-default.svg"
+    },
+    {
+      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "title": "מכבי אשדוד - הפועל אריות ירושלים",
+      "method": "fallback",
+      "image": "assets/defaults/sport.svg"
+    },
+    {
+      "event_id": "evt_6_20261014",
+      "title": "עיצוב אורח חיים בריא",
+      "method": "fallback",
+      "image": "assets/defaults/lecture.svg"
+    },
+    {
+      "event_id": "auto_as_06f3de539c2d3e22b2ff",
+      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
+      "method": "fallback",
+      "image": "assets/defaults/lecture.svg"
+    },
+    {
+      "event_id": "auto_as_24bd564dd8d11f87e4ff",
+      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
+      "method": "fallback",
+      "image": "assets/defaults/workshop.svg"
+    },
+    {
+      "event_id": "auto_as_013751f4bb1f253a4a2f",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "method": "fallback",
+      "image": "assets/defaults/exhibition.svg"
+    },
+    {
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - מכבי קריית גת",
+      "method": "fallback",
+      "image": "assets/defaults/sport.svg"
+    },
+    {
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי חדרה",
+      "method": "fallback",
+      "image": "assets/defaults/sport.svg"
+    },
+    {
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
+      "method": "fallback",
+      "image": "assets/defaults/theatre.svg"
+    }
+  ]
+}
