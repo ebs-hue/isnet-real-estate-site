@@ -128,6 +128,12 @@ function statusBadge(e){
   if(e.is_free===true)return '<span class="badge free">חינם</span>';
   return "";
 }
+function isBlockedPurchaseUrl(url){
+  try{
+    const host=new URL(url,location.href).hostname.toLowerCase();
+    return host==="live.tickchak.co.il"||host==="tickchak.co.il"||host.endsWith(".tickchak.co.il");
+  }catch{return true}
+}
 function purchaseAction(e){
   if(e.ticket_status==="sold_out")return null;
   const phone=String(e.purchase_phone||"").trim();
@@ -136,7 +142,7 @@ function purchaseAction(e){
     if(dial)return {href:"tel:"+dial,label:"חייגו לרכישת כרטיסים",kind:"phone"};
   }
   const url=String(e.purchase_url||"").trim();
-  if(/^https?:\/\//i.test(url))return {href:url,label:"לרכישת כרטיסים",kind:"url"};
+  if(/^https?:\/\//i.test(url)&&!isBlockedPurchaseUrl(url))return {href:url,label:"לרכישת כרטיסים",kind:"url"};
   return null;
 }
 function eventGroupKey(e){
