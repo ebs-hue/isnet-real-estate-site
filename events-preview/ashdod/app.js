@@ -61,6 +61,11 @@ function nextWeekendRange(){
   return [fri,sat]
 }
 function formatTime(t){return t||"השעה תפורסם"}
+function isNonEventActivity(e){
+  const text=[e?.title,e?.series_title,e?.description,e?.variant_label].filter(Boolean).join(" ");
+  if(e?.category==="workshop"||e?.category==="classes")return true;
+  return /(?:סדנה|סדנת|סדנאות|קורס|קורסים|חוג|חוגים|פילאטיס|יוגה|טאי[־ -]?צ.?י|התעמלות|אימון קבוע|סטודיו פתוח|המרחב הבטוח|שיטת דורון|איזון מפרקים|מפגשים שבועיים|סדרת מפגשים|מחזור לימודים)/i.test(text);
+}
 function priceText(e){
   if(e.is_free===true)return "חינם";
   if(e.price_min_ils==null)return "מחיר לא פורסם";
@@ -341,7 +346,7 @@ function eventCard(e){
   const occ=eventOccurrences(e);
   const multi=occ.length>1;
   return '<article class="eventCard'+(e.category==="sport"?" eventCard--sport":"")+'" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
-    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+sportBranchBadgeHTML(e)+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
+    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+escapeHtml(catLabels[e.category]||"אירוע")+' ←</button>'+sportBranchBadgeHTML(e)+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
@@ -349,7 +354,7 @@ function eventCard(e){
 }
 function featureCard(e){
   return '<article class="featureCard" data-event="'+e.event_id+'">'+mediaHTML(e,"featureMedia")+
-    '<div class="featureBody">'+sportIdentityHTML(e)+'<div class="badges"><span class="badge">'+escapeHtml(catLabels[e.category]||"אירוע")+'</span>'+statusBadge(e)+'</div>'+
+    '<div class="featureBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+escapeHtml(catLabels[e.category]||"אירוע")+' ←</button>'+statusBadge(e)+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="featureMeta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>·</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
     '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
@@ -923,7 +928,7 @@ function render(){
   bindDynamic();
 }
 function bindDynamic(){
-  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart], [data-event-video], .dateStack__more"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
+  document.querySelectorAll("[data-event]").forEach(el=>el.onclick=e=>{if(e.target.closest("[data-heart], [data-event-video], [data-cat], .dateStack__more"))return;location.href="event.html?id="+encodeURIComponent(el.dataset.event)});
   document.querySelectorAll("[data-heart]").forEach(b=>b.onclick=e=>{e.stopPropagation();toggleFavorite(b.dataset.heart)});
   document.querySelectorAll("[data-event-video]").forEach(b=>b.onclick=e=>{e.stopPropagation();openEventVideo(b.dataset.eventVideo)});
   document.querySelectorAll("[data-date]").forEach(b=>b.onclick=()=>{
@@ -1032,12 +1037,14 @@ async function init(){
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
   ]);
   const horizon=addMonths(today(),5); horizon.setDate(today().getDate());
-  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon)&&e.category!=="workshop"&&!/(?:^|\s)(?:סדנה|סדנת|סדנאות|קורס|קורסים|חוג|חוגים)(?:\s|$)/.test(String(e.title||"")));
+  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon)&&!isNonEventActivity(e));
   state.fallbacks=fallbacks;
   state.generatedAt=data.generated_at||null;
   state.cinema=cinema.movies||[];
   state.cinemaUpdatedAt=cinema.updated_at||null;
   state.sportsMeta=sports||{branches:{},teams:[]};
+  const requestedCategory=new URLSearchParams(location.search).get("category");
+  if(requestedCategory&&Object.prototype.hasOwnProperty.call(catLabels,requestedCategory))state.category=requestedCategory;
   if(location.hash==="#cinema")state.cinemaOpen=true;
   render();
   renderCinema();
