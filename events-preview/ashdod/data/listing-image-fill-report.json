@@ -1,19 +1,13 @@
 {
-  "generated_at": "2026-10-08T14:53:46Z",
+  "generated_at": "2026-10-08T14:55:17Z",
   "total_events": 261,
   "verified_images": 261,
   "still_missing": 0,
   "stats": {
-    "revoked_generic_or_mismatched": 21,
-    "central_bank_reuse": 6,
-    "super_editor_fallback": 15
+    "revoked_generic_or_mismatched": 6,
+    "central_bank_reuse": 6
   },
   "revoked_assets": [
-    {
-      "asset": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
-      "events": 15,
-      "distinct_titles": 15
-    },
     {
       "asset": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
       "events": 5,
@@ -67,111 +61,6 @@
       "image": "../ashdod//events-preview/media-bank/cards/0d0db547de538bb97ef8c847.webp",
       "source": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
       "score": "central_bank"
-    },
-    {
-      "event_id": "auto_as_382f5504e06e1fcda12e",
-      "title": "הזקן והים",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_04029172fbcf458e2eb3",
-      "title": "יונתן גת מונארט 2026",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_6c9c620a36d91d0e9a47",
-      "title": "ישראל ארד מונארט 2026",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_833b74952b8fcc17694c",
-      "title": "רועי עלוני מונארט 2026",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
-      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_64cf140ac904f0ae4871",
-      "title": "התקווה 6",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_f45962e796919e19fbcd",
-      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_7baf69bd3cb635730590",
-      "title": "סיור טעימות ברמלה",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_399303973daa1a005314",
-      "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_3d3cdcdf993039f9fe16",
-      "title": "בעקבות סופרים בנחלאות",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-      "title": "בדרך ללב הפועם של רמת גן",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_9e8b223f38713dfb8a74",
-      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_2d86a3932207b0dfadb6",
-      "title": "אל עמק הברכה",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_96552a33f52aca95896d",
-      "title": "סיור טעימות במחנה יהודה",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_1bd891e217e32b97766c",
-      "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
-      "image": "assets/defaults/exhibition.svg",
-      "source": "ISNET",
-      "score": "representative_fallback"
     }
   ],
   "missing": []
