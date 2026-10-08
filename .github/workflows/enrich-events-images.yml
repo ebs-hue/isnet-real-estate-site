@@ -2,10 +2,11 @@ name: Enrich Ashdod event images
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
   workflow_run:
     workflows:
       - "Daily city event intake"
-      - "Enrich event content with AI"
     types: [completed]
   push:
     branches: [main]
@@ -22,7 +23,7 @@ permissions:
 
 concurrency:
   group: enrich-ashdod-event-images
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   enrich:
@@ -41,15 +42,19 @@ jobs:
           python-version: "3.12"
 
       - name: Reuse approved image from central media bank
+        continue-on-error: true
         run: python scripts/reuse_media_bank_images.py --city ashdod
 
       - name: Fill from official source listing cards
+        continue-on-error: true
         run: python scripts/fast_fill_event_images_from_listings.py
 
       - name: Pull images from recorded event sources
+        continue-on-error: true
         run: python scripts/enrich_event_images_v3.py
 
       - name: Remove generic image placeholders
+        continue-on-error: true
         run: python scripts/clean_event_image_placeholders_v2.py
 
       - name: Commit enriched event data
