@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-08T15:50:07Z",
+  "generated_at": "2026-10-08T16:18:14Z",
   "total_events": 327,
-  "events_with_publishable_images": 247,
-  "events_still_missing_images": 80,
+  "events_with_publishable_images": 248,
+  "events_still_missing_images": 79,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 49,
+    "ashdod_smarticket": 48,
     "mishkan_smarticket": 31
   },
   "missing_by_category": {
-    "exhibition": 43,
+    "exhibition": 42,
     "other": 34,
     "kids": 1,
     "lecture": 1,
@@ -241,11 +241,6 @@
     {
       "event_id": "auto_as_f1b6e8dc998d846caabd",
       "title": "סדנא- שימור ושיפור הזיכרון",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_6edc79b3206c44047ae2",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "reason": "no_verified_source_image"
     },
     {

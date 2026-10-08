@@ -19871,14 +19871,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/סיורים_מודרכים_במוזיאון_אשדוד_לאמנות/?id=17620",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/exhibition.svg",
+      "image_url": "/events-preview/ashdod/assets/defaults/exhibition.svg",
       "image_source": "ISNET internal representative artwork",
       "image_credit": "איור מייצג: ISNET",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "assets/defaults/exhibition.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/ashdod/assets/defaults/exhibition.svg",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -19896,7 +19896,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_6edc79b3206c44047ae2",
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "detail_checked_at": "2026-10-07",
@@ -19952,7 +19952,7 @@
       "image_brief": "צילום כיסוי שאינו כולל טקסט: חלל גלריה לבן במוזאון אשדוד לאמנות עם כמה עבודות לתצוגה — סדרת צילומים תלויים על אחד הקירות, בצד אחר קנבס גדול וצבעוני, ומסך קטן המציג קטע וידאו. תאורה מוזיאלית נעימה שמדגישה את המרקם והצבעים, רצפת גלריה נקייה ומסדר תצוגה שמעביר אופי של תערוכה עכשווית.",
       "media_status": "needs_image_research",
       "content_enrichment_status": "model_error",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -19962,7 +19962,8 @@
       ],
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_04f7c1373b347290ea747f48"
     },
     {
       "event_id": "evt_64_20261207",
