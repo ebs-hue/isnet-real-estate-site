@@ -38,6 +38,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Reuse approved image from central media bank
+        run: python scripts/reuse_media_bank_images.py --city ashdod
+
       - name: Fill from official source listing cards
         run: python scripts/fast_fill_event_images_from_listings.py
 
