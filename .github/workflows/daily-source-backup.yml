@@ -1,0 +1,39 @@
+name: Daily ISNET source backup
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 2 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout complete repository history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Create and verify Git bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p backup
+          git fetch --tags origin '+refs/heads/*:refs/remotes/origin/*'
+          git bundle create backup/isnet-source.bundle --all
+          git bundle verify backup/isnet-source.bundle
+          git clone --quiet backup/isnet-source.bundle /tmp/isnet-restore-check
+          test -f /tmp/isnet-restore-check/events-preview/ashdod/index.html
+          test -f /tmp/isnet-restore-check/events-preview/rishon-lezion/data/events.json
+          echo "Backup integrity and restore check passed."
+      - name: Keep a 30-day recovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: isnet-source-backup-${{ github.run_id }}
+          path: backup/isnet-source.bundle
+          retention-days: 30
+          if-no-files-found: error
+          compression-level: 0
