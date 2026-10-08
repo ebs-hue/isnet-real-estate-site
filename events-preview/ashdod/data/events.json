@@ -23266,7 +23266,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/עוד_לא_תמו_כל_פלאייך_/?id=8102",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:01:54Z",
       "missing_information": [
@@ -23299,7 +23299,8 @@
         "קו אנשים בכניסה"
       ],
       "image_brief": "צילום שנועד לשמש כמבוא לאירוע: מבט פנימי על אולם התיאטרון של המשכן, עם וילון במה סגור המואר באור חם מספויילייט, שורות כסאות ריקות בגוון אדמדם וקַדֶּם מטושטש של כרטיס נייר או סטריפ כרטיסים מונח על מושב בחזית. התאורה תרמוז על אווירת ערב ותיאום הופעה, ללא טקסט מוטמע או לוגואים.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -23367,7 +23368,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/THE_ROMANTIC_SOUL_/?id=8136",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:02:10Z",
       "missing_information": [
@@ -23397,7 +23398,8 @@
         "אווירה רומנטית עדינה"
       ],
       "image_brief": "צילום כיסוי: הבמה של המשכן לאמנויות הבמה אשדוד מוארת באור חם ותאורה נקודתית, עם מושבים ריקים או קהל מתיישב ברקע; בקדמת התמונה ניתן להראות זוג כרטיסים מונחים על מושב או כרטיס מחזיק יד, והאור יוצר אווירת רומנטיקה עדינה. אין להוסיף טקסט מוטמע על התמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -23465,7 +23467,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8119",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:02:30Z",
       "missing_information": [
@@ -23478,7 +23480,8 @@
         "פרטי ארגון/מפיק ודרכי יצירת קשר",
         "פרטי סידורי ישיבה והיכן לאסוף כרטיסים"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -23546,7 +23549,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:02:51Z",
       "missing_information": [
@@ -23575,7 +23578,8 @@
         "צופה נכנס לאולם"
       ],
       "image_brief": "צילום כיסוי שקט וקונקרטי: חזית המשכן לאמנויות הבמה באשדוד ביום שטוף שמש או צילום פנימי של האולם עם שורות כיסאות מסודרות ובמה מוארת בספוטלייט. בפרונט ניתן להראות יד שמחזיקה כרטיס או חבילת כרטיסים כדי לרמוז על רכישת כרטיסים, כשהמסגרת משדרת אווירת אירוע תרבותי ובלי טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -23628,7 +23632,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/פיטר_פן_|_שעת_סיפור_עם_רינתי/?id=17646",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:03:10Z",
       "missing_information": [
@@ -23662,7 +23666,7 @@
       ],
       "image_brief": "תמונת שער המציגה את רינתי יושבת על כיסא או כרית, קוראת מספר פתוח לקבוצת ילדים שיושבים בקדמתה על מזרנים או שטיח במרכז קהילתי קטן. ברקע קיר מקושט באיורים עדינים שמרמזים על ארץ לעולם-לא — עננים, כוכבים וצורת אי סלעית בסגנון פנטזיה. התאורה חמה ונעימה, הפוקוס על המבטים של הילדים והספר הפתוח, ללא טקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_strategy": "needs_exact_event_image",
       "image_candidates": [
@@ -23671,7 +23675,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -23724,7 +23729,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הכלבלב_השובב_/?id=17308",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:03:32Z",
       "missing_information": [
@@ -23761,7 +23766,7 @@
       ],
       "image_brief": "צילום כיסוי שמרכז דמות של כלבלב בדרכי הצגה — דמות חייתית או בובה/שחקן בעל תחפושת על במה קטנה וצבעונית, עם אורות חמימים שמדגישים את הדמות. בקדמת המסגרת כמה ילדים צופים בשקיקה או מחייכים בשורות הקדמיות, וברקע ניתן לראות חלק מהסט הבימתי הסימלי שמרמז על יציאה להרפתקה. התמונה תהיה בהירה וצבעונית, בממדים המתאימים לשימוש כפוסטר אירוע.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_strategy": "needs_exact_event_image",
       "image_candidates": [
@@ -23770,7 +23775,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
