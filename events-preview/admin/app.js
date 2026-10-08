@@ -5,6 +5,7 @@ const cityConfig=[
   {slug:"rishon-lezion",name:"ראשון לציון",base:"../rishon-lezion/"}
 ];
 let all=[];
+let analytics={generated_at:null,views_7d:{},views_30d:{},views_all:{}};
 const LOCAL_OVERRIDES_KEY="isnet-event-overrides";
 const LOCAL_NEW_KEY="isnet-new-events";
 
@@ -38,7 +39,11 @@ function issuesFor(e){
 }
 async function load(){
   $("resultCount").textContent="טוען נתונים...";
-  const shared=await fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]}));
+  const [shared,analyticsData]=await Promise.all([
+    fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]})),
+    fetch("data/event-analytics.json",{cache:"no-store"}).then(r=>r.ok?r.json():null).catch(()=>null)
+  ]);
+  if(analyticsData) analytics=analyticsData;
   const groups=await Promise.all(cityConfig.map(async city=>{
     const [data,editorial]=await Promise.all([
       fetch(city.base+"data/events.json",{cache:"no-store"}).then(r=>r.json()),
@@ -105,6 +110,14 @@ function renderStats(){
   ];
   $("summary").innerHTML=stats.map(([n,t,s])=>'<article class="stat"><strong>'+n+'</strong><span>'+t+'</span><small>'+s+'</small></article>').join("");
 }
+function viewsCell(e){
+  const id=String(e.event_id||"");
+  const v7=Number(analytics.views_7d?.[id]||0);
+  const v30=Number(analytics.views_30d?.[id]||0);
+  const allTime=Number(analytics.views_all?.[id]||0);
+  if(!analytics.generated_at)return '<span class="tag warn" title="ממתין לחיבור GA4">ממתין ל-GA4</span>';
+  return '<div class="views-cell" title="7 ימים / 30 ימים / מצטבר"><b>'+allTime.toLocaleString("he-IL")+'</b><small>'+v7.toLocaleString("he-IL")+' / '+v30.toLocaleString("he-IL")+'</small></div>';
+}
 function render(){
   renderStats();
   const rows=filtered();
@@ -135,6 +148,7 @@ function render(){
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
       '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
+      '<td>'+viewsCell(e)+'</td>'+
       '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
       '<td><a class="edit-link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
       '</tr>';
