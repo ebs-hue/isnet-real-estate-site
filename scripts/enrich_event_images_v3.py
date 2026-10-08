@@ -13,6 +13,17 @@ DATA=ROOT/"events-preview"/"ashdod"/"data"/"events.json"
 REPORT=ROOT/"events-preview"/"ashdod"/"data"/"image-enrichment-report.json"
 EVENT_HORIZON_MONTHS=5
 
+# Mandatory editorial image policy. The image collector is not allowed to use
+# "something from the same category" merely to fill space. Identity beats decoration.
+IMAGE_SELECTION_POLICY = (
+    "1 official event poster/photo; "
+    "2 official artist/speaker/production image when it unmistakably matches the event; "
+    "3 official program/book/institution asset only when it is genuinely the subject; "
+    "4 otherwise leave the event without a source photo and let the UI use a topical fallback. "
+    "Never use logos, unrelated venue photos, generic category stock, or a visually attractive image "
+    "whose identity cannot be verified."
+)
+
 def add_months(d,months):
     import calendar
     month_index=d.month-1+months
@@ -232,6 +243,8 @@ def main():
             e["image_verified"]=True
             e["image_rights_status"]="verified_official_source"
             e["image_strategy"]="collected_source_image_verified"
+            e["image_quality_tier"]="official_event_or_exact_source"
+            e["image_policy_version"]=2
             stats["verified_existing_candidate"]+=1
             print(f"[{i:03d}/{len(events)}] VERIFIED EXISTING {title} -> {current}")
             continue
@@ -253,6 +266,8 @@ def main():
             e["image_verified"]=True
             e["image_rights_status"]="verified_official_source"
             e["image_strategy"]="official_source_image"
+            e["image_quality_tier"]="official_event_or_exact_source"
+            e["image_policy_version"]=2
             stats["reused_by_title"]+=1
             continue
 
@@ -301,11 +316,16 @@ def main():
             e["image_verified"]=True
             e["image_rights_status"]="verified_official_source"
             e["image_strategy"]="official_source_image"
+            e["image_quality_tier"]="official_event_or_exact_source"
+            e["image_policy_version"]=2
             title_cache[ck]=selected
             stats["enriched"]+=1
             print(f"[{i:03d}/{len(events)}] IMAGE {title} -> {img}")
         else:
-            stats["missing"]+=1;failures.append({"event_id":e.get("event_id"),"title":title,"sources":sources,"tried":tried})
+            e["media_status"]="needs_image_research"
+            e["image_quality_tier"]="topical_fallback_only"
+            e["image_policy_version"]=2
+            stats["missing"]+=1;failures.append({"event_id":e.get("event_id"),"title":title,"sources":sources,"tried":tried,"image_brief":e.get("image_brief"),"image_search_queries":e.get("image_search_queries")})
             print(f"[{i:03d}/{len(events)}] MISS {title}")
 
     missing=[e for e in events if not(e.get("image_url") and e.get("image_publishable") is True)]
