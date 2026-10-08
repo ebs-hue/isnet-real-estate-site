@@ -245,7 +245,7 @@ def ask_model(event, source_text, source_url, require_web_search=False):
         "https://api.openai.com/v1/responses",
         headers={"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"},
         json=request_body,
-        timeout=120,
+        timeout=45,
     )
     if not r.ok:
         body = (r.text or "")[:1600]
@@ -347,14 +347,14 @@ def main():
             try:
                 result = None
                 last_exc = None
-                for attempt in range(1, 4):
+                for attempt in range(1, 3):
                     try:
                         result = ask_model(event, source_text, source_url, require_web_search=require_web_search)
                         break
                     except Exception as exc:
                         last_exc = exc
                         print("MODEL RETRY", slug, event.get("event_id"), attempt, clean_text(str(exc))[:400], flush=True)
-                        time.sleep(2 * attempt)
+                        time.sleep(1.5 * attempt)
                 if result is None:
                     raise last_exc or RuntimeError("model request failed")
                 ok = apply_result(event, result, source_url)
