@@ -1,0 +1,43 @@
+name: Ashdod 25 missing-image pilot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/pilot_fill_25_missing_images.py"
+      - ".github/workflows/pilot-ashdod-25-images.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pilot-ashdod-25-images
+  cancel-in-progress: false
+
+jobs:
+  pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run safe 25-event pilot
+        run: python -u scripts/pilot_fill_25_missing_images.py
+      - name: Commit pilot results
+        run: |
+          git config user.name "isnet-events-pilot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json events-preview/ashdod/data/image-pilot-25-report.json events-preview/ashdod/assets/events
+          if git diff --cached --quiet; then
+            echo "No pilot changes."
+            exit 0
+          fi
+          git commit -m "Fill 25 missing Ashdod event images safely"
+          git pull --rebase origin main
+          git push origin HEAD:main
