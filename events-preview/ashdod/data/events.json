@@ -22007,7 +22007,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:22Z",
       "missing_information": [
@@ -22036,9 +22036,10 @@
       ],
       "image_brief": "צילום אווירה של הבמה החשוכה במרכז המשכן: וילון תיאטרון חלקי ברקע, ספוטלייט חם המאיר אזור קטן בבמה וצללית של שחקן/שחקנית בעמידה במרכז. בקדמת התמונה ניתן לכלול שורת מושבים ריקה או קהל מטושטש ברקע כדי להדגיש את אווירת ההצגה. התמונה תהיה חמה וממוקדת על תאורה ותפאורה, ללא טקסט או לוגו.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_fa7e37052b4c0ae36f400714"
+      "media_bank_id": "media_fa7e37052b4c0ae36f400714",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -22103,7 +22104,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33871",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:46Z",
       "missing_information": [
@@ -22136,12 +22137,13 @@
       ],
       "image_brief": "צילום מקורה של אולם קהילתי במהלך ערב הרצאה: קדמת התמונה מראה פודיום עם מיקרופון או שולחן מרצה, ברקע שורות כיסאות מלאות קהל מבוגרים שמתמקדים בדובר. בצד ניתן להראות שולחן קבלה עם טפסים וכרטיסים, לצד שלט כניסה דיסקרטי של קתדרת אופק (ללא לוגואים מוצגים בגדול). תאורה חמה ואווירה אינטימית שמדגישה מפגש למידה קהילתי.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -22254,7 +22256,10 @@
       "source_detail_text": "דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים דף הבית דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים 29/12/2026 10:00 דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים מרכז פסגה (מפת הגעה) ביום שלישי, 29 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 383,
       "image_strategy": "detail_page_high_quality_candidate",
-      "event_id": "auto_as_7f19ce4f79e93abe6dc9"
+      "event_id": "auto_as_7f19ce4f79e93abe6dc9",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_88_20261229",
@@ -22348,7 +22353,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8146",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:59:37Z",
       "missing_information": [
@@ -22380,9 +22385,10 @@
       ],
       "image_brief": "צילום פנים של אולם תיאטרון בערב: במה ריקה מוארת בספוטלייט חם, שורות כיסאות חשוכות ברקע ותוכנית/כרטיס מוטל על מושב מקדימה. אווירה של ערב הופעה חשוך־נעים, עם דגש על התאורה והחלל של המשכן.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_fa7e37052b4c0ae36f400714"
+      "media_bank_id": "media_fa7e37052b4c0ae36f400714",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_89_20261230",
@@ -22476,7 +22482,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8147",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:59:55Z",
       "missing_information": [
@@ -22507,9 +22513,10 @@
       ],
       "image_brief": "צילום פנימי של המשכן לאמנויות הבמה באשדוד: הבמה מוארת בספוטלייטים חמים, וילון חצי פתוח שמרמז על התחלת מופע, ושורות מושבים מטושטשות ברקע. התאורה תיצר אווירת ערב תיאטרלית ומדגישה את מרכז הבמה כמוקד המתרחש.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_fa7e37052b4c0ae36f400714"
+      "media_bank_id": "media_fa7e37052b4c0ae36f400714",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_90_20261231",
@@ -22603,7 +22610,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8148",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:00:13Z",
       "missing_information": [
@@ -22634,9 +22641,10 @@
       ],
       "image_brief": "צילום אווירה של אולם ההצגות בהמשכן: במה מוארת בספוּטלייטים חמים, וילון חצי פתוח ורצפת במה מבריקה, בשורה קדמית של מושבים מטושטשת ברקע כדי להדגיש עומק. אפשר לכלול פריט שולחני כמו חבילת כרטיסים מונחת על מושב או ליד ידית הכניסה כדי לרמוז על אירוע קרוב — ללא טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_fa7e37052b4c0ae36f400714"
+      "media_bank_id": "media_fa7e37052b4c0ae36f400714",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_91_20270102",
