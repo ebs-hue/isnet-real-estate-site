@@ -18386,7 +18386,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17595",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:42:03Z",
       "missing_information": [
@@ -18425,9 +18425,10 @@
       ],
       "image_brief": "צילום רוחבי של חלל גלריה במוזאון: קיר עם ציור מופשט גדול ומרקמי לצד מסך ההקרנה המציג עבודת וידאו, רצפת גלריה נקייה ותאורה מוזיאלית שמדגישה את מרקם הצבעים. בתמונה ייראה גם מבקר בוחן עבודה מרחוק כדי להמחיש את קנה המידה והאינטראקציה בין העבודות במוצג.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18543,7 +18544,10 @@
       "event_id": "auto_as_59d21b15c55e0e5716a8",
       "detail_checked_at": "2026-10-08",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true
+      "details_verified": true,
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18604,7 +18608,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:42:45Z",
       "missing_information": [
@@ -18640,12 +18644,13 @@
       ],
       "image_brief": "תמונה פנורמית של קטע מסלעי ברכס הר הנגב בשעות הבוקר המוקדמות, עם שביל ברור שמוביל לעבר קו הרכס; בקדמת התמונה כמה צעדי דרך או מטיילים מרוחקים שמתקדמים על השביל, צמחייה מדברית רדודה ואור זהוב של בוקר שמדגיש מרקם סלעי. התמונה תעביר תחושת סיור שטח ונוף פתוח ללא טקסט מוטמע.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18761,7 +18766,10 @@
       "event_id": "auto_as_d9054166e8decd8ba99d",
       "detail_checked_at": "2026-10-08",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true
+      "details_verified": true,
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18882,7 +18890,10 @@
       "venue_phone": "08-9238677",
       "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
       "contact_phone": "08-9238677",
-      "contact_email": "up60plus@ashdod.muni.il"
+      "contact_email": "up60plus@ashdod.muni.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -18948,7 +18959,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הצגת_ענק_עלילות_המכבים/?id=17670",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:45:21Z",
       "missing_information": [
@@ -18985,10 +18996,11 @@
       ],
       "image_brief": "צילום במה צבעוני של מופע ילדים: שחקן/שחקנית מול קהל ילדים שנראים מעורבים ומוחאים כפיים, ברקע תפאורה עם סממני חנוכה (כמו חנוכיה או נרות) ותאורה חמה שמדגישה אווירה חגיגית ומשפחתית. התמונה תעביר את תחושת ההשתתפות והקשר בין המבצע לקהל הצעיר.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_candidates": [],
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_0cd545b49063026c3e11a931"
+      "media_bank_id": "media_0cd545b49063026c3e11a931",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",

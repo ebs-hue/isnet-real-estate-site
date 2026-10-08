@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:48:32Z",
+  "generated_at": "2026-10-08T11:49:11Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_255eb2a0c98790b70d69",
+      "event_id": "auto_as_6347127f965dcf0e1e59",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_a8e751087c2d16482459",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_59d21b15c55e0e5716a8",
+      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_83_20261128",
-      "title": "חיילים יצאו לדרך",
+      "event_id": "auto_as_399303973daa1a005314",
+      "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f37ddc7e60553c75692d",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_d9054166e8decd8ba99d",
+      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ccab329e9dce87dcb028",
-      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "event_id": "auto_as_f1b6e8dc998d846caabd",
+      "title": "סדנא- שימור ושיפור הזיכרון",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_208cc1d709030d29da9a",
-      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "event_id": "auto_as_cc2d1cac424acf768c45",
+      "title": "הצגת ענק עלילות המכבים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
