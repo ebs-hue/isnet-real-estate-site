@@ -88,24 +88,38 @@ button,a{touch-action:manipulation}
   position:relative;z-index:2;
 }
 .eyebrow{
-  margin:0 0 10px;
+  margin:0 0 8px;
   color:#8fcaff;
   font:800 15px "Heebo",sans-serif;
   letter-spacing:.2px;
 }
-.hero h1{
+.heroTitle{
   margin:0;
-  font:900 clamp(46px,8vw,86px)/.96 "Heebo",sans-serif;
-  letter-spacing:-3.2px;
+  font:900 clamp(42px,6.7vw,72px)/.94 "Heebo",sans-serif;
+  letter-spacing:-2.4px;
   text-wrap:balance;
 }
-.hero h1 span{
-  display:inline-block;
-  background:linear-gradient(90deg,#fff 15%,#8ed5ff 60%,#ffd98a);
-  -webkit-background-clip:text;background-clip:text;color:transparent;
+.heroTitle__top{
+  display:block;
+  color:#fff;
+}
+.heroTitle__bottom{
+  display:block;
+  background:linear-gradient(90deg,#19d1ef 0%,#78cfff 48%,#f0d074 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+.heroTitle__accent{
+  width:112px;
+  height:7px;
+  border-radius:999px;
+  margin:13px auto 0;
+  background:linear-gradient(90deg,#ff7a24,#ffd23e);
+  box-shadow:0 4px 12px rgba(255,137,31,.22);
 }
 .hero__lead{
-  max-width:720px;margin:20px auto 29px;
+  max-width:720px;margin:17px auto 29px;
   color:#dce8f5;
   font-size:clamp(18px,2.2vw,24px);
   font-weight:500;
