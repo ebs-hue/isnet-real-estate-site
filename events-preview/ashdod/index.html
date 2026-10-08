@@ -14,11 +14,17 @@
    illustrations are pending; these backgrounds are temporary and labeled. */
 .operatorStrip{display:flex;flex-wrap:wrap;justify-content:center;gap:11px;margin:16px 0 5px}
 .operatorStrip[hidden]{display:none!important}
-.operatorStrip a{display:flex;align-items:center;gap:9px;max-width:440px;text-decoration:none;
-  border-radius:17px;padding:11px 16px;background:#fff;color:#154271;box-shadow:0 9px 25px rgba(6,26,54,.16)}
-.operatorStrip a b{font:850 15px "Heebo",sans-serif}
-.operatorStrip a small{display:block;color:#617994;font-size:12px;font-weight:700}
-.operatorStrip a>span:last-child{margin-inline-start:auto;font-size:23px;color:#1768b2}
+.operatorStrip a{display:flex;align-items:center;gap:11px;max-width:440px;text-decoration:none;
+  border-radius:18px;padding:11px 15px;background:linear-gradient(135deg,#176ba7,#1595b8);color:#fff;
+  border:1px solid rgba(255,255,255,.22);box-shadow:0 10px 26px rgba(6,26,54,.20);
+  transition:transform .18s ease,box-shadow .18s ease}
+.operatorStrip a:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(6,26,54,.26)}
+.operatorStrip a:before{content:"▣";display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;
+  border-radius:14px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.25);
+  color:#fff;font:900 22px/1 "Heebo",sans-serif}
+.operatorStrip a b{font:850 15px "Heebo",sans-serif;color:#fff}
+.operatorStrip a small{display:block;color:rgba(255,255,255,.82);font-size:12px;font-weight:700}
+.operatorStrip a>span:last-child{margin-inline-start:auto;font-size:22px;color:#fff}
 .eventCard:nth-child(6n+1) .eventMedia.cat-lecture .category-fallback,
 .featureCard:nth-child(6n+1) .featureMedia.cat-lecture .category-fallback{background:linear-gradient(135deg,#2a406d,#735177 62%,#b87560)}
 .eventCard:nth-child(6n+2) .eventMedia.cat-lecture .category-fallback,
@@ -40,7 +46,11 @@
   padding:3px 8px;border-radius:20px;font:700 10px "Assistant",sans-serif}
 .eventMedia.cat-lecture .fallbackMark,.featureMedia.cat-lecture .fallbackMark{font-size:62px!important;color:rgba(255,255,255,.39)!important;left:22px;top:17%}
 .eventMedia.cat-lecture .fallbackLabel,.featureMedia.cat-lecture .fallbackLabel{bottom:33px}
-@media(max-width:650px){.operatorStrip a{width:100%;padding:9px 12px}.operatorStrip a b{font-size:13px}}
+@media(max-width:650px){
+  .operatorStrip a{width:100%;padding:9px 11px}
+  .operatorStrip a:before{flex-basis:38px;width:38px;height:38px;border-radius:12px;font-size:20px}
+  .operatorStrip a b{font-size:13px}
+}
 </style>
 
 </head>
