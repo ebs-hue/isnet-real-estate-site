@@ -28,7 +28,7 @@ DATA = SITE / "data" / "events.json"
 REPORT = SITE / "data" / "image-audit.json"
 OUT = SITE / "assets" / "events"
 MEDIA_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "media.json"
-PRODUCTIONS_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "productions.json"
+ENTITIES_INDEX = ROOT / "events-preview" / "media-bank" / "data" / "entities.json"
 AGENTS = {"User-Agent": "Mozilla/5.0 (compatible; ISNET-EventsImageQA/1.0; editorial event listings)", "Accept-Language": "he-IL,he;q=0.9,en;q=0.8"}
 SITES = {
     "htrl": ["https://htrl.co.il/show/", "https://htrl.co.il/", "https://htrl.co.il/לוח-שנה/"],
@@ -42,6 +42,21 @@ session = requests.Session()
 session.headers.update(AGENTS)
 cache = {}
 link_indexes = {}
+EVENT_HORIZON_MONTHS = 12
+
+def add_months(d, months):
+    import calendar
+    month_index = d.month - 1 + months
+    year = d.year + month_index // 12
+    month = month_index % 12 + 1
+    day = min(d.day, calendar.monthrange(year, month)[1])
+    return date(year, month, day)
+
+def in_horizon(e):
+    value = str(e.get("start_date") or "")
+    today = date.today()
+    return today.isoformat() <= value <= add_months(today, EVENT_HORIZON_MONTHS).isoformat()
+
 
 def norm(value):
     v = unicodedata.normalize("NFKC", str(value or "")).casefold()
@@ -215,6 +230,9 @@ def download_photo(url, origin):
         session.headers.pop("Referer", None)
 
 def bank_asset_url(media):
+    card = media.get("card_url") or ""
+    if card:
+        return "/events-preview/" + card.lstrip("/")
     u = media.get("url") or ""
     if not u:
         return None
@@ -228,18 +246,18 @@ def bank_asset_url(media):
     return u
 
 def load_bank_reuse():
-    if not MEDIA_INDEX.is_file() or not PRODUCTIONS_INDEX.is_file():
+    if not MEDIA_INDEX.is_file() or not ENTITIES_INDEX.is_file():
         return {}
     media_doc = json.loads(MEDIA_INDEX.read_text(encoding="utf-8"))
-    prod_doc = json.loads(PRODUCTIONS_INDEX.read_text(encoding="utf-8"))
+    entity_doc = json.loads(ENTITIES_INDEX.read_text(encoding="utf-8"))
     by_id = {m.get("media_id"): m for m in media_doc.get("media", []) if m.get("media_id")}
     out = {}
-    for p in prod_doc.get("productions", []):
+    for p in entity_doc.get("productions", []):
         mid = p.get("preferred_media_id")
         m = by_id.get(mid)
         if not m or m.get("status") != "approved" or m.get("publishable") is not True:
             continue
-        out[p.get("production_key") or norm(p.get("name"))] = m
+        out[p.get("entity_key") or norm(p.get("label"))] = m
     return out
 
 def content_ready_for_media(e):
