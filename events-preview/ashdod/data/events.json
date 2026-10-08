@@ -13258,7 +13258,10 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -13330,7 +13333,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17566",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:46:49Z",
       "missing_information": [
@@ -13367,9 +13370,10 @@
       ],
       "image_brief": "צילום של חלל גלריה במוזאון אשדוד לאמנות המציג בצד אחד ציור מופשט רחב היקף עם מרקם וצבע בולט, ובצד השני התקנת וידאו על מסך או דופן. החדר מואר באור טבעי/גיליוני תאורה מוזאוני, יש מעברים פנויים לצפייה ועטיפה שמדגישה את תחושת המרחב והחומר. עדיף לכלול מבט פנורמי שמראה גם את הקנה מידה של העבודות וגם את יחסן זה לזה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_75_20261110",
@@ -13433,7 +13437,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%A4%D7%99%D7%9C_%D7%A9%D7%A8%D7%A6%D7%94_%D7%9C%D7%94%D7%99%D7%95%D7%AA_%D7%94%D7%9B%D7%99_9980ca8a64/?id=8216",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:47:42Z",
       "missing_information": [
@@ -13463,9 +13467,10 @@
       ],
       "image_brief": "צילום כיסוי שמציג סצנה במהית: דמות פיל במרכז הבמה (שחקן בתחפושת או בובה) בתאורת ספוטלייט חמימה, עם תפאורה צבעונית ידידותית לילדים ורקע של קהל משפחות וילדים בשורות הקדמיות. התחושה הכללית היא חמה, משמחת ותיאטרלית; הרקע מצביע על סצנת הופעה בתוך אולם המשכן.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_96e5a8121db34efa5afc6450"
+      "media_bank_id": "media_96e5a8121db34efa5afc6450",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -13537,7 +13542,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17567",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:48:02Z",
       "missing_information": [
@@ -13573,9 +13578,10 @@
       ],
       "image_brief": "צילום רחב של חלל תצוגה במוזאון: קירות לבנים עם ציור מופשט גדול שתופס חלק גדול מהמסגרת, לידו מסך או פלטפורמה להקרנת וידאו. האור במוזיאון ברור ומכוון, רצפת החלל ריקה יחסית כדי להדגיש את הממדים של היצירות. כמה מבקרים עוברים בין העבודות כדי להמחיש את חוויית הביקור.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_76_20261111",
@@ -13639,7 +13645,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%99%D7%A1%D7%98%D7%A0%D7%91%D7%95%D7%9C_-_%D7%A0%D7%A4%D7%95%D7%9C%D7%99_-%D7%9E%D7%A8%D7%A1%D7%99%D7%99/?id=8111",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:48:19Z",
       "missing_information": [
@@ -13673,9 +13679,10 @@
       ],
       "image_brief": "צילום ערב של הבמה באולם המשכן לאמנויות הבמה: במה מוארת בספוטלייטים חמים, שורות מושבים ריקות או עם כמה צלליות של מבקרים, ותקריב של כרטיס או זוג כרטיסים על מושב בחזית. האווירה ערבית-תיאטרלית, תאורה דרמטית, ללא טקסט מוטבע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_1ea0a109f88f0dfa572f6fc5"
+      "media_bank_id": "media_1ea0a109f88f0dfa572f6fc5",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -13747,7 +13754,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17590",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:48:33Z",
       "missing_information": [
@@ -13786,9 +13793,10 @@
       ],
       "image_brief": "צילום פנורמי של חלל תערוכה במוזאון: קיר עם ציור מופשט רחב היקף וצבעוני מימין, משטח תצוגה של עבודת וידאו או מסך משמאל, רצפת גלריה נקייה ותאורה גלרית ממוקדת. בתמונה כמה מבקרים במרחק המתבוננים בעבודות, המייצרים תחושת סקייל והיקף של היצירות בתוך המרחב המוזיאלי.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_58_20261112",
