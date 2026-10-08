@@ -1,19 +1,7 @@
-name: Enrich Ashdod images from event pages
+name: Enrich Ashdod images direct
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - "scripts/enrich_event_images_direct.py"
-      - ".github/workflows/enrich-ashdod-images-direct.yml"
-
-permissions:
-  contents: write
-
-concurrency:
-  group: enrich-ashdod-images-direct
-  cancel-in-progress: true
 
 jobs:
   enrich:
