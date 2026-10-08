@@ -750,7 +750,9 @@ function renderDates(){
   monthBox.hidden=state.calendarMode!=="month";
 
   if(state.calendarMode==="week"){
-    const start=new Date(state.calendarWeek),end=daysFrom(start,6);
+    const weekStart=new Date(state.calendarWeek),weekEnd=daysFrom(weekStart,6);
+    const start=weekStart<t?t:weekStart;
+    const end=weekEnd;
     label.textContent=fmtDate.format(start)+" – "+fmtDate.format(end);
     rail.innerHTML=Array.from({length:7},(_,i)=>daysFrom(start,i)).map(d=>{
       const id=iso(d),cnt=counts[id]||0,active=state.date===id?" is-active":"",past=d<t?" is-past":"";
@@ -760,7 +762,7 @@ function renderDates(){
         (cnt?'<span class="dateCount">'+cnt+' אירועים</span>':'<span class="dateCount is-empty">אין אירועים</span>')+
       '</button>';
     }).join("");
-    state.calendarMonth=firstOfMonth(start);
+    state.calendarMonth=firstOfMonth(weekStart);
     select.value=iso(state.calendarMonth);
   }else{
     const month=firstOfMonth(state.calendarMonth);
@@ -782,7 +784,8 @@ function renderDates(){
   const apply=$("calendarApply"),selectionText=$("calendarSelectionText");
   if(apply&&selectionText){
     if(state.calendarMode==="week"){
-      const start=startOfWeek(state.calendarWeek),end=daysFrom(start,6);
+      const weekStart=startOfWeek(state.calendarWeek),end=daysFrom(weekStart,6);
+      const start=weekStart<t?t:weekStart;
       const count=state.events.filter(e=>e.start_date>=iso(start)&&e.start_date<=iso(end)).length;
       apply.textContent="הצג אירועי השבוע";
       selectionText.textContent=new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(start)+" – "+new Intl.DateTimeFormat("he-IL",{day:"numeric",month:"short"}).format(end)+" · "+count+" אירועים";
