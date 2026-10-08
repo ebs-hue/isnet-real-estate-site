@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 7
+CONTENT_ENRICHMENT_VERSION = 8
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 EVENT_HORIZON_MONTHS = 5
 
@@ -167,6 +167,8 @@ def ask_model(event, source_text, source_url, require_web_search=False):
 - אל תשמר מבנה משפטים, סדר פסקאות או ניסוחים ייחודיים של המקור כאשר אפשר לנסח את העובדה באופן עצמאי.
 - ציטוט ישיר מותר רק אם הוא חיוני ומיוחס בבירור, ובכל מקרה קצר מאוד.
 - התוכן צריך להרגיש כמו כתיבה מקורית של מערכת ISNET ולא כמו תקציר מועתק או פרפראזה צמודה.
+- אסור להכניס לתוך event_summary, short_pitch, long_description, seo_title או seo_description כתובות URL, קישורי Markdown, שמות דומיין בסוגריים, סימוני ציטוט או אסמכתאות בסגנון [מקור](https://...), ([domain](https://...)) או utm_source=openai.
+- המקורות נועדו למחקר פנימי בלבד. הקורא באתר צריך לראות טקסט מערכתי נקי, ללא אסמכתאות טכניות בתוך הפסקאות.
 - אל תכתוב טקסט גנרי שאפשר להדביק על כל אירוע.
 - אין צורך לנפח: עדיף טקסט מדויק, מעניין וקולח על פני מלל ארוך.
 - אם המידע עדיין לא מספיק כדי להבין מהו האירוע, החזר content_ready_for_media=false.
@@ -259,6 +261,23 @@ def ask_model(event, source_text, source_url, require_web_search=False):
                 break
     return json.loads(text)
 
+def sanitize_editorial_text(value):
+    """Remove research citations/URLs that must never leak into published editorial copy."""
+    text = clean_text(value)
+    if not text:
+        return text
+    # Markdown links: [label](https://example.com/...)
+    text = re.sub(r'\[([^\]]+)\]\(https?://[^)]+\)', r'\1', text)
+    # Parenthesized markdown/citation wrappers that may remain after model web search.
+    text = re.sub(r'\(\s*\[([^\]]+)\]\s*\)', r'\1', text)
+    # Raw URLs.
+    text = re.sub(r'https?://\S+', '', text)
+    # Common source-only parentheticals such as "(assafitzhaki.com)".
+    text = re.sub(r'\(\s*(?:www\.)?[A-Za-z0-9.-]+\.(?:co\.il|com|org|net|il)\s*\)', '', text)
+    text = re.sub(r'\s+([,.;:!?])', r'\1', text)
+    return clean_text(text)
+
+
 def apply_result(event, result, source_url):
     ready = result.get("content_ready_for_media") is True
     event["content_ready_for_media"] = ready
@@ -279,6 +298,8 @@ def apply_result(event, result, source_url):
     ):
         value = result.get(key)
         if value not in (None, "", []):
+            if key in {"event_summary", "short_pitch", "long_description", "seo_title", "seo_description", "image_brief"}:
+                value = sanitize_editorial_text(value)
             event[key] = value
     event["media_status"] = "ready_for_media"
     return True
