@@ -726,10 +726,9 @@ function renderDates(){
   const calendarBox=$("calendarBox"),resetButton=$("resetDate");
   if(calendarBox)calendarBox.hidden=state.calendarCollapsed;
   if(resetButton){
-    resetButton.innerHTML=state.calendarCollapsed
-      ?'<svg class="calendarOpenIcon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/><path d="m9 16 2 2 4-4"/></svg><span>בחרו תאריך</span>'
-      :"כל התאריכים";
-    resetButton.classList.toggle("calendarOpenButton",state.calendarCollapsed);
+    resetButton.hidden=!state.calendarCollapsed;
+    resetButton.innerHTML='<svg class="calendarOpenIcon" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/><path d="m9 16 2 2 4-4"/></svg><span>בחרו תאריך</span>';
+    resetButton.classList.add("calendarOpenButton");
   }
   if(state.calendarCollapsed)return;
 

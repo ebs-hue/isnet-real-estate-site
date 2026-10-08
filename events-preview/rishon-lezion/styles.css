@@ -210,7 +210,8 @@ main{position:relative;z-index:3}
 .textButton:hover{text-decoration:underline}
 .muted{color:var(--muted);margin:4px 0 0}
 
-.dateSection{padding-top:23px}
+.dateSection{padding-top:14px}
+.dateSection__reset{margin-inline-start:auto;margin-bottom:10px}
 .dateRail{
   display:grid;grid-auto-flow:column;grid-auto-columns:88px;
   overflow-x:auto;gap:10px;padding:5px 1px 13px;
