@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T12:00:36.089518+00:00",
+  "generated_at": "2026-10-08T12:02:21.726305+00:00",
   "stats": {
     "events_scanned": 511,
-    "image_links": 394,
-    "unique_images": 172,
+    "image_links": 254,
+    "unique_images": 169,
     "approved": 154,
-    "needs_review": 18,
+    "needs_review": 15,
     "rejected": 0
   },
   "media": [
@@ -141,6 +141,72 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_78e19fcc69b94704798dfead",
+      "url": "/events-preview/media-bank/cards/0d0db547de538bb97ef8c847.webp",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
+      "source_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
+      "credit": null,
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [
+        "רינתי"
+      ],
+      "productions": [
+        "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
+        "סיפור של חורף | שעת סיפור עם רינתי",
+        "סיפור חנוכה | שעת סיפור עם רינתי",
+        "פיטר פן | שעת סיפור עם רינתי",
+        "דירה להשכיר | שעת סיפור עם רינתי"
+      ],
+      "categories": [
+        "kids"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_61d612476128de680031",
+          "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_99_20261117",
+          "title": "סיפור של חורף | שעת סיפור עם רינתי",
+          "date": "2026-11-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b6b558da8a85b64e0cea",
+          "title": "סיפור חנוכה | שעת סיפור עם רינתי",
+          "date": "2026-12-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8adf0f4c675e74162830",
+          "title": "פיטר פן | שעת סיפור עם רינתי",
+          "date": "2027-01-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_93de6870be8f46280fc1",
+          "title": "דירה להשכיר | שעת סיפור עם רינתי",
+          "date": "2027-02-23"
+        }
+      ],
+      "usage_count": 5,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": 0.568
     },
     {
       "media_id": "media_8f297f8b91e325728d628397",
@@ -3302,44 +3368,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_527f44c60ddb3cd2b02625b6",
-      "url": "/events-preview/media-bank/cards/a3d79153cafeef0e555d3c2a.webp",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
-      "source_url": "https://ashdod.smarticket.co.il/דניאל_סטיופין_קופה_ראשית__סטנדאפ/?id=15678",
-      "credit": null,
-      "rights_status": "verified_official_source",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_source_image",
-      "artists": [
-        "דניאל סטיופין (אנטולי \"קופה ראשית\")"
-      ],
-      "productions": [
-        "דניאל סטיופין(קופה ראשית) סטנדאפ"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_64cf83ea3dc5bbb34e58",
-          "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
-          "date": "2027-01-02"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_547b7913d3b4f5c9f10b57c7",
       "url": "/events-preview/media-bank/cards/3226a87ee028d7cc6558cc2f.webp",
       "origin_url": "https://ashdod.smarticket.co.il//uploads/thumbs/thmb6a930ca3ac9c2182673224.jpeg",
@@ -3974,25 +4002,26 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_78e19fcc69b94704798dfead",
-      "url": "/events-preview/media-bank/cards/0d0db547de538bb97ef8c847.webp",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
-      "source_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
+      "media_id": "media_77154e70f6e673f25e4e77c7",
+      "url": "https://basket.co.il/pics/2026-2027/%D7%A9%D7%95%D7%A0%D7%95%D7%AA/IMG_0026%20(1).PNG",
+      "origin_url": "https://basket.co.il/pics/2026-2027/%D7%A9%D7%95%D7%A0%D7%95%D7%AA/IMG_0026%20(1).PNG",
+      "source_url": "https://basket.co.il/team.asp?TeamId=2123",
       "credit": null,
-      "rights_status": "unknown",
+      "rights_status": "verified_official_source",
       "status": "approved",
       "verified": true,
       "publishable": true,
       "ai_generated": false,
-      "strategy": "source_event",
+      "strategy": "official_source_image",
       "artists": [
-        "רינתי"
+        "מכבי רוטשטיין אשדוד",
+        "עירוני חי מוטורס נס ציונה"
       ],
       "productions": [
-        "סיפור של חורף | שעת סיפור עם רינתי"
+        "מכבי רוטשטיין אשדוד - עירוני נס ציונה"
       ],
       "categories": [
-        "kids"
+        "sport"
       ],
       "cities": [
         "ashdod"
@@ -4000,9 +4029,9 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "evt_99_20261117",
-          "title": "סיפור של חורף | שעת סיפור עם רינתי",
-          "date": "2026-11-17"
+          "event_id": "sport_20261012_maccabi_ashdod_basketball",
+          "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
+          "date": "2026-10-12"
         }
       ],
       "usage_count": 1,
@@ -6057,1002 +6086,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_5893d960a05fee3a00ea34a8",
-      "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "origin_url": "https://ashdod.smarticket.co.il/",
-      "source_url": "https://ashdod.smarticket.co.il/",
-      "credit": null,
-      "rights_status": "needs_review",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "needs_exact_event_image",
-      "artists": [
-        "הדס סט",
-        "עמית קבסה",
-        "יעל כץ בן שלום",
-        "רוני כהן-בנימיני",
-        "מוזיאון אשדוד לאמנות",
-        "יונתן סרור",
-        "עולם ומלואו",
-        "החברה העירונית לתרבות ופנאי באשדוד",
-        "רבקי טננהויז",
-        "חוי ליברמן",
-        "יהודה אלגרבי",
-        "קרן חובב (מחזה ובימוי)",
-        "נדב ויקינסקי (מוזיקה)",
-        "לימור הרשקו (תפאורה ותלבושות)",
-        "תומר יפרח (כוריאוגרפיה)",
-        "מרגלית גז (שפה ודיבור)",
-        "כפיר בולוטין (סטיילס)",
-        "יובל כהן",
-        "אייל ציובן",
-        "ליאור אביבי",
-        "אופיר מרדכי",
-        "אבי ביילה",
-        "מוזאון אשדוד לאמנות",
-        "רוני כהן-בנימיני (אוצרת, הדס סט)",
-        "יעל כץ בן שלום (אוצרת, עמית קבסה)",
-        "יעל כץ בן שלום (אוצרת)",
-        "חיים דרעי",
-        "מיקי מבורך",
-        "סילבי שליט",
-        "ג׳קו",
-        "תיאטרון המדיטק",
-        "רינתי",
-        "מיסייה אלבר",
-        "מוריס",
-        "וונדה אקלה",
-        "הרב מתניה ידיד",
-        "עמותת מוזיאקה",
-        "לימור יצחייק",
-        "דפנה שרעבי",
-        "איריס ארגמן",
-        "גילה תורן חן",
-        "ורדה שחף",
-        "רופאים",
-        "מוזאון לתרבות הפלשתים",
-        "שבוע \"עושים נפשות\"",
-        "תיאטרון החלומות של אסיק",
-        "אנסטסיה מרטיאנוב",
-        "מועדון גדולות מהחיים",
-        "זיו כהן",
-        "תיאטרון קמגולם",
-        "בית לברון",
-        "אסתר",
-        "רחל חציר",
-        "רונית זוהר",
-        "תמי כהן",
-        "דרור קרן",
-        "חני דינור",
-        "פליקס זלצר",
-        "רעות טללים",
-        "אוליבר",
-        "תיאטרון רחוק"
-      ],
-      "productions": [
-        "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-        "הרצאה של יונתן סררו",
-        "סערה בדלי מים",
-        "תשאירי פתוח",
-        "שירי קריוקי בקצב הדרבוקה",
-        "איתמר וכובע הקסמים",
-        "עיצוב אורח חיים בריא",
-        "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
-        "סיורים מודרכים במוזיאון אשדוד לאמנות",
-        "מיסייה אלבר - הפקת מקור",
-        "המספרה של ג'אקו - הפקת מקור",
-        "מוצאים עוגן בתוך הסערה | לנשים בלבד",
-        "אצבעוני",
-        "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
-        "יום העליה בסימן 70 לאשדוד",
-        "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
-        "הנמרה",
-        "הרצאה של רנה סרור",
-        "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
-        "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
-        "יריד בריאות לאזרחים וותיקים",
-        "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-        "נקודת מפגש-בין היסטוריה לסיפור חיים",
-        "שלגיה ו-7 הגמדים",
-        "סיפור חנוכה | שעת סיפור עם רינתי",
-        "פסטיבל ילד פלא - יעודי לגדולות מהחיים",
-        "בודי בלט| סדנא בונה עצם לנשים",
-        "עץ הבלונים",
-        "פיטר פן | שעת סיפור עם רינתי",
-        "הכלבלב השובב",
-        "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
-        "השועל המוסיקלי המוסיקה האירית",
-        "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
-        "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
-        "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
-        "דרור קרן – כל העולם במה",
-        "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
-        "המחזמר ואני",
-        "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים"
-      ],
-      "categories": [
-        "exhibition",
-        "lecture",
-        "kids",
-        "theatre",
-        "other"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_90e0977c4c75e8ca55a9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0a8724d73a8a25785bcb",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7fce1d9b4ab267e246e1",
-          "title": "הרצאה של יונתן סררו",
-          "date": "2026-10-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fb3a2160cf3e31dedd3b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_94_20261012",
-          "title": "סערה בדלי מים",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_95_20261012",
-          "title": "תשאירי פתוח",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e9b00b27cc3b531c934",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ffc63b0b4486bb31a455",
-          "title": "שירי קריוקי בקצב הדרבוקה",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d857a17bf47a6e2337e5",
-          "title": "איתמר וכובע הקסמים",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_617490407af714bb4af4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_6_20261014",
-          "title": "עיצוב אורח חיים בריא",
-          "date": "2026-10-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_06f3de539c2d3e22b2ff",
-          "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
-          "date": "2026-10-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7d3a5639ec3847f8a137",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_013751f4bb1f253a4a2f",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1671f155d6a206c3de2b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7b18a3b8878c1169693b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_99d8856352ac024635f0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a78d65b3f4ac3995294c",
-          "title": "מיסייה אלבר - הפקת מקור",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_58c1ea1851030cfaaa11",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ab616d899c714d6fd180",
-          "title": "המספרה של ג'אקו - הפקת מקור",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
-          "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e18ed2709b02baa3532",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_4b07ba21b782ea02a4ff",
-          "title": "אצבעוני",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_61d612476128de680031",
-          "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9a8cdd916de4aaaf8311",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8ac6ea288cb265605b77",
-          "title": "מיסייה אלבר - הפקת מקור",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_91024d3eccf55a0b44ad",
-          "title": "יום העליה בסימן 70 לאשדוד",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ce847e364ee55065956b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1e5059b53915f4c7fe21",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a578c11cb7a7bacb36e1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b069b87dfeecdb648ea4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3a2c902c3450a6e70c14",
-          "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
-          "date": "2026-10-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e8d879a99bf64df31e3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_823f171a4a98cd6fb9d9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_799a6dbb87a8759e0be8",
-          "title": "הנמרה",
-          "date": "2026-10-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_626a62df2f41c6e27d8c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d6f20b5b24339863b497",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_59e494c94b56ac9e6861",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-31"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1ae03ec698a65bb2455e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e8967396c917fb4211e4",
-          "title": "הרצאה של רנה סרור",
-          "date": "2026-11-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_772312d4fce5baa32388",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_14_20261102",
-          "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6702385b6f68556b2c50",
-          "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a84790398264ca067403",
-          "title": "יריד בריאות לאזרחים וותיקים",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_180bd1ccf144be5544e3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2fda014dc7669a040b46",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_16_20261104",
-          "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-          "date": "2026-11-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_805c3f05170759f15ab0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_243fa63e0656fad7477c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9eb4ea3b1be8386c949c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0d5c53deefa1e10c5f4d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f42edb321dbde7088a3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9b5eea9e1acf1feac5cf",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8c0a6d5f1cabc435ad48",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d7864c780fea6cbdc43d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_65aaebf97ecda0981b5b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_98_20261113",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b6539384c62acf076d94",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_87b190ce94eadcbb9bd1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c5f6d02c4792bae76e1c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_737e086330f64f28c23c",
-          "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
-          "date": "2026-11-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c67cb1fd7296d8873ca3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a67f2f422700efb610d7",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9a3cbab50396fa3af0c3",
-          "title": "שלגיה ו-7 הגמדים",
-          "date": "2026-11-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cc2beedf4f76f168e9ff",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_79ae8e00a4276dc2d62d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_eda485f329036f12976a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9ae58929c271c5410eec",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5276d7588775cf66475e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ed5e50ba93af66a6e37b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d56184583cc012704fb9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_04e5b0c7c43ef1c5c535",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_255eb2a0c98790b70d69",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-27"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a8e751087c2d16482459",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f37ddc7e60553c75692d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6347127f965dcf0e1e59",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6edc79b3206c44047ae2",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-12-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b6b558da8a85b64e0cea",
-          "title": "סיפור חנוכה | שעת סיפור עם רינתי",
-          "date": "2026-12-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_61122eedddd876637d0d",
-          "title": "פסטיבל ילד פלא - יעודי לגדולות מהחיים",
-          "date": "2026-12-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c16e2e89a69bbed03363",
-          "title": "בודי בלט| סדנא בונה עצם לנשים",
-          "date": "2026-12-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_78cf1d9cc9f217ab0259",
-          "title": "עץ הבלונים",
-          "date": "2026-12-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fdeb756625c3f837de13",
-          "title": "בודי בלט| סדנא בונה עצם לנשים",
-          "date": "2026-12-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8adf0f4c675e74162830",
-          "title": "פיטר פן | שעת סיפור עם רינתי",
-          "date": "2027-01-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c96d7be6d2804e749d2a",
-          "title": "הכלבלב השובב",
-          "date": "2027-01-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cb3a4659aefbcd0529d0",
-          "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
-          "date": "2027-01-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_243390bd002ecc344da5",
-          "title": "השועל המוסיקלי המוסיקה האירית",
-          "date": "2027-01-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-          "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
-          "date": "2027-01-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f1c4b053e11c06583785",
-          "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
-          "date": "2027-01-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_53cf1f6df1acf20a2f40",
-          "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
-          "date": "2027-02-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_dd53408c64490661fa14",
-          "title": "דרור קרן – כל העולם במה",
-          "date": "2027-02-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_dd2216e2c4590b3b8095",
-          "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5b3592e6f2e52fe56817",
-          "title": "המחזמר ואני",
-          "date": "2027-02-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ad9aa5d26bfb663907d7",
-          "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
-          "date": "2027-02-14"
-        }
-      ],
-      "usage_count": 95,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.023
-    },
-    {
-      "media_id": "media_559285ab4ecfc9323b47686b",
-      "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
-      "origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "source_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "credit": null,
-      "rights_status": "needs_review",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "needs_exact_event_image",
-      "artists": [
-        "ניקי גולדשטיין",
-        "אקי אבני",
-        "נתי קלוגר",
-        "גל פופולר",
-        "שיר פופוביץ",
-        "משה נאור (בימוי ועיבוד)",
-        "עינת ברונבסקי (תרגום ועיבוד)",
-        "יהונתן פרלמן (מוזיקה)",
-        "עופרה",
-        "רועיקי מצחיקי",
-        "סמי הכבאי",
-        "סתיו בכל הצבעים",
-        "מרכוס אשלה",
-        "סופיה פאפאזוגלו",
-        "בלט פלמנקו ברצלונה"
-      ],
-      "productions": [
-        "דרושה עוזרת",
-        "עופרה",
-        "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-        "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-        "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-        "שושנה",
-        "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
-        "סיפור הנס",
-        "מפצח האגוזים",
-        "שקרים קטנים קומדיה משפחתית מופרעת",
-        "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
-        "אליסה בארץ הפלאות",
-        "סידני מחווה לביג'יז",
-        "עוד לא תמו כל פלאייך",
-        "THE ROMANTIC SOUL",
-        "נאמן למקור",
-        "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
-        "אימי הגנרלית",
-        "תיק 137",
-        "פרפר נחמד",
-        "מותרת לכל אדם",
-        "כספיון - התאטרון השחור",
-        "בואי נעשה לנו חג",
-        "סופיה פאפאזוגלו",
-        "מפה לשם",
-        "לוס אנג'לס - פרס האוסקר",
-        "רומאו ויוליה - בלט פלמנקו ברצלונה",
-        "כנר על הגג",
-        "MALEVO"
-      ],
-      "categories": [
-        "other",
-        "theatre",
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_33cbee583475a04a7766",
-          "title": "דרושה עוזרת",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1433fdc5973b6695bdc3",
-          "title": "עופרה",
-          "date": "2026-11-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ef7ca0af669f34aae871",
-          "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-          "date": "2026-11-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ccab329e9dce87dcb028",
-          "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_208cc1d709030d29da9a",
-          "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5c82b36c5f0954a3ff95",
-          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7f6c622ca25cec1d9507",
-          "title": "שושנה",
-          "date": "2026-12-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_4b2ebdf73be27f322465",
-          "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
-          "date": "2026-12-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0796e91ed6cd6d37f9ca",
-          "title": "סיפור הנס",
-          "date": "2026-12-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_53b36d3a117f507f77b7",
-          "title": "מפצח האגוזים",
-          "date": "2026-12-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_927802792107d0068f24",
-          "title": "שקרים קטנים קומדיה משפחתית מופרעת",
-          "date": "2026-12-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1248203a0850a8e67852",
-          "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
-          "date": "2026-12-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2526e830eef4d3d6705d",
-          "title": "אליסה בארץ הפלאות",
-          "date": "2026-12-27"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d0315a26e607910aebb5",
-          "title": "סידני מחווה לביג'יז",
-          "date": "2027-01-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5dda25a13333e0d8db14",
-          "title": "עוד לא תמו כל פלאייך",
-          "date": "2027-01-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e3ffc57670066fd5ea7a",
-          "title": "THE ROMANTIC SOUL",
-          "date": "2027-01-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c5084f66863b9e27992a",
-          "title": "נאמן למקור",
-          "date": "2027-01-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_60cb539e4c684575d6a8",
-          "title": "נאמן למקור",
-          "date": "2027-01-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_337345b282aabb14f4ed",
-          "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
-          "date": "2027-01-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c7c22bce65a95aaeb0d8",
-          "title": "אימי הגנרלית",
-          "date": "2027-01-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b2274dd31f58c6fcf843",
-          "title": "תיק 137",
-          "date": "2027-01-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f1f2c2a86e48f04a9c07",
-          "title": "פרפר נחמד",
-          "date": "2027-01-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e65f449f9c8e6f75c763",
-          "title": "מותרת לכל אדם",
-          "date": "2027-02-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5c9acb9f3ebef3f3e018",
-          "title": "מותרת לכל אדם",
-          "date": "2027-02-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
-          "title": "מותרת לכל אדם",
-          "date": "2027-02-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_50179a566f2b8b78f713",
-          "title": "מותרת לכל אדם",
-          "date": "2027-02-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_44ade887868f332af978",
-          "title": "מותרת לכל אדם",
-          "date": "2027-02-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3d668279eb3a8887ca1d",
-          "title": "כספיון - התאטרון השחור",
-          "date": "2027-02-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0a2955afc99e32e98101",
-          "title": "בואי נעשה לנו חג",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ffc197d8a4343c6c1421",
-          "title": "בואי נעשה לנו חג",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ecf2560c70689efc3475",
-          "title": "סופיה פאפאזוגלו",
-          "date": "2027-02-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c41f0c83c1874a320cdf",
-          "title": "מפה לשם",
-          "date": "2027-02-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8cfa7c9ae155b54ae894",
-          "title": "לוס אנג'לס - פרס האוסקר",
-          "date": "2027-02-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b5598e9e1f88af009a2a",
-          "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
-          "date": "2027-02-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
-          "title": "כנר על הגג",
-          "date": "2027-03-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_35b62174438a54f14368",
-          "title": "MALEVO",
-          "date": "2027-03-08"
-        }
-      ],
-      "usage_count": 36,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.0
-    },
-    {
       "media_id": "media_3b84511ac285cabdb69bee1c",
       "url": "assets/event-thumbs/0ffdeffd4b24133168be65.jpg",
       "origin_url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
@@ -7192,134 +6225,6 @@
       "review_reason": "same_image_used_for_dissimilar_event_titles",
       "reuse_risk": "review",
       "reuse_similarity_floor": 0.028
-    },
-    {
-      "media_id": "media_3fc3db9a95b243083a82e7b5",
-      "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-      "credit": null,
-      "rights_status": "needs_review",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "detail_page_high_quality_candidate",
-      "artists": [
-        "רינת הופר (מחברת המקור)",
-        "בית רינתי (מוזכר כדובר/הפקה בדף האירוע)"
-      ],
-      "productions": [
-        "סדנא- שימור ושיפור הזיכרון",
-        "חלוקי נחל- ייעודי לגדולות מהחיים",
-        "רינת מטיילת- הצגה מבית רינתי",
-        "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים",
-        "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
-        "אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים",
-        "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
-        "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
-        "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
-        "דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים",
-        "הג'ונגל של רינתי"
-      ],
-      "categories": [
-        "other",
-        "theatre"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9d51882890e01e5a8488",
-          "title": "סדנא- שימור ושיפור הזיכרון",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_24bd564dd8d11f87e4ff",
-          "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a69617607de8b2a38b13",
-          "title": "רינת מטיילת- הצגה מבית רינתי",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8d868a42a7395c863b80",
-          "title": "סדנא- שימור ושיפור הזיכרון",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_46c23e069a55ad1b5bac",
-          "title": "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים",
-          "date": "2026-11-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7c4f95bd1f6d41f060e1",
-          "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d40a31ca190750c33df1",
-          "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
-          "date": "2026-11-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_405685db409691fa6e34",
-          "title": "אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים",
-          "date": "2026-11-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_59d21b15c55e0e5716a8",
-          "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
-          "date": "2026-11-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d9054166e8decd8ba99d",
-          "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f1b6e8dc998d846caabd",
-          "title": "סדנא- שימור ושיפור הזיכרון",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2eb56d2075f1de010bd3",
-          "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
-          "date": "2026-12-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7f19ce4f79e93abe6dc9",
-          "title": "דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים",
-          "date": "2026-12-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_bfdbd33f29362afdca31",
-          "title": "הג'ונגל של רינתי",
-          "date": "2027-02-07"
-        }
-      ],
-      "usage_count": 14,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.064
     },
     {
       "media_id": "media_0ce16f5ab0113d5288c08df7",
@@ -7481,6 +6386,54 @@
       "review_reason": null,
       "reuse_risk": "review",
       "reuse_similarity_floor": 0.068
+    },
+    {
+      "media_id": "media_527f44c60ddb3cd2b02625b6",
+      "url": "/events-preview/media-bank/cards/a3d79153cafeef0e555d3c2a.webp",
+      "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb69fac61aed7b5404554593.jpg",
+      "source_url": "https://ashdod.smarticket.co.il/דניאל_סטיופין_קופה_ראשית__סטנדאפ/?id=15678",
+      "credit": null,
+      "rights_status": "verified_official_source",
+      "status": "needs_review",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "official_source_image",
+      "artists": [
+        "דניאל סטיופין (אנטולי \"קופה ראשית\")",
+        "תיאטרון קמגולם",
+        "בית לברון"
+      ],
+      "productions": [
+        "דניאל סטיופין(קופה ראשית) סטנדאפ",
+        "הכלבלב השובב"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+          "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+          "date": "2027-01-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c96d7be6d2804e749d2a",
+          "title": "הכלבלב השובב",
+          "date": "2027-01-13"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.098
     },
     {
       "media_id": "media_ab601944f3d135bd4143d538",
@@ -7897,44 +6850,6 @@
           "event_id": "sport_20261028_hapoel_ashdod_m_handball",
           "title": "הפועל אשדוד - א.כ. נס ציונה",
           "date": "2026-10-28"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_fd028402992e159c039841b0",
-      "url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba31dec0c453769298.png",
-      "origin_url": null,
-      "source_url": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": null,
-      "artists": [
-        "רינתי"
-      ],
-      "productions": [
-        "דירה להשכיר | שעת סיפור עם רינתי"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_93de6870be8f46280fc1",
-          "title": "דירה להשכיר | שעת סיפור עם רינתי",
-          "date": "2027-02-23"
         }
       ],
       "usage_count": 1,

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T12:00:36.089518+00:00",
+  "generated_at": "2026-10-08T12:02:21.726305+00:00",
   "stats": {
     "events_scanned": 511,
-    "image_links": 394,
-    "unique_images": 172,
+    "image_links": 254,
+    "unique_images": 169,
     "approved": 154,
-    "needs_review": 18,
+    "needs_review": 15,
     "rejected": 0
   },
   "rejected_reasons": {},
@@ -17,9 +17,9 @@
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 21,
-      "approved": 14,
-      "review": 7,
+      "images": 18,
+      "approved": 13,
+      "review": 5,
       "rejected": 0
     },
     "static.tickchak.co.il": {
@@ -62,6 +62,12 @@
       "images": 3,
       "approved": 0,
       "review": 3,
+      "rejected": 0
+    },
+    "basket.co.il": {
+      "images": 1,
+      "approved": 1,
+      "review": 0,
       "rejected": 0
     },
     "benefits.isracard.co.il": {
@@ -110,12 +116,6 @@
       "images": 1,
       "approved": 1,
       "review": 0,
-      "rejected": 0
-    },
-    "mishkan-ashdod.smarticket.co.il": {
-      "images": 1,
-      "approved": 0,
-      "review": 1,
       "rejected": 0
     },
     "s3.eu-central-1.amazonaws.com": {
@@ -215,8 +215,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 109,
-  "reusable_productions": 149,
-  "artists_total": 210,
-  "productions_total": 267
+  "reusable_artists": 110,
+  "reusable_productions": 153,
+  "artists_total": 137,
+  "productions_total": 194
 }
