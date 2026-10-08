@@ -38,6 +38,9 @@ jobs:
       - name: Install image verification dependencies
         run: python -m pip install --disable-pip-version-check requests beautifulsoup4 pillow
 
+      - name: Reuse approved image from central media bank
+        run: python scripts/reuse_media_bank_images.py --city rishon-lezion
+
       - name: Read official source pages and cache verified photographs
         run: python -u scripts/enrich_rishon_event_images.py
 
