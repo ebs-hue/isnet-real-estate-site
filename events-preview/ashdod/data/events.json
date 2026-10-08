@@ -24395,7 +24395,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/תיק_137/?id=8108",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:05:58Z",
       "missing_information": [
@@ -24426,7 +24426,8 @@
         "שעון המצביע על 10:00"
       ],
       "image_brief": "צילום מקורה רחב של המשכן לפני פתיחת המופע: אולם תיאטרון עם שורות מושבים מובילים אל במה מוארת ברקע או מסך הקרנה, ובחזית התמונה מזנון קטן בפוייה עם כוסות קפה ומגשים של מאפים. התאורה חמה של בוקר, אנשים נכנסים או עומדים ליד דלפק הכניסה, וכרטיס בכניסה מוחזק ביד של מבקר — תמונה שמשדרת רגע של הכנה לפתיחת מופע בוקר.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -24487,7 +24488,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33643",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:06:18Z",
       "missing_information": [
@@ -24522,12 +24523,13 @@
       ],
       "image_brief": "צילום כיסוי של קבוצה קטנה של מבקרים שמתקדמת ברחוב היסטורי ברמלה בשעות הבוקר, עם מבנים אבן בצדדים ואווירת סיור חיצוני. התמונה ממוקדת במהלך ההליכה — אנשים עם תיקים קלים או מפות, מבט לכיוון הרחוב ולהמשך המסלול, בתאורה טבעית ובהרכבי צבעים חמים.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -24590,7 +24592,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/השועל_המוסיקלי_המוסיקה_האירית_/?id=16680",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:06:42Z",
       "missing_information": [
@@ -24623,7 +24625,8 @@
         "כלי נשיפה או כלי מיתר (גסים)"
       ],
       "image_brief": "צילום ויזואלי של מופע מוזיקה אירית בחלל אינטימי: במה קטנה באולם עירוני עם תאורה חמה, נגנים עומדים או יושבים עם כלי נגינה עממיים (ללא דגש על זיהוי כלים ספציפיים), קהל ישוב וצופה מקרוב ואווירה נינוחה של פאב/מופע פולקלור. הרקע יכול להכיל רמז לנוף ירוק כדי להעביר את הקשר לאירלנד.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -24686,7 +24689,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:06:57Z",
       "missing_information": [
@@ -24719,7 +24722,8 @@
         "תוצר דלעת צבעוני מוכנה להצגה"
       ],
       "image_brief": "צילום ענייני של שולחן עבודה בסדנת יצירה: במרכז דלעת מעיסת נייר בשלבי עיצוב, סביבו כלי יצירה — קערת דבק, מברשות, חתיכות נייר שונות וצבעים. ברקע טקסטורה של אולם קהילתי קטן (שולחנות וכיסאות מטושטשים), ותאורה טבעית רכה. התמונה תעביר אווירה מעשית, ידידותית וממוקדת ביצירה, בלי טקסטים או לוגואים.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -24782,7 +24786,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:07:14Z",
       "missing_information": [
@@ -24818,7 +24822,8 @@
         "תאורה חמה במקום סגור"
       ],
       "image_brief": "תצלום רחב של אולם קהילתי קטן בו קבוצת נשים מבצעת צעדי ריקודי עם בהנחיית מדריכה. המדריכה במרכז או מקדימה, המשתתפות מסודרות בשורות או במעגל קל; הרקע מציג קירות פשוטים, רצפת פרקט ואולי כיסאות מסודרים בצדי האולם. האווירה נראית ידידותית ולא רשמית, עם לבוש נוח ותאורה חמה שמדגישה מפגש קהילתי פעיל.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -24886,7 +24891,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/פרפר_נחמד_/?id=8133",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:07:32Z",
       "missing_information": [
@@ -24917,7 +24922,8 @@
         "תאורת ספוּטלייט"
       ],
       "image_brief": "תמונת כריכה המציגה מבט פנורמי על אולם המשכן לאמנויות הבמה באשדוד: שורות כיסאות ברקע קדמי, במה מוארת בתאורה חמה ואוירה תקופתית, ועל הבמה אלמנט גרפי או פרויקט של פרפר צבעוני (כאלמנט חזותי שמייצג את שם המופע). התמונה תעביר תחושת מופע תיאטרלי ורשות עירונית תרבותית בלי לכלול טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",

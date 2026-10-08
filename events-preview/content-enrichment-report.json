@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:55:32Z",
+  "generated_at": "2026-10-08T11:56:15Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_337345b282aabb14f4ed",
-      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "event_id": "auto_as_b2274dd31f58c6fcf843",
+      "title": "תיק 137",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_d3cf764f28c61e301ce9",
-      "title": "שימי תבורי במופע להקה",
+      "event_id": "auto_as_9e8b223f38713dfb8a74",
+      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_36c82ca8b0929268aff1",
-      "title": "טריפונס",
+      "event_id": "auto_as_243390bd002ecc344da5",
+      "title": "השועל המוסיקלי המוסיקה האירית",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
-      "title": "אימי הגנרלית",
+      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
+      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3356020481453510f22a",
-      "title": "מייפל הכלבלב – יחיד ומיוחד",
+      "event_id": "auto_as_f1c4b053e11c06583785",
+      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_cb3a4659aefbcd0529d0",
-      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+      "title": "פרפר נחמד",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
