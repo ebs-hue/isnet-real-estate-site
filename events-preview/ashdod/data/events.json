@@ -25569,7 +25569,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מותרת_לכל_אדם/?id=8153",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:10:29Z",
       "missing_information": [
@@ -25597,7 +25597,8 @@
         "קהל נכנס לאולם בערב"
       ],
       "image_brief": "צילום אווירה של אולם מופעים: במה מוארת ספוט חם במרכז, שורות מושבים ריקות בחזית והאור העמום של תאורת האולם ברקע. בתמונה יופיע מבט חצי־פנורמי המעביר תחושת המתנה למופע ערב במבנה אמנויות הבמה — בלי טקסט מוטמע או לוגו.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25665,7 +25666,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מותרת_לכל_אדם/?id=8154",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:10:50Z",
       "missing_information": [
@@ -25699,7 +25700,8 @@
         "טווחי מחירים על דלפק/שולחן מכירה"
       ],
       "image_brief": "צילום חזיתי של המשכן לאמנויות הבמה באשדוד בשעת ערב, עם אנשים נכנסים דרך הכניסה הראשית ותאורת פסי במה מוארת דרך חלונות האולם. בתמונה ניתן לכלול גבי קהל בדרכי הכניסה ואיש שמחזיק כרטיסים בתחתית המסגרת — או צילום פנורמי של האולם מבעד לשורות הכיסאות לעבר במה מוארת, המדגיש את האווירה התיאטרלית ולוח שם האירוע מחוץ למסגרת התמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25812,7 +25814,10 @@
       "source_detail_text": "דף הבית הג'ונגל של רינתי 07/02/2027 17:15 הג'ונגל של רינתי מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד (מפת הגעה) ביום ראשון, 7 בפברואר 2027 17:15 - 18:00 משך: 45 דקות מחיר 30 ₪ פרטים נוספים קלאסיקה עולמית, ספר אשר זכה לעיבודים רבים. נפגוש את מוגלי, ילד שגדל בגונגל כחלק מלהקת הזאבים. מוגלי גדל תחת חסותם של בגירה הפנתר השחור ובלו הדב עם הלב הטוב . מוגלי מתמודד עם סכנות רבות בגונגל, שירחן הטיגריס, קאה הנחש, להקת הקופים... מוגלי מצליח להביס את שירחן בעזרת לפיד אש, אך בכל זאת מבין שמקומו האמיתי הוא בקרב בני האדם . שם פוגש את חברתו באנה . זמן איכות אמיתי, הורה - ילד . שעת סיפור ויצירה בה הילדים משתפים פעולה והופכים לשחקנים בהצגה . והכל בצורה חוויתית עם מוזיקה, אביזרים ותלבושות . עלות 30 ש״ח (לילד+הורה מלווה ) | כל גיל חייב בכרטיס ניתן לבצע רכישת מנוי במרכז הקהילתי ב-200 ש״ח עבור 8 הצגות לגילים 4-7 להרשמה ופרטים נוספים- 08-8687400 רחוב הרי גולן 6 רובע י\"א, אשדוד הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 976,
       "image_strategy": "detail_page_high_quality_candidate",
-      "event_id": "auto_as_bfdbd33f29362afdca31"
+      "event_id": "auto_as_bfdbd33f29362afdca31",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25865,7 +25870,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/ספר_הג_ונגל_מבית_רינתי/?id=17673",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:11:12Z",
       "missing_information": [
@@ -25906,14 +25911,15 @@
       ],
       "image_brief": "צילום ראשי המציג רגע בימתית מההצגה: שחקן בדמות מוגלי ליד דמויות מחופשות של פנתר ודוב על רקע תפאורת ג'ונגל צבעונית, כשמשמאל קהל של ילדים והורים צופה; בתמונה ייראו אביזרים ותלבושת ברורים, תאורה חמה ואווירה אינטראקטיבית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_b27ea9f51e8d1e9b027c0377"
+      "media_bank_id": "media_b27ea9f51e8d1e9b027c0377",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -25981,7 +25987,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/כספיון_-_התאטרון_השחור/?id=8232",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:11:31Z",
       "missing_information": [
@@ -26011,7 +26017,8 @@
         "כרטיסים על דלפק הכניסה"
       ],
       "image_brief": "צילום פנורמי של פנים אולם המשכן לאמנויות הבמה: במה ריקה מוארת בספוטלייט אחד או כמה ספוטים, רקע חשוך שמרמז על מופע תיאטרלי, ושורות כסאות קהל חצויות בתאורה רכה. התמונה מרגישה מוכנה לפתיחת הצגה ומדגישה את האווירה של ערב תיאטרלי במקום.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -26072,7 +26079,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33644",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:11:52Z",
       "missing_information": [
@@ -26107,12 +26114,13 @@
       ],
       "image_brief": "תמונת כיסוי מציגה קבוצת מטיילים בבוקר מוקד, עומדים על שביל רגלי בעמק פתוח; ברקע אור בוקר רך שמבליט קווי נוף וצמחייה מקומית. בצילום נראית דמות המדריך מחזיקה מפה או דף מסביר בעוד הקבוצה מתארגנת לפני היציאה — הנהגה ברורה, אווירה של התחלה מוקדמת ביום וסביבת טבע פתוחה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
