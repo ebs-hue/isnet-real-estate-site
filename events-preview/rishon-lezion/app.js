@@ -259,10 +259,19 @@ function handleEventImageError(img){
   if(stage)stage.remove();
   else img.remove();
 }
+const SPECIAL_EVENT_ART={
+  "הרצאה של יונתן סררו":"assets/special/y-serror-lecture.svg",
+  "סערה בדלי מים":"assets/special/storm-in-glass.svg",
+  "תשאירי פתוח":"assets/special/leave-open.svg",
+  "שירי קריוקי בקצב הדרבוקה":"assets/special/karaoke-darbuka.svg"
+};
+function specialEventArt(e){return SPECIAL_EVENT_ART[String(e?.title||"").trim()]||""}
+
 function eventImageHTML(e,mode="card"){
-  if(!hasTrustedSourceImage(e))return "";
-  const useThumb=mode==="card"&&e.thumbnail_ready===true&&e.thumbnail_url;
-  const src=escapeHtml(useThumb?e.thumbnail_url:e.image_url);
+  const special=specialEventArt(e);
+  if(!special&&!hasTrustedSourceImage(e))return "";
+  const useThumb=!special&&mode==="card"&&e.thumbnail_ready===true&&e.thumbnail_url;
+  const src=escapeHtml(special||(useThumb?e.thumbnail_url:e.image_url));
   const cls=useThumb?"eventArtMain eventArtThumb":"eventArtMain eventArtFull";
   return '<span class="eventArtStage '+(useThumb?"is-thumbnail":"is-full-image")+'">'+
     '<img data-event-image class="'+cls+'" src="'+src+'" alt="" loading="lazy" onload="handleEventImageLoad(this)" onerror="handleEventImageError(this)">'+
