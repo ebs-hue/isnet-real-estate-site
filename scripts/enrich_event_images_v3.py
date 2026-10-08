@@ -28,6 +28,7 @@ def in_horizon(e):
 
 UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/154 Safari/537.36"
 GENERIC=("/languages/il.gif","artistshadow","/images/live/more/eventnew.jpg","eventnew.jpg","placeholder","no-image","no_image","noimage","no_pic","no-pic","blank.gif","spacer.gif","transparent.gif","favicon","smarticket_logo","microsoft_oauth_logo","google_oauth_logo","facebook_oauth","oauth_logo","oauth","/logo.","/logo/","/icons/","/icon/")
+UNSAFE_IMAGE_STRATEGIES={"source_listing_card","same_production_reuse"}
 SIGNALS=("/uploads/","/thumbs/","/caps/","livenew_","updateartistimage","/events/","/event/","poster","banner")
 
 def norm(s):
@@ -205,7 +206,16 @@ def main():
 
     for i,e in enumerate(events,1):
         if e.get("image_url") and e.get("image_publishable") is True:
-            stats["kept_existing"]+=1;continue
+            # Listing thumbnails are not proof of event identity when an exact
+            # detail page exists. Re-verify from the event page instead.
+            if e.get("image_strategy") in UNSAFE_IMAGE_STRATEGIES and e.get("detail_source_url"):
+                e["image_publishable"]=False
+                e["image_verified"]=False
+                e["image_rights_status"]="needs_review"
+                stats["unsafe_listing_image_reopened"]+=1
+            else:
+                stats["kept_existing"]+=1
+                continue
         title=e.get("title") or ""; sources=[x.get("url") for x in e.get("sources",[]) if x.get("url")]
         if not sources:
             failures.append({"event_id":e.get("event_id"),"title":title,"reason":"no_source"});continue
@@ -247,7 +257,8 @@ def main():
             continue
 
         detail=[]; listing=[]
-        if e.get("ticket_url"):detail.append(e["ticket_url"])
+        if e.get("detail_source_url"): detail.append(e["detail_source_url"])
+        if e.get("ticket_url") and e.get("ticket_url") not in detail: detail.append(e["ticket_url"])
         for root in sources:
             loaded=cached(root,roots)
             if not loaded:continue
