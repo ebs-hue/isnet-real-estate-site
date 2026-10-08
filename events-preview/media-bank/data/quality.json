@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T14:21:49.734701+00:00",
+  "generated_at": "2026-10-08T14:50:22.678734+00:00",
   "stats": {
     "events_scanned": 511,
-    "image_links": 254,
-    "unique_images": 169,
-    "approved": 154,
-    "needs_review": 15,
+    "image_links": 404,
+    "unique_images": 170,
+    "approved": 158,
+    "needs_review": 12,
     "rejected": 0
   },
   "rejected_reasons": {},
@@ -17,9 +17,15 @@
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 18,
+      "images": 14,
       "approved": 13,
-      "review": 5,
+      "review": 1,
+      "rejected": 0
+    },
+    "local": {
+      "images": 13,
+      "approved": 4,
+      "review": 9,
       "rejected": 0
     },
     "static.tickchak.co.il": {
@@ -40,12 +46,6 @@
       "review": 0,
       "rejected": 0
     },
-    "handballisr.co.il": {
-      "images": 5,
-      "approved": 0,
-      "review": 5,
-      "rejected": 0
-    },
     "commons.wikimedia.org": {
       "images": 3,
       "approved": 3,
@@ -56,12 +56,6 @@
       "images": 3,
       "approved": 3,
       "review": 0,
-      "rejected": 0
-    },
-    "local": {
-      "images": 3,
-      "approved": 0,
-      "review": 3,
       "rejected": 0
     },
     "basket.co.il": {
@@ -215,8 +209,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 110,
-  "reusable_productions": 153,
-  "artists_total": 137,
-  "productions_total": 194
+  "reusable_artists": 141,
+  "reusable_productions": 171,
+  "artists_total": 224,
+  "productions_total": 277
 }
