@@ -64,7 +64,7 @@ function formatTime(t){return t||"השעה תפורסם"}
 function isNonEventActivity(e){
   const text=[e?.title,e?.series_title,e?.description,e?.variant_label].filter(Boolean).join(" ");
   if(e?.category==="workshop"||e?.category==="classes")return true;
-  return /(?:סדנה|סדנת|סדנאות|קורס|קורסים|חוג|חוגים|פילאטיס|יוגה|טאי[־ -]?צ.?י|התעמלות|אימון קבוע|סטודיו פתוח|המרחב הבטוח|שיטת דורון|איזון מפרקים|מפגשים שבועיים|סדרת מפגשים|מחזור לימודים)/i.test(text);
+  return /(?:סדנה|סדנא|סדנת|סדנאות|קורס|קורסים|חוג|חוגים|פילאטיס|יוגה|טאי[־ -]?צ.?י|התעמלות|אימון קבוע|סטודיו פתוח|המרחב הבטוח|שיטת דורון|איזון מפרקים|מפגשים שבועיים|סדרת מפגשים|מחזור לימודים)/i.test(text);
 }
 function priceText(e){
   if(e.is_free===true)return "חינם";
