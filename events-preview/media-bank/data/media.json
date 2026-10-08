@@ -1,391 +1,14 @@
 {
-  "generated_at": "2026-10-08T14:50:22.678734+00:00",
+  "generated_at": "2026-10-08T14:54:08.038730+00:00",
   "stats": {
     "events_scanned": 511,
     "image_links": 404,
-    "unique_images": 170,
-    "approved": 158,
+    "unique_images": 169,
+    "approved": 157,
     "needs_review": 12,
     "rejected": 0
   },
   "media": [
-    {
-      "media_id": "media_04f7c1373b347290ea747f48",
-      "url": "assets/defaults/exhibition.svg",
-      "origin_url": "assets/defaults/exhibition.svg",
-      "source_url": "ISNET internal representative artwork",
-      "credit": "איור מייצג: ISNET",
-      "rights_status": "owned_system_asset",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "super_editor_representative_fallback",
-      "artists": [
-        "הדס סט",
-        "עמית קבסה",
-        "יעל כץ בן שלום",
-        "רוני כהן-בנימיני",
-        "מוזיאון אשדוד לאמנות",
-        "מוזאון אשדוד לאמנות",
-        "רוני כהן-בנימיני (אוצרת, הדס סט)",
-        "יעל כץ בן שלום (אוצרת, עמית קבסה)",
-        "יעל כץ בן שלום (אוצרת)"
-      ],
-      "productions": [
-        "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-        "סיורים מודרכים במוזיאון אשדוד לאמנות"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0ebf1cad124a8b7fb92d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_90e0977c4c75e8ca55a9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0a8724d73a8a25785bcb",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fb3a2160cf3e31dedd3b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e9b00b27cc3b531c934",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_617490407af714bb4af4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7d3a5639ec3847f8a137",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_013751f4bb1f253a4a2f",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1671f155d6a206c3de2b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7b18a3b8878c1169693b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_99d8856352ac024635f0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_58c1ea1851030cfaaa11",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2e18ed2709b02baa3532",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9a8cdd916de4aaaf8311",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ce847e364ee55065956b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1e5059b53915f4c7fe21",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a578c11cb7a7bacb36e1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b069b87dfeecdb648ea4",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e8d879a99bf64df31e3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_823f171a4a98cd6fb9d9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_626a62df2f41c6e27d8c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d6f20b5b24339863b497",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_59e494c94b56ac9e6861",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-31"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1ae03ec698a65bb2455e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_772312d4fce5baa32388",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-02"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_180bd1ccf144be5544e3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2fda014dc7669a040b46",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-04"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_805c3f05170759f15ab0",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_243fa63e0656fad7477c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-06"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9eb4ea3b1be8386c949c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-07"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0d5c53deefa1e10c5f4d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f42edb321dbde7088a3a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9b5eea9e1acf1feac5cf",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8c0a6d5f1cabc435ad48",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d7864c780fea6cbdc43d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_65aaebf97ecda0981b5b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_98_20261113",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-11-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b6539384c62acf076d94",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_87b190ce94eadcbb9bd1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c5f6d02c4792bae76e1c",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c67cb1fd7296d8873ca3",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a67f2f422700efb610d7",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-18"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cc2beedf4f76f168e9ff",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_79ae8e00a4276dc2d62d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_eda485f329036f12976a",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-21"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9ae58929c271c5410eec",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5276d7588775cf66475e",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-23"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ed5e50ba93af66a6e37b",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_d56184583cc012704fb9",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_04e5b0c7c43ef1c5c535",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_255eb2a0c98790b70d69",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-27"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a8e751087c2d16482459",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f37ddc7e60553c75692d",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6347127f965dcf0e1e59",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-11-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6edc79b3206c44047ae2",
-          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-          "date": "2026-12-07"
-        }
-      ],
-      "usage_count": 56,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": 0.529
-    },
     {
       "media_id": "media_e4a471179c955dc762512953",
       "url": "assets/defaults/sport.svg",
@@ -665,7 +288,7 @@
     },
     {
       "media_id": "media_78e19fcc69b94704798dfead",
-      "url": "/events-preview/media-bank/cards/0d0db547de538bb97ef8c847.webp",
+      "url": "../ashdod//events-preview/media-bank/cards/0d0db547de538bb97ef8c847.webp",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4ba8b462ee908215253.png",
       "source_url": "https://ashdod.smarticket.co.il/המדורה_של_רינתי_|_שעת_סיפור_עם_רינתי/?id=17650",
       "credit": null,
@@ -5121,7 +4744,7 @@
     },
     {
       "media_id": "media_9f9ca96824d9a448cc6b7bcd",
-      "url": "/events-preview/media-bank/cards/14c2b0f01d7a796881c70dde.webp",
+      "url": "../ashdod//events-preview/media-bank/cards/14c2b0f01d7a796881c70dde.webp",
       "origin_url": "https://www.concerto.com.br/sites/default/files/akta.jpg",
       "source_url": "https://coo.org.il/%D7%A1%D7%93%D7%A8%D7%95%D7%AA/%D7%94%D7%A1%D7%93%D7%A8%D7%94-%D7%94%D7%A4%D7%99%D7%9C%D7%94%D7%A8%D7%9E%D7%95%D7%A0%D7%99%D7%AA-%D7%90%D7%A9%D7%93%D7%95%D7%93-2026-2027/",
       "credit": "דניאל אקטע, מצולמות קידום האמנית",
@@ -5130,7 +4753,7 @@
       "verified": true,
       "publishable": true,
       "ai_generated": false,
-      "strategy": "artist_fallback",
+      "strategy": "central_media_bank_reuse",
       "artists": [],
       "productions": [
         "FATE & FIRE"
@@ -6687,6 +6310,463 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_04f7c1373b347290ea747f48",
+      "url": "assets/defaults/exhibition.svg",
+      "origin_url": "assets/defaults/exhibition.svg",
+      "source_url": "ISNET internal representative artwork",
+      "credit": "איור מייצג: ISNET",
+      "rights_status": "owned_system_asset",
+      "status": "needs_review",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "super_editor_representative_fallback",
+      "artists": [
+        "הדס סט",
+        "עמית קבסה",
+        "יעל כץ בן שלום",
+        "רוני כהן-בנימיני",
+        "מוזיאון אשדוד לאמנות",
+        "אבי משה סגל",
+        "מוזאון אשדוד לאמנות",
+        "רוני כהן-בנימיני (אוצרת, הדס סט)",
+        "יעל כץ בן שלום (אוצרת, עמית קבסה)",
+        "יעל כץ בן שלום (אוצרת)",
+        "הקתדרה העממית \"אופק\" אשדוד"
+      ],
+      "productions": [
+        "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+        "הזקן והים",
+        "סיורים מודרכים במוזיאון אשדוד לאמנות",
+        "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+        "התקווה 6",
+        "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+        "סיור טעימות ברמלה",
+        "הר הנגב – בעקבות שירות בנתיבי המדבר",
+        "בעקבות סופרים בנחלאות",
+        "רמלה – אוצר של סיפורים בין יפו לירושלים",
+        "אל עמק הברכה",
+        "סיור טעימות במחנה יהודה",
+        "תנועת ה\"עפלה\" 80 שנה אחרי"
+      ],
+      "categories": [
+        "exhibition",
+        "tour"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0ebf1cad124a8b7fb92d",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_90e0977c4c75e8ca55a9",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0a8724d73a8a25785bcb",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fb3a2160cf3e31dedd3b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2e9b00b27cc3b531c934",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_617490407af714bb4af4",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_382f5504e06e1fcda12e",
+          "title": "הזקן והים",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7d3a5639ec3847f8a137",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_013751f4bb1f253a4a2f",
+          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1671f155d6a206c3de2b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7b18a3b8878c1169693b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_99d8856352ac024635f0",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-18"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_58c1ea1851030cfaaa11",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+          "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2e18ed2709b02baa3532",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9a8cdd916de4aaaf8311",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-21"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ce847e364ee55065956b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1e5059b53915f4c7fe21",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-23"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a578c11cb7a7bacb36e1",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-24"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b069b87dfeecdb648ea4",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-25"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e8d879a99bf64df31e3a",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_823f171a4a98cd6fb9d9",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_626a62df2f41c6e27d8c",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d6f20b5b24339863b497",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-30"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_59e494c94b56ac9e6861",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-10-31"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1ae03ec698a65bb2455e",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-01"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_772312d4fce5baa32388",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_64cf140ac904f0ae4871",
+          "title": "התקווה 6",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_180bd1ccf144be5544e3",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2fda014dc7669a040b46",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-04"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_805c3f05170759f15ab0",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_243fa63e0656fad7477c",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9eb4ea3b1be8386c949c",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0d5c53deefa1e10c5f4d",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f42edb321dbde7088a3a",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f45962e796919e19fbcd",
+          "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
+          "date": "2026-11-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9b5eea9e1acf1feac5cf",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8c0a6d5f1cabc435ad48",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d7864c780fea6cbdc43d",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_65aaebf97ecda0981b5b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_98_20261113",
+          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+          "date": "2026-11-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b6539384c62acf076d94",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_87b190ce94eadcbb9bd1",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c5f6d02c4792bae76e1c",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c67cb1fd7296d8873ca3",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a67f2f422700efb610d7",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-18"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_cc2beedf4f76f168e9ff",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_79ae8e00a4276dc2d62d",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_eda485f329036f12976a",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-21"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9ae58929c271c5410eec",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5276d7588775cf66475e",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-23"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7baf69bd3cb635730590",
+          "title": "סיור טעימות ברמלה",
+          "date": "2026-11-24"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ed5e50ba93af66a6e37b",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-24"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d56184583cc012704fb9",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-25"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_04e5b0c7c43ef1c5c535",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_255eb2a0c98790b70d69",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-27"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a8e751087c2d16482459",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f37ddc7e60553c75692d",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6347127f965dcf0e1e59",
+          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+          "date": "2026-11-30"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_399303973daa1a005314",
+          "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
+          "date": "2026-12-01"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6edc79b3206c44047ae2",
+          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+          "date": "2026-12-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3d3cdcdf993039f9fe16",
+          "title": "בעקבות סופרים בנחלאות",
+          "date": "2026-12-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9e8b223f38713dfb8a74",
+          "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+          "date": "2027-01-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2d86a3932207b0dfadb6",
+          "title": "אל עמק הברכה",
+          "date": "2027-02-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_96552a33f52aca95896d",
+          "title": "סיור טעימות במחנה יהודה",
+          "date": "2027-02-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1bd891e217e32b97766c",
+          "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
+          "date": "2027-02-23"
+        }
+      ],
+      "usage_count": 67,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.028
+    },
+    {
       "media_id": "media_02b5f67cb7e21ab82ac4a5ad",
       "url": "assets/defaults/festival.svg",
       "origin_url": "assets/defaults/festival.svg",
@@ -7051,147 +7131,6 @@
       "reuse_similarity_floor": 0.0
     },
     {
-      "media_id": "media_3b84511ac285cabdb69bee1c",
-      "url": "assets/event-thumbs/0ffdeffd4b24133168be65.jpg",
-      "origin_url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
-      "source_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33638&ht=הזקן והים 15/10/26&bc=",
-      "credit": null,
-      "rights_status": "verified_official_source",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "official_source_image",
-      "artists": [
-        "אבי משה סגל",
-        "יונתן גת",
-        "ישראל ארד",
-        "רועי עלוני",
-        "הקתדרה העממית \"אופק\" אשדוד"
-      ],
-      "productions": [
-        "הזקן והים",
-        "יונתן גת מונארט 2026",
-        "ישראל ארד מונארט 2026",
-        "רועי עלוני מונארט 2026",
-        "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-        "התקווה 6",
-        "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-        "סיור טעימות ברמלה",
-        "הר הנגב – בעקבות שירות בנתיבי המדבר",
-        "בעקבות סופרים בנחלאות",
-        "בדרך ללב הפועם של רמת גן",
-        "רמלה – אוצר של סיפורים בין יפו לירושלים",
-        "אל עמק הברכה",
-        "סיור טעימות במחנה יהודה",
-        "תנועת ה\"עפלה\" 80 שנה אחרי"
-      ],
-      "categories": [
-        "tour",
-        "lecture"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_382f5504e06e1fcda12e",
-          "title": "הזקן והים",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_04029172fbcf458e2eb3",
-          "title": "יונתן גת מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6c9c620a36d91d0e9a47",
-          "title": "ישראל ארד מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_833b74952b8fcc17694c",
-          "title": "רועי עלוני מונארט 2026",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_a24513b4e4cf7e5bbc06",
-          "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-          "date": "2026-10-20"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_64cf140ac904f0ae4871",
-          "title": "התקווה 6",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f45962e796919e19fbcd",
-          "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-          "date": "2026-11-10"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_7baf69bd3cb635730590",
-          "title": "סיור טעימות ברמלה",
-          "date": "2026-11-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_399303973daa1a005314",
-          "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
-          "date": "2026-12-01"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3d3cdcdf993039f9fe16",
-          "title": "בעקבות סופרים בנחלאות",
-          "date": "2026-12-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-          "title": "בדרך ללב הפועם של רמת גן",
-          "date": "2026-12-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_9e8b223f38713dfb8a74",
-          "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
-          "date": "2027-01-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2d86a3932207b0dfadb6",
-          "title": "אל עמק הברכה",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_96552a33f52aca95896d",
-          "title": "סיור טעימות במחנה יהודה",
-          "date": "2027-02-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_1bd891e217e32b97766c",
-          "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
-          "date": "2027-02-23"
-        }
-      ],
-      "usage_count": 15,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.028
-    },
-    {
       "media_id": "media_fc03065b7fb8c08c6fa1b93f",
       "url": "assets/defaults/lecture.svg",
       "origin_url": "assets/defaults/lecture.svg",
@@ -7206,6 +7145,9 @@
       "artists": [
         "יונתן סרור",
         "אבי ביילה",
+        "יונתן גת",
+        "ישראל ארד",
+        "רועי עלוני",
         "וונדה אקלה",
         "הרב מתניה ידיד",
         "עמותת מוזיאקה",
@@ -7221,12 +7163,16 @@
         "הרצאה של יונתן סררו",
         "עיצוב אורח חיים בריא",
         "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
+        "יונתן גת מונארט 2026",
+        "ישראל ארד מונארט 2026",
+        "רועי עלוני מונארט 2026",
         "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
         "הרצאה של רנה סרור",
         "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
         "יריד בריאות לאזרחים וותיקים",
         "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
         "נקודת מפגש-בין היסטוריה לסיפור חיים",
+        "בדרך ללב הפועם של רמת גן",
         "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן"
       ],
       "categories": [
@@ -7260,6 +7206,24 @@
           "event_id": "auto_as_06f3de539c2d3e22b2ff",
           "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
           "date": "2026-10-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_04029172fbcf458e2eb3",
+          "title": "יונתן גת מונארט 2026",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6c9c620a36d91d0e9a47",
+          "title": "ישראל ארד מונארט 2026",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_833b74952b8fcc17694c",
+          "title": "רועי עלוני מונארט 2026",
+          "date": "2026-10-15"
         },
         {
           "city": "ashdod",
@@ -7317,12 +7281,18 @@
         },
         {
           "city": "ashdod",
+          "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
+          "title": "בדרך ללב הפועם של רמת גן",
+          "date": "2026-12-29"
+        },
+        {
+          "city": "ashdod",
           "event_id": "auto_as_53cf1f6df1acf20a2f40",
           "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
           "date": "2027-02-02"
         }
       ],
-      "usage_count": 14,
+      "usage_count": 18,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_dissimilar_event_titles",
       "reuse_risk": "review",
@@ -7970,6 +7940,6 @@
     "quality": 80,
     "created": 0,
     "reused": 0,
-    "skipped": 158
+    "skipped": 157
   }
 }

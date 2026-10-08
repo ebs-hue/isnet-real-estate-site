@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-08T14:50:22.678734+00:00",
+  "generated_at": "2026-10-08T14:54:08.038730+00:00",
   "stats": {
     "events_scanned": 511,
     "image_links": 404,
-    "unique_images": 170,
-    "approved": 158,
+    "unique_images": 169,
+    "approved": 157,
     "needs_review": 12,
     "rejected": 0
   },
@@ -24,8 +24,8 @@
     },
     "local": {
       "images": 13,
-      "approved": 4,
-      "review": 9,
+      "approved": 3,
+      "review": 10,
       "rejected": 0
     },
     "static.tickchak.co.il": {
@@ -172,12 +172,6 @@
       "review": 0,
       "rejected": 0
     },
-    "www.ofek-ashdod.org.il": {
-      "images": 1,
-      "approved": 0,
-      "review": 1,
-      "rejected": 0
-    },
     "www.tel-aviv.gov.il": {
       "images": 1,
       "approved": 1,
@@ -209,8 +203,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 141,
-  "reusable_productions": 171,
+  "reusable_artists": 132,
+  "reusable_productions": 169,
   "artists_total": 224,
   "productions_total": 277
 }
