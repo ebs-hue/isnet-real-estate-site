@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-08T15:27:41.162759+00:00",
+  "generated_at": "2026-10-08T15:51:44.028586+00:00",
   "stats": {
     "events_scanned": 511,
-    "image_links": 254,
-    "unique_images": 169,
-    "approved": 154,
-    "needs_review": 12,
-    "rejected": 3
+    "image_links": 404,
+    "unique_images": 178,
+    "approved": 156,
+    "needs_review": 14,
+    "rejected": 8
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 3
+    "same_image_used_for_multiple_dissimilar_event_titles": 8
   },
   "source_domains": {
     "htrl.co.il": {
@@ -20,8 +20,8 @@
     },
     "ashdod.smarticket.co.il": {
       "images": 18,
-      "approved": 13,
-      "review": 5,
+      "approved": 12,
+      "review": 6,
       "rejected": 0
     },
     "static.tickchak.co.il": {
@@ -29,6 +29,12 @@
       "approved": 13,
       "review": 0,
       "rejected": 0
+    },
+    "local": {
+      "images": 12,
+      "approved": 3,
+      "review": 2,
+      "rejected": 7
     },
     "yama.smarticket.co.il": {
       "images": 11,
@@ -59,12 +65,6 @@
       "approved": 3,
       "review": 0,
       "rejected": 0
-    },
-    "local": {
-      "images": 3,
-      "approved": 0,
-      "review": 1,
-      "rejected": 2
     },
     "basket.co.il": {
       "images": 1,
@@ -217,8 +217,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 110,
-  "reusable_productions": 153,
-  "artists_total": 137,
-  "productions_total": 194
+  "reusable_artists": 125,
+  "reusable_productions": 163,
+  "artists_total": 224,
+  "productions_total": 277
 }
