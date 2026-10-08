@@ -17170,7 +17170,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:37:04Z",
       "missing_information": [
@@ -17206,9 +17206,10 @@
       ],
       "image_brief": "צילום רחב של חלל תצוגה במוזיאון: קיר שבו תלוי ציור מופשט רחב היקף עם שטחי צבע בולטים ושילוב מרקמי, ולצידו מסך או תחנה המציגה עבודות וידאו. התאורה היא ממוקדת תערוכתית, הרצפה ניטרלית, והזווית מדגישה את המרחב והקנה־מידה בין היצירה הגדולה לבין תצוגת הווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_23_20261124",
@@ -17270,7 +17271,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/iframe/%D7%97%D7%95%D7%A8%D7%A3_%D7%A7%D7%95%D7%A8%D7%99%D7%90%D7%A0%D7%99-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:37:26Z",
       "missing_information": [
@@ -17309,7 +17310,8 @@
       ],
       "image_brief": "צילום פתוח ואטמוספירי של חוף צונן בשעות יום קודרות: שתי דמויות עומדות במרחק מה על החוף או ליד כניסה למלון קטן, לבושות במעילי חורף כבדים. הים האפור והרוח מוצגים ברקע; הטון הכללי קר ו שקט, עם צבעים מתון‑כחלחורים שמדגישים תחושת בדידות וחשיפה רגשית. התמונה תעביר את האווירה הוויזואלית המרכזית של הסרט — חורף, ים, וקשר עדין בין אנשים.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_60_20261124",
@@ -17370,10 +17372,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_3fae9a215b7f2316c1aacb2e"
+      "media_bank_id": "media_3fae9a215b7f2316c1aacb2e",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -17445,7 +17448,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17573",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:38:07Z",
       "missing_information": [
@@ -17482,9 +17485,10 @@
       ],
       "image_brief": "צילום כיסוי של חלל ההצגה במוזאון: קיר עליו תלוי ציור מופשט רחב היקף עם פלטת צבעים בולטת ותאורה מוזיאלית עדינה, כשברקע מוצג מסך וידאו שמקרין עבודה מהאוסף. התמונה תיתן תחושת מרחב ומרקם של החומריות והצבע בתערוכה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -17556,7 +17560,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17594",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:38:28Z",
       "missing_information": [
@@ -17595,9 +17599,10 @@
       ],
       "image_brief": "צילום רחב זווית של חלל תצוגה במוזאון: על קיר גדול תלוי ציור מופשט רחב היקף עם מרקם צבע מודגש, ומולו עומד תאורן או מסך וידאו המשדר עבודה ידידותית לתצוגה. רצפת גלריה חלקה ותאורת מוקד מדגישה את מרחב העבודה; מספר מבקרים קטנים בחלל מציגים את מידת ההשתתפות הציבורית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_61_20261126",
@@ -17653,10 +17658,11 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_414e1cbd5cdc9b7d1201cbc5"
+      "media_bank_id": "media_414e1cbd5cdc9b7d1201cbc5",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
