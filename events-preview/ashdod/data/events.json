@@ -10726,7 +10726,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הרצאה_של_רנה_סרור/?id=17697",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:36:26Z",
       "missing_information": [
@@ -10738,7 +10738,8 @@
         "מידע על נגישות לאנשים עם מוגבלויות",
         "פרטי ביוגרפיה או תפקיד של רנה סרור"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -10801,7 +10802,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/אדם_וחותם-הקשר_שבין_האדם_לאדמה/?id=17701",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:37:10Z",
       "missing_information": [
@@ -10837,7 +10838,8 @@
       ],
       "image_brief": "תמונת קאבר המשלבת ידיים מבוגרות שמחזיקות חופן אדמה בחזית, ברקע מטושטש וילון אדום של אולם קטן ובמרכז סילואטה של דוברת מול מיקרופון. צבעים חמים ואדמתיים (חומים, ירוקים רכים) כדי לשדר קשר לטבע ולתחושת חום אנושי; קומפוזיציה שמדגישה את המפגש בין האדם והאדמה ואת האווירה האינטימית של ההרצאה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -10909,7 +10911,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:37:56Z",
       "missing_information": [
@@ -10949,9 +10951,10 @@
       ],
       "image_brief": "צילום של חלל תערוכה במוזיאון: קיר תצוגה עם ציור מופשט רחב היקף בצבעים עזים וטקסטורה בולטת, מסכי וידאו קטנים יותר מוצבים ברקע, תאורת גלריה מדגישה את משיחות הצבע, ומספר מבקרים צופים בעבודות. התמונה תיתן תחושה של מרחב, חומר ומתח בין ציור לווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_14_20261102",
@@ -11017,7 +11020,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:38:14Z",
       "missing_information": [
@@ -11050,7 +11053,7 @@
       ],
       "image_brief": "תצלום אופייני לכיסוי האירוע: אולם קטן במרכז קהילתי עם שורות כיסאות מוכנות, תאורה חמה וסביבת קהילה אינטימית. על שולחן בחזית ניתן להניח דפי עבודה עם ספרות והדגשות גרפיות עדינות, וברקע מטושטש ניתן לרמז לסמליות קבלית כמו איור רדיואלי של עץ החיים — הכל במסגור שקט ומזמין שמדגיש את האופי המעשי והרוחני של ההרצאה. אין טקסט מוטמע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_candidates": [
         {
@@ -11058,7 +11061,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -11127,7 +11131,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/קול_קורא|_מפגשי_כתיבה_עם_סופרת_הילדים_והנוער_איריס_ארגמן/?id=17686",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:38:35Z",
       "missing_information": [
@@ -11158,7 +11162,8 @@
         "שולחן עבודה עם עפרונות וצבעים"
       ],
       "image_brief": "צילום מפגש בספרייה: קבוצה של ילדים יושבת סביב שולחן עץ, כל אחד עם מחברת ועט, בחזית המצלמה איריס ארגמן עומדת או יושבת ומדריכה בעדינות; על השולחן נראים ניירות צבעוניים, עפרונות וצבעים. ברקע מדפי ספרים והארת פנים חמה שמדגישה אווירה יצירתית ולימודית. אין טקסט משולב בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -11219,7 +11224,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33639",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:18Z",
       "missing_information": [
@@ -11254,12 +11259,13 @@
       ],
       "image_brief": "תמונה של קבוצה קטנה של משתתפים שניצבת מחוץ לנקודת יציאה באשדוד בשעות הבוקר המוקדמות: אנשים עם תיקי גב וביגוד קל, מישהו בודק טלפון או מפה, תאורת בוקר רכה ורקע עירוני מפושט שמרמז על תחילת סיור. אין להטמיע טקסט בתמונה; המוקד הוא על האווירה של יציאה לסיור מוקדם בבוקר.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -11332,7 +11338,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/יריד_בריאות_לאזרחים_וותיקים/?id=17707",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:34Z",
       "missing_information": [
@@ -11361,7 +11367,8 @@
         "אולם מרכז קהילתי עם שולחנות וכיסאות"
       ],
       "image_brief": "צילום כיסוי פנים-אולם של מרכז קהילתי מלא בפעילות: כמה דוכנים מסודרים בשורה עם תצוגות ופריטים (שייקים, מוצרי קוסמטיקה), קבוצת מבוגרים המשתתפת בתיפוף או בתרגיל תנועה בקדמת התמונה, ומייצג מידע של דוכן עם פוסטרים מבלי להראות לוגואים בולטים. התאורה טבעית או חמה, כדי להבליט אווירה ידידותית ופעילה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -11433,7 +11440,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:58Z",
       "missing_information": [
@@ -11469,9 +11476,10 @@
       ],
       "image_brief": "צילום פנים של אולם התצוגה במוזאון אשדוד לאמנות: ברקע ציור מופשט רחב היקף המזוהה עם עבודותיו של עמית קבסה, בקדמת התמונה מסך וידאו המייצג את סקטור הווידאו מן האוסף, תאורה מוזיאלית נקייה ורצפת תצוגה המבליטה מרקמים וחומר. בתמונה כמה מבקרים ממורכזים סביב העבודות כדי להמחיש את קנה המידה והאינטראקציה עם היצירות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_15_20261103",
@@ -11537,7 +11545,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:40:15Z",
       "missing_information": [
@@ -11570,9 +11578,10 @@
       ],
       "image_brief": "תמונת עטיפה שתשקף מופע מוזיקלי אינטימי: במה מוארת באור חם באולם קטן, עם צלליות של מופיעים וכלי נגינה בחזית. ברקע תפאורה נקייה שמרמזת על שם האירוע (שועל כסימבול, ללא טקסט), וקהל בחלקו התחתון של התמונה המסתכל לעבר הבמה. אווירה נעימה וקהילתית, צבעים חמים ותאורה ממוקדת על הבמה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_a0d7180a2b50017bceca6eae"
+      "media_bank_id": "media_a0d7180a2b50017bceca6eae",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_55_20261103",
@@ -11633,10 +11642,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_b1263ba6a5dfe100bb45033a"
+      "media_bank_id": "media_b1263ba6a5dfe100bb45033a",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -11708,7 +11718,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:41:30Z",
       "missing_information": [
@@ -11745,9 +11755,10 @@
       ],
       "image_brief": "צילום שער צריך להראות את פנים גלריית המוזיאון עם קנבסים גדולים וצבעוניים תולים בחלל פתוח ומואר, ובחלק מהתמונה הקרנת וידאו על קיר או מסך. יש לשדר תחושת חומריות של צבע ומרחב — פורמטים גדולים, מרקמי צבע בולטים ותאורת גלריה שמדגישה עומק בין העבודות. אין לכלול טקסט מוטמע או לוגואים.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_16_20261104",
@@ -11810,7 +11821,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:41:49Z",
       "missing_information": [
@@ -11848,7 +11859,7 @@
       ],
       "image_brief": "תמונת שער שתציג את שורת הדוברות על במה בפאנל: שלוש נשים מצטופפות מאחורי שולחן או בכיסאות במה, תאורת בוקר חמה המבליטה את פניהן, וקהל יושב ברקע באולם. האווירה צריכה לשדר מפגש מקצועי ונעים בתחום האסתטיקה — קווים נקיים, צבעים רכים וקישוטים עדינים (כגון פרחים או וases קטנים) ברקע. אין טקסט מוטבע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_candidates": [
         {
@@ -11856,7 +11867,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_74_20261104",
