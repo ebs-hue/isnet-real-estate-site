@@ -24,6 +24,24 @@ function applyLocalOverride(e){
   const patch=localOverrides()[e._citySlug+":"+e.event_id];
   return patch?{...e,...patch,_localOverride:true}:e;
 }
+function mergeDbRecordWithFreshMedia(e,db){
+  if(!db?.payload)return e;
+  const merged={...e,...db.payload,_dbRecord:true};
+  const manualImage=Boolean(db.payload.image_manual_override===true);
+  if(!manualImage){
+    const mediaFields=[
+      "image_url","thumbnail_url","thumbnail_ready","image_origin_url","image_source",
+      "image_credit","image_publishable","image_verified","image_rights_status",
+      "image_strategy","image_represents_event","image_represents_category",
+      "media_bank_id","thumbnail_source"
+    ];
+    for(const key of mediaFields){
+      if(Object.prototype.hasOwnProperty.call(e,key)) merged[key]=e[key];
+      else delete merged[key];
+    }
+  }
+  return merged;
+}
 function artistVideoFor(event,catalog){
   if(event.category!=="standup")return null;
   const title=String(event.title||"").normalize("NFKC");
@@ -60,7 +78,7 @@ async function load(){
   const dbMap=new Map(dbRecords.map(r=>[r.city_slug+":"+r.event_id,r]));
   const persisted=groups.flat().map(e=>{
     const db=dbMap.get(e._citySlug+":"+e.event_id);
-    if(db?.payload)return {...e,...db.payload,_dbRecord:true};
+    if(db?.payload)return mergeDbRecordWithFreshMedia(e,db);
     return applyLocalOverride(e);
   });
   const dbManual=dbRecords.filter(r=>r.record_type==="manual").map(r=>{
