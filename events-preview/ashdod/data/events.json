@@ -13857,10 +13857,11 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_2d0e71e271b15ec704342d2c"
+      "media_bank_id": "media_2d0e71e271b15ec704342d2c",
+      "content_enrichment_version": 8
     },
     {
       "city": "אשדוד",
@@ -13932,7 +13933,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17541",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:49:52Z",
       "missing_information": [
@@ -13967,9 +13968,10 @@
       ],
       "image_brief": "צילום כיסוי של חלל תערוכה במוזאון: קיר עם ציור מופשט רחב היקף בצבעים חזקים ומרקם בולט, במרכז התמונה; ברקע או בצד תמונה מסך הקרנה/מכשיר וידאו שמציג עבודה וידאویی, רצפת גלריה ניטרלית ולפני היצירות מבקרים מביטים בעבודות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_98_20261113",
@@ -14032,7 +14034,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A1%D7%99%D7%95%D7%A8%D7%99%D7%9D_%D7%9E%D7%95%D7%93%D7%A8%D7%9B%D7%99%D7%9D_%D7%91%D7%9E%D7%95%D7%96%D7%99%D7%90%D7%95%D7%9F_%D7%90%D7%A9%D7%93%D7%95%D7%93_%D7%9C%D7%90%D7%9E%D7%A0%D7%95%D7%AA/?id=17620",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:50:12Z",
       "missing_information": [
@@ -14069,7 +14071,7 @@
       ],
       "image_brief": "צילום עמידה רחבה של חלל תצוגה במוזיאון: קבוצת מבקרים במהלך סיור מודרך מול קיר שמציג סדרת צילומים, לצדם ציור גדול צבעוני וכיוון צילום נוסף למיצב וידאו על מסך. התאורה המוזיאלית מדגישה מרקמים בצבע ובחומר; אין טקסט מוטמע בתמונה. התמונה תעביר את תחושת המגוון התצוגתי והאינטראקטיביות של הסיור.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "needs_review",
       "image_candidates": [
         {
@@ -14077,7 +14079,8 @@
           "source_url": "https://ashdod.smarticket.co.il/",
           "rights_status": "needs_review"
         }
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14149,7 +14152,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17542",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:50:39Z",
       "missing_information": [
@@ -14186,9 +14189,10 @@
       ],
       "image_brief": "תצלום של חלל תצוגה במוזאון: קיר מרכזי שעליו תלוי ציור מופשט רחב היקף שמציג שטחי צבע גדולים ומרקם צבע בולט, ובחלק אחר של החדר כמה מסכי וידאו או פנלים שמציגים עבודות וידאו מהאוסף. התאורה מוזאונית ורצפת הגלריה חלקה; מרחוק נראים מבקרים צופים בעבודות. התמונה משדרת את הניגוד בין חומריות הציור למדיום הווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14259,7 +14263,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/עופרה_b339d2ee91/?id=8239",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:50:55Z",
       "missing_information": [
@@ -14293,7 +14297,8 @@
         "אווירת תיאטרון"
       ],
       "image_brief": "צילום אווירה של המשכן לאמנויות הבמה: במה מוארת בספוטלייט חם, קווים של מושבים באולם בטון/חום עמום וקהל מתכונן לשורה התחלתית. התמונה תיתן תחושה של ערב הופעה בזמן שקיעת האור, ללא טקסט על גבי התמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -14365,7 +14370,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17568",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:27:34Z",
       "missing_information": [
@@ -14405,9 +14410,10 @@
       ],
       "image_brief": "צילום שער למוסף: תקריב של ציור מופשט רחב היקף התלוי בחלל גלריה לבן, המבליט שכבות צבע ומרקם חומרי; ברקע מסך או מסכי וידאו שמתחילים להיעלם באור התקרה. התמונה תכלול גם פיסת מרחב גלריה ריקה להדגשת קנה המידה והיחס בין הציור לעבודת הווידאו.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
