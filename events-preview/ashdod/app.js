@@ -39,8 +39,8 @@ const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const currency=new Intl.NumberFormat("he-IL",{style:"currency",currency:"ILS",maximumFractionDigits:0});
-const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",exhibition:"תערוכות ואמנות",workshop:"סדנאות ויצירה",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"עוד"};
-const catIcons={music:"♫",standup:"◉",theatre:"◇",kids:"★",lecture:"▣",exhibition:"▤",workshop:"✦",cinema:"▶",festival:"✺",community:"◎",sport:"⚑",tour:"⌖",other:"+"};
+const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",exhibition:"תערוכות ואמנות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"עוד"};
+const catIcons={music:"♫",standup:"◉",theatre:"◇",kids:"★",lecture:"▣",exhibition:"▤",cinema:"▶",festival:"✺",community:"◎",sport:"⚑",tour:"⌖",other:"+"};
 const favorites=new Set(JSON.parse(localStorage.getItem("isnet-events-favorites")||"[]"));
 
 function localDate(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
@@ -519,17 +519,17 @@ function fuzzyTokenMatch(q,hay){
 }
 /* Hebrew intent search: local, explainable relevance ranking without an external AI API. */
 const SEARCH_CONCEPTS=[
-  {id:"family",words:["ילד","ילדים","ילדות","ילדה","קטנטנים","פעוט","פעוטות","משפחה","משפחות","הורים","בייבי","נוער","בן שלי","בת שלי","לילדים","עם הילד"],cats:{kids:15,workshop:7,festival:6,exhibition:4,theatre:3},eventWords:["ילדים","ילד","משפחה","ילדות","תינוק","הצגת ילדים","שעת סיפור"],label:"ילדים ומשפחה"},
+  {id:"family",words:["ילד","ילדים","ילדות","ילדה","קטנטנים","פעוט","פעוטות","משפחה","משפחות","הורים","בייבי","נוער","בן שלי","בת שלי","לילדים","עם הילד"],cats:{kids:15,festival:6,exhibition:4,theatre:3},eventWords:["ילדים","ילד","משפחה","ילדות","תינוק","הצגת ילדים","שעת סיפור"],label:"ילדים ומשפחה"},
   {id:"funny",words:["צחוק","לצחוק","מצחיק","מצחיקה","מצחיקים","קומדיה","הומור","סטנדאפ","סטנד אפ","בידור","משעשע"],cats:{standup:18,theatre:7,kids:3},eventWords:["סטנדאפ","קומדיה","מצחיק","בידור"],label:"משהו מצחיק"},
   {id:"music",words:["מוזיקה","מוסיקה","מופע","מופעים","הופעה","הופעות","זמר","זמרת","קונצרט","שירים","שירה","לייב"],cats:{music:16,festival:4},eventWords:["הופעה","מוזיקה","מוסיקה","קונצרט","זמר","שירה"],label:"הופעות ומוזיקה"},
   {id:"theatre",words:["הצגה","הצגות","תיאטרון","מחזה","מחזמר","במה"],cats:{theatre:16,kids:7},eventWords:["הצגה","מחזמר","תיאטרון"],label:"הצגות"},
-  {id:"learn",words:["הרצאה","הרצאות","ללמוד","לימוד","להעשיר","ידע","העשרה","כנס","שיחה","מרצה"],cats:{lecture:15,workshop:9,exhibition:5},eventWords:["הרצאה","סדנה","כנס","מפגש"],label:"הרצאות והעשרה"},
-  {id:"create",words:["סדנה","סדנאות","סדנא","יצירה","יצירתי","לעשות משהו","פעילות","פעילויות","התנסות","ציור","אמנות מעשית"],cats:{workshop:16,kids:7,exhibition:4},eventWords:["סדנה","יצירה","מפגש","קורס"],label:"סדנאות ופעילויות"},
+  {id:"learn",words:["הרצאה","הרצאות","ללמוד","לימוד","להעשיר","ידע","העשרה","כנס","שיחה","מרצה"],cats:{lecture:15,exhibition:5},eventWords:["הרצאה","סדנה","כנס","מפגש"],label:"הרצאות והעשרה"},
+  {id:"create",words:["סדנה","סדנאות","סדנא","יצירה","יצירתי","לעשות משהו","פעילות","פעילויות","התנסות","ציור","אמנות מעשית"],cats:{kids:7,exhibition:4},eventWords:["סדנה","יצירה","מפגש","קורס"],label:"סדנאות ופעילויות"},
   {id:"culture",words:["תרבות","מוזיאון","אמנות","אומנות","תערוכה","תערוכות","גלריה","היסטוריה"],cats:{exhibition:17,theatre:7,lecture:7,music:4},eventWords:["מוזיאון","תערוכה","אמנות","גלריה"],label:"תרבות ואמנות"},
   {id:"sports",words:["ספורט","משחק","משחקים","כדורגל","כדורסל","כדוריד","כדורעף","קבוצה","קבוצות","אצטדיון"],cats:{sport:18},eventWords:["מכבי","הפועל","כדורגל","כדורסל","משחק"],label:"ספורט"},
   {id:"outdoors",words:["בחוץ","באוויר הפתוח","בטבע","טבע","טיול","טיולים","פארק","ים","חוף","הליכה","בחיק הטבע","אטרקציות"],cats:{sport:4,festival:9,community:4,kids:2},eventWords:["חוף","ים","טיול","פארק","גלישה","שטח","אוויר הפתוח"],label:"בילוי בחוץ"},
   {id:"dateNight",words:["זוג","זוגי","זוגית","זוגיות","דייט","רומנטי","רומנטית","בני זוג","ערב זוגי","בילוי זוגי"],cats:{music:9,standup:9,theatre:9},eventWords:["אהבה","זוג","רומנטי"],label:"בילוי זוגי"},
-  {id:"relax",words:["רגוע","רגועה","שקט","שקטה","נינוח","נינוחה","קליל","קלילה","לא רועש"],cats:{exhibition:9,lecture:7,workshop:5,music:4},eventWords:["מוזיאון","גלריה","קריאה","הרצאה"],label:"בילוי רגוע"},
+  {id:"relax",words:["רגוע","רגועה","שקט","שקטה","נינוח","נינוחה","קליל","קלילה","לא רועש"],cats:{exhibition:9,lecture:7,music:4},eventWords:["מוזיאון","גלריה","קריאה","הרצאה"],label:"בילוי רגוע"},
   {id:"seniors",words:["מבוגרים","מבוגר","בוגרים","גיל השלישי","גמלאים","פנסיונרים","ותיקים","ותיקות"],cats:{lecture:8,music:7,theatre:7,exhibition:7},eventWords:["גיל השלישי","ותיקים","60"],label:"למבוגרים"}
 ];
 const SEARCH_STOPWORDS=new Set(["מה","יש","לי","לנו","עם","אני","אנחנו","רוצה","רוצים","רוצות","מחפש","מחפשת","מחפשים","תמצא","תמצאי","תן","תני","אפשר","בא","בא לי","לעשות","לצאת","לבלות","משהו","איזה","איזו","איפה","מתי","אשדוד","באשדוד","בעיר","קרוב","לי","לנו","הכי","של","על","את","או","ו","ב","ל","בבקשה","מתאים","שיתאים","מעניין","נחמד","כיף","כיפי","כיפית","טוב","טובה","היום","מחר","השבוע","החודש","שבת","שישי","בערב","ערב","הלילה","סופש","סוף","השבוע","ללא","תשלום","חינם","עד","שח","שקל","שקלים","ילד","ילדים","משפחה","משפחות","הופעה","הופעות","הצגה","הצגות","קולנוע","סרט","סרטים","בת","בן","גיל"]);
@@ -778,7 +778,7 @@ function renderDates(){
   $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
 }
 function renderCategories(){
-  const cats=["music","standup","kids","sport","theatre","lecture","exhibition","workshop","cinema","festival"];
+  const cats=["music","standup","kids","sport","theatre","lecture","exhibition","cinema","festival"];
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
   $("categoryGrid").innerHTML=cats.map(c=>{
@@ -1032,7 +1032,7 @@ async function init(){
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
   ]);
   const horizon=addMonths(today(),5); horizon.setDate(today().getDate());
-  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon));
+  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon)&&e.category!=="workshop"&&!/(?:^|\s)(?:סדנה|סדנת|סדנאות|קורס|קורסים|חוג|חוגים)(?:\s|$)/.test(String(e.title||"")));
   state.fallbacks=fallbacks;
   state.generatedAt=data.generated_at||null;
   state.cinema=cinema.movies||[];
