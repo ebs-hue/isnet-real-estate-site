@@ -16508,7 +16508,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17571",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:34:20Z",
       "missing_information": [
@@ -16544,9 +16544,10 @@
       ],
       "image_brief": "צילום של חלל גלריה במוזיאון אשדוד לאמנות המציג ציור מופשט רחב היקף עם מרקם צבע בולט במוקד, כשברקע נראים מסכי וידאו על קיר נוסף. התאורה המוזיאלית מדגישה את מרקמי הצבע והחומר, וכמה מבקרים עומדים ומתבוננים ביצירות כדי להעביר את תחושת החוויה התערוכתית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -16612,7 +16613,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הנסיכה_והכתר_האבוד-_הצגה_מבית_אדווה_בן_גיגי_מלול/?id=17669",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:35:09Z",
       "missing_information": [
@@ -16648,10 +16649,11 @@
       ],
       "image_brief": "תמונה אופיינית לכיסוי: ילד או ילדה יושבים ליד שולחן מלא חומרים יצירה (ניירות צבעוניים, מדבקות ונצנצים) ומעצבים כתר אישי; ברקע נראית במה קטנה ושטח ישיבה של מרכז קהילתי עם אווירה חמה. התמקדות על הידיים והכתר בעבודה, עם הורה שמסייע מקרוב; צבעים חמימים ועשירים שידגישו תחושת קסם ויצירה. אין טקסט מוטבע בתמונה.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_candidates": [],
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_ff109db1f3200ccb83b4f4fc"
+      "media_bank_id": "media_ff109db1f3200ccb83b4f4fc",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -16773,7 +16775,10 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_82_20261123",
@@ -16837,7 +16842,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:35:46Z",
       "missing_information": [
@@ -16873,9 +16878,10 @@
       ],
       "image_brief": "צילום כיסוי: מבט פנימי על אולם המשכן לאמנויות הבמה לפני תחילת המופע — במה מוארת ברקע, שורות כיסאות ריקות בחזית ותאורה חמימה המבליטה את הבמה. בקדמת התמונה ניתן להציג כוס קפה ומאפה על כיסא או שולחן קטן, כמחווה לפתיחת השערים ב־9:30, וכן דלפק כניסה או דלתות האולם ברקע שמרמזות על המועד והאווירה של מופע בוקר. הימנעו מטקסט מוטבע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_3f772bb64c807088fdadc5e4"
+      "media_bank_id": "media_3f772bb64c807088fdadc5e4",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -16947,7 +16953,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:36:14Z",
       "missing_information": [
@@ -16984,9 +16990,10 @@
       ],
       "image_brief": "צילום כיסוי של חלל התערוכה במוזיאון: קיר גדול התופס ציור מופשט רחב היקף במרכז, טקסטורות צבעוניות בולטות וחומריות המשקפות עומק ומרחב, ובקרבתו מסכי וידאו דלים המציגים קטעים חזותיים. בתמונה נראות גם דמויות מבקרים במרחק כדי להעביר את תחושת הסקייל והאינטראקטיביות של התערוכות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -17047,7 +17054,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:36:41Z",
       "missing_information": [
@@ -17085,12 +17092,13 @@
       ],
       "image_brief": "צילום כיסוי בוקר: קבוצה קטנה של אנשים הולכת לאורך רחוב היסטורי ברמלה, אור בוקר זהוב מאיר את המדרכה; בחזית יד אוחזת צלחת טעימות קטנה או דגימות אוכל, וברקע נראה מיניבוס או אוטובוס חונה שהביא את המשתתפים. האווירה חיצונית, עירונית וקלילה — שמדגישה את שילוב ההליכה והטעימות.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
