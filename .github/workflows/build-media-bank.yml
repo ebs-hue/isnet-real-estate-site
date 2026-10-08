@@ -43,8 +43,14 @@ jobs:
       - name: Install image optimizer
         run: python -m pip install --disable-pip-version-check pillow
 
+      - name: Install media dependencies
+        run: python -m pip install --disable-pip-version-check pillow requests
+
       - name: Build media bank
         run: python -u scripts/build_media_bank.py
+
+      - name: Build lightweight card variants
+        run: python -u scripts/optimize_media_bank_cards.py
 
       - name: Create lightweight card images
         run: python -u scripts/optimize_media_bank_images.py
