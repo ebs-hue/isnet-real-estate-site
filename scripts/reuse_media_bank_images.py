@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/"events-preview"
 BANK=BASE/"media-bank"/"data"/"media.json"
-ENTITIES=BASE/"media-bank"/"data"/"entities.json"
+ARTISTS=BASE/"media-bank"/"data"/"artists.json"\nPRODUCTIONS=BASE/"media-bank"/"data"/"productions.json"
 
 def norm(v):
     x=unicodedata.normalize("NFKC",str(v or "")).casefold()
@@ -36,17 +36,19 @@ def main():
     ap.add_argument("--city",required=True,choices=["ashdod","rishon-lezion"])
     args=ap.parse_args()
     data_path=BASE/args.city/"data"/"events.json"
-    if not BANK.is_file() or not ENTITIES.is_file():
+    if not BANK.is_file() or not ARTISTS.is_file() or not PRODUCTIONS.is_file():
         print("media bank not ready"); return 0
     bank=json.loads(BANK.read_text(encoding="utf-8"))
-    entities=json.loads(ENTITIES.read_text(encoding="utf-8"))
+    artist_doc=json.loads(ARTISTS.read_text(encoding="utf-8"))
+    production_doc=json.loads(PRODUCTIONS.read_text(encoding="utf-8"))
     media={m["media_id"]:m for m in bank.get("media",[]) if m.get("status")=="approved" and m.get("publishable")}
     lookup={"artist":{},"production":{}}
-    for kind,field in (("artist","artists"),("production","productions")):
-        for e in entities.get(field,[]):
-            mid=e.get("preferred_media_id")
-            if mid in media:
-                lookup[kind][e.get("entity_key")]=mid
+    for e in artist_doc.get("artists",[]):
+        mid=e.get("preferred_media_id")
+        if mid in media: lookup["artist"][e.get("artist_key") or norm(e.get("name"))]=mid
+    for e in production_doc.get("productions",[]):
+        mid=e.get("preferred_media_id")
+        if mid in media: lookup["production"][e.get("production_key") or norm(e.get("name"))]=mid
 
     doc=json.loads(data_path.read_text(encoding="utf-8"))
     reused=0
@@ -68,7 +70,7 @@ def main():
         m=media[mid]
         card=m.get("card_url")
         if card:
-            url="/events-preview/"+card
+            url="/events-preview/"+card.lstrip("/")
         else:
             url=m.get("url")
             # Relative city-local assets are not portable across cities.
