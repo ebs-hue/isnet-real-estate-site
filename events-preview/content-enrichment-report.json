@@ -1,82 +1,82 @@
 {
-  "generated_at": "2026-10-08T07:13:23Z",
+  "generated_at": "2026-10-08T07:20:45Z",
   "model": "gpt-5-mini",
   "checked": 12,
-  "enriched": 9,
-  "insufficient": 3,
+  "enriched": 12,
+  "insufficient": 0,
   "source_text_insufficient": 0,
   "model_failed": 0,
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_617490407af714bb4af4",
+      "event_id": "evt_8_20261015",
+      "title": "דיסקו - כשהקצב משחרר את הגוף",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_43_20261015",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_42_20261015",
+      "title": "נועה מנור",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_1671f155d6a206c3de2b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_6_20261014",
-      "title": "עיצוב אורח חיים בריא",
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - מכבי קריית גת",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_06f3de539c2d3e22b2ff",
-      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "evt_96_20261014",
-      "title": "דירה להכיר",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_f49bff491bdc80b16bfb",
-      "title": "מעשה בחמישה בלונים",
-      "status": "ready"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_382f5504e06e1fcda12e",
-      "title": "הזקן והים",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_24bd564dd8d11f87e4ff",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_7d3a5639ec3847f8a137",
+      "event_id": "auto_as_7b18a3b8878c1169693b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_04029172fbcf458e2eb3",
-      "title": "יונתן גת מונארט 2026",
-      "status": "insufficient"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_6c9c620a36d91d0e9a47",
-      "title": "ישראל ארד מונארט 2026",
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי חדרה",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_833b74952b8fcc17694c",
-      "title": "רועי עלוני מונארט 2026",
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
       "status": "ready"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_013751f4bb1f253a4a2f",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_99d8856352ac024635f0",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
       "status": "ready"
     }
   ]
