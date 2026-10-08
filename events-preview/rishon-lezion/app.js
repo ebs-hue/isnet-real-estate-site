@@ -159,6 +159,15 @@ function eventOccurrences(e){
     .filter(x=>eventGroupKey(x)===key)
     .sort((a,b)=>(a.start_date+(a.start_time||"99:99")).localeCompare(b.start_date+(b.start_time||"99:99")));
 }
+function isPersistentExhibition(e){
+  if(e?.category!=="exhibition")return false;
+  if(e.end_date){
+    const a=localDate(e.start_date),b=localDate(e.end_date);
+    if(!Number.isNaN(a.getTime())&&!Number.isNaN(b.getTime())&&((b-a)/86400000)>=7)return true;
+  }
+  const dates=[...new Set(eventOccurrences(e).map(x=>x.start_date).filter(Boolean))];
+  return dates.length>=4;
+}
 function uniqueOccurrenceDates(e){
   const seen=new Set();
   return eventOccurrences(e).filter(x=>{
@@ -653,6 +662,7 @@ function searchIntentLabel(intent){
 function filtered(){
   const q=state.query.trim(),intent=q?parseSearchIntent(q):null;
   let arr=state.events.filter(e=>{
+    if(isPersistentExhibition(e)&&state.category!=="exhibition")return false;
     if(q){
       // A new conversational query stands on its own; older quick/date/category selections
       // must not silently erase relevant recommendations.
@@ -817,7 +827,7 @@ function renderHeroStats(){
     (updated?'<span>עודכן '+escapeHtml(updated)+'</span>':"");
 }
 function discoverEvents(){
-  const upcoming=state.events.filter(e=>localDate(e.start_date)>=today()&&e.ticket_status!=="sold_out");
+  const upcoming=state.events.filter(e=>localDate(e.start_date)>=today()&&e.ticket_status!=="sold_out"&&!isPersistentExhibition(e));
   const diverse=[],seen=new Set();
   for(const e of upcoming){if(!seen.has(e.category)){diverse.push(e);seen.add(e.category)} if(diverse.length>=6)break}
   const rotated=diverse.slice(state.discoverSeed%Math.max(1,diverse.length)).concat(diverse.slice(0,state.discoverSeed%Math.max(1,diverse.length)));
