@@ -29,6 +29,7 @@ API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
 CONTENT_ENRICHMENT_VERSION = 8
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
+TARGET_CITY = os.getenv("EVENT_ENRICHMENT_CITY", "ashdod").strip()
 EVENT_HORIZON_MONTHS = 5
 
 
@@ -320,7 +321,8 @@ def main():
     checked = enriched = insufficient = fetch_failed = model_failed = 0
     rows = []
 
-    for slug, path in CITIES.items():
+    city_items = CITIES.items() if TARGET_CITY in {"", "all"} else [(TARGET_CITY, CITIES[TARGET_CITY])]
+    for slug, path in city_items:
         doc = json.loads(path.read_text(encoding="utf-8"))
         changed = False
         for event in doc.get("events") or []:
