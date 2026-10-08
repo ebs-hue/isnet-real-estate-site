@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-08T15:20:21.114028+00:00",
+  "generated_at": "2026-10-08T15:27:21.889514+00:00",
   "stats": {
     "events_scanned": 511,
-    "image_links": 404,
+    "image_links": 254,
     "unique_images": 169,
-    "approved": 157,
-    "needs_review": 4,
-    "rejected": 8
+    "approved": 154,
+    "needs_review": 12,
+    "rejected": 3
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 8
+    "same_image_used_for_multiple_dissimilar_event_titles": 3
   },
   "source_domains": {
     "htrl.co.il": {
@@ -19,16 +19,10 @@
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 14,
+      "images": 18,
       "approved": 13,
-      "review": 1,
+      "review": 5,
       "rejected": 0
-    },
-    "local": {
-      "images": 13,
-      "approved": 3,
-      "review": 2,
-      "rejected": 8
     },
     "static.tickchak.co.il": {
       "images": 13,
@@ -48,6 +42,12 @@
       "review": 0,
       "rejected": 0
     },
+    "handballisr.co.il": {
+      "images": 5,
+      "approved": 0,
+      "review": 5,
+      "rejected": 0
+    },
     "commons.wikimedia.org": {
       "images": 3,
       "approved": 3,
@@ -59,6 +59,12 @@
       "approved": 3,
       "review": 0,
       "rejected": 0
+    },
+    "local": {
+      "images": 3,
+      "approved": 0,
+      "review": 1,
+      "rejected": 2
     },
     "basket.co.il": {
       "images": 1,
@@ -174,6 +180,12 @@
       "review": 0,
       "rejected": 0
     },
+    "www.ofek-ashdod.org.il": {
+      "images": 1,
+      "approved": 0,
+      "review": 0,
+      "rejected": 1
+    },
     "www.tel-aviv.gov.il": {
       "images": 1,
       "approved": 1,
@@ -207,6 +219,6 @@
   },
   "reusable_artists": 110,
   "reusable_productions": 153,
-  "artists_total": 224,
-  "productions_total": 277
+  "artists_total": 137,
+  "productions_total": 194
 }
