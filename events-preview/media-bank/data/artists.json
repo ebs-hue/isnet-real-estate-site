@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:27:08.746128+00:00",
+  "generated_at": "2026-10-08T07:35:43.560135+00:00",
   "artists": [
     {
       "artist_key": "alisha arora",
@@ -35,6 +35,82 @@
       ],
       "categories": [
         "community"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "studio future positive",
+      "name": "studio future positive",
+      "media": [
+        "media_fe6e8df1a4468d54960eaee1"
+      ],
+      "approved_media": [
+        "media_fe6e8df1a4468d54960eaee1"
+      ],
+      "preferred_media_id": "media_fe6e8df1a4468d54960eaee1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "א ס sgs רמת השרון",
+      "name": "א.ס. SGS רמת השרון",
+      "media": [
+        "media_cda079a20047c064fb1f15f2"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אבי ביילה",
+      "name": "אבי ביילה",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אבינועם קוניאבסקי",
+      "name": "אבינועם קוניאבסקי",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -136,10 +212,10 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "אורית שירי",
-      "name": "אורית שירי",
+      "artist_key": "אוליבר",
+      "name": "אוליבר",
       "media": [
-        "media_3b84511ac285cabdb69bee1c"
+        "media_5893d960a05fee3a00ea34a8"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -147,23 +223,88 @@
         "ashdod"
       ],
       "categories": [
+        "exhibition",
+        "kids",
         "lecture",
-        "tour",
-        "workshop"
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
     },
     {
-      "artist_key": "איילת",
-      "name": "איילת",
+      "artist_key": "אוצרת יעל כץ בן שלום",
+      "name": "אוצרת יעל כץ בן שלום",
       "media": [
-        "media_c252c53d87394302c89f51d1"
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אוצרת רוני כהן בנימיני",
+      "name": "אוצרת רוני כהן-בנימיני",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אורה איל מאיירת הספר המקורי",
+      "name": "אורה איל (מאיירת הספר המקורי)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
       ],
       "approved_media": [
-        "media_c252c53d87394302c89f51d1"
+        "media_9300e0f7de398cd94516a367"
       ],
-      "preferred_media_id": "media_c252c53d87394302c89f51d1",
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "איציק קקולי גוריאלשוילי",
+      "name": "איציק (קקולי) גוריאלשוילי",
+      "media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
       "cities": [
         "ashdod"
       ],
@@ -172,6 +313,67 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "איציק קקולי גוריאלשוילי ז ל",
+      "name": "איציק (קקולי) גוריאלשוילי (ז\"ל)",
+      "media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "איריס ארגמן",
+      "name": "איריס ארגמן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אנסטסיה מרטיאנוב",
+      "name": "אנסטסיה מרטיאנוב",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "אסף אלברשטיין",
@@ -188,6 +390,103 @@
       ],
       "categories": [
         "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "אסף יצחקי",
+      "name": "אסף יצחקי",
+      "media": [
+        "media_b798020183538fcc746559e0"
+      ],
+      "approved_media": [
+        "media_b798020183538fcc746559e0"
+      ],
+      "preferred_media_id": "media_b798020183538fcc746559e0",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "אסף מור יוסף",
+      "name": "אסף מור יוסף",
+      "media": [
+        "media_dea96b94729e1a017cf0f177"
+      ],
+      "approved_media": [
+        "media_dea96b94729e1a017cf0f177"
+      ],
+      "preferred_media_id": "media_dea96b94729e1a017cf0f177",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "אסתר",
+      "name": "אסתר",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "אקי אבני",
+      "name": "אקי אבני",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "ארז זינגר",
+      "name": "ארז זינגר",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -250,6 +549,46 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "בית לברון",
+      "name": "בית לברון",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "בית רינתי הפקה תיאטרון לילדים",
+      "name": "בית רינתי (הפקה / תיאטרון לילדים)",
+      "media": [
+        "media_c252c53d87394302c89f51d1"
+      ],
+      "approved_media": [
+        "media_c252c53d87394302c89f51d1"
+      ],
+      "preferred_media_id": "media_c252c53d87394302c89f51d1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "בלה קים",
       "name": "בלה קים",
       "media": [
@@ -286,11 +625,10 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "בריגיט ברסי",
-      "name": "בריגיט ברסי",
+      "artist_key": "בלט פלמנקו ברצלונה",
+      "name": "בלט פלמנקו ברצלונה",
       "media": [
-        "media_4d75d43099afdb9c2122ffd3",
-        "media_947c988f76f4f839d42361e5"
+        "media_559285ab4ecfc9323b47686b"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -299,25 +637,45 @@
       ],
       "categories": [
         "other",
-        "workshop"
+        "standup",
+        "theatre"
       ],
-      "media_count": 2,
+      "media_count": 1,
       "approved_media_count": 0
     },
     {
-      "artist_key": "גב לילי כנפי",
-      "name": "גב' לילי כנפי",
+      "artist_key": "בריגיט ברסי",
+      "name": "בריגיט ברסי",
       "media": [
-        "media_ec1c4894f557c3316c373766"
+        "media_947c988f76f4f839d42361e5"
       ],
-      "approved_media": [
-        "media_ec1c4894f557c3316c373766"
-      ],
-      "preferred_media_id": "media_ec1c4894f557c3316c373766",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "ברק תמם בסגל השחקנים בתצוגות הסיבוב",
+      "name": "ברק תמם (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
         "other"
       ],
       "media_count": 1,
@@ -341,6 +699,85 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "גדי ענבר עיבוד נוסח בדיווחים",
+      "name": "גדי ענבר (עיבוד/נוסח בדיווחים)",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "גיל אימר",
+      "name": "גיל אימר",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "גילה תורן חן",
+      "name": "גילה תורן חן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "גל פופולר",
+      "name": "גל פופולר",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "גל רובין",
@@ -383,6 +820,43 @@
       "approved_media_count": 0
     },
     {
+      "artist_key": "גלעד מאור מאמן הפועל אשדוד",
+      "name": "גלעד מאור (מאמן — הפועל אשדוד)",
+      "media": [
+        "media_430ef7589bb1a2d825492f71"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "גלעד מרחבי",
+      "name": "גלעד מרחבי",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "גמצ יק",
       "name": "גמצ'יק",
       "media": [
@@ -402,20 +876,64 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "דבורה דזנאשוילי",
-      "name": "דבורה דזנאשוילי",
+      "artist_key": "ג קו",
+      "name": "ג׳קו",
       "media": [
-        "media_03f05a767cb67ddd0c104d93"
+        "media_5893d960a05fee3a00ea34a8"
       ],
-      "approved_media": [
-        "media_03f05a767cb67ddd0c104d93"
-      ],
-      "preferred_media_id": "media_03f05a767cb67ddd0c104d93",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "workshop"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "דויד גרוסמן",
+      "name": "דויד גרוסמן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "דלית ענבר תפאורה",
+      "name": "דלית ענבר (תפאורה)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -476,10 +994,10 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "דקלה ברנס",
-      "name": "דקלה ברנס",
+      "artist_key": "דפנה שרעבי",
+      "name": "דפנה שרעבי",
       "media": [
-        "media_b1ca8644883c0bf9105c0268"
+        "media_5893d960a05fee3a00ea34a8"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -487,7 +1005,32 @@
         "ashdod"
       ],
       "categories": [
-        "workshop"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "דרור קרן",
+      "name": "דרור קרן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -510,6 +1053,48 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "הדס סט",
+      "name": "הדס סט",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "החברה העירונית לתרבות ופנאי באשדוד בע מ",
+      "name": "החברה העירונית לתרבות ופנאי באשדוד בע\"מ",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "היכל התרבות מאיר ניצן",
@@ -590,6 +1175,25 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "המשכן לאמנויות הבמה אשדוד",
+      "name": "המשכן לאמנויות הבמה - אשדוד",
+      "media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "הנס כריסטיאן אנדרסן",
       "name": "הנס כריסטיאן אנדרסן",
       "media": [
@@ -610,6 +1214,24 @@
       "approved_media_count": 0
     },
     {
+      "artist_key": "הפועל אשדוד",
+      "name": "הפועל אשדוד",
+      "media": [
+        "media_430ef7589bb1a2d825492f71",
+        "media_cda079a20047c064fb1f15f2"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "media_count": 2,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "הקתדרה העממית אופק אשדוד",
       "name": "הקתדרה העממית \"אופק\" אשדוד",
       "media": [
@@ -622,11 +1244,50 @@
       ],
       "categories": [
         "lecture",
-        "tour",
-        "workshop"
+        "tour"
       ],
       "media_count": 1,
       "approved_media_count": 0
+    },
+    {
+      "artist_key": "הרב מתניה ידיד",
+      "name": "הרב מתניה ידיד",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "התיאטרון של אסי",
+      "name": "התיאטרון של אסי",
+      "media": [
+        "media_550e833132524aa41043d627"
+      ],
+      "approved_media": [
+        "media_550e833132524aa41043d627"
+      ],
+      "preferred_media_id": "media_550e833132524aa41043d627",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "artist_key": "ואלרי פאנוב",
@@ -648,6 +1309,132 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "וונדה אקלה",
+      "name": "וונדה אקלה",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "ורדה שחף",
+      "name": "ורדה שחף",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "זיו כהן",
+      "name": "זיו כהן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "חגי אלקיים עיבודים והפקה מוזיקלית",
+      "name": "חגי אלקיים (עיבודים והפקה מוזיקלית)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "חוי ליברמן",
+      "name": "חוי ליברמן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "חיים דרעי",
+      "name": "חיים דרעי",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "חן אלון",
       "name": "חן אלון",
       "media": [
@@ -667,6 +1454,27 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "חני דינור",
+      "name": "חני דינור",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "טינה",
       "name": "טינה",
       "media": [
@@ -681,6 +1489,48 @@
       ],
       "categories": [
         "lecture"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "טל אבישר בסגל השחקנים בתצוגות הסיבוב",
+      "name": "טל אבישר (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "טל סער תאורה",
+      "name": "טל סער (תאורה)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -705,6 +1555,26 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "יאיר רוזנבלום מחבר השירים",
+      "name": "יאיר רוזנבלום (מחבר השירים)",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "יאן קראן",
       "name": "יאן קראן",
       "media": [
@@ -717,6 +1587,27 @@
       ],
       "categories": [
         "cinema"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "יהודה אלגרבי",
+      "name": "יהודה אלגרבי",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -739,21 +1630,24 @@
       "approved_media_count": 0
     },
     {
-      "artist_key": "יהודה ברסי",
-      "name": "יהודה ברסי",
+      "artist_key": "יהונתן פרלמן ניהול מוזיקלי דו ח פרסומי",
+      "name": "יהונתן פרלמן (ניהול מוזיקלי, דו\"ח פרסומי)",
       "media": [
-        "media_4d75d43099afdb9c2122ffd3"
+        "media_2ebd52b882301742d4de29d2"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "workshop"
+        "other",
+        "theatre"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "artist_key": "יובל המבולבל",
@@ -773,6 +1667,27 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "יובל כהן אייל ציובן שחקנים במופעים שונים",
+      "name": "יובל כהן / אייל ציובן (שחקנים, במופעים שונים)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "יוני גרמידר",
@@ -806,8 +1721,28 @@
       ],
       "categories": [
         "lecture",
-        "tour",
-        "workshop"
+        "tour"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "יונתן סררו",
+      "name": "יונתן סררו",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -854,6 +1789,69 @@
       "approved_media_count": 2
     },
     {
+      "artist_key": "יעל כץ בן שלום",
+      "name": "יעל כץ בן שלום",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "יעל כץ בן שלום אוצרת",
+      "name": "יעל כץ בן שלום (אוצרת)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "יעל כץ בן שלום אוצרת עמית קבסה",
+      "name": "יעל כץ בן שלום (אוצרת, עמית קבסה)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "יעקב אגם",
       "name": "יעקב אגם",
       "media": [
@@ -888,6 +1886,27 @@
       "approved_media_count": 7
     },
     {
+      "artist_key": "ירון זינו עיצוב תלבושות ואביזרים",
+      "name": "ירון זינו (עיצוב תלבושות ואביזרים)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "ישראל ארד",
       "name": "ישראל ארד",
       "media": [
@@ -900,11 +1919,31 @@
       ],
       "categories": [
         "lecture",
-        "tour",
-        "workshop"
+        "tour"
       ],
       "media_count": 1,
       "approved_media_count": 0
+    },
+    {
+      "artist_key": "ישראל גולדרט בסגל השחקנים בתצוגות הסיבוב",
+      "name": "ישראל גולדרט (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "artist_key": "לאה טודורוב",
@@ -921,6 +1960,25 @@
       ],
       "categories": [
         "lecture"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "להקת side b",
+      "name": "להקת Side B",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -946,10 +2004,10 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "לוסי בן חמו",
-      "name": "לוסי בן חמו",
+      "artist_key": "ליאור אביבי אופיר מרדכי שחקנים במופעים שונים",
+      "name": "ליאור אביבי / אופיר מרדכי (שחקנים, במופעים שונים)",
       "media": [
-        "media_479ebf77677a6efbb6b2aeda"
+        "media_5893d960a05fee3a00ea34a8"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -957,7 +2015,11 @@
         "ashdod"
       ],
       "categories": [
-        "other"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1001,6 +2063,67 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "לילי כנפי",
+      "name": "לילי כנפי",
+      "media": [
+        "media_ec1c4894f557c3316c373766"
+      ],
+      "approved_media": [
+        "media_ec1c4894f557c3316c373766"
+      ],
+      "preferred_media_id": "media_ec1c4894f557c3316c373766",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "לימור יצחייק",
+      "name": "לימור יצחייק",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מאיה אושרי בסגל השחקנים בתצוגות הסיבוב",
+      "name": "מאיה אושרי (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "מאיר תמם",
       "name": "מאיר תמם",
       "media": [
@@ -1021,6 +2144,25 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "מארק קאמולטי",
+      "name": "מארק קאמולטי",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "מוגלי",
       "name": "מוגלי",
       "media": [
@@ -1038,6 +2180,250 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "מוזאון אשדוד לאמנות",
+      "name": "מוזאון אשדוד לאמנות",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מוזאון לתרבות הפלשתים",
+      "name": "מוזאון לתרבות הפלשתים",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מוזיאון אשדוד לאמנות",
+      "name": "מוזיאון אשדוד לאמנות",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מועדון גדולות מהחיים",
+      "name": "מועדון גדולות מהחיים",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מוריס",
+      "name": "מוריס",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מורן מלכה בסגל השחקנים בתצוגות הסיבוב",
+      "name": "מורן מלכה (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "מיכל שי כוריאוגרפיה",
+      "name": "מיכל שי (כוריאוגרפיה)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "מיסייה אלבר",
+      "name": "מיסייה אלבר",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מיקי מבורך",
+      "name": "מיקי מבורך",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "מישל גוריאלשווילי",
+      "name": "מישל גוריאלשווילי",
+      "media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "מישל גוריאלשוילי",
+      "name": "מישל גוריאלשוילי",
+      "media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "approved_media": [
+        "media_898c64ff59ec497ffc656be1"
+      ],
+      "preferred_media_id": "media_898c64ff59ec497ffc656be1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "מכבי פתח תקוה",
+      "name": "מכבי פתח תקוה",
+      "media": [
+        "media_430ef7589bb1a2d825492f71"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "sport"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "מנשה קדישמן",
@@ -1089,25 +2475,6 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "מר רוני אקריש",
-      "name": "מר רוני אקריש",
-      "media": [
-        "media_ec1c4894f557c3316c373766"
-      ],
-      "approved_media": [
-        "media_ec1c4894f557c3316c373766"
-      ],
-      "preferred_media_id": "media_ec1c4894f557c3316c373766",
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 1
-    },
-    {
       "artist_key": "מריאן",
       "name": "מריאן",
       "media": [
@@ -1146,6 +2513,106 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "מרים רות מחברת הספר",
+      "name": "מרים רות (מחברת הספר)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "מרכוס אשלה",
+      "name": "מרכוס אשלה",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "משה נאור",
+      "name": "משה נאור",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "משי קלינשטיין",
+      "name": "משי קלינשטיין",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "נדב ויקינסקי מוזיקה",
+      "name": "נדב ויקינסקי (מוזיקה)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "נועה כדריה",
       "name": "נועה כדריה",
       "media": [
@@ -1164,6 +2631,44 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "נועה מנור",
+      "name": "נועה מנור",
+      "media": [
+        "media_9c9d33ef23b29a5bb246cc96"
+      ],
+      "approved_media": [
+        "media_9c9d33ef23b29a5bb246cc96"
+      ],
+      "preferred_media_id": "media_9c9d33ef23b29a5bb246cc96",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "ניקי גולדשטיין",
+      "name": "ניקי גולדשטיין",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
     },
     {
       "artist_key": "נעה ורטהיים",
@@ -1206,6 +2711,25 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "נתי קלוגר",
+      "name": "נתי קלוגר",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "סו הא",
       "name": "סו-הא",
       "media": [
@@ -1218,6 +2742,25 @@
       ],
       "categories": [
         "cinema"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "סופיה פאפאזוגלו",
+      "name": "סופיה פאפאזוגלו",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1242,6 +2785,144 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "סילבי שליט",
+      "name": "סילבי שליט",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "סמי הכבאי",
+      "name": "סמי הכבאי",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "סתיו בכל הצבעים",
+      "name": "סתיו בכל הצבעים",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "סתיו קורנס",
+      "name": "סתיו קורנס",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "עדי אלון",
+      "name": "עדי אלון",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "עולם ומלואו",
+      "name": "עולם ומלואו",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "עופרה",
+      "name": "עופרה",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "עידן עמית",
       "name": "עידן עמית",
       "media": [
@@ -1261,42 +2942,86 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "עמית קבסה",
-      "name": "עמית קבסה",
+      "artist_key": "עינת ברנובסקי",
+      "name": "עינת ברנובסקי",
       "media": [
-        "media_d0dea1a4d721e7e55f3d8dd5"
+        "media_559285ab4ecfc9323b47686b"
       ],
-      "approved_media": [
-        "media_d0dea1a4d721e7e55f3d8dd5"
-      ],
-      "preferred_media_id": "media_d0dea1a4d721e7e55f3d8dd5",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "kids"
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "עמותת מוזיאקה",
+      "name": "עמותת מוזיאקה",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "עמית נחושתן בסגל השחקנים בתצוגות הסיבוב",
+      "name": "עמית נחושתן (בסגל השחקנים בתצוגות הסיבוב)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
       ],
       "media_count": 1,
       "approved_media_count": 1
     },
     {
-      "artist_key": "עפרה אייל",
-      "name": "עפרה אייל",
+      "artist_key": "עמית קבסה",
+      "name": "עמית קבסה",
       "media": [
-        "media_09e5152130ec243c733f36ad"
+        "media_5893d960a05fee3a00ea34a8"
       ],
-      "approved_media": [
-        "media_09e5152130ec243c733f36ad"
-      ],
-      "preferred_media_id": "media_09e5152130ec243c733f36ad",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "workshop"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "artist_key": "עקב אגם",
@@ -1332,6 +3057,47 @@
       ],
       "categories": [
         "standup"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "פליקס זלצר",
+      "name": "פליקס זלצר",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "צדי צרפתי במאי",
+      "name": "צדי צרפתי (במאי)",
+      "media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "approved_media": [
+        "media_2ebd52b882301742d4de29d2"
+      ],
+      "preferred_media_id": "media_2ebd52b882301742d4de29d2",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -1394,6 +3160,25 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "קובי מימון",
+      "name": "קובי מימון",
+      "media": [
+        "media_221cbce45ca635408c709a48"
+      ],
+      "approved_media": [
+        "media_221cbce45ca635408c709a48"
+      ],
+      "preferred_media_id": "media_221cbce45ca635408c709a48",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "קויה קאמורה",
       "name": "קויה קאמורה",
       "media": [
@@ -1411,23 +3196,25 @@
       "approved_media_count": 0
     },
     {
-      "artist_key": "קצין מיחידת המסתערבים של משמר הגבול",
-      "name": "קצין מיחידת המסתערבים של משמר הגבול",
+      "artist_key": "קרן חובב מחזה ובימוי",
+      "name": "קרן חובב (מחזה ובימוי)",
       "media": [
-        "media_ec1c4894f557c3316c373766"
+        "media_5893d960a05fee3a00ea34a8"
       ],
-      "approved_media": [
-        "media_ec1c4894f557c3316c373766"
-      ],
-      "preferred_media_id": "media_ec1c4894f557c3316c373766",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "artist_key": "רואי דיין",
@@ -1469,6 +3256,128 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "רוני אקריש",
+      "name": "רוני אקריש",
+      "media": [
+        "media_ec1c4894f557c3316c373766"
+      ],
+      "approved_media": [
+        "media_ec1c4894f557c3316c373766"
+      ],
+      "preferred_media_id": "media_ec1c4894f557c3316c373766",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "רוני כהן בנימיני אוצרת joy in repetition",
+      "name": "רוני כהן בנימיני (אוצרת, Joy in Repetition)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רוני כהן בנימיני",
+      "name": "רוני כהן-בנימיני",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רוני כהן בנימיני אוצרת הדס סט joy in repetition",
+      "name": "רוני כהן-בנימיני (אוצרת, הדס סט: Joy in Repetition)",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רונית זוהר",
+      "name": "רונית זוהר",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רועי לזר",
+      "name": "רועי לזר",
+      "media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "approved_media": [
+        "media_ac936dcd2ec4f2dd3a42d89e"
+      ],
+      "preferred_media_id": "media_ac936dcd2ec4f2dd3a42d89e",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "רועי עלוני",
       "name": "רועי עלוני",
       "media": [
@@ -1481,8 +3390,47 @@
       ],
       "categories": [
         "lecture",
-        "tour",
-        "workshop"
+        "tour"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רועיקי מצחיקי",
+      "name": "רועיקי מצחיקי",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "רופאים",
+      "name": "רופאים",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1524,6 +3472,27 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "רחל חציר",
+      "name": "רחל חציר",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "רינה שמחי",
       "name": "רינה שמחי",
       "media": [
@@ -1543,10 +3512,30 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "רינת הופר מחברת הספר מקור הסיפור",
+      "name": "רינת הופר (מחברת הספר, מקור הסיפור)",
+      "media": [
+        "media_c252c53d87394302c89f51d1"
+      ],
+      "approved_media": [
+        "media_c252c53d87394302c89f51d1"
+      ],
+      "preferred_media_id": "media_c252c53d87394302c89f51d1",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
       "artist_key": "רינתי",
       "name": "רינתי",
       "media": [
         "media_78e19fcc69b94704798dfead",
+        "media_5893d960a05fee3a00ea34a8",
         "media_fd028402992e159c039841b0"
       ],
       "approved_media": [
@@ -1557,9 +3546,13 @@
         "ashdod"
       ],
       "categories": [
-        "kids"
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
       ],
-      "media_count": 2,
+      "media_count": 3,
       "approved_media_count": 1
     },
     {
@@ -1583,6 +3576,27 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "רעות טללים",
+      "name": "רעות טללים",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "רשת כותר ראשון",
       "name": "רשת כותר ראשון",
       "media": [
@@ -1601,6 +3615,67 @@
       ],
       "media_count": 1,
       "approved_media_count": 0
+    },
+    {
+      "artist_key": "שבוע עושים נפשות",
+      "name": "שבוע \"עושים נפשות\"",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "שיר פופוביץ",
+      "name": "שיר פופוביץ'",
+      "media": [
+        "media_559285ab4ecfc9323b47686b"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "other",
+        "standup",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "שיראל חכשורי אשרוב עיבוד ובימוי",
+      "name": "שיראל חכשורי–אשרוב (עיבוד ובימוי)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "artist_key": "שירחן",
@@ -1700,25 +3775,6 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "שרון כהן",
-      "name": "שרון כהן",
-      "media": [
-        "media_e025cfed22ab4d6b8b17951d"
-      ],
-      "approved_media": [
-        "media_e025cfed22ab4d6b8b17951d"
-      ],
-      "preferred_media_id": "media_e025cfed22ab4d6b8b17951d",
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "workshop"
-      ],
-      "media_count": 1,
-      "approved_media_count": 1
-    },
-    {
       "artist_key": "שרון שחל",
       "name": "שרון שחל",
       "media": [
@@ -1752,6 +3808,27 @@
       ],
       "categories": [
         "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 1
+    },
+    {
+      "artist_key": "תומר פרידמן סאונד",
+      "name": "תומר פרידמן (סאונד)",
+      "media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "approved_media": [
+        "media_9300e0f7de398cd94516a367"
+      ],
+      "preferred_media_id": "media_9300e0f7de398cd94516a367",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "kids",
+        "other"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -1795,6 +3872,27 @@
       "approved_media_count": 1
     },
     {
+      "artist_key": "תיאטרון אורנה פורת לילדים ולנוער",
+      "name": "תיאטרון אורנה פורת לילדים ולנוער",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
       "artist_key": "תיאטרון האור",
       "name": "תיאטרון האור",
       "media": [
@@ -1809,6 +3907,90 @@
         "kids",
         "lecture",
         "music",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "תיאטרון החלומות של אסיק",
+      "name": "תיאטרון החלומות של אסיק",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "תיאטרון המדיטק",
+      "name": "תיאטרון המדיטק",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "תיאטרון קמגולם",
+      "name": "תיאטרון קמגולם",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "תיאטרון רחוק",
+      "name": "תיאטרון רחוק",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
         "theatre"
       ],
       "media_count": 1,
@@ -1869,6 +4051,27 @@
         "kids",
         "lecture",
         "music",
+        "theatre"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "artist_key": "תמי כהן",
+      "name": "תמי כהן",
+      "media": [
+        "media_5893d960a05fee3a00ea34a8"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition",
+        "kids",
+        "lecture",
+        "other",
         "theatre"
       ],
       "media_count": 1,

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T04:27:08.746128+00:00",
+  "generated_at": "2026-10-08T07:35:43.560135+00:00",
   "stats": {
-    "events_scanned": 580,
-    "image_links": 265,
-    "unique_images": 180,
-    "approved": 159,
-    "needs_review": 21,
+    "events_scanned": 511,
+    "image_links": 394,
+    "unique_images": 172,
+    "approved": 154,
+    "needs_review": 18,
     "rejected": 0
   },
   "rejected_reasons": {},
@@ -17,9 +17,9 @@
       "rejected": 0
     },
     "ashdod.smarticket.co.il": {
-      "images": 27,
-      "approved": 17,
-      "review": 10,
+      "images": 21,
+      "approved": 14,
+      "review": 7,
       "rejected": 0
     },
     "static.tickchak.co.il": {
@@ -35,8 +35,8 @@
       "rejected": 0
     },
     "www.ironit.org.il": {
-      "images": 8,
-      "approved": 8,
+      "images": 6,
+      "approved": 6,
       "review": 0,
       "rejected": 0
     },
@@ -44,12 +44,6 @@
       "images": 5,
       "approved": 0,
       "review": 5,
-      "rejected": 0
-    },
-    "local": {
-      "images": 4,
-      "approved": 0,
-      "review": 4,
       "rejected": 0
     },
     "commons.wikimedia.org": {
@@ -62,6 +56,12 @@
       "images": 3,
       "approved": 3,
       "review": 0,
+      "rejected": 0
+    },
+    "local": {
+      "images": 3,
+      "approved": 0,
+      "review": 3,
       "rejected": 0
     },
     "benefits.isracard.co.il": {
@@ -110,6 +110,12 @@
       "images": 1,
       "approved": 1,
       "review": 0,
+      "rejected": 0
+    },
+    "mishkan-ashdod.smarticket.co.il": {
+      "images": 1,
+      "approved": 0,
+      "review": 1,
       "rejected": 0
     },
     "s3.eu-central-1.amazonaws.com": {
@@ -209,8 +215,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 74,
-  "reusable_productions": 155,
-  "artists_total": 97,
-  "productions_total": 202
+  "reusable_artists": 109,
+  "reusable_productions": 149,
+  "artists_total": 205,
+  "productions_total": 267
 }
