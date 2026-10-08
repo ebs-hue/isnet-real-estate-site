@@ -15162,7 +15162,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%94%D7%A8%D7%A7%D7%93%D7%9F___%D7%95%D7%90%D7%9C%D7%A8%D7%99_%D7%A4%D7%90%D7%A0%D7%95%D7%91/?id=17075",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:30:06Z",
       "missing_information": [
@@ -15196,9 +15196,10 @@
       ],
       "image_brief": "תמונת כריכה אפשרית: דיוקן אינטימי של ואלרי פאנוב (רקדן בוגר) עומד על במה מוארת באור חם, ברקע טשטוש של רצועת סרט או תמונות ארכיון בשחור-לבן שמראות רגעי ריקוד. הקומפוזיציה מדגישה את הבדידות של האמן והקישור בין ההווה הארעי לבין חומרי הארכיון, ללא טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_6676d255798bb852bdf483f5"
+      "media_bank_id": "media_6676d255798bb852bdf483f5",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_99_20261117",
@@ -15264,7 +15265,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A1%D7%99%D7%A4%D7%95%D7%A8_%D7%A9%D7%9C_%D7%97%D7%95%D7%A8%D7%A3_%7C_%D7%A9%D7%A2%D7%AA_%D7%A1%D7%99%D7%A4%D7%95%D7%A8_%D7%A2%D7%9D_%D7%A8%D7%99%D7%A0%D7%AA%D7%99/?id=17644",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:30:44Z",
       "missing_information": [
@@ -15297,9 +15298,10 @@
       ],
       "image_brief": "תמונה מעוררת אווירה של שעת סיפור בחלל פנימי: במה קטנה או שטיח במרכז אולם קהילתי, המספרת רינתי מאחורי או לצד מטריה פתוחה, ודמות של \"הטיפה הקטנה\" כאובייקט בובה או אקססורי בולט. בסביבת הבמה ילדים יושבים על הרצפה או על כיסאות נמוכים, תאורה חמימה שמדגישה אווירה חורפית ולבבית. הרקע ישדר אולם קומפקטי של מרכז קהילתי (מרצפות, קירות נקיים) ללא טקסט מוטמע או לוגואים.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_78e19fcc69b94704798dfead"
+      "media_bank_id": "media_78e19fcc69b94704798dfead",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_78_20261117",
@@ -15393,7 +15395,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8141",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:00Z",
       "missing_information": [
@@ -15426,9 +15428,10 @@
       ],
       "image_brief": "צילום קברטי של במה בתאורה חמה: וילונות אדומים חלקית פתוחים, ספוטלייט בודד מאיר כיסא בודד על מרכז הבמה, במרקע מטושטש של האולם נראים כיסאות צופים. האווירה דרמטית וממוקדת בבמה, בלי לוגואים או טקסטים מוטמעים. התמונה מתאימה לשמש ככיסוי לאירוע תיאטרלי כללי.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8f297f8b91e325728d628397"
+      "media_bank_id": "media_8f297f8b91e325728d628397",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -15500,7 +15503,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:20Z",
       "missing_information": [
@@ -15540,9 +15543,10 @@
       ],
       "image_brief": "צילום כיסוי של חלל גלריה במוזאון: ציור מופשט גדול התופס חלק ניכר מקיר אחד, בצבעים חזקים ומרקם בולט, ובצד אחר מסך או הקרנת וידאו עם עבודות וידאו מהאוסף. התאורה המוזיאונית מדגישה את עובי החומר והמרחב, ורואים מבקרים צופים במרחק מסוים מהעבודות. התמונה תעביר תחושת היקף, צבע וחיבור בין ציור לווידאו במסגרת מוזיאונית.",
       "media_status": "needs_exact_event_image",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
@@ -15609,7 +15613,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/שלגיה_ו-7_הגמדים/?id=17306",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:34Z",
       "missing_information": [
@@ -15643,9 +15647,10 @@
         "שמלות ותלבושות ילדים"
       ],
       "image_brief": "צילום כיסוי המראה סצנה בימתית של הצגת ילדים: שלגיה במרכז לבושה בבגדים פשוטים לצד מספר שחקנים כחמישה–שבעה המייצגים את הגמדים, רקע טירתי צבעוני ותפאורה פנטזיתית, תאורת במה חמה שמדגישה את הדמויות וקהל ילדים מטושטש ברקע. התמונה תשדר אווירת הצגה משפחתית ותיאטרלית, ללא טקסט על התמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "event_id": "evt_79_20261118",
@@ -15739,7 +15744,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8142",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 8,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:51Z",
       "missing_information": [
@@ -15771,9 +15776,10 @@
       ],
       "image_brief": "תצלום פנורמי של במה חשוכה בהמשכן לאמנויות הבמה עם ספוטלייט אחד שמאיר מרכז הבמה; ברקע שורות כסאות אדומות ריקות ועטיפה של חלל אודיטוריום כדי להעביר את התחושה של ערב תיאטרון צפוי. אין טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_8f297f8b91e325728d628397"
+      "media_bank_id": "media_8f297f8b91e325728d628397",
+      "content_enrichment_retry_after": "2026-10-09"
     },
     {
       "city": "אשדוד",
