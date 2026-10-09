@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "publish_policy": {
     "mode": "automatic_for_events",
     "default_mode": "automatic",
@@ -180,7 +180,9 @@
         "target_audience",
         "visual_keywords",
         "image_brief",
-        "content_ready_for_media"
+        "content_ready_for_media",
+        "category_candidate",
+        "subcategory_candidate"
       ],
       "writing_rules": [
         "עברית טבעית וקריאה",
@@ -195,7 +197,9 @@
         "כאשר מדובר במופע נודד, הצגה רצה, הרצאה חוזרת או הפקה שמופיעה בערים שונות - התוכן המרכזי צריך להסביר את ההפקה עצמה ולא את העיר שבה מתקיים המועד המסוים",
         "בשאילתת מחקר יש להתחיל מסוג האירוע + שם האירוע, למשל הצגת תיאטרון + שם, הרצאה + שם, סטנדאפ + שם; להוסיף אמן/מרצה/הפקה אם צריך לזיהוי, ולא להוסיף עיר אלא אם היא נחוצה כדי למנוע בלבול",
         "התקציר הקצר צריך להיות בדרך כלל 45-75 מילים ולהסביר לקורא במה מדובר ומה הוא צפוי לחוות",
-        "התיאור המלא צריך להיות בדרך כלל 120-220 מילים ולכלול לפי הצורך עלילה/נושא/קונספט, ייחוד, משתתפים מרכזיים וקהל יעד, בלי לנפח ובלי להמציא"
+        "התיאור המלא צריך להיות בדרך כלל 120-220 מילים ולכלול לפי הצורך עלילה/נושא/קונספט, ייחוד, משתתפים מרכזיים וקהל יעד, בלי לנפח ובלי להמציא",
+        "לפני העברת האירוע הלאה יש להציע קטגוריה ראשית ותת־קטגוריה מתוך מילון taxonomy.json בלבד; אין ליצור שמות קטגוריה חדשים.",
+        "כאשר אין ודאות מספקת לתת־קטגוריה יש להשאיר subcategory_candidate ריק ולסמן צורך בבדיקת סוכן השיוך, במקום לנחש."
       ]
     },
     {
@@ -250,16 +254,38 @@
     {
       "id": "taxonomy",
       "name": "סוכן שיוך",
-      "status": "planned",
+      "status": "priority",
       "order": 5,
-      "purpose": "שיוך לקטגוריות, קהלים, נושאים, גופים ויעדי הפצה מתוך המילון המאושר בלבד.",
+      "purpose": "מקבל אירוע לאחר הבנת התוכן ומשייך אותו לקטגוריה ראשית, תת־קטגוריה, קהלי יעד, נושאים, גופים ויעדי הפצה מתוך taxonomy.json בלבד. הקטגוריה הראשית קובעת את תחום האירוע ותת־הקטגוריה מחדדת את סוגו.",
       "can": [
         "select_existing_taxonomy",
-        "suggest_distribution"
+        "suggest_distribution",
+        "assign_primary_category",
+        "assign_subcategory",
+        "assign_audiences",
+        "validate_category_subcategory_pair"
       ],
       "cannot": [
         "create_taxonomy_value",
         "publish"
+      ],
+      "output_fields": [
+        "category",
+        "subcategory",
+        "audiences",
+        "topics",
+        "organizations",
+        "distribution_targets",
+        "classification_confidence"
+      ],
+      "rules": [
+        "חובה לבחור category מתוך primary_categories שב-taxonomy.json.",
+        "subcategory, כאשר ניתן לזהות אותה בביטחון, חייבת להיות אחת מתתי־הקטגוריות של אותה category בלבד.",
+        "אין להשתמש בקטגוריה כללית כאשר קיימת קטגוריה מדויקת יותר במילון.",
+        "אירוע יכול לקבל קהל יעד אחד או יותר בנוסף לקטגוריה ולתת־הקטגוריה.",
+        "הגיל השלישי וגמלאים יכול להיות קטגוריה ראשית כאשר האירוע עצמו הוא פעילות ייעודית למדור זה, ובמקביל audiences יכול לכלול seniors.",
+        "ילדים ומשפחה משמשת כקטגוריה ראשית לאירועים המיועדים לילדים/משפחות, ובמקביל audiences מסמן kids/families.",
+        "במקרה של ספק בין שתי קטגוריות אין להמציא ערך חדש; יש להחזיר classification_confidence נמוך ולהעביר לבדיקה."
       ]
     },
     {
@@ -299,14 +325,16 @@
       "name": "סוכן עורך קטגוריה",
       "status": "priority",
       "order": 8,
-      "purpose": "עורך את המדור אוטומטית: חשיבות, בולטות, איזון תוכן וקידום; אירועים תקינים ממשיכים לפרסום ללא המתנה לאדם.",
+      "purpose": "עורך את המדור אוטומטית לאחר שהאירוע סווג: בודק שהקטגוריה ותת־הקטגוריה הגיוניות, ואז קובע חשיבות, בולטות, איזון תוכן וקידום.",
       "can": [
         "review_section_mix",
         "score_editorial_value",
         "recommend_promotion",
         "recommend_hold",
         "recommend_publish",
-        "recommend_homepage_position"
+        "recommend_homepage_position",
+        "review_event_classification",
+        "flag_misclassification"
       ],
       "cannot": [
         "change_taxonomy_dictionary",
