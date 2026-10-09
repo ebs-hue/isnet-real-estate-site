@@ -2845,12 +2845,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -2936,7 +2936,8 @@
       "event_id": "auto_as_f1dc81732b11d4fd595d",
       "detail_checked_at": "2026-10-09",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true
+      "details_verified": true,
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -4026,12 +4027,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4123,7 +4124,8 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -13030,12 +13032,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13127,7 +13129,8 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -17031,12 +17034,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17128,7 +17131,8 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il"
+      "contact_email": "ashdodh@ironit.org.il",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "evt_82_20261123",
@@ -21341,9 +21345,9 @@
       "image_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1745841030F90TUhdnR0xUeNlEcql1cBpXb2Q0UGJzd_-Mu257RuEG85peiaJzeOI.jpeg",
       "image_source": "https://live.tickchak.co.il/matan-peretz",
       "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://static.tickchak.co.il/all/updateArtistImage_share_1745841030F90TUhdnR0xUeNlEcql1cBpXb2Q0UGJzd_-Mu257RuEG85peiaJzeOI.jpeg",
@@ -21425,9 +21429,11 @@
       "detail_source_url": "https://live.tickchak.co.il/matan-peretz",
       "source_detail_text": "מתן פרץ • לוח הופעות מעודכן 2026 • הזמנת כרטיסים • פורטל LIVE 1,833 ארועי live כרגע 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה ראשי > הופעות מתן פרץ צילום: דוד גור אריה לעקוב מתן פרץ Matan Peretz סטנדאפ דף רשמי דף רשמי הקשב לעקוב לוח הופעות אודות דירוג LIVE 4.7 /5 דירוג משתמשים 0.0 /5 דרג דירוג LIVE 4.7 /5 דירוג משתמשים 0.0 /5 דרג מתן פרץ - לוח הופעות הצג הכל קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 15.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ בית החייל תל אביב קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 17.10.26 יום שבת 21:30 לאתר המכירה מתן פרץ היכל התרבות אשקלון קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 22.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ באר שבע - תמוז קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 29.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ תאטרון הבית גולדה פתח תקווה קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 01.11.26 יום ראשון 21:30 לאתר המכירה מתן פרץ בודק חומרים ומארח חברים - מגיל 18 סטנד אפ פקטורי - ת\"א קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 05.11.26 יום חמישי 21:30 לאתר המכירה מתן פרץ בית התותחן - זכרון יעקב קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 12.11.26 יום חמישי 21:00 לאתר המכירה מתן פרץ היכל התרבות בית שמש קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 14.11.26 יום שבת 21:30 לאתר המכירה מתן פרץ תיאטרון היהלום רמת גן קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 26.11.26 יום חמישי 21:30 לאתר המכירה מתן פרץ היכל התרבות בית העם ירושלים קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 28.11.26 יום שבת 21:30 לאתר המכירה מתן פרץ מרכז רפפורט לתרבות חיפה שימו -💓- נתוני ההופעות המוצגים עודכנו על ידי בינה מלאכותית מאתר המכירה המקורי. יתכנו טעויות ושינויים. טיקצ'אק LIVE לא מוכרת כרטיסים למופע זה ולא לוקחת אחריות על המידע, המיקום המחירים או כל מידע אחר הקשור לאירוע! יש לבדוק היטב באתר המכירה בפועל לפני הרכישה! אמנים דומים שעשויים לעניין אותך הצג הכל קרדיט לצלם קרדיט לצלם: אילוסטרציה באמצעות AI שחר חסון Shahar Hason קרדיט לצלם קרדיט לצלם: נוי עורקבי ברישיון CC BY-SA 3.0 גיא הוכמן Guy Hochman קרדיט לצלם קרדיט לצלם: אורי חזקיה סטנדאפ אורי חזקיה Ori Hizkiah בן בן ברוך Ben Ben Baruch חן מזרחי Hen Mizrahi דניאל חן Daniel Chen קרדיט לצלם קרדיט לצלם: פיני סילוק, ויקיפדיה, מופץ ברישיון CC BY-SA 3.0 - לרישיון המלא שלום אסייג Shalom Asayag דניאל כהן Daniel Cohen קרדיט לצלם קרדיט לצלם: ברקאי לוי יונתן ברק Jonathan Barak קרדיט לצלם קרדיט לצלם: סטודיו מאיסה, ויקיפדיה - לרישיון המלא אוראל צברי Orel Tsabari דירוג LIVE, דירוג ההופעות של ישראל לשנת 2026 מדד דירוג ציון ? ? דירוג בקטגוריית סטנדאפ שקלול של כל הפרמטרים, מספר הופעות, מעורבות קהל, ועוקבים לשנת 2026 בקטגוריית סטנדאפ. דירוג LIVE בקטגוריית סטנדאפ 14 # ? ? דירוג כללי שקלול של כל הפרמטרים, מספר הופעות, מעורבות קהל, ועוקבים לשנת 2026. תמיד תוכלו לשפר את התוצאה ע״י דרבון הקהל שלכם לביצוע פעולות, מה שיביא מיד לעליית המדד. דירוג LIVE כללי 123 # ( 4.7 ) ? ? מספר הופעות סך הופעות שהופיעו בפורטל LIVE בשנת 2026. מספר הופעות ב-LIVE ( 7 הופעות ) 190 # ? ? מעורבות קהל שקלול צפיות בפרופיל, צפיות באירועים ומעברים לרכישת כרטיסים. מעורבות קהל 128 # ? ? עוקבים מספר העוקבים והצמיחה בקהל המעריצים. עוקבים ב-LIVE ( 128 עוקבים ) 132 # לדירוג האמנים המלא לדף הסטנדאפיסטים המלא איך מחושב הדירוג המשוקלל לשנת 2026? הדירוג הכללי בטיק'צאק LIVE משקף את הפעילות שלך בשנה הקלנדרית הנוכחית / בשנה הקלנדרית הקודמת (מתאריך 01.01). הציון מורכב משקלול של שלושה מדדים מרכזיים: 1. מספר הופעות : מספר ההופעות שהופיעו בטיק'צאק LIVE השנה. 2. מעורבות קהל : שקלול צפיות בפרופיל, צפיות באירועים ומעברים לרכישת כרטיסים. 3. עוקבים : מספר העוקבים והצמיחה בקהל המעריצים. סגור דירוג אמני ישראל המלא התפלגות דירוגים של משתמשים דירוג משתמשים אין עדיין דירוגים למתן פרץ היו הראשונים לדרג דרג 1 0% 2 0% 3 0% 4 0% 5 0% קרדיט לצלם קרדיט לצלם: דוד גור אריה - לרישיון המלא הרשמו לעדכונים על הופעות חדשות של מתן פרץ! הצטרפו אלינו בכדי לקבל עדכונים ראשוניים על הופעות שעולות בפורטל LIVE. הצטרפו לקהילת העוקבים אחרי מתן פרץ ב-LIVE, פורטל התרבות של ישראל. לעקוב הכל על מתן פרץ מתן פרץ (נולד ב-18 באוגוסט, 1988) הוא סטנדאפיסט, כוכב רשת ומוזיקאי ישראלי. ביוגרפיה מתן פרץ נולד בירושלים בשנת 1988. עד לסיום בית הספר היסודי, התגורר בקרית ארבע. לאחר מכן, עבר לגור עם משפחתו ברמת בית שמש, למד בישיבה חרדית בשכונת בית וגן בירושלים. בגיל 16 עבר עם משפחתו לגן יבנה, ולמד בישיבה התיכונית אור עציון. בשנת 2006 התגייס לצה\"ל ושירת כלוחם בגדוד לביא. בשנת 2014 למד פרץ מוזיקה במסלול ״זמר יוצר״ במכללת BPM בתל אביב. בשנים 2015 עד 2018 למד לתואר ראשון בתקשורת במכללת ספיר. בשנת 2018 הצטרף לפרויקט היוטיוב \"My Vibe\" של כוכב הרשת סהר קליזו, חברו של מתן מילדות. בהמשך הצטלם פרץ לתוכנית הריאליטי \"פרויקט קליזו\", ששודרה ב-HOT ועקבה אחרי משתתפי הפרויקט. יחד עם קליזו, פרסם פרץ את השיר \"אל תחשבי עלי\", שהפך ללהיט ברשת החברתית טיקטוק. במקביל, החל פרץ להופיע בתור סטנדאפיסט והחל בקריירת סטנדאפ. פרץ העלה קטעי סטנדאפ לרשת, ואלו זכו להצלחה גדולה. לאחר תקופת הקורונה, הפך לאמן בית במועדון הסטנדאפ פקטורי. בשנת 2022 החל להגיש פודקאסט בשם \"נכנסים לפינות\", יחד עם רז ספני, אותו הכיר בפרויקט של סהר קליזו. בעת מלחמת חרבות ברזל, החל פרץ להעלות סרטוני הסברה באנגלית לרשתות, אשר זכו לתהודה בינלאומית. בשנת 2024 הצטרף כחבר קבוע לתוכנית מה שתגידו בכאן 11. כמו כן, פרץ החל להשתתף בקביעות בפודקאסט \"הגג של יצחקי\". בספטמבר 2024 פורסם כי פרץ ידבב בגרסה הישראלית לסרט \"רובוטריקים: ההתחלה\". חיים אישיים פרץ רווק, מתגורר בחולון. אביו הוא אלי פרץ, תא\"ל במילואים. לצפייה בויקיפדיה צילום: ירדן יוסף לוי - לרישיון המלא הכתבה משתמשת בתוכן מהערך מתן פרץ וזמינה ברישיון יחוס-שיתוף זהה CC BY-SA 2.5 הכל על מתן פרץ צילום: ירדן יוסף לוי - לרישיון המלא מתן פרץ (נולד ב-18 באוגוסט, 1988) הוא סטנדאפיסט, כוכב רשת ומוזיקאי ישראלי. הכתבה משתמשת בתוכן מהערך מתן פרץ וזמינה ברישיון יחוס-שיתוף זהה CC BY-SA 2.5 ביוגרפיה מתן פרץ נולד בירושלים בשנת 1988. עד לסיום בית הספר היסודי, התגורר בקרית ארבע. לאחר מכן, עבר לגור עם משפחתו ברמת בית שמש, למד בישיבה חרדית בשכונת בית וגן בירושלים. בגיל 16 עבר עם משפחתו לגן יבנה, ולמד בישיבה התיכונית אור עציון. בשנת 2006 התגייס לצה\"ל ושירת כלוחם בגדוד לביא. בשנת 2014 למד פרץ מוזיקה במסלול ״זמר יוצר״ במכללת BPM בתל אביב. בשנים 2015 עד 2018 למד לתואר ראשון בתקשורת במכללת ספיר. בשנת 2018 הצטרף לפרויקט היוטיוב \"My Vibe\" של כוכב הרשת סהר קליזו, חברו של מתן מילדות. בהמשך הצטלם פרץ לתוכנית הריאליטי \"פרויקט קליזו\", ששודרה ב-HOT ועקבה אחרי משתתפי הפרויקט. יחד עם קליזו, פרסם פרץ את השיר \"אל תחשבי עלי\", שהפך ללהיט ברשת החברתית טיקטוק. במקביל, החל פרץ להופיע בתור סטנדאפיסט והחל בקריירת סטנדאפ. פרץ העלה קטעי סטנדאפ לרשת, ואלו זכו להצלחה גדולה. לאחר תקופת הקורונה, הפך לאמן בית במועדון הסטנדאפ פקטורי. בשנת 2022 החל להגיש פודקאסט בשם \"נכנסים לפינות\", יחד עם רז ספני, אותו הכיר בפרויקט של סהר קליזו. בעת מלחמת חרבות ברזל, החל פרץ להעלות סרטוני הסברה באנגלית לרשתות, אשר זכו לתהודה בינלאומית. בשנת 2024 הצטרף כחבר קבוע לתוכנית מה שתגידו בכאן 11. כמו כן, פרץ החל להשתתף בקביעות בפודקאסט \"הגג של יצחקי\". בספטמבר 2024 פורסם כי פרץ ידבב בגרסה הישראלית לסרט \"רובוטריקים: ההתחלה\". חיים אישיים פרץ רווק, מתגורר בחולון. אביו הוא אלי פרץ, תא\"ל במילואים. לצפייה בויקיפדיה עוד מידע עקבו אחר טיקצאק ב: © 2026 Tickchak, Inc. השימוש באתר מהווה הסכמה ל מדיניות הפרטיות טיקצ'אק LIVE הינו מיזם להנגשת התרבות בישראל לקהל הרחב. באתר מוצגים הופעות ואירועים הנאגרים באופן אוטמטי ללא בדיקה ומועברים לאתר המכירה המקורי. נתוני ההופעות אינם באחריות טיקצ'אק",
       "source_detail_text_length": 7867,
-      "image_strategy": "detail_page_high_quality_candidate",
+      "image_strategy": "collected_source_image_verified",
       "event_id": "auto_as_2b8d59b9f755ec9b7983",
-      "venue_institution_id": "yadlabanim_ashdod"
+      "venue_institution_id": "yadlabanim_ashdod",
+      "image_quality_tier": "official_event_or_exact_source",
+      "image_policy_version": 2
     },
     {
       "city": "אשדוד",
@@ -24696,12 +24702,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -24784,7 +24790,8 @@
       "source_detail_text": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים דף הבית עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים 21/01/2027 10:00 עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום חמישי, 21 בינואר 2027 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 400,
       "image_strategy": "detail_page_high_quality_candidate",
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9"
+      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
@@ -24809,12 +24816,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-      "image_source": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+      "image_url": null,
+      "image_source": null,
       "image_credit": null,
       "image_publishable": false,
       "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "missing",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -24897,7 +24904,8 @@
       "source_detail_text": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים דף הבית ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים 24/01/2027 10:00 ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום ראשון, 24 בינואר 2027 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 385,
       "image_strategy": "detail_page_high_quality_candidate",
-      "event_id": "auto_as_f1c4b053e11c06583785"
+      "event_id": "auto_as_f1c4b053e11c06583785",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "אשדוד",
