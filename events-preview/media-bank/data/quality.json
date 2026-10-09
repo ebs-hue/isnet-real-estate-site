@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-09T05:26:49.827315+00:00",
+  "generated_at": "2026-10-09T05:30:03.695188+00:00",
   "stats": {
-    "events_scanned": 504,
-    "image_links": 398,
-    "unique_images": 172,
-    "approved": 152,
-    "needs_review": 12,
-    "rejected": 8
+    "events_scanned": 507,
+    "image_links": 392,
+    "unique_images": 176,
+    "approved": 156,
+    "needs_review": 13,
+    "rejected": 7
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 8
+    "same_image_used_for_multiple_dissimilar_event_titles": 7
   },
   "source_domains": {
     "htrl.co.il": {
@@ -24,21 +24,21 @@
       "review": 5,
       "rejected": 0
     },
-    "local": {
-      "images": 12,
-      "approved": 3,
-      "review": 2,
-      "rejected": 7
-    },
     "static.tickchak.co.il": {
-      "images": 12,
-      "approved": 12,
+      "images": 13,
+      "approved": 13,
       "review": 0,
       "rejected": 0
     },
+    "local": {
+      "images": 12,
+      "approved": 3,
+      "review": 3,
+      "rejected": 6
+    },
     "yama.smarticket.co.il": {
-      "images": 8,
-      "approved": 8,
+      "images": 11,
+      "approved": 11,
       "review": 0,
       "rejected": 0
     },
@@ -212,7 +212,7 @@
     }
   },
   "reusable_artists": 113,
-  "reusable_productions": 159,
-  "artists_total": 204,
-  "productions_total": 272
+  "reusable_productions": 163,
+  "artists_total": 201,
+  "productions_total": 267
 }
