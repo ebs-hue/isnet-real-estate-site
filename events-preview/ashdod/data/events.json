@@ -17182,7 +17182,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הנסיכה_והכתר_האבוד-_הצגה_מבית_אדווה_בן_גיגי_מלול/?id=17669",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:35:09Z",
       "missing_information": [
@@ -17222,7 +17222,7 @@
       "image_candidates": [],
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_ff109db1f3200ccb83b4f4fc",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -17359,7 +17359,10 @@
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 11,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_82_20261123",
@@ -17423,7 +17426,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%A9%D7%9C%D7%99%D7%95%D7%AA_%D7%9E%D7%AA%D7%95%D7%A7%D7%95%D7%AA_/?id=8109",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:35:46Z",
       "missing_information": [
@@ -17462,7 +17465,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_3f772bb64c807088fdadc5e4",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -17534,7 +17537,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:36:14Z",
       "missing_information": [
@@ -17574,7 +17577,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -17642,7 +17645,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33869",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:36:41Z",
       "missing_information": [
@@ -17686,7 +17689,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -17767,7 +17770,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:37:04Z",
       "missing_information": [
@@ -17806,7 +17809,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
