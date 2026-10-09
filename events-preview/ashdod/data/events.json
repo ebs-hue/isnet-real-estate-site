@@ -8877,7 +8877,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:29:32Z",
       "missing_information": [
@@ -8919,7 +8919,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -8993,8 +8993,8 @@
       "image_rights_status": "owned_system_asset",
       "content_ready_for_media": false,
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
-      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-10",
+      "content_enrichment_version": 11,
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError"
@@ -9054,10 +9054,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_d30c98ba668b5f1d6a3555ca",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -9129,7 +9129,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:29:54Z",
       "missing_information": [
@@ -9169,7 +9169,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -9248,7 +9248,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כשירות_תרבותית_וגישור_מסורתי-_סדרת_הרצאות_/?id=17679",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:30:30Z",
       "missing_information": [
@@ -9284,7 +9284,7 @@
       ],
       "image_brief": "צילום כיסוי אנכי של מעגל דיון בחדר מפגש של מרכז קהילתי: מספר משתתפים במושבים מסודרים בצורת עיגול, מנחה עומד ומדבר, הבעות קשב ושיתוף על הפנים. התאורה חמימה, רקע של קירות פשוטים עם מדף ספרים או לוח קיר ועיצוב קהילתי ניטרלי. התמונה מדגישה מפגש בין-תרבותי ועשויה לכלול משתתפים בגילאים שונים, ללא לוגואים או טקסטים מוטמעים.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -9352,7 +9352,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://gveret-rabia.tickchak.co.il/111257?ref=2dmk&live_ref=new-d90TUoJEWH1ERu1kVQtmNTJHcIdTO5RHb",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:30:51Z",
       "missing_information": [
@@ -9390,7 +9390,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_8aa9b4635ea4946fc3450e51",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
