@@ -60,9 +60,15 @@ function artistVideoFor(event,catalog){
   const title=String(event.title||"").normalize("NFKC");
   return (catalog?.artists||[]).find(a=>a.video_verified===true&&(a.aliases||[a.name]).some(alias=>title.includes(String(alias).normalize("NFKC"))))||null;
 }
+function hasEditorialNote(text){
+  return /העמוד אינו מפרט|המקור אינו מפרט|יש לבדוק|יש לאמת|נדרש בירור|לא ניתן לאמת|לפי עמוד האירוע|על פי אתר|לפי אתר|פרטים נוספים.*מקור|לא ברור מן המקור|מומלץ לבדוק|כדאי לבדוק/.test(String(text||""));
+}
 function issuesFor(e){
   const issues=[];
-  if(!e._description)issues.push({key:"needs_content",label:"חסר תוכן",level:"warn"});
+  const desc=String(e._description||e.long_description||e.event_summary||e.short_pitch||"");
+  if(!desc.trim())issues.push({key:"needs_content",label:"חסר תוכן",level:"warn"});
+  else if(hasEditorialNote(desc))issues.push({key:"needs_content",label:"הערת מערכת בתוכן",level:"bad"});
+  else if(desc.trim().length<160)issues.push({key:"needs_content",label:"תוכן דל",level:"warn"});
   if(!(e.image_publishable===true&&e.image_verified===true&&(e.thumbnail_url||e.image_url)))issues.push({key:"needs_image",label:"תמונה",level:"bad"});
   if(e.category==="standup"&&!e._video)issues.push({key:"needs_video",label:"וידאו",level:"warn"});
   if(!(e.purchase_url||e.ticket_url||e.purchase_phone))issues.push({key:"needs_ticket",label:"פעולה",level:"warn"});
