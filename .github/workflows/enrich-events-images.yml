@@ -41,17 +41,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Reuse approved image from central media bank
+      # Source-first editorial rule: search the original event source before
+      # reusing any artist/production media-bank image.
+      - name: Pull original event images from recorded event sources
         continue-on-error: true
-        run: python scripts/reuse_media_bank_images.py --city ashdod
+        run: python scripts/enrich_event_images_v3.py
 
-      - name: Fill from official source listing cards
+      - name: Recover event-specific images from official source listings
         continue-on-error: true
         run: python scripts/fast_fill_event_images_from_listings.py
 
-      - name: Pull images from recorded event sources
+      - name: Reuse approved artist or production image only when source lookup failed
         continue-on-error: true
-        run: python scripts/enrich_event_images_v3.py
+        run: python scripts/reuse_media_bank_images.py --city ashdod
 
       - name: Remove generic image placeholders
         continue-on-error: true
