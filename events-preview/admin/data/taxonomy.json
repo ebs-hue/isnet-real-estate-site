@@ -785,6 +785,44 @@
       "label": "הבמה",
       "note": "הבמה מציגה לעיתים סוג אירוע/הערה ברמת השורה. יש לשמור אותו כ-source_category ולהשתמש בו כרמז לסיווג, לא כאמת מוחלטת.",
       "categories": []
+    },
+    "tickchak_ashdod": {
+      "label": "טיקצ׳אק LIVE אשדוד",
+      "verified_category_pages": [
+        {
+          "label": "סטנדאפ באשדוד",
+          "url": "https://live.tickchak.co.il/standup/ashdod",
+          "category": "standup",
+          "subcategory": "standup"
+        },
+        {
+          "label": "הצגות ילדים באשדוד",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "category": "kids",
+          "subcategory": "kids-theatre",
+          "requires_content_check": true
+        },
+        {
+          "label": "הצגות באשדוד",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "category": "theatre",
+          "requires_content_check": true
+        },
+        {
+          "label": "הרצאות באשדוד",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "category": "lecture",
+          "requires_content_check": true
+        },
+        {
+          "label": "קונצרטים באשדוד",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "category": "music",
+          "subcategory": "concerts",
+          "requires_content_check": true
+        }
+      ],
+      "note": "These are observed page headings; city page also contains overlapping event lists. Match event-level category evidence before assigning."
     }
   },
   "legacy_categories": [
@@ -857,5 +895,21 @@
       "Course or recurring class labels are routed to classes, not the events board.",
       "Do not infer source labels from event titles or invent evidence."
     ]
+  },
+  "source_audit_status": {
+    "city": "ashdod",
+    "event_count": 321,
+    "source_names": [
+      "ashdod_smarticket",
+      "mishkan_smarticket",
+      "tickchak_ashdod",
+      "ofek_ashdod",
+      "איגוד הכדוריד בישראל",
+      "איגוד הכדורעף בישראל",
+      "ההתאחדות לכדורגל בישראל",
+      "מנהלת ליגת העל בכדורסל"
+    ],
+    "source_category_fields_found": 0,
+    "status": "partial_source_page_review_not_full_scan"
   }
 }
