@@ -180,6 +180,32 @@ async function persistTasks(results){
     if(error)throw error;
   }
 }
+
+// Read-only Ashdod pilot audit. Does not publish, edit events, or write agent tasks.
+window.ISNET_ASHDOD_TAXONOMY_AUDIT=async function(){
+  const taxonomy=await loadTaxonomy();
+  const events=(await loadEvents()).filter(e=>e._citySlug==="ashdod");
+  const primary=new Map(taxonomy.primary_categories.map(c=>[c.id,c]));
+  const rows=events.map(e=>{
+    const cat=primary.get(e.category);
+    const subId=e.subcategory||e.subcategory_id||"";
+    const sub=cat?.subcategories?.find(x=>x.id===subId);
+    const issue=!cat?"invalid_or_missing_category":!subId?"missing_subcategory":!sub?"invalid_subcategory":null;
+    return {event_id:e.event_id,title:e.title,category:e.category||null,
+      category_label:cat?.label||null,subcategory:subId||null,subcategory_label:sub?.label||null,
+      issue,seo:{has_title:Boolean(e.title),has_date:Boolean(e.start_date),
+        has_venue:Boolean(e.venue),has_description:Boolean(e.long_description||e.short_pitch||e.description||e._description),
+        has_image:Boolean(e.thumbnail_url||e.image_url),has_event_url:Boolean(e.seo_slug||e.event_url||e.url)}};
+  });
+  const summary={city:"ashdod",mode:"read_only",taxonomy_version:taxonomy.version,
+    total:rows.length,valid:rows.filter(x=>!x.issue).length,
+    missing_category:rows.filter(x=>x.issue==="invalid_or_missing_category").length,
+    missing_subcategory:rows.filter(x=>x.issue==="missing_subcategory").length,
+    invalid_subcategory:rows.filter(x=>x.issue==="invalid_subcategory").length,
+    seo_gaps:rows.filter(x=>Object.values(x.seo).some(v=>!v)).length};
+  return {summary,rows};
+};
+
 function renderResults(results){
   const auto=results.filter(x=>x.result.ready),exceptions=results.filter(x=>!x.result.ready);
   $("runSummary").innerHTML=[
