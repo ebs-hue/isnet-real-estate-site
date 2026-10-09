@@ -22999,7 +22999,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8149",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:00:30Z",
       "missing_information": [
@@ -23035,7 +23035,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_67_20270102",
@@ -23097,10 +23097,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_7484e9bd8b0a9bb5a6bf0b87",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -23153,7 +23153,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/דניאל_סטיופין_קופה_ראשית__סטנדאפ/?id=15678",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:00:58Z",
       "missing_information": [
@@ -23195,7 +23195,7 @@
       "thumbnail_strategy": "landscape_cover",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_527f44c60ddb3cd2b02625b6",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -23256,7 +23256,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8145",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:01:18Z",
       "missing_information": [
@@ -23290,7 +23290,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -23362,7 +23362,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/סידני_מחווה_לביג_יז/?id=8114",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:01:33Z",
       "missing_information": [
@@ -23398,7 +23398,7 @@
       ],
       "image_brief": "צילום רחב של הבמה במשכן במהלך מופע מחווה: להקה חשופה על במה עם מיקרופון מרכזי, תאורת דיסקו צבעונית וכדור דיסקו תלוי מעל. בקדמת התמונה קווי ישיבה חשוכים או סילואט של הקהל, כדי להדגיש את האווירה החיה והוינטאג' של הערב. אין טקסט מוטמע בתמונה; הדגש הוא על האורות, הכלים והמופע.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -23465,14 +23465,14 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_rights_status": "verified_official_source",
       "image_strategy": "source_listing_card",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_cc1f2d312487eca49564aa7c",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
