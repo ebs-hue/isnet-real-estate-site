@@ -1,6 +1,6 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-09T05:28:16Z",
+  "generated_at": "2026-10-09T07:32:27.032Z",
   "window": {
     "from": "2026-10-09",
     "to": "2027-07-24"
@@ -10,7 +10,8 @@
     "other_category_remaining": 0,
     "seniors": 40,
     "tour_remaining": 0,
-    "seniors_category_defaults_applied": 25
+    "seniors_category_defaults_applied": 25,
+    "media_bank_defaults_applied": 80
   },
   "events": [
     {
@@ -1831,13 +1832,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": "מרכז קהילתי ספרא",
       "duration_minutes": 90,
       "sources": [
@@ -1923,7 +1924,9 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_71_20261011",
@@ -2258,8 +2261,8 @@
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": 60,
@@ -2280,15 +2283,15 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -2351,7 +2354,9 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_95_20261012",
@@ -2375,8 +2380,8 @@
       "ticket_status": "available",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": 60,
@@ -2397,15 +2402,15 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
       "details_verified": true,
       "location_needs_verification": true,
-      "image_origin_url": "assets/defaults/theatre.svg",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -2468,7 +2473,9 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "sport_20261012_maccabi_ashdod_basketball",
@@ -2990,13 +2997,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -3093,7 +3100,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
@@ -3598,13 +3607,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -3694,7 +3703,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_96_20261014",
@@ -4074,9 +4085,9 @@
       "purchase_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
       "image_rights_status": "owned_system_asset",
@@ -4138,9 +4149,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -4181,7 +4192,9 @@
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -5655,13 +5668,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -5758,7 +5771,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_44_20261017",
@@ -6011,13 +6026,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -6089,8 +6104,8 @@
       ],
       "image_brief": "תמונת כיסוי צריכה להראות מבצע יחיד על במה קטנה בסצנה שאופיינית לחנות דגים שכונתית: שחקן בדמות אלבר לבוש במראה קשה־ים/מוכר דגים (אפוד/סינר) יושב על כסא חוף עם חכת דייג בידי, רמזים של דלפק דגים בעמדה האחורית, וקהל קטן מחויך ברקע. תאורה חמה ונוסטלגית, קומפוזיציה קרובה שמדגישה הבעת פנים חמה והומורית. אין לכלול כיתובים על התמונה.",
       "content_enrichment_status": "ready",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "seo_title": "מיסייה אלבר — הפקת מקור, הצגה קהילתית",
       "seo_description": "הצגה מקורית על אלבר בעל חנות הדגים: סיפורים שכונתיים, הומור ונוסטלגיה. שעה אחת; כרטיסים 20₪. מרכז קהילתי חרצית, 18.10.2026 10:30.",
       "image_subject_type": "artist_or_speaker",
@@ -6244,10 +6259,10 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -6307,9 +6322,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -6392,7 +6407,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_45_20261018",
@@ -6890,13 +6907,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -6958,8 +6975,8 @@
       "image_brief": "צילום או אילוסטרציה של מספרה שכונתית אינטימית בזווית רחבה: במרכז כיסא ספר ישן מול מראה בהשתקפות נראים אנשים שונים בתור או מדברים עם הספר. על השולחן מספריים, מסרק ומבוקס קטן; בקצה התמונה פריטים שמרמזים על הקהילה—סל של סחורה שוק או חבל ימי. תאורה חמה יוצרת אווירה אישית ומעט נוסטלגית; דרך החלון מאחורי המראה נראית תזזית עירונית או ביצוע של בנייה ברקע, כדי לרמוז את הקשר בין חיי הפרט לבניית העיר.",
       "media_status": "needs_image_research",
       "content_enrichment_status": "model_error",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7002,13 +7019,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -7080,8 +7097,8 @@
       ],
       "image_brief": "תמונה אופיינית לכיסוי: אולם קהילתי קטן עם כיסאות בסידור מעגלי, קבוצת נשים ממבט מאחור ומעט מצד שמורה המקשיבות אחת לשנייה; תאורה חמה ורכות במרכז החלל יוצרת תחושה של אינטימיות ותמיכה. ברקע ניתן להראות דלת כניסה או פרטי אולם מונארט באופן מעורפל, ולשלב אלמנט דקורטיבי דיסקרטי שמרמז על רעיון ה'עוגן' (למשל פריט דקורטיבי קטן על שולחן). אין טקסט מוטמע בתמונה.",
       "content_enrichment_status": "model_error",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
@@ -7421,13 +7438,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -7506,7 +7523,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_72_20261020",
@@ -7930,13 +7949,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -8007,8 +8026,8 @@
       ],
       "image_brief": "צילום כיסוי שמראה את 'מיסייה אלבר' על במה קטנה במרכז הקהילתי: דמות יושבת על כסא חוף, מחזיקה חכה בדמות אביזר, סביב חתיכות תפאורה שמזכירות חנות דגים ותיבות עץ. באור חם של תאורה לבמה נראית קהלית סמוכה מחייכת וצוחקת; ברקע ניכר חזית המבנה הקהילתי כדי להצביע על המיקום המקומי של המופע.",
       "content_enrichment_status": "model_error",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
@@ -9171,13 +9190,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -9262,7 +9281,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_51_20261025",
@@ -9945,13 +9966,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -10029,7 +10050,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -11038,13 +11061,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -11100,7 +11123,9 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -11352,9 +11377,9 @@
       "is_free": null,
       "ticket_status": "sold_out",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
-      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": 90,
@@ -11375,13 +11400,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
+      "image_verified": true,
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_ready": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
       "image_strategy": "category_fallback",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "venue_institution_id": "ironit_tene",
       "venue_phone": "08-8555478",
       "venue_website": "https://www.ironit.org.il/",
@@ -11474,13 +11499,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -11554,7 +11579,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -11692,14 +11719,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/יריד_בריאות_לאזרחים_וותיקים/?id=17707",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
       "image_source": "ISNET central media bank",
-      "image_credit": "ISNET",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -11782,7 +11809,8 @@
       "thumbnail_error": "ValueError",
       "activity_type": "community",
       "thumbnail_ratio": "16:9",
-      "media_bank_default_key": "seniors_social_default"
+      "media_bank_default_key": "seniors_social_default",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -12212,9 +12240,9 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
-      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "organizer": null,
       "duration_minutes": null,
@@ -12235,13 +12263,13 @@
       "purchase_url": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
       "purchase_phone": null,
       "purchase_source": "direct",
-      "image_verified": false,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
+      "image_verified": true,
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_ready": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
       "image_strategy": "category_fallback",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "venue_institution_id": "ironit_diyona",
       "venue_phone": "08-8648585",
       "venue_website": "https://www.ironit.org.il/אודות-מרכז-קהילתי-דיונה/",
@@ -13166,9 +13194,9 @@
       "purchase_url": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
       "image_rights_status": "owned_system_asset",
@@ -13230,9 +13258,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -13273,7 +13301,9 @@
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -13537,12 +13567,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17210",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13601,9 +13631,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -13644,7 +13674,9 @@
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -15106,10 +15138,10 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -15169,9 +15201,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -15212,7 +15244,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -15238,13 +15272,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 50,
       "sources": [
@@ -15321,7 +15355,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_77_20261116",
@@ -16052,13 +16088,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -16128,8 +16164,8 @@
       ],
       "image_brief": "צילום כיסוי המראה סצנה בימתית של הצגת ילדים: שלגיה במרכז לבושה בבגדים פשוטים לצד מספר שחקנים כחמישה–שבעה המייצגים את הגמדים, רקע טירתי צבעוני ותפאורה פנטזיתית, תאורת במה חמה שמדגישה את הדמויות וקהל ילדים מטושטש ברקע. התמונה תשדר אווירת הצגה משפחתית ותיאטרלית, ללא טקסט על התמונה.",
       "content_enrichment_status": "model_error",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
@@ -17198,9 +17234,9 @@
       "purchase_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
       "image_rights_status": "owned_system_asset",
@@ -17262,9 +17298,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -17305,7 +17341,9 @@
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_82_20261123",
@@ -18715,13 +18753,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -18799,7 +18837,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -18825,13 +18865,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -18909,7 +18949,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -19279,13 +19321,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/standup.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/standup.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/standup.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -19363,7 +19405,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_62_20261203",
@@ -19630,13 +19674,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -19719,7 +19763,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -20034,13 +20080,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20100,7 +20146,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_84_20261208",
@@ -20432,14 +20480,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -20520,7 +20568,9 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "thumbnail_error": "ValueError",
       "activity_type": "festival",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -20546,13 +20596,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20633,7 +20683,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -20770,13 +20822,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/standup.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/standup.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/standup.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20853,7 +20905,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_65_20261212",
@@ -21220,13 +21274,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -21307,7 +21361,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -21333,13 +21389,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -21419,7 +21475,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -21986,13 +22044,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -22068,7 +22126,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_87_20261228",
@@ -22335,11 +22395,11 @@
       "purchase_url": "https://ashdod.smarticket.co.il/דקה_לנשום___לצמוח_מהכאב_והקושי-ייעודי_לגדולות_מהחיים/?id=17217",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -22399,9 +22459,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -22436,7 +22496,9 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "lecture",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "event_id": "evt_88_20261229",
@@ -23636,14 +23698,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8119",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -23700,7 +23762,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_researched_reclassified",
       "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -23725,14 +23789,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -23807,7 +23871,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_researched_reclassified",
       "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -24331,10 +24397,10 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -24343,9 +24409,9 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24393,7 +24459,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -24520,14 +24588,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/ספורט_על_כיסא_עם_אסתר-ייעודי_לגדולות_מהחיים_/?id=17205",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24603,7 +24671,9 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "sport",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -24629,13 +24699,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24712,7 +24782,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -24957,9 +25029,9 @@
       "purchase_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
       "image_rights_status": "owned_system_asset",
@@ -25021,9 +25093,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25055,7 +25127,9 @@
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25083,9 +25157,9 @@
       "purchase_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
       "image_rights_status": "owned_system_asset",
@@ -25147,9 +25221,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25181,7 +25255,9 @@
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "workshop",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25207,13 +25283,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25290,7 +25366,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25417,13 +25495,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25480,7 +25558,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25506,13 +25586,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25581,7 +25661,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25607,13 +25689,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25689,7 +25771,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25715,13 +25799,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25801,7 +25885,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25827,13 +25913,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25911,7 +25997,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -25937,13 +26025,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26017,7 +26105,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26043,13 +26133,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26129,7 +26219,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26155,10 +26247,10 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -26218,9 +26310,9 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "/events-preview/media-bank/defaults/kids-theatre-default.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26253,7 +26345,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26385,13 +26479,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/kids.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26467,7 +26561,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26603,14 +26699,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/בואי_נעשה_לנו_חג/?id=8121",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26633,7 +26729,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "verified_official_source",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -26687,7 +26783,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26802,14 +26900,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/מאמא_דייאלי_3585/?id=17250",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26886,7 +26984,9 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "community",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -26912,13 +27012,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/theatre.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26989,7 +27089,9 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -27130,14 +27232,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כח_המילים_והשפעותיהם_על_החיים_-ייעודי_לגדולות_מהחיים_/?id=17207",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -27211,7 +27313,9 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "thumbnail_error": "UnidentifiedImageError",
       "activity_type": "lecture",
-      "audience_program": "גדולות מהחיים"
+      "audience_program": "גדולות מהחיים",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -27526,13 +27630,13 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -27612,7 +27716,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -27943,10 +28049,10 @@
       "purchase_phone": null,
       "purchase_source": "official_listing",
       "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central category image bank",
-      "image_credit": "ISNET / תמונת קטגוריה",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
-      "image_verified": false,
+      "image_verified": true,
       "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
@@ -27955,9 +28061,9 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28025,7 +28131,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -28246,14 +28354,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8123",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
+      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28276,7 +28384,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "verified_official_source",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -28329,7 +28437,9 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -28646,14 +28756,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/צבעי_הזמן/?id=8110",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28676,7 +28786,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -28723,7 +28833,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -28948,14 +29060,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/והילד_הזה_הוא_אני/?id=8132",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28978,7 +29090,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -29027,7 +29139,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -29052,14 +29166,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/נשף_פורים_הצגה__|_שעת_סיפור_עם_רינתי/?id=17648",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29077,7 +29191,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_25368623f148530af959",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -29125,7 +29239,9 @@
         "תלבושות ילדותיות וצבעוניות"
       ],
       "image_brief": "תמונת כיסוי המציגה את רינתי הליצנית במרכז הקומפוזיציה, עומדת ביער ציורי מוקף עצים צבעוניים וחיות קטנות בתחפושות. האווירה חגיגית ופורים־ססגוני: בדים ותלבושות צבעוניות, שלולית קונפטי על הקרקע ורמז לבמה קטנה ברקע (אולם קהילתי). אין טקסט מוטמע בתמונה; המוקד הוא על הדמות המחופשת והסביבה הפורימית.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -29565,14 +29681,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/מלכת_היופי_של_ירושלים/?id=8155",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29595,7 +29711,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -29643,7 +29759,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -29778,14 +29896,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/מלכת_היופי_של_ירושלים/?id=8156",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29808,7 +29926,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -29856,7 +29974,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -29881,14 +30001,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/מלכת_היופי_של_ירושלים/?id=8157",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29911,7 +30031,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -29958,7 +30078,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -29983,14 +30105,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/מלכת_היופי_של_ירושלים/?id=8158",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30013,7 +30135,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -30062,7 +30184,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -30087,14 +30211,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/מלכת_היופי_של_ירושלים/?id=8159",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30117,7 +30241,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -30166,7 +30290,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -30387,14 +30513,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שביליסט/?id=8125",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30417,7 +30543,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -30469,7 +30595,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -30494,14 +30622,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שביליסט/?id=8126",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30524,7 +30652,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -30569,7 +30697,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -30703,14 +30833,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/הכוכבים_של_סבא_7fd5e0d6c0/?id=8134",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30733,7 +30863,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -30763,7 +30893,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -31541,14 +31673,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/הקוסם_מארץ_עוץ_/?id=8217",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -31571,7 +31703,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -31619,7 +31751,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -32616,14 +32750,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לונדון_בירת_המוזיקה_והתיאטרון/?id=8116",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -32646,7 +32780,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -32695,7 +32829,9 @@
         "כיסאות האולם ומשטח הבמה"
       ],
       "image_brief": "צילום כוריאוגרפי של במה מרוהטת בתאורה חמה (אמבר/צהוב), עם צלליות של מבצעים או דמויות על הבמה ורקע עמום שמרמז על סילואט של קו רקיע לונדוני (למשל ביג בן/עין לונדון כמטאפורה חזותית). בחזית ניתן לראות את ראשי הקהל כסילואט, כדי להדגיש את האווירה התיאטרלית והמוזיקלית; התמונה תהיה פנורמית ובעלת קונטרסט גבוה בין תאורת הבמה לרקע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -33437,14 +33573,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8165",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33467,7 +33603,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -33515,7 +33651,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -33540,14 +33678,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8166",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33570,7 +33708,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -33600,7 +33738,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -33625,14 +33765,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8167",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33655,7 +33795,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -33704,7 +33844,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -33729,14 +33871,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8168",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33759,7 +33901,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -33810,7 +33952,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     },
     {
       "city": "אשדוד",
@@ -33835,14 +33979,14 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/לא_הייתם_צריכים/?id=8169",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33865,7 +34009,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -33895,7 +34039,9 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "thumbnail_ratio": "16:9",
+      "thumbnail_strategy": "media_bank_default"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
