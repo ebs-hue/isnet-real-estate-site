@@ -6,7 +6,8 @@
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 327
+    "events": 327,
+    "other_category_remaining": 7
   },
   "events": [
     {
@@ -535,7 +536,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -634,7 +635,11 @@
         "רוני אקריש הרצאה קפה דעת",
         "לילי כנפי אשדוד סיפורי חיים",
         "קצין מיחידת המסתערבים משמר הגבול עדות 7 באוקטובר"
-      ]
+      ],
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -768,7 +773,7 @@
       "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -925,7 +930,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -2870,7 +2879,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -2977,7 +2986,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -2990,7 +3003,7 @@
       "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -3101,7 +3114,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
@@ -3583,7 +3600,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -3687,7 +3704,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_96_20261014",
@@ -3807,7 +3828,7 @@
       "venue": "יד לבנים אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -3915,7 +3936,11 @@
         "מעשה בחמישה בלונים שיראל חכשורי-אשרוב תמונה במה",
         "מעשה בחמישה בלונים לירון איש האווירון הצגה תמונה"
       ],
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -4039,7 +4064,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -4198,7 +4223,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -5628,7 +5657,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -5739,7 +5768,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_44_20261017",
@@ -5979,7 +6012,7 @@
       "venue": "מרכז קהילתי חרצית-שד' הפרחים 18",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -6083,7 +6116,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -6850,7 +6887,7 @@
       "venue": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -6944,7 +6981,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -6957,7 +6998,7 @@
       "venue": "אולם מונארט-דרך ארץ 8 אשדוד",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -7054,7 +7095,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -7359,7 +7404,7 @@
       "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -7452,7 +7497,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_72_20261020",
@@ -7860,7 +7909,7 @@
       "venue": "מרכז קהילתי תקוותנו-המעפילים 21 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -7956,7 +8005,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -7969,7 +8022,7 @@
       "venue": "המשכן לאמנויות הבמה - רחוב דרך ארץ 1 אשדוד",
       "address": "המשכן לאמנויות הבמה - רחוב דרך ארץ 1 אשדוד",
       "district": null,
-      "category": "other",
+      "category": "community",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -8062,7 +8115,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -8075,7 +8132,7 @@
       "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "address": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "community",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -8160,7 +8217,11 @@
       "image_brief": "תמונת כריכה המציגה שולחן ארוך במרכז קהילתי עם חלה מרכזית וערכת הפרשת חלה לצד צלחות וכוסות; מספר נשים ישובות סביב השולחן בשיחה, ברקע נגנית או צוות מוזיקלי מטושטש ותחושת תאורה חמימה. התמונה תעביר תחושת מפגש קהילתי, מסורת וחמימות מבלי לכלול טקסט מוטמע.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -9078,7 +9139,7 @@
       "venue": "מרכז קהילתי ספרא-רח' אב 4 אשדוד",
       "address": "מרכז קהילתי ספרא-רח' אב 4 אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -9177,7 +9238,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_51_20261025",
@@ -9838,7 +9903,7 @@
       "venue": "ברמוזה -קדש 8 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -9930,7 +9995,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -11002,7 +11071,7 @@
       "venue": "מרכז לתרבות מונארט האולם האדום",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -11089,7 +11158,11 @@
       "image_brief": "תמונת קאבר המשלבת ידיים מבוגרות שמחזיקות חופן אדמה בחזית, ברקע מטושטש וילון אדום של אולם קטן ובמרכז סילואטה של דוברת מול מיקרופון. צבעים חמים ואדמתיים (חומים, ירוקים רכים) כדי לשדר קשר לטבע ולתחושת חום אנושי; קומפוזיציה שמדגישה את המפגש בין האדם והאדמה ואת האווירה האינטימית של ההרצאה.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -11541,7 +11614,7 @@
       "venue": "מרכז קהילתי טנה -אולם גדול-שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "community",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -11635,7 +11708,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -12380,7 +12457,7 @@
       "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -12492,7 +12569,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_version": 8,
       "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_18_20261105",
@@ -13106,7 +13187,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -13221,7 +13302,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -14543,7 +14628,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -14640,7 +14725,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -14773,7 +14862,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "community",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -14866,7 +14955,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -14996,7 +15089,7 @@
       "venue": "מרכז קהילתי ספרא -לא מסומן רח' אב 4 אשדוד",
       "address": "מרכז קהילתי ספרא -לא מסומן רח' אב 4 אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -15110,7 +15203,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -15932,7 +16029,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -16027,7 +16124,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_79_20261118",
@@ -17063,7 +17164,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -17178,7 +17279,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_82_20261123",
@@ -18889,7 +18994,7 @@
       "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -18998,7 +19103,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19114,7 +19223,7 @@
       "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -19223,7 +19332,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19236,7 +19349,7 @@
       "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -19348,7 +19461,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_version": 8,
       "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19361,7 +19478,7 @@
       "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "address": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -19455,7 +19572,11 @@
       "image_candidates": [],
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0cd545b49063026c3e11a931",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19642,7 +19763,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -19736,7 +19857,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_63_20261205",
@@ -19813,7 +19938,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -19910,7 +20035,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19923,7 +20052,7 @@
       "venue": "מרכז לתרבות מונארט האולם האדום",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "festival",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -20010,7 +20139,11 @@
       "image_brief": "צילום רחב ומאיר של שולחן סדנה שמלא בכלי קישוט לסופגניות — צנצנות קרם, צ'יפס שוקולד, סוכריות וידיים של משתתפים מקשטות סופגניות; ברקע נראה חלק ממעגל מתופפים על רקע האולם האדום של מרכז מונארט וקבוצה של אנשים רוקדים או צוחקים, המשדר אווירת חג חמה וקהילתית.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -20204,7 +20337,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -20278,7 +20411,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_84_20261208",
@@ -20595,7 +20732,7 @@
       "venue": "אולם דיונה -קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "festival",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -20688,7 +20825,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -20701,7 +20842,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -20796,7 +20937,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -21088,7 +21233,7 @@
       "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -21188,7 +21333,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -21473,7 +21622,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -21568,7 +21717,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -21581,7 +21734,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -21675,7 +21828,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -21794,7 +21951,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -21888,7 +22045,11 @@
       "media_bank_id": "media_bb940a0f0f8f529cd4be9453",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_86_20261221",
@@ -22000,7 +22161,7 @@
       "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -22101,7 +22262,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_32_20261222",
@@ -22215,7 +22380,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -22321,7 +22486,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -22334,7 +22503,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -22424,7 +22593,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_87_20261228",
@@ -22667,7 +22840,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -22773,7 +22946,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "event_id": "evt_88_20261229",
@@ -23461,7 +23638,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23543,7 +23720,11 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23556,7 +23737,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23651,7 +23832,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23664,7 +23849,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23716,7 +23901,11 @@
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_cc1f2d312487eca49564aa7c",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 8,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23729,7 +23918,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23822,7 +24011,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23835,7 +24028,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23925,7 +24118,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24225,7 +24422,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24314,7 +24511,11 @@
       ],
       "content_enrichment_retry_after": "2026-10-09",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24327,7 +24528,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24423,7 +24624,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24502,7 +24707,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24596,7 +24801,11 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b4633628f67a433d3b0a87a2",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24609,7 +24818,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24679,7 +24888,11 @@
       "image_strategy": "super_editor_representative_fallback",
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24692,7 +24905,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24774,7 +24987,11 @@
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_76ed459ab93dcc1415fbc000",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24787,7 +25004,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "sport",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24875,7 +25092,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24888,7 +25109,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24979,7 +25200,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25094,7 +25319,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25182,7 +25407,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25195,7 +25424,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25283,7 +25512,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25296,7 +25529,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25387,7 +25620,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25400,7 +25637,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25491,7 +25728,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25504,7 +25745,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25588,7 +25829,11 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_2ebd52b882301742d4de29d2",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25601,7 +25846,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25672,7 +25917,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25785,7 +26034,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25875,7 +26124,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25888,7 +26141,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25982,7 +26235,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -25995,7 +26252,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26087,7 +26344,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26100,7 +26361,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26188,7 +26449,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26201,7 +26466,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26295,7 +26560,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26308,7 +26577,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26414,7 +26683,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26427,7 +26700,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26516,7 +26789,11 @@
       "thumbnail_strategy": "landscape_cover",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b27ea9f51e8d1e9b027c0377",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26529,7 +26806,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26619,7 +26896,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26734,7 +27015,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26825,7 +27106,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26920,7 +27205,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "community",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -27009,7 +27294,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27124,7 +27413,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -27219,7 +27508,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27232,7 +27525,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -27318,7 +27611,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27518,7 +27815,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -27588,7 +27885,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27601,7 +27902,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -27695,7 +27996,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28004,7 +28309,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28094,7 +28399,11 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28107,7 +28416,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28178,7 +28487,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28291,7 +28604,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28381,7 +28694,11 @@
       "image_brief": "צילום שער מתאים: מבט מהשורה האחורית של אולם תיאטרון אל במה שבה תאורה מחולקת לשני טונים מנוגדים (למשל חם וקר), עם וילון חלקי ברקע ושורות מושבים ריקות בחזית. אין לכלול טקסט או לוגואים; התמונה תעביר תחושת דו-קיום/ניגודיות המתחברת לכותרת האירוע ״שני עולמות״.",
       "content_enrichment_status": "ready",
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28477,7 +28794,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28564,7 +28881,11 @@
         "אווירת ערב בתאורה חמה"
       ],
       "image_brief": "צילום כיסוי אפשרי: במה של תיאטרון במשכן באשדוד תחת ספוטלייט חם, עם מיקרופון על חצובה במרכז הבמה ומושבים מעומעמים ברקע. האווירה ערב-תיאטרלית, עם תאורה חמה וקהל מטושטש שיושב ומחייך; אין להראות לוגואים או טקסט מוטבע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28577,7 +28898,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28660,7 +28981,11 @@
       "media_bank_match_type": "artist",
       "media_bank_match_key": "אסף אלברשטיין",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28673,7 +28998,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28758,7 +29083,11 @@
         "במה ותאורה עמומה"
       ],
       "image_brief": "צילום מכיוון הלובי של המשכן לאמנויות הבמה באשדוד בשעת בוקר רכה: אנשים נכנסים דרך הדלתות, דלפק קפה עם מאפים מוכנים לצד מבקר שאוחז כוס קפה, כשהאולם ברקע נפתח וניתן לראות שורות מושבים ובמה מוארת בעדינות. אין טקסט משולב בתמונה; הדגש על אווירת בוקר לפני תחילת מופע/סרט.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28867,7 +29196,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28942,7 +29271,11 @@
       ],
       "image_brief": "תצלום או הדמייה של במה קטנה ומוארת בחום: כיסא יחיד עם מיקרופון, שולחן קטן שעליו ספר פתוח וקטן שעון חול; ברקע שורות כיסאות מטושטשות שמרמזות על אולם הרצאות אינטימי. קומפוזיציה שקטה, צבעים חמים (חום, אגוז, זהב) ואור שמדגיש תחושת הרהור ומחשבה. אין טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28955,7 +29288,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29042,7 +29375,11 @@
         "קהל נכנס לאולם"
       ],
       "image_brief": "צילום חיצוני של משכן לאמנויות הבמה באשדוד בשעות אחר-הצהריים/הערב: חזית המבנה מוארת בחום, אנשים נכנסים עם כרטיסים בכף היד, צילומי עומק מראים מדרגות הכניסה והחלון המוביל לאולם. האווירה תעביר תחושת ציפייה למופע ובכך תתאים כסימן ויזואלי לדף האירוע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29153,7 +29490,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29240,7 +29577,11 @@
         "קונוטציה נוסטלגית (תאורה זהובה)"
       ],
       "image_brief": "תמונה להצגת הכיסוי: צילום רחב של במה מוארת באור חם-נוסטלגי, כשבמרכזה עומדת ציפי שביט מול מיקרופון וינטג'. משני צדיה, בצללים קלים, נראים שני זמרים אורחים. בחזית המסגרת מטושטש קהל ששרים יחד או מתקרבים למושבים, והאווירה הכללית ביתית ואינטימית. אין טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29253,7 +29594,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29331,7 +29672,11 @@
       ],
       "image_brief": "צילום קירבה צבעוני של סצנה מהצגה: מלך ישן או יושב על כס עם הבעה מתוסכלת, כתר על ראשו, וכמה צפרדעים על שפת אגם בתפאורת במה. רקע עם בד או ציור של אגם ואלמנטים טבעיים, תאורה תיאטרלית חמימה וצבעים ברורים שמדגישים את הקונפליקט בין המלך לצפרדעים; בקדמת התמונה רמיזה לקהל ילדים בצפייה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29344,7 +29689,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29432,7 +29777,11 @@
         "קהל מתכנס"
       ],
       "image_brief": "תצלום אווירי/פנורמי של אולם המשכן מואר בערב: נברשת מרכזית ופני אודיטוריום מוארות בתאורה חמה, רצפת אירוע פתוחה שמרמזת על ערב חברה/בל, וקבוצת אנשים לבושים ערב בצדדי התמונה. התמונה תעביר אווירה אלגנטית של אירוע ערב ללא טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29445,7 +29794,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29539,7 +29888,11 @@
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_efe9059eddc1d7d2d0753f73"
+      "media_bank_id": "media_efe9059eddc1d7d2d0753f73",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29552,7 +29905,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29638,7 +29991,11 @@
         "כרטיסים על דלפק"
       ],
       "image_brief": "תצלום או כריכה המציגה במה באולם המשכן לאמנויות הבמה אשדוד: וילון תיאטרון אדום במרכז, ספוטלייט מואר שמבליט את מרכז הבמה ושורות מושבים ריקות או בעומס קל ברקע. תאורה חמה של ערב, אווירה תיאטרלית שקוראת לציפייה לקראת הופעה. אין טקסט מוטבע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29749,7 +30106,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29835,7 +30192,11 @@
         "קהל יושב באולם"
       ],
       "image_brief": "תמונת שער רצויה: אולם המשכן לאמנויות הבמה מזווית אחורית עם שורות מושבים מוארים בעדינות, על הבמה ספוטלייט בודד שמאיר פריט סמלי (למשל כתר על בימה קטנה או פסלון) שמייצג את כותרת המופע. האווירה דרמטית וקולית, תאורה חמה עם גוונים זהב ושחור, ואפשרות להבחין ברקע בקווי במה ותאורה של הצגה. אין טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29848,7 +30209,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -29933,7 +30294,11 @@
         "קו הרקיע של ירושלים (סילואט)"
       ],
       "image_brief": "תמונת שער אופיינית לאירוע במה: צילום אנכי של בימה מוארת ספוטלייט מעל וילון תיאטרון חלקית פתוח, בקדמת הבמה אביזר סמלי כגון כתר מונח על פודיום או בימה, ברקע טון ערב לילי עם סילואט עדין המשליח תחושה של ירושלים. מושבי האולם מטושטשים ברקע כדי להדגיש את הבמה והאווירה התיאטרלית.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29946,7 +30311,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30033,7 +30398,11 @@
         "אווירת ערב"
       ],
       "image_brief": "תצלום כיסוי שיכלול את במה המשכן לאמנויות הבמה באשדוד בערב: במה מוארת בספוֹטלייטים חמים, קווים של מושבים מלאים בקהל בסילואט ברקע, ופרספקטיבה שמדגישה את מרכז הבמה. אין להטמיע טקסט בתמונה; הדגש על תאורת במה ואווירת אירוע תרבותי בערב.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30046,7 +30415,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30133,7 +30502,11 @@
         "פוסטר דרמטי"
       ],
       "image_brief": "צילום כיסוי שמתרכז בבמה חשוכה של תיאטרון עם ספוטלייט אחד שמאיר כתם קטן בו מונח כתר על כדור או בימה נמוכה; ברקע רואים מושבי אודיטוריום מטושטשים ותאורת סצנה חמה שיוצרת תחושת דרמה ותשומת לב לכתר כאלמנט מרכזי.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30146,7 +30519,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30217,7 +30590,11 @@
       ],
       "image_brief": "צילום כיסוי שמראה מספר סיפור עומד מול קבוצה של ילדים במרחב פתוח של מרכז קהילתי, הילדים זזים ומשתתפים בתנועה; ברקע ריהוט פשוט או דלתות שמרמזות על 'דירה' ובית, תאורה חמה שמדגישה אווירה ביתית ומשפחתית. אין טקסט מוטמע בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30326,7 +30703,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30416,7 +30793,11 @@
         "קהל נכנס לאולם"
       ],
       "image_brief": "תמונה מרחבית של אולם המשכן לאמנויות הבמה: במה מוארת בספוטלייטים עם וילון חלקי ברקע, שורות מושבים חצי-מטושטשות בקדמת התמונה, ושני כרטיסים מונחים על מושב או על שולחן קטן בקדמת התמונה. תאורה חמה ותחושה של מקום מוכן להופעה בבוקר.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30429,7 +30810,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "lecture",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30512,7 +30893,11 @@
         "אור יום (הצגה בשעות בוקר־צהריים)"
       ],
       "image_brief": "תצלום אווירה של המשכן לאמנויות הבמה באשדוד: מבנה החזית או מבט פנימי לאולם עם במה מוארת וכיסאות מסודרים, מעט קהל או אנשים נכנסים/מתכוננים, ומגש כרטיסים סמוך לכניסה. התמונה צריכה להיות ברורה, צבעונית ובעלת קומפוזיציה שמרמזת על אירוע תרבותי במקום — ללא טקסט מוטמע על התמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30622,7 +31007,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30690,7 +31075,11 @@
         "פרטי נגישות ואמצעי תשלום/כניסה",
         "אולם ספציפי בתוך המשכן או מיקום הישיבה"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "insufficient",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30797,7 +31186,7 @@
       "venue": "אולם דיונה אשדוד",
       "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30843,7 +31232,11 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_retry_after": "2026-10-14",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30856,7 +31249,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -30943,7 +31336,11 @@
         "חזית המשכן לאמנויות הבמה"
       ],
       "image_brief": "תמונה כיסוי של בימת תיאטרון מוארת במבט פנימי: וילון חלקית פתוח תחת תאורת ספוֹטלייט חמה, בכיס הקדמי תמונת גזור של שתי צלליות עירוניות (מייצגות את בוקרשט ובודפשט) כתמונה מטושטשת ברקע, ובחזית שולחן או משטח עם כרטיסי הופעה חצי גלויים. האווירה ערבית וטעונה לקראת תחילת מופע — ללא טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30956,7 +31353,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31045,7 +31442,11 @@
         "אווירה אינטימית של קונצרט צהריים"
       ],
       "image_brief": "צילום כיסוי רצוי: במה תיאטרלית של המשכן מוארת בספוטלייט יחיד שמדגיש מיקרופון עומד וחלק מאקוּסטיקה (גיטרה או קלידים לא חייבים להיראות בבירור). ברקע מעט חושך כדי להבליט את מקור האור והאווירה האינטימית של מופע מחווה. אין טקסט מוטמע בתמונה; יש לדגש על אווירת הופעה חיה במקום סגור.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31058,7 +31459,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31126,7 +31527,11 @@
         "פרטי מושבים/סידור ישיבה ותשובות על החזרת כרטיסים",
         "קישור ישיר לעמוד רכישת כרטיסים עם פרטים מלאים"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "insufficient",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31139,7 +31544,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31223,7 +31628,11 @@
       "image_strategy": "central_media_bank_reuse",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31424,7 +31833,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31510,7 +31919,11 @@
         "שלט אירוע/כרזה"
       ],
       "image_brief": "צילום חזיתי של הבמה במשכן לאמנויות הבמה באשדוד בערב המופע: במה מוארת בצבעים חמים ותפאורה שמרמזת על עולם פנטסטי, עם שורות מושבים ואור הקהילה ברקע. התמונה תעביר אווירת הצגה משפחתית ותיאטרלית, דגש על התאורה והתפאורה יותר מאשר על פרטים של שחקנים בודדים.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31523,7 +31936,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "kids",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31568,7 +31981,11 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "source_text_insufficient",
-      "content_enrichment_retry_after": "2026-10-14"
+      "content_enrichment_retry_after": "2026-10-14",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31581,7 +31998,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31666,7 +32083,11 @@
         "תאורת במה חמה וזהובה"
       ],
       "image_brief": "צילום פנורמי של אולמן במשכן לאמנויות הבמה בשעת ערב: במה מוארת בתאורה חמה ודרמטית, שורות מושבים ריקות המובילות לפודיום, ואור כניסה רך ברקע שמדגיש את חזית האולם. האווירה משדרת הכנה למופע ערב קרוב ולאנשים שמגיעים להצגה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31679,7 +32100,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31765,7 +32186,11 @@
         "חזית בניין המשכן לאמנויות הבמה באשדוד"
       ],
       "image_brief": "צילום מכיוון הלובי אל עבר האולם: קו של קערות קפה ומאפים על שולחן במרכז הלובי, בסמוך לקופה עם כרטיסים; ברקע נראית כניסה לאולם עם שורת כיסאות וחלק מהבמה מוארת בעדינות. התאורה משדרת בוקר מוקדם, קהל כללי נכנס להושיב את מקומו. אין טקסט מוטמע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31875,7 +32300,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -31959,7 +32384,11 @@
         "תאורה צבעונית ותפאורה במה"
       ],
       "image_brief": "תצלום קו־חופה של הבמה במשכן לאמנויות הבמה אשדוד בזמן חזרות או לפני אירוע: במה מוארת בתאורת במה חמה וצבעונית עם אלמנטים שמרמזים על אסתטיקה ברזילאית (גוונים של ירוק, צהוב וכחול) ותפאורה קצבית הכוללת כלי הקשה על שולחן או במרכז הבמה; ברקע רואים קהל יושב בשורות התיאטרון. התמונה ממקדת את האווירה החגיגית והבימתית בלי לכלול לוגואים או טקסט מוטמע.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32068,7 +32497,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32155,7 +32584,11 @@
         "כרטיסים על שולחן"
       ],
       "image_brief": "תמונת שער המציגה את הבמה באולם המשכן לאמנויות הבמה באשדוד בערב אירוע: במה מוארת בתאורה חמה, רצועות קישוטים צבעוניים בגווני ירוק וצהוב המשדרים אווירה ברזילאית, ושורות קהל יושבות או מתכוננות במבט כולל על האולם. האווירה צריכה לשדר חגיגיות ותיאטרון מבלי לכלול טקסט מוטמע או לוגו.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32264,7 +32697,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32351,7 +32784,11 @@
         "כרטיסים ביד"
       ],
       "image_brief": "צילום פנורמי של פנים המשכן לאמנויות הבמה בערב: במה מוארת בספוטלייטים מול שורות כסאות תיאטרון ריקים או חלקית מאוכלסים, תאורה חמה שיוצרת אווירת ערב והגעה לאירוע. אין טקסט מוטמע בתמונה; התמקדות על האולם והבמה כדי להמחיש אירוע תרבות בשעת לילה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32563,7 +33000,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32647,7 +33084,11 @@
         "אווירת ערב"
       ],
       "image_brief": "צילום מכסא במרכז האולם של המשכן לאמנויות הבמה, כשהבמה מרוחקת ברקע ומואר בספוטלייטים דרמטיים. בקדמת התמונה יד מחזיקה כרטיס או כרטיס דיגיטלי המופיע על מסך, והקהל מצטבר בשורות מאחור. התאורה חמה ומדגישה את התחושה של ערב מופע במבנה תיאטרלי.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32660,7 +33101,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32747,7 +33188,11 @@
       "content_enrichment_status": "ready",
       "media_bank_id": "media_59837defc744825980731a48",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32760,7 +33205,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32851,7 +33296,11 @@
       "content_enrichment_status": "ready",
       "media_bank_id": "media_59837defc744825980731a48",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32864,7 +33313,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -32956,7 +33405,11 @@
       "content_enrichment_status": "ready",
       "media_bank_id": "media_59837defc744825980731a48",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -32969,7 +33422,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33039,7 +33492,11 @@
       "content_enrichment_status": "insufficient",
       "media_bank_id": "media_59837defc744825980731a48",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33052,7 +33509,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33141,7 +33598,11 @@
       "content_enrichment_status": "ready",
       "media_bank_id": "media_59837defc744825980731a48",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33154,7 +33615,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "cinema",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33239,7 +33700,11 @@
         "קהל נכנס לאולם"
       ],
       "image_brief": "צילום לובי או כניסה של המשכן לאמנויות הבמה באור בוקר: אנשים נכנסים או עומדים ליד דלפק כרטיסים, שולחן עם קנקן קפה ומאפים במרכז התמונה, ברקע נראית הבמה או שער הכניסה לאולם עם תאורה חמה. התמונה משקפת אווירת בוקר לפני תחילת אירוע תרבות.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33252,7 +33717,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33338,7 +33803,11 @@
         "לובי ומשקיף לאולם"
       ],
       "image_brief": "צילום כיסוי המציג את פנים המשכן לאמנויות הבמה באשדוד: מבט מהגיסא האחורית אל הבמה המוארת בתאורת ספוט עדינה, שורות כסאות ריקות בחזית ומעבר מרכזי המוביל אל הבמה. התמונה תעביר את התחושה של ערב במרכז הבמה – תאורה חמה, אווירה צפויה של מופע וקהל שממתין להתמקם.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33351,7 +33820,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33419,7 +33888,11 @@
         "מדיניות החזר/החלפת כרטיסים ומידע על מקומות ישיבה מדורגים",
         "פרטי מזהה של המארגן או איש קשר"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "insufficient",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33432,7 +33905,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33519,7 +33992,11 @@
         "כניסה למשכן לאמנויות הבמה בערב"
       ],
       "image_brief": "תמונה אופיינית לאירוע בימתי: חזית המשכן לאמנויות הבמה באשדוד בערב, בתאורת שקיעה ועם דלתות הכניסה מוארות, או צילום מבפנים של הבמה עם וילון וספווטים נדלקים, כשהאולם מוכן למופע. התמונה תחדד את האווירה בלי להציג טקסט מוטמע או לוגו.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33532,7 +34009,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33621,7 +34098,11 @@
         "תאורת במה חמה"
       ],
       "image_brief": "צילום קבוע של במה בתוך אולם המשכן: רצפת במה עץ, ספוטלייטים חמים שמאירים מרכז במה, משורות מושבים ריקות בחזית ותאורת אולם עמומה ברקע. אפשר לכלול פרטי אווירה ערביים (אור זהוב, צלליות של צופים במרחק) ולמקד בזווית שמדגישה את המקום שבו יתקיים האירוע — ללא טקסט מוטבע בתמונה.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -33634,7 +34115,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -33702,7 +34183,11 @@
         "פירוט על קטגוריות מושבים והמחירים המדויקים לכל סוג",
         "קישור ישיר לרכישת כרטיסים ומידע על מדיניות ביטולים/החלפות"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "insufficient",
+      "category_previous": "other",
+      "category_review_status": "assistant_manual_reclassified",
+      "category_review_confidence": 0.95,
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
