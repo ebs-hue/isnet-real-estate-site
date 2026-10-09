@@ -4388,7 +4388,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28805&ht=יונתן גת מונארט 2026",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:12:31Z",
       "missing_information": [
@@ -4421,7 +4421,7 @@
       ],
       "image_brief": "תמונה מכסה המציגה את יונתן גת נואם בדוכן או ליד מסך הקרנה, כשהמאחורי-רקע מציג קטעי ארכיון קולנועיים מטושטשים. בציור האולם ייראה קהל מבוגר נמוך-שולחן או שורות כסאות הממוקמות בחלל מרכזי (מרכז מונארט), תאורה חמה ונימה אינטימית. אין טקסט משולב בתמונה; הדגש על הדינמיקה בין המרצה, המסך והקהל.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
@@ -4435,7 +4435,8 @@
         "מרכז מונארט אשדוד אולם"
       ],
       "seo_title": "יונתן גת — הרצאה במרכז מונארט, אשדוד | 15.10.2026",
-      "seo_description": "הרצאה של יונתן גת, פרשן תרבות ומגיש תוכניות קולנוע, במרכז מונארט (אשדוד). יום חמישי 15.10.2026, 11:00. מחיר: 400 ₪. הרשמה דרך אופק."
+      "seo_description": "הרצאה של יונתן גת, פרשן תרבות ומגיש תוכניות קולנוע, במרכז מונארט (אשדוד). יום חמישי 15.10.2026, 11:00. מחיר: 400 ₪. הרשמה דרך אופק.",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",

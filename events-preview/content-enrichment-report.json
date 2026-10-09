@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:42:32Z",
+  "generated_at": "2026-10-09T03:43:11Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -44,8 +44,8 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7d3a5639ec3847f8a137",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_04029172fbcf458e2eb3",
+      "title": "יונתן גת מונארט 2026",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
