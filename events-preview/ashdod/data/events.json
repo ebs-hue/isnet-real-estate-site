@@ -10019,7 +10019,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הנמרה/?id=17259",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:03Z",
       "missing_information": [
@@ -10053,7 +10053,7 @@
       ],
       "image_brief": "תצלום אופייני לכיסוי: לימור יצחייק באמצע הופעה על במה, אוחזת מיקרופון בתנועה אנרגטית, ואחורה מואר די‑ג'יי (דפנה שרעבי) ליד שולחן ערבוב. תאורת במה צבעונית מייצרת קונטרסט חם, והקהל מטושטש ברקע כדי לשדר אווירת מופע תוססת. התמונה תעביר תחושת אנרגיה, הומור וחיבור אישי של העוסקת בתוכן.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -10131,8 +10131,8 @@
       "image_rights_status": "owned_system_asset",
       "content_ready_for_media": false,
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
-      "content_enrichment_version": 8,
+      "content_enrichment_retry_after": "2026-10-10",
+      "content_enrichment_version": 11,
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError"
@@ -10196,7 +10196,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://live.tickchak.co.il/adir-miller",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:27Z",
       "missing_information": [
@@ -10236,7 +10236,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_513c8562b102b049001e7987",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -10308,7 +10308,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:33:47Z",
       "missing_information": [
@@ -10348,7 +10348,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -10421,8 +10421,8 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
-      "content_enrichment_version": 8
+      "content_enrichment_retry_after": "2026-10-10",
+      "content_enrichment_version": 11
     },
     {
       "event_id": "evt_53_20261029",
@@ -10479,10 +10479,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_01c1ca69c3b6d2160259ffa5",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
