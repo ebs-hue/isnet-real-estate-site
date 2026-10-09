@@ -1,0 +1,31 @@
+name: Audit event content clarity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 5 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: event-content-quality-audit
+  cancel-in-progress: true
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Audit all available city events
+        run: python scripts/audit_event_content_clarity.py
+      - name: Commit audit reports
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/content-quality-*.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Refresh event content clarity audit"
+          git pull --rebase origin main
+          git push origin HEAD:main
