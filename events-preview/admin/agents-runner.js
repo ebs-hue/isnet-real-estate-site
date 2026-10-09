@@ -35,7 +35,25 @@ function sourceConfidence(e){
   if(/municip|עיר|היכל|מוזיא|תרבות|official|ticket|event/i.test(src))return "high";
   return "medium";
 }
-function evaluate(e,dupes){
+function validateTaxonomy(e,taxonomy){
+  const category=String(e.category||"").trim();
+  if(!category)return "חסרה קטגוריה מאושרת";
+  const primary=(taxonomy.primary_categories||[]).find(x=>x.id===category);
+  if(!primary)return "קטגוריה אינה קיימת במילון המרכזי: "+category;
+  const sub=String(e.subcategory||e.subcategory_id||"").trim();
+  if(sub && !(primary.subcategories||[]).some(x=>x.id===sub))
+    return "תת־קטגוריה אינה מתאימה לקטגוריה הראשית: "+sub;
+  return "";
+}
+async function loadTaxonomy(){
+  const response=await fetch("data/taxonomy.json",{cache:"no-store"});
+  if(!response.ok)throw new Error("לא ניתן לטעון את מילון הקטגוריות");
+  const taxonomy=await response.json();
+  if(!Array.isArray(taxonomy.primary_categories)||!taxonomy.primary_categories.length)
+    throw new Error("מילון הקטגוריות אינו תקין");
+  return taxonomy;
+}
+function evaluate(e,dupes,taxonomy){
   const blockers=[],warnings=[];
   const img=e.thumbnail_url||e.image_url;
   const imageApproved=Boolean(img&&((e.image_publishable===true&&e.image_verified===true)||e.image_approved===true));
@@ -45,7 +63,8 @@ function evaluate(e,dupes){
   if(!e.title)blockers.push("חסרה כותרת");
   if(!e.start_date)blockers.push("חסר תאריך");
   if(!e.venue)warnings.push("חסר מקום");
-  if(!e.category)warnings.push("חסרה קטגוריה");
+  const taxonomyIssue=validateTaxonomy(e,taxonomy);
+  if(taxonomyIssue)blockers.push(taxonomyIssue);
   if(!contentReady)blockers.push("חסר תוכן מסביר לפני טיפול בתמונה");
   if(!img)blockers.push("אין תמונה");
   else if(!imageApproved)blockers.push("התמונה אינה מאושרת");
@@ -170,8 +189,9 @@ async function run(){
   const btn=$("runAgentsBtn");btn.disabled=true;btn.textContent="הסוכנים בודקים...";
   $("runStatus").textContent="טוען אירועים ומבצע בקרת איכות...";
   try{
+    const taxonomy=await loadTaxonomy();
     const events=await loadEvents(),dupes=duplicateSet(events);
-    const results=events.map(event=>({event,result:evaluate(event,dupes)}));
+    const results=events.map(event=>({event,result:evaluate(event,dupes,taxonomy)}));
     renderResults(results);
     $("runStatus").textContent="הבדיקה הסתיימה. סוכן הפרסום מפרסם את האירועים התקינים...";
     const publication=await autoPublishReady(results);
