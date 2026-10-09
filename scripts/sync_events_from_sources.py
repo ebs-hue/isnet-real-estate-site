@@ -116,6 +116,13 @@ def valid_title(title):
 
 def choose_category(title, venue):
     s = text_norm(f"{title} {venue}")
+    # Audience/program rules take precedence over topical format.
+    if any(x in s for x in (
+        "גדולות מהחיים", "יעודי לגדולות מהחיים", "ייעודי לגדולות מהחיים",
+        "אפ 60", "60 פלוס", "גיל השלישי", "גמלאים", "גמלאיות",
+        "אזרחים ותיקים", "אזרחיות ותיקות"
+    )):
+        return "seniors"
     if any(x in s for x in (
         "ילדים", "ילדות", "ילד", "ילדה", "קטנטנים", "פעוטות", "תינוקות",
         "משפחה", "משפחות", "לכל המשפחה",
@@ -865,7 +872,17 @@ def merge(city_slug, specs, dry_run=False):
                 "venue": obj["venue"] or spec["venue"],
                 "address": None, "district": None,
                 "category": obj.get("category") or choose_category(obj["title"], obj["venue"]),
-                "audiences": obj.get("audiences", []),
+                "activity_type": (
+                    choose_category(obj["title"], obj["venue"])
+                    if (obj.get("category") or choose_category(obj["title"], obj["venue"])) != "seniors"
+                    else choose_category(
+                        re.sub(r"(?:יעודי|ייעודי)\s+לגדולות\s+מהחיים|גדולות\s+מהחיים", "", obj["title"]),
+                        obj["venue"]
+                    )
+                ),
+                "audiences": (
+                    sorted(set((obj.get("audiences", []) or []) + (["seniors","women"] if "גדולות מהחיים" in text_norm(obj["title"]) else [])))
+                ),
                 "age_min": None, "age_max": None,
                 "price_min_ils": obj.get("price_min_ils"), "price_max_ils": obj.get("price_max_ils"), "is_free": None,
                 "ticket_status": obj.get("ticket_status", "unknown"),
