@@ -1,4 +1,5 @@
 const TODAY="2026-10-07";
+let taxonomyCategories=[];
 const categoryLabels={music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים",theatre:"תיאטרון",lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט",seniors:"הגיל השלישי וגמלאים",other:"אחר"};
 const cityConfig=[
   {slug:"ashdod",name:"אשדוד",base:"../ashdod/"},
@@ -68,6 +69,10 @@ function issuesFor(e){
   return issues;
 }
 async function load(){
+  const taxonomyResponse=await fetch("data/taxonomy.json",{cache:"no-store"});
+  if(!taxonomyResponse.ok)throw Error("taxonomy unavailable");
+  taxonomyCategories=(await taxonomyResponse.json()).primary_categories||[];
+  for(const item of taxonomyCategories)categoryLabels[item.id]=item.label;
   $("resultCount").textContent="טוען נתונים...";
   const [shared,analyticsData]=await Promise.all([
     fetch("../shared/standup-videos.json",{cache:"no-store"}).then(r=>r.ok?r.json():{artists:[]}).catch(()=>({artists:[]})),
@@ -106,7 +111,7 @@ async function load(){
 function buildFilters(){
   const cities=[...new Set(all.map(e=>e.city).filter(Boolean))].sort();
   $("city").innerHTML='<option value="">כל הערים</option>'+cities.map(x=>'<option>'+esc(x)+'</option>').join("");
-  const cats=[...new Set(all.map(e=>e.category).filter(Boolean))].sort((a,b)=>(categoryLabels[a]||a).localeCompare(categoryLabels[b]||b,"he"));
+  const cats=taxonomyCategories.map(x=>x.id);
   $("category").innerHTML='<option value="">כל הקטגוריות</option>'+cats.map(x=>'<option value="'+esc(x)+'">'+esc(categoryLabels[x]||x)+'</option>').join("");
 }
 function filtered(){
