@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:42:56Z",
+  "generated_at": "2026-10-09T18:43:36Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_50179a566f2b8b78f713",
-      "title": "מותרת לכל אדם",
+      "event_id": "auto_as_0a2955afc99e32e98101",
+      "title": "בואי נעשה לנו חג",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_44ade887868f332af978",
-      "title": "מותרת לכל אדם",
+      "event_id": "auto_as_ffc197d8a4343c6c1421",
+      "title": "בואי נעשה לנו חג",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_bfdbd33f29362afdca31",
-      "title": "הג'ונגל של רינתי",
+      "event_id": "auto_as_dd2216e2c4590b3b8095",
+      "title": "מאמא דייאלי אירוע שנתי של גדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_60b18d8a145f11fd0362",
-      "title": "ספר הג'ונגל מבית רינתי",
+      "event_id": "auto_as_5b3592e6f2e52fe56817",
+      "title": "המחזמר ואני",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3d668279eb3a8887ca1d",
-      "title": "כספיון - התאטרון השחור",
+      "event_id": "auto_as_ecf2560c70689efc3475",
+      "title": "סופיה פאפאזוגלו",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_2d86a3932207b0dfadb6",
-      "title": "אל עמק הברכה",
+      "event_id": "auto_as_ad9aa5d26bfb663907d7",
+      "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
