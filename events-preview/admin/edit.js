@@ -1,4 +1,3 @@
-const categoryLabels={music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים",theatre:"תיאטרון",lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט",seniors:"הגיל השלישי וגמלאים",other:"אחר"};
 const cityMap={"ashdod":{name:"אשדוד",base:"../ashdod/"},"rishon-lezion":{name:"ראשון לציון",base:"../rishon-lezion/"}};
 const $=id=>document.getElementById(id);
 const params=new URLSearchParams(location.search);
@@ -23,7 +22,15 @@ async function saveOverride(status){
   }
   setTimeout(()=>location.href="./",700);
 }
-function setOptions(){ $("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("") }
+function setOptions(selected=""){
+  const items=taxonomy?.primary_categories||[];
+  $("category").innerHTML=items.map(item=>'<option value="'+item.id+'" '+(item.id===selected?'selected':'')+'>'+item.label+'</option>').join("");
+}
+function renderSubcategories(categoryId,selected=""){
+  const cat=(taxonomy?.primary_categories||[]).find(x=>x.id===categoryId);
+  const items=cat?.subcategories||[];
+  $("subcategory").innerHTML='<option value="">בחרו תת־קטגוריה</option>'+items.map(item=>'<option value="'+item.id+'" '+(item.id===selected?'selected':'')+'>'+item.label+'</option>').join("");
+}
 function renderTaxonomy(containerId,items,selected=[]){
   const selectedSet=new Set(selected||[]);
   $(containerId).innerHTML=(items||[]).map(item=>'<label class="tax-option"><input type="checkbox" value="'+item.id+'" '+(selectedSet.has(item.id)||selectedSet.has(item.label)?'checked':'')+'><span>'+item.label+'</span></label>').join("");
@@ -49,7 +56,7 @@ function fill(e,ed={}){
   $("title").value=e.title||"";
   $("shortPitch").value=ed.short_pitch||e.short_pitch||"";
   $("description").value=ed.long_description||e.long_description||e.series_description||e.description||"";
-  $("category").value=e.category||"other"; $("status").value=e.status||"active"; $("promotion").value=e.promotion||"normal";
+  $("category").value=e.category||""; renderSubcategories($("category").value,e.subcategory||""); $("status").value=e.status||"active"; $("promotion").value=e.promotion||"normal";
   renderAllTaxonomies(e);
   $("smartDistribution").checked=e.smart_distribution!==false;
   $("seoTitle").value=e.seo_title||e.title||"";
@@ -71,12 +78,12 @@ function fill(e,ed={}){
   $("imageState").innerHTML=img?($("imageApproved").checked?'<span class="tag good">יש תמונה · מאושרת</span>':'<span class="tag warn">יש תמונה · לבדיקה</span>'):'<span class="tag bad">אין תמונה</span>';
 }
 function collect(){
-  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
+  return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,subcategory:$("subcategory").value||null,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
 }
 async function load(){
   if(!cfg||!id)throw Error("missing params");
-  setOptions();
   taxonomy=await fetch("data/taxonomy.json",{cache:"no-store"}).then(r=>r.json());
+  setOptions();
   const [data,editorial]=await Promise.all([
     fetch(cfg.base+"data/events.json",{cache:"no-store"}).then(r=>r.json()),
     fetch(cfg.base+"data/editorial.json",{cache:"no-store"}).then(r=>r.ok?r.json():{events:{}}).catch(()=>({events:{}}))
@@ -92,6 +99,7 @@ async function load(){
     const d=JSON.parse(saved);fill({...e,...d},{...original.editorial,...d});$("saveNote").textContent="נטענה טיוטת גיבוי מקומית.";if(d.image_data_url){currentImageData=d.image_data_url;$("imagePreview").style.backgroundImage='url("'+d.image_data_url+'")'}
   } else fill(e,original.editorial);
 }
+$("category").addEventListener("change",()=>renderSubcategories($("category").value));
 $("imageFile").addEventListener("change",e=>{
   const file=e.target.files?.[0];if(!file)return;
   if(file.size>5*1024*1024){alert("התמונה גדולה מ־5MB. בחר תמונה קטנה יותר.");e.target.value="";return}
