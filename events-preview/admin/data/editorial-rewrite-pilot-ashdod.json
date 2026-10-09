@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-09T18:27:30.218996+00:00",
+  "mode": "read_only",
+  "results": [
+    {
+      "event_id": "auto_as_c5084f66863b9e27992a",
+      "title": "נאמן למקור",
+      "original_text": "",
+      "source_urls_checked": [
+        "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8119",
+        "https://mishkan-ashdod.smarticket.co.il/"
+      ],
+      "source_url_used": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8119",
+      "source_text_length": 290,
+      "editorial_status": "model_error",
+      "error": "OpenAI API 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "event_id": "auto_as_60cb539e4c684575d6a8",
+      "title": "נאמן למקור",
+      "original_text": "האירוע 'נאמן למקור' יתקיים ביום שלישי, 12 בינואר 2027, במשכן לאמנויות הבמה באשדוד, עם תחילת המופע בשעה 11:30 ואורך משוער של שעה ו־30 דקות. בעמוד האירוע מפורט טווח מחירים של 47–101 ש\"ח לכרטיסים. בעמוד הרכישה מופיעה גם הערה על הגדרות דפדפן שעלולות למנוע את המשך התהליך, ולחצן המשך לרכישת כרטיסים. מעבר לפרטי זמן, מקום ומחיר לא נמסרו פרטים נוספים על התוכן, המשתתפים או פורמט האירוע בעמוד המקור, ולכן מומלץ לבדוק בעמוד המכירה או מול המשכן לפרטים מעודכנים לפני הגעה.",
+      "source_urls_checked": [
+        "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
+        "https://mishkan-ashdod.smarticket.co.il/"
+      ],
+      "source_url_used": "https://mishkan-ashdod.smarticket.co.il/נאמן_למקור/?id=8120",
+      "source_text_length": 290,
+      "editorial_status": "model_error",
+      "error": "OpenAI API 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "event_id": "auto_as_35b62174438a54f14368",
+      "title": "MALEVO",
+      "original_text": "",
+      "source_urls_checked": [
+        "https://mishkan-ashdod.smarticket.co.il/MALEVO/?id=8224",
+        "https://mishkan-ashdod.smarticket.co.il/"
+      ],
+      "source_url_used": "https://mishkan-ashdod.smarticket.co.il/MALEVO/?id=8224",
+      "source_text_length": 271,
+      "editorial_status": "model_error",
+      "error": "OpenAI API 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    },
+    {
+      "event_id": "evt_62_20261203",
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "original_text": "",
+      "source_urls_checked": [
+        "https://live.tickchak.co.il/shows/event/evjAelYKj?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
+        "https://live.tickchak.co.il/ashdod"
+      ],
+      "source_url_used": "https://live.tickchak.co.il/shows/event/evjAelYKj?live_ref=new-y90zd4M0NOJ0ULFEezFFdUhGRlJGa6xUY",
+      "source_text_length": 127,
+      "editorial_status": "model_error",
+      "error": "OpenAI API 429: {\n  \"error\": {\n    \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\",\n    \"type\": \"insufficient_quota\",\n    \"param\": null,\n    \"code\": \"credit_balance_exhausted\"\n  }\n}"
+    }
+  ]
+}
