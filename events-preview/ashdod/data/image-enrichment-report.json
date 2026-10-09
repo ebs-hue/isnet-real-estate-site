@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T05:29:47Z",
+  "generated_at": "2026-10-09T05:46:34Z",
   "total_events": 321,
-  "events_with_publishable_images": 282,
-  "events_still_missing_images": 39,
+  "events_with_publishable_images": 288,
+  "events_still_missing_images": 33,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 10,
+    "ashdod_smarticket": 4,
     "mishkan_smarticket": 29
   },
   "missing_by_category": {
-    "other": 7,
+    "workshop": 1,
     "music": 12,
     "theatre": 13,
     "kids": 4,
@@ -20,38 +20,8 @@
   },
   "missing": [
     {
-      "event_id": "auto_as_f1dc81732b11d4fd595d",
-      "title": "ניגון של סתיו | שרה זילברברג",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_24bd564dd8d11f87e4ff",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_46c23e069a55ad1b5bac",
-      "title": "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_7c4f95bd1f6d41f060e1",
       "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_405685db409691fa6e34",
-      "title": "אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_f1c4b053e11c06583785",
-      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
       "reason": "no_verified_source_image"
     },
     {
