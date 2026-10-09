@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>משימות בירור עריכתיות | ISNET</title><link rel="stylesheet" href="styles.css"><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="auth/config.js"></script></head>
+<body><header class="topbar"><div><div class="eyebrow">ISNET AI CMS · מערכת פנימית</div><h1>הערות מערכת ומשימות לבירור</h1><p>הערות מקצועיות נשמרות כאן, לעולם לא בתוך תיאור האירוע הציבורי.</p></div><div class="top-actions"><a class="secondary" href="index.html">חזרה לניהול אירועים</a></div></header><main><section class="panel"><div class="panel-title"><div><h2>משימות פתוחות</h2><p id="count">טוען...</p></div></div><div id="issues"></div></section></main>
+<script type="module">
+import {requireAuth} from "./auth/guard.js";
+const auth=await requireAuth();
+if(!auth){document.getElementById("issues").textContent="נדרשת כניסה למערכת";}else{
+ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+ try{const r=await fetch("data/editorial-issues-ashdod.json",{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);const d=await r.json();const issues=d.issues||[];
+ document.getElementById("count").textContent=issues.length+" משימות מתועדות";
+ document.getElementById("issues").innerHTML=issues.map(i=>'<article class="panel" style="margin:16px 0;padding:20px"><h3>'+esc(i.event_title)+'</h3><p>מצב: '+esc(i.status)+' · חומרה: '+esc(i.severity)+'</p><p>'+esc(i.evidence)+'</p><h4>שאלות לבירור</h4><ul>'+ (i.editorial_questions||[]).map(q=>'<li>'+esc(q)+'</li>').join("")+'</ul><h4>פעולות נדרשות</h4><ul>'+(i.required_actions||[]).map(a=>'<li>'+esc(a)+'</li>').join("")+'</ul><a href="'+esc(i.public_url)+'" target="_blank" rel="noopener">צפייה בעמוד הציבורי</a></article>').join("");
+ }catch(e){document.getElementById("issues").textContent="שגיאה בטעינת משימות: "+e.message}
+}
+</script></body></html>
