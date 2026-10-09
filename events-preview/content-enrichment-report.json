@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:19:22Z",
+  "generated_at": "2026-10-09T18:20:01Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_2e9b00b27cc3b531c934",
+      "event_id": "auto_as_617490407af714bb4af4",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ffc63b0b4486bb31a455",
-      "title": "שירי קריוקי בקצב הדרבוקה",
+      "event_id": "evt_6_20261014",
+      "title": "עיצוב אורח חיים בריא",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f1dc81732b11d4fd595d",
-      "title": "ניגון של סתיו | שרה זילברברג",
+      "event_id": "auto_as_06f3de539c2d3e22b2ff",
+      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_d857a17bf47a6e2337e5",
-      "title": "איתמר וכובע הקסמים",
+      "event_id": "evt_96_20261014",
+      "title": "דירה להכיר",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
-      "title": "מכבי אשדוד - הפועל אריות ירושלים",
+      "event_id": "auto_as_f49bff491bdc80b16bfb",
+      "title": "מעשה בחמישה בלונים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_41_20261013",
-      "title": "חגיגה בכוורת",
+      "event_id": "auto_as_382f5504e06e1fcda12e",
+      "title": "הזקן והים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
