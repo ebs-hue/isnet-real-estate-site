@@ -2,12 +2,6 @@ name: Repair weak published Ashdod event descriptions
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "17 */3 * * *"
-  push:
-    branches: [main]
-    paths:
-      - ".github/workflows/editorial-repair-published.yml"
 
 permissions:
   contents: write
