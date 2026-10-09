@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "secondary_categories": [
     {
       "id": "lectures",
@@ -437,56 +437,6 @@
       ]
     },
     {
-      "id": "workshop",
-      "label": "סדנאות וקורסים",
-      "subcategories": [
-        {
-          "id": "arts-crafts",
-          "label": "אמנות ויצירה"
-        },
-        {
-          "id": "painting",
-          "label": "ציור"
-        },
-        {
-          "id": "knitting",
-          "label": "סריגה"
-        },
-        {
-          "id": "writing",
-          "label": "כתיבה"
-        },
-        {
-          "id": "photography",
-          "label": "צילום"
-        },
-        {
-          "id": "digital-canva",
-          "label": "דיגיטל וקנווה"
-        },
-        {
-          "id": "cooking-baking",
-          "label": "בישול ואפייה"
-        },
-        {
-          "id": "movement-health",
-          "label": "תנועה ובריאות"
-        },
-        {
-          "id": "music-workshop",
-          "label": "מוזיקה"
-        },
-        {
-          "id": "dance-workshop",
-          "label": "ריקוד"
-        },
-        {
-          "id": "personal-development",
-          "label": "התפתחות אישית"
-        }
-      ]
-    },
-    {
       "id": "exhibition",
       "label": "תערוכות ואמנות",
       "subcategories": [
@@ -821,5 +771,61 @@
       "note": "הבמה מציגה לעיתים סוג אירוע/הערה ברמת השורה. יש לשמור אותו כ-source_category ולהשתמש בו כרמז לסיווג, לא כאמת מוחלטת.",
       "categories": []
     }
-  }
+  },
+  "legacy_categories": [
+    {
+      "id": "workshop",
+      "label": "סדנאות וקורסים",
+      "subcategories": [
+        {
+          "id": "arts-crafts",
+          "label": "אמנות ויצירה"
+        },
+        {
+          "id": "painting",
+          "label": "ציור"
+        },
+        {
+          "id": "knitting",
+          "label": "סריגה"
+        },
+        {
+          "id": "writing",
+          "label": "כתיבה"
+        },
+        {
+          "id": "photography",
+          "label": "צילום"
+        },
+        {
+          "id": "digital-canva",
+          "label": "דיגיטל וקנווה"
+        },
+        {
+          "id": "cooking-baking",
+          "label": "בישול ואפייה"
+        },
+        {
+          "id": "movement-health",
+          "label": "תנועה ובריאות"
+        },
+        {
+          "id": "music-workshop",
+          "label": "מוזיקה"
+        },
+        {
+          "id": "dance-workshop",
+          "label": "ריקוד"
+        },
+        {
+          "id": "personal-development",
+          "label": "התפתחות אישית"
+        }
+      ],
+      "active": false,
+      "display_in_events": false,
+      "destination": "classes",
+      "migration_note": "קורסים וחוגים מתמשכים עוברים ללוח החוגים; אירועים חד-פעמיים מסווגים לפי נושא או קהל."
+    }
+  ]
 }
