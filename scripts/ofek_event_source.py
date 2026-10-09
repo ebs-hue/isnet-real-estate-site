@@ -113,8 +113,8 @@ def extract_ofek_events(first_soup, source, fetch_once, *, today=None, limit=80,
                 pass
         record = {
             "title": title, "start_date": actual_date, "start_time": clock.group(1),
-            "venue": venue, "category": cat,
-            "audiences": ["adults"], "organizer": 'הקתדרה העממית "אופק" אשדוד',
+            "venue": venue, "category": "seniors", "activity_type": cat,
+            "audiences": ["seniors"], "organizer": 'הקתדרה העממית "אופק" אשדוד',
             "ticket_url": url, "purchase_url": url,
             "price_min_ils": amount, "price_max_ils": amount,
             "purchase_phone": "08-9238680",
