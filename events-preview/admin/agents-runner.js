@@ -195,7 +195,7 @@ function renderResults(results){
     '<td>'+esc(event.start_date||"—")+'</td>'+
     '<td><span class="score '+(result.score>=70?"mid":"low")+'">'+result.score+'%</span></td>'+
     '<td>'+result.blockers.map(x=>'<span class="tag bad">'+esc(x)+'</span>').join(" ")+(result.warnings.length?'<div class="warnings">'+result.warnings.map(x=>esc(x)).join(" · ")+'</div>':'')+'</td>'+
-    '<td>'+ (result.media_action==="wait_for_content"?'<span class="tag bad">ממתין לעורך תוכן</span>':result.media_action==="find_or_generate_image"?'<span class="tag warn">סוכן תמונות</span>':'<span class="tag">QA</span>') +'</td>'+
+    '<td>'+ (result.media_action==="wait_for_content"?'<span class="tag bad">ממתין לעורך תוכן</span>':result.media_action==="find_original_image"?'<span class="tag warn">סוכן תמונות</span>':'<span class="tag">QA</span>') +'</td>'+
     '</tr>').join("");
   $("exceptionsEmpty").hidden=exceptions.length>0;
   $("lastRun").textContent="הרצה אחרונה: "+new Date().toLocaleString("he-IL");
