@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-09",
+  "mode": "draft_only_no_publication",
+  "examples": [
+    {
+      "title": "הג'ונגל של רינתי",
+      "source_url": "https://ashdod.smarticket.co.il/הג_ונגל_של_רינתי/?id=17673",
+      "source_quality": "detailed",
+      "category": "ילדים ומשפחה",
+      "suggested_title": "הג'ונגל של רינתי: הצגה משתפת לילדים בעקבות מוגלי",
+      "suggested_short_description": "מסע מוזיקלי אל סיפורו של מוגלי, עם תלבושות, אביזרים ושיתוף הילדים בהצגה. מיועד לגילאי 4–7 בליווי הורה.",
+      "suggested_description": "מוגלי, הילד שגדל בג'ונגל לצד הזאבים, פוגש את בגירה הפנתר ואת בלו הדב ומתמודד עם שירחן הטיגריס ושאר דמויות הסיפור. בהצגה חווייתית שמשלבת מוזיקה, אביזרים ותלבושות, הילדים משתתפים והופכים בעצמם לחלק מההתרחשות. האירוע כולל שעת סיפור ויצירה ומתאים לזמן משותף של הורה וילד. מיועד לגילאי 4–7. מרכז קהילתי עם שלום, רחוב הרי גולן 6, אשדוד; 7 בפברואר 2027 בשעה 17:15; משך 45 דקות; מחיר 30 ש״ח לילד ולהורה מלווה, וכל גיל מחויב בכרטיס.",
+      "verification": "supported_by_official_source",
+      "lesson": "When primary source has detailed story, preserve concrete plot, interaction, age, and logistics. Do not replace with generic praise."
+    },
+    {
+      "title": "הכנת תליונים סרוגים – גדולות מהחיים",
+      "source_url": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
+      "source_quality": "sparse",
+      "suggested_title": "סדנת הכנת תליונים סרוגים – מועדון גדולות מהחיים",
+      "suggested_short_description": "מפגש להכנת תליונים סרוגים במסגרת מועדון גדולות מהחיים. 9 בנובמבר, 10:00–11:30, מרכז קהילתי טנה באשדוד.",
+      "suggested_description": "מועדון גדולות מהחיים מזמין למפגש בנושא הכנת תליונים סרוגים במרכז קהילתי טנה, רחוב שבזי 3 באשדוד. המפגש יתקיים ביום שני, 9 בנובמבר 2026, בשעות 10:00–11:30. מחיר ההשתתפות: 10 ש״ח. המקור אינו מפרט את טכניקת הסריגה, החומרים הנדרשים, זהות המנחה או האם נדרש ניסיון קודם.",
+      "verification": "partial_source_only",
+      "missing_information": [
+        "מה מכינים בפועל ואיזו טכניקה נלמדת",
+        "האם נדרשים ציוד או ניסיון קודם",
+        "זהות המנחה"
+      ],
+      "lesson": "When source only gives title and logistics, offer factual minimal rewrite and flag as insufficient for substantive publication; do not fabricate workshop experience."
+    },
+    {
+      "title": "אני הרבה יותר ממה שחשבתי – גדולות מהחיים",
+      "source_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "source_quality": "sparse",
+      "suggested_short_description": "מפגש בשם ״אני הרבה יותר ממה שחשבתי״ במסגרת מועדון גדולות מהחיים, ב־23 בנובמבר במרכז קהילתי טנה.",
+      "verification": "insufficient_for_editorial_rewrite",
+      "missing_information": [
+        "סוג האירוע: הרצאה, סדנה או מופע",
+        "תוכן המפגש והערך למשתתפות",
+        "שם המנחה"
+      ],
+      "lesson": "Do not infer the event format or motivational claims from an evocative title alone."
+    }
+  ],
+  "agent_rules": [
+    "Require verified what and why-attend from primary or independently checked source, not generic text.",
+    "Audience or relevant participants must be verified; not-applicable is not evidence.",
+    "If primary source is sparse, search for a more specific reliable source before proposing rich text.",
+    "Record verified claims, missing facts, source URL, and editorial status.",
+    "Never overwrite live event records without editorial approval during pilot."
+  ]
+}
