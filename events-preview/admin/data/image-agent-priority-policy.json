@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "priority": "mandatory",
+  "mission": "Locate and verify the ORIGINAL image or poster published by the SAME source from which the event information was collected.",
+  "steps": [
+    {
+      "rank": 1,
+      "action": "Find original event-specific image on source event page or source official media"
+    },
+    {
+      "rank": 2,
+      "action": "Validate image actually depicts this event, is accessible, is permitted for publication and retain source attribution"
+    },
+    {
+      "rank": 3,
+      "action": "If original image unavailable after a reasonable source-specific attempt, find licensed official artist, production or venue image relevant to this event"
+    },
+    {
+      "rank": 4,
+      "action": "Only when the above fail use verified subcategory default; if absent use category default"
+    }
+  ],
+  "never": [
+    "Never replace a verified original event image with a generic fallback",
+    "Never treat a generic image as evidence of an original event image",
+    "Never leave a card blank solely because the original source image was unavailable",
+    "Never use unrelated artists, productions or venues"
+  ],
+  "logging": [
+    "event_id",
+    "source_url",
+    "original_image_checked",
+    "original_image_status",
+    "image_selected",
+    "image_type",
+    "fallback_reason",
+    "checked_at"
+  ]
+}
