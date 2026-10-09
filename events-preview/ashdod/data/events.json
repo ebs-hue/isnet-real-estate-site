@@ -7,7 +7,9 @@
   },
   "stats": {
     "events": 321,
-    "other_category_remaining": 0
+    "other_category_remaining": 0,
+    "seniors": 27,
+    "tour_remaining": 0
   },
   "events": [
     {
@@ -143,9 +145,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -187,7 +189,12 @@
       "operator_name": "הקתדרה העממית אופק",
       "contact_phone": "08-9238680",
       "contact_email": "noamteb@ashdod.muni.il",
-      "organizer_url": "https://www.ofek-ashdod.org.il/"
+      "organizer_url": "https://www.ofek-ashdod.org.il/",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "event_id": "evt_36_20261006",
@@ -2708,8 +2715,10 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "music",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -2816,11 +2825,12 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "music",
+      "category_review_status": "audience_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "music"
     },
     {
       "city": "אשדוד",
@@ -3438,8 +3448,10 @@
       "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
       "district": null,
-      "category": "lecture",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 200,
@@ -3543,7 +3555,12 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "category_review_status": "audience_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -3910,9 +3927,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -4008,7 +4025,12 @@
       ],
       "seo_title": "הזקן והים — סיור מודרך בהדרכת אבי משה סגל",
       "seo_description": "סיור חיצוני מודרך \"הזקן והים\" מטעם קתדרת אופק; יציאה 15.10.2026 בשעה 07:20. מדריך: אבי משה סגל. מחיר: 140 ש\"ח.",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -4275,9 +4297,9 @@
       "venue": "מרכז מונארט, אשדוד",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "lecture",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -4375,7 +4397,12 @@
       ],
       "seo_title": "יונתן גת — הרצאה במרכז מונארט, אשדוד | 15.10.2026",
       "seo_description": "הרצאה של יונתן גת, פרשן תרבות ומגיש תוכניות קולנוע, במרכז מונארט (אשדוד). יום חמישי 15.10.2026, 11:00. מחיר: 400 ₪. הרשמה דרך אופק.",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -4388,9 +4415,9 @@
       "venue": "מרכז מונארט, אשדוד",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "lecture",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -4489,7 +4516,12 @@
         "ישראל ארד הרצאות סיפורי ארץ‑ישראל",
         "ישראל ארד מרכז מונארט"
       ],
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -4502,9 +4534,9 @@
       "venue": "מרכז מונארט, אשדוד",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "lecture",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -4603,7 +4635,12 @@
         "רועי עלוני הרצאה על צלילים ואנשים",
         "הרצאה מוזיקלית רועי עלוני מרכז מונארט"
       ],
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -7103,9 +7140,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -7196,7 +7233,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -11477,9 +11519,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -11566,7 +11608,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -11579,8 +11626,10 @@
       "venue": "מרכז קהילתי טנה -אולם גדול-שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "community",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 15,
@@ -11674,11 +11723,12 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "community",
+      "category_review_status": "audience_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "community"
     },
     {
       "city": "אשדוד",
@@ -13287,9 +13337,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -13380,7 +13430,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -17400,9 +17455,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -17492,7 +17547,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -18894,9 +18954,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -18984,7 +19044,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -19574,8 +19639,10 @@
       "venue": "מרכז לתרבות מונארט האולם האדום",
       "address": "דרך ארץ 8, אשדוד",
       "district": null,
-      "category": "festival",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -19662,10 +19729,11 @@
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-09",
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_previous": "festival",
+      "category_review_status": "audience_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00",
+      "activity_type": "festival"
     },
     {
       "city": "אשדוד",
@@ -20760,9 +20828,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -20854,7 +20922,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "event_id": "evt_31_20261215",
@@ -22032,9 +22105,9 @@
       "venue": "קתדרת אופק להשכלת מבוגרים, אשדוד",
       "address": "רחוב העצמאות 54, אשדוד",
       "district": null,
-      "category": "lecture",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -22123,7 +22196,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24531,9 +24609,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -24620,7 +24698,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26265,9 +26348,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -26354,7 +26437,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27078,9 +27166,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -27169,7 +27257,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27382,9 +27475,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -27471,7 +27564,12 @@
       "image_candidates": [],
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -27875,9 +27973,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -27964,7 +28062,12 @@
       "image_rights_status": "verified_official_source",
       "image_strategy": "source_listing_card",
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite"
+      "thumbnail_strategy": "poster_composite",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28479,9 +28582,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -28562,7 +28665,12 @@
       ],
       "image_brief": "צילום כיסוי רלוונטי: שער ברזל או שער כניסה של גן עירוני נעול, בצד דמות של כמה אנשים המחכים ביציאה לסיור בשעות הבוקר המוקדמות; ברקע נראות צמחייה ירוקה ושבילי עפר. התמונה תשדר תחושת יציאה לשטח ואווירה קהילתית, ללא טקסט מובנה על התמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29387,9 +29495,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -29472,7 +29580,12 @@
       ],
       "image_brief": "תמונה רצויה: מבט פאנורמי של ירושלים (קשתות/חומות העיר העתיקה) בשעות הבוקר, ובקדמת התמונה קבוצת מטיילים קטנה או נוסעים מתכוננים לעלות לאוטובוס/לצאת לדרך — צילום טבעי באור יום המביע תחילת מסע. יש להימנע מטקסט על התמונה ולהקפיד על קומפוזיציה שמדגישה גם את הקשר בין אשדוד (נקודת יציאה) ליעד בירושלים, למשל שילוב של תמרור/שלט קטן של יציאה לצד נוף העיר.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -29986,9 +30099,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -30069,7 +30182,12 @@
       ],
       "image_brief": "תצלום אופייני לסיקור האירוע: קבוצת מטיילים קטנה בצפיון־בוקר ליד קטע של פסי רכבת ישנים או שביל החוצה עמק, הלבוש פרקטי להליכה, אור בוקר רך שמבליט את קווי הנוף. התמונה תעביר תחושה של יציאה שיתופית לחקר מרחב פתוח ותחילת מסלול, ללא טקסט מוטמע או לוגואים.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -30289,9 +30407,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -30373,7 +30491,12 @@
       ],
       "image_brief": "תמונת שער המציגה בוקר של יציאה לסיור: קבוצת מטיילים לבושים בקז'ואל עומדת בחוץ בזמן הזריחה, עם קווי הרקיע של חיפה ברקע. התמונה תדגיש אווירת התחלה ליום סיור — אנשים עם תיקי גב, כוסות קפה נשענים ליד רכב הסעה או נקודת מפגש פתוחה. אין טקסט מוטמע בתמונה; המוקד הוא על האנשים והנוף.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31024,9 +31147,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -31109,7 +31232,12 @@
       ],
       "image_brief": "תמונת שער המציגה צילום קרוב של רצפת פסיפס צבעונית ועתיקה בשטח — חלוקי האבן והאריחים במקום, עם שוליים של רצפה וסביבת אבן טבעית; ברקע מואר בחורף/אור בוקר ניתן לראות קטע מהנוף הגלילי או שולי האתר, ואפשרות להבחין בצללית מטיילים מרוחקים להמחשת סיור בשטח. אין טקסט או לוגו על התמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -31582,9 +31710,9 @@
       "venue": "יציאה לסיור מטעם קתדרת אופק, אשדוד",
       "address": null,
       "district": null,
-      "category": "tour",
+      "category": "seniors",
       "audiences": [
-        "adults"
+        "seniors"
       ],
       "age_min": null,
       "age_max": null,
@@ -31666,7 +31794,12 @@
       ],
       "image_brief": "צילום כיסוי: קבוצת משתתפים צועדת ברחוב עירוני באשדוד בשעות הבוקר, חלקם מחזיקים צלחות טעימות קטנות או מגשי טעימה. ברקע נראות חזיתות חנויות ובניינים עירוניים שמשרים אווירת סיור בעיר; התמונה ממוקדת על הפעילות והמפגש, עם דגש על האנשים והאוכל ולא על שלטים מלבנים או טקסטים. צבעים חמים ואווירה תוססת תעבירו את אופי הסיור.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "activity_type": "tour",
+      "category_previous": "tour",
+      "category_review_status": "source_rule_reclassified",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
     },
     {
       "city": "אשדוד",
