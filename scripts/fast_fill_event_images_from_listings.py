@@ -35,10 +35,10 @@ TIMEOUT=18
 
 SYSTEM_FALLBACKS={
   "music":"assets/defaults/music.svg",
-  "standup":"assets/defaults/standup.svg",
-  "theatre":"assets/defaults/theatre.svg",
-  "kids":"/events-preview/media-bank/defaults/kids-theatre-default.svg",
-  "lecture":"assets/defaults/lecture.svg",
+  "standup":"/events-preview/media-bank/defaults/standup.webp",
+  "theatre":"/events-preview/media-bank/defaults/theatre.webp",
+  "kids":"/events-preview/media-bank/defaults/kids.webp",
+  "lecture":"/events-preview/media-bank/defaults/lecture.webp",
   "exhibition":"assets/defaults/exhibition.svg",
   "workshop":"assets/defaults/workshop.svg",
   "cinema":"assets/defaults/cinema.svg",
