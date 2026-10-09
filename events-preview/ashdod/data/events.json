@@ -4615,7 +4615,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28804&ht=רועי עלוני מונארט 2026",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:13:46Z",
       "missing_information": [
@@ -4650,7 +4650,7 @@
       ],
       "image_brief": "תמונת שער המציגה את רועי עלוני בעת הרצאה: הוא יושב ליד פסנתר כנף או עומד לצדו, בפעולה של הדגמה או הסבר, כשהקהל מאחורי או בצדדים מקשיב באופן מרוכז. התאורה חמה ואינטימית, על רקע של תווים או דפי תווים פתוחים; ניתן לכלול פרטים כמו מיקרופון שולחני וכיסאות מסודרים לקהל מבוגר. אין לכלול טקסטים או לוגואים בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
@@ -4663,7 +4663,8 @@
         "רועי עלוני פסנתרן מוזיקולוג",
         "רועי עלוני הרצאה על צלילים ואנשים",
         "הרצאה מוזיקלית רועי עלוני מרכז מונארט"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
