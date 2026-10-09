@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "secondary_categories": [
     {
       "id": "lectures",
@@ -217,6 +217,554 @@
     {
       "id": "network-home",
       "label": "אתר הבית של הרשת"
+    }
+  ],
+  "primary_categories": [
+    {
+      "id": "music",
+      "label": "הופעות ומוזיקה",
+      "subcategories": [
+        {
+          "id": "artists-bands",
+          "label": "זמרים ולהקות"
+        },
+        {
+          "id": "israeli-music",
+          "label": "מוזיקה ישראלית"
+        },
+        {
+          "id": "tribute-shows",
+          "label": "מופעי מחווה"
+        },
+        {
+          "id": "concerts",
+          "label": "קונצרטים"
+        },
+        {
+          "id": "world-music",
+          "label": "מוזיקת עולם"
+        },
+        {
+          "id": "jazz",
+          "label": "ג׳אז"
+        },
+        {
+          "id": "sing-along",
+          "label": "שירה בציבור"
+        },
+        {
+          "id": "karaoke",
+          "label": "קריוקי"
+        },
+        {
+          "id": "musical-show",
+          "label": "מופע מוזיקלי"
+        },
+        {
+          "id": "dance-performance",
+          "label": "מחול וריקודים"
+        },
+        {
+          "id": "piyyut-poetry",
+          "label": "פיוט ושירה"
+        }
+      ]
+    },
+    {
+      "id": "theatre",
+      "label": "תיאטרון והצגות",
+      "subcategories": [
+        {
+          "id": "comedy",
+          "label": "קומדיה"
+        },
+        {
+          "id": "drama",
+          "label": "דרמה"
+        },
+        {
+          "id": "musical",
+          "label": "מחזמר"
+        },
+        {
+          "id": "original-production",
+          "label": "הפקת מקור"
+        },
+        {
+          "id": "repertory-theatre",
+          "label": "תיאטרון רפרטוארי"
+        },
+        {
+          "id": "one-person-show",
+          "label": "מופע יחיד"
+        },
+        {
+          "id": "musical-theatre",
+          "label": "תיאטרון מוזיקלי"
+        }
+      ]
+    },
+    {
+      "id": "standup",
+      "label": "סטנדאפ ובידור",
+      "subcategories": [
+        {
+          "id": "standup",
+          "label": "סטנדאפ"
+        },
+        {
+          "id": "entertainment-show",
+          "label": "מופע בידור"
+        },
+        {
+          "id": "comic-show",
+          "label": "קומדיה"
+        },
+        {
+          "id": "comic-one-person",
+          "label": "מופע יחיד קומי"
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "label": "ילדים ומשפחה",
+      "subcategories": [
+        {
+          "id": "kids-theatre",
+          "label": "הצגות ילדים"
+        },
+        {
+          "id": "kids-shows",
+          "label": "מופעי ילדים"
+        },
+        {
+          "id": "story-time",
+          "label": "שעת סיפור"
+        },
+        {
+          "id": "kids-literature",
+          "label": "ספרות ילדים"
+        },
+        {
+          "id": "kids-workshops",
+          "label": "סדנאות ילדים"
+        },
+        {
+          "id": "family-activity",
+          "label": "פעילות משפחתית"
+        },
+        {
+          "id": "parent-child",
+          "label": "הורה וילד"
+        },
+        {
+          "id": "kids-festival",
+          "label": "פסטיבל ילדים"
+        }
+      ]
+    },
+    {
+      "id": "lecture",
+      "label": "הרצאות",
+      "subcategories": [
+        {
+          "id": "health-medicine",
+          "label": "בריאות ורפואה"
+        },
+        {
+          "id": "psychology-growth",
+          "label": "פסיכולוגיה והתפתחות אישית"
+        },
+        {
+          "id": "history",
+          "label": "היסטוריה"
+        },
+        {
+          "id": "current-affairs",
+          "label": "אקטואליה"
+        },
+        {
+          "id": "culture-art",
+          "label": "תרבות ואמנות"
+        },
+        {
+          "id": "judaism-spirit",
+          "label": "יהדות ורוח"
+        },
+        {
+          "id": "parenting-family",
+          "label": "הורות ומשפחה"
+        },
+        {
+          "id": "relationships",
+          "label": "זוגיות"
+        },
+        {
+          "id": "travel-geography",
+          "label": "טיולים וגאוגרפיה"
+        },
+        {
+          "id": "digital-tech",
+          "label": "דיגיטל וטכנולוגיה"
+        },
+        {
+          "id": "general-enrichment",
+          "label": "העשרה כללית"
+        }
+      ]
+    },
+    {
+      "id": "conference",
+      "label": "כנסים ופאנלים",
+      "subcategories": [
+        {
+          "id": "professional-conference",
+          "label": "כנסים מקצועיים"
+        },
+        {
+          "id": "panel",
+          "label": "פאנלים"
+        },
+        {
+          "id": "study-day",
+          "label": "ימי עיון"
+        },
+        {
+          "id": "expert-meeting",
+          "label": "מפגשי מומחים"
+        }
+      ]
+    },
+    {
+      "id": "workshop",
+      "label": "סדנאות וקורסים",
+      "subcategories": [
+        {
+          "id": "arts-crafts",
+          "label": "אמנות ויצירה"
+        },
+        {
+          "id": "painting",
+          "label": "ציור"
+        },
+        {
+          "id": "knitting",
+          "label": "סריגה"
+        },
+        {
+          "id": "writing",
+          "label": "כתיבה"
+        },
+        {
+          "id": "photography",
+          "label": "צילום"
+        },
+        {
+          "id": "digital-canva",
+          "label": "דיגיטל וקנווה"
+        },
+        {
+          "id": "cooking-baking",
+          "label": "בישול ואפייה"
+        },
+        {
+          "id": "movement-health",
+          "label": "תנועה ובריאות"
+        },
+        {
+          "id": "music-workshop",
+          "label": "מוזיקה"
+        },
+        {
+          "id": "dance-workshop",
+          "label": "ריקוד"
+        },
+        {
+          "id": "personal-development",
+          "label": "התפתחות אישית"
+        }
+      ]
+    },
+    {
+      "id": "exhibition",
+      "label": "תערוכות ואמנות",
+      "subcategories": [
+        {
+          "id": "exhibition",
+          "label": "תערוכה"
+        },
+        {
+          "id": "visual-art",
+          "label": "אמנות חזותית"
+        },
+        {
+          "id": "photography",
+          "label": "צילום"
+        },
+        {
+          "id": "painting",
+          "label": "ציור"
+        },
+        {
+          "id": "sculpture",
+          "label": "פיסול"
+        },
+        {
+          "id": "guided-exhibition-tour",
+          "label": "סיור מודרך בתערוכה"
+        },
+        {
+          "id": "exhibition-opening",
+          "label": "פתיחת תערוכה"
+        },
+        {
+          "id": "museums-galleries",
+          "label": "מוזיאונים וגלריות"
+        }
+      ]
+    },
+    {
+      "id": "festival",
+      "label": "פסטיבלים ואירועי חוץ",
+      "subcategories": [
+        {
+          "id": "festival",
+          "label": "פסטיבל"
+        },
+        {
+          "id": "fair",
+          "label": "יריד"
+        },
+        {
+          "id": "happening",
+          "label": "הפנינג"
+        },
+        {
+          "id": "street-event",
+          "label": "אירוע רחוב"
+        },
+        {
+          "id": "park-event",
+          "label": "אירוע בפארק"
+        },
+        {
+          "id": "holiday-event",
+          "label": "חג ומועד"
+        },
+        {
+          "id": "major-city-event",
+          "label": "אירוע עירוני גדול"
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "label": "קהילה ופנאי",
+      "subcategories": [
+        {
+          "id": "community-meeting",
+          "label": "מפגש קהילתי"
+        },
+        {
+          "id": "social-clubs",
+          "label": "מועדונים חברתיים"
+        },
+        {
+          "id": "women-events",
+          "label": "אירועי נשים"
+        },
+        {
+          "id": "communities-heritage",
+          "label": "קהילות ועדות"
+        },
+        {
+          "id": "ceremonies",
+          "label": "טקסים"
+        },
+        {
+          "id": "tribute-events",
+          "label": "אירועי הוקרה"
+        },
+        {
+          "id": "culture-evenings",
+          "label": "ערבי תרבות"
+        },
+        {
+          "id": "reading-clubs",
+          "label": "מועדוני קריאה"
+        },
+        {
+          "id": "folk-dancing",
+          "label": "ריקודי עם והרקדות"
+        }
+      ]
+    },
+    {
+      "id": "tour",
+      "label": "טיולים וסיורים",
+      "subcategories": [
+        {
+          "id": "city-tour",
+          "label": "סיור עירוני"
+        },
+        {
+          "id": "nature-trip",
+          "label": "טיול טבע"
+        },
+        {
+          "id": "culinary-tour",
+          "label": "סיור קולינרי"
+        },
+        {
+          "id": "art-tour",
+          "label": "סיור אמנות"
+        },
+        {
+          "id": "history-tour",
+          "label": "סיור היסטורי"
+        },
+        {
+          "id": "organized-trip",
+          "label": "טיול מאורגן"
+        },
+        {
+          "id": "museum-tour",
+          "label": "סיור מוזיאון"
+        }
+      ]
+    },
+    {
+      "id": "sport",
+      "label": "אירועי ספורט",
+      "subcategories": [
+        {
+          "id": "football",
+          "label": "כדורגל"
+        },
+        {
+          "id": "basketball",
+          "label": "כדורסל"
+        },
+        {
+          "id": "handball",
+          "label": "כדוריד"
+        },
+        {
+          "id": "volleyball",
+          "label": "כדורעף"
+        },
+        {
+          "id": "water-sports",
+          "label": "גלישה וספורט ימי"
+        },
+        {
+          "id": "running-races",
+          "label": "ריצה ומרוצים"
+        },
+        {
+          "id": "competitions",
+          "label": "תחרויות"
+        },
+        {
+          "id": "tournaments",
+          "label": "טורנירים"
+        },
+        {
+          "id": "popular-sports",
+          "label": "אירועי ספורט עממי"
+        }
+      ]
+    },
+    {
+      "id": "cinema",
+      "label": "קולנוע",
+      "subcategories": [
+        {
+          "id": "hot-cinema",
+          "label": "HOT Cinema"
+        },
+        {
+          "id": "cinema-city",
+          "label": "Cinema City"
+        },
+        {
+          "id": "other-cinema",
+          "label": "קולנוע אחר"
+        }
+      ]
+    },
+    {
+      "id": "food",
+      "label": "אוכל וקולינריה",
+      "subcategories": [
+        {
+          "id": "food-fair",
+          "label": "יריד אוכל"
+        },
+        {
+          "id": "tastings",
+          "label": "טעימות"
+        },
+        {
+          "id": "cooking-workshop",
+          "label": "סדנת בישול"
+        },
+        {
+          "id": "food-festival",
+          "label": "פסטיבל אוכל"
+        },
+        {
+          "id": "market-culinary-event",
+          "label": "שוק ואירוע קולינרי"
+        }
+      ]
+    },
+    {
+      "id": "seniors",
+      "label": "הגיל השלישי וגמלאים",
+      "subcategories": [
+        {
+          "id": "senior-lectures",
+          "label": "הרצאות והעשרה"
+        },
+        {
+          "id": "senior-workshops",
+          "label": "סדנאות ויצירה"
+        },
+        {
+          "id": "senior-trips",
+          "label": "טיולים וסיורים"
+        },
+        {
+          "id": "senior-music",
+          "label": "מוזיקה ושירה"
+        },
+        {
+          "id": "senior-dance",
+          "label": "ריקוד"
+        },
+        {
+          "id": "senior-sport",
+          "label": "ספורט ותנועה"
+        },
+        {
+          "id": "senior-health",
+          "label": "בריאות"
+        },
+        {
+          "id": "senior-social",
+          "label": "מפגשים חברתיים"
+        },
+        {
+          "id": "senior-culture",
+          "label": "תרבות ומופעים"
+        },
+        {
+          "id": "senior-digital",
+          "label": "דיגיטל וטכנולוגיה"
+        }
+      ]
     }
   ]
 }
