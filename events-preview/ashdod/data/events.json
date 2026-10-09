@@ -2134,7 +2134,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/הלב_זוכר/?id=8020",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:56:36Z",
       "missing_information": [
@@ -2170,7 +2170,7 @@
       ],
       "image_brief": "תמונת כיסוי רכה ואלגנטית: דיוקן של איציק (\"קקולי\") גוריאלשווילי בצבעים חמים, בצד ימין של התמונה; משמאל, במעבר טיפה מטושטש, במה נגישה עם מיקרופון ועצבי תאורה כתומים המשתרעים לעומק. אווירה נוסטלגית, נגיעה של ארכיון (תמונות קטנות בשולי התמונה) וטקסט כותרתי נקי למטה — כל זאת ללא כיתוב נוסחתי על התמונה עצמה.",
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "insufficient",
+      "content_enrichment_status": "model_error",
       "thumbnail_error": "HTTPError",
       "seo_title": "הלב זוכר — מופע לזכר איציק (קקולי) גוריאלשווילי",
       "seo_description": "מופע‑זיכרון למורשתו של איציק (קקולי) גוריאלשווילי: שירים בגישה גאורגית ונוסטלגית. הופעות ב‑10 ו‑11 באוקטובר 2026; הכרטיסים אזלו.",
@@ -2181,7 +2181,7 @@
         "מישל גוריאלשווילי",
         "המשכן לאמנויות הבמה - אשדוד"
       ],
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -2248,7 +2248,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17581",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:57:10Z",
       "missing_information": [
@@ -2289,7 +2289,7 @@
       ],
       "image_brief": "תמונת שער שידגמיה את הדו־שיח בין שתי התערוכות: מצד שמאל צילום קולאז'י של הדס סט (טון רך, פריטים משפחתיים וקונטקסט ביתי מעובד), מצד ימין בד ציור מופשט גדול של עמית קבסה צבעוני ועשיר במרקמים; ברקע מטעמי מרחב מוזיאלי נקי עם קשתות או רצפת בטון שמשדרות מימד אינטימיות ותצוגה. הימנעו מטקסט על התמונה; ההדגשה על המגע החומרי והניגוד בין עדינות הצילום לבין גסות הצבע.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "מוזיאון אשדוד לאמנות — כניסה לתערוכות, 12.10.2026",
@@ -2303,7 +2303,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_40_20261012",
@@ -2364,13 +2365,13 @@
       "contact_email": "monart@ironit.org.il",
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
-      "content_enrichment_status": "insufficient",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0053cf46a5b771c27cf127a3",
       "content_enrichment_source": "https://live.tickchak.co.il/ashdod",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:58:03Z",
       "missing_information": [
@@ -2450,7 +2451,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:58:49Z",
       "missing_information": [
@@ -2480,7 +2481,7 @@
         "חיוך והבעות רגש בקרב הילדים"
       ],
       "image_brief": "צילום כיסוי שיקלע לאווירת ההצגה: במה קטנה ותאורה סתוּית המדמה ענן וגשם קל, שחקנית במדי הצגה מחזיקה דלי מים בולט בחזית, וקבוצת ילדים בשורות הראשונות צופה וסקרנית. התפאורה צריכה להקרין חום משפחתי ולא פחד — הדגש על קשר בין הדמות לילדים והאלמנט החינוכי של ההצגה. אין לכלול טקסטים חופפים על התמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "participants": [
         "עולם ומלואו",
         "החברה העירונית לתרבות ופנאי באשדוד",
@@ -2497,7 +2498,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_95_20261012",
@@ -2565,7 +2567,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:59:24Z",
       "missing_information": [
@@ -2599,7 +2601,7 @@
         "קהל במעגל חשוך"
       ],
       "image_brief": "תמונת קצה שמהדהדת את טבעו האינטימי של המופע: חוי ליברמן במרכז הפריים מחובקת לכינור, תאורה חמה מהצד מדגישה את הפנים והמיתרים. ברקע, דלת חצי־פתוחה מטושטשת שמרמזת על המוטיב של 'פתיחה', ותפאורה מינימליסטית עם משחק צללים. האווירה צריכה להיות דרמטית אך אינטימית — אין טקסט בתמונה, הדגש על הבעה, כלי המיתר והאור.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "תשאירי פתוח — חוי ליברמן | הצגת יחיד מוזיקלית",
       "seo_description": "הצגת יחיד של חוי ליברמן: סיפור אנושי בכינור. מרכז קהילתי מעלה, אשדוד — 12.10.2026, 20:00. כרטיסים ₪20.",
       "image_subject_type": "artist_or_speaker",
@@ -2612,7 +2614,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "sport_20261012_maccabi_ashdod_basketball",
@@ -2677,13 +2680,13 @@
       "representative_team": true,
       "content_ready_for_media": true,
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_rights_status": "verified_official_source",
       "image_candidates": [],
       "content_enrichment_source": "",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:59:51Z",
       "missing_information": [
