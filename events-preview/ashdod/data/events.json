@@ -20983,10 +20983,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_51ba4acb352c46e1998e7fb4",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -21047,7 +21047,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33641",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:52:21Z",
       "missing_information": [
@@ -21093,7 +21093,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -21168,7 +21168,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%94%D7%97%D7%99%D7%A4%D7%95%D7%A9%D7%99%D7%95%D7%AA/?id=16679",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:52:36Z",
       "missing_information": [
@@ -21202,7 +21202,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_2134cfaef9dddd187740304c",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_66_20261215",
@@ -21264,10 +21264,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_edd713f90fcc58093234312c",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -21338,7 +21338,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/היי_סקול_דרמה_-_האקדמיה_למדעי_היוטיוב_-_חנוכה_2026_/?id=8227",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:53:17Z",
       "missing_information": [
@@ -21371,7 +21371,7 @@
       ],
       "image_brief": "צילום כיסוי רחב של במה בתאורה חמה: שחקנים/שחקניות או צלליות על במה מוארות בספוטלייט, מאחורי הבמה מסך LED גדול המציג מבחר תמונות שידור/ווידאו (בלי לוגו), ובקידמת התמונה קהל ישב בצפייה. בצד הבמה ניתן להראות חנוכייה או אלמנט קטן שמרמז על חנוכה, ללא טקסט מוטמע בתמונה. האווירה דרמטית־עשירה בצבעים חמים, עם דגש על תאורה ובמה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -21449,7 +21449,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/עץ_הבלונים_/?id=17307",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:53:35Z",
       "missing_information": [
@@ -21485,7 +21485,7 @@
       ],
       "image_brief": "צילום גג כיסוי של ההצגה: זירה תיאטרלית עם נסיכה מוקפת בלונים צבעוניים, עץ בלונים גדול כרקע וסביבה שמחה ופסטלית. הבמה מוארת באור חם, תלבושות צבעוניות ובמה שמדגישה אלמנטים של פנטזיה וילדותיות; רצוי לכלול גם רמז לקהל צעיר בפינה, כדי להמחיש שמדובר בהצגת משפחות.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
