@@ -40,6 +40,18 @@ function mergeDbRecordWithFreshMedia(e,db){
       else delete merged[key];
     }
   }
+
+  // Fresh feed classification wins over stale CMS snapshots unless an editor
+  // explicitly locked a manual category override.
+  const manualCategory=Boolean(db.payload.category_manual_override===true);
+  if(!manualCategory){
+    if(Object.prototype.hasOwnProperty.call(e,"category")) merged.category=e.category;
+    else delete merged.category;
+    for(const key of ["category_previous","category_review_status","category_review_confidence","category_reviewed_at"]){
+      if(Object.prototype.hasOwnProperty.call(e,key)) merged[key]=e[key];
+      else delete merged[key];
+    }
+  }
   return merged;
 }
 function artistVideoFor(event,catalog){
