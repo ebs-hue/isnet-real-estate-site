@@ -5595,7 +5595,7 @@
       "content_enrichment_retry_after": "2026-10-10",
       "content_enrichment_source": "",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 9,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:19:08Z",
       "missing_information": [
@@ -5719,7 +5719,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/דרושה_עוזרת_471f06b60d/?id=8221",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 9,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:19:55Z",
       "missing_information": [
@@ -5835,13 +5835,13 @@
       "venue_institution_id": "yadlabanim_ashdod",
       "content_ready_for_media": true,
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b798020183538fcc746559e0",
       "content_enrichment_source": "https://live.tickchak.co.il/ashdod",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:20:24Z",
       "missing_information": [
@@ -5955,7 +5955,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17556",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:20:54Z",
       "missing_information": [
@@ -5992,7 +5992,7 @@
       ],
       "image_brief": "צילום חמוש של חלל התערוכה שמדגיש קנבס/בד גדול אחד או שניים במבט חוצה־חלל: תמונה המראה מרקם הצבע מקרוב ועדת התלויות הכוללת מסך וידאו ברקע, עם אדם אחד קטן במסגרת להמחשת קנה המידה. התאורה צריכה להדגיש שכבות צבע וחומריות, ולהעביר את התחושה המרחבית והאינטנסיבית של התצוגה. אין טקסט על התמונה.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "seo_title": "כניסה לתערוכות — מוזיאון אשדוד לאמנות, 18.10.2026",
@@ -6006,7 +6006,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -6073,7 +6074,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17253",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:21:23Z",
       "missing_information": [
@@ -6109,7 +6110,7 @@
         "אוירה שכונתית"
       ],
       "image_brief": "תמונת כיסוי צריכה להראות מבצע יחיד על במה קטנה בסצנה שאופיינית לחנות דגים שכונתית: שחקן בדמות אלבר לבוש במראה קשה־ים/מוכר דגים (אפוד/סינר) יושב על כסא חוף עם חכת דייג בידי, רמזים של דלפק דגים בעמדה האחורית, וקהל קטן מחויך ברקע. תאורה חמה ונוסטלגית, קומפוזיציה קרובה שמדגישה הבעת פנים חמה והומורית. אין לכלול כיתובים על התמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
       "seo_title": "מיסייה אלבר — הפקת מקור, הצגה קהילתית",
@@ -6128,7 +6129,8 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -6194,7 +6196,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/איילת_מטיילת-_הצגה_מבית_רינתי/?id=17668",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 10,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:21:55Z",
       "missing_information": [
@@ -6228,7 +6230,7 @@
       ],
       "image_brief": "צילום כיסוי צריך להציג רגע תיאטרלי אינטימי ומשעשע: ילדה (איילת) מוקפת בשמיכת טלאים גדולה וצבעונית שנראית כאילו מתעוררת לחיים; על הבמה כמה שחקנים/בובות בהבעות חמות ועיצוב תלבושות פשוט אך מלא צבע. האווירה חייבת להקרין תנועה ודמיון — ילדים יושבים בקדמת הבמה או פונים אל הדמות, תאורה רכה וחמימה שמדגישה טקסטורות השמיכה וצבעוניות התפאורה. יש להימנע מטקסטים על התמונה; הדגש על חיבור בין הילד להפקה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_candidates": [],
       "seo_title": "איילת מטיילת — הצגת ילדים מבית רינתי | 18.10.2026",
       "seo_description": "הצגה מוסיקלית ואינטראקטיבית לבני הגיל הרך על איילת והשמיכה הפלאית. מרכז קהילתי עם שלום, אשדוד — 18/10/2026, 17:15.",
@@ -6239,7 +6241,8 @@
         "איילת מטיילת הצגה בית רינתי",
         "איילת מטיילת רינת הופר הצגה",
         "איילת מטיילת תיאטרון ילדים"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
