@@ -1,28 +1,22 @@
 {
-  "generated_at": "2026-10-08T04:23:33Z",
-  "total_events": 320,
-  "verified_event_photos": 158,
-  "unverified_event_photos": 162,
+  "generated_at": "2026-10-09T04:10:22Z",
+  "total_events": 313,
+  "verified_event_photos": 155,
+  "unverified_event_photos": 158,
   "breakdown": {
-    "kotar_rishon_missing": 21,
-    "waiting_for_content": 134
+    "waiting_for_content": 132,
+    "kotar_rishon_missing": 20
   },
   "manual_review": [
     {
-      "event_id": "auto_ri_feebac085a47bc2ba79e",
-      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
-      "source": "kotar_rishon",
-      "candidate_pages": []
-    },
-    {
-      "event_id": "auto_ri_2a088f32e6a9729f383b",
-      "title": "מפגש עם הסופרת איילת מועלם אליה",
-      "source": "kotar_rishon",
-      "candidate_pages": []
-    },
-    {
       "event_id": "auto_ri_9f1ceb0a59a88d6a3546",
       "title": "צלילים וסיפורונים לטף",
+      "source": "kotar_rishon",
+      "candidate_pages": []
+    },
+    {
+      "event_id": "auto_ri_2e27df52904543987be8",
+      "title": "הפינה של גלי - פעילות מוזיקאלית לקטנטנים",
       "source": "kotar_rishon",
       "candidate_pages": []
     },
