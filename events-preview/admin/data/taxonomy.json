@@ -746,7 +746,9 @@
         {
           "id": "trips",
           "label": "טיולים",
-          "suggested_category": "tour"
+          "suggested_category": "seniors",
+          "suggested_subcategory": "senior-trips",
+          "requires_content_check": true
         },
         {
           "id": "cafe-culture",
@@ -762,7 +764,20 @@
         {
           "id": "courses",
           "label": "קורסים",
-          "suggested_category": "workshop"
+          "suggested_category": null,
+          "destination": "classes",
+          "requires_content_check": true
+        },
+        {
+          "id": "lectures",
+          "label": "הרצאות",
+          "aliases": [
+            "הרצאה",
+            "מפגש העשרה"
+          ],
+          "suggested_category": "seniors",
+          "suggested_subcategory": "senior-lectures",
+          "requires_content_check": true
         }
       ]
     },
@@ -827,5 +842,20 @@
       "destination": "classes",
       "migration_note": "קורסים וחוגים מתמשכים עוברים ללוח החוגים; אירועים חד-פעמיים מסווגים לפי נושא או קהל."
     }
-  ]
+  ],
+  "source_mapping_policy": {
+    "version": 1,
+    "priority": [
+      "explicit_source_category",
+      "verified_source_alias",
+      "event_title_description_venue"
+    ],
+    "rules": [
+      "Store the exact original source category and source URL for every classification.",
+      "An alias can suggest only an existing primary/subcategory pair.",
+      "Ambiguous aliases require content review; never auto-publish them.",
+      "Course or recurring class labels are routed to classes, not the events board.",
+      "Do not infer source labels from event titles or invent evidence."
+    ]
+  }
 }
