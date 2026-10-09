@@ -3526,7 +3526,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A2%D7%99%D7%A6%D7%95%D7%91_%D7%90%D7%95%D7%A8%D7%97_%D7%97%D7%99%D7%99%D7%9D_%D7%91%D7%A8%D7%99%D7%90__/?id=17239",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:05:07Z",
       "missing_information": [
@@ -3557,7 +3557,7 @@
         "חומרי הדרכה מודפסים"
       ],
       "image_brief": "תמונת שער שמשדרת סדנה קבוצתית בקהילה: חדר מואר וחמים במרכז אפ 60+, מספר משתתפים מבוגרים יושבים במעגל או סביב שולחן עם פנקסים וכוסות מים, מנחה עומדת ליד פליפצ'ארט או לוח ומשתפת. על השולחן כמה פירות וכתבי עבודה, והאווירה מזמינה ותומכת — צילום אוקטיבי, טבעי ובלתי פורמלי שמדגיש שיתוף ופרקטיקה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "עיצוב אורח חיים בריא — סדנה תהליכית ל‑60+ (8 מפגשים)",
       "seo_description": "סדנה תהליכית בת 8 מפגשים לעיצוב שגרה בריאה בגיל הפרישה. מתחיל 14.10.2026, מרכז אפ 60+; עלות משתתפות: 200 ש\"ח. מתאים לאזרחים ותיקים.",
       "image_subject_type": "program_or_institution",
@@ -3569,7 +3569,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -3642,7 +3643,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/בריאות_מיטבית-הסיבות_והמניעות_לחולי_בתקופה_המודרנית/?id=17301",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:05:36Z",
       "missing_information": [
@@ -3673,7 +3674,7 @@
         "סימבול 'שורש' או אילן בצבעים טבעיים"
       ],
       "image_brief": "תמונת שער צריכה להראות את המרצה (אבי ביילה) באמצע דיבור על במה קטנה או ליד פינת הרצאה: הבעת יד פתוחה כמחווה, רקע מטושטש של קהל מאזינים ושקופית מאוירת מאחור שמציגה סכימה של 'סיבות' מול 'מניעה' (ללא טקסט קריא). אווירה טבעית, תאורה חמימה, תחושת מעשיות וקרבה לקהל — לא תמונת סטודיו קרה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "בריאות מיטבית — סיבות ומניעות לחולי | אבי ביילה",
       "seo_description": "הרצאה על סיבות השורש והמניעות לחולי בעידן המודרני — מרצה אבי ביילה. 14 באוקטובר 2026, מרכז קהילתי טנה, אשדוד, 10:30–11:30.",
       "image_subject_type": "artist_or_speaker",
@@ -3685,7 +3686,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_96_20261014",
@@ -3745,7 +3747,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A8%D7%94_%D7%9C%D7%94%D7%9B%D7%99%D7%A8_/?id=17305",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:07:21Z",
       "missing_information": [
@@ -3777,7 +3779,7 @@
       ],
       "image_brief": "צילום/כיסוי שמדגיש את הסט כ'דירה' — מספר דלתות בצבעים שונים על במה קטנה, שחקנים בלבוש צבעוני המשתלבים ביניהן, ואולם קטן שבו נראים ילדים מסתכלים ומחייכים. העומק צריך להרגיש אינטימי: דלת פתוחה במרכז, דמות שכנה מחייכת בקצה הדלת, אביזרים ביתיים פשוטים ברקע ותאורת ערב חמה שמדגישה אווירת קהילה ובטחון. אין טקסט על התמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_550e833132524aa41043d627",
       "participants": [
@@ -3791,7 +3793,8 @@
         "דירה להכיר הצגה ילדים דירה להשכרה שכנים",
         "הצגת ילדים דירה להכיר אשדוד",
         "תיאטרון החלומות של אסי הצגות ילדים"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -3858,7 +3861,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מעשה_בחמישה_בלונים__6e4cbe7da0/?id=8240",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:08:07Z",
       "missing_information": [
@@ -3887,7 +3890,7 @@
         "תנועה וכוריאוגרפיה קלילה"
       ],
       "image_brief": "תמונת כיסוי אמורה להציג רגע במה דינמי: מספר שחקנים (או שני שחקנים מרכזיים) באינטראקציה סביב חמישה בלונים גדולים וצבעוניים על במה מוארת היטב. האווירה צריכה לשדר שמחה, תנועה וצבע — אור חם ותפאורה מזמינה; ברקע אפשר לומר רמז לתלבושות פנטזיה ולאביזרים גדולים. אין לצרף טקסט או לוגואים בתמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "media_bank_id": "media_9300e0f7de398cd94516a367",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
@@ -3911,7 +3914,8 @@
         "מעשה בחמישה בלונים הצגה אשרוב הפקות תמונה",
         "מעשה בחמישה בלונים שיראל חכשורי-אשרוב תמונה במה",
         "מעשה בחמישה בלונים לירון איש האווירון הצגה תמונה"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
