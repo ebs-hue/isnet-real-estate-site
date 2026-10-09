@@ -20328,7 +20328,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/סיפור_חנוכה_|_שעת_סיפור_עם_רינתי/?id=17645",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:18Z",
       "missing_information": [
@@ -20371,7 +20371,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
@@ -20439,7 +20439,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/היפה_והחיה__977306cac1/?id=8130",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:33Z",
       "missing_information": [
@@ -20471,7 +20471,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_820803571ee436d0f2e268bd",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -20541,7 +20541,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/פסטיבל_ילד_פלא_-_יעודי_לגדולות_מהחיים/?id=17526",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:49:56Z",
       "missing_information": [
@@ -20576,7 +20576,7 @@
       ],
       "image_brief": "צילום צבעוני של אולם קטן לפני תחילת מופע: משפחות עם ילדים עומדות או יושבות מול במה מוארת שבה מיקרופון עומד מוכוון לקהל. קדמת התמונה מציגה הורים עם עגלות וכיסאות, וגם דוכן כרטיסים ליד הכניסה. האווירה בוקרית וחמימה, עם קישוטים פשוטים (בלונים או דגלונים) שממחישים אירוע ילדים קלאסי.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -20660,7 +20660,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מפצח_האגוזים_5c5a8cdca0/?id=8219",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:15Z",
       "missing_information": [
@@ -20693,7 +20693,7 @@
       ],
       "image_brief": "תמונה אופיינית לכיסוי האירוע: מבט פנימי לאולם המשכן לפני תחילת המופע — שורות מושבים מלאים בחלקן, אורות במה חמים מנצנצים מעל הבמה הנשענת מאחורי וילון, וביד של צופה כרטיס או כרטיסייה. הצילום ישדר אווירת ערב תיאטרלית ומתח לפני תחילת המופע.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -20771,7 +20771,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/סינדרלה_aac72791b4/?id=17685",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:37Z",
       "missing_information": [
@@ -20815,7 +20815,7 @@
       "media_bank_id": "media_371567e34c76640a3a0560ab",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -20886,7 +20886,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שקרים_קטנים_קומדיה_משפחתית_מופרעת_/?id=8235",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:50:52Z",
       "missing_information": [
@@ -20919,7 +20919,7 @@
       ],
       "image_brief": "צילום כיסוי שמראה את במה המשכן לאמנויות הבמה בתאורת ערב חמה, עם ספוטלייט מואר במרכז ובקהל מטושטש ברקע שמגיב בצחוק. התמונה תעביר תחושת מופע תיאטרלי אינטימי בערב — אור עמום מאחורי הבמה, כיסאות תיאטרון וסילואטה של דמות עומדת על הבמה, בלי המלצה על טקסט או לוגו משולב.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
