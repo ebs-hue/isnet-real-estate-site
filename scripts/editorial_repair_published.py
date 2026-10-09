@@ -29,6 +29,16 @@ def credible_specific(url,event):
     # Directory and landing pages cannot ground event-specific assertions.
     return len(parsed.path.strip("/"))>=8 and (bool(parsed.query) or parsed.path.count("/")>=2)
 
+INTERNAL_NOTE_PATTERNS = [
+    r"העמוד אינו מפרט", r"המקור אינו מפרט", r"יש לבדוק",
+    r"יש לאמת", r"לא ניתן לאמת", r"פרטים נוספים.*(?:מקור|אתר)",
+    r"לא נמצאו פרטים", r"נדרש בירור", r"לפני פרסום",
+    r"יש לעיין בעמוד", r"לא צוין במקור", r"לא ברור מן המקור",
+]
+
+def has_internal_notes(value):
+    return any(re.search(p, clean_text(value)) for p in INTERNAL_NOTE_PATTERNS)
+
 def passes(result):
     q=result.get("editorial_questions") or {}
     supported=lambda k: isinstance(q.get(k),dict) and q[k].get("supported") is True and len(clean_text(q[k].get("answer")))>=12
@@ -37,7 +47,7 @@ def passes(result):
     return (result.get("content_ready_for_media") is True and supported("what") and supported("why_attend")
             and (supported("audience") or supported("participants"))
             and len(desc)>=140 and len(pitch)>=35 and len(pitch)<=350
-            and not re.search(r'https?://|\\[מקור\\]',desc+" "+pitch))
+            and not re.search(r'https?://|\\[מקור\\]',desc+" "+pitch)\n            and not has_internal_notes(desc+" "+pitch))
 
 def main():
     if os.getenv("EDITORIAL_REPAIR_WRITE_ENABLED") != "YES_AFTER_LEAK_AUDIT":
