@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:21:17Z",
+  "generated_at": "2026-10-09T18:21:56Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_8_20261015",
-      "title": "דיסקו - כשהקצב משחרר את הגוף",
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "title": "מכבי אשדוד - מכבי חדרה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_43_20261015",
-      "title": "אסף מור יוסף במופע סטנדאפ",
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_42_20261015",
-      "title": "נועה מנור",
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1671f155d6a206c3de2b",
+      "event_id": "auto_as_99d8856352ac024635f0",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261016_ms_ashdod_football",
-      "title": "מ.ס. אשדוד - מכבי קריית גת",
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7b18a3b8878c1169693b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
