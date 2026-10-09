@@ -11779,7 +11779,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/יריד_בריאות_לאזרחים_וותיקים/?id=17707",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:34Z",
       "missing_information": [
@@ -11809,7 +11809,7 @@
       ],
       "image_brief": "צילום כיסוי פנים-אולם של מרכז קהילתי מלא בפעילות: כמה דוכנים מסודרים בשורה עם תצוגות ופריטים (שייקים, מוצרי קוסמטיקה), קבוצת מבוגרים המשתתפת בתיפוף או בתרגיל תנועה בקדמת התמונה, ומייצג מידע של דוכן עם פוסטרים מבלי להראות לוגואים בולטים. התאורה טבעית או חמה, כדי להבליט אווירה ידידותית ופעילה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -11894,7 +11894,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:58Z",
       "missing_information": [
@@ -11933,7 +11933,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -12006,7 +12006,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%94%D7%A9%D7%95%D7%A2%D7%9C_%D7%94%D7%9E%D7%95%D7%A1%D7%99%D7%A7%D7%9C%D7%99_%D7%9B%D7%95%D7%95%D7%A8%D7%AA/?id=16678",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:40:15Z",
       "missing_information": [
@@ -12042,7 +12042,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_a0d7180a2b50017bceca6eae",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_55_20261103",
@@ -12104,10 +12104,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b1263ba6a5dfe100bb45033a",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -12179,7 +12179,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:41:30Z",
       "missing_information": [
@@ -12219,7 +12219,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -12292,7 +12292,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A4%D7%A0%D7%90%D7%9C__%D7%A2%D7%95%D7%9C%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A1%D7%AA%D7%98%D7%99%D7%A7%D7%94__-%D7%A2%D7%9D_%D7%92%D7%99%D7%9C%D7%94_%D7%AA%D7%95%D7%A8%D7%9F_%D7%97%D7%9F___%D7%95%D7%A8%D7%93%D7%94_%D7%A9%D7%97%D7%A3__%D7%95%D7%A8%D7%95%D7%A4%D7%90%D7%99%D7%9D_-%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D/?id=17026",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:41:49Z",
       "missing_information": [
@@ -12339,7 +12339,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,

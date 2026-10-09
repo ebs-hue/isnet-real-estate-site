@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:27:46Z",
+  "generated_at": "2026-10-09T18:28:25Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_e8967396c917fb4211e4",
-      "title": "הרצאה של רנה סרור",
+      "event_id": "auto_as_a84790398264ca067403",
+      "title": "יריד בריאות לאזרחים וותיקים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3f503485fb828450a686",
-      "title": "אדם וחותם-הקשר שבין האדם לאדמה",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_772312d4fce5baa32388",
+      "event_id": "auto_as_180bd1ccf144be5544e3",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_14_20261102",
-      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+      "event_id": "evt_15_20261103",
+      "title": "השועל המוסיקלי כוורת",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6702385b6f68556b2c50",
-      "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+      "event_id": "evt_55_20261103",
+      "title": "פאטמה הסטנדאפיסטית",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_64cf140ac904f0ae4871",
-      "title": "התקווה 6",
+      "event_id": "auto_as_2fda014dc7669a040b46",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "status": "model_error",
+      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "evt_16_20261104",
+      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
