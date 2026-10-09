@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-08T23:57:18.797323+00:00",
+  "generated_at": "2026-10-09T00:28:17.657796+00:00",
   "stats": {
-    "events_scanned": 511,
-    "image_links": 404,
-    "unique_images": 178,
-    "approved": 156,
-    "needs_review": 14,
+    "events_scanned": 504,
+    "image_links": 398,
+    "unique_images": 172,
+    "approved": 152,
+    "needs_review": 12,
     "rejected": 8
   },
   "rejected_reasons": {
@@ -20,14 +20,8 @@
     },
     "ashdod.smarticket.co.il": {
       "images": 18,
-      "approved": 12,
-      "review": 6,
-      "rejected": 0
-    },
-    "static.tickchak.co.il": {
-      "images": 13,
       "approved": 13,
-      "review": 0,
+      "review": 5,
       "rejected": 0
     },
     "local": {
@@ -36,9 +30,15 @@
       "review": 2,
       "rejected": 7
     },
+    "static.tickchak.co.il": {
+      "images": 12,
+      "approved": 12,
+      "review": 0,
+      "rejected": 0
+    },
     "yama.smarticket.co.il": {
-      "images": 11,
-      "approved": 11,
+      "images": 8,
+      "approved": 8,
       "review": 0,
       "rejected": 0
     },
@@ -49,9 +49,9 @@
       "rejected": 0
     },
     "handballisr.co.il": {
-      "images": 5,
+      "images": 4,
       "approved": 0,
-      "review": 5,
+      "review": 4,
       "rejected": 0
     },
     "commons.wikimedia.org": {
@@ -127,12 +127,6 @@
       "rejected": 0
     },
     "tickets.friends-hist.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
-    "upload.wikimedia.org": {
       "images": 1,
       "approved": 1,
       "review": 0,
@@ -217,8 +211,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 125,
-  "reusable_productions": 163,
-  "artists_total": 224,
-  "productions_total": 277
+  "reusable_artists": 113,
+  "reusable_productions": 159,
+  "artists_total": 204,
+  "productions_total": 272
 }
