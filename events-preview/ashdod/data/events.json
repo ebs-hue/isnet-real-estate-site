@@ -22244,7 +22244,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%90%D7%95%D7%A8_%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/?id=8149",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:22Z",
       "missing_information": [
@@ -22276,7 +22276,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -22341,7 +22341,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33871",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:46Z",
       "missing_information": [
@@ -22380,7 +22380,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "lecture",
       "category_previous": "lecture",
       "category_review_status": "source_rule_reclassified",
@@ -22507,8 +22507,8 @@
       "image_strategy": "category_fallback",
       "event_id": "auto_as_7f19ce4f79e93abe6dc9",
       "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_version": 11,
+      "content_enrichment_retry_after": "2026-10-10",
       "media_status": "waiting_for_content",
       "image_represents_event": false,
       "image_represents_category": true,
@@ -22614,7 +22614,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8146",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:59:37Z",
       "missing_information": [
@@ -22649,7 +22649,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_89_20261230",
@@ -22743,7 +22743,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8147",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:59:55Z",
       "missing_information": [
@@ -22777,7 +22777,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_90_20261231",
@@ -22871,7 +22871,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אור_לגויים/?id=8148",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:00:13Z",
       "missing_information": [
@@ -22905,7 +22905,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_91_20270102",
