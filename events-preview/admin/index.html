@@ -52,6 +52,10 @@
           <select id="category"><option value="">כל הקטגוריות</option></select>
         </label>
         <label>
+          <span>תת־קטגוריה</span>
+          <select id="subcategory"><option value="">כל תתי־הקטגוריות</option></select>
+        </label>
+        <label>
           <span>מצב</span>
           <select id="status">
             <option value="">הכול</option>
@@ -92,6 +96,7 @@
               <th>תמונה</th>
               <th>עיר</th>
               <th>קטגוריה</th>
+              <th>תת־קטגוריה</th>
               <th>מועד</th>
               <th>מקום</th>
               <th>איכות</th>
@@ -112,7 +117,7 @@
   <template id="statTemplate">
     <article class="stat"><strong></strong><span></span><small></small></article>
   </template>
-  <script src="app.js?v=20261009-seniors1"></script>
+  <script src="app.js?v=20261009-taxonomy-live2"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
