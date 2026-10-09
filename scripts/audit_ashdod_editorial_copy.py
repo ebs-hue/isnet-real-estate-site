@@ -8,7 +8,7 @@ DATA=ROOT/"events-preview/ashdod/data/events.json"
 QUALITY=ROOT/"events-preview/admin/data/content-quality-ashdod.json"
 OUTPUT=ROOT/"events-preview/admin/data/editorial-audit-ashdod.json"
 PATTERNS={
- "internal_research_note":[r"העמוד אינו מפרט",r"המקור אינו מפרט",r"יש לבדוק",r"יש לאמת",r"לא ניתן לאמת",r"לא נמצאו פרטים",r"נדרש בירור",r"לפני פרסום",r"לא ברור מן המקור",r"יש לעיין בעמוד"],
+ "internal_research_note":[r"העמוד אינו מפרט",r"המקור אינו מפרט",r"יש לבדוק",r"יש לאמת",r"לא ניתן לאמת",r"לא נמצאו פרטים",r"נדרש בירור",r"לפני פרסום",r"לא ברור מן המקור",r"יש לעיין בעמוד",r"לפי (?:עמוד|אתר|פרסום|המקור|המידע באתר)",r"על פי (?:עמוד|אתר|פרסום|המקור)",r"לפי (?:FRIENDS|סמארטיקט|טיקצ.אק|המשכן)"],
  "editorial_placeholder":[r"מידע נוסף בקרוב",r"פרטים יעודכנו",r"תיאור האירוע יעודכן"],
 }
 def text(e):
