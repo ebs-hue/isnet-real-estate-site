@@ -5199,7 +5199,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17533",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:17:03Z",
       "missing_information": [
@@ -5236,7 +5236,7 @@
       ],
       "image_brief": "צילום כיסוי צריך להמחיש את המתח בין ציור מופשט רחב היקף לעבודה וידאו: סצנה מן האולם שבה בולט בד צבעוני גדול עם מרקם חומרי מצד אחד, ומסך/התקן וידאו מקרין או מציג יצירה בצד השני; תאורה טבעית או גלריסטית רכה, מעט מבקרים מרוחקים להמחשת הסקאלה והקונטקסט המוזיאוני. אין טקסטים על התמונה.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "מקבץ תערוכות: הדס סט ועמית קבסה | מוזיאון אשדוד",
@@ -5251,7 +5251,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "sport_20261016_ms_ashdod_football",
