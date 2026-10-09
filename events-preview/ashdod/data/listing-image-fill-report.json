@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-09T05:21:09Z",
+  "generated_at": "2026-10-09T05:26:30Z",
   "total_events": 257,
   "verified_images": 257,
   "still_missing": 0,
   "stats": {
-    "same_title_reuse": 1
+    "same_title_reuse": 3
   },
   "revoked_assets": [],
   "newly_filled": [
@@ -12,6 +12,20 @@
       "event_id": "auto_as_7c4f95bd1f6d41f060e1",
       "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
       "image": "assets/defaults/workshop.svg",
+      "source": "ISNET internal representative artwork",
+      "score": "reuse"
+    },
+    {
+      "event_id": "auto_as_0a2955afc99e32e98101",
+      "title": "בואי נעשה לנו חג",
+      "image": "assets/defaults/festival.svg",
+      "source": "ISNET internal representative artwork",
+      "score": "reuse"
+    },
+    {
+      "event_id": "auto_as_2477b1b0746b9c7835a2",
+      "title": "שני עולמות",
+      "image": "assets/defaults/festival.svg",
       "source": "ISNET internal representative artwork",
       "score": "reuse"
     }
