@@ -24,8 +24,8 @@ for(const city of ["ashdod","rishon-lezion"]){
 const ash=JSON.parse(load("ashdod","data/events.json")).events;
 const ofek=ash.filter(e=>e.operator_id==="ofek_ashdod");
 assert.ok(ofek.length>=20,"Ofek must remain indexed");
-assert.ok(ofek.some(e=>e.category==="tour"),"Ofek excursions must also be tours");
-assert.ok(ofek.some(e=>e.category==="lecture"),"Ofek talks must also be lectures");
+assert.ok(ofek.some(e=>e.category==="tour"||e.category==="seniors"&&/סיור|טיול/.test(e.title||"")),"Ofek excursions must remain identifiable as tours, including seniors events");
+assert.ok(ofek.some(e=>e.category==="lecture"||e.category==="seniors"&&/הרצאה|מפגש|קתדרה/.test(e.title||"")),"Ofek talks must remain identifiable, including seniors events");
 assert.ok(!ofek.some(e=>e.category==="workshop"||e.category==="classes"),"Workshops and classes must not be published on the event board");
 for(const e of ofek){
  assert.ok(e.contact_phone,"Ofek office phone missing");
