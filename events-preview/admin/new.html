@@ -30,7 +30,8 @@
         <h2>תוכן האירוע</h2>
         <div class="two">
           <label><span>עיר</span><select id="city"><option value="ashdod">אשדוד</option><option value="rishon-lezion">ראשון לציון</option></select></label>
-          <label><span>קטגוריה</span><select id="category"></select></label>
+          <label><span>קטגוריה ראשית</span><select id="category"></select></label>
+          <label><span>תת־קטגוריה</span><select id="subcategory"><option value="">בחרו תת־קטגוריה</option></select></label>
         </div>
         <label><span>עדיפות / קידום</span>
           <select id="promotion">
@@ -118,7 +119,7 @@
     </aside>
   </section>
 </main>
-<script src="new.js?v=20261009-seniors1"></script>
+<script src="new.js?v=20261009-taxonomy2"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
