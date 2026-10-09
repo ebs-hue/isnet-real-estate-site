@@ -86,7 +86,9 @@
         "ליגת על אתנה נשים",
         "נוער דרום"
       ],
-      "warning": "League and age-group labels; verify venue and home team."
+      "warning": "League and age-group labels; verify venue and home team.",
+      "publication_filter": "senior_teams_only_ashdod_fixtures",
+      "audience_label": "בוגרים ובוגרות"
     },
     {
       "id": "מנהלת ליגת העל בכדורסל",
@@ -94,7 +96,9 @@
       "observed_groups": [
         "משחקים ותוצאות"
       ],
-      "warning": "League fixtures; not event genre taxonomy."
+      "warning": "League fixtures; not event genre taxonomy.",
+      "publication_filter": "senior_teams_only_ashdod_fixtures",
+      "audience_label": "בוגרים ובוגרות"
     },
     {
       "id": "איגוד הכדורעף בישראל",
@@ -111,7 +115,9 @@
         "subcategory": "volleyball",
         "audience_from_league": "youth/adults",
         "verify": "team, venue, match date, home game"
-      }
+      },
+      "publication_filter": "senior_teams_only_ashdod_fixtures",
+      "audience_label": "בוגרים ובוגרות"
     },
     {
       "id": "ההתאחדות לכדורגל בישראל",
@@ -129,12 +135,60 @@
         "category": "sport",
         "subcategory": "football",
         "verify": "team, stadium, home fixture, date"
-      }
+      },
+      "publication_filter": "senior_teams_only_ashdod_fixtures",
+      "audience_label": "בוגרים ובוגרות"
     }
   ],
   "next_actions": [
     "Capture exact original category from each individual source event page where available.",
     "Build normalized organizer/program/audience fields independently of category.",
     "Require human review for ambiguous mappings and verify all 321 events before bulk publish."
+  ],
+  "sports_publication_policy": {
+    "version": 1,
+    "board": "events",
+    "eligible_age_groups": [
+      "בוגרים",
+      "בוגרות",
+      "על גברים",
+      "על נשים",
+      "ליגת על גברים",
+      "ליגת על נשים"
+    ],
+    "excluded_age_groups": [
+      "נוער",
+      "נערים",
+      "נערות",
+      "ילדים",
+      "ילדות",
+      "טרום ילדים"
+    ],
+    "requires": [
+      "senior_team_verified_from_official_source",
+      "event_in_ashdod",
+      "future_or_current_fixture",
+      "venue_verified"
+    ],
+    "reject_if_unknown_age_group": true,
+    "gender_policy": "include_men_and_women",
+    "future_sports_portal": "Youth and away fixtures may be covered separately in a future sports product, not the events board."
+  },
+  "sports_verified_examples": [
+    {
+      "source": "איגוד הכדוריד בישראל",
+      "evidence": "Official club page lists men/women senior and youth separately",
+      "url": "https://handballisr.co.il/teams.asp?AId=4"
+    },
+    {
+      "source": "איגוד הכדורעף בישראל",
+      "evidence": "Official team pages list men's and women's premier-league fixtures and venues",
+      "url": "https://iva.org.il/team/?TeamId=4ePjdk&cYear=2027"
+    },
+    {
+      "source": "ההתאחדות לכדורגל בישראל",
+      "evidence": "Official club pages distinguish בוגרים from נוער and נערים",
+      "url": "https://www.football.org.il/clubs/club/?club_id=1198&season_id=26"
+    }
   ]
 }
