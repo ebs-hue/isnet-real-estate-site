@@ -1,4 +1,3 @@
-const categoryLabels={music:"מוזיקה",standup:"סטנדאפ",kids:"ילדים",theatre:"תיאטרון",lecture:"הרצאות",exhibition:"תערוכות",workshop:"סדנאות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט",seniors:"הגיל השלישי וגמלאים",other:"אחר"};
 const $=id=>document.getElementById(id);
 const KEY="isnet-new-events";
 let imageData=null,taxonomy=null;
@@ -8,8 +7,19 @@ function renderTaxonomy(containerId,items){
   $(containerId).innerHTML=(items||[]).map(item=>'<label class="tax-option"><input type="checkbox" value="'+item.id+'"><span>'+item.label+'</span></label>').join("");
 }
 function selectedTaxonomy(containerId){return Array.from($(containerId).querySelectorAll('input[type="checkbox"]:checked')).map(x=>x.value)}
+function renderPrimaryCategories(selected=""){
+  const items=taxonomy?.primary_categories||[];
+  $("category").innerHTML=items.map(item=>'<option value="'+item.id+'" '+(item.id===selected?'selected':'')+'>'+item.label+'</option>').join("");
+}
+function renderSubcategories(categoryId,selected=""){
+  const cat=(taxonomy?.primary_categories||[]).find(x=>x.id===categoryId);
+  const items=cat?.subcategories||[];
+  $("subcategory").innerHTML='<option value="">בחרו תת־קטגוריה</option>'+items.map(item=>'<option value="'+item.id+'" '+(item.id===selected?'selected':'')+'>'+item.label+'</option>').join("");
+}
 async function loadTaxonomy(){
   taxonomy=await fetch("data/taxonomy.json",{cache:"no-store"}).then(r=>r.json());
+  renderPrimaryCategories();
+  renderSubcategories($("category").value);
   renderTaxonomy("secondaryCategories",taxonomy.secondary_categories);
   renderTaxonomy("audiencesText",taxonomy.audiences);
   renderTaxonomy("topics",taxonomy.topics);
@@ -65,7 +75,6 @@ async function editorialGate(candidate){
 
   return {decision:"open_new_process"};
 }
-$("category").innerHTML=Object.entries(categoryLabels).map(([v,l])=>'<option value="'+v+'">'+l+'</option>').join("");
 $("imageFile").addEventListener("change",e=>{
   const file=e.target.files?.[0];if(!file)return;
   if(file.size>5*1024*1024){alert("התמונה גדולה מ־5MB. בחר תמונה קטנה יותר.");e.target.value="";return}
@@ -77,7 +86,7 @@ $("saveBtn").addEventListener("click",async()=>{
   const item={
     event_id:idFor(city),_citySlug:city,city:city==="ashdod"?"אשדוד":"ראשון לציון",
     title,short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),
-    category:$("category").value,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim()||makeSlug(title),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
+    category:$("category").value,subcategory:$("subcategory").value||null,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim()||makeSlug(title),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,promotion:$("promotion").value,status:"draft",start_date:date,start_time:$("startTime").value,
     venue:$("venue").value.trim(),address:$("address").value.trim(),
     purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),
     image_credit:$("imageCredit").value.trim(),image_publishable:$("imageApproved").checked,
@@ -120,4 +129,5 @@ $("saveBtn").addEventListener("click",async()=>{
   setTimeout(()=>location.href="./?status=draft",700);
 });
 $("city").addEventListener("change",renderOrganizations);
+$("category").addEventListener("change",()=>renderSubcategories($("category").value));
 loadTaxonomy().catch(console.error);
