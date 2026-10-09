@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T04:09:59Z",
+  "generated_at": "2026-10-09T18:12:09Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_ffc63b0b4486bb31a455",
-      "title": "שירי קריוקי בקצב הדרבוקה",
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_d857a17bf47a6e2337e5",
-      "title": "איתמר וכובע הקסמים",
+      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
+      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_06f3de539c2d3e22b2ff",
-      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
+      "event_id": "auto_as_90e0977c4c75e8ca55a9",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f49bff491bdc80b16bfb",
-      "title": "מעשה בחמישה בלונים",
+      "event_id": "evt_70_20261010",
+      "title": "הלב זוכר",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_24bd564dd8d11f87e4ff",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_0a8724d73a8a25785bcb",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_33cbee583475a04a7766",
-      "title": "דרושה עוזרת",
+      "event_id": "auto_as_7fce1d9b4ab267e246e1",
+      "title": "הרצאה של יונתן סררו",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
