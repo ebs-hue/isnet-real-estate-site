@@ -1,6 +1,11 @@
 name: Audit event content clarity
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit_event_content_clarity.py"
+      - ".github/workflows/audit-event-content-clarity.yml"
   schedule:
     - cron: "15 5 * * *"
 permissions:
