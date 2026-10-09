@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:40:15Z",
+  "generated_at": "2026-10-09T18:40:55Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_5dda25a13333e0d8db14",
-      "title": "עוד לא תמו כל פלאייך",
+      "event_id": "auto_as_337345b282aabb14f4ed",
+      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_e3ffc57670066fd5ea7a",
-      "title": "THE ROMANTIC SOUL",
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c5084f66863b9e27992a",
-      "title": "נאמן למקור",
+      "event_id": "auto_as_36c82ca8b0929268aff1",
+      "title": "טריפונס",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_60cb539e4c684575d6a8",
-      "title": "נאמן למקור",
+      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+      "title": "אימי הגנרלית",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_8adf0f4c675e74162830",
-      "title": "פיטר פן | שעת סיפור עם רינתי",
+      "event_id": "auto_as_3356020481453510f22a",
+      "title": "מייפל הכלבלב – יחיד ומיוחד",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_c96d7be6d2804e749d2a",
-      "title": "הכלבלב השובב",
+      "event_id": "auto_as_cb3a4659aefbcd0529d0",
+      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }

@@ -24170,7 +24170,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אגדת_הטנגו_העולמי_מרכוס_אשלה_-_Tango_Buenos_Aires_/?id=8093",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:03:52Z",
       "missing_information": [
@@ -24207,7 +24207,7 @@
       ],
       "image_brief": "תמונה למכסה המופע: זוג רקדנים על במת תיאטרון, במסגרת חיבוק טנגו אינטימי; התאורה דרמטית, חמה וממוקדת באלה שמבצעים את התנועה, עם קהל מטושטש ברקע. הבמה והבגדים משדרים אלגנטיות ותנועה; אין טקסט משולב בתמונה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -24275,14 +24275,14 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_rights_status": "verified_official_source",
       "image_strategy": "source_listing_card",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_808157ae718d94b9dc61cd6b",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -24351,7 +24351,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/טריפונס_/?id=8170",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:04:25Z",
       "missing_information": [
@@ -24389,7 +24389,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b4633628f67a433d3b0a87a2",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -24459,7 +24459,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אימי_הגנרלית/?id=8244",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:04:45Z",
       "missing_information": [
@@ -24474,7 +24474,7 @@
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
       "image_strategy": "category_fallback",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_represents_event": false,
       "image_represents_category": true,
       "category_previous": "other",
@@ -24536,7 +24536,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מייפל_הכלבלב___יחיד_ומיוחד/?id=17671",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:05:13Z",
       "missing_information": [
@@ -24578,7 +24578,7 @@
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_76ed459ab93dcc1415fbc000",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -24638,7 +24638,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/ספורט_על_כיסא_עם_אסתר-ייעודי_לגדולות_מהחיים_/?id=17205",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:05:35Z",
       "missing_information": [
@@ -24682,7 +24682,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
