@@ -190,5 +190,50 @@
       "evidence": "Official club pages distinguish בוגרים from נוער and נערים",
       "url": "https://www.football.org.il/clubs/club/?club_id=1198&season_id=26"
     }
-  ]
+  ],
+  "classification_product_policy": {
+    "version": 1,
+    "primary_category": {
+      "required": true,
+      "purpose": "Public navigation and filtering"
+    },
+    "subcategory": {
+      "required": false,
+      "purpose": [
+        "Relevant licensed imagery selection",
+        "Semantic search expansion and synonyms",
+        "Search-engine-facing descriptive copy when warranted"
+      ],
+      "null_is_valid": true,
+      "never_force": true
+    },
+    "image_selection_priority": [
+      "Verified event-specific licensed image",
+      "Verified artist/venue licensed image",
+      "Relevant reusable licensed image by subcategory",
+      "Relevant reusable licensed image by primary category",
+      "No image if nothing verified"
+    ],
+    "image_safety": [
+      "Do not imply a generic image depicts the actual performer or event",
+      "Preserve attribution, license, provenance, and image reuse rights",
+      "Avoid repetitive stock-like visuals"
+    ],
+    "search_rules": [
+      "Index primary category and optional subcategory separately",
+      "Include verified source aliases and organizer/audience facets",
+      "Match user intent, not only exact terms"
+    ],
+    "seo_rules": [
+      "Write natural unique titles and descriptions grounded in event facts",
+      "Never stuff keywords or create thin duplicate category pages",
+      "Use valid event structured data only for genuine events with verified details"
+    ],
+    "success_metrics": [
+      "Primary category coverage",
+      "Optional subcategory precision on reviewed sample",
+      "Relevant-image rate and duplicate-image rate",
+      "Search success for semantic queries"
+    ]
+  }
 }
