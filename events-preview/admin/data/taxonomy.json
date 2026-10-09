@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "secondary_categories": [
     {
       "id": "lectures",
@@ -673,6 +673,28 @@
         {
           "id": "popular-sports",
           "label": "אירועי ספורט עממי"
+        },
+        {
+          "id": "ms-ashdod-home-games",
+          "label": "משחקי הבית של מ.ס אשדוד",
+          "sport": "football",
+          "team": "מ.ס אשדוד",
+          "home_only": true,
+          "representative_city_team": true,
+          "cities": [
+            "ashdod"
+          ]
+        },
+        {
+          "id": "maccabi-ashdod-basketball-home-games",
+          "label": "משחקי הבית של מכבי אשדוד בכדורסל",
+          "sport": "basketball",
+          "team": "מכבי אשדוד",
+          "home_only": true,
+          "representative_city_team": true,
+          "cities": [
+            "ashdod"
+          ]
         }
       ]
     },
