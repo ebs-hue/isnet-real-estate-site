@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CITIES=("ashdod","rishon-lezion")
 BOILERPLATE=("לרכישת כרטיסים","כרטיסים זמינים","מחיר הכרטיס","מחירים","שעת התחלה","משך משוער","בדקו את הפרטים","בעמוד הרכישה","לפרטים נוספים","המשך התהליך","הנחיות")
 CATEGORIES={"music":"מוזיקה","theatre":"תיאטרון","standup":"סטנדאפ","kids":"ילדים","lecture":"הרצאה","conference":"כנס","exhibition":"תערוכה","festival":"פסטיבל","community":"קהילה","tour":"טיול","sport":"ספורט","cinema":"קולנוע","food":"אוכל","seniors":"גמלאים"}
-def clean(x):return re.sub(r"\\s+"," ",str(x or "")).strip()
+def clean(x):return re.sub(r"\s+"," ",str(x or "")).strip()
 def audit(e):
     title=clean(e.get("title")); desc=clean(e.get("long_description") or e.get("description") or e.get("short_pitch") or "")
     reasons=[]; questions=[]; score=100
@@ -28,7 +28,7 @@ def audit(e):
     value_terms=("במהלך","סיפור","מסע","חוו","משתתפ","ללמוד","מופע של","הופעה של","יצירה","מציג","תגלו","להכיר","סדנה","יצפו","נכיר","שירים","מוזיקה","קומדיה","הרצאה על")
     if not any(x in desc for x in value_terms):
         reasons.append("לא מוסבר מה המשתתף יחווה או יקבל");questions.append("למה כדאי להגיע ומה ייחודי באירוע?");score-=20
-    if len(desc)>80 and len(re.findall(r"\\b(?:ש\\\"ח|2026|2027|כרטיס|בשעה|דקות)\\b",desc))>=4:
+    if len(desc)>80 and len(re.findall(r"\b(?:ש\"ח|2026|2027|כרטיס|בשעה|דקות)\b",desc))>=4:
         reasons.append("עומס בפרטים טכניים");score-=10
     score=max(0,score)
     return {"event_id":e.get("event_id"),"title":title,"category":category,"score":score,"severity":"critical" if score<45 else "needs_review" if score<75 else "acceptable","reasons":reasons,"questions_for_source":questions,"source_url":e.get("detail_source_url") or (e.get("sources") or [{}])[0].get("url"),"recommendation":"להשלים מידע ממקור האירוע; לא להמציא תוכן" if reasons else "ללא ליקוי בולט בבדיקה אוטומטית"}
@@ -42,6 +42,6 @@ def main():
         report={"generated_at":datetime.now(timezone.utc).isoformat(),"city":city,"method":"heuristic triage; requires human/AI review for semantics","total":len(results),"critical":sum(x["severity"]=="critical" for x in results),"needs_review":sum(x["severity"]=="needs_review" for x in results),"events":results}
         out=ROOT/"events-preview"/"admin"/"data"/f"content-quality-{city}.json"
         out.parent.mkdir(parents=True,exist_ok=True)
-        out.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+        out.write_text(json.dumps(report,ensure_ascii=False,indent=2 )+"\n",encoding="utf-8")
         print(city,report["total"],report["critical"],report["needs_review"],out)
 if __name__=="__main__":main()
