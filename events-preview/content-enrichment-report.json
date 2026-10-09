@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:33:36Z",
+  "generated_at": "2026-10-09T18:34:17Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,42 +9,42 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_dcf769d1379befa09acc",
-      "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
+      "event_id": "evt_23_20261124",
+      "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_405685db409691fa6e34",
-      "title": "אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים",
+      "event_id": "evt_60_20261124",
+      "title": "טוביה צפיר – 80 שנה של הומור!",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_82_20261123",
-      "title": "אשליות מתוקות",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_5276d7588775cf66475e",
+      "event_id": "auto_as_d56184583cc012704fb9",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_7baf69bd3cb635730590",
-      "title": "סיור טעימות ברמלה",
+      "event_id": "auto_as_04e5b0c7c43ef1c5c535",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ed5e50ba93af66a6e37b",
+      "event_id": "evt_61_20261126",
+      "title": "מירית גליצקי - מוגזמת",
+      "status": "model_error",
+      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_255eb2a0c98790b70d69",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
