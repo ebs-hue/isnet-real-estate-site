@@ -1,0 +1,105 @@
+{
+  "audited_at": "2026-10-09",
+  "scope": "ashdod",
+  "status": "partial_verified_source_pages",
+  "rules": [
+    "Preserve original source category and URL.",
+    "Never treat source grouping as definitive event category.",
+    "Distinguish ticketing sales, recurring classes, and one-time events.",
+    "Sports leagues are source metadata; publish only relevant home games."
+  ],
+  "sources": [
+    {
+      "id": "ashdod_smarticket",
+      "url": "https://ashdod.smarticket.co.il/",
+      "observed_groups": [
+        "הספריה העירונית",
+        "חנוכה",
+        "מועדון גדולות מהחיים",
+        "עידוד קריאה עם כלבים",
+        "עיר אופנה",
+        "פסנתר לתמיד",
+        "קומיקאים שרים בדיונה",
+        "תמיד יש סיבה לצאת"
+      ],
+      "warning": "Groups are programs and campaigns, not necessarily genres; exclude book fees and tenders.",
+      "mapping_examples": [
+        {
+          "term": "מועדון גדולות מהחיים",
+          "facet": "organizer_or_audience",
+          "suggested_category": "community",
+          "requires_content_check": true
+        },
+        {
+          "term": "תמיד יש סיבה לצאת",
+          "facet": "program",
+          "suggested_category": "seniors",
+          "requires_content_check": true
+        }
+      ]
+    },
+    {
+      "id": "mishkan_smarticket",
+      "url": "https://mishkan-ashdod.smarticket.co.il/",
+      "observed_groups": [
+        "מופעים קרובים",
+        "מופע זמין גם במנוי"
+      ],
+      "warning": "No verified genre taxonomy on landing page; subscription label is not a genre."
+    },
+    {
+      "id": "ofek_ashdod",
+      "url": "https://www.ofek-ashdod.org.il/page.php?type=events",
+      "observed_groups": [
+        "טיולים",
+        "קפה תרבות",
+        "מוזיקה,היסטוריה,עולם",
+        "קורסים"
+      ],
+      "warning": "Recurring courses coexist with one-off trips; inspect duration and type."
+    },
+    {
+      "id": "tickchak_ashdod",
+      "url": "https://live.tickchak.co.il/ashdod",
+      "observed_groups": [
+        "הופעות חיות",
+        "מסיבות",
+        "סטנדאפ",
+        "הצגות",
+        "הצגות ילדים",
+        "הרצאות",
+        "אירועים לנשים",
+        "מחזמר",
+        "חזנות",
+        "כדורגל"
+      ],
+      "warning": "Secondary aggregator, check original ticketing source."
+    },
+    {
+      "id": "איגוד הכדוריד בישראל",
+      "url": "https://handballisr.co.il/teams.asp?AId=4",
+      "observed_groups": [
+        "WINNER",
+        "ליגת על אתנה נשים",
+        "נוער דרום"
+      ],
+      "warning": "League and age-group labels; verify venue and home team."
+    },
+    {
+      "id": "מנהלת ליגת העל בכדורסל",
+      "url": "https://basket.co.il/results.asp?lang=he",
+      "observed_groups": [
+        "משחקים ותוצאות"
+      ],
+      "warning": "League fixtures; not event genre taxonomy."
+    },
+    {
+      "id": "איגוד הכדורעף בישראל",
+      "status": "pending_page_review"
+    },
+    {
+      "id": "ההתאחדות לכדורגל בישראל",
+      "status": "pending_page_review"
+    }
+  ]
+}
