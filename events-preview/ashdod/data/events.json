@@ -11119,7 +11119,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הרצאה_של_רנה_סרור/?id=17697",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:36:26Z",
       "missing_information": [
@@ -11132,7 +11132,7 @@
         "פרטי ביוגרפיה או תפקיד של רנה סרור"
       ],
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
@@ -11200,7 +11200,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/אדם_וחותם-הקשר_שבין_האדם_לאדמה/?id=17701",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:37:10Z",
       "missing_information": [
@@ -11237,7 +11237,7 @@
       "image_brief": "תמונת קאבר המשלבת ידיים מבוגרות שמחזיקות חופן אדמה בחזית, ברקע מטושטש וילון אדום של אולם קטן ובמרכז סילואטה של דוברת מול מיקרופון. צבעים חמים ואדמתיים (חומים, ירוקים רכים) כדי לשדר קשר לטבע ולתחושת חום אנושי; קומפוזיציה שמדגישה את המפגש בין האדם והאדמה ואת האווירה האינטימית של ההרצאה.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -11313,7 +11313,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:37:56Z",
       "missing_information": [
@@ -11356,7 +11356,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -11432,7 +11432,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A0%D7%9E%D7%A8%D7%95%D7%9C%D7%95%D7%92%D7%99%D7%94_%D7%A2%D7%9C_%D7%91%D7%A1%D7%99%D7%A1_%D7%A7%D7%91%D7%9C%D7%94-_%D7%99%D7%99%D7%A2%D7%95%D7%93%D7%99_%D7%9C%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA_%D7%9E%D7%94%D7%97%D7%99%D7%99%D7%9D_/?id=17204",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:38:14Z",
       "missing_information": [
@@ -11474,7 +11474,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -11554,7 +11554,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/קול_קורא|_מפגשי_כתיבה_עם_סופרת_הילדים_והנוער_איריס_ארגמן/?id=17686",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:38:35Z",
       "missing_information": [
@@ -11586,7 +11586,7 @@
       ],
       "image_brief": "צילום מפגש בספרייה: קבוצה של ילדים יושבת סביב שולחן עץ, כל אחד עם מחברת ועט, בחזית המצלמה איריס ארגמן עומדת או יושבת ומדריכה בעדינות; על השולחן נראים ניירות צבעוניים, עפרונות וצבעים. ברקע מדפי ספרים והארת פנים חמה שמדגישה אווירה יצירתית ולימודית. אין טקסט משולב בתמונה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -11654,7 +11654,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33639",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:39:18Z",
       "missing_information": [
@@ -11695,7 +11695,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
