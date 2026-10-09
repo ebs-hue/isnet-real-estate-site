@@ -294,6 +294,19 @@ function lectureFallbackTopic(e){
  const extras=[...LECTURE_FALLBACK_TOPICS];
  return {label:"הרצאות והעשרה",symbol:extras[hash%extras.length].symbol};
 }
+function defaultCategoryImage(e){
+  const cat=String(e?.category||"").replace(/[^a-z0-9-]/g,"");
+  const sub=String(e?.subcategory||"").replace(/[^a-z0-9-]/g,"");
+  const known=new Set(["music","theatre","standup","kids","lecture","conference","exhibition","festival","community","tour","sport","cinema","food","seniors"]);
+  if(!known.has(cat))return "";
+  return "../shared/images/defaults/"+(sub?cat+"-"+sub:"category-"+cat)+".svg";
+}
+function defaultCategoryArt(e){
+  const src=defaultCategoryImage(e);
+  if(!src)return "";
+  const backup="../shared/images/defaults/category-"+String(e.category).replace(/[^a-z0-9-]/g,"")+".svg";
+  return '<img class="defaultCategoryArt" src="'+escapeHtml(src)+'" alt="" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.82;pointer-events:none" onerror="if(this.src.indexOf(\'category-\')<0){this.src=\''+backup+'\'}else{this.remove()}" />';
+}
 function fallbackMediaHTML(e){
   if(e.category==="sport"&&isRepresentativeHomeGame(e)){
     const team=sportTeamConfig(e),branch=sportBranchMeta(e);
@@ -306,11 +319,11 @@ function fallbackMediaHTML(e){
   if(e.category==="lecture"){
     const topic=lectureFallbackTopic(e);
     return '<div class="category-fallback lectureArtwork" aria-label="איור להמחשה: '+escapeHtml(topic.label)+'">'+
-      '<span class="fallbackMark">'+escapeHtml(topic.symbol)+'</span>'+
+      defaultCategoryArt(e)+'<span class="fallbackMark">'+escapeHtml(topic.symbol)+'</span>'+
       '<span class="fallbackLabel">'+escapeHtml(topic.label)+'</span></div>';
   }
   return '<div class="category-fallback">'+
-    '<span class="fallbackMark">'+escapeHtml(catIcons[e.category]||"✦")+'</span>'+
+    defaultCategoryArt(e)+'<span class="fallbackMark">'+escapeHtml(catIcons[e.category]||"✦")+'</span>'+
     '<span class="fallbackLabel">'+escapeHtml(catLabels[e.category]||"אירועים")+'</span>'+
   '</div>';
 }

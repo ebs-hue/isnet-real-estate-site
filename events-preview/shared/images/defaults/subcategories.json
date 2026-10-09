@@ -1,0 +1,636 @@
+{
+  "version": 1,
+  "status": "illustrated_placeholder_not_photographic",
+  "items": [
+    {
+      "category": "music",
+      "subcategory": "artists-bands",
+      "label": "זמרים ולהקות",
+      "file": "music-artists-bands.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "israeli-music",
+      "label": "מוזיקה ישראלית",
+      "file": "music-israeli-music.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "tribute-shows",
+      "label": "מופעי מחווה",
+      "file": "music-tribute-shows.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "concerts",
+      "label": "קונצרטים",
+      "file": "music-concerts.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "world-music",
+      "label": "מוזיקת עולם",
+      "file": "music-world-music.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "jazz",
+      "label": "ג׳אז",
+      "file": "music-jazz.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "sing-along",
+      "label": "שירה בציבור",
+      "file": "music-sing-along.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "karaoke",
+      "label": "קריוקי",
+      "file": "music-karaoke.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "musical-show",
+      "label": "מופע מוזיקלי",
+      "file": "music-musical-show.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "dance-performance",
+      "label": "מחול וריקודים",
+      "file": "music-dance-performance.svg"
+    },
+    {
+      "category": "music",
+      "subcategory": "piyyut-poetry",
+      "label": "פיוט ושירה",
+      "file": "music-piyyut-poetry.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "comedy",
+      "label": "קומדיה",
+      "file": "theatre-comedy.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "drama",
+      "label": "דרמה",
+      "file": "theatre-drama.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "musical",
+      "label": "מחזמר",
+      "file": "theatre-musical.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "original-production",
+      "label": "הפקת מקור",
+      "file": "theatre-original-production.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "repertory-theatre",
+      "label": "תיאטרון רפרטוארי",
+      "file": "theatre-repertory-theatre.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "one-person-show",
+      "label": "מופע יחיד",
+      "file": "theatre-one-person-show.svg"
+    },
+    {
+      "category": "theatre",
+      "subcategory": "musical-theatre",
+      "label": "תיאטרון מוזיקלי",
+      "file": "theatre-musical-theatre.svg"
+    },
+    {
+      "category": "standup",
+      "subcategory": "standup",
+      "label": "סטנדאפ",
+      "file": "standup-standup.svg"
+    },
+    {
+      "category": "standup",
+      "subcategory": "entertainment-show",
+      "label": "מופע בידור",
+      "file": "standup-entertainment-show.svg"
+    },
+    {
+      "category": "standup",
+      "subcategory": "comic-show",
+      "label": "קומדיה",
+      "file": "standup-comic-show.svg"
+    },
+    {
+      "category": "standup",
+      "subcategory": "comic-one-person",
+      "label": "מופע יחיד קומי",
+      "file": "standup-comic-one-person.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "kids-theatre",
+      "label": "הצגות ילדים",
+      "file": "kids-kids-theatre.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "kids-shows",
+      "label": "מופעי ילדים",
+      "file": "kids-kids-shows.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "story-time",
+      "label": "שעת סיפור",
+      "file": "kids-story-time.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "kids-literature",
+      "label": "ספרות ילדים",
+      "file": "kids-kids-literature.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "kids-workshops",
+      "label": "סדנאות ילדים",
+      "file": "kids-kids-workshops.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "family-activity",
+      "label": "פעילות משפחתית",
+      "file": "kids-family-activity.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "parent-child",
+      "label": "הורה וילד",
+      "file": "kids-parent-child.svg"
+    },
+    {
+      "category": "kids",
+      "subcategory": "kids-festival",
+      "label": "פסטיבל ילדים",
+      "file": "kids-kids-festival.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "health-medicine",
+      "label": "בריאות ורפואה",
+      "file": "lecture-health-medicine.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "psychology-growth",
+      "label": "פסיכולוגיה והתפתחות אישית",
+      "file": "lecture-psychology-growth.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "history",
+      "label": "היסטוריה",
+      "file": "lecture-history.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "current-affairs",
+      "label": "אקטואליה",
+      "file": "lecture-current-affairs.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "culture-art",
+      "label": "תרבות ואמנות",
+      "file": "lecture-culture-art.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "judaism-spirit",
+      "label": "יהדות ורוח",
+      "file": "lecture-judaism-spirit.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "parenting-family",
+      "label": "הורות ומשפחה",
+      "file": "lecture-parenting-family.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "relationships",
+      "label": "זוגיות",
+      "file": "lecture-relationships.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "travel-geography",
+      "label": "טיולים וגאוגרפיה",
+      "file": "lecture-travel-geography.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "digital-tech",
+      "label": "דיגיטל וטכנולוגיה",
+      "file": "lecture-digital-tech.svg"
+    },
+    {
+      "category": "lecture",
+      "subcategory": "general-enrichment",
+      "label": "העשרה כללית",
+      "file": "lecture-general-enrichment.svg"
+    },
+    {
+      "category": "conference",
+      "subcategory": "professional-conference",
+      "label": "כנסים מקצועיים",
+      "file": "conference-professional-conference.svg"
+    },
+    {
+      "category": "conference",
+      "subcategory": "panel",
+      "label": "פאנלים",
+      "file": "conference-panel.svg"
+    },
+    {
+      "category": "conference",
+      "subcategory": "study-day",
+      "label": "ימי עיון",
+      "file": "conference-study-day.svg"
+    },
+    {
+      "category": "conference",
+      "subcategory": "expert-meeting",
+      "label": "מפגשי מומחים",
+      "file": "conference-expert-meeting.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "exhibition",
+      "label": "תערוכה",
+      "file": "exhibition-exhibition.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "visual-art",
+      "label": "אמנות חזותית",
+      "file": "exhibition-visual-art.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "photography",
+      "label": "צילום",
+      "file": "exhibition-photography.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "painting",
+      "label": "ציור",
+      "file": "exhibition-painting.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "sculpture",
+      "label": "פיסול",
+      "file": "exhibition-sculpture.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "guided-exhibition-tour",
+      "label": "סיור מודרך בתערוכה",
+      "file": "exhibition-guided-exhibition-tour.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "exhibition-opening",
+      "label": "פתיחת תערוכה",
+      "file": "exhibition-exhibition-opening.svg"
+    },
+    {
+      "category": "exhibition",
+      "subcategory": "museums-galleries",
+      "label": "מוזיאונים וגלריות",
+      "file": "exhibition-museums-galleries.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "festival",
+      "label": "פסטיבל",
+      "file": "festival-festival.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "fair",
+      "label": "יריד",
+      "file": "festival-fair.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "happening",
+      "label": "הפנינג",
+      "file": "festival-happening.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "street-event",
+      "label": "אירוע רחוב",
+      "file": "festival-street-event.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "park-event",
+      "label": "אירוע בפארק",
+      "file": "festival-park-event.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "holiday-event",
+      "label": "חג ומועד",
+      "file": "festival-holiday-event.svg"
+    },
+    {
+      "category": "festival",
+      "subcategory": "major-city-event",
+      "label": "אירוע עירוני גדול",
+      "file": "festival-major-city-event.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "community-meeting",
+      "label": "מפגש קהילתי",
+      "file": "community-community-meeting.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "social-clubs",
+      "label": "מועדונים חברתיים",
+      "file": "community-social-clubs.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "women-events",
+      "label": "אירועי נשים",
+      "file": "community-women-events.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "communities-heritage",
+      "label": "קהילות ועדות",
+      "file": "community-communities-heritage.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "ceremonies",
+      "label": "טקסים",
+      "file": "community-ceremonies.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "tribute-events",
+      "label": "אירועי הוקרה",
+      "file": "community-tribute-events.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "culture-evenings",
+      "label": "ערבי תרבות",
+      "file": "community-culture-evenings.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "reading-clubs",
+      "label": "מועדוני קריאה",
+      "file": "community-reading-clubs.svg"
+    },
+    {
+      "category": "community",
+      "subcategory": "folk-dancing",
+      "label": "ריקודי עם והרקדות",
+      "file": "community-folk-dancing.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "city-tour",
+      "label": "סיור עירוני",
+      "file": "tour-city-tour.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "nature-trip",
+      "label": "טיול טבע",
+      "file": "tour-nature-trip.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "culinary-tour",
+      "label": "סיור קולינרי",
+      "file": "tour-culinary-tour.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "art-tour",
+      "label": "סיור אמנות",
+      "file": "tour-art-tour.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "history-tour",
+      "label": "סיור היסטורי",
+      "file": "tour-history-tour.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "organized-trip",
+      "label": "טיול מאורגן",
+      "file": "tour-organized-trip.svg"
+    },
+    {
+      "category": "tour",
+      "subcategory": "museum-tour",
+      "label": "סיור מוזיאון",
+      "file": "tour-museum-tour.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "football",
+      "label": "כדורגל",
+      "file": "sport-football.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "basketball",
+      "label": "כדורסל",
+      "file": "sport-basketball.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "handball",
+      "label": "כדוריד",
+      "file": "sport-handball.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "volleyball",
+      "label": "כדורעף",
+      "file": "sport-volleyball.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "water-sports",
+      "label": "גלישה וספורט ימי",
+      "file": "sport-water-sports.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "running-races",
+      "label": "ריצה ומרוצים",
+      "file": "sport-running-races.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "competitions",
+      "label": "תחרויות",
+      "file": "sport-competitions.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "tournaments",
+      "label": "טורנירים",
+      "file": "sport-tournaments.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "popular-sports",
+      "label": "אירועי ספורט עממי",
+      "file": "sport-popular-sports.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "ms-ashdod-home-games",
+      "label": "משחקי הבית של מ.ס אשדוד",
+      "file": "sport-ms-ashdod-home-games.svg"
+    },
+    {
+      "category": "sport",
+      "subcategory": "maccabi-ashdod-basketball-home-games",
+      "label": "משחקי הבית של מכבי אשדוד בכדורסל",
+      "file": "sport-maccabi-ashdod-basketball-home-games.svg"
+    },
+    {
+      "category": "cinema",
+      "subcategory": "hot-cinema",
+      "label": "HOT Cinema",
+      "file": "cinema-hot-cinema.svg"
+    },
+    {
+      "category": "cinema",
+      "subcategory": "cinema-city",
+      "label": "Cinema City",
+      "file": "cinema-cinema-city.svg"
+    },
+    {
+      "category": "cinema",
+      "subcategory": "other-cinema",
+      "label": "קולנוע אחר",
+      "file": "cinema-other-cinema.svg"
+    },
+    {
+      "category": "food",
+      "subcategory": "food-fair",
+      "label": "יריד אוכל",
+      "file": "food-food-fair.svg"
+    },
+    {
+      "category": "food",
+      "subcategory": "tastings",
+      "label": "טעימות",
+      "file": "food-tastings.svg"
+    },
+    {
+      "category": "food",
+      "subcategory": "cooking-workshop",
+      "label": "סדנת בישול",
+      "file": "food-cooking-workshop.svg"
+    },
+    {
+      "category": "food",
+      "subcategory": "food-festival",
+      "label": "פסטיבל אוכל",
+      "file": "food-food-festival.svg"
+    },
+    {
+      "category": "food",
+      "subcategory": "market-culinary-event",
+      "label": "שוק ואירוע קולינרי",
+      "file": "food-market-culinary-event.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-lectures",
+      "label": "הרצאות והעשרה",
+      "file": "seniors-senior-lectures.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-workshops",
+      "label": "סדנאות ויצירה",
+      "file": "seniors-senior-workshops.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-trips",
+      "label": "טיולים וסיורים",
+      "file": "seniors-senior-trips.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-music",
+      "label": "מוזיקה ושירה",
+      "file": "seniors-senior-music.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-dance",
+      "label": "ריקוד",
+      "file": "seniors-senior-dance.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-sport",
+      "label": "ספורט ותנועה",
+      "file": "seniors-senior-sport.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-health",
+      "label": "בריאות",
+      "file": "seniors-senior-health.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-social",
+      "label": "מפגשים חברתיים",
+      "file": "seniors-senior-social.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-culture",
+      "label": "תרבות ומופעים",
+      "file": "seniors-senior-culture.svg"
+    },
+    {
+      "category": "seniors",
+      "subcategory": "senior-digital",
+      "label": "דיגיטל וטכנולוגיה",
+      "file": "seniors-senior-digital.svg"
+    }
+  ]
+}

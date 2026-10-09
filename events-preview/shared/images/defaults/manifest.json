@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "status": "repository_access_verified_branch_only",
+  "branch": "feature/taxonomy-agent-validation-20261009",
+  "base_path": "events-preview/shared/images/defaults/",
+  "description": "Temporary accessible illustrated SVG fallback, not the generated photographic WebP batch. Production agent cannot rely on these until published/merged.",
+  "images": [
+    {
+      "category": "music",
+      "subcategory": null,
+      "file": "category-music.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-music.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "theatre",
+      "subcategory": null,
+      "file": "category-theatre.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-theatre.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "standup",
+      "subcategory": null,
+      "file": "category-standup.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-standup.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "kids",
+      "subcategory": null,
+      "file": "category-kids.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-kids.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "lecture",
+      "subcategory": null,
+      "file": "category-lecture.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-lecture.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "conference",
+      "subcategory": null,
+      "file": "category-conference.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-conference.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "exhibition",
+      "subcategory": null,
+      "file": "category-exhibition.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-exhibition.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "festival",
+      "subcategory": null,
+      "file": "category-festival.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-festival.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "community",
+      "subcategory": null,
+      "file": "category-community.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-community.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "tour",
+      "subcategory": null,
+      "file": "category-tour.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-tour.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "sport",
+      "subcategory": null,
+      "file": "category-sport.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-sport.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "cinema",
+      "subcategory": null,
+      "file": "category-cinema.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-cinema.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "food",
+      "subcategory": null,
+      "file": "category-food.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-food.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    },
+    {
+      "category": "seniors",
+      "subcategory": null,
+      "file": "category-seniors.svg",
+      "github_raw_url": "https://raw.githubusercontent.com/isnet-media/isnet-real-estate-site/feature/taxonomy-agent-validation-20261009/events-preview/shared/images/defaults/category-seniors.svg",
+      "asset_type": "illustrated_fallback",
+      "public_deploy_verified": false
+    }
+  ],
+  "selection_rule": "Use exact subcategory match if verified image exists, else primary category image; never overwrite verified event photos; do not use until deployment and agent runtime accessibility checked."
+}
