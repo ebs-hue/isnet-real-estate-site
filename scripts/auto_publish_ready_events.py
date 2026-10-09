@@ -126,7 +126,7 @@ def evaluate(event: dict, dupes: set[str]) -> dict:
         blockers.append("missing_explanatory_content")
     # Fail closed: newly published events must pass the editor's four-question review.
     # Previously published records are not retroactively unpublished by this gate.
-    if event.get("editorial_review_status") != "passed" or int(event.get("editorial_answer_count") or 0) < 3:
+    if event.get("editorial_review_status") != "passed" or event.get("editorial_core_passed") is not True or int(event.get("editorial_answer_count") or 0) < 3:
         blockers.append("editorial_comprehension_review_required")
     if not image:
         blockers.append("missing_image")
