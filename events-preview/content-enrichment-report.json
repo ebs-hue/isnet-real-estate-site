@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:22:35Z",
+  "generated_at": "2026-10-09T18:23:14Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_a69617607de8b2a38b13",
-      "title": "רינת מטיילת- הצגה מבית רינתי",
+      "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+      "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "event_id": "sport_20261019_ironi_ashdod_football",
+      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - בני הרצליה",
+      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
+      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_58c1ea1851030cfaaa11",
+      "event_id": "auto_as_2e18ed2709b02baa3532",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_9_20261019",
-      "title": "מיקי הבית של יעל",
+      "event_id": "auto_as_4b07ba21b782ea02a4ff",
+      "title": "אצבעוני",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_ab616d899c714d6fd180",
-      "title": "המספרה של ג'אקו - הפקת מקור",
+      "event_id": "evt_72_20261020",
+      "title": "היפהפיה הנרדמת",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
