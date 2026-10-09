@@ -15790,7 +15790,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%A1%D7%99%D7%A4%D7%95%D7%A8_%D7%A9%D7%9C_%D7%97%D7%95%D7%A8%D7%A3_%7C_%D7%A9%D7%A2%D7%AA_%D7%A1%D7%99%D7%A4%D7%95%D7%A8_%D7%A2%D7%9D_%D7%A8%D7%99%D7%A0%D7%AA%D7%99/?id=17644",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:30:44Z",
       "missing_information": [
@@ -15826,7 +15826,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_78_20261117",
@@ -15920,7 +15920,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8141",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:00Z",
       "missing_information": [
@@ -15956,7 +15956,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_8f297f8b91e325728d628397",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -16028,7 +16028,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:20Z",
       "missing_information": [
@@ -16071,7 +16071,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -16145,7 +16145,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/שלגיה_ו-7_הגמדים/?id=17306",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:34Z",
       "missing_information": [
@@ -16182,7 +16182,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -16285,7 +16285,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/החולה_ההודי/?id=8142",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:31:51Z",
       "missing_information": [
@@ -16320,7 +16320,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_8f297f8b91e325728d628397",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -16392,7 +16392,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:32:12Z",
       "missing_information": [
@@ -16434,7 +16434,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
