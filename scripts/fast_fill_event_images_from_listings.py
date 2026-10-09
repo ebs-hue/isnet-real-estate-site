@@ -46,6 +46,17 @@ SYSTEM_FALLBACKS={
   "community":"assets/defaults/festival.svg",
   "sport":"assets/defaults/sport.svg",
   "tour":"assets/defaults/exhibition.svg",
+  "seniors":"/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
+}
+
+SENIORS_FALLBACKS={
+  "tour":"/events-preview/media-bank/defaults/seniors/seniors-outing.webp",
+  "lecture":"/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
+  "community":"/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+  "festival":"/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+  "music":"/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+  "reading":"/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
+  "culture":"/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
 }
 
 
@@ -75,6 +86,15 @@ def representative_category(e):
         if re.search(pat,t):
             return fallback
     return "community"
+
+def system_fallback_for_event(e):
+    cat=representative_category(e)
+    if cat=="seniors":
+        activity=norm(e.get("activity_type") or "")
+        if activity in SENIORS_FALLBACKS:
+            return SENIORS_FALLBACKS[activity]
+        return SYSTEM_FALLBACKS["seniors"]
+    return SYSTEM_FALLBACKS.get(cat) or SYSTEM_FALLBACKS["community"]
 
 def safe_url(url):
     p=urlsplit(url)
