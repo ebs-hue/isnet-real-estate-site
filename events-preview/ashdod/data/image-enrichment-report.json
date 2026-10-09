@@ -1,26 +1,20 @@
 {
-  "generated_at": "2026-10-09T17:45:14Z",
+  "generated_at": "2026-10-09T17:59:05Z",
   "total_events": 321,
-  "events_with_publishable_images": 307,
-  "events_still_missing_images": 14,
+  "events_with_publishable_images": 308,
+  "events_still_missing_images": 13,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 2,
-    "mishkan_smarticket": 12
+    "mishkan_smarticket": 12,
+    "ashdod_smarticket": 1
   },
   "missing_by_category": {
-    "seniors": 1,
     "music": 12,
     "cinema": 1
   },
   "missing": [
-    {
-      "event_id": "auto_as_7c4f95bd1f6d41f060e1",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "reason": "no_verified_source_image"
-    },
     {
       "event_id": "auto_as_2d5eff340312fe7ebdd6",
       "title": "שירים וחיוכים",
