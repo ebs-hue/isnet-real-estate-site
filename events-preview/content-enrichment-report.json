@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:39:35Z",
+  "generated_at": "2026-10-09T18:40:15Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_91_20270102",
-      "title": "אור לגויים",
+      "event_id": "auto_as_5dda25a13333e0d8db14",
+      "title": "עוד לא תמו כל פלאייך",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
+      "event_id": "auto_as_e3ffc57670066fd5ea7a",
+      "title": "THE ROMANTIC SOUL",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
-      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+      "event_id": "auto_as_c5084f66863b9e27992a",
+      "title": "נאמן למקור",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_6d08db65cc9adf0eb6af",
-      "title": "אור לגויים",
+      "event_id": "auto_as_60cb539e4c684575d6a8",
+      "title": "נאמן למקור",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_d0315a26e607910aebb5",
-      "title": "סידני מחווה לביג'יז",
+      "event_id": "auto_as_8adf0f4c675e74162830",
+      "title": "פיטר פן | שעת סיפור עם רינתי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3965330ca84880c5bf7a",
-      "title": "שמעון בוסקילה – קרוב לבית",
+      "event_id": "auto_as_c96d7be6d2804e749d2a",
+      "title": "הכלבלב השובב",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
