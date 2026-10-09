@@ -4857,7 +4857,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%93%D7%99%D7%A1%D7%A7%D7%95_-__%D7%9B%D7%A9%D7%94%D7%A7%D7%A6%D7%91_%D7%9E%D7%A9%D7%97%D7%A8%D7%A8_%D7%90%D7%AA_%D7%94%D7%92%D7%95%D7%A3/?id=15549",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:15:16Z",
       "missing_information": [
@@ -4891,7 +4891,7 @@
       ],
       "image_brief": "תמונת שער רלוונטית תציג את המרצה שקד ארקין בקדמת התמונה (דיוקן חצי-גוף או על הבמה) מול רקע המציג אלמנטים של דיסקו: כדור מבריק, אורות צבעוניים ותצוגת בגד בעל פאייטים או בד מבריק על רקע מטושטש של רחבת ריקודים. התמונה תדגיש תנועה ואור — תחושת זוהר ואנרגיה — ללא טקסט חופף על התמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fe6e8df1a4468d54960eaee1",
       "seo_title": "דיסקו — כשהקצב משחרר את הגוף | הרצאה של שקד ארקין",
@@ -4902,7 +4902,8 @@
         "שקד ארקין הרצאה בית קלנג דיסקו אופנה",
         "דיסקו אופנה הרצאה",
         "שקד ארקין ארכיון אופנה"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_43_20261015",

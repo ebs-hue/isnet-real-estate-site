@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:45:08Z",
+  "generated_at": "2026-10-09T03:45:46Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -44,8 +44,8 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_013751f4bb1f253a4a2f",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+      "event_id": "evt_8_20261015",
+      "title": "דיסקו - כשהקצב משחרר את הגוף",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
