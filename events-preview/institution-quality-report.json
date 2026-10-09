@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-08T05:56:11+00:00",
+  "generated_at": "2026-10-09T05:29:14+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_events": 365,
+      "total_events": 321,
       "institution_count": 15,
-      "venue_matched": 265,
+      "venue_matched": 232,
       "operator_matched": 23,
-      "events_with_contact_phone": 267,
-      "events_with_specific_address": 257,
-      "official_photos_verified": 112,
-      "lecture_total": 17,
-      "lectures_without_verified_event_photo": 9,
+      "events_with_contact_phone": 233,
+      "events_with_specific_address": 223,
+      "official_photos_verified": 210,
+      "lecture_total": 30,
+      "lectures_without_verified_event_photo": 18,
       "operator_event_counts": {
         "ofek_ashdod": 23
       },
@@ -49,11 +49,11 @@
           "count": 2
         },
         {
-          "name": "בית הנוער - דיונה קק\"ל 90 אשדוד",
-          "count": 2
+          "name": "מרכז להורות משמעותית אשדוד",
+          "count": 1
         },
         {
-          "name": "מרכז להורות משמעותית אשדוד",
+          "name": "מרכז קהילתי נווה יונתן-שד' עוזיהו 26 אשדוד",
           "count": 1
         },
         {
@@ -80,19 +80,19 @@
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_events": 327,
+      "total_events": 333,
       "institution_count": 10,
-      "venue_matched": 286,
-      "operator_matched": 305,
-      "events_with_contact_phone": 323,
-      "events_with_specific_address": 294,
-      "official_photos_verified": 163,
-      "lecture_total": 100,
-      "lectures_without_verified_event_photo": 98,
+      "venue_matched": 293,
+      "operator_matched": 310,
+      "events_with_contact_phone": 331,
+      "events_with_specific_address": 299,
+      "official_photos_verified": 168,
+      "lecture_total": 101,
+      "lectures_without_verified_event_photo": 99,
       "operator_event_counts": {
         "koter_rishon": 41,
-        "htrl": 149,
-        "htrl_adults": 115
+        "htrl": 152,
+        "htrl_adults": 117
       },
       "frequently_unmatched_venue_names": [
         {
@@ -109,10 +109,6 @@
         },
         {
           "name": "רשת הספריות ראשון לציון",
-          "count": 2
-        },
-        {
-          "name": "פארק האגמים ראשון לציון",
           "count": 2
         },
         {
@@ -133,6 +129,10 @@
         },
         {
           "name": "כותר ראשון-אלון",
+          "count": 2
+        },
+        {
+          "name": "סדנה לאמנות, ראשון לציון",
           "count": 2
         },
         {

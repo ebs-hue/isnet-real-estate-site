@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-08T06:09:18Z",
+  "generated_at": "2026-10-09T05:28:16Z",
   "window": {
-    "from": "2026-10-08",
+    "from": "2026-10-09",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 327,
+    "events": 321,
     "other_category_remaining": 7
   },
   "events": [
@@ -761,181 +761,6 @@
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
       "thumbnail_source": "central_media_bank_card"
-    },
-    {
-      "city": "אשדוד",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "description": null,
-      "start_date": "2026-10-08",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 100,
-      "price_max_ils": 100,
-      "is_free": null,
-      "ticket_status": "sold_out",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/lecture.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 150,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-      "source_detail_text": "דף הבית סדנא- שימור ושיפור הזיכרון 08/10/2026 10:00 סדנא- שימור ושיפור הזיכרון מרכז אפ 60+ אשדוד רח' סטורמה 5 ביום חמישי, 8 באוקטובר 2026 10:00 - 12:30 מחיר 100 ₪ הכרטיסים אזלו פרטים נוספים סדנת שימור ושיפור הזיכרון איפה שמנו את המפתחות? ואיך קראו לסרט ההוא שראינו בשבוע שעבר? מה מחכה לנו בסדנה? כלים פשוטים לשיפור זיכרון תרגול מעשי שיח ולמידה משותפת הסדנה בת 4 מפגשים תתקיים במרכז אפ 60+ רח' סטרומה 5 . עלות לכל הסדנה: 100 ₪",
-      "source_detail_text_length": 425,
-      "image_strategy": "pilot_representative_fallback",
-      "event_id": "auto_as_9d51882890e01e5a8488",
-      "detail_checked_at": "2026-10-08",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true,
-      "venue_institution_id": "up60_ashdod",
-      "venue_phone": "08-9238677",
-      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
-      "contact_phone": "08-9238677",
-      "contact_email": "up60plus@ashdod.muni.il",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17220",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-08T10:48:53Z",
-      "missing_information": [
-        "שם המנחה/מרצה המוביל את הסדנה",
-        "תאריכים מדויקים וזמנים של שלושת המפגשים הנוספים (רק מפגש פתיחה מצוין)",
-        "פרטי המארגן/הגוף המפיק",
-        "מדיניות הרשמה/רשימת המתנה לאור היות הכרטיסים אזלו",
-        "תוכן מפורט של כל מפגש וחומרי עזר שיסופקו"
-      ],
-      "event_summary": "סדנה מעשית שמטרתה להציע כלים פשוטים לשימור ושיפור הזיכרון היומיומי. המשתתפים יקבלו תרגילים חווייתיים, יתאמנו בטכניקות זכירה וישתתפו בשיח קבוצתי ושיתוף ניסיונות. הסדנה מוצעת כסדרת ארבע מפגשים ומיועדת לתרגול יישומי ולאימון קוגניטיבי במסגרת קהילתית.",
-      "short_pitch": "סדנה מעשית בת ארבע מפגשים שמלמדת שיטות פשוטות לשיפור הזיכרון היומיומי — מהזכרת שמות ומפתחות ועד שיטות לתזכורת מידע. כל מפגש משלב תרגול, דיון וחומרי תרגול שימושיים. מתאים במיוחד למבוגרים ולקהלים המעוניינים בתרגול קוגניטיבי ברמה יישומית. מחיר כל הסדנה: 100 ₪; הכרטיסים אזלו למועד הפרסום.",
-      "long_description": "הסדנה \"שימור ושיפור הזיכרון\" היא קורס קצר-מעשיר שמעמיד כלי זכירה ברורים לתרגול יום-יומי: שיטות לארגון מידע, טכניקות לזכירת שמות, אופני שימוש בזיכרון בזמן שיחה ושיטות תרגול ביתיות לחיזוק הקוגניציה. הגישה היא פרקטית — כל מפגש כולל תרגול מודרך, תרגילי קבוצה ושיח שבו משתתפים מחליפים דרכים שעבדו עבורם. מה שמבדיל את הסדנה מאירועים הרצאתיים הוא הדגש על אימון חוזר והפנמה של טכניקות ולא רק הסבר תיאורטי. לא צויין שם מנחה בדף האירוע, ולכן זהו מופע קהילתי-חינוכי נטול דגשי סלבריטאות; הוא מתאים במיוחד לאוכלוסיית ה-60+ ולכל מי שמחפש דרכים פשוטות להפחית תלות בזיכרון חיצוני ולשפר שגרות זיכרון יום-יומיות. פרטי מפגש מקומי: מרכז אפ 60+, רח' סטרומה 5, מפגש פתיחה — חמישי 8.10.2026, 10:00–12:30. עלות לכל ארבעת המפגשים: 100 ₪. לפי פרסום המכירה, הכרטיסים אזלו.",
-      "event_type": "סדנה",
-      "target_audience": [
-        "מבוגרים (60+)",
-        "אנשים המעוניינים בשיפור זיכרון יומיומי",
-        "מטפלים ובני משפחה המחפשים כלים תומכים"
-      ],
-      "visual_keywords": [
-        "קבוצת מבוגרים סביב שולחן",
-        "קלפי תרגול וזיכרון",
-        "מפתחות וארנק על שולחן",
-        "פתקים ויומן פתוח",
-        "מנחה מוביל שיחה",
-        "חומרי לימוד מודפסים",
-        "מחברת ועט",
-        "אווירה חמימה במרכז קהילתי",
-        "חיוך ושיח בין משתתפים",
-        "לוח מחיק עם נקודות מפתח"
-      ],
-      "image_brief": "תמונת כיסוי אמורה להראות רגע אמיתי מסדנה קהילתית: קבוצת מבוגרים (גילאי 60+) יושבת סביב שולחן במרכז קהילתי, עם מנחה שמניחה קלפי תרגול או מפעילה תרגיל. על השולחן ייראו פתקי זכירה, מפתחות ויומן פתוח; האווירה חמה, מזמינה ופעילה, ללא לוגואים או טקסט על התמונה. עדיפות לצילום בזווית שמדגיש מעורבות ותקשורת בין המשתתפים.",
-      "seo_title": "סדנה: שימור ושיפור הזיכרון — מרכז אפ 60+ אשדוד",
-      "seo_description": "סדנה מעשית בת 4 מפגשים לשיפור ושימור הזיכרון היומיומי. מפגש פתיחה: 8.10.2026, 10:00–12:30. עלות לכל הסדנה: 100 ₪. הכרטיסים אזלו.",
-      "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
-      "image_subject_type": "topical_fallback",
-      "image_search_queries": [
-        "סדנת שימור זיכרון למבוגרים קבוצת תרגול",
-        "תרגילי זיכרון לקשישים מרכז קהילתי",
-        "סדנת שיפור זיכרון 60+"
-      ],
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
@@ -2999,6 +2824,122 @@
     },
     {
       "city": "אשדוד",
+      "title": "ניגון של סתיו | שרה זילברברג",
+      "description": null,
+      "start_date": "2026-10-13",
+      "end_date": null,
+      "start_time": "16:30",
+      "end_time": null,
+      "venue": "מרכז קהילתי נווה יונתן-שד' עוזיהו 26 אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+      "purchase_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": 90,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-09T05:28:16Z"
+        }
+      ],
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing",
+        "detail_page_collected"
+      ],
+      "detail_source_url": "https://ashdod.smarticket.co.il/ניגון_של_סתיו_|_שרה_זילברברג/?id=17714",
+      "source_detail_text": "דף הבית ניגון של סתיו | שרה זילברברג 13/10/2026 16:30 ניגון של סתיו | שרה זילברברג מרכז קהילתי נווה יונתן-שד' עוזיהו 26 אשדוד (מפת הגעה) ביום שלישי, 13 באוקטובר 2026 16:30 - 18:00 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
+      "source_detail_text_length": 317,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_f1dc81732b11d4fd595d",
+      "detail_checked_at": "2026-10-09",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "details_verified": true
+    },
+    {
+      "city": "אשדוד",
       "title": "איתמר וכובע הקסמים",
       "description": null,
       "start_date": "2026-10-13",
@@ -4073,7 +4014,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
+      "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -4085,12 +4026,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -4149,7 +4090,7 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -4159,11 +4100,11 @@
           "name": "ashdod_smarticket",
           "url": "https://ashdod.smarticket.co.il/",
           "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
+          "observed_at": "2026-10-09T05:28:16Z"
         }
       ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing",
@@ -4172,9 +4113,9 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
       "source_detail_text": "חלוקי נחל- ייעודי לגדולות מהחיים דף הבית חלוקי נחל- ייעודי לגדולות מהחיים 15/10/2026 10:00 חלוקי נחל- ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום חמישי, 15 באוקטובר 2026 10:00 - 11:30 משך: שעה ו-30 דקות הכרטיסים אזלו",
       "source_detail_text_length": 249,
-      "image_strategy": "pilot_representative_fallback",
+      "image_strategy": "detail_page_high_quality_candidate",
       "event_id": "auto_as_24bd564dd8d11f87e4ff",
-      "detail_checked_at": "2026-10-08",
+      "detail_checked_at": "2026-10-09",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "details_verified": true,
       "venue_institution_id": "ironit_tene",
@@ -4182,62 +4123,7 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/חלוקי_נחל-_ייעודי_לגדולות_מהחיים_/?id=17209",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 9,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-08T11:10:08Z",
-      "missing_information": [
-        "שם המנחה/מובילה של הסדנה",
-        "תיאור מפורט של תוכן הסדנה (ציור/קישוט/טכניקות ספציפיות)",
-        "האם החומרים מסופקים או נדרשת הבאת חומרים אישיים",
-        "מחיר הכרטיס במקור (למרות שהכרטיסים אזלו)",
-        "פרטי נגישות למקום (נגישה לכיסא גלגלים/חניה)",
-        "הגדרה מדויקת של המונח 'גדולות מהחיים' עבור האירוע (טווח גילאים או קבוצה מסוימת)"
-      ],
-      "media_status": "needs_image_research",
-      "content_enrichment_status": "model_error",
-      "event_summary": "חלוקי נחל היא סדנת יצירה קצרה שכותרתה מציינת שהיא מיועדת לקבוצה הנקראת «גדולות מהחיים». על פי הכותרת והפרסומים של מקום המכירה, הסדנה כנראה עוסקת בקישוט וציור על אבני חלוקי נחל — פעילות ידנית, קבוצתית וחווייתית. משך האירוע לפי פרטי המכירה הוא שעה ו-30 דקות; הכרטיסים אזלו.",
-      "short_pitch": "בוקר יצירה ועדינות: סדנת «חלוקי נחל» מיועדת לנשים בקבוצת 'גדולות מהחיים' ומציעה מפגש של עבודה ידנית, שיתוף וחיבור קהילתי סביב אבנים קטנות שנצבעות ומעוצבות. זו הזדמנות ליהנות מזמן יצירתי קצר, להכיר נשים מקומיות ולצאת עם מזכרת מעשה ידיכם; לפי פרסום המקום האירוע מתאפיין באווירה ביתית ומשך של שעה וחצי.",
-      "long_description": "הכותרת 'חלוקי נחל — ייעודי לגדולות מהחיים' מצביעה על סדנת יצירה שמיועדת לקבוצה נשית בוגרת (מובלעת כ'גדולות מהחיים'). על פי ההקשר המקובל של סדנאות הנושאות שם דומה, המשתתפות עובדות עם חלוקי נחל — ציור, קישוט או הרכבה על אבנים קטנות — בתהליך של יצירה אישית וקבוצתית. היתרון של פורמט כזה הוא השילוב בין פעילות ידנית מרגיעה לבין שיחה קהילתית; זה מתאים במיוחד למעגלי נשים, חובבות יצירה ומי שמחפשות מפגש חברתי שהוא גם יצירתי. לא נמצאו פרטים על מנחה ספציפית או על חומרים מסופקים, אך פרטי ההרשמה במערכת הכרטיסים של אשדוד מציינים משך של שעה ו-30 דקות ושהכרטיסים אזלו. האירוע מאורגן דרך הגורם המקומי לתרבות והתקיים במרכז קהילתי טנה — פרטים מלאים על מקום, תאריך ושעה ניתנים בדף המכירה המקומי. אם אתם חלק מקבוצת נשים בוגרת ומחפשים בוקר יצירה חברתי — זו הסדנה שנראית כשורה; למי ששוקל להגיע בעתיד כדאי לבדוק מראש מי המנחה, מה כלול במחיר והאם החומרים מסופקים.",
-      "event_type": "סדנה יצירה",
-      "target_audience": [
-        "נשים בוגרות / מעגלי נשים (+50)",
-        "חובבות יצירה ואמנות שימושית",
-        "משתתפות מחפשות מפגש קהילתי ויצירה"
-      ],
-      "visual_keywords": [
-        "חלוקי נחל גולמיים ומצוירים",
-        "מברשות וצנצנות צבע אקרילי",
-        "ידיים של נשים מבוגרות עובדות על אבן",
-        "שולחן עץ מלא בחומרים יצירתיים",
-        "ארגז כלים של סדנה — דבק, לק, טושים",
-        "אבנים מסודרות בתצוגה צבעונית",
-        "אווירה חמימה של מרכז קהילתי",
-        "אור טבעי / חלון ברקע"
-      ],
-      "image_brief": "תמונת שער אירוע צריכה להתמקד ברגע היצירה: צילום מאקרו של שתי–שלוש ידיים של נשים בוגרות כשהן מציירות או מדביקות על חלוקי נחל, עם פלטת צבעים, מברשת וארגז חומרים על שולחן עץ. הרקע יהיה מעט מטושטש כדי לשמר את המוקד על האבנים והידיים; חשוב שהאווירה תרגיש ביתית וקהילתית (אור חם, חיוכים עדינים), ללא טקסט או לוגו חופפים על התמונה.",
-      "image_subject_type": "event_poster",
-      "image_search_queries": [
-        "חלוקי נחל סדנת יצירה אשדוד",
-        "סדנת ציור על חלוקי נחל נשים",
-        "pebble painting workshop Israel",
-        "pebble painting workshop women"
-      ],
-      "seo_title": "חלוקי נחל — סדנת יצירה לנשים (15.10.2026)",
-      "seo_description": "סדנת יצירה סביב חלוקי נחל, ייעודית ל'גדולות מהחיים'. משך שעה ו-30 דקות; 15.10.2026 במרכז קהילתי טנה, אשדוד. הכרטיסים אזלו.",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "content_enrichment_retry_after": "2026-10-10",
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -12515,135 +12401,6 @@
       "thumbnail_source": "central_media_bank_card"
     },
     {
-      "city": "אשדוד",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "description": null,
-      "start_date": "2026-11-05",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 100,
-      "price_max_ils": 100,
-      "is_free": null,
-      "ticket_status": "sold_out",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/lecture.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 150,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17221",
-      "source_detail_text": "דף הבית סדנא- שימור ושיפור הזיכרון 05/11/2026 10:00 סדנא- שימור ושיפור הזיכרון מרכז אפ 60+ אשדוד רח' סטורמה 5 ביום חמישי, 5 בנובמבר 2026 10:00 - 12:30 מחיר 100 ₪ הכרטיסים אזלו פרטים נוספים סדנת שימור ושיפור הזיכרון איפה שמנו את המפתחות? ואיך קראו לסרט ההוא שראינו בשבוע שעבר? מה מחכה לנו בסדנה? כלים פשוטים לשיפור זיכרון תרגול מעשי שיח ולמידה משותפת הסדנה בת 4 מפגשים תתקיים במרכז אפ 60+ רח' סטרומה 5 . עלות לכל הסדנה: 100 ₪",
-      "source_detail_text_length": 424,
-      "image_strategy": "same_production_reuse",
-      "event_id": "auto_as_8d868a42a7395c863b80",
-      "detail_checked_at": "2026-10-08",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true,
-      "venue_institution_id": "up60_ashdod",
-      "venue_phone": "08-9238677",
-      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
-      "contact_phone": "08-9238677",
-      "contact_email": "up60plus@ashdod.muni.il",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
-    },
-    {
       "event_id": "evt_18_20261105",
       "city": "אשדוד",
       "title": "יום יהדות הודו 2026",
@@ -13261,7 +13018,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
+      "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -13273,12 +13030,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13337,7 +13094,7 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/workshop.svg",
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -13347,11 +13104,11 @@
           "name": "ashdod_smarticket",
           "url": "https://ashdod.smarticket.co.il/",
           "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
+          "observed_at": "2026-10-09T05:28:16Z"
         }
       ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing",
@@ -13360,9 +13117,9 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/הכנת_תליונים_סרוגים-ייעודי_לגדולות_מהחיים_/?id=17202",
       "source_detail_text": "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים דף הבית הכנת תליונים סרוגים-ייעודי לגדולות מהחיים 09/11/2026 10:00 הכנת תליונים סרוגים-ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום שני, 9 בנובמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 377,
-      "image_strategy": "super_editor_representative_fallback",
+      "image_strategy": "detail_page_high_quality_candidate",
       "event_id": "auto_as_46c23e069a55ad1b5bac",
-      "detail_checked_at": "2026-10-08",
+      "detail_checked_at": "2026-10-09",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "details_verified": true,
       "venue_institution_id": "ironit_tene",
@@ -13370,18 +13127,7 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "city": "אשדוד",
@@ -17273,7 +17019,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
+      "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -17285,12 +17031,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17349,7 +17095,7 @@
           "reason": "detail_img"
         }
       ],
-      "image_origin_url": "assets/defaults/festival.svg",
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -17359,11 +17105,11 @@
           "name": "ashdod_smarticket",
           "url": "https://ashdod.smarticket.co.il/",
           "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
+          "observed_at": "2026-10-09T05:28:16Z"
         }
       ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
       "status": "active",
       "quality_flags": [
         "automated_official_listing",
@@ -17372,9 +17118,9 @@
       "detail_source_url": "https://ashdod.smarticket.co.il/אני_הרבה_יותר_ממה_שחשבתי-ייעודי_לגדולות_מהחיים/?id=17203",
       "source_detail_text": "אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים דף הבית אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים 23/11/2026 10:00 אני הרבה יותר ממה שחשבתי-ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום שני, 23 בנובמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
       "source_detail_text_length": 393,
-      "image_strategy": "super_editor_representative_fallback",
+      "image_strategy": "detail_page_high_quality_candidate",
       "event_id": "auto_as_405685db409691fa6e34",
-      "detail_checked_at": "2026-10-08",
+      "detail_checked_at": "2026-10-09",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "details_verified": true,
       "venue_institution_id": "ironit_tene",
@@ -17382,18 +17128,7 @@
       "venue_website": "https://www.ironit.org.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
-      "contact_email": "ashdodh@ironit.org.il",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "contact_email": "ashdodh@ironit.org.il"
     },
     {
       "event_id": "evt_82_20261123",
@@ -19113,133 +18848,6 @@
     },
     {
       "city": "אשדוד",
-      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-11-30",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
-      "address": null,
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 10,
-      "price_max_ils": 10,
-      "is_free": null,
-      "ticket_status": "sold_out",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 90,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
-      "source_detail_text": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים דף הבית סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים 30/11/2026 10:00 סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים בית הנוער - דיונה קק\"ל 90 אשדוד (מפת הגעה) ביום שני, 30 בנובמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הכרטיסים אזלו",
-      "source_detail_text_length": 315,
-      "image_strategy": "super_editor_representative_fallback",
-      "event_id": "auto_as_59d21b15c55e0e5716a8",
-      "detail_checked_at": "2026-10-08",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true,
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
-    },
-    {
-      "city": "אשדוד",
       "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
       "description": null,
       "start_date": "2026-12-01",
@@ -19340,262 +18948,6 @@
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "content_enrichment_retry_after": "2026-10-09"
-    },
-    {
-      "city": "אשדוד",
-      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-12-03",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
-      "address": null,
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 10,
-      "price_max_ils": 10,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 90,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
-      "source_detail_text": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים דף הבית סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים 03/12/2026 10:00 סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים בית הנוער - דיונה קק\"ל 90 אשדוד (מפת הגעה) ביום חמישי, 3 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
-      "source_detail_text_length": 383,
-      "image_strategy": "super_editor_representative_fallback",
-      "event_id": "auto_as_d9054166e8decd8ba99d",
-      "detail_checked_at": "2026-10-08",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true,
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
-    },
-    {
-      "city": "אשדוד",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "description": null,
-      "start_date": "2026-12-03",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "address": "מרכז אפ 60+ אשדוד רח' סטורמה 5",
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 100,
-      "price_max_ils": 100,
-      "is_free": null,
-      "ticket_status": "sold_out",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/lecture.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/lecture.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 150,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא-_שימור_ושיפור_הזיכרון_/?id=17222",
-      "source_detail_text": "דף הבית סדנא- שימור ושיפור הזיכרון 03/12/2026 10:00 סדנא- שימור ושיפור הזיכרון מרכז אפ 60+ אשדוד רח' סטורמה 5 ביום חמישי, 3 בדצמבר 2026 10:00 - 12:30 מחיר 100 ₪ הכרטיסים אזלו פרטים נוספים סדנת שימור ושיפור הזיכרון איפה שמנו את המפתחות? ואיך קראו לסרט ההוא שראינו בשבוע שעבר? מה מחכה לנו בסדנה? כלים פשוטים לשיפור זיכרון תרגול מעשי שיח ולמידה משותפת הסדנה בת 4 מפגשים תתקיים במרכז אפ 60+ רח' סטרומה 5 . עלות לכל הסדנה: 100 ₪",
-      "source_detail_text_length": 423,
-      "image_strategy": "same_production_reuse",
-      "event_id": "auto_as_f1b6e8dc998d846caabd",
-      "detail_checked_at": "2026-10-08",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "details_verified": true,
-      "venue_institution_id": "up60_ashdod",
-      "venue_phone": "08-9238677",
-      "venue_website": "https://community.ashdod.muni.il/Ashdod_up60",
-      "contact_phone": "08-9238677",
-      "contact_email": "up60plus@ashdod.muni.il",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -21362,124 +20714,6 @@
     },
     {
       "city": "אשדוד",
-      "title": "בודי בלט| סדנא בונה עצם לנשים",
-      "description": null,
-      "start_date": "2026-12-14",
-      "end_date": null,
-      "start_time": "11:00",
-      "end_time": null,
-      "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
-      "address": "דרך ארץ 8, אשדוד",
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 10,
-      "price_max_ils": 10,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
-      "purchase_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 60,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:28:07Z",
-      "last_verified_at": "2026-10-08T05:28:07Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_c16e2e89a69bbed03363",
-      "detail_checked_at": "2026-10-07",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "detail_source_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
-      "details_verified": true,
-      "venue_institution_id": "monart_ashdod",
-      "venue_phone": "08-8545170",
-      "venue_website": "https://www.ironit.org.il/",
-      "address_source": "verified_institution_registry",
-      "contact_phone": "08-8545170",
-      "contact_email": "monart@ironit.org.il",
-      "image_rights_status": "owned_system_asset",
-      "image_strategy": "super_editor_representative_fallback",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17276",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-07T17:52:08Z",
-      "missing_information": [
-        "דרגת קושי/רמת ניסיון נדרשת (ממתחילים עד מתקדמים)",
-        "האם נדרשת הרשמה מראש או כמות מקומות מוגבלת",
-        "פרטי יצירת קשר לרישום ושאלות",
-        "ציוד שיש להביא (מזרן, נעלי בלט/נעלי ספורט וכו')",
-        "שפת ההנחיה",
-        "מידע על נגישות למשתתפות עם צרכים מיוחדים"
-      ],
-      "event_summary": "סדנת 'בודי בלט' היא שיעור תנועה קצר שמוגדר כ'התעמלות בונה עצם' לנשים, בהדרכת אנסטסיה מרטיאנוב. המפגש מתקיים בסטודיו מחול בלט פאנוב - מרכז מונארט באשדוד ב-14 בדצמבר 2026, בין השעות 11:00–12:00. משך הסדנה שעה והמחיר המפורש הוא 10 ₪. האירוע מאורגן על ידי מועדון 'גדולות מהחיים'.",
-      "short_pitch": "סדנת בודי בלט — שיעור תנועה ממוקד לנשים שמכוון לחיזוק העצם, בהנחיית אנסטסיה מרטיאנוב. מפגש של שעה בסטודיו בלט פאנוב, אשדוד; כרטיס ב-10 ₪.",
-      "long_description": "הסדנה 'בודי בלט' מציעה מפגש תנועה במשך שעה, המוצע לנשים ונועד בתיאורו ככלי של 'התעמלות בונה עצם'. ההדרכה מבוצעת על ידי אנסטסיה מרטיאנוב, והאירוע מתקיים במסגרת מועדון 'גדולות מהחיים' בסטודיו מחול בלט פאנוב שבמרכז מונארט באשדוד. לפי פרטי האירוע, משך השיעור שעה והמחיר הוא 10 ש\"ח. התוכן המפורש של השיעור לא מפורט במקור, אך השם והמקטגוריה מצביעים על דגש תנועתי שמותאם לנשים ומיועד לעבודה על חוזק ותפקוד גופני. מי שמעוניינת להשתתף תוכל להגיע למקום בשעה המצוינת; פרטים נוספים והרשמה הופיעו בעמוד המכירה של האירוע. המקור לא מפרט רמת קושי, ציוד נדרש, מספר מקומות או דרישות מוקדמות — כדאי לוודא פרטים אלה לפני ההגעה.",
-      "event_type": "סדנה",
-      "participants": [
-        "אנסטסיה מרטיאנוב",
-        "מועדון גדולות מהחיים"
-      ],
-      "target_audience": [
-        "נשים",
-        "מתעניינות בחיזוק עצמות/תנועה"
-      ],
-      "visual_keywords": [
-        "סטודיו מחול פנימי",
-        "קבוצה קטנה של נשים בתנועה",
-        "מדריכה מדגימה (אנסטסיה מרטיאנוב)",
-        "רצפת עץ",
-        "מראות קיר",
-        "בגדי אימון/לבוש תנועתי",
-        "תאורה טבעית וחמימה"
-      ],
-      "image_brief": "תצלום כיסוי המציג קבוצה קטנה של נשים בתלבושות אימון קלות מבצעות תרגיל בסטודיו בלט: מדריכה מדגימה תנועה בחזית, רקע של רצפת עץ ומראות קיר המשקפות את התנועה. התאורה טבעית וחמימה, האווירה ממוקדת ונינוחה, ללא טקסט מוטמע בתמונה.",
-      "media_status": "needs_image_research",
-      "content_enrichment_status": "model_error",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/",
-          "rights_status": "needs_review"
-        }
-      ],
-      "content_enrichment_retry_after": "2026-10-09",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
-    },
-    {
-      "city": "אשדוד",
       "title": "בעקבות סופרים בנחלאות",
       "description": null,
       "start_date": "2026-12-15",
@@ -22083,6 +21317,120 @@
     },
     {
       "city": "אשדוד",
+      "title": "מתן פרץ",
+      "description": null,
+      "start_date": "2026-12-17",
+      "end_date": null,
+      "start_time": "21:30",
+      "end_time": null,
+      "venue": "יד לבנים אשדוד",
+      "address": null,
+      "district": null,
+      "category": "other",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://live.tickchak.co.il/matan-peretz",
+      "purchase_url": "https://live.tickchak.co.il/ashdod",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1745841030F90TUhdnR0xUeNlEcql1cBpXb2Q0UGJzd_-Mu257RuEG85peiaJzeOI.jpeg",
+      "image_source": "https://live.tickchak.co.il/matan-peretz",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://static.tickchak.co.il/all/updateArtistImage_share_1745841030F90TUhdnR0xUeNlEcql1cBpXb2Q0UGJzd_-Mu257RuEG85peiaJzeOI.jpeg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 120,
+          "reason": "detail_meta"
+        },
+        {
+          "url": "https://static.tickchak.co.il/all/updateArtistImage_mobile_1745841031b90zZx1WSRpVdYtCWXRXSwt2QO92SXlnQ_idMwZQxoSFwFUNp584X5u.jpeg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://www.facebook.com/tr?id=1404950806252652&noscript=1",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://live.tickchak.co.il/assets/symbols/dynamicSymbols/instagram.svg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://live.tickchak.co.il/assets/symbols/dynamicSymbols/twitter.svg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://live.tickchak.co.il/assets/symbols/dynamicSymbols/tiktok.svg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://live.tickchak.co.il/assets/symbols/dynamicSymbols/yellowStar.svg",
+          "source_url": "https://live.tickchak.co.il/matan-peretz",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://static.tickchak.co.il/all/updateArtistImage_share_1745841030F90TUhdnR0xUeNlEcql1cBpXb2Q0UGJzd_-Mu257RuEG85peiaJzeOI.jpeg",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "tickchak_ashdod",
+          "url": "https://live.tickchak.co.il/ashdod",
+          "source_type": "secondary",
+          "observed_at": "2026-10-09T05:28:16Z"
+        }
+      ],
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_structured_event",
+        "detail_page_collected"
+      ],
+      "detail_source_url": "https://live.tickchak.co.il/matan-peretz",
+      "source_detail_text": "מתן פרץ • לוח הופעות מעודכן 2026 • הזמנת כרטיסים • פורטל LIVE 1,833 ארועי live כרגע 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה הופעות היום #הופעות והצגות חנוכה הופעות חיות סטנדאפ הצגות מסיבות הצגות ילדים הרצאות קונצרטים אירועים לנשים סיורים ואטרקציות מחזמר חזנות כדורגל עוד 1,833 ארועי live כרגע חפשו הופעה ראשי > הופעות מתן פרץ צילום: דוד גור אריה לעקוב מתן פרץ Matan Peretz סטנדאפ דף רשמי דף רשמי הקשב לעקוב לוח הופעות אודות דירוג LIVE 4.7 /5 דירוג משתמשים 0.0 /5 דרג דירוג LIVE 4.7 /5 דירוג משתמשים 0.0 /5 דרג מתן פרץ - לוח הופעות הצג הכל קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 15.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ בית החייל תל אביב קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 17.10.26 יום שבת 21:30 לאתר המכירה מתן פרץ היכל התרבות אשקלון קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 22.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ באר שבע - תמוז קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 29.10.26 יום חמישי 21:30 לאתר המכירה מתן פרץ תאטרון הבית גולדה פתח תקווה קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 01.11.26 יום ראשון 21:30 לאתר המכירה מתן פרץ בודק חומרים ומארח חברים - מגיל 18 סטנד אפ פקטורי - ת\"א קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 05.11.26 יום חמישי 21:30 לאתר המכירה מתן פרץ בית התותחן - זכרון יעקב קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 12.11.26 יום חמישי 21:00 לאתר המכירה מתן פרץ היכל התרבות בית שמש קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 14.11.26 יום שבת 21:30 לאתר המכירה מתן פרץ תיאטרון היהלום רמת גן קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 26.11.26 יום חמישי 21:30 לאתר המכירה מתן פרץ היכל התרבות בית העם ירושלים קרדיט לצלם קרדיט לצלם: דוד גור אריה, ויקיפדיה, מופץ ברישיון CC BY-SA 4.0 28.11.26 יום שבת 21:30 לאתר המכירה מתן פרץ מרכז רפפורט לתרבות חיפה שימו -💓- נתוני ההופעות המוצגים עודכנו על ידי בינה מלאכותית מאתר המכירה המקורי. יתכנו טעויות ושינויים. טיקצ'אק LIVE לא מוכרת כרטיסים למופע זה ולא לוקחת אחריות על המידע, המיקום המחירים או כל מידע אחר הקשור לאירוע! יש לבדוק היטב באתר המכירה בפועל לפני הרכישה! אמנים דומים שעשויים לעניין אותך הצג הכל קרדיט לצלם קרדיט לצלם: אילוסטרציה באמצעות AI שחר חסון Shahar Hason קרדיט לצלם קרדיט לצלם: נוי עורקבי ברישיון CC BY-SA 3.0 גיא הוכמן Guy Hochman קרדיט לצלם קרדיט לצלם: אורי חזקיה סטנדאפ אורי חזקיה Ori Hizkiah בן בן ברוך Ben Ben Baruch חן מזרחי Hen Mizrahi דניאל חן Daniel Chen קרדיט לצלם קרדיט לצלם: פיני סילוק, ויקיפדיה, מופץ ברישיון CC BY-SA 3.0 - לרישיון המלא שלום אסייג Shalom Asayag דניאל כהן Daniel Cohen קרדיט לצלם קרדיט לצלם: ברקאי לוי יונתן ברק Jonathan Barak קרדיט לצלם קרדיט לצלם: סטודיו מאיסה, ויקיפדיה - לרישיון המלא אוראל צברי Orel Tsabari דירוג LIVE, דירוג ההופעות של ישראל לשנת 2026 מדד דירוג ציון ? ? דירוג בקטגוריית סטנדאפ שקלול של כל הפרמטרים, מספר הופעות, מעורבות קהל, ועוקבים לשנת 2026 בקטגוריית סטנדאפ. דירוג LIVE בקטגוריית סטנדאפ 14 # ? ? דירוג כללי שקלול של כל הפרמטרים, מספר הופעות, מעורבות קהל, ועוקבים לשנת 2026. תמיד תוכלו לשפר את התוצאה ע״י דרבון הקהל שלכם לביצוע פעולות, מה שיביא מיד לעליית המדד. דירוג LIVE כללי 123 # ( 4.7 ) ? ? מספר הופעות סך הופעות שהופיעו בפורטל LIVE בשנת 2026. מספר הופעות ב-LIVE ( 7 הופעות ) 190 # ? ? מעורבות קהל שקלול צפיות בפרופיל, צפיות באירועים ומעברים לרכישת כרטיסים. מעורבות קהל 128 # ? ? עוקבים מספר העוקבים והצמיחה בקהל המעריצים. עוקבים ב-LIVE ( 128 עוקבים ) 132 # לדירוג האמנים המלא לדף הסטנדאפיסטים המלא איך מחושב הדירוג המשוקלל לשנת 2026? הדירוג הכללי בטיק'צאק LIVE משקף את הפעילות שלך בשנה הקלנדרית הנוכחית / בשנה הקלנדרית הקודמת (מתאריך 01.01). הציון מורכב משקלול של שלושה מדדים מרכזיים: 1. מספר הופעות : מספר ההופעות שהופיעו בטיק'צאק LIVE השנה. 2. מעורבות קהל : שקלול צפיות בפרופיל, צפיות באירועים ומעברים לרכישת כרטיסים. 3. עוקבים : מספר העוקבים והצמיחה בקהל המעריצים. סגור דירוג אמני ישראל המלא התפלגות דירוגים של משתמשים דירוג משתמשים אין עדיין דירוגים למתן פרץ היו הראשונים לדרג דרג 1 0% 2 0% 3 0% 4 0% 5 0% קרדיט לצלם קרדיט לצלם: דוד גור אריה - לרישיון המלא הרשמו לעדכונים על הופעות חדשות של מתן פרץ! הצטרפו אלינו בכדי לקבל עדכונים ראשוניים על הופעות שעולות בפורטל LIVE. הצטרפו לקהילת העוקבים אחרי מתן פרץ ב-LIVE, פורטל התרבות של ישראל. לעקוב הכל על מתן פרץ מתן פרץ (נולד ב-18 באוגוסט, 1988) הוא סטנדאפיסט, כוכב רשת ומוזיקאי ישראלי. ביוגרפיה מתן פרץ נולד בירושלים בשנת 1988. עד לסיום בית הספר היסודי, התגורר בקרית ארבע. לאחר מכן, עבר לגור עם משפחתו ברמת בית שמש, למד בישיבה חרדית בשכונת בית וגן בירושלים. בגיל 16 עבר עם משפחתו לגן יבנה, ולמד בישיבה התיכונית אור עציון. בשנת 2006 התגייס לצה\"ל ושירת כלוחם בגדוד לביא. בשנת 2014 למד פרץ מוזיקה במסלול ״זמר יוצר״ במכללת BPM בתל אביב. בשנים 2015 עד 2018 למד לתואר ראשון בתקשורת במכללת ספיר. בשנת 2018 הצטרף לפרויקט היוטיוב \"My Vibe\" של כוכב הרשת סהר קליזו, חברו של מתן מילדות. בהמשך הצטלם פרץ לתוכנית הריאליטי \"פרויקט קליזו\", ששודרה ב-HOT ועקבה אחרי משתתפי הפרויקט. יחד עם קליזו, פרסם פרץ את השיר \"אל תחשבי עלי\", שהפך ללהיט ברשת החברתית טיקטוק. במקביל, החל פרץ להופיע בתור סטנדאפיסט והחל בקריירת סטנדאפ. פרץ העלה קטעי סטנדאפ לרשת, ואלו זכו להצלחה גדולה. לאחר תקופת הקורונה, הפך לאמן בית במועדון הסטנדאפ פקטורי. בשנת 2022 החל להגיש פודקאסט בשם \"נכנסים לפינות\", יחד עם רז ספני, אותו הכיר בפרויקט של סהר קליזו. בעת מלחמת חרבות ברזל, החל פרץ להעלות סרטוני הסברה באנגלית לרשתות, אשר זכו לתהודה בינלאומית. בשנת 2024 הצטרף כחבר קבוע לתוכנית מה שתגידו בכאן 11. כמו כן, פרץ החל להשתתף בקביעות בפודקאסט \"הגג של יצחקי\". בספטמבר 2024 פורסם כי פרץ ידבב בגרסה הישראלית לסרט \"רובוטריקים: ההתחלה\". חיים אישיים פרץ רווק, מתגורר בחולון. אביו הוא אלי פרץ, תא\"ל במילואים. לצפייה בויקיפדיה צילום: ירדן יוסף לוי - לרישיון המלא הכתבה משתמשת בתוכן מהערך מתן פרץ וזמינה ברישיון יחוס-שיתוף זהה CC BY-SA 2.5 הכל על מתן פרץ צילום: ירדן יוסף לוי - לרישיון המלא מתן פרץ (נולד ב-18 באוגוסט, 1988) הוא סטנדאפיסט, כוכב רשת ומוזיקאי ישראלי. הכתבה משתמשת בתוכן מהערך מתן פרץ וזמינה ברישיון יחוס-שיתוף זהה CC BY-SA 2.5 ביוגרפיה מתן פרץ נולד בירושלים בשנת 1988. עד לסיום בית הספר היסודי, התגורר בקרית ארבע. לאחר מכן, עבר לגור עם משפחתו ברמת בית שמש, למד בישיבה חרדית בשכונת בית וגן בירושלים. בגיל 16 עבר עם משפחתו לגן יבנה, ולמד בישיבה התיכונית אור עציון. בשנת 2006 התגייס לצה\"ל ושירת כלוחם בגדוד לביא. בשנת 2014 למד פרץ מוזיקה במסלול ״זמר יוצר״ במכללת BPM בתל אביב. בשנים 2015 עד 2018 למד לתואר ראשון בתקשורת במכללת ספיר. בשנת 2018 הצטרף לפרויקט היוטיוב \"My Vibe\" של כוכב הרשת סהר קליזו, חברו של מתן מילדות. בהמשך הצטלם פרץ לתוכנית הריאליטי \"פרויקט קליזו\", ששודרה ב-HOT ועקבה אחרי משתתפי הפרויקט. יחד עם קליזו, פרסם פרץ את השיר \"אל תחשבי עלי\", שהפך ללהיט ברשת החברתית טיקטוק. במקביל, החל פרץ להופיע בתור סטנדאפיסט והחל בקריירת סטנדאפ. פרץ העלה קטעי סטנדאפ לרשת, ואלו זכו להצלחה גדולה. לאחר תקופת הקורונה, הפך לאמן בית במועדון הסטנדאפ פקטורי. בשנת 2022 החל להגיש פודקאסט בשם \"נכנסים לפינות\", יחד עם רז ספני, אותו הכיר בפרויקט של סהר קליזו. בעת מלחמת חרבות ברזל, החל פרץ להעלות סרטוני הסברה באנגלית לרשתות, אשר זכו לתהודה בינלאומית. בשנת 2024 הצטרף כחבר קבוע לתוכנית מה שתגידו בכאן 11. כמו כן, פרץ החל להשתתף בקביעות בפודקאסט \"הגג של יצחקי\". בספטמבר 2024 פורסם כי פרץ ידבב בגרסה הישראלית לסרט \"רובוטריקים: ההתחלה\". חיים אישיים פרץ רווק, מתגורר בחולון. אביו הוא אלי פרץ, תא\"ל במילואים. לצפייה בויקיפדיה עוד מידע עקבו אחר טיקצאק ב: © 2026 Tickchak, Inc. השימוש באתר מהווה הסכמה ל מדיניות הפרטיות טיקצ'אק LIVE הינו מיזם להנגשת התרבות בישראל לקהל הרחב. באתר מוצגים הופעות ואירועים הנאגרים באופן אוטמטי ללא בדיקה ומועברים לאתר המכירה המקורי. נתוני ההופעות אינם באחריות טיקצ'אק",
+      "source_detail_text_length": 7867,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_2b8d59b9f755ec9b7983",
+      "venue_institution_id": "yadlabanim_ashdod"
+    },
+    {
+      "city": "אשדוד",
       "title": "נישואים גרעיניים",
       "description": null,
       "start_date": "2026-12-19",
@@ -22292,125 +21640,6 @@
       "content_enrichment_retry_after": "2026-10-09"
     },
     {
-      "city": "אשדוד",
-      "title": "בודי בלט| סדנא בונה עצם לנשים",
-      "description": null,
-      "start_date": "2026-12-21",
-      "end_date": null,
-      "start_time": "11:00",
-      "end_time": null,
-      "venue": "סטודיו מחול בלט פאנוב -מרכז מונארט",
-      "address": "דרך ארץ 8, אשדוד",
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": 10,
-      "price_max_ils": 10,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
-      "purchase_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": 60,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:28:07Z",
-      "last_verified_at": "2026-10-08T05:28:07Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_fdeb756625c3f837de13",
-      "detail_checked_at": "2026-10-07",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "detail_source_url": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
-      "details_verified": true,
-      "venue_institution_id": "monart_ashdod",
-      "venue_phone": "08-8545170",
-      "venue_website": "https://www.ironit.org.il/",
-      "address_source": "verified_institution_registry",
-      "contact_phone": "08-8545170",
-      "contact_email": "monart@ironit.org.il",
-      "image_rights_status": "owned_system_asset",
-      "image_strategy": "super_editor_representative_fallback",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "poster_composite",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/בודי_בלט|_סדנא_בונה_עצם_לנשים/?id=17277",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-07T17:55:42Z",
-      "missing_information": [
-        "מספר מקומות/הגבלת משתתפות",
-        "האם יש צורך להביא ציוד ספציפי (מזרון, נעליים, בקבוק מים)",
-        "רמת קושי נדרשת/האם מתאים למתחילות",
-        "שפת ההנחיה (עברית/שפות נוספות)",
-        "פרטי יצירת קשר של המארגנים להרשמה או בירורים",
-        "כתובת מדויקת בתוך מרכז מונארט ופרטי הגעה ספציפיים",
-        "מדיניות ביטול או החזר כספי"
-      ],
-      "event_summary": "סדנת \"בודי בלט\" היא שיעור תנועתי קצר המוצע כנראה כמסגרת התעמלות בונה עצם לנשים. הסדנה תתקיים ביום שני 21/12/2026 בין השעות 11:00–12:00 בסטודיו מחול בלט פאנוב – מרכז מונארט באשדוד. ההנחיה תהיה בידי אנסטסיה מרטיאנוב, והכניסה בתשלום של 10 ₪. האירוע מתקיים במסגרת מועדון \"גדולות מהחיים\".",
-      "short_pitch": "סדנת בודי בלט – שיעור תנועתי בן שעה לנשים, בהדרכת אנסטסיה מרטיאנוב, בסטודיו מחול בלט פאנוב באשדוד. מחיר כניסה 10 ₪. מועיל למי שמחפשת פעילות קבוצתית קצרה וממוקדת.",
-      "long_description": "הסדנת \"בודי בלט\" מוצעת כנראה כשיעור תנועתי ייעודי לנשים שמוגדר כהתעמלות בונה עצם. השיעור מתקיים בסטודיו מחול בלט פאנוב שבמרכז מונארט באשדוד ונמשך שעה אחת — יום שני, 21 בדצמבר 2026, 11:00–12:00. ההנחיה מופקדת על אנסטסיה מרטיאנוב, והאירוע משווק במסגרת מועדון \"גדולות מהחיים\". הכניסה בתשלום של 10 ש״ח, והרשמה מתבצעת דרך מערכת הכרטיסים של האתר המפרסם. התיאור הזמין הוא תכליתי ולא מפרט שיטת אימון מפורטת או ציוד נדרש, ולכן מומלץ לבדוק פרטים לוגיסטיים נוספים לפני ההגעה. הסדנה מתאימה לנשים המעוניינות להשתתף בשיעור תנועתי קבוצתי ולקחת חלק באירוע קצר וממוקד בזמן בוקר.",
-      "event_type": "סדנה תנועתית לנשים",
-      "participants": [
-        "אנסטסיה מרטיאנוב"
-      ],
-      "target_audience": [
-        "נשים",
-        "מעוניינות בפעילות גופנית קבוצתית",
-        "מחפשות שיעור תנועתי קצר"
-      ],
-      "visual_keywords": [
-        "נשים בסטודיו מחול",
-        "הדרכה קבוצתית",
-        "תנוחות תנועה עדינות",
-        "רצפת סטודיו ריקוד",
-        "תאורת סטודיו טבעית",
-        "ביגוד אימון נוח",
-        "קבוצה קטנה מסודרת"
-      ],
-      "image_brief": "צילום פנורמי של סטודיו מחול מואר במקצת, קבוצה קטנה של נשים בעמדות תנועה עדינות בהנחיית מדריכה שמולן. רצפת הסטודיו וניתן לראות מוט/מקום אימון רקע ריקודי, כולם בלבוש אימון נוח. התמונה משדרת שיעור תנועתי בוקר, אווירה שקטה וממוקדת, ללא טקסט על התמונה.",
-      "media_status": "needs_image_research",
-      "content_enrichment_status": "model_error",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/",
-          "rights_status": "needs_review"
-        }
-      ],
-      "content_enrichment_retry_after": "2026-10-09",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
-    },
-    {
       "event_id": "evt_32_20261222",
       "city": "אשדוד",
       "title": "אהבה - הקרנת סרט ומפגש שיח",
@@ -22510,130 +21739,6 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0297724a38ceaf805a1f5e45",
       "content_enrichment_retry_after": "2026-10-09"
-    },
-    {
-      "city": "אשדוד",
-      "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
-      "description": null,
-      "start_date": "2026-12-24",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "אשדוד",
-      "address": null,
-      "district": null,
-      "category": "workshop",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "assets/defaults/workshop.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 102,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/il.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/languages/ru.gif",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://ashdod.smarticket.co.il/images/logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        },
-        {
-          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
-          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-          "rights_status": "needs_review",
-          "score": 80,
-          "reason": "detail_img"
-        }
-      ],
-      "image_origin_url": "assets/defaults/workshop.svg",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "organizer": null,
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-08T05:55:08Z"
-        }
-      ],
-      "observed_at": "2026-10-08T05:55:08Z",
-      "last_verified_at": "2026-10-08T05:55:08Z",
-      "status": "active",
-      "quality_flags": [
-        "automated_official_listing",
-        "detail_page_collected"
-      ],
-      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
-      "source_detail_text": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים דף הבית סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים 24/12/2026 10:00 סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים מרכז פסגה (מפת הגעה) ביום חמישי, 24 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
-      "source_detail_text_length": 443,
-      "image_strategy": "super_editor_representative_fallback",
-      "event_id": "auto_as_2eb56d2075f1de010bd3",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_version": 8,
-      "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content",
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
     },
     {
       "city": "אשדוד",
@@ -25579,7 +24684,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "workshop",
+      "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25591,12 +24696,71 @@
       "purchase_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -25606,73 +24770,21 @@
           "name": "ashdod_smarticket",
           "url": "https://ashdod.smarticket.co.il/",
           "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
+          "observed_at": "2026-10-09T05:28:16Z"
         }
       ],
-      "observed_at": "2026-10-08T05:28:07Z",
-      "last_verified_at": "2026-10-08T05:28:07Z",
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
       "status": "active",
       "quality_flags": [
-        "automated_official_listing"
+        "automated_official_listing",
+        "detail_page_collected"
       ],
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/",
-          "rights_status": "needs_review"
-        }
-      ],
-      "image_strategy": "super_editor_representative_fallback",
-      "media_status": "needs_image_research",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-07T18:06:57Z",
-      "missing_information": [
-        "שם המארגן או גוף המארגן הרשמי",
-        "האם יש צורך בהרשמה מראש או כמות מקומות מוגבלת",
-        "האם החומרים כלולים במחיר או יש להביא חומרים אישיים",
-        "גיל מינימלי נדרש/הגבלות גיל אחרות",
-        "פרטי קשר ליצירת קשר או לבירורים נוספים",
-        "שפת ההנחיה"
-      ],
-      "event_summary": "סדנת יצירה בעיסת נייר להכנת דלעת, בהנחיית רחל חציר. האירוע מתקיים במרכז הקהילתי טנה, אשדוד, ביום חמישי ה־21 בינואר 2027, בשעה 10:00 ונמשך שעה ו־30 דקות. הכרטיס עולה 10 ש\"ח והסדנה מיועדת ל'גדולות מהחיים'.",
-      "short_pitch": "סדנה מעשית של עיסת נייר להכנת דלעת בהנחיית רחל חציר — מפגש יצירה קצר, ידידותי וממוקד, באולם הקטן של מרכז קהילתי טנה באשדוד. מחיר כניסה 10 ש\"ח.",
-      "long_description": "הסדנה עוסקת בעיסת נייר ליצירת דלעת, בניהול ובהנחיית רחל חציר. המפגש מתקיים במרכז הקהילתי טנה (אולם קטן), שבזי 3, אשדוד, ביום חמישי ה־21 בינואר 2027, בין השעות 10:00־11:30. מדובר בפעילות בת שעה וחצי, המוצעת במחיר של 10 ש\"ח. הכותרת מציינת שהסדנה ייעודית לקהל ה'גדולות מהחיים' — כלומר לקבוצה ממוקדת שאותה הכניסו לכותרת האירוע. הסדנה מתאימה למי שמחפשת מפגש יצירתי קצר ומעשי, שבו עובדים בחומרים פשוטים לקבלת אובייקט דקורטיבי בדמות דלעת. פרטי רישום, מוגבלויות נוכחות, חומרים שצריך להביא ואופן התשלום מופיעים בפלטפורמת המכירה המקורית של האירוע.",
-      "event_type": "סדנה",
-      "participants": [
-        "רחל חציר"
-      ],
-      "target_audience": [
-        "נשים בוגרות",
-        "חובבי יצירה"
-      ],
-      "visual_keywords": [
-        "דלעת מעיסת נייר בשלבי עבודה",
-        "ידיים שמדביקות ניילון/נייר",
-        "קערת דבק ומברשת",
-        "שולחן עבודה עם כלי יצירה",
-        "אולם קהילתי קטן עם שולחנות",
-        "צבעים אקריליים ומכחולים",
-        "חתיכות נייר ומשטחים מגן",
-        "תוצר דלעת צבעוני מוכנה להצגה"
-      ],
-      "image_brief": "צילום ענייני של שולחן עבודה בסדנת יצירה: במרכז דלעת מעיסת נייר בשלבי עיצוב, סביבו כלי יצירה — קערת דבק, מברשות, חתיכות נייר שונות וצבעים. ברקע טקסטורה של אולם קהילתי קטן (שולחנות וכיסאות מטושטשים), ותאורה טבעית רכה. התמונה תעביר אווירה מעשית, ידידותית וממוקדת ביצירה, בלי טקסטים או לוגואים.",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "detail_source_url": "https://ashdod.smarticket.co.il/עיסת_נייר_דלעת_עם_רחל_חציר-ייעודי_לגדולות_מהחיים/?id=17208",
+      "source_detail_text": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים דף הבית עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים 21/01/2027 10:00 עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום חמישי, 21 בינואר 2027 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
+      "source_detail_text_length": 400,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_067e3bb9166f3ccd4cf9"
     },
     {
       "city": "אשדוד",
@@ -25685,7 +24797,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "workshop",
+      "category": "other",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -25697,12 +24809,71 @@
       "purchase_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/defaults/festival.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_origin_url": "assets/defaults/festival.svg",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -25712,76 +24883,21 @@
           "name": "ashdod_smarticket",
           "url": "https://ashdod.smarticket.co.il/",
           "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
+          "observed_at": "2026-10-09T05:28:16Z"
         }
       ],
-      "observed_at": "2026-10-08T05:28:07Z",
-      "last_verified_at": "2026-10-08T05:28:07Z",
+      "observed_at": "2026-10-09T05:28:16Z",
+      "last_verified_at": "2026-10-09T05:28:16Z",
       "status": "active",
       "quality_flags": [
-        "automated_official_listing"
+        "automated_official_listing",
+        "detail_page_collected"
       ],
-      "event_id": "auto_as_f1c4b053e11c06583785",
-      "image_rights_status": "owned_system_asset",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/",
-          "rights_status": "needs_review"
-        }
-      ],
-      "image_strategy": "super_editor_representative_fallback",
-      "media_status": "needs_image_research",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-07T18:07:14Z",
-      "missing_information": [
-        "פרטי ארגון/מארגן רשמי ופרטי יצירת קשר",
-        "האם יש הגבלת גיל מדויקת או דרישות רמת כושר",
-        "מגדר המשתתפים המותאם בדיוק ל\"ייעודי לגדולות מהחיים\"",
-        "מקסימום משתתפים וקיבולת האולם",
-        "הנחיות לביגוד/נעליים או ציוד נדרש",
-        "מידע על נגישות ונוחיות חניה",
-        "קישור ישיר לרכישת הכרטיסים או פרטי תשלום"
-      ],
-      "event_summary": "שיעור ריקודי עם בהנחיית רונית זוהר, מיועד לקבוצת \"ייעודי לגדולות מהחיים\". יתרחש ביום ראשון, 24 בינואר 2027, 10:00–11:30 במרכז הקהילתי טנה (אולם קטן), שבזי 3, אשדוד. הכניסה בתשלום של 10 ש\"ח והרכישה מתבצעת דרך אתר המארגנים.",
-      "short_pitch": "מפגש ריקודי עם פרקטי ואינטימי עם רונית זוהר במרכז הקהילתי טנה באשדוד — שיעור של שעה וחצי המיועד לקבוצה הייעודית \"גדולות מהחיים\". עלות כניסה 10 ש\"ח; יש לרכוש כרטיסים מראש באתר.",
-      "long_description": "ריקודי עם עם רונית זוהר הוא מפגש ריקוד אחד של שעה וחצי המתקיים במרכז הקהילתי טנה, באולם קטן ברחוב שבזי 3 באשדוד. האירוע מיועד כפעילות ייעודית לקבוצה הנקראת \"גדולות מהחיים\" ונועד להציע חוויה קבוצתית של ריקוד עממי בסביבה קהילתית. השיעור מתחיל בשעה 10:00 ונמשך עד 11:30; עלות ההשתתפות נקובה ב-10 ש\"ח. ההרשמה והרכישה מתבצעות דרך מערכת הכרטיסים באתר המארגנים. הפרטים בטקסט המקורי אינם מפרטים רמת קושי, ציוד נדרש או דרישות גיל מדויקות, לכן מומלץ לוודא מול מערכת המכירה אם ישנן הנחיות נוספות לפני הגעה. המיקום באולם קטן מתאים לקבוצה מצומצמת ולמפגש חברי ופשוט.",
-      "event_type": "ריקודי עם",
-      "participants": [
-        "רונית זוהר"
-      ],
-      "target_audience": [
-        "נשים",
-        "מבוגרים",
-        "חובבי ריקודי עם",
-        "תושבי אשדוד והסביבה"
-      ],
-      "visual_keywords": [
-        "נשים רוקדות בקבוצה",
-        "מדריכה מובילה תרגיל",
-        "אולם קהילתי קטן",
-        "רצפת פרקט/ריצוף חלק",
-        "לבוש נוח לאימונים",
-        "אווירה חברותית וקבוצתית",
-        "כיסאות ליד הקירות",
-        "תאורה חמה במקום סגור"
-      ],
-      "image_brief": "תצלום רחב של אולם קהילתי קטן בו קבוצת נשים מבצעת צעדי ריקודי עם בהנחיית מדריכה. המדריכה במרכז או מקדימה, המשתתפות מסודרות בשורות או במעגל קל; הרקע מציג קירות פשוטים, רצפת פרקט ואולי כיסאות מסודרים בצדי האולם. האווירה נראית ידידותית ולא רשמית, עם לבוש נוח ותאורה חמה שמדגישה מפגש קהילתי פעיל.",
-      "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "detail_source_url": "https://ashdod.smarticket.co.il/ריקודי_עם_רונית_זוהר-_ייעודי_לגדולות_מהחיים_/?id=17206",
+      "source_detail_text": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים דף הבית ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים 24/01/2027 10:00 ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד (מפת הגעה) ביום ראשון, 24 בינואר 2027 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
+      "source_detail_text_length": 385,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_f1c4b053e11c06583785"
     },
     {
       "city": "אשדוד",
@@ -34374,5 +33490,5 @@
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
   "generatedAt": "2026-10-05T12:47:00+03:00",
-  "detail_enrichment_checked_at": "2026-10-08T05:56:11.154875+00:00"
+  "detail_enrichment_checked_at": "2026-10-09T05:29:13.972536+00:00"
 }
