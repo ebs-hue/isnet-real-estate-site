@@ -8,7 +8,7 @@
   "stats": {
     "events": 321,
     "other_category_remaining": 0,
-    "seniors": 27,
+    "seniors": 40,
     "tour_remaining": 0,
     "seniors_category_defaults_applied": 25
   },
@@ -4059,8 +4059,11 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -4170,13 +4173,15 @@
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -11334,8 +11339,11 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "lecture",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -11433,7 +11441,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "audience_program": "גדולות מהחיים",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -12185,8 +12199,11 @@
       "venue": "אולם דיונה אשדוד",
       "address": "שדרות קק״ל 90, אשדוד",
       "district": null,
-      "category": "lecture",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -12286,7 +12303,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "lecture",
+      "category_previous": "lecture",
+      "audience_program": "גדולות מהחיים",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00"
     },
     {
       "event_id": "evt_74_20261104",
@@ -13126,8 +13149,11 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -13237,13 +13263,15 @@
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -13492,8 +13520,11 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -13606,10 +13637,12 @@
       "content_enrichment_version": 8,
       "content_enrichment_retry_after": "2026-10-09",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -17148,8 +17181,11 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -17259,13 +17295,15 @@
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "event_id": "evt_82_20261123",
@@ -20377,8 +20415,11 @@
       "venue": "אולם דיונה -קק\"ל 90 אשדוד",
       "address": null,
       "district": null,
-      "category": "festival",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": 10,
@@ -20471,11 +20512,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "category_previous": "festival",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "thumbnail_error": "ValueError",
+      "activity_type": "festival",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -22275,8 +22318,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "lecture",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -22382,11 +22428,13 @@
       "media_status": "waiting_for_content",
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "lecture",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "lecture",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "event_id": "evt_88_20261229",
@@ -24455,8 +24503,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "sport",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -24544,11 +24595,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "sport",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "sport",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -24887,8 +24940,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -24989,13 +25045,15 @@
       "image_strategy": "super_editor_representative_fallback",
       "event_id": "auto_as_067e3bb9166f3ccd4cf9",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -25008,8 +25066,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "workshop",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -25110,13 +25171,15 @@
       "image_strategy": "super_editor_representative_fallback",
       "event_id": "auto_as_f1c4b053e11c06583785",
       "media_status": "waiting_for_content",
-      "category_previous": "other",
-      "category_review_status": "assistant_researched_reclassified",
-      "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "category_previous": "workshop",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "workshop",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -26722,8 +26785,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "community",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -26812,11 +26878,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "community",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "community",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
@@ -27045,8 +27113,11 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "lecture",
-      "audiences": [],
+      "category": "seniors",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
       "age_min": null,
       "age_max": null,
       "price_min_ils": null,
@@ -27132,11 +27203,13 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "category_previous": "other",
-      "category_review_status": "assistant_manual_reclassified",
-      "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "category_previous": "lecture",
+      "category_review_status": "program_audience_rule",
+      "category_review_confidence": 1,
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "thumbnail_error": "UnidentifiedImageError",
+      "activity_type": "lecture",
+      "audience_program": "גדולות מהחיים"
     },
     {
       "city": "אשדוד",
