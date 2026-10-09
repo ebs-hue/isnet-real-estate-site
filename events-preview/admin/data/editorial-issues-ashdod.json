@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "created_at": "2026-10-09",
+  "purpose": "Preserve internal editorial findings separately from public event descriptions, with explicit resolution workflow.",
+  "status_definitions": {
+    "open": "Requires source research or factual clarification",
+    "in_progress": "Assigned to editorial investigation",
+    "resolved": "Verified and corrected; evidence recorded",
+    "blocked": "No reliable evidence yet; do not invent facts"
+  },
+  "issues": [
+    {
+      "id": "ashdod-shnei-olamot-20270309-internal-notes",
+      "event_title": "שני עולמות",
+      "event_date": "2027-03-09",
+      "public_url": "https://isnet.co.il/events-preview/ashdod/event.html?slug=שני-עולמות-e4901160",
+      "status": "open",
+      "severity": "high",
+      "type": "internal_notes_exposed_in_public_description",
+      "observed_at": "2026-10-09",
+      "evidence": "User screenshot shows publicly visible internal caveat: 'העמוד אינו מפרט את אופיו המדויק של האירוע' and editorial advice to verify details.",
+      "editorial_questions": [
+        "מה סוג האירוע בפועל: הצגה, מופע מוזיקלי, הרצאה או פעילות אחרת?",
+        "מה התוכן האמיתי והערך לקהל?",
+        "האם משך האירוע, מחיר הכרטיסים והפרטים האחרים מאומתים?"
+      ],
+      "required_actions": [
+        "Preserve original public text and source URLs in audit before any replacement",
+        "Research primary event-specific source and additional credible source where necessary",
+        "Move internal caveats to internal review record, not public description",
+        "Publish only independently verified public-facing copy",
+        "Confirm updated text is visible on public page and close issue with evidence"
+      ],
+      "publication_gate": "hold_until_verified",
+      "resolution": null
+    }
+  ],
+  "rules": [
+    "Never delete editorial observations merely because they are unsuitable for public display.",
+    "Track each issue by event ID or stable URL, status, evidence, required actions, and resolution.",
+    "Public copy and editorial investigation notes must be separate fields.",
+    "Do not mark resolved without verifying live public page and preserving original observation."
+  ]
+}
