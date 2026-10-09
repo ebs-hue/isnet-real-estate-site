@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "status": "assets_generated_locally_not_uploaded",
+  "generated_batch": "2026-10-09-draft-01",
+  "image_root": "events-preview/shared/images/defaults/",
+  "notes": [
+    "Twenty draft WebP files exist in conversation artifact event-image-bank-draft.zip, but not yet in repository or CMS.",
+    "Do not assign missing or generic images until each asset is uploaded and its public URL verified.",
+    "Only match image themes semantically, not by arbitrary category; preserve event-specific verified photos."
+  ],
+  "assets": [
+    {
+      "category": "music",
+      "filename": "music.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "theatre",
+      "filename": "theatre.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "standup",
+      "filename": "standup.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "kids",
+      "filename": "kids.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "lecture",
+      "filename": "lecture.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "conference",
+      "filename": "conference.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "exhibition",
+      "filename": "exhibition.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "festival",
+      "filename": "festival.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "community",
+      "filename": "community.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "tour",
+      "filename": "tour.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "sport",
+      "filename": "sport.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "cinema",
+      "filename": "cinema.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "food",
+      "filename": "food.webp",
+      "uploaded": false,
+      "verified_url": null
+    },
+    {
+      "category": "seniors",
+      "filename": "community.webp",
+      "uploaded": false,
+      "verified_url": null
+    }
+  ],
+  "agent_instruction": {
+    "phase": "audit_only_until_assets_verified",
+    "scope": "ashdod",
+    "scan": [
+      "events with empty or broken image",
+      "events using known generic default images"
+    ],
+    "image_precedence": [
+      "licensed verified event image",
+      "licensed artist or venue image",
+      "verified subcategory default",
+      "verified category default"
+    ],
+    "guardrails": [
+      "Do not overwrite a real licensed event photo.",
+      "Do not publish image substitutions without a reachable URL.",
+      "Do not use a misleading picture of a performer, team or venue.",
+      "Log event ID, prior image, proposed image, reason and confidence.",
+      "Review substitutions before bulk publishing."
+    ]
+  }
+}
