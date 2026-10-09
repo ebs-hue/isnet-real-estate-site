@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:47:46Z",
+  "generated_at": "2026-10-09T03:48:24Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -44,8 +44,8 @@
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1671f155d6a206c3de2b",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "title": "מ.ס. אשדוד - מכבי קריית גת",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
