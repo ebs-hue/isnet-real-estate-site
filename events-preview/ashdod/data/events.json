@@ -2804,7 +2804,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17554",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:00:30Z",
       "missing_information": [
@@ -2842,7 +2842,7 @@
       ],
       "image_brief": "תמונת כיסוי צריכה להמחיש את הדו־שיח בין הציור המופשט לסצנות הווידאו: בחזית צילום רוחבי של ציור פורמט גדול של עמית קבסה שמציג מרקם וצבע חזקים, וברקע מוקם מסך קטן או מוקד וידאו שמייצג את עבודות הווידאו מהאוסף. התאורה טבעית/מוזאונית, שני–שלושה מבקרים קטנים במבנה להמחשת גודל ועומק; אין להוסיף טקסט על התמונה.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "כניסה לתערוכות – מוזיאון אשדוד לאמנות, 13.10.2026",
@@ -2856,7 +2856,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -2929,7 +2930,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/שירי_קריוקי_בקצב_הדרבוקה/?id=17300",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:00:55Z",
       "missing_information": [
@@ -2963,7 +2964,7 @@
         "אווירה שמחה ומגבשת"
       ],
       "image_brief": "תצלום כיסוי שיתמקד בקבוצה קטנה של משתתפים מבוגרים במהלך המפגש: מדריך (יהודה אלגרבי) באמצע מדגים תיפוף בדרבוקה בעוד כמה משתתפים מחזיקים דרבקות ומיקרופון קריוקי. האווירה חמה, תאורה רכה ותנועה קלה של ידיים להבעת קצב; הבעות פנים של צחוק ושיתוף. המיקום יתאר אולם קהילתי אינטימי אך לא יציג טקסט או לוגו.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "שירי קריוקי בקצב הדרבוקה — סדנה לגיל השלישי",
       "seo_description": "סדנה של שירה ותיפוף עם יהודה אלגרבי — חוויה אנרגטית לגיל השלישי. מרכז קהילתי טנה, 13 באוקטובר 2026 ב-10:30. עלות 10₪.",
       "image_subject_type": "artist_or_speaker",
@@ -2975,7 +2976,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -3044,7 +3046,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/איתמר_וכובע_הקסמים_/?id=17636",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:02:10Z",
       "missing_information": [
@@ -3086,7 +3088,7 @@
         "הבעות תימהון ושמחה"
       ],
       "image_brief": "תמונת שער שמציגה רגע של פליאה: ילד קטן (מיתאר את איתמר) מחזיק כובע קסמים גדול ממנו יוצאים ניצוצות אור או חלקיקים זוהרים; ברקע דמות מבוגרת (אב) מטושטשת במעט והקצה של תיבת צעצועים פתוחה שממנה מציץ קוף שובב. תאורה חמה ובימתית, תחושת פלא וצבעוניות בתלבושות — ללא טקסט על התמונה.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "איתמר וכובע הקסמים — הצגה לילדים | 13.10.2026 אשדוד",
       "seo_description": "הצגה מוזיקלית של תיאטרון אורנה פורת, על פי דויד גרוסמן. לגיל 4–7. ספרייה עירונית אשדוד, 13.10.2026 בשעה 17:15. משך כ-45 דק'.",
       "image_subject_type": "production_or_book",
@@ -3098,7 +3100,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
@@ -3164,11 +3167,11 @@
       "media_status": "needs_image_research",
       "image_rights_status": "owned_system_asset",
       "content_ready_for_media": true,
-      "content_enrichment_status": "ready",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
       "content_enrichment_source": "",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:02:54Z",
       "missing_information": [
@@ -3276,13 +3279,13 @@
       "contact_email": "duna@ironit.org.il",
       "content_ready_for_media": true,
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
-      "content_enrichment_retry_after": "2026-10-14",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_ac936dcd2ec4f2dd3a42d89e",
       "content_enrichment_source": "https://live.tickchak.co.il/ashdod",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:03:35Z",
       "missing_information": [
@@ -3396,7 +3399,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17555",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:04:26Z",
       "missing_information": [
@@ -3434,7 +3437,7 @@
       ],
       "image_brief": "תמונת שער צריכה להעביר את ההיתוך בין שני המישורים בתערוכה: במרכז תמונה פנורמית של חלל המוזיאון עם ציור רחב היקף של עמית קבסה המראה מרקם אדמתי וכתמי צבע חזקים, לצד קיר שבו תלויה עבודת צילום מעובדת של הדס סט (מופחתת צבע אך בעלת תחושת שכבות). ברקע ישולבו באופן עדין מסך קטן המציג עבודת וידאו — הכל בתאורה מוזיאלית רכה שמדגישה מרקמים וחומר.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "כניסה לתערוכות: הדס סט ועמית קבסה — מוזיאון אשדוד",
@@ -3448,7 +3451,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_6_20261014",
