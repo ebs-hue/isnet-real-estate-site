@@ -24763,7 +24763,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/תיק_137/?id=8108",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:05:58Z",
       "missing_information": [
@@ -24795,7 +24795,7 @@
       ],
       "image_brief": "צילום מקורה רחב של המשכן לפני פתיחת המופע: אולם תיאטרון עם שורות מושבים מובילים אל במה מוארת ברקע או מסך הקרנה, ובחזית התמונה מזנון קטן בפוייה עם כוסות קפה ומגשים של מאפים. התאורה חמה של בוקר, אנשים נכנסים או עומדים ליד דלפק הכניסה, וכרטיס בכניסה מוחזק ביד של מבקר — תמונה שמשדרת רגע של הכנה לפתיחת מופע בוקר.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -24867,7 +24867,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33643",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:06:18Z",
       "missing_information": [
@@ -24908,7 +24908,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -24980,7 +24980,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/השועל_המוסיקלי_המוסיקה_האירית_/?id=16680",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:06:42Z",
       "missing_information": [
@@ -25014,7 +25014,7 @@
       ],
       "image_brief": "צילום ויזואלי של מופע מוזיקה אירית בחלל אינטימי: במה קטנה באולם עירוני עם תאורה חמה, נגנים עומדים או יושבים עם כלי נגינה עממיים (ללא דגש על זיהוי כלים ספציפיים), קהל ישוב וצופה מקרוב ואווירה נינוחה של פאב/מופע פולקלור. הרקע יכול להכיל רמז לנוף ירוק כדי להעביר את הקשר לאירלנד.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -25151,7 +25151,10 @@
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 11,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -25279,7 +25282,10 @@
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 11,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -25347,7 +25353,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/פרפר_נחמד_/?id=8133",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:07:32Z",
       "missing_information": [
@@ -25379,7 +25385,7 @@
       ],
       "image_brief": "תמונת כריכה המציגה מבט פנורמי על אולם המשכן לאמנויות הבמה באשדוד: שורות כיסאות ברקע קדמי, במה מוארת בתאורה חמה ואוירה תקופתית, ועל הבמה אלמנט גרפי או פרויקט של פרפר צבעוני (כאלמנט חזותי שמייצג את שם המופע). התמונה תעביר תחושת מופע תיאטרלי ורשות עירונית תרבותית בלי לכלול טקסט מוטמע.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
