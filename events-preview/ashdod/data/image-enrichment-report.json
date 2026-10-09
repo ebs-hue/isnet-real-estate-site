@@ -1,21 +1,18 @@
 {
-  "generated_at": "2026-10-09T07:16:36Z",
+  "generated_at": "2026-10-09T07:46:52Z",
   "total_events": 321,
-  "events_with_publishable_images": 289,
-  "events_still_missing_images": 32,
+  "events_with_publishable_images": 307,
+  "events_still_missing_images": 14,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 3,
-    "mishkan_smarticket": 29
+    "ashdod_smarticket": 2,
+    "mishkan_smarticket": 12
   },
   "missing_by_category": {
-    "workshop": 1,
+    "seniors": 1,
     "music": 12,
-    "theatre": 13,
-    "kids": 4,
-    "lecture": 1,
     "cinema": 1
   },
   "missing": [
@@ -30,21 +27,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "auto_as_f90a3e4493591be402c4",
-      "title": "צבעי הזמן",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_02e98c500343d8898158",
-      "title": "והילד הזה הוא אני",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_25368623f148530af959",
-      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_1d3394c08366170bd945",
       "title": "ציפי שביט – השירים שגדלנו עליהם",
       "reason": "no_verified_source_image"
@@ -52,46 +34,6 @@
     {
       "event_id": "auto_as_ee8c99e88b2fabffda94",
       "title": "VIENNA BALL",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_6c4a2a4051f27539ead9",
-      "title": "מלכת היופי של ירושלים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_0b2aa6658e011fe663a1",
-      "title": "מלכת היופי של ירושלים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_1caae4e5224cdc30a114",
-      "title": "מלכת היופי של ירושלים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_5fd8a10ff2fd7e22564d",
-      "title": "מלכת היופי של ירושלים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_5e9a7c24a75b670e4e6b",
-      "title": "מלכת היופי של ירושלים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_aa2b2468ee21cb65145c",
-      "title": "שביליסט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_29f849d06f37052801c3",
-      "title": "שביליסט",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb",
-      "title": "הכוכבים של סבא",
       "reason": "no_verified_source_image"
     },
     {
@@ -107,11 +49,6 @@
     {
       "event_id": "auto_as_f5a1dda55f5642c32383",
       "title": "RUSSIAN TITANS",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_17fa7f825b24639c734c",
-      "title": "הקוסם מארץ עוץ",
       "reason": "no_verified_source_image"
     },
     {
@@ -140,11 +77,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "auto_as_fc7e4b66f195b19083ff",
-      "title": "לונדון בירת המוזיקה והתיאטרון",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_4ada58fcddb5e9649fac",
       "title": "CON TEH PARTIRO",
       "reason": "no_verified_source_image"
@@ -152,31 +84,6 @@
     {
       "event_id": "auto_as_bddcc06ee533304d72a0",
       "title": "מחר יהיה טוב",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_11e60f4edfd1d4107da2",
-      "title": "לא הייתם צריכים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_6cc18562a4c23b0da579",
-      "title": "לא הייתם צריכים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_45ff2f1bef22fa6ab053",
-      "title": "לא הייתם צריכים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_8d04bec27c9e62832439",
-      "title": "לא הייתם צריכים",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_84645c77451dbc1cbbe6",
-      "title": "לא הייתם צריכים",
       "reason": "no_verified_source_image"
     }
   ]
