@@ -28010,7 +28010,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/דירה_להשכיר_|_שעת_סיפור_עם_רינתי/?id=17647",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:02Z",
       "missing_information": [
@@ -28045,7 +28045,7 @@
       "image_brief": "צילום צבעוני של שעת סיפור במרכז קהילתי: מספרת (רינתי) עומדת או יושבת בקדמת הבמה הקטנה ומדברת אל קבוצת ילדים שמסביב משתתפים בתנועה. בתפאורה אלמנטים של בניין בדימיון — דלתות וחלונות מצוירים או עמדות בובות שמייצגות דיירים. התאורה חמימה, הילדים לבושים באופן יום־יומי ונראים מעורבים בפעילות. התמונה תעביר תחושת אינטראקטיביות, תנועה וחמימות קהילתית.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_rights_status": "unknown",
       "image_strategy": "central_media_bank_reuse",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
@@ -28118,7 +28118,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/כנר_על_הגג_5e3c66a747/?id=8242",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:25Z",
       "missing_information": [
@@ -28150,7 +28150,7 @@
       "image_brief": "תצלום או אילוסטרציה של דמות כנר (סילואט) עומדת על גג בעיר בשעת דמדומים, מול רקע שמיים חמים ותאורת במה עדינה; ברקע מטושטש ניתן לראות שערי תאורה ובית קולנוע/אולם, וקהל מרוחק/כיסאות שורות המוצללות. התמונה תשדר אווירת ערב תיאטרלית ומוזיקלית בלי טקסט מוטמע.",
       "content_enrichment_status": "model_error",
       "image_strategy": "category_fallback",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -28229,7 +28229,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/MALEVO/?id=8224",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:17:46Z",
       "missing_information": [
@@ -28243,7 +28243,7 @@
         "פרטי המארגן ודרכי יצירת קשר נוספים"
       ],
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_represents_event": false,
       "image_represents_category": true,
       "category_previous": "other",
@@ -28311,7 +28311,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:18:02Z",
       "missing_information": [
@@ -28348,7 +28348,7 @@
       ],
       "image_brief": "תמונה רחבה של נוף אביבי באזור גדרה: שדה פורח או שולי כרם תחת אור בוקר רך, עם קבוצה קטנה של מטיילים ברקע שמשתלבים בטבע. בביצת התמונה יש פרטים שמרמזים על הדגש של הסיור — למשל חבית יין או צנצנת דבש ממוקמת באופן טבעי בקדמת המטרה, אך בלי טקסט מוטמע. אווירת התמונה צריכה לשדר הקיץ המתקרב/אביב, טבע וחקלאות ביתית.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "source_listing_card",
       "thumbnail_ratio": "4:3",
@@ -28357,7 +28357,8 @@
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
       "category_review_confidence": 1,
-      "category_reviewed_at": "2026-10-09T09:12:00+03:00"
+      "category_reviewed_at": "2026-10-09T09:12:00+03:00",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -28425,7 +28426,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8123",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:18:25Z",
       "missing_information": [
@@ -28458,7 +28459,7 @@
         "מבט מהחדר אל הבמה"
       ],
       "image_brief": "צילום שער מתאים: מבט מהשורה האחורית של אולם תיאטרון אל במה שבה תאורה מחולקת לשני טונים מנוגדים (למשל חם וקר), עם וילון חלקי ברקע ושורות מושבים ריקות בחזית. אין לכלול טקסט או לוגואים; התמונה תעביר תחושת דו-קיום/ניגודיות המתחברת לכותרת האירוע ״שני עולמות״.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_represents_event": false,
       "image_represents_category": true,
       "category_previous": "other",
@@ -28467,7 +28468,8 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -28535,7 +28537,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8124",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 2,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:18:43Z",
       "missing_information": [
@@ -28548,14 +28550,15 @@
         "פרטי קשר של המארגן והוראות הגעה/חניה",
         "פילוח כרטיסים (זכויות, מושבים, הנחות והחזרות)"
       ],
-      "content_enrichment_status": "insufficient",
+      "content_enrichment_status": "model_error",
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
       "category_previous": "other",
       "category_review_status": "assistant_researched_reclassified",
       "category_review_confidence": 0.98,
-      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
