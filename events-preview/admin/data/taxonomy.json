@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "secondary_categories": [
     {
       "id": "lectures",
@@ -788,5 +788,38 @@
         }
       ]
     }
-  ]
+  ],
+  "source_taxonomies": {
+    "ofek_ashdod": {
+      "label": "אופק אשדוד",
+      "categories": [
+        {
+          "id": "trips",
+          "label": "טיולים",
+          "suggested_category": "tour"
+        },
+        {
+          "id": "cafe-culture",
+          "label": "קפה תרבות",
+          "suggested_category": "lecture"
+        },
+        {
+          "id": "music-history-world",
+          "label": "מוזיקה, היסטוריה, עולם",
+          "suggested_category": null,
+          "requires_content_check": true
+        },
+        {
+          "id": "courses",
+          "label": "קורסים",
+          "suggested_category": "workshop"
+        }
+      ]
+    },
+    "habama_ashdod": {
+      "label": "הבמה",
+      "note": "הבמה מציגה לעיתים סוג אירוע/הערה ברמת השורה. יש לשמור אותו כ-source_category ולהשתמש בו כרמז לסיווג, לא כאמת מוחלטת.",
+      "categories": []
+    }
+  }
 }
