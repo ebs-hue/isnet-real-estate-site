@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-09T06:53:06Z",
+  "generated_at": "2026-10-09T06:58:36Z",
   "total_events": 321,
-  "events_with_publishable_images": 288,
-  "events_still_missing_images": 33,
+  "events_with_publishable_images": 289,
+  "events_still_missing_images": 32,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
-    "ashdod_smarticket": 4,
+    "ashdod_smarticket": 3,
     "mishkan_smarticket": 29
   },
   "missing_by_category": {
@@ -15,7 +15,7 @@
     "music": 12,
     "theatre": 13,
     "kids": 4,
-    "lecture": 2,
+    "lecture": 1,
     "cinema": 1
   },
   "missing": [
@@ -137,11 +137,6 @@
     {
       "event_id": "auto_as_42692e3659956eb6defb",
       "title": "תרועת הפסטיבלים .",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_86e8020e745d6b4201fb",
-      "title": "לחיות, להרגיש, להבין | הרצאה על המשוררת שיבטה טויו עם תמי כהן",
       "reason": "no_verified_source_image"
     },
     {
