@@ -12414,7 +12414,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/FATE___FIRE/?id=8135",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:42:07Z",
       "missing_information": [
@@ -12448,7 +12448,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_9f9ca96824d9a448cc6b7bcd",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -12520,7 +12520,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:42:27Z",
       "missing_information": [
@@ -12563,7 +12563,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
@@ -12635,7 +12635,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/%D7%99%D7%95%D7%9D_%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%94%D7%95%D7%93%D7%95_2026/?id=17144",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:43:02Z",
       "missing_information": [
@@ -12672,7 +12672,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_ae77cd0ed098e29be65721c7",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_56_20261105",
@@ -12734,10 +12734,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_efe9059eddc1d7d2d0753f73",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "event_id": "evt_57_20261105",
@@ -12814,10 +12814,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_dea96b94729e1a017cf0f177",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "thumbnail_error": "HTTPError"
     },
     {
@@ -12890,7 +12890,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T16:43:25Z",
       "missing_information": [
@@ -12931,7 +12931,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
