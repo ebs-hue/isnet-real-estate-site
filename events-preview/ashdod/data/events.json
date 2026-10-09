@@ -1837,8 +1837,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": "מרכז קהילתי ספרא",
       "duration_minutes": 90,
       "sources": [
@@ -1924,7 +1924,7 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -2284,8 +2284,8 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%A1%D7%A2%D7%A8%D7%94_%D7%91%D7%93%D7%9C%D7%99_%D7%9E%D7%99%D7%9D/?id=17271",
@@ -2403,8 +2403,8 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "detail_checked_at": "2026-10-06",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/%D7%AA%D7%A9%D7%90%D7%99%D7%A8%D7%99_%D7%A4%D7%AA%D7%95%D7%97_/?id=17269",
@@ -2473,7 +2473,7 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -3002,8 +3002,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -3612,8 +3612,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -3703,7 +3703,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -4150,8 +4150,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -4190,7 +4190,7 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -4975,8 +4975,8 @@
       "purchase_phone": null,
       "purchase_source": null,
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/0ef0880cc4f17704dd290b.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
@@ -5673,8 +5673,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -5771,7 +5771,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -6031,8 +6031,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -6122,7 +6122,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -6323,8 +6323,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -6407,7 +6407,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -6912,8 +6912,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -6993,7 +6993,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -7024,8 +7024,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -7108,7 +7108,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "ValueError"
     },
     {
       "event_id": "sport_20261019_ironi_ashdod_football",
@@ -7443,8 +7443,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 45,
       "sources": [
@@ -7954,8 +7954,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -8037,7 +8037,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -9195,8 +9195,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -9281,7 +9281,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -9971,8 +9971,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -10050,7 +10050,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -11066,8 +11066,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -11123,7 +11123,7 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -11401,8 +11401,8 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
       "image_strategy": "category_fallback",
       "thumbnail_ratio": "16:9",
@@ -11467,7 +11467,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "lecture",
       "category_previous": "lecture",
       "audience_program": "גדולות מהחיים",
@@ -11504,8 +11504,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -11725,8 +11725,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -12264,8 +12264,8 @@
       "purchase_phone": null,
       "purchase_source": "direct",
       "image_verified": true,
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
       "image_strategy": "category_fallback",
       "thumbnail_ratio": "16:9",
@@ -12332,7 +12332,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "lecture",
       "category_previous": "lecture",
       "audience_program": "גדולות מהחיים",
@@ -12773,8 +12773,8 @@
       "purchase_phone": null,
       "purchase_source": "blocked_competitor_listing",
       "image_verified": true,
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "assets/event-thumbs/44f71745a8b4f9a96dcaba.jpg",
+      "thumbnail_ready": true,
       "image_strategy": "artist_promo",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
@@ -13259,8 +13259,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -13299,7 +13299,7 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -13632,8 +13632,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -13676,7 +13676,8 @@
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -15202,8 +15203,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -15244,7 +15245,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -15277,8 +15278,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 50,
       "sources": [
@@ -15355,7 +15356,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -16093,8 +16094,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -16175,7 +16176,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "ValueError"
     },
     {
       "event_id": "evt_79_20261118",
@@ -17299,8 +17300,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -17339,7 +17340,7 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -18758,8 +18759,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -18837,7 +18838,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -18870,8 +18871,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -18949,7 +18950,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -19326,8 +19327,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/standup.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -19405,7 +19406,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -19679,8 +19680,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -19763,7 +19764,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -20085,8 +20086,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20486,8 +20487,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 90,
       "sources": [
@@ -20601,8 +20602,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20683,7 +20684,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -20827,8 +20828,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/standup.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -20905,7 +20906,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -21279,8 +21280,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -21361,7 +21362,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -21394,8 +21395,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": 60,
       "sources": [
@@ -21475,7 +21476,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -22049,8 +22050,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -22126,7 +22127,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -22460,8 +22461,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -22494,7 +22495,7 @@
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "lecture",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -23704,8 +23705,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -23758,7 +23759,7 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "category_previous": "other",
       "category_review_status": "assistant_researched_reclassified",
       "category_review_confidence": 0.98,
@@ -23795,8 +23796,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -23867,7 +23868,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "category_previous": "other",
       "category_review_status": "assistant_researched_reclassified",
       "category_review_confidence": 0.98,
@@ -24410,8 +24411,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24459,7 +24460,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -24594,8 +24595,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24669,7 +24670,7 @@
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "sport",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -24704,8 +24705,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24782,7 +24783,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25094,8 +25095,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25125,7 +25126,7 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -25222,8 +25223,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25253,7 +25254,7 @@
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "workshop",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -25288,8 +25289,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25366,7 +25367,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25500,8 +25501,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25558,7 +25559,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25591,8 +25592,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25661,7 +25662,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25694,8 +25695,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25771,7 +25772,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25804,8 +25805,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25885,7 +25886,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -25918,8 +25919,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -25997,7 +25998,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -26030,8 +26031,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26105,7 +26106,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -26138,8 +26139,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26219,7 +26220,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -26311,8 +26312,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26484,8 +26485,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26561,7 +26562,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -26705,8 +26706,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26783,7 +26784,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -26906,8 +26907,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -26982,7 +26983,7 @@
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "community",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -27017,8 +27018,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -27089,7 +27090,7 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -27238,8 +27239,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/seniors/seniors-lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -27311,7 +27312,7 @@
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T10:25:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "activity_type": "lecture",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
@@ -27635,8 +27636,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -27716,7 +27717,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -28062,8 +28063,8 @@
         }
       ],
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28131,7 +28132,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -28360,8 +28361,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28437,7 +28438,7 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError",
+      "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
     },
@@ -28762,8 +28763,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -28835,7 +28836,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -29066,8 +29068,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29141,7 +29143,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -29172,8 +29175,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29241,7 +29244,8 @@
       "image_brief": "תמונת כיסוי המציגה את רינתי הליצנית במרכז הקומפוזיציה, עומדת ביער ציורי מוקף עצים צבעוניים וחיות קטנות בתחפושות. האווירה חגיגית ופורים־ססגוני: בדים ותלבושות צבעוניות, שלולית קונפטי על הקרקע ורמז לבמה קטנה ברקע (אולם קהילתי). אין טקסט מוטמע בתמונה; המוקד הוא על הדמות המחופשת והסביבה הפורימית.",
       "content_enrichment_status": "ready",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -29687,8 +29691,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29761,7 +29765,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -29902,8 +29907,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -29976,7 +29981,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30007,8 +30013,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30080,7 +30086,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30111,8 +30118,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30186,7 +30193,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30217,8 +30225,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30292,7 +30300,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30519,8 +30528,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30597,7 +30606,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30628,8 +30638,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/lecture.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30699,7 +30709,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -30839,8 +30850,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -30895,7 +30906,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -31679,8 +31691,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/kids.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -31753,7 +31765,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -32756,8 +32769,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -32831,7 +32844,8 @@
       "image_brief": "צילום כוריאוגרפי של במה מרוהטת בתאורה חמה (אמבר/צהוב), עם צלליות של מבצעים או דמויות על הבמה ורקע עמום שמרמז על סילואט של קו רקיע לונדוני (למשל ביג בן/עין לונדון כמטאפורה חזותית). בחזית ניתן לראות את ראשי הקהל כסילואט, כדי להדגיש את האווירה התיאטרלית והמוזיקלית; התמונה תהיה פנורמית ובעלת קונטרסט גבוה בין תאורת הבמה לרקע.",
       "content_enrichment_status": "ready",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -33579,8 +33593,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33653,7 +33667,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -33684,8 +33699,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33740,7 +33755,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -33771,8 +33787,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33846,7 +33862,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -33877,8 +33894,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -33954,7 +33971,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     },
     {
       "city": "אשדוד",
@@ -33985,8 +34003,8 @@
       "image_publishable": true,
       "image_verified": true,
       "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "thumbnail_ready": true,
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -34041,7 +34059,8 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "thumbnail_error": "ValueError"
     }
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
