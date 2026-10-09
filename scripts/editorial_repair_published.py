@@ -14,6 +14,7 @@ DATA=ROOT/"events-preview/ashdod/data/events.json"
 AUDIT=ROOT/"events-preview/admin/data/content-quality-ashdod.json"
 REPORT=ROOT/"events-preview/admin/data/editorial-repair-report-ashdod.json"
 LIMIT=int(os.getenv("EDITORIAL_REPAIR_LIMIT","5"))
+OFFSET=int(os.getenv("EDITORIAL_REPAIR_OFFSET","0"))
 URL=os.getenv("SUPABASE_URL","").rstrip("/")
 KEY=os.getenv("SUPABASE_SERVICE_ROLE_KEY","")
 S=requests.Session()
@@ -44,8 +45,8 @@ def main():
     data={str(e.get("event_id")):e for e in json.loads(DATA.read_text()).get("events",[])}
     findings=json.loads(AUDIT.read_text()).get("events",[])
     rows=[]; updated=0; checked=0
-    for finding in findings:
-        if updated>=LIMIT or checked>=LIMIT*5: break
+    for finding in findings[OFFSET:]:
+        if updated>=LIMIT or checked>=LIMIT*6: break
         if finding.get("severity")!="critical": continue
         event=data.get(str(finding.get("event_id")))
         if not event or event.get("content_locked") or str(event.get("start_date") or "")<datetime.now(timezone.utc).date().isoformat(): continue
@@ -56,8 +57,9 @@ def main():
         if not records or records[0].get("publication_status")!="published": continue
         row=records[0]
         if (row.get("payload") or {}).get("content_locked"): continue
+        if (row.get("payload") or {}).get("editorial_repaired_at"): continue
         checked+=1
-        links=[u for u in source_urls(event) if credible_specific(u,event)]
+        links=[u for u in source_urls({**event,**(row.get("payload") or {})}) if credible_specific(u,event)]
         record={"event_id":event_id,"title":event.get("title"),"source_urls":links}
         if not links:
             record["status"]="skipped_no_specific_source";rows.append(record);continue
@@ -102,6 +104,6 @@ def main():
         rows.append(record)
         time.sleep(0.4)
     REPORT.parent.mkdir(parents=True,exist_ok=True)
-    REPORT.write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),"checked":checked,"updated":updated,"results":rows},ensure_ascii=False,indent=2)+"\n")
+    REPORT.write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),"checked":checked,"updated":updated,"offset":OFFSET,"results":rows},ensure_ascii=False,indent=2)+"\n")
     print(json.dumps({"checked":checked,"updated":updated,"statuses":[x["status"] for x in rows]},ensure_ascii=False))
 if __name__=="__main__": main()
