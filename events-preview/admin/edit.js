@@ -77,6 +77,15 @@ function fill(e,ed={}){
   $("imagePreview").style.backgroundImage=img?'url("'+img.replace(/"/g,"%22")+'")':"none";
   $("imageState").innerHTML=img?($("imageApproved").checked?'<span class="tag good">יש תמונה · מאושרת</span>':'<span class="tag warn">יש תמונה · לבדיקה</span>'):'<span class="tag bad">אין תמונה</span>';
 }
+function validCategorySelection(){
+  const cat=(taxonomy?.primary_categories||[]).find(x=>x.id===$("category").value);
+  if(!cat){alert("יש לבחור קטגוריה ראשית מתוך המילון המאושר.");return false}
+  const sub=$("subcategory").value;
+  if(sub&&!cat.subcategories?.some(x=>x.id===sub)){
+    alert("תת־הקטגוריה אינה שייכת לקטגוריה הראשית שנבחרה.");return false;
+  }
+  return true;
+}
 function collect(){
   return {event_id:id,city:cfg.name,title:$("title").value.trim(),short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),category:$("category").value,subcategory:$("subcategory").value||null,secondary_categories:selectedTaxonomy("secondaryCategories"),audiences:selectedTaxonomy("audiencesText"),topics:selectedTaxonomy("topics"),organizations:selectedTaxonomy("organizations"),distribution_targets:selectedTaxonomy("distributionTargets"),smart_distribution:$("smartDistribution").checked,seo_title:$("seoTitle").value.trim(),seo_description:$("seoDescription").value.trim(),seo_slug:$("seoSlug").value.trim(),schema_type:$("schemaType").value,seo_index:$("seoIndex").checked,promote_home:$("promoteHome").checked,promote_city:$("promoteCity").checked,promote_section:$("promoteSection").checked,status:$("status").value,promotion:$("promotion").value,start_date:$("startDate").value,start_time:$("startTime").value,venue:$("venue").value.trim(),address:$("address").value.trim(),purchase_url:$("purchaseUrl").value.trim(),youtube_id:$("youtubeId").value.trim(),image_credit:$("imageCredit").value.trim(),image_approved:$("imageApproved").checked,image_data_url:currentImageData,updated_at:new Date().toISOString()};
 }
@@ -113,6 +122,7 @@ function markDirty(){
   $("saveNote").textContent="יש שינויים שעדיין לא נשמרו.";
 }
 $("saveDraftBtn").addEventListener("click",async()=>{
+  if(!validCategorySelection())return;
   const btn=$("saveDraftBtn"),payload=collect();
   btn.disabled=true;btn.textContent="שומר...";
   $("saveNote").textContent="שומר את השינויים במערכת...";
@@ -147,6 +157,7 @@ $("previewBtn").addEventListener("click",()=>{if(!cfg||!id)return;window.open(cf
 load().catch(err=>{$("pageTitle").textContent="לא ניתן לטעון את האירוע";$("pageMeta").textContent=String(err.message||err)});
 
 async function publishCurrentEvent(){
+  if(!validCategorySelection())return;
   const btn=$("publishBtn");
   const payload=collect();
   if(!payload.title||!payload.start_date){
