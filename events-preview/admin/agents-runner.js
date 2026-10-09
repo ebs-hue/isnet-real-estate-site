@@ -53,6 +53,19 @@ async function loadTaxonomy(){
     throw new Error("מילון הקטגוריות אינו תקין");
   return taxonomy;
 }
+function taxonomyContext(e,taxonomy){
+  const primary=(taxonomy.primary_categories||[]).find(x=>x.id===String(e.category||"").trim());
+  const subId=String(e.subcategory||e.subcategory_id||"").trim();
+  const sub=primary?.subcategories?.find(x=>x.id===subId);
+  const secondaryIds=Array.isArray(e.secondary_categories)?e.secondary_categories:[];
+  const secondary=secondaryIds.filter(id=>(taxonomy.secondary_categories||[]).some(x=>x.id===id));
+  return {
+    category_id:primary?.id||null,category_label:primary?.label||null,
+    subcategory_id:sub?.id||null,subcategory_label:sub?.label||null,
+    secondary_categories:secondary,
+    image_rule:"הקטגוריה ותת־הקטגוריה הן רמז בלבד. חובה לוודא שהתמונה מציגה את האירוע, האמן או ההפקה המסוימים, שמקורה ידוע ושהשימוש בה מותר. אין לאשר תמונה לפי קטגוריה בלבד."
+  };
+}
 function evaluate(e,dupes,taxonomy){
   const blockers=[],warnings=[];
   const img=e.thumbnail_url||e.image_url;
@@ -65,6 +78,7 @@ function evaluate(e,dupes,taxonomy){
   if(!e.venue)warnings.push("חסר מקום");
   const taxonomyIssue=validateTaxonomy(e,taxonomy);
   if(taxonomyIssue)blockers.push(taxonomyIssue);
+  else if(!(e.subcategory||e.subcategory_id))warnings.push("לא נבחרה תת־קטגוריה; נדרשת השלמה בעת עריכה");
   if(!contentReady)blockers.push("חסר תוכן מסביר לפני טיפול בתמונה");
   if(!img)blockers.push("אין תמונה");
   else if(!imageApproved)blockers.push("התמונה אינה מאושרת");
@@ -83,7 +97,8 @@ function evaluate(e,dupes,taxonomy){
     score,confidence,blockers,warnings,ready,
     editorial_decision:editorial,
     publish_decision:ready?"auto_publish":"exception_queue",
-    media_action:!img?(contentReady?"find_or_generate_image":"wait_for_content"):(!imageApproved?(contentReady?"review_rights":"wait_for_content"):"none")
+    taxonomy:taxonomyContext(e,taxonomy),
+    media_action:!img?(contentReady?"find_original_image":"wait_for_content"):(!imageApproved?(contentReady?"review_rights":"wait_for_content"):"none")
   };
 }
 async function loadEvents(){
@@ -156,8 +171,8 @@ async function persistTasks(results){
   const db=await dbClient();if(!db)throw new Error("אין חיבור למסד הנתונים");
   const {data:{user}}=await db.auth.getUser();if(!user)throw new Error("המשתמש אינו מחובר");
   const rows=results.flatMap(({event,result})=>[
-    {agent_id:"qa",entity_type:"event",entity_id:event.event_id,city_slug:event._citySlug,status:result.ready?"completed":"needs_review",input:{title:event.title,start_date:event.start_date},output:{score:result.score,confidence:result.confidence,blockers:result.blockers,warnings:result.warnings,media_action:result.media_action},confidence:result.score,created_by:user.id},
-    {agent_id:"category_editor",entity_type:"event",entity_id:event.event_id,city_slug:event._citySlug,status:"completed",input:{category:event.category,start_date:event.start_date},output:{decision:result.editorial_decision},confidence:result.score,created_by:user.id},
+    {agent_id:"qa",entity_type:"event",entity_id:event.event_id,city_slug:event._citySlug,status:result.ready?"completed":"needs_review",input:{title:event.title,start_date:event.start_date},output:{score:result.score,confidence:result.confidence,blockers:result.blockers,warnings:result.warnings,media_action:result.media_action,taxonomy:result.taxonomy},confidence:result.score,created_by:user.id},
+    {agent_id:"category_editor",entity_type:"event",entity_id:event.event_id,city_slug:event._citySlug,status:"completed",input:{category:event.category,subcategory:event.subcategory||event.subcategory_id||null,start_date:event.start_date},output:{decision:result.editorial_decision,taxonomy:result.taxonomy},confidence:result.score,created_by:user.id},
     {agent_id:"publisher",entity_type:"event",entity_id:event.event_id,city_slug:event._citySlug,status:result.ready?"completed":"needs_review",input:{qa_score:result.score},output:{decision:result.publish_decision,reasons:result.blockers},confidence:result.score,created_by:user.id}
   ]);
   for(let i=0;i<rows.length;i+=100){
@@ -171,7 +186,7 @@ function renderResults(results){
     [results.length,"אירועים שנבדקו"],
     [auto.length,"מוכנים לפרסום אוטומטי"],
     [exceptions.length,"חריגים לטיפול"],
-    [results.filter(x=>x.result.media_action==="find_or_generate_image").length,"זקוקים לתמונה"],
+    [results.filter(x=>x.result.media_action==="find_original_image").length,"זקוקים לתמונה"],
     [results.filter(x=>x.result.media_action==="wait_for_content").length,"ממתינים לעורך תוכן"]
   ].map(([n,l])=>'<div class="run-stat"><strong>'+n+'</strong><span>'+l+'</span></div>').join("");
   $("exceptionRows").innerHTML=exceptions.slice(0,150).map(({event,result})=>'<tr>'+
