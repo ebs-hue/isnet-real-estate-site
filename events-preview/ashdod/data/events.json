@@ -5438,7 +5438,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17534",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:18:24Z",
       "missing_information": [
@@ -5478,7 +5478,7 @@
       ],
       "image_brief": "תמונת שער צריכה להמחיש את הקונטרסט בין שתי השפות המרכזיות בתערוכה: בתמונה תופיע קיר מוזיאלי עליו תלוי ציור גדול של עמית קבסה — משטח צבעי, מרקמי ואדמתי — ובקדמת המסגרת תוצג עבודת צילום/אסמבלאז' של הדס סט (קולאז' של תמונות אנלוגיות/סרוקות) כדי להבליט את המפגש בין חומר לצילום. התאורה מוזיאלית, רקע ניטרלי, אופי אינטימי ופרטים של מרקם (טיפות צבע, סדקים, דימויי ארכיון) — ללא כיתוב או לוגואים.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "הדס סט ועמית קבסה — אשכול תערוכות, מוזיאון אשדוד",
@@ -5492,7 +5492,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
