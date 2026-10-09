@@ -7,7 +7,7 @@
   },
   "stats": {
     "events": 321,
-    "other_category_remaining": 7
+    "other_category_remaining": 0
   },
   "events": [
     {
@@ -2833,7 +2833,7 @@
       "venue": "מרכז קהילתי נווה יונתן-שד' עוזיהו 26 אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -2937,7 +2937,11 @@
       "detail_checked_at": "2026-10-09",
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "details_verified": true,
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -4015,7 +4019,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -4125,7 +4129,11 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -9469,7 +9477,7 @@
       "venue": "המשכן לאמנויות הבמה - אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -9537,7 +9545,11 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_1fc25d6f401234b2a405532b",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-09",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -13020,7 +13032,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -13130,7 +13142,11 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -13370,7 +13386,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -13483,7 +13499,11 @@
       "content_enrichment_status": "model_error",
       "content_enrichment_version": 8,
       "content_enrichment_retry_after": "2026-10-09",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -17022,7 +17042,7 @@
       "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
       "address": "שלום שבזי 3, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -17132,7 +17152,11 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8555478",
       "contact_email": "ashdodh@ironit.org.il",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "event_id": "evt_82_20261123",
@@ -21330,7 +21354,7 @@
       "venue": "יד לבנים אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "standup",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -21433,7 +21457,11 @@
       "event_id": "auto_as_2b8d59b9f755ec9b7983",
       "venue_institution_id": "yadlabanim_ashdod",
       "image_quality_tier": "official_event_or_exact_source",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23394,7 +23422,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23466,7 +23494,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -23479,7 +23511,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "theatre",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -23569,7 +23601,11 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24690,7 +24726,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24791,7 +24827,11 @@
       "source_detail_text_length": 400,
       "image_strategy": "detail_page_high_quality_candidate",
       "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -24804,7 +24844,7 @@
       "venue": "אשדוד",
       "address": null,
       "district": null,
-      "category": "other",
+      "category": "workshop",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -24905,7 +24945,11 @@
       "source_detail_text_length": 385,
       "image_strategy": "detail_page_high_quality_candidate",
       "event_id": "auto_as_f1c4b053e11c06583785",
-      "media_status": "waiting_for_content"
+      "media_status": "waiting_for_content",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26415,7 +26459,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26485,7 +26529,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -26925,7 +26973,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -26996,7 +27044,11 @@
       "content_enrichment_retry_after": "2026-10-09",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
@@ -28016,7 +28068,7 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "address": "דרך ארץ 1, אשדוד",
       "district": null,
-      "category": "other",
+      "category": "music",
       "audiences": [],
       "age_min": null,
       "age_max": null,
@@ -28087,7 +28139,11 @@
       "content_enrichment_status": "insufficient",
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "category_previous": "other",
+      "category_review_status": "assistant_researched_reclassified",
+      "category_review_confidence": 0.98,
+      "category_reviewed_at": "2026-10-09T08:13:00+03:00"
     },
     {
       "city": "אשדוד",
