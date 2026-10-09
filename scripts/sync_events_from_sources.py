@@ -48,6 +48,8 @@ SOURCES = {
              {"url": "https://www.ofek-ashdod.org.il/page.php?gr=643&m=296&type=events", "category": "lecture"},
              {"url": "https://www.ofek-ashdod.org.il/page.php?gr=648&m=296&type=events", "category": "lecture"},
          ]},
+        {"name": "habama_ashdod", "url": "https://www.habama.co.il/Pages/HallGeneral.aspx?Area=2&HallGroupID=2089",
+         "parser": "habama", "venue": "אשדוד", "source_type": "secondary"},
         # Sports calendars require independent fixture-level validation; not inferred
         # from an unrelated public events listing.
     ],
@@ -546,6 +548,58 @@ def kotar_rows(soup, source):
     return found
 
 
+def habama_rows(soup, source):
+    """Read Habama venue schedule rows and preserve the source's event-type note."""
+    found = []
+    for tr in soup.select("tr"):
+        cells = [re.sub(r"\\s+", " ", x.get_text(" ", strip=True)).strip() for x in tr.select("td")]
+        if len(cells) < 4:
+            continue
+        joined = " | ".join(cells)
+        dm = re.search(r"\\b(\\d{1,2}[./]\\d{1,2}[./](?:\\d{2}|\\d{4}))\\b", joined)
+        tm = HOUR.search(joined)
+        if not dm or not tm:
+            continue
+        try:
+            d = iso_dmy(DAY_DOT.fullmatch(dm.group(1)))
+        except (ValueError, AttributeError):
+            continue
+
+        # Event title is normally the linked text in the row; prefer the longest
+        # non-technical link label.
+        labels = []
+        for a in tr.select("a[href]"):
+            label = re.sub(r"\\s+", " ", a.get_text(" ", strip=True)).strip()
+            if valid_title(label) and label not in {"אולם", "<"}:
+                labels.append((len(label), label, safe_url(a.get("href"), source["url"], allow_external=True)))
+        if not labels:
+            continue
+        _, title, detail_url = sorted(labels, reverse=True)[0]
+
+        # Habama exposes an "הערה" column such as "סטנד אפ", "מחזמר",
+        # "קונצרט מחווה חי", or an age recommendation. Preserve it verbatim.
+        note_candidates = [
+            x for x in cells
+            if x and x not in {title, dm.group(1), tm.group(0), "אולם", "<"}
+            and not re.fullmatch(r"[א-ת]{1,4}", x)
+            and len(x) <= 120
+        ]
+        source_category = note_candidates[0] if note_candidates else None
+        category = choose_category(" ".join(x for x in (title, source_category) if x), source["venue"])
+        found.append({
+            "title": title,
+            "start_date": d,
+            "start_time": tm.group(0),
+            "venue": source["venue"],
+            "ticket_url": detail_url or source["url"],
+            "purchase_url": None,
+            "category": category,
+            "source_category": source_category,
+            "quality_flags": ["automated_secondary_listing", "source_category_preserved"],
+        })
+    return found
+
+
 def generic_jsonld_rows(soup, source):
     found = []
     def walk(obj):
@@ -604,6 +658,8 @@ def source_rows(soup, source):
         rows = smarticket_rows(soup, source) + structured
     elif parser == "kotar":
         rows = kotar_rows(soup, source) + structured
+    elif parser == "habama":
+        rows = habama_rows(soup, source) + structured
     else:
         rows = structured
 
