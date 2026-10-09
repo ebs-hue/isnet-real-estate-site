@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 10
+CONTENT_ENRICHMENT_VERSION = 11
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 TARGET_CITY = os.getenv("EVENT_ENRICHMENT_CITY", "ashdod").strip()
 EVENT_HORIZON_MONTHS = 5
@@ -149,7 +149,7 @@ def ask_model(event, source_text, source_url, require_web_search=False):
 קודם להבין מהו האירוע עצמו כיצירה, מופע, הצגה, הרצאה, סדנה, תערוכה או פעילות. רק אחר כך לחבר אליו את פרטי ההופעה המקומית כמו עיר, אולם, תאריך ושעה.
 אל תכתוב תוכן כאילו האירוע "שייך" לעיר מסוימת אם מדובר במופע נודד, הצגה רצה, הרצאה חוזרת או הפקה שמופיעה במקומות שונים.
 
-כלל פרסום מחייב: ענה על ארבע שאלות: מהו האירוע, למי הוא מיועד, למה כדאי להגיע, ומי המשתתפים אם נזכרים במקור. החזר editorial_questions עם supported ו-answer לכל שאלה. אם אין משתתפים במקור סמן not_applicable=true; אין להמציא שמות. פחות משלוש תשובות מבוססות מתוך ארבע מחייב content_ready_for_media=false ובדיקה חוזרת. תאריך, מקום ומחיר אינם תשובות. 
+כלל פרסום מחייב: ענה על ארבע שאלות: מהו האירוע, למי הוא מיועד, למה כדאי להגיע, ומי המשתתפים אם נזכרים במקור. החזר editorial_questions עם supported ו-answer לכל שאלה. אם אין משתתפים במקור סמן not_applicable=true; אין להמציא שמות. תשובות מהו האירוע ולמה כדאי להגיע הן תנאי חובה. בנוסף נדרשת לפחות תשובה מבוססת אחת על קהל היעד או המשתתפים. not_applicable של משתתפים אינו נחשב לתשובה מבוססת. חסרון באחד מתנאי החובה מחייב content_ready_for_media=false ובדיקה חוזרת. תאריך, מקום ומחיר אינם תשובות. 
 
 מה חשוב לקורא:
 - במה האירוע עוסק בפועל.
@@ -313,11 +313,12 @@ def apply_result(event, result, source_url):
     keys = ("what", "audience", "why_attend", "participants")
     answers = {key: questions.get(key) if isinstance(questions.get(key), dict) else {} for key in keys}
     supported = sum(bool(answers[key].get("supported") is True and clean_text(answers[key].get("answer"))) for key in keys)
-    if not answers["participants"].get("supported") and answers["participants"].get("not_applicable") is True:
-        supported += 1
-    ready = result.get("content_ready_for_media") is True and supported >= 3
+    essential = all(answers[key].get("supported") is True and clean_text(answers[key].get("answer")) for key in ("what", "why_attend"))
+    audience_or_participants = any(answers[key].get("supported") is True and clean_text(answers[key].get("answer")) for key in ("audience", "participants"))
+    ready = result.get("content_ready_for_media") is True and essential and audience_or_participants and supported >= 3
     event["editorial_questions"] = answers
     event["editorial_answer_count"] = supported
+    event["editorial_core_passed"] = bool(essential and audience_or_participants)
     event["editorial_review_status"] = "passed" if ready else "needs_review"
     event["content_ready_for_media"] = ready
     event["content_enrichment_source"] = source_url
