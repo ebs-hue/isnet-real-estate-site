@@ -21567,7 +21567,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/סינדרלה_32a6d30b5e/?id=8234",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:53:59Z",
       "missing_information": [
@@ -21602,7 +21602,7 @@
       "media_bank_id": "media_371567e34c76640a3a0560ab",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -21726,7 +21726,10 @@
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_4ecb9949b27cfcaed64b9590"
+      "media_bank_id": "media_4ecb9949b27cfcaed64b9590",
+      "content_enrichment_status": "model_error",
+      "content_enrichment_version": 11,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -21797,7 +21800,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/נישואים_גרעיניים/?id=8236",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:54:40Z",
       "missing_information": [
@@ -21833,7 +21836,7 @@
       "media_bank_id": "media_bb940a0f0f8f529cd4be9453",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -21901,7 +21904,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%90%D7%99%D7%A9%D7%94_%D7%94%D7%A2%D7%A9%D7%99%D7%A8%D7%94_%D7%91%D7%A2%D7%95%D7%9C%D7%9D/?id=8106",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:55:21Z",
       "missing_information": [
@@ -21936,7 +21939,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_ce884bf9f02def876c4e798e",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_32_20261222",
@@ -21998,7 +22001,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/iframe/%D7%90%D7%94%D7%91%D7%94-%D7%94%D7%A7%D7%A8%D7%A0%D7%AA_%D7%A1%D7%A8%D7%98_%D7%95%D7%9E%D7%A4%D7%92%D7%A9_%D7%A9%D7%99%D7%97",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:56:05Z",
       "missing_information": [
@@ -22037,7 +22040,7 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0297724a38ceaf805a1f5e45",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -22105,7 +22108,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/אליסה_בארץ_הפלאות/?id=8222",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:58:02Z",
       "missing_information": [
@@ -22136,7 +22139,7 @@
       ],
       "image_brief": "צילום כיסוי שמתרכז בבמה של המשכן בתאורה חמה: סצנה מרכזית עם דמות בדמות אליסה כצללית או דמות לבושה בסגנון וינטג׳, אביזרי במה גדולים כמו כוס תה או קלפים מסודרים מסביב, ורקע צבעוני מעט סוריאליסטי. בתחתית התמונה נראים קווי מושבים וקהל מעומעם להדגשת אווירת הצפייה בתיאטרון. אין טקסט מוטמע בתמונה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,

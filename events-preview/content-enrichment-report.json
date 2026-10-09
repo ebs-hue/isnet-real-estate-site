@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:37:32Z",
+  "generated_at": "2026-10-09T18:38:11Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "evt_65_20261212",
-      "title": "חן מזרחי",
+      "event_id": "auto_as_e989e0af031952a41c55",
+      "title": "סינדרלה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_3d3cdcdf993039f9fe16",
-      "title": "בעקבות סופרים בנחלאות",
+      "event_id": "auto_as_2b8d59b9f755ec9b7983",
+      "title": "מתן פרץ",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_31_20261215",
-      "title": "השועל המוסיקלי החיפושיות",
+      "event_id": "auto_as_511ebde2aa175eaa7a56",
+      "title": "נישואים גרעיניים",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_66_20261215",
-      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
+      "event_id": "evt_86_20261221",
+      "title": "האישה העשירה בעולם",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_1248203a0850a8e67852",
-      "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
+      "event_id": "evt_32_20261222",
+      "title": "אהבה - הקרנת סרט ומפגש שיח",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_78cf1d9cc9f217ab0259",
-      "title": "עץ הבלונים",
+      "event_id": "auto_as_2526e830eef4d3d6705d",
+      "title": "אליסה בארץ הפלאות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
