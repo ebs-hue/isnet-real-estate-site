@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:41:33Z",
+  "generated_at": "2026-10-09T18:42:15Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_b2274dd31f58c6fcf843",
-      "title": "תיק 137",
+      "event_id": "auto_as_6810908ab34bc72b0557",
+      "title": "מיקה שלי",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_9e8b223f38713dfb8a74",
-      "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
+      "event_id": "auto_as_e65f449f9c8e6f75c763",
+      "title": "מותרת לכל אדם",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_243390bd002ecc344da5",
-      "title": "השועל המוסיקלי המוסיקה האירית",
+      "event_id": "auto_as_53cf1f6df1acf20a2f40",
+      "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_dd53408c64490661fa14",
+      "title": "דרור קרן – כל העולם במה",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f1c4b053e11c06583785",
-      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
+      "event_id": "auto_as_5c9acb9f3ebef3f3e018",
+      "title": "מותרת לכל אדם",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
-      "title": "פרפר נחמד",
+      "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
+      "title": "מותרת לכל אדם",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
