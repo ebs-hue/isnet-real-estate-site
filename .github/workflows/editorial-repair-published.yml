@@ -2,6 +2,8 @@ name: Repair weak published Ashdod event descriptions
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
   push:
     branches: [main]
     paths:
@@ -22,7 +24,7 @@ jobs:
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-      EDITORIAL_REPAIR_LIMIT: "5"
+      EDITORIAL_REPAIR_LIMIT: "12"
     steps:
       - uses: actions/checkout@v4
         with:
