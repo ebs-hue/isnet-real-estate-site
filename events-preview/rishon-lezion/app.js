@@ -295,24 +295,23 @@ function lectureFallbackTopic(e){
  const extras=[...LECTURE_FALLBACK_TOPICS];
  return {label:"הרצאות והעשרה",symbol:extras[hash%extras.length].symbol};
 }
+const DEFAULT_IMAGE_CATEGORIES=new Set(["music","theatre","standup","kids","lecture","conference","exhibition","festival","community","tour","sport","cinema","food","seniors"]);
 function defaultCategoryImage(e){
-  const cat=String(e?.category||"").replace(/[^a-z0-9-]/g,"");
+  const raw=String(e?.category||"");
+  const cat=DEFAULT_IMAGE_CATEGORIES.has(raw)?raw:(raw==="workshop"?"exhibition":"community");
   const sub=String(e?.subcategory||"").replace(/[^a-z0-9-]/g,"");
-  const known=new Set(["music","theatre","standup","kids","lecture","conference","exhibition","festival","community","tour","sport","cinema","food","seniors"]);
-  if(!known.has(cat))return "";
-  return "../shared/images/defaults/"+(sub?cat+"-"+sub:"category-"+cat)+".svg";
+  return {primary:"../shared/images/defaults/category-"+cat+".svg",subcategory:sub&&cat===raw?"../shared/images/defaults/"+cat+"-"+sub+".svg":""};
 }
 function defaultCategoryArt(e){
-  const src=defaultCategoryImage(e);
-  if(!src)return "";
-  const backup="../shared/images/defaults/category-"+String(e.category).replace(/[^a-z0-9-]/g,"")+".svg";
-  return '<img class="defaultCategoryArt" src="'+escapeHtml(src)+'" alt="" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.82;pointer-events:none" onerror="if(this.src.indexOf(\'category-\')<0){this.src=\''+backup+'\'}else{this.remove()}" />';
+  const paths=defaultCategoryImage(e);
+  const src=paths.subcategory||paths.primary;
+  return '<img class="defaultCategoryArt" src="'+escapeHtml(src)+'" alt="" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.82;pointer-events:none" data-primary-fallback="'+escapeHtml(paths.primary)+'" onerror="if(this.dataset.primaryFallback && !this.dataset.triedPrimary){this.dataset.triedPrimary=\'1\';this.src=this.dataset.primaryFallback}else{this.remove()}" />';
 }
 function fallbackMediaHTML(e){
   if(e.category==="sport"&&isRepresentativeHomeGame(e)){
     const team=sportTeamConfig(e),branch=sportBranchMeta(e);
     return '<div class="category-fallback sportFallback">'+
-      teamLogoHTML(team,"sportFallback__logo")+
+      defaultCategoryArt(e)+teamLogoHTML(team,"sportFallback__logo")+
       '<span class="sportFallback__branch">'+escapeHtml(branch.icon)+' '+escapeHtml(branch.label)+'</span>'+
       '<span class="fallbackLabel">'+escapeHtml(team?.name||e.home_team||"ספורט בראשון לציון")+'</span>'+
     '</div>';
