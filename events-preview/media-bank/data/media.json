@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:47:11.502390+00:00",
+  "generated_at": "2026-10-09T08:16:10.167399+00:00",
   "stats": {
     "events_scanned": 507,
     "image_links": 398,
@@ -2080,7 +2080,7 @@
     },
     {
       "media_id": "media_dea96b94729e1a017cf0f177",
-      "url": "assets/event-thumbs/0ef0880cc4f17704dd290b.jpg",
+      "url": "/events-preview/media-bank/cards/113502ec2dff834367b78ce8.webp",
       "origin_url": "https://www.yonidvir-events.com/images/2025/event6-2025-img-big1.jpg",
       "source_url": "https://asafmoryosef.com/",
       "credit": "חומרי קידום אסף מור יוסף",
@@ -2120,12 +2120,7 @@
       "created_from": "event_dataset",
       "review_reason": null,
       "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 720,
-      "card_height": 540,
-      "card_bytes": 16452,
-      "card_url": "media-bank/cards/113502ec2dff834367b78ce8.webp",
-      "original_checksum": "113502ec2dff834367b78ce8b6df43732b8f9e1c9896ff347a9279e01fddc721"
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_f1abd4d53917ecdd3b80686c",
@@ -8138,7 +8133,7 @@
     "format": "webp",
     "quality": 80,
     "created": 0,
-    "reused": 1,
-    "skipped": 156
+    "reused": 0,
+    "skipped": 157
   }
 }
