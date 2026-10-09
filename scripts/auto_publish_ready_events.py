@@ -124,6 +124,10 @@ def evaluate(event: dict, dupes: set[str]) -> dict:
         warnings.append("missing_category")
     if not content_ready:
         blockers.append("missing_explanatory_content")
+    # Fail closed: newly published events must pass the editor's four-question review.
+    # Previously published records are not retroactively unpublished by this gate.
+    if event.get("editorial_review_status") != "passed" or int(event.get("editorial_answer_count") or 0) < 3:
+        blockers.append("editorial_comprehension_review_required")
     if not image:
         blockers.append("missing_image")
     elif not image_ok:
