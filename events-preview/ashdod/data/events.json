@@ -19152,7 +19152,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33642",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:42:45Z",
       "missing_information": [
@@ -19194,7 +19194,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -19269,7 +19269,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הצגת_ענק_עלילות_המכבים/?id=17670",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:45:21Z",
       "missing_information": [
@@ -19310,7 +19310,7 @@
       "image_candidates": [],
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0cd545b49063026c3e11a931",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
@@ -19385,7 +19385,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/_קסם_של_כוכבים__-_רועיקי_מצחיקי_וסמי_הכבאי/?id=8228",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:45:43Z",
       "missing_information": [
@@ -19419,7 +19419,7 @@
       ],
       "image_brief": "תמונת שער שמתמקדת בבמה המשכן: שתי דמויות מטושטשות עומדות על הבמה תחת ספוטים חמים, הקהל ברקע יושב בסדרות כיסאות תיאטרון ותאורה על רקע שמיימי או רקע עם אורות דקורטיביים המדמים כוכבים. זווית רחבה שמציגה גם את חלל האולם והאווירה של ערב הופעה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -19488,10 +19488,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_39c012c1c85bac8b231b3b50",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
@@ -19560,7 +19560,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שושנה/?id=8243",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T17:46:00Z",
       "missing_information": [
@@ -19594,7 +19594,7 @@
       "media_status": "needs_image_research",
       "content_enrichment_status": "model_error",
       "image_strategy": "super_editor_representative_fallback",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -19664,10 +19664,10 @@
       "content_ready_for_media": false,
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_743998acd446ed4756ad12b2",
-      "content_enrichment_version": 8
+      "content_enrichment_version": 11
     },
     {
       "city": "אשדוד",
