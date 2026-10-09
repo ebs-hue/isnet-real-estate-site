@@ -32,8 +32,9 @@
         <label><span>כותרת</span><input id="title" type="text"></label>
         <label><span>תקציר קצר</span><textarea id="shortPitch" rows="3"></textarea></label>
         <label><span>על האירוע</span><textarea id="description" rows="10"></textarea></label>
-        <div class="two">
-          <label><span>קטגוריה</span><select id="category"></select></label>
+        <div class="three">
+          <label><span>קטגוריה ראשית</span><select id="category"></select></label>
+          <label><span>תת־קטגוריה</span><select id="subcategory"><option value="">בחרו תת־קטגוריה</option></select></label>
           <label><span>סטטוס</span><select id="status"><option value="active">פעיל</option><option value="draft">טיוטה</option><option value="hidden">מוסתר</option><option value="published">פורסם</option></select></label>
         </div>
         <label><span>עדיפות / קידום</span>
@@ -127,7 +128,7 @@
     </aside>
   </section>
 </main>
-<script src="edit.js?v=20261009-seniors1"></script>
+<script src="edit.js?v=20261009-taxonomy2"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
