@@ -7,10 +7,10 @@
   "representative_quarter": false,
   "source": "OVER public mirror of Tax Authority register; neighborhood attribution is derived",
   "source_url": "https://www.over.org.il/projects/deals",
-  "register_unique_count": 9,
-  "standard_apartment_count": 7,
+  "register_unique_count": 11,
+  "standard_apartment_count": 9,
   "register_by_month": {
-    "2026-07": 8,
+    "2026-07": 10,
     "2026-08": 1
   },
   "secondary_seed_rows": 22,
@@ -162,6 +162,52 @@
     {
       "settlement_code": "2630",
       "settlement": "קריית גת",
+      "gush": "7290",
+      "chelka": "19",
+      "sub_chelka": "006",
+      "deal_date": "01/07/2026",
+      "deal_amount": "3273978",
+      "declared_amount": "3273978",
+      "deal_nature": "דירה בבית קומות",
+      "portion": "1.000",
+      "year_built": "2028",
+      "asset_area": "147",
+      "room_num": "6",
+      "scraped_at": "2026-08-23 18:11:19.151726+00",
+      "first_seen": "2026-09-18 12:31:00.666371+00:00",
+      "_event_date_iso": "2026-07-01",
+      "_gush_norm": "7290",
+      "_helka_norm": "19",
+      "_neighborhood": "כרמי גת",
+      "_street": "נחל דליות",
+      "_usable_standard_full_apartment": true
+    },
+    {
+      "settlement_code": "2630",
+      "settlement": "קריית גת",
+      "gush": "7290",
+      "chelka": "19",
+      "sub_chelka": "004",
+      "deal_date": "16/07/2026",
+      "deal_amount": "3326978",
+      "declared_amount": "3326978",
+      "deal_nature": "דירה בבית קומות",
+      "portion": "1.000",
+      "year_built": "2028",
+      "asset_area": "161",
+      "room_num": "6",
+      "scraped_at": "2026-08-23 18:11:19.151726+00",
+      "first_seen": "2026-09-18 12:31:00.666371+00:00",
+      "_event_date_iso": "2026-07-16",
+      "_gush_norm": "7290",
+      "_helka_norm": "19",
+      "_neighborhood": "כרמי גת",
+      "_street": "נחל דליות",
+      "_usable_standard_full_apartment": true
+    },
+    {
+      "settlement_code": "2630",
+      "settlement": "קריית גת",
       "gush": "7289",
       "chelka": "167",
       "sub_chelka": "000",
@@ -229,9 +275,9 @@
       "_usable_standard_full_apartment": true
     }
   ],
-  "raw_unique_count": 9,
+  "raw_unique_count": 11,
   "by_month": {
-    "2026-07": 8,
+    "2026-07": 10,
     "2026-08": 1
   }
 }

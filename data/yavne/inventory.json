@@ -1,6 +1,6 @@
 {
   "city": "יבנה",
-  "observed_at": "2026-10-06",
+  "observed_at": "2026-10-09",
   "coverage": "partial",
   "note": "מודעות שנאספו; כפילויות מזוהות אוחדו. מועד תצפית אינו אישור שהדירה עדיין מוצעת למכירה.",
   "rows": [
@@ -575,7 +575,7 @@
       "balcony": null,
       "asking_price_ils": 1690000.0,
       "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-05",
+      "last_seen_at": "2026-10-08",
       "listing_kind": "broker"
     },
     {
@@ -1541,7 +1541,7 @@
       "balcony": null,
       "asking_price_ils": 2670000.0,
       "first_seen_at": "2026-10-02",
-      "last_seen_at": "2026-10-05",
+      "last_seen_at": "2026-10-08",
       "listing_kind": "broker"
     },
     {
@@ -2060,6 +2060,20 @@
       "asking_price_ils": 2090000.0,
       "first_seen_at": "2026-10-04",
       "last_seen_at": "2026-10-06",
+      "listing_kind": "second_hand"
+    },
+    {
+      "neighborhood": null,
+      "street": "צלף",
+      "house_number": null,
+      "rooms": 3.0,
+      "area_sqm": 85.0,
+      "floor": 6.0,
+      "mamad": null,
+      "balcony": null,
+      "asking_price_ils": 1980000.0,
+      "first_seen_at": "2026-10-09",
+      "last_seen_at": "2026-10-09",
       "listing_kind": "second_hand"
     },
     {
