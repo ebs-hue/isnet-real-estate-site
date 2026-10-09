@@ -27411,7 +27411,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/מפה_לשם/?id=8193",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:14:44Z",
       "missing_information": [
@@ -27424,7 +27424,7 @@
         "תיאור מפורט של התוכן, תכנית או פורמט הערב"
       ],
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError",
@@ -27492,7 +27492,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33872",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:01Z",
       "missing_information": [
@@ -27535,7 +27535,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -27612,7 +27612,7 @@
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/לוס_אנג_לס_-_פרס_האוסקר/?id=8115",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:28Z",
       "missing_information": [
@@ -27625,7 +27625,7 @@
         "פרטי קשר או זהות המארגן"
       ],
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_represents_event": false,
       "image_represents_category": true,
       "category_previous": "other",
@@ -27700,7 +27700,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/רומאו_ויוליה_-_בלט_פלמנקו_ברצלונה/?id=8006",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:15:57Z",
       "missing_information": [
@@ -27735,7 +27735,7 @@
       ],
       "image_brief": "צילום כיסוי שמדגיש את הטון התיאטרלי: תמונה על במה שבה רקדנית או רקדנים בתנוחה דרמטית של פלמנקו/בלט, חצאית או תלבושת זורמת בתנועה, תאורה חמה ודרמטית (גווני אדום/צהוב או אור נקודתי) והרכב הבמה מטושטש ברקע. המוקד על התנועה והבעה גופנית, עם תחושה של רגע מושלם מתוך הצגה.",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
@@ -27807,7 +27807,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33645",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:16:20Z",
       "missing_information": [
@@ -27848,7 +27848,7 @@
       "image_candidates": [],
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "poster_composite",
-      "content_enrichment_retry_after": "2026-10-09",
+      "content_enrichment_retry_after": "2026-10-10",
       "activity_type": "tour",
       "category_previous": "tour",
       "category_review_status": "source_rule_reclassified",
@@ -27910,7 +27910,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מריה_מונטוסורי-הקרנת_סרט_ומפגש_שיח/?id=16036",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 11,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-07T18:16:43Z",
       "missing_information": [
@@ -27957,7 +27957,7 @@
       "thumbnail_strategy": "poster_composite",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_4cf50b0982792975c54bf7c7",
-      "content_enrichment_retry_after": "2026-10-09"
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
