@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:28:17.657796+00:00",
+  "generated_at": "2026-10-09T00:58:23.664268+00:00",
   "stats": {
     "events_scanned": 504,
     "image_links": 398,
@@ -11,7 +11,7 @@
   "media": [
     {
       "media_id": "media_ec1c4894f557c3316c373766",
-      "url": "assets/event-thumbs/3471b66b657a23df219f06.jpg",
+      "url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
       "source_url": "https://ashdod.smarticket.co.il/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
@@ -359,12 +359,7 @@
       "created_from": "event_dataset",
       "review_reason": null,
       "reuse_risk": "low",
-      "reuse_similarity_floor": null,
-      "card_width": 720,
-      "card_height": 540,
-      "card_bytes": 33898,
-      "card_url": "media-bank/cards/3036d44df540d14a17a10c2a.webp",
-      "original_checksum": "3036d44df540d14a17a10c2a0671275a0e86cd45543e2053d5e6726496535bb4"
+      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_e4a471179c955dc762512953",
@@ -7971,7 +7966,7 @@
     "format": "webp",
     "quality": 80,
     "created": 0,
-    "reused": 1,
-    "skipped": 151
+    "reused": 0,
+    "skipped": 152
   }
 }
