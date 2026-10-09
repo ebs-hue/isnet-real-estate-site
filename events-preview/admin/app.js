@@ -106,7 +106,7 @@ async function load(){
   const dbManualKeys=new Set(dbManual.map(e=>e._citySlug+":"+e.event_id));
   const local=localNewEvents().filter(e=>!dbManualKeys.has(e._citySlug+":"+e.event_id)).map(e=>({...e,_localNew:true,_cityBase:e._citySlug==="ashdod"?"../ashdod/":"../rishon-lezion/"}));
   all=[...persisted,...dbManual,...local].map(e=>({...e,_issues:issuesFor(e)}));
-  buildFilters();render();
+  buildFilters();renderSubcategoryFilter();render();
 }
 function buildFilters(){
   const cities=[...new Set(all.map(e=>e.city).filter(Boolean))].sort();
@@ -114,13 +114,24 @@ function buildFilters(){
   const cats=taxonomyCategories.map(x=>x.id);
   $("category").innerHTML='<option value="">כל הקטגוריות</option>'+cats.map(x=>'<option value="'+esc(x)+'">'+esc(categoryLabels[x]||x)+'</option>').join("");
 }
+function renderSubcategoryFilter(){
+  const cat=taxonomyCategories.find(x=>x.id===$("category").value);
+  const items=cat?.subcategories||[];
+  $("subcategory").innerHTML='<option value="">כל תתי־הקטגוריות</option>'+items.map(x=>'<option value="'+esc(x.id)+'">'+esc(x.label)+'</option>').join("");
+}
+function subcategoryLabel(e){
+  const cat=taxonomyCategories.find(x=>x.id===e.category);
+  return cat?.subcategories?.find(x=>x.id===e.subcategory)?.label||e.subcategory||"—";
+}
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),city=$("city").value,cat=$("category").value,status=$("status").value,quality=$("quality").value;
+  const sub=$("subcategory").value;
   const horizon=horizonEnd();
   return all.filter(e=>{
     if(e.start_date&&e.start_date>horizon)return false;
     if(city&&e.city!==city)return false;
     if(cat&&e.category!==cat)return false;
+    if(sub&&e.subcategory!==sub)return false;
     if(status==="active"&&(e.status!=="active"||e.start_date<TODAY))return false;
     if(status==="expired"&&(e.status!=="active"||e.start_date>=TODAY))return false;
     if(["draft","hidden","archived","trashed"].includes(status)&&e.status!==status)return false;
@@ -178,7 +189,7 @@ function render(){
       '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
       '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div>'+(statusLabel?'<span class="status-chip status-'+esc(e.status)+'">'+esc(statusLabel)+'</span>':'')+'</div></div></td>'+
       '<td class="image-status">'+imageStatus+'</td>'+
-      '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td>'+
+      '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td><td>'+esc(subcategoryLabel(e))+'</td>'+
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
@@ -189,7 +200,8 @@ function render(){
       '</tr>';
   }).join("");
 }
-["q","city","category","status","quality"].forEach(id=>$(id).addEventListener("input",render));
-$("clearBtn").addEventListener("click",()=>{["q","city","category","status","quality"].forEach(id=>$(id).value="");render()});
+["q","city","status","quality","subcategory"].forEach(id=>$(id).addEventListener("input",render));
+$("category").addEventListener("change",()=>{renderSubcategoryFilter();render()});
+$("clearBtn").addEventListener("click",()=>{["q","city","category","status","quality","subcategory"].forEach(id=>$(id).value="");renderSubcategoryFilter();render()});
 $("refreshBtn").addEventListener("click",load);
 load().catch(err=>{$("resultCount").textContent="שגיאה בטעינת הנתונים";console.error(err)});
