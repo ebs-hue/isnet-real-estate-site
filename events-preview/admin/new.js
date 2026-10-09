@@ -83,6 +83,14 @@ $("imageFile").addEventListener("change",e=>{
 $("saveBtn").addEventListener("click",async()=>{
   const title=$("title").value.trim(),date=$("startDate").value,city=$("city").value;
   if(!title||!date){alert("יש להזין לפחות כותרת ותאריך.");return}
+  const selectedCategory=(taxonomy?.primary_categories||[]).find(x=>x.id===$("category").value);
+  const selectedSubcategory=$("subcategory").value;
+  if(!selectedCategory){
+    alert("יש לבחור קטגוריה ראשית מתוך המילון המאושר.");return;
+  }
+  if(selectedSubcategory&&!selectedCategory.subcategories?.some(x=>x.id===selectedSubcategory)){
+    alert("תת־הקטגוריה אינה שייכת לקטגוריה הראשית שנבחרה.");return;
+  }
   const item={
     event_id:idFor(city),_citySlug:city,city:city==="ashdod"?"אשדוד":"ראשון לציון",
     title,short_pitch:$("shortPitch").value.trim(),long_description:$("description").value.trim(),
