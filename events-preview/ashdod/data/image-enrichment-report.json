@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-08T23:57:02Z",
+  "generated_at": "2026-10-09T00:27:58Z",
   "total_events": 327,
-  "events_with_publishable_images": 248,
-  "events_still_missing_images": 79,
+  "events_with_publishable_images": 250,
+  "events_still_missing_images": 77,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
     "ashdod_smarticket": 48,
-    "mishkan_smarticket": 31
+    "mishkan_smarticket": 29
   },
   "missing_by_category": {
     "exhibition": 42,
-    "other": 34,
+    "other": 32,
     "kids": 1,
     "lecture": 1,
     "theatre": 1
@@ -241,16 +241,6 @@
     {
       "event_id": "auto_as_f1b6e8dc998d846caabd",
       "title": "סדנא- שימור ושיפור הזיכרון",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_2477b1b0746b9c7835a2",
-      "title": "שני עולמות",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_0b79e886759de4901160",
-      "title": "שני עולמות",
       "reason": "no_verified_source_image"
     },
     {

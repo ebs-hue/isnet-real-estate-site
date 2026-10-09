@@ -1,13 +1,22 @@
 {
-  "generated_at": "2026-10-08T23:56:21Z",
-  "total_events": 261,
-  "verified_images": 261,
+  "generated_at": "2026-10-09T00:27:22Z",
+  "total_events": 257,
+  "verified_images": 257,
   "still_missing": 0,
   "stats": {
-    "same_title_reuse": 45
+    "accepted": 1,
+    "same_title_reuse": 43,
+    "super_editor_fallback": 2
   },
   "revoked_assets": [],
   "newly_filled": [
+    {
+      "event_id": "auto_as_6d281693df39376eb4d3",
+      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
+      "image": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
+      "source": "https://www.ofek-ashdod.org.il/page.php?type=events",
+      "score": 92.9
+    },
     {
       "event_id": "auto_as_58c1ea1851030cfaaa11",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
@@ -125,13 +134,6 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "image": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
       "source": "https://ashdod.smarticket.co.il/",
-      "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_8d868a42a7395c863b80",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET internal representative artwork",
       "score": "reuse"
     },
     {
@@ -317,11 +319,18 @@
       "score": "reuse"
     },
     {
-      "event_id": "auto_as_f1b6e8dc998d846caabd",
-      "title": "סדנא- שימור ושיפור הזיכרון",
-      "image": "assets/defaults/lecture.svg",
-      "source": "ISNET internal representative artwork",
-      "score": "reuse"
+      "event_id": "auto_as_2477b1b0746b9c7835a2",
+      "title": "שני עולמות",
+      "image": "assets/defaults/festival.svg",
+      "source": "ISNET",
+      "score": "representative_fallback"
+    },
+    {
+      "event_id": "auto_as_0b79e886759de4901160",
+      "title": "שני עולמות",
+      "image": "assets/defaults/festival.svg",
+      "source": "ISNET",
+      "score": "representative_fallback"
     }
   ],
   "missing": []

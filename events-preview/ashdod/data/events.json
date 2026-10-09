@@ -28041,12 +28041,12 @@
       "purchase_url": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873",
       "purchase_phone": "08-9238680",
       "purchase_source": "official_listing",
-      "image_url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
-      "image_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=33873&ht=סיור פריחה דבש ויין בגדרה והסביבה 09/03/2027&bc=",
-      "image_credit": null,
+      "image_url": "assets/events/3b84511ac285cabdb69bee.jpg",
+      "image_source": "https://www.ofek-ashdod.org.il/page.php?type=events",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
       "image_publishable": true,
-      "image_verified": false,
-      "image_origin_url": null,
+      "image_verified": true,
+      "image_origin_url": "https://www.ofek-ashdod.org.il/productImages2/296/2020/01/31/image1580459613.jpg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": "הקתדרה העממית \"אופק\" אשדוד",
@@ -28112,7 +28112,9 @@
       ],
       "image_brief": "תמונה רחבה של נוף אביבי באזור גדרה: שדה פורח או שולי כרם תחת אור בוקר רך, עם קבוצה קטנה של מטיילים ברקע שמשתלבים בטבע. בביצת התמונה יש פרטים שמרמזים על הדגש של הסיור — למשל חבית יין או צנצנת דבש ממוקמת באופן טבעי בקדמת המטרה, אך בלי טקסט מוטמע. אווירת התמונה צריכה לשדר הקיץ המתקרב/אביב, טבע וחקלאות ביתית.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "image_rights_status": "verified_official_source",
+      "image_strategy": "source_listing_card"
     },
     {
       "city": "אשדוד",
@@ -28137,12 +28139,12 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8123",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_credit": "איור מייצג: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "assets/defaults/festival.svg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -28167,7 +28169,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -28175,7 +28177,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image",
+      "image_strategy": "super_editor_representative_fallback",
       "media_status": "ready_for_media",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8123",
@@ -28213,7 +28215,9 @@
         "מבט מהחדר אל הבמה"
       ],
       "image_brief": "צילום שער מתאים: מבט מהשורה האחורית של אולם תיאטרון אל במה שבה תאורה מחולקת לשני טונים מנוגדים (למשל חם וקר), עם וילון חלקי ברקע ושורות מושבים ריקות בחזית. אין לכלול טקסט או לוגואים; התמונה תעביר תחושת דו-קיום/ניגודיות המתחברת לכותרת האירוע ״שני עולמות״.",
-      "content_enrichment_status": "ready"
+      "content_enrichment_status": "ready",
+      "image_represents_event": false,
+      "image_represents_category": true
     },
     {
       "city": "אשדוד",
@@ -28238,12 +28242,12 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8124",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": null,
-      "image_source": null,
-      "image_credit": null,
-      "image_publishable": false,
-      "image_verified": false,
-      "image_origin_url": "https://mishkan-ashdod.smarticket.co.il/",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_credit": "איור מייצג: ISNET",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "assets/defaults/festival.svg",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -28268,7 +28272,7 @@
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
       "contact_phone": "*5359",
-      "image_rights_status": "missing",
+      "image_rights_status": "owned_system_asset",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -28276,7 +28280,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "official_source_image",
+      "image_strategy": "super_editor_representative_fallback",
       "media_status": "waiting_for_content",
       "content_ready_for_media": false,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/שני_עולמות/?id=8124",
@@ -28294,7 +28298,9 @@
         "פרטי קשר של המארגן והוראות הגעה/חניה",
         "פילוח כרטיסים (זכויות, מושבים, הנחות והחזרות)"
       ],
-      "content_enrichment_status": "insufficient"
+      "content_enrichment_status": "insufficient",
+      "image_represents_event": false,
+      "image_represents_category": true
     },
     {
       "city": "אשדוד",
