@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T18:20:01Z",
+  "generated_at": "2026-10-09T18:20:40Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -9,43 +9,43 @@
   "events": [
     {
       "city": "ashdod",
-      "event_id": "auto_as_617490407af714bb4af4",
+      "event_id": "auto_as_24bd564dd8d11f87e4ff",
+      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
+      "status": "model_error",
+      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_7d3a5639ec3847f8a137",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_6_20261014",
-      "title": "עיצוב אורח חיים בריא",
+      "event_id": "auto_as_04029172fbcf458e2eb3",
+      "title": "יונתן גת מונארט 2026",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_06f3de539c2d3e22b2ff",
-      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
+      "event_id": "auto_as_6c9c620a36d91d0e9a47",
+      "title": "ישראל ארד מונארט 2026",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "evt_96_20261014",
-      "title": "דירה להכיר",
+      "event_id": "auto_as_833b74952b8fcc17694c",
+      "title": "רועי עלוני מונארט 2026",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     },
     {
       "city": "ashdod",
-      "event_id": "auto_as_f49bff491bdc80b16bfb",
-      "title": "מעשה בחמישה בלונים",
-      "status": "model_error",
-      "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
-    },
-    {
-      "city": "ashdod",
-      "event_id": "auto_as_382f5504e06e1fcda12e",
-      "title": "הזקן והים",
+      "event_id": "auto_as_013751f4bb1f253a4a2f",
+      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }
