@@ -4501,7 +4501,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://www.ofek-ashdod.org.il/page.php?type=event&id=28803&ht=ישראל ארד מונארט 2026",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:13:03Z",
       "missing_information": [
@@ -4536,7 +4536,7 @@
       ],
       "image_brief": "תמונת שער שתרגיש מיד כמו 'הרצאה אינטימית': ישראל ארד עומד ליד דוכן או במרכז במה קטנה, מואר באור חם של בוקר; ברקע רואים מסך עם תמונה ארכיונית מטושטשת (מפה או צילום ישן) והקהל מטושטש ברקע כדי לשמור על המיקוד בדובר. התחושה הכללית צריכה לשדר חיבור בין סיפור אישי לחומר היסטורי — אווירה מעוררת סקרנות וקריאה ללמוד עוד.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "image_rights_status": "verified_official_source",
       "image_strategy": "official_source_image",
       "image_candidates": [],
@@ -4549,7 +4549,8 @@
         "ישראל ארד מרצה",
         "ישראל ארד הרצאות סיפורי ארץ‑ישראל",
         "ישראל ארד מרכז מונארט"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
