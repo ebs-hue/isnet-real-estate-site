@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T04:58:48Z",
+  "generated_at": "2026-10-09T05:21:09Z",
   "total_events": 327,
   "events_with_publishable_images": 292,
   "events_still_missing_images": 35,
@@ -11,10 +11,13 @@
     "mishkan_smarticket": 29
   },
   "missing_by_category": {
-    "other": 32,
-    "kids": 1,
-    "lecture": 1,
-    "theatre": 1
+    "workshop": 2,
+    "other": 1,
+    "music": 12,
+    "theatre": 13,
+    "kids": 4,
+    "lecture": 2,
+    "cinema": 1
   },
   "missing": [
     {
