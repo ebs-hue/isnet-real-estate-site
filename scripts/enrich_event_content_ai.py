@@ -27,7 +27,7 @@ CITIES = {
 REPORT = ROOT / "events-preview" / "content-enrichment-report.json"
 API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
 MODEL = os.getenv("OPENAI_EVENT_ENRICHMENT_MODEL", "gpt-5-mini").strip()
-CONTENT_ENRICHMENT_VERSION = 8
+CONTENT_ENRICHMENT_VERSION = 9
 MAX_EVENTS = int(os.getenv("EVENT_ENRICHMENT_LIMIT", "12"))
 TARGET_CITY = os.getenv("EVENT_ENRICHMENT_CITY", "ashdod").strip()
 EVENT_HORIZON_MONTHS = 5
@@ -79,6 +79,9 @@ def needs_enrichment(event):
     """
     if event.get("content_locked") is True:
         return False
+    # Category cleanup is a priority: "other" is a temporary bucket, not a final classification.
+    if event.get("category") == "other":
+        return True
     if event.get("content_origin") in {"manual", "editorial"} and existing_context(event):
         return False
     retry_after = str(event.get("content_enrichment_retry_after") or "")
@@ -174,6 +177,22 @@ def ask_model(event, source_text, source_url, require_web_search=False):
 - אין צורך לנפח: עדיף טקסט מדויק, מעניין וקולח על פני מלל ארוך.
 - אם המידע עדיין לא מספיק כדי להבין מהו האירוע, החזר content_ready_for_media=false.
 - image_brief חייב לנבוע מהתוכן המהותי של האירוע, לא מהמיקום או מהקטגוריה בלבד.
+- אם category הנוכחי הוא other, חובה לסווג את האירוע לקטגוריה אמיתית מתוך הרשימה הסגורה בלבד:
+  theatre, kids, music, standup, lecture, exhibition, workshop, tour, festival, cinema, sport, community.
+- "other" אינו ערך פלט מותר כאשר מהות האירוע ניתנת להבנה.
+- הצגה/מחזה/תיאטרון => theatre.
+- הצגת ילדים/מופע ילדים/שעת סיפור/פעילות לילדים => kids.
+- הופעה מוזיקלית/קונצרט/שירה/קריוקי => music.
+- סטנדאפ => standup.
+- הרצאה/כנס/מפגש עיוני => lecture.
+- תערוכה/אמנות => exhibition.
+- סדנה/יצירה/קורס מעשי => workshop.
+- סיור/טיול => tour.
+- פסטיבל/יריד/הפנינג => festival.
+- סרט/הקרנה => cinema.
+- משחק/תחרות ספורט => sport.
+- אירוע קהילתי שאינו מתאים לאחרים => community.
+- החזר גם category_confidence בין 0 ל-1.
 - אין להשתמש בלוגו כתחליף לתמונת אירוע אלא אם הלוגו עצמו הוא נושא האירוע.
 החזר JSON בלבד."""
     category_search_labels = {
@@ -222,6 +241,8 @@ def ask_model(event, source_text, source_url, require_web_search=False):
             "short_pitch": "45-75 Hebrew words: concise, attractive and factual; explain what the audience will experience and why it may interest them",
             "long_description": "120-220 Hebrew words: original editorial description focused on subject/story/concept, distinguishing qualities, key participants and audience fit; local venue/date details should be secondary",
             "event_type": "short Hebrew label",
+            "canonical_category": "one of: theatre, kids, music, standup, lecture, exhibition, workshop, tour, festival, cinema, sport, community",
+            "category_confidence": 0.0,
             "participants": ["supported names only"],
             "target_audience": ["supported or safely inferable broad audience labels"],
             "visual_keywords": ["5-10 concrete visual concepts"],
@@ -307,6 +328,22 @@ def apply_result(event, result, source_url):
             if key in {"event_summary", "short_pitch", "long_description", "seo_title", "seo_description", "image_brief"}:
                 value = sanitize_editorial_text(value)
             event[key] = value
+    # Reclassify only records still in the temporary "other" bucket.
+    if event.get("category") == "other":
+        allowed_categories = {"theatre","kids","music","standup","lecture","exhibition","workshop","tour","festival","cinema","sport","community"}
+        proposed = clean_text(result.get("canonical_category"))
+        try:
+            confidence = float(result.get("category_confidence") or 0)
+        except (TypeError, ValueError):
+            confidence = 0.0
+        event["category_review_proposed"] = proposed or None
+        event["category_review_confidence"] = confidence
+        if proposed in allowed_categories and confidence >= 0.72:
+            event["category_previous"] = "other"
+            event["category"] = proposed
+            event["category_review_status"] = "auto_reclassified"
+        else:
+            event["category_review_status"] = "needs_editor_review"
     event["media_status"] = "ready_for_media"
     return True
 
