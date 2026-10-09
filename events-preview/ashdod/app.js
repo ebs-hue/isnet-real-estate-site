@@ -39,8 +39,8 @@ const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
 const currency=new Intl.NumberFormat("he-IL",{style:"currency",currency:"ILS",maximumFractionDigits:0});
-const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",exhibition:"תערוכות ואמנות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה",sport:"ספורט באשדוד",tour:"סיורים",other:"עוד"};
-const catIcons={music:"♫",standup:"◉",theatre:"◇",kids:"★",lecture:"▣",exhibition:"▤",cinema:"▶",festival:"✺",community:"◎",sport:"⚑",tour:"⌖",other:"+"};
+const catLabels={music:"הופעות ומוזיקה",standup:"סטנדאפ",theatre:"תיאטרון והצגות",kids:"ילדים ומשפחה",lecture:"הרצאות וכנסים",workshop:"סדנאות ויצירה",exhibition:"תערוכות ואמנות",cinema:"קולנוע",festival:"פסטיבלים",community:"קהילה ופנאי",sport:"ספורט באשדוד",tour:"סיורים וטיולים",other:"עוד"};
+const catIcons={music:"♫",standup:"◉",theatre:"◇",kids:"★",lecture:"▣",workshop:"✎",exhibition:"▤",cinema:"▶",festival:"✺",community:"◎",sport:"⚑",tour:"⌖",other:"+"};
 const favorites=new Set(JSON.parse(localStorage.getItem("isnet-events-favorites")||"[]"));
 
 function localDate(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
@@ -63,7 +63,7 @@ function nextWeekendRange(){
 function formatTime(t){return t||"השעה תפורסם"}
 function isNonEventActivity(e){
   const text=[e?.title,e?.series_title,e?.description,e?.variant_label].filter(Boolean).join(" ");
-  if(e?.category==="workshop"||e?.category==="classes")return true;
+  if(e?.category==="classes")return true;
   return /(?:סדנה|סדנא|סדנת|סדנאות|קורס|קורסים|חוג|חוגים|פילאטיס|יוגה|טאי[־ -]?צ.?י|התעמלות|אימון קבוע|סטודיו פתוח|המרחב הבטוח|שיטת דורון|איזון מפרקים|מפגשים שבועיים|סדרת מפגשים|מחזור לימודים)/i.test(text);
 }
 function priceText(e){
@@ -810,7 +810,7 @@ function renderDates(){
   $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
 }
 function renderCategories(){
-  const cats=["music","standup","kids","sport","theatre","lecture","exhibition","cinema","festival"];
+  const cats=["music","standup","kids","sport","theatre","lecture","workshop","exhibition","tour","festival","community","cinema"];
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
   $("categoryGrid").innerHTML=cats.map(c=>{
