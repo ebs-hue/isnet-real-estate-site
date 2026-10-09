@@ -1434,7 +1434,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17531",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:52:20Z",
       "missing_information": [
@@ -1475,7 +1475,7 @@
       ],
       "image_brief": "תצלום כיסוי רחב־זווית של חלל התערוכה במוזיאון: במרכז התמונה להראות חלק מעבודה צילומית מרובת שכבות של הדס סט (מרקמי נייר, גרעינות פילם או סריקות משפחתיות) וברקע או בצד להתוות קיר עם אחד הציורים המופשטים הגדולים של עמית קבסה. התאורה צריכה להדגיש גוונים עשירים של צבע וחומריות, ולהעביר את התחושה של מפגש בין צילום לטקסטורה צבעונית גדולה; אין לכלול לוגואים או טקסט כתוב על התמונה.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "מוזיאון אשדוד: אשכול תערוכות – הדס סט ועמית קבסה",
@@ -1490,7 +1490,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "sport_20261009_hapoel_ashdod_m_handball",
@@ -1555,9 +1556,9 @@
       "representative_team": true,
       "content_ready_for_media": true,
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
-      "content_enrichment_retry_after": "2026-10-14",
-      "content_enrichment_version": 8,
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
+      "content_enrichment_version": 9,
       "content_enrichment_source": "",
       "content_enrichment_model": "gpt-5-mini",
       "content_origin": "ai_enriched",
@@ -1669,7 +1670,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17532",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:53:36Z",
       "missing_information": [
@@ -1709,7 +1710,7 @@
       ],
       "image_brief": "תמונת שער שתדגים את הטון החזותי של התערוכה: מבט רחב על חלל גלריה לבן שבו תלוי ציור מופשט רחב היקף, עם מרקם צבע ברור וצבעוניות בולטת; ברקע או בפינה גלויה, מסך או פרויקטור שמציג פריים של עבודה וידאו כדי להעביר את השילוב בין ציור לווידאו. אין טקסט על התמונה, אין לוגואים בולטים; אפשר להציג את היצירות ללא מבקרים כדי להדגיש את החוויה הוויזואלית.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "כניסה לתערוכות — מוזיאון אשדוד לאמנות | 10.10.2026",
@@ -1724,7 +1725,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_70_20261010",
@@ -1788,7 +1790,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/%D7%94%D7%9C%D7%91_%D7%96%D7%95%D7%9B%D7%A8/?id=8020",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:54:17Z",
       "missing_information": [
@@ -1820,7 +1822,7 @@
       ],
       "image_brief": "תמונת שער מרוכזת שמציגה רגע על הבמה: זמר או אנסמבל קטן מבצעים תחת תאורה חמה (גווני זהב ואדום), קהל בחזית מטושטש בעומק השדה. ברקע יש רמזים לזיכרון — מסגרת תמונה מטושטשת או פרחים בהטלה עדינה של אור; האווירה צריכה לשדר נוסטלגיה, כבוד וקהילתיות. אין לשלב טקסטים או לוגואים בתמונה.",
       "media_status": "ready_for_media",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "הלב זוכר — מופע גאורגי לזכר איציק קקולי | המשכן 10.10.2026",
       "seo_description": "מופע הוקרה גאורגי לזכר איציק \"קקולי\" גוריאלשוילי: ערב שירים, זיכרון ואווירה קהילתית במשכן לאמנויות הבמה, אשדוד. 10.10.2026, 21:30. הכרטיסים אזלו.",
       "thumbnail_source": "central_media_bank_card",
@@ -1833,7 +1835,8 @@
         "איציק גוריאלשוילי קקולי תמונה",
         "הלב זוכר מופע גאורגי משכן אשדוד",
         "מופע לזכר איציק קקולי אשדוד"
-      ]
+      ],
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -1900,7 +1903,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17553",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:54:52Z",
       "missing_information": [
@@ -1937,7 +1940,7 @@
       ],
       "image_brief": "תמונת שער תציג את חלל התצוגה של מוזיאון אשדוד עם שני אלמנטים מרכזיים בשדה הראייה: קנבס גדול מופשט של עמית קבסה הממוקם בחזית, ולצדו או ברקע פאנל/קיר עם עבודת צילום/נייר של הדס סט; במרכז או בצד ייראה מסך וידאו קטן המלווה את ההרכב. חשוב ששפה הצילום תדגיש את הממדים והמרקם של הציורים ואת הניגוד בין הבד/הצבע לבין עבודות הנייר והוידאו — ללא טקסט על התמונה.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "landscape_cover",
       "seo_title": "מוזיאון אשדוד לאמנות — כניסה לתערוכות (11.10.2026)",
@@ -1951,7 +1954,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "city": "אשדוד",
@@ -2024,7 +2028,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/הרצאה_של_יונתן_סררו/?id=17695",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T10:55:46Z",
       "missing_information": [
@@ -2055,7 +2059,7 @@
       ],
       "image_brief": "תצלום רך ואותנטי של המרצה באמצע דבריו: יונתן סרור עומד מאחורי דוכן או מניח ספר פתוח, מבט מרוכז, יד אחת מורה או מדגישה נקודה. ברקע קהל מאזינים בחצי‑צללים ותאורת במה חמה שמבליטה את הדובר. התמקדו באווירה של שיחה אינטימית ולימודית; הימנעו מלשלב טקסטים, לוגואים או אלמנטים גרפיים חדים.",
       "media_status": "needs_image_research",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "seo_title": "הרצאה — יונתן סרור | מרכז קהילתי ספרא 11.10.2026",
       "seo_description": "הרצאה של יונתן סרור במרכז קהילתי ספרא (אשדוד), 11/10/2026 18:00. המודעה לא ציינה נושא; הכרטיסים אזלו.",
       "image_subject_type": "artist_or_speaker",
@@ -2067,7 +2071,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_71_20261011",
