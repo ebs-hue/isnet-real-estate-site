@@ -1,7 +1,7 @@
 {
   "audited_at": "2026-10-09",
   "scope": "ashdod",
-  "status": "partial_verified_source_pages",
+  "status": "all_eight_source_families_structurally_reviewed_not_all_event_pages_verified",
   "rules": [
     "Preserve original source category and URL.",
     "Never treat source grouping as definitive event category.",
@@ -20,9 +20,12 @@
         "עיר אופנה",
         "פסנתר לתמיד",
         "קומיקאים שרים בדיונה",
-        "תמיד יש סיבה לצאת"
+        "תמיד יש סיבה לצאת",
+        "אזרחים ותיקים",
+        "סדנאות במוזיאון",
+        "כניסה למוזיאון"
       ],
-      "warning": "Groups are programs and campaigns, not necessarily genres; exclude book fees and tenders.",
+      "warning": "Groups are programs and campaigns, not necessarily genres; exclude book fees and tenders. The site also lists payments, tenders, and long-running services that are not events.",
       "mapping_examples": [
         {
           "term": "מועדון גדולות מהחיים",
@@ -95,11 +98,43 @@
     },
     {
       "id": "איגוד הכדורעף בישראל",
-      "status": "pending_page_review"
+      "status": "source_structure_verified",
+      "url": "https://www.iva.org.il/ליגות/",
+      "observed_groups": [
+        "ליגת על גברים",
+        "ליגת על נשים",
+        "ליגה לאומית לנוער",
+        "ליגה לאומית לנערות"
+      ],
+      "mapping": {
+        "category": "sport",
+        "subcategory": "volleyball",
+        "audience_from_league": "youth/adults",
+        "verify": "team, venue, match date, home game"
+      }
     },
     {
       "id": "ההתאחדות לכדורגל בישראל",
-      "status": "pending_page_review"
+      "status": "source_structure_verified",
+      "url": "https://www.football.org.il/team-details/",
+      "observed_groups": [
+        "ליגה",
+        "גביע המדינה",
+        "גביע הטוטו",
+        "קבוצת גיל",
+        "משחקי העונה",
+        "אצטדיון"
+      ],
+      "mapping": {
+        "category": "sport",
+        "subcategory": "football",
+        "verify": "team, stadium, home fixture, date"
+      }
     }
+  ],
+  "next_actions": [
+    "Capture exact original category from each individual source event page where available.",
+    "Build normalized organizer/program/audience fields independently of category.",
+    "Require human review for ambiguous mappings and verify all 321 events before bulk publish."
   ]
 }
