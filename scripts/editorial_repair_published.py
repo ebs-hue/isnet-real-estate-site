@@ -40,6 +40,8 @@ def passes(result):
             and not re.search(r'https?://|\\[מקור\\]',desc+" "+pitch))
 
 def main():
+    if os.getenv("EDITORIAL_REPAIR_WRITE_ENABLED") != "YES_AFTER_LEAK_AUDIT":
+        raise SystemExit("SAFETY HOLD: editorial repair writes disabled pending public-copy leak audit")
     if not (URL and KEY and os.getenv("OPENAI_API_KEY")):
         raise SystemExit("Missing SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY or OPENAI_API_KEY")
     data={str(e.get("event_id")):e for e in json.loads(DATA.read_text()).get("events",[])}
