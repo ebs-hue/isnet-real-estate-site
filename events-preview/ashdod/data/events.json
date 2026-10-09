@@ -6593,14 +6593,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17583",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -6628,7 +6628,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -6636,7 +6636,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17583",
       "content_enrichment_model": "gpt-5-mini",
@@ -6691,7 +6691,10 @@
       "seo_title": "כניסה לתערוכות — מוזיאון אשדוד לאמנות | 19.10.2026",
       "seo_description": "פתיחת מקבץ תערוכות במוזיאון אשדוד: 'Joy in Repetition' של הדס סט, תערוכת יחיד של עמית קבסה ומבחר וידאו-ארט. כניסה ב-19.10.2026, 10:00.",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_9_20261019",
@@ -7225,14 +7228,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17557",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -7260,7 +7263,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7268,7 +7271,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17557",
       "content_enrichment_model": "gpt-5-mini",
@@ -7313,7 +7316,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -7722,14 +7728,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -7757,7 +7763,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -7765,7 +7771,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17558",
       "content_enrichment_model": "gpt-5-mini",
@@ -7811,7 +7817,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -8149,14 +8158,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -8184,7 +8193,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8192,7 +8201,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17584",
       "content_enrichment_model": "gpt-5-mini",
@@ -8237,7 +8246,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_47_20261022",
@@ -8495,14 +8507,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -8530,7 +8542,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8538,7 +8550,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17535",
       "content_enrichment_model": "gpt-5-mini",
@@ -8586,7 +8598,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_49_20261023",
@@ -8682,14 +8697,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -8717,7 +8732,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8725,7 +8740,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17536",
       "content_enrichment_model": "gpt-5-mini",
@@ -8773,7 +8788,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
@@ -8928,14 +8946,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -8963,7 +8981,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8971,7 +8989,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17559",
       "content_enrichment_model": "gpt-5-mini",
@@ -9017,7 +9035,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -9249,14 +9270,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17585",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -9284,7 +9305,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9292,7 +9313,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17585",
       "content_enrichment_model": "gpt-5-mini",
@@ -9340,7 +9361,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "sport_20261026_maccabi_ashdod_basketball",
@@ -9517,14 +9541,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17561",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -9552,7 +9576,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -9560,7 +9584,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17561",
       "content_enrichment_model": "gpt-5-mini",
@@ -9606,7 +9630,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_73_20261028",
@@ -10072,14 +10099,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -10107,7 +10134,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10115,7 +10142,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17586",
       "content_enrichment_model": "gpt-5-mini",
@@ -10161,7 +10188,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "sport_20261029_hapoel_ashdod_w_handball",
@@ -10313,14 +10343,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -10348,7 +10378,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10356,7 +10386,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
       "content_enrichment_model": "gpt-5-mini",
@@ -10402,7 +10432,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -10567,14 +10600,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17538",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -10602,7 +10635,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10610,7 +10643,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17538",
       "content_enrichment_model": "gpt-5-mini",
@@ -10657,7 +10690,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_54_20261031",
@@ -10747,14 +10783,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17562",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -10782,7 +10818,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -10790,7 +10826,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17562",
       "content_enrichment_model": "gpt-5-mini",
@@ -10836,7 +10872,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -11048,14 +11087,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -11083,7 +11122,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11091,7 +11130,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17587",
       "content_enrichment_model": "gpt-5-mini",
@@ -11140,7 +11179,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_14_20261102",
@@ -11591,14 +11633,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -11626,7 +11668,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11634,7 +11676,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17563",
       "content_enrichment_model": "gpt-5-mini",
@@ -11679,7 +11721,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_15_20261103",
@@ -11871,14 +11916,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -11906,7 +11951,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -11914,7 +11959,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17564",
       "content_enrichment_model": "gpt-5-mini",
@@ -11960,7 +12005,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_16_20261104",
@@ -12197,14 +12245,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -12232,7 +12280,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12240,7 +12288,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17588",
       "content_enrichment_model": "gpt-5-mini",
@@ -12289,7 +12337,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -12686,14 +12737,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -12721,7 +12772,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12729,7 +12780,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17539",
       "content_enrichment_model": "gpt-5-mini",
@@ -12776,7 +12827,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -12801,14 +12855,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17540",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -12836,7 +12890,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12844,7 +12898,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17540",
       "content_enrichment_model": "gpt-5-mini",
@@ -12890,7 +12944,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -12915,14 +12972,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17565",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -12950,7 +13007,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -12958,7 +13015,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17565",
       "content_enrichment_model": "gpt-5-mini",
@@ -13006,7 +13063,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -13159,14 +13219,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17589",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -13194,7 +13254,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13202,7 +13262,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17589",
       "content_enrichment_model": "gpt-5-mini",
@@ -13250,7 +13310,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -13507,14 +13570,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17566",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -13542,7 +13605,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13550,7 +13613,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17566",
       "content_enrichment_model": "gpt-5-mini",
@@ -13596,7 +13659,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_75_20261110",
@@ -13718,14 +13784,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17567",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -13753,7 +13819,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13761,7 +13827,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17567",
       "content_enrichment_model": "gpt-5-mini",
@@ -13806,7 +13872,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_76_20261111",
@@ -13932,14 +14001,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17590",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -13967,7 +14036,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -13975,7 +14044,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17590",
       "content_enrichment_model": "gpt-5-mini",
@@ -14023,7 +14092,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_58_20261112",
@@ -14113,14 +14185,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17541",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -14148,7 +14220,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14156,7 +14228,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17541",
       "content_enrichment_model": "gpt-5-mini",
@@ -14200,7 +14272,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_98_20261113",
@@ -14336,14 +14411,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17542",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -14371,7 +14446,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14379,7 +14454,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17542",
       "content_enrichment_model": "gpt-5-mini",
@@ -14425,7 +14500,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -14560,14 +14638,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17568",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -14595,7 +14673,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14603,7 +14681,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17568",
       "content_enrichment_model": "gpt-5-mini",
@@ -14652,7 +14730,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -14783,14 +14864,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17591",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -14818,7 +14899,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -14826,7 +14907,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17591",
       "content_enrichment_model": "gpt-5-mini",
@@ -14872,7 +14953,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -15260,14 +15344,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17569",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -15295,7 +15379,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -15303,7 +15387,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17569",
       "content_enrichment_model": "gpt-5-mini",
@@ -15350,7 +15434,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_21_20261117",
@@ -15710,14 +15797,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -15745,7 +15832,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -15753,7 +15840,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17570",
       "content_enrichment_model": "gpt-5-mini",
@@ -15802,7 +15889,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -16064,14 +16154,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -16099,7 +16189,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -16107,7 +16197,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17592",
       "content_enrichment_model": "gpt-5-mini",
@@ -16155,7 +16245,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_80_20261119",
@@ -16307,14 +16400,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17543",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -16342,7 +16435,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -16350,7 +16443,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17543",
       "content_enrichment_model": "gpt-5-mini",
@@ -16401,7 +16494,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -16426,14 +16522,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17544",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -16461,7 +16557,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -16469,7 +16565,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17544",
       "content_enrichment_model": "gpt-5-mini",
@@ -16514,7 +16610,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_81_20261121",
@@ -16727,14 +16826,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17571",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -16762,7 +16861,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -16770,7 +16869,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17571",
       "content_enrichment_model": "gpt-5-mini",
@@ -16815,7 +16914,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -17177,14 +17279,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -17212,7 +17314,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17220,7 +17322,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17593",
       "content_enrichment_model": "gpt-5-mini",
@@ -17266,7 +17368,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -17396,14 +17501,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -17431,7 +17536,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17439,7 +17544,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17572",
       "content_enrichment_model": "gpt-5-mini",
@@ -17484,7 +17589,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_23_20261124",
@@ -17676,14 +17784,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17573",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -17711,7 +17819,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17719,7 +17827,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17573",
       "content_enrichment_model": "gpt-5-mini",
@@ -17765,7 +17873,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -17790,14 +17901,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17594",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -17825,7 +17936,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -17833,7 +17944,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17594",
       "content_enrichment_model": "gpt-5-mini",
@@ -17881,7 +17992,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_61_20261126",
@@ -17966,14 +18080,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17545",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -18001,7 +18115,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -18009,7 +18123,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17545",
       "content_enrichment_model": "gpt-5-mini",
@@ -18058,7 +18172,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -18083,14 +18200,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17546",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 240,
       "sources": [
@@ -18118,7 +18235,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -18126,7 +18243,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17546",
       "content_enrichment_model": "gpt-5-mini",
@@ -18173,7 +18290,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "event_id": "evt_83_20261128",
@@ -18299,14 +18419,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17574",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 360,
       "sources": [
@@ -18334,7 +18454,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -18342,7 +18462,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17574",
       "content_enrichment_model": "gpt-5-mini",
@@ -18389,7 +18509,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
@@ -18632,14 +18755,14 @@
       "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17595",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "assets/events/ec1c4894f557c3316c3737.png",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
       "image_source": "https://ashdod.smarticket.co.il/",
       "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": false,
-      "image_verified": false,
+      "image_publishable": true,
+      "image_verified": true,
       "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
       "organizer": null,
       "duration_minutes": 600,
       "sources": [
@@ -18657,7 +18780,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_6347127f965dcf0e1e59",
-      "image_rights_status": "needs_review",
+      "image_rights_status": "verified_official_source",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -18675,7 +18798,7 @@
       "address_source": "verified_institution_registry",
       "contact_phone": "08-8545180",
       "contact_email": "AAM@ironit.org.il",
-      "image_strategy": "same_production_reuse",
+      "image_strategy": "central_media_bank_reuse",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17595",
       "content_enrichment_model": "gpt-5-mini",
@@ -18723,7 +18846,10 @@
       "thumbnail_strategy": "landscape_cover",
       "content_enrichment_retry_after": "2026-10-09",
       "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט"
     },
     {
       "city": "אשדוד",
