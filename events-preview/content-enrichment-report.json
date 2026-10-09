@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T03:49:42Z",
+  "generated_at": "2026-10-09T03:50:22Z",
   "model": "gpt-5-mini",
   "checked": 6,
   "enriched": 0,
@@ -44,8 +44,8 @@
     },
     {
       "city": "ashdod",
-      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
-      "title": "מכבי אשדוד - מכבי חדרה",
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
       "status": "model_error",
       "error": "OpenAI API 429: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.\", \"type\": \"insufficient_quota\", \"param\": null, \"code\": \"credit_balance_exhausted\" } }"
     }

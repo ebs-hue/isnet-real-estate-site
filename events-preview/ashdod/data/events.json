@@ -5686,7 +5686,7 @@
       "content_ready_for_media": true,
       "content_enrichment_source": "https://mishkan-ashdod.smarticket.co.il/דרושה_עוזרת_471f06b60d/?id=8221",
       "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 8,
+      "content_enrichment_version": 9,
       "content_origin": "ai_enriched",
       "content_enriched_at": "2026-10-08T11:19:55Z",
       "missing_information": [
@@ -5716,7 +5716,7 @@
         "אנרגיה מהירה על הבמה"
       ],
       "image_brief": "צילום עיצובי של רגע במה: השחקן שמגלם את העוזרת בעמדה קדמית בתנוחה קומית ובתלבושת עוזרת בית בולטת, מאחוריהם הזוג (עמוס ונעמי) בחתך עומק של סלון מפואר מעט מבולגן — רמז לכאוס הקומי. התאורה חמה ותיאטרלית, מבט ועדין על הבעות פנים מצחיקות ותנועה, ללא כיתוב או לוגו; צבעים חיים שמדגישים הומור ובידור.",
-      "content_enrichment_status": "ready",
+      "content_enrichment_status": "model_error",
       "participants": [
         "ניקי גולדשטיין",
         "אקי אבני",
@@ -5738,7 +5738,8 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "image_represents_event": false,
-      "image_represents_category": true
+      "image_represents_category": true,
+      "content_enrichment_retry_after": "2026-10-10"
     },
     {
       "event_id": "evt_44_20261017",
