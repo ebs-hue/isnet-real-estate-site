@@ -5412,35 +5412,6 @@
       "media_bank_id": "media_baf1cb481d33a2caf91c4f49"
     },
     {
-      "event_id": "auto_ri_ec21084ffc2aafaecd97",
-      "city": "ראשון לציון",
-      "title": "אור לגויים - תיאטרון בית ליסין",
-      "description": "אור לגויים - תיאטרון בית ליסין",
-      "start_date": "2026-10-19",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "theatre",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "category_scope_verified",
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "auto_ri_7b9fc94f07d37650c91a",
       "city": "ראשון לציון",
       "title": "מרתון סטנדאפ - יום שני חגיגה פאצ'ו בר",
@@ -6021,35 +5992,6 @@
       "content_enrichment_retry_after": "2026-10-14",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_baf1cb481d33a2caf91c4f49"
-    },
-    {
-      "event_id": "auto_ri_c8ef9d0f6f41f65343d5",
-      "city": "ראשון לציון",
-      "title": "אור לגויים - תיאטרון בית ליסין",
-      "description": "אור לגויים - תיאטרון בית ליסין",
-      "start_date": "2026-10-20",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "theatre",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "category_scope_verified",
-        "national_board_import"
-      ]
     },
     {
       "city": "ראשון לציון",
@@ -24746,6 +24688,60 @@
       "content_ready_for_media": false,
       "content_enrichment_status": "source_text_insufficient",
       "content_enrichment_retry_after": "2026-10-14"
+    },
+    {
+      "event_id": "auto_ri_ec21084ffc2aafaecd97",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "city": "ראשון לציון",
+      "category": "theatre",
+      "subcategory": null,
+      "start_date": "2026-10-19",
+      "start_time": "20:30",
+      "venue": "היכל התרבות ראשון לציון",
+      "status": "active",
+      "description": "לוח הצגות והזמנת כרטיסים להצגה אור לגויים - בית ליסין . בקרו באתר מבלים לצפייה בלוח הצגות של אור לגויים - בית ליסין - לחצו להזמנות!",
+      "series_description": "לוח הצגות והזמנת כרטיסים להצגה אור לגויים - בית ליסין . בקרו באתר מבלים לצפייה בלוח הצגות של אור לגויים - בית ליסין - לחצו להזמנות!",
+      "ticket_url": "https://tickets.mevalim.co.il/event/BN3e5LALmr_rgl8",
+      "purchase_url": "https://tickets.mevalim.co.il/event/BN3e5LALmr_rgl8",
+      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2025/08/58bd113defe353ca0768ec420b28d48b.jpeg",
+      "image_origin_url": "https://www.mevalim.co.il/wp-content/uploads/2025/08/58bd113defe353ca0768ec420b28d48b.jpeg",
+      "image_source": "mevalim",
+      "image_verified": true,
+      "image_publishable": true,
+      "image_represents_event": true,
+      "image_strategy": "national_board_displayed_image",
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
+      "content_source_url": "https://www.mevalim.co.il/theater/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/",
+      "rich_content_status": "enriched",
+      "source": "national_stage_boards",
+      "source_event_id": "auto_ri_ec21084ffc2aafaecd97"
+    },
+    {
+      "event_id": "auto_ri_c8ef9d0f6f41f65343d5",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "city": "ראשון לציון",
+      "category": "theatre",
+      "subcategory": null,
+      "start_date": "2026-10-20",
+      "start_time": "20:30",
+      "venue": "היכל התרבות ראשון לציון",
+      "status": "active",
+      "description": "לוח הצגות והזמנת כרטיסים להצגה אור לגויים - בית ליסין . בקרו באתר מבלים לצפייה בלוח הצגות של אור לגויים - בית ליסין - לחצו להזמנות!",
+      "series_description": "לוח הצגות והזמנת כרטיסים להצגה אור לגויים - בית ליסין . בקרו באתר מבלים לצפייה בלוח הצגות של אור לגויים - בית ליסין - לחצו להזמנות!",
+      "ticket_url": "https://htrl.smarticket.co.il/event/9006",
+      "purchase_url": "https://htrl.smarticket.co.il/event/9006",
+      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2025/08/58bd113defe353ca0768ec420b28d48b.jpeg",
+      "image_origin_url": "https://www.mevalim.co.il/wp-content/uploads/2025/08/58bd113defe353ca0768ec420b28d48b.jpeg",
+      "image_source": "mevalim",
+      "image_verified": true,
+      "image_publishable": true,
+      "image_represents_event": true,
+      "image_strategy": "national_board_displayed_image",
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
+      "content_source_url": "https://www.mevalim.co.il/theater/%D7%90%D7%95%D7%A8-%D7%9C%D7%92%D7%95%D7%99%D7%99%D7%9D/",
+      "rich_content_status": "enriched",
+      "source": "national_stage_boards",
+      "source_event_id": "auto_ri_c8ef9d0f6f41f65343d5"
     }
   ],
   "image_audit_generated_at": "2026-10-10T04:36:41Z"
