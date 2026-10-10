@@ -1,15 +1,15 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
-  "generated_at": "2026-10-10T11:17:04.800491+00:00",
+  "generated_at": "2026-10-10T11:19:50.414042+00:00",
   "total": 321,
   "counts": {
-    "already_valid": 160,
-    "missing_or_invalid": 161,
-    "needs_contextual_review": 146,
-    "needs_source_research": 120,
-    "staged_candidate": 15,
-    "review_medium_confidence": 14,
+    "already_valid": 174,
+    "missing_or_invalid": 147,
+    "needs_contextual_review": 136,
+    "needs_source_research": 118,
+    "staged_candidate": 11,
+    "review_medium_confidence": 10,
     "primary_category_review": 4,
     "primary_category_review_blocked": 1
   },
@@ -179,54 +179,6 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_382f5504e06e1fcda12e",
-      "title": "הזקן והים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_04029172fbcf458e2eb3",
-      "title": "יונתן גת מונארט 2026",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_6c9c620a36d91d0e9a47",
-      "title": "ישראל ארד מונארט 2026",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_833b74952b8fcc17694c",
-      "title": "רועי עלוני מונארט 2026",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -447,33 +399,9 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_14_20261102",
-      "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.88,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_6702385b6f68556b2c50",
       "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
       "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "evt_16_20261104",
-      "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
-      "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
@@ -503,18 +431,6 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_f45962e796919e19fbcd",
-      "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -747,18 +663,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_19c0457586e8a88fbe65",
-      "title": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_0796e91ed6cd6d37f9ca",
       "title": "סיפור הנס",
       "category": "kids",
@@ -781,18 +685,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_61122eedddd876637d0d",
-      "title": "פסטיבל ילד פלא - יעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-culture",
-      "confidence": 0.87,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_53b36d3a117f507f77b7",
@@ -1095,18 +987,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_cb3a4659aefbcd0529d0",
-      "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-sport",
-      "confidence": 0.89,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_b2274dd31f58c6fcf843",
       "title": "תיק 137",
       "category": "theatre",
@@ -1122,18 +1002,6 @@
       "event_id": "auto_as_243390bd002ecc344da5",
       "title": "השועל המוסיקלי המוסיקה האירית",
       "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_067e3bb9166f3ccd4cf9",
-      "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
-      "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
@@ -1275,18 +1143,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_2d86a3932207b0dfadb6",
-      "title": "אל עמק הברכה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_0a2955afc99e32e98101",
       "title": "בואי נעשה לנו חג",
       "category": "theatre",
@@ -1333,18 +1189,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_ad9aa5d26bfb663907d7",
-      "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-culture",
-      "confidence": 0.87,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_c41f0c83c1874a320cdf",
@@ -1607,18 +1451,6 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_a02e2e039fa2a5969f9b",
-      "title": "חיפה- עוגת חתונה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "description_conflict",
-      "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },

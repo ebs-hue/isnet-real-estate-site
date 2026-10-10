@@ -4142,7 +4142,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -4535,7 +4538,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_lecture_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-workshops",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -4658,7 +4664,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_lecture_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -4781,7 +4790,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_lecture_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -11773,7 +11785,10 @@
       "audience_program": "גדולות מהחיים",
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
-      "category_reviewed_at": "2026-10-09T10:25:00+03:00"
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -12661,7 +12676,10 @@
       "audience_program": "גדולות מהחיים",
       "category_review_status": "program_audience_rule",
       "category_review_confidence": 1,
-      "category_reviewed_at": "2026-10-09T10:25:00+03:00"
+      "category_reviewed_at": "2026-10-09T10:25:00+03:00",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_74_20261104",
@@ -13898,7 +13916,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -20371,7 +20392,10 @@
       "category_review_status": "audience_rule_reclassified",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T09:12:00+03:00",
-      "activity_type": "festival"
+      "activity_type": "festival",
+      "subcategory": "senior-workshops",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -21081,7 +21105,10 @@
       "activity_type": "festival",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "senior-culture",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -25266,7 +25293,10 @@
       "activity_type": "sport",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "senior-sport",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -25728,7 +25758,10 @@
       "thumbnail_strategy": "media_bank_default",
       "content_enrichment_status": "model_error",
       "content_enrichment_version": 11,
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "senior-workshops",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -27285,7 +27318,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -27929,7 +27965,10 @@
       "activity_type": "lecture",
       "audience_program": "גדולות מהחיים",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -31468,7 +31507,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
