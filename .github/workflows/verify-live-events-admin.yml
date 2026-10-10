@@ -24,6 +24,9 @@ jobs:
             'admin_js':'https://isnet.co.il/events-preview/admin/app.js',
             'github_pages_html':'https://isnet-media.github.io/isnet-real-estate-site/events-preview/admin/',
             'github_pages_js':'https://isnet-media.github.io/isnet-real-estate-site/events-preview/admin/app.js',
+            'ashdod_app_js':'https://isnet.co.il/events-preview/ashdod/app.js',
+            'ashdod_fallbacks':'https://isnet.co.il/events-preview/ashdod/category-fallbacks.json',
+            'ashdod_lecture_image':'https://isnet.co.il/events-preview/ashdod/assets/defaults/lecture.svg',
           }
           result={'checked_at':datetime.datetime.now(datetime.timezone.utc).isoformat(),'live':{}}
           import socket
@@ -41,6 +44,7 @@ jobs:
             except Exception as e:
               result['live'][name]={'error':str(e)[:300]}
           result['latest_admin_deployed']=all(result['live'].get(k,{}).get('sort_order_present') for k in ('admin_html','admin_js'))
+          result['ashdod_fallback_code_deployed']=result['live'].get('ashdod_app_js',{}).get('bytes',0)>70000 and result['live'].get('ashdod_app_js',{}).get('sort_order_present',False)==False
           result['github_pages_updated']=all(result['live'].get(k,{}).get('sort_order_present') for k in ('github_pages_html','github_pages_js'))
           from pathlib import Path
           p=Path('events-preview/admin/data/live-deployment-check.json');p.parent.mkdir(parents=True,exist_ok=True)
