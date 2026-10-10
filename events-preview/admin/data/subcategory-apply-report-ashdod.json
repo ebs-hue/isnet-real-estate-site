@@ -1,8 +1,79 @@
 {
-  "count_updated": 0,
+  "count_updated": 14,
   "count_corrected": 0,
-  "count_skipped": 238,
-  "updated": [],
+  "count_skipped": 224,
+  "updated": [
+    {
+      "event_id": "auto_as_24bd564dd8d11f87e4ff",
+      "category": "seniors",
+      "subcategory": "senior-workshops"
+    },
+    {
+      "event_id": "evt_48_20261022",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_50_20261024",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_53_20261029",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "auto_as_46c23e069a55ad1b5bac",
+      "category": "seniors",
+      "subcategory": "senior-workshops"
+    },
+    {
+      "event_id": "auto_as_7c4f95bd1f6d41f060e1",
+      "category": "seniors",
+      "subcategory": "senior-workshops"
+    },
+    {
+      "event_id": "evt_59_20261121",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_60_20261124",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_61_20261126",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_65_20261212",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_66_20261215",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "auto_as_2b8d59b9f755ec9b7983",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "auto_as_f1c4b053e11c06583785",
+      "category": "seniors",
+      "subcategory": "senior-dance"
+    },
+    {
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    }
+  ],
   "corrected": [],
   "cms_readback_verified": false,
   "public_site_readback_verified": false

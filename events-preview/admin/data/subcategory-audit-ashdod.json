@@ -1,18 +1,17 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
-  "generated_at": "2026-10-10T07:13:07.288375+00:00",
+  "generated_at": "2026-10-10T11:12:35.570808+00:00",
   "total": 321,
   "counts": {
-    "already_valid": 83,
-    "missing_or_invalid": 238,
-    "needs_contextual_review": 157,
-    "needs_source_research": 132,
-    "staged_candidate": 81,
-    "review_medium_confidence": 63,
-    "primary_category_review": 17,
-    "primary_category_review_blocked": 9,
-    "ready_for_guarded_application": 9
+    "already_valid": 97,
+    "missing_or_invalid": 224,
+    "needs_contextual_review": 146,
+    "needs_source_research": 120,
+    "staged_candidate": 78,
+    "review_medium_confidence": 77,
+    "primary_category_review": 4,
+    "primary_category_review_blocked": 1
   },
   "events": [
     {
@@ -292,18 +291,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_24bd564dd8d11f87e4ff",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.91,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_7d3a5639ec3847f8a137",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -544,18 +531,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_48_20261022",
-      "title": "מני עוזרי",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_1e5059b53915f4c7fe21",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -590,18 +565,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_50_20261024",
-      "title": "שלום אסייג",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
     },
     {
       "event_id": "auto_as_b069b87dfeecdb648ea4",
@@ -686,18 +649,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_53_20261029",
-      "title": "בן בן ברוך",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
     },
     {
       "event_id": "auto_as_d6f20b5b24339863b497",
@@ -816,8 +767,8 @@
       "confidence": 0.88,
       "evidence_field": "title",
       "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
+      "primary_category_review_proposed": null,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_6702385b6f68556b2c50",
@@ -876,7 +827,7 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": "community",
+      "primary_category_review_proposed": null,
       "status": "needs_review"
     },
     {
@@ -952,18 +903,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_46c23e069a55ad1b5bac",
-      "title": "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_f42edb321dbde7088a3a",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -985,18 +924,6 @@
       "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_7c4f95bd1f6d41f060e1",
-      "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.91,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": "community",
       "status": "needs_review"
     },
     {
@@ -1264,18 +1191,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_59_20261121",
-      "title": "אורי חזקיה",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_9ae58929c271c5410eec",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -1308,7 +1223,7 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": "community",
+      "primary_category_review_proposed": null,
       "status": "needs_review"
     },
     {
@@ -1348,18 +1263,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_60_20261124",
-      "title": "טוביה צפיר – 80 שנה של הומור!",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_d56184583cc012704fb9",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -1382,18 +1285,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_61_20261126",
-      "title": "מירית גליצקי - מוגזמת",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
     },
     {
       "event_id": "auto_as_255eb2a0c98790b70d69",
@@ -1510,8 +1401,8 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
+      "evidence_field": "description_conflict",
+      "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -1572,8 +1463,8 @@
       "confidence": 0.87,
       "evidence_field": "title",
       "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
+      "primary_category_review_proposed": null,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_53b36d3a117f507f77b7",
@@ -1612,18 +1503,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_65_20261212",
-      "title": "חן מזרחי",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_3d3cdcdf993039f9fe16",
       "title": "בעקבות סופרים בנחלאות",
       "category": "seniors",
@@ -1648,18 +1527,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_66_20261215",
-      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_1248203a0850a8e67852",
       "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
       "category": "kids",
@@ -1680,18 +1547,6 @@
       "confidence": 0.0,
       "evidence_field": "description_conflict",
       "conflict": true,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_2b8d59b9f755ec9b7983",
-      "title": "מתן פרץ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -1752,7 +1607,7 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": "community",
+      "primary_category_review_proposed": null,
       "status": "needs_review"
     },
     {
@@ -1880,12 +1735,12 @@
       "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
+      "suggested_subcategory": "artists-bands",
+      "confidence": 0.85,
+      "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_d3cf764f28c61e301ce9",
@@ -1932,8 +1787,8 @@
       "confidence": 0.89,
       "evidence_field": "description",
       "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
+      "primary_category_review_proposed": null,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_b2274dd31f58c6fcf843",
@@ -1980,19 +1835,7 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_f1c4b053e11c06583785",
-      "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-dance",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": "community",
+      "primary_category_review_proposed": null,
       "status": "needs_review"
     },
     {
@@ -2128,18 +1971,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_3d668279eb3a8887ca1d",
-      "title": "כספיון - התאטרון השחור",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": "needs_source_research",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_2d86a3932207b0dfadb6",
       "title": "אל עמק הברכה",
       "category": "seniors",
@@ -2184,7 +2015,7 @@
       "confidence": 0.0,
       "evidence_field": "needs_source_research",
       "conflict": false,
-      "primary_category_review_proposed": "community",
+      "primary_category_review_proposed": null,
       "status": "needs_review"
     },
     {
@@ -2208,8 +2039,8 @@
       "confidence": 0.87,
       "evidence_field": "description",
       "conflict": false,
-      "primary_category_review_proposed": "community",
-      "status": "needs_review"
+      "primary_category_review_proposed": null,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_c41f0c83c1874a320cdf",
