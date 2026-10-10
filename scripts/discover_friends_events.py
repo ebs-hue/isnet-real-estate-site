@@ -18,7 +18,7 @@ OUTPUT=ROOT/"events-preview/admin/data/friends-discovery.json"
 UA="ISNET-Events-Source-Discovery/1.0 (contact via isnet.co.il)"
 HEADERS={"User-Agent":UA,"Accept-Language":"he-IL,he;q=0.9"}
 def clean(s):
-    return re.sub(r"\\s+"," ",str(s or "")).strip()
+    return re.sub(r"\s+"," ",str(s or "")).strip()
 
 def get(url, session):
     r=session.get(url,headers=HEADERS,timeout=25)
@@ -60,7 +60,7 @@ def main():
             "city_counts":{c["slug"]:sum(v["city"]==c["slug"] for v in items) for c in source["cities"]},
             "errors":errors,"candidates":items}
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
-    OUTPUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    OUTPUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"city_counts":report["city_counts"],"errors":errors},ensure_ascii=False))
 if __name__=="__main__":
     main()
