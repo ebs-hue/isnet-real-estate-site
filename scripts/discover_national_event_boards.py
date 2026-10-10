@@ -17,7 +17,7 @@ OUT=ROOT/"events-preview/admin/data/national-events-discovery.json"
 CITIES={"ashdod":("אשדוד",),"rishon-lezion":("ראשון לציון","ראשל״צ","ראשל\u05f4צ")}
 HEADERS={"User-Agent":"ISNET-Events-Research/1.0 (isnet.co.il)","Accept-Language":"he-IL,he;q=0.9"}
 def clean(x):
-    return re.sub(r"\\s+"," ",str(x or "")).strip()
+    return re.sub(r"\s+"," ",str(x or "")).strip()
 def main():
     sources=json.loads(CONFIG.read_text(encoding="utf-8"))["sources"]
     results=[];source_reports=[]
@@ -59,7 +59,7 @@ def main():
         time.sleep(2)
     OUT.write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),
       "publication_enabled":False,"images_authorized":False,"cms_modified":False,
-      "source_reports":source_reports,"candidates":results},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+      "source_reports":source_reports,"candidates":results},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(source_reports,ensure_ascii=False))
 if __name__=="__main__":
     main()
