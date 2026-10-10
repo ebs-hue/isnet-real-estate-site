@@ -1,0 +1,38 @@
+name: Fetch Ashdod stage content and media candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 6 * * *'
+  push:
+    paths:
+      - 'scripts/fetch_ashdod_stage_media_candidates.py'
+      - '.github/workflows/ashdod-stage-media-candidates.yml'
+permissions:
+  contents: write
+concurrency:
+  group: ashdod-stage-media-candidates
+  cancel-in-progress: false
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Fetch matched stage-show source pages and capture candidates
+        run: python scripts/fetch_ashdod_stage_media_candidates.py
+      - name: Save review report without publishing
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/stage-content-media-review-ashdod.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Ashdod stage content image and video source candidates"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
