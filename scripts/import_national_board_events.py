@@ -9,7 +9,21 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
 DISC=ROOT/"events-preview/admin/data/national-events-discovery.json"
+CONFIG=ROOT/"events-preview/admin/data/event-source-priority.json"
 CITIES={"ashdod":"אשדוד","rishon-lezion":"ראשון לציון"}
+STAGE_CATEGORIES={"music","standup","kids","theatre"}
+CATEGORY_RULES=[
+    ("kids",("ילדים","ילדות","ילדי","לילדים","לכל המשפחה","פעוטות","שעת סיפור","kids","children","family")),
+    ("standup",("סטנדאפ","סטנד אפ","סטנד-אפ","קומדיה","הומור","אלתור","stand up","stand-up","comedy")),
+    ("theatre",("תיאטרון","הצגה","מחזמר","בלט","אופרה","theatre","theater","musical")),
+    ("music",("הופעה","מופע מוזיקלי","מוזיקה","מוסיקה","קונצרט","זמר","להקה","תזמורת","שירה","concert","music","singer","band")),
+]
+def classify_stage_category(title,description=""):
+    text=norm(" ".join((title or "",description or ""))).casefold()
+    for category,terms in CATEGORY_RULES:
+        if any(norm(term).casefold() in text for term in terms):
+            return category
+    return None
 HEADERS={"User-Agent":"ISNET-Events/1.0","Accept-Language":"he-IL,he;q=0.9"}
 def norm(x):return re.sub(r"\s+"," ",str(x or "")).strip()
 def event_nodes(value):
@@ -85,41 +99,83 @@ def listing_rows(html,url,city):
     return output
 
 def main():
-    d=json.loads(DISC.read_text(encoding="utf-8"))
+    discovery=json.loads(DISC.read_text(encoding="utf-8"))
+    config=json.loads(CONFIG.read_text(encoding="utf-8"))
+    source_rules={}
+    for source in config.get("sources",[]):
+        if not source.get("enabled"):
+            continue
+        categories=set((source.get("policy") or {}).get("stage_board_categories",[])) & STAGE_CATEGORIES
+        if categories:
+            source_rules[source["id"]]={"domain":source["domain"],"categories":categories}
     session=requests.Session();session.headers.update(HEADERS)
     report={"generated_at":datetime.now(timezone.utc).isoformat(),"sources":{},"cities":{}}
     for slug,label in CITIES.items():
         path=ROOT/"events-preview"/slug/"data/events.json"
         data=json.loads(path.read_text(encoding="utf-8"));events=data["events"]
         seen={(e.get("title"),e.get("start_date"),e.get("start_time"),e.get("venue")) for e in events}
-        count=0
+        counts={"added":0,"skipped_out_of_scope":0,"by_category":{}}
         candidates=[{"city_hint":slug,"source_url":"https://www.mevalim.co.il/"+("ashdod" if slug=="ashdod" else "rishon-lezion")+"/","source_id":"mevalim"}]
-        candidates += [c for c in d.get("candidates",[]) if c.get("source_id")!="mevalim"]
+        candidates += [c for c in discovery.get("candidates",[]) if c.get("source_id")!="mevalim"]
         for candidate in candidates:
-            if candidate.get("city_hint")!=slug:continue
+            if candidate.get("city_hint")!=slug:
+                continue
+            source_id=candidate.get("source_id")
+            rule=source_rules.get(source_id)
+            if not rule:
+                continue
             url=candidate.get("source_url","")
             host=urlparse(url).hostname or ""
-            if not host or not url.startswith("https://"):continue
+            allowed_domain=rule["domain"].removeprefix("www.")
+            actual_host=host.removeprefix("www.")
+            if not url.startswith("https://") or not (actual_host==allowed_domain or actual_host.endswith("."+allowed_domain)):
+                continue
             try:
                 response=session.get(url,timeout=15)
                 response.raise_for_status()
-                if (urlparse(response.url).hostname or "")!=host:continue
+                redirected_host=(urlparse(response.url).hostname or "").removeprefix("www.")
+                if not (redirected_host==allowed_domain or redirected_host.endswith("."+allowed_domain)):
+                    continue
                 rows=extract(response.text,url,label)
-                if candidate.get("source_id")=="mevalim":rows+=listing_rows(response.text,url,label)
-            except (requests.RequestException,ValueError,TypeError):continue
+                if source_id=="mevalim":
+                    rows+=listing_rows(response.text,url,label)
+            except (requests.RequestException,ValueError,TypeError):
+                continue
+            source_report=report["sources"].setdefault(source_id,{"added":0,"skipped_out_of_scope":0,"by_category":{}})
             for row in rows:
+                category=classify_stage_category(row.get("title"),row.get("description"))
+                if category not in rule["categories"]:
+                    counts["skipped_out_of_scope"]+=1
+                    source_report["skipped_out_of_scope"]+=1
+                    continue
                 key=tuple(row[k] for k in ("title","start_date","start_time","venue"))
-                if key in seen:continue
+                if key in seen:
+                    continue
                 seen.add(key)
                 eid="auto_"+slug[:2]+"_"+hashlib.sha256(("|".join(key)).encode()).hexdigest()[:20]
-                events.append({"event_id":eid,"city":label,"title":row["title"],"description":row["description"] or row["title"],"start_date":row["start_date"],"start_time":row["start_time"],"venue":row["venue"],"category":"other","ticket_url":url,"image_url":row["image_url"],"image_source":url,"image_origin_url":url,"image_publishable":bool(row["image_url"]),"image_verified":bool(row["image_url"]),"image_rights_status":"needs_review","sources":[{"name":candidate.get("source_id"),"url":url,"source_type":"national_board"}],"status":"active","quality_flags":["national_board_import"]})
-                count+=1
-        if count:
+                image=row.get("image_url")
+                events.append({
+                    "event_id":eid,"city":label,"title":row["title"],
+                    "description":row["description"] or row["title"],
+                    "start_date":row["start_date"],"start_time":row["start_time"],
+                    "venue":row["venue"],"category":category,"ticket_url":url,
+                    "image_url":image,"image_source":url,"image_origin_url":url,
+                    "image_publishable":False,"image_verified":False,
+                    "image_rights_status":"needs_review" if image else "missing",
+                    "image_candidates":([{"url":image,"source_url":url,"rights_status":"needs_review"}] if image else []),
+                    "sources":[{"name":source_id,"url":url,"source_type":"national_board"}],
+                    "status":"active","quality_flags":["national_board_import","category_scope_verified"]
+                })
+                counts["added"]+=1
+                counts["by_category"][category]=counts["by_category"].get(category,0)+1
+                source_report["added"]+=1
+                source_report["by_category"][category]=source_report["by_category"].get(category,0)+1
+        if counts["added"]:
             events.sort(key=lambda e:(e.get("start_date") or "",e.get("start_time") or "",e.get("title") or ""))
             data["generated_at"]=report["generated_at"]
             data.setdefault("stats",{})["events"]=len(events)
             path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-        report["cities"][slug]={"added":count,"total":len(events)}
+        report["cities"][slug]={**counts,"total":len(events)}
     (ROOT/"events-preview/admin/data/national-board-import-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(report,ensure_ascii=False))
 if __name__=="__main__":main()
