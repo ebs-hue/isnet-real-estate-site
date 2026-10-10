@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:13:21.866485+00:00",
+  "generated_at": "2026-10-10T14:32:19.462248+00:00",
   "productions": [
     {
       "production_key": "קסם של כוכבים רועיקי מצחיקי וסמי הכבאי",
@@ -13,46 +13,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "black white live cinema",
-      "name": "BLACK & WHITE. LIVE CINEMA",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "black amp white live cinema",
-      "name": "BLACK &amp; WHITE. LIVE CINEMA",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -90,7 +51,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -128,7 +89,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -262,7 +223,6 @@
         "rishon-lezion"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 2,
@@ -353,11 +313,9 @@
       ],
       "preferred_media_id": "media_fcfa428eaac63aaaa48c32fd",
       "cities": [
-        "ashdod",
         "rishon-lezion"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -405,25 +363,6 @@
       "approved_media_count": 2
     },
     {
-      "production_key": "אור לגויים בית ליסין",
-      "name": "אור לגויים - בית ליסין",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "אור לגויים תיאטרון בית ליסין",
       "name": "אור לגויים - תיאטרון בית ליסין",
       "media": [
@@ -435,27 +374,8 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "אורי ברויר",
-      "name": "אורי ברויר",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -474,7 +394,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -498,25 +417,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "אייל חדד",
-      "name": "אייל חדד",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "איילת מטיילת הצגה מבית רינתי",
@@ -549,7 +449,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -642,8 +542,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -659,12 +558,10 @@
       ],
       "preferred_media_id": "media_e1f11d6ad6a0278b81a176e7",
       "cities": [
-        "ashdod",
         "rishon-lezion"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -681,7 +578,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -705,25 +602,6 @@
       "approved_media_count": 0
     },
     {
-      "production_key": "אסי כהן שאולי",
-      "name": "אסי כהן - שאולי",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "אסף יצחקי",
       "name": "אסף יצחקי",
       "media": [
@@ -735,7 +613,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -761,25 +638,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "אסף מור יוסף",
-      "name": "אסף מור יוסף",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "אסף מור יוסף במופע סטנדאפ",
       "name": "אסף מור יוסף במופע סטנדאפ",
       "media": [
@@ -793,7 +651,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -830,8 +687,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -934,8 +790,8 @@
       "production_key": "בואי נעשה לנו חג",
       "name": "בואי נעשה לנו חג",
       "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad",
-        "media_1b0a9b5ea9e025ba908fcdda"
+        "media_1b0a9b5ea9e025ba908fcdda",
+        "media_02b5f67cb7e21ab82ac4a5ad"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -945,7 +801,7 @@
       "categories": [
         "community",
         "music",
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 2,
@@ -1120,7 +976,6 @@
         "rishon-lezion"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 2,
@@ -1209,11 +1064,9 @@
       ],
       "preferred_media_id": "media_a4e5175231ad30ec63380eea",
       "cities": [
-        "ashdod",
         "rishon-lezion"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -1231,7 +1084,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -1343,7 +1195,6 @@
       ],
       "preferred_media_id": "media_a1dd9957973686b2050eecb3",
       "cities": [
-        "ashdod",
         "rishon-lezion"
       ],
       "categories": [
@@ -1351,25 +1202,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "דניאל סטיופין",
-      "name": "דניאל סטיופין",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "דניאל סטיופין קופה ראשית מופע סטנדאפ",
@@ -1383,7 +1215,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -1436,7 +1267,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -1454,7 +1285,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -1472,7 +1303,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -1549,8 +1380,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1567,8 +1397,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1610,25 +1439,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "החולה ההודי תאטרון הקאמרי",
-      "name": "החולה ההודי - תאטרון הקאמרי",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "החולה ההודי תיאטרון הקאמרי",
       "name": "החולה ההודי - תיאטרון הקאמרי",
       "media": [
@@ -1640,7 +1450,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -1685,25 +1495,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "היי סקול דרמה האקדמיה למדעי היוטיוב משפחת טרסוב",
-      "name": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "היי סקול דרמה משפחת טרסוב",
       "name": "היי סקול דרמה – משפחת טרסוב",
       "media": [
@@ -1736,8 +1527,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -1775,7 +1565,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1798,25 +1588,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
-      "name": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "הכלבלב השובב",
@@ -1903,26 +1674,8 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "המכבים חנוכה 2026",
-      "name": "המכבים - חנוכה 2026",
-      "media": [
-        "media_e4a471179c955dc762512953"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "other",
-        "sport"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -1958,7 +1711,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -1976,7 +1729,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -2019,24 +1772,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "הסינור של רוני ע פ רב המכר האהוב של רינת הופר",
-      "name": "הסינור של רוני - ע\"פ רב המכר האהוב של רינת הופר",
-      "media": [
-        "media_b33c260463a8307ad3aaf955"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "kids",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "הפועל אשדוד א כ נס ציונה",
@@ -2103,8 +1838,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -2160,8 +1894,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -2307,7 +2040,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -2501,24 +2234,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "חיפזון וזהירון סיפור הנס חנוכה 2026",
-      "name": "חיפזון וזהירון - סיפור הנס - חנוכה 2026",
-      "media": [
-        "media_b33c260463a8307ad3aaf955"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "kids",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "חלון לים התיכון",
       "name": "חלון לים התיכון",
       "media": [
@@ -2643,7 +2358,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -2707,25 +2421,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "יובל סמו",
-      "name": "יובל סמו",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "יום המזל שלי",
       "name": "יום המזל שלי",
       "media": [
@@ -2758,7 +2453,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -2802,25 +2497,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "יונתן ברק",
-      "name": "יונתן ברק",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "יונתן גת מונארט 2026",
       "name": "יונתן גת מונארט 2026",
       "media": [
@@ -2849,7 +2525,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -2973,7 +2648,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -2991,7 +2666,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -3032,7 +2707,7 @@
       ],
       "categories": [
         "kids",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -3049,8 +2724,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -3238,7 +2912,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -3304,17 +2978,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מ ס אשדוד מכבי קריית גת",
@@ -3322,17 +2997,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מאיר לביא ועד רוסיני",
@@ -3371,25 +3047,6 @@
       "approved_media_count": 0
     },
     {
-      "production_key": "מוטי אהרונוביץ",
-      "name": "מוטי אהרונוביץ",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "מוטי אהרונוביץ במופע סטנדאפ",
       "name": "מוטי אהרונוביץ במופע סטנדאפ",
       "media": [
@@ -3401,7 +3058,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -3550,27 +3206,8 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "מותרת לכל אדם תאטרון באר שבע",
-      "name": "מותרת לכל אדם - תאטרון באר שבע",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -3587,7 +3224,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -3665,7 +3302,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 2,
@@ -3706,15 +3343,15 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
     },
     {
       "production_key": "מיקי הבית של יעל",
-      "name": "מיקי - הבית של יעל",
+      "name": "מיקי – הבית של יעל",
       "media": [
         "media_2487a12688d1bbd41c09171d",
         "media_547b7913d3b4f5c9f10b57c7"
@@ -3729,8 +3366,7 @@
         "rishon-lezion"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 2,
       "approved_media_count": 2
@@ -3747,7 +3383,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -3759,17 +3394,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי אשדוד הפועל חוסאם נצרת",
@@ -3777,17 +3413,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי אשדוד מכבי sva רחובות",
@@ -3795,17 +3432,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי אשדוד מכבי חדרה",
@@ -3813,17 +3451,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי עירוני אשדוד הפועל ניר רמת השרון",
@@ -3831,17 +3470,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי עירוני אשדוד שמשון תל אביב",
@@ -3849,17 +3489,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי רוטשטיין אשדוד הפועל גליל עליון",
@@ -3867,17 +3508,18 @@
       "media": [
         "media_e4a471179c955dc762512953"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_e4a471179c955dc762512953"
+      ],
+      "preferred_media_id": "media_e4a471179c955dc762512953",
       "cities": [
         "ashdod"
       ],
       "categories": [
-        "other",
         "sport"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "מכבי רוטשטיין אשדוד עירוני נס ציונה",
@@ -3910,7 +3552,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -3989,8 +3630,7 @@
         "rishon-lezion"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 1
@@ -4047,7 +3687,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4064,7 +3704,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -4082,7 +3722,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -4233,7 +3873,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4251,7 +3890,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -4288,7 +3927,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4306,7 +3944,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4325,8 +3962,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4363,7 +4000,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4487,7 +4123,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4506,7 +4142,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4619,24 +4255,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "סינדרלה בכיכובה של רינת גבאי קיץ 2026",
-      "name": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
-      "media": [
-        "media_b33c260463a8307ad3aaf955"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "kids",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "סיפור הנס",
       "name": "סיפור הנס",
       "media": [
@@ -4648,8 +4266,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4704,8 +4321,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4747,25 +4363,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "סתיו בכל הצבעים הקסם שבצבע חנוכה 2026",
-      "name": "סתיו בכל הצבעים - הקסם שבצבע חנוכה 2026",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "סתיו פרחי במופע סטנדאפ",
       "name": "סתיו פרחי במופע סטנדאפ",
       "media": [
@@ -4777,7 +4374,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4797,7 +4393,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4833,7 +4429,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -4853,26 +4448,7 @@
       "categories": [
         "community",
         "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
-      "production_key": "עידן ניידיץ",
-      "name": "עידן ניידיץ",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -4984,8 +4560,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5003,8 +4579,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5022,8 +4598,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5040,8 +4616,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5075,7 +4650,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -5093,7 +4667,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -5185,8 +4758,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5258,8 +4830,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5278,7 +4849,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5333,8 +4904,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5360,26 +4930,21 @@
     },
     {
       "production_key": "קסם של פסטיבל חנוכה 2026",
-      "name": "קסם של פסטיבל חנוכה 2026",
+      "name": "קסם של פסטיבל - חנוכה 2026",
       "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad",
         "media_12cacca1483b28cf2048bbdb"
       ],
       "approved_media": [],
       "preferred_media_id": null,
       "cities": [
-        "ashdod",
         "rishon-lezion"
       ],
       "categories": [
-        "community",
         "festival",
         "kids",
-        "music",
-        "other",
         "theatre"
       ],
-      "media_count": 2,
+      "media_count": 1,
       "approved_media_count": 0
     },
     {
@@ -5421,25 +4986,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "רביטל ויטלזון יעקבס",
-      "name": "רביטל ויטלזון יעקבס",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "רומאו ויוליה בלט פלמנקו ברצלונה",
       "name": "רומאו ויוליה - בלט פלמנקו ברצלונה",
       "media": [
@@ -5451,7 +4997,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -5475,25 +5021,6 @@
       "approved_media_count": 0
     },
     {
-      "production_key": "רותם אבוהב",
-      "name": "רותם אבוהב",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "רינת מטיילת הצגה מבית רינתי",
       "name": "רינת מטיילת- הצגה מבית רינתי",
       "media": [
@@ -5505,7 +5032,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -5546,25 +5073,6 @@
       "approved_media_count": 0
     },
     {
-      "production_key": "רשף לוי",
-      "name": "רשף לוי",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "שומרי הדרקונים",
       "name": "שומרי הדרקונים",
       "media": [
@@ -5595,7 +5103,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -5615,7 +5123,7 @@
       "categories": [
         "community",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5652,8 +5160,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5676,25 +5184,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "שחר חסון",
-      "name": "שחר חסון",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "שיח גלריה יניב שפירא אגם וקדישמן",
@@ -5765,8 +5254,8 @@
       ],
       "categories": [
         "music",
-        "other",
-        "seniors"
+        "seniors",
+        "theatre"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5783,8 +5272,7 @@
         "ashdod"
       ],
       "categories": [
-        "kids",
-        "other"
+        "kids"
       ],
       "media_count": 1,
       "approved_media_count": 0
@@ -5803,30 +5291,10 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "שלומי קוריאט",
-      "name": "שלומי קוריאט",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "שלומי קוריאט במופע סטנדאפ",
@@ -5840,7 +5308,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -5866,25 +5333,6 @@
       "approved_media_count": 1
     },
     {
-      "production_key": "שלישיית פוש אפ",
-      "name": "שלישיית פוש אפ",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music",
-        "other"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
-    },
-    {
       "production_key": "שלישיית פוש אפ מופע סטנדאפ",
       "name": "שלישיית פוש אפ - מופע סטנדאפ",
       "media": [
@@ -5896,7 +5344,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -5937,7 +5384,7 @@
         "community",
         "lecture",
         "music",
-        "other"
+        "theatre"
       ],
       "media_count": 2,
       "approved_media_count": 0
@@ -5975,7 +5422,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -6012,7 +5458,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,
@@ -6030,7 +5476,6 @@
         "ashdod"
       ],
       "categories": [
-        "other",
         "standup"
       ],
       "media_count": 1,
@@ -6065,7 +5510,7 @@
         "ashdod"
       ],
       "categories": [
-        "other",
+        "standup",
         "theatre"
       ],
       "media_count": 1,

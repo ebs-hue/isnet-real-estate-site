@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T14:13:21.866485+00:00",
+  "generated_at": "2026-10-10T14:32:19.462248+00:00",
   "stats": {
-    "events_scanned": 661,
-    "image_links": 498,
+    "events_scanned": 587,
+    "image_links": 442,
     "unique_images": 175,
-    "approved": 151,
+    "approved": 152,
     "needs_review": 11,
-    "rejected": 13
+    "rejected": 12
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 13
+    "same_image_used_for_multiple_dissimilar_event_titles": 12
   },
   "source_domains": {
     "htrl.co.il": {
@@ -32,9 +32,9 @@
     },
     "local": {
       "images": 15,
-      "approved": 4,
+      "approved": 5,
       "review": 1,
-      "rejected": 10
+      "rejected": 9
     },
     "yama.smarticket.co.il": {
       "images": 11,
@@ -175,8 +175,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 109,
-  "reusable_productions": 149,
+  "reusable_artists": 121,
+  "reusable_productions": 158,
   "artists_total": 198,
-  "productions_total": 325
+  "productions_total": 298
 }
