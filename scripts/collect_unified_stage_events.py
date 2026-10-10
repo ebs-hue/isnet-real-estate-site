@@ -208,6 +208,8 @@ def main():
         if all(identity):by_occurrence[identity].append(row)
     repeated_videos={url for url,identities in video_uses.items() if len(identities)>1}
     for row in records:
+        if row.get("image_url") and any(x in row["image_url"].lower() for x in ("big_star.png","placeholder","default-image","no-image")):row["image_url"]=None
+        if row.get("description") and any(x in row["description"] for x in ("באתר מבלים ריכזנו","מחפשים הופעות")):row["description"]=None
         if row.get("video_url") in repeated_videos:
             row["video_candidate_needs_review"]=True
             row["video_url"]=None
