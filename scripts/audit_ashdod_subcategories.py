@@ -110,7 +110,7 @@ RULES["exhibition"] += [(r"פתיחת תערוכה","exhibition-opening",0.96),(
 PRIMARY_REVIEW=[
  ("theatre",r"הצגה (?:מבית|לילדים)|הצגת ילדים|הנסיכה והכתר|איילת מטיילת|רינת מטיילת","kids"),
  ("standup",r"קומדיה משפחתית|הצגה קומית","theatre"),
- ("seniors",r"גדולות מהחיים","community")]
+ # Do not infer an event category from an organizer or audience label such as “גדולות מהחיים”.]
 
 def infer(event,valid,definitions):
     cat=event.get("category")
@@ -179,7 +179,8 @@ def run():
             counts["staged_candidate"]+=1
             if conflict:counts["conflicting_evidence"]+=1
             elif primary_review:counts["primary_category_review_blocked"]+=1
-            elif confidence>=0.90:counts["ready_for_guarded_application"]+=1
+            elif ((evidence in ("title","source_explicit_subcategory") and confidence>=0.90) or (evidence=="description" and confidence>=0.95)):
+                counts["ready_for_guarded_application"]+=1
             elif confidence>=0.85:counts["review_medium_confidence"]+=1
             else:counts["review_low_confidence"]+=1
         else:
