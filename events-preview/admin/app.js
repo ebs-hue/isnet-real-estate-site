@@ -199,7 +199,7 @@ function render(){
       '<td><div class="event-cell">'+(img?'<img class="thumb" src="'+esc(img)+'" alt="">':'<div class="thumb"></div>')+
       '<div><div class="event-name">'+esc(e.title)+'</div><div class="event-id">'+esc(e.event_id)+'</div>'+(statusLabel?'<span class="status-chip status-'+esc(e.status)+'">'+esc(statusLabel)+'</span>':'')+'</div></div></td>'+
       '<td class="image-status">'+imageStatus+'</td>'+
-      '<td>'+esc(e.city)+'</td><td><span class="tag">'+esc(categoryLabels[e.category]||e.category||"—")+'</span></td><td>'+esc(subcategoryLabel(e))+'</td>'+
+      '<td>'+esc(e.city)+'</td><td><div class="category-stack"><strong>'+esc(categoryLabels[e.category]||e.category||"—")+'</strong><small>'+esc(subcategoryLabel(e))+'</small></div></td>'+
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
