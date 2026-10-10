@@ -218,7 +218,11 @@ def ask_model(event, source_text, source_url, require_web_search=False):
         clean_text(event.get("production_name") or event.get("series_name")),
     ] if x).strip()
 
+    taxonomy_file = ROOT / "events-preview/admin/data/taxonomy.json"
+    taxonomy = json.loads(taxonomy_file.read_text(encoding="utf-8")).get("primary_categories", [])
+    taxonomy_options = {cat["id"]: [{"id": sub["id"], "label": sub.get("label", "")} for sub in cat.get("subcategories", [])] for cat in taxonomy}
     payload = {
+        "allowed_subcategories_by_category": taxonomy_options,
         "research_query": research_query,
         "research_rules": [
             "חפש קודם לפי סוג האירוע + שם האירוע",
@@ -245,6 +249,8 @@ def ask_model(event, source_text, source_url, require_web_search=False):
             "event_type": "short Hebrew label",
             "canonical_category": "one of: theatre, kids, music, standup, lecture, exhibition, workshop, tour, festival, cinema, sport, community",
             "category_confidence": 0.0,
+            "canonical_subcategory": "an exact subcategory id allowed by allowed_subcategories_by_category for the event's category",
+            "subcategory_confidence": 0.0,
             "participants": ["supported names only"],
             "target_audience": ["supported or safely inferable broad audience labels"],
             "visual_keywords": ["5-10 concrete visual concepts"],
@@ -357,6 +363,27 @@ def apply_result(event, result, source_url):
             event["category_review_status"] = "auto_reclassified"
         else:
             event["category_review_status"] = "needs_editor_review"
+    # Enforce real taxonomy IDs and respect manually locked classifications.
+    taxonomy_file = ROOT / "events-preview/admin/data/taxonomy.json"
+    taxonomy_groups = json.loads(taxonomy_file.read_text(encoding="utf-8")).get("primary_categories", [])
+    taxonomy_subs = {cat["id"]: {sub["id"] for sub in cat.get("subcategories", [])} for cat in taxonomy_groups}
+    allowed_subs = taxonomy_subs.get(event.get("category"), set())
+    proposed_sub = clean_text(result.get("canonical_subcategory"))
+    try:
+        sub_confidence = float(result.get("subcategory_confidence") or 0)
+    except (TypeError, ValueError):
+        sub_confidence = 0.0
+    event["subcategory_review_proposed"] = proposed_sub or None
+    event["subcategory_review_confidence"] = sub_confidence
+    if event.get("subcategory_manual_override") is True:
+        event["subcategory_review_status"] = "manual_override"
+    elif event.get("subcategory") in allowed_subs:
+        event["subcategory_review_status"] = "already_valid"
+    elif proposed_sub in allowed_subs and sub_confidence >= 0.85:
+        event["subcategory"] = proposed_sub
+        event["subcategory_review_status"] = "auto_classified"
+    else:
+        event["subcategory_review_status"] = "needs_editor_review"
     event["media_status"] = "ready_for_media"
     return True
 
