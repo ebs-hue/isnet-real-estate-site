@@ -100,7 +100,7 @@ def mevalim_ticket_extract(soup,page):
     title=clean(heading.get_text(" ",strip=True)) if heading else ""
     if not title or len(title)>140:return []
     raw=soup.get_text(" ",strip=True)
-    hit=re.search(r"(\\d{1,2}:\\d{2})\\s*[·•|]\\s*(?:יום\\s*)?[^·•|]{0,15}[·•|]\\s*(\\d{1,2}\\.\\d{1,2}\\.20\\d{2})\\s*[·•|]\\s*([^·•|]{4,100})",raw)
+    hit=re.search(r"(\d{1,2}:\d{2})\s*[·•|]\s*(?:יום\s*)?[^·•|]{0,15}[·•|]\s*(\d{1,2}\.\d{1,2}\.20\d{2})\s*[·•|]\s*([^·•|]{4,100})",raw)
     if not hit:return []
     clock,day,venue=hit.groups()
     city=next((k for k,names in CITIES.items() if any(n in venue for n in names)),None)
