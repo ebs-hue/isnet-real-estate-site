@@ -67,57 +67,98 @@ def event_from_jsonld(obj,source_id,page):
       "category":None,"subcategory":None,"source_id":source_id,"source_url":obj.get("url") or page,
       "extraction_method":"structured_event_data","publication_status":"candidate_review",
       "image_provenance":"external_ticket_listing_not_license"}
+
+STAGE_HINT=re.compile(r"הצג|מחזמר|מופע|סטנד.?אפ|הופע|קונצרט|תיאטרון|ילדים|זמר|קומדיה|מוזיקה|מחול|בידור",re.I)
+EXCLUDE_TITLE=re.compile(r"^(?:ראשון לציון|אשדוד|ירושלים|תל אביב|באר שבע|פתח תקווה|Skip to content|← sababa\\.events)$",re.I)
+EVENT_PATH=re.compile(r"/(?:event|events|show|shows|product|ticket|tickets|הופעות|הצגות)/",re.I)
+SOURCE_CITY_URLS={
+  "mevalim":{"ashdod":"https://www.mevalim.co.il/ashdod/","rishon-lezion":"https://www.mevalim.co.il/rishon-lezion/"},
+  "makore":{"ashdod":"https://www.makore.co.il/browse/city/אשדוד","rishon-lezion":"https://www.makore.co.il/browse/city/ראשון-לציון"},
+  "tickchak-live":{"ashdod":"https://live.tickchak.co.il/ashdod","rishon-lezion":"https://live.tickchak.co.il/rishon-lezion"},
+  "sababa-events":{"ashdod":"https://sababa.events/he/venues/tsentr-stsenicheskikh-iskusstv-ashdod/"},
+}
+def detail_links(soup,base,host):
+    links=[]
+    for a in soup.select("a[href]"):
+        url=urljoin(base,a.get("href",""))
+        title=clean(a.get_text(" ",strip=True))
+        if not domain(url,host) or url.rstrip("/")==base.rstrip("/"):continue
+        if not (EVENT_PATH.search(urlparse(url).path) or STAGE_HINT.search(title)):continue
+        if not (7<=len(title)<=125) or EXCLUDE_TITLE.match(title):continue
+        if any(word in title for word in GENERIC):continue
+        if url not in links:links.append(url)
+        if len(links)>=75:break
+    return links
+def detail_extract(soup,source,page):
+    rows=[]
+    for obj in collect_jsonld(soup):
+        event=event_from_jsonld(obj,source,page)
+        if event:rows.append(event)
+    if not rows:return []
+    image=txtmeta(soup,"og:image") or txtmeta(soup,"twitter:image")
+    desc=txtmeta(soup,"og:description") or txtmeta(soup,"description")
+    videos=[]
+    for el in soup.select("iframe[src],a[href]"):
+        v=el.get("src") or el.get("href") or ""
+        if any(t in v for t in ("youtube.com/watch","youtube.com/embed","youtu.be/","vimeo.com/")):
+            url=urljoin(page,v)
+            if url not in videos:videos.append(url)
+    for row in rows:
+        if not row.get("image_url") and image:row["image_url"]=urljoin(page,image)
+        if not row.get("description") and desc:row["description"]=desc
+        if not row.get("video_url") and videos:row["video_url"]=videos[0]
+        row["detail_page_fetched"]=True
+    return rows
+
 def main():
     cfg=json.loads(CFG.read_text(encoding="utf-8"))
     records=[];reports=[];seen=set()
     with requests.Session() as session:
         for source in cfg["sources"]:
-            if not source.get("enabled"):continue
-            pages=[c["url"] for c in source.get("cities",[]) if c.get("url") and c.get("slug") in CITIES]
-            if not pages and source.get("homepage_url"):pages=[source["homepage_url"]]
-            count=0;errors=[]
-            for page in dict.fromkeys(pages):
+            if source["id"] not in {"mevalim","tickchak-live","makore","sababa-events","tickchak-home","leaan","friends-hist"}:continue
+            pages=[]
+            for city in CITIES:
+                url=SOURCE_CITY_URLS.get(source["id"],{}).get(city)
+                if not url:
+                    url=next((c.get("url") for c in source.get("cities",[]) if c.get("slug")==city),None)
+                if url:pages.append((city,url))
+            if not pages and source.get("homepage_url"):pages=[(None,source["homepage_url"])]
+            count=0;errors=[];fetched=0
+            for city_hint,page in pages:
                 try:
-                    r=session.get(page,headers=HEAD,timeout=20)
-                    r.raise_for_status()
-                    if not domain(r.url,source["domain"]):raise ValueError("unexpected_redirect")
-                    soup=BeautifulSoup(r.text,"html.parser")
-                    # Structured event data gives actual city, occurrence and images in one pass.
-                    for obj in collect_jsonld(soup):
-                        event=event_from_jsonld(obj,source["id"],r.url)
-                        if not event:continue
-                        key=(source["id"],event["source_url"],event["city"],event["date_time"])
+                    response=session.get(page,headers=HEAD,timeout=20)
+                    response.raise_for_status()
+                    if not domain(response.url,source["domain"]):raise ValueError("unexpected_redirect")
+                    soup=BeautifulSoup(response.text,"html.parser")
+                    links=detail_links(soup,response.url,source["domain"])
+                    # Structured event records only: never treat navigation links as performances.
+                    for event in detail_extract(soup,source["id"],response.url):
+                        if event.get("city") not in CITIES:continue
+                        key=(source["id"],event["title"],event["city"],event["date_time"])
                         if key in seen:continue
                         seen.add(key);records.append(event);count+=1
-                    # Surface remaining pages as candidates only; never infer a local date from a listing.
-                    for a in soup.select("a[href]"):
-                        title=clean(a.get_text(" ",strip=True))[:160]
-                        if len(title)<7 or len(title)>120 or any(x in title for x in GENERIC):continue
-                        url=urljoin(r.url,a.get("href",""))
-                        if not domain(url,source["domain"]):continue
-                        context=clean(a.parent.get_text(" ",strip=True))[:250] if a.parent else title
-                        city=next((k for k,names in CITIES.items() if any(n in context for n in names)),None)
-                        if not city:continue
-                        key=(source["id"],url,city,None)
-                        if key in seen:continue
-                        seen.add(key)
-                        img=a.find("img")
-                        image=(img.get("data-src") or img.get("src")) if img else None
-                        records.append({"title":title,"city":city,"venue":None,"date_time":None,
-                          "description":None,"image_url":urljoin(r.url,image) if image else None,
-                          "video_url":None,"tickets_url":None,"category":None,"subcategory":None,
-                          "source_id":source["id"],"source_url":url,
-                          "extraction_method":"listing_candidate_requires_detail","publication_status":"candidate_review",
-                          "image_provenance":"external_ticket_listing_not_license"})
-                        count+=1
-                        if count>=250:break
-                except Exception as e:errors.append(type(e).__name__+": "+str(e)[:130])
-                time.sleep(1)
-            reports.append({"source_id":source["id"],"candidates":count,"errors":errors})
+                    for url in links:
+                        if fetched>=65:break
+                        try:
+                            detail=session.get(url,headers=HEAD,timeout=18)
+                            detail.raise_for_status()
+                            if not domain(detail.url,source["domain"]):continue
+                            detail_soup=BeautifulSoup(detail.text,"html.parser")
+                            for event in detail_extract(detail_soup,source["id"],detail.url):
+                                if event.get("city") not in CITIES:continue
+                                key=(source["id"],event["title"],event["city"],event["date_time"])
+                                if key in seen:continue
+                                seen.add(key);records.append(event);count+=1
+                            fetched+=1
+                        except requests.RequestException as exc:errors.append(type(exc).__name__+": "+str(exc)[:80])
+                        time.sleep(.4)
+                except Exception as exc:errors.append(type(exc).__name__+": "+str(exc)[:120])
+                time.sleep(.6)
+            reports.append({"source_id":source["id"],"candidates":count,"details_fetched":fetched,"errors":errors[:6]})
     output={"generated_at":datetime.now(timezone.utc).isoformat(),
       "scope":{"cities":list(CITIES),"categories":sorted(CATS)},
       "cms_modified":False,"public_site_modified":False,"needs_review":True,
-      "counts":{"candidate_records":len(records),"structured_with_schedule":sum(x["extraction_method"]=="structured_event_data" for x in records)},
+      "counts":{"candidate_records":len(records),"structured_with_schedule":sum(bool(x.get("date_time") and x.get("venue")) for x in records),"with_images":sum(bool(x.get("image_url")) for x in records),"with_videos":sum(bool(x.get("video_url")) for x in records)},
       "source_reports":reports,"events":records}
     OUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(output["counts"],ensure_ascii=False))
