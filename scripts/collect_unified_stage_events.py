@@ -21,7 +21,7 @@ def clean(x):return re.sub(r"\s+"," ",str(x or "")).strip()
 def domain(url,hostname):
     host=(urlparse(url).hostname or "").removeprefix("www.")
     root=hostname.removeprefix("www.")
-    return host==root or host.endswith("."+root)
+    return host==root or host.endswith("."+root) or (root=="mevalim.co.il" and host=="tickets.mevalim.co.il")
 def txtmeta(soup,k):
     el=soup.find("meta",attrs={"property":k}) or soup.find("meta",attrs={"name":k})
     return clean(el.get("content")) if el else None
@@ -85,6 +85,7 @@ def detail_links(soup,base,host):
         if not domain(url,host) or url.rstrip("/")==base.rstrip("/"):continue
         if not (EVENT_PATH.search(urlparse(url).path) or STAGE_HINT.search(title)):continue
         if not (7<=len(title)<=125) or EXCLUDE_TITLE.match(title):continue
+        if re.fullmatch(r"[\\w\\s]+",title) and any(x in title for x in ("הצג הכול","בחרו עיר","לוח הופעות")):continue
         if any(word in title for word in GENERIC):continue
         if url not in links:links.append(url)
         if len(links)>=75:break
