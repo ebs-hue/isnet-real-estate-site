@@ -1,0 +1,32 @@
+name: Audit expired Ashdod event occurrences
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3 * * *'
+  push:
+    paths:
+      - 'scripts/audit_expired_event_occurrences.py'
+      - '.github/workflows/expired-event-audit.yml'
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/audit_expired_event_occurrences.py
+      - name: Commit audit report, never delete records
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/expired-occurrences-audit-ashdod.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit expired Ashdod occurrence candidates"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
