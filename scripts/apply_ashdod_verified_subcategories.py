@@ -10,6 +10,20 @@ FEED=ROOT/"events-preview/ashdod/data/events.json"
 AUDIT=ROOT/"events-preview/admin/data/subcategory-audit-ashdod.json"
 TAXONOMY=ROOT/"events-preview/admin/data/taxonomy.json"
 OUT=ROOT/"events-preview/admin/data/subcategory-apply-report-ashdod.json"
+def verified_subcategory_correction(event):
+    """Correct a workshop label when event-level evidence clearly says lecture."""
+    if (event.get("category")!="seniors"
+        or event.get("subcategory")!="senior-workshops"
+        or event.get("subcategory_manual_override") is True):
+        return None
+    fields=[str(event.get(k) or "") for k in ("title","event_summary","description","short_pitch")]
+    activity=" ".join(fields)
+    event_is_workshop=any(re.search(pattern,activity,re.I) for pattern in
+                         (r"סדנ",r"עיסת נייר",r"עיצוב ספגניות",r"הכנת תליונים"))
+    event_is_lecture=any(re.search(pattern,activity,re.I) for pattern in
+                        (r"הרצאה",r"פאנל",r"מפגש העשרה",r"שיחה"))
+    return "senior-lectures" if event_is_lecture and not event_is_workshop else None
+
 def main():
     raw=json.loads(FEED.read_text(encoding="utf-8"))
     audit=json.loads(AUDIT.read_text(encoding="utf-8"))
@@ -37,6 +51,14 @@ def main():
                 event["subcategory"]=sport[1]
                 event["subcategory_review_status"]="corrected_from_explicit_sport_title"
                 corrected.append({"event_id":event.get("event_id"),"subcategory":sport[1]})
+    # Correct the explicit event-format mismatch without touching descriptions or other fields.
+    for event in raw["events"]:
+        target=verified_subcategory_correction(event)
+        if target:
+            event["subcategory"]=target
+            event["subcategory_review_status"]="corrected_from_explicit_lecture_format"
+            corrected.append({"event_id":event.get("event_id"),"subcategory":target})
+
     # Guard against ambiguous assignments based on incidental words in descriptions.
     def semantic_mismatch(event,subcategory):
         title=str(event.get("title") or "")
