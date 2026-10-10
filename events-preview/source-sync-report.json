@@ -1,18 +1,18 @@
 {
-  "run_at": "2026-10-10T11:53:53Z",
+  "run_at": "2026-10-10T11:56:18Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 321,
+      "total_before": 324,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
           "discovered": 216,
           "valid": 126,
-          "new": 3,
+          "new": 0,
           "updated": 0,
           "images_collected": 126
         },
@@ -44,29 +44,30 @@
           "images_collected": 0
         },
         "habama_ashdod": {
-          "status": "no_parseable_events",
+          "status": "failed",
           "url": "https://www.habama.co.il/Pages/HallGeneral.aspx?Area=2&HallGroupID=2089",
           "discovered": 0,
           "valid": 0,
           "new": 0,
           "updated": 0,
-          "images_collected": 0
+          "images_collected": 0,
+          "error": "http_502"
         }
       },
-      "new": 3,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
       "removed_classes": 0,
       "errors": [
-        "habama_ashdod:no_parseable_events"
+        "habama_ashdod:http_502"
       ],
       "repaired_event_ids": 0,
       "total_after": 324
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 333,
+      "total_before": 335,
       "sources": {
         "htrl": {
           "status": "ok",
@@ -91,7 +92,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 2,
+          "new": 0,
           "updated": 0,
           "images_collected": 11
         },
@@ -124,7 +125,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 2,
+      "new": 0,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
