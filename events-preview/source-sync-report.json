@@ -1,20 +1,20 @@
 {
-  "run_at": "2026-10-09T05:28:16Z",
+  "run_at": "2026-10-10T11:53:53Z",
   "version": 1,
   "dry_run": false,
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_before": 327,
+      "total_before": 321,
       "sources": {
         "ashdod_smarticket": {
           "status": "ok",
           "url": "https://ashdod.smarticket.co.il/",
-          "discovered": 218,
-          "valid": 125,
-          "new": 6,
+          "discovered": 216,
+          "valid": 126,
+          "new": 3,
           "updated": 0,
-          "images_collected": 125
+          "images_collected": 126
         },
         "mishkan_smarticket": {
           "status": "ok",
@@ -30,7 +30,7 @@
           "url": "https://live.tickchak.co.il/ashdod",
           "discovered": 35,
           "valid": 32,
-          "new": 1,
+          "new": 0,
           "updated": 0,
           "images_collected": 32
         },
@@ -42,36 +42,47 @@
           "new": 0,
           "updated": 0,
           "images_collected": 0
+        },
+        "habama_ashdod": {
+          "status": "no_parseable_events",
+          "url": "https://www.habama.co.il/Pages/HallGeneral.aspx?Area=2&HallGroupID=2089",
+          "discovered": 0,
+          "valid": 0,
+          "new": 0,
+          "updated": 0,
+          "images_collected": 0
         }
       },
-      "new": 7,
+      "new": 3,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
-      "removed_classes": 13,
-      "errors": [],
+      "removed_classes": 0,
+      "errors": [
+        "habama_ashdod:no_parseable_events"
+      ],
       "repaired_event_ids": 0,
-      "total_after": 321
+      "total_after": 324
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_before": 325,
+      "total_before": 333,
       "sources": {
         "htrl": {
           "status": "ok",
           "url": "https://htrl.co.il/לוח-שנה/",
-          "discovered": 149,
-          "valid": 119,
-          "new": 3,
+          "discovered": 147,
+          "valid": 118,
+          "new": 0,
           "updated": 0,
           "images_collected": 0
         },
         "htrl_adults": {
           "status": "ok",
           "url": "https://htrl.co.il/third-calendar/",
-          "discovered": 118,
-          "valid": 79,
-          "new": 2,
+          "discovered": 117,
+          "valid": 78,
+          "new": 0,
           "updated": 0,
           "images_collected": 0
         },
@@ -80,7 +91,7 @@
           "url": "https://yama.smarticket.co.il/",
           "discovered": 11,
           "valid": 11,
-          "new": 3,
+          "new": 2,
           "updated": 0,
           "images_collected": 11
         },
@@ -113,7 +124,7 @@
           "error": "ReadTimeout"
         }
       },
-      "new": 8,
+      "new": 2,
       "updated": 0,
       "removed_invalid": 0,
       "removed_duplicates": 0,
@@ -123,7 +134,7 @@
         "Eventim:ReadTimeout"
       ],
       "repaired_event_ids": 0,
-      "total_after": 333
+      "total_after": 335
     }
   },
   "note": "Missing listings never trigger automatic cancellations; source failures preserve data."

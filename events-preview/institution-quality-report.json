@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-09T05:29:14+00:00",
+  "generated_at": "2026-10-10T11:54:56+00:00",
   "cities": {
     "ashdod": {
       "city": "אשדוד",
-      "total_events": 321,
+      "total_events": 324,
       "institution_count": 15,
       "venue_matched": 232,
       "operator_matched": 23,
       "events_with_contact_phone": 233,
       "events_with_specific_address": 223,
-      "official_photos_verified": 210,
-      "lecture_total": 30,
-      "lectures_without_verified_event_photo": 18,
+      "official_photos_verified": 294,
+      "lecture_total": 21,
+      "lectures_without_verified_event_photo": 4,
       "operator_event_counts": {
         "ofek_ashdod": 23
       },
@@ -49,6 +49,10 @@
           "count": 2
         },
         {
+          "name": "בית הנוער - דיונה קק\"ל 90 אשדוד",
+          "count": 2
+        },
+        {
           "name": "מרכז להורות משמעותית אשדוד",
           "count": 1
         },
@@ -71,22 +75,18 @@
         {
           "name": "מרכז קהילתי חרצית-שד' הפרחים 18",
           "count": 1
-        },
-        {
-          "name": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
-          "count": 1
         }
       ]
     },
     "rishon-lezion": {
       "city": "ראשון לציון",
-      "total_events": 333,
+      "total_events": 335,
       "institution_count": 10,
-      "venue_matched": 293,
+      "venue_matched": 295,
       "operator_matched": 310,
-      "events_with_contact_phone": 331,
-      "events_with_specific_address": 299,
-      "official_photos_verified": 168,
+      "events_with_contact_phone": 333,
+      "events_with_specific_address": 301,
+      "official_photos_verified": 170,
       "lecture_total": 101,
       "lectures_without_verified_event_photo": 99,
       "operator_event_counts": {

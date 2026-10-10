@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-09T07:32:27.032Z",
+  "generated_at": "2026-10-10T11:53:53Z",
   "window": {
-    "from": "2026-10-09",
+    "from": "2026-10-10",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 321,
+    "events": 324,
     "other_category_remaining": 0,
     "seniors": 40,
     "tour_remaining": 0,
@@ -19580,6 +19580,126 @@
     },
     {
       "city": "אשדוד",
+      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
+      "description": null,
+      "start_date": "2026-11-30",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
+      "address": null,
+      "district": null,
+      "category": "seniors",
+      "activity_type": "classes",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
+      "is_free": null,
+      "ticket_status": "sold_out",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": 90,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-10T11:53:53Z"
+        }
+      ],
+      "observed_at": "2026-10-10T11:53:53Z",
+      "last_verified_at": "2026-10-10T11:53:53Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing",
+        "detail_page_collected"
+      ],
+      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__אני_הרבה_יותר_ממה_שחשבתי__-_יעודי_לגדולות_מהחיים/?id=17214",
+      "source_detail_text": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים דף הבית סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים 30/11/2026 10:00 סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים בית הנוער - דיונה קק\"ל 90 אשדוד (מפת הגעה) ביום שני, 30 בנובמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הכרטיסים אזלו",
+      "source_detail_text_length": 315,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_59d21b15c55e0e5716a8",
+      "detail_checked_at": "2026-10-10",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "details_verified": true
+    },
+    {
+      "city": "אשדוד",
       "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
       "description": null,
       "start_date": "2026-12-01",
@@ -19692,6 +19812,126 @@
       "subcategory": "senior-trips",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.96
+    },
+    {
+      "city": "אשדוד",
+      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
+      "description": null,
+      "start_date": "2026-12-03",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "בית הנוער - דיונה קק\"ל 90 אשדוד",
+      "address": null,
+      "district": null,
+      "category": "seniors",
+      "activity_type": "classes",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": 90,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-10T11:53:53Z"
+        }
+      ],
+      "observed_at": "2026-10-10T11:53:53Z",
+      "last_verified_at": "2026-10-10T11:53:53Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing",
+        "detail_page_collected"
+      ],
+      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__יצור_תליון_מסריגה__יעודי_לגדולות_מהחיים/?id=17216",
+      "source_detail_text": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים דף הבית סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים 03/12/2026 10:00 סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים בית הנוער - דיונה קק\"ל 90 אשדוד (מפת הגעה) ביום חמישי, 3 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
+      "source_detail_text_length": 383,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_d9054166e8decd8ba99d",
+      "detail_checked_at": "2026-10-10",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -22171,9 +22411,9 @@
       "is_free": null,
       "ticket_status": "unknown",
       "ticket_url": "https://live.tickchak.co.il/matan-peretz",
-      "purchase_url": "https://live.tickchak.co.il/ashdod",
+      "purchase_url": null,
       "purchase_phone": null,
-      "purchase_source": "official_listing",
+      "purchase_source": "blocked_competitor_listing",
       "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
       "image_source": "tickchak-live",
       "image_credit": "tickchak-live",
@@ -22598,6 +22838,126 @@
       "subcategory": "other-cinema",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.91
+    },
+    {
+      "city": "אשדוד",
+      "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
+      "description": null,
+      "start_date": "2026-12-24",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מרכז פסגה",
+      "address": null,
+      "district": null,
+      "category": "seniors",
+      "activity_type": "classes",
+      "audiences": [
+        "seniors",
+        "women"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": 10,
+      "price_max_ils": 10,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+      "purchase_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "image_source": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+      "image_credit": null,
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 102,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/il.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/languages/ru.gif",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://ashdod.smarticket.co.il/images/logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/smarticket_logo_242x100.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/google_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/facebook_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        },
+        {
+          "url": "https://static.smarticket.co.il/assets/microsoft_oauth_logo.png",
+          "source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+          "rights_status": "needs_review",
+          "score": 80,
+          "reason": "detail_img"
+        }
+      ],
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "organizer": null,
+      "duration_minutes": 90,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-10T11:53:53Z"
+        }
+      ],
+      "observed_at": "2026-10-10T11:53:53Z",
+      "last_verified_at": "2026-10-10T11:53:53Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing",
+        "detail_page_collected"
+      ],
+      "detail_source_url": "https://ashdod.smarticket.co.il/סדנא__עוף_החול____דקה_לנשום__לצמוח_מהכאב_ומהקושי___-יעודי_לגדולות_מהחיים/?id=17215",
+      "source_detail_text": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים דף הבית סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים 24/12/2026 10:00 סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים מרכז פסגה (מפת הגעה) ביום חמישי, 24 בדצמבר 2026 10:00 - 11:30 משך: שעה ו-30 דקות מחיר 10 ₪ הגדרות הדפדפן שלך לא מאפשרות להתקדם יש ללחוץ על הכפתור למטה בכדי להמשיך לרכישת כרטיסים לחץ כאן בחירת כרטיסים",
+      "source_detail_text_length": 443,
+      "image_strategy": "detail_page_high_quality_candidate",
+      "event_id": "auto_as_2eb56d2075f1de010bd3",
+      "detail_checked_at": "2026-10-10",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "details_verified": true
     },
     {
       "city": "אשדוד",
@@ -34786,5 +35146,5 @@
   ],
   "rich_content_updated_at": "2026-10-05T05:15:00+03:00",
   "generatedAt": "2026-10-05T12:47:00+03:00",
-  "detail_enrichment_checked_at": "2026-10-09T05:29:13.972536+00:00"
+  "detail_enrichment_checked_at": "2026-10-10T11:54:56.232367+00:00"
 }
