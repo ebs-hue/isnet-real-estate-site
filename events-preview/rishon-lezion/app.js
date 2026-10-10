@@ -864,8 +864,8 @@ function renderCategories(){
       '<span class="categoryCard__arrow">←</span>'+
     '</button>';
     const subs=configured.find(x=>x.id===c)?.subcategories||[];
-    if(!active||isCinema||!subs.length)return card;
-    return card+'<div class="categoryInlineSubtypes"><button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">כל האירועים</button>'+subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join('')+'</div>';
+    if(!active||isCinema||!subs.length)return '<div class="categoryTile">'+card+'</div>';
+    return '<div class="categoryTile">'+card+'<div class="categoryInlineSubtypes"><button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">כל האירועים</button>'+subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join('')+'</div></div>';
   }).join("");
 }
 function renderSubcategories(){ /* Subcategories rendered within selected category. */ }
