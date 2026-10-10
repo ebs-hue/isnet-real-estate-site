@@ -23,20 +23,19 @@ def main():
     results=[];source_reports=[]
     session=requests.Session()
     for s in sources:
-        if not s.get("enabled") or not s.get("homepage_url"):
+        if not s.get("enabled") or not (s.get("homepage_url") or any(c.get("url") for c in s.get("cities", []))):
             continue
         city_pages=[c for c in s.get("cities",[]) if c.get("slug") in CITIES and c.get("url")]
-        url=city_pages[0]["url"] if city_pages else s["homepage_url"]
-        city_page=bool(city_pages)
-        city_page_slug=city_pages[0]["slug"] if city_pages else None
-        found=[];error=None
-        try:
+        pages=[(c["url"], c["slug"]) for c in city_pages] or [(s["homepage_url"], None)]
+        found=[];errors=[];seen=set()
+        for url,city_page_slug in pages:
+          city_page=city_page_slug is not None
+          try:
             resp=session.get(url,headers=HEADERS,timeout=20)
             resp.raise_for_status()
             if (urlparse(resp.url).hostname or "").removeprefix("www.") != s["domain"].removeprefix("www."):
                 raise ValueError("cross-domain redirect")
             soup=BeautifulSoup(resp.text,"html.parser")
-            seen=set()
             for a in soup.find_all("a",href=True):
                 title=clean(a.get_text(" ",strip=True))[:250]
                 href=urljoin(resp.url,a["href"]).split("#")[0]
@@ -61,10 +60,10 @@ def main():
                               "status":"candidate_requires_title_city_date_and_venue_validation",
                               "image_rights_status":"unknown"})
 
-        except Exception as exc:
-            error=type(exc).__name__+": "+str(exc)[:180]
+          except Exception as exc:
+            errors.append(type(exc).__name__+": "+str(exc)[:180])
         results.extend(found)
-        source_reports.append({"source_id":s["id"],"found":len(found),"error":error})
+        source_reports.append({"source_id":s["id"],"found":len(found),"error":"; ".join(errors) if errors else None})
         time.sleep(2)
     OUT.write_text(json.dumps({"generated_at":datetime.now(timezone.utc).isoformat(),
       "publication_enabled":False,"images_authorized":False,"cms_modified":False,
