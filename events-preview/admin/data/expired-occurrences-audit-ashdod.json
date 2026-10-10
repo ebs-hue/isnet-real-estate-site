@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-10-10T12:04:15.051112+03:00",
+  "cutoff_local_date": "2026-10-10",
+  "timezone": "Asia/Jerusalem",
+  "mode": "read_only",
+  "database_modified": false,
+  "public_feed_modified": false,
+  "count_total": 321,
+  "count_expired_candidates": 16,
+  "count_retained": 305,
+  "count_requires_review": 0,
+  "expired_occurrences": [
+    {
+      "event_id": "evt_68_20261004",
+      "start_date": "2026-10-04",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_35_20261005",
+      "start_date": "2026-10-05",
+      "end_date": null
+    },
+    {
+      "event_id": "auto_as_21b74de87d9353a296d9",
+      "start_date": "2026-10-06",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_36_20261006",
+      "start_date": "2026-10-06",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_92_20261006",
+      "start_date": "2026-10-06",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_93_20261006",
+      "start_date": "2026-10-06",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_37_20261006",
+      "start_date": "2026-10-06",
+      "end_date": null
+    },
+    {
+      "event_id": "auto_as_ea75f55954e1835c2191",
+      "start_date": "2026-10-07",
+      "end_date": null
+    },
+    {
+      "event_id": "auto_as_0b4b250a9cc0940ed28c",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "auto_as_0ebf1cad124a8b7fb92d",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_38_20261008",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_69_20261008",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "evt_39_20261008",
+      "start_date": "2026-10-08",
+      "end_date": null
+    },
+    {
+      "event_id": "auto_as_b06a6b1900fbc4ab67f1",
+      "start_date": "2026-10-09",
+      "end_date": null
+    },
+    {
+      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
+      "start_date": "2026-10-09",
+      "end_date": null
+    }
+  ],
+  "requires_review": []
+}
