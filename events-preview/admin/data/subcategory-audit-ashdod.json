@@ -1,15 +1,15 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
-  "generated_at": "2026-10-10T06:54:53.021123+00:00",
+  "generated_at": "2026-10-10T07:05:55.181971+00:00",
   "total": 321,
   "counts": {
     "already_valid": 51,
     "missing_or_invalid": 270,
     "needs_contextual_review": 135,
     "staged_candidate": 135,
-    "review_medium_confidence": 61,
-    "review_low_confidence": 41,
+    "review_medium_confidence": 65,
+    "ready_for_guarded_application": 37,
     "conflicting_evidence": 25,
     "primary_category_review": 17,
     "primary_category_review_blocked": 8
@@ -81,11 +81,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_38_20261008",
@@ -105,11 +105,11 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "drama",
-      "confidence": 0.76,
+      "confidence": 0.91,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_39_20261008",
@@ -117,11 +117,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_b06a6b1900fbc4ab67f1",
@@ -141,11 +141,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_90e0977c4c75e8ca55a9",
@@ -237,11 +237,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_95_20261012",
@@ -249,7 +249,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "one-person-show",
-      "confidence": 0.81,
+      "confidence": 0.96,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -261,11 +261,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "basketball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2e9b00b27cc3b531c934",
@@ -309,7 +309,7 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": "concerts",
-      "confidence": 0.81,
+      "confidence": 0.96,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -357,7 +357,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -393,7 +393,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-workshops",
-      "confidence": 0.76,
+      "confidence": 0.91,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -405,7 +405,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
+      "confidence": 0.88,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -417,7 +417,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-workshops",
-      "confidence": 0.76,
+      "confidence": 0.91,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -441,11 +441,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_1671f155d6a206c3de2b",
@@ -465,11 +465,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "football",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7b18a3b8878c1169693b",
@@ -489,11 +489,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_33cbee583475a04a7766",
@@ -501,7 +501,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "comedy",
-      "confidence": 0.79,
+      "confidence": 0.94,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -513,11 +513,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_99d8856352ac024635f0",
@@ -561,11 +561,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_58c1ea1851030cfaaa11",
@@ -597,7 +597,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "psychology-growth",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -633,11 +633,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_72_20261020",
@@ -645,11 +645,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_46_20261020",
@@ -753,11 +753,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_50_20261024",
@@ -801,11 +801,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_e8d879a99bf64df31e3a",
@@ -873,11 +873,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_799a6dbb87a8759e0be8",
@@ -885,11 +885,11 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "comedy",
-      "confidence": 0.79,
+      "confidence": 0.94,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -897,11 +897,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_52_20261028",
@@ -909,11 +909,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_626a62df2f41c6e27d8c",
@@ -933,11 +933,11 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.82,
+      "confidence": 0.98,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_53_20261029",
@@ -1041,7 +1041,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "psychology-growth",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -1089,11 +1089,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_180bd1ccf144be5544e3",
@@ -1245,7 +1245,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-digital",
-      "confidence": 0.79,
+      "confidence": 0.94,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -1281,11 +1281,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_8c0a6d5f1cabc435ad48",
@@ -1485,11 +1485,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_79_20261118",
@@ -1761,11 +1761,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_cc2d1cac424acf768c45",
@@ -1773,11 +1773,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-shows",
-      "confidence": 0.74,
+      "confidence": 0.88,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_5c82b36c5f0954a3ff95",
@@ -1785,11 +1785,11 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": "standup",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_62_20261203",
@@ -1845,7 +1845,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-dance",
-      "confidence": 0.77,
+      "confidence": 0.92,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -1881,11 +1881,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_61122eedddd876637d0d",
@@ -1953,11 +1953,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_31_20261215",
@@ -1965,7 +1965,7 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": "concerts",
-      "confidence": 0.81,
+      "confidence": 0.96,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2001,7 +2001,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2013,11 +2013,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2b8d59b9f755ec9b7983",
@@ -2085,11 +2085,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
+      "confidence": 0.88,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7f19ce4f79e93abe6dc9",
@@ -2229,11 +2229,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_337345b282aabb14f4ed",
@@ -2289,11 +2289,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.83,
+      "confidence": 0.99,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_cb3a4659aefbcd0529d0",
@@ -2301,7 +2301,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-sport",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": "community",
@@ -2325,11 +2325,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_243390bd002ecc344da5",
@@ -2409,7 +2409,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "culture-art",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2493,7 +2493,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.83,
+      "confidence": 0.99,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2517,7 +2517,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-digital",
-      "confidence": 0.79,
+      "confidence": 0.94,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2577,7 +2577,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-culture",
-      "confidence": 0.73,
+      "confidence": 0.87,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": "community",
@@ -2625,11 +2625,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2d713d64cea99683547f",
@@ -2637,7 +2637,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "parenting-family",
-      "confidence": 0.78,
+      "confidence": 0.93,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2697,11 +2697,11 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "travel-geography",
-      "confidence": 0.73,
+      "confidence": 0.87,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f90a3e4493591be402c4",
@@ -2721,11 +2721,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_3842e55c80605e16ed5b",
@@ -2733,7 +2733,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "psychology-growth",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2757,7 +2757,7 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": "sing-along",
-      "confidence": 0.81,
+      "confidence": 0.97,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2769,11 +2769,11 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
-      "confidence": 0.8,
+      "confidence": 0.95,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ee8c99e88b2fabffda94",
@@ -2805,11 +2805,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_0b2aa6658e011fe663a1",
@@ -2865,7 +2865,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.83,
+      "confidence": 0.99,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2877,11 +2877,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_aa2b2468ee21cb65145c",
@@ -2913,7 +2913,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-digital",
-      "confidence": 0.79,
+      "confidence": 0.94,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2973,7 +2973,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.83,
+      "confidence": 0.99,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -2985,11 +2985,11 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.76,
+      "confidence": 0.9,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_17fa7f825b24639c734c",
@@ -3057,7 +3057,7 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "parenting-family",
-      "confidence": 0.78,
+      "confidence": 0.93,
       "evidence_field": "description",
       "conflict": true,
       "primary_category_review_proposed": null,
@@ -3093,11 +3093,11 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": "culture-art",
-      "confidence": 0.75,
+      "confidence": 0.89,
       "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_fc7e4b66f195b19083ff",
