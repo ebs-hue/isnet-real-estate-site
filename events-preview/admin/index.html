@@ -40,6 +40,7 @@
         <button id="clearBtn" class="text-btn">נקה מסננים</button>
       </div>
       <div class="filter-grid">
+        <label><span>סדר תצוגה</span><select id="sortOrder"><option value="latest">האחרונים שעלו — קודם</option><option value="event_date">לפי מועד האירוע</option></select></label>
         <label class="search">
           <span>חיפוש</span>
           <input id="q" type="search" placeholder="למשל: סטנדאפ, מוזיאון, קובי מימון">
@@ -101,6 +102,7 @@
               <th>מקום</th>
               <th>איכות</th>
               <th>קידום</th>
+              <th>תאריך העלאה</th>
               <th>מקור</th>
               <th>צפיות</th>
               <th>צפייה</th>
@@ -117,7 +119,7 @@
   <template id="statTemplate">
     <article class="stat"><strong></strong><span></span><small></small></article>
   </template>
-  <script src="app.js?v=20261010-loader-fix"></script>
+  <script src="app.js?v=20261010-import-sort"></script>
 <script type="module">
 import {requireAuth,signOut} from "./auth/guard.js?v=20261007-1225";
 const auth=await requireAuth();
