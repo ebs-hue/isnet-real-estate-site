@@ -13,6 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/"events-preview/ashdod/data/events.json"
 TAXONOMY=ROOT/"events-preview/admin/data/taxonomy.json"
 REPORT=ROOT/"events-preview/admin/data/subcategory-audit-ashdod.json"
+DEFINITIONS=ROOT/"events-preview/admin/data/subcategory-definitions.json"
 
 # An exact contextual title pattern is used only to stage suggestions, never to publish them.
 RULES={
@@ -111,26 +112,53 @@ PRIMARY_REVIEW=[
  ("standup",r"קומדיה משפחתית|הצגה קומית","theatre"),
  ("seniors",r"גדולות מהחיים","community")]
 
-def infer(event,valid):
+def infer(event,valid,definitions):
     cat=event.get("category")
     title=str(event.get("title") or "")
-    content=" ".join(str(event.get(k) or "") for k in ("short_pitch","event_summary","description","long_description","series_description"))
-    # Title evidence outranks incidental words in description.
-    # Confidence describes specificity, not which field supplied the evidence.
-    # A 0.84 multiplier made even explicit description matches fail a 0.90 write gate.
+    defs=definitions.get(cat,{}).get("subcategories",{})
+    # 1. Structured source categorization is strongest when it matches the canonical taxonomy.
+    source_category=str(event.get("source_category") or event.get("source_primary_category") or "")
+    source_sub=str(event.get("source_subcategory") or event.get("source_genre") or "")
+    if source_category in valid and source_category!=cat:
+        return None,0.0,"source_primary_category_conflict",True
+    if source_sub:
+        matches=[id for id,info in defs.items() if id in valid.get(cat,set())
+                 and (source_sub==id or source_sub==info.get("label"))]
+        if len(matches)==1:
+            return matches[0],1.0,"source_explicit_subcategory",False
+        if len(matches)>1:
+            return None,0.0,"source_ambiguous_subcategory",True
+
+    # 2. An explicit title genre is authoritative, if exactly one non-conflicting
+    # category matches. 3. Then analyze description evidence.
+    content=" ".join(str(event.get(k) or "") for k in
+                     ("short_pitch","event_summary","description","long_description","series_description"))
     for field,evidence_kind in ((title,"title"),(content,"description")):
         matches=[(sub,conf,pattern) for pattern,sub,conf in RULES.get(cat,[])
                  if sub in valid.get(cat,set()) and re.search(pattern,field,re.I)]
+        # Use exact taxonomy label and approved evidence cues, not category-name guesses.
+        for subid,info in defs.items():
+            if subid not in valid.get(cat,set()):
+                continue
+            for phrase in info.get("positive_evidence",[]):
+                if phrase and re.search(r"(?<!\\w)"+re.escape(phrase)+r"(?!\\w)",field,re.I):
+                    matches.append((subid,0.97,phrase))
+                    break
         if matches:
-            # Conflicting candidates require a human review, except the more specific title match.
-            matches.sort(key=lambda x:x[1],reverse=True)
-            return (*matches[0][:2],evidence_kind,len({m[0] for m in matches})>1)
-    return None,0.0,None,False
+            candidates={}
+            for sub,conf,pattern in matches:
+                candidates[sub]=max(conf,candidates.get(sub,0))
+            if len(candidates)>1:
+                return None,0.0,evidence_kind+"_conflict",True
+            sub=next(iter(candidates))
+            return sub,candidates[sub],evidence_kind,False
+    return None,0.0,"needs_source_research",False
 
 def run():
     events=json.loads(FEED.read_text(encoding="utf-8")).get("events",[])
     taxonomy=json.loads(TAXONOMY.read_text(encoding="utf-8")).get("primary_categories",[])
     valid={g["id"]:{s["id"] for s in g.get("subcategories",[])} for g in taxonomy}
+    definitions=json.loads(DEFINITIONS.read_text(encoding="utf-8"))["categories"]
     counts=Counter()
     findings=[]
     for e in events:
@@ -140,7 +168,7 @@ def run():
         if sub in valid[cat]:
             counts["already_valid"]+=1;continue
         counts["missing_or_invalid"]+=1
-        candidate,confidence,evidence,conflict=infer(e,valid)
+        candidate,confidence,evidence,conflict=infer(e,valid,definitions)
         primary_review=next((suggested for current,pattern,suggested in PRIMARY_REVIEW
                              if current==cat and re.search(pattern,title,re.I)),None)
         if primary_review:
@@ -154,7 +182,9 @@ def run():
             elif confidence>=0.90:counts["ready_for_guarded_application"]+=1
             elif confidence>=0.85:counts["review_medium_confidence"]+=1
             else:counts["review_low_confidence"]+=1
-        else:counts["needs_contextual_review"]+=1
+        else:
+            counts["needs_contextual_review"]+=1
+            if evidence=="needs_source_research":counts["needs_source_research"]+=1
         status="suggestion_only" if candidate else "needs_review"
         if conflict or confidence<0.85 or primary_review:status="needs_review"
         findings.append({"event_id":e.get("event_id"),"title":title,"category":cat,"existing_subcategory":sub,
