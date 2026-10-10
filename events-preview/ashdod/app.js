@@ -269,7 +269,11 @@ function specialEventArt(e){return SPECIAL_EVENT_ART[String(e?.title||"").trim()
 
 function eventImageHTML(e,mode="card"){
   const special=specialEventArt(e);
-  if(!special&&!hasTrustedSourceImage(e))return "";
+  if(!special&&!hasTrustedSourceImage(e)){
+    const fallback=fallbackImage(e);
+    if(!fallback)return "";
+    return '<span class="eventArtStage is-category-image"><img class="eventArtMain eventArtFull" src="'+escapeHtml(fallback)+'" alt="תמונת קטגוריה להמחשה" loading="lazy"></span>';
+  }
   const useThumb=!special&&mode==="card"&&e.thumbnail_ready===true&&e.thumbnail_url;
   const src=escapeHtml(special||(useThumb?e.thumbnail_url:e.image_url));
   const cls=useThumb?"eventArtMain eventArtThumb":"eventArtMain eventArtFull";
