@@ -349,7 +349,7 @@ def apply_result(event, result, source_url):
             event[key] = value
     # Reclassify only records still in the temporary "other" bucket.
     if event.get("category") == "other":
-        allowed_categories = {"theatre","kids","music","standup","lecture","exhibition","workshop","tour","festival","cinema","sport","community"}
+        allowed_categories = set(taxonomy_options)
         proposed = clean_text(result.get("canonical_category"))
         try:
             confidence = float(result.get("category_confidence") or 0)
