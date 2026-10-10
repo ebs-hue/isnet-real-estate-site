@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T08:16:19.858134+00:00",
+  "generated_at": "2026-10-10T08:17:12.537220+00:00",
   "type": "shared_stage_production_candidates",
   "stage_categories": [
     "kids",
@@ -10,8 +10,8 @@
   "publication_enabled": false,
   "cms_modified": false,
   "counts": {
-    "production_candidates": 97,
-    "source_links": 98
+    "production_candidates": 96,
+    "source_links": 96
   },
   "productions": [
     {
@@ -64,41 +64,6 @@
       ],
       "cities_seen": [
         "rishon-lezion"
-      ],
-      "local_occurrences": [],
-      "warning": "Do not interpret city hints as confirmed show dates; verify production identity, venue and schedule before linking or publishing."
-    },
-    {
-      "production_candidate_id": "production_candidate_e92f2b62dcf86e71",
-      "title_candidate": "sababa.events",
-      "identity_review_status": "provisional_title_match_only",
-      "classification_status": "unverified",
-      "category": null,
-      "subcategory": null,
-      "production_description": null,
-      "image_url": null,
-      "image_publishable": false,
-      "image_reuse_rights": "not_verified",
-      "source_links": [
-        {
-          "title": "sababa.events",
-          "source_id": "sababa-events",
-          "source_url": "https://sababa.events/he/",
-          "city_hint": "ashdod",
-          "image_candidate_url": null,
-          "source_detail": "national_listing"
-        },
-        {
-          "title": "← sababa.events",
-          "source_id": "sababa-events",
-          "source_url": "https://sababa.events/ashdod/he/",
-          "city_hint": "ashdod",
-          "image_candidate_url": null,
-          "source_detail": "national_listing"
-        }
-      ],
-      "cities_seen": [
-        "ashdod"
       ],
       "local_occurrences": [],
       "warning": "Do not interpret city hints as confirmed show dates; verify production identity, venue and schedule before linking or publishing."
