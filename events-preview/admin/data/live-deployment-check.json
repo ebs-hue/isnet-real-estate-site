@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-10T15:13:06.881699+00:00",
+  "live": {
+    "admin_html": {
+      "http_status": 200,
+      "bytes": 5284,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/admin/"
+    },
+    "admin_js": {
+      "http_status": 200,
+      "bytes": 15124,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/admin/app.js"
+    }
+  },
+  "latest_admin_deployed": false
+}
