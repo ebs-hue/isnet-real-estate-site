@@ -72,13 +72,29 @@ function artistVideoFor(event,catalog){
 function hasEditorialNote(text){
   return /העמוד אינו מפרט|המקור אינו מפרט|יש לבדוק|יש לאמת|נדרש בירור|לא ניתן לאמת|לפי עמוד האירוע|על פי אתר|לפי אתר|פרטים נוספים.*מקור|לא ברור מן המקור|מומלץ לבדוק|כדאי לבדוק/.test(String(text||""));
 }
-function issuesFor(e){
+function stageSourceQualityIssues(e){
+  if(!["music","standup","kids","theatre"].includes(e.category))return [];
   const issues=[];
+  const imageUrl=String(e.image_url||"");
+  const src=String(e.image_source||"");
+  const strategy=String(e.image_strategy||"");
+  const hasProductionImage=Boolean(imageUrl)&&
+    !/big_star\\.png|placeholder|default.image|generic|category|fallback/i.test(imageUrl) &&
+    (e.image_represents_event===true||strategy==="matched_original_stage_production") &&
+    Boolean(e.image_origin_url||src);
+  if(!hasProductionImage)issues.push({key:"needs_image",label:"לא אומתה תמונת הפקה",level:"bad"});
+  const desc=String(e._description||e.long_description||e.event_summary||e.short_pitch||"");
+  if(/מחפשים הופעות|באתר מבלים ריכזנו|כרטיסים במחירים|פרטים נוספים דרך|לפי עמוד האירוע/.test(desc))
+    issues.push({key:"needs_content",label:"תוכן כללי — דרוש תיאור הפקה",level:"bad"});
+  return issues;
+}
+function issuesFor(e){
+  const issues=stageSourceQualityIssues(e);
   const desc=String(e._description||e.long_description||e.event_summary||e.short_pitch||"");
   if(!desc.trim())issues.push({key:"needs_content",label:"חסר תוכן",level:"warn"});
   else if(hasEditorialNote(desc))issues.push({key:"needs_content",label:"הערת מערכת בתוכן",level:"bad"});
   else if(desc.trim().length<160)issues.push({key:"needs_content",label:"תוכן דל",level:"warn"});
-  if(!(e.image_publishable===true&&e.image_verified===true&&(e.thumbnail_url||e.image_url)))issues.push({key:"needs_image",label:"תמונה",level:"bad"});
+  if(!(e.image_publishable===true&&e.image_verified===true&&(e.thumbnail_url||e.image_url))&&!issues.some(x=>x.key==="needs_image"))issues.push({key:"needs_image",label:"תמונה",level:"bad"});
   const taxonomy=taxonomyCategories.find(cat=>cat.id===e.category);
   if(taxonomy?.subcategories?.length && !taxonomy.subcategories.some(sub=>sub.id===e.subcategory)){
     issues.push({key:"needs_subcategory",label:"חסרה תת־קטגוריה",level:"warn"});
