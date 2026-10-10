@@ -1,28 +1,22 @@
 {
-  "generated_at": "2026-10-10T13:28:25.300029+03:00",
+  "generated_at": "2026-10-10T13:38:02.460565+03:00",
   "publication_enabled": true,
   "feed_modified": true,
-  "matched_publication_candidates": 2,
+  "matched_publication_candidates": 1,
   "content_policy": "Only true production descriptions may replace existing copy; ticket-sales boilerplate is not accepted.",
-  "published": 2,
+  "published": 1,
   "blocked": {
     "no_exact_title_or_venue_image": 136,
-    "already_matching_production_image": 35,
+    "already_matching_production_image": 36,
     "different_board_images_source_priority_applied": 2,
     "production_artwork_reuse_matches": 2
   },
   "images": [
     {
-      "event_id": "evt_41_20261013",
-      "title": "חגיגה בכוורת",
-      "source": "makore",
-      "image_url": "https://images.makore.co.il/events/00703f4228788b35e0a86a7a387d8cd74fb651eba5f37b37bf95bb034a38ad24.webp"
-    },
-    {
-      "event_id": "evt_63_20261205",
-      "title": "שושנה - בכיכובה של גל דה פז",
-      "source": "sababa-events",
-      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c3e00fbaaae09aef406114ea12d32ef8.jpg"
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "source": "tickchak-live",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp"
     }
   ]
 }

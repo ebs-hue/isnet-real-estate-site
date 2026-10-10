@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:53:01.231018+00:00",
+  "generated_at": "2026-10-10T10:38:02.272572+00:00",
   "scope": {
     "cities": [
       "ashdod",
@@ -16,34 +16,34 @@
   "public_site_modified": false,
   "needs_review": true,
   "counts": {
-    "candidate_records": 157,
-    "structured_with_schedule": 157,
-    "with_images": 125,
+    "candidate_records": 163,
+    "structured_with_schedule": 163,
+    "with_images": 131,
     "with_videos": 0
   },
   "source_reports": [
     {
       "source_id": "friends-hist",
       "candidates": 0,
-      "details_fetched": 65,
+      "details_fetched": 90,
       "errors": []
     },
     {
       "source_id": "mevalim",
-      "candidates": 32,
-      "details_fetched": 65,
+      "candidates": 34,
+      "details_fetched": 90,
       "errors": []
     },
     {
       "source_id": "makore",
-      "candidates": 20,
-      "details_fetched": 65,
+      "candidates": 24,
+      "details_fetched": 78,
       "errors": []
     },
     {
       "source_id": "tickchak-live",
       "candidates": 74,
-      "details_fetched": 65,
+      "details_fetched": 67,
       "errors": []
     },
     {
@@ -66,12 +66,12 @@
     }
   ],
   "quality": {
-    "with_description": 120,
-    "with_image": 125,
-    "with_ticket_url": 156,
+    "with_description": 126,
+    "with_image": 131,
+    "with_ticket_url": 162,
     "with_video_after_cross_show_check": 0,
     "video_urls_suppressed_as_shared": 1,
-    "possible_duplicate_occurrence_groups": 9
+    "possible_duplicate_occurrence_groups": 11
   },
   "possible_duplicates": [
     {
@@ -159,6 +159,23 @@
     },
     {
       "city": "rishon-lezion",
+      "venue": "היכל התרבות ראשון לציון",
+      "date_time": "2026-10-22T20:30",
+      "events": [
+        {
+          "title": "עפרה - המחזמר על עופרה חזה",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/theater/%D7%A2%D7%A4%D7%A8%D7%94-%D7%94%D7%9E%D7%97%D7%96%D7%9E%D7%A8-%D7%A2%D7%9C-%D7%A2%D7%95%D7%A4%D7%A8%D7%94-%D7%97%D7%96%D7%94/"
+        },
+        {
+          "title": "עפרה - המחזמר",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/theater/%D7%A2%D7%A4%D7%A8%D7%94-%D7%94%D7%9E%D7%97%D7%96%D7%9E%D7%A8-%D7%A2%D7%9C-%D7%A2%D7%95%D7%A4%D7%A8%D7%94-%D7%97%D7%96%D7%94/"
+        }
+      ]
+    },
+    {
+      "city": "rishon-lezion",
       "venue": "פאצ&#039;ו בר ראשון לציון",
       "date_time": "2026-10-15T20:30",
       "events": [
@@ -188,6 +205,23 @@
           "title": "סדנת יצירה באפוקסי אקרילי ליצירת שעון קיר מאפוקסי",
           "source_id": "makore",
           "source_url": "https://www.makore.co.il/event/סדנת-יצירה-באפוקסי-אקרילי-ליצירת-שעון-קיר-מאפוקסי--cde7a5cd"
+        }
+      ]
+    },
+    {
+      "city": "rishon-lezion",
+      "venue": "שירלי מרכז אומנויות, ראשון לציון",
+      "date_time": "2026-10-12T07:00",
+      "events": [
+        {
+          "title": "סדנת יצירה באפוקסי אקרילי ליצירת שעון קיר מאפוקסי",
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/סדנת-יצירה-באפוקסי-אקרילי-ליצירת-שעון-קיר-מאפוקסי--06fc294f"
+        },
+        {
+          "title": "סדנת אפוקסי: סדנה קסומה ליצירת זוג מנורות לד מאפוקסי",
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/סדנת-אפוקסי-סדנה-קסומה-ליצירת-זוג-מנורות-לד-מאפוק--1bca6160"
         }
       ]
     },
@@ -581,6 +615,44 @@
       "subcategory": null,
       "source_id": "mevalim",
       "source_url": "https://www.mevalim.co.il/ashdod/",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
+      "title": "עפרה - המחזמר על עופרה חזה",
+      "city": "rishon-lezion",
+      "venue": "היכל התרבות ראשון לציון",
+      "date_time": "2026-10-22T20:30:00",
+      "end_time": null,
+      "description": "לוח הצגות והזמנת כרטיסים להצגה עפרה - המחזמר על עופרה חזה . בקרו באתר מבלים לצפייה בלוח הצגות של עפרה - המחזמר על עופרה חזה - לחצו להזמנות!",
+      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2026/07/6964cdf7bf456502fceb2a842e806699.webp",
+      "video_url": null,
+      "tickets_url": "https://tickets.mevalim.co.il/event/3sUHKXVh8RPvl2G",
+      "category": null,
+      "subcategory": null,
+      "source_id": "mevalim",
+      "source_url": "https://www.mevalim.co.il/theater/%D7%A2%D7%A4%D7%A8%D7%94-%D7%94%D7%9E%D7%97%D7%96%D7%9E%D7%A8-%D7%A2%D7%9C-%D7%A2%D7%95%D7%A4%D7%A8%D7%94-%D7%97%D7%96%D7%94/",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
+      "title": "עפרה - המחזמר",
+      "city": "rishon-lezion",
+      "venue": "היכל התרבות ראשון לציון",
+      "date_time": "2026-10-22T20:30:00",
+      "end_time": null,
+      "description": "לוח הצגות והזמנת כרטיסים להצגה עפרה - המחזמר על עופרה חזה . בקרו באתר מבלים לצפייה בלוח הצגות של עפרה - המחזמר על עופרה חזה - לחצו להזמנות!",
+      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2026/07/6964cdf7bf456502fceb2a842e806699.webp",
+      "video_url": null,
+      "tickets_url": "https://htrl.smarticket.co.il/event/9120",
+      "category": null,
+      "subcategory": null,
+      "source_id": "mevalim",
+      "source_url": "https://www.mevalim.co.il/theater/%D7%A2%D7%A4%D7%A8%D7%94-%D7%94%D7%9E%D7%97%D7%96%D7%9E%D7%A8-%D7%A2%D7%9C-%D7%A2%D7%95%D7%A4%D7%A8%D7%94-%D7%97%D7%96%D7%94/",
       "extraction_method": "structured_event_data",
       "publication_status": "candidate_review",
       "image_provenance": "external_ticket_listing_not_license",
@@ -1233,6 +1305,82 @@
       "detail_page_fetched": true
     },
     {
+      "title": "La Traviata - הפקה אופראית בינלאומית",
+      "city": "rishon-lezion",
+      "venue": "היכל התרבות, ראשון לציון",
+      "date_time": "2026-10-11T17:30:00.000Z",
+      "end_time": null,
+      "description": "האופרה הקאמרית הישראלית מציגה את La Traviata (לה טרוויאטה), הפקה אופראית בינלאומית מאת ג'וזפה ורדי, בהשתתפות תזמורת האופרה הקאמרית והמקהלה הפילהרמונית תל אביב. כ-100 משתתפים יופיעו על במה אחת במסגרת סיבוב הופעות ברחבי הארץ. העלילה עוקבת אחר ויולטה ולרי, אשת חברה יפהפייה המגלה אהבת אמת בזרועותיו של אלפרדו. מוסכמות החברה, הקרבה אישית ומחלה קשה מובילות את השניים למסע של אהבה, כאב וויתור. הסיום הטרגי, המלווה במוזיקה של ורדי, נחשב לאחד מרגעי השיא של עולם האופרה. בהפקה משתתפים הסולנים Olga Senderskaya בתפקיד ויולטה, Zurab Zurabishvili בתפקיד אלפרדו, Dainius Stumbras בתפקיד ז'רמון ו-Johnny Bombino בתפקיד הברון. על ההפקה מנצח לאונטי וולף.",
+      "image_url": "https://images.makore.co.il/events/8ff17995180c9c3f54648b64487fb04d00347bb23bd6cc6fff17f4cac279925f/a6cd78c6ff52115e1daffcb3eb61a4137af66662d74c4fe52f2372530a23d4b0.webp",
+      "video_url": null,
+      "tickets_url": "https://makore.kartisim.co.il/announce/buy/212322",
+      "category": null,
+      "subcategory": null,
+      "source_id": "makore",
+      "source_url": "https://www.makore.co.il/event/la-traviata-הפקה-אופראית-בינלאומית--8ff17995",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
+      "title": "מרתון סטנדאפ - פותחים שבוע",
+      "city": "rishon-lezion",
+      "venue": "פאצ'ו בר, ראשון לציון",
+      "date_time": "2026-10-11T18:30:00.000Z",
+      "end_time": null,
+      "description": "מגוון סטנדאפיסטים מופיעים על במה אחת עם חומרים שונים. הליינאפ משתנה מדי שבוע, והאמנים מתחלפים מהופעה להופעה; אין התחייבות להופעת אמן מסוים. בין הסטנדאפיסטים שהופיעו: ברקו זרו, מוטי אהרונוביץ, עמית חשאי, שלמה בייבי בייבי, קובי בלולו, יוסיאל נאמן, מאי סייג, מתן וייסמן, דניאל גולפור, עידו בלאו, סתיו פרחי, גיל הראל (דקירה קטנה) ושי שוחמי.",
+      "image_url": "https://images.makore.co.il/events/b55c7cbb8abc3b9e0974bc35296da62eeb4e9080f44c6fabb3621d7f2ec1f266/4f9d7212be75f98f6cf54f996f826c1f1935f4d6a649ffbd9553f5db53da54ab.webp",
+      "video_url": null,
+      "tickets_url": "https://tickets.mevalim.co.il/event/7g0s98lPFSkfCvY?referrer=https%3A%2F%2Fwww.mevalim.co.il%2Fstand-up%2F%3Fshow-all&tbn=%D7%A1%D7%98%D7%A0%D7%93%D7%90%D7%A4%20%D7%91%D7%90%D7%96%D7%95%D7%A8%20%D7%94%D7%9E%D7%A8%D7%9B%D7%96&tbid=61180&idx=14",
+      "category": null,
+      "subcategory": null,
+      "source_id": "makore",
+      "source_url": "https://www.makore.co.il/event/מרתון-סטנדאפ-פותחים-שבוע--b55c7cbb",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
+      "title": "סדנת יצירה באפוקסי אקרילי ליצירת שעון קיר מאפוקסי",
+      "city": "rishon-lezion",
+      "venue": "שירלי מרכז אומנויות, ראשון לציון",
+      "date_time": "2026-10-12T07:00:00.000Z",
+      "end_time": "2026-10-12T09:00:00.000Z",
+      "description": "בסדנה לומדים את יסודות העבודה עם אפוקסי ויוצרים שעון קיר בשילוב עץ, בצבעים לפי בחירה. התוכן כולל היכרות עם סוגי אפוקסי ושימושיהם, כללי עבודה ואמצעי זהירות, היחסים הנכונים ליציקה ושימוש בפיגמנטים, נוזלים ואבקות להשגת הגוון הרצוי. הסדנה מתאימה למבוגרים ולילדים, ליחידים, לזוגות ולקבוצות. יש להגיע פעם נוספת, בתיאום מראש, כדי לאסוף את היצירה לאחר שהחומר יתייבש. שירלי מרכז אומנויות נוסד בשנת 1999 על ידי האומנית שירלי שבירו, ומציע לימודי אומנות לכל הגילאים, לצד סדנאות חד-פעמיות וקורסים קצרים. לאחר הסדנה אפשר להמשיך ליצור באפוקסי באופן עצמאי או להירשם לקורס אפוקסי במרכז.",
+      "image_url": "https://images.makore.co.il/events/06fc294f62ac55f04e06a71ae7fe6326767ba5cb07624866bd39ea101e8ee758/40a506adf80ae8cab2bed405bff4f935c598e667537ba3bae77cc1632239908a.webp",
+      "video_url": null,
+      "tickets_url": "https://il.funzing.com/funz/%D7%A1%D7%93%D7%A0%D7%AA-%D7%99%D7%A6%D7%99%D7%A8%D7%94-%D7%91%D7%90%D7%A4%D7%95%D7%A7%D7%A1%D7%99-%D7%90%D7%A7%D7%A8%D7%99%D7%9C%D7%99-%D7%9C%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%A9%D7%A2%D7%95%D7%9F-%D7%A7%D7%99%D7%A8-%D7%9E%D7%90%D7%A4%D7%95%D7%A7%D7%A1%D7%99-42763?event_id=920953&utm_source=rhMiZu&utm_medium=affiliate",
+      "category": null,
+      "subcategory": null,
+      "source_id": "makore",
+      "source_url": "https://www.makore.co.il/event/סדנת-יצירה-באפוקסי-אקרילי-ליצירת-שעון-קיר-מאפוקסי--06fc294f",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
+      "title": "סדנת אפוקסי: סדנה קסומה ליצירת זוג מנורות לד מאפוקסי",
+      "city": "rishon-lezion",
+      "venue": "שירלי מרכז אומנויות, ראשון לציון",
+      "date_time": "2026-10-12T07:00:00.000Z",
+      "end_time": "2026-10-12T08:30:00.000Z",
+      "description": "בסדנה לומדים את יסודות העבודה באפוקסי ואת השיטות הנכונות לשימוש בחומר ולשילובו עם עץ. המשתתפים בוחרים צבעים ויוצרים זוג מנורות לד, וכן לומדים על סוגי אפוקסי ושימושיו, אמצעי זהירות והגנה, היחסים הנכונים ליציקה ושימוש בפיגמנטים, בנוזלים ובאבקות להשגת הגוון הרצוי. מטרת הסדנה היא להכיר את החומר ואת אופן השימוש בו, באמצעות מידע תיאורטי והתנסות מעשית. הסדנה מתאימה למבוגרים ולילדים, ליחידים, לזוגות ולקבוצות. מכיוון שאפוקסי הוא חומר כימי, נלמדים גם כללי עבודה בטוחה. יש להגיע פעם נוספת למרכז, בתיאום מראש, כדי לאסוף את היצירה לאחר שהחומר יתייבש. שירלי מרכז אומנויות נוסד בשנת 1999 על ידי האומנית שירלי שבירו, ומציע לימודי אומנות לכל הגילים, ובהם חוגים שנתיים, סדנאות חד-פעמיות וקורסים קצרים. צוות המרכז כולל כ-15 מורים המתמחים בתחומם.",
+      "image_url": "https://images.makore.co.il/events/1bca61603ac096d95e00df42bc3b12ec56d4b49ea1b91a4a6f4f92bbe582850f/7298caa4466ccfb6876b2d15a45f977fa5b20d8010bb079218da90198462de3e.webp",
+      "video_url": null,
+      "tickets_url": "https://il.funzing.com/funz/%D7%A1%D7%93%D7%A0%D7%AA-%D7%90%D7%A4%D7%95%D7%A7%D7%A1%D7%99-%D7%A1%D7%93%D7%A0%D7%94-%D7%A7%D7%A1%D7%95%D7%9E%D7%94-%D7%9C%D7%99%D7%A6%D7%99%D7%A8%D7%AA-%D7%96%D7%95%D7%92-%D7%9E%D7%A0%D7%95%D7%A8%D7%95%D7%AA-%D7%9C%D7%93-%D7%9E%D7%90%D7%A4%D7%95%D7%A7%D7%A1%D7%99-44366?event_id=919815&utm_source=rhMiZu&utm_medium=affiliate",
+      "category": null,
+      "subcategory": null,
+      "source_id": "makore",
+      "source_url": "https://www.makore.co.il/event/סדנת-אפוקסי-סדנה-קסומה-ליצירת-זוג-מנורות-לד-מאפוק--1bca6160",
+      "extraction_method": "structured_event_data",
+      "publication_status": "candidate_review",
+      "image_provenance": "external_ticket_listing_not_license",
+      "detail_page_fetched": true
+    },
+    {
       "title": "אֻמִּי",
       "city": "ashdod",
       "venue": "מונארט אשדוד",
@@ -1809,7 +1957,7 @@
       "date_time": "2027-04-13T20:00:00+03:00",
       "end_time": "2027-04-13T21:30:00+03:00",
       "description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/shows/event/eNjqmKvyj",
       "category": null,
@@ -2246,7 +2394,7 @@
       "date_time": "2027-01-19T20:30:00+02:00",
       "end_time": "2027-01-19T21:30:00+02:00",
       "description": "מחפשים מה לעשות בראשון לציון? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzFHZhV3cBZGRT90TIVzQFhESWJGeu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_d1015f02-8430-4673-96db-f89ca3a8a747.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZyF1UHlWMRJ3QuZlV1t2NOFGdlh0du_h90zd0xkeKhGVVNHZJlUTSZ0bvgjMXJmW.webp_cabe6613-dedf-44dc-854a-54c9d4141d77.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/shows/event/eMnvWrDKL",
       "category": null,
@@ -2455,7 +2603,7 @@
       "date_time": "2027-03-25T17:00:00+02:00",
       "end_time": "2027-03-25T18:30:00+02:00",
       "description": "מחפשים מה לעשות בראשון לציון? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQ2QlVC9UR0Ekd012dNRWRXNENqtSTu_090zZrEFV5VmRQVWbNZkW3IEc3E3bJJUS.webp_6451db73-ccc9-4f96-834d-83da815a1d05.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUuplW0cEU5kVZ0tUcOl2a19kY28kTu_z90TQ0UzQDRTa2pENaJFUQ92N18kY0MjT.webp_137ff7f0-5288-4576-8ab7-18d78180cd88.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eaxpYoOQj",
       "category": null,
@@ -2474,7 +2622,7 @@
       "date_time": "2027-03-27T21:00:00+03:00",
       "end_time": "2027-03-27T22:30:00+03:00",
       "description": "מחפשים מה לעשות בראשון לציון? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eALNdwrdj",
       "category": null,
@@ -2493,7 +2641,7 @@
       "date_time": "2027-03-28T17:00:00+03:00",
       "end_time": "2027-03-28T18:30:00+03:00",
       "description": "מחפשים מה לעשות בראשון לציון? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUuplW0cEU5kVZ0tUcOl2a19kY28kTu_z90TQ0UzQDRTa2pENaJFUQ92N18kY0MjT.webp_137ff7f0-5288-4576-8ab7-18d78180cd88.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQ2QlVC9UR0Ekd012dNRWRXNENqtSTu_090zZrEFV5VmRQVWbNZkW3IEc3E3bJJUS.webp_6451db73-ccc9-4f96-834d-83da815a1d05.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eNLqmXbdL",
       "category": null,
