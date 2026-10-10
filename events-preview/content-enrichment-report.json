@@ -1,10 +1,29 @@
 {
-  "generated_at": "2026-10-10T06:19:42Z",
+  "generated_at": "2026-10-10T11:59:41Z",
   "model": "gpt-5-mini",
-  "checked": 0,
-  "enriched": 0,
+  "checked": 3,
+  "enriched": 3,
   "insufficient": 0,
   "source_text_insufficient": 0,
   "model_failed": 0,
-  "events": []
+  "events": [
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_59d21b15c55e0e5716a8",
+      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_d9054166e8decd8ba99d",
+      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
+      "status": "ready"
+    },
+    {
+      "city": "ashdod",
+      "event_id": "auto_as_2eb56d2075f1de010bd3",
+      "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
+      "status": "ready"
+    }
+  ]
 }
