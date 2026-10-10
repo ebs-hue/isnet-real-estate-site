@@ -7,6 +7,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
+from event_engine_v2 import duplicate_agent_ids, same_venue
 ROOT=Path(__file__).resolve().parents[1]
 COLLECT=ROOT/"events-preview/admin/data/unified-stage-events-ashdod-rishon.json"
 REPORT=ROOT/"events-preview/admin/data/stage-board-swap-report.json"
@@ -114,26 +115,10 @@ def main():
     for city in ("ashdod","rishon-lezion"):
         path=ROOT/f"events-preview/{city}/data/events.json"
         data=json.loads(path.read_text(encoding="utf-8"))
-        groups=defaultdict(list)
-        for e in data["events"]:
-            dt=(str(e.get("start_date") or ""),str(e.get("start_time") or "")[:5])
-            if e.get("category") in CATS and dt[0]>=today and dt[1] and normal(e.get("title")):
-                groups[(normal(e.get("title")),*dt)].append(e)
-        drop=set()
-        for key,group in groups.items():
-            board=[e for e in group if e.get("source")=="national_stage_boards" or str(e.get("event_id") or "").startswith("board_")]
-            if not board:continue
-            # Retain one national-board card for each occurrence; manual locks
-            # are excluded from deletion.
-            preferred=next((e for e in board if str(e.get("event_id") or "").startswith("board_")),board[0])
-            for e in group:
-                if e is preferred:continue
-                if e.get("human_manual_override") is True or e.get("image_manual_override") is True or e.get("description_manual_override") is True:continue
-                if e.get("source")=="national_stage_boards" or str(e.get("event_id") or "").startswith(("auto_","evt_","board_")):
-                    drop.add(id(e))
-        removed_duplicates=sum(id(e) in drop for e in data["events"])
-        if enabled and drop:
-            data["events"]=[e for e in data["events"] if id(e) not in drop]
+        drop_ids=duplicate_agent_ids(data["events"], city, today)
+        removed_duplicates=sum(str(e.get("event_id") or "") in drop_ids for e in data["events"])
+        if enabled and drop_ids:
+            data["events"]=[e for e in data["events"] if str(e.get("event_id") or "") not in drop_ids]
             path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         report["cities"][city]["duplicate_agent_records_removed"]=removed_duplicates if enabled else 0
         report["cities"][city]["duplicates_preserved_if_editor_locked"]=True
