@@ -1,8 +1,6 @@
 name: Publish confirmed Ashdod stage images
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '35 6 * * *'
   push:
     paths:
       - 'scripts/publish_matched_stage_images.py'
