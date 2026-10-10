@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-10T15:13:47.552203+00:00",
+  "generated_at": "2026-10-10T15:33:13.430728+00:00",
   "stats": {
-    "events_scanned": 657,
-    "image_links": 512,
+    "events_scanned": 650,
+    "image_links": 504,
     "unique_images": 228,
     "approved": 203,
     "needs_review": 11,
@@ -646,18 +646,6 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "auto_as_8d5f6a0ed763a27826c8",
-          "title": "אור לגויים - תיאטרון בית ליסין",
-          "date": "2026-12-29"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fb264179812234234f6b",
-          "title": "אור לגויים - תיאטרון בית ליסין",
-          "date": "2027-01-03"
-        },
-        {
-          "city": "ashdod",
           "event_id": "board_0cb5b32904b1ccc5e6",
           "title": "אור לגויים - תיאטרון בית ליסין",
           "date": "2026-12-31"
@@ -667,6 +655,18 @@
           "event_id": "board_babfc0a6bd7698d401",
           "title": "אור לגויים - תיאטרון בית ליסין",
           "date": "2027-01-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8d5f6a0ed763a27826c8",
+          "title": "אור לגויים - תיאטרון בית ליסין",
+          "date": "2026-12-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fb264179812234234f6b",
+          "title": "אור לגויים - תיאטרון בית ליסין",
+          "date": "2027-01-03"
         },
         {
           "city": "rishon-lezion",
@@ -1161,54 +1161,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_0d140747d637094eb42cd6fb",
-      "url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
-      "source_url": "tickchak-live",
-      "credit": null,
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "national_board_displayed_image",
-      "artists": [],
-      "productions": [
-        "אסף מור יוסף במופע סטנדאפ"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_43_20261015",
-          "title": "אסף מור יוסף במופע סטנדאפ",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_cfed4e072833b5fb6935",
-          "title": "אסף מור יוסף במופע סטנדאפ",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_57_20261105",
-          "title": "אסף מור יוסף במופע סטנדאפ",
-          "date": "2026-11-05"
-        }
-      ],
-      "usage_count": 3,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_0f2994382e9449109c3d20f8",
       "url": "/events-preview/media-bank/cards/d9fa954dca019f7ab606e41b.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4504-1.jpg",
@@ -1593,6 +1545,48 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_0d140747d637094eb42cd6fb",
+      "url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "source_url": "tickchak-live",
+      "credit": null,
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "national_board_displayed_image",
+      "artists": [],
+      "productions": [
+        "אסף מור יוסף במופע סטנדאפ"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_43_20261015",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_57_20261105",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "date": "2026-11-05"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_1863e01d5ab4452a02e644a9",
       "url": "/events-preview/media-bank/cards/80bbccde72839133486c16b2.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2024/01/2B1B3533.jpg",
@@ -1838,48 +1832,6 @@
           "event_id": "board_c98b827b18c43fbac0",
           "title": "חן מזרחי",
           "date": "2026-10-24"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_55f4ff419824100f86cdc770",
-      "url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
-      "origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
-      "source_url": "sababa-events",
-      "credit": null,
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "national_board_displayed_image",
-      "artists": [],
-      "productions": [
-        "שקרים קטנים - קומדיה משפחתית מופרעת"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b252d08ebfc89450d564",
-          "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
-          "date": "2026-12-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_927802792107d0068f24",
-          "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
-          "date": "2026-12-12"
         }
       ],
       "usage_count": 2,
@@ -4796,6 +4748,42 @@
           "event_id": "evt_96_20261014",
           "title": "דירה להכיר",
           "date": "2026-10-14"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_55f4ff419824100f86cdc770",
+      "url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "source_url": "sababa-events",
+      "credit": null,
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "national_board_displayed_image",
+      "artists": [],
+      "productions": [
+        "שקרים קטנים - קומדיה משפחתית מופרעת"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b252d08ebfc89450d564",
+          "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
+          "date": "2026-12-12"
         }
       ],
       "usage_count": 1,
@@ -8945,137 +8933,6 @@
       "reuse_similarity_floor": 0.0
     },
     {
-      "media_id": "media_4b9919c64dc3f2b2abb3e748",
-      "url": "/events-preview/media-bank/defaults/standup.webp",
-      "origin_url": "/events-preview/media-bank/defaults/standup.webp",
-      "source_url": "ISNET central media bank",
-      "credit": "תמונת קטגוריה: ISNET",
-      "rights_status": "owned_system_asset",
-      "status": "rejected",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "category_fallback",
-      "artists": [
-        "רועיקי מצחיקי",
-        "סמי הכבאי"
-      ],
-      "productions": [
-        "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-        "נישואים גרעיניים - קומדיה זוגית פרועה",
-        "יוסיאל נאמן במופע סטנדאפ",
-        "שלומי קוריאט במופע סטנדאפ",
-        "נועה מנור במופע סטנדאפ",
-        "שלישיית פוש אפ - מופע סטנדאפ",
-        "פאטמה הסטנדאפיסטית הבדואית",
-        "תמיר בוסקילה במופע סטנדאפ",
-        "סתיו פרחי במופע סטנדאפ"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5c82b36c5f0954a3ff95",
-          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-          "date": "2026-12-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_667ee6ed55fb423ba38e",
-          "title": "נישואים גרעיניים - קומדיה זוגית פרועה",
-          "date": "2026-12-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c675505d0fbfc57c5be0",
-          "title": "יוסיאל נאמן במופע סטנדאפ",
-          "date": "2026-12-31"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_317d69899bc86acfea45",
-          "title": "שלומי קוריאט במופע סטנדאפ",
-          "date": "2027-01-14"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f486a4102b8579046b1f",
-          "title": "נועה מנור במופע סטנדאפ",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_edae801d075d3bb259f5",
-          "title": "נועה מנור במופע סטנדאפ",
-          "date": "2026-10-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_3c38513554a89a358eeb",
-          "title": "שלישיית פוש אפ - מופע סטנדאפ",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8c9f185e166296395601",
-          "title": "שלישיית פוש אפ - מופע סטנדאפ",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_886882cb1ef337e38a9c",
-          "title": "שלומי קוריאט במופע סטנדאפ",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_19625b1fab5e0c9f921a",
-          "title": "שלומי קוריאט במופע סטנדאפ",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8d899b9358eb2e48489e",
-          "title": "פאטמה הסטנדאפיסטית הבדואית",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c5cfa403e54c71516354",
-          "title": "פאטמה הסטנדאפיסטית הבדואית",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e35cb8f03fd93ea52d52",
-          "title": "תמיר בוסקילה במופע סטנדאפ",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_fa8970a7269c724ec8b2",
-          "title": "תמיר בוסקילה במופע סטנדאפ",
-          "date": "2026-11-05"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_6ff3dee8745d5c20a563",
-          "title": "סתיו פרחי במופע סטנדאפ",
-          "date": "2026-11-14"
-        }
-      ],
-      "usage_count": 15,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.095
-    },
-    {
       "media_id": "media_b33c260463a8307ad3aaf955",
       "url": "/events-preview/media-bank/defaults/kids.webp",
       "origin_url": "/events-preview/media-bank/defaults/kids.webp",
@@ -9202,15 +9059,9 @@
           "event_id": "auto_as_2b409db244e477e5b535",
           "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
           "date": "2026-11-25"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_46982c8acb5b20d5ba37",
-          "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
-          "date": "2026-11-25"
         }
       ],
-      "usage_count": 15,
+      "usage_count": 14,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
@@ -9326,6 +9177,107 @@
       "reuse_similarity_floor": 0.089
     },
     {
+      "media_id": "media_4b9919c64dc3f2b2abb3e748",
+      "url": "/events-preview/media-bank/defaults/standup.webp",
+      "origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "source_url": "ISNET central media bank",
+      "credit": "תמונת קטגוריה: ISNET",
+      "rights_status": "owned_system_asset",
+      "status": "rejected",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "category_fallback",
+      "artists": [
+        "רועיקי מצחיקי",
+        "סמי הכבאי"
+      ],
+      "productions": [
+        "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+        "נישואים גרעיניים - קומדיה זוגית פרועה",
+        "יוסיאל נאמן במופע סטנדאפ",
+        "שלומי קוריאט במופע סטנדאפ",
+        "נועה מנור במופע סטנדאפ",
+        "שלישיית פוש אפ - מופע סטנדאפ",
+        "פאטמה הסטנדאפיסטית הבדואית",
+        "תמיר בוסקילה במופע סטנדאפ",
+        "סתיו פרחי במופע סטנדאפ"
+      ],
+      "categories": [
+        "standup"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5c82b36c5f0954a3ff95",
+          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+          "date": "2026-12-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_667ee6ed55fb423ba38e",
+          "title": "נישואים גרעיניים - קומדיה זוגית פרועה",
+          "date": "2026-12-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c675505d0fbfc57c5be0",
+          "title": "יוסיאל נאמן במופע סטנדאפ",
+          "date": "2026-12-31"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_317d69899bc86acfea45",
+          "title": "שלומי קוריאט במופע סטנדאפ",
+          "date": "2027-01-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f486a4102b8579046b1f",
+          "title": "נועה מנור במופע סטנדאפ",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3c38513554a89a358eeb",
+          "title": "שלישיית פוש אפ - מופע סטנדאפ",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_886882cb1ef337e38a9c",
+          "title": "שלומי קוריאט במופע סטנדאפ",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8d899b9358eb2e48489e",
+          "title": "פאטמה הסטנדאפיסטית הבדואית",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e35cb8f03fd93ea52d52",
+          "title": "תמיר בוסקילה במופע סטנדאפ",
+          "date": "2026-11-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6ff3dee8745d5c20a563",
+          "title": "סתיו פרחי במופע סטנדאפ",
+          "date": "2026-11-14"
+        }
+      ],
+      "usage_count": 10,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.095
+    },
+    {
       "media_id": "media_6bc89087eb66380771b1be1e",
       "url": "/events-preview/media-bank/defaults/lecture.webp",
       "origin_url": "/events-preview/media-bank/defaults/lecture.webp",
@@ -9439,25 +9391,37 @@
       "strategy": "national_board_displayed_image",
       "artists": [],
       "productions": [
+        "עידן ניידיץ",
+        "אמירם טובים סטנדאפ",
         "נועה מנור",
         "מוטי אהרונוביץ במופע סטנדאפ",
         "בן בן ברוך",
         "טוביה צפיר – 80 שנה של הומור!",
         "דניאל סטיופין (\"קופה ראשית\") - מופע סטנדאפ",
-        "עידן ניידיץ",
-        "אמירם טובים סטנדאפ",
         "בן בן ברוך - סטנד אפ",
         "רביטל ויטלזון יעקבס - הכל מטומטם"
       ],
       "categories": [
-        "standup",
-        "music"
+        "music",
+        "standup"
       ],
       "cities": [
         "ashdod",
         "rishon-lezion"
       ],
       "events": [
+        {
+          "city": "ashdod",
+          "event_id": "board_46b5a0ae7dd17154ec",
+          "title": "עידן ניידיץ",
+          "date": "2027-01-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "board_c20e833addc78805e6",
+          "title": "אמירם טובים סטנדאפ",
+          "date": "2026-12-31"
+        },
         {
           "city": "ashdod",
           "event_id": "evt_42_20261015",
@@ -9489,18 +9453,6 @@
           "date": "2027-01-02"
         },
         {
-          "city": "ashdod",
-          "event_id": "board_46b5a0ae7dd17154ec",
-          "title": "עידן ניידיץ",
-          "date": "2027-01-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "board_c20e833addc78805e6",
-          "title": "אמירם טובים סטנדאפ",
-          "date": "2026-12-31"
-        },
-        {
           "city": "rishon-lezion",
           "event_id": "board_32e66c8e6c273c99d3",
           "title": "בן בן ברוך - סטנד אפ",
@@ -9517,7 +9469,7 @@
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
-      "reuse_similarity_floor": 0.052
+      "reuse_similarity_floor": 0.074
     },
     {
       "media_id": "media_d5ef1f857c931698741175b4",
