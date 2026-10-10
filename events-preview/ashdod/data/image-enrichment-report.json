@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-10T14:55:46Z",
-  "total_events": 374,
-  "events_with_publishable_images": 353,
-  "events_still_missing_images": 21,
+  "generated_at": "2026-10-10T15:13:30Z",
+  "total_events": 410,
+  "events_with_publishable_images": 390,
+  "events_still_missing_images": 20,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
     "mishkan_smarticket": 12,
     "ashdod_smarticket": 1,
-    "mevalim": 8
+    "mevalim": 7
   },
   "missing_by_category": {
     "music": 12,
-    "theatre": 8,
+    "theatre": 7,
     "cinema": 1
   },
   "missing": [
@@ -30,11 +30,6 @@
     {
       "event_id": "auto_as_ee8c99e88b2fabffda94",
       "title": "VIENNA BALL",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_706f75061a4ce899ea48",
-      "title": "זוגיות AI - התיאטרון העברי",
       "reason": "no_verified_source_image"
     },
     {
