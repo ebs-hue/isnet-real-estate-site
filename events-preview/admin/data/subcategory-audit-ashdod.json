@@ -4,8 +4,8 @@
   "total": 321,
   "counts": {
     "missing_or_invalid": 321,
-    "staged_candidate": 152,
-    "needs_contextual_review": 169
+    "staged_candidate": 186,
+    "needs_contextual_review": 135
   },
   "events": [
     {
@@ -25,7 +25,7 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "water-sports",
-      "confidence": 0.88,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -47,10 +47,10 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "water-sports",
-      "confidence": 0.74,
-      "evidence_field": "description",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_92_20261006",
@@ -79,11 +79,11 @@
       "title": "הרצאה סיבוכי גמילה מחיתולים",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "parenting-family",
+      "confidence": 0.93,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ea75f55954e1835c2191",
@@ -101,11 +101,11 @@
       "title": "קפה דעת אשדוד-קצין מיחידת המסתערבים של משמר הגבול, גב' לילי כנפי, מר רוני אקריש",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "current-affairs",
+      "confidence": 0.88,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_0ebf1cad124a8b7fb92d",
@@ -124,9 +124,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -134,20 +134,20 @@
       "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": "concerts",
-      "confidence": 0.81,
-      "evidence_field": "description",
+      "suggested_subcategory": "world-music",
+      "confidence": 0.87,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_69_20261008",
       "title": "מיקה שלי",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "drama",
+      "confidence": 0.76,
+      "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
     },
@@ -179,9 +179,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -280,7 +280,7 @@
       "suggested_subcategory": "one-person-show",
       "confidence": 0.81,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -289,9 +289,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "basketball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -310,11 +310,11 @@
       "title": "שירי קריוקי בקצב הדרבוקה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.71,
-      "evidence_field": "description",
+      "suggested_subcategory": "senior-music",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f1dc81732b11d4fd595d",
@@ -343,11 +343,11 @@
       "title": "מכבי אשדוד - הפועל אריות ירושלים",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": "volleyball",
-      "confidence": 0.81,
-      "evidence_field": "description",
+      "suggested_subcategory": "water-sports",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_41_20261013",
@@ -376,22 +376,22 @@
       "title": "עיצוב אורח חיים בריא",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
-      "evidence_field": "description",
-      "conflict": true,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-health",
+      "confidence": 0.91,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_06f3de539c2d3e22b2ff",
       "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "health-medicine",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_96_20261014",
@@ -421,9 +421,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -431,11 +431,11 @@
       "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7d3a5639ec3847f8a137",
@@ -453,10 +453,10 @@
       "title": "יונתן גת מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.76,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -467,7 +467,7 @@
       "suggested_subcategory": "senior-lectures",
       "confidence": 0.74,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -475,8 +475,8 @@
       "title": "רועי עלוני מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": true,
       "status": "needs_review"
@@ -542,9 +542,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "football",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -564,9 +564,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -575,9 +575,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "comedy",
-      "confidence": 0.76,
+      "confidence": 0.79,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -607,11 +607,11 @@
       "title": "מיסייה אלבר - הפקת מקור",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "original-production",
+      "confidence": 0.94,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
@@ -652,9 +652,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -684,21 +684,21 @@
       "title": "המספרה של ג'אקו - הפקת מקור",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "original-production",
+      "confidence": 0.94,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
       "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "psychology-growth",
+      "confidence": 0.75,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -718,7 +718,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.86,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -762,7 +762,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -794,33 +794,33 @@
       "title": "מיסייה אלבר - הפקת מקור",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "original-production",
+      "confidence": 0.94,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_91024d3eccf55a0b44ad",
       "title": "יום העליה בסימן 70 לאשדוד",
       "category": "community",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "ceremonies",
+      "confidence": 0.89,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ec0e8e6df83ab0a29247",
       "title": "ערב נשים עוצמתי | לאורה של רחל אמנו",
       "category": "community",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "women-events",
+      "confidence": 0.95,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ce847e364ee55065956b",
@@ -905,9 +905,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -937,10 +937,10 @@
       "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "culture-art",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1015,9 +1015,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1026,7 +1026,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "comedy",
-      "confidence": 0.76,
+      "confidence": 0.79,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -1037,9 +1037,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "volleyball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1070,9 +1070,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": "handball",
-      "confidence": 0.81,
+      "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1168,10 +1168,10 @@
       "title": "אדם וחותם-הקשר שבין האדם לאדמה",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "psychology-growth",
+      "confidence": 0.75,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1191,10 +1191,10 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
-      "evidence_field": "description",
+      "confidence": 0.88,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_6702385b6f68556b2c50",
@@ -1213,7 +1213,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -1223,11 +1223,11 @@
       "title": "יריד בריאות לאזרחים וותיקים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.74,
-      "evidence_field": "description",
+      "suggested_subcategory": "senior-health",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_180bd1ccf144be5544e3",
@@ -1311,11 +1311,11 @@
       "title": "יום יהדות הודו 2026",
       "category": "community",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "communities-heritage",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_56_20261105",
@@ -1377,11 +1377,11 @@
       "title": "הכנת תליונים סרוגים-ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f42edb321dbde7088a3a",
@@ -1399,10 +1399,10 @@
       "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "suggested_subcategory": "senior-digital",
+      "confidence": 0.79,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1410,11 +1410,11 @@
       "title": "חלוקי נחל- ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_9b5eea9e1acf1feac5cf",
@@ -1454,11 +1454,11 @@
       "title": "איסטנבול - נפולי -מרסיי",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "world-music",
+      "confidence": 0.87,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_d7864c780fea6cbdc43d",
@@ -1542,11 +1542,11 @@
       "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
       "category": "community",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "tribute-events",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_c5f6d02c4792bae76e1c",
@@ -1564,10 +1564,10 @@
       "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "culture-art",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1575,11 +1575,11 @@
       "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "history",
+      "confidence": 0.88,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_77_20261116",
@@ -1608,11 +1608,11 @@
       "title": "הרקדן ואלרי פאנוב",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "culture-art",
+      "confidence": 0.89,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_99_20261117",
@@ -1620,7 +1620,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -1796,7 +1796,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.86,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -1817,11 +1817,11 @@
       "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
       "category": "cinema",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "other-cinema",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_60_20261124",
@@ -1917,7 +1917,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
-      "confidence": 0.95,
+      "confidence": 0.96,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -1928,7 +1928,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
-      "confidence": 0.95,
+      "confidence": 0.96,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -1950,7 +1950,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -1961,7 +1961,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-shows",
-      "confidence": 0.71,
+      "confidence": 0.74,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2027,7 +2027,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-dance",
-      "confidence": 0.76,
+      "confidence": 0.77,
       "evidence_field": "description",
       "conflict": true,
       "status": "needs_review"
@@ -2082,7 +2082,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2103,11 +2103,11 @@
       "title": "פסטיבל ילד פלא - יעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-culture",
+      "confidence": 0.87,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_53b36d3a117f507f77b7",
@@ -2159,7 +2159,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2172,7 +2172,7 @@
       "suggested_subcategory": "concerts",
       "confidence": 0.81,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -2257,11 +2257,11 @@
       "title": "אהבה - הקרנת סרט ומפגש שיח",
       "category": "cinema",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "other-cinema",
+      "confidence": 0.91,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2526e830eef4d3d6705d",
@@ -2456,7 +2456,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2488,11 +2488,11 @@
       "title": "שימי תבורי במופע להקה",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "artists-bands",
+      "confidence": 0.85,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_36c82ca8b0929268aff1",
@@ -2522,7 +2522,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.82,
+      "confidence": 0.83,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2532,9 +2532,9 @@
       "title": "ספורט על כיסא עם אסתר-ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-sport",
+      "confidence": 0.75,
+      "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
     },
@@ -2555,7 +2555,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2588,7 +2588,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-dance",
-      "confidence": 0.91,
+      "confidence": 0.92,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2631,10 +2631,10 @@
       "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "culture-art",
+      "confidence": 0.75,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -2709,7 +2709,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.82,
+      "confidence": 0.83,
       "evidence_field": "description",
       "conflict": true,
       "status": "needs_review"
@@ -2730,10 +2730,10 @@
       "title": "אל עמק הברכה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "suggested_subcategory": "senior-digital",
+      "confidence": 0.79,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -2775,7 +2775,7 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
-      "confidence": 0.95,
+      "confidence": 0.96,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2796,9 +2796,9 @@
       "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "senior-culture",
+      "confidence": 0.73,
+      "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
     },
@@ -2819,7 +2819,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.86,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2852,7 +2852,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2862,10 +2862,10 @@
       "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "parenting-family",
+      "confidence": 0.78,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -2874,7 +2874,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2907,7 +2907,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.86,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -2950,9 +2950,9 @@
       "title": "גלגולי המגילה | אסף אלברשטיין",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "travel-geography",
+      "confidence": 0.73,
+      "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
     },
@@ -2973,7 +2973,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -2983,10 +2983,10 @@
       "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "psychology-growth",
+      "confidence": 0.75,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -3006,7 +3006,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -3019,7 +3019,7 @@
       "suggested_subcategory": "sing-along",
       "confidence": 0.81,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -3049,11 +3049,11 @@
       "title": "זוגיות AI",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "relationships",
+      "confidence": 0.9,
+      "evidence_field": "title",
       "conflict": false,
-      "status": "needs_review"
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_6c4a2a4051f27539ead9",
@@ -3072,7 +3072,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -3127,7 +3127,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.82,
+      "confidence": 0.83,
       "evidence_field": "description",
       "conflict": true,
       "status": "needs_review"
@@ -3138,7 +3138,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -3170,10 +3170,10 @@
       "title": "חיפה- עוגת חתונה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "suggested_subcategory": "senior-digital",
+      "confidence": 0.79,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -3193,7 +3193,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -3248,9 +3248,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.82,
+      "confidence": 0.83,
       "evidence_field": "description",
-      "conflict": false,
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -3259,7 +3259,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.72,
+      "confidence": 0.76,
       "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
@@ -3270,7 +3270,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -3325,7 +3325,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-trips",
-      "confidence": 0.86,
+      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -3346,10 +3346,10 @@
       "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
+      "suggested_subcategory": "parenting-family",
+      "confidence": 0.78,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -3369,7 +3369,7 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "story-time",
-      "confidence": 0.98,
+      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "status": "suggestion_only"
@@ -3390,9 +3390,9 @@
       "title": "לחיות, להרגיש, להבין | הרצאה על המשוררת שיבטה טויו עם תמי כהן",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "culture-art",
+      "confidence": 0.75,
+      "evidence_field": "description",
       "conflict": false,
       "status": "needs_review"
     },
