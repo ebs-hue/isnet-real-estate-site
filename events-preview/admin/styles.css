@@ -81,3 +81,33 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 .views-cell{min-width:90px;display:flex;flex-direction:column;gap:2px;line-height:1.1}
 .views-cell b{font-size:16px;color:#0e3562}
 .views-cell small{font-size:11px;color:#72849a;white-space:nowrap}
+
+/* 2026-10-10: compact, accessible event administration table (desktop-first). */
+.table-wrap{max-width:100%;overflow-x:auto}
+.table-wrap table{table-layout:fixed;min-width:960px;width:100%}
+.table-wrap th,.table-wrap td{padding:10px 7px;overflow-wrap:anywhere}
+.table-wrap th:nth-child(1){width:18%}
+.table-wrap th:nth-child(2){width:10%}
+.table-wrap th:nth-child(3){width:5%}
+.table-wrap th:nth-child(4){width:9%}
+.table-wrap th:nth-child(5){width:9%}
+.table-wrap th:nth-child(6){width:9%}
+.table-wrap th:nth-child(7){width:12%}
+.table-wrap th:nth-child(8){width:8%}
+.table-wrap th:nth-child(9){width:7%}
+.table-wrap th:nth-child(10){width:8%}
+.table-wrap th:nth-child(11){width:7%}
+.table-wrap th:nth-child(12){width:5%}
+.table-wrap th:nth-child(13){width:9%}
+.table-wrap .event-cell{min-width:0;gap:8px;align-items:flex-start}
+.table-wrap .event-cell>div{min-width:0}
+.table-wrap .thumb{width:56px;height:48px}
+.table-wrap .event-name{font-size:14px}
+.table-wrap .event-id{font-size:10px;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.table-wrap .source{max-width:none;white-space:normal;overflow-wrap:anywhere;word-break:break-word;line-height:1.25;font-size:12px}
+.table-wrap .issues{max-width:100%}
+.table-wrap .tag,.table-wrap .promotion-chip{white-space:normal;text-align:center;font-size:11px}
+.table-wrap th:last-child,.table-wrap td:last-child{position:sticky;left:0;z-index:2;background:#fff;box-shadow:3px 0 8px rgba(11,40,76,.12)}
+.table-wrap th:last-child{z-index:3;background:#f8fafc}
+.table-wrap .edit-link{font-size:12px;padding:7px 8px;white-space:nowrap}
+@media(max-width:1200px){.table-wrap table{min-width:960px}}
