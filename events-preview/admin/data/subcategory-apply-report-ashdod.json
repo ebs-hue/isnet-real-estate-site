@@ -1,39 +1,8 @@
 {
-  "count_updated": 6,
+  "count_updated": 0,
   "count_corrected": 0,
   "count_skipped": 238,
-  "updated": [
-    {
-      "event_id": "evt_69_20261008",
-      "category": "theatre",
-      "subcategory": "drama"
-    },
-    {
-      "event_id": "evt_73_20261028",
-      "category": "music",
-      "subcategory": "musical-show"
-    },
-    {
-      "event_id": "auto_as_799a6dbb87a8759e0be8",
-      "category": "theatre",
-      "subcategory": "comedy"
-    },
-    {
-      "event_id": "evt_15_20261103",
-      "category": "music",
-      "subcategory": "musical-show"
-    },
-    {
-      "event_id": "auto_as_737e086330f64f28c23c",
-      "category": "lecture",
-      "subcategory": "history"
-    },
-    {
-      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-      "category": "seniors",
-      "subcategory": "senior-lectures"
-    }
-  ],
+  "updated": [],
   "corrected": [],
   "cms_readback_verified": false,
   "public_site_readback_verified": false
