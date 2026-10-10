@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:19:40.144491+00:00",
+  "generated_at": "2026-10-10T09:24:34.978631+00:00",
   "scope": {
     "cities": [
       "ashdod",
@@ -18,8 +18,8 @@
   "counts": {
     "candidate_records": 157,
     "structured_with_schedule": 157,
-    "with_images": 155,
-    "with_videos": 2
+    "with_images": 125,
+    "with_videos": 0
   },
   "source_reports": [
     {
@@ -65,6 +65,184 @@
       "errors": []
     }
   ],
+  "quality": {
+    "with_description": 157,
+    "with_image": 125,
+    "with_ticket_url": 156,
+    "with_video_after_cross_show_check": 0,
+    "video_urls_suppressed_as_shared": 1,
+    "possible_duplicate_occurrence_groups": 9
+  },
+  "possible_duplicates": [
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-10-17T21:00",
+      "events": [
+        {
+          "title": "דרושה עוזרת - קומדיה מטורפת",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "דרושה עוזרת - קומדיה מטורפת",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/ishchu-domrabotnitsu-komediya/ashdod/"
+        }
+      ]
+    },
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-10-20T17:30",
+      "events": [
+        {
+          "title": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "היפהפייה הנרדמת - תיאטרון הבלט הלאומי של רוסיה בניהולו של ויאצ'סלב גורדייב",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/spyashchaya-krasavitsa-gosudarstvennyy-teatr-russkiy-balet-pod-upravleniem-vyach/ashdod/"
+        }
+      ]
+    },
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-11-14T21:00",
+      "events": [
+        {
+          "title": "עפרה - מחזמר מרהיב על עפרה חזה",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "עפרה - המחזמר על עופרה חזה",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "עפרה - המחזמר",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "עפרה - מחזמר התיאטרון העברי",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/ofra-myuzikl-teatron-a-ivri/ashdod/"
+        }
+      ]
+    },
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-12-05T21:00",
+      "events": [
+        {
+          "title": "שושנה - המחזמר בכיכובה של גל דה פז",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/"
+        },
+        {
+          "title": "שושנה - בכיכובה של גל דה פז",
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod"
+        },
+        {
+          "title": "שושנה - בכיכובה של גל דה פז",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/myuzikl-shushana-teatron-a-ivri/ashdod/"
+        }
+      ]
+    },
+    {
+      "city": "rishon-lezion",
+      "venue": "פאצ&#039;ו בר ראשון לציון",
+      "date_time": "2026-10-15T20:30",
+      "events": [
+        {
+          "title": "מרתון סטנדאפ - חמישי שמח - מוקדמת",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/rishon-lezion/"
+        },
+        {
+          "title": "מרתון סטנדאפ - יום שני חגיגה",
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/rishon-lezion/"
+        }
+      ]
+    },
+    {
+      "city": "rishon-lezion",
+      "venue": "שירלי מרכז אומנויות, ראשון לציון",
+      "date_time": "2026-10-11T07:00",
+      "events": [
+        {
+          "title": "סדנת אפוקסי: סדנה קסומה ליצירת זוג מנורות לד מאפוקסי",
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/סדנת-אפוקסי-סדנה-קסומה-ליצירת-זוג-מנורות-לד-מאפוק--87d6cf42"
+        },
+        {
+          "title": "סדנת יצירה באפוקסי אקרילי ליצירת שעון קיר מאפוקסי",
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/סדנת-יצירה-באפוקסי-אקרילי-ליצירת-שעון-קיר-מאפוקסי--cde7a5cd"
+        }
+      ]
+    },
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-12-07T17:30",
+      "events": [
+        {
+          "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה | המשכן לאמנויות הבמה אשדוד",
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod"
+        },
+        {
+          "title": "סיפור הנס - חיפזון וזהירון חנוכה 26",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/toropyzhka-i-trusishka-istoriya-chuda/ashdod/"
+        }
+      ]
+    },
+    {
+      "city": "rishon-lezion",
+      "venue": "מוזיאון ראשון לציון",
+      "date_time": "2026-10-11T20:01",
+      "events": [
+        {
+          "title": "חגיגה נפוליטנית מאת סטאס דוידוב | מוזיאון ראשון לציון",
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/tomorrow"
+        },
+        {
+          "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
+          "source_id": "tickchak-home",
+          "source_url": "https://home.tickchak.co.il/"
+        }
+      ]
+    },
+    {
+      "city": "ashdod",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "date_time": "2026-10-18T17:30",
+      "events": [
+        {
+          "title": "הרפתקה בשכונה - חיפזון וזהירון",
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/toropyzhka-i-trusishka-priklyucheniya-na-rayone/ashdod/"
+        },
+        {
+          "title": "המשכן לאמנויות הבמה אשדוד הרפתקה בשכונה - חיפזון וזהירון",
+          "source_id": "tickchak-home",
+          "source_url": "https://home.tickchak.co.il/"
+        }
+      ]
+    }
+  ],
   "events": [
     {
       "title": "נועה מנור במופע סטנדאפ",
@@ -73,7 +251,7 @@
       "date_time": "2026-10-15T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/NL7XUZO5Nm9bDhi",
       "category": null,
@@ -92,7 +270,7 @@
       "date_time": "2026-10-15T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/7Xwz9YgPRjqt9-P",
       "category": null,
@@ -111,7 +289,7 @@
       "date_time": "2026-10-17T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/EhOSA81FMvNazKH",
       "category": null,
@@ -130,7 +308,7 @@
       "date_time": "2026-10-17T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/dZXdSmDVK0Xm5vH",
       "category": null,
@@ -149,7 +327,7 @@
       "date_time": "2026-10-20T17:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/kids-shows/%d7%a0%d7%aa%d7%99-%d7%94%d7%92%d7%a2%d7%aa%d7%99-%d7%94%d7%95%d7%a4%d7%a2%d7%aa%d7%99/",
       "category": null,
@@ -168,7 +346,7 @@
       "date_time": "2026-10-22T21:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/-A0U0Ua93sAeDM5",
       "category": null,
@@ -187,7 +365,7 @@
       "date_time": "2026-11-03T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/UJ6KpPZ5y9IDblk",
       "category": null,
@@ -206,7 +384,7 @@
       "date_time": "2026-11-05T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/LVowPAf8630OURY",
       "category": null,
@@ -225,7 +403,7 @@
       "date_time": "2026-11-14T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/xpKzsvKcWByLg5_",
       "category": null,
@@ -244,7 +422,7 @@
       "date_time": "2026-11-14T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%a2%d7%a4%d7%a8%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%a2%d7%9c-%d7%a2%d7%95%d7%a4%d7%a8%d7%94-%d7%97%d7%96%d7%94/",
       "category": null,
@@ -263,7 +441,7 @@
       "date_time": "2026-11-14T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/uOkz0p3hv9RWN1y",
       "category": null,
@@ -282,7 +460,7 @@
       "date_time": "2026-11-14T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%a2%d7%a4%d7%a8%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%a2%d7%9c-%d7%a2%d7%95%d7%a4%d7%a8%d7%94-%d7%97%d7%96%d7%94/",
       "category": null,
@@ -301,7 +479,7 @@
       "date_time": "2026-11-16T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%94%d7%97%d7%95%d7%9c%d7%94-%d7%94%d7%94%d7%95%d7%93%d7%99/",
       "category": null,
@@ -320,7 +498,7 @@
       "date_time": "2026-11-17T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%94%d7%97%d7%95%d7%9c%d7%94-%d7%94%d7%94%d7%95%d7%93%d7%99/",
       "category": null,
@@ -339,7 +517,7 @@
       "date_time": "2026-11-19T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%94%d7%97%d7%95%d7%9c%d7%94-%d7%94%d7%94%d7%95%d7%93%d7%99/",
       "category": null,
@@ -358,7 +536,7 @@
       "date_time": "2026-11-21T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%94%d7%97%d7%95%d7%9c%d7%94-%d7%94%d7%94%d7%95%d7%93%d7%99/",
       "category": null,
@@ -377,7 +555,7 @@
       "date_time": "2026-11-25T17:30:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/gKAVuNqnQ-Flnxo",
       "category": null,
@@ -396,7 +574,7 @@
       "date_time": "2026-12-05T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות באשדוד? באתר מבלים ריכזנו עבורכם לוח הופעות באשדוד עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://s3.il-central-1.amazonaws.com/mevalim.co.il/wp-content/uploads/2020/04/23133627/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/_vqu4gp0Ggc0XYW",
       "category": null,
@@ -415,7 +593,7 @@
       "date_time": "2026-10-10T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות קרובות? [⭐] מעל 3,500 הופעות סטנדאפ, מוזיקה, הצגות ילדים והצגות תיאטרון מחכות לכם באתר מבלים - בואו לבחור ולבלות!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/d-u2lE-r3EdkUyl",
       "category": null,
@@ -472,7 +650,7 @@
       "date_time": "2026-10-10T22:00:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/X2XNCgifZbeOGq3",
       "category": null,
@@ -491,7 +669,7 @@
       "date_time": "2026-10-11T21:30:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/7g0s98lPFSkfCvY",
       "category": null,
@@ -510,7 +688,7 @@
       "date_time": "2026-10-12T21:15:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/ZBBXhZ7eu8nHE8w",
       "category": null,
@@ -529,7 +707,7 @@
       "date_time": "2026-10-14T21:30:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/MKWkaGEWpceZoye",
       "category": null,
@@ -548,7 +726,7 @@
       "date_time": "2026-10-15T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/0XjhBtGD66HxPpF",
       "category": null,
@@ -567,7 +745,7 @@
       "date_time": "2026-10-15T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/rishon-lezion/%d7%a4%d7%90%d7%a6%d7%95-%d7%91%d7%a8/",
       "category": null,
@@ -586,7 +764,7 @@
       "date_time": "2026-10-16T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/9xC6IlZDY5PJbHM",
       "category": null,
@@ -605,7 +783,7 @@
       "date_time": "2026-10-17T11:00:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/V7JrjmvCyC5Lv5l",
       "category": null,
@@ -624,7 +802,7 @@
       "date_time": "2026-10-17T21:00:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/DiXw4MYyZXQLqQO",
       "category": null,
@@ -643,7 +821,7 @@
       "date_time": "2026-10-17T22:00:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://tickets.mevalim.co.il/event/dXfTerPIQ1M1OLv",
       "category": null,
@@ -662,7 +840,7 @@
       "date_time": "2026-10-18T20:30:00",
       "end_time": null,
       "description": "מחפשים הופעות בראשון לציון? באתר מבלים ריכזנו עבורכם לוח הופעות בראשון לציון עם מבצעים מיוחדים שאסור לפספס - לחצו לפרטים ולהזמנת כרטיסים באתר מבלים!",
-      "image_url": "https://www.mevalim.co.il/wp-content/uploads/2020/04/big_star.png",
+      "image_url": null,
       "video_url": null,
       "tickets_url": "https://www.mevalim.co.il/theater/%d7%90%d7%95%d7%a8-%d7%9c%d7%92%d7%95%d7%99%d7%99%d7%9d/",
       "category": null,
@@ -1631,7 +1809,7 @@
       "date_time": "2027-04-13T20:00:00+03:00",
       "end_time": "2027-04-13T21:30:00+03:00",
       "description": "חני נחמיאס – קלסיקה ישראלית - הופעה עם הלהיטים הגדולים! יום שלישי 13/04/2027 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/shows/event/eNjqmKvyj",
       "category": null,
@@ -2068,7 +2246,7 @@
       "date_time": "2027-01-19T20:30:00+02:00",
       "end_time": "2027-01-19T21:30:00+02:00",
       "description": "גיל שוחט מארח את ניקי גולדשטיין מס' 2 - הופעה עם הלהיטים הגדולים! יום שלישי 19/01/2027 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzFHZhV3cBZGRT90TIVzQFhESWJGeu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_d1015f02-8430-4673-96db-f89ca3a8a747.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZyF1UHlWMRJ3QuZlV1t2NOFGdlh0du_h90zd0xkeKhGVVNHZJlUTSZ0bvgjMXJmW.webp_cabe6613-dedf-44dc-854a-54c9d4141d77.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/shows/event/eMnvWrDKL",
       "category": null,
@@ -2277,7 +2455,7 @@
       "date_time": "2027-03-25T17:00:00+02:00",
       "end_time": "2027-03-25T18:30:00+02:00",
       "description": "שלום בית תיאטרון הקאמרי סדרה 5 - הופעה עם הלהיטים הגדולים! יום חמישי 25/03/2027 🎉 עוד הופעה בקטגוריית הצגות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQ2QlVC9UR0Ekd012dNRWRXNENqtSTu_090zZrEFV5VmRQVWbNZkW3IEc3E3bJJUS.webp_6451db73-ccc9-4f96-834d-83da815a1d05.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUuplW0cEU5kVZ0tUcOl2a19kY28kTu_z90TQ0UzQDRTa2pENaJFUQ92N18kY0MjT.webp_137ff7f0-5288-4576-8ab7-18d78180cd88.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eaxpYoOQj",
       "category": null,
@@ -2296,7 +2474,7 @@
       "date_time": "2027-03-27T21:00:00+03:00",
       "end_time": "2027-03-27T22:30:00+03:00",
       "description": "שלום בית תיאטרון הקאמרי סדרה 14 - הופעה עם הלהיטים הגדולים! יום שבת 27/03/2027 🎉 עוד הופעה בקטגוריית הצגות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eALNdwrdj",
       "category": null,
@@ -2315,7 +2493,7 @@
       "date_time": "2027-03-28T17:00:00+03:00",
       "end_time": "2027-03-28T18:30:00+03:00",
       "description": "שלום בית תיאטרון הקאמרי סדרה 1 - הופעה עם הלהיטים הגדולים! יום ראשון 28/03/2027 🎉 עוד הופעה בקטגוריית הצגות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUuplW0cEU5kVZ0tUcOl2a19kY28kTu_z90TQ0UzQDRTa2pENaJFUQ92N18kY0MjT.webp_137ff7f0-5288-4576-8ab7-18d78180cd88.webp",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQ2QlVC9UR0Ekd012dNRWRXNENqtSTu_090zZrEFV5VmRQVWbNZkW3IEc3E3bJJUS.webp_6451db73-ccc9-4f96-834d-83da815a1d05.webp",
       "video_url": null,
       "tickets_url": "https://live.tickchak.co.il/theater/event/eNLqmXbdL",
       "category": null,
@@ -3019,7 +3197,7 @@
       "end_time": null,
       "description": "הצגה חדשה - הרפתקה בשכונה עם כוכבי הילדים האהובים מסדרת הטלוויזיה המצליחה: חיפזון וזהירון אחרי ההצלחה של מחזות הזמר סיפור הנס, סיפור המגילה וסיפור יציאת מצרים כוכבי הילדים הפופולריים חיפזון וזהירון יוצאים בהצגה חדשה הרפתקה בשכונה מפיק ראשי וניהול מוסיקלי ולחנים: חיים גוזלי מחזה שירים ולחנים: מאיה גוזלי בימוי: עופר שפריר עיבודים מוסיקלים: חיים גוזלי ויובב שליט כראוגרפיה: רוני גלאובר תלבושות: אלה קולסניק עיצוב תפאורה: בתיה סגל ומיכאל פיק צילום סטילס: שי הנסב בהשתתפות: יפעה מימון הר-קט, דנה עדיקא, , הילית דייטש שני, שגיא לוי, מתן קליגר, יובל שטרן ההפקה אינה מתחייבת שהשחקנים המופעים בתמונה ו/או בפוסטר ו/או בסדרה המשודרת בהכרח יופיעו בהצגה",
       "image_url": "https://static.tickchak.co.il/all/mobileScreenshot_1786003121090TUWFESMt0MvZ1L4ZVOwNnSVBDUxFWc_090TUEdzRQBXNn9CTzdlS6VEUoBzRxJ0V_RN84cygO3UIqZdzaGv5qS.jpeg",
-      "video_url": "https://www.youtube.com/embed/CCrAUPbqGyg",
+      "video_url": null,
       "tickets_url": "https://ticket.gozalypro.com/111220?ref=nwc",
       "category": null,
       "subcategory": null,
@@ -3028,7 +3206,8 @@
       "extraction_method": "structured_event_data",
       "publication_status": "candidate_review",
       "image_provenance": "external_ticket_listing_not_license",
-      "detail_page_fetched": true
+      "detail_page_fetched": true,
+      "video_candidate_needs_review": true
     },
     {
       "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
@@ -3038,7 +3217,7 @@
       "end_time": null,
       "description": "🌹 אהבה איטלקית – חגיגה נפוליטנית ערב קסום של תשוקה, מוזיקה וחיים היכונו להיסחף למסע מוזיקלי מרגש אל סמטאותיה הרומנטיות של נאפולי, בין שקיעות הזהב של חופי אמלפי לניחוחות הבזיליקום והיין האדום, בערב חד-פעמי שכולו מחווה לאהבה – כמו שרק האיטלקים יודעים לשיר אותה. על הבמה סטאס דוידוב, טנור ישראלי מרגש, זמר אופרה שלחם בעזה, והפך את כאבי הקרב לתשוקה על הבמה. סיפור חייו מעורר השראה – אך קולו סוחף עוד יותר. הוא מזמין אתכם למופע אינטימי וסוחף שבו הקול שלו מתמזג עם צלילים חמים, עוטף את הלב ומעורר געגועים למשהו עתיק, יפה ונצחי. לצידו – חמישה מוזיקאים וירטואוזים מן השורה הראשונה: 🎼 רואי דיין – מנדולינה 🎼 איתי קיינן – גיטרה 🎼 ארטיום נז'ניק – אקורדיון 🎼 תום חדש – קונטרבס 🎼 אביעד אלפסי – כלי הקשה ביחד הם טווים שטיח צלילים עשיר, סוחף, מלא נשמה, כיאה למוזיקה של הדרום האיטלקי. במופע תזכו לשמוע את הפנינים הגדולות של הרפרטואר האיטלקי: 🎶 O Sole Mio – שיר השמש והאהבה 🎶 Funiculì Funiculà – השיר שמטפס אל ההר אך יורד אל הלב 🎶 Torna a Surriento – געגועים הביתה דרך צלילים ועוד שירים שכולנו מכירים, גם אם לא ידענו שידענו. המופע שוזר בין אופרה, רומנסות נפוליטניות ושירי עם – כולם נאמנים לרוח האיטלקית: תשוקת החיים, געגוע, אהבה, ואמונה ביופי גם מול מציאות קשה. 🎭 \"אהבה איטלקית – חגיגה נפוליטנית\" הוא לא רק מופע – זו חוויה. זו הזדמנות להיעטף בצלילים שמרפאים, להתרגש, לשיר בלב – ואולי גם לדמוע. אל תפספסו את הערב שיחמם לכם את הנשמה.",
       "image_url": "https://static.tickchak.co.il/all/mobileScreenshot_1787686028090TUWFESMt0MvZ1L4ZVOwNnSVBDUxFWc_090TUEdzRQBXNn9CTzdlS6VEUoBzRxJ0V_y1oD1LYPjxUZDSS_QId87.jpeg",
-      "video_url": "https://www.youtube.com/embed/CCrAUPbqGyg",
+      "video_url": null,
       "tickets_url": "https://tickchak.co.il/112309?ref=nwc",
       "category": null,
       "subcategory": null,
@@ -3047,7 +3226,8 @@
       "extraction_method": "structured_event_data",
       "publication_status": "candidate_review",
       "image_provenance": "external_ticket_listing_not_license",
-      "detail_page_fetched": true
+      "detail_page_fetched": true,
+      "video_candidate_needs_review": true
     }
   ]
 }
