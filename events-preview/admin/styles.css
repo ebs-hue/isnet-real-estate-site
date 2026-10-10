@@ -120,3 +120,10 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 .table-wrap th:nth-child(9){width:6%}.table-wrap th:nth-child(10){width:7%}
 .table-wrap th:nth-child(11){width:6%}.table-wrap th:nth-child(12){width:3%}
 .table-wrap th:nth-child(13){width:5%}
+
+/* 2026-10-10: venue names may wrap naturally over 2–3 lines. */
+.table-wrap th:nth-child(6){width:9%}
+.table-wrap th:nth-child(7){width:8%}
+.table-wrap th:nth-child(1){width:20%}
+.table-wrap td:nth-child(7){white-space:normal;overflow-wrap:normal;word-break:normal;line-height:1.45;vertical-align:middle}
+.table-wrap td:nth-child(6){white-space:nowrap;font-variant-numeric:tabular-nums}
