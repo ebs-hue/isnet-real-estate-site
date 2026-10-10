@@ -904,7 +904,10 @@
         "הפועל אשדוד מכבי פתח תקוה כדוריד 08.10.2026",
         "הפועל אשדוד כדוריד נשים מקיף י\"א אשדוד",
         "ליגת על אתנה נשים הפועל אשדוד מכבי פתח תקוה"
-      ]
+      ],
+      "subcategory": "handball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "event_id": "evt_38_20261008",
@@ -1233,7 +1236,10 @@
         "קובי מימון סטנדאפ תמונה",
         "קובי מימון מופע סטנדאפ",
         "Kobi Maimon standup photo"
-      ]
+      ],
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -1469,7 +1475,10 @@
         "הפועל אשדוד א.ס SGS רמת השרון כדוריד",
         "הפועל אשדוד כדוריד מקיף י\"א חדש",
         "הפועל אשדוד נגד רמת השרון משחק כדוריד 2026"
-      ]
+      ],
+      "subcategory": "handball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -2371,7 +2380,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "evt_95_20261012",
@@ -2607,7 +2619,10 @@
       "image_quality_tier": "official_event_or_exact_source",
       "image_policy_version": 2,
       "thumbnail_source": "central_media_bank_card",
-      "media_bank_id": "media_77154e70f6e673f25e4e77c7"
+      "media_bank_id": "media_77154e70f6e673f25e4e77c7",
+      "subcategory": "basketball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -5191,7 +5206,10 @@
         "נועה מנור מופע סטנדאפ",
         "Noa Manor standup",
         "נועה מנור אשת חיל"
-      ]
+      ],
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -5431,7 +5449,10 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "football",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -5681,7 +5702,10 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "volleyball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -5916,7 +5940,10 @@
         "אסף יצחקי מופע סטנדאפ",
         "Assaf Itzhaki סטנדאפ אסף יצחקי",
         "אסף יצחקי יד לבנים אשדוד 17 באוקטובר 2026"
-      ]
+      ],
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -6687,7 +6714,10 @@
         "בני הרצליה כדוריד משחק ביתי"
       ],
       "seo_title": "הפועל אשדוד — בני הרצליה | כדוריד, 18.10.2026",
-      "seo_description": "מפגש ליגת WINNER בכדוריד: הפועל אשדוד מארחת את בני הרצליה במקיף י\"א החדש, יום ראשון 18/10/2026 בשעה 20:00."
+      "seo_description": "מפגש ליגת WINNER בכדוריד: הפועל אשדוד מארחת את בני הרצליה במקיף י\"א החדש, יום ראשון 18/10/2026 בשעה 20:00.",
+      "subcategory": "handball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -7582,7 +7612,10 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "evt_72_20261020",
@@ -7684,7 +7717,10 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_2059fe0fc26a72fc29929c8f",
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "URLError"
+      "thumbnail_error": "URLError",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -9057,7 +9093,10 @@
       "content_enrichment_version": 11,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "volleyball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "event_id": "evt_50_20261024",
@@ -9450,7 +9489,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_8aa9b4635ea4946fc3450e51",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -10012,7 +10054,10 @@
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-10",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "handball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "city": "אשדוד",
@@ -10195,7 +10240,10 @@
       "content_enrichment_version": 11,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "volleyball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "event_id": "evt_52_20261028",
@@ -10296,7 +10344,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_513c8562b102b049001e7987",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -10482,7 +10533,10 @@
       "media_status": "waiting_for_content",
       "content_enrichment_status": "model_error",
       "content_enrichment_retry_after": "2026-10-10",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "handball",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.98
     },
     {
       "event_id": "evt_53_20261029",
@@ -13980,7 +14034,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_96e5a8121db34efa5afc6450",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -16272,7 +16329,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "evt_79_20261118",
@@ -19519,7 +19579,10 @@
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_62_20261203",
@@ -20573,7 +20636,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_820803571ee436d0f2e268bd",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -21704,7 +21770,10 @@
       "media_bank_id": "media_371567e34c76640a3a0560ab",
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -24219,7 +24288,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -24699,7 +24771,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -29609,7 +29684,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",

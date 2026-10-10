@@ -1,14 +1,140 @@
 {
-  "count_updated": 0,
-  "count_corrected": 1,
-  "count_skipped": 321,
-  "updated": [],
-  "corrected": [
+  "count_updated": 26,
+  "count_corrected": 0,
+  "count_skipped": 244,
+  "updated": [
     {
-      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
+      "category": "sport",
+      "subcategory": "handball"
+    },
+    {
+      "event_id": "evt_39_20261008",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
+      "category": "sport",
+      "subcategory": "handball"
+    },
+    {
+      "event_id": "evt_94_20261012",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "sport_20261012_maccabi_ashdod_basketball",
+      "category": "sport",
+      "subcategory": "basketball"
+    },
+    {
+      "event_id": "evt_42_20261015",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "sport_20261016_ms_ashdod_football",
+      "category": "sport",
+      "subcategory": "football"
+    },
+    {
+      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+      "category": "sport",
       "subcategory": "volleyball"
+    },
+    {
+      "event_id": "evt_44_20261017",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
+      "category": "sport",
+      "subcategory": "handball"
+    },
+    {
+      "event_id": "auto_as_4b07ba21b782ea02a4ff",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "evt_72_20261020",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
+      "category": "sport",
+      "subcategory": "volleyball"
+    },
+    {
+      "event_id": "evt_51_20261025",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "sport_20261028_hapoel_ashdod_m_handball",
+      "category": "sport",
+      "subcategory": "handball"
+    },
+    {
+      "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
+      "category": "sport",
+      "subcategory": "volleyball"
+    },
+    {
+      "event_id": "evt_52_20261028",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "sport_20261029_hapoel_ashdod_w_handball",
+      "category": "sport",
+      "subcategory": "handball"
+    },
+    {
+      "event_id": "evt_75_20261110",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "auto_as_9a3cbab50396fa3af0c3",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "auto_as_5c82b36c5f0954a3ff95",
+      "category": "standup",
+      "subcategory": "standup"
+    },
+    {
+      "event_id": "evt_85_20261208",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "auto_as_e989e0af031952a41c55",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "auto_as_c96d7be6d2804e749d2a",
+      "category": "kids",
+      "subcategory": "kids-theatre"
+    },
+    {
+      "event_id": "auto_as_3356020481453510f22a",
+      "category": "kids",
+      "subcategory": "story-time"
+    },
+    {
+      "event_id": "auto_as_5fed753ced32a09d6fd2",
+      "category": "kids",
+      "subcategory": "kids-theatre"
     }
   ],
+  "corrected": [],
   "cms_readback_verified": false,
   "public_site_readback_verified": false
 }
