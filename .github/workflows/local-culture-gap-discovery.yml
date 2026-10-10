@@ -1,0 +1,37 @@
+name: Discover supplementary local cultural events
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 5 * * *'
+  push:
+    paths:
+      - 'scripts/discover_local_culture_gaps.py'
+      - '.github/workflows/local-culture-gap-discovery.yml'
+permissions:
+  contents: write
+concurrency:
+  group: local-culture-gap-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python scripts/discover_local_culture_gaps.py
+      - name: Save local candidate report
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/local-culture-gaps-ashdod-rishon.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update local culture candidate discovery for active cities"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
