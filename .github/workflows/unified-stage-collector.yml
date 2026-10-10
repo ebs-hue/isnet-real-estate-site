@@ -34,10 +34,6 @@ jobs:
         run: python scripts/diagnose_stage_coverage.py
       - name: Check source coverage for safe stage-board replacement
         run: python scripts/audit_stage_rebuild_readiness.py
-      - name: Publish matched Ashdod stage media and substantive production descriptions
-        env:
-          STAGE_MEDIA_PUBLICATION_ENABLED: YES_EXACT_TITLE_DATE_VENUE
-        run: python scripts/publish_matched_stage_images.py
       - name: Save collection and published updates together
         run: |
           git config user.name "isnet-events-bot"
