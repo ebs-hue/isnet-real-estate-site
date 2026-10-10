@@ -858,24 +858,17 @@ function renderCategories(){
     const active=isCinema?state.cinemaOpen:state.category===c;
     const label=configured.find(item=>item.id===c)?.label||catLabels[c]||c;
     const countLabel=(counts[c]||0)+" "+(isCinema?"סרטים":"אירועים");
-    return '<button class="categoryCard '+(active?"is-active":"")+'" data-cat="'+c+'">'+
+    const card='<button class="categoryCard '+(active?"is-active":"")+'" data-cat="'+c+'">'+
       '<span class="categoryCard__icon">'+(catIcons[c]||"✦")+'</span>'+
       '<span class="categoryCard__copy"><b>'+label+'</b><small>'+countLabel+'</small></span>'+
       '<span class="categoryCard__arrow">←</span>'+
     '</button>';
+    const subs=configured.find(x=>x.id===c)?.subcategories||[];
+    if(!active||isCinema||!subs.length)return card;
+    return card+'<div class="categoryInlineSubtypes"><button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">כל האירועים</button>'+subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join('')+'</div>';
   }).join("");
 }
-function renderSubcategories(){
-  const el=$("subcategoryNavigation");
-  if(!el)return;
-  const cat=window.publicTaxonomy?.find(c=>c.id===state.category);
-  const subs=cat?.subcategories||[];
-  if(!subs.length){el.hidden=true;el.innerHTML="";return}
-  el.hidden=false;
-  el.innerHTML='<strong>בחרו סוג אירוע</strong><div class="subcategoryOptions">'+
-    '<button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">הכול</button>'+
-    subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join("")+'</div>';
-}
+function renderSubcategories(){ /* Subcategories rendered within selected category. */ }
 function renderHeroStats(){
   const el=$("heroStats");if(!el)return;
   const upcomingOccurrences=state.events.filter(e=>localDate(e.start_date)>=today());
@@ -1019,7 +1012,7 @@ function bindDynamic(){
     render();
     if(next)requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
   });
-  document.querySelectorAll("#subcategoryNavigation [data-sub]").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll("#categoryGrid [data-sub]").forEach(b=>b.onclick=()=>{
     state.subcategory=b.dataset.sub||null;
     render();
     requestAnimationFrame(()=>$("resultsTitle")?.scrollIntoView({behavior:"smooth",block:"start"}));
