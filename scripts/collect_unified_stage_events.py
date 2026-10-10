@@ -93,7 +93,7 @@ def detail_extract(soup,source,page):
     rows=[]
     for obj in collect_jsonld(soup):
         event=event_from_jsonld(obj,source,page)
-        if event:rows.append(event)
+        if event and (STAGE_HINT.search(event["title"]) or STAGE_HINT.search(event.get("description") or "") or event.get("category") in CATS):rows.append(event)
     if not rows:return []
     image=txtmeta(soup,"og:image") or txtmeta(soup,"twitter:image")
     desc=txtmeta(soup,"og:description") or txtmeta(soup,"description")
