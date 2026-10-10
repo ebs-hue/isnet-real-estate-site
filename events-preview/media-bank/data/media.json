@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-10T13:13:43.322964+00:00",
+  "generated_at": "2026-10-10T13:34:01.995079+00:00",
   "stats": {
-    "events_scanned": 529,
-    "image_links": 400,
+    "events_scanned": 661,
+    "image_links": 498,
     "unique_images": 175,
-    "approved": 153,
-    "needs_review": 12,
-    "rejected": 10
+    "approved": 151,
+    "needs_review": 11,
+    "rejected": 13
   },
   "media": [
     {
@@ -450,111 +450,6 @@
       "reuse_similarity_floor": 0.312
     },
     {
-      "media_id": "media_e4a471179c955dc762512953",
-      "url": "assets/defaults/sport.svg",
-      "origin_url": "assets/defaults/sport.svg",
-      "source_url": "ISNET internal representative artwork",
-      "credit": "איור מייצג: ISNET",
-      "rights_status": "owned_system_asset",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "pilot_representative_fallback",
-      "artists": [
-        "מכבי אשדוד",
-        "הפועל אריות ירושלים",
-        "מ.ס. אשדוד",
-        "מכבי קריית גת",
-        "מכבי חדרה",
-        "ליאור לוק",
-        "אניה גרמן",
-        "דה סילבה",
-        "פרוצקיך",
-        "סעדה",
-        "קוברי",
-        "שלטון"
-      ],
-      "productions": [
-        "מכבי אשדוד - הפועל אריות ירושלים",
-        "מ.ס. אשדוד - מכבי קריית גת",
-        "מכבי אשדוד - מכבי חדרה",
-        "מכבי עירוני אשדוד - שמשון תל אביב",
-        "מכבי אשדוד - הפועל חוסאם נצרת",
-        "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
-        "מכבי אשדוד - מכבי SVA רחובות",
-        "מ.ס. אשדוד - בני יהודה תל אביב",
-        "מכבי עירוני אשדוד - הפועל ניר רמת השרון"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
-          "title": "מכבי אשדוד - הפועל אריות ירושלים",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261016_ms_ashdod_football",
-          "title": "מ.ס. אשדוד - מכבי קריית גת",
-          "date": "2026-10-16"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
-          "title": "מכבי אשדוד - מכבי חדרה",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261019_ironi_ashdod_football",
-          "title": "מכבי עירוני אשדוד - שמשון תל אביב",
-          "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
-          "title": "מכבי אשדוד - הפועל חוסאם נצרת",
-          "date": "2026-10-24"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261026_maccabi_ashdod_basketball",
-          "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
-          "date": "2026-10-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
-          "title": "מכבי אשדוד - מכבי SVA רחובות",
-          "date": "2026-10-28"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261030_ms_ashdod_football",
-          "title": "מ.ס. אשדוד - בני יהודה תל אביב",
-          "date": "2026-10-30"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261030_ironi_ashdod_football",
-          "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
-          "date": "2026-10-30"
-        }
-      ],
-      "usage_count": 9,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": 0.321
-    },
-    {
       "media_id": "media_1a1e251f6acc45405d9125dc",
       "url": "/events-preview/media-bank/cards/3d7da91a82ef28209d526721.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_my_fair_lady.jpg",
@@ -992,6 +887,61 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_820803571ee436d0f2e268bd",
+      "url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "source_url": "https://www.srugim.co.il/",
+      "credit": "תמונת הפקה - היפה והחיה",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "production_fallback",
+      "artists": [],
+      "productions": [
+        "היפה והחיה"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_84_20261208",
+          "title": "היפה והחיה",
+          "date": "2026-12-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_328457e76e7ed2c21e5e",
+          "title": "היפה והחיה",
+          "date": "2026-12-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_85_20261208",
+          "title": "היפה והחיה",
+          "date": "2026-12-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_91fc2beb4e083490efe9",
+          "title": "היפה והחיה",
+          "date": "2026-12-08"
+        }
+      ],
+      "usage_count": 4,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_04f7c1373b347290ea747f48",
       "url": "assets/defaults/exhibition.svg",
       "origin_url": "assets/defaults/exhibition.svg",
@@ -1094,6 +1044,57 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_0d140747d637094eb42cd6fb",
+      "url": "/events-preview/media-bank/cards/113502ec2dff834367b78ce8.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "source_url": "tickchak-live",
+      "credit": "tickchak-live",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [
+        "אסף מור יוסף"
+      ],
+      "productions": [
+        "אסף מור יוסף במופע סטנדאפ"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_43_20261015",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_cfed4e072833b5fb6935",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_57_20261105",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "date": "2026-11-05"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_0f2994382e9449109c3d20f8",
       "url": "/events-preview/media-bank/cards/d9fa954dca019f7ab606e41b.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4504-1.jpg",
@@ -1133,6 +1134,106 @@
           "event_id": "htrl_20261121_2030_אוי-אלוהים",
           "title": "אוי אלוהים",
           "date": "2026-11-21"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_1863e01d5ab4452a02e644a9",
+      "url": "/events-preview/media-bank/cards/80bbccde72839133486c16b2.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2024/01/2B1B3533.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%90%D7%93%D7%99%D7%A8-%D7%9E%D7%99%D7%9C%D7%A8/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "אדיר מילר"
+      ],
+      "categories": [
+        "other",
+        "standup"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6ae8091e1effab6137d4",
+          "title": "אדיר מילר",
+          "date": "2027-02-16"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261021_2030_אדיר-מילר",
+          "title": "אדיר מילר",
+          "date": "2026-10-21"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261204_2230_אדיר-מילר",
+          "title": "אדיר מילר",
+          "date": "2026-12-04"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_2487a12688d1bbd41c09171d",
+      "url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/08/new_site_320_450_yael.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9E%D7%99%D7%A7%D7%99-%D7%94%D7%91%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A2%D7%9C/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "מיקי - הבית של יעל"
+      ],
+      "categories": [
+        "other",
+        "kids"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d173eacfbcbf3c3be38a",
+          "title": "מיקי - הבית של יעל",
+          "date": "2026-10-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_307392a0665b3ac7255d",
+          "title": "מיקי - הבית של יעל",
+          "date": "2026-10-19"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261024_1100_מיקי-–-הבית-של-יעל",
+          "title": "מיקי – הבית של יעל",
+          "date": "2026-10-24"
         }
       ],
       "usage_count": 3,
@@ -1384,6 +1485,117 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_9300e0f7de398cd94516a367",
+      "url": "/events-preview/media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_baloon.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [
+        "שיראל חכשורי-אשרוב (עיבוד ובימוי)",
+        "אשרוב הפקות (הפקה)",
+        "חגי אלקיים (עיבודים והפקה מוזיקלית)",
+        "מיכל שי (כוריאוגרפיה)",
+        "ירון זינו (עיצוב תלבושות ואביזרים)",
+        "לירון איש האווירון (מופיע בהפקות מסוימות)",
+        "מאיה אושרי",
+        "טל אבישר",
+        "ישראל גולדרט",
+        "ברק תמם",
+        "עמית נחושתן"
+      ],
+      "productions": [
+        "מעשה בחמישה בלונים"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f49bff491bdc80b16bfb",
+          "title": "מעשה בחמישה בלונים",
+          "date": "2026-10-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_bec8a70a02a80e0595f2",
+          "title": "מעשה בחמישה בלונים",
+          "date": "2026-10-14"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
+          "title": "מעשה בחמישה בלונים",
+          "date": "2026-12-26"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_a1dd9957973686b2050eecb3",
+      "url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_daniel.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%97%D7%9F-2/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "דניאל חן"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f81eb0c9a8e90adbd5ee",
+          "title": "דניאל חן",
+          "date": "2026-11-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_653e0aea368d95f820cf",
+          "title": "דניאל חן",
+          "date": "2027-01-09"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_c9ca38ece861083f0aa0",
+          "title": "דניאל חן",
+          "date": "2027-01-30"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_baf1cb481d33a2caf91c4f49",
       "url": "/events-preview/media-bank/cards/cd4f1ca0ad8e6dab130ba038.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_or_lagoim.jpg",
@@ -1432,9 +1644,58 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_0d140747d637094eb42cd6fb",
-      "url": "/events-preview/media-bank/cards/113502ec2dff834367b78ce8.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "media_id": "media_dd90fee0cf5fa24af5b83489",
+      "url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "origin_url": "https://www.tzavta.co.il/download/events/Event_Second_Image_ccd672fc-9d9c-492c-b290-c6280e6cee7c.jpg",
+      "source_url": "https://www.tzavta.co.il/",
+      "credit": "צוותא / חומרי קידום המופע",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "artist_promo",
+      "artists": [],
+      "productions": [
+        "עומר בורשטיין"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_54_20261031",
+          "title": "עומר בורשטיין",
+          "date": "2026-10-31"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_614c3ee4ec69d9bf5e5c",
+          "title": "עומר בורשטיין",
+          "date": "2026-10-31"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_46780a2f28bdea6d1a40",
+          "title": "עומר בורשטיין",
+          "date": "2026-10-31"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_13c79c0db61e8fe43fbb9dd0",
+      "url": "/events-preview/media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp",
       "source_url": "tickchak-live",
       "credit": "tickchak-live",
       "rights_status": "publisher_directed_reuse_license_unverified",
@@ -1443,14 +1704,13 @@
       "publishable": true,
       "ai_generated": false,
       "strategy": "matched_original_stage_production",
-      "artists": [
-        "אסף מור יוסף"
-      ],
+      "artists": [],
       "productions": [
-        "אסף מור יוסף במופע סטנדאפ"
+        "אורי חזקיה"
       ],
       "categories": [
-        "standup"
+        "standup",
+        "other"
       ],
       "cities": [
         "ashdod"
@@ -1458,57 +1718,15 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "evt_43_20261015",
-          "title": "אסף מור יוסף במופע סטנדאפ",
-          "date": "2026-10-15"
+          "event_id": "evt_59_20261121",
+          "title": "אורי חזקיה",
+          "date": "2026-11-21"
         },
         {
           "city": "ashdod",
-          "event_id": "evt_57_20261105",
-          "title": "אסף מור יוסף במופע סטנדאפ",
-          "date": "2026-11-05"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_1863e01d5ab4452a02e644a9",
-      "url": "/events-preview/media-bank/cards/80bbccde72839133486c16b2.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2024/01/2B1B3533.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%93%D7%99%D7%A8-%D7%9E%D7%99%D7%9C%D7%A8/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "אדיר מילר"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261021_2030_אדיר-מילר",
-          "title": "אדיר מילר",
-          "date": "2026-10-21"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261204_2230_אדיר-מילר",
-          "title": "אדיר מילר",
-          "date": "2026-12-04"
+          "event_id": "auto_as_c03538b29ade1f797872",
+          "title": "אורי חזקיה",
+          "date": "2026-11-21"
         }
       ],
       "usage_count": 2,
@@ -1686,6 +1904,137 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_36c1f2c48f0a342cc83d2e0c",
+      "url": "/events-preview/media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_ben.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%91%D7%9F-%D7%91%D7%9F-%D7%91%D7%A8%D7%95%D7%9A-2/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "בן בן ברוך"
+      ],
+      "categories": [
+        "other",
+        "standup"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_56f0c824a6355e79022f",
+          "title": "בן בן ברוך",
+          "date": "2026-10-29"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261104_2030_בן-בן-ברוך",
+          "title": "בן בן ברוך",
+          "date": "2026-11-04"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_55f4ff419824100f86cdc770",
+      "url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "source_url": "sababa-events",
+      "credit": "sababa-events",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "שקרים קטנים - קומדיה משפחתית מופרעת"
+      ],
+      "categories": [
+        "other",
+        "standup"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b252d08ebfc89450d564",
+          "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
+          "date": "2026-12-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_927802792107d0068f24",
+          "title": "שקרים קטנים קומדיה משפחתית מופרעת",
+          "date": "2026-12-12"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_74b939937795dc8e2f9696b4",
+      "url": "/events-preview/media-bank/cards/2af882446741fc2af16bebf2.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/07/new_site_320_450_caspion.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9B%D7%A1%D7%A4%D7%99%D7%95%D7%9F-%D7%94%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F-%D7%94%D7%A9%D7%97%D7%95%D7%A8/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "כספיון - התיאטרון השחור"
+      ],
+      "categories": [
+        "other",
+        "kids"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_de3772c3a623cffc8f83",
+          "title": "כספיון - התיאטרון השחור",
+          "date": "2027-02-07"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
+          "title": "כספיון – התיאטרון השחור",
+          "date": "2027-01-02"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_7cb41718e74bb9991750ce26",
       "url": "/events-preview/media-bank/cards/0afe2613f10626a97bf359ab.webp",
       "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6a54b54c5f121069305316.jpg",
@@ -1732,48 +2081,6 @@
       "review_reason": null,
       "reuse_risk": "low",
       "reuse_similarity_floor": 0.481
-    },
-    {
-      "media_id": "media_820803571ee436d0f2e268bd",
-      "url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
-      "origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
-      "source_url": "https://www.srugim.co.il/",
-      "credit": "תמונת הפקה - היפה והחיה",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "production_fallback",
-      "artists": [],
-      "productions": [
-        "היפה והחיה"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_84_20261208",
-          "title": "היפה והחיה",
-          "date": "2026-12-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_85_20261208",
-          "title": "היפה והחיה",
-          "date": "2026-12-08"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
     },
     {
       "media_id": "media_844062dc30e4af30e88c6183",
@@ -1865,10 +2172,53 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_9300e0f7de398cd94516a367",
-      "url": "/events-preview/media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_baloon.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
+      "media_id": "media_96e5a8121db34efa5afc6450",
+      "url": "/events-preview/media-bank/cards/7f2715a02aee3987f2626a4d.webp",
+      "origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
+      "source_url": "https://www.htyavne.co.il/",
+      "credit": "חומרי קידום ההצגה",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "הפיל שרצה להיות הכי"
+      ],
+      "categories": [
+        "other",
+        "kids"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e5dd6cfdb4ead288132a",
+          "title": "הפיל שרצה להיות הכי",
+          "date": "2026-11-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_75_20261110",
+          "title": "הפיל שרצה להיות הכי",
+          "date": "2026-11-10"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_a4e5175231ad30ec63380eea",
+      "url": "/events-preview/media-bank/cards/2f32c76e774a9c97698c6380.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_zinger.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%92%D7%99%D7%95%D7%A8%D7%90-%D7%96%D7%99%D7%A0%D7%92%D7%A8-2/",
       "credit": "צילום או כרזה: אתר המארגן הרשמי",
       "rights_status": "unknown",
       "status": "approved",
@@ -1876,24 +2226,13 @@
       "publishable": true,
       "ai_generated": false,
       "strategy": "central_media_bank_reuse",
-      "artists": [
-        "שיראל חכשורי-אשרוב (עיבוד ובימוי)",
-        "אשרוב הפקות (הפקה)",
-        "חגי אלקיים (עיבודים והפקה מוזיקלית)",
-        "מיכל שי (כוריאוגרפיה)",
-        "ירון זינו (עיצוב תלבושות ואביזרים)",
-        "לירון איש האווירון (מופיע בהפקות מסוימות)",
-        "מאיה אושרי",
-        "טל אבישר",
-        "ישראל גולדרט",
-        "ברק תמם",
-        "עמית נחושתן"
-      ],
+      "artists": [],
       "productions": [
-        "מעשה בחמישה בלונים"
+        "גיורא זינגר"
       ],
       "categories": [
-        "kids"
+        "other",
+        "standup"
       ],
       "cities": [
         "ashdod",
@@ -1902,15 +2241,15 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "auto_as_f49bff491bdc80b16bfb",
-          "title": "מעשה בחמישה בלונים",
-          "date": "2026-10-14"
+          "event_id": "auto_as_70ad208baa633226ebb1",
+          "title": "גיורא זינגר",
+          "date": "2026-11-27"
         },
         {
           "city": "rishon-lezion",
-          "event_id": "htrl_20261226_1100_מעשה-בחמישה-בלונים",
-          "title": "מעשה בחמישה בלונים",
-          "date": "2026-12-26"
+          "event_id": "htrl_20261211_2200_גיורא-זינגר",
+          "title": "גיורא זינגר",
+          "date": "2026-12-11"
         }
       ],
       "usage_count": 2,
@@ -1953,6 +2292,49 @@
           "event_id": "auto_ri_4f3600f81fc79e194691",
           "title": "יום המזל שלי",
           "date": "2027-01-28"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_b0f2a8dc35d3248f616a5f53",
+      "url": "/events-preview/media-bank/cards/8d95f1a1cd7a5d9b0a00bd6b.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
+      "source_url": "tickchak-live",
+      "credit": "tickchak-live",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [],
+      "productions": [
+        "מתן פרץ"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2b8d59b9f755ec9b7983",
+          "title": "מתן פרץ",
+          "date": "2026-12-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_96ab6bceb955e59ed27f",
+          "title": "מתן פרץ",
+          "date": "2026-12-17"
         }
       ],
       "usage_count": 2,
@@ -2047,6 +2429,49 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_d30c98ba668b5f1d6a3555ca",
+      "url": "/events-preview/media-bank/cards/7256c4b760472ad262b6e4c8.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp",
+      "source_url": "tickchak-live",
+      "credit": "tickchak-live",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [],
+      "productions": [
+        "שלום אסייג"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_50_20261024",
+          "title": "שלום אסייג",
+          "date": "2026-10-24"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e0f829339f9898f04c0f",
+          "title": "שלום אסייג",
+          "date": "2026-10-24"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_d3b27081fca78d0f24a2de82",
       "url": "/events-preview/media-bank/cards/c7fd558f794673fae0a89bbf.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450-18.jpg",
@@ -2131,6 +2556,50 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_e1f11d6ad6a0278b81a176e7",
+      "url": "/events-preview/media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_alisa.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%90%D7%9C%D7%99%D7%A1%D7%94-%D7%91%D7%90%D7%A8%D7%A5-%D7%94%D7%A4%D7%9C%D7%90%D7%95%D7%AA-%D7%97%D7%A0%D7%95%D7%9B%D7%94-2026/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "אליסה בארץ הפלאות – חנוכה 2026"
+      ],
+      "categories": [
+        "other",
+        "kids"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_df9b643993ddbe9ccfa5",
+          "title": "אליסה בארץ הפלאות – חנוכה 2026",
+          "date": "2026-12-27"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20261213_1730_אליסה-בארץ-הפלאות-–-חנוכה-20",
+          "title": "אליסה בארץ הפלאות – חנוכה 2026",
+          "date": "2026-12-13"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_f1a8e4755003ae8bc164399e",
       "url": "/events-preview/media-bank/cards/42e6b6818f63268525c81278.webp",
       "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
@@ -2206,6 +2675,50 @@
           "event_id": "auto_ri_a909045a85046ee95a26",
           "title": "הנערה מהדואר",
           "date": "2027-02-13"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_fcfa428eaac63aaaa48c32fd",
+      "url": "/events-preview/media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/05/new_site_320_450_udi.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%90%D7%95%D7%93%D7%99-%D7%9B%D7%92%D7%9F-2/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "central_media_bank_reuse",
+      "artists": [],
+      "productions": [
+        "אודי כגן"
+      ],
+      "categories": [
+        "other",
+        "standup"
+      ],
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_66f664086afdb4323b95",
+          "title": "אודי כגן",
+          "date": "2027-01-23"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "htrl_20270108_2130_אודי-כגן",
+          "title": "אודי כגן",
+          "date": "2027-01-08"
         }
       ],
       "usage_count": 2,
@@ -2703,42 +3216,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_13c79c0db61e8fe43fbb9dd0",
-      "url": "/events-preview/media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp",
-      "source_url": "tickchak-live",
-      "credit": "tickchak-live",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [],
-      "productions": [
-        "אורי חזקיה"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_59_20261121",
-          "title": "אורי חזקיה",
-          "date": "2026-11-21"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_13ca18fe89fd897b7b941c57",
       "url": "/events-preview/media-bank/cards/69f2f34d92ad7cbec5221909.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_cramel.jpg",
@@ -2993,42 +3470,6 @@
           "event_id": "auto_ri_710472b6e59d7c304485",
           "title": "איה פלוטו",
           "date": "2027-01-30"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_2487a12688d1bbd41c09171d",
-      "url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/08/new_site_320_450_yael.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%99%D7%A7%D7%99-%D7%94%D7%91%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A2%D7%9C/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מיקי – הבית של יעל"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261024_1100_מיקי-–-הבית-של-יעל",
-          "title": "מיקי – הבית של יעל",
-          "date": "2026-10-24"
         }
       ],
       "usage_count": 1,
@@ -3443,42 +3884,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_36c1f2c48f0a342cc83d2e0c",
-      "url": "/events-preview/media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_ben.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%91%D7%9F-%D7%91%D7%9F-%D7%91%D7%A8%D7%95%D7%9A-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "בן בן ברוך"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261104_2030_בן-בן-ברוך",
-          "title": "בן בן ברוך",
-          "date": "2026-11-04"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_399142e07d1a5514d567da44",
       "url": "/events-preview/media-bank/cards/b848848a723dcc2008fb5d1f.webp",
       "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp",
@@ -3839,45 +4244,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_4b9919c64dc3f2b2abb3e748",
-      "url": "/events-preview/media-bank/defaults/standup.webp",
-      "origin_url": "/events-preview/media-bank/defaults/standup.webp",
-      "source_url": "ISNET central media bank",
-      "credit": "תמונת קטגוריה: ISNET",
-      "rights_status": "owned_system_asset",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "category_fallback",
-      "artists": [
-        "רועיקי מצחיקי",
-        "סמי הכבאי"
-      ],
-      "productions": [
-        "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_5c82b36c5f0954a3ff95",
-          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-          "date": "2026-12-03"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_4cf50b0982792975c54bf7c7",
       "url": "/events-preview/media-bank/cards/de3fbc6312a84331f52be49d.webp",
       "origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6a04059c1dce8576891333.jpeg",
@@ -4026,42 +4392,6 @@
           "event_id": "evt_96_20261014",
           "title": "דירה להכיר",
           "date": "2026-10-14"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_55f4ff419824100f86cdc770",
-      "url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
-      "origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
-      "source_url": "sababa-events",
-      "credit": "sababa-events",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [],
-      "productions": [
-        "שקרים קטנים קומדיה משפחתית מופרעת"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_927802792107d0068f24",
-          "title": "שקרים קטנים קומדיה משפחתית מופרעת",
-          "date": "2026-12-12"
         }
       ],
       "usage_count": 1,
@@ -4357,42 +4687,6 @@
           "event_id": "auto_ri_4a69f43df74357c6be79",
           "title": "בלט פלמנקו ברצלונה",
           "date": "2027-02-21"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_74b939937795dc8e2f9696b4",
-      "url": "/events-preview/media-bank/cards/2af882446741fc2af16bebf2.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/07/new_site_320_450_caspion.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9B%D7%A1%D7%A4%D7%99%D7%95%D7%9F-%D7%94%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F-%D7%94%D7%A9%D7%97%D7%95%D7%A8/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "כספיון – התיאטרון השחור"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20270102_1100_כספיון-–-התיאטרון-השחור",
-          "title": "כספיון – התיאטרון השחור",
-          "date": "2027-01-02"
         }
       ],
       "usage_count": 1,
@@ -4958,42 +5252,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_96e5a8121db34efa5afc6450",
-      "url": "/events-preview/media-bank/cards/7f2715a02aee3987f2626a4d.webp",
-      "origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
-      "source_url": "https://www.htyavne.co.il/",
-      "credit": "חומרי קידום ההצגה",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "event_board_poster",
-      "artists": [],
-      "productions": [
-        "הפיל שרצה להיות הכי"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_75_20261110",
-          "title": "הפיל שרצה להיות הכי",
-          "date": "2026-11-10"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_9bfa632cf05c57194fd76426",
       "url": "/events-preview/media-bank/cards/15f8f8acbc6e5a22d81632fc.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_magic.jpg",
@@ -5093,78 +5351,6 @@
           "event_id": "evt_15_20261103",
           "title": "השועל המוסיקלי כוורת",
           "date": "2026-11-03"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_a1dd9957973686b2050eecb3",
-      "url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_daniel.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%97%D7%9F-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "דניאל חן"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_c9ca38ece861083f0aa0",
-          "title": "דניאל חן",
-          "date": "2027-01-30"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_a4e5175231ad30ec63380eea",
-      "url": "/events-preview/media-bank/cards/2f32c76e774a9c97698c6380.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_zinger.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%92%D7%99%D7%95%D7%A8%D7%90-%D7%96%D7%99%D7%A0%D7%92%D7%A8-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "גיורא זינגר"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261211_2200_גיורא-זינגר",
-          "title": "גיורא זינגר",
-          "date": "2026-12-11"
         }
       ],
       "usage_count": 1,
@@ -5387,42 +5573,6 @@
           "event_id": "evt_63_20261205",
           "title": "שושנה - בכיכובה של גל דה פז",
           "date": "2026-12-05"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_b0f2a8dc35d3248f616a5f53",
-      "url": "/events-preview/media-bank/cards/8d95f1a1cd7a5d9b0a00bd6b.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
-      "source_url": "tickchak-live",
-      "credit": "tickchak-live",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [],
-      "productions": [
-        "מתן פרץ"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_2b8d59b9f755ec9b7983",
-          "title": "מתן פרץ",
-          "date": "2026-12-17"
         }
       ],
       "usage_count": 1,
@@ -5739,78 +5889,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_d30c98ba668b5f1d6a3555ca",
-      "url": "/events-preview/media-bank/cards/7256c4b760472ad262b6e4c8.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp",
-      "source_url": "tickchak-live",
-      "credit": "tickchak-live",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [],
-      "productions": [
-        "שלום אסייג"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_50_20261024",
-          "title": "שלום אסייג",
-          "date": "2026-10-24"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_dd90fee0cf5fa24af5b83489",
-      "url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
-      "origin_url": "https://www.tzavta.co.il/download/events/Event_Second_Image_ccd672fc-9d9c-492c-b290-c6280e6cee7c.jpg",
-      "source_url": "https://www.tzavta.co.il/",
-      "credit": "צוותא / חומרי קידום המופע",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "artist_promo",
-      "artists": [],
-      "productions": [
-        "עומר בורשטיין"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_54_20261031",
-          "title": "עומר בורשטיין",
-          "date": "2026-10-31"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_de4188b7ed7024df6c456ce1",
       "url": "/events-preview/media-bank/cards/ece32a7822d43f30f3b52c52.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/06/new_site_320_450_masse.jpg",
@@ -5910,42 +5988,6 @@
           "event_id": "auto_ri_167cb9632f3c7e5a33da",
           "title": "פעילויות לכל המשפחה",
           "date": "2026-10-10"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_e1f11d6ad6a0278b81a176e7",
-      "url": "/events-preview/media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_alisa.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%9C%D7%99%D7%A1%D7%94-%D7%91%D7%90%D7%A8%D7%A5-%D7%94%D7%A4%D7%9C%D7%90%D7%95%D7%AA-%D7%97%D7%A0%D7%95%D7%9B%D7%94-2026/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "אליסה בארץ הפלאות – חנוכה 2026"
-      ],
-      "categories": [
-        "kids"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20261213_1730_אליסה-בארץ-הפלאות-–-חנוכה-20",
-          "title": "אליסה בארץ הפלאות – חנוכה 2026",
-          "date": "2026-12-13"
         }
       ],
       "usage_count": 1,
@@ -6400,42 +6442,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_fcfa428eaac63aaaa48c32fd",
-      "url": "/events-preview/media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2025/05/new_site_320_450_udi.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%90%D7%95%D7%93%D7%99-%D7%9B%D7%92%D7%9F-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "אודי כגן"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "htrl_20270108_2130_אודי-כגן",
-          "title": "אודי כגן",
-          "date": "2027-01-08"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_fe6e8df1a4468d54960eaee1",
       "url": "/events-preview/media-bank/cards/865237abab18869b895459c7.webp",
       "origin_url": "https://ashdod.smarticket.co.il//uploads/thumbs/thmb6a4e44c558ed1931462316.png",
@@ -6513,6 +6519,337 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_02b5f67cb7e21ab82ac4a5ad",
+      "url": "assets/defaults/festival.svg",
+      "origin_url": "assets/defaults/festival.svg",
+      "source_url": "ISNET internal representative artwork",
+      "credit": "איור מייצג: ISNET",
+      "rights_status": "owned_system_asset",
+      "status": "rejected",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "super_editor_representative_fallback",
+      "artists": [
+        "עופרה",
+        "סופיה פאפאזוגלו"
+      ],
+      "productions": [
+        "יובל סמו",
+        "שלישיית פוש אפ",
+        "היפהפיה הנרדמת - הבלט הישראלי",
+        "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+        "יום העליה בסימן 70 לאשדוד",
+        "מוטי אהרונוביץ",
+        "שלומי קוריאט",
+        "רותם אבוהב",
+        "אייל חדד",
+        "עופרה",
+        "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
+        "החולה ההודי - תאטרון הקאמרי",
+        "יונתן ברק",
+        "BLACK & WHITE. LIVE CINEMA",
+        "BLACK &amp; WHITE. LIVE CINEMA",
+        "אסי כהן - שאולי",
+        "אורי ברויר",
+        "שושנה",
+        "סתיו בכל הצבעים - הקסם שבצבע חנוכה 2026",
+        "רשף לוי",
+        "קסם של פסטיבל חנוכה 2026",
+        "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+        "שחר חסון",
+        "אור לגויים - בית ליסין",
+        "דניאל סטיופין",
+        "סידני מחווה לביג'יז",
+        "אסף מור יוסף",
+        "עוד לא תמו כל פלאייך",
+        "THE ROMANTIC SOUL",
+        "השועל המוסיקלי המוסיקה האירית",
+        "עידן ניידיץ",
+        "רביטל ויטלזון יעקבס",
+        "מותרת לכל אדם - תאטרון באר שבע",
+        "בואי נעשה לנו חג",
+        "סופיה פאפאזוגלו",
+        "מפה לשם",
+        "לוס אנג'לס - פרס האוסקר",
+        "MALEVO",
+        "שני עולמות"
+      ],
+      "categories": [
+        "other",
+        "community",
+        "music"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1dcf9829ed11c785f43e",
+          "title": "יובל סמו",
+          "date": "2026-10-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6b6df9293f8af2e4e31e",
+          "title": "שלישיית פוש אפ",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_650727db56e4048b5341",
+          "title": "היפהפיה הנרדמת - הבלט הישראלי",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9a3f5cf3d245b4a51b19",
+          "title": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_91024d3eccf55a0b44ad",
+          "title": "יום העליה בסימן 70 לאשדוד",
+          "date": "2026-10-21"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5a6dd84cfa8c6208b96a",
+          "title": "מוטי אהרונוביץ",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5593b726d52a1cc21f24",
+          "title": "שלומי קוריאט",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_df26442ee7c067d2c4a6",
+          "title": "רותם אבוהב",
+          "date": "2026-11-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1df14e61d64fecd463b9",
+          "title": "אייל חדד",
+          "date": "2026-11-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1433fdc5973b6695bdc3",
+          "title": "עופרה",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ef7ca0af669f34aae871",
+          "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
+          "date": "2026-11-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_18bee5b9934246f7f833",
+          "title": "החולה ההודי - תאטרון הקאמרי",
+          "date": "2026-11-18"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a79566b08bbf1186ea2c",
+          "title": "יונתן ברק",
+          "date": "2026-11-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a265061310cae78ec803",
+          "title": "BLACK & WHITE. LIVE CINEMA",
+          "date": "2026-11-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f2ae2e04eb7744275c75",
+          "title": "BLACK &amp; WHITE. LIVE CINEMA",
+          "date": "2026-11-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f9dc56fbe77050a5b122",
+          "title": "אסי כהן - שאולי",
+          "date": "2026-11-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fb7940e4c7a77d612b1b",
+          "title": "אורי ברויר",
+          "date": "2026-12-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7f6c622ca25cec1d9507",
+          "title": "שושנה",
+          "date": "2026-12-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_bcae16acba3a03f18b1f",
+          "title": "סתיו בכל הצבעים - הקסם שבצבע חנוכה 2026",
+          "date": "2026-12-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3f18d22f4271ecfc02c7",
+          "title": "רשף לוי",
+          "date": "2026-12-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d80ebdd7cfae5832da75",
+          "title": "קסם של פסטיבל חנוכה 2026",
+          "date": "2026-12-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_7cb0657ce3db30cb4e39",
+          "title": "קסם של פסטיבל חנוכה 2026",
+          "date": "2026-12-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_59d67126a9311b5e4f10",
+          "title": "קסם של פסטיבל חנוכה 2026",
+          "date": "2026-12-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5755d7f89cb89032ade7",
+          "title": "קסם של פסטיבל חנוכה 2026",
+          "date": "2026-12-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_effd4004b1cc69a8c8f1",
+          "title": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+          "date": "2026-12-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_faf9bb56db0e91d7ab9d",
+          "title": "שחר חסון",
+          "date": "2026-12-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_b529b33018c85aba4e42",
+          "title": "אור לגויים - בית ליסין",
+          "date": "2026-12-30"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fb93f4dc2adef9d39b8a",
+          "title": "דניאל סטיופין",
+          "date": "2027-01-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_d0315a26e607910aebb5",
+          "title": "סידני מחווה לביג'יז",
+          "date": "2027-01-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ab96ef3a32c52b2da994",
+          "title": "אסף מור יוסף",
+          "date": "2027-01-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5dda25a13333e0d8db14",
+          "title": "עוד לא תמו כל פלאייך",
+          "date": "2027-01-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e3ffc57670066fd5ea7a",
+          "title": "THE ROMANTIC SOUL",
+          "date": "2027-01-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_243390bd002ecc344da5",
+          "title": "השועל המוסיקלי המוסיקה האירית",
+          "date": "2027-01-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_66e3b4a3e317afe1a906",
+          "title": "עידן ניידיץ",
+          "date": "2027-01-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_51d906a05e8cb6cc6fec",
+          "title": "רביטל ויטלזון יעקבס",
+          "date": "2027-01-28"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_11e7712fa234f68081ca",
+          "title": "מותרת לכל אדם - תאטרון באר שבע",
+          "date": "2027-02-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ffc197d8a4343c6c1421",
+          "title": "בואי נעשה לנו חג",
+          "date": "2027-02-09"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2a6dec2b2a29f8472656",
+          "title": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+          "date": "2027-02-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ecf2560c70689efc3475",
+          "title": "סופיה פאפאזוגלו",
+          "date": "2027-02-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c41f0c83c1874a320cdf",
+          "title": "מפה לשם",
+          "date": "2027-02-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8cfa7c9ae155b54ae894",
+          "title": "לוס אנג'לס - פרס האוסקר",
+          "date": "2027-02-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_35b62174438a54f14368",
+          "title": "MALEVO",
+          "date": "2027-03-08"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0b79e886759de4901160",
+          "title": "שני עולמות",
+          "date": "2027-03-09"
+        }
+      ],
+      "usage_count": 43,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.0
+    },
+    {
       "media_id": "media_1b0a9b5ea9e025ba908fcdda",
       "url": "/events-preview/media-bank/defaults/theatre.webp",
       "origin_url": "/events-preview/media-bank/defaults/theatre.webp",
@@ -6553,24 +6890,32 @@
       "productions": [
         "תשאירי פתוח",
         "דרושה עוזרת",
+        "דרושה עוזרת - קומדיה מטורפת",
         "מיסייה אלבר - הפקת מקור",
         "רינת מטיילת- הצגה מבית רינתי",
         "המספרה של ג'אקו - הפקת מקור",
         "הנמרה",
+        "החולה ההודי - תיאטרון הקאמרי",
         "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
         "מפצח האגוזים",
+        "מפצח האגוזים - תיאטרון הבלט הלאומי של רוסיה",
+        "אור לגויים - תיאטרון בית ליסין",
         "נאמן למקור",
         "אימי הגנרלית",
+        "אמי הגנרלית - התיאטרון העברי",
         "תיק 137",
         "מותרת לכל אדם",
+        "מותרת לכל אדם- תיאטרון באר שבע",
         "דרור קרן – כל העולם במה",
         "בואי נעשה לנו חג",
         "המחזמר ואני",
         "רומאו ויוליה - בלט פלמנקו ברצלונה",
-        "כנר על הגג"
+        "כנר על הגג",
+        "כנר על הגג - התיאטרון העברי"
       ],
       "categories": [
-        "theatre"
+        "theatre",
+        "other"
       ],
       "cities": [
         "ashdod"
@@ -6586,6 +6931,18 @@
           "city": "ashdod",
           "event_id": "auto_as_33cbee583475a04a7766",
           "title": "דרושה עוזרת",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_aa8e59fcfa995171e44f",
+          "title": "דרושה עוזרת",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9e06e2f41fbfca466c00",
+          "title": "דרושה עוזרת - קומדיה מטורפת",
           "date": "2026-10-17"
         },
         {
@@ -6614,6 +6971,30 @@
         },
         {
           "city": "ashdod",
+          "event_id": "auto_as_9f171b38443c970d3e5b",
+          "title": "החולה ההודי - תיאטרון הקאמרי",
+          "date": "2026-11-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_30ec2ea30430b22683d4",
+          "title": "החולה ההודי - תיאטרון הקאמרי",
+          "date": "2026-11-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_74f83a3ec2c7e4c91806",
+          "title": "החולה ההודי - תיאטרון הקאמרי",
+          "date": "2026-11-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_937629d0f9bb1089b498",
+          "title": "החולה ההודי - תיאטרון הקאמרי",
+          "date": "2026-11-21"
+        },
+        {
+          "city": "ashdod",
           "event_id": "auto_as_ccab329e9dce87dcb028",
           "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
           "date": "2026-11-29"
@@ -6629,6 +7010,24 @@
           "event_id": "auto_as_53b36d3a117f507f77b7",
           "title": "מפצח האגוזים",
           "date": "2026-12-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f76ca9920c465da7d6e0",
+          "title": "מפצח האגוזים - תיאטרון הבלט הלאומי של רוסיה",
+          "date": "2026-12-10"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8d5f6a0ed763a27826c8",
+          "title": "אור לגויים - תיאטרון בית ליסין",
+          "date": "2026-12-29"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fb264179812234234f6b",
+          "title": "אור לגויים - תיאטרון בית ליסין",
+          "date": "2027-01-03"
         },
         {
           "city": "ashdod",
@@ -6650,6 +7049,12 @@
         },
         {
           "city": "ashdod",
+          "event_id": "auto_as_bc49dcff0f8077bc5644",
+          "title": "אמי הגנרלית - התיאטרון העברי",
+          "date": "2027-01-16"
+        },
+        {
+          "city": "ashdod",
           "event_id": "auto_as_b2274dd31f58c6fcf843",
           "title": "תיק 137",
           "date": "2027-01-18"
@@ -6658,6 +7063,12 @@
           "city": "ashdod",
           "event_id": "auto_as_e65f449f9c8e6f75c763",
           "title": "מותרת לכל אדם",
+          "date": "2027-02-01"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e08e9d614e7ab4e8f641",
+          "title": "מותרת לכל אדם- תיאטרון באר שבע",
           "date": "2027-02-01"
         },
         {
@@ -6674,6 +7085,12 @@
         },
         {
           "city": "ashdod",
+          "event_id": "auto_as_13d0510a6fd98149c4c2",
+          "title": "מותרת לכל אדם- תיאטרון באר שבע",
+          "date": "2027-02-02"
+        },
+        {
+          "city": "ashdod",
           "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
           "title": "מותרת לכל אדם",
           "date": "2027-02-03"
@@ -6686,8 +7103,20 @@
         },
         {
           "city": "ashdod",
+          "event_id": "auto_as_0892ff8714b637a9eb93",
+          "title": "מותרת לכל אדם- תיאטרון באר שבע",
+          "date": "2027-02-04"
+        },
+        {
+          "city": "ashdod",
           "event_id": "auto_as_44ade887868f332af978",
           "title": "מותרת לכל אדם",
+          "date": "2027-02-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ccc53647307277548ee2",
+          "title": "מותרת לכל אדם- תיאטרון באר שבע",
           "date": "2027-02-06"
         },
         {
@@ -6713,13 +7142,188 @@
           "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
           "title": "כנר על הגג",
           "date": "2027-03-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_37787c184d3600cc927d",
+          "title": "כנר על הגג - התיאטרון העברי",
+          "date": "2027-03-06"
         }
       ],
-      "usage_count": 23,
+      "usage_count": 38,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
       "reuse_similarity_floor": 0.0
+    },
+    {
+      "media_id": "media_b33c260463a8307ad3aaf955",
+      "url": "/events-preview/media-bank/defaults/kids.webp",
+      "origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "source_url": "ISNET central media bank",
+      "credit": "תמונת קטגוריה: ISNET",
+      "rights_status": "owned_system_asset",
+      "status": "rejected",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "category_fallback",
+      "artists": [
+        "עולם ומלואו",
+        "החברה העירונית לתרבות ופנאי באשדוד",
+        "רבקי טננהויז",
+        "תיאטרון המדיטק",
+        "איריס ארגמן",
+        "תיאטרון החלומות של אסיק",
+        "סתיו בכל הצבעים",
+        "זיו כהן"
+      ],
+      "productions": [
+        "סערה בדלי מים",
+        "אצבעוני",
+        "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+        "כספיון - שעת סיפור תיאטרלית",
+        "שלגיה ו-7 הגמדים",
+        "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+        "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
+        "חיפזון וזהירון - סיפור הנס - חנוכה 2026",
+        "סיפור הנס",
+        "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+        "עץ הבלונים",
+        "פסטי LIVE קידס- מתנות הקסם של סבא קור. מופע חורף לכל המשפחה",
+        "אליסה בארץ הפלאות",
+        "הסינור של רוני - ע\"פ רב המכר האהוב של רינת הופר",
+        "פרפר נחמד",
+        "הג'ונגל של רינתי"
+      ],
+      "categories": [
+        "kids",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_94_20261012",
+          "title": "סערה בדלי מים",
+          "date": "2026-10-12"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_4b07ba21b782ea02a4ff",
+          "title": "אצבעוני",
+          "date": "2026-10-20"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6702385b6f68556b2c50",
+          "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+          "date": "2026-11-02"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2812e26e854be1e0b5ee",
+          "title": "כספיון - שעת סיפור תיאטרלית",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_30406ba7efe0bf0754f2",
+          "title": "כספיון - שעת סיפור תיאטרלית",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9a3cbab50396fa3af0c3",
+          "title": "שלגיה ו-7 הגמדים",
+          "date": "2026-11-18"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2b409db244e477e5b535",
+          "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+          "date": "2026-11-25"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_46982c8acb5b20d5ba37",
+          "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+          "date": "2026-11-25"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_4b2ebdf73be27f322465",
+          "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
+          "date": "2026-12-06"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_234c0c4e58c87d315bcc",
+          "title": "חיפזון וזהירון - סיפור הנס - חנוכה 2026",
+          "date": "2026-12-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_0796e91ed6cd6d37f9ca",
+          "title": "סיפור הנס",
+          "date": "2026-12-07"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_cba45deb2ce4bd517aeb",
+          "title": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+          "date": "2026-12-11"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_78cf1d9cc9f217ab0259",
+          "title": "עץ הבלונים",
+          "date": "2026-12-16"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_a88be9f69363bf1474e2",
+          "title": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+          "date": "2026-12-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f41e6c2122ebee27bb0f",
+          "title": "פסטי LIVE קידס- מתנות הקסם של סבא קור. מופע חורף לכל המשפחה",
+          "date": "2026-12-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_2526e830eef4d3d6705d",
+          "title": "אליסה בארץ הפלאות",
+          "date": "2026-12-27"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_9c73bd8e91ca298ad202",
+          "title": "הסינור של רוני - ע\"פ רב המכר האהוב של רינת הופר",
+          "date": "2027-01-19"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+          "title": "פרפר נחמד",
+          "date": "2027-01-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_bfdbd33f29362afdca31",
+          "title": "הג'ונגל של רינתי",
+          "date": "2027-02-07"
+        }
+      ],
+      "usage_count": 19,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.03
     },
     {
       "media_id": "media_3b84511ac285cabdb69bee1c",
@@ -6869,9 +7473,9 @@
       "reuse_similarity_floor": 0.028
     },
     {
-      "media_id": "media_02b5f67cb7e21ab82ac4a5ad",
-      "url": "assets/defaults/festival.svg",
-      "origin_url": "assets/defaults/festival.svg",
+      "media_id": "media_4b9919c64dc3f2b2abb3e748",
+      "url": "/events-preview/media-bank/defaults/standup.webp",
+      "origin_url": "/events-preview/media-bank/defaults/standup.webp",
       "source_url": "ISNET internal representative artwork",
       "credit": "איור מייצג: ISNET",
       "rights_status": "owned_system_asset",
@@ -6881,28 +7485,23 @@
       "ai_generated": false,
       "strategy": "super_editor_representative_fallback",
       "artists": [
-        "עופרה",
-        "סופיה פאפאזוגלו"
+        "רועיקי מצחיקי",
+        "סמי הכבאי"
       ],
       "productions": [
-        "יום העליה בסימן 70 לאשדוד",
-        "עופרה",
-        "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-        "שושנה",
-        "סידני מחווה לביג'יז",
-        "עוד לא תמו כל פלאייך",
-        "THE ROMANTIC SOUL",
-        "השועל המוסיקלי המוסיקה האירית",
-        "בואי נעשה לנו חג",
-        "סופיה פאפאזוגלו",
-        "מפה לשם",
-        "לוס אנג'לס - פרס האוסקר",
-        "MALEVO",
-        "שני עולמות"
+        "נועה מנור במופע סטנדאפ",
+        "שלישיית פוש אפ - מופע סטנדאפ",
+        "שלומי קוריאט במופע סטנדאפ",
+        "פאטמה הסטנדאפיסטית הבדואית",
+        "תמיר בוסקילה במופע סטנדאפ",
+        "סתיו פרחי במופע סטנדאפ",
+        "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+        "נישואים גרעיניים - קומדיה זוגית פרועה",
+        "יוסיאל נאמן במופע סטנדאפ"
       ],
       "categories": [
-        "community",
-        "music"
+        "other",
+        "standup"
       ],
       "cities": [
         "ashdod"
@@ -6910,94 +7509,100 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "auto_as_91024d3eccf55a0b44ad",
-          "title": "יום העליה בסימן 70 לאשדוד",
-          "date": "2026-10-21"
+          "event_id": "auto_as_f486a4102b8579046b1f",
+          "title": "נועה מנור במופע סטנדאפ",
+          "date": "2026-10-15"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_1433fdc5973b6695bdc3",
-          "title": "עופרה",
+          "event_id": "auto_as_edae801d075d3bb259f5",
+          "title": "נועה מנור במופע סטנדאפ",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_3c38513554a89a358eeb",
+          "title": "שלישיית פוש אפ - מופע סטנדאפ",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8c9f185e166296395601",
+          "title": "שלישיית פוש אפ - מופע סטנדאפ",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_886882cb1ef337e38a9c",
+          "title": "שלומי קוריאט במופע סטנדאפ",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_19625b1fab5e0c9f921a",
+          "title": "שלומי קוריאט במופע סטנדאפ",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8d899b9358eb2e48489e",
+          "title": "פאטמה הסטנדאפיסטית הבדואית",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c5cfa403e54c71516354",
+          "title": "פאטמה הסטנדאפיסטית הבדואית",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_e35cb8f03fd93ea52d52",
+          "title": "תמיר בוסקילה במופע סטנדאפ",
+          "date": "2026-11-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_fa8970a7269c724ec8b2",
+          "title": "תמיר בוסקילה במופע סטנדאפ",
+          "date": "2026-11-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_6ff3dee8745d5c20a563",
+          "title": "סתיו פרחי במופע סטנדאפ",
           "date": "2026-11-14"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_ef7ca0af669f34aae871",
-          "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-          "date": "2026-11-15"
+          "event_id": "auto_as_5c82b36c5f0954a3ff95",
+          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+          "date": "2026-12-03"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_7f6c622ca25cec1d9507",
-          "title": "שושנה",
-          "date": "2026-12-05"
+          "event_id": "auto_as_667ee6ed55fb423ba38e",
+          "title": "נישואים גרעיניים - קומדיה זוגית פרועה",
+          "date": "2026-12-19"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_d0315a26e607910aebb5",
-          "title": "סידני מחווה לביג'יז",
-          "date": "2027-01-06"
+          "event_id": "auto_as_c675505d0fbfc57c5be0",
+          "title": "יוסיאל נאמן במופע סטנדאפ",
+          "date": "2026-12-31"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_5dda25a13333e0d8db14",
-          "title": "עוד לא תמו כל פלאייך",
-          "date": "2027-01-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_e3ffc57670066fd5ea7a",
-          "title": "THE ROMANTIC SOUL",
-          "date": "2027-01-11"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_243390bd002ecc344da5",
-          "title": "השועל המוסיקלי המוסיקה האירית",
-          "date": "2027-01-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ffc197d8a4343c6c1421",
-          "title": "בואי נעשה לנו חג",
-          "date": "2027-02-09"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ecf2560c70689efc3475",
-          "title": "סופיה פאפאזוגלו",
-          "date": "2027-02-12"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_c41f0c83c1874a320cdf",
-          "title": "מפה לשם",
-          "date": "2027-02-15"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8cfa7c9ae155b54ae894",
-          "title": "לוס אנג'לס - פרס האוסקר",
-          "date": "2027-02-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_35b62174438a54f14368",
-          "title": "MALEVO",
-          "date": "2027-03-08"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_0b79e886759de4901160",
-          "title": "שני עולמות",
-          "date": "2027-03-09"
+          "event_id": "auto_as_317d69899bc86acfea45",
+          "title": "שלומי קוריאט במופע סטנדאפ",
+          "date": "2027-01-14"
         }
       ],
-      "usage_count": 14,
+      "usage_count": 15,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
-      "reuse_similarity_floor": 0.0
+      "reuse_similarity_floor": 0.095
     },
     {
       "media_id": "media_0ce16f5ab0113d5288c08df7",
@@ -7109,41 +7714,46 @@
       "reuse_similarity_floor": 0.089
     },
     {
-      "media_id": "media_b33c260463a8307ad3aaf955",
-      "url": "/events-preview/media-bank/defaults/kids.webp",
-      "origin_url": "/events-preview/media-bank/defaults/kids.webp",
-      "source_url": "ISNET central media bank",
-      "credit": "תמונת קטגוריה: ISNET",
+      "media_id": "media_e4a471179c955dc762512953",
+      "url": "assets/defaults/sport.svg",
+      "origin_url": "assets/defaults/sport.svg",
+      "source_url": "ISNET internal representative artwork",
+      "credit": "איור מייצג: ISNET",
       "rights_status": "owned_system_asset",
       "status": "rejected",
       "verified": true,
       "publishable": false,
       "ai_generated": false,
-      "strategy": "category_fallback",
+      "strategy": "pilot_representative_fallback",
       "artists": [
-        "עולם ומלואו",
-        "החברה העירונית לתרבות ופנאי באשדוד",
-        "רבקי טננהויז",
-        "תיאטרון המדיטק",
-        "איריס ארגמן",
-        "תיאטרון החלומות של אסיק",
-        "סתיו בכל הצבעים",
-        "זיו כהן"
+        "מכבי אשדוד",
+        "הפועל אריות ירושלים",
+        "מ.ס. אשדוד",
+        "מכבי קריית גת",
+        "מכבי חדרה",
+        "ליאור לוק",
+        "אניה גרמן",
+        "דה סילבה",
+        "פרוצקיך",
+        "סעדה",
+        "קוברי",
+        "שלטון"
       ],
       "productions": [
-        "סערה בדלי מים",
-        "אצבעוני",
-        "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
-        "שלגיה ו-7 הגמדים",
-        "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
-        "סיפור הנס",
-        "עץ הבלונים",
-        "אליסה בארץ הפלאות",
-        "פרפר נחמד",
-        "הג'ונגל של רינתי"
+        "מכבי אשדוד - הפועל אריות ירושלים",
+        "מ.ס. אשדוד - מכבי קריית גת",
+        "מכבי אשדוד - מכבי חדרה",
+        "מכבי עירוני אשדוד - שמשון תל אביב",
+        "מכבי אשדוד - הפועל חוסאם נצרת",
+        "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
+        "מכבי אשדוד - מכבי SVA רחובות",
+        "מ.ס. אשדוד - בני יהודה תל אביב",
+        "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
+        "המכבים - חנוכה 2026"
       ],
       "categories": [
-        "kids"
+        "sport",
+        "other"
       ],
       "cities": [
         "ashdod"
@@ -7151,70 +7761,70 @@
       "events": [
         {
           "city": "ashdod",
-          "event_id": "evt_94_20261012",
-          "title": "סערה בדלי מים",
-          "date": "2026-10-12"
+          "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+          "title": "מכבי אשדוד - הפועל אריות ירושלים",
+          "date": "2026-10-13"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_4b07ba21b782ea02a4ff",
-          "title": "אצבעוני",
-          "date": "2026-10-20"
+          "event_id": "sport_20261016_ms_ashdod_football",
+          "title": "מ.ס. אשדוד - מכבי קריית גת",
+          "date": "2026-10-16"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_6702385b6f68556b2c50",
-          "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
-          "date": "2026-11-02"
+          "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
+          "title": "מכבי אשדוד - מכבי חדרה",
+          "date": "2026-10-17"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_9a3cbab50396fa3af0c3",
-          "title": "שלגיה ו-7 הגמדים",
-          "date": "2026-11-18"
+          "event_id": "sport_20261019_ironi_ashdod_football",
+          "title": "מכבי עירוני אשדוד - שמשון תל אביב",
+          "date": "2026-10-19"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_4b2ebdf73be27f322465",
-          "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
-          "date": "2026-12-06"
+          "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
+          "title": "מכבי אשדוד - הפועל חוסאם נצרת",
+          "date": "2026-10-24"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_0796e91ed6cd6d37f9ca",
-          "title": "סיפור הנס",
-          "date": "2026-12-07"
+          "event_id": "sport_20261026_maccabi_ashdod_basketball",
+          "title": "מכבי רוטשטיין אשדוד - הפועל גליל עליון",
+          "date": "2026-10-26"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_78cf1d9cc9f217ab0259",
-          "title": "עץ הבלונים",
-          "date": "2026-12-16"
+          "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
+          "title": "מכבי אשדוד - מכבי SVA רחובות",
+          "date": "2026-10-28"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_2526e830eef4d3d6705d",
-          "title": "אליסה בארץ הפלאות",
-          "date": "2026-12-27"
+          "event_id": "sport_20261030_ms_ashdod_football",
+          "title": "מ.ס. אשדוד - בני יהודה תל אביב",
+          "date": "2026-10-30"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_f1f2c2a86e48f04a9c07",
-          "title": "פרפר נחמד",
-          "date": "2027-01-26"
+          "event_id": "sport_20261030_ironi_ashdod_football",
+          "title": "מכבי עירוני אשדוד - הפועל ניר רמת השרון",
+          "date": "2026-10-30"
         },
         {
           "city": "ashdod",
-          "event_id": "auto_as_bfdbd33f29362afdca31",
-          "title": "הג'ונגל של רינתי",
-          "date": "2027-02-07"
+          "event_id": "auto_as_cfdd8a89c91f83226591",
+          "title": "המכבים - חנוכה 2026",
+          "date": "2026-12-15"
         }
       ],
       "usage_count": 10,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
-      "reuse_similarity_floor": 0.03
+      "reuse_similarity_floor": 0.159
     },
     {
       "media_id": "media_6bc89087eb66380771b1be1e",
@@ -7317,6 +7927,173 @@
       "reuse_similarity_floor": 0.066
     },
     {
+      "media_id": "media_d5ef1f857c931698741175b4",
+      "url": "/events-preview/media-bank/cards/e9853671eefd61e6f69ea451.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "source_url": "tickchak-live",
+      "credit": "tickchak-live",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "rejected",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [
+        "אסף יצחקי"
+      ],
+      "productions": [
+        "אסף יצחקי",
+        "מני עוזרי",
+        "פאטמה הסטנדאפיסטית",
+        "מירית גליצקי - מוגזמת",
+        "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים"
+      ],
+      "categories": [
+        "standup",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_44_20261017",
+          "title": "אסף יצחקי",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_c87e389c697d6a6bc065",
+          "title": "אסף יצחקי",
+          "date": "2026-10-17"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_48_20261022",
+          "title": "מני עוזרי",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_afcf9f345c9621ec4473",
+          "title": "מני עוזרי",
+          "date": "2026-10-22"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_55_20261103",
+          "title": "פאטמה הסטנדאפיסטית",
+          "date": "2026-11-03"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_61_20261126",
+          "title": "מירית גליצקי - מוגזמת",
+          "date": "2026-11-26"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "evt_66_20261215",
+          "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
+          "date": "2026-12-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ae144df34e6052590f0f",
+          "title": "אסף יצחקי",
+          "date": "2027-01-23"
+        }
+      ],
+      "usage_count": 8,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.138
+    },
+    {
+      "media_id": "media_4e8e0b65e9be945ef113040b",
+      "url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
+      "origin_url": "assets/defaults/music.svg",
+      "source_url": "ISNET central media bank",
+      "credit": "ISNET",
+      "rights_status": "owned_system_asset",
+      "status": "rejected",
+      "verified": true,
+      "publishable": false,
+      "ai_generated": false,
+      "strategy": "media_bank_category_default",
+      "artists": [
+        "יהודה אלגרבי"
+      ],
+      "productions": [
+        "שירי קריוקי בקצב הדרבוקה",
+        "ניגון של סתיו | שרה זילברברג",
+        "עפרה - המחזמר",
+        "עפרה - המחזמר על עופרה חזה",
+        "עפרה - מחזמר מרהיב על עפרה חזה",
+        "שושנה - המחזמר בכיכובה של גל דה פז",
+        "מיקה שלי - מחזמר משיריו של יאיר רוזנבלום"
+      ],
+      "categories": [
+        "seniors",
+        "music",
+        "other"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_ffc63b0b4486bb31a455",
+          "title": "שירי קריוקי בקצב הדרבוקה",
+          "date": "2026-10-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_f1dc81732b11d4fd595d",
+          "title": "ניגון של סתיו | שרה זילברברג",
+          "date": "2026-10-13"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_916f842d9c95e5a0a32c",
+          "title": "עפרה - המחזמר",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_eb7ba0d047d3c9b1e354",
+          "title": "עפרה - המחזמר על עופרה חזה",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_16fff3bcf8d32c312e8a",
+          "title": "עפרה - מחזמר מרהיב על עפרה חזה",
+          "date": "2026-11-14"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_5c7c19fc03d136478ff3",
+          "title": "שושנה - המחזמר בכיכובה של גל דה פז",
+          "date": "2026-12-05"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_1168a9064c419b883058",
+          "title": "מיקה שלי - מחזמר משיריו של יאיר רוזנבלום",
+          "date": "2027-01-31"
+        }
+      ],
+      "usage_count": 7,
+      "created_from": "event_dataset",
+      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
+      "reuse_risk": "review",
+      "reuse_similarity_floor": 0.135
+    },
+    {
       "media_id": "media_808157ae718d94b9dc61cd6b",
       "url": "/events-preview/media-bank/cards/666f5e7af10b3c7e0164fe05.webp",
       "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
@@ -7339,7 +8116,8 @@
         "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ"
       ],
       "categories": [
-        "standup"
+        "standup",
+        "other"
       ],
       "cities": [
         "ashdod"
@@ -7348,6 +8126,12 @@
         {
           "city": "ashdod",
           "event_id": "evt_42_20261015",
+          "title": "נועה מנור",
+          "date": "2026-10-15"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_46fe1812e7425a600b29",
           "title": "נועה מנור",
           "date": "2026-10-15"
         },
@@ -7376,7 +8160,7 @@
           "date": "2027-01-02"
         }
       ],
-      "usage_count": 5,
+      "usage_count": 6,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
@@ -7451,72 +8235,6 @@
       "reuse_similarity_floor": 0.165
     },
     {
-      "media_id": "media_d5ef1f857c931698741175b4",
-      "url": "/events-preview/media-bank/cards/e9853671eefd61e6f69ea451.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
-      "source_url": "tickchak-live",
-      "credit": "tickchak-live",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "rejected",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [
-        "אסף יצחקי"
-      ],
-      "productions": [
-        "אסף יצחקי",
-        "מני עוזרי",
-        "פאטמה הסטנדאפיסטית",
-        "מירית גליצקי - מוגזמת",
-        "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים"
-      ],
-      "categories": [
-        "standup"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_44_20261017",
-          "title": "אסף יצחקי",
-          "date": "2026-10-17"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_48_20261022",
-          "title": "מני עוזרי",
-          "date": "2026-10-22"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_55_20261103",
-          "title": "פאטמה הסטנדאפיסטית",
-          "date": "2026-11-03"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_61_20261126",
-          "title": "מירית גליצקי - מוגזמת",
-          "date": "2026-11-26"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "evt_66_20261215",
-          "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
-          "date": "2026-12-15"
-        }
-      ],
-      "usage_count": 5,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.138
-    },
-    {
       "media_id": "media_12cacca1483b28cf2048bbdb",
       "url": "assets/local/culture-hall.svg",
       "origin_url": "assets/local/culture-hall.svg",
@@ -7567,52 +8285,6 @@
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",
       "reuse_similarity_floor": 0.068
-    },
-    {
-      "media_id": "media_4e8e0b65e9be945ef113040b",
-      "url": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
-      "origin_url": "assets/defaults/music.svg",
-      "source_url": "ISNET central media bank",
-      "credit": "ISNET",
-      "rights_status": "owned_system_asset",
-      "status": "needs_review",
-      "verified": true,
-      "publishable": false,
-      "ai_generated": false,
-      "strategy": "media_bank_category_default",
-      "artists": [
-        "יהודה אלגרבי"
-      ],
-      "productions": [
-        "שירי קריוקי בקצב הדרבוקה",
-        "ניגון של סתיו | שרה זילברברג"
-      ],
-      "categories": [
-        "seniors",
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_ffc63b0b4486bb31a455",
-          "title": "שירי קריוקי בקצב הדרבוקה",
-          "date": "2026-10-13"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_f1dc81732b11d4fd595d",
-          "title": "ניגון של סתיו | שרה זילברברג",
-          "date": "2026-10-13"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": "same_image_used_for_dissimilar_event_titles",
-      "reuse_risk": "review",
-      "reuse_similarity_floor": 0.224
     },
     {
       "media_id": "media_4f6bc196c8aefc5ca16ac9d3",
@@ -8057,6 +8729,6 @@
     "quality": 80,
     "created": 0,
     "reused": 0,
-    "skipped": 153
+    "skipped": 151
   }
 }
