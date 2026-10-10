@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-10T08:13:50.360283+00:00",
+  "generated_at": "2026-10-10T11:47:40.702923+00:00",
   "publication_enabled": false,
   "images_authorized": false,
   "cms_modified": false,
   "source_reports": [
     {
       "source_id": "mevalim",
-      "found": 0,
+      "found": 4,
       "error": null
     },
     {
@@ -16,7 +16,7 @@
     },
     {
       "source_id": "tickchak-live",
-      "found": 3,
+      "found": 5,
       "error": null
     },
     {
@@ -36,6 +36,50 @@
     }
   ],
   "candidates": [
+    {
+      "source_id": "mevalim",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://tickets.mevalim.co.il/event/d-u2lE-r3EdkUyl?referrer=https%3A%2F%2Fwww.mevalim.co.il%2F&tbn=הופעות%20מומלצת%20בדף%20הבית&tbid=240268&idx=8",
+      "city_evidence": "card_text",
+      "title_candidate": "199₪ 69₪ ראשון לציון 21:00 10.10 זוגיות AI - התיאטרון העברי",
+      "source_context": "240₪ 85₪ תל אביב 17:00 10.10 לא הייתם צריכים - תיאטרון הקאמרי 230₪ 79₪ תל אביב 18:00 10.10 אור לגויים - תיאטרון בית ליסין 240₪ 85₪ תל אביב 19:30 10.10 לא הייתם צריכים - תיאטרון הקאמרי 220₪ 99₪ ירושלים 20:30 10.10 לילסדה - עיבוד בימתי לסרטו של שמי זרחין 156₪ 69₪ רחובות 20:30 10.10 מלאכים בלבן - תיאטרון הבימה 139₪ 69₪ קריית חיים 21:00 10.10 נישואים ג",
+      "image_candidate_url": null,
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "mevalim",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://tickets.mevalim.co.il/event/woTO6nKogLDY5mG?referrer=https%3A%2F%2Fwww.mevalim.co.il%2F&tbn=דף%20הבית%20–%20הופעות%20חיות&tbid=205540&idx=8",
+      "city_evidence": "card_text",
+      "title_candidate": "120₪ ראשון לציון 21:00 24.10 משה להב - הטיש הגדול",
+      "source_context": "110₪ 90₪ שבי ציון 21:30 10.10 אמיר אטיאס - סולן להקת בית הבובות 165₪ 129₪ תל אביב 22:00 14.10 טריפונס בחגיגה יוונית ישראלית 179₪ דרום השרון 13:30 16.10 בניה ברבי - חוגג עשור על הבמות 139₪ תל אביב 21:30 17.10 ARETHA * STEVIE * TINA 65₪ 25₪ תל אביב 21:30 19.10 שרים אריק איינשטיין 129₪ 119₪ קריית חיים 20:30 22.10 משה להב - הטיש הגדול 139₪ קיבוץ עין הש",
+      "image_candidate_url": null,
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "mevalim",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://tickets.mevalim.co.il/event/d-u2lE-r3EdkUyl?referrer=https%3A%2F%2Fwww.mevalim.co.il%2F&tbn=דף%20הבית%20–%20הצגות%20תיאטרון&tbid=57447&idx=7",
+      "city_evidence": "card_text",
+      "title_candidate": "199₪ 69₪ ראשון לציון 21:00 10.10 זוגיות AI - התיאטרון העברי",
+      "source_context": "70₪ 40₪ תל אביב 16:00 10.10 סיור מאחורי הקלעים - תיאטרון בית ליסין 240₪ 85₪ תל אביב 17:00 10.10 לא הייתם צריכים - תיאטרון הקאמרי 230₪ 79₪ תל אביב 18:00 10.10 אור לגויים - תיאטרון בית ליסין 240₪ 85₪ תל אביב 19:30 10.10 לא הייתם צריכים - תיאטרון הקאמרי 119₪ כפר סבא 21:00 10.10 יאסו - האהבה היוונית שלי בכיכובם של רותם כהן ואילנית לוי 139₪ 69₪ קריית חי",
+      "image_candidate_url": null,
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "mevalim",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://www.mevalim.co.il/rishon-lezion/",
+      "city_evidence": "card_text",
+      "title_candidate": "ראשון לציון",
+      "source_context": "ראשון לציון",
+      "image_candidate_url": null,
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
     {
       "source_id": "makore",
       "city_hint": "ashdod",
@@ -71,12 +115,34 @@
     },
     {
       "source_id": "tickchak-live",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://live.tickchak.co.il/childrens-shows/event/eALNRkWRL?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "city_evidence": "card_text",
+      "title_candidate": "12.10.26 יום שני 17:30 לאתר המכירה יובל המבולבל - בהצגה המסע אל הכוכב היכל התרבות ראשון לציון",
+      "source_context": "12.10.26 יום שני 17:30 לאתר המכירה יובל המבולבל - בהצגה המסע אל הכוכב היכל התרבות ראשון לציון",
+      "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ3o2NTJ0T5lEVmljZEBXU3pkRNBTau_L90zZmd1N05WemNEOqZ3YtRzR1UVY2Vkd.webp_602b5070-c230-465d-8a2c-f1cea9a7bf1c.webp",
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "tickchak-live",
       "city_hint": "ashdod",
-      "source_url": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-n90zdkVFbPB1T6R1Q3UleqxWQKZmYnV1S",
+      "source_url": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
       "city_evidence": "card_text",
       "title_candidate": "12.10.26 יום שני 11:00 לאתר המכירה אֻמִּי מונארט אשדוד",
       "source_context": "12.10.26 יום שני 11:00 לאתר המכירה אֻמִּי מונארט אשדוד",
       "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQxMncwFmSTZ0axFXQUJDaChGU40kQu_S90TUad3URZVcPB1NvMEe5V2ThN1YsN3c.webp_030929fa-1b13-4052-a82e-7aae5257d0b0.webp",
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "tickchak-live",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://live.tickchak.co.il/shows/event/eZxQqBrlx?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "city_evidence": "card_text",
+      "title_candidate": "קרדיט לצלם קרדיט לצלם: פבריס 26.10.26 יום שני 20:30 לאתר המכירה גיל שוחט מארח את שלמה בראבא מס' 1 היכל התרבות ראשון לציון",
+      "source_context": "קרדיט לצלם קרדיט לצלם: פבריס 26.10.26 יום שני 20:30 לאתר המכירה גיל שוחט מארח את שלמה בראבא מס' 1 היכל התרבות ראשון לציון",
+      "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TUuJldJx2RtBHM5k3KRlXYh9WYKVXVu_Z90zZOJ2c5ZHNrIzN4IlZN90ZyR0QwMjY.webp_89fef85d-de78-4dda-9bcd-e4d8775d171e.webp",
       "status": "candidate_requires_title_city_date_and_venue_validation",
       "image_rights_status": "unknown"
     },
