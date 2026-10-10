@@ -1,15 +1,100 @@
 {
-  "generated_at": "2026-10-10T16:25:25.982067+00:00",
+  "generated_at": "2026-10-10T16:31:42.143708+00:00",
   "mode": "read_only",
   "cities": {
     "ashdod": {
       "counts": {
         "future_events": 386,
-        "already_has_source_image": 354,
-        "missing_publishable_image": 32,
-        "no_eligible_catalog_asset": 32
+        "already_has_source_image": 310,
+        "generic_placeholders_to_replace": 47,
+        "no_eligible_catalog_asset": 76,
+        "missing_publishable_image": 29
       },
       "missing": [
+        {
+          "event_id": "auto_as_7fce1d9b4ab267e246e1",
+          "title": "הרצאה של יונתן סררו",
+          "start_date": "2026-10-11",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "evt_94_20261012",
+          "title": "סערה בדלי מים",
+          "start_date": "2026-10-12",
+          "category": "kids",
+          "subcategory": "kids-theatre",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "evt_95_20261012",
+          "title": "תשאירי פתוח",
+          "start_date": "2026-10-12",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_06f3de539c2d3e22b2ff",
+          "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
+          "start_date": "2026-10-14",
+          "category": "lecture",
+          "subcategory": "health-medicine",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_33cbee583475a04a7766",
+          "title": "דרושה עוזרת",
+          "start_date": "2026-10-17",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_a78d65b3f4ac3995294c",
+          "title": "מיסייה אלבר - הפקת מקור",
+          "start_date": "2026-10-18",
+          "category": "theatre",
+          "subcategory": "original-production",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_a69617607de8b2a38b13",
+          "title": "רינת מטיילת- הצגה מבית רינתי",
+          "start_date": "2026-10-18",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
         {
           "event_id": "sport_20261018_hapoel_ashdod_m_handball",
           "title": "הפועל אשדוד - בני הרצליה",
@@ -17,6 +102,43 @@
           "category": "sport",
           "subcategory": "handball",
           "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_ab616d899c714d6fd180",
+          "title": "המספרה של ג'אקו - הפקת מקור",
+          "start_date": "2026-10-19",
+          "category": "theatre",
+          "subcategory": "original-production",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
+          "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
+          "start_date": "2026-10-19",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_4b07ba21b782ea02a4ff",
+          "title": "אצבעוני",
+          "start_date": "2026-10-20",
+          "category": "kids",
+          "subcategory": "kids-theatre",
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -28,6 +150,19 @@
           "category": "community",
           "subcategory": "women-events",
           "source": null,
+          "image_problem": "missing_photo",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_3a2c902c3450a6e70c14",
+          "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
+          "start_date": "2026-10-25",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -39,6 +174,19 @@
           "category": "sport",
           "subcategory": "handball",
           "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_799a6dbb87a8759e0be8",
+          "title": "הנמרה",
+          "start_date": "2026-10-28",
+          "category": "theatre",
+          "subcategory": "comedy",
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -50,6 +198,19 @@
           "category": "sport",
           "subcategory": "handball",
           "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_e8967396c917fb4211e4",
+          "title": "הרצאה של רנה סרור",
+          "start_date": "2026-11-01",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -61,6 +222,79 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "evt_14_20261102",
+          "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
+          "start_date": "2026-11-02",
+          "category": "seniors",
+          "subcategory": "senior-lectures",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_6702385b6f68556b2c50",
+          "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+          "start_date": "2026-11-02",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "evt_16_20261104",
+          "title": "פאנל \"עולם של אסתטיקה\" - עם גילה תורן חן, ורדה שחף ורופאים - ייעודי לגדולות מהחיים",
+          "start_date": "2026-11-04",
+          "category": "seniors",
+          "subcategory": "senior-lectures",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_d40a31ca190750c33df1",
+          "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
+          "start_date": "2026-11-16",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_737e086330f64f28c23c",
+          "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
+          "start_date": "2026-11-16",
+          "category": "lecture",
+          "subcategory": "history",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_9a3cbab50396fa3af0c3",
+          "title": "שלגיה ו-7 הגמדים",
+          "start_date": "2026-11-18",
+          "category": "kids",
+          "subcategory": "kids-theatre",
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -72,6 +306,55 @@
           "category": "cinema",
           "subcategory": "other-cinema",
           "source": null,
+          "image_problem": "missing_photo",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_ccab329e9dce87dcb028",
+          "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+          "start_date": "2026-11-29",
+          "category": "theatre",
+          "subcategory": "musical",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_208cc1d709030d29da9a",
+          "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+          "start_date": "2026-11-29",
+          "category": "theatre",
+          "subcategory": "musical",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_5c82b36c5f0954a3ff95",
+          "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+          "start_date": "2026-12-03",
+          "category": "standup",
+          "subcategory": "standup",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_4b2ebdf73be27f322465",
+          "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
+          "start_date": "2026-12-06",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -83,6 +366,259 @@
           "category": "seniors",
           "subcategory": "senior-workshops",
           "source": null,
+          "image_problem": "missing_photo",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_6edc79b3206c44047ae2",
+          "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
+          "start_date": "2026-12-07",
+          "category": "exhibition",
+          "subcategory": "guided-exhibition-tour",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_0796e91ed6cd6d37f9ca",
+          "title": "סיפור הנס",
+          "start_date": "2026-12-07",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_53b36d3a117f507f77b7",
+          "title": "מפצח האגוזים",
+          "start_date": "2026-12-10",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_78cf1d9cc9f217ab0259",
+          "title": "עץ הבלונים",
+          "start_date": "2026-12-16",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_2526e830eef4d3d6705d",
+          "title": "אליסה בארץ הפלאות",
+          "start_date": "2026-12-27",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_7f19ce4f79e93abe6dc9",
+          "title": "דקה לנשום – לצמוח מהכאב והקושי-ייעודי לגדולות מהחיים",
+          "start_date": "2026-12-29",
+          "category": "seniors",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+          "title": "אימי הגנרלית",
+          "start_date": "2027-01-16",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_b2274dd31f58c6fcf843",
+          "title": "תיק 137",
+          "start_date": "2027-01-18",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+          "title": "פרפר נחמד",
+          "start_date": "2027-01-26",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_e65f449f9c8e6f75c763",
+          "title": "מותרת לכל אדם",
+          "start_date": "2027-02-01",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_53cf1f6df1acf20a2f40",
+          "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
+          "start_date": "2027-02-02",
+          "category": "lecture",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_dd53408c64490661fa14",
+          "title": "דרור קרן – כל העולם במה",
+          "start_date": "2027-02-02",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_5c9acb9f3ebef3f3e018",
+          "title": "מותרת לכל אדם",
+          "start_date": "2027-02-02",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
+          "title": "מותרת לכל אדם",
+          "start_date": "2027-02-03",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_50179a566f2b8b78f713",
+          "title": "מותרת לכל אדם",
+          "start_date": "2027-02-04",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_44ade887868f332af978",
+          "title": "מותרת לכל אדם",
+          "start_date": "2027-02-06",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_bfdbd33f29362afdca31",
+          "title": "הג'ונגל של רינתי",
+          "start_date": "2027-02-07",
+          "category": "kids",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_5b3592e6f2e52fe56817",
+          "title": "המחזמר ואני",
+          "start_date": "2027-02-10",
+          "category": "theatre",
+          "subcategory": "musical",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_ad9aa5d26bfb663907d7",
+          "title": "כח המילים והשפעותיהם על החיים -ייעודי לגדולות מהחיים",
+          "start_date": "2027-02-14",
+          "category": "seniors",
+          "subcategory": "senior-lectures",
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_b5598e9e1f88af009a2a",
+          "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
+          "start_date": "2027-02-18",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
+          "suggested_asset_id": null,
+          "suggested_asset_type": null,
+          "action": "collect_or_verify_media"
+        },
+        {
+          "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+          "title": "כנר על הגג",
+          "start_date": "2027-03-06",
+          "category": "theatre",
+          "subcategory": null,
+          "source": null,
+          "image_problem": "generic_placeholder",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -94,6 +630,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -105,6 +642,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -116,6 +654,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -127,6 +666,7 @@
           "category": "kids",
           "subcategory": "kids-theatre",
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -138,6 +678,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -149,6 +690,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -160,6 +702,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -171,6 +714,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -182,6 +726,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -193,6 +738,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -204,6 +750,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -215,6 +762,7 @@
           "category": "music",
           "subcategory": "tribute-shows",
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -226,6 +774,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -237,6 +786,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -248,6 +798,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -259,6 +810,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -270,6 +822,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -281,6 +834,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -292,6 +846,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -303,6 +858,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -314,6 +870,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -325,6 +882,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -336,6 +894,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -347,6 +906,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -358,6 +918,7 @@
           "category": "cinema",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -379,6 +940,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -390,6 +952,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -401,6 +964,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -412,6 +976,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -423,6 +988,7 @@
           "category": "community",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -434,6 +1000,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -445,6 +1012,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -456,6 +1024,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -467,6 +1036,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -478,6 +1048,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -489,6 +1060,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -500,6 +1072,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -511,6 +1084,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -522,6 +1096,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -533,6 +1108,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -544,6 +1120,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -555,6 +1132,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -566,6 +1144,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -577,6 +1156,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -588,6 +1168,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -599,6 +1180,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -610,6 +1192,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -621,6 +1204,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -632,6 +1216,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -643,6 +1228,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -654,6 +1240,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -665,6 +1252,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -676,6 +1264,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -687,6 +1276,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -698,6 +1288,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -709,6 +1300,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -720,6 +1312,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -731,6 +1324,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -742,6 +1336,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -753,6 +1348,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -764,6 +1360,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -775,6 +1372,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -786,6 +1384,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -797,6 +1396,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -808,6 +1408,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -819,6 +1420,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -830,6 +1432,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -841,6 +1444,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -852,6 +1456,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -863,6 +1468,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -874,6 +1480,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -885,6 +1492,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -896,6 +1504,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -907,6 +1516,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -918,6 +1528,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -929,6 +1540,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -940,6 +1552,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -951,6 +1564,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -962,6 +1576,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -973,6 +1588,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -984,6 +1600,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -995,6 +1612,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1006,6 +1624,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1017,6 +1636,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1028,6 +1648,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1039,6 +1660,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1050,6 +1672,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1061,6 +1684,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1072,6 +1696,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1083,6 +1708,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1094,6 +1720,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1105,6 +1732,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1116,6 +1744,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1127,6 +1756,7 @@
           "category": "standup",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1138,6 +1768,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1149,6 +1780,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1160,6 +1792,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1171,6 +1804,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1182,6 +1816,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1193,6 +1828,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1204,6 +1840,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1215,6 +1852,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1226,6 +1864,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1237,6 +1876,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1248,6 +1888,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1259,6 +1900,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1270,6 +1912,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1281,6 +1924,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1292,6 +1936,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1303,6 +1948,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1314,6 +1960,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1325,6 +1972,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1336,6 +1984,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1347,6 +1996,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1358,6 +2008,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1369,6 +2020,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1380,6 +2032,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1391,6 +2044,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1402,6 +2056,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1413,6 +2068,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1424,6 +2080,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1435,6 +2092,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1446,6 +2104,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1457,6 +2116,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1468,6 +2128,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1479,6 +2140,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1490,6 +2152,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1501,6 +2164,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1512,6 +2176,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1523,6 +2188,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1534,6 +2200,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1545,6 +2212,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1556,6 +2224,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1567,6 +2236,7 @@
           "category": "theatre",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1578,6 +2248,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1589,6 +2260,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1600,6 +2272,7 @@
           "category": "festival",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1611,6 +2284,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1622,6 +2296,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1633,6 +2308,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1644,6 +2320,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1655,6 +2332,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1666,6 +2344,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1677,6 +2356,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1688,6 +2368,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1699,6 +2380,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1710,6 +2392,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1721,6 +2404,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1732,6 +2416,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1743,6 +2428,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1754,6 +2440,7 @@
           "category": "other",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1765,6 +2452,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1776,6 +2464,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1787,6 +2476,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1798,6 +2488,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1809,6 +2500,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1820,6 +2512,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1831,6 +2524,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1842,6 +2536,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1853,6 +2548,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1864,6 +2560,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1875,6 +2572,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1886,6 +2584,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1897,6 +2596,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1908,6 +2608,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1919,6 +2620,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1930,6 +2632,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1941,6 +2644,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1952,6 +2656,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1963,6 +2668,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1974,6 +2680,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1985,6 +2692,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -1996,6 +2704,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2007,6 +2716,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2018,6 +2728,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2029,6 +2740,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2040,6 +2752,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2051,6 +2764,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2062,6 +2776,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2073,6 +2788,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2084,6 +2800,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2095,6 +2812,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2106,6 +2824,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2117,6 +2836,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2128,6 +2848,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2139,6 +2860,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2150,6 +2872,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2161,6 +2884,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2172,6 +2896,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2183,6 +2908,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2194,6 +2920,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2205,6 +2932,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2216,6 +2944,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2227,6 +2956,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2238,6 +2968,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2249,6 +2980,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2260,6 +2992,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2271,6 +3004,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2282,6 +3016,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2293,6 +3028,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2304,6 +3040,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2315,6 +3052,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2326,6 +3064,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2337,6 +3076,7 @@
           "category": "exhibition",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2348,6 +3088,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2359,6 +3100,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2370,6 +3112,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2381,6 +3124,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2392,6 +3136,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2403,6 +3148,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2414,6 +3160,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2425,6 +3172,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2436,6 +3184,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2447,6 +3196,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2458,6 +3208,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2469,6 +3220,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2480,6 +3232,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2491,6 +3244,7 @@
           "category": "lecture",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2502,6 +3256,7 @@
           "category": "music",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2513,6 +3268,7 @@
           "category": "kids",
           "subcategory": null,
           "source": null,
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2524,6 +3280,7 @@
           "category": "music",
           "subcategory": null,
           "source": "national_stage_boards",
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2535,6 +3292,7 @@
           "category": "music",
           "subcategory": null,
           "source": "national_stage_boards",
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
@@ -2546,6 +3304,7 @@
           "category": "standup",
           "subcategory": null,
           "source": "national_stage_boards",
+          "image_problem": "missing_photo",
           "suggested_asset_id": null,
           "suggested_asset_type": null,
           "action": "collect_or_verify_media"
