@@ -75,7 +75,10 @@
       "venue_phone": "*5359",
       "venue_website": "https://mishkan-ashdod.co.il/",
       "address_source": "verified_institution_registry",
-      "contact_phone": "*5359"
+      "contact_phone": "*5359",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "evt_35_20261005",
@@ -134,7 +137,10 @@
       "series_id": "ashdod-waves-groups",
       "series_title": "קבוצות גלישה בחוף ט״ו",
       "series_description": "פעילויות גלישה בחוף ט״ו במסלולים שונים: קבוצת גברים וקבוצת הורה וילד.",
-      "variant_label": "הגל שלי – קבוצת גברים"
+      "variant_label": "הגל שלי – קבוצת גברים",
+      "subcategory": "water-sports",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -262,7 +268,10 @@
       "series_id": "ashdod-waves-groups",
       "series_title": "קבוצות גלישה בחוף ט״ו",
       "series_description": "פעילויות גלישה בחוף ט״ו במסלולים שונים: קבוצת גברים וקבוצת הורה וילד.",
-      "variant_label": "בין הגלים – קבוצת הורה וילד"
+      "variant_label": "בין הגלים – קבוצת הורה וילד",
+      "subcategory": "water-sports",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "event_id": "evt_92_20261006",
@@ -375,7 +384,10 @@
       "thumbnail_strategy": "landscape_cover",
       "detail_checked_at": "2026-10-06",
       "venue_institution_id": "ashdod_city_library",
-      "venue_website": "https://www.ironit.org.il/"
+      "venue_website": "https://www.ironit.org.il/",
+      "subcategory": "reading-clubs",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "evt_37_20261006",
@@ -427,7 +439,10 @@
       "thumbnail_url": "assets/event-thumbs/fa67bfecac1db4258fd6f6.jpg",
       "thumbnail_ready": true,
       "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover"
+      "thumbnail_strategy": "landscape_cover",
+      "subcategory": "parenting-family",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.93
     },
     {
       "city": "אשדוד",
@@ -2847,7 +2862,10 @@
       "thumbnail_error": "ValueError",
       "activity_type": "music",
       "thumbnail_ratio": "16:9",
-      "media_bank_default_key": "seniors_social_default"
+      "media_bank_default_key": "seniors_social_default",
+      "subcategory": "senior-music",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -3223,7 +3241,10 @@
       "image_policy_version": 2,
       "image_represents_event": false,
       "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "water-sports",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "event_id": "evt_41_20261013",
@@ -3584,7 +3605,10 @@
       "category_review_status": "audience_rule_reclassified",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T09:12:00+03:00",
-      "media_bank_default_key": "seniors_lecture_default"
+      "media_bank_default_key": "seniors_lecture_default",
+      "subcategory": "senior-health",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.91
     },
     {
       "city": "אשדוד",
@@ -3708,7 +3732,10 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "health-medicine",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "event_id": "evt_96_20261014",
@@ -4821,7 +4848,10 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "content_enrichment_retry_after": "2026-10-10",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "guided-exhibition-tour",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_8_20261015",
@@ -5054,7 +5084,10 @@
         "אסף מור יוסף מופע סטנדאפ תמונה",
         "אסף מור יוסף צילום במה"
       ],
-      "thumbnail_error": "HTTPError"
+      "thumbnail_error": "HTTPError",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_42_20261015",
@@ -6130,7 +6163,10 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "original-production",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.94
     },
     {
       "city": "אשדוד",
@@ -6536,7 +6572,10 @@
       ],
       "seo_title": "חיפזון וזהירון — הרפתקה בשכונה | הצגת ילדים",
       "seo_description": "מופע משפחתי-מוזיקלי של חיפזון וזהירון: מסע שכונתי מלא שירים והומור. המשכן לאמנויות הבמה, אשדוד — 18.10.2026, 17:30.",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
@@ -7005,7 +7044,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "original-production",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.94
     },
     {
       "city": "אשדוד",
@@ -7306,7 +7348,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -7751,7 +7796,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "event_id": "evt_46_20261020",
@@ -8049,7 +8097,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "original-production",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.94
     },
     {
       "city": "אשדוד",
@@ -8262,7 +8313,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "women-events",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -8445,7 +8499,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_3f27ad5b9907279e020ba015",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_48_20261022",
@@ -8613,7 +8670,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_2baec52fc333c57a6cd74849",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -11822,7 +11882,10 @@
       "activity_type": "community",
       "thumbnail_ratio": "16:9",
       "media_bank_default_key": "seniors_social_default",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "senior-health",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.91
     },
     {
       "city": "אשדוד",
@@ -12107,7 +12170,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_b1263ba6a5dfe100bb45033a",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -12672,7 +12738,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_ae77cd0ed098e29be65721c7",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "communities-heritage",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "event_id": "evt_56_20261105",
@@ -12818,7 +12887,10 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_dea96b94729e1a017cf0f177",
       "content_enrichment_version": 11,
-      "thumbnail_error": "HTTPError"
+      "thumbnail_error": "HTTPError",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -14542,7 +14614,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "guided-exhibition-tour",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -15009,7 +15084,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "tribute-events",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -15826,7 +15904,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "event_id": "evt_78_20261117",
@@ -17698,7 +17779,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -17918,7 +18002,10 @@
       "image_brief": "צילום פתוח ואטמוספירי של חוף צונן בשעות יום קודרות: שתי דמויות עומדות במרחק מה על החוף או ליד כניסה למלון קטן, לבושות במעילי חורף כבדים. הים האפור והרוח מוצגים ברקע; הטון הכללי קר ו שקט, עם צבעים מתון‑כחלחורים שמדגישים תחושת בדידות וחשיפה רגשית. התמונה תעביר את האווירה הוויזואלית המרכזית של הסרט — חורף, ים, וקשר עדין בין אנשים.",
       "media_status": "ready_for_media",
       "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "other-cinema",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.91
     },
     {
       "event_id": "evt_60_20261124",
@@ -18858,7 +18945,10 @@
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "musical",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.96
     },
     {
       "city": "אשדוד",
@@ -18970,7 +19060,10 @@
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "musical",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.96
     },
     {
       "city": "אשדוד",
@@ -20009,7 +20102,10 @@
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
       "media_bank_id": "media_04f7c1373b347290ea747f48",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "guided-exhibition-tour",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_64_20261207",
@@ -20073,7 +20169,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_3d5f65894f5b806c396ea3ac",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "kids-theatre",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -20375,7 +20474,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "event_id": "evt_85_20261208",
@@ -22040,7 +22142,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_0297724a38ceaf805a1f5e45",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "other-cinema",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.91
     },
     {
       "city": "אשדוד",
@@ -23100,7 +23205,10 @@
       "content_enrichment_retry_after": "2026-10-10",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_7484e9bd8b0a9bb5a6bf0b87",
-      "content_enrichment_version": 11
+      "content_enrichment_version": 11,
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -23195,7 +23303,10 @@
       "thumbnail_strategy": "landscape_cover",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_527f44c60ddb3cd2b02625b6",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "standup",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -23407,7 +23518,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "tribute-shows",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.94
     },
     {
       "city": "אשדוד",
@@ -23996,7 +24110,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -27119,7 +27236,10 @@
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "musical",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.96
     },
     {
       "city": "אשדוד",
@@ -27544,7 +27664,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -28051,7 +28174,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -28250,7 +28376,10 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
-      "thumbnail_error": "UnidentifiedImageError"
+      "thumbnail_error": "UnidentifiedImageError",
+      "subcategory": "dance-performance",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.95
     },
     {
       "city": "אשדוד",
@@ -28358,7 +28487,10 @@
       "category_review_status": "source_rule_reclassified",
       "category_review_confidence": 1,
       "category_reviewed_at": "2026-10-09T09:12:00+03:00",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -29275,7 +29407,10 @@
       "content_enrichment_status": "ready",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -29690,7 +29825,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "relationships",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -31031,7 +31169,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -31304,7 +31445,10 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "subcategory": "tribute-shows",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.94
     },
     {
       "city": "אשדוד",
@@ -31690,7 +31834,10 @@
       "image_strategy": "central_media_bank_reuse",
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card"
+      "thumbnail_source": "central_media_bank_card",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
@@ -32172,7 +32319,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_outing_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-trips",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.9
     },
     {
       "city": "אשדוד",
@@ -32569,7 +32719,10 @@
       "media_bank_id": "media_78e19fcc69b94704798dfead",
       "media_bank_match_type": "artist",
       "media_bank_match_key": "רינתי",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "story-time",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.99
     },
     {
       "city": "אשדוד",
