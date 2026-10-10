@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-10T17:59:57.974306+03:00",
-  "future_stage_count": 223,
+  "generated_at": "2026-10-10T18:04:32.074617+03:00",
+  "future_stage_count": 259,
   "ashdod_source_occurrences": 99,
   "causes": {
     "not_in_collected_sources": 155,
     "different_date": 4,
-    "venue_mismatch_or_already_processed": 43,
-    "source_missing_image": 21
+    "venue_mismatch_or_already_processed": 78,
+    "source_missing_image": 22
   },
   "events": [
     {
@@ -2233,6 +2233,366 @@
       "event_id": "auto_as_92a7794474ff45937b54",
       "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
       "date": "2027-05-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_4ac64a8b96ca94025e",
+      "title": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+      "date": "2026-10-20",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "source_missing_image",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "board_0cb5b32904b1ccc5e6",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "date": "2026-12-31",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 4,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_babfc0a6bd7698d401",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "date": "2027-01-02",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 4,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_56dcd38f5873bfe226",
+      "title": "דודי ירד לגנו",
+      "date": "2026-10-10",
+      "venue": "מוזאון אשדוד לאמנות",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_7c6c3f8f70c5f3e532",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "date": "2026-10-11",
+      "venue": "מעון קן השלום, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 5,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_04acba0d00c9ab4858",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "date": "2026-10-12",
+      "venue": "מעון קן השלום, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 5,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_c747d8ff8d6d45fe70",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "date": "2026-10-13",
+      "venue": "מעון קן השלום, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 5,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_2b42e3c1b2980532d1",
+      "title": "שירי קריוקי בקצב הדרבוקה",
+      "date": "2026-10-13",
+      "venue": "מרכז קהילתי טנה -אולם קטן, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_78190a56527e34eb2e",
+      "title": "המרחב הבטוח לילדים ולהורים",
+      "date": "2026-10-14",
+      "venue": "מעון קן השלום, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 5,
+      "sources_with_date": 2,
+      "sources_with_image": 2
+    },
+    {
+      "event_id": "board_e080d6139de96a5fbd",
+      "title": "מעשה בחמישה בלונים - הצגה ע\"פ רב המכר של מרים רות",
+      "date": "2026-10-14",
+      "venue": "בית יד לבנים, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_9edc477be8111a83e2",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "date": "2026-10-14",
+      "venue": "מרכז קהילתי תקוותנו, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_0aa27c760517104e68",
+      "title": "גברת רביע באשדוד | טיפול זוגי 5:55 | יד לבנים אשדוד",
+      "date": "2026-10-25",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_d1e8bb522f5e1bc6b9",
+      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה | המשכן לאמנויות הבמה אשדוד",
+      "date": "2026-12-07",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_46b5a0ae7dd17154ec",
+      "title": "עידן ניידיץ",
+      "date": "2027-01-28",
+      "venue": "רח' דרך ארץ 8, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_c20e833addc78805e6",
+      "title": "אמירם טובים סטנדאפ",
+      "date": "2026-12-31",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_39d3fe8cb32dbfe001",
+      "title": "קסם של פסטיבל - חנוכה 2026",
+      "date": "2026-12-13",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_83797f0cb5f576e30d",
+      "title": "היפהפייה הנרדמת - תיאטרון הבלט הלאומי של רוסיה בניהולו של ויאצ'סלב גורדייב",
+      "date": "2026-10-20",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_3ceceef409085eae14",
+      "title": "הפיל שרצה להיות הכי-עפ\"י ספרו של פאול קור",
+      "date": "2026-11-10",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_c24917eec988171798",
+      "title": "המכבים - חנוכה 2026",
+      "date": "2026-12-15",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_5f8087b16535b9bcb1",
+      "title": "מופע לאס וגאס 4",
+      "date": "2027-02-27",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_5f65051f2794d9c16d",
+      "title": "אמי הגנרלית - מחזמר",
+      "date": "2027-01-16",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_de634d3e89de6448f4",
+      "title": "הקרקס ממוסקבה על שם ניקולין - מפצח האגוזים - מופע קרקס ענק על הקרח",
+      "date": "2026-12-10",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_5bff9bc66620c3ee0b",
+      "title": "The Beatles legend - קונצרט מחווה חי וגרנדיוזי ללהקת הביטלס האגדית בישראל",
+      "date": "2027-02-21",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_7b6490b13f0ba5233c",
+      "title": "חנות סופגניות קטנה ומצחיקה - חנוכה 2026",
+      "date": "2026-12-02",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_5f7aa92e22b099f5ec",
+      "title": "נישואים גרעיניים - הצגת הבידור שתחסוך לכם טיפול זוגי",
+      "date": "2026-12-19",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_acacf40135f3b93186",
+      "title": "כנר על הגג - מחזמר תיאטרון העברי",
+      "date": "2027-03-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_7a17007abaabd9ed40",
+      "title": "סתיו בכל הצבעים - הקסם שבצבע - חנוכה 2026",
+      "date": "2026-12-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_eb5565fd6a1a7ebe86",
+      "title": "סיפור הנס - חיפזון וזהירון חנוכה 26",
+      "date": "2026-12-07",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_bfcabd0a742dc78b9d",
+      "title": "אליסה בארץ הפלאות – חנוכה 2026",
+      "date": "2026-12-27",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_324d2be5d8f9d77a2c",
+      "title": "רומיאו ויוליה — בלט פלמנקו ברצלונה - Barcelona Flamenco Ballet",
+      "date": "2027-02-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_216467a8058e187c35",
+      "title": "רומן דניסוב - רוק ובארוק",
+      "date": "2026-10-19",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_23e610dd67183c5d25",
+      "title": "Malevo - סנסציית מחול ארגנטינאית Forever gaucho",
+      "date": "2027-03-08",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_2febcc32978ca74440",
+      "title": "סינדרלה - הבלט הישראלי לכל המשפחה",
+      "date": "2026-12-17",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_c18b103a47eccdf252",
+      "title": "רוי בוי - שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "date": "2026-11-29",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_e7d6bc2cdc41973736",
+      "title": "עפרה - מחזמר התיאטרון העברי",
+      "date": "2026-11-14",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "board_b6293b780f7904ad8d",
+      "title": "המשכן לאמנויות הבמה אשדוד הרפתקה בשכונה - חיפזון וזהירון",
+      "date": "2026-10-18",
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "reason": "venue_mismatch_or_already_processed",
       "sources_with_title": 1,

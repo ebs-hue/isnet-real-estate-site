@@ -1,17 +1,21 @@
 {
-  "at": "2026-10-10T17:59:57.832066+03:00",
+  "at": "2026-10-10T18:04:31.820493+03:00",
   "cities": {
     "ashdod": {
       "replaced": 64,
       "ready": 64,
       "unmatched_originals_retained": 164,
-      "original_event_ids_preserved": true
+      "original_event_ids_preserved": true,
+      "new_imported": 36,
+      "invalid_source_rows_skipped": 0
     },
     "rishon-lezion": {
       "replaced": 2,
       "ready": 2,
       "unmatched_originals_retained": 40,
-      "original_event_ids_preserved": true
+      "original_event_ids_preserved": true,
+      "new_imported": 40,
+      "invalid_source_rows_skipped": 0
     }
   },
   "published": true
