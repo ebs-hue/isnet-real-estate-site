@@ -111,3 +111,12 @@ main{max-width:1480px;margin:-24px auto 80px;padding:0 24px}.stats{display:grid;
 .table-wrap th:last-child{z-index:3;background:#f8fafc}
 .table-wrap .edit-link{font-size:12px;padding:7px 8px;white-space:nowrap}
 @media(max-width:1200px){.table-wrap table{min-width:960px}}
+
+/* Balanced column widths total 100% */
+.table-wrap th:nth-child(1){width:17%}.table-wrap th:nth-child(2){width:8%}
+.table-wrap th:nth-child(3){width:4%}.table-wrap th:nth-child(4){width:8%}
+.table-wrap th:nth-child(5){width:8%}.table-wrap th:nth-child(6){width:9%}
+.table-wrap th:nth-child(7){width:11%}.table-wrap th:nth-child(8){width:8%}
+.table-wrap th:nth-child(9){width:6%}.table-wrap th:nth-child(10){width:7%}
+.table-wrap th:nth-child(11){width:6%}.table-wrap th:nth-child(12){width:3%}
+.table-wrap th:nth-child(13){width:5%}
