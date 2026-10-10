@@ -2,6 +2,8 @@ name: Audit existing Ashdod event subcategories
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '35 4 * * *'
   push:
     paths:
       - 'scripts/audit_ashdod_subcategories.py'
@@ -26,11 +28,15 @@ jobs:
           python-version: '3.12'
       - name: Audit all event records; do not publish
         run: python scripts/audit_ashdod_subcategories.py
-      - name: Save internal audit results
+      - name: Apply high-confidence suggestions from this same audit
+        run: python scripts/apply_ashdod_verified_subcategories.py
+      - name: Refresh audit after writeback
+        run: python scripts/audit_ashdod_subcategories.py
+      - name: Save audit and strictly scoped subtype changes
         run: |
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events-preview/admin/data/subcategory-audit-ashdod.json
+          git add events-preview/admin/data/subcategory-audit-ashdod.json events-preview/admin/data/subcategory-apply-report-ashdod.json events-preview/ashdod/data/events.json
           if ! git diff --cached --quiet; then
             git commit -m "Record Ashdod missing subcategories and review suggestions"
             git pull --rebase origin main
