@@ -145,7 +145,13 @@ def infer(event,valid,definitions):
             (r"קריוקי|שירה בציבור|מעגל מתופפים|קונצרט|שירה","senior-music"),
             (r"הצגה|תיאטרון|פסטיבל|מופע","senior-culture"),
         ]
-        for field,evidence_kind in ((title,"title"),(content,"description")):
+        event_format_fields=[
+            (title,"title"),
+            (str(event.get("event_summary") or ""),"description"),
+            (str(event.get("description") or ""),"description"),
+            (str(event.get("short_pitch") or ""),"description"),
+        ]
+        for field,evidence_kind in event_format_fields:
             for pattern,subcategory in format_rules:
                 if subcategory in valid.get(cat,set()) and re.search(pattern,field,re.I):
                     return subcategory,0.97,evidence_kind,False
