@@ -1639,3 +1639,8 @@ main{position:relative;z-index:3}
 .subcategoryOptions button.is-active{background:#165fd4;color:#fff;border-color:#165fd4}
 .subcategoryOptions button:focus-visible{outline:3px solid #ffb74a;outline-offset:2px}
 @media(max-width:600px){.subcategoryNavigation{padding:12px}.subcategoryOptions{gap:7px}.subcategoryOptions button{padding:9px 11px;font-size:13px}}
+
+/* Hierarchical event taxonomy: category and subtype in a single badge. */
+.categoryBadge .cardCategoryStack{display:inline-flex;flex-direction:column;align-items:flex-start;gap:2px;line-height:1.25;text-align:right;vertical-align:middle}
+.categoryBadge .cardCategoryStack strong{font-size:inherit;font-weight:800}
+.categoryBadge .cardCategoryStack small{font-size:11px;font-weight:650;opacity:.82;white-space:normal}
