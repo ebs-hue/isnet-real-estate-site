@@ -43,6 +43,7 @@ def main():
             if e.get("human_manual_override") is True or e.get("description_manual_override") is True or e.get("image_manual_override") is True:
                 kept.append(e);continue
             options=index.get((city,normal(e.get("title")),str(e.get("start_date") or "")),[])
+            options=[x for x in options if same_venue(e.get("venue"), x.get("venue"))]
             if not options:
                 kept.append(e);ignored+=1;continue
             selected=sorted(options,key=lambda x:(bool(good_image(x.get("image_url"))),bool(good_copy(x.get("description"))),RANK.get(x.get("source_id"),0)),reverse=True)[0]
@@ -73,7 +74,7 @@ def main():
     for city in ("ashdod","rishon-lezion"):
         path=ROOT/f"events-preview/{city}/data/events.json"
         data=json.loads(path.read_text(encoding="utf-8"))
-        seen={(normal(e.get("title")),str(e.get("start_date") or ""),str(e.get("start_time") or "")[:5])
+        seen={(normal(e.get("title")),str(e.get("start_date") or ""),str(e.get("start_time") or "")[:5],normal(e.get("venue")))
               for e in data.get("events",[])}
         new=[];skipped=0
         for (source_city,title,date),items in index.items():
@@ -81,7 +82,7 @@ def main():
             for group in [items]:
                 selected=sorted(group,key=lambda x:(bool(good_image(x.get("image_url"))),bool(good_copy(x.get("description"))),RANK.get(x.get("source_id"),0)),reverse=True)[0]
                 tm=str(selected.get("date_time") or "")[11:16]
-                key=(title,date,tm)
+                key=(title,date,tm,normal(selected.get("venue")))
                 if key in seen:continue
                 if not selected.get("title") or not selected.get("venue") or not re.fullmatch(r"\d{2}:\d{2}",tm):
                     skipped+=1;continue
