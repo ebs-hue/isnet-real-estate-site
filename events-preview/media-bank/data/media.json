@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:19:52.319478+00:00",
+  "generated_at": "2026-10-10T10:43:52.592908+00:00",
   "stats": {
     "events_scanned": 502,
     "image_links": 393,
@@ -4316,42 +4316,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_743998acd446ed4756ad12b2",
-      "url": "/events-preview/media-bank/cards/836355fc83c65884b4908edf.webp",
-      "origin_url": "https://img.mako.co.il/2024/09/15/gal15092_autoOrient_w.jpg",
-      "source_url": "https://www.mako.co.il/",
-      "credit": "גל דה פז / mako",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "artist_fallback",
-      "artists": [],
-      "productions": [
-        "שושנה - בכיכובה של גל דה פז"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_63_20261205",
-          "title": "שושנה - בכיכובה של גל דה פז",
-          "date": "2026-12-05"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_74b939937795dc8e2f9696b4",
       "url": "/events-preview/media-bank/cards/2af882446741fc2af16bebf2.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2025/07/new_site_320_450_caspion.jpg",
@@ -4603,6 +4567,45 @@
           "event_id": "htrl_20261215_2030_לילות-ספרד",
           "title": "לילות ספרד",
           "date": "2026-12-15"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_7c37528534b877729854f996",
+      "url": "/events-preview/media-bank/cards/9d51171bc91beef04964b124.webp",
+      "origin_url": "https://images.makore.co.il/events/00703f4228788b35e0a86a7a387d8cd74fb651eba5f37b37bf95bb034a38ad24.webp",
+      "source_url": "makore",
+      "credit": "makore",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "national_board_displayed_image",
+      "artists": [
+        "להקת Side B",
+        "אפרים שמיר (אורח)"
+      ],
+      "productions": [
+        "חגיגה בכוורת"
+      ],
+      "categories": [
+        "music"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_41_20261013",
+          "title": "חגיגה בכוורת",
+          "date": "2026-10-13"
         }
       ],
       "usage_count": 1,
@@ -5160,45 +5163,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_ac936dcd2ec4f2dd3a42d89e",
-      "url": "/events-preview/media-bank/cards/9d51171bc91beef04964b124.webp",
-      "origin_url": "https://tickets.friends-hist.co.il/uploads/thumbs/thmb6ab2570266e0e085633733.jpg",
-      "source_url": "https://tickets.friends-hist.co.il/חגיגה_בכוורת",
-      "credit": "FRIENDS",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_page",
-      "artists": [
-        "להקת Side B",
-        "אפרים שמיר (אורח)"
-      ],
-      "productions": [
-        "חגיגה בכוורת"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_41_20261013",
-          "title": "חגיגה בכוורת",
-          "date": "2026-10-13"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_adf68b10ed368b2ba824ad06",
       "url": "/events-preview/media-bank/cards/d16d764c994e2d9b18d7fa2f.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/01/new_site_320_450_mika_new.jpg",
@@ -5301,6 +5265,42 @@
           "event_id": "htrl_20261113_2100_ויוו-–-VIVO",
           "title": "ויוו – VIVO",
           "date": "2026-11-13"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_b02591d8545a3afe2182b545",
+      "url": "/events-preview/media-bank/cards/836355fc83c65884b4908edf.webp",
+      "origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c3e00fbaaae09aef406114ea12d32ef8.jpg",
+      "source_url": "sababa-events",
+      "credit": "sababa-events",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "national_board_displayed_image",
+      "artists": [],
+      "productions": [
+        "שושנה - בכיכובה של גל דה פז"
+      ],
+      "categories": [
+        "music"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_63_20261205",
+          "title": "שושנה - בכיכובה של גל דה פז",
+          "date": "2026-12-05"
         }
       ],
       "usage_count": 1,
