@@ -1134,7 +1134,10 @@
         "מיקה שלי מחזה מוזיקלי יאיר רוזנבלום",
         "מיקה שלי משי קליינשטיין",
         "מיקה שלי הופעה בימתי"
-      ]
+      ],
+      "subcategory": "drama",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_39_20261008",
@@ -9987,7 +9990,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_1fc25d6f401234b2a405532b",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "musical-show",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "sport_20261028_hapoel_ashdod_m_handball",
@@ -10169,7 +10175,10 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "comedy",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
@@ -12159,7 +12168,10 @@
       "content_enrichment_status": "model_error",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_a0d7180a2b50017bceca6eae",
-      "content_enrichment_retry_after": "2026-10-10"
+      "content_enrichment_retry_after": "2026-10-10",
+      "subcategory": "musical-show",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_55_20261103",
@@ -15508,7 +15520,10 @@
       "image_represents_category": true,
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
-      "thumbnail_strategy": "media_bank_default"
+      "thumbnail_strategy": "media_bank_default",
+      "subcategory": "history",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "event_id": "evt_77_20261116",
@@ -22563,7 +22578,10 @@
       "image_represents_category": true,
       "image_represents_event": false,
       "media_bank_default_key": "seniors_lecture_default",
-      "thumbnail_error": "ValueError"
+      "thumbnail_error": "ValueError",
+      "subcategory": "senior-lectures",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",

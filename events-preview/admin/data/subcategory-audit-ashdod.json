@@ -1,18 +1,18 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
-  "generated_at": "2026-10-10T07:05:55.181971+00:00",
+  "generated_at": "2026-10-10T07:12:32.210851+00:00",
   "total": 321,
   "counts": {
-    "already_valid": 51,
-    "missing_or_invalid": 270,
-    "needs_contextual_review": 135,
-    "staged_candidate": 135,
-    "review_medium_confidence": 65,
-    "ready_for_guarded_application": 37,
-    "conflicting_evidence": 25,
+    "already_valid": 83,
+    "missing_or_invalid": 238,
+    "needs_contextual_review": 157,
+    "needs_source_research": 132,
+    "staged_candidate": 81,
+    "review_medium_confidence": 63,
     "primary_category_review": 17,
-    "primary_category_review_blocked": 8
+    "primary_category_review_blocked": 9,
+    "ready_for_guarded_application": 9
   },
   "events": [
     {
@@ -22,7 +22,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -34,7 +34,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -76,18 +76,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "sport_20261008_hapoel_ashdod_w_handball",
-      "title": "הפועל אשדוד - מכבי פתח תקוה",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "handball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_38_20261008",
       "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
       "category": "music",
@@ -100,30 +88,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_69_20261008",
-      "title": "מיקה שלי",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "drama",
-      "confidence": 0.91,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_39_20261008",
-      "title": "קובי מימון",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_b06a6b1900fbc4ab67f1",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -131,18 +95,6 @@
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
       "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "sport_20261009_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "handball",
-      "confidence": 0.98,
-      "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
@@ -166,7 +118,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -190,7 +142,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -202,7 +154,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -226,46 +178,22 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_94_20261012",
-      "title": "סערה בדלי מים",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "evt_95_20261012",
       "title": "תשאירי פתוח",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": "one-person-show",
-      "confidence": 0.96,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "sport_20261012_maccabi_ashdod_basketball",
-      "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "basketball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2e9b00b27cc3b531c934",
@@ -286,7 +214,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -298,7 +226,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -308,9 +236,9 @@
       "title": "חגיגה בכוורת",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": "concerts",
-      "confidence": 0.96,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -334,7 +262,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -346,7 +274,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -356,9 +284,9 @@
       "title": "הזקן והים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -392,9 +320,9 @@
       "title": "יונתן גת מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.91,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -404,9 +332,9 @@
       "title": "ישראל ארד מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.88,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -416,9 +344,9 @@
       "title": "רועי עלוני מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-workshops",
-      "confidence": 0.91,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -430,22 +358,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_42_20261015",
-      "title": "נועה מנור",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_1671f155d6a206c3de2b",
@@ -455,18 +371,6 @@
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
       "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "sport_20261016_ms_ashdod_football",
-      "title": "מ.ס. אשדוד - מכבי קריית גת",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "football",
-      "confidence": 0.98,
-      "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
@@ -484,40 +388,16 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
-      "title": "מכבי אשדוד - מכבי חדרה",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "volleyball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_33cbee583475a04a7766",
       "title": "דרושה עוזרת",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": "comedy",
-      "confidence": 0.94,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_44_20261017",
-      "title": "אסף יצחקי",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_99d8856352ac024635f0",
@@ -538,7 +418,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "kids",
       "status": "needs_review"
@@ -550,22 +430,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "kids",
       "status": "needs_review"
-    },
-    {
-      "event_id": "sport_20261018_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - בני הרצליה",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "handball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_58c1ea1851030cfaaa11",
@@ -586,7 +454,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -596,9 +464,9 @@
       "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "psychology-growth",
-      "confidence": 0.89,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -610,7 +478,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -628,37 +496,13 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_4b07ba21b782ea02a4ff",
-      "title": "אצבעוני",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_72_20261020",
-      "title": "היפהפיה הנרדמת",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_46_20261020",
       "title": "פבלו רוזנברג",
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -706,7 +550,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -730,7 +574,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -748,25 +592,13 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
-      "title": "מכבי אשדוד - הפועל חוסאם נצרת",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "volleyball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_50_20261024",
       "title": "שלום אסייג",
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -788,24 +620,12 @@
       "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "culture-art",
-      "confidence": 0.89,
-      "evidence_field": "title",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "title_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_51_20261025",
-      "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_e8d879a99bf64df31e3a",
@@ -826,7 +646,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -838,7 +658,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -856,66 +676,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_73_20261028",
-      "title": "חלון לים התיכון",
-      "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
-      "event_id": "sport_20261028_hapoel_ashdod_m_handball",
-      "title": "הפועל אשדוד - א.כ. נס ציונה",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "handball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_799a6dbb87a8759e0be8",
-      "title": "הנמרה",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "comedy",
-      "confidence": 0.94,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "sport_20261028_maccabi_ashdod_w_volleyball",
-      "title": "מכבי אשדוד - מכבי SVA רחובות",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "volleyball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_52_20261028",
-      "title": "אדיר מילר",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_626a62df2f41c6e27d8c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -928,25 +688,13 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "sport_20261029_hapoel_ashdod_w_handball",
-      "title": "הפועל אשדוד - הפועל קרית אונו",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "handball",
-      "confidence": 0.98,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_53_20261029",
       "title": "בן בן ברוך",
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -970,7 +718,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -982,7 +730,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1006,7 +754,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1030,7 +778,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1040,9 +788,9 @@
       "title": "אדם וחותם-הקשר שבין האדם לאדמה",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "psychology-growth",
-      "confidence": 0.89,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1078,7 +826,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1108,18 +856,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_15_20261103",
-      "title": "השועל המוסיקלי כוורת",
-      "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "needs_review"
-    },
-    {
       "event_id": "auto_as_2fda014dc7669a040b46",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -1138,7 +874,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "community",
       "status": "needs_review"
@@ -1150,7 +886,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1174,7 +910,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1221,7 +957,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-workshops",
-      "confidence": 0.91,
+      "confidence": 0.97,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": "community",
@@ -1244,9 +980,9 @@
       "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-digital",
-      "confidence": 0.94,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1271,18 +1007,6 @@
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
       "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_75_20261110",
-      "title": "הפיל שרצה להיות הכי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "suggestion_only"
@@ -1330,7 +1054,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1366,7 +1090,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1400,24 +1124,12 @@
       "title": "כשירות תרבותית וגישור מסורתי- סדרת הרצאות",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "culture-art",
-      "confidence": 0.89,
-      "evidence_field": "title",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "title_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_737e086330f64f28c23c",
-      "title": "נקודת מפגש-בין היסטוריה לסיפור חיים",
-      "category": "lecture",
-      "existing_subcategory": null,
-      "suggested_subcategory": "history",
-      "confidence": 0.88,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "evt_77_20261116",
@@ -1426,7 +1138,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1462,7 +1174,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1480,25 +1192,13 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_9a3cbab50396fa3af0c3",
-      "title": "שלגיה ו-7 הגמדים",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_79_20261118",
       "title": "החולה ההודי",
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1522,7 +1222,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1558,7 +1258,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1570,7 +1270,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1594,7 +1294,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "kids",
       "status": "needs_review"
@@ -1606,7 +1306,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "community",
       "status": "needs_review"
@@ -1618,7 +1318,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1654,7 +1354,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1690,7 +1390,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1726,7 +1426,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1780,25 +1480,13 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_5c82b36c5f0954a3ff95",
-      "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_62_20261203",
       "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1810,7 +1498,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1822,7 +1510,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1834,7 +1522,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1844,9 +1532,9 @@
       "title": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-dance",
-      "confidence": 0.92,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1858,7 +1546,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1870,22 +1558,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_85_20261208",
-      "title": "היפה והחיה",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_61122eedddd876637d0d",
@@ -1906,7 +1582,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1918,7 +1594,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1928,9 +1604,9 @@
       "title": "שקרים קטנים קומדיה משפחתית מופרעת",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "confidence": 0.0,
-      "evidence_field": null,
+      "suggested_subcategory": "comic-show",
+      "confidence": 0.97,
+      "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": "theatre",
       "status": "needs_review"
@@ -1942,7 +1618,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1964,9 +1640,9 @@
       "title": "השועל המוסיקלי החיפושיות",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": "concerts",
-      "confidence": 0.96,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1978,7 +1654,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -1990,7 +1666,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2000,24 +1676,12 @@
       "title": "עץ הבלונים",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_e989e0af031952a41c55",
-      "title": "סינדרלה",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2b8d59b9f755ec9b7983",
@@ -2026,7 +1690,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2038,7 +1702,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2050,7 +1714,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2062,7 +1726,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2074,22 +1738,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_31c2e8aaf2b9b95b1fd8",
-      "title": "בדרך ללב הפועם של רמת גן",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-lectures",
-      "confidence": 0.88,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7f19ce4f79e93abe6dc9",
@@ -2098,7 +1750,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "community",
       "status": "needs_review"
@@ -2110,7 +1762,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2122,7 +1774,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2134,7 +1786,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2146,7 +1798,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2158,7 +1810,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2170,7 +1822,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2182,7 +1834,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2194,7 +1846,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2206,7 +1858,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2218,22 +1870,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_c96d7be6d2804e749d2a",
-      "title": "הכלבלב השובב",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_337345b282aabb14f4ed",
@@ -2242,7 +1882,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2266,7 +1906,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2278,22 +1918,10 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_3356020481453510f22a",
-      "title": "מייפל הכלבלב – יחיד ומיוחד",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_cb3a4659aefbcd0529d0",
@@ -2314,7 +1942,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2338,7 +1966,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2350,7 +1978,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "community",
       "status": "needs_review"
@@ -2361,7 +1989,7 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": "senior-dance",
-      "confidence": 0.92,
+      "confidence": 0.97,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": "community",
@@ -2374,7 +2002,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2386,7 +2014,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2398,7 +2026,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2408,9 +2036,9 @@
       "title": "לחיות, להרגיש, להבין | חרוז תחבולה וצחוק הרצאה מאת תמי כהן",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "culture-art",
-      "confidence": 0.89,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2422,7 +2050,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2434,7 +2062,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2446,7 +2074,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2458,7 +2086,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2470,7 +2098,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2482,7 +2110,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2492,9 +2120,9 @@
       "title": "ספר הג'ונגל מבית רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2506,7 +2134,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2516,9 +2144,9 @@
       "title": "אל עמק הברכה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-digital",
-      "confidence": 0.94,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2530,7 +2158,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2542,7 +2170,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2554,7 +2182,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": "community",
       "status": "needs_review"
@@ -2566,7 +2194,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2590,7 +2218,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2602,7 +2230,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2614,7 +2242,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2636,9 +2264,9 @@
       "title": "מריה מונטוסורי-הקרנת סרט ומפגש שיח",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "parenting-family",
-      "confidence": 0.93,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2650,7 +2278,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2662,7 +2290,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2674,7 +2302,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2686,7 +2314,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2710,7 +2338,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2732,9 +2360,9 @@
       "title": "לחיות , להרגיש , להבין | מותו של איוואן איליץ : מרצה תמי כהן",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "psychology-growth",
-      "confidence": 0.89,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2746,7 +2374,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2756,24 +2384,12 @@
       "title": "ציפי שביט – השירים שגדלנו עליהם",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": "sing-along",
-      "confidence": 0.97,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_5fed753ced32a09d6fd2",
-      "title": "המלך אמר",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "description",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ee8c99e88b2fabffda94",
@@ -2782,7 +2398,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2794,7 +2410,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2818,7 +2434,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2830,7 +2446,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2842,7 +2458,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2854,7 +2470,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2864,9 +2480,9 @@
       "title": "דירה להשכיר- מבית רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2890,7 +2506,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2902,7 +2518,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2912,9 +2528,9 @@
       "title": "חיפה- עוגת חתונה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": "senior-digital",
-      "confidence": 0.94,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2926,7 +2542,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2938,7 +2554,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2950,7 +2566,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2962,7 +2578,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2972,9 +2588,9 @@
       "title": "המדורה של רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -2998,7 +2614,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3010,7 +2626,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3022,7 +2638,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3034,7 +2650,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3046,7 +2662,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3056,9 +2672,9 @@
       "title": "נדל\"ן סיפור אהבה-הקרנת סרט ומפגש שיח",
       "category": "lecture",
       "existing_subcategory": null,
-      "suggested_subcategory": "parenting-family",
-      "confidence": 0.93,
-      "evidence_field": "description",
+      "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": "description_conflict",
       "conflict": true,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3070,7 +2686,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3082,7 +2698,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3106,7 +2722,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3118,7 +2734,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3130,7 +2746,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3142,7 +2758,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3154,7 +2770,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3166,7 +2782,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3178,7 +2794,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3190,7 +2806,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3202,7 +2818,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3214,7 +2830,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3226,7 +2842,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3238,7 +2854,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
@@ -3250,7 +2866,7 @@
       "existing_subcategory": null,
       "suggested_subcategory": null,
       "confidence": 0.0,
-      "evidence_field": null,
+      "evidence_field": "needs_source_research",
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
