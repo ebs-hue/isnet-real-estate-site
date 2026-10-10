@@ -116,13 +116,15 @@ def infer(event,valid):
     title=str(event.get("title") or "")
     content=" ".join(str(event.get(k) or "") for k in ("short_pitch","event_summary","description","long_description","series_description"))
     # Title evidence outranks incidental words in description.
-    for field,weight in ((title,1.0),(content,0.84)):
-        matches=[(sub,round(conf*weight,2),pattern) for pattern,sub,conf in RULES.get(cat,[])
+    # Confidence describes specificity, not which field supplied the evidence.
+    # A 0.84 multiplier made even explicit description matches fail a 0.90 write gate.
+    for field,evidence_kind in ((title,"title"),(content,"description")):
+        matches=[(sub,conf,pattern) for pattern,sub,conf in RULES.get(cat,[])
                  if sub in valid.get(cat,set()) and re.search(pattern,field,re.I)]
         if matches:
             # Conflicting candidates require a human review, except the more specific title match.
             matches.sort(key=lambda x:x[1],reverse=True)
-            return (*matches[0][:2],"title" if weight==1 else "description",len({m[0] for m in matches})>1)
+            return (*matches[0][:2],evidence_kind,len({m[0] for m in matches})>1)
     return None,0.0,None,False
 
 def run():
