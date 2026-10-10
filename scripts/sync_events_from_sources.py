@@ -1080,3 +1080,4 @@ def main():
 if __name__ == "__main__":
     sys.exit(main())
 # Requested source refresh 2026-10-10
+# Re-run source intake after corrected Ofek test expectation (2026-10-10)
