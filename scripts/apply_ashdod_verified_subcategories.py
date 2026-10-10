@@ -3,6 +3,7 @@
 Do not modify titles, descriptions, media, dates or publication statuses.
 """
 import json
+import re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/"events-preview/ashdod/data/events.json"
@@ -19,6 +20,29 @@ def main():
     records={e["event_id"]:e for e in raw["events"]}
     changed=[]
     skipped=[]
+    corrected=[]
+    # Safety repair: a volleyball/handball/football/basketball event must never be water-sports.
+    for event in raw["events"]:
+        if event.get("subcategory_manual_override") is True:
+            continue
+        title=str(event.get("title") or "")
+        if event.get("category")=="sport" and event.get("subcategory")=="water-sports":
+            sport=next(((term,sub) for term,sub in [
+                ("כדורעף","volleyball"),("כדוריד","handball"),
+                ("כדורסל","basketball"),("כדורגל","football")]
+                if term in title),None)
+            if sport:
+                event["subcategory"]=sport[1]
+                event["subcategory_review_status"]="corrected_from_explicit_sport_title"
+                corrected.append({"event_id":event.get("event_id"),"subcategory":sport[1]})
+    # Guard against ambiguous assignments based on incidental words in descriptions.
+    def semantic_mismatch(event,subcategory):
+        title=str(event.get("title") or "")
+        if subcategory=="water-sports" and any(k in title for k in ("כדורעף","כדוריד","כדורסל","כדורגל")):
+            return True
+        if subcategory=="kids-theatre" and "שעת סיפור" in title:
+            return True
+        return False
     for suggestion in audit.get("events",[]):
         eid=suggestion.get("event_id")
         event=records.get(eid)
@@ -29,7 +53,8 @@ def main():
             or event.get("subcategory_manual_override") is True
             or event.get("subcategory") not in (None,"")
             or event.get("category")!=suggestion.get("category")
-            or sub not in valid.get(event.get("category"),set())):
+            or sub not in valid.get(event.get("category"),set())
+            or semantic_mismatch(event,sub)):
             skipped.append(eid)
             continue
         event["subcategory"]=sub
@@ -40,7 +65,7 @@ def main():
     assert len(records)==len(raw["events"])
     assert all(records[x["event_id"]]["subcategory"]==x["subcategory"] for x in changed)
     FEED.write_text(json.dumps(raw,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    OUT.write_text(json.dumps({"count_updated":len(changed),"count_skipped":len(skipped),"updated":changed,
+    OUT.write_text(json.dumps({"count_updated":len(changed),"count_corrected":len(corrected),"count_skipped":len(skipped),"updated":changed,"corrected":corrected,
       "cms_readback_verified":False,"public_site_readback_verified":False},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("Updated only subcategory fields:",len(changed),"Skipped:",len(skipped))
 if __name__=="__main__":
