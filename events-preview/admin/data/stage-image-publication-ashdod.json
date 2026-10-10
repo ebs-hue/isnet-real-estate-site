@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:19:17.900888+03:00",
+  "generated_at": "2026-10-10T13:28:25.300029+03:00",
   "publication_enabled": true,
   "feed_modified": true,
   "matched_publication_candidates": 2,
@@ -7,22 +7,22 @@
   "published": 2,
   "blocked": {
     "no_exact_title_or_venue_image": 136,
-    "already_matching_production_image": 33,
-    "conflicting_image_sources": 2,
+    "already_matching_production_image": 35,
+    "different_board_images_source_priority_applied": 2,
     "production_artwork_reuse_matches": 2
   },
   "images": [
     {
-      "event_id": "auto_as_8ac6ea288cb265605b77",
-      "title": "מיסייה אלבר - הפקת מקור",
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
       "source": "makore",
-      "image_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image"
+      "image_url": "https://images.makore.co.il/events/00703f4228788b35e0a86a7a387d8cd74fb651eba5f37b37bf95bb034a38ad24.webp"
     },
     {
-      "event_id": "auto_as_36c82ca8b0929268aff1",
-      "title": "טריפונס",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp"
+      "event_id": "evt_63_20261205",
+      "title": "שושנה - בכיכובה של גל דה פז",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c3e00fbaaae09aef406114ea12d32ef8.jpg"
     }
   ]
 }
