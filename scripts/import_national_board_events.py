@@ -113,8 +113,25 @@ def main():
     for slug,label in CITIES.items():
         path=ROOT/"events-preview"/slug/"data/events.json"
         data=json.loads(path.read_text(encoding="utf-8"));events=data["events"]
+        cleanup={"reclassified_existing":0,"removed_out_of_scope_existing":0}
+        retained=[]
+        for event in events:
+            flags=set(event.get("quality_flags") or [])
+            if "national_board_import" in flags and event.get("category") not in STAGE_CATEGORIES:
+                category=classify_stage_category(event.get("title"),event.get("description"))
+                if category:
+                    event["category"]=category
+                    flags.add("category_scope_verified")
+                    event["quality_flags"]=sorted(flags)
+                    cleanup["reclassified_existing"]+=1
+                else:
+                    cleanup["removed_out_of_scope_existing"]+=1
+                    continue
+            retained.append(event)
+        if cleanup["reclassified_existing"] or cleanup["removed_out_of_scope_existing"]:
+            events[:]=retained
         seen={(e.get("title"),e.get("start_date"),e.get("start_time"),e.get("venue")) for e in events}
-        counts={"added":0,"skipped_out_of_scope":0,"by_category":{}}
+        counts={"added":0,"skipped_out_of_scope":0,"reclassified_existing":cleanup["reclassified_existing"],"removed_out_of_scope_existing":cleanup["removed_out_of_scope_existing"],"by_category":{}}
         candidates=[{"city_hint":slug,"source_url":"https://www.mevalim.co.il/"+("ashdod" if slug=="ashdod" else "rishon-lezion")+"/","source_id":"mevalim"}]
         candidates += [c for c in discovery.get("candidates",[]) if c.get("source_id")!="mevalim"]
         for candidate in candidates:
@@ -170,7 +187,7 @@ def main():
                 counts["by_category"][category]=counts["by_category"].get(category,0)+1
                 source_report["added"]+=1
                 source_report["by_category"][category]=source_report["by_category"].get(category,0)+1
-        if counts["added"]:
+        if counts["added"] or cleanup["reclassified_existing"] or cleanup["removed_out_of_scope_existing"]:
             events.sort(key=lambda e:(e.get("start_date") or "",e.get("start_time") or "",e.get("title") or ""))
             data["generated_at"]=report["generated_at"]
             data.setdefault("stats",{})["events"]=len(events)
