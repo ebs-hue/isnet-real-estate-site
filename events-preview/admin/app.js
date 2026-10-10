@@ -232,7 +232,8 @@ function render(){
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
-      '<td>'+esc(importedLabel(e))+'</td>'+\n      '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
+      '<td>'+esc(importedLabel(e))+'</td>'+
+      '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
       '<td>'+viewsCell(e)+'</td>'+
       '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
       '<td><a class="edit-link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
