@@ -14,6 +14,14 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(report["missing"][0]["action"],"collect_or_verify_media")
         self.assertNotIn("image_url",e)
 
+    def test_generic_illustration_is_replacement_candidate(self):
+        e={"event_id":"drawing","title":"תערוכות אמנות","start_date":"2026-12-01",
+           "status":"active","category":"exhibition","image_url":"assets/defaults/exhibition.svg",
+           "image_verified":True,"image_publishable":True}
+        report=audit_city([e],[],today="2026-10-10")
+        self.assertEqual(report["counts"]["generic_placeholders_to_replace"],1)
+        self.assertEqual(report["missing"][0]["image_problem"],"generic_placeholder")
+
     def test_past_event_ignored(self):
         e={"event_id":"a","start_date":"2026-01-01","status":"active"}
         self.assertEqual(audit_city([e],[],today="2026-10-10")["counts"],{})
