@@ -90,7 +90,43 @@ def detail_links(soup,base,host):
         if url not in links:links.append(url)
         if len(links)>=75:break
     return links
+
+def mevalim_ticket_extract(soup,page):
+    if (urlparse(page).hostname or "")!="tickets.mevalim.co.il":return []
+    heading=soup.find("h1")
+    title=clean(heading.get_text(" ",strip=True)) if heading else ""
+    if not title or len(title)>140:return []
+    raw=soup.get_text(" ",strip=True)
+    hit=re.search(r"(\\d{1,2}:\\d{2})\\s*[·•|]\\s*(?:יום\\s*)?[^·•|]{0,15}[·•|]\\s*(\\d{1,2}\\.\\d{1,2}\\.20\\d{2})\\s*[·•|]\\s*([^·•|]{4,100})",raw)
+    if not hit:return []
+    clock,day,venue=hit.groups()
+    city=next((k for k,names in CITIES.items() if any(n in venue for n in names)),None)
+    if not city:return []
+    d,m,y=day.split(".")
+    details=[]
+    about=soup.find(string=re.compile(r"אודות האירוע"))
+    if about:
+        block=about.find_parent(["section","article","div"])
+        if block:details.append(clean(block.get_text(" ",strip=True))[:5000])
+    img=txtmeta(soup,"og:image") or txtmeta(soup,"twitter:image")
+    if not img:
+        candidates=[i.get("src") or i.get("data-src") for i in soup.select("img[src],img[data-src]") if i.get("src") or i.get("data-src")]
+        img=next((x for x in candidates if "youtube" not in x and "logo" not in x and not x.startswith("data:")),None)
+    videos=[]
+    for a in soup.select("iframe[src],a[href],img[src]"):
+        v=a.get("src") or a.get("href") or ""
+        m=re.search(r"(?:img\\.youtube\\.com/vi/|youtube\\.com/embed/|youtu\\.be/)([a-zA-Z0-9_-]{11})",v)
+        if m:videos.append("https://www.youtube.com/watch?v="+m.group(1))
+    return [{"title":title,"city":city,"venue":venue,"date_time":f"{y}-{m.zfill(2)}-{d.zfill(2)}T{clock}:00",
+             "end_time":None,"description":details[0] if details else txtmeta(soup,"description"),
+             "image_url":urljoin(page,img) if img else None,"video_url":videos[0] if videos else None,
+             "tickets_url":page,"category":None,"subcategory":None,"source_id":"mevalim","source_url":page,
+             "extraction_method":"ticket_detail_page","publication_status":"candidate_review",
+             "image_provenance":"external_ticket_listing_not_license"}]
+
 def detail_extract(soup,source,page):
+    if source=="mevalim" and (urlparse(page).hostname or "")=="tickets.mevalim.co.il":
+        return mevalim_ticket_extract(soup,page)
     rows=[]
     for obj in collect_jsonld(soup):
         event=event_from_jsonld(obj,source,page)
