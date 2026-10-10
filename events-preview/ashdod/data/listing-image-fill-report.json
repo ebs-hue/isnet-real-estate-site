@@ -1,11 +1,10 @@
 {
-  "generated_at": "2026-10-10T11:55:25Z",
+  "generated_at": "2026-10-10T11:57:48Z",
   "total_events": 253,
   "verified_images": 253,
   "still_missing": 0,
   "stats": {
-    "same_title_reuse": 1,
-    "super_editor_fallback": 3
+    "same_title_reuse": 1
   },
   "revoked_assets": [],
   "newly_filled": [
@@ -15,27 +14,6 @@
       "image": "/events-preview/media-bank/defaults/seniors/seniors-social.webp",
       "source": "ISNET central media bank",
       "score": "reuse"
-    },
-    {
-      "event_id": "auto_as_59d21b15c55e0e5716a8",
-      "title": "סדנא \"אני הרבה יותר ממה שחשבתי\" - יעודי לגדולות מהחיים",
-      "image": "/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_d9054166e8decd8ba99d",
-      "title": "סדנא \"יצור תליון מסריגה\" יעודי לגדולות מהחיים",
-      "image": "/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_2eb56d2075f1de010bd3",
-      "title": "סדנא \"עוף החול \" (דקה לנשום, לצמוח מהכאב ומהקושי ) -יעודי לגדולות מהחיים",
-      "image": "/events-preview/media-bank/defaults/seniors/seniors-reading.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
     }
   ],
   "missing": []
