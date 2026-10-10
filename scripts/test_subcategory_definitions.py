@@ -19,6 +19,7 @@ valid={g["id"]:{s["id"] for s in g.get("subcategories",[])} for g in taxonomy["p
 samples=[
     ({"category":"seniors","title":"הזקן והים","description":"סיור חיצוני מודרך של קתדרת אופק"}, "senior-trips"),
     ({"category":"seniors","title":"פאנל עולם של אסתטיקה","description":"פאנל מקצועי על אסתטיקה"}, "senior-lectures"),
+    ({"category":"seniors","title":"יונתן גת מונארט 2026","event_summary":"הרצאה של יונתן גת","long_description":"מנחה סדנאות והרצאות"}, "senior-lectures"),
     ({"category":"seniors","title":"עיסת נייר דלעת","description":"סדנת יצירה"}, "senior-workshops"),
     ({"category":"seniors","title":"ספורט על כיסא","description":"שיעור תנועה וכוח"}, "senior-sport"),
     ({"category":"seniors","title":"כח המילים והשפעותיהם","description":"שיחה על השפעתן של מילים"}, "senior-lectures"),
