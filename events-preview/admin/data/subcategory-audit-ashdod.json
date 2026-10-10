@@ -1,38 +1,20 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
+  "generated_at": "2026-10-10T06:49:59.231610+00:00",
   "total": 321,
   "counts": {
-    "missing_or_invalid": 321,
-    "staged_candidate": 186,
+    "already_valid": 51,
+    "missing_or_invalid": 270,
     "needs_contextual_review": 135,
-    "primary_category_review": 17
+    "staged_candidate": 135,
+    "review_medium_confidence": 61,
+    "conflicting_evidence": 35,
+    "review_low_confidence": 31,
+    "primary_category_review": 17,
+    "primary_category_review_blocked": 8
   },
   "events": [
-    {
-      "event_id": "evt_68_20261004",
-      "title": "הדרדסים ההצגה - Live על הבמה",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_35_20261005",
-      "title": "הגל שלי - קבוצת גלישה גברים",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "water-sports",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
     {
       "event_id": "auto_as_21b74de87d9353a296d9",
       "title": "הכרמל הר של אומנות",
@@ -46,18 +28,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_36_20261006",
-      "title": "בין הגלים - קבוצת הורה ילד",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "water-sports",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_92_20261006",
       "title": "הענק הכי גנדרן בעולם",
       "category": "kids",
@@ -68,30 +38,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_93_20261006",
-      "title": "מועדון הקוראות הרומנטיות - מועדון קריאה שכולו אהבה",
-      "category": "community",
-      "existing_subcategory": null,
-      "suggested_subcategory": "reading-clubs",
-      "confidence": 0.95,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_37_20261006",
-      "title": "הרצאה סיבוכי גמילה מחיתולים",
-      "category": "lecture",
-      "existing_subcategory": null,
-      "suggested_subcategory": "parenting-family",
-      "confidence": 0.93,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ea75f55954e1835c2191",
@@ -334,18 +280,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_ffc63b0b4486bb31a455",
-      "title": "שירי קריוקי בקצב הדרבוקה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-music",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_f1dc81732b11d4fd595d",
       "title": "ניגון של סתיו | שרה זילברברג",
       "category": "music",
@@ -370,18 +304,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
-      "title": "מכבי אשדוד - הפועל אריות ירושלים",
-      "category": "sport",
-      "existing_subcategory": null,
-      "suggested_subcategory": "water-sports",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_41_20261013",
       "title": "חגיגה בכוורת",
       "category": "music",
@@ -400,30 +322,6 @@
       "existing_subcategory": null,
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_6_20261014",
-      "title": "עיצוב אורח חיים בריא",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-health",
-      "confidence": 0.91,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_06f3de539c2d3e22b2ff",
-      "title": "בריאות מיטבית-הסיבות והמניעות לחולי בתקופה המודרנית",
-      "category": "lecture",
-      "existing_subcategory": null,
-      "suggested_subcategory": "health-medicine",
-      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -526,18 +424,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_013751f4bb1f253a4a2f",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "category": "exhibition",
-      "existing_subcategory": null,
-      "suggested_subcategory": "guided-exhibition-tour",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_8_20261015",
       "title": "דיסקו - כשהקצב משחרר את הגוף",
       "category": "music",
@@ -548,18 +434,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_43_20261015",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "evt_42_20261015",
@@ -658,18 +532,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_a78d65b3f4ac3995294c",
-      "title": "מיסייה אלבר - הפקת מקור",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "original-production",
-      "confidence": 0.94,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
       "title": "איילת מטיילת- הצגה מבית רינתי",
       "category": "theatre",
@@ -692,18 +554,6 @@
       "conflict": false,
       "primary_category_review_proposed": "kids",
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_45_20261018",
-      "title": "הרפתקה בשכונה - חיפזון וזהירון",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261018_hapoel_ashdod_m_handball",
@@ -742,18 +592,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_ab616d899c714d6fd180",
-      "title": "המספרה של ג'אקו - הפקת מקור",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "original-production",
-      "confidence": 0.94,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_c0a799e7b9e5b13ef6b9",
       "title": "מוצאים עוגן בתוך הסערה | לנשים בלבד",
       "category": "lecture",
@@ -776,18 +614,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_a24513b4e4cf7e5bbc06",
-      "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2e18ed2709b02baa3532",
@@ -826,18 +652,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_61d612476128de680031",
-      "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_46_20261020",
       "title": "פבלו רוזנברג",
       "category": "music",
@@ -862,36 +676,12 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_8ac6ea288cb265605b77",
-      "title": "מיסייה אלבר - הפקת מקור",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "original-production",
-      "confidence": 0.94,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_91024d3eccf55a0b44ad",
       "title": "יום העליה בסימן 70 לאשדוד",
       "category": "community",
       "existing_subcategory": null,
       "suggested_subcategory": "ceremonies",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_ec0e8e6df83ab0a29247",
-      "title": "ערב נשים עוצמתי | לאורה של רחל אמנו",
-      "category": "community",
-      "existing_subcategory": null,
-      "suggested_subcategory": "women-events",
-      "confidence": 0.95,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -910,18 +700,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_47_20261022",
-      "title": "מוטי אהרונוביץ במופע סטנדאפ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_48_20261022",
       "title": "מני עוזרי",
       "category": "standup",
@@ -932,18 +710,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_10_20261022",
-      "title": "מופע סטנד אפ - שלומי קוריאט",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_1e5059b53915f4c7fe21",
@@ -1330,18 +1096,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_a84790398264ca067403",
-      "title": "יריד בריאות לאזרחים וותיקים",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-health",
-      "confidence": 0.91,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_180bd1ccf144be5544e3",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -1364,18 +1118,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_55_20261103",
-      "title": "פאטמה הסטנדאפיסטית",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2fda014dc7669a040b46",
@@ -1426,18 +1168,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_18_20261105",
-      "title": "יום יהדות הודו 2026",
-      "category": "community",
-      "existing_subcategory": null,
-      "suggested_subcategory": "communities-heritage",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "evt_56_20261105",
       "title": "זוגיות AI",
       "category": "theatre",
@@ -1448,18 +1178,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "evt_57_20261105",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_243fa63e0656fad7477c",
@@ -1630,18 +1348,6 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "evt_98_20261113",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "category": "exhibition",
-      "existing_subcategory": null,
-      "suggested_subcategory": "guided-exhibition-tour",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_b6539384c62acf076d94",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
@@ -1672,18 +1378,6 @@
       "existing_subcategory": null,
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_ef7ca0af669f34aae871",
-      "title": "צוות מצדיעים לצה\"ל ולכוחות הביטחון",
-      "category": "community",
-      "existing_subcategory": null,
-      "suggested_subcategory": "tribute-events",
-      "confidence": 0.9,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -1756,18 +1450,6 @@
       "existing_subcategory": null,
       "suggested_subcategory": "culture-art",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_99_20261117",
-      "title": "סיפור של חורף | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -1954,36 +1636,12 @@
       "status": "suggestion_only"
     },
     {
-      "event_id": "auto_as_7baf69bd3cb635730590",
-      "title": "סיור טעימות ברמלה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_ed5e50ba93af66a6e37b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_23_20261124",
-      "title": "חורף קוריאני - הקרנת סרט ומפגש שיח",
-      "category": "cinema",
-      "existing_subcategory": null,
-      "suggested_subcategory": "other-cinema",
-      "confidence": 0.91,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -2080,30 +1738,6 @@
       "existing_subcategory": null,
       "suggested_subcategory": "museums-galleries",
       "confidence": 0.89,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_ccab329e9dce87dcb028",
-      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "musical",
-      "confidence": 0.96,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_208cc1d709030d29da9a",
-      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "musical",
-      "confidence": 0.96,
       "evidence_field": "title",
       "conflict": false,
       "primary_category_review_proposed": null,
@@ -2218,30 +1852,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_6edc79b3206c44047ae2",
-      "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
-      "category": "exhibition",
-      "existing_subcategory": null,
-      "suggested_subcategory": "guided-exhibition-tour",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "evt_64_20261207",
-      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
-      "confidence": 0.95,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_0796e91ed6cd6d37f9ca",
       "title": "סיפור הנס",
       "category": "kids",
@@ -2264,18 +1874,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_b6b558da8a85b64e0cea",
-      "title": "סיפור חנוכה | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "evt_85_20261208",
@@ -2458,18 +2056,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_32_20261222",
-      "title": "אהבה - הקרנת סרט ומפגש שיח",
-      "category": "cinema",
-      "existing_subcategory": null,
-      "suggested_subcategory": "other-cinema",
-      "confidence": 0.91,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_2526e830eef4d3d6705d",
       "title": "אליסה בארץ הפלאות",
       "category": "kids",
@@ -2566,30 +2152,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
-      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
-      "category": "standup",
-      "existing_subcategory": null,
-      "suggested_subcategory": "standup",
-      "confidence": 0.97,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_6d08db65cc9adf0eb6af",
       "title": "אור לגויים",
       "category": "theatre",
@@ -2600,18 +2162,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_d0315a26e607910aebb5",
-      "title": "סידני מחווה לביג'יז",
-      "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": "tribute-shows",
-      "confidence": 0.94,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_3965330ca84880c5bf7a",
@@ -2672,18 +2222,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_8adf0f4c675e74162830",
-      "title": "פיטר פן | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_c96d7be6d2804e749d2a",
@@ -3022,18 +2560,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_5b3592e6f2e52fe56817",
-      "title": "המחזמר ואני",
-      "category": "theatre",
-      "existing_subcategory": null,
-      "suggested_subcategory": "musical",
-      "confidence": 0.96,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_ecf2560c70689efc3475",
       "title": "סופיה פאפאזוגלו",
       "category": "music",
@@ -3068,18 +2594,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_96552a33f52aca95896d",
-      "title": "סיור טעימות במחנה יהודה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_8cfa7c9ae155b54ae894",
@@ -3130,18 +2644,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_93de6870be8f46280fc1",
-      "title": "דירה להשכיר | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
       "title": "כנר על הגג",
       "category": "theatre",
@@ -3152,30 +2654,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_35b62174438a54f14368",
-      "title": "MALEVO",
-      "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": "dance-performance",
-      "confidence": 0.95,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
-      "event_id": "auto_as_6d281693df39376eb4d3",
-      "title": "סיור פריחה דבש ויין בגדרה והסביבה",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2477b1b0746b9c7835a2",
@@ -3274,18 +2752,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_25368623f148530af959",
-      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_1d3394c08366170bd945",
       "title": "ציפי שביט – השירים שגדלנו עליהם",
       "category": "music",
@@ -3320,18 +2786,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_b4d493b24cfeda03196b",
-      "title": "זוגיות AI",
-      "category": "lecture",
-      "existing_subcategory": null,
-      "suggested_subcategory": "relationships",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_6c4a2a4051f27539ead9",
@@ -3478,18 +2932,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_aedfda463657de5ed2bf",
-      "title": "מיץ פטל | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_3fa16619b6054a877bff",
       "title": "חני נחמיאס – קלסיקה ישראלית",
       "category": "music",
@@ -3512,18 +2954,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_95f92aa282a0c631a783",
-      "title": "מחווה ליורגוס דאלארס",
-      "category": "music",
-      "existing_subcategory": null,
-      "suggested_subcategory": "tribute-shows",
-      "confidence": 0.94,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f5a1dda55f5642c32383",
@@ -3560,18 +2990,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_4ed466d9ac4036a41389",
-      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_17fa7f825b24639c734c",
@@ -3622,18 +3040,6 @@
       "status": "needs_review"
     },
     {
-      "event_id": "auto_as_bf7028aa1130feeeda5e",
-      "title": "סיור טעימות ואתרים באשדוד",
-      "category": "seniors",
-      "existing_subcategory": null,
-      "suggested_subcategory": "senior-trips",
-      "confidence": 0.9,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
-    },
-    {
       "event_id": "auto_as_ebf2feea981459bed3cf",
       "title": "חגיגה ברזילאית",
       "category": "music",
@@ -3668,18 +3074,6 @@
       "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
-    },
-    {
-      "event_id": "auto_as_874fbf8765c2eddd641d",
-      "title": "איילת מטיילת | שעת סיפור עם רינתי",
-      "category": "kids",
-      "existing_subcategory": null,
-      "suggested_subcategory": "story-time",
-      "confidence": 0.99,
-      "evidence_field": "title",
-      "conflict": false,
-      "primary_category_review_proposed": null,
-      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_42692e3659956eb6defb",
