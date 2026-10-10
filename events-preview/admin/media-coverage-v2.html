@@ -39,10 +39,10 @@ function render(){
 const city=$("city").value;const d=report?.cities?.[city];
 if(!d){$("summary").textContent="אין נתונים לעיר זו";$("rows").replaceChildren();return}
 const counts=d.counts||{};
-const labels=[["future_events","אירועים עתידיים"],["already_has_source_image","תמונות מאושרות"],["missing_publishable_image","ללא תמונה מאושרת"],["eligible_catalog_suggestion","הצעות מהבנק"],["no_eligible_catalog_asset","דורשים איתור תמונה"]];
+const labels=[["future_events","אירועים עתידיים"],["already_has_source_image","תמונות מאושרות"],["missing_publishable_image","ללא תמונה מאושרת"],["generic_placeholders_to_replace","אילוסטרציות להחלפה"],["eligible_catalog_suggestion","הצעות מהבנק"],["no_eligible_catalog_asset","דורשים איתור תמונה"]];
 $("summary").innerHTML=labels.map(([key,label])=>'<div class="stat"><strong>'+Number(counts[key]||0).toLocaleString("he-IL")+'</strong>'+esc(label)+'</div>').join("");
 const rows=d.missing||[];$("count").textContent=rows.length+" אירועים ללא תמונה מאושרת";
-$("rows").innerHTML=rows.slice(0,1000).map(e=>'<tr><td>'+esc(e.title)+'</td><td>'+esc(e.start_date)+'</td><td>'+esc(e.category)+'</td><td>'+esc(e.action==="review_before_publication"?"בדיקת תמונה קיימת":"איתור תמונה מתאימה")+'</td><td><a href="edit.html?city='+encodeURIComponent(city)+'&id='+encodeURIComponent(e.event_id||"")+'">עריכת האירוע</a></td></tr>').join("");
+$("rows").innerHTML=rows.slice(0,1000).map(e=>'<tr><td>'+esc(e.title)+'</td><td>'+esc(e.start_date)+'</td><td>'+esc(e.category)+'</td><td>'+esc(e.action==="review_before_publication"?"בדיקת תמונה קיימת":(e.image_problem==="generic_placeholder"?"החלפת אילוסטרציה":"איתור תמונה מתאימה"))+'</td><td><a href="edit.html?city='+encodeURIComponent(city)+'&id='+encodeURIComponent(e.event_id||"")+'">עריכת האירוע</a></td></tr>').join("");
 }
 $("city").addEventListener("change",render);
 try{
