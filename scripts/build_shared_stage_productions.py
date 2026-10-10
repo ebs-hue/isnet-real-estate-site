@@ -16,7 +16,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"events-preview/admin/data"
 OUTPUT=DATA/"stage-productions-candidates.json"
 ALLOWED={"music","standup","kids","theatre"}
-GENERIC={"אירועים באשדוד","אירועים בראשון לציון","כל האירועים","לוח הופעות","לרכישת כרטיסים","פרטים נוספים"}
+GENERIC={"אירועים באשדוד","אירועים בראשון לציון","כל האירועים","לוח הופעות","לרכישת כרטיסים","פרטים נוספים","sababa.events","אירועים","הופעות"}
 
 def load(name):
     path=DATA/name
@@ -28,7 +28,8 @@ def normalize(title):
 
 def valid_title(title):
     t=normalize(title)
-    return 6<=len(t)<=120 and t not in {normalize(x) for x in GENERIC} and len(t.split())<=15
+    return (6<=len(t)<=120 and t not in {normalize(x) for x in GENERIC}
+            and len(t.split())<=15 and not re.search(r"\\b(?:יום ראשון|יום שני|יום שלישי|יום רביעי|יום חמישי|יום שישי|יום שבת)\\b",t))
 
 def main():
     sources=load("event-source-priority.json")["sources"]
