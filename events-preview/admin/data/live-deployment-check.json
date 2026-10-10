@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-10T15:17:58.643290+00:00",
+  "checked_at": "2026-10-10T15:35:58.574270+00:00",
   "live": {
     "admin_html": {
       "http_status": 200,
@@ -12,7 +12,7 @@
         "Cache-Control": "max-age=600",
         "Age": "0",
         "Via": "1.1 varnish",
-        "X-Cache": "MISS",
+        "X-Cache": "HIT",
         "CF-Cache-Status": "DYNAMIC"
       }
     },
@@ -28,7 +28,7 @@
         "Age": "0",
         "Via": "1.1 varnish",
         "X-Cache": "MISS",
-        "CF-Cache-Status": "MISS"
+        "CF-Cache-Status": "REVALIDATED"
       }
     },
     "github_pages_html": {
@@ -40,7 +40,7 @@
       "headers": {
         "Server": "cloudflare",
         "Cache-Control": "max-age=600",
-        "Age": "1",
+        "Age": "0",
         "Via": "1.1 varnish",
         "X-Cache": "HIT",
         "CF-Cache-Status": "DYNAMIC"
@@ -59,6 +59,51 @@
         "Via": "1.1 varnish",
         "X-Cache": "MISS",
         "CF-Cache-Status": "HIT"
+      }
+    },
+    "ashdod_app_js": {
+      "http_status": 200,
+      "bytes": 72333,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/ashdod/app.js",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=14400",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "MISS"
+      }
+    },
+    "ashdod_fallbacks": {
+      "http_status": 200,
+      "bytes": 1193,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/ashdod/category-fallbacks.json",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=600",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "DYNAMIC"
+      }
+    },
+    "ashdod_lecture_image": {
+      "http_status": 200,
+      "bytes": 967,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/ashdod/assets/defaults/lecture.svg",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=14400",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "MISS"
       }
     }
   },
@@ -81,5 +126,6 @@
     ]
   },
   "latest_admin_deployed": false,
+  "ashdod_fallback_code_deployed": true,
   "github_pages_updated": false
 }
