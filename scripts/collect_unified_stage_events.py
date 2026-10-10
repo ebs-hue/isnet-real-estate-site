@@ -203,6 +203,17 @@ def main():
                             detail.raise_for_status()
                             if not domain(detail.url,source["domain"]):continue
                             detail_soup=BeautifulSoup(detail.text,"html.parser")
+                            # Recover photo displayed on the linked Mevalim
+                            # production page for the exact ticket URL.
+                            if source["id"]=="mevalim":
+                                photo=txtmeta(detail_soup,"og:image") or txtmeta(detail_soup,"twitter:image")
+                                if photo:
+                                    photo=urljoin(detail.url,photo)
+                                    if not any(z in photo.lower() for z in ("big_star.png","logo","placeholder","default-image")):
+                                        for existing in records:
+                                            if existing.get("source_id")=="mevalim" and existing.get("tickets_url")==url and not existing.get("image_url"):
+                                                existing["image_url"]=photo
+                                                existing["image_from_ticket_page"]=detail.url
                             for event in detail_extract(detail_soup,source["id"],detail.url):
                                 if event.get("city") not in CITIES:continue
                                 key=(source["id"],event["title"],event["city"],event["date_time"])
