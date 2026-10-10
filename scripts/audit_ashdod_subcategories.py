@@ -138,7 +138,7 @@ def infer(event,valid,definitions):
     # a guided tour about history remains a tour, and a panel remains a lecture.
     if cat=="seniors":
         format_rules=[
-            (r"סיור|טיול|יציאה\\s+לסיור","senior-trips"),
+            (r"סיור|טיול|יציאה\s+לסיור","senior-trips"),
             (r"סדנ|עיסת נייר|עיצוב ספגניות|הכנת תליונים","senior-workshops"),
             (r"ספורט|תנועה|יוגה|פילאטיס|כושר|התעמלות","senior-sport"),
             (r"פאנל|הרצאה|שיחה|מפגש העשרה|נומרולוגיה|נמרולוגיה","senior-lectures"),
