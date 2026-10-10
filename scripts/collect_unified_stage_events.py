@@ -141,7 +141,9 @@ def detail_extract(soup,source,page):
             url=urljoin(page,v)
             if url not in videos:videos.append(url)
     for row in rows:
-        if not row.get("image_url") and image:row["image_url"]=urljoin(page,image)
+        if row.get("image_url") and any(t in row["image_url"].lower() for t in ("big_star.png","logo","placeholder","default-image")):row["image_url"]=None
+        if row.get("description") and ("באתר מבלים ריכזנו" in row["description"] or "מחפשים הופעות" in row["description"]):row["description"]=None
+        if not row.get("image_url") and image and not any(t in image.lower() for t in ("big_star.png","logo","placeholder","default-image")):row["image_url"]=urljoin(page,image)
         if not row.get("description") and desc:row["description"]=desc
         if not row.get("video_url") and videos:row["video_url"]=videos[0]
         row["detail_page_fetched"]=True
