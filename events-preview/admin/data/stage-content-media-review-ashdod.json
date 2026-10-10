@@ -1,0 +1,237 @@
+{
+  "generated_at": "2026-10-10T08:54:04.590667+00:00",
+  "scope": "ashdod_stage_only",
+  "events_with_source_matches": 11,
+  "cms_modified": false,
+  "public_site_modified": false,
+  "events": [
+    {
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
+      "category": "music",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%97%d7%92%d7%99%d7%92%d7%94-%d7%91%d7%9b%d7%95%d7%95%d7%a8%d7%aa/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%97%D7%92%D7%99%D7%92%D7%94-%D7%91%D7%9B%D7%95%D7%95%D7%A8%D7%AA/",
+          "source_title": "חגיגה בכוורת - FRIENDS",
+          "description_candidate": "להקת Side B במופע מחווה לכוורת ויוצאי הלהקה. אורח מיוחד: אפרים שמיר (**בהיכל FRIENDS נהריה אפרים שמיר לא יתארח**). מופע מחווה סוחף הכולל שירים של להקת כוורת וש",
+          "image_candidate_url": null,
+          "video_candidates": [
+            "https://youtu.be/89acPGArSX4?si=XAZ2fUEVi77Cdto1"
+          ],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_9_20261019",
+      "title": "מיקי הבית של יעל",
+      "category": "kids",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a7%d7%99-%d7%94%d7%91%d7%99%d7%aa-%d7%a9%d7%9c-%d7%99%d7%a2%d7%9c/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%9E%D7%99%D7%A7%D7%99-%D7%94%D7%91%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A2%D7%9C/",
+          "source_title": "מיקי- הבית של יעל - FRIENDS",
+          "description_candidate": "הבית של יעל בכיכובה של מיקי מלכת הילדים בעיבוד חדשני לספר הילדים הקלאסי, ובמסרים שכל ילד וילדה ירצו לקחת. מיקי תגלם את יעל- ותצא למסע מרגש ומצחיק שמפתח את הדמיו",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_46_20261020",
+      "title": "פבלו רוזנברג",
+      "category": "music",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%a4%d7%91%d7%9c%d7%95-%d7%a8%d7%95%d7%96%d7%a0%d7%91%d7%a8%d7%92/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%A4%D7%91%D7%9C%D7%95-%D7%A8%D7%95%D7%96%D7%A0%D7%91%D7%A8%D7%92/",
+          "source_title": "פבלו רוזנברג - FRIENDS",
+          "description_candidate": "פבלו רוזנברג במופע סוחף ומרגש המשלב את להיטיו מכל התקופות ומביא לבמה את אישיותו הכובשת וקולו הייחודי. עם הלהיטים: נר על החלון, בין ערביים, שובר ת'ראש, שפוט שלך",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_52_20261028",
+      "title": "אדיר מילר",
+      "category": "standup",
+      "subcategory": "standup",
+      "source_candidates": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/adir-miller",
+          "fetch_error": "Exceeded 30 redirects."
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_56_20261105",
+      "title": "זוגיות AI",
+      "category": "theatre",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%96%d7%95%d7%92%d7%99%d7%95%d7%aa-ai/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%96%D7%95%D7%92%D7%99%D7%95%D7%AA-ai/",
+          "source_title": "זוגיות AI - FRIENDS",
+          "description_candidate": "זוגיות AI קומדיה מטורפת בכיכובו של יגאל עדיקא, שצוחקת על כל מה שהולך לקרות לזוגיות שלנו בעידן ה AI. גבר שנימצא בהליכי פרידה מאשתו, מחליט לרכוש לעצמו אשה מכאנית",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_62_20261203",
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "category": "music",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%90%d7%91%d7%a0%d7%a8-%d7%92%d7%93%d7%a1%d7%99-%d7%9e%d7%a0%d7%92%d7%9f-%d7%95%d7%a9%d7%a8/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%90%D7%91%D7%A0%D7%A8-%D7%92%D7%93%D7%A1%D7%99-%D7%9E%D7%A0%D7%92%D7%9F-%D7%95%D7%A9%D7%A8/",
+          "source_title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי - FRIENDS",
+          "description_candidate": "אבנר גדסי \"מנגן ושר\". אורח מיוחד: ניסים סרוסי אבנר גדסי זמר/יוצר מהאיכותיים והמוערכים בתעשיית המוסיקה הישראלית-ים תיכונית. בעל סיגנון ייחודי שהינו שילוב של רוק",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "evt_63_20261205",
+      "title": "שושנה - בכיכובה של גל דה פז",
+      "category": "music",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%a2%d7%9c-%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%93%d7%9e%d7%90%d7%a8%d7%99/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%A9%D7%95%D7%A9%D7%A0%D7%94-%D7%94%D7%9E%D7%97%D7%96%D7%9E%D7%A8-%D7%A2%D7%9C-%D7%A9%D7%95%D7%A9%D7%A0%D7%94-%D7%93%D7%9E%D7%90%D7%A8%D7%99/",
+          "source_title": "שושנה - בכיכובה של גל דה פז - FRIENDS",
+          "description_candidate": "שושנה – בכיכובה של גל דה פז ״שושנה״ - הוא מחזמר ישראלי חדש ומרגש, המבוסס על סיפור חייה ושיריה של מלכת הזמר העברי שושנה דמארי. ההצגה מספרת על הדרך הקשה והמפרכת",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "auto_as_927802792107d0068f24",
+      "title": "שקרים קטנים קומדיה משפחתית מופרעת",
+      "category": "standup",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%a9%d7%a7%d7%a8%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-%d7%a7%d7%95%d7%9e%d7%93%d7%99%d7%94-%d7%9e%d7%a9%d7%a4%d7%97%d7%aa%d7%99%d7%aa-%d7%9e%d7%95%d7%a4%d7%a8%d7%a2%d7%aa/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%A9%D7%A7%D7%A8%D7%99%D7%9D-%D7%A7%D7%98%D7%A0%D7%99%D7%9D-%D7%A7%D7%95%D7%9E%D7%93%D7%99%D7%94-%D7%9E%D7%A9%D7%A4%D7%97%D7%AA%D7%99%D7%AA-%D7%9E%D7%95%D7%A4%D7%A8%D7%A2%D7%AA/",
+          "source_title": "שקרים קטנים - קומדיה משפחתית מופרעת - FRIENDS",
+          "description_candidate": "שקרים קטנים - קומדיה משפחתית מופרעת - מה הייתם עושים בשביל אהבה? מה אנחנו יודעים על אהבה ? האם אפשר לתקן אהבה ? מוטי (אורי גוטליב) ואשתו מיכאלה (מיה דגן) מזמיני",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "auto_as_511ebde2aa175eaa7a56",
+      "title": "נישואים גרעיניים",
+      "category": "theatre",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%a0%d7%99%d7%a9%d7%95%d7%90%d7%99%d7%9d-%d7%92%d7%a8%d7%a2%d7%99%d7%a0%d7%99%d7%99%d7%9d/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%A0%D7%99%D7%A9%D7%95%D7%90%D7%99%D7%9D-%D7%92%D7%A8%D7%A2%D7%99%D7%A0%D7%99%D7%99%D7%9D/",
+          "source_title": "נישואים גרעיניים - FRIENDS",
+          "description_candidate": "נישואים גרעיניים קומדיה זוגית פרועה ומצחיקה! מה קורה כשזוג נשוי עם אהבה גדולה ושגרה מטורללת, מגיעים לאודישן לתוכנית ריאליטי חדשה, שתבחן את הנישואים שלהם עד הקצ",
+          "image_candidate_url": null,
+          "video_candidates": [
+            "https://www.youtube.com/watch?v=HR5GSplD7vk"
+          ],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
+      "category": "music",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%a9%d7%99%d7%9e%d7%99-%d7%aa%d7%91%d7%95%d7%a8%d7%99-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%9c%d7%94%d7%a7%d7%94/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%A9%D7%99%D7%9E%D7%99-%D7%AA%D7%91%D7%95%D7%A8%D7%99-%D7%91%D7%9E%D7%95%D7%A4%D7%A2-%D7%9C%D7%94%D7%A7%D7%94/",
+          "source_title": "שימי תבורי במופע להקה - FRIENDS",
+          "description_candidate": "שימי תבורי חוגג חמישים שנה על הבמה במסגרת סיבוב הופעות ארצי לרגל 50 שנות קריירה מבצע שימי תבורי מופע עם מיטב השירים. במהלך 50 שנות קריירה הפך שימי תבורי לאחד הק",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    },
+    {
+      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+      "title": "כנר על הגג",
+      "category": "theatre",
+      "subcategory": null,
+      "source_candidates": [
+        {
+          "source_id": "friends-hist",
+          "source_url": "https://friends-hist.co.il/show/%d7%9b%d7%a0%d7%a8-%d7%a2%d7%9c-%d7%94%d7%92%d7%92/",
+          "fetched_url": "https://friends-hist.co.il/show/%D7%9B%D7%A0%D7%A8-%D7%A2%D7%9C-%D7%94%D7%92%D7%92/",
+          "source_title": "כנר על הגג - FRIENDS",
+          "description_candidate": "המחזמר היהודי הגדול של כל הזמנים בליווי תזמורת חיה על הבמה! בתפקיד טוביה החולב נתן דטנר, שרה וינו אלעד, שרי צוריאל, אריה צ'רנר, ועשרות שחקנים-זמרים-רקדנים, במח",
+          "image_candidate_url": null,
+          "video_candidates": [],
+          "classification_candidate": null,
+          "image_rights_status": "unverified",
+          "publication_status": "review_required"
+        }
+      ],
+      "never_replace_existing_verified_image_without_identity_check": true
+    }
+  ]
+}
