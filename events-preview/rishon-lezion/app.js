@@ -35,7 +35,7 @@
   window.ashdodAnalytics = {send,metadata,safeSearch};
 })();
 
-const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:true,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
+const state={events:[],fallbacks:{},generatedAt:null,cinema:[],cinemaVenue:"all",cinemaAudience:"all",cinemaOpen:false,cinemaUpdatedAt:null,sportsMeta:{branches:{},teams:[]},sportTeam:"all",sportBranch:"all",calendarMode:"week",calendarWeek:null,calendarMonth:null,calendarCollapsed:true,periodStart:null,periodEnd:null,periodType:null,quick:"all",date:null,category:null,subcategory:null,query:"",favoritesOnly:false,sort:"date",discoverSeed:0};
 const $=id=>document.getElementById(id);
 const fmtDate=new Intl.DateTimeFormat("he-IL",{weekday:"short",day:"numeric",month:"short"});
 const fmtFull=new Intl.DateTimeFormat("he-IL",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
@@ -699,6 +699,7 @@ function filtered(){
     if(state.date&&e.start_date!==state.date)return false;
     if(state.periodStart&&state.periodEnd&&(e.start_date<state.periodStart||e.start_date>state.periodEnd))return false;
     if(state.category&&e.category!==state.category)return false;
+    if(state.subcategory&&e.subcategory!==state.subcategory)return false;
     if(state.category==="sport"){
       if(state.sportBranch!=="all"&&sportKey(e)!==state.sportBranch)return false;
       if(state.sportTeam!=="all"&&sportTeamConfig(e)?.id!==state.sportTeam)return false;
@@ -838,6 +839,17 @@ function renderCategories(){
     '</button>';
   }).join("");
 }
+function renderSubcategories(){
+  const el=$("subcategoryNavigation");
+  if(!el)return;
+  const cat=window.publicTaxonomy?.find(c=>c.id===state.category);
+  const subs=cat?.subcategories||[];
+  if(!subs.length){el.hidden=true;el.innerHTML="";return}
+  el.hidden=false;
+  el.innerHTML='<strong>בחרו סוג אירוע</strong><div class="subcategoryOptions">'+
+    '<button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">הכול</button>'+
+    subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join("")+'</div>';
+}
 function renderHeroStats(){
   const el=$("heroStats");if(!el)return;
   const upcomingOccurrences=state.events.filter(e=>localDate(e.start_date)>=today());
@@ -931,6 +943,7 @@ function renderActiveFilters(){
     x.push({k:"period",label});
   }
   if(state.category)x.push({k:"category",label:catLabels[state.category]||state.category});
+  if(state.subcategory)x.push({k:"subcategory",label:window.publicTaxonomy?.find(c=>c.id===state.category)?.subcategories?.find(x=>x.id===state.subcategory)?.label||state.subcategory});
   if(state.category==="sport"&&state.sportTeam!=="all"){
     const t=(state.sportsMeta?.teams||[]).find(x=>x.id===state.sportTeam);
     if(t)x.push({k:"sportTeam",label:t.name});
@@ -964,7 +977,7 @@ function renderResults(){
 function render(){
   document.querySelectorAll("#quickFilters button").forEach(b=>b.classList.toggle("is-active",b.dataset.quick===state.quick));
   $("favoritesOnly").setAttribute("aria-pressed",state.favoritesOnly?"true":"false");
-  renderDates();renderCategories();renderHeroStats();renderSportsFilters();renderActiveFilters();renderResults();
+  renderDates();renderCategories();renderSubcategories();renderHeroStats();renderSportsFilters();renderActiveFilters();renderResults();
   bindDynamic();
 }
 function bindDynamic(){
@@ -979,6 +992,11 @@ function bindDynamic(){
     state.quick="all";
     render();
     if(next)requestAnimationFrame(()=>$("eventsGrid")?.scrollIntoView({behavior:"smooth",block:"start"}));
+  });
+  document.querySelectorAll("#subcategoryNavigation [data-sub]").forEach(b=>b.onclick=()=>{
+    state.subcategory=b.dataset.sub||null;
+    render();
+    requestAnimationFrame(()=>$("resultsTitle")?.scrollIntoView({behavior:"smooth",block:"start"}));
   });
   document.querySelectorAll("[data-cat]").forEach(b=>b.onclick=()=>{
     window.ashdodAnalytics?.send("select_category",{category:b.dataset.cat,category_name:catLabels[b.dataset.cat] || b.dataset.cat,selection_type:state.category===b.dataset.cat ? "clear" : "select"});
@@ -995,6 +1013,7 @@ function bindDynamic(){
     const nextCategory=state.category===b.dataset.cat?null:b.dataset.cat;
     if(nextCategory!=="sport"){state.sportTeam="all";state.sportBranch="all"}
     state.category=nextCategory;
+    state.subcategory=null;
     render();
     requestAnimationFrame(()=>{
       const target=state.category==="sport"?$("sportsPanel"):$("resultsTitle");
@@ -1006,7 +1025,8 @@ function bindDynamic(){
     if(k==="quick")state.quick="all";
     if(k==="date")state.date=null;
     if(k==="period"){state.periodStart=null;state.periodEnd=null;state.periodType=null}
-    if(k==="category"){state.category=null;state.sportTeam="all";state.sportBranch="all"}
+    if(k==="subcategory")state.subcategory=null;
+    if(k==="category"){state.subcategory=null;state.category=null;state.sportTeam="all";state.sportBranch="all"}
     if(k==="sportTeam")state.sportTeam="all";
     if(k==="sportBranch")state.sportBranch="all";
     if(k==="query"){state.query="";$("searchInput").value=""}
@@ -1067,14 +1087,15 @@ function openEvent(id){
   $("eventModal").hidden=false;document.body.style.overflow="hidden";
 }
 function closeModal(){$("eventModal").hidden=true;document.body.style.overflow=""}
-function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.calendarCollapsed=true;state.category=null;state.cinemaOpen=false;state.sportTeam="all";state.sportBranch="all";state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
+function resetAll(){state.quick="all";state.date=null;state.periodStart=null;state.periodEnd=null;state.periodType=null;state.calendarCollapsed=true;state.category=null;state.subcategory=null;state.cinemaOpen=false;state.sportTeam="all";state.sportBranch="all";state.query="";state.favoritesOnly=false;state.sort="date";resetCalendarToToday();$("searchInput").value="";$("sortSelect").value="date";render();renderCinema()}
 
 async function init(){
-  const [data,fallbacks,cinema,sports]=await Promise.all([
+  const [data,fallbacks,cinema,sports,taxonomy]=await Promise.all([
     fetch("data/events.json",{cache:"no-store"}).then(r=>r.json()),
     fetch("category-fallbacks.json?v=20261005-21").then(r=>r.json()).catch(()=>({})),
     fetch("data/cinema.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({movies:[]})),
-    fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]}))
+    fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
+    fetch("../admin/data/taxonomy.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({primary_categories:[]}))
   ]);
   const horizon=addMonths(today(),5); horizon.setDate(today().getDate());
   state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon)&&!isNonEventActivity(e));
@@ -1083,8 +1104,11 @@ async function init(){
   state.cinema=cinema.movies||[];
   state.cinemaUpdatedAt=cinema.updated_at||null;
   state.sportsMeta=sports||{branches:{},teams:[]};
+  window.publicTaxonomy=taxonomy.primary_categories||[];
   const requestedCategory=new URLSearchParams(location.search).get("category");
   if(requestedCategory&&Object.prototype.hasOwnProperty.call(catLabels,requestedCategory))state.category=requestedCategory;
+  const requestedSub=new URLSearchParams(location.search).get("subcategory");
+  if(requestedSub&&window.publicTaxonomy.find(c=>c.id===state.category)?.subcategories?.some(x=>x.id===requestedSub))state.subcategory=requestedSub;
   if(location.hash==="#cinema")state.cinemaOpen=true;
   render();
   renderCinema();
