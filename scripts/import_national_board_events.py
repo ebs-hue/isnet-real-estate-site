@@ -104,7 +104,8 @@ def main():
                 response=session.get(url,timeout=15)
                 response.raise_for_status()
                 if (urlparse(response.url).hostname or "")!=host:continue
-                rows=extract(response.text,url,label)\n                if candidate.get("source_id")=="mevalim":rows+=listing_rows(response.text,url,label)
+                rows=extract(response.text,url,label)
+                if candidate.get("source_id")=="mevalim":rows+=listing_rows(response.text,url,label)
             except (requests.RequestException,ValueError,TypeError):continue
             for row in rows:
                 key=tuple(row[k] for k in ("title","start_date","start_time","venue"))
