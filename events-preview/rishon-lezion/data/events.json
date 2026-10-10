@@ -1,12 +1,12 @@
 {
   "city": "ראשון לציון",
-  "generated_at": "2026-10-10T13:26:37.336760+00:00",
+  "generated_at": "2026-10-10T14:27:06.992626+00:00",
   "window": {
     "from": "2026-10-10",
     "to": "2027-09-20"
   },
   "stats": {
-    "events": 391
+    "events": 373
   },
   "events": [
     {
@@ -2228,7 +2228,7 @@
       "start_date": "2026-10-10",
       "start_time": "22:00",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -2245,6 +2245,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -2614,7 +2615,7 @@
       "start_date": "2026-10-11",
       "start_time": "21:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -2631,6 +2632,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -3300,34 +3302,6 @@
       ]
     },
     {
-      "event_id": "auto_ri_31fe4f6a3b4d34a83214",
-      "city": "ראשון לציון",
-      "title": "מה שקרה לנו - זוג בימי מלחמה השדרה 50",
-      "description": "מה שקרה לנו - זוג בימי מלחמה השדרה 50",
-      "start_date": "2026-10-12",
-      "start_time": "20:30",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "auto_ri_4e84663f9524c52cea20",
       "city": "ראשון לציון",
       "title": "מרתון סטנדאפ - יום שני (הבר כשר)",
@@ -3363,7 +3337,7 @@
       "start_date": "2026-10-12",
       "start_time": "21:15",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -3380,6 +3354,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -3880,7 +3855,7 @@
       "start_date": "2026-10-14",
       "start_time": "21:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -3897,6 +3872,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -3926,34 +3902,6 @@
       "status": "active",
       "quality_flags": [
         "national_board_jsonld"
-      ]
-    },
-    {
-      "event_id": "auto_ri_7ce4eced4bf4a6f68699",
-      "city": "ראשון לציון",
-      "title": "סטלה מאריס עושים לד זפלין פטיפון בר",
-      "description": "סטלה מאריס עושים לד זפלין פטיפון בר",
-      "start_date": "2026-10-14",
-      "start_time": "22:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
       ]
     },
     {
@@ -4215,7 +4163,7 @@
       "start_date": "2026-10-15",
       "start_time": "20:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -4232,6 +4180,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -4699,34 +4648,6 @@
       ]
     },
     {
-      "event_id": "auto_ri_d229bcbf32154e8ea257",
-      "city": "ראשון לציון",
-      "title": "Nashville Outlaws – מסע קאנטרי מהלב של אמריקה פטיפון בר",
-      "description": "Nashville Outlaws – מסע קאנטרי מהלב של אמריקה פטיפון בר",
-      "start_date": "2026-10-17",
-      "start_time": "22:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "auto_ri_ff4608a416f500c14945",
       "city": "ראשון לציון",
       "title": "מרתון סטנדאפ - מוצ״ש חגיגה",
@@ -4762,7 +4683,7 @@
       "start_date": "2026-10-17",
       "start_time": "22:00",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -4779,6 +4700,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -5142,7 +5064,7 @@
       "start_date": "2026-10-18",
       "start_time": "21:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -5159,6 +5081,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -5496,7 +5419,7 @@
       "start_date": "2026-10-19",
       "start_time": "20:30",
       "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
+      "category": "theatre",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -5513,6 +5436,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -5524,7 +5448,7 @@
       "start_date": "2026-10-19",
       "start_time": "21:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -5541,6 +5465,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -6105,7 +6030,7 @@
       "start_date": "2026-10-20",
       "start_time": "20:30",
       "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
+      "category": "theatre",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -6122,6 +6047,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -6256,34 +6182,6 @@
       "media_bank_id": "media_1863e01d5ab4452a02e644a9"
     },
     {
-      "event_id": "auto_ri_3df10b2d2a2a072c8321",
-      "city": "ראשון לציון",
-      "title": "אדיר מילר",
-      "description": "אדיר מילר",
-      "start_date": "2026-10-21",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "auto_ri_efb5fa2cb50745fa77fa",
       "city": "ראשון לציון",
       "title": "דורין מנדל במופע סטנדאפ ב",
@@ -6291,7 +6189,7 @@
       "start_date": "2026-10-21",
       "start_time": "21:00",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -6308,34 +6206,7 @@
       ],
       "status": "active",
       "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
-      "event_id": "auto_ri_28b16d93c2db3a0d29b7",
-      "city": "ראשון לציון",
-      "title": "ביטלס לנצח - מופע מחווה מרהיב לביטלס פטיפון בר",
-      "description": "ביטלס לנצח - מופע מחווה מרהיב לביטלס פטיפון בר",
-      "start_date": "2026-10-21",
-      "start_time": "22:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -6442,7 +6313,7 @@
       "start_date": "2026-10-22",
       "start_time": "20:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -6459,6 +6330,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -7453,34 +7325,6 @@
       "content_enrichment_status": "insufficient"
     },
     {
-      "event_id": "auto_ri_93e044e1a039b9410c92",
-      "city": "ראשון לציון",
-      "title": "גיל שוחט",
-      "description": "גיל שוחט",
-      "start_date": "2026-10-26",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "auto_ri_1fc325a82eb7c703d9d2",
       "city": "ראשון לציון",
       "title": "גיל שוחט מארח את שלמה בראבא מס' 1",
@@ -7644,7 +7488,7 @@
       "start_date": "2026-10-26",
       "start_time": "21:30",
       "venue": "ראשון לציון",
-      "category": "other",
+      "category": "standup",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -7661,6 +7505,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -8590,34 +8435,6 @@
       "media_bank_id": "media_590a6bf48b6e3e54201c2d16"
     },
     {
-      "event_id": "auto_ri_d4c88c6a1bc1075bab03",
-      "city": "ראשון לציון",
-      "title": "אורי ברויר מופ''ת",
-      "description": "אורי ברויר מופ''ת",
-      "start_date": "2026-10-30",
-      "start_time": "22:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "city": "ראשון לציון",
       "title": "מרגלות",
       "description": null,
@@ -8755,7 +8572,7 @@
       "start_date": "2026-10-31",
       "start_time": "20:30",
       "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
+      "category": "theatre",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -8772,6 +8589,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -9191,34 +9009,6 @@
       "content_enrichment_retry_after": "2026-10-14",
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_36c1f2c48f0a342cc83d2e0c"
-    },
-    {
-      "event_id": "auto_ri_144ddf15be82d0e88c71",
-      "city": "ראשון לציון",
-      "title": "בן בן ברוך",
-      "description": "בן בן ברוך",
-      "start_date": "2026-11-04",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
     },
     {
       "event_id": "htrl_20261105_2000_בוריס-גרבנשיקוב",
@@ -10014,7 +9804,7 @@
       "start_date": "2026-11-11",
       "start_time": "20:30",
       "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
+      "category": "theatre",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -10031,6 +9821,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -11727,7 +11518,7 @@
       "start_date": "2026-11-23",
       "start_time": "20:30",
       "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
+      "category": "theatre",
       "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
       "image_url": null,
       "image_source": "https://www.mevalim.co.il/rishon-lezion/",
@@ -11744,6 +11535,7 @@
       ],
       "status": "active",
       "quality_flags": [
+        "category_scope_verified",
         "national_board_import"
       ]
     },
@@ -12825,34 +12617,6 @@
       "media_bank_id": "media_065643c238882147aa1aaf2a"
     },
     {
-      "event_id": "auto_ri_5a8d81c688f2f8932abf",
-      "city": "ראשון לציון",
-      "title": "מורדות - דרמה ישראלית חדשה",
-      "description": "מורדות - דרמה ישראלית חדשה",
-      "start_date": "2026-11-29",
-      "start_time": "20:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "htrl_20261130_1700_מורדות",
       "city": "ראשון לציון",
       "title": "מורדות",
@@ -13308,34 +13072,6 @@
       "media_bank_id": "media_c0281f4495dd8822be7b332e"
     },
     {
-      "event_id": "auto_ri_e11f6fcdc919cacb62b6",
-      "city": "ראשון לציון",
-      "title": "בוא לא נדבר על זה - גיא זוארץ ויעל בר זוהר",
-      "description": "בוא לא נדבר על זה - גיא זוארץ ויעל בר זוהר",
-      "start_date": "2026-12-03",
-      "start_time": "21:00",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "city": "ראשון לציון",
       "title": "קבלת שבת עם הרב בני מינץ",
       "description": null,
@@ -13466,34 +13202,6 @@
       "media_bank_id": "media_1863e01d5ab4452a02e644a9"
     },
     {
-      "event_id": "auto_ri_8ed81abbd5397c608fa1",
-      "city": "ראשון לציון",
-      "title": "אדיר מילר",
-      "description": "אדיר מילר",
-      "start_date": "2026-12-04",
-      "start_time": "22:30",
-      "venue": "היכל התרבות ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "r_e_1205_0900",
       "city": "ראשון לציון",
       "title": "קסם של פסטיבל - חנוכה 2026",
@@ -13550,34 +13258,6 @@
       "content_ready_for_media": false,
       "content_enrichment_status": "source_text_insufficient",
       "content_enrichment_retry_after": "2026-10-14"
-    },
-    {
-      "event_id": "auto_ri_3badbaa2181991970114",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-05",
-      "start_time": "09:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
     },
     {
       "event_id": "htrl_20261205_1000_חנות-סופגניות-קטנה-ומצחיקה",
@@ -13777,62 +13457,6 @@
       "media_bank_id": "media_2f9b14eb1d1cce318b639a8a"
     },
     {
-      "event_id": "auto_ri_cb914206b85b4d305ba0",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-05",
-      "start_time": "12:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
-      "event_id": "auto_ri_5ea005c8d72e6228dcbc",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-05",
-      "start_time": "15:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "event_id": "htrl_20261205_1600_חנות-סופגניות-קטנה-ומצחיקה",
       "city": "ראשון לציון",
       "title": "חנות סופגניות קטנה ומצחיקה",
@@ -13966,34 +13590,6 @@
       "content_enrichment_retry_after": "2026-10-14"
     },
     {
-      "event_id": "auto_ri_396d64031caa497d667c",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-05",
-      "start_time": "18:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
       "city": "ראשון לציון",
       "title": "חנות סופגניות קטנה ומצחיקה",
       "description": null,
@@ -14122,90 +13718,6 @@
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
       "address_source": "verified_institution_registry"
-    },
-    {
-      "event_id": "auto_ri_5be40d989fe760fe34f6",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-07",
-      "start_time": "09:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
-      "event_id": "auto_ri_8e75ca04f7843d1a2aea",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-07",
-      "start_time": "12:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
-    },
-    {
-      "event_id": "auto_ri_c755351a93b90b43a73c",
-      "city": "ראשון לציון",
-      "title": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "description": "קסם של פסטיבל חנוכה 2026 היכל הספורט",
-      "start_date": "2026-12-07",
-      "start_time": "15:00",
-      "venue": "ראשון לציון",
-      "category": "other",
-      "ticket_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_origin_url": "https://www.mevalim.co.il/rishon-lezion/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
-      "sources": [
-        {
-          "name": "mevalim",
-          "url": "https://www.mevalim.co.il/rishon-lezion/",
-          "source_type": "national_board"
-        }
-      ],
-      "status": "active",
-      "quality_flags": [
-        "national_board_import"
-      ]
     },
     {
       "city": "ראשון לציון",

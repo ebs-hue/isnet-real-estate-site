@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T14:24:15.909865+00:00",
+  "generated_at": "2026-10-10T14:27:06.992626+00:00",
   "sources": {
     "mevalim": {
       "added": 0,
@@ -31,14 +31,18 @@
     "ashdod": {
       "added": 0,
       "skipped_out_of_scope": 81,
+      "reclassified_existing": 50,
+      "removed_out_of_scope_existing": 59,
       "by_category": {},
-      "total": 433
+      "total": 374
     },
     "rishon-lezion": {
       "added": 0,
       "skipped_out_of_scope": 27,
+      "reclassified_existing": 16,
+      "removed_out_of_scope_existing": 18,
       "by_category": {},
-      "total": 391
+      "total": 373
     }
   }
 }
