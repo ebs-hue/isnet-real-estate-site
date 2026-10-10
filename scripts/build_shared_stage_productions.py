@@ -23,7 +23,7 @@ def load(name):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
 
 def normalize(title):
-    text=re.sub(r"[^\\w\\u0590-\\u05ff ]"," ",str(title or "").casefold())
+    text=re.sub(r"[^\w\u0590-\u05ff ]"," ",str(title or "").casefold())
     return " ".join(text.split())
 
 def valid_title(title):
