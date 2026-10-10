@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'scripts/collect_unified_stage_events.py'
+      - 'scripts/swap_our_stage_events_with_boards.py'
       - '.github/workflows/unified-stage-collector.yml'
 permissions:
   contents: write
