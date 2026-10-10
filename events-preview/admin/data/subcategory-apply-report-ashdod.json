@@ -1,9 +1,14 @@
 {
   "count_updated": 0,
-  "count_corrected": 0,
+  "count_corrected": 1,
   "count_skipped": 147,
   "updated": [],
-  "corrected": [],
+  "corrected": [
+    {
+      "event_id": "auto_as_04029172fbcf458e2eb3",
+      "subcategory": "senior-lectures"
+    }
+  ],
   "cms_readback_verified": false,
   "public_site_readback_verified": false
 }
