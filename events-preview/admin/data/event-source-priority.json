@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "sources": [
     {
       "id": "friends-hist",
@@ -239,12 +239,12 @@
         "step": 1,
         "id": "original-source",
         "purpose": [
-          "event_content",
-          "category",
-          "subcategory",
-          "original_image"
+          "local_date",
+          "local_time",
+          "local_venue",
+          "local_occurrence_identity"
         ],
-        "stop_for_field_when_verified": true
+        "stop_for_field_when_verified": false
       },
       {
         "step": 2,
@@ -261,7 +261,8 @@
         "search_by": [
           "production_title",
           "performer",
-          "production_company"
+          "production_company",
+          "original_event_source_title"
         ],
         "allow_other_city_for": [
           "production_description",
@@ -297,7 +298,32 @@
       "image_requires_authorized_reuse": true,
       "never_publish_unverified_external_image": true,
       "never_overwrite_manually_verified_content": true,
-      "preserve_origin_urls": true
-    }
+      "preserve_origin_urls": true,
+      "local_venue_does_not_override_better_production_content": true
+    },
+    "field_priority": {
+      "date_time_venue": [
+        "local_venue_or_organizer_verified_occurrence",
+        "official_local_ticket_page"
+      ],
+      "production_description": [
+        "official_production_or_artist",
+        "verified_same_production_national_board",
+        "venue_if_substantive_and_verified"
+      ],
+      "category_subcategory": [
+        "explicit_genre_on_official_production",
+        "explicit_genre_on_verified_national_board",
+        "evidence_in_production_description",
+        "venue_when_clear"
+      ],
+      "image": [
+        "licensed_official_production_image_any_city",
+        "licensed_verified_same_production_image_national_board",
+        "registered_subcategory_bank_image",
+        "registered_primary_category_bank_image"
+      ]
+    },
+    "rule": "The venue is authoritative for the local occurrence's date, time and place, not automatically preferred for images, description or genre. For each field select the most reliable and complete verified evidence regardless of discovery order."
   }
 }
