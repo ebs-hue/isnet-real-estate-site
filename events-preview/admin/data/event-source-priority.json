@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "sources": [
     {
       "id": "friends-hist",
@@ -370,8 +370,8 @@
     },
     "field_priority": {
       "date_time_venue": [
-        "local_venue_or_organizer_verified_occurrence",
-        "official_local_ticket_page"
+        "verified_ticketing_page_for_exact_city_occurrence",
+        "local_venue_or_organizer_verified_occurrence"
       ],
       "production_description": [
         "official_production_or_artist",
@@ -391,7 +391,7 @@
         "registered_primary_category_bank_image"
       ]
     },
-    "rule": "The venue is authoritative for the local occurrence's date, time and place, not automatically preferred for images, description or genre. For each field select the most reliable and complete verified evidence regardless of discovery order.",
+    "rule": "Use verified ticket-sale pages as first class authority for the specific occurrence including city, time, and venue. Local venues fill missing events and resolve conflicts; production descriptions and official show images are sourced from best matching show material.",
     "stage_board_categories": [
       "music",
       "standup",
@@ -424,6 +424,18 @@
       "דיונה",
       "בית יד לבנים"
     ],
-    "publication_mode": "review_candidates_only"
+    "publication_mode": "review_candidates_only",
+    "ticketed_board_authority": {
+      "applies_to": [
+        "music",
+        "standup",
+        "kids",
+        "theatre"
+      ],
+      "rule": "Verified active ticket sales listing for the exact city and occurrence can establish show title, local date, local time, venue and ticket link without mandatory venue recheck.",
+      "production_materials": "Treat listing description, production genre and photograph as high-priority supplied promotional evidence, subject to exact-show matching and rights constraints for image republication.",
+      "conflict_resolution": "Recheck venue or producer only if dates, location, identity or sales availability conflict; do not override a verified ticketed occurrence with generic venue blurbs.",
+      "local_venue_role": "Find missing stage events and resolve conflicting schedules."
+    }
   }
 }
