@@ -1,177 +1,28 @@
 {
-  "generated_at": "2026-10-10T13:14:55.421331+03:00",
+  "generated_at": "2026-10-10T13:19:17.900888+03:00",
   "publication_enabled": true,
   "feed_modified": true,
-  "matched_publication_candidates": 27,
+  "matched_publication_candidates": 2,
   "content_policy": "Only true production descriptions may replace existing copy; ticket-sales boilerplate is not accepted.",
-  "published": 27,
+  "published": 2,
   "blocked": {
-    "no_exact_title_date_venue_image": 138,
-    "already_matching_production_image": 6,
-    "conflicting_image_sources": 2
+    "no_exact_title_or_venue_image": 136,
+    "already_matching_production_image": 33,
+    "conflicting_image_sources": 2,
+    "production_artwork_reuse_matches": 2
   },
   "images": [
     {
-      "event_id": "evt_40_20261012",
-      "title": "אֻמִּי",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQxMncwFmSTZ0axFXQUJDaChGU40kQu_S90TUad3URZVcPB1NvMEe5V2ThN1YsN3c.webp_030929fa-1b13-4052-a82e-7aae5257d0b0.webp"
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "source": "makore",
+      "image_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image"
     },
     {
-      "event_id": "evt_43_20261015",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg"
-    },
-    {
-      "event_id": "evt_42_20261015",
-      "title": "נועה מנור",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-    },
-    {
-      "event_id": "evt_44_20261017",
-      "title": "אסף יצחקי",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-    },
-    {
-      "event_id": "evt_46_20261020",
-      "title": "פבלו רוזנברג",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZuRzSEJDZytkSihUTUNEMv8GSJZUYu_H90zdTRDW3B1TIFFZ1Y2bKRjcpZ2QM1Ub.webp_4cea666d-9f43-4049-8136-da4690fa6902.webp"
-    },
-    {
-      "event_id": "evt_47_20261022",
-      "title": "מוטי אהרונוביץ במופע סטנדאפ",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-    },
-    {
-      "event_id": "evt_48_20261022",
-      "title": "מני עוזרי",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-    },
-    {
-      "event_id": "evt_10_20261022",
-      "title": "מופע סטנד אפ - שלומי קוריאט",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp"
-    },
-    {
-      "event_id": "evt_49_20261023",
+      "event_id": "auto_as_36c82ca8b0929268aff1",
       "title": "טריפונס",
       "source": "tickchak-live",
       "image_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp"
-    },
-    {
-      "event_id": "evt_50_20261024",
-      "title": "שלום אסייג",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp"
-    },
-    {
-      "event_id": "evt_52_20261028",
-      "title": "אדיר מילר",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUppkMudldLdlSIh1V6BVMntkMolGSu_b90zZTN2RTFVbHRjM1EERtJzQP9CRDRWR.webp_4dbb0075-a3a1-489b-a3b5-652375b8a6d0.webp"
-    },
-    {
-      "event_id": "evt_53_20261029",
-      "title": "בן בן ברוך",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-    },
-    {
-      "event_id": "evt_55_20261103",
-      "title": "פאטמה הסטנדאפיסטית",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-    },
-    {
-      "event_id": "evt_56_20261105",
-      "title": "זוגיות AI",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp"
-    },
-    {
-      "event_id": "evt_57_20261105",
-      "title": "אסף מור יוסף במופע סטנדאפ",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg"
-    },
-    {
-      "event_id": "evt_59_20261121",
-      "title": "אורי חזקיה",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp"
-    },
-    {
-      "event_id": "evt_60_20261124",
-      "title": "טוביה צפיר – 80 שנה של הומור!",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-    },
-    {
-      "event_id": "evt_61_20261126",
-      "title": "מירית גליצקי - מוגזמת",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-    },
-    {
-      "event_id": "evt_62_20261203",
-      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp"
-    },
-    {
-      "event_id": "evt_65_20261212",
-      "title": "חן מזרחי",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUZdTOjx0SKpXQD92bGp1KXFkYkpEWu_N90zdMZHdRZWVWdDc110dz8GOmNXMxkkR.webp_73e39bd7-7e29-4f68-8f47-bcb6c99adc3c.webp"
-    },
-    {
-      "event_id": "evt_66_20261215",
-      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
-    },
-    {
-      "event_id": "auto_as_2b8d59b9f755ec9b7983",
-      "title": "מתן פרץ",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp"
-    },
-    {
-      "event_id": "evt_67_20270102",
-      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp"
-    },
-    {
-      "event_id": "auto_as_3965330ca84880c5bf7a",
-      "title": "שמעון בוסקילה – קרוב לבית",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp"
-    },
-    {
-      "event_id": "auto_as_d3cf764f28c61e301ce9",
-      "title": "שימי תבורי במופע להקה",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp"
-    },
-    {
-      "event_id": "auto_as_3fa16619b6054a877bff",
-      "title": "חני נחמיאס – קלסיקה ישראלית",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp"
-    },
-    {
-      "event_id": "auto_as_92a7794474ff45937b54",
-      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
-      "source": "tickchak-live",
-      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp"
     }
   ]
 }

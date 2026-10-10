@@ -8059,7 +8059,7 @@
     {
       "city": "אשדוד",
       "title": "מיסייה אלבר - הפקת מקור",
-      "description": null,
+      "description": "אלבר, המוכר מחנות הדגים המיתולוגית שלו, חלם כל חייו לספר סיפורים ובדיחות על במה, אף שאביו התעקש שחנות דגים אינה מקום לסיפורים. כאשר הופעה התבטלה בהתראה קצרה, הוא קיבל הזדמנות להופיע במקומו והגיע היישר מהסירה, עם החכה בידו. על כיסא חוף, לצד צ׳ייסר של ערק, אלבר מספר על דמויות שחיו בעבר ויוצר פסיפס אנושי של אשדוד משנות השישים ועד היום. המופע משלב רגעים בלתי צפויים, התפרצויות צחוק וסיפורים שמסתיימים בחיוך.",
       "start_date": "2026-10-21",
       "end_date": null,
       "start_time": "18:00",
@@ -8079,12 +8079,12 @@
       "purchase_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
-      "image_source": "ISNET central media bank",
-      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
+      "image_source": "makore",
+      "image_credit": "makore",
       "image_publishable": true,
       "image_verified": true,
-      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_origin_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
       "thumbnail_url": null,
       "thumbnail_ready": false,
       "organizer": null,
@@ -8108,7 +8108,7 @@
       "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
       "detail_source_url": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
       "details_verified": true,
-      "image_rights_status": "owned_system_asset",
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "image_candidates": [
         {
           "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -8116,7 +8116,7 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_strategy": "category_fallback",
+      "image_strategy": "matched_original_stage_production",
       "media_status": "needs_image_research",
       "content_ready_for_media": true,
       "content_enrichment_source": "https://ashdod.smarticket.co.il/מיסייה_אלבר_-_הפקת_מקור/?id=17255",
@@ -8162,7 +8162,7 @@
       "content_enrichment_retry_after": "2026-10-10",
       "image_quality_tier": "topical_fallback_only",
       "image_policy_version": 2,
-      "image_represents_event": false,
+      "image_represents_event": true,
       "image_represents_category": true,
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
@@ -8171,7 +8171,10 @@
       "thumbnail_error": "ValueError",
       "subcategory": "original-production",
       "subcategory_review_status": "auto_classified_from_verified_rule",
-      "subcategory_review_confidence": 0.94
+      "subcategory_review_confidence": 0.94,
+      "series_description": "אלבר, המוכר מחנות הדגים המיתולוגית שלו, חלם כל חייו לספר סיפורים ובדיחות על במה, אף שאביו התעקש שחנות דגים אינה מקום לסיפורים. כאשר הופעה התבטלה בהתראה קצרה, הוא קיבל הזדמנות להופיע במקומו והגיע היישר מהסירה, עם החכה בידו. על כיסא חוף, לצד צ׳ייסר של ערק, אלבר מספר על דמויות שחיו בעבר ויוצר פסיפס אנושי של אשדוד משנות השישים ועד היום. המופע משלב רגעים בלתי צפויים, התפרצויות צחוק וסיפורים שמסתיימים בחיוך.",
+      "content_source_url": "https://www.makore.co.il/event/מיסייה-אלבר-הפקת-מקור--9cf78685",
+      "rich_content_status": "enriched"
     },
     {
       "city": "אשדוד",
@@ -24631,7 +24634,7 @@
     {
       "city": "אשדוד",
       "title": "טריפונס",
-      "description": null,
+      "description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
       "start_date": "2027-01-15",
       "end_date": null,
       "start_time": "13:00",
@@ -24651,12 +24654,12 @@
       "purchase_url": "https://mishkan-ashdod.smarticket.co.il/טריפונס_/?id=8170",
       "purchase_phone": null,
       "purchase_source": "official_listing",
-      "image_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trifonas%2C_January_2022_%286%29.jpg",
-      "image_source": "https://commons.wikimedia.org/wiki/File:Trifonas,_January_2022_(6).jpg",
-      "image_credit": "Dolev / Wikimedia Commons / CC BY-SA 4.0",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
+      "image_source": "tickchak-live",
+      "image_credit": "tickchak-live",
       "image_publishable": true,
       "image_verified": true,
-      "image_rights_status": "needs_review",
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "image_candidates": [
         {
           "url": "https://mishkan-ashdod.smarticket.co.il/uploads/no_pic.png",
@@ -24664,9 +24667,9 @@
           "rights_status": "needs_review"
         }
       ],
-      "image_origin_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trifonas%2C_January_2022_%286%29.jpg",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
       "thumbnail_url": "/events-preview/media-bank/cards/42e6b6818f63268525c81278.webp",
-      "thumbnail_ready": true,
+      "thumbnail_ready": false,
       "organizer": null,
       "duration_minutes": null,
       "sources": [
@@ -24684,7 +24687,7 @@
         "automated_official_listing"
       ],
       "event_id": "auto_as_36c82ca8b0929268aff1",
-      "image_strategy": "artist_fallback",
+      "image_strategy": "matched_original_stage_production",
       "thumbnail_ratio": "4:3",
       "thumbnail_strategy": "poster_composite",
       "venue_institution_id": "mishkan_ashdod",
@@ -24737,7 +24740,11 @@
       "category_previous": "other",
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
-      "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+      "category_reviewed_at": "2026-10-09T08:10:00+03:00",
+      "image_represents_event": true,
+      "series_description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
+      "content_source_url": "https://live.tickchak.co.il/ashdod",
+      "rich_content_status": "enriched"
     },
     {
       "city": "אשדוד",
