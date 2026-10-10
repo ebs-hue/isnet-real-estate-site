@@ -40,8 +40,8 @@ def main():
         if event.get("category") not in CATEGORIES:continue
         d=event.get("start_date")
         if not isinstance(d,str) or d<str(today):continue
-        if event.get("image_manual_override") or (event.get("image_url") and event.get("image_verified") is True and event.get("image_publishable") is True):
-            blocked["already_published_or_manual_image"]+=1;continue
+        if event.get("image_manual_override") is True:
+            blocked["editor_manually_locked_image"]+=1;continue
         key=(clean(event.get("title")),d)
         options=[r for r in lookup.get(key,[]) if venue_match(event.get("venue") or event.get("location") or "",r.get("venue"))]
         if not options:
@@ -54,6 +54,8 @@ def main():
         # A conflicting image is a review case, not an automatic replacement.
         if len(urls)>1:
             blocked["conflicting_image_sources"]+=1;continue
+        if event.get("image_url")==chosen["image_url"] and event.get("image_verified") is True and event.get("image_publishable") is True:
+            blocked["already_matching_production_image"]+=1;continue
         result.append((event,chosen))
     writable=os.environ.get("STAGE_MEDIA_PUBLICATION_ENABLED")=="YES_EXACT_TITLE_DATE_VENUE"
     for event,row in result:
