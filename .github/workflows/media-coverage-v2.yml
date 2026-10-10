@@ -1,0 +1,29 @@
+name: Image coverage report - pilot only
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - ashdod-event-engine-v2-pilot
+    paths:
+      - 'scripts/audit_media_coverage_v2.py'
+      - 'scripts/media_catalog_v2.py'
+      - 'events-preview/admin/data/media-catalog-v2.json'
+      - '.github/workflows/media-coverage-v2.yml'
+permissions:
+  contents: read
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Audit images for both live-feed snapshots
+        run: python scripts/audit_media_coverage_v2.py --today 2026-10-10
+      - name: Upload internal report (no site publication)
+        uses: actions/upload-artifact@v4
+        with:
+          name: media-coverage-v2
+          path: events-preview/admin/data/media-coverage-v2.json
+          retention-days: 14
