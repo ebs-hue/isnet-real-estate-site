@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "sources": [
     {
       "id": "friends-hist",
@@ -435,7 +435,36 @@
       "rule": "Verified active ticket sales listing for the exact city and occurrence can establish show title, local date, local time, venue and ticket link without mandatory venue recheck.",
       "production_materials": "Treat listing description, production genre and photograph as high-priority supplied promotional evidence, subject to exact-show matching and rights constraints for image republication.",
       "conflict_resolution": "Recheck venue or producer only if dates, location, identity or sales availability conflict; do not override a verified ticketed occurrence with generic venue blurbs.",
-      "local_venue_role": "Find missing stage events and resolve conflicting schedules."
+      "local_venue_role": "Find missing stage events and resolve conflicting schedules.",
+      "applies_to_city": "ashdod"
+    },
+    "ashdod_stage_listing_image_policy": {
+      "scope": {
+        "city": "ashdod",
+        "primary_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "source_type": "verified_national_ticket_listing",
+        "require_same_production": true
+      },
+      "order": [
+        "national_ticket_listing_show_image",
+        "internal_subcategory_image_bank",
+        "internal_primary_category_image_bank"
+      ],
+      "provenance_required": [
+        "source_url",
+        "production_identity",
+        "original_image_url"
+      ],
+      "do_not_apply_to_other_cities": true,
+      "do_not_apply_to_other_categories": true,
+      "operational_approval": "publisher_approved_use_of_matching_show_images_from_national_ticket_boards",
+      "rights_status": "publisher_approval_not_copyright_license",
+      "do_not_overwrite_existing_matching_image": true
     }
   }
 }
