@@ -74,6 +74,7 @@ def main():
     report={"generated_at":datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(),
       "publication_enabled":writable,"feed_modified":bool(writable and result),
       "matched_publication_candidates":len(result),
+      "content_policy":"Only true production descriptions may replace existing copy; ticket-sales boilerplate is not accepted.",
       "published":len(result) if writable else 0,"blocked":dict(blocked),
       "images":[{"event_id":e.get("event_id"),"title":e.get("title"),"source":row["source_id"],"image_url":row["image_url"]} for e,row in result]}
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
