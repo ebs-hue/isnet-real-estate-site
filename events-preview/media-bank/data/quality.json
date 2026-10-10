@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:59:48.513700+00:00",
+  "generated_at": "2026-10-10T10:19:52.319478+00:00",
   "stats": {
     "events_scanned": 502,
     "image_links": 393,
@@ -60,7 +60,7 @@
       "review": 3,
       "rejected": 0
     },
-    "commons.wikimedia.org": {
+    "www.makore.co.il": {
       "images": 2,
       "approved": 2,
       "review": 0,
@@ -73,6 +73,12 @@
       "rejected": 0
     },
     "cdn.bingebase.com": {
+      "images": 1,
+      "approved": 1,
+      "review": 0,
+      "rejected": 0
+    },
+    "commons.wikimedia.org": {
       "images": 1,
       "approved": 1,
       "review": 0,
@@ -144,12 +150,6 @@
       "review": 0,
       "rejected": 0
     },
-    "www.makore.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
     "www.megalean.co.il": {
       "images": 1,
       "approved": 1,
@@ -181,8 +181,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 121,
-  "reusable_productions": 154,
+  "reusable_artists": 123,
+  "reusable_productions": 155,
   "artists_total": 198,
   "productions_total": 267
 }

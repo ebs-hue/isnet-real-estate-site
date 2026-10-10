@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:59:48.513700+00:00",
+  "generated_at": "2026-10-10T10:19:52.319478+00:00",
   "stats": {
     "events_scanned": 502,
     "image_links": 393,
@@ -2081,6 +2081,48 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_f1a8e4755003ae8bc164399e",
+      "url": "/events-preview/media-bank/cards/42e6b6818f63268525c81278.webp",
+      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
+      "source_url": "tickchak-live",
+      "credit": "tickchak-live",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [],
+      "productions": [
+        "טריפונס"
+      ],
+      "categories": [
+        "music"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "evt_49_20261023",
+          "title": "טריפונס",
+          "date": "2026-10-23"
+        },
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_36c82ca8b0929268aff1",
+          "title": "טריפונס",
+          "date": "2027-01-15"
+        }
+      ],
+      "usage_count": 2,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_f1abd4d53917ecdd3b80686c",
       "url": "/events-preview/media-bank/cards/676ea8e32f625ba8f5a2a13c.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_4507.jpg",
@@ -2415,6 +2457,45 @@
           "event_id": "htrl_20261115_1730_טינטן",
           "title": "טינטן",
           "date": "2026-11-15"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_0ab8bd11907dc1cd2df3562a",
+      "url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
+      "origin_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
+      "source_url": "makore",
+      "credit": "makore",
+      "rights_status": "publisher_directed_reuse_license_unverified",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "matched_original_stage_production",
+      "artists": [
+        "מיסייה אלבר",
+        "מוריס"
+      ],
+      "productions": [
+        "מיסייה אלבר - הפקת מקור"
+      ],
+      "categories": [
+        "theatre"
+      ],
+      "cities": [
+        "ashdod"
+      ],
+      "events": [
+        {
+          "city": "ashdod",
+          "event_id": "auto_as_8ac6ea288cb265605b77",
+          "title": "מיסייה אלבר - הפקת מקור",
+          "date": "2026-10-21"
         }
       ],
       "usage_count": 1,
@@ -5308,42 +5389,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_b4633628f67a433d3b0a87a2",
-      "url": "/events-preview/media-bank/cards/42e6b6818f63268525c81278.webp",
-      "origin_url": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Trifonas%2C_January_2022_%286%29.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Trifonas,_January_2022_(6).jpg",
-      "credit": "Dolev / Wikimedia Commons / CC BY-SA 4.0",
-      "rights_status": "needs_review",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "artist_fallback",
-      "artists": [],
-      "productions": [
-        "טריפונס"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_36c82ca8b0929268aff1",
-          "title": "טריפונס",
-          "date": "2027-01-15"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_bcdd2b1cf07b9c10db1aee0b",
       "url": "/events-preview/media-bank/cards/661b27359b7b5b3fafbe6e44.webp",
       "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6a2eaa9217012363281280.jpg",
@@ -6084,42 +6129,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_f1a8e4755003ae8bc164399e",
-      "url": "/events-preview/media-bank/cards/42e6b6818f63268525c81278.webp",
-      "origin_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
-      "source_url": "tickchak-live",
-      "credit": "tickchak-live",
-      "rights_status": "publisher_directed_reuse_license_unverified",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "matched_original_stage_production",
-      "artists": [],
-      "productions": [
-        "טריפונס"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "evt_49_20261023",
-          "title": "טריפונס",
-          "date": "2026-10-23"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_f8666fbc69c971322f1f54d9",
       "url": "/events-preview/media-bank/cards/58f7ee1fcb1bf4a2fe0f48ca.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/09/new_site_320_450_la_traviata.jpg",
@@ -6337,8 +6346,6 @@
         "רינת הופר (מחברת המקור)",
         "בית רינתי (מוזכר כדובר/הפקה בדף האירוע)",
         "ג׳קו",
-        "מיסייה אלבר",
-        "מוריס",
         "לימור יצחייק",
         "דפנה שרעבי",
         "דרור קרן",
@@ -6404,12 +6411,6 @@
           "event_id": "auto_as_ab616d899c714d6fd180",
           "title": "המספרה של ג'אקו - הפקת מקור",
           "date": "2026-10-19"
-        },
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_8ac6ea288cb265605b77",
-          "title": "מיסייה אלבר - הפקת מקור",
-          "date": "2026-10-21"
         },
         {
           "city": "ashdod",
@@ -6520,7 +6521,7 @@
           "date": "2027-03-06"
         }
       ],
-      "usage_count": 24,
+      "usage_count": 23,
       "created_from": "event_dataset",
       "review_reason": "same_image_used_for_multiple_dissimilar_event_titles",
       "reuse_risk": "review",

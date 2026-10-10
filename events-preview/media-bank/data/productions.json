@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:59:48.513700+00:00",
+  "generated_at": "2026-10-10T10:19:52.319478+00:00",
   "productions": [
     {
       "production_key": "קסם של כוכבים רועיקי מצחיקי וסמי הכבאי",
@@ -2251,22 +2251,20 @@
       "production_key": "טריפונס",
       "name": "טריפונס",
       "media": [
-        "media_b4633628f67a433d3b0a87a2",
         "media_f1a8e4755003ae8bc164399e"
       ],
       "approved_media": [
-        "media_b4633628f67a433d3b0a87a2",
         "media_f1a8e4755003ae8bc164399e"
       ],
-      "preferred_media_id": "media_b4633628f67a433d3b0a87a2",
+      "preferred_media_id": "media_f1a8e4755003ae8bc164399e",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "music"
       ],
-      "media_count": 2,
-      "approved_media_count": 2
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "production_key": "יום המזל שלי",
@@ -3025,18 +3023,21 @@
       "production_key": "מיסייה אלבר הפקת מקור",
       "name": "מיסייה אלבר - הפקת מקור",
       "media": [
+        "media_0ab8bd11907dc1cd2df3562a",
         "media_1b0a9b5ea9e025ba908fcdda"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_0ab8bd11907dc1cd2df3562a"
+      ],
+      "preferred_media_id": "media_0ab8bd11907dc1cd2df3562a",
       "cities": [
         "ashdod"
       ],
       "categories": [
         "theatre"
       ],
-      "media_count": 1,
-      "approved_media_count": 0
+      "media_count": 2,
+      "approved_media_count": 1
     },
     {
       "production_key": "מיקה שלי",
