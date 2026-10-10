@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T13:26:37.099535+00:00",
+  "generated_at": "2026-10-10T14:24:15.733197+00:00",
   "publication_enabled": false,
   "images_authorized": false,
   "cms_modified": false,
@@ -16,7 +16,7 @@
     },
     {
       "source_id": "makore",
-      "found": 1,
+      "found": 2,
       "error": null
     },
     {
@@ -2628,6 +2628,17 @@
     },
     {
       "source_id": "makore",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://www.makore.co.il/event/חזרה-לרחם-סדנה-אישית-זוגית-ומשפחתית-עם-ערסלים-ו--568070e9",
+      "city_evidence": "card_text",
+      "title_candidate": "סדנה חזרה לרחם – סדנה אישית, זוגית ומשפחתית עם ערסלים ומכונת 10.10 · 19:30 רוטנברג, ראשון לציון מבוגר: ‏550 ‏₪",
+      "source_context": "סדנה חזרה לרחם – סדנה אישית, זוגית ומשפחתית עם ערסלים ומכונת 10.10 · 19:30 רוטנברג, ראשון לציון מבוגר: ‏550 ‏₪ לכל המועדים",
+      "image_candidate_url": "https://images.makore.co.il/events/568070e9d0396768f849b0e6b2051ea8b7a9193059947b3a91e8aa1fc9f402ee/4aa36535ed0625dddca9537220dfeefa761654ef90bb2de530fd15814fe11d2b.webp?class=eventcard800",
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "makore",
       "city_hint": "ashdod",
       "source_url": "https://www.makore.co.il/browse/city/%D7%90%D7%A9%D7%93%D7%95%D7%93",
       "city_evidence": "card_text",
@@ -2662,7 +2673,7 @@
     {
       "source_id": "tickchak-live",
       "city_hint": "rishon-lezion",
-      "source_url": "https://live.tickchak.co.il/childrens-shows/event/eALNRkWRL?live_ref=new-090TUqR1NPN3bpNVdYRjZzdlcxo2M5RUN",
+      "source_url": "https://live.tickchak.co.il/childrens-shows/event/eALNRkWRL?live_ref=new-B90TQEJGSpZURthTQKhWZI9SSBhlQB92d",
       "city_evidence": "card_text",
       "title_candidate": "12.10.26 יום שני 17:30 לאתר המכירה יובל המבולבל - בהצגה המסע אל הכוכב היכל התרבות ראשון לציון",
       "source_context": "12.10.26 יום שני 17:30 לאתר המכירה יובל המבולבל - בהצגה המסע אל הכוכב היכל התרבות ראשון לציון",
@@ -2673,7 +2684,7 @@
     {
       "source_id": "tickchak-live",
       "city_hint": "ashdod",
-      "source_url": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-090TUqR1NPN3bpNVdYRjZzdlcxo2M5RUN",
+      "source_url": "https://live.tickchak.co.il/concerts/event/eZxQdWlBL?live_ref=new-B90TQEJGSpZURthTQKhWZI9SSBhlQB92d",
       "city_evidence": "card_text",
       "title_candidate": "12.10.26 יום שני 11:00 לאתר המכירה אֻמִּי מונארט אשדוד",
       "source_context": "12.10.26 יום שני 11:00 לאתר המכירה אֻמִּי מונארט אשדוד",
@@ -2684,7 +2695,7 @@
     {
       "source_id": "tickchak-live",
       "city_hint": "rishon-lezion",
-      "source_url": "https://live.tickchak.co.il/shows/event/eZxQqBrlx?live_ref=new-090TUqR1NPN3bpNVdYRjZzdlcxo2M5RUN",
+      "source_url": "https://live.tickchak.co.il/shows/event/eZxQqBrlx?live_ref=new-B90TQEJGSpZURthTQKhWZI9SSBhlQB92d",
       "city_evidence": "card_text",
       "title_candidate": "קרדיט לצלם קרדיט לצלם: פבריס 26.10.26 יום שני 20:30 לאתר המכירה גיל שוחט מארח את שלמה בראבא מס' 1 היכל התרבות ראשון לציון",
       "source_context": "קרדיט לצלם קרדיט לצלם: פבריס 26.10.26 יום שני 20:30 לאתר המכירה גיל שוחט מארח את שלמה בראבא מס' 1 היכל התרבות ראשון לציון",

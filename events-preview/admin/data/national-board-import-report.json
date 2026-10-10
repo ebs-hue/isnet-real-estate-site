@@ -1,13 +1,43 @@
 {
-  "generated_at": "2026-10-10T13:26:37.336760+00:00",
-  "sources": {},
+  "generated_at": "2026-10-10T14:24:15.909865+00:00",
+  "sources": {
+    "mevalim": {
+      "added": 0,
+      "skipped_out_of_scope": 107,
+      "by_category": {}
+    },
+    "friends-hist": {
+      "added": 0,
+      "skipped_out_of_scope": 0,
+      "by_category": {}
+    },
+    "makore": {
+      "added": 0,
+      "skipped_out_of_scope": 1,
+      "by_category": {}
+    },
+    "tickchak-live": {
+      "added": 0,
+      "skipped_out_of_scope": 0,
+      "by_category": {}
+    },
+    "sababa-events": {
+      "added": 0,
+      "skipped_out_of_scope": 0,
+      "by_category": {}
+    }
+  },
   "cities": {
     "ashdod": {
-      "added": 109,
+      "added": 0,
+      "skipped_out_of_scope": 81,
+      "by_category": {},
       "total": 433
     },
     "rishon-lezion": {
-      "added": 34,
+      "added": 0,
+      "skipped_out_of_scope": 27,
+      "by_category": {},
       "total": 391
     }
   }
