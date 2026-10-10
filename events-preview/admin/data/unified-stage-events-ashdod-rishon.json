@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T15:04:31.675006+00:00",
+  "generated_at": "2026-10-10T15:30:09.691355+00:00",
   "scope": {
     "cities": [
       "ashdod",
@@ -46,11 +46,8 @@
     {
       "source_id": "tickchak-live",
       "candidates": 74,
-      "details_fetched": 65,
-      "errors": [
-        "TooManyRedirects: Exceeded 30 redirects.",
-        "TooManyRedirects: Exceeded 30 redirects."
-      ]
+      "details_fetched": 67,
+      "errors": []
     },
     {
       "source_id": "sababa-events",
@@ -648,7 +645,7 @@
       "detail_page_fetched": true
     },
     {
-      "title": "מרתון סטנדאפ - מוצ״ש חגיגה",
+      "title": "מרתון סטנדאפ - מוצ״ש חגיגה - סטנדאפיסטים מפורסמים!",
       "city": "rishon-lezion",
       "venue": "פאצ&#039;ו בר ראשון לציון",
       "date_time": "2026-10-10T22:00:00",
