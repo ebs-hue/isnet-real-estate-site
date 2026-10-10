@@ -378,11 +378,17 @@ function scheduleSummary(e){
   const times=[...new Set(occ.map(x=>formatTime(x.start_time)))];
   return occ.length+' מועדים'+(times.length===1?' · '+times[0]:' · שעות שונות');
 }
+function categoryWithSubtype(e){
+  const group=window.publicTaxonomy?.find(c=>c.id===e.category);
+  const sub=group?.subcategories?.find(x=>x.id===e.subcategory);
+  return '<span class="cardCategoryStack"><strong>'+escapeHtml(catLabels[e.category]||"אירוע")+'</strong>'+
+    (sub?'<small>'+escapeHtml(sub.label)+'</small>':'')+'</span>';
+}
 function eventCard(e){
   const occ=eventOccurrences(e);
   const multi=occ.length>1;
   return '<article class="eventCard'+(e.category==="sport"?" eventCard--sport":"")+'" data-event="'+e.event_id+'"><div class="mediaWrap">'+mediaHTML(e)+dateChipHTML(e)+'</div>'+
-    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+escapeHtml(catLabels[e.category]||"אירוע")+' ←</button>'+sportBranchBadgeHTML(e)+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
+    '<div class="eventBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+categoryWithSubtype(e)+' ←</button>'+sportBranchBadgeHTML(e)+statusBadge(e)+(multi?'<span class="badge datesCount">'+occ.length+' מועדים</span>':'')+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="eventInfo"><span class="eventInfo__row"><i>◷</i><span>'+escapeHtml(scheduleSummary(e))+'</span></span>'+
     '<span class="eventInfo__row"><i>⌖</i><span>'+escapeHtml(e.venue||"המיקום יפורסם")+'</span></span></div>'+
@@ -390,7 +396,7 @@ function eventCard(e){
 }
 function featureCard(e){
   return '<article class="featureCard" data-event="'+e.event_id+'">'+mediaHTML(e,"featureMedia")+
-    '<div class="featureBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+escapeHtml(catLabels[e.category]||"אירוע")+' ←</button>'+statusBadge(e)+'</div>'+
+    '<div class="featureBody">'+sportIdentityHTML(e)+'<div class="badges"><button type="button" class="badge categoryBadge" data-cat="'+escapeHtml(e.category||"other")+'" title="הצג עוד אירועים בקטגוריה">'+categoryWithSubtype(e)+' ←</button>'+statusBadge(e)+'</div>'+
     '<h3>'+escapeHtml(e.title)+'</h3>'+
     '<div class="featureMeta"><span>'+escapeHtml(fmtFull.format(localDate(e.start_date)))+'</span><span>·</span><span>'+escapeHtml(formatTime(e.start_time))+'</span></div>'+
     '<div class="featureVenue">⌖ '+escapeHtml(e.venue||"המיקום יפורסם")+'</div></div></article>';
