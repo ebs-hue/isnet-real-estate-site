@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:58:43.163028+00:00",
+  "generated_at": "2026-10-10T00:30:58.885959+00:00",
   "artists": [
     {
       "artist_key": "alisha arora",
@@ -38,23 +38,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "artist_key": "א ס sgs רמת השרון",
-      "name": "א.ס. SGS רמת השרון",
-      "media": [
-        "media_cda079a20047c064fb1f15f2"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "artist_key": "אבי ביילה",
@@ -937,22 +920,20 @@
       "artist_key": "היכל התרבות מאיר ניצן",
       "name": "היכל התרבות מאיר ניצן",
       "media": [
-        "media_1b7b50d72a84982a04267550",
         "media_272909c778d74fced70509b7"
       ],
       "approved_media": [
-        "media_1b7b50d72a84982a04267550",
         "media_272909c778d74fced70509b7"
       ],
-      "preferred_media_id": "media_1b7b50d72a84982a04267550",
+      "preferred_media_id": "media_272909c778d74fced70509b7",
       "cities": [
         "rishon-lezion"
       ],
       "categories": [
         "music"
       ],
-      "media_count": 2,
-      "approved_media_count": 2
+      "media_count": 1,
+      "approved_media_count": 1
     },
     {
       "artist_key": "היכל התרבות מאיר ניצן מארגן",
@@ -1073,8 +1054,7 @@
       "artist_key": "הפועל אשדוד",
       "name": "הפועל אשדוד",
       "media": [
-        "media_200a6f733ca4bcb1d8ce642a",
-        "media_cda079a20047c064fb1f15f2"
+        "media_200a6f733ca4bcb1d8ce642a"
       ],
       "approved_media": [],
       "preferred_media_id": null,
@@ -1084,7 +1064,7 @@
       "categories": [
         "sport"
       ],
-      "media_count": 2,
+      "media_count": 1,
       "approved_media_count": 0
     },
     {
@@ -1340,25 +1320,6 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "יאיר גולן",
-      "name": "יאיר גולן",
-      "media": [
-        "media_82553bcfa3ee474822033389"
-      ],
-      "approved_media": [
-        "media_82553bcfa3ee474822033389"
-      ],
-      "preferred_media_id": "media_82553bcfa3ee474822033389",
-      "cities": [
-        "rishon-lezion"
-      ],
-      "categories": [
-        "lecture"
-      ],
-      "media_count": 1,
-      "approved_media_count": 1
-    },
-    {
       "artist_key": "יאן קראן",
       "name": "יאן קראן",
       "media": [
@@ -1515,25 +1476,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 0
-    },
-    {
-      "artist_key": "יוסי יהושוע",
-      "name": "יוסי יהושוע",
-      "media": [
-        "media_82553bcfa3ee474822033389"
-      ],
-      "approved_media": [
-        "media_82553bcfa3ee474822033389"
-      ],
-      "preferred_media_id": "media_82553bcfa3ee474822033389",
-      "cities": [
-        "rishon-lezion"
-      ],
-      "categories": [
-        "lecture"
-      ],
-      "media_count": 1,
-      "approved_media_count": 1
     },
     {
       "artist_key": "יניב שפירא",
@@ -3039,27 +2981,6 @@
       "approved_media_count": 1
     },
     {
-      "artist_key": "רוני כהן בנימיני",
-      "name": "רוני כהן-בנימיני",
-      "media": [
-        "media_ec1c4894f557c3316c373766",
-        "media_04f7c1373b347290ea747f48"
-      ],
-      "approved_media": [
-        "media_ec1c4894f557c3316c373766",
-        "media_04f7c1373b347290ea747f48"
-      ],
-      "preferred_media_id": "media_ec1c4894f557c3316c373766",
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "media_count": 2,
-      "approved_media_count": 2
-    },
-    {
       "artist_key": "רוני כהן בנימיני אוצרת הדס סט",
       "name": "רוני כהן-בנימיני (אוצרת, הדס סט)",
       "media": [
@@ -3077,6 +2998,27 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
+    },
+    {
+      "artist_key": "רוני כהן בנימיני",
+      "name": "רוני כהן‑בנימיני",
+      "media": [
+        "media_ec1c4894f557c3316c373766",
+        "media_04f7c1373b347290ea747f48"
+      ],
+      "approved_media": [
+        "media_ec1c4894f557c3316c373766",
+        "media_04f7c1373b347290ea747f48"
+      ],
+      "preferred_media_id": "media_ec1c4894f557c3316c373766",
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "exhibition"
+      ],
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "artist_key": "רועי עלוני",

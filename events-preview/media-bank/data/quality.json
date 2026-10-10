@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T23:58:43.163028+00:00",
+  "generated_at": "2026-10-10T00:30:58.885959+00:00",
   "stats": {
-    "events_scanned": 507,
-    "image_links": 398,
-    "unique_images": 178,
-    "approved": 157,
-    "needs_review": 13,
+    "events_scanned": 502,
+    "image_links": 393,
+    "unique_images": 173,
+    "approved": 153,
+    "needs_review": 12,
     "rejected": 8
   },
   "rejected_reasons": {
@@ -13,8 +13,8 @@
   },
   "source_domains": {
     "htrl.co.il": {
-      "images": 82,
-      "approved": 81,
+      "images": 80,
+      "approved": 79,
       "review": 1,
       "rejected": 0
     },
@@ -37,8 +37,8 @@
       "rejected": 0
     },
     "yama.smarticket.co.il": {
-      "images": 11,
-      "approved": 11,
+      "images": 9,
+      "approved": 9,
       "review": 0,
       "rejected": 0
     },
@@ -48,16 +48,16 @@
       "review": 0,
       "rejected": 0
     },
-    "handballisr.co.il": {
-      "images": 4,
-      "approved": 0,
-      "review": 4,
-      "rejected": 0
-    },
     "commons.wikimedia.org": {
       "images": 3,
       "approved": 3,
       "review": 0,
+      "rejected": 0
+    },
+    "handballisr.co.il": {
+      "images": 3,
+      "approved": 0,
+      "review": 3,
       "rejected": 0
     },
     "imagedelivery.net": {
@@ -211,8 +211,8 @@
       "rejected": 0
     }
   },
-  "reusable_artists": 112,
-  "reusable_productions": 163,
-  "artists_total": 201,
-  "productions_total": 272
+  "reusable_artists": 110,
+  "reusable_productions": 159,
+  "artists_total": 198,
+  "productions_total": 267
 }

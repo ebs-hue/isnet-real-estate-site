@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T23:58:43.163028+00:00",
+  "generated_at": "2026-10-10T00:30:58.885959+00:00",
   "stats": {
-    "events_scanned": 507,
-    "image_links": 398,
-    "unique_images": 178,
-    "approved": 157,
-    "needs_review": 13,
+    "events_scanned": 502,
+    "image_links": 393,
+    "unique_images": 173,
+    "approved": 153,
+    "needs_review": 12,
     "rejected": 8
   },
   "media": [
@@ -24,9 +24,9 @@
       "artists": [
         "הדס סט",
         "עמית קבסה",
-        "רוני כהן-בנימיני",
         "יעל כץ בן שלום",
         "מוזיאון אשדוד לאמנות",
+        "רוני כהן‑בנימיני",
         "רוני כהן-בנימיני (אוצרת, הדס סט)",
         "יעל כץ בן שלום (אוצרת, עמית קבסה)",
         "יעל כץ בן שלום (אוצרת)",
@@ -42,12 +42,6 @@
         "ashdod"
       ],
       "events": [
-        {
-          "city": "ashdod",
-          "event_id": "auto_as_b06a6b1900fbc4ab67f1",
-          "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-          "date": "2026-10-09"
-        },
         {
           "city": "ashdod",
           "event_id": "auto_as_90e0977c4c75e8ca55a9",
@@ -355,7 +349,7 @@
           "date": "2026-11-30"
         }
       ],
-      "usage_count": 52,
+      "usage_count": 51,
       "created_from": "event_dataset",
       "review_reason": null,
       "reuse_risk": "low",
@@ -1148,6 +1142,54 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_31725d98280b88301ab5677b",
+      "url": "/events-preview/media-bank/cards/ad03e13f2d38a0cd64bf307e.webp",
+      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
+      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
+      "credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "rights_status": "unknown",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": "official_event_poster",
+      "artists": [],
+      "productions": [
+        "מסיבת אירוסין"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_729c6a5194d2f00b4ee2",
+          "title": "מסיבת אירוסין",
+          "date": "2027-03-08"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_ef0b8bfdb7be40c143d8",
+          "title": "מסיבת אירוסין",
+          "date": "2027-03-09"
+        },
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_f0a341b59e3cb72a992b",
+          "title": "מסיבת אירוסין",
+          "date": "2027-03-10"
+        }
+      ],
+      "usage_count": 3,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_4a37a28f82f70ca01bfb0a3f",
       "url": "/events-preview/media-bank/cards/418a1774ac7141146a0dd6e2.webp",
       "origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_yoman-2.jpg",
@@ -1541,48 +1583,6 @@
           "event_id": "auto_ri_9794f2a615abbce012fb",
           "title": "מר גרין",
           "date": "2027-02-25"
-        }
-      ],
-      "usage_count": 2,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_31725d98280b88301ab5677b",
-      "url": "/events-preview/media-bank/cards/ad03e13f2d38a0cd64bf307e.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_party.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%A1%D7%99%D7%91%D7%AA-%D7%90%D7%99%D7%A8%D7%95%D7%A1%D7%99%D7%9F/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "מסיבת אירוסין"
-      ],
-      "categories": [
-        "other"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_729c6a5194d2f00b4ee2",
-          "title": "מסיבת אירוסין",
-          "date": "2027-03-08"
-        },
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_ef0b8bfdb7be40c143d8",
-          "title": "מסיבת אירוסין",
-          "date": "2027-03-09"
         }
       ],
       "usage_count": 2,
@@ -2717,44 +2717,6 @@
           "event_id": "htrl_20270109_1100_כראמל-1",
           "title": "כראמל 1",
           "date": "2027-01-09"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_1b7b50d72a84982a04267550",
-      "url": "/events-preview/media-bank/cards/6cf4b79e350ed46042c219c6.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_madona_new.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%9E%D7%93%D7%95%D7%A0%D7%94-%D7%9E%D7%95%D7%A4%D7%A2-%D7%9E%D7%97%D7%95%D7%95%D7%94/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [
-        "היכל התרבות מאיר ניצן"
-      ],
-      "productions": [
-        "מדונה – מופע מחווה"
-      ],
-      "categories": [
-        "music"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "r_h_1009_2130",
-          "title": "מדונה – מופע מחווה",
-          "date": "2026-10-09"
         }
       ],
       "usage_count": 1,
@@ -4743,45 +4705,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_82553bcfa3ee474822033389",
-      "url": "/events-preview/media-bank/cards/212a658066f96772bf50fde5.webp",
-      "origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/shishi-tarbut-_9.10_yair_540x320.jpg",
-      "source_url": "https://htrl.co.il/show/%D7%A9%D7%99%D7%A9%D7%99-%D7%AA%D7%A8%D7%91%D7%95%D7%AA-2/",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "unknown",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [
-        "יוסי יהושוע",
-        "יאיר גולן"
-      ],
-      "productions": [
-        "שישי תרבות"
-      ],
-      "categories": [
-        "lecture"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "r_h_1009_1100",
-          "title": "שישי תרבות",
-          "date": "2026-10-09"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_88f39d2ee5c85bdaaa1f640d",
       "url": "/events-preview/media-bank/cards/2c0d3cb09de352b261d08e87.webp",
       "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6584115c9e1e7143660626.jpg",
@@ -6362,78 +6285,6 @@
           "event_id": "htrl_20261126_2030_שושנה-–-מחזמר",
           "title": "שושנה – מחזמר",
           "date": "2026-11-26"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_f77774082eb82bed03a12abe",
-      "url": "/events-preview/media-bank/cards/e866586c3738080cc0d15471.webp",
-      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb655325fe30e7c476139512.jpg",
-      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A8%D7%98%D7%99%D7%A1%D7%99_%D7%9B%D7%A0%D7%99%D7%A1%D7%94_34",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "needs_review",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "כרטיסי כניסה"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_c804d32824c60d24528a",
-          "title": "כרטיסי כניסה",
-          "date": "2026-10-09"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
-      "media_id": "media_f855e5387c94ac0b0485e6ed",
-      "url": "/events-preview/media-bank/cards/cfdfe2329303fedf5babcb25.webp",
-      "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb658411088e3e7887550235.jpg",
-      "source_url": "https://yama.smarticket.co.il/%D7%9B%D7%A0%D7%99%D7%A1%D7%94_%D7%95%D7%A1%D7%99%D7%95%D7%A8_%D7%9E%D7%95%D7%93%D7%A8%D7%9A_%D7%9C%D7%A7%D7%94%D7%9C_%D7%94%D7%A8%D7%97%D7%91",
-      "credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "rights_status": "needs_review",
-      "status": "approved",
-      "verified": true,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "official_event_poster",
-      "artists": [],
-      "productions": [
-        "כניסה וסיור מודרך לקהל הרחב"
-      ],
-      "categories": [
-        "exhibition"
-      ],
-      "cities": [
-        "rishon-lezion"
-      ],
-      "events": [
-        {
-          "city": "rishon-lezion",
-          "event_id": "auto_ri_0ed9552bef467665f993",
-          "title": "כניסה וסיור מודרך לקהל הרחב",
-          "date": "2026-10-09"
         }
       ],
       "usage_count": 1,
@@ -8053,45 +7904,6 @@
       "reuse_similarity_floor": null
     },
     {
-      "media_id": "media_cda079a20047c064fb1f15f2",
-      "url": "https://handballisr.co.il/Pics/4a64ed01-5409-9b3e-ddb6-d0919331742d-99de9203-6569-f4f2-35df-2bdcbed09989ef-3ed57e78a-ed21ea7fdca.jpg",
-      "origin_url": null,
-      "source_url": "https://handballisr.co.il/team.asp?TId=358",
-      "credit": null,
-      "rights_status": "unknown",
-      "status": "needs_review",
-      "verified": false,
-      "publishable": true,
-      "ai_generated": false,
-      "strategy": "category_fallback",
-      "artists": [
-        "הפועל אשדוד",
-        "א.ס. SGS רמת השרון"
-      ],
-      "productions": [
-        "הפועל אשדוד - א.ס. SGS רמת השרון"
-      ],
-      "categories": [
-        "sport"
-      ],
-      "cities": [
-        "ashdod"
-      ],
-      "events": [
-        {
-          "city": "ashdod",
-          "event_id": "sport_20261009_hapoel_ashdod_m_handball",
-          "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
-          "date": "2026-10-09"
-        }
-      ],
-      "usage_count": 1,
-      "created_from": "event_dataset",
-      "review_reason": null,
-      "reuse_risk": "low",
-      "reuse_similarity_floor": null
-    },
-    {
       "media_id": "media_d4b807b6f546b5bbb55e946e",
       "url": "https://handballisr.co.il/Pics/da7be819-4b77-457d-6274-6180fa05ea43-de8d41eb-da8d-8b45-1345-a4c15024737f76-430677d03-516dd72827e.jpg",
       "origin_url": null,
@@ -8134,6 +7946,6 @@
     "quality": 80,
     "created": 0,
     "reused": 0,
-    "skipped": 157
+    "skipped": 153
   }
 }
