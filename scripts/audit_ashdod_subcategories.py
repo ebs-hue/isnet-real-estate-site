@@ -90,7 +90,7 @@ RULES["sport"]=[
  (r"כדורעף|volleyball","volleyball",0.98),
  (r"כדורסל|basketball","basketball",0.98),
  (r"כדורגל|football","football",0.98),
- (r"גלישה|סאפ|חתירה|ים","water-sports",0.90),
+ (r"גלישה|סאפ|חתירה","water-sports",0.90),
  (r"מרוץ|מירוץ|ריצת","running-races",0.95),
  (r"טורניר","tournaments",0.95)]
 RULES["community"] += [
