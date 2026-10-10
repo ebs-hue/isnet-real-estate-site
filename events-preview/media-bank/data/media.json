@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T12:01:10.273930+00:00",
+  "generated_at": "2026-10-10T12:23:06.481389+00:00",
   "stats": {
-    "events_scanned": 507,
-    "image_links": 398,
-    "unique_images": 173,
-    "approved": 151,
+    "events_scanned": 529,
+    "image_links": 400,
+    "unique_images": 175,
+    "approved": 153,
     "needs_review": 12,
     "rejected": 10
   },
@@ -4737,6 +4737,42 @@
       "reuse_similarity_floor": null
     },
     {
+      "media_id": "media_84b51c44b08a001021c29242",
+      "url": "https://static.tickchak.co.il/images/live/more/eventNew.jpg",
+      "origin_url": "https://live.tickchak.co.il/childrens-shows/event/eALNRkWRL?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "source_url": "https://live.tickchak.co.il/childrens-shows/event/eALNRkWRL?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "credit": null,
+      "rights_status": "source_board",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": null,
+      "artists": [],
+      "productions": [
+        "יובל המבולבל - בהצגה המסע אל הכוכב"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_2114148107c3e69b6130",
+          "title": "יובל המבולבל - בהצגה המסע אל הכוכב",
+          "date": "2026-10-12"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
       "media_id": "media_88f39d2ee5c85bdaaa1f640d",
       "url": "/events-preview/media-bank/cards/2c0d3cb09de352b261d08e87.webp",
       "origin_url": "https://yama.smarticket.co.il//uploads/thumbs/thmb6584115c9e1e7143660626.jpg",
@@ -6018,6 +6054,42 @@
           "event_id": "htrl_20261023_2130_אהבה-בהפתעה",
           "title": "אהבה בהפתעה",
           "date": "2026-10-23"
+        }
+      ],
+      "usage_count": 1,
+      "created_from": "event_dataset",
+      "review_reason": null,
+      "reuse_risk": "low",
+      "reuse_similarity_floor": null
+    },
+    {
+      "media_id": "media_e9f3452e2ce6c85a48abaedc",
+      "url": "https://static.tickchak.co.il/all/liveNew_090TUuJldJx2RtBHM5k3KRlXYh9WYKVXVu_Z90zZOJ2c5ZHNrIzN4IlZN90ZyR0QwMjY.webp_89fef85d-de78-4dda-9bcd-e4d8775d171e.webp",
+      "origin_url": "https://live.tickchak.co.il/shows/event/eZxQqBrlx?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "source_url": "https://live.tickchak.co.il/shows/event/eZxQqBrlx?live_ref=new-G90TQjlVWw9EZQBlV4M1MaRGcK5UWhRlN",
+      "credit": null,
+      "rights_status": "source_board",
+      "status": "approved",
+      "verified": true,
+      "publishable": true,
+      "ai_generated": false,
+      "strategy": null,
+      "artists": [],
+      "productions": [
+        "גיל שוחט מארח את שלמה בראבא מס' 1"
+      ],
+      "categories": [
+        "other"
+      ],
+      "cities": [
+        "rishon-lezion"
+      ],
+      "events": [
+        {
+          "city": "rishon-lezion",
+          "event_id": "auto_ri_1fc325a82eb7c703d9d2",
+          "title": "גיל שוחט מארח את שלמה בראבא מס' 1",
+          "date": "2026-10-26"
         }
       ],
       "usage_count": 1,
@@ -7985,6 +8057,6 @@
     "quality": 80,
     "created": 0,
     "reused": 0,
-    "skipped": 151
+    "skipped": 153
   }
 }

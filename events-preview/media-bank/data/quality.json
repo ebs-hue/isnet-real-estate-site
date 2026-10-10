@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T12:01:10.273930+00:00",
+  "generated_at": "2026-10-10T12:23:06.481389+00:00",
   "stats": {
-    "events_scanned": 507,
-    "image_links": 398,
-    "unique_images": 173,
-    "approved": 151,
+    "events_scanned": 529,
+    "image_links": 400,
+    "unique_images": 175,
+    "approved": 153,
     "needs_review": 12,
     "rejected": 10
   },
@@ -61,6 +61,12 @@
       "rejected": 0
     },
     "images.makore.co.il": {
+      "images": 2,
+      "approved": 2,
+      "review": 0,
+      "rejected": 0
+    },
+    "live.tickchak.co.il": {
       "images": 2,
       "approved": 2,
       "review": 0,
@@ -170,7 +176,7 @@
     }
   },
   "reusable_artists": 123,
-  "reusable_productions": 157,
+  "reusable_productions": 159,
   "artists_total": 198,
-  "productions_total": 272
+  "productions_total": 274
 }
