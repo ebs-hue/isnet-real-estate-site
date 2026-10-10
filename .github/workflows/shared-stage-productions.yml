@@ -1,0 +1,37 @@
+name: Build shared ISNET stage productions
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 6 * * *'
+  push:
+    paths:
+      - 'scripts/build_shared_stage_productions.py'
+      - '.github/workflows/shared-stage-productions.yml'
+permissions:
+  contents: write
+concurrency:
+  group: shared-stage-productions
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build read-only cross-city production candidates
+        run: python scripts/build_shared_stage_productions.py
+      - name: Commit candidate registry without publication
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/stage-productions-candidates.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update shared stage production candidate registry"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
