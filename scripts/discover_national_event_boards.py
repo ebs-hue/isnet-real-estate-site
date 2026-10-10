@@ -44,14 +44,17 @@ def main():
                     continue
                 context=clean(a.parent.get_text(" ",strip=True))[:350] if a.parent else title
                 city=next((slug for slug,terms in CITIES.items() if any(term in title or term in context for term in terms)),None)
-                if not city:
-                    continue
+                # Production information is city-independent: retain candidates even
+                # when the show is listed in another city or without a city label.
                 seen.add(href)
+                image=a.find("img")
+                candidate_image=urljoin(resp.url,image.get("src") or image.get("data-src") or "") if image else None
                 found.append({"source_id":s["id"],"city_hint":city,"source_url":href,
                               "title_candidate":title,"source_context":context,
+                              "image_candidate_url":candidate_image if candidate_image and candidate_image.startswith("https://") else None,
                               "status":"candidate_requires_title_city_date_and_venue_validation",
                               "image_rights_status":"unknown"})
-                if len(found)>=100:break
+                if len(found)>=250:break
         except Exception as exc:
             error=type(exc).__name__+": "+str(exc)[:180]
         results.extend(found)
