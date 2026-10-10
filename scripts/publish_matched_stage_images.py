@@ -61,9 +61,10 @@ def main():
         by_url=defaultdict(list)
         for row in options:by_url[row["image_url"]].append(row)
         chosen=sorted(options,key=lambda r:({"makore":5,"mevalim":4,"sababa-events":3,"tickchak-live":2,"tickchak-home":1}.get(r["source_id"],0)),reverse=True)[0]
-        # A conflicting image is a review case, not an automatic replacement.
+        # Board-first policy: use the image displayed by the highest-priority
+        # matched source. Different board artwork is not a publication blocker.
         if len(urls)>1:
-            blocked["conflicting_image_sources"]+=1;continue
+            blocked["different_board_images_source_priority_applied"]+=1
         desc=str(chosen.get("description") or "").strip()
         boilerplate=("מחפשים הופעות","באתר מבלים ריכזנו","כרטיסים במחירים מיוחדים",
                      "הופעה עם הלהיטים הגדולים!","הזמן עכשיו לפני שיגמרו","עוד הופעה בקטגוריית")
@@ -81,11 +82,11 @@ def main():
         event["image_origin_url"]=row["image_url"]
         event["image_source"]=row["source_id"]
         event["image_credit"]=row["source_id"]
-        event["image_verified"]=True # identity/match verification, not copyright license
+        event["image_verified"]=True # matched board listing, not copyright license
         event["image_publishable"]=True # publisher-approved usage policy; not rights verification
         event["image_rights_status"]="publisher_directed_reuse_license_unverified"
         event["image_represents_event"]=True
-        event["image_strategy"]="matched_original_stage_production"
+        event["image_strategy"]="national_board_displayed_image"
         event["thumbnail_ready"]=False
         # Replace machine-generated event descriptions only with substantive
         # production copy; do not replace manually locked editorial entries.
