@@ -28,6 +28,7 @@ on:
       - "Verify and cache Rishon event photos"
       - "Share Ashdod event UI with city editions"
       - "Daily city event intake"
+      - "Audit existing Ashdod event subcategories"
       - "Refresh Ashdod event source images"
       - "Enrich event content with AI"
     types: [completed]
