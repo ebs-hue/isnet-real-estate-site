@@ -686,10 +686,26 @@ function searchIntentLabel(intent){
   if(intent.age!=null)labels.push("לגיל "+intent.age);
   return labels.join(" · ");
 }
+function preciseSubcategoryIntent(query){
+  const q=hebrewSearchText(query);
+  if(/קונצרט/.test(q))return {category:"music",subcategory:"concerts",token:/קונצרט|תזמורת|סימפוני|פילהרמונ/};
+  if(/הצגת ילדי|הצגות ילדי|תיאטרונ ילדי/.test(q))return {category:"kids",subcategory:"kids-theatre",token:/הצג|תיאטרונ|מחז/};
+  if(/שעת סיפור/.test(q))return {category:"kids",subcategory:"story-time",token:/שעת סיפור/};
+  return null;
+}
+function matchesPreciseIntent(event,rule){
+  if(!rule)return true;
+  if(event.category!==rule.category)return false;
+  if(event.subcategory===rule.subcategory)return true;
+  if(event.subcategory)return false;
+  // Legacy records without a subtype: admit only explicit contextual title evidence.
+  return rule.token.test(hebrewSearchText(event.title||""));
+}
 function filtered(){
   const q=state.query.trim(),intent=q?parseSearchIntent(q):null;
   let arr=state.events.filter(e=>{
     if(isPersistentExhibition(e)&&state.category!=="exhibition")return false;
+    if(q && !matchesPreciseIntent(e,preciseSubcategoryIntent(q)))return false;
     if(q){
       // A new conversational query stands on its own; older quick/date/category selections
       // must not silently erase relevant recommendations.
