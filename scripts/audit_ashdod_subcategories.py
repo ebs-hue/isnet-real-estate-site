@@ -110,7 +110,8 @@ RULES["exhibition"] += [(r"פתיחת תערוכה","exhibition-opening",0.96),(
 PRIMARY_REVIEW=[
  ("theatre",r"הצגה (?:מבית|לילדים)|הצגת ילדים|הנסיכה והכתר|איילת מטיילת|רינת מטיילת","kids"),
  ("standup",r"קומדיה משפחתית|הצגה קומית","theatre"),
- # Do not infer an event category from an organizer or audience label such as “גדולות מהחיים”.]
+ # Organizers and audiences do not determine the event type.
+]
 
 def infer(event,valid,definitions):
     cat=event.get("category")
