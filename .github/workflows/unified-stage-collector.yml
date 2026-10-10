@@ -26,6 +26,10 @@ jobs:
       - run: pip install requests beautifulsoup4
       - name: Collect stage information for both cities in one pass
         run: python scripts/collect_unified_stage_events.py
+      - name: Replace auto-generated stage occurrences that appear in national boards
+        env:
+          STAGE_SWAP_FROM_BOARDS: YES_MATCHED_EVENTS_ONLY
+        run: python scripts/swap_our_stage_events_with_boards.py
       - name: Diagnose remaining unmatched event occurrences
         run: python scripts/diagnose_stage_coverage.py
       - name: Check source coverage for safe stage-board replacement
@@ -38,7 +42,7 @@ jobs:
         run: |
           git config user.name "isnet-events-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add events-preview/admin/data/unified-stage-events-ashdod-rishon.json events-preview/ashdod/data/events.json events-preview/admin/data/stage-image-publication-ashdod.json events-preview/admin/data/stage-rebuild-readiness.json events-preview/admin/data/stage-coverage-diagnostics.json
+          git add events-preview/admin/data/unified-stage-events-ashdod-rishon.json events-preview/ashdod/data/events.json events-preview/admin/data/stage-image-publication-ashdod.json events-preview/admin/data/stage-rebuild-readiness.json events-preview/admin/data/stage-coverage-diagnostics.json events-preview/admin/data/stage-board-swap-report.json events-preview/rishon-lezion/data/events.json
           if ! git diff --cached --quiet; then
             git commit -m "Collect stage candidates and publish verified Ashdod media"
             git pull --rebase origin main
