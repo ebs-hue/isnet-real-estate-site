@@ -65,7 +65,47 @@ def main():
             path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         report["cities"][city]={"replaced":len(replacement) if enabled else 0,"ready":len(replacement),
             "unmatched_originals_retained":ignored,"original_event_ids_preserved":True}
-    report["published"]=enabled and any(x["replaced"] for x in report["cities"].values())
+    # Import additional future occurrences, even when the source category is
+    # not present in our taxonomy. Preserve its exact label as source_category.
+    for city in ("ashdod","rishon-lezion"):
+        path=ROOT/f"events-preview/{city}/data/events.json"
+        data=json.loads(path.read_text(encoding="utf-8"))
+        seen={(normal(e.get("title")),str(e.get("start_date") or ""),str(e.get("start_time") or "")[:5])
+              for e in data.get("events",[])}
+        new=[];skipped=0
+        for (source_city,title,date),items in index.items():
+            if source_city!=city:continue
+            for group in [items]:
+                selected=sorted(group,key=lambda x:(bool(good_image(x.get("image_url"))),bool(good_copy(x.get("description"))),RANK.get(x.get("source_id"),0)),reverse=True)[0]
+                tm=str(selected.get("date_time") or "")[11:16]
+                key=(title,date,tm)
+                if key in seen:continue
+                if not selected.get("title") or not selected.get("venue") or not re.fullmatch(r"\d{2}:\d{2}",tm):
+                    skipped+=1;continue
+                raw=str(selected.get("category") or selected.get("source_category") or "מופעי במה").strip()
+                words=normal(selected["title"]+" "+raw)
+                cat=("standup" if "סטנד" in words else "kids" if any(w in words for w in ("ילדים","משפחה")) else
+                     "theatre" if any(w in words for w in ("הצגה","מחזמר","תיאטרון","קומדיה")) else "music")
+                image=selected.get("image_url") if good_image(selected.get("image_url")) else None
+                desc=good_copy(selected.get("description"))
+                uid=hashlib.sha256(("|".join([city,title,date,tm])).encode()).hexdigest()[:18]
+                new.append({"event_id":"board_"+uid,"title":html.unescape(selected["title"]),
+                    "city":"אשדוד" if city=="ashdod" else "ראשון לציון","category":cat,
+                    "source_category":raw,"start_date":date,"start_time":tm,
+                    "venue":html.unescape(selected["venue"]),"status":"active","description":desc,
+                    "series_description":desc,"image_url":image,"image_origin_url":image,
+                    "image_source":selected["source_id"],"image_verified":bool(image),
+                    "image_publishable":bool(image),"image_rights_status":"publisher_directed_reuse_license_unverified",
+                    "image_strategy":"national_board_displayed_image",
+                    "ticket_url":selected.get("tickets_url"),"purchase_url":selected.get("tickets_url"),
+                    "content_source_url":selected.get("source_url"),"source":"national_stage_boards"})
+                seen.add(key)
+        if enabled and new:
+            data["events"].extend(new)
+            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+        report["cities"][city]["new_imported"]=len(new) if enabled else 0
+        report["cities"][city]["invalid_source_rows_skipped"]=skipped
+    report["published"]=enabled and any(x["replaced"] or x.get("new_imported") for x in report["cities"].values())
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(report,ensure_ascii=False))
 if __name__=="__main__":main()
