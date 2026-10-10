@@ -122,7 +122,8 @@ async function load(){
     return (data.events||[]).map(e=>{
       const ed=editorialEntry(editorial,e.event_id);
       const video=e.youtube_id||(ed.video_verified===true&&ed.youtube_id)||artistVideoFor(e,shared)?.youtube_id||null;
-      const sourceCopy=Boolean(e.content_source_url&&e.description_manual_override!==true);\n      const description=sourceCopy?(e.series_description||e.description||ed.long_description||e.long_description||""):(ed.long_description||e.long_description||ed.short_pitch||e.series_description||e.description||"");
+      const sourceCopy=Boolean(e.content_source_url&&e.description_manual_override!==true);
+      const description=sourceCopy?(e.series_description||e.description||ed.long_description||e.long_description||""):(ed.long_description||e.long_description||ed.short_pitch||e.series_description||e.description||"");
       return {...e,_citySlug:city.slug,_cityBase:city.base,_description:description,_video:video,_issues:null};
     });
   }));
