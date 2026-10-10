@@ -67,7 +67,7 @@ def event_from_jsonld(obj,source_id,page):
       "image_url":urljoin(page,image) if isinstance(image,str) else None,
       "video_url":video if isinstance(video,str) else None,
       "tickets_url":offers.get("url") if isinstance(offers,dict) else None,
-      "category":None,"subcategory":None,"source_id":source_id,"source_url":obj.get("url") or page,
+      "category":None,"source_category":clean(obj.get("eventType") or obj.get("genre") or obj.get("additionalType")) or None,"subcategory":None,"source_id":source_id,"source_url":obj.get("url") or page,
       "extraction_method":"structured_event_data","publication_status":"candidate_review",
       "image_provenance":"external_ticket_listing_not_license"}
 
