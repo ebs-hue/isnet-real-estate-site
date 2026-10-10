@@ -1,12 +1,12 @@
 {
   "city": "אשדוד",
-  "generated_at": "2026-10-10T11:53:53Z",
+  "generated_at": "2026-10-10T13:26:37.336760+00:00",
   "window": {
     "from": "2026-10-10",
     "to": "2027-07-24"
   },
   "stats": {
-    "events": 324,
+    "events": 433,
     "other_category_remaining": 0,
     "seniors": 40,
     "tour_remaining": 0,
@@ -1617,6 +1617,34 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_1dcf9829ed11c785f43e",
+      "city": "אשדוד",
+      "title": "יובל סמו",
+      "description": "יובל סמו",
+      "start_date": "2026-10-10",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_70_20261010",
@@ -4025,6 +4053,34 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
+      "event_id": "auto_as_bec8a70a02a80e0595f2",
+      "city": "אשדוד",
+      "title": "מעשה בחמישה בלונים",
+      "description": "מעשה בחמישה בלונים",
+      "start_date": "2026-10-14",
+      "start_time": "17:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "הזקן והים",
       "description": null,
@@ -5167,6 +5223,34 @@
       "content_source_url": "https://live.tickchak.co.il/ashdod"
     },
     {
+      "event_id": "auto_as_cfed4e072833b5fb6935",
+      "city": "אשדוד",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "description": "אסף מור יוסף במופע סטנדאפ",
+      "start_date": "2026-10-15",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_42_20261015",
       "city": "אשדוד",
       "title": "נועה מנור",
@@ -5277,6 +5361,90 @@
       "series_description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
       "content_source_url": "https://live.tickchak.co.il/ashdod",
       "rich_content_status": "enriched"
+    },
+    {
+      "event_id": "auto_as_46fe1812e7425a600b29",
+      "city": "אשדוד",
+      "title": "נועה מנור",
+      "description": "נועה מנור",
+      "start_date": "2026-10-15",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_f486a4102b8579046b1f",
+      "city": "אשדוד",
+      "title": "נועה מנור במופע סטנדאפ",
+      "description": "נועה מנור במופע סטנדאפ",
+      "start_date": "2026-10-15",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_edae801d075d3bb259f5",
+      "city": "אשדוד",
+      "title": "נועה מנור במופע סטנדאפ",
+      "description": "נועה מנור במופע סטנדאפ",
+      "start_date": "2026-10-15",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -5912,6 +6080,146 @@
       "thumbnail_strategy": "media_bank_default"
     },
     {
+      "event_id": "auto_as_aa8e59fcfa995171e44f",
+      "city": "אשדוד",
+      "title": "דרושה עוזרת",
+      "description": "דרושה עוזרת",
+      "start_date": "2026-10-17",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_9e06e2f41fbfca466c00",
+      "city": "אשדוד",
+      "title": "דרושה עוזרת - קומדיה מטורפת",
+      "description": "דרושה עוזרת - קומדיה מטורפת",
+      "start_date": "2026-10-17",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_6b6df9293f8af2e4e31e",
+      "city": "אשדוד",
+      "title": "שלישיית פוש אפ",
+      "description": "שלישיית פוש אפ",
+      "start_date": "2026-10-17",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_3c38513554a89a358eeb",
+      "city": "אשדוד",
+      "title": "שלישיית פוש אפ - מופע סטנדאפ",
+      "description": "שלישיית פוש אפ - מופע סטנדאפ",
+      "start_date": "2026-10-17",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_8c9f185e166296395601",
+      "city": "אשדוד",
+      "title": "שלישיית פוש אפ - מופע סטנדאפ",
+      "description": "שלישיית פוש אפ - מופע סטנדאפ",
+      "start_date": "2026-10-17",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_44_20261017",
       "city": "אשדוד",
       "title": "אסף יצחקי",
@@ -6022,6 +6330,34 @@
       "series_description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
       "content_source_url": "https://live.tickchak.co.il/ashdod",
       "rich_content_status": "enriched"
+    },
+    {
+      "event_id": "auto_as_c87e389c697d6a6bc065",
+      "city": "אשדוד",
+      "title": "אסף יצחקי",
+      "description": "אסף יצחקי",
+      "start_date": "2026-10-17",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -6806,6 +7142,77 @@
       "subcategory_review_confidence": 0.98
     },
     {
+      "event_id": "sport_20261019_ironi_ashdod_football",
+      "city": "אשדוד",
+      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
+      "description": "משחק בית של מכבי עירוני אשדוד. שעת המשחק והמגרש הסופי טרם פורסמו במקור הרשמי.",
+      "start_date": "2026-10-19",
+      "end_date": null,
+      "start_time": null,
+      "end_time": null,
+      "venue": "אשדוד - המגרש והשעה יעודכנו",
+      "address": null,
+      "district": null,
+      "category": "sport",
+      "audiences": [
+        "כללי"
+      ],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": null,
+      "image_url": "assets/defaults/sport.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_credit": "איור מייצג: ISNET",
+      "image_publishable": true,
+      "organizer": "מכבי עירוני אשדוד",
+      "duration_minutes": null,
+      "sources": [
+        {
+          "name": "ההתאחדות לכדורגל בישראל",
+          "url": "https://www.football.org.il/team-details/team-games/?season_id=28&team_id=6922",
+          "source_type": "official",
+          "observed_at": "2026-10-05T11:32:00+03:00"
+        }
+      ],
+      "observed_at": "2026-10-05T11:32:00+03:00",
+      "last_verified_at": "2026-10-05T11:32:00+03:00",
+      "status": "active",
+      "quality_flags": [
+        "official_home_fixture",
+        "purchase_details_pending",
+        "official_image_pending"
+      ],
+      "image_origin_url": "assets/defaults/sport.svg",
+      "purchase_url": null,
+      "purchase_phone": null,
+      "purchase_source": null,
+      "image_verified": true,
+      "image_strategy": "super_editor_representative_fallback",
+      "thumbnail_url": null,
+      "thumbnail_ready": false,
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "category_fallback",
+      "sport_branch": "כדורגל",
+      "home_team": "מכבי עירוני אשדוד",
+      "away_team": "שמשון תל אביב",
+      "competition": "ליגה א׳",
+      "is_home_game": true,
+      "representative_team": true,
+      "media_status": "waiting_for_content",
+      "image_rights_status": "owned_system_asset",
+      "content_ready_for_media": false,
+      "content_enrichment_status": "model_error",
+      "content_enrichment_retry_after": "2026-10-10",
+      "content_enrichment_version": 11,
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_error": "UnidentifiedImageError"
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -6936,6 +7343,62 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_d173eacfbcbf3c3be38a",
+      "city": "אשדוד",
+      "title": "מיקי - הבית של יעל",
+      "description": "מיקי - הבית של יעל",
+      "start_date": "2026-10-19",
+      "start_time": "17:30",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_307392a0665b3ac7255d",
+      "city": "אשדוד",
+      "title": "מיקי - הבית של יעל",
+      "description": "מיקי - הבית של יעל",
+      "start_date": "2026-10-19",
+      "start_time": "17:30",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_9_20261019",
@@ -7282,77 +7745,6 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "ValueError"
-    },
-    {
-      "event_id": "sport_20261019_ironi_ashdod_football",
-      "city": "אשדוד",
-      "title": "מכבי עירוני אשדוד - שמשון תל אביב",
-      "description": "משחק בית של מכבי עירוני אשדוד. שעת המשחק והמגרש הסופי טרם פורסמו במקור הרשמי.",
-      "start_date": "2026-10-19",
-      "end_date": null,
-      "start_time": null,
-      "end_time": null,
-      "venue": "אשדוד - המגרש והשעה יעודכנו",
-      "address": null,
-      "district": null,
-      "category": "sport",
-      "audiences": [
-        "כללי"
-      ],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": null,
-      "image_url": "assets/defaults/sport.svg",
-      "image_source": "ISNET internal representative artwork",
-      "image_credit": "איור מייצג: ISNET",
-      "image_publishable": true,
-      "organizer": "מכבי עירוני אשדוד",
-      "duration_minutes": null,
-      "sources": [
-        {
-          "name": "ההתאחדות לכדורגל בישראל",
-          "url": "https://www.football.org.il/team-details/team-games/?season_id=28&team_id=6922",
-          "source_type": "official",
-          "observed_at": "2026-10-05T11:32:00+03:00"
-        }
-      ],
-      "observed_at": "2026-10-05T11:32:00+03:00",
-      "last_verified_at": "2026-10-05T11:32:00+03:00",
-      "status": "active",
-      "quality_flags": [
-        "official_home_fixture",
-        "purchase_details_pending",
-        "official_image_pending"
-      ],
-      "image_origin_url": "assets/defaults/sport.svg",
-      "purchase_url": null,
-      "purchase_phone": null,
-      "purchase_source": null,
-      "image_verified": true,
-      "image_strategy": "super_editor_representative_fallback",
-      "thumbnail_url": null,
-      "thumbnail_ready": false,
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "category_fallback",
-      "sport_branch": "כדורגל",
-      "home_team": "מכבי עירוני אשדוד",
-      "away_team": "שמשון תל אביב",
-      "competition": "ליגה א׳",
-      "is_home_game": true,
-      "representative_team": true,
-      "media_status": "waiting_for_content",
-      "image_rights_status": "owned_system_asset",
-      "content_ready_for_media": false,
-      "content_enrichment_status": "model_error",
-      "content_enrichment_retry_after": "2026-10-10",
-      "content_enrichment_version": 11,
-      "image_represents_event": false,
-      "image_represents_category": true,
-      "thumbnail_error": "UnidentifiedImageError"
     },
     {
       "city": "אשדוד",
@@ -7813,6 +8205,62 @@
       "subcategory": "kids-theatre",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.95
+    },
+    {
+      "event_id": "auto_as_650727db56e4048b5341",
+      "city": "אשדוד",
+      "title": "היפהפיה הנרדמת - הבלט הישראלי",
+      "description": "היפהפיה הנרדמת - הבלט הישראלי",
+      "start_date": "2026-10-20",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_9a3f5cf3d245b4a51b19",
+      "city": "אשדוד",
+      "title": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+      "description": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
+      "start_date": "2026-10-20",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -8579,6 +9027,34 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_5a6dd84cfa8c6208b96a",
+      "city": "אשדוד",
+      "title": "מוטי אהרונוביץ",
+      "description": "מוטי אהרונוביץ",
+      "start_date": "2026-10-22",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_47_20261022",
       "city": "אשדוד",
       "title": "מוטי אהרונוביץ במופע סטנדאפ",
@@ -8720,6 +9196,34 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_afcf9f345c9621ec4473",
+      "city": "אשדוד",
+      "title": "מני עוזרי",
+      "description": "מני עוזרי",
+      "start_date": "2026-10-22",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_10_20261022",
       "city": "אשדוד",
       "title": "מופע סטנד אפ - שלומי קוריאט",
@@ -8834,6 +9338,90 @@
       "series_description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
       "content_source_url": "https://live.tickchak.co.il/ashdod",
       "rich_content_status": "enriched"
+    },
+    {
+      "event_id": "auto_as_5593b726d52a1cc21f24",
+      "city": "אשדוד",
+      "title": "שלומי קוריאט",
+      "description": "שלומי קוריאט",
+      "start_date": "2026-10-22",
+      "start_time": "21:30",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_886882cb1ef337e38a9c",
+      "city": "אשדוד",
+      "title": "שלומי קוריאט במופע סטנדאפ",
+      "description": "שלומי קוריאט במופע סטנדאפ",
+      "start_date": "2026-10-22",
+      "start_time": "21:30",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_19625b1fab5e0c9f921a",
+      "city": "אשדוד",
+      "title": "שלומי קוריאט במופע סטנדאפ",
+      "description": "שלומי קוריאט במופע סטנדאפ",
+      "start_date": "2026-10-22",
+      "start_time": "21:30",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -9300,6 +9888,34 @@
       "subcategory": "standup",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_e0f829339f9898f04c0f",
+      "city": "אשדוד",
+      "title": "שלום אסייג",
+      "description": "שלום אסייג",
+      "start_date": "2026-10-24",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -10773,126 +11389,32 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_56f0c824a6355e79022f",
       "city": "אשדוד",
-      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
-      "description": null,
-      "start_date": "2026-10-30",
-      "end_date": null,
-      "start_time": "10:00",
-      "end_time": null,
-      "venue": "מוזאון אשדוד לאמנות",
-      "address": "הגדוד העברי 12, אשדוד",
-      "district": null,
-      "category": "exhibition",
-      "audiences": [],
-      "age_min": null,
-      "age_max": null,
-      "price_min_ils": null,
-      "price_max_ils": null,
-      "is_free": null,
-      "ticket_status": "unknown",
-      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
-      "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
-      "purchase_phone": null,
-      "purchase_source": "official_listing",
-      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
-      "image_source": "https://ashdod.smarticket.co.il/",
-      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
-      "image_publishable": true,
-      "image_verified": true,
-      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
-      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
-      "thumbnail_ready": true,
-      "organizer": null,
-      "duration_minutes": 240,
+      "title": "בן בן ברוך",
+      "description": "בן בן ברוך",
+      "start_date": "2026-10-29",
+      "start_time": "20:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
       "sources": [
         {
-          "name": "ashdod_smarticket",
-          "url": "https://ashdod.smarticket.co.il/",
-          "source_type": "ticketing",
-          "observed_at": "2026-10-06T12:23:03Z"
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
         }
       ],
-      "observed_at": "2026-10-08T05:28:07Z",
-      "last_verified_at": "2026-10-08T05:28:07Z",
       "status": "active",
       "quality_flags": [
-        "automated_official_listing"
-      ],
-      "event_id": "auto_as_d6f20b5b24339863b497",
-      "detail_checked_at": "2026-10-06",
-      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
-      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
-      "details_verified": true,
-      "venue_institution_id": "museum_art_ashdod",
-      "venue_phone": "08-8545180",
-      "venue_website": "https://www.ashdodartmuseum.org.il/",
-      "address_source": "verified_institution_registry",
-      "contact_phone": "08-8545180",
-      "contact_email": "AAM@ironit.org.il",
-      "image_rights_status": "verified_official_source",
-      "image_candidates": [
-        {
-          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
-          "source_url": "https://ashdod.smarticket.co.il/",
-          "rights_status": "needs_review"
-        }
-      ],
-      "image_strategy": "central_media_bank_reuse",
-      "content_ready_for_media": true,
-      "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
-      "content_enrichment_model": "gpt-5-mini",
-      "content_enrichment_version": 11,
-      "content_origin": "ai_enriched",
-      "content_enriched_at": "2026-10-07T16:34:37Z",
-      "missing_information": [
-        "תאריכי סיום של התערוכות",
-        "פירוט מחירי כרטיסים לפי קטגוריות (מילואים/מבוגרים/סטודנטים/ילדים)",
-        "האם נדרשת הרשמה מראש או כרטיס מקדים לאירוע",
-        "מידע על סיורים מודרכים, הרצאות או אירועי פתיחה נלווים",
-        "נתוני נגישות למבקרים (נגישות לנכים, תרגום שפות, כתוביות בווידאו)",
-        "פרטי קשר רשמיים של המארגנים/המוזיאון והנחיות חנייה/הגעה"
-      ],
-      "event_summary": "מוזיאון אשדוד לאמנות פותח מקבץ תערוכות חדש המציג אמנות ישראלית עכשווית, כולל תערוכת יחיד של עמית קבסה ותצוגה של עבודות וידאו מאוסף המוזיאון. האירוע מעניק הזדמנות לראות עבודה חדשה של קבסה ואת התערוכה המוזיאלית הראשונה של ההדס סט, שמוצגת תחת הכותרת \"Joy in Repetition\". ההצגה מתמקדת בציור מופשט רחב היקף ובמיצבי וידאו שמנסים לחשוף תהליכים מרכזיים בתרבות הישראלית העכשווית.",
-      "short_pitch": "בואו לראות מקבץ תערוכות חדש במוזיאון אשדוד לאמנות: תערוכת יחיד גדולה של עמית קבסה באוצרות יעל כץ בן שלום, התערוכה המוזיאלית הראשונה של הדס סט \"Joy in Repetition\" ותצוגה של עבודות וידאו מהאוסף. הכניסה ביום הפתיחה ב־30.10.2026 בין השעות 10:00–14:00, טווח מחירים: 0–75 ₪.",
-      "long_description": "מוזיאון אשדוד לאמנות יפתח ב־30 באוקטובר 2026 מקבץ תערוכות המציע מבט רב־תחומי על אמנות ישראלית עכשווית. בין ההצגות הבולטות: הדס סט עם התערוכה \"Joy in Repetition\" — זו, לפי המידע, התערוכה המוזיאלית הראשונה שלה; סט מוזכרת גם כזוכת פרס ישראל מקוב ע\"ש נירה רעייתו לשנת 2021. הצייר עמית קבסה מציג תערוכת יחיד באוצרות יעל כץ בן שלום תחת הכותרת \"כשאני לא מצייר אני הולך לחפור\"; גוף העבודות החדש מתואר כציור מופשט רחב היקף שמדגיש צבע, חומר ומרחב ומציע חוויה חזותית סוחפת. במקביל תוצג תצוגת עבודות וידאו מהאוסף של המוזיאון — עבודות שהוצגו בעבר בעשור האחרון ומטרתן להאיר תהליכים מרכזיים בתרבות הישראלית העכשווית. האירוע פתוח לציבור ביום שישי, 30/10/2026, 10:00–14:00; טווח מחירים המצויין הוא 0–75 ₪. לפרטים על כרטיסים והזמנות יש לפנות למוזיאון או לאתר הרכישה.",
-      "event_type": "תערוכות",
-      "participants": [
-        "הדס סט",
-        "עמית קבסה",
-        "יעל כץ בן שלום",
-        "מוזיאון אשדוד לאמנות"
-      ],
-      "target_audience": [
-        "חובבי אמנות עכשווית",
-        "מבקרים מוזיאליים",
-        "סטודנטים לאמנות ואנשי חינוך לאמנות"
-      ],
-      "visual_keywords": [
-        "ציור מופשט רחב היקף",
-        "צבעים עזים",
-        "מרקם חומרי",
-        "חלל גלריה מואר",
-        "מסכי וידאו/הקרנות",
-        "קנבס גדול",
-        "מיצבים ובמות תצוגה"
-      ],
-      "image_brief": "צילום תקריב רחב של חלל תצוגה במוזיאון: על קיר גדול תלוי ציור מופשט רחב היקף עם צבעים חזקים ומרקמים בולטים, ובמרחק קצר בחדר סמוך מופיע מסך הקרנה או פינה מואפלת המציגה עבודה וידאו. התאורה המוזיאלית מדגישה את עובי הצבע ואת תחושת המרחב; אין טקסט משולב בתמונה, ומתמקדים באווירת התערוכה ובקנה המידה של העבודות.",
-      "media_status": "needs_image_research",
-      "content_enrichment_status": "model_error",
-      "thumbnail_ratio": "4:3",
-      "thumbnail_strategy": "landscape_cover",
-      "content_enrichment_retry_after": "2026-10-10",
-      "image_quality_tier": "topical_fallback_only",
-      "image_policy_version": 2,
-      "media_bank_id": "media_ec1c4894f557c3316c373766",
-      "media_bank_match_type": "artist",
-      "media_bank_match_key": "הדס סט",
-      "thumbnail_error": "ValueError",
-      "thumbnail_source": "central_media_bank_card",
-      "subcategory": "museums-galleries",
-      "subcategory_review_status": "auto_classified_from_verified_rule",
-      "subcategory_review_confidence": 0.97
+        "national_board_import"
+      ]
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -11035,6 +11557,128 @@
       "image_represents_event": false,
       "image_represents_category": true,
       "thumbnail_error": "UnidentifiedImageError"
+    },
+    {
+      "city": "אשדוד",
+      "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
+      "description": null,
+      "start_date": "2026-10-30",
+      "end_date": null,
+      "start_time": "10:00",
+      "end_time": null,
+      "venue": "מוזאון אשדוד לאמנות",
+      "address": "הגדוד העברי 12, אשדוד",
+      "district": null,
+      "category": "exhibition",
+      "audiences": [],
+      "age_min": null,
+      "age_max": null,
+      "price_min_ils": null,
+      "price_max_ils": null,
+      "is_free": null,
+      "ticket_status": "unknown",
+      "ticket_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
+      "purchase_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
+      "purchase_phone": null,
+      "purchase_source": "official_listing",
+      "image_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "image_source": "https://ashdod.smarticket.co.il/",
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_origin_url": "https://ashdod.smarticket.co.il/uploads/thumbs/thmb6ab4d0bac8dd5346966479.png",
+      "thumbnail_url": "/events-preview/media-bank/cards/3036d44df540d14a17a10c2a.webp",
+      "thumbnail_ready": true,
+      "organizer": null,
+      "duration_minutes": 240,
+      "sources": [
+        {
+          "name": "ashdod_smarticket",
+          "url": "https://ashdod.smarticket.co.il/",
+          "source_type": "ticketing",
+          "observed_at": "2026-10-06T12:23:03Z"
+        }
+      ],
+      "observed_at": "2026-10-08T05:28:07Z",
+      "last_verified_at": "2026-10-08T05:28:07Z",
+      "status": "active",
+      "quality_flags": [
+        "automated_official_listing"
+      ],
+      "event_id": "auto_as_d6f20b5b24339863b497",
+      "detail_checked_at": "2026-10-06",
+      "ticket_provider": "החברה העירונית לתרבות ופנאי באשדוד",
+      "detail_source_url": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
+      "details_verified": true,
+      "venue_institution_id": "museum_art_ashdod",
+      "venue_phone": "08-8545180",
+      "venue_website": "https://www.ashdodartmuseum.org.il/",
+      "address_source": "verified_institution_registry",
+      "contact_phone": "08-8545180",
+      "contact_email": "AAM@ironit.org.il",
+      "image_rights_status": "verified_official_source",
+      "image_candidates": [
+        {
+          "url": "https://ashdod.smarticket.co.il/uploads/no_pic.png",
+          "source_url": "https://ashdod.smarticket.co.il/",
+          "rights_status": "needs_review"
+        }
+      ],
+      "image_strategy": "central_media_bank_reuse",
+      "content_ready_for_media": true,
+      "content_enrichment_source": "https://ashdod.smarticket.co.il/כניסה_לתערוכות_מוזיאון_אשדוד_לאמנות/?id=17537",
+      "content_enrichment_model": "gpt-5-mini",
+      "content_enrichment_version": 11,
+      "content_origin": "ai_enriched",
+      "content_enriched_at": "2026-10-07T16:34:37Z",
+      "missing_information": [
+        "תאריכי סיום של התערוכות",
+        "פירוט מחירי כרטיסים לפי קטגוריות (מילואים/מבוגרים/סטודנטים/ילדים)",
+        "האם נדרשת הרשמה מראש או כרטיס מקדים לאירוע",
+        "מידע על סיורים מודרכים, הרצאות או אירועי פתיחה נלווים",
+        "נתוני נגישות למבקרים (נגישות לנכים, תרגום שפות, כתוביות בווידאו)",
+        "פרטי קשר רשמיים של המארגנים/המוזיאון והנחיות חנייה/הגעה"
+      ],
+      "event_summary": "מוזיאון אשדוד לאמנות פותח מקבץ תערוכות חדש המציג אמנות ישראלית עכשווית, כולל תערוכת יחיד של עמית קבסה ותצוגה של עבודות וידאו מאוסף המוזיאון. האירוע מעניק הזדמנות לראות עבודה חדשה של קבסה ואת התערוכה המוזיאלית הראשונה של ההדס סט, שמוצגת תחת הכותרת \"Joy in Repetition\". ההצגה מתמקדת בציור מופשט רחב היקף ובמיצבי וידאו שמנסים לחשוף תהליכים מרכזיים בתרבות הישראלית העכשווית.",
+      "short_pitch": "בואו לראות מקבץ תערוכות חדש במוזיאון אשדוד לאמנות: תערוכת יחיד גדולה של עמית קבסה באוצרות יעל כץ בן שלום, התערוכה המוזיאלית הראשונה של הדס סט \"Joy in Repetition\" ותצוגה של עבודות וידאו מהאוסף. הכניסה ביום הפתיחה ב־30.10.2026 בין השעות 10:00–14:00, טווח מחירים: 0–75 ₪.",
+      "long_description": "מוזיאון אשדוד לאמנות יפתח ב־30 באוקטובר 2026 מקבץ תערוכות המציע מבט רב־תחומי על אמנות ישראלית עכשווית. בין ההצגות הבולטות: הדס סט עם התערוכה \"Joy in Repetition\" — זו, לפי המידע, התערוכה המוזיאלית הראשונה שלה; סט מוזכרת גם כזוכת פרס ישראל מקוב ע\"ש נירה רעייתו לשנת 2021. הצייר עמית קבסה מציג תערוכת יחיד באוצרות יעל כץ בן שלום תחת הכותרת \"כשאני לא מצייר אני הולך לחפור\"; גוף העבודות החדש מתואר כציור מופשט רחב היקף שמדגיש צבע, חומר ומרחב ומציע חוויה חזותית סוחפת. במקביל תוצג תצוגת עבודות וידאו מהאוסף של המוזיאון — עבודות שהוצגו בעבר בעשור האחרון ומטרתן להאיר תהליכים מרכזיים בתרבות הישראלית העכשווית. האירוע פתוח לציבור ביום שישי, 30/10/2026, 10:00–14:00; טווח מחירים המצויין הוא 0–75 ₪. לפרטים על כרטיסים והזמנות יש לפנות למוזיאון או לאתר הרכישה.",
+      "event_type": "תערוכות",
+      "participants": [
+        "הדס סט",
+        "עמית קבסה",
+        "יעל כץ בן שלום",
+        "מוזיאון אשדוד לאמנות"
+      ],
+      "target_audience": [
+        "חובבי אמנות עכשווית",
+        "מבקרים מוזיאליים",
+        "סטודנטים לאמנות ואנשי חינוך לאמנות"
+      ],
+      "visual_keywords": [
+        "ציור מופשט רחב היקף",
+        "צבעים עזים",
+        "מרקם חומרי",
+        "חלל גלריה מואר",
+        "מסכי וידאו/הקרנות",
+        "קנבס גדול",
+        "מיצבים ובמות תצוגה"
+      ],
+      "image_brief": "צילום תקריב רחב של חלל תצוגה במוזיאון: על קיר גדול תלוי ציור מופשט רחב היקף עם צבעים חזקים ומרקמים בולטים, ובמרחק קצר בחדר סמוך מופיע מסך הקרנה או פינה מואפלת המציגה עבודה וידאו. התאורה המוזיאלית מדגישה את עובי הצבע ואת תחושת המרחב; אין טקסט משולב בתמונה, ומתמקדים באווירת התערוכה ובקנה המידה של העבודות.",
+      "media_status": "needs_image_research",
+      "content_enrichment_status": "model_error",
+      "thumbnail_ratio": "4:3",
+      "thumbnail_strategy": "landscape_cover",
+      "content_enrichment_retry_after": "2026-10-10",
+      "image_quality_tier": "topical_fallback_only",
+      "image_policy_version": 2,
+      "media_bank_id": "media_ec1c4894f557c3316c373766",
+      "media_bank_match_type": "artist",
+      "media_bank_match_key": "הדס סט",
+      "thumbnail_error": "ValueError",
+      "thumbnail_source": "central_media_bank_card",
+      "subcategory": "museums-galleries",
+      "subcategory_review_status": "auto_classified_from_verified_rule",
+      "subcategory_review_confidence": 0.97
     },
     {
       "city": "אשדוד",
@@ -11223,6 +11867,62 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_dd90fee0cf5fa24af5b83489",
       "content_enrichment_version": 11
+    },
+    {
+      "event_id": "auto_as_614c3ee4ec69d9bf5e5c",
+      "city": "אשדוד",
+      "title": "עומר בורשטיין",
+      "description": "עומר בורשטיין",
+      "start_date": "2026-10-31",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_46780a2f28bdea6d1a40",
+      "city": "אשדוד",
+      "title": "עומר בורשטיין",
+      "description": "עומר בורשטיין",
+      "start_date": "2026-10-31",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -12433,6 +13133,62 @@
       "rich_content_status": "enriched"
     },
     {
+      "event_id": "auto_as_8d899b9358eb2e48489e",
+      "city": "אשדוד",
+      "title": "פאטמה הסטנדאפיסטית הבדואית",
+      "description": "פאטמה הסטנדאפיסטית הבדואית",
+      "start_date": "2026-11-03",
+      "start_time": "20:30",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_c5cfa403e54c71516354",
+      "city": "אשדוד",
+      "title": "פאטמה הסטנדאפיסטית הבדואית",
+      "description": "פאטמה הסטנדאפיסטית הבדואית",
+      "start_date": "2026-11-03",
+      "start_time": "20:30",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -13168,6 +13924,62 @@
       "content_source_url": "https://live.tickchak.co.il/ashdod"
     },
     {
+      "event_id": "auto_as_e35cb8f03fd93ea52d52",
+      "city": "אשדוד",
+      "title": "תמיר בוסקילה במופע סטנדאפ",
+      "description": "תמיר בוסקילה במופע סטנדאפ",
+      "start_date": "2026-11-05",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_fa8970a7269c724ec8b2",
+      "city": "אשדוד",
+      "title": "תמיר בוסקילה במופע סטנדאפ",
+      "description": "תמיר בוסקילה במופע סטנדאפ",
+      "start_date": "2026-11-05",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -13411,6 +14223,34 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_df26442ee7c067d2c4a6",
+      "city": "אשדוד",
+      "title": "רותם אבוהב",
+      "description": "רותם אבוהב",
+      "start_date": "2026-11-07",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -13804,6 +14644,34 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_1df14e61d64fecd463b9",
+      "city": "אשדוד",
+      "title": "אייל חדד",
+      "description": "אייל חדד",
+      "start_date": "2026-11-09",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
       "description": null,
@@ -14183,6 +15051,34 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_e5dd6cfdb4ead288132a",
+      "city": "אשדוד",
+      "title": "הפיל שרצה להיות הכי",
+      "description": "הפיל שרצה להיות הכי",
+      "start_date": "2026-11-10",
+      "start_time": "17:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_75_20261110",
@@ -15053,6 +15949,90 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_2812e26e854be1e0b5ee",
+      "city": "אשדוד",
+      "title": "כספיון - שעת סיפור תיאטרלית",
+      "description": "כספיון - שעת סיפור תיאטרלית",
+      "start_date": "2026-11-14",
+      "start_time": "11:00",
+      "venue": "סינמה סיטי אשדוד - אולם 14 אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_30406ba7efe0bf0754f2",
+      "city": "אשדוד",
+      "title": "כספיון - שעת סיפור תיאטרלית",
+      "description": "כספיון - שעת סיפור תיאטרלית",
+      "start_date": "2026-11-14",
+      "start_time": "11:00",
+      "venue": "סינמה סיטי אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_6ff3dee8745d5c20a563",
+      "city": "אשדוד",
+      "title": "סתיו פרחי במופע סטנדאפ",
+      "description": "סתיו פרחי במופע סטנדאפ",
+      "start_date": "2026-11-14",
+      "start_time": "21:00",
+      "venue": "נאפו בר אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "עופרה",
       "description": null,
@@ -15166,6 +16146,90 @@
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00",
       "thumbnail_error": "UnidentifiedImageError"
+    },
+    {
+      "event_id": "auto_as_916f842d9c95e5a0a32c",
+      "city": "אשדוד",
+      "title": "עפרה - המחזמר",
+      "description": "עפרה - המחזמר",
+      "start_date": "2026-11-14",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_eb7ba0d047d3c9b1e354",
+      "city": "אשדוד",
+      "title": "עפרה - המחזמר על עופרה חזה",
+      "description": "עפרה - המחזמר על עופרה חזה",
+      "start_date": "2026-11-14",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_16fff3bcf8d32c312e8a",
+      "city": "אשדוד",
+      "title": "עפרה - מחזמר מרהיב על עפרה חזה",
+      "description": "עפרה - מחזמר מרהיב על עפרה חזה",
+      "start_date": "2026-11-14",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -15905,6 +16969,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_9f171b38443c970d3e5b",
+      "city": "אשדוד",
+      "title": "החולה ההודי - תיאטרון הקאמרי",
+      "description": "החולה ההודי - תיאטרון הקאמרי",
+      "start_date": "2026-11-16",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -16366,6 +17458,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_30ec2ea30430b22683d4",
+      "city": "אשדוד",
+      "title": "החולה ההודי - תיאטרון הקאמרי",
+      "description": "החולה ההודי - תיאטרון הקאמרי",
+      "start_date": "2026-11-17",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -16736,6 +17856,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_18bee5b9934246f7f833",
+      "city": "אשדוד",
+      "title": "החולה ההודי - תאטרון הקאמרי",
+      "description": "החולה ההודי - תאטרון הקאמרי",
+      "start_date": "2026-11-18",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -16985,6 +18133,62 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_8f297f8b91e325728d628397",
       "content_enrichment_retry_after": "2026-10-10"
+    },
+    {
+      "event_id": "auto_as_74f83a3ec2c7e4c91806",
+      "city": "אשדוד",
+      "title": "החולה ההודי - תיאטרון הקאמרי",
+      "description": "החולה ההודי - תיאטרון הקאמרי",
+      "start_date": "2026-11-19",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_f81eb0c9a8e90adbd5ee",
+      "city": "אשדוד",
+      "title": "דניאל חן",
+      "description": "דניאל חן",
+      "start_date": "2026-11-19",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -17363,6 +18567,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_937629d0f9bb1089b498",
+      "city": "אשדוד",
+      "title": "החולה ההודי - תיאטרון הקאמרי",
+      "description": "החולה ההודי - תיאטרון הקאמרי",
+      "start_date": "2026-11-21",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_59_20261121",
       "city": "אשדוד",
       "title": "אורי חזקיה",
@@ -17429,6 +18661,34 @@
       "subcategory": "standup",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_c03538b29ade1f797872",
+      "city": "אשדוד",
+      "title": "אורי חזקיה",
+      "description": "אורי חזקיה",
+      "start_date": "2026-11-21",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -18561,6 +19821,62 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_2b409db244e477e5b535",
+      "city": "אשדוד",
+      "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+      "description": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+      "start_date": "2026-11-25",
+      "start_time": "17:30",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_46982c8acb5b20d5ba37",
+      "city": "אשדוד",
+      "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+      "description": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
+      "start_date": "2026-11-25",
+      "start_time": "17:30",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -18683,6 +19999,34 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_a79566b08bbf1186ea2c",
+      "city": "אשדוד",
+      "title": "יונתן ברק",
+      "description": "יונתן ברק",
+      "start_date": "2026-11-26",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_61_20261126",
@@ -18878,6 +20222,34 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_70ad208baa633226ebb1",
+      "city": "אשדוד",
+      "title": "גיורא זינגר",
+      "description": "גיורא זינגר",
+      "start_date": "2026-11-27",
+      "start_time": "22:00",
+      "venue": "מתנ&#039;&#039;ס דיונה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "description": null,
@@ -18999,6 +20371,90 @@
       "subcategory": "museums-galleries",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_a265061310cae78ec803",
+      "city": "אשדוד",
+      "title": "BLACK & WHITE. LIVE CINEMA",
+      "description": "BLACK & WHITE. LIVE CINEMA",
+      "start_date": "2026-11-28",
+      "start_time": "20:00",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_f2ae2e04eb7744275c75",
+      "city": "אשדוד",
+      "title": "BLACK &amp; WHITE. LIVE CINEMA",
+      "description": "BLACK &amp; WHITE. LIVE CINEMA",
+      "start_date": "2026-11-28",
+      "start_time": "20:00",
+      "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_f9dc56fbe77050a5b122",
+      "city": "אשדוד",
+      "title": "אסי כהן - שאולי",
+      "description": "אסי כהן - שאולי",
+      "start_date": "2026-11-28",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_83_20261128",
@@ -20370,6 +21826,34 @@
       "rich_content_status": "enriched"
     },
     {
+      "event_id": "auto_as_fb7940e4c7a77d612b1b",
+      "city": "אשדוד",
+      "title": "אורי ברויר",
+      "description": "אורי ברויר",
+      "start_date": "2026-12-05",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "שושנה",
       "description": null,
@@ -20551,6 +22035,34 @@
       "rich_content_status": "enriched"
     },
     {
+      "event_id": "auto_as_5c7c19fc03d136478ff3",
+      "city": "אשדוד",
+      "title": "שושנה - המחזמר בכיכובה של גל דה פז",
+      "description": "שושנה - המחזמר בכיכובה של גל דה פז",
+      "start_date": "2026-12-05",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
       "description": null,
@@ -20666,6 +22178,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_bcae16acba3a03f18b1f",
+      "city": "אשדוד",
+      "title": "סתיו בכל הצבעים - הקסם שבצבע חנוכה 2026",
+      "description": "סתיו בכל הצבעים - הקסם שבצבע חנוכה 2026",
+      "start_date": "2026-12-06",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -20897,6 +22437,34 @@
       "subcategory": "guided-exhibition-tour",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_234c0c4e58c87d315bcc",
+      "city": "אשדוד",
+      "title": "חיפזון וזהירון - סיפור הנס - חנוכה 2026",
+      "description": "חיפזון וזהירון - סיפור הנס - חנוכה 2026",
+      "start_date": "2026-12-07",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_64_20261207",
@@ -21158,6 +22726,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_328457e76e7ed2c21e5e",
+      "city": "אשדוד",
+      "title": "היפה והחיה",
+      "description": "היפה והחיה",
+      "start_date": "2026-12-08",
+      "start_time": "16:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "סיפור חנוכה | שעת סיפור עם רינתי",
       "description": null,
@@ -21368,6 +22964,34 @@
       "subcategory": "kids-theatre",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.95
+    },
+    {
+      "event_id": "auto_as_91fc2beb4e083490efe9",
+      "city": "אשדוד",
+      "title": "היפה והחיה",
+      "description": "היפה והחיה",
+      "start_date": "2026-12-08",
+      "start_time": "18:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -21606,6 +23230,62 @@
       "thumbnail_strategy": "media_bank_default"
     },
     {
+      "event_id": "auto_as_f76ca9920c465da7d6e0",
+      "city": "אשדוד",
+      "title": "מפצח האגוזים - תיאטרון הבלט הלאומי של רוסיה",
+      "description": "מפצח האגוזים - תיאטרון הבלט הלאומי של רוסיה",
+      "start_date": "2026-12-10",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_3f18d22f4271ecfc02c7",
+      "city": "אשדוד",
+      "title": "רשף לוי",
+      "description": "רשף לוי",
+      "start_date": "2026-12-10",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "סינדרלה",
       "description": null,
@@ -21715,6 +23395,62 @@
       "thumbnail_error": "ValueError",
       "thumbnail_source": "central_media_bank_card",
       "content_enrichment_retry_after": "2026-10-10"
+    },
+    {
+      "event_id": "auto_as_cba45deb2ce4bd517aeb",
+      "city": "אשדוד",
+      "title": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+      "description": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+      "start_date": "2026-12-11",
+      "start_time": "11:00",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_b252d08ebfc89450d564",
+      "city": "אשדוד",
+      "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
+      "description": "שקרים קטנים - קומדיה משפחתית מופרעת",
+      "start_date": "2026-12-12",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -21897,6 +23633,118 @@
       "subcategory": "standup",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_d80ebdd7cfae5832da75",
+      "city": "אשדוד",
+      "title": "קסם של פסטיבל חנוכה 2026",
+      "description": "קסם של פסטיבל חנוכה 2026",
+      "start_date": "2026-12-13",
+      "start_time": "15:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_7cb0657ce3db30cb4e39",
+      "city": "אשדוד",
+      "title": "קסם של פסטיבל חנוכה 2026",
+      "description": "קסם של פסטיבל חנוכה 2026",
+      "start_date": "2026-12-13",
+      "start_time": "18:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_59d67126a9311b5e4f10",
+      "city": "אשדוד",
+      "title": "קסם של פסטיבל חנוכה 2026",
+      "description": "קסם של פסטיבל חנוכה 2026",
+      "start_date": "2026-12-14",
+      "start_time": "15:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_5755d7f89cb89032ade7",
+      "city": "אשדוד",
+      "title": "קסם של פסטיבל חנוכה 2026",
+      "description": "קסם של פסטיבל חנוכה 2026",
+      "start_date": "2026-12-14",
+      "start_time": "18:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -22118,6 +23966,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_cfdd8a89c91f83226591",
+      "city": "אשדוד",
+      "title": "המכבים - חנוכה 2026",
+      "description": "המכבים - חנוכה 2026",
+      "start_date": "2026-12-15",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_66_20261215",
       "city": "אשדוד",
       "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
@@ -22307,6 +24183,34 @@
       "series_description": "משפחת טרסוב – האקדמיה למדעי היוטיוב משפחת טרסוב מקבלת הזמנה מפתיעה להצטרף לאקדמיה למדעי היוטיוב – המקום היוקרתי שבו כוכבי הרשת הגדולים לומדים, מתחרים ונלחמים על מקומם בפסגה. אבל מהר מאוד הם מגלים שמאחורי העולם הצבעוני, המצחיק והנוצץ של האקדמיה מסתתרת תחרות שבה לא כולם משחקים לפי הכללים... מנהלת האקדמיה המרושעת (לירית בלבן) והתלמיד התחרותי (דניס טל) מוכנים לעשות הכול כדי לנצח – בכל מחיר! כשהמשימות הופכות לקשות יותר, הלחץ גובר והתחרות יוצאת משליטה, בני משפחת טרסוב יצטרכו להתאחד, להתמודד עם האתגרים ולהוכיח לכולם שיש דברים בחיים ששווים הרבה יותר מלייקים, צפיות וכמות העוקבים. הרפתקה מוזיקלית, מצחיקה וסוחפת לכל המשפחה, מלאה במשימות, אתגרים, מוזיקה, ריקודים והפתעות – והכול בקצב של הרשת! בהשתתפות: משפחת טרסוב, דניס טל, לירית בלבן (\"כראמל\", \"שוסטר ושוסטר\", \"גאליס\") / עמית זיתון, שחקנים ורקדנים נוספים. בימוי וכתיבה: רני מגר אריזה גרפית: avoxvision עיצוב תלבושות: אלה קולסניק סמנכ\"ל שיווק ותפעול: נעם צלנר מנהל משרד ובוקינג: אביב קרביץ *ההפקה שומרת לעצמה את הזכות לבצע שינויים בהרכב הקאסט.",
       "content_source_url": "https://sababa.events/he/event/high-school-drama-akademiya-nauk-youtube-khanuka-2026-semya-tarasovykh-i-denis-t/ashdod/",
       "rich_content_status": "enriched"
+    },
+    {
+      "event_id": "auto_as_effd4004b1cc69a8c8f1",
+      "city": "אשדוד",
+      "title": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+      "description": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+      "start_date": "2026-12-16",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -22532,6 +24436,34 @@
       "subcategory_review_confidence": 0.95
     },
     {
+      "event_id": "auto_as_a88be9f69363bf1474e2",
+      "city": "אשדוד",
+      "title": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+      "description": "סינדרלה - בכיכובה של רינת גבאי קיץ 2026",
+      "start_date": "2026-12-17",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מתן פרץ",
       "description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
@@ -22666,6 +24598,62 @@
       "subcategory_review_confidence": 0.97
     },
     {
+      "event_id": "auto_as_96ab6bceb955e59ed27f",
+      "city": "אשדוד",
+      "title": "מתן פרץ",
+      "description": "מתן פרץ",
+      "start_date": "2026-12-17",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_f41e6c2122ebee27bb0f",
+      "city": "אשדוד",
+      "title": "פסטי LIVE קידס- מתנות הקסם של סבא קור. מופע חורף לכל המשפחה",
+      "description": "פסטי LIVE קידס- מתנות הקסם של סבא קור. מופע חורף לכל המשפחה",
+      "start_date": "2026-12-19",
+      "start_time": "11:00",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "נישואים גרעיניים",
       "description": null,
@@ -22775,6 +24763,34 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+    },
+    {
+      "event_id": "auto_as_667ee6ed55fb423ba38e",
+      "city": "אשדוד",
+      "title": "נישואים גרעיניים - קומדיה זוגית פרועה",
+      "description": "נישואים גרעיניים - קומדיה זוגית פרועה",
+      "start_date": "2026-12-19",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_86_20261221",
@@ -23172,6 +25188,34 @@
       "content_enrichment_status": "ready"
     },
     {
+      "event_id": "auto_as_faf9bb56db0e91d7ab9d",
+      "city": "אשדוד",
+      "title": "שחר חסון",
+      "description": "שחר חסון",
+      "start_date": "2026-12-26",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "אליסה בארץ הפלאות",
       "description": null,
@@ -23280,6 +25324,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_df9b643993ddbe9ccfa5",
+      "city": "אשדוד",
+      "title": "אליסה בארץ הפלאות – חנוכה 2026",
+      "description": "אליסה בארץ הפלאות – חנוכה 2026",
+      "start_date": "2026-12-27",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_87_20261228",
@@ -23784,6 +25856,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_8d5f6a0ed763a27826c8",
+      "city": "אשדוד",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "description": "אור לגויים - תיאטרון בית ליסין",
+      "start_date": "2026-12-29",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_89_20261230",
       "city": "אשדוד",
       "title": "אור לגויים",
@@ -23910,6 +26010,34 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
       "content_enrichment_retry_after": "2026-10-10"
+    },
+    {
+      "event_id": "auto_as_b529b33018c85aba4e42",
+      "city": "אשדוד",
+      "title": "אור לגויים - בית ליסין",
+      "description": "אור לגויים - בית ליסין",
+      "start_date": "2026-12-30",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_90_20261231",
@@ -24040,6 +26168,34 @@
       "content_enrichment_retry_after": "2026-10-10"
     },
     {
+      "event_id": "auto_as_c675505d0fbfc57c5be0",
+      "city": "אשדוד",
+      "title": "יוסיאל נאמן במופע סטנדאפ",
+      "description": "יוסיאל נאמן במופע סטנדאפ",
+      "start_date": "2026-12-31",
+      "start_time": "21:30",
+      "venue": "הוט סינמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "event_id": "evt_91_20270102",
       "city": "אשדוד",
       "title": "אור לגויים",
@@ -24168,6 +26324,34 @@
       "thumbnail_source": "central_media_bank_card",
       "media_bank_id": "media_fa7e37052b4c0ae36f400714",
       "content_enrichment_retry_after": "2026-10-10"
+    },
+    {
+      "event_id": "auto_as_fb93f4dc2adef9d39b8a",
+      "city": "אשדוד",
+      "title": "דניאל סטיופין",
+      "description": "דניאל סטיופין",
+      "start_date": "2027-01-02",
+      "start_time": "21:00",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "event_id": "evt_67_20270102",
@@ -24440,6 +26624,34 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
+      "event_id": "auto_as_fb264179812234234f6b",
+      "city": "אשדוד",
+      "title": "אור לגויים - תיאטרון בית ליסין",
+      "description": "אור לגויים - תיאטרון בית ליסין",
+      "start_date": "2027-01-03",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "סידני מחווה לביג'יז",
       "description": null,
@@ -24627,6 +26839,62 @@
       "series_description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
       "content_source_url": "https://live.tickchak.co.il/ashdod",
       "rich_content_status": "enriched"
+    },
+    {
+      "event_id": "auto_as_ab96ef3a32c52b2da994",
+      "city": "אשדוד",
+      "title": "אסף מור יוסף",
+      "description": "אסף מור יוסף",
+      "start_date": "2027-01-07",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_653e0aea368d95f820cf",
+      "city": "אשדוד",
+      "title": "דניאל חן",
+      "description": "דניאל חן",
+      "start_date": "2027-01-09",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -25448,6 +27716,34 @@
       "rich_content_status": "enriched"
     },
     {
+      "event_id": "auto_as_317d69899bc86acfea45",
+      "city": "אשדוד",
+      "title": "שלומי קוריאט במופע סטנדאפ",
+      "description": "שלומי קוריאט במופע סטנדאפ",
+      "start_date": "2027-01-14",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "טריפונס",
       "description": "מחפשים מה לעשות באשדוד? כל הופעות הסטנדאפ, המוזיקה והתרבות בעיר במקום אחד. הזמינו כרטיסים בקלות ובמהירות לכל האירועים החמים 🔥 באתר טיקצ'אק LIVE",
@@ -25651,6 +27947,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_bc49dcff0f8077bc5644",
+      "city": "אשדוד",
+      "title": "אמי הגנרלית - התיאטרון העברי",
+      "description": "אמי הגנרלית - התיאטרון העברי",
+      "start_date": "2027-01-16",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -26202,6 +28526,34 @@
       "thumbnail_error": "UnidentifiedImageError"
     },
     {
+      "event_id": "auto_as_9c73bd8e91ca298ad202",
+      "city": "אשדוד",
+      "title": "הסינור של רוני - ע\"פ רב המכר האהוב של רינת הופר",
+      "description": "הסינור של רוני - ע\"פ רב המכר האהוב של רינת הופר",
+      "start_date": "2027-01-19",
+      "start_time": "17:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "עיסת נייר דלעת עם רחל חציר-ייעודי לגדולות מהחיים",
       "description": null,
@@ -26334,6 +28686,62 @@
       "subcategory": "senior-workshops",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_66f664086afdb4323b95",
+      "city": "אשדוד",
+      "title": "אודי כגן",
+      "description": "אודי כגן",
+      "start_date": "2027-01-23",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_ae144df34e6052590f0f",
+      "city": "אשדוד",
+      "title": "אסף יצחקי",
+      "description": "אסף יצחקי",
+      "start_date": "2027-01-23",
+      "start_time": "21:30",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -26581,6 +28989,62 @@
       "thumbnail_strategy": "media_bank_default"
     },
     {
+      "event_id": "auto_as_66e3b4a3e317afe1a906",
+      "city": "אשדוד",
+      "title": "עידן ניידיץ",
+      "description": "עידן ניידיץ",
+      "start_date": "2027-01-28",
+      "start_time": "21:00",
+      "venue": "מונארט מרכז תרבות אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_51d906a05e8cb6cc6fec",
+      "city": "אשדוד",
+      "title": "רביטל ויטלזון יעקבס",
+      "description": "רביטל ויטלזון יעקבס",
+      "start_date": "2027-01-28",
+      "start_time": "21:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מיקה שלי",
       "description": null,
@@ -26682,6 +29146,34 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
+      "event_id": "auto_as_1168a9064c419b883058",
+      "city": "אשדוד",
+      "title": "מיקה שלי - מחזמר משיריו של יאיר רוזנבלום",
+      "description": "מיקה שלי - מחזמר משיריו של יאיר רוזנבלום",
+      "start_date": "2027-01-31",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מותרת לכל אדם",
       "description": null,
@@ -26771,6 +29263,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_e08e9d614e7ab4e8f641",
+      "city": "אשדוד",
+      "title": "מותרת לכל אדם- תיאטרון באר שבע",
+      "description": "מותרת לכל אדם- תיאטרון באר שבע",
+      "start_date": "2027-02-01",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -27100,6 +29620,34 @@
       "thumbnail_strategy": "media_bank_default"
     },
     {
+      "event_id": "auto_as_13d0510a6fd98149c4c2",
+      "city": "אשדוד",
+      "title": "מותרת לכל אדם- תיאטרון באר שבע",
+      "description": "מותרת לכל אדם- תיאטרון באר שבע",
+      "start_date": "2027-02-02",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מותרת לכל אדם",
       "description": null,
@@ -27212,6 +29760,34 @@
       "thumbnail_strategy": "media_bank_default"
     },
     {
+      "event_id": "auto_as_11e7712fa234f68081ca",
+      "city": "אשדוד",
+      "title": "מותרת לכל אדם - תאטרון באר שבע",
+      "description": "מותרת לכל אדם - תאטרון באר שבע",
+      "start_date": "2027-02-03",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מותרת לכל אדם",
       "description": null,
@@ -27318,6 +29894,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_0892ff8714b637a9eb93",
+      "city": "אשדוד",
+      "title": "מותרת לכל אדם- תיאטרון באר שבע",
+      "description": "מותרת לכל אדם- תיאטרון באר שבע",
+      "start_date": "2027-02-04",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -27432,6 +30036,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_ccc53647307277548ee2",
+      "city": "אשדוד",
+      "title": "מותרת לכל אדם- תיאטרון באר שבע",
+      "description": "מותרת לכל אדם- תיאטרון באר שבע",
+      "start_date": "2027-02-06",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -27780,6 +30412,34 @@
       "subcategory": "kids-theatre",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.97
+    },
+    {
+      "event_id": "auto_as_de3772c3a623cffc8f83",
+      "city": "אשדוד",
+      "title": "כספיון - התיאטרון השחור",
+      "description": "כספיון - התיאטרון השחור",
+      "start_date": "2027-02-07",
+      "start_time": "17:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -28316,6 +30976,34 @@
       "subcategory_review_confidence": 0.96
     },
     {
+      "event_id": "auto_as_2a6dec2b2a29f8472656",
+      "city": "אשדוד",
+      "title": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+      "description": "היי סקול דרמה | האקדמיה למדעי היוטיוב - משפחת טרסוב",
+      "start_date": "2027-02-11",
+      "start_time": "17:30",
+      "venue": "מתנ\"ס דיונה, אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "סופיה פאפאזוגלו",
       "description": null,
@@ -28745,6 +31433,34 @@
       "subcategory": "senior-trips",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.9
+    },
+    {
+      "event_id": "auto_as_6ae8091e1effab6137d4",
+      "city": "אשדוד",
+      "title": "אדיר מילר",
+      "description": "אדיר מילר",
+      "start_date": "2027-02-16",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -29368,6 +32084,34 @@
       "thumbnail_error": "ValueError",
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default"
+    },
+    {
+      "event_id": "auto_as_37787c184d3600cc927d",
+      "city": "אשדוד",
+      "title": "כנר על הגג - התיאטרון העברי",
+      "description": "כנר על הגג - התיאטרון העברי",
+      "start_date": "2027-03-06",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -30917,6 +33661,34 @@
       "subcategory_review_confidence": 0.9
     },
     {
+      "event_id": "auto_as_706f75061a4ce899ea48",
+      "city": "אשדוד",
+      "title": "זוגיות AI - התיאטרון העברי",
+      "description": "זוגיות AI - התיאטרון העברי",
+      "start_date": "2027-03-20",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מלכת היופי של ירושלים",
       "description": null,
@@ -31021,6 +33793,34 @@
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
       "thumbnail_error": "ValueError"
+    },
+    {
+      "event_id": "auto_as_6c8b12850f78442f30d4",
+      "city": "אשדוד",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "description": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "start_date": "2027-03-29",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -31242,6 +34042,34 @@
       "thumbnail_error": "ValueError"
     },
     {
+      "event_id": "auto_as_7f2e6c86391482ae3fb5",
+      "city": "אשדוד",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "description": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "start_date": "2027-03-30",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מלכת היופי של ירושלים",
       "description": null,
@@ -31345,6 +34173,34 @@
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
       "thumbnail_error": "ValueError"
+    },
+    {
+      "event_id": "auto_as_5b2b6d7949ae8537c46b",
+      "city": "אשדוד",
+      "title": "מלכת היופי של ירושלים - בית ליסין",
+      "description": "מלכת היופי של ירושלים - בית ליסין",
+      "start_date": "2027-03-31",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -31454,6 +34310,34 @@
       "thumbnail_error": "ValueError"
     },
     {
+      "event_id": "auto_as_55a39d52dc39c68b8b0b",
+      "city": "אשדוד",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "description": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "start_date": "2027-04-01",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "מלכת היופי של ירושלים",
       "description": null,
@@ -31559,6 +34443,34 @@
       "thumbnail_ratio": "16:9",
       "thumbnail_strategy": "media_bank_default",
       "thumbnail_error": "ValueError"
+    },
+    {
+      "event_id": "auto_as_884231a0bf67cc52960a",
+      "city": "אשדוד",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "description": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "start_date": "2027-04-03",
+      "start_time": "21:00",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -32550,6 +35462,62 @@
       "subcategory": "tribute-shows",
       "subcategory_review_status": "auto_classified_from_verified_rule",
       "subcategory_review_confidence": 0.94
+    },
+    {
+      "event_id": "auto_as_2233314ddfba8d097c92",
+      "city": "אשדוד",
+      "title": "שלומית אהרון חוגגת 60 שנות קריירה",
+      "description": "שלומית אהרון חוגגת 60 שנות קריירה",
+      "start_date": "2027-04-24",
+      "start_time": "20:00",
+      "venue": "בית יד לבנים אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
+      "event_id": "auto_as_217a68c446bf0db02cd1",
+      "city": "אשדוד",
+      "title": "שלום חנוך",
+      "description": "שלום חנוך",
+      "start_date": "2027-04-26",
+      "start_time": "20:00",
+      "venue": "אמפי אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
@@ -34454,6 +37422,34 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
+      "event_id": "auto_as_e4206a625c86cd4008f0",
+      "city": "אשדוד",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "description": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "start_date": "2027-06-29",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "להתראות ותודה על הקרמשניט",
       "description": null,
@@ -34563,6 +37559,34 @@
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
     },
     {
+      "event_id": "auto_as_2527f031672bd236b623",
+      "city": "אשדוד",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "description": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "start_date": "2027-06-30",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
+    },
+    {
       "city": "אשדוד",
       "title": "להתראות ותודה על הקרמשניט",
       "description": null,
@@ -34648,6 +37672,34 @@
       "category_review_status": "assistant_manual_reclassified",
       "category_review_confidence": 0.95,
       "category_reviewed_at": "2026-10-09T08:10:00+03:00"
+    },
+    {
+      "event_id": "auto_as_eb2e137c28d58cbe724e",
+      "city": "אשדוד",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "description": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "start_date": "2027-07-01",
+      "start_time": "20:30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "category": "other",
+      "ticket_url": "https://www.mevalim.co.il/ashdod/",
+      "image_url": null,
+      "image_source": "https://www.mevalim.co.il/ashdod/",
+      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
+      "image_publishable": false,
+      "image_verified": false,
+      "image_rights_status": "needs_review",
+      "sources": [
+        {
+          "name": "mevalim",
+          "url": "https://www.mevalim.co.il/ashdod/",
+          "source_type": "national_board"
+        }
+      ],
+      "status": "active",
+      "quality_flags": [
+        "national_board_import"
+      ]
     },
     {
       "city": "אשדוד",
