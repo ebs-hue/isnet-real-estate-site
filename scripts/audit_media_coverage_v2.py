@@ -19,8 +19,19 @@ CATALOG = ROOT / "events-preview/admin/data/media-catalog-v2.json"
 OUT = ROOT / "events-preview/admin/data/media-coverage-v2.json"
 
 
+def is_generic_placeholder(event: dict) -> bool:
+    marker = " ".join(str(event.get(k) or "").lower() for k in (
+        "image_strategy", "image_type", "image_source", "image_quality"))
+    if any(w in marker for w in ("generic_placeholder", "category_fallback",
+                                  "subcategory_fallback", "generic_illustration")):
+        return True
+    url = str(event.get("image_url") or "").lower()
+    return "/assets/defaults/" in url or "generic-placeholder" in url
+
+
 def has_event_image(event: dict) -> bool:
-    return bool(event.get("image_url") and event.get("image_verified") is True
+    return bool(not is_generic_placeholder(event)
+                and event.get("image_url") and event.get("image_verified") is True
                 and event.get("image_publishable") is True)
 
 
@@ -34,7 +45,8 @@ def audit_city(events: list[dict], assets: list[dict], *, today: str) -> dict:
         if has_event_image(event):
             counts["already_has_source_image"] += 1
             continue
-        counts["missing_publishable_image"] += 1
+        generic = is_generic_placeholder(event)
+        counts["generic_placeholders_to_replace" if generic else "missing_publishable_image"] += 1
         asset = choose_asset(assets, event, on_date=today)
         if asset:
             counts["eligible_catalog_suggestion"] += 1
@@ -47,6 +59,7 @@ def audit_city(events: list[dict], assets: list[dict], *, today: str) -> dict:
             "category": event.get("category"),
             "subcategory": event.get("subcategory"),
             "source": event.get("source"),
+            "image_problem": "generic_placeholder" if generic else "missing_photo",
             "suggested_asset_id": asset.get("asset_id") if asset else None,
             "suggested_asset_type": asset.get("asset_type") if asset else None,
             "action": "review_before_publication" if asset else "collect_or_verify_media",
