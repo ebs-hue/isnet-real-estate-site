@@ -59,8 +59,11 @@ def event_from_jsonld(obj,source_id,page):
     video=obj.get("video") or {}
     if isinstance(video,list):video=video[0] if video else {}
     if isinstance(video,dict):video=video.get("embedUrl") or video.get("contentUrl") or video.get("url")
+    if isinstance(image,str) and any(x in image.lower() for x in ("big_star.png","logo","placeholder","default-image","no-image")):image=None
+    description=clean(obj.get("description"))
+    if any(x in description for x in ("באתר מבלים ריכזנו","מחפשים הופעות","לוח הופעות באשדוד עם מבצעים")):description=None
     return {"title":name,"city":found_city,"venue":loc or None,"date_time":obj.get("startDate"),
-      "end_time":obj.get("endDate"),"description":clean(obj.get("description")) or None,
+      "end_time":obj.get("endDate"),"description":description,
       "image_url":urljoin(page,image) if isinstance(image,str) else None,
       "video_url":video if isinstance(video,str) else None,
       "tickets_url":offers.get("url") if isinstance(offers,dict) else None,
