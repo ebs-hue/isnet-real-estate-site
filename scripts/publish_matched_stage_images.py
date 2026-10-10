@@ -54,7 +54,14 @@ def main():
         # A conflicting image is a review case, not an automatic replacement.
         if len(urls)>1:
             blocked["conflicting_image_sources"]+=1;continue
-        if event.get("image_url")==chosen["image_url"] and event.get("image_verified") is True and event.get("image_publishable") is True:
+        desc=str(chosen.get("description") or "").strip()
+        boilerplate=("מחפשים הופעות","באתר מבלים ריכזנו","כרטיסים במחירים מיוחדים",
+                     "הופעה עם הלהיטים הגדולים!","הזמן עכשיו לפני שיגמרו","עוד הופעה בקטגוריית")
+        valid_desc=(len(desc)>=100 and not any(x in desc for x in boilerplate)
+                    and not event.get("description_manual_override"))
+        current_desc=str(event.get("series_description") or event.get("description") or "").strip()
+        same_image=event.get("image_url")==chosen["image_url"] and event.get("image_verified") is True and event.get("image_publishable") is True
+        if same_image and (not valid_desc or current_desc==desc):
             blocked["already_matching_production_image"]+=1;continue
         result.append((event,chosen))
     writable=os.environ.get("STAGE_MEDIA_PUBLICATION_ENABLED")=="YES_EXACT_TITLE_DATE_VENUE"
