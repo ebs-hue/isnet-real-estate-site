@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-10T15:13:29Z",
-  "total_events": 331,
-  "verified_images": 331,
+  "generated_at": "2026-10-10T15:32:58Z",
+  "total_events": 323,
+  "verified_images": 323,
   "still_missing": 0,
   "stats": {
-    "same_title_reuse": 3,
-    "super_editor_fallback": 20
+    "same_title_reuse": 2,
+    "super_editor_fallback": 14
   },
   "revoked_assets": [],
   "newly_filled": [
@@ -24,21 +24,7 @@
       "score": "reuse"
     },
     {
-      "event_id": "auto_as_19625b1fab5e0c9f921a",
-      "title": "שלומי קוריאט במופע סטנדאפ",
-      "image": "/events-preview/media-bank/defaults/standup.webp",
-      "source": "ISNET internal representative artwork",
-      "score": "reuse"
-    },
-    {
       "event_id": "auto_as_f486a4102b8579046b1f",
-      "title": "נועה מנור במופע סטנדאפ",
-      "image": "/events-preview/media-bank/defaults/standup.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_edae801d075d3bb259f5",
       "title": "נועה מנור במופע סטנדאפ",
       "image": "/events-preview/media-bank/defaults/standup.webp",
       "source": "ISNET",
@@ -52,13 +38,6 @@
       "score": "representative_fallback"
     },
     {
-      "event_id": "auto_as_8c9f185e166296395601",
-      "title": "שלישיית פוש אפ - מופע סטנדאפ",
-      "image": "/events-preview/media-bank/defaults/standup.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
       "event_id": "auto_as_8d899b9358eb2e48489e",
       "title": "פאטמה הסטנדאפיסטית הבדואית",
       "image": "/events-preview/media-bank/defaults/standup.webp",
@@ -66,21 +45,7 @@
       "score": "representative_fallback"
     },
     {
-      "event_id": "auto_as_c5cfa403e54c71516354",
-      "title": "פאטמה הסטנדאפיסטית הבדואית",
-      "image": "/events-preview/media-bank/defaults/standup.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
       "event_id": "auto_as_e35cb8f03fd93ea52d52",
-      "title": "תמיר בוסקילה במופע סטנדאפ",
-      "image": "/events-preview/media-bank/defaults/standup.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "auto_as_fa8970a7269c724ec8b2",
       "title": "תמיר בוסקילה במופע סטנדאפ",
       "image": "/events-preview/media-bank/defaults/standup.webp",
       "source": "ISNET",
@@ -150,23 +115,9 @@
       "score": "representative_fallback"
     },
     {
-      "event_id": "auto_as_46982c8acb5b20d5ba37",
-      "title": "הדבר העגול הזה - מופע ליצנות לכל המשפחה",
-      "image": "/events-preview/media-bank/defaults/kids.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
       "event_id": "auto_as_5c7c19fc03d136478ff3",
       "title": "שושנה - המחזמר בכיכובה של גל דה פז",
       "image": "/events-preview/media-bank/defaults/theatre.webp",
-      "source": "ISNET",
-      "score": "representative_fallback"
-    },
-    {
-      "event_id": "board_4ac64a8b96ca94025e",
-      "title": "היפייפיה הנרדמת בכיכובה של נתי הגעתי הופעתי",
-      "image": "assets/defaults/music.svg",
       "source": "ISNET",
       "score": "representative_fallback"
     }
