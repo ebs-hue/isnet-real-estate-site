@@ -70,6 +70,10 @@ function issuesFor(e){
   else if(hasEditorialNote(desc))issues.push({key:"needs_content",label:"הערת מערכת בתוכן",level:"bad"});
   else if(desc.trim().length<160)issues.push({key:"needs_content",label:"תוכן דל",level:"warn"});
   if(!(e.image_publishable===true&&e.image_verified===true&&(e.thumbnail_url||e.image_url)))issues.push({key:"needs_image",label:"תמונה",level:"bad"});
+  const taxonomy=taxonomyCategories.find(cat=>cat.id===e.category);
+  if(taxonomy?.subcategories?.length && !taxonomy.subcategories.some(sub=>sub.id===e.subcategory)){
+    issues.push({key:"needs_subcategory",label:"חסרה תת־קטגוריה",level:"warn"});
+  }
   if(e.category==="standup"&&!e._video)issues.push({key:"needs_video",label:"וידאו",level:"warn"});
   if(!(e.purchase_url||e.ticket_url||e.purchase_phone))issues.push({key:"needs_ticket",label:"פעולה",level:"warn"});
   return issues;
@@ -158,7 +162,7 @@ function renderStats(){
     [active.filter(e=>e.status==="active").length,"אירועים עתידיים","פעילים מהיום והלאה"],
     [active.filter(e=>!e._description).length,"חסר תוכן","דורש העשרה"],
     [active.filter(e=>e._issues.some(i=>i.key==="needs_image")).length,"בעיית תמונה","חסרה או לא מאושרת"],
-    [active.filter(e=>e.category==="standup"&&!e._video).length,"סטנדאפ בלי וידאו","משימת מדיה"]
+    [active.filter(e=>e._issues.some(i=>i.key==="needs_subcategory")).length,"חסרה תת־קטגוריה","נדרש סיווג לפי תוכן"]
   ];
   $("summary").innerHTML=stats.map(([n,t,s])=>'<article class="stat"><strong>'+n+'</strong><span>'+t+'</span><small>'+s+'</small></article>').join("");
 }
