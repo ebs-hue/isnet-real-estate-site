@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:16:48.048823+00:00",
+  "generated_at": "2026-10-10T09:45:01.802581+00:00",
   "productions": [
     {
       "production_key": "קסם של כוכבים רועיקי מצחיקי וסמי הכבאי",
@@ -7,8 +7,10 @@
       "media": [
         "media_4b9919c64dc3f2b2abb3e748"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_4b9919c64dc3f2b2abb3e748"
+      ],
+      "preferred_media_id": "media_4b9919c64dc3f2b2abb3e748",
       "cities": [
         "ashdod"
       ],
@@ -16,7 +18,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "fate fire",
@@ -134,12 +136,29 @@
       "production_key": "אבנר גדסי מנגן ושר אורח מיוחד ניסים סרוסי",
       "name": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
       "media": [
-        "media_39c012c1c85bac8b231b3b50"
+        "media_4f6bc196c8aefc5ca16ac9d3"
+      ],
+      "approved_media": [],
+      "preferred_media_id": null,
+      "cities": [
+        "ashdod"
+      ],
+      "categories": [
+        "music"
+      ],
+      "media_count": 1,
+      "approved_media_count": 0
+    },
+    {
+      "production_key": "אגדת הטנגו העולמי מרכוס אשלה tango buenos aires",
+      "name": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "media": [
+        "media_2be92f2d528b2d32f1a84b80"
       ],
       "approved_media": [
-        "media_39c012c1c85bac8b231b3b50"
+        "media_2be92f2d528b2d32f1a84b80"
       ],
-      "preferred_media_id": "media_39c012c1c85bac8b231b3b50",
+      "preferred_media_id": "media_2be92f2d528b2d32f1a84b80",
       "cities": [
         "ashdod"
       ],
@@ -148,24 +167,6 @@
       ],
       "media_count": 1,
       "approved_media_count": 1
-    },
-    {
-      "production_key": "אגדת הטנגו העולמי מרכוס אשלה tango buenos aires",
-      "name": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
-      "media": [
-        "media_02b5f67cb7e21ab82ac4a5ad"
-      ],
-      "approved_media": [],
-      "preferred_media_id": null,
-      "cities": [
-        "ashdod"
-      ],
-      "categories": [
-        "community",
-        "music"
-      ],
-      "media_count": 1,
-      "approved_media_count": 0
     },
     {
       "production_key": "אגדת הטנגו העולמית מרכוס אשלה",
@@ -210,11 +211,11 @@
       "name": "אדיר מילר",
       "media": [
         "media_1863e01d5ab4452a02e644a9",
-        "media_513c8562b102b049001e7987"
+        "media_611a9531df6a2a62693f0f70"
       ],
       "approved_media": [
         "media_1863e01d5ab4452a02e644a9",
-        "media_513c8562b102b049001e7987"
+        "media_611a9531df6a2a62693f0f70"
       ],
       "preferred_media_id": "media_1863e01d5ab4452a02e644a9",
       "cities": [
@@ -365,12 +366,12 @@
       "production_key": "אורי חזקיה",
       "name": "אורי חזקיה",
       "media": [
-        "media_65d5159b231b8d68ce3f0e07"
+        "media_13c79c0db61e8fe43fbb9dd0"
       ],
       "approved_media": [
-        "media_65d5159b231b8d68ce3f0e07"
+        "media_13c79c0db61e8fe43fbb9dd0"
       ],
-      "preferred_media_id": "media_65d5159b231b8d68ce3f0e07",
+      "preferred_media_id": "media_13c79c0db61e8fe43fbb9dd0",
       "cities": [
         "ashdod"
       ],
@@ -478,10 +479,12 @@
       "production_key": "איתמר וכובע הקסמים",
       "name": "איתמר וכובע הקסמים",
       "media": [
-        "media_b33c260463a8307ad3aaf955"
+        "media_175af1343740d26c32e354b6"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_175af1343740d26c32e354b6"
+      ],
+      "preferred_media_id": "media_175af1343740d26c32e354b6",
       "cities": [
         "ashdod"
       ],
@@ -489,7 +492,7 @@
         "kids"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "אל עמק הברכה",
@@ -565,12 +568,10 @@
       "production_key": "אסף יצחקי",
       "name": "אסף יצחקי",
       "media": [
-        "media_b798020183538fcc746559e0"
+        "media_d5ef1f857c931698741175b4"
       ],
-      "approved_media": [
-        "media_b798020183538fcc746559e0"
-      ],
-      "preferred_media_id": "media_b798020183538fcc746559e0",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -578,7 +579,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "אסף יצחקי מופע סטנדאפ לא מצונזר",
@@ -603,12 +604,12 @@
       "production_key": "אסף מור יוסף במופע סטנדאפ",
       "name": "אסף מור יוסף במופע סטנדאפ",
       "media": [
-        "media_dea96b94729e1a017cf0f177"
+        "media_0d140747d637094eb42cd6fb"
       ],
       "approved_media": [
-        "media_dea96b94729e1a017cf0f177"
+        "media_0d140747d637094eb42cd6fb"
       ],
-      "preferred_media_id": "media_dea96b94729e1a017cf0f177",
+      "preferred_media_id": "media_0d140747d637094eb42cd6fb",
       "cities": [
         "ashdod"
       ],
@@ -925,14 +926,13 @@
       "production_key": "בן בן ברוך",
       "name": "בן בן ברוך",
       "media": [
-        "media_01c1ca69c3b6d2160259ffa5",
-        "media_36c1f2c48f0a342cc83d2e0c"
+        "media_36c1f2c48f0a342cc83d2e0c",
+        "media_808157ae718d94b9dc61cd6b"
       ],
       "approved_media": [
-        "media_01c1ca69c3b6d2160259ffa5",
         "media_36c1f2c48f0a342cc83d2e0c"
       ],
-      "preferred_media_id": "media_01c1ca69c3b6d2160259ffa5",
+      "preferred_media_id": "media_36c1f2c48f0a342cc83d2e0c",
       "cities": [
         "ashdod",
         "rishon-lezion"
@@ -941,7 +941,7 @@
         "standup"
       ],
       "media_count": 2,
-      "approved_media_count": 2
+      "approved_media_count": 1
     },
     {
       "production_key": "בעקבות סופרים בנחלאות",
@@ -1038,12 +1038,10 @@
       "production_key": "גיל קופטש משה פרסטר אריק זילברמן אמני הקומדי קלאב צוחקים ושרים",
       "name": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
       "media": [
-        "media_edd713f90fcc58093234312c"
+        "media_d5ef1f857c931698741175b4"
       ],
-      "approved_media": [
-        "media_edd713f90fcc58093234312c"
-      ],
-      "preferred_media_id": "media_edd713f90fcc58093234312c",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1051,7 +1049,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "גמצ יק סיור תיאטרלי לקטנטנים",
@@ -1152,12 +1150,10 @@
       "production_key": "דניאל סטיופין קופה ראשית מופע סטנדאפ",
       "name": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
       "media": [
-        "media_7484e9bd8b0a9bb5a6bf0b87"
+        "media_808157ae718d94b9dc61cd6b"
       ],
-      "approved_media": [
-        "media_7484e9bd8b0a9bb5a6bf0b87"
-      ],
-      "preferred_media_id": "media_7484e9bd8b0a9bb5a6bf0b87",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -1165,7 +1161,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "דניאל סטיופין קופה ראשית סטנדאפ",
@@ -1371,10 +1367,12 @@
       "production_key": "היי סקול דרמה האקדמיה למדעי היוטיוב חנוכה 2026",
       "name": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
       "media": [
-        "media_b33c260463a8307ad3aaf955"
+        "media_2fbdd1c8be75bc14002b596e"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_2fbdd1c8be75bc14002b596e"
+      ],
+      "preferred_media_id": "media_2fbdd1c8be75bc14002b596e",
       "cities": [
         "ashdod"
       ],
@@ -1382,7 +1380,7 @@
         "kids"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "היי סקול דרמה משפחת טרסוב",
@@ -1807,12 +1805,12 @@
       "production_key": "הרפתקה בשכונה חיפזון וזהירון",
       "name": "הרפתקה בשכונה - חיפזון וזהירון",
       "media": [
-        "media_01698eb20054879a7b879dcd"
+        "media_ef7650a2ad637784b1fd6edb"
       ],
       "approved_media": [
-        "media_01698eb20054879a7b879dcd"
+        "media_ef7650a2ad637784b1fd6edb"
       ],
-      "preferred_media_id": "media_01698eb20054879a7b879dcd",
+      "preferred_media_id": "media_ef7650a2ad637784b1fd6edb",
       "cities": [
         "ashdod"
       ],
@@ -1991,11 +1989,11 @@
       "name": "זוגיות AI",
       "media": [
         "media_fd1f85d66ee66440a439d877",
-        "media_efe9059eddc1d7d2d0753f73"
+        "media_7f46fc967e8cca5d0bd82c44"
       ],
       "approved_media": [
         "media_fd1f85d66ee66440a439d877",
-        "media_efe9059eddc1d7d2d0753f73"
+        "media_7f46fc967e8cca5d0bd82c44"
       ],
       "preferred_media_id": "media_fd1f85d66ee66440a439d877",
       "cities": [
@@ -2140,12 +2138,12 @@
       "production_key": "חן מזרחי",
       "name": "חן מזרחי",
       "media": [
-        "media_51ba4acb352c46e1998e7fb4"
+        "media_4f514c758d5a8af9559c1706"
       ],
       "approved_media": [
-        "media_51ba4acb352c46e1998e7fb4"
+        "media_4f514c758d5a8af9559c1706"
       ],
-      "preferred_media_id": "media_51ba4acb352c46e1998e7fb4",
+      "preferred_media_id": "media_4f514c758d5a8af9559c1706",
       "cities": [
         "ashdod"
       ],
@@ -2217,12 +2215,10 @@
       "production_key": "טוביה צפיר 80 שנה של הומור",
       "name": "טוביה צפיר – 80 שנה של הומור!",
       "media": [
-        "media_3fae9a215b7f2316c1aacb2e"
+        "media_808157ae718d94b9dc61cd6b"
       ],
-      "approved_media": [
-        "media_3fae9a215b7f2316c1aacb2e"
-      ],
-      "preferred_media_id": "media_3fae9a215b7f2316c1aacb2e",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2230,7 +2226,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "טינטן",
@@ -2255,10 +2251,12 @@
       "production_key": "טריפונס",
       "name": "טריפונס",
       "media": [
-        "media_b4633628f67a433d3b0a87a2"
+        "media_b4633628f67a433d3b0a87a2",
+        "media_f1a8e4755003ae8bc164399e"
       ],
       "approved_media": [
-        "media_b4633628f67a433d3b0a87a2"
+        "media_b4633628f67a433d3b0a87a2",
+        "media_f1a8e4755003ae8bc164399e"
       ],
       "preferred_media_id": "media_b4633628f67a433d3b0a87a2",
       "cities": [
@@ -2267,8 +2265,8 @@
       "categories": [
         "music"
       ],
-      "media_count": 1,
-      "approved_media_count": 1
+      "media_count": 2,
+      "approved_media_count": 2
     },
     {
       "production_key": "יום המזל שלי",
@@ -2470,10 +2468,12 @@
       "production_key": "כספיון התאטרון השחור",
       "name": "כספיון - התאטרון השחור",
       "media": [
-        "media_b33c260463a8307ad3aaf955"
+        "media_43eb38f990fc999b4e788d9d"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_43eb38f990fc999b4e788d9d"
+      ],
+      "preferred_media_id": "media_43eb38f990fc999b4e788d9d",
       "cities": [
         "ashdod"
       ],
@@ -2481,7 +2481,7 @@
         "kids"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "כספיון התיאטרון השחור",
@@ -2803,12 +2803,10 @@
       "production_key": "מוטי אהרונוביץ במופע סטנדאפ",
       "name": "מוטי אהרונוביץ במופע סטנדאפ",
       "media": [
-        "media_3f27ad5b9907279e020ba015"
+        "media_808157ae718d94b9dc61cd6b"
       ],
-      "approved_media": [
-        "media_3f27ad5b9907279e020ba015"
-      ],
-      "preferred_media_id": "media_3f27ad5b9907279e020ba015",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -2816,7 +2814,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "מועדון הזמר של אילנה כץ כמו בסרט",
@@ -2898,12 +2896,12 @@
       "production_key": "מופע סטנד אפ שלומי קוריאט",
       "name": "מופע סטנד אפ - שלומי קוריאט",
       "media": [
-        "media_2baec52fc333c57a6cd74849"
+        "media_76b55d83979023e2de124aa5"
       ],
       "approved_media": [
-        "media_2baec52fc333c57a6cd74849"
+        "media_76b55d83979023e2de124aa5"
       ],
-      "preferred_media_id": "media_2baec52fc333c57a6cd74849",
+      "preferred_media_id": "media_76b55d83979023e2de124aa5",
       "cities": [
         "ashdod"
       ],
@@ -3088,12 +3086,10 @@
       "production_key": "מירית גליצקי מוגזמת",
       "name": "מירית גליצקי - מוגזמת",
       "media": [
-        "media_414e1cbd5cdc9b7d1201cbc5"
+        "media_d5ef1f857c931698741175b4"
       ],
-      "approved_media": [
-        "media_414e1cbd5cdc9b7d1201cbc5"
-      ],
-      "preferred_media_id": "media_414e1cbd5cdc9b7d1201cbc5",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3101,7 +3097,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "מכבי אשדוד הפועל אריות ירושלים",
@@ -3259,12 +3255,10 @@
       "production_key": "מני עוזרי",
       "name": "מני עוזרי",
       "media": [
-        "media_57209d9191f8af725e2692da"
+        "media_d5ef1f857c931698741175b4"
       ],
-      "approved_media": [
-        "media_57209d9191f8af725e2692da"
-      ],
-      "preferred_media_id": "media_57209d9191f8af725e2692da",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3272,7 +3266,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "מסיבת אירוסין",
@@ -3560,12 +3554,12 @@
       "production_key": "מתן פרץ",
       "name": "מתן פרץ",
       "media": [
-        "media_4ecb9949b27cfcaed64b9590"
+        "media_b0f2a8dc35d3248f616a5f53"
       ],
       "approved_media": [
-        "media_4ecb9949b27cfcaed64b9590"
+        "media_b0f2a8dc35d3248f616a5f53"
       ],
-      "preferred_media_id": "media_4ecb9949b27cfcaed64b9590",
+      "preferred_media_id": "media_b0f2a8dc35d3248f616a5f53",
       "cities": [
         "ashdod"
       ],
@@ -3615,12 +3609,10 @@
       "production_key": "נועה מנור",
       "name": "נועה מנור",
       "media": [
-        "media_9c9d33ef23b29a5bb246cc96"
+        "media_808157ae718d94b9dc61cd6b"
       ],
-      "approved_media": [
-        "media_9c9d33ef23b29a5bb246cc96"
-      ],
-      "preferred_media_id": "media_9c9d33ef23b29a5bb246cc96",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -3628,7 +3620,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "ניגון של סתיו שרה זילברברג",
@@ -4176,12 +4168,10 @@
       "production_key": "פאטמה הסטנדאפיסטית",
       "name": "פאטמה הסטנדאפיסטית",
       "media": [
-        "media_b1263ba6a5dfe100bb45033a"
+        "media_d5ef1f857c931698741175b4"
       ],
-      "approved_media": [
-        "media_b1263ba6a5dfe100bb45033a"
-      ],
-      "preferred_media_id": "media_b1263ba6a5dfe100bb45033a",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -4189,7 +4179,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "פאנל עולם של אסתטיקה עם גילה תורן חן ורדה שחף ורופאים ייעודי לגדולות מהחיים",
@@ -4686,12 +4676,10 @@
       "production_key": "שימי תבורי במופע להקה",
       "name": "שימי תבורי במופע להקה",
       "media": [
-        "media_808157ae718d94b9dc61cd6b"
+        "media_4f6bc196c8aefc5ca16ac9d3"
       ],
-      "approved_media": [
-        "media_808157ae718d94b9dc61cd6b"
-      ],
-      "preferred_media_id": "media_808157ae718d94b9dc61cd6b",
+      "approved_media": [],
+      "preferred_media_id": null,
       "cities": [
         "ashdod"
       ],
@@ -4699,7 +4687,7 @@
         "music"
       ],
       "media_count": 1,
-      "approved_media_count": 1
+      "approved_media_count": 0
     },
     {
       "production_key": "שירה שווה מופע ספרותי מוזיקלי",
@@ -4798,12 +4786,12 @@
       "production_key": "שמעון בוסקילה קרוב לבית",
       "name": "שמעון בוסקילה – קרוב לבית",
       "media": [
-        "media_cc1f2d312487eca49564aa7c"
+        "media_399142e07d1a5514d567da44"
       ],
       "approved_media": [
-        "media_cc1f2d312487eca49564aa7c"
+        "media_399142e07d1a5514d567da44"
       ],
-      "preferred_media_id": "media_cc1f2d312487eca49564aa7c",
+      "preferred_media_id": "media_399142e07d1a5514d567da44",
       "cities": [
         "ashdod"
       ],
@@ -4856,10 +4844,12 @@
       "production_key": "שקרים קטנים קומדיה משפחתית מופרעת",
       "name": "שקרים קטנים קומדיה משפחתית מופרעת",
       "media": [
-        "media_4b9919c64dc3f2b2abb3e748"
+        "media_55f4ff419824100f86cdc770"
       ],
-      "approved_media": [],
-      "preferred_media_id": null,
+      "approved_media": [
+        "media_55f4ff419824100f86cdc770"
+      ],
+      "preferred_media_id": "media_55f4ff419824100f86cdc770",
       "cities": [
         "ashdod"
       ],
@@ -4867,7 +4857,7 @@
         "standup"
       ],
       "media_count": 1,
-      "approved_media_count": 0
+      "approved_media_count": 1
     },
     {
       "production_key": "תזמורת האורקסטרה החדשה",

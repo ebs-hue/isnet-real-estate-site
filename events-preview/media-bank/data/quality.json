@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T09:16:48.048823+00:00",
+  "generated_at": "2026-10-10T09:45:01.802581+00:00",
   "stats": {
     "events_scanned": 502,
     "image_links": 393,
-    "unique_images": 173,
-    "approved": 153,
+    "unique_images": 170,
+    "approved": 148,
     "needs_review": 12,
-    "rejected": 8
+    "rejected": 10
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 8
+    "same_image_used_for_multiple_dissimilar_event_titles": 10
   },
   "source_domains": {
     "htrl.co.il": {
@@ -18,23 +18,23 @@
       "review": 1,
       "rejected": 0
     },
+    "static.tickchak.co.il": {
+      "images": 17,
+      "approved": 14,
+      "review": 1,
+      "rejected": 2
+    },
     "ashdod.smarticket.co.il": {
-      "images": 18,
-      "approved": 13,
+      "images": 16,
+      "approved": 11,
       "review": 5,
       "rejected": 0
     },
     "local": {
       "images": 14,
-      "approved": 4,
-      "review": 3,
+      "approved": 5,
+      "review": 2,
       "rejected": 7
-    },
-    "static.tickchak.co.il": {
-      "images": 13,
-      "approved": 13,
-      "review": 0,
-      "rejected": 0
     },
     "yama.smarticket.co.il": {
       "images": 9,
@@ -42,15 +42,15 @@
       "review": 0,
       "rejected": 0
     },
-    "www.ironit.org.il": {
-      "images": 6,
-      "approved": 6,
+    "pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev": {
+      "images": 5,
+      "approved": 5,
       "review": 0,
       "rejected": 0
     },
-    "commons.wikimedia.org": {
-      "images": 3,
-      "approved": 3,
+    "www.ironit.org.il": {
+      "images": 5,
+      "approved": 5,
       "review": 0,
       "rejected": 0
     },
@@ -60,19 +60,13 @@
       "review": 3,
       "rejected": 0
     },
-    "imagedelivery.net": {
-      "images": 3,
-      "approved": 3,
+    "commons.wikimedia.org": {
+      "images": 2,
+      "approved": 2,
       "review": 0,
       "rejected": 0
     },
     "basket.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
-    "benefits.isracard.co.il": {
       "images": 1,
       "approved": 1,
       "review": 0,
@@ -96,6 +90,12 @@
       "review": 0,
       "rejected": 0
     },
+    "imagedelivery.net": {
+      "images": 1,
+      "approved": 1,
+      "review": 0,
+      "rejected": 0
+    },
     "images.makore.co.il": {
       "images": 1,
       "approved": 1,
@@ -114,18 +114,6 @@
       "review": 0,
       "rejected": 0
     },
-    "medias.timeout.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
-    "s3.eu-central-1.amazonaws.com": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
     "tickets.friends-hist.co.il": {
       "images": 1,
       "approved": 1,
@@ -133,12 +121,6 @@
       "rejected": 0
     },
     "www.concerto.com.br": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
-    "www.goshow.co.il": {
       "images": 1,
       "approved": 1,
       "review": 0,
@@ -162,13 +144,13 @@
       "review": 0,
       "rejected": 0
     },
-    "www.megalean.co.il": {
+    "www.makore.co.il": {
       "images": 1,
       "approved": 1,
       "review": 0,
       "rejected": 0
     },
-    "www.mk-hefer.org.il": {
+    "www.megalean.co.il": {
       "images": 1,
       "approved": 1,
       "review": 0,
@@ -197,22 +179,10 @@
       "approved": 1,
       "review": 0,
       "rejected": 0
-    },
-    "www.yonidvir-events.com": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
-    },
-    "ynet-pic1.yit.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
     }
   },
-  "reusable_artists": 110,
-  "reusable_productions": 159,
+  "reusable_artists": 121,
+  "reusable_productions": 154,
   "artists_total": 198,
   "productions_total": 267
 }
