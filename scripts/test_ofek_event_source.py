@@ -40,7 +40,7 @@ rows=module.extract_ofek_events(soup,source,fetch_once,today=date(2026,10,6),sle
 assert len(rows)==1, rows
 e=rows[0]
 assert e["start_date"]=="2027-06-01" and e["start_time"]=="07:20"
-assert e["category"]=="tour" and e["audiences"]==["adults"]
+assert e["category"]=="seniors" and e["activity_type"]=="tour" and e["audiences"]==["seniors"]
 assert e["price_min_ils"]==140
 assert e["ticket_url"]=="https://www.ofek-ashdod.org.il/page.php?type=event&id=33651"
 assert len(calls)==2,calls
