@@ -134,6 +134,21 @@ def infer(event,valid,definitions):
     # category matches. 3. Then analyze description evidence.
     content=" ".join(str(event.get(k) or "") for k in
                      ("short_pitch","event_summary","description","long_description","series_description"))
+    # For senior events, classify the explicit activity format before secondary themes:
+    # a guided tour about history remains a tour, and a panel remains a lecture.
+    if cat=="seniors":
+        format_rules=[
+            (r"סיור|טיול|יציאה\\s+לסיור","senior-trips"),
+            (r"סדנ|עיסת נייר|עיצוב ספגניות|הכנת תליונים","senior-workshops"),
+            (r"ספורט|תנועה|יוגה|פילאטיס|כושר|התעמלות","senior-sport"),
+            (r"פאנל|הרצאה|שיחה|מפגש העשרה|נומרולוגיה|נמרולוגיה","senior-lectures"),
+            (r"קריוקי|שירה בציבור|מעגל מתופפים|קונצרט|שירה","senior-music"),
+            (r"הצגה|תיאטרון|פסטיבל|מופע","senior-culture"),
+        ]
+        for field,evidence_kind in ((title,"title"),(content,"description")):
+            for pattern,subcategory in format_rules:
+                if subcategory in valid.get(cat,set()) and re.search(pattern,field,re.I):
+                    return subcategory,0.97,evidence_kind,False
     for field,evidence_kind in ((title,"title"),(content,"description")):
         matches=[(sub,conf,pattern) for pattern,sub,conf in RULES.get(cat,[])
                  if sub in valid.get(cat,set()) and re.search(pattern,field,re.I)]
