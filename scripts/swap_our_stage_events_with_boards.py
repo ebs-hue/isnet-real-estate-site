@@ -134,7 +134,7 @@ def main():
         removed_duplicates=sum(id(e) in drop for e in data["events"])
         if enabled and drop:
             data["events"]=[e for e in data["events"] if id(e) not in drop]
-            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         report["cities"][city]["duplicate_agent_records_removed"]=removed_duplicates if enabled else 0
         report["cities"][city]["duplicates_preserved_if_editor_locked"]=True
     report["published"]=enabled and any(x["replaced"] or x.get("new_imported") or x.get("duplicate_agent_records_removed") for x in report["cities"].values())
