@@ -3261,7 +3261,8 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "media_status": "waiting_for_content"
     },
     {
       "event_id": "r_k_1015_1100",
@@ -7611,7 +7612,8 @@
       "venue_institution_id": "htrl",
       "venue_phone": "03-9488666",
       "venue_website": "https://htrl.co.il/",
-      "address_source": "verified_institution_registry"
+      "address_source": "verified_institution_registry",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "ראשון לציון",
@@ -10272,7 +10274,8 @@
       "operator_id": "htrl_adults",
       "operator_name": "לגלות תרבות",
       "contact_phone": "03-9488666",
-      "organizer_url": "https://htrl.co.il/third-calendar/"
+      "organizer_url": "https://htrl.co.il/third-calendar/",
+      "media_status": "waiting_for_content"
     },
     {
       "city": "ראשון לציון",
@@ -23421,5 +23424,5 @@
       "content_enrichment_retry_after": "2026-10-14"
     }
   ],
-  "image_audit_generated_at": "2026-10-09T04:37:20Z"
+  "image_audit_generated_at": "2026-10-10T04:36:41Z"
 }
