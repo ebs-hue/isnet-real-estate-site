@@ -178,6 +178,18 @@ def main():
                     if not domain(response.url,source["domain"]):raise ValueError("unexpected_redirect")
                     soup=BeautifulSoup(response.text,"html.parser")
                     links=detail_links(soup,response.url,source["domain"])
+                    # Mevalim exposes occurrence details as structured data on its
+                    # city page, while production artwork is on linked ticket/show pages.
+                    # Follow the *actual offer URL* before declaring its photo missing.
+                    if source["id"]=="mevalim":
+                        for obj in collect_jsonld(soup):
+                            if not isinstance(obj,dict):continue
+                            offer=obj.get("offers") or {}
+                            if isinstance(offer,list):offer=offer[0] if offer else {}
+                            u=offer.get("url") if isinstance(offer,dict) else None
+                            if isinstance(u,str):
+                                u=urljoin(response.url,u)
+                                if domain(u,source["domain"]) and u not in links:links.insert(0,u)
                     # Structured event records only: never treat navigation links as performances.
                     for event in detail_extract(soup,source["id"],response.url):
                         if event.get("city") not in CITIES:continue
@@ -185,7 +197,7 @@ def main():
                         if key in seen:continue
                         seen.add(key);records.append(event);count+=1
                     for url in links:
-                        if fetched>=65:break
+                        if fetched>=90:break
                         try:
                             detail=session.get(url,headers=HEAD,timeout=18)
                             detail.raise_for_status()
