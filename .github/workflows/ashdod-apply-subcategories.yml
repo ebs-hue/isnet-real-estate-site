@@ -1,0 +1,34 @@
+name: Apply verified Ashdod event subcategories
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/apply_ashdod_verified_subcategories.py'
+      - '.github/workflows/ashdod-apply-subcategories.yml'
+permissions:
+  contents: write
+concurrency:
+  group: ashdod-subcategory-writeback
+  cancel-in-progress: false
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply only high-confidence subtype assignments
+        run: python scripts/apply_ashdod_verified_subcategories.py
+      - name: Save feed and audit with verified git readback
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/ashdod/data/events.json events-preview/admin/data/subcategory-apply-report-ashdod.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Write high-confidence Ashdod subcategories to event feed"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
