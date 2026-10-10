@@ -1,17 +1,19 @@
 {
-  "generated_at": "2026-10-10T13:13:27Z",
-  "total_events": 324,
-  "events_with_publishable_images": 311,
-  "events_still_missing_images": 13,
+  "generated_at": "2026-10-10T13:33:45Z",
+  "total_events": 433,
+  "events_with_publishable_images": 409,
+  "events_still_missing_images": 24,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
     "mishkan_smarticket": 12,
-    "ashdod_smarticket": 1
+    "ashdod_smarticket": 1,
+    "mevalim": 11
   },
   "missing_by_category": {
     "music": 12,
+    "other": 11,
     "cinema": 1
   },
   "missing": [
@@ -31,6 +33,36 @@
       "reason": "no_verified_source_image"
     },
     {
+      "event_id": "auto_as_706f75061a4ce899ea48",
+      "title": "זוגיות AI - התיאטרון העברי",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_6c8b12850f78442f30d4",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_7f2e6c86391482ae3fb5",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_5b2b6d7949ae8537c46b",
+      "title": "מלכת היופי של ירושלים - בית ליסין",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_55a39d52dc39c68b8b0b",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_884231a0bf67cc52960a",
+      "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
+      "reason": "no_verified_source_image"
+    },
+    {
       "event_id": "auto_as_6b69e4a3d5d662cc0ef9",
       "title": "בוקרשט - בודפשט",
       "reason": "no_verified_source_image"
@@ -38,6 +70,16 @@
     {
       "event_id": "auto_as_95f92aa282a0c631a783",
       "title": "מחווה ליורגוס דאלארס",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_2233314ddfba8d097c92",
+      "title": "שלומית אהרון חוגגת 60 שנות קריירה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_217a68c446bf0db02cd1",
+      "title": "שלום חנוך",
       "reason": "no_verified_source_image"
     },
     {
@@ -73,6 +115,21 @@
     {
       "event_id": "auto_as_4ada58fcddb5e9649fac",
       "title": "CON TEH PARTIRO",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_e4206a625c86cd4008f0",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_2527f031672bd236b623",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
+      "reason": "no_verified_source_image"
+    },
+    {
+      "event_id": "auto_as_eb2e137c28d58cbe724e",
+      "title": "להתראות ותודה על הקרמשניט - תיאטרון הבימה",
       "reason": "no_verified_source_image"
     },
     {

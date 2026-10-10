@@ -1628,12 +1628,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -1644,7 +1644,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_70_20261010",
@@ -4062,12 +4069,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%A2%D7%A9%D7%94-%D7%91%D7%97%D7%9E%D7%99%D7%A9%D7%94-%D7%91%D7%9C%D7%95%D7%A0%D7%99%D7%9D/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_baloon.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -4078,7 +4085,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/3d1a0f2000b578c8c7d30087.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_9300e0f7de398cd94516a367"
     },
     {
       "city": "אשדוד",
@@ -5232,12 +5245,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/113502ec2dff834367b78ce8.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "sources": [
         {
           "name": "mevalim",
@@ -5248,7 +5261,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/113502ec2dff834367b78ce8.webp",
+      "thumbnail_ready": true,
+      "image_credit": "tickchak-live",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_0d140747d637094eb42cd6fb"
     },
     {
       "event_id": "evt_42_20261015",
@@ -5372,12 +5391,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "sources": [
         {
           "name": "mevalim",
@@ -5388,7 +5407,12 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "tickchak-live",
+      "image_strategy": "same_production_reuse",
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_f486a4102b8579046b1f",
@@ -5400,12 +5424,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -5416,7 +5440,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_edae801d075d3bb259f5",
@@ -5428,12 +5459,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -5444,7 +5475,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -6089,12 +6127,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET central media bank",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "sources": [
         {
           "name": "mevalim",
@@ -6105,7 +6143,12 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "תמונת קטגוריה: ISNET",
+      "image_strategy": "same_production_reuse",
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_9e06e2f41fbfca466c00",
@@ -6117,12 +6160,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -6133,7 +6176,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_6b6df9293f8af2e4e31e",
@@ -6145,12 +6195,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -6161,7 +6211,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_3c38513554a89a358eeb",
@@ -6173,12 +6230,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -6189,7 +6246,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_8c9f185e166296395601",
@@ -6201,12 +6265,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -6217,7 +6281,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_44_20261017",
@@ -6341,12 +6412,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "sources": [
         {
           "name": "mevalim",
@@ -6357,7 +6428,12 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "tickchak-live",
+      "image_strategy": "same_production_reuse",
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -7354,12 +7430,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%99%D7%A7%D7%99-%D7%94%D7%91%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A2%D7%9C/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/08/new_site_320_450_yael.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -7370,7 +7446,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_2487a12688d1bbd41c09171d"
     },
     {
       "event_id": "auto_as_307392a0665b3ac7255d",
@@ -7382,12 +7464,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9E%D7%99%D7%A7%D7%99-%D7%94%D7%91%D7%99%D7%AA-%D7%A9%D7%9C-%D7%99%D7%A2%D7%9C/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/08/new_site_320_450_yael.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -7398,7 +7480,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/e6c11bfe374c081ba2f298f1.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_2487a12688d1bbd41c09171d"
     },
     {
       "event_id": "evt_9_20261019",
@@ -8216,12 +8304,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -8232,7 +8320,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_9a3f5cf3d245b4a51b19",
@@ -8244,12 +8339,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -8260,7 +8355,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -9036,12 +9138,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -9052,7 +9154,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_47_20261022",
@@ -9205,12 +9314,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "sources": [
         {
           "name": "mevalim",
@@ -9221,7 +9330,12 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "tickchak-live",
+      "image_strategy": "same_production_reuse",
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_10_20261022",
@@ -9349,12 +9463,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -9365,7 +9479,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_886882cb1ef337e38a9c",
@@ -9377,12 +9498,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -9393,7 +9514,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_19625b1fab5e0c9f921a",
@@ -9405,12 +9533,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -9421,7 +9549,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -9899,12 +10034,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/7256c4b760472ad262b6e4c8.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "sources": [
         {
           "name": "mevalim",
@@ -9915,7 +10050,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/7256c4b760472ad262b6e4c8.webp",
+      "thumbnail_ready": true,
+      "image_credit": "tickchak-live",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_d30c98ba668b5f1d6a3555ca"
     },
     {
       "city": "אשדוד",
@@ -11398,12 +11539,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
+      "image_source": "https://htrl.co.il/show/%D7%91%D7%9F-%D7%91%D7%9F-%D7%91%D7%A8%D7%95%D7%9A-2/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/07/new_site_320_450_ben.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -11414,7 +11555,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/34494ab0a77f7a1558dd3abb.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_36c1f2c48f0a342cc83d2e0c"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -11878,12 +12025,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "image_source": "https://www.tzavta.co.il/",
+      "image_origin_url": "https://www.tzavta.co.il/download/events/Event_Second_Image_ccd672fc-9d9c-492c-b290-c6280e6cee7c.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -11894,7 +12041,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צוותא / חומרי קידום המופע",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_dd90fee0cf5fa24af5b83489"
     },
     {
       "event_id": "auto_as_46780a2f28bdea6d1a40",
@@ -11906,12 +12059,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "image_source": "https://www.tzavta.co.il/",
+      "image_origin_url": "https://www.tzavta.co.il/download/events/Event_Second_Image_ccd672fc-9d9c-492c-b290-c6280e6cee7c.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -11922,7 +12075,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/9d1ef6753f3bd4cea6919fc6.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צוותא / חומרי קידום המופע",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_dd90fee0cf5fa24af5b83489"
     },
     {
       "city": "אשדוד",
@@ -13142,12 +13301,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -13158,7 +13317,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_c5cfa403e54c71516354",
@@ -13170,12 +13336,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -13186,7 +13352,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -13933,12 +14106,12 @@
       "venue": "מונארט מרכז תרבות אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -13949,7 +14122,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_fa8970a7269c724ec8b2",
@@ -13961,12 +14141,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -13977,7 +14157,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -14234,12 +14421,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -14250,7 +14437,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -14653,12 +14847,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -14669,7 +14863,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -15062,12 +15263,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/7f2715a02aee3987f2626a4d.webp",
+      "image_source": "https://www.htyavne.co.il/",
+      "image_origin_url": "https://www.htyavne.co.il/uploads/upld5d53f8b8c818d118163072.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -15078,7 +15279,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/7f2715a02aee3987f2626a4d.webp",
+      "thumbnail_ready": true,
+      "image_credit": "חומרי קידום ההצגה",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_96e5a8121db34efa5afc6450"
     },
     {
       "event_id": "evt_75_20261110",
@@ -15958,12 +16165,12 @@
       "venue": "סינמה סיטי אשדוד - אולם 14 אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -15974,7 +16181,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_30406ba7efe0bf0754f2",
@@ -15986,12 +16200,12 @@
       "venue": "סינמה סיטי אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16002,7 +16216,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_6ff3dee8745d5c20a563",
@@ -16014,12 +16235,12 @@
       "venue": "נאפו בר אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16030,7 +16251,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -16157,12 +16385,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/music.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/music.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16173,7 +16401,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_eb7ba0d047d3c9b1e354",
@@ -16185,12 +16420,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/music.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/music.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16201,7 +16436,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_16fff3bcf8d32c312e8a",
@@ -16213,12 +16455,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/music.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/music.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16229,7 +16471,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -16978,12 +17227,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -16994,7 +17243,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -17467,12 +17723,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -17483,7 +17739,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -17865,12 +18128,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -17881,7 +18144,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -18144,12 +18414,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -18160,7 +18430,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_f81eb0c9a8e90adbd5ee",
@@ -18172,12 +18449,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "image_source": "https://htrl.co.il/show/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%97%D7%9F-2/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_daniel.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -18188,7 +18465,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_a1dd9957973686b2050eecb3"
     },
     {
       "city": "אשדוד",
@@ -18576,12 +18859,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -18592,7 +18875,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_59_20261121",
@@ -18672,12 +18962,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "sources": [
         {
           "name": "mevalim",
@@ -18688,7 +18978,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/eafdd6cf0530f8a21e1a4029.webp",
+      "thumbnail_ready": true,
+      "image_credit": "tickchak-live",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_13c79c0db61e8fe43fbb9dd0"
     },
     {
       "city": "אשדוד",
@@ -19830,12 +20126,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -19846,7 +20142,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_46982c8acb5b20d5ba37",
@@ -19858,12 +20161,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -19874,7 +20177,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -20010,12 +20320,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -20026,7 +20336,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_61_20261126",
@@ -20231,12 +20548,12 @@
       "venue": "מתנ&#039;&#039;ס דיונה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/2f32c76e774a9c97698c6380.webp",
+      "image_source": "https://htrl.co.il/show/%D7%92%D7%99%D7%95%D7%A8%D7%90-%D7%96%D7%99%D7%A0%D7%92%D7%A8-2/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/05/new_site_320_450_zinger.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -20247,7 +20564,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/2f32c76e774a9c97698c6380.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_a4e5175231ad30ec63380eea"
     },
     {
       "city": "אשדוד",
@@ -20382,12 +20705,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -20398,7 +20721,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_f2ae2e04eb7744275c75",
@@ -20410,12 +20740,12 @@
       "venue": "מתנ&quot;ס דיונה, אשדוד אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -20426,7 +20756,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_f9dc56fbe77050a5b122",
@@ -20438,12 +20775,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -20454,7 +20791,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_83_20261128",
@@ -21835,12 +22179,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -21851,7 +22195,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -22044,12 +22395,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/music.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/music.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -22060,7 +22411,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -22189,12 +22547,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -22205,7 +22563,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -22448,12 +22813,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -22464,7 +22829,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_64_20261207",
@@ -22735,12 +23107,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "image_source": "https://www.srugim.co.il/",
+      "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -22751,7 +23123,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "thumbnail_ready": true,
+      "image_credit": "תמונת הפקה - היפה והחיה",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_820803571ee436d0f2e268bd"
     },
     {
       "city": "אשדוד",
@@ -22975,12 +23353,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "image_source": "https://www.srugim.co.il/",
+      "image_origin_url": "https://images.srugim.co.il/cdn-cgi/image/format%3Dauto%2Cfit%3Dcontain%2Cquality%3D80%2Cwidth%3D1400/2025/11/13/58b54760-52f0-11f1-a5e3-63c7c4313518__h1067_w1600.jpeg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -22991,7 +23369,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/178f6bb6bc13b69ccf729de0.webp",
+      "thumbnail_ready": true,
+      "image_credit": "תמונת הפקה - היפה והחיה",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_820803571ee436d0f2e268bd"
     },
     {
       "city": "אשדוד",
@@ -23239,12 +23623,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23255,7 +23639,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_3f18d22f4271ecfc02c7",
@@ -23267,12 +23658,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23283,7 +23674,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -23406,12 +23804,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23422,7 +23820,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_b252d08ebfc89450d564",
@@ -23434,12 +23839,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "image_source": "sababa-events",
+      "image_origin_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "sources": [
         {
           "name": "mevalim",
@@ -23450,7 +23855,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+      "thumbnail_ready": true,
+      "image_credit": "sababa-events",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_55f4ff419824100f86cdc770"
     },
     {
       "city": "אשדוד",
@@ -23644,12 +24055,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23660,7 +24071,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_7cb0657ce3db30cb4e39",
@@ -23672,12 +24090,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23688,7 +24106,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_59d67126a9311b5e4f10",
@@ -23700,12 +24125,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23716,7 +24141,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_5755d7f89cb89032ade7",
@@ -23728,12 +24160,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23744,7 +24176,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -23975,12 +24414,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/sport.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/sport.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -23991,7 +24430,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_66_20261215",
@@ -24194,12 +24640,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -24210,7 +24656,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -24445,12 +24898,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -24461,7 +24914,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -24607,12 +25067,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/8d95f1a1cd7a5d9b0a00bd6b.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "publisher_directed_reuse_license_unverified",
       "sources": [
         {
           "name": "mevalim",
@@ -24623,7 +25083,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/8d95f1a1cd7a5d9b0a00bd6b.webp",
+      "thumbnail_ready": true,
+      "image_credit": "tickchak-live",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_b0f2a8dc35d3248f616a5f53"
     },
     {
       "event_id": "auto_as_f41e6c2122ebee27bb0f",
@@ -24635,12 +25101,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -24651,7 +25117,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -24774,12 +25247,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -24790,7 +25263,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_86_20261221",
@@ -25197,12 +25677,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -25213,7 +25693,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -25335,12 +25822,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%9C%D7%99%D7%A1%D7%94-%D7%91%D7%90%D7%A8%D7%A5-%D7%94%D7%A4%D7%9C%D7%90%D7%95%D7%AA-%D7%97%D7%A0%D7%95%D7%9B%D7%94-2026/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/08/new_site_320_450_alisa.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -25351,7 +25838,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/cfaa3cba644472ea887ffc8d.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_e1f11d6ad6a0278b81a176e7"
     },
     {
       "event_id": "evt_87_20261228",
@@ -25865,12 +26358,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -25881,7 +26374,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_89_20261230",
@@ -26021,12 +26521,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -26037,7 +26537,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_90_20261231",
@@ -26177,12 +26684,12 @@
       "venue": "הוט סינמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -26193,7 +26700,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_91_20270102",
@@ -26335,12 +26849,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -26351,7 +26865,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "evt_67_20270102",
@@ -26633,12 +27154,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -26649,7 +27170,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -26850,12 +27378,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -26866,7 +27394,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_653e0aea368d95f820cf",
@@ -26878,12 +27413,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "image_source": "https://htrl.co.il/show/%D7%93%D7%A0%D7%99%D7%90%D7%9C-%D7%97%D7%9F-2/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2026/10/new_site_320_450_daniel.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -26894,7 +27429,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/aaeb73e670fcf8821cef837f.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_a1dd9957973686b2050eecb3"
     },
     {
       "city": "אשדוד",
@@ -27725,12 +28266,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/standup.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -27741,7 +28282,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -27958,12 +28506,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -27974,7 +28522,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -28535,12 +29090,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/kids.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -28551,7 +29106,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -28697,12 +29259,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%95%D7%93%D7%99-%D7%9B%D7%92%D7%9F-2/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/05/new_site_320_450_udi.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -28713,7 +29275,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/a02f1571fbcc3e37a337b80c.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_fcfa428eaac63aaaa48c32fd"
     },
     {
       "event_id": "auto_as_ae144df34e6052590f0f",
@@ -28725,12 +29293,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_source": "tickchak-live",
+      "image_origin_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "verified_official_source",
       "sources": [
         {
           "name": "mevalim",
@@ -28741,7 +29309,12 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "tickchak-live",
+      "image_strategy": "same_production_reuse",
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -28998,12 +29571,12 @@
       "venue": "מונארט מרכז תרבות אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29014,7 +29587,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "event_id": "auto_as_51d906a05e8cb6cc6fec",
@@ -29026,12 +29606,12 @@
       "venue": "בית יד לבנים אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29042,7 +29622,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -29155,12 +29742,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/music.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/music.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29171,7 +29758,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -29274,12 +29868,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29290,7 +29884,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -29629,12 +30230,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29645,7 +30246,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -29769,12 +30377,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29785,7 +30393,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -29905,12 +30520,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -29921,7 +30536,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -30047,12 +30669,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -30063,7 +30685,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -30423,12 +31052,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/2af882446741fc2af16bebf2.webp",
+      "image_source": "https://htrl.co.il/show/%D7%9B%D7%A1%D7%A4%D7%99%D7%95%D7%9F-%D7%94%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F-%D7%94%D7%A9%D7%97%D7%95%D7%A8/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2025/07/new_site_320_450_caspion.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -30439,7 +31068,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/2af882446741fc2af16bebf2.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_74b939937795dc8e2f9696b4"
     },
     {
       "city": "אשדוד",
@@ -30985,12 +31620,12 @@
       "venue": "מתנ\"ס דיונה, אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "assets/defaults/festival.svg",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "assets/defaults/festival.svg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -31001,7 +31636,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
@@ -31444,12 +32086,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/cards/80bbccde72839133486c16b2.webp",
+      "image_source": "https://htrl.co.il/show/%D7%90%D7%93%D7%99%D7%A8-%D7%9E%D7%99%D7%9C%D7%A8/",
+      "image_origin_url": "https://htrl.co.il/wp-content/uploads/2024/01/2B1B3533.jpg",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "unknown",
       "sources": [
         {
           "name": "mevalim",
@@ -31460,7 +32102,13 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "thumbnail_url": "/events-preview/media-bank/cards/80bbccde72839133486c16b2.webp",
+      "thumbnail_ready": true,
+      "image_credit": "צילום או כרזה: אתר המארגן הרשמי",
+      "image_strategy": "central_media_bank_reuse",
+      "media_bank_id": "media_1863e01d5ab4452a02e644a9"
     },
     {
       "city": "אשדוד",
@@ -32095,12 +32743,12 @@
       "venue": "המשכן לאמנויות הבמה אשדוד",
       "category": "other",
       "ticket_url": "https://www.mevalim.co.il/ashdod/",
-      "image_url": null,
-      "image_source": "https://www.mevalim.co.il/ashdod/",
-      "image_origin_url": "https://www.mevalim.co.il/ashdod/",
-      "image_publishable": false,
-      "image_verified": false,
-      "image_rights_status": "needs_review",
+      "image_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_source": "ISNET internal representative artwork",
+      "image_origin_url": "/events-preview/media-bank/defaults/theatre.webp",
+      "image_publishable": true,
+      "image_verified": true,
+      "image_rights_status": "owned_system_asset",
       "sources": [
         {
           "name": "mevalim",
@@ -32111,7 +32759,14 @@
       "status": "active",
       "quality_flags": [
         "national_board_import"
-      ]
+      ],
+      "media_status": "waiting_for_content",
+      "image_credit": "איור מייצג: ISNET",
+      "image_strategy": "super_editor_representative_fallback",
+      "image_represents_event": false,
+      "image_represents_category": true,
+      "thumbnail_ready": false,
+      "thumbnail_url": null
     },
     {
       "city": "אשדוד",
