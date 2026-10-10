@@ -85,8 +85,8 @@ def main():
             events.sort(key=lambda e:(e.get("start_date") or "",e.get("start_time") or "",e.get("title") or ""))
             data["generated_at"]=report["generated_at"]
             data.setdefault("stats",{})["events"]=len(events)
-            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+            path.write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         report["cities"][slug]={"added":count,"total":len(events)}
-    (ROOT/"events-preview/admin/data/national-board-import-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+    (ROOT/"events-preview/admin/data/national-board-import-report.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(report,ensure_ascii=False))
 if __name__=="__main__":main()
