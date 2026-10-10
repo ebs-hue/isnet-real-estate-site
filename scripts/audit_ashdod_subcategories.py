@@ -7,6 +7,7 @@ import json
 import re
 from pathlib import Path
 from collections import Counter
+from datetime import datetime, timezone
 
 ROOT=Path(__file__).resolve().parents[1]
 FEED=ROOT/"events-preview/ashdod/data/events.json"
@@ -144,7 +145,13 @@ def run():
             counts["primary_category_review"]+=1
         if e.get("subcategory_manual_override"):
             candidate,confidence,evidence=None,0.0,"manual_lock"
-        if candidate:counts["staged_candidate"]+=1
+        if candidate:
+            counts["staged_candidate"]+=1
+            if conflict:counts["conflicting_evidence"]+=1
+            elif primary_review:counts["primary_category_review_blocked"]+=1
+            elif confidence>=0.90:counts["ready_for_guarded_application"]+=1
+            elif confidence>=0.85:counts["review_medium_confidence"]+=1
+            else:counts["review_low_confidence"]+=1
         else:counts["needs_contextual_review"]+=1
         status="suggestion_only" if candidate else "needs_review"
         if conflict or confidence<0.85 or primary_review:status="needs_review"
@@ -152,7 +159,7 @@ def run():
                          "suggested_subcategory":candidate,"confidence":confidence,"evidence_field":evidence,
                          "conflict":conflict,"primary_category_review_proposed":primary_review,"status":status})
     REPORT.parent.mkdir(parents=True,exist_ok=True)
-    REPORT.write_text(json.dumps({"city":"ashdod","publication_enabled":False,"total":len(events),
+    REPORT.write_text(json.dumps({"city":"ashdod","publication_enabled":False,"generated_at":datetime.now(timezone.utc).isoformat(),"total":len(events),
                       "counts":dict(counts),"events":findings},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"total":len(events),"counts":dict(counts)},ensure_ascii=False))
 
