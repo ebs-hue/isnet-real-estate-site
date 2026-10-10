@@ -36,3 +36,4 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           fi
+# Operator requested run 2026-10-10: national-event-board-discovery.yml
