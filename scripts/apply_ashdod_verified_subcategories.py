@@ -31,6 +31,8 @@ def main():
                 ("כדורעף","volleyball"),("כדוריד","handball"),
                 ("כדורסל","basketball"),("כדורגל","football")]
                 if term in title),None)
+            if not sport and "volleyball" in str(event.get("event_id") or "").lower():
+                sport=("volleyball","volleyball")
             if sport:
                 event["subcategory"]=sport[1]
                 event["subcategory_review_status"]="corrected_from_explicit_sport_title"
