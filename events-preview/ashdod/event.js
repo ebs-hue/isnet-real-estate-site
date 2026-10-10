@@ -237,7 +237,7 @@ function autoPitch(e){
 function meaningfulEventDescription(e){
   // Prefer editorial descriptions already attributed to this event.
   // Research citations and URLs are never part of public editorial copy.
-  const candidates=[e.long_description,e.series_description,e.description,e.short_pitch];
+  const candidates=e.content_source_url && e.description_manual_override!==true\n    ? [e.series_description,e.description,e.long_description,e.short_pitch]\n    : [e.long_description,e.series_description,e.description,e.short_pitch];
   return candidates.map(cleanEditorialText).find(v=>
     v.length>=25 &&
     !v.includes("תיאור מפורט של האירוע לא פורסם") &&
