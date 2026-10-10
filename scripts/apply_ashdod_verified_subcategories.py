@@ -52,6 +52,8 @@ def main():
         if (not event or suggestion.get("status")!="suggestion_only"
             or suggestion.get("conflict") or suggestion.get("primary_category_review_proposed")
             or float(suggestion.get("confidence") or 0)<0.90
+            # Avoid converting incidental background words into event type on the basis of prose alone.
+            or (suggestion.get("evidence_field")=="description" and float(suggestion.get("confidence") or 0)<0.95)
             or event.get("subcategory_manual_override") is True
             or event.get("subcategory") not in (None,"")
             or event.get("category")!=suggestion.get("category")
