@@ -23,6 +23,8 @@ def candidate_records():
 def main():
     feed=read(ROOT/"events-preview/ashdod/data/events.json").get("events",[])
     bank=read(DATA/"subcategory-image-map.json").get("categories",{})
+    config=read(DATA/"event-source-priority.json")
+    allowed=set(config.get("enrichment_pipeline",{}).get("stage_board_categories",[]))
     candidates=candidate_records()
     report=[]
     for event in feed:
@@ -31,7 +33,7 @@ def main():
         original_description=bool(event.get("long_description") or event.get("description"))
         name=normal(event.get("title"))
         matches=[]
-        if len(name)>=7:
+        if category in allowed and len(name)>=7:
             for item in candidates:
                 other=normal(item["title"])
                 # National list cards may prepend dates/locations/prices; exact production title
