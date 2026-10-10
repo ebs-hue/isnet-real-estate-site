@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - 'scripts/audit_ashdod_subcategories.py'
+      - 'scripts/test_subcategory_definitions.py'
+      - 'events-preview/admin/data/subcategory-definitions.json'
       - '.github/workflows/ashdod-subcategory-audit.yml'
 
 permissions:
@@ -26,6 +28,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Validate subtype dictionary against canonical taxonomy
+        run: python scripts/test_subcategory_definitions.py
       - name: Audit all event records; do not publish
         run: python scripts/audit_ashdod_subcategories.py
       - name: Apply high-confidence suggestions from this same audit
