@@ -159,6 +159,9 @@ function subcategoryLabel(e){
   const cat=taxonomyCategories.find(x=>x.id===e.category);
   return cat?.subcategories?.find(x=>x.id===e.subcategory)?.label||e.subcategory||"—";
 }
+function importedStamp(e){return e.imported_at||e.created_at||e.published_at||""}
+function importedLabel(e){const stamp=importedStamp(e);if(!stamp)return "לא ידוע";const d=new Date(stamp);return Number.isNaN(d.getTime())?stamp:d.toLocaleString("he-IL",{timeZone:"Asia/Jerusalem",day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});}
+function sourceLabel(e){return e.image_source||e.source_id||e.source||e.sources?.[0]?.name||e.purchase_source||"לא ידוע";}
 function filtered(){
   const q=$("q").value.trim().toLowerCase(),city=$("city").value,cat=$("category").value,status=$("status").value,quality=$("quality").value;
   const sub=$("subcategory").value;
@@ -178,7 +181,7 @@ function filtered(){
       if(!hay.includes(q))return false;
     }
     return true;
-  }).sort((a,b)=>(b.start_date+(b.start_time||"")).localeCompare(a.start_date+(a.start_time||"")));
+  }).sort((a,b)=>{const mode=$("sortOrder")?.value||"latest";return mode==="event_date"?(b.start_date+(b.start_time||"")).localeCompare(a.start_date+(a.start_time||"")):(importedStamp(b).localeCompare(importedStamp(a))||(b.start_date+(b.start_time||"")).localeCompare(a.start_date+(a.start_time||"")));});
 }
 function renderStats(){
   const horizon=horizonEnd();
@@ -214,7 +217,7 @@ function render(){
       : imageApproved
         ? '<span class="tag good">יש תמונה · מאושרת</span>'
         : '<span class="tag warn">יש תמונה · לבדיקה</span>';
-    const src=(e.sources||[])[0]?.name||e.purchase_source||"—";
+    const src=sourceLabel(e);
     const issues=e._issues.length?e._issues.map(i=>'<span class="tag '+i.level+'">'+esc(i.label)+'</span>').join(""):'<span class="tag good">תקין</span>';
     const url=e._cityBase+"event.html?id="+encodeURIComponent(e.event_id);
     const editUrl=(e._localNew?"new.html?v=20261007-1300&edit=1&city=":"edit.html?v=20261007-1300&city=")+encodeURIComponent(e._citySlug)+"&id="+encodeURIComponent(e.event_id);
@@ -229,14 +232,14 @@ function render(){
       '<td>'+esc(fmtDate(e.start_date))+(e.start_time?'<br><small>'+esc(e.start_time)+'</small>':'')+'</td>'+
       '<td>'+esc(e.venue||"—")+'</td><td><div class="issues">'+issues+'</div></td>'+
       '<td><span class="promotion-chip '+promotionClass+'">'+promotionLabel+'</span></td>'+
-      '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
+      '<td>'+esc(importedLabel(e))+'</td>'+\n      '<td class="source" title="'+esc(src)+'">'+esc(src)+'</td>'+
       '<td>'+viewsCell(e)+'</td>'+
       '<td><a class="link" href="'+esc(url)+'" target="_blank" rel="noopener">פתח ↗</a></td>'+
       '<td><a class="edit-link" href="'+esc(editUrl)+'">עריכה ✎</a></td>'+
       '</tr>';
   }).join("");
 }
-["q","city","status","quality","subcategory"].forEach(id=>$(id).addEventListener("input",render));
+["q","city","status","quality","subcategory","sortOrder"].forEach(id=>$(id).addEventListener("input",render));
 $("category").addEventListener("change",()=>{renderSubcategoryFilter();render()});
 $("clearBtn").addEventListener("click",()=>{["q","city","category","status","quality","subcategory"].forEach(id=>$(id).value="");renderSubcategoryFilter();render()});
 $("refreshBtn").addEventListener("click",load);
