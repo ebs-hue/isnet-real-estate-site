@@ -6,6 +6,9 @@ on:
       - ashdod-event-engine-v2-pilot
     paths:
       - 'scripts/event_engine_v2.py'
+      - 'scripts/event_taxonomy_aliases.py'
+      - 'scripts/test_event_taxonomy_aliases.py'
+      - 'scripts/collect_unified_stage_events.py'
       - 'scripts/test_event_engine_v2.py'
       - 'scripts/swap_our_stage_events_with_boards.py'
       - '.github/workflows/event-engine-v2-tests.yml'
@@ -20,6 +23,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Python compile
-        run: python -m py_compile scripts/event_engine_v2.py scripts/swap_our_stage_events_with_boards.py
+        run: python -m py_compile scripts/event_engine_v2.py scripts/event_taxonomy_aliases.py scripts/collect_unified_stage_events.py scripts/swap_our_stage_events_with_boards.py
       - name: Identity and safety regression tests
-        run: python -m unittest discover -s scripts -p test_event_engine_v2.py -v
+        run: python -m unittest discover -s scripts -p 'test_event_*v2.py' -v
+      - name: Source category alias tests
+        run: python -m unittest discover -s scripts -p test_event_taxonomy_aliases.py -v
