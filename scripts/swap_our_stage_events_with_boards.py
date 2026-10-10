@@ -21,7 +21,9 @@ def good_copy(s):
     s=html.unescape(str(s or "")).strip()
     return s if len(s)>=100 and not any(w in s for w in ("מחפשים הופעות","באתר מבלים ריכזנו","כרטיסים במחירים מיוחדים","הופעה עם הלהיטים הגדולים","עוד הופעה בקטגוריית")) else ""
 def main():
-    today=datetime.now(ZoneInfo("Asia/Jerusalem")).date().isoformat()
+    now=datetime.now(ZoneInfo("Asia/Jerusalem"))
+    today=now.date().isoformat()
+    ingestion_time=now.isoformat()
     collected=json.loads(COLLECT.read_text(encoding="utf-8"))
     index=defaultdict(list)
     for x in collected["events"]:
@@ -58,7 +60,7 @@ def main():
                  "image_represents_event":bool(img),"image_strategy":"national_board_displayed_image",
                  "image_rights_status":"publisher_directed_reuse_license_unverified" if img else "unknown",
                  "content_source_url":selected.get("source_url"),"rich_content_status":"enriched" if copy else "source_copy_unavailable",
-                 "source":"national_stage_boards","source_event_id":e["event_id"]}
+                 "source":"national_stage_boards","source_event_id":e["event_id"],"imported_at":e.get("imported_at") or ingestion_time,"last_imported_at":ingestion_time}
             replacement.append(new);removed.append(e["event_id"])
         if enabled and replacement:
             data["events"]=kept+replacement
@@ -98,7 +100,7 @@ def main():
                     "image_publishable":bool(image),"image_rights_status":"publisher_directed_reuse_license_unverified",
                     "image_strategy":"national_board_displayed_image",
                     "ticket_url":selected.get("tickets_url"),"purchase_url":selected.get("tickets_url"),
-                    "content_source_url":selected.get("source_url"),"source":"national_stage_boards"})
+                    "content_source_url":selected.get("source_url"),"source":"national_stage_boards","imported_at":ingestion_time,"last_imported_at":ingestion_time})
                 seen.add(key)
         if enabled and new:
             data["events"].extend(new)
