@@ -1,7 +1,7 @@
 {
   "city": "ashdod",
   "publication_enabled": false,
-  "generated_at": "2026-10-10T06:49:59.231610+00:00",
+  "generated_at": "2026-10-10T06:54:53.021123+00:00",
   "total": 321,
   "counts": {
     "already_valid": 51,
@@ -9,8 +9,8 @@
     "needs_contextual_review": 135,
     "staged_candidate": 135,
     "review_medium_confidence": 61,
-    "conflicting_evidence": 35,
-    "review_low_confidence": 31,
+    "review_low_confidence": 41,
+    "conflicting_evidence": 25,
     "primary_category_review": 17,
     "primary_category_review_blocked": 8
   },
@@ -83,7 +83,7 @@
       "suggested_subcategory": "handball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -143,7 +143,7 @@
       "suggested_subcategory": "handball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -263,7 +263,7 @@
       "suggested_subcategory": "basketball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -467,7 +467,7 @@
       "suggested_subcategory": "football",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -491,7 +491,7 @@
       "suggested_subcategory": "volleyball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -563,7 +563,7 @@
       "suggested_subcategory": "handball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -755,7 +755,7 @@
       "suggested_subcategory": "volleyball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -875,7 +875,7 @@
       "suggested_subcategory": "handball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -899,7 +899,7 @@
       "suggested_subcategory": "volleyball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
@@ -935,7 +935,7 @@
       "suggested_subcategory": "handball",
       "confidence": 0.82,
       "evidence_field": "description",
-      "conflict": true,
+      "conflict": false,
       "primary_category_review_proposed": null,
       "status": "needs_review"
     },
