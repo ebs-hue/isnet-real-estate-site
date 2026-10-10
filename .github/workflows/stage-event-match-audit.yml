@@ -1,0 +1,36 @@
+name: Audit collected stage matches against Ashdod events
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 7 * * *'
+  push:
+    paths:
+      - 'scripts/match_collected_stage_events.py'
+      - '.github/workflows/stage-event-match-audit.yml'
+permissions:
+  contents: write
+concurrency:
+  group: stage-event-match-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Create candidate match report without altering events
+        run: python scripts/match_collected_stage_events.py
+      - name: Persist report
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/stage-existing-match-audit-ashdod.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Audit national stage events against existing Ashdod listings"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
