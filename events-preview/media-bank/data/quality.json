@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-10T14:56:03.135212+00:00",
+  "generated_at": "2026-10-10T15:13:47.552203+00:00",
   "stats": {
-    "events_scanned": 587,
-    "image_links": 442,
-    "unique_images": 175,
-    "approved": 152,
+    "events_scanned": 657,
+    "image_links": 512,
+    "unique_images": 228,
+    "approved": 203,
     "needs_review": 11,
-    "rejected": 12
+    "rejected": 14
   },
   "rejected_reasons": {
-    "same_image_used_for_multiple_dissimilar_event_titles": 12
+    "same_image_used_for_multiple_dissimilar_event_titles": 14
   },
   "source_domains": {
     "htrl.co.il": {
@@ -19,15 +19,27 @@
       "rejected": 0
     },
     "static.tickchak.co.il": {
-      "images": 17,
-      "approved": 14,
+      "images": 30,
+      "approved": 25,
       "review": 1,
-      "rejected": 2
+      "rejected": 4
+    },
+    "pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev": {
+      "images": 28,
+      "approved": 28,
+      "review": 0,
+      "rejected": 0
     },
     "ashdod.smarticket.co.il": {
       "images": 16,
       "approved": 11,
       "review": 5,
+      "rejected": 0
+    },
+    "images.makore.co.il": {
+      "images": 15,
+      "approved": 15,
+      "review": 0,
       "rejected": 0
     },
     "local": {
@@ -42,9 +54,9 @@
       "review": 0,
       "rejected": 0
     },
-    "pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev": {
-      "images": 6,
-      "approved": 6,
+    "www.makore.co.il": {
+      "images": 7,
+      "approved": 7,
       "review": 0,
       "rejected": 0
     },
@@ -60,19 +72,7 @@
       "review": 3,
       "rejected": 0
     },
-    "images.makore.co.il": {
-      "images": 2,
-      "approved": 2,
-      "review": 0,
-      "rejected": 0
-    },
     "live.tickchak.co.il": {
-      "images": 2,
-      "approved": 2,
-      "review": 0,
-      "rejected": 0
-    },
-    "www.makore.co.il": {
       "images": 2,
       "approved": 2,
       "review": 0,
@@ -150,6 +150,12 @@
       "review": 0,
       "rejected": 0
     },
+    "www.mevalim.co.il": {
+      "images": 1,
+      "approved": 1,
+      "review": 0,
+      "rejected": 0
+    },
     "www.ofek-ashdod.org.il": {
       "images": 1,
       "approved": 0,
@@ -167,16 +173,10 @@
       "approved": 1,
       "review": 0,
       "rejected": 0
-    },
-    "www.tzavta.co.il": {
-      "images": 1,
-      "approved": 1,
-      "review": 0,
-      "rejected": 0
     }
   },
-  "reusable_artists": 121,
-  "reusable_productions": 158,
-  "artists_total": 198,
-  "productions_total": 298
+  "reusable_artists": 101,
+  "reusable_productions": 203,
+  "artists_total": 176,
+  "productions_total": 348
 }
