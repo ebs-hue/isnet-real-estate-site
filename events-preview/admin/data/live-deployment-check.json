@@ -1,20 +1,85 @@
 {
-  "checked_at": "2026-10-10T15:13:06.881699+00:00",
+  "checked_at": "2026-10-10T15:17:58.643290+00:00",
   "live": {
     "admin_html": {
       "http_status": 200,
       "bytes": 5284,
       "sort_order_present": false,
       "imported_date_present": false,
-      "url": "https://isnet.co.il/events-preview/admin/"
+      "url": "https://isnet.co.il/events-preview/admin/",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=600",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "DYNAMIC"
+      }
     },
     "admin_js": {
       "http_status": 200,
       "bytes": 15124,
       "sort_order_present": false,
       "imported_date_present": false,
-      "url": "https://isnet.co.il/events-preview/admin/app.js"
+      "url": "https://isnet.co.il/events-preview/admin/app.js",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=14400",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "MISS"
+      }
+    },
+    "github_pages_html": {
+      "http_status": 200,
+      "bytes": 5284,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/admin/",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=600",
+        "Age": "1",
+        "Via": "1.1 varnish",
+        "X-Cache": "HIT",
+        "CF-Cache-Status": "DYNAMIC"
+      }
+    },
+    "github_pages_js": {
+      "http_status": 200,
+      "bytes": 15124,
+      "sort_order_present": false,
+      "imported_date_present": false,
+      "url": "https://isnet.co.il/events-preview/admin/app.js",
+      "headers": {
+        "Server": "cloudflare",
+        "Cache-Control": "max-age=14400",
+        "Age": "0",
+        "Via": "1.1 varnish",
+        "X-Cache": "MISS",
+        "CF-Cache-Status": "HIT"
+      }
     }
   },
-  "latest_admin_deployed": false
+  "dns": {
+    "isnet.co.il": [
+      "104.21.34.199",
+      "172.67.164.121",
+      "2606:4700:3031::6815:22c7",
+      "2606:4700:3034::ac43:a479"
+    ],
+    "isnet-media.github.io": [
+      "185.199.108.153",
+      "185.199.109.153",
+      "185.199.110.153",
+      "185.199.111.153",
+      "2606:50c0:8000::153",
+      "2606:50c0:8001::153",
+      "2606:50c0:8002::153",
+      "2606:50c0:8003::153"
+    ]
+  },
+  "latest_admin_deployed": false,
+  "github_pages_updated": false
 }
