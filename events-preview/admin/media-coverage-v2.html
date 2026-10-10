@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>כיסוי תמונות · מרכז ניהול ISNET</title>
+<style>
+:root{font-family:Arial, sans-serif;color:#182232;background:#f5f7fb}
+*{box-sizing:border-box}body{margin:0;padding:22px}main{max-width:1200px;margin:auto}
+h1{font-size:28px}p{line-height:1.6}.muted{color:#596579}
+nav a{color:#135bb8}.panel{background:white;padding:20px;border-radius:14px;margin:15px 0;box-shadow:0 1px 8px #151f3320}
+.summary{display:flex;gap:12px;flex-wrap:wrap}.stat{padding:15px;background:#f0f4fb;border-radius:10px;min-width:145px;flex:1}
+.stat strong{display:block;font-size:24px}select{padding:10px;border:1px solid #cad2dc;border-radius:6px}
+table{width:100%;border-collapse:collapse;text-align:right}th,td{padding:12px;border-bottom:1px solid #e9edf2}th{background:#f7f9fc}
+a{color:#105aa4}td{max-width:300px}small{color:#586477}.table-wrap{overflow-x:auto}
+.warn{color:#9b4717}#message{font-weight:600}
+</style>
+<script src="auth/config.js?v=20261007-1225"></script>
+</head>
+<body><main>
+<nav><a href="index.html">← חזרה למערכת הניהול</a></nav>
+<h1>בקרת תמונות חסרות — אשדוד וראשון לציון</h1>
+<p class="muted">דוח פיתוח לקריאה בלבד. תמונות קיימות לא יוחלפו; תמונות מוצעות מחייבות אימות מקור והרשאת שימוש.</p>
+<section class="panel"><p id="message">טוען דוח...</p><p id="updated" class="muted"></p>
+<label>עיר <select id="city"><option value="ashdod">אשדוד</option><option value="rishon-lezion">ראשון לציון</option></select></label>
+<div id="summary" class="summary"></div></section>
+<section class="panel"><h2>אירועים לטיפול</h2><p id="count"></p>
+<div class="table-wrap"><table><thead><tr><th>אירוע</th><th>תאריך</th><th>קטגוריה</th><th>מה נדרש</th><th>פתיחה</th></tr></thead><tbody id="rows"></tbody></table></div>
+</section>
+</main>
+<script type="module">
+import {requireAuth} from "./auth/guard.js?v=20261007-1225";
+const user=await requireAuth();
+if(user){
+const $=id=>document.getElementById(id);
+const esc=x=>String(x??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let report=null;
+function render(){
+const city=$("city").value;const d=report?.cities?.[city];
+if(!d){$("summary").textContent="אין נתונים לעיר זו";$("rows").replaceChildren();return}
+const counts=d.counts||{};
+const labels=[["future_events","אירועים עתידיים"],["already_has_source_image","תמונות מאושרות"],["missing_publishable_image","ללא תמונה מאושרת"],["generic_placeholders_to_replace","אילוסטרציות להחלפה"],["eligible_catalog_suggestion","הצעות מהבנק"],["no_eligible_catalog_asset","דורשים איתור תמונה"]];
+$("summary").innerHTML=labels.map(([key,label])=>'<div class="stat"><strong>'+Number(counts[key]||0).toLocaleString("he-IL")+'</strong>'+esc(label)+'</div>').join("");
+const rows=d.missing||[];$("count").textContent=rows.length+" אירועים ללא תמונה מאושרת";
+$("rows").innerHTML=rows.slice(0,1000).map(e=>'<tr><td>'+esc(e.title)+'</td><td>'+esc(e.start_date)+'</td><td>'+esc(e.category)+'</td><td>'+esc(e.action==="review_before_publication"?"בדיקת תמונה קיימת":(e.image_problem==="generic_placeholder"?"החלפת אילוסטרציה":"איתור תמונה מתאימה"))+'</td><td><a href="edit.html?city='+encodeURIComponent(city)+'&id='+encodeURIComponent(e.event_id||"")+'">עריכת האירוע</a></td></tr>').join("");
+}
+$("city").addEventListener("change",render);
+try{
+const response=await fetch("data/media-coverage-v2.json",{cache:"no-store"});
+if(!response.ok)throw new Error("report unavailable: "+response.status);
+report=await response.json();
+$("message").textContent="דוח הושלם במערכת הניסוי";
+$("updated").textContent="מועד הפקת הדוח: "+(report.generated_at||"לא ידוע");
+render();
+}catch(e){
+$("message").textContent="עדיין אין דוח הרצה זמין. אין להסיק מכך שאין אירועים חסרי תמונה.";
+$("updated").textContent=String(e.message||e);
+}
+}
+</script>
+</body></html>

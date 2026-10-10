@@ -1,0 +1,38 @@
+name: Test shared ISNET event engine v2
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - ashdod-event-engine-v2-pilot
+    paths:
+      - 'scripts/event_engine_v2.py'
+      - 'scripts/media_catalog_v2.py'
+      - 'scripts/audit_media_coverage_v2.py'
+      - 'scripts/test_media_coverage_v2.py'
+      - 'scripts/test_media_catalog_v2.py'
+      - 'scripts/event_taxonomy_aliases.py'
+      - 'scripts/test_event_taxonomy_aliases.py'
+      - 'scripts/collect_unified_stage_events.py'
+      - 'scripts/test_event_engine_v2.py'
+      - 'scripts/swap_our_stage_events_with_boards.py'
+      - '.github/workflows/event-engine-v2-tests.yml'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Python compile
+        run: python -m py_compile scripts/audit_media_coverage_v2.py scripts/media_catalog_v2.py scripts/event_engine_v2.py scripts/event_taxonomy_aliases.py scripts/collect_unified_stage_events.py scripts/swap_our_stage_events_with_boards.py
+      - name: Identity and safety regression tests
+        run: python -m unittest discover -s scripts -p 'test_event_*v2.py' -v
+      - name: Media asset catalog tests
+        run: python -m unittest discover -s scripts -p test_media_catalog_v2.py -v
+      - name: Image coverage audit tests
+        run: python -m unittest discover -s scripts -p test_media_coverage_v2.py -v
+      - name: Source category alias tests
+        run: python -m unittest discover -s scripts -p test_event_taxonomy_aliases.py -v
