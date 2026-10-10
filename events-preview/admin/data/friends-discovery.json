@@ -1,0 +1,910 @@
+{
+  "generated_at": "2026-10-10T06:05:47.567836+00:00",
+  "source_id": "friends-hist",
+  "publication_enabled": false,
+  "cms_updated": false,
+  "image_reuse_authorized": false,
+  "city_counts": {
+    "ashdod": 42,
+    "rishon-lezion": 70
+  },
+  "errors": [],
+  "candidates": [
+    {
+      "title": "חגיגה בכוורת",
+      "production_url": "https://friends-hist.co.il/show/%d7%97%d7%92%d7%99%d7%92%d7%94-%d7%91%d7%9b%d7%95%d7%95%d7%a8%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קומדי בר- סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%95%d7%9e%d7%93%d7%99-%d7%91%d7%a8-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "דרושה עוזרת – קומדיה מטורפת",
+      "production_url": "https://friends-hist.co.il/show/%d7%93%d7%a8%d7%95%d7%a9%d7%94-%d7%a2%d7%95%d7%96%d7%a8%d7%aa-%d7%a7%d7%95%d7%9e%d7%93%d7%99%d7%94-%d7%9e%d7%98%d7%95%d7%a8%d7%a4%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שלישיית פוש אפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%9c%d7%99%d7%a9%d7%99%d7%99%d7%aa-%d7%a4%d7%95%d7%a9-%d7%90%d7%a4/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "משפחה חמה",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%a9%d7%a4%d7%97%d7%94-%d7%97%d7%9e%d7%94/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיקי- הבית של יעל",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a7%d7%99-%d7%94%d7%91%d7%99%d7%aa-%d7%a9%d7%9c-%d7%99%d7%a2%d7%9c/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "פבלו רוזנברג",
+      "production_url": "https://friends-hist.co.il/show/%d7%a4%d7%91%d7%9c%d7%95-%d7%a8%d7%95%d7%96%d7%a0%d7%91%d7%a8%d7%92/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נינה – מופע מחול מרהיב",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%99%d7%a0%d7%94-%d7%9e%d7%95%d7%a4%d7%a2-%d7%9e%d7%97%d7%95%d7%9c-%d7%9e%d7%a8%d7%94%d7%99%d7%91/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "פאטמה הסטנדאפיסטית הבדואית",
+      "production_url": "https://friends-hist.co.il/show/%d7%a4%d7%90%d7%98%d7%9e%d7%94-%d7%94%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4%d7%99%d7%a1%d7%98%d7%99%d7%aa-%d7%94%d7%91%d7%93%d7%95%d7%90%d7%99%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "לה דולצ'ה נוטה – נוסטלגיה בהיכל בהנחיית דן כנר",
+      "production_url": "https://friends-hist.co.il/show/%d7%9c%d7%94-%d7%93%d7%95%d7%9c%d7%a6%d7%94-%d7%a0%d7%95%d7%98%d7%94-%d7%a0%d7%95%d7%a1%d7%98%d7%9c%d7%92%d7%99%d7%94-%d7%91%d7%94%d7%99%d7%9b%d7%9c-%d7%91%d7%94%d7%a0%d7%97%d7%99%d7%99/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "עפרה – תיאטרון העברי",
+      "production_url": "https://friends-hist.co.il/show/%d7%a2%d7%a4%d7%a8%d7%94-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%94%d7%a2%d7%91%d7%a8%d7%99/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "ויקטוריה גיסן ולהקת Shalman Band – קונצרט חגיגי בשפה הרוסית  Виктория Гиссен и Группа \"Шалман-бенд\" – праздничный концерт",
+      "production_url": "https://friends-hist.co.il/show/%d7%95%d7%99%d7%a7%d7%98%d7%95%d7%a8%d7%99%d7%94-%d7%92%d7%99%d7%a1%d7%9f-%d7%95%d7%9c%d7%94%d7%a7%d7%aa-shalman-band-%d7%a7%d7%95%d7%a0%d7%a6%d7%a8%d7%98-%d7%97%d7%92%d7%99%d7%92%d7%99-%d7%91%d7%a9/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "חנות סופגניות קטנה ומצחיקה",
+      "production_url": "https://friends-hist.co.il/show/%d7%97%d7%a0%d7%95%d7%aa-%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%a7%d7%98%d7%a0%d7%94-%d7%95%d7%9e%d7%a6%d7%97%d7%99%d7%a7%d7%94/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%91%d7%a0%d7%a8-%d7%92%d7%93%d7%a1%d7%99-%d7%9e%d7%a0%d7%92%d7%9f-%d7%95%d7%a9%d7%a8/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שושנה – בכיכובה של גל דה פז",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%a2%d7%9c-%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%93%d7%9e%d7%90%d7%a8%d7%99/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "סתיו בכל הצבעים – הקסם שבצבע – חנוכה 2026",
+      "production_url": "https://friends-hist.co.il/show/%d7%a1%d7%aa%d7%99%d7%95-%d7%91%d7%9b%d7%9c-%d7%94%d7%a6%d7%91%d7%a2%d7%99%d7%9d-%d7%94%d7%a7%d7%a1%d7%9d-%d7%a9%d7%91%d7%a6%d7%91%d7%a2-%d7%97%d7%a0%d7%95%d7%9b%d7%94-2026/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שקרים קטנים – קומדיה משפחתית מופרעת",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%a7%d7%a8%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-%d7%a7%d7%95%d7%9e%d7%93%d7%99%d7%94-%d7%9e%d7%a9%d7%a4%d7%97%d7%aa%d7%99%d7%aa-%d7%9e%d7%95%d7%a4%d7%a8%d7%a2%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קסם של פסטיבל – חנוכה 2026",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%a1%d7%9d-%d7%a9%d7%9c-%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%97%d7%a0%d7%95%d7%9b%d7%94-2026/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הבנאים",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%91%d7%a0%d7%90%d7%99%d7%9d/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נישואים גרעיניים",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%99%d7%a9%d7%95%d7%90%d7%99%d7%9d-%d7%92%d7%a8%d7%a2%d7%99%d7%a0%d7%99%d7%99%d7%9d/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "סן רמו בעברית",
+      "production_url": "https://friends-hist.co.il/show/%d7%a1%d7%9f-%d7%a8%d7%9e%d7%95-%d7%91%d7%a2%d7%91%d7%a8%d7%99%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "לאבובו 2 Лабубу 2026 – Новогодняя вселенная",
+      "production_url": "https://friends-hist.co.il/show/%d7%9c%d7%90%d7%91%d7%95%d7%91%d7%95-2/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "We’ll Still Have a Laugh! – A Concert by Semyon Slepakov",
+      "production_url": "https://friends-hist.co.il/show/well-still-have-a-laugh-a-concert-by-semyon-slepakov/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קונצרט חגיגי לראש השנה 2027 \"כולם צוחקים\" – Праздничный концерт к Рош ха-Шана 2027 года: «Все смеются»",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%95%d7%a0%d7%a6%d7%a8%d7%98-%d7%97%d7%92%d7%99%d7%92%d7%99-%d7%9c%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2027-%d7%9b%d7%95%d7%9c%d7%9d-%d7%a6%d7%95%d7%97%d7%a7%d7%99%d7%9d-%d0%bf/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אורי ברויר במופע סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%95%d7%a8%d7%99-%d7%91%d7%a8%d7%95%d7%99%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שימי תבורי במופע להקה",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%99%d7%9e%d7%99-%d7%aa%d7%91%d7%95%d7%a8%d7%99-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%9c%d7%94%d7%a7%d7%94/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אמי הגנרלית – המחזמר!",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%99%d7%9e%d7%99-%d7%94%d7%92%d7%a0%d7%a8%d7%9c%d7%99%d7%aa-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הסינור של רוני – ע\"פ רב המכר האהוב של רינת הופר",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%a1%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%9c-%d7%a8%d7%95%d7%a0%d7%99-%d7%a2%d7%a4-%d7%a8%d7%91-%d7%94%d7%9e%d7%9b%d7%a8-%d7%94%d7%90%d7%94%d7%95%d7%91-%d7%a9%d7%9c-%d7%a8%d7%99%d7%a0%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "גאלה החגיגי 25 שנה – הראשונים Праздничный Гала-концерт 25 лет – Первые",
+      "production_url": "https://friends-hist.co.il/show/%d7%92%d7%90%d7%9c%d7%94-%d7%94%d7%97%d7%92%d7%99%d7%92%d7%99-25-%d7%a9%d7%a0%d7%94-%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d-%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיקה שלי – מחזמר משיריו של יאיר רוזנבלום",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a7%d7%94-%d7%a9%d7%9c%d7%99-%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%9e%d7%a9%d7%99%d7%a8%d7%99%d7%95-%d7%a9%d7%9c-%d7%99%d7%90%d7%99%d7%a8-%d7%a8%d7%95%d7%96%d7%a0%d7%91%d7%9c%d7%95%d7%9d/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "היי סקול דרמה – האקדמיה למדעי היוטיוב – חנוכה 2026 – משפחת טרסוב",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%99%d7%99-%d7%a1%d7%a7%d7%95%d7%9c-%d7%93%d7%a8%d7%9e%d7%94-%d7%94%d7%90%d7%a7%d7%93%d7%9e%d7%99%d7%94-%d7%9c%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%99%d7%95%d7%98%d7%99%d7%95%d7%91-%d7%97/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "זוגות בזיג זג – קומדיה בקצב גבוה",
+      "production_url": "https://friends-hist.co.il/show/%d7%96%d7%95%d7%92%d7%95%d7%aa-%d7%91%d7%96%d7%99%d7%92-%d7%96%d7%92-%d7%a7%d7%95%d7%9e%d7%93%d7%99%d7%94-%d7%91%d7%a7%d7%a6%d7%91-%d7%92%d7%91%d7%95%d7%94/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אלי יצפאן במופע בידור חדש",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%9c%d7%99-%d7%99%d7%a6%d7%a4%d7%90%d7%9f-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%91%d7%99%d7%93%d7%95%d7%a8-%d7%97%d7%93%d7%a9/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "כנר על הגג",
+      "production_url": "https://friends-hist.co.il/show/%d7%9b%d7%a0%d7%a8-%d7%a2%d7%9c-%d7%94%d7%92%d7%92/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "זוגיות AI",
+      "production_url": "https://friends-hist.co.il/show/%d7%96%d7%95%d7%92%d7%99%d7%95%d7%aa-ai/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נופר בטאט – סיבה לשמוח",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%95%d7%a4%d7%a8-%d7%91%d7%98%d7%90%d7%98-%d7%a1%d7%99%d7%91%d7%94-%d7%9c%d7%a9%d7%9e%d7%95%d7%97/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שלומי קוריאט במופע סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%9c%d7%95%d7%9e%d7%99-%d7%a7%d7%95%d7%a8%d7%99%d7%90%d7%98-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אביהו מדינה – קלאסיקה ישראלית",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%91%d7%99%d7%94%d7%95-%d7%9e%d7%93%d7%99%d7%a0%d7%94-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7%d7%94-%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99%d7%aa/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מופע מחווה ללאונרד כהן – להקת קרניבנד",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%95%d7%a4%d7%a2-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%9c%d7%90%d7%95%d7%a0%d7%a8%d7%93-%d7%9b%d7%94%d7%9f-%d7%9c%d7%94%d7%a7%d7%aa-%d7%a7%d7%a8%d7%a0%d7%99%d7%91%d7%a0%d7%93/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מניו אורלינס לניו יורק – ג'אז חם לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%a0%d7%99%d7%95-%d7%90%d7%95%d7%a8%d7%9c%d7%99%d7%a0%d7%a1-%d7%9c%d7%a0%d7%99%d7%95-%d7%99%d7%95%d7%a8%d7%a7-%d7%92%d7%90%d7%96-%d7%97%d7%9d/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נטע ברזילי והמאסטרו – גיל שוחט מארח את נטע ברזילי לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%98%d7%a2-%d7%91%d7%a8%d7%96%d7%99%d7%9c%d7%99-%d7%95%d7%94%d7%9e%d7%90%d7%a1%d7%98%d7%a8%d7%95-%d7%92%d7%99%d7%9c-%d7%a9%d7%95%d7%97%d7%98-%d7%9e%d7%90%d7%a8%d7%97-%d7%90%d7%aa-%d7%a0/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "סידני – מחווה לבי ג'יז – סדרת הערים המרתקות לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%a1%d7%99%d7%93%d7%a0%d7%99-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%91%d7%99-%d7%92%d7%99%d7%96-%d7%a1%d7%93%d7%a8%d7%aa-%d7%94%d7%a2%d7%a8%d7%99%d7%9d-%d7%94%d7%9e%d7%a8%d7%aa%d7%a7%d7%95/",
+      "city": "ashdod",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "זוגיות AI",
+      "production_url": "https://friends-hist.co.il/show/%d7%96%d7%95%d7%92%d7%99%d7%95%d7%aa-ai/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיניונים ומפלצות – סרט מדובב לעברית",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a0%d7%99%d7%95%d7%a0%d7%99%d7%9d-%d7%95%d7%9e%d7%a4%d7%9c%d7%a6%d7%95%d7%aa-%d7%a1%d7%a8%d7%98-%d7%9e%d7%93%d7%95%d7%91%d7%91-%d7%9c%d7%a2%d7%91%d7%a8%d7%99%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "השטן לובשת פראדה 2 – סרט",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%a9%d7%98%d7%9f-%d7%9c%d7%95%d7%91%d7%a9%d7%aa-%d7%a4%d7%a8%d7%90%d7%93%d7%94-2-%d7%a1%d7%a8%d7%98/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קופה ראשית – הסרט",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%95%d7%a4%d7%94-%d7%a8%d7%90%d7%a9%d7%99%d7%aa-%d7%94%d7%a1%d7%a8%d7%98/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "יובל המבולבל – \"המסע אל הכוכב\"",
+      "production_url": "https://friends-hist.co.il/show/%d7%99%d7%95%d7%91%d7%9c-%d7%94%d7%9e%d7%91%d7%95%d7%9c%d7%91%d7%9c-%d7%94%d7%9e%d7%a1%d7%a2-%d7%90%d7%9c-%d7%94%d7%9b%d7%95%d7%9b%d7%91/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע \"רגע ישראלי\"",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a8%d7%92%d7%a2-%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מצחיקונת – funny girl",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%a6%d7%97%d7%99%d7%a7%d7%95%d7%a0%d7%aa-funny-girl/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נישואים גרעיניים",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%99%d7%a9%d7%95%d7%90%d7%99%d7%9d-%d7%92%d7%a8%d7%a2%d7%99%d7%a0%d7%99%d7%99%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "המדע של המוזיקה והאהבה – ירמי קפלן ודר' ליאת יקיר",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%9e%d7%93%d7%a2-%d7%a9%d7%9c-%d7%94%d7%9e%d7%95%d7%96%d7%99%d7%a7%d7%94-%d7%95%d7%94%d7%90%d7%94%d7%91%d7%94-%d7%99%d7%a8%d7%9e%d7%99-%d7%a7%d7%a4%d7%9c%d7%9f-%d7%95%d7%93%d7%a8-%d7%9c/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "עפרה – תיאטרון העברי",
+      "production_url": "https://friends-hist.co.il/show/%d7%a2%d7%a4%d7%a8%d7%94-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%94%d7%a2%d7%91%d7%a8%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אהבה בהפתעה",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%94%d7%91%d7%94-%d7%91%d7%94%d7%a4%d7%aa%d7%a2%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיקי- הבית של יעל",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a7%d7%99-%d7%94%d7%91%d7%99%d7%aa-%d7%a9%d7%9c-%d7%99%d7%a2%d7%9c/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיכה שטרית במופע אלקטרו אקוסטי",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%9b%d7%94-%d7%a9%d7%98%d7%a8%d7%99%d7%aa-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%98%d7%a8%d7%99%d7%95-%d7%90%d7%a7%d7%95%d7%a1%d7%98%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אורי ברויר- סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%95%d7%a8%d7%99-%d7%91%d7%a8%d7%95%d7%99%d7%a8-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אף מילה לאמא – בית ליסין",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%a3-%d7%9e%d7%99%d7%9c%d7%94-%d7%9c%d7%90%d7%9e%d7%90-%d7%91%d7%99%d7%aa-%d7%9c%d7%99%d7%a1%d7%99%d7%9f/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הבנאים",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%91%d7%a0%d7%90%d7%99%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "רוני ששון במופע סטנד אפ – קומדי בר",
+      "production_url": "https://friends-hist.co.il/show/%d7%a8%d7%95%d7%a0%d7%99-%d7%a9%d7%a9%d7%95%d7%9f-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93-%d7%90%d7%a4-%d7%a7%d7%95%d7%9e%d7%93%d7%99-%d7%91%d7%a8/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "לנקות את הראש – תיאטרון הקאמרי",
+      "production_url": "https://friends-hist.co.il/show/%d7%9c%d7%a0%d7%a7%d7%95%d7%aa-%d7%90%d7%aa-%d7%94%d7%a8%d7%90%d7%a9-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%94%d7%a7%d7%90%d7%9e%d7%a8%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הכל עובר חביבי – קלאסיקה ונוסטלגיה",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%9b%d7%9c-%d7%a2%d7%95%d7%91%d7%a8-%d7%97%d7%91%d7%99%d7%91%d7%99-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7%d7%94-%d7%95%d7%a0%d7%95%d7%a1%d7%98%d7%9c%d7%92%d7%99%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "VOCA PEOPLE – ווקה פיפל – הסנסציה הבינלאומית חוגגת 20 !",
+      "production_url": "https://friends-hist.co.il/show/voca-people-%d7%94%d7%a1%d7%a0%d7%a1%d7%a6%d7%99%d7%94-%d7%94%d7%91%d7%99%d7%a0%d7%9c%d7%90%d7%95%d7%9e%d7%99%d7%aa-%d7%97%d7%95%d7%92%d7%92%d7%aa-20/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שקרים קטנים – קומדיה משפחתית מופרעת",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%a7%d7%a8%d7%99%d7%9d-%d7%a7%d7%98%d7%a0%d7%99%d7%9d-%d7%a7%d7%95%d7%9e%d7%93%d7%99%d7%94-%d7%9e%d7%a9%d7%a4%d7%97%d7%aa%d7%99%d7%aa-%d7%9e%d7%95%d7%a4%d7%a8%d7%a2%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מחסן השטוזים של דתיה – תיאטרון אורנה פורת",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%97%d7%a1%d7%9f-%d7%94%d7%a9%d7%98%d7%95%d7%96%d7%99%d7%9d-%d7%a9%d7%9c-%d7%93%d7%aa%d7%99%d7%94-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%90%d7%95%d7%a8%d7%a0%d7%94-%d7%a4%d7%95%d7%a8/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "זמר עברי – ננסי חוגג יובל! – הסינפונייטה ב\"ש",
+      "production_url": "https://friends-hist.co.il/show/%d7%96%d7%9e%d7%a8-%d7%a2%d7%91%d7%a8%d7%99-%d7%a0%d7%a0%d7%a1%d7%99-%d7%97%d7%95%d7%92%d7%92-%d7%99%d7%95%d7%91%d7%9c-%d7%94%d7%a1%d7%99%d7%a0%d7%a4%d7%95%d7%a0%d7%99%d7%99%d7%98%d7%94-%d7%91/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "דניאל כהן במופע סטנד אפ – קומדי בר",
+      "production_url": "https://friends-hist.co.il/show/%d7%93%d7%a0%d7%99%d7%90%d7%9c-%d7%9b%d7%94%d7%9f-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93-%d7%90%d7%a4/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מופע מחווה לאלטון ג'ון ובילי ג'ואל",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%95%d7%a4%d7%a2-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%90%d7%9c%d7%98%d7%95%d7%9f-%d7%92%d7%95%d7%9f-%d7%95%d7%91%d7%99%d7%9c%d7%99-%d7%92%d7%95%d7%90%d7%9c/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "צעצוע של סיפור 5 – סרט מדובב לעברית",
+      "production_url": "https://friends-hist.co.il/show/%d7%a6%d7%a2%d7%a6%d7%95%d7%a2-%d7%a9%d7%9c-%d7%a1%d7%99%d7%a4%d7%95%d7%a8-5-%d7%a1%d7%a8%d7%98-%d7%9e%d7%93%d7%95%d7%91%d7%91-%d7%9c%d7%a2%d7%91%d7%a8%d7%99%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "גבעה 338 – סרט",
+      "production_url": "https://friends-hist.co.il/show/%d7%92%d7%91%d7%a2%d7%94-338-%d7%a1%d7%a8%d7%98/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מייקל – סרט",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%99%d7%a7%d7%9c-%d7%a1%d7%a8%d7%98/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "בילי שוורץ – המחזמר",
+      "production_url": "https://friends-hist.co.il/show/%d7%91%d7%99%d7%9c%d7%99-%d7%a9%d7%95%d7%95%d7%a8%d7%a5-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מיקה שלי – מחזמר משיריו של יאיר רוזנבלום",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%99%d7%a7%d7%94-%d7%a9%d7%9c%d7%99-%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%9e%d7%a9%d7%99%d7%a8%d7%99%d7%95-%d7%a9%d7%9c-%d7%99%d7%90%d7%99%d7%a8-%d7%a8%d7%95%d7%96%d7%a0%d7%91%d7%9c%d7%95%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שושנה – בכיכובה של גל דה פז",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%a2%d7%9c-%d7%a9%d7%95%d7%a9%d7%a0%d7%94-%d7%93%d7%9e%d7%90%d7%a8%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "זוג משמיים – התיאטרון העברי",
+      "production_url": "https://friends-hist.co.il/show/%d7%96%d7%95%d7%92-%d7%9e%d7%a9%d7%9e%d7%99%d7%99%d7%9d-%d7%94%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%94%d7%a2%d7%91%d7%a8%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מברזיל באהבה",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%91%d7%a8%d7%96%d7%99%d7%9c-%d7%91%d7%90%d7%94%d7%91%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קוגומלו שכחו אותי בגונגל",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%95%d7%92%d7%95%d7%9e%d7%9c%d7%95-%d7%a9%d7%9b%d7%97%d7%95-%d7%90%d7%95%d7%aa%d7%99-%d7%91%d7%92%d7%95%d7%a0%d7%92%d7%9c/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "ויקטוריה גיסן ולהקת Shalman Band – קונצרט חגיגי בשפה הרוסית  Виктория Гиссен и Группа \"Шалман-бенд\" – праздничный концерт",
+      "production_url": "https://friends-hist.co.il/show/%d7%95%d7%99%d7%a7%d7%98%d7%95%d7%a8%d7%99%d7%94-%d7%92%d7%99%d7%a1%d7%9f-%d7%95%d7%9c%d7%94%d7%a7%d7%aa-shalman-band-%d7%a7%d7%95%d7%a0%d7%a6%d7%a8%d7%98-%d7%97%d7%92%d7%99%d7%92%d7%99-%d7%91%d7%a9/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מורדות – דרמה ישראלית חדשה",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%95%d7%a8%d7%93%d7%95%d7%aa-%d7%93%d7%a8%d7%9e%d7%94-%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99%d7%aa-%d7%97%d7%93%d7%a9%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "חנות סופגניות קטנה ומצחיקה",
+      "production_url": "https://friends-hist.co.il/show/%d7%97%d7%a0%d7%95%d7%aa-%d7%a1%d7%95%d7%a4%d7%92%d7%a0%d7%99%d7%95%d7%aa-%d7%a7%d7%98%d7%a0%d7%94-%d7%95%d7%9e%d7%a6%d7%97%d7%99%d7%a7%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "היי סקול דרמה – האקדמיה למדעי היוטיוב – חנוכה 2026 – משפחת טרסוב",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%99%d7%99-%d7%a1%d7%a7%d7%95%d7%9c-%d7%93%d7%a8%d7%9e%d7%94-%d7%94%d7%90%d7%a7%d7%93%d7%9e%d7%99%d7%94-%d7%9c%d7%9e%d7%93%d7%a2%d7%99-%d7%94%d7%99%d7%95%d7%98%d7%99%d7%95%d7%91-%d7%97/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "D.N.A – מיומנה לכל המשפחה במופע חדש",
+      "production_url": "https://friends-hist.co.il/show/d-n-a-%d7%9e%d7%99%d7%95%d7%9e%d7%a0%d7%94-%d7%9c%d7%9b%d7%9c-%d7%94%d7%9e%d7%a9%d7%a4%d7%97%d7%94-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%97%d7%93%d7%a9/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קסם של פסטיבל – חנוכה 2026",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%a1%d7%9d-%d7%a9%d7%9c-%d7%a4%d7%a1%d7%98%d7%99%d7%91%d7%9c-%d7%97%d7%a0%d7%95%d7%9b%d7%94-2026/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הג'יפסי גריק",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%92%d7%99%d7%a4%d7%a1%d7%99-%d7%92%d7%a8%d7%99%d7%a7/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "לילות ספרד",
+      "production_url": "https://friends-hist.co.il/show/%d7%9c%d7%99%d7%9c%d7%95%d7%aa-%d7%a1%d7%a4%d7%a8%d7%93/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע \"ומתוק לו האור בעיניים\"",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%95%d7%9e%d7%aa%d7%95%d7%a7-%d7%9c%d7%95-%d7%94%d7%90%d7%95%d7%a8-%d7%91%d7%a2%d7%99%d7%a0%d7%99%d7%99%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "חגיגה בכוורת",
+      "production_url": "https://friends-hist.co.il/show/%d7%97%d7%92%d7%99%d7%92%d7%94-%d7%91%d7%9b%d7%95%d7%95%d7%a8%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "היומן – המחזמר מברודוויי לראשונה בישראל",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%99%d7%95%d7%9e%d7%9f-%d7%94%d7%9e%d7%97%d7%96%d7%9e%d7%a8-%d7%9e%d7%91%d7%a8%d7%95%d7%93%d7%95%d7%95%d7%99%d7%99-%d7%9c%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%94-%d7%91%d7%99%d7%a9%d7%a8%d7%90/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "We’ll Still Have a Laugh! – A Concert by Semyon Slepakov",
+      "production_url": "https://friends-hist.co.il/show/well-still-have-a-laugh-a-concert-by-semyon-slepakov/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "ויוה מקסיקו",
+      "production_url": "https://friends-hist.co.il/show/%d7%95%d7%99%d7%95%d7%94-%d7%9e%d7%a7%d7%a1%d7%99%d7%a7%d7%95/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "קונצרט חגיגי לראש השנה 2027 \"כולם צוחקים\" – Праздничный концерт к Рош ха-Шана 2027 года: «Все смеются»",
+      "production_url": "https://friends-hist.co.il/show/%d7%a7%d7%95%d7%a0%d7%a6%d7%a8%d7%98-%d7%97%d7%92%d7%99%d7%92%d7%99-%d7%9c%d7%a8%d7%90%d7%a9-%d7%94%d7%a9%d7%a0%d7%94-2027-%d7%9b%d7%95%d7%9c%d7%9d-%d7%a6%d7%95%d7%97%d7%a7%d7%99%d7%9d-%d0%bf/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שיר אהבה – מחווה למתי כספי",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%99%d7%a8-%d7%90%d7%94%d7%91%d7%94-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%9e%d7%aa%d7%99-%d7%9b%d7%a1%d7%a4%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "ליטל שוורץ – במופע סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%9c%d7%99%d7%98%d7%9c-%d7%a9%d7%95%d7%95%d7%a8%d7%a5-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "כראמל – תיאטרון אורנה פורת",
+      "production_url": "https://friends-hist.co.il/show/%d7%9b%d7%a8%d7%90%d7%9e%d7%9c-%d7%aa%d7%99%d7%90%d7%98%d7%a8%d7%95%d7%9f-%d7%90%d7%95%d7%a8%d7%a0%d7%94-%d7%a4%d7%95%d7%a8%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "גאלה החגיגי 25 שנה – הראשונים Праздничный Гала-концерт 25 лет – Первые",
+      "production_url": "https://friends-hist.co.il/show/%d7%92%d7%90%d7%9c%d7%94-%d7%94%d7%97%d7%92%d7%99%d7%92%d7%99-25-%d7%a9%d7%a0%d7%94-%d7%94%d7%a8%d7%90%d7%a9%d7%95%d7%a0%d7%99%d7%9d-%d0%bf%d1%80%d0%b0%d0%b7%d0%b4%d0%bd%d0%b8%d1%87%d0%bd%d1%8b/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "בר צברי במופע להקה",
+      "production_url": "https://friends-hist.co.il/show/%d7%91%d7%a8-%d7%a6%d7%91%d7%a8%d7%99-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%9c%d7%94%d7%a7%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "ארגנטינה \"אלמה אספניולה\"",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%a8%d7%92%d7%a0%d7%98%d7%99%d7%a0%d7%94-%d7%90%d7%9c%d7%9e%d7%94-%d7%90%d7%a1%d7%a4%d7%a0%d7%99%d7%95%d7%9c%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מופע שנות ה-60",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%95%d7%a4%d7%a2-%d7%a9%d7%a0%d7%95%d7%aa-%d7%94-60/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שלומי קוריאט במופע סטנדאפ",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%9c%d7%95%d7%9e%d7%99-%d7%a7%d7%95%d7%a8%d7%99%d7%90%d7%98-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a1%d7%98%d7%a0%d7%93%d7%90%d7%a4/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע מחווה לבעז שרעבי",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%91%d7%a2%d7%96-%d7%a9%d7%a8%d7%a2%d7%91%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "שרים סן רמו",
+      "production_url": "https://friends-hist.co.il/show/%d7%a9%d7%a8%d7%99%d7%9d-%d7%a1%d7%9f-%d7%a8%d7%9e%d7%95/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "איציק קלה",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%99%d7%a6%d7%99%d7%a7-%d7%a7%d7%9c%d7%94/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "הקצב הלטיני",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%a7%d7%a6%d7%91-%d7%94%d7%9c%d7%98%d7%99%d7%a0%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אוליביה ניוטון ג'ון",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%95%d7%9c%d7%99%d7%91%d7%99%d7%94-%d7%a0%d7%99%d7%95%d7%98%d7%95%d7%9f-%d7%92%d7%95%d7%9f/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נופר בטאט – סיבה לשמוח",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%95%d7%a4%d7%a8-%d7%91%d7%98%d7%90%d7%98-%d7%a1%d7%99%d7%91%d7%94-%d7%9c%d7%a9%d7%9e%d7%95%d7%97/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע \"היו זמנים\" לכבוד חיים חפר",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%94%d7%99%d7%95-%d7%96%d7%9e%d7%a0%d7%99%d7%9d-%d7%9c%d7%9b%d7%91%d7%95%d7%93-%d7%97%d7%99%d7%99%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "אביהו מדינה – קלאסיקה ישראלית",
+      "production_url": "https://friends-hist.co.il/show/%d7%90%d7%91%d7%99%d7%94%d7%95-%d7%9e%d7%93%d7%99%d7%a0%d7%94-%d7%a7%d7%9c%d7%90%d7%a1%d7%99%d7%a7%d7%94-%d7%99%d7%a9%d7%a8%d7%90%d7%9c%d7%99%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע קראוס וג'וזי",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%a7%d7%a8%d7%90%d7%95%d7%a1-%d7%95%d7%92%d7%95%d7%96%d7%99/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע \"גם לועזית זה בעברית\"",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%92%d7%9d-%d7%9c%d7%95%d7%a2%d7%96%d7%99%d7%aa-%d7%96%d7%94-%d7%91%d7%a2%d7%91%d7%a8%d7%99%d7%aa/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "האחים אסנר במופע מחווה ליאיר רוזנבלום",
+      "production_url": "https://friends-hist.co.il/show/%d7%94%d7%90%d7%97%d7%99%d7%9d-%d7%90%d7%a1%d7%a0%d7%a8-%d7%91%d7%9e%d7%95%d7%a4%d7%a2-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%99%d7%90%d7%99%d7%a8-%d7%a8%d7%95%d7%96%d7%a0%d7%91%d7%9c%d7%95%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "מניו אורלינס לניו יורק – ג'אז חם לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%9e%d7%a0%d7%99%d7%95-%d7%90%d7%95%d7%a8%d7%9c%d7%99%d7%a0%d7%a1-%d7%9c%d7%a0%d7%99%d7%95-%d7%99%d7%95%d7%a8%d7%a7-%d7%92%d7%90%d7%96-%d7%97%d7%9d/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "נטע ברזילי והמאסטרו – גיל שוחט מארח את נטע ברזילי לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%a0%d7%98%d7%a2-%d7%91%d7%a8%d7%96%d7%99%d7%9c%d7%99-%d7%95%d7%94%d7%9e%d7%90%d7%a1%d7%98%d7%a8%d7%95-%d7%92%d7%99%d7%9c-%d7%a9%d7%95%d7%97%d7%98-%d7%9e%d7%90%d7%a8%d7%97-%d7%90%d7%aa-%d7%a0/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    },
+    {
+      "title": "סידני – מחווה לבי ג'יז – סדרת הערים המרתקות לפרטים והזמנה לפרטים והזמנה",
+      "production_url": "https://friends-hist.co.il/show/%d7%a1%d7%99%d7%93%d7%a0%d7%99-%d7%9e%d7%97%d7%95%d7%95%d7%94-%d7%9c%d7%91%d7%99-%d7%92%d7%99%d7%96-%d7%a1%d7%93%d7%a8%d7%aa-%d7%94%d7%a2%d7%a8%d7%99%d7%9d-%d7%94%d7%9e%d7%a8%d7%aa%d7%a7%d7%95/",
+      "city": "rishon-lezion",
+      "source_id": "friends-hist",
+      "rights_status": "not_verified",
+      "status": "candidate_requires_event_date_validation"
+    }
+  ]
+}\n
