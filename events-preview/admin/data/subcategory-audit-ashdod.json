@@ -4,8 +4,8 @@
   "total": 321,
   "counts": {
     "missing_or_invalid": 321,
-    "needs_contextual_review": 306,
-    "staged_candidate": 15
+    "staged_candidate": 152,
+    "needs_contextual_review": 169
   },
   "events": [
     {
@@ -13,16 +13,22 @@
       "title": "הדרדסים ההצגה - Live על הבמה",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_35_20261005",
       "title": "הגל שלי - קבוצת גלישה גברים",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "water-sports",
+      "confidence": 0.88,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_21b74de87d9353a296d9",
@@ -30,6 +36,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -37,7 +46,10 @@
       "title": "בין הגלים - קבוצת הורה ילד",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "water-sports",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -46,6 +58,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -53,8 +68,11 @@
       "title": "מועדון הקוראות הרומנטיות - מועדון קריאה שכולו אהבה",
       "category": "community",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "reading-clubs",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_37_20261006",
@@ -62,6 +80,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -69,8 +90,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_0b4b250a9cc0940ed28c",
@@ -78,6 +102,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -85,15 +112,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261008_hapoel_ashdod_w_handball",
       "title": "הפועל אשדוד - מכבי פתח תקוה",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "handball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -101,7 +134,10 @@
       "title": "חגיגה נפוליטנית מאת סטאס דוידוב",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "concerts",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -110,6 +146,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -117,7 +156,10 @@
       "title": "קובי מימון",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -125,15 +167,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261009_hapoel_ashdod_m_handball",
       "title": "הפועל אשדוד - א.ס. SGS רמת השרון",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "handball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -141,8 +189,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_70_20261010",
@@ -150,6 +201,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -157,8 +211,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7fce1d9b4ab267e246e1",
@@ -166,6 +223,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -174,6 +234,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -181,8 +244,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_40_20261012",
@@ -190,6 +256,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -197,7 +266,10 @@
       "title": "סערה בדלי מים",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -205,7 +277,10 @@
       "title": "תשאירי פתוח",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "one-person-show",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -213,7 +288,10 @@
       "title": "מכבי רוטשטיין אשדוד - עירוני נס ציונה",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "basketball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -221,15 +299,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ffc63b0b4486bb31a455",
       "title": "שירי קריוקי בקצב הדרבוקה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-workshops",
+      "confidence": 0.71,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -238,6 +322,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -246,6 +333,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -253,7 +343,10 @@
       "title": "מכבי אשדוד - הפועל אריות ירושלים",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "volleyball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -261,7 +354,10 @@
       "title": "חגיגה בכוורת",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "concerts",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -269,15 +365,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_6_20261014",
       "title": "עיצוב אורח חיים בריא",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -286,6 +388,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -294,6 +399,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -302,6 +410,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -309,7 +420,10 @@
       "title": "הזקן והים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -318,6 +432,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -325,15 +442,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_04029172fbcf458e2eb3",
       "title": "יונתן גת מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -341,7 +464,10 @@
       "title": "ישראל ארד מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -349,7 +475,10 @@
       "title": "רועי עלוני מונארט 2026",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -357,8 +486,11 @@
       "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "guided-exhibition-tour",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_8_20261015",
@@ -366,6 +498,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -373,15 +508,21 @@
       "title": "אסף מור יוסף במופע סטנדאפ",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_42_20261015",
       "title": "נועה מנור",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -389,15 +530,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261016_ms_ashdod_football",
       "title": "מ.ס. אשדוד - מכבי קריית גת",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "football",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -405,15 +552,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261017_maccabi_ashdod_w_volleyball",
       "title": "מכבי אשדוד - מכבי חדרה",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "volleyball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -421,7 +574,10 @@
       "title": "דרושה עוזרת",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "comedy",
+      "confidence": 0.76,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -429,7 +585,10 @@
       "title": "אסף יצחקי",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -437,8 +596,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_a78d65b3f4ac3995294c",
@@ -446,6 +608,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -454,6 +619,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -462,6 +630,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -470,6 +641,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -477,7 +651,10 @@
       "title": "הפועל אשדוד - בני הרצליה",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "handball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -485,8 +662,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_9_20261019",
@@ -494,6 +674,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -502,6 +685,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -510,6 +696,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -518,6 +707,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -525,23 +717,32 @@
       "title": "סיור טעימות בלוינסקי וגרפיטי בפלורנטין",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.86,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2e18ed2709b02baa3532",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_4b07ba21b782ea02a4ff",
       "title": "אצבעוני",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -549,7 +750,10 @@
       "title": "היפהפיה הנרדמת",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -557,7 +761,10 @@
       "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -566,6 +773,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -573,8 +783,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_8ac6ea288cb265605b77",
@@ -582,6 +795,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -590,6 +806,9 @@
       "category": "community",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -598,6 +817,9 @@
       "category": "community",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -605,16 +827,22 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_47_20261022",
       "title": "מוטי אהרונוביץ במופע סטנדאפ",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_48_20261022",
@@ -622,6 +850,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -629,16 +860,22 @@
       "title": "מופע סטנד אפ - שלומי קוריאט",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_1e5059b53915f4c7fe21",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_49_20261023",
@@ -646,6 +883,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -653,15 +893,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261024_maccabi_ashdod_m_volleyball",
       "title": "מכבי אשדוד - הפועל חוסאם נצרת",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "volleyball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -670,6 +916,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -677,8 +926,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_3a2c902c3450a6e70c14",
@@ -686,6 +938,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -693,7 +948,10 @@
       "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -701,8 +959,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261026_maccabi_ashdod_basketball",
@@ -710,6 +971,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -718,6 +982,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -725,8 +992,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_73_20261028",
@@ -734,6 +1004,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -741,7 +1014,10 @@
       "title": "הפועל אשדוד - א.כ. נס ציונה",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "handball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -749,7 +1025,10 @@
       "title": "הנמרה",
       "category": "theatre",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "comedy",
+      "confidence": 0.76,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -757,7 +1036,10 @@
       "title": "מכבי אשדוד - מכבי SVA רחובות",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "volleyball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -765,7 +1047,10 @@
       "title": "אדיר מילר",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -773,15 +1058,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261029_hapoel_ashdod_w_handball",
       "title": "הפועל אשדוד - הפועל קרית אונו",
       "category": "sport",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "handball",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -790,6 +1081,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -797,8 +1091,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "sport_20261030_ms_ashdod_football",
@@ -806,6 +1103,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -814,6 +1114,9 @@
       "category": "sport",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -821,8 +1124,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_54_20261031",
@@ -830,6 +1136,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -837,8 +1146,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_e8967396c917fb4211e4",
@@ -846,6 +1158,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -854,6 +1169,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -861,15 +1179,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_14_20261102",
       "title": "נמרולוגיה על בסיס קבלה - ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -878,6 +1202,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -885,7 +1212,10 @@
       "title": "התקווה 6",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -893,7 +1223,10 @@
       "title": "יריד בריאות לאזרחים וותיקים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -901,8 +1234,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_15_20261103",
@@ -910,6 +1246,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -917,16 +1256,22 @@
       "title": "פאטמה הסטנדאפיסטית",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2fda014dc7669a040b46",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_16_20261104",
@@ -934,6 +1279,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -942,6 +1290,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -949,8 +1300,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_18_20261105",
@@ -958,6 +1312,9 @@
       "category": "community",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -966,6 +1323,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -973,32 +1333,44 @@
       "title": "אסף מור יוסף במופע סטנדאפ",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_243fa63e0656fad7477c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_9eb4ea3b1be8386c949c",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_0d5c53deefa1e10c5f4d",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_46c23e069a55ad1b5bac",
@@ -1006,6 +1378,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1013,15 +1388,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f45962e796919e19fbcd",
       "title": "עוטף עזה - בעקבות אירועי ה-7 באוקטובר",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1030,6 +1411,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1037,15 +1421,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_75_20261110",
       "title": "הפיל שרצה להיות הכי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1053,8 +1443,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_76_20261111",
@@ -1062,6 +1455,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1069,8 +1465,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_58_20261112",
@@ -1078,6 +1477,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1085,24 +1487,33 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_98_20261113",
       "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "guided-exhibition-tour",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_b6539384c62acf076d94",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_1433fdc5973b6695bdc3",
@@ -1110,6 +1521,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1117,8 +1531,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ef7ca0af669f34aae871",
@@ -1126,6 +1543,9 @@
       "category": "community",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1133,8 +1553,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_d40a31ca190750c33df1",
@@ -1142,6 +1565,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1150,6 +1576,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1158,6 +1587,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1165,8 +1597,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_21_20261117",
@@ -1174,6 +1609,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1181,7 +1619,10 @@
       "title": "סיפור של חורף | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1190,6 +1631,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1197,15 +1641,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_9a3cbab50396fa3af0c3",
       "title": "שלגיה ו-7 הגמדים",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1214,6 +1664,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1221,8 +1674,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_80_20261119",
@@ -1230,6 +1686,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1237,16 +1696,22 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_eda485f329036f12976a",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_81_20261121",
@@ -1254,6 +1719,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1262,6 +1730,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1269,8 +1740,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_dcf769d1379befa09acc",
@@ -1278,6 +1752,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1286,6 +1763,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1294,6 +1774,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1301,24 +1784,33 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_7baf69bd3cb635730590",
       "title": "סיור טעימות ברמלה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.86,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ed5e50ba93af66a6e37b",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_23_20261124",
@@ -1326,6 +1818,9 @@
       "category": "cinema",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1334,6 +1829,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1341,16 +1839,22 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_04e5b0c7c43ef1c5c535",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_61_20261126",
@@ -1358,6 +1862,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1365,16 +1872,22 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_a8e751087c2d16482459",
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_83_20261128",
@@ -1382,6 +1895,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1389,8 +1905,11 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ccab329e9dce87dcb028",
@@ -1398,6 +1917,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1406,6 +1928,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1413,15 +1938,21 @@
       "title": "כניסה לתערוכות מוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "museums-galleries",
+      "confidence": 0.89,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_399303973daa1a005314",
       "title": "הר הנגב – בעקבות שירות בנתיבי המדבר",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1429,7 +1960,10 @@
       "title": "הצגת ענק עלילות המכבים",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-shows",
+      "confidence": 0.71,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1437,7 +1971,10 @@
       "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "standup",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1446,6 +1983,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1454,6 +1994,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1462,6 +2005,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1470,6 +2016,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1477,7 +2026,10 @@
       "title": "חגיגת חנוכה עיצוב ספגניות ומסיבת חנוכה עם מעגל מתופפים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-dance",
+      "confidence": 0.76,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1485,8 +2037,11 @@
       "title": "סיורים מודרכים במוזיאון אשדוד לאמנות",
       "category": "exhibition",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "guided-exhibition-tour",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "evt_64_20261207",
@@ -1494,6 +2049,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": "kids-theatre",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1502,6 +2060,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1510,6 +2071,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1517,7 +2081,10 @@
       "title": "סיפור חנוכה | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1525,7 +2092,10 @@
       "title": "היפה והחיה",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1534,6 +2104,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1542,6 +2115,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1550,6 +2126,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1558,6 +2137,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1566,6 +2148,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1573,7 +2158,10 @@
       "title": "בעקבות סופרים בנחלאות",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1581,7 +2169,10 @@
       "title": "השועל המוסיקלי החיפושיות",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "concerts",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1590,6 +2181,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1598,6 +2192,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1605,7 +2202,10 @@
       "title": "עץ הבלונים",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1613,7 +2213,10 @@
       "title": "סינדרלה",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1622,6 +2225,9 @@
       "category": "standup",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1630,6 +2236,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1638,6 +2247,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1646,6 +2258,9 @@
       "category": "cinema",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1654,6 +2269,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1662,6 +2280,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1669,7 +2290,10 @@
       "title": "בדרך ללב הפועם של רמת גן",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-lectures",
+      "confidence": 0.74,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1678,6 +2302,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1686,6 +2313,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1694,6 +2324,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1702,6 +2335,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1710,6 +2346,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1717,16 +2356,22 @@
       "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_64cf83ea3dc5bbb34e58",
       "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
       "category": "standup",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "standup",
+      "confidence": 0.97,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_6d08db65cc9adf0eb6af",
@@ -1734,6 +2379,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1741,8 +2389,11 @@
       "title": "סידני מחווה לביג'יז",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "tribute-shows",
+      "confidence": 0.94,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_3965330ca84880c5bf7a",
@@ -1750,6 +2401,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1758,6 +2412,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1766,6 +2423,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1774,6 +2434,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1782,6 +2445,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1789,7 +2455,10 @@
       "title": "פיטר פן | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -1797,7 +2466,10 @@
       "title": "הכלבלב השובב",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1806,6 +2478,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1814,6 +2489,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1822,6 +2500,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1830,6 +2511,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1837,7 +2521,10 @@
       "title": "מייפל הכלבלב – יחיד ומיוחד",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "story-time",
+      "confidence": 0.82,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1846,6 +2533,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1854,6 +2544,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1861,7 +2554,10 @@
       "title": "רמלה – אוצר של סיפורים בין יפו לירושלים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1870,6 +2566,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1878,6 +2577,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1885,8 +2587,11 @@
       "title": "ריקודי עם רונית זוהר- ייעודי לגדולות מהחיים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-dance",
+      "confidence": 0.91,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f1f2c2a86e48f04a9c07",
@@ -1894,6 +2599,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1902,6 +2610,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1910,6 +2621,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1918,6 +2632,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1926,6 +2643,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1934,6 +2654,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1942,6 +2665,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1950,6 +2676,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1958,6 +2687,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1966,6 +2698,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1973,7 +2708,10 @@
       "title": "ספר הג'ונגל מבית רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "story-time",
+      "confidence": 0.82,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -1982,6 +2720,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1989,7 +2730,10 @@
       "title": "אל עמק הברכה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -1998,6 +2742,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2006,6 +2753,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2014,6 +2764,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2022,6 +2775,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": "musical",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2030,6 +2786,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2038,6 +2797,9 @@
       "category": "seniors",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2046,6 +2808,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2053,8 +2818,11 @@
       "title": "סיור טעימות במחנה יהודה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.86,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_8cfa7c9ae155b54ae894",
@@ -2062,6 +2830,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2070,6 +2841,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2077,7 +2851,10 @@
       "title": "תנועת ה\"עפלה\" 80 שנה אחרי",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2086,6 +2863,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2093,7 +2873,10 @@
       "title": "דירה להשכיר | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2102,6 +2885,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2110,6 +2896,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": "dance-performance",
+      "confidence": 0.95,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2117,8 +2906,11 @@
       "title": "סיור פריחה דבש ויין בגדרה והסביבה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.86,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_2477b1b0746b9c7835a2",
@@ -2126,6 +2918,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2134,6 +2929,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2142,6 +2940,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2150,6 +2951,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2158,6 +2962,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2165,7 +2972,10 @@
       "title": "גן נעול מעיין חתום",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2174,6 +2984,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2182,6 +2995,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2189,7 +3005,10 @@
       "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2197,7 +3016,10 @@
       "title": "ציפי שביט – השירים שגדלנו עליהם",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "sing-along",
+      "confidence": 0.81,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2205,7 +3027,10 @@
       "title": "המלך אמר",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "kids-theatre",
+      "confidence": 0.8,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2214,6 +3039,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2222,6 +3050,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2230,6 +3061,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2237,7 +3071,10 @@
       "title": "בעקבות \"ימים אדומים\" בירושלים",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2246,6 +3083,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2254,6 +3094,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2262,6 +3105,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2270,6 +3116,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2277,7 +3126,10 @@
       "title": "דירה להשכיר- מבית רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "story-time",
+      "confidence": 0.82,
+      "evidence_field": "description",
+      "conflict": true,
       "status": "needs_review"
     },
     {
@@ -2285,7 +3137,10 @@
       "title": "בעקבות רכבת העמק – \"חמורו של הסולטאן\"",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2294,6 +3149,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2302,6 +3160,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2309,7 +3170,10 @@
       "title": "חיפה- עוגת חתונה",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2318,6 +3182,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2325,7 +3192,10 @@
       "title": "מיץ פטל | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2334,6 +3204,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2342,6 +3215,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2349,8 +3225,11 @@
       "title": "מחווה ליורגוס דאלארס",
       "category": "music",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "tribute-shows",
+      "confidence": 0.94,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_f5a1dda55f5642c32383",
@@ -2358,6 +3237,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2365,7 +3247,10 @@
       "title": "המדורה של רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "story-time",
+      "confidence": 0.82,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2373,7 +3258,10 @@
       "title": "פסיפסים ועוד בגליל המערבי",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.72,
+      "evidence_field": "description",
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2381,7 +3269,10 @@
       "title": "המדורה של רינתי | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2390,6 +3281,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2398,6 +3292,9 @@
       "category": "kids",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2406,6 +3303,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2414,6 +3314,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2421,8 +3324,11 @@
       "title": "סיור טעימות ואתרים באשדוד",
       "category": "seniors",
       "existing_subcategory": null,
-      "suggested_subcategory": null,
-      "status": "needs_review"
+      "suggested_subcategory": "senior-trips",
+      "confidence": 0.86,
+      "evidence_field": "title",
+      "conflict": false,
+      "status": "suggestion_only"
     },
     {
       "event_id": "auto_as_ebf2feea981459bed3cf",
@@ -2430,6 +3336,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2438,6 +3347,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2446,6 +3358,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2453,7 +3368,10 @@
       "title": "איילת מטיילת | שעת סיפור עם רינתי",
       "category": "kids",
       "existing_subcategory": null,
-      "suggested_subcategory": "kids-theatre",
+      "suggested_subcategory": "story-time",
+      "confidence": 0.98,
+      "evidence_field": "title",
+      "conflict": false,
       "status": "suggestion_only"
     },
     {
@@ -2462,6 +3380,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2470,6 +3391,9 @@
       "category": "lecture",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2478,6 +3402,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2486,6 +3413,9 @@
       "category": "music",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2494,6 +3424,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2502,6 +3435,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2510,6 +3446,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2518,6 +3457,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2526,6 +3468,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2534,6 +3479,9 @@
       "category": "cinema",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2542,6 +3490,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2550,6 +3501,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2558,6 +3512,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2566,6 +3523,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     },
     {
@@ -2574,6 +3534,9 @@
       "category": "theatre",
       "existing_subcategory": null,
       "suggested_subcategory": null,
+      "confidence": 0.0,
+      "evidence_field": null,
+      "conflict": false,
       "status": "needs_review"
     }
   ]
