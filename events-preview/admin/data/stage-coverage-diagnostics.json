@@ -1,0 +1,1743 @@
+{
+  "generated_at": "2026-10-10T13:43:22.855689+03:00",
+  "future_stage_count": 173,
+  "ashdod_source_occurrences": 99,
+  "causes": {
+    "not_in_collected_sources": 134,
+    "venue_mismatch_or_already_processed": 36,
+    "different_date": 3
+  },
+  "events": [
+    {
+      "event_id": "evt_70_20261010",
+      "title": "הלב זוכר",
+      "date": "2026-10-10",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_71_20261011",
+      "title": "הלב זוכר",
+      "date": "2026-10-11",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_40_20261012",
+      "title": "אֻמִּי",
+      "date": "2026-10-12",
+      "venue": "מונארט אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 2,
+      "sources_with_date": 2,
+      "sources_with_image": 2
+    },
+    {
+      "event_id": "evt_94_20261012",
+      "title": "סערה בדלי מים",
+      "date": "2026-10-12",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_95_20261012",
+      "title": "תשאירי פתוח",
+      "date": "2026-10-12",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f1dc81732b11d4fd595d",
+      "title": "ניגון של סתיו | שרה זילברברג",
+      "date": "2026-10-13",
+      "venue": "מרכז קהילתי נווה יונתן-שד' עוזיהו 26 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "date": "2026-10-13",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
+      "date": "2026-10-13",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 2,
+      "sources_with_date": 2,
+      "sources_with_image": 2
+    },
+    {
+      "event_id": "evt_96_20261014",
+      "title": "דירה להכיר",
+      "date": "2026-10-14",
+      "venue": "בית לברון",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f49bff491bdc80b16bfb",
+      "title": "מעשה בחמישה בלונים",
+      "date": "2026-10-14",
+      "venue": "יד לבנים אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_8_20261015",
+      "title": "דיסקו - כשהקצב משחרר את הגוף",
+      "date": "2026-10-15",
+      "venue": "בית קלנג",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_43_20261015",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "date": "2026-10-15",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 3,
+      "sources_with_date": 2,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_42_20261015",
+      "title": "נועה מנור",
+      "date": "2026-10-15",
+      "venue": "דרך ארץ 8, אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
+      "date": "2026-10-17",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
+      "date": "2026-10-17",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "date": "2026-10-18",
+      "venue": "מרכז קהילתי חרצית-שד' הפרחים 18",
+      "reason": "different_date",
+      "sources_with_title": 1,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_b4d7bbb0c87879a7a8c9",
+      "title": "איילת מטיילת- הצגה מבית רינתי",
+      "date": "2026-10-18",
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_a69617607de8b2a38b13",
+      "title": "רינת מטיילת- הצגה מבית רינתי",
+      "date": "2026-10-18",
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "date": "2026-10-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_9_20261019",
+      "title": "מיקי הבית של יעל",
+      "date": "2026-10-19",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ab616d899c714d6fd180",
+      "title": "המספרה של ג'אקו - הפקת מקור",
+      "date": "2026-10-19",
+      "venue": "מרכז קהילתי דקל-שד' רוטשילד 1 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_4b07ba21b782ea02a4ff",
+      "title": "אצבעוני",
+      "date": "2026-10-20",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_72_20261020",
+      "title": "היפהפיה הנרדמת",
+      "date": "2026-10-20",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_61d612476128de680031",
+      "title": "מעשה בחמישה בלונים | שעת סיפור עם רינתי",
+      "date": "2026-10-20",
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_46_20261020",
+      "title": "פבלו רוזנברג",
+      "date": "2026-10-20",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "date": "2026-10-21",
+      "venue": "מרכז קהילתי תקוותנו-המעפילים 21 אשדוד",
+      "reason": "different_date",
+      "sources_with_title": 1,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_47_20261022",
+      "title": "מוטי אהרונוביץ במופע סטנדאפ",
+      "date": "2026-10-22",
+      "venue": "מונארט אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_48_20261022",
+      "title": "מני עוזרי",
+      "date": "2026-10-22",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_10_20261022",
+      "title": "מופע סטנד אפ - שלומי קוריאט",
+      "date": "2026-10-22",
+      "venue": "אולם דיונה -קק\"ל 90 אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_49_20261023",
+      "title": "טריפונס",
+      "date": "2026-10-23",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_50_20261024",
+      "title": "שלום אסייג",
+      "date": "2026-10-24",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_51_20261025",
+      "title": "גברת רביע באשדוד | טיפול זוגי 5:55",
+      "date": "2026-10-25",
+      "venue": "יד לבנים אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_85ef80d4838e92290fe0",
+      "title": "חלון לים התיכון",
+      "date": "2026-10-28",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_73_20261028",
+      "title": "חלון לים התיכון",
+      "date": "2026-10-28",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_799a6dbb87a8759e0be8",
+      "title": "הנמרה",
+      "date": "2026-10-28",
+      "venue": "ברמוזה -קדש 8 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_52_20261028",
+      "title": "אדיר מילר",
+      "date": "2026-10-28",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_53_20261029",
+      "title": "בן בן ברוך",
+      "date": "2026-10-29",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_54_20261031",
+      "title": "עומר בורשטיין",
+      "date": "2026-10-31",
+      "venue": "מונארט אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_6702385b6f68556b2c50",
+      "title": "קול קורא| מפגשי כתיבה עם סופרת הילדים והנוער איריס ארגמן",
+      "date": "2026-11-02",
+      "venue": "הספרייה העירונית אשדוד ע\"ש מאירהוף - רובע ב'",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_15_20261103",
+      "title": "השועל המוסיקלי כוורת",
+      "date": "2026-11-03",
+      "venue": "אולם מונארט-דרך ארץ 8 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_55_20261103",
+      "title": "פאטמה הסטנדאפיסטית",
+      "date": "2026-11-03",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_74_20261104",
+      "title": "FATE & FIRE",
+      "date": "2026-11-04",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_56_20261105",
+      "title": "זוגיות AI",
+      "date": "2026-11-05",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_57_20261105",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "date": "2026-11-05",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 3,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_75_20261110",
+      "title": "הפיל שרצה להיות הכי",
+      "date": "2026-11-10",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_76_20261111",
+      "title": "איסטנבול - נפולי -מרסיי",
+      "date": "2026-11-11",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_1433fdc5973b6695bdc3",
+      "title": "עופרה",
+      "date": "2026-11-14",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_77_20261116",
+      "title": "החולה ההודי",
+      "date": "2026-11-16",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_99_20261117",
+      "title": "סיפור של חורף | שעת סיפור עם רינתי",
+      "date": "2026-11-17",
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_78_20261117",
+      "title": "החולה ההודי",
+      "date": "2026-11-17",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_9a3cbab50396fa3af0c3",
+      "title": "שלגיה ו-7 הגמדים",
+      "date": "2026-11-18",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_79_20261118",
+      "title": "החולה ההודי",
+      "date": "2026-11-18",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_80_20261119",
+      "title": "החולה ההודי",
+      "date": "2026-11-19",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_81_20261121",
+      "title": "החולה ההודי",
+      "date": "2026-11-21",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_59_20261121",
+      "title": "אורי חזקיה",
+      "date": "2026-11-21",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_dcf769d1379befa09acc",
+      "title": "הנסיכה והכתר האבוד- הצגה מבית אדווה בן גיגי מלול",
+      "date": "2026-11-22",
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_82_20261123",
+      "title": "אשליות מתוקות",
+      "date": "2026-11-23",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_60_20261124",
+      "title": "טוביה צפיר – 80 שנה של הומור!",
+      "date": "2026-11-24",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_61_20261126",
+      "title": "מירית גליצקי - מוגזמת",
+      "date": "2026-11-26",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_83_20261128",
+      "title": "חיילים יצאו לדרך",
+      "date": "2026-11-28",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ccab329e9dce87dcb028",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "date": "2026-11-29",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_208cc1d709030d29da9a",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "date": "2026-11-29",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_cc2d1cac424acf768c45",
+      "title": "הצגת ענק עלילות המכבים",
+      "date": "2026-12-03",
+      "venue": "מרכז קהילתי עם שלום-רחוב הרי גולן 6, אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5c82b36c5f0954a3ff95",
+      "title": "\"קסם של כוכבים\" - רועיקי מצחיקי וסמי הכבאי",
+      "date": "2026-12-03",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_62_20261203",
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "date": "2026-12-03",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_7f6c622ca25cec1d9507",
+      "title": "שושנה",
+      "date": "2026-12-05",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_63_20261205",
+      "title": "שושנה - בכיכובה של גל דה פז",
+      "date": "2026-12-05",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 2,
+      "sources_with_date": 2,
+      "sources_with_image": 2
+    },
+    {
+      "event_id": "auto_as_4b2ebdf73be27f322465",
+      "title": "הקסם שבצבע - בכיכובה של סתיו בכל הצבעים",
+      "date": "2026-12-06",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_64_20261207",
+      "title": "משכן אומנויות הבמה אשדוד - סיפור הנס חיפזון וזהירון חנוכה",
+      "date": "2026-12-07",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_0796e91ed6cd6d37f9ca",
+      "title": "סיפור הנס",
+      "date": "2026-12-07",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_84_20261208",
+      "title": "היפה והחיה",
+      "date": "2026-12-08",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_b6b558da8a85b64e0cea",
+      "title": "סיפור חנוכה | שעת סיפור עם רינתי",
+      "date": "2026-12-08",
+      "venue": "מרכז קהילתי טנה -אולם קטן שבזי 3 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_85_20261208",
+      "title": "היפה והחיה",
+      "date": "2026-12-08",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_53b36d3a117f507f77b7",
+      "title": "מפצח האגוזים",
+      "date": "2026-12-10",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f96995c1a51072386af2",
+      "title": "סינדרלה",
+      "date": "2026-12-11",
+      "venue": "אולם דיונה -קק\"ל 90 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_927802792107d0068f24",
+      "title": "שקרים קטנים קומדיה משפחתית מופרעת",
+      "date": "2026-12-12",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_65_20261212",
+      "title": "חן מזרחי",
+      "date": "2026-12-12",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "evt_31_20261215",
+      "title": "השועל המוסיקלי החיפושיות",
+      "date": "2026-12-15",
+      "venue": "אולם מונארט-דרך ארץ 8 אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_66_20261215",
+      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
+      "date": "2026-12-15",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_1248203a0850a8e67852",
+      "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
+      "date": "2026-12-16",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_78cf1d9cc9f217ab0259",
+      "title": "עץ הבלונים",
+      "date": "2026-12-16",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_e989e0af031952a41c55",
+      "title": "סינדרלה",
+      "date": "2026-12-17",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_2b8d59b9f755ec9b7983",
+      "title": "מתן פרץ",
+      "date": "2026-12-17",
+      "venue": "יד לבנים אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_511ebde2aa175eaa7a56",
+      "title": "נישואים גרעיניים",
+      "date": "2026-12-19",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_86_20261221",
+      "title": "האישה העשירה בעולם",
+      "date": "2026-12-21",
+      "venue": "המשכן לאמנויות הבמה - אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_2526e830eef4d3d6705d",
+      "title": "אליסה בארץ הפלאות",
+      "date": "2026-12-27",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_87_20261228",
+      "title": "אור לגויים",
+      "date": "2026-12-28",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_88_20261229",
+      "title": "אור לגויים",
+      "date": "2026-12-29",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_89_20261230",
+      "title": "אור לגויים",
+      "date": "2026-12-30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_90_20261231",
+      "title": "אור לגויים",
+      "date": "2026-12-31",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_91_20270102",
+      "title": "אור לגויים",
+      "date": "2027-01-02",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "evt_67_20270102",
+      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
+      "date": "2027-01-02",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+      "date": "2027-01-02",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_6d08db65cc9adf0eb6af",
+      "title": "אור לגויים",
+      "date": "2027-01-03",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_d0315a26e607910aebb5",
+      "title": "סידני מחווה לביג'יז",
+      "date": "2027-01-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "title": "שמעון בוסקילה – קרוב לבית",
+      "date": "2027-01-07",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_5dda25a13333e0d8db14",
+      "title": "עוד לא תמו כל פלאייך",
+      "date": "2027-01-09",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_e3ffc57670066fd5ea7a",
+      "title": "THE ROMANTIC SOUL",
+      "date": "2027-01-11",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_c5084f66863b9e27992a",
+      "title": "נאמן למקור",
+      "date": "2027-01-12",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_60cb539e4c684575d6a8",
+      "title": "נאמן למקור",
+      "date": "2027-01-12",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_8adf0f4c675e74162830",
+      "title": "פיטר פן | שעת סיפור עם רינתי",
+      "date": "2027-01-12",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_c96d7be6d2804e749d2a",
+      "title": "הכלבלב השובב",
+      "date": "2027-01-13",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_337345b282aabb14f4ed",
+      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "date": "2027-01-14",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
+      "date": "2027-01-14",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_36c82ca8b0929268aff1",
+      "title": "טריפונס",
+      "date": "2027-01-15",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "different_date",
+      "sources_with_title": 1,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_c7c22bce65a95aaeb0d8",
+      "title": "אימי הגנרלית",
+      "date": "2027-01-16",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_3356020481453510f22a",
+      "title": "מייפל הכלבלב – יחיד ומיוחד",
+      "date": "2027-01-17",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_b2274dd31f58c6fcf843",
+      "title": "תיק 137",
+      "date": "2027-01-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_243390bd002ecc344da5",
+      "title": "השועל המוסיקלי המוסיקה האירית",
+      "date": "2027-01-19",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f1f2c2a86e48f04a9c07",
+      "title": "פרפר נחמד",
+      "date": "2027-01-26",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_6810908ab34bc72b0557",
+      "title": "מיקה שלי",
+      "date": "2027-01-31",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_e65f449f9c8e6f75c763",
+      "title": "מותרת לכל אדם",
+      "date": "2027-02-01",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_dd53408c64490661fa14",
+      "title": "דרור קרן – כל העולם במה",
+      "date": "2027-02-02",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5c9acb9f3ebef3f3e018",
+      "title": "מותרת לכל אדם",
+      "date": "2027-02-02",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ea016ff2f0c38ea8e2eb",
+      "title": "מותרת לכל אדם",
+      "date": "2027-02-03",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_50179a566f2b8b78f713",
+      "title": "מותרת לכל אדם",
+      "date": "2027-02-04",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_44ade887868f332af978",
+      "title": "מותרת לכל אדם",
+      "date": "2027-02-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_bfdbd33f29362afdca31",
+      "title": "הג'ונגל של רינתי",
+      "date": "2027-02-07",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_60b18d8a145f11fd0362",
+      "title": "ספר הג'ונגל מבית רינתי",
+      "date": "2027-02-07",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "title": "כספיון - התאטרון השחור",
+      "date": "2027-02-07",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_0a2955afc99e32e98101",
+      "title": "בואי נעשה לנו חג",
+      "date": "2027-02-09",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ffc197d8a4343c6c1421",
+      "title": "בואי נעשה לנו חג",
+      "date": "2027-02-09",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5b3592e6f2e52fe56817",
+      "title": "המחזמר ואני",
+      "date": "2027-02-10",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ecf2560c70689efc3475",
+      "title": "סופיה פאפאזוגלו",
+      "date": "2027-02-12",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_c41f0c83c1874a320cdf",
+      "title": "מפה לשם",
+      "date": "2027-02-15",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_8cfa7c9ae155b54ae894",
+      "title": "לוס אנג'לס - פרס האוסקר",
+      "date": "2027-02-17",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_b5598e9e1f88af009a2a",
+      "title": "רומאו ויוליה - בלט פלמנקו ברצלונה",
+      "date": "2027-02-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_93de6870be8f46280fc1",
+      "title": "דירה להשכיר | שעת סיפור עם רינתי",
+      "date": "2027-02-23",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_54f1ed5c0d5b0e4c0b9c",
+      "title": "כנר על הגג",
+      "date": "2027-03-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_35b62174438a54f14368",
+      "title": "MALEVO",
+      "date": "2027-03-08",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_0b79e886759de4901160",
+      "title": "שני עולמות",
+      "date": "2027-03-09",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_2d5eff340312fe7ebdd6",
+      "title": "שירים וחיוכים",
+      "date": "2027-03-13",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f90a3e4493591be402c4",
+      "title": "צבעי הזמן",
+      "date": "2027-03-15",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_02e98c500343d8898158",
+      "title": "והילד הזה הוא אני",
+      "date": "2027-03-16",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_25368623f148530af959",
+      "title": "נשף פורים הצגה | שעת סיפור עם רינתי",
+      "date": "2027-03-16",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_1d3394c08366170bd945",
+      "title": "ציפי שביט – השירים שגדלנו עליהם",
+      "date": "2027-03-16",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5fed753ced32a09d6fd2",
+      "title": "המלך אמר",
+      "date": "2027-03-17",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ee8c99e88b2fabffda94",
+      "title": "VIENNA BALL",
+      "date": "2027-03-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_6c4a2a4051f27539ead9",
+      "title": "מלכת היופי של ירושלים",
+      "date": "2027-03-29",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_0b2aa6658e011fe663a1",
+      "title": "מלכת היופי של ירושלים",
+      "date": "2027-03-30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_1caae4e5224cdc30a114",
+      "title": "מלכת היופי של ירושלים",
+      "date": "2027-03-31",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5fd8a10ff2fd7e22564d",
+      "title": "מלכת היופי של ירושלים",
+      "date": "2027-04-01",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_5e9a7c24a75b670e4e6b",
+      "title": "מלכת היופי של ירושלים",
+      "date": "2027-04-03",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_e0cb25bb2e9038f9400d",
+      "title": "דירה להשכיר- מבית רינתי",
+      "date": "2027-04-04",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_aa2b2468ee21cb65145c",
+      "title": "שביליסט",
+      "date": "2027-04-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_2f61cf45bcd5b9e4c0bb",
+      "title": "הכוכבים של סבא",
+      "date": "2027-04-13",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_aedfda463657de5ed2bf",
+      "title": "מיץ פטל | שעת סיפור עם רינתי",
+      "date": "2027-04-13",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "date": "2027-04-13",
+      "venue": "אולם דיונה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_6b69e4a3d5d662cc0ef9",
+      "title": "בוקרשט - בודפשט",
+      "date": "2027-04-14",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_95f92aa282a0c631a783",
+      "title": "מחווה ליורגוס דאלארס",
+      "date": "2027-04-16",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_f5a1dda55f5642c32383",
+      "title": "RUSSIAN TITANS",
+      "date": "2027-05-06",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_56006f0f4db06e0655a0",
+      "title": "המדורה של רינתי",
+      "date": "2027-05-16",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_4ed466d9ac4036a41389",
+      "title": "המדורה של רינתי | שעת סיפור עם רינתי",
+      "date": "2027-05-18",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_17fa7f825b24639c734c",
+      "title": "הקוסם מארץ עוץ",
+      "date": "2027-05-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_92a7794474ff45937b54",
+      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
+      "date": "2027-05-18",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "venue_mismatch_or_already_processed",
+      "sources_with_title": 1,
+      "sources_with_date": 1,
+      "sources_with_image": 1
+    },
+    {
+      "event_id": "auto_as_60639bfb8504f9553fcf",
+      "title": "היו ימים חבר",
+      "date": "2027-05-22",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_a6dda6455ef870d17dd0",
+      "title": "עכשיו הזמן לאהבה",
+      "date": "2027-05-24",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ebf2feea981459bed3cf",
+      "title": "חגיגה ברזילאית",
+      "date": "2027-06-01",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_52c1df237ce507a44b41",
+      "title": "חגיגה ברזילאית",
+      "date": "2027-06-01",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_874fbf8765c2eddd641d",
+      "title": "איילת מטיילת | שעת סיפור עם רינתי",
+      "date": "2027-06-15",
+      "venue": "אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_42692e3659956eb6defb",
+      "title": "תרועת הפסטיבלים .",
+      "date": "2027-06-19",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_fc7e4b66f195b19083ff",
+      "title": "לונדון בירת המוזיקה והתיאטרון",
+      "date": "2027-06-23",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_4ada58fcddb5e9649fac",
+      "title": "CON TEH PARTIRO",
+      "date": "2027-06-24",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_abc304d7ccc6bc7bf233",
+      "title": "להתראות ותודה על הקרמשניט",
+      "date": "2027-06-28",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_ff95c7afe95a5f2b09ae",
+      "title": "להתראות ותודה על הקרמשניט",
+      "date": "2027-06-29",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_3f888b4ee71930056e2d",
+      "title": "להתראות ותודה על הקרמשניט",
+      "date": "2027-06-30",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_54dc0282144f7dc8152a",
+      "title": "להתראות ותודה על הקרמשניט",
+      "date": "2027-07-01",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_be1fc4adb822731a5e36",
+      "title": "להתראות ותודה על הקרמשניט",
+      "date": "2027-07-03",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_11e60f4edfd1d4107da2",
+      "title": "לא הייתם צריכים",
+      "date": "2027-07-19",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_6cc18562a4c23b0da579",
+      "title": "לא הייתם צריכים",
+      "date": "2027-07-20",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_45ff2f1bef22fa6ab053",
+      "title": "לא הייתם צריכים",
+      "date": "2027-07-21",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_8d04bec27c9e62832439",
+      "title": "לא הייתם צריכים",
+      "date": "2027-07-22",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    },
+    {
+      "event_id": "auto_as_84645c77451dbc1cbbe6",
+      "title": "לא הייתם צריכים",
+      "date": "2027-07-24",
+      "venue": "המשכן לאמנויות הבמה אשדוד",
+      "reason": "not_in_collected_sources",
+      "sources_with_title": 0,
+      "sources_with_date": 0,
+      "sources_with_image": 0
+    }
+  ],
+  "cms_modified": false
+}
