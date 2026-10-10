@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "sources": [
     {
       "id": "friends-hist",
@@ -511,6 +511,36 @@
         "id": "local_enrichment",
         "purpose": "enhance event cards with local relevant details and correct editorial copy"
       }
-    ]
+    ],
+    "collection_architecture": {
+      "collector": "one_unified_national_stage_collector",
+      "cities": [
+        "ashdod",
+        "rishon-lezion"
+      ],
+      "categories": [
+        "music",
+        "standup",
+        "kids",
+        "theatre"
+      ],
+      "collect_in_one_pass": [
+        "production_title",
+        "description",
+        "image_url",
+        "video_url",
+        "category",
+        "subcategory",
+        "city",
+        "venue",
+        "date",
+        "time",
+        "tickets_url",
+        "source_url"
+      ],
+      "followup_agents": "only_after_collection_for_missing_fields_conflicts_and_quality",
+      "local_venue_gap_scan": "after_national_board_collection",
+      "publishing": "separate_from_collection"
+    }
   }
 }
