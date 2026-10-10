@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T16:12:02.162782+00:00",
+  "generated_at": "2026-10-10T16:22:42.585562+00:00",
   "scope": {
     "cities": [
       "ashdod",
@@ -46,11 +46,8 @@
     {
       "source_id": "tickchak-live",
       "candidates": 74,
-      "details_fetched": 65,
-      "errors": [
-        "TooManyRedirects: Exceeded 30 redirects.",
-        "TooManyRedirects: Exceeded 30 redirects."
-      ]
+      "details_fetched": 67,
+      "errors": []
     },
     {
       "source_id": "sababa-events",
