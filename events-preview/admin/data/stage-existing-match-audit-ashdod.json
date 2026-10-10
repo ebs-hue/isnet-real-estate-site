@@ -1,0 +1,1212 @@
+{
+  "generated_at": "2026-10-10T09:19:25.332897+00:00",
+  "scope": "ashdod_stage_only",
+  "stage_events_evaluated": 178,
+  "events_with_title_and_date_candidates": 51,
+  "strong_candidates": 32,
+  "public_feed_modified": false,
+  "cms_modified": false,
+  "warning": "Do not auto-write: title/date matching needs venue and occurrence readback; reject generic descriptions and image placeholders.",
+  "events": [
+    {
+      "event_id": "evt_39_20261008",
+      "title": "קובי מימון",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/standup/ashdod",
+          "title": "קובי מימון",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "קובי מימון - הופעה עם הלהיטים הגדולים! יום חמישי 08/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_40_20261012",
+      "title": "אֻמִּי",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/אֻמִּי--9ec67003",
+          "title": "אֻמִּי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://images.makore.co.il/events/cdc254e32244a342dc2ce1b1b684e404ad0c19ef2b206f6f99a5f61126107a44.webp",
+          "description_candidate": "אֻמִּי - הופעה עם הלהיטים הגדולים היום שני 12/10/2026 🎉 כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אֻמִּי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQxMncwFmSTZ0axFXQUJDaChGU40kQu_S90TUad3URZVcPB1NvMEe5V2ThN1YsN3c.webp_030929fa-1b13-4052-a82e-7aae5257d0b0.webp",
+          "description_candidate": "אֻמִּי - הופעה עם הלהיטים הגדולים! יום שני 12/10/2026 🎉 עוד הופעה בקטגוריית קונצרטים , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_f1dc81732b11d4fd595d",
+      "title": "ניגון של סתיו | שרה זילברברג",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/ניגון-של-סתיו-שרה-זילברברג--f2815d46",
+          "title": "ניגון של סתיו | שרה זילברברג",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://www.makore.co.il/event/%D7%A0%D7%99%D7%92%D7%95%D7%9F-%D7%A9%D7%9C-%D7%A1%D7%AA%D7%99%D7%95-%D7%A9%D7%A8%D7%94-%D7%96%D7%99%D7%9C%D7%91%D7%A8%D7%91%D7%A8%D7%92--f2815d46/opengraph-image",
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/איתמר-וכובע-הקסמים--11cbd8db",
+          "title": "איתמר וכובע הקסמים",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://www.makore.co.il/event/%D7%90%D7%99%D7%AA%D7%9E%D7%A8-%D7%95%D7%9B%D7%95%D7%91%D7%A2-%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D--11cbd8db/opengraph-image",
+          "description_candidate": "הצגה מוזיקלית בעקבות ספרו של דויד גרוסמן. איתמר עומד להפוך לאח גדול, ואביו מסדר איתו את החדר לקראת התינוק החדש. במהלך הסידור הם מוצאים בקופסת הצעצועים כובע קסמים מיוחד, שהופך כל דבר למשהו אחר ואינו מאפשר להחזיר את השינוי לאחור. הכובע מוביל לשורת הרפתקאות: קוף שובב מגיע לחדר ואבא נעלם. ההצגה עוסקת בהתמודדות עם שינויים, התחלות חדשות, התבגרות, משפחה והכוח של ה״יחד״. מיועדת לילדים בגילי 4–7. כדי שלא לפגוע במהלך ההצגה ובהנאת הצופים, לא תתאפשר כניסה לילדים מתחת לגיל 3.",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_41_20261013",
+      "title": "חגיגה בכוורת",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/חגיגה-בכוורת--509ddd02",
+          "title": "חגיגה בכוורת",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://images.makore.co.il/events/00703f4228788b35e0a86a7a387d8cd74fb651eba5f37b37bf95bb034a38ad24.webp",
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "חגיגה בכוורת",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
+          "description_candidate": "חגיגה בכוורת - הופעה עם הלהיטים הגדולים! יום שלישי 13/10/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_96_20261014",
+      "title": "דירה להכיר",
+      "existing_category": "theatre",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/דירה-להכיר--cad64f3f",
+          "title": "דירה להכיר",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://www.makore.co.il/event/%D7%93%D7%99%D7%A8%D7%94-%D7%9C%D7%94%D7%9B%D7%99%D7%A8--cad64f3f/opengraph-image",
+          "description_candidate": "קיימת דירה להשכרה בראש המגדל. מי יבוא לגור שם? האם הם יהיו שכנים נעימים? לגילים 3–6.",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_f49bff491bdc80b16bfb",
+      "title": "מעשה בחמישה בלונים",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "מעשה בחמישה בלונים",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_43_20261015",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+          "description_candidate": "אסף מור יוסף במופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום חמישי 15/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+          "description_candidate": "אסף מור יוסף במופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום חמישי 05/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_42_20261015",
+      "title": "נועה מנור",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "נועה מנור",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "נועה מנור",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "נועה מנור - הופעה עם הלהיטים הגדולים! יום חמישי 15/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_33cbee583475a04a7766",
+      "title": "דרושה עוזרת",
+      "existing_category": "theatre",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "דרושה עוזרת",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_44_20261017",
+      "title": "אסף יצחקי",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "אסף יצחקי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אסף יצחקי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "אסף יצחקי - הופעה עם הלהיטים הגדולים! יום שבת 17/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_a78d65b3f4ac3995294c",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "existing_category": "theatre",
+      "existing_subcategory": "original-production",
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/מיסייה-אלבר-הפקת-מקור--9cf78685",
+          "title": "מיסייה אלבר - הפקת מקור",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
+          "description_candidate": "אלבר, המוכר מחנות הדגים המיתולוגית שלו, חלם כל חייו לספר סיפורים ובדיחות על במה, אף שאביו התעקש שחנות דגים אינה מקום לסיפורים. כאשר הופעה התבטלה בהתראה קצרה, הוא קיבל הזדמנות להופיע במקומו והגיע היישר מהסירה, עם החכה בידו. על כיסא חוף, לצד צ׳ייסר של ערק, אלבר מספר על דמויות שחיו בעבר ויוצר פסיפס אנושי של אשדוד משנות השישים ועד היום. המופע משלב רגעים בלתי צפויים, התפרצויות צחוק וסיפורים שמסתיימים בחיוך.",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "existing_category": "kids",
+      "existing_subcategory": "kids-theatre",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "הרפתקה בשכונה - חיפזון וזהירון",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/toropyzhka-i-trusishka-priklyucheniya-na-rayone/ashdod/",
+          "title": "הרפתקה בשכונה - חיפזון וזהירון",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c91a5db5e60c08dab51912a34f4c7343.jpg",
+          "description_candidate": "הצגה חדשה חיפזון וזהירון - \"הרפתקה בשכונה\" מבוסס על הפרק המצליח מתוך הסדרה המשודר YouTube, HOT & YES VOD. כשדמיון ומציאות נפגשים! הטיול שתוכנן לכל החברים בשכונה מתבטל בגלל מזג-האוויר, החברים מאוכזבים, אך מהר מאוד מגלים שההרפתקה הכי גדולה בכלל לא נמצאת בחוץ, אלא בין דפי הספרים. סופר מסתורי שמגיע לשכונה סוחף את חיפזון, זהירון וכל החבורה למסע קסום בממלכה דמיונית, בה כל אחד הופך להיות גיבור. חיפזון וזהירון, אבירי השכונה, יוצאים להרפתקה בעקבות המפתח הנעלם, כשימצאו את המפתח יוכלו לשחרר את טופי הנסיכה, ביתו של המלך ציק'ו מהטירה המכושפת של רמזוריקו הדרקון הנורא. חיפזון וזהירון נתקלים בקשיים בדרך למציאת המפתח וזאת בגלל טישו הליצן החמדן שרוצה בעצמו לשחרר את הנסיכה בכדי לזכות בשק זהב מידיו של המלך צ'יקו. מחזה מוזיקלי מרגש ומעורר השראה דרכו הילדים ילמדו שבעזרת דף, עיפרון והרבה דמיון אפשר להפוך יום משעמם לחוויה של פעם בחיים. בואו להצית לילדיכם את הדמיון בסיפור שבו כל סוף הוא התחלה של הרפתקה חדשה! במאי: עופר שפריר מחזה שירים ולחנים: מאיה גוזלי מפיק ראשי, ניהול מוסיקלי ולחנים: חיים גוזלי עיבודים מוסיקלים: חיים גוזלי ויובב שליט כוריאוגרפיה: רוני גלאובר תלבושות: אלה קולסניק עיצוב תפאורה: טליה אוטולנגי (תפאורה של השכונה: בתיה ומיכאל פיק) צילום סטילס: שי הנסב בהשתתפות: יפעה מימון הר-קט/חן בר, דנה עדיקא, הילית דייטש שני, שגיא לוי, מתן קליגר/אריק ריינט, יובל שטרן - ההפקה אינה מתחייבת שהשחקנים המופעים בתמונה ו/או בפוסטר ו/או בסדרה המשודרת בהכרח יופיעו בהצגה",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_9_20261019",
+      "title": "מיקי הבית של יעל",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "מיקי - הבית של יעל",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_46_20261020",
+      "title": "פבלו רוזנברג",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "פבלו רוזנברג",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZuRzSEJDZytkSihUTUNEMv8GSJZUYu_H90zdTRDW3B1TIFFZ1Y2bKRjcpZ2QM1Ub.webp_4cea666d-9f43-4049-8136-da4690fa6902.webp",
+          "description_candidate": "פבלו רוזנברג - הופעה עם הלהיטים הגדולים! יום שלישי 20/10/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_8ac6ea288cb265605b77",
+      "title": "מיסייה אלבר - הפקת מקור",
+      "existing_category": "theatre",
+      "existing_subcategory": "original-production",
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "makore",
+          "source_url": "https://www.makore.co.il/event/מיסייה-אלבר-הפקת-מקור--9cf78685",
+          "title": "מיסייה אלבר - הפקת מקור",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://www.makore.co.il/event/%D7%9E%D7%99%D7%A1%D7%99%D7%99%D7%94-%D7%90%D7%9C%D7%91%D7%A8-%D7%94%D7%A4%D7%A7%D7%AA-%D7%9E%D7%A7%D7%95%D7%A8--9cf78685/opengraph-image",
+          "description_candidate": "אלבר, המוכר מחנות הדגים המיתולוגית שלו, חלם כל חייו לספר סיפורים ובדיחות על במה, אף שאביו התעקש שחנות דגים אינה מקום לסיפורים. כאשר הופעה התבטלה בהתראה קצרה, הוא קיבל הזדמנות להופיע במקומו והגיע היישר מהסירה, עם החכה בידו. על כיסא חוף, לצד צ׳ייסר של ערק, אלבר מספר על דמויות שחיו בעבר ויוצר פסיפס אנושי של אשדוד משנות השישים ועד היום. המופע משלב רגעים בלתי צפויים, התפרצויות צחוק וסיפורים שמסתיימים בחיוך.",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_47_20261022",
+      "title": "מוטי אהרונוביץ במופע סטנדאפ",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "מוטי אהרונוביץ במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "מוטי אהרונוביץ במופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום חמישי 22/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_48_20261022",
+      "title": "מני עוזרי",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "מני עוזרי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "מני עוזרי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "מני עוזרי - הופעה עם הלהיטים הגדולים! יום חמישי 22/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_10_20261022",
+      "title": "מופע סטנד אפ - שלומי קוריאט",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "מופע סטנד אפ - שלומי קוריאט",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZM9SZvgTRip0M0g0Va52SiN2cjd1Yu_w90TQtJGcSNjUzlWbOJ1a1FzKKRXaVZne.webp_5679a42e-ca1e-45eb-ad75-9c02878731c5.webp",
+          "description_candidate": "מופע סטנד אפ - שלומי קוריאט - הופעה עם הלהיטים הגדולים! יום חמישי 22/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_49_20261023",
+      "title": "טריפונס",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "טריפונס",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
+          "description_candidate": "טריפונס - הופעה עם הלהיטים הגדולים! יום שישי 23/10/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_50_20261024",
+      "title": "שלום אסייג",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "שלום אסייג",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "שלום אסייג",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQWZWaz4UYTZEUmNkMMdXVXBHanJkVu_G90zdDFXR6FkSPxGVNpUZxNGdJ9SY0MkN.webp_f9088a79-9d76-4cb0-b79b-ab79a1fb7e1c.webp",
+          "description_candidate": "שלום אסייג - הופעה עם הלהיטים הגדולים! יום שבת 24/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_52_20261028",
+      "title": "אדיר מילר",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "אדיר מילר",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אדיר מילר",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TUppkMudldLdlSIh1V6BVMntkMolGSu_b90zZTN2RTFVbHRjM1EERtJzQP9CRDRWR.webp_4dbb0075-a3a1-489b-a3b5-652375b8a6d0.webp",
+          "description_candidate": "אדיר מילר - הופעה עם הלהיטים הגדולים! יום רביעי 28/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_53_20261029",
+      "title": "בן בן ברוך",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "בן בן ברוך",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "בן בן ברוך",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "בן בן ברוך - הופעה עם הלהיטים הגדולים! יום חמישי 29/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_54_20261031",
+      "title": "עומר בורשטיין",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "עומר בורשטיין",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "עומר בורשטיין",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "עומר בורשטיין - הופעה עם הלהיטים הגדולים! יום שבת 31/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_55_20261103",
+      "title": "פאטמה הסטנדאפיסטית",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "פאטמה הסטנדאפיסטית",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "פאטמה הסטנדאפיסטית - הופעה עם הלהיטים הגדולים! יום שלישי 03/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_56_20261105",
+      "title": "זוגיות AI",
+      "existing_category": "theatre",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "זוגיות AI",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TUjBDRvJUe1hkV3p2VWl1ayl0SPV1Tu_i90TU0sUcpl2UNtGR3FTbvhGZwlmWGBHU.webp_4330c7db-162c-4cc6-a931-438128a0c8cc.webp",
+          "description_candidate": "זוגיות AI - הופעה עם הלהיטים הגדולים! יום חמישי 05/11/2026 🎉 עוד הופעה בקטגוריית הצגות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_57_20261105",
+      "title": "אסף מור יוסף במופע סטנדאפ",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+          "description_candidate": "אסף מור יוסף במופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום חמישי 05/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אסף מור יוסף במופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zdsVzbktGdOt2U2cmYkdjQDJ0M3x2bu_j90zZkZ0Kz50YIlUOZh1RVNlSWJXTJlmY.jpeg_456cd580-1dcf-4c87-816d-6ddc9afd0a49.jpeg",
+          "description_candidate": "אסף מור יוסף במופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום חמישי 15/10/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_75_20261110",
+      "title": "הפיל שרצה להיות הכי",
+      "existing_category": "kids",
+      "existing_subcategory": "kids-theatre",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "הפיל שרצה להיות הכי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_59_20261121",
+      "title": "אורי חזקיה",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "אורי חזקיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אורי חזקיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQHhHM1YGcRpWbnNUcDdHVJ90bO5Ecu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_d0d1dbb3-8f58-49b2-ae4d-15ee33d76fc2.webp",
+          "description_candidate": "אורי חזקיה - הופעה עם הלהיטים הגדולים! יום שבת 21/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_60_20261124",
+      "title": "טוביה צפיר – 80 שנה של הומור!",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "טוביה צפיר – 80 שנה של הומור!",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "טוביה צפיר – 80 שנה של הומור! - הופעה עם הלהיטים הגדולים! יום שלישי 24/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_61_20261126",
+      "title": "מירית גליצקי - מוגזמת",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "מירית גליצקי - מוגזמת",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "מירית גליצקי - מוגזמת - הופעה עם הלהיטים הגדולים! יום חמישי 26/11/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_ccab329e9dce87dcb028",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "existing_category": "theatre",
+      "existing_subcategory": "musical",
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/khraniteli-drakonov-priklyuchencheskiy-myuzikl-khanuka-2026/ashdod/",
+          "title": "רוי בוי - שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+          "score": 0.909,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/a9bce87c444a5dc952b097bc483b615b.jpg",
+          "description_candidate": "כשהאש העתיקה של כפר הוויקינגים כבתה, רוי בוי יוצא להרפתקה הגדולה והמסוכנת בחייו! יחד עם טירה, שומרת דרקונים מסתורית, הוא יוצא למסע מטורף בין ים סוער, מקדש אבוד, קופים פרועים ומומיות מתעוררות לחיים. אבל קנוט, הויקינג הערמומי, יעשה הכל כדי להגיע אל כד האור האינסופי לפניהם ולהשתלט על כוחו. הדרך מובילה אל הר הגעש שמאיים, על הדרקונים האדירים ששומרים עליו ואל מרוץ מסוכן שבו הכל יכול לקרות. מחזמר הרפתקאות מרהיב לכל המשפחה בכיכובם של: רוי בוי, מישל פרו, עודד פז/עומר דרור ועוד שחקנים, רקדנים, אקרובטים ובובות ענק של דרקונים על במה אחת! יזמים ומפיקים ראשיים: אסי סתיו ואלעד יוסף מגן סבג במאים: רענן פררה ומשה בן שושן מחזה ופזמונים: ענבל לוי רהב לחנים והפקה מוסיקלית: זיו רהב כוריאוגרפיה: גילי גבל עיצוב תלבושות: אלה קולסניק עיצוב תאורה: רועי יצחק מפיקה ראשית: קרן בובליל קרישפין יחסי ציבור: נטע הר לב עיצוב ואריזה גרפית: עדי ברק צילום: שי הנסב",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_208cc1d709030d29da9a",
+      "title": "שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+      "existing_category": "theatre",
+      "existing_subcategory": "musical",
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/khraniteli-drakonov-priklyuchencheskiy-myuzikl-khanuka-2026/ashdod/",
+          "title": "רוי בוי - שומרי הדרקונים - מחזמר הרפתקאות - חנוכה 2026",
+          "score": 0.909,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/a9bce87c444a5dc952b097bc483b615b.jpg",
+          "description_candidate": "כשהאש העתיקה של כפר הוויקינגים כבתה, רוי בוי יוצא להרפתקה הגדולה והמסוכנת בחייו! יחד עם טירה, שומרת דרקונים מסתורית, הוא יוצא למסע מטורף בין ים סוער, מקדש אבוד, קופים פרועים ומומיות מתעוררות לחיים. אבל קנוט, הויקינג הערמומי, יעשה הכל כדי להגיע אל כד האור האינסופי לפניהם ולהשתלט על כוחו. הדרך מובילה אל הר הגעש שמאיים, על הדרקונים האדירים ששומרים עליו ואל מרוץ מסוכן שבו הכל יכול לקרות. מחזמר הרפתקאות מרהיב לכל המשפחה בכיכובם של: רוי בוי, מישל פרו, עודד פז/עומר דרור ועוד שחקנים, רקדנים, אקרובטים ובובות ענק של דרקונים על במה אחת! יזמים ומפיקים ראשיים: אסי סתיו ואלעד יוסף מגן סבג במאים: רענן פררה ומשה בן שושן מחזה ופזמונים: ענבל לוי רהב לחנים והפקה מוסיקלית: זיו רהב כוריאוגרפיה: גילי גבל עיצוב תלבושות: אלה קולסניק עיצוב תאורה: רועי יצחק מפיקה ראשית: קרן בובליל קרישפין יחסי ציבור: נטע הר לב עיצוב ואריזה גרפית: עדי ברק צילום: שי הנסב",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_62_20261203",
+      "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp",
+          "description_candidate": "אבנר גדסי \"מנגן ושר\" אורח מיוחד: ניסים סרוסי - הופעה עם הלהיטים הגדולים! יום חמישי 03/12/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_63_20261205",
+      "title": "שושנה - בכיכובה של גל דה פז",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "שושנה - בכיכובה של גל דה פז",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zd5QHb2t2V5JTMpp2S6JFZ2syaUhmUu_p90TUGFXUMdHcUdXSht2MYZUSwtkbk5mY.webp_562a982e-4cbe-4b6a-a1ed-a0ab7a0b6a9d.webp",
+          "description_candidate": "שושנה - בכיכובה של גל דה פז - הופעה עם הלהיטים הגדולים! יום שבת 05/12/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/myuzikl-shushana-teatron-a-ivri/ashdod/",
+          "title": "שושנה - בכיכובה של גל דה פז",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c3e00fbaaae09aef406114ea12d32ef8.jpg",
+          "description_candidate": "שושנה - הוא מחזמר ישראלי חדש ומרגש, המבוסס על סיפור חייה ושיריה של מלכת הזמר העברי שושנה דמארי. ההצגה מספרת על הדרך הקשה והמפרכת שעברה מילדותה בתימן עלייתה לארץ בדרך חתחתים, עזיבת בית הוריה, נישואיה ועד שהפכה לאחת הזמרות הגדולות והאהובות בכל הזמנים. לאורך המחזמר משולבים להיטיה הגדולים של שושנה דמארי, במופע מוזיקלי סוחף עם תזמורת חיה ורגעים דרמטיים ומרגשים עם הרבה הומור וקסם ישראלי. רשימת השירים במחזמר: כלניות, שני שושנים, החמור הקטן בלעם, רכב אש, היו זמנים, אור, יא אמי יא אבי, לשיר איתך, צריך לצלצל פעמיים, בכרמי תימן וכל להיטיה הגדולים של שושנה דמארי. כתיבה ובימוי: גדי צדקה עיבודים וניהול מוסיקלי: יהונתן פרלמן תפאורה: סשה ליסאנסקי תלבושות: לי אביטל כוריאוגרפיה: מיכל אמדורסקי עיצוב תאורה: זיו וולושין עיצוב סאונד: ארז אסידו ניהול טכני: סהאר רחרוח משתתפים: גל דה פז, אלון אופיר, יונת טובי, ניצן אשל, יניב קלדרון, ניר שיבר, ענת עצמון/ מיכל אמדורסקי, סתיו שניצר, ג'ניפר ואלס, ספיר ברזילי. פסנתר וניצוח: ניב חרנם/יהונתן פרלמן בס: דור מימון כלי הקשה: ניתאי רם חלילים: איילת גולדברג קלרינטים וסקסופון: אור סידי קרן יער: גל גוטמן / דרור סלמנקה כינור: גיא שיק",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_84_20261208",
+      "title": "היפה והחיה",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "היפה והחיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "היפה והחיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_85_20261208",
+      "title": "היפה והחיה",
+      "existing_category": "kids",
+      "existing_subcategory": "kids-theatre",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "היפה והחיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        },
+        {
+          "source_id": "mevalim",
+          "source_url": "https://www.mevalim.co.il/ashdod/",
+          "title": "היפה והחיה",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": null,
+          "description_candidate": null,
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_927802792107d0068f24",
+      "title": "שקרים קטנים קומדיה משפחתית מופרעת",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/malenkie-tayny-bezumnaya-semeynaya-komediya/ashdod/",
+          "title": "שקרים קטנים - קומדיה משפחתית מופרעת",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg",
+          "description_candidate": "שקרים קטנים - קומדיה משפחתית מופרעת. מה הייתם עושים בשביל אהבה? מה אנחנו יודעים על אהבה? האם אפשר לתקן אהבה? מוטי (אורי גוטליב) ואשתו מיכאלה (מיה דגן) מזמינים לארוחת ערב משפחתית את בנם עומר (שלומי טפיארו) ואשתו נטע. (אלי סטין) מה שהיה אמור להיות ערב משפחתי רגוע הופך להיות ערב מלא בגילויים מפתיעים של סודות, בגידות ושקרים קטנים. קומדיה משפחתית חמה מצחיקה ורגישה על אהבה, יחסים ונישואים תרגום ועיבוד: עינת ברנובסקי בימוי ועיבוד: אודי גוטשלק מוסיקה: אלעד פרץ עיצוב תפאורה: סבטלנה ברגר עיצוב תאורה: עומר בולנגר עיצוב תלבושות: אירינה צודונובסקי ע. במאי: מישל עמרם",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_65_20261212",
+      "title": "חן מזרחי",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "חן מזרחי",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TUZdTOjx0SKpXQD92bGp1KXFkYkpEWu_N90zdMZHdRZWVWdDc110dz8GOmNXMxkkR.webp_73e39bd7-7e29-4f68-8f47-bcb6c99adc3c.webp",
+          "description_candidate": "חן מזרחי - הופעה עם הלהיטים הגדולים! יום שבת 12/12/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_66_20261215",
+      "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "גיל קופטש, משה פרסטר, אריק זילברמן - אמני הקומדי קלאב – צוחקים ושרים - הופעה עם הלהיטים הגדולים! יום שלישי 15/12/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_1248203a0850a8e67852",
+      "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/high-school-drama-akademiya-nauk-youtube-khanuka-2026-semya-tarasovykh-i-denis-t/ashdod/",
+          "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/a8a8554ee984452ba5d135953fd4eb5d.jpg",
+          "description_candidate": "משפחת טרסוב – האקדמיה למדעי היוטיוב משפחת טרסוב מקבלת הזמנה מפתיעה להצטרף לאקדמיה למדעי היוטיוב – המקום היוקרתי שבו כוכבי הרשת הגדולים לומדים, מתחרים ונלחמים על מקומם בפסגה. אבל מהר מאוד הם מגלים שמאחורי העולם הצבעוני, המצחיק והנוצץ של האקדמיה מסתתרת תחרות שבה לא כולם משחקים לפי הכללים... מנהלת האקדמיה המרושעת (לירית בלבן) והתלמיד התחרותי (דניס טל) מוכנים לעשות הכול כדי לנצח – בכל מחיר! כשהמשימות הופכות לקשות יותר, הלחץ גובר והתחרות יוצאת משליטה, בני משפחת טרסוב יצטרכו להתאחד, להתמודד עם האתגרים ולהוכיח לכולם שיש דברים בחיים ששווים הרבה יותר מלייקים, צפיות וכמות העוקבים. הרפתקה מוזיקלית, מצחיקה וסוחפת לכל המשפחה, מלאה במשימות, אתגרים, מוזיקה, ריקודים והפתעות – והכול בקצב של הרשת! בהשתתפות: משפחת טרסוב, דניס טל, לירית בלבן (\"כראמל\", \"שוסטר ושוסטר\", \"גאליס\") / עמית זיתון, שחקנים ורקדנים נוספים. בימוי וכתיבה: רני מגר אריזה גרפית: avoxvision עיצוב תלבושות: אלה קולסניק סמנכ\"ל שיווק ותפעול: נעם צלנר מנהל משרד ובוקינג: אביב קרביץ *ההפקה שומרת לעצמה את הזכות לבצע שינויים בהרכב הקאסט.",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_2b8d59b9f755ec9b7983",
+      "title": "מתן פרץ",
+      "existing_category": "standup",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "מתן פרץ",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ2VVSBVFdHZnVhBHWoxGVVRWOpFTNu_890zd1ZkN3QGTrdWZ5IGRr52c4J0KLp2a.webp_b87440eb-914b-4298-bfa1-6e10969c3990.webp",
+          "description_candidate": "מתן פרץ - הופעה עם הלהיטים הגדולים! יום חמישי 17/12/2026 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "evt_67_20270102",
+      "title": "דניאל סטיופין (קופה ראשית) - מופע סטנדאפ",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "strong_candidate",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "דניאל סטיופין (\"קופה ראשית\") - מופע סטנדאפ",
+          "score": 1.0,
+          "same_date_in_existing_id": true,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "דניאל סטיופין (\"קופה ראשית\") - מופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום שבת 02/01/2027 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_64cf83ea3dc5bbb34e58",
+      "title": "דניאל סטיופין(קופה ראשית) סטנדאפ",
+      "existing_category": "standup",
+      "existing_subcategory": "standup",
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "דניאל סטיופין (\"קופה ראשית\") - מופע סטנדאפ",
+          "score": 0.925,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZ5kUODtmU2ZzVBh3dYBHZ41WR4EXMu_W90zZndUOXdEdt9mRPVmcyxUTZdGWLVmU.webp_4d83c539-37e6-4649-a822-27bb82f5aa22.webp",
+          "description_candidate": "דניאל סטיופין (\"קופה ראשית\") - מופע סטנדאפ - הופעה עם הלהיטים הגדולים! יום שבת 02/01/2027 🎉 עוד הופעה בקטגוריית סטנדאפ , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_3965330ca84880c5bf7a",
+      "title": "שמעון בוסקילה – קרוב לבית",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "שמעון בוסקילה – קרוב לבית",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZvkTVzl3aWtmQyZHc2gVb4ZmV2QTdu_Y90zdmJUMyRDdFFWZVNWd1JWOxYzMVlHU.webp_526acc1d-a58f-458e-beb3-be67cf74852e.webp",
+          "description_candidate": "שמעון בוסקילה – קרוב לבית - הופעה עם הלהיטים הגדולים! יום חמישי 07/01/2027 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_337345b282aabb14f4ed",
+      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/mirovoe-turne-markos-ayala-tango-buenos-aires/ashdod/",
+          "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/7da3c29be86faf61b23a5c83565103b4.jpg",
+          "description_candidate": "פ. ג. ק. הפקת בע\"מ גאים להציג: במסגרת סיבוב הופעות עולמי! אגדת הטנגו מרכוס אלה ולהקתו Marcos Ayala Tango Company במופע Tango Buenos Aires בחורף 2027 מצפה לנו מפגש מרגש עם מלך הטנגו הארגנטינאי מרקוס אלה ומיטב רקדני הטנגו שאסף ללהקתו Marcos Ayala Tango Company — במופע המחול האלגנטי, הסוחף והחושני Tango Buenos Aires. המופע מחזיר את הקהל אל “תור הזהב של הטנגו”, ויוצר אווירה של חגיגת חיים ברוח אמריקה של שנות ה40 וה50 של המאה ה20 — תקופה שבה המוזיקה והמחול סימלו חופש וחיפוש אחר זהות חדשה. זהו מסע מוזיקלי-כוריאוגרפי מרהיב דרך עידן הסווינג, תזמורות הביגבנד, הטנגו קנג’נגה והמילונגה. גברים בטוקסידו ובנעליים מבריקות, נשים על עקבים גבוהים ובשמלות נשפכות, מציירים על הבמה דגמים מורכבים ומהפנטים. המוזיקה הסוחפת והתנועות האלגנטיות של הרקדנים, הספוגות ברוח הטנגו, מעבירות לקהל את התשוקה, החושניות והכריזמה של הז’אנר. התלבושות היוקרתיות עוצבו במיוחד עבור כל קטע במופע, עם פרטים ואביזרים ייחודיים שנבחרו בקפידה. יחד עם עיצוב הבמה והתאורה הדרמטית, הן יוצרות עולם ויזואלי עשיר ושפה אמנותית ייחודית ובלתי נשכחת. מרקוס אלה — אלוף העולם בטנגו (יפן, 2006), במאי, כוריאוגרף ורקדן — נחשב לאחד מאמני הטנגו הבולטים בעולם. לאחר סיבוב הופעות גדול בארצות הברית בשנת 2015, זכה בשני פרסי Latin ACE Award: האחד על מפעל חיים, והשני עבור המופע Tango Lvers, שהוכרז כמחזמר השנה. אלה השתתף גם בהפקות של Cirque du Sleil ככוריאוגרף אורח, וזכה לכינוי התגלות הטנגו בזכות תפקידו במחזמר Chantecler Tango (ארגנטינה 2012–2014, צרפת 2013). מרקוס אלה משלב בכישרון רב את שפת הטנגו המסורתית עם ביטוי אמנותי עכשווי. להקתו Marcos Ayala Tango Company, שנוסדה בבואנוס איירס בשנת 2012, נולדה מתוך הרצון לשמור על הטנגו חי, מתפתח ופתוח לדיאלוג עם אמנויות אחרות — מתוך תפיסה אישית ועמוקה של היוצר. עבור מרקוס אלה, הטנגו הוא הרבה יותר מריקוד — הוא גשר המחבר בין תקופות, תרבויות ולבבות. אל תחמיצו את ההזדמנות להיות חלק ממסע שכולו אלגנטיות, תשוקה ואהבה!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_d3cf764f28c61e301ce9",
+      "title": "שימי תבורי במופע להקה",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "שימי תבורי במופע להקה",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TULp3VUNDWGZzcWJDVMhnaydnY5F1Vu_b90zdClXW3tCbwIUVwJFOkNFaIlUerZ3S.webp_ef53a92a-6e52-4f2c-ba3a-72e92d434c78.webp",
+          "description_candidate": "שימי תבורי במופע להקה - הופעה עם הלהיטים הגדולים! יום חמישי 14/01/2027 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_36c82ca8b0929268aff1",
+      "title": "טריפונס",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "טריפונס",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090TQjJ2T2QzQvgUcxEkeLJUVIdmePJ3Nu_W90zdOV3a1B3bop3U05WOkhUOnx2bqVzV.webp_4924f37f-e5d1-4881-89d8-83e375cdf85a.webp",
+          "description_candidate": "טריפונס - הופעה עם הלהיטים הגדולים! יום שישי 23/10/2026 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "title": "כספיון - התאטרון השחור",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "sababa-events",
+          "source_url": "https://sababa.events/he/event/kaspion-teatr-nadneda/ashdod/",
+          "title": "כספיון - התאטרון השחור",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/de11ec87313fd2f39353f0d28d07c72d.jpg",
+          "description_candidate": "על פי ספר הילדים שצייר וסיפר פאול קור משתתפים: איתי תורג'מן/תום מן אורין, ליאת לטוביץ/ שירה סיני, עמית נחושתן, אופיר אמסלם, סנדרו פיקרשוילי /סער גרוס עדן, שגיא גרנביץ, דבי לוין מחזה ופזמונים: איילה קורקוס בימוי: אבי מלכה תלבושות: רקפת לוי יצור בובות ואבזרים: ואלרי שיקלי מוסיקה: עדי כהן הצגת ילדים מוסיקלית בטכניקת התיאטרון השחור עלפי ספרו של פאול קור. הצגת הילדים האהובה \"כספיון\" עולה לבמה בעיבוד מרהיב לתיאטרון השחור – חוויה קסומה, סוחפת ובלתי נשכחת לכל המשפחה. בלב הים הכחול והעמוק חי לו כספיון – דג קטן ושונה, החולם לגלות עולם גדול יותר מעבר לגבולות המוכר. במסע מרגש של אומץ, סקרנות וקבלת האחר, פוגש כספיון חברים צבעוניים, מתמודד עם פחדים ולומד להאמין בעצמו. ההצגה משלבת טכניקות ייחודיות של תיאטרון שחור, אפקטים ויזואליים מרהיבים, מוזיקה מקורית ותנועה סוחפת – היוצרים יחד עולם דמיוני עשיר ומלא חיים, שבו הדמויות זוהרות בחשיכה ומובילות את הקהל להרפתקה תת-ימית מרתקת. \"כספיון\" הוא סיפור על זהות, שונות והכוח להיות מי שאתה – מסר חשוב המועבר בצורה נגישה, מרגשת ומהנה לילדים ולהורים כאחד. הצטרפו אלינו למסע קסום מתחת למים – חוויה תיאטרלית שתאיר את הדמיון ותיגע בלב. מתאים לילדים ולכל המשפחה. כל גיל חייב כרטיס כולל הורה מלווה מופע אמרגן ועל אחריותו. הזכות לשינויים שמורה. ט. ל. ח",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_3fa16619b6054a877bff",
+      "title": "חני נחמיאס – קלסיקה ישראלית",
+      "existing_category": "music",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "חני נחמיאס – קלסיקה ישראלית",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZTBlMHt0QiZHd1kVYttmY14EdxhFdu_490TQaVFOC9GOzcUdaplWkNUeo5GUwxWR.webp_e53575cc-b37f-4ddb-a9e0-1f08d124bc66.webp",
+          "description_candidate": "חני נחמיאס – קלסיקה ישראלית - הופעה עם הלהיטים הגדולים! יום שלישי 13/04/2027 🎉 עוד הופעה בקטגוריית הופעות חיות , כרטיסים במחירים מיוחדים - הזמן עכשיו לפני שיגמרו!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    },
+    {
+      "event_id": "auto_as_92a7794474ff45937b54",
+      "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
+      "existing_category": "kids",
+      "existing_subcategory": null,
+      "match_status": "manual_occurrence_review",
+      "matches": [
+        {
+          "source_id": "tickchak-live",
+          "source_url": "https://live.tickchak.co.il/ashdod",
+          "title": "הקוסם מארץ עוץ - לוח הופעות והזמנת כרטיסים",
+          "score": 1.0,
+          "same_date_in_existing_id": false,
+          "image_candidate_url": "https://static.tickchak.co.il/all/liveNew_090zZzJEeXFlN08WSBpXd0IWOvEWMOVFau_Y90zZkRUYWhXehN0S6N3YUh0MVNkbht2S.webp_8b6c9956-ef26-4ebc-a4ce-ef1eeda99cd9.webp",
+          "description_candidate": "הקוסם מארץ עוץ - הזמינו כרטיסים לכל ההופעות בכל המועדים והשעות!",
+          "video_candidate_url": null
+        }
+      ],
+      "needs_existing_cms_readback": true
+    }
+  ]
+}
