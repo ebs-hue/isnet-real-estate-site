@@ -64,9 +64,9 @@ def listing_rows(html,url,city):
     soup=BeautifulSoup(html,"html.parser")
     for x in soup(["script","style","nav","footer"]):x.decompose()
     raw=soup.get_text(" ",strip=True)
-    raw=re.sub(r"\\s+"," ",raw)
+    raw=re.sub(r"\s+"," ",raw)
     # Mevalim's event list presents day.month followed by weekday, time, title, venue.
-    pattern=r"(?<!\\d)(\\d{1,2})\\.(\\d{1,2})\\s+(?:יום\\s+)?(?:ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת)\\s+(\\d{1,2}:\\d{2})\\s*\\|?\\s*"
+    pattern=r"(?<!\d)(\d{1,2})\.(\d{1,2})\s+(?:יום\s+)?(?:ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת)\s+(\d{1,2}:\d{2})\s*\\|?\s*"
     hits=list(re.finditer(pattern,raw))
     output=[]
     for i,m in enumerate(hits):
@@ -74,7 +74,7 @@ def listing_rows(html,url,city):
         venue=next((v for v in sorted(VENUES[city],key=len,reverse=True) if v in part),None)
         if not venue:continue
         title=norm(part.split(venue,1)[0].strip(" |"))
-        title=re.sub(r"\\s*(?:לרכישה|לפרטים|הכרטיסים אזלו).*$","",title).strip()
+        title=re.sub(r"\s*(?:לרכישה|לפרטים|הכרטיסים אזלו).*$","",title).strip()
         if not (3<=len(title)<=170):continue
         month=int(m.group(2));day=int(m.group(1));year=date.today().year
         try:
