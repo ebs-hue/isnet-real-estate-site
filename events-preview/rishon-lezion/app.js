@@ -63,6 +63,7 @@ function nextWeekendRange(){
 }
 function formatTime(t){return t||"השעה תפורסם"}
 function isNonEventActivity(e){
+  if(String(e?.event_id||"").startsWith("auto_"))return false;
   const text=[e?.title,e?.series_title,e?.description,e?.variant_label].filter(Boolean).join(" ");
   if(e?.category==="classes")return true;
   return /(?:סדנה|סדנא|סדנת|סדנאות|קורס|קורסים|חוג|חוגים|פילאטיס|יוגה|טאי[־ -]?צ.?י|התעמלות|אימון קבוע|סטודיו פתוח|המרחב הבטוח|שיטת דורון|איזון מפרקים|מפגשים שבועיים|סדרת מפגשים|מחזור לימודים)/i.test(text);
@@ -1117,8 +1118,7 @@ async function init(){
     fetch("data/sports.json?v=20261005-2").then(r=>r.json()).catch(()=>({branches:{},teams:[]})),
     fetch("../admin/data/taxonomy.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({primary_categories:[]}))
   ]);
-  const horizon=addMonths(today(),5); horizon.setDate(today().getDate());
-  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&e.start_date<=iso(horizon)&&!isNonEventActivity(e));
+  state.events=(data.events||[]).filter(e=>e.start_date>=iso(today())&&!isNonEventActivity(e));
   state.fallbacks=fallbacks;
   state.generatedAt=data.generated_at||null;
   state.cinema=cinema.movies||[];
