@@ -11,7 +11,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DISC=ROOT/"events-preview/admin/data/national-events-discovery.json"
 CITIES={"ashdod":"אשדוד","rishon-lezion":"ראשון לציון"}
 HEADERS={"User-Agent":"ISNET-Events/1.0","Accept-Language":"he-IL,he;q=0.9"}
-def norm(x):return re.sub(r"\\s+"," ",str(x or "")).strip()
+def norm(x):return re.sub(r"\s+"," ",str(x or "")).strip()
 def event_nodes(value):
     if isinstance(value,list):
         for v in value:yield from event_nodes(v)
@@ -37,7 +37,7 @@ def extract(html,url,city):
                 dt=datetime.fromisoformat(start.replace("Z","+00:00"))
                 day=dt.date().isoformat();clock=dt.strftime("%H:%M")
             except ValueError:continue
-            if not (date.today().isoformat()<=day<=(date.today().replace(year=date.today().year+2)).isoformat()):continue
+            if day < date.today().isoformat():continue
             location=e.get("location") or {}
             if isinstance(location,list):location=location[0] if location else {}
             if isinstance(location,str):location={"name":location}
@@ -73,7 +73,7 @@ def main():
                 response.raise_for_status()
                 if (urlparse(response.url).hostname or "")!=host:continue
                 rows=extract(response.text,url,label)
-            except requests.RequestException:continue
+            except (requests.RequestException,ValueError,TypeError):continue
             for row in rows:
                 key=tuple(row[k] for k in ("title","start_date","start_time","venue"))
                 if key in seen:continue
