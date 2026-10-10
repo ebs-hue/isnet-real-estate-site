@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "friends-hist",
+      "name": "FRIENDS רשת מועדוני תרבות",
+      "domain": "friends-hist.co.il",
+      "enabled": true,
+      "priority": "preferred_verified_detail",
+      "cities": [
+        {
+          "slug": "ashdod",
+          "url": "https://friends-hist.co.il/city_cat/%D7%90%D7%A9%D7%93%D7%95%D7%93/"
+        },
+        {
+          "slug": "rishon-lezion",
+          "url": "https://friends-hist.co.il/city_cat/%D7%A8%D7%90%D7%A9%D7%95%D7%9F-%D7%9C%D7%A6%D7%99%D7%95%D7%9F/"
+        }
+      ],
+      "policy": {
+        "match_same_production_before_merging": true,
+        "prefer_verified_details": [
+          "official_title",
+          "production_description",
+          "cast",
+          "duration",
+          "venue",
+          "occurrence_time",
+          "ticket_url"
+        ],
+        "preserve_city_and_date_per_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    }
+  ]
+}
