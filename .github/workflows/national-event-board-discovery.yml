@@ -1,0 +1,38 @@
+name: Discover national event board candidates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 4 * * *'
+  push:
+    paths:
+      - 'scripts/discover_national_event_boards.py'
+      - '.github/workflows/national-event-board-discovery.yml'
+permissions:
+  contents: write
+concurrency:
+  group: national-event-board-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - name: Collect national portal candidates without publication
+        run: python scripts/discover_national_event_boards.py
+      - name: Save candidate report
+        run: |
+          git config user.name "isnet-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add events-preview/admin/data/national-events-discovery.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update national board event discovery candidates"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
