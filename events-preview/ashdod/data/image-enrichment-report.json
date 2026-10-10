@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-10-10T14:13:06Z",
-  "total_events": 433,
-  "events_with_publishable_images": 409,
-  "events_still_missing_images": 24,
+  "generated_at": "2026-10-10T14:32:02Z",
+  "total_events": 374,
+  "events_with_publishable_images": 353,
+  "events_still_missing_images": 21,
   "stats": {
     "generic_images_cleared": 0
   },
   "missing_by_source": {
     "mishkan_smarticket": 12,
     "ashdod_smarticket": 1,
-    "mevalim": 11
+    "mevalim": 8
   },
   "missing_by_category": {
     "music": 12,
-    "other": 11,
+    "theatre": 8,
     "cinema": 1
   },
   "missing": [
@@ -48,11 +48,6 @@
       "reason": "no_verified_source_image"
     },
     {
-      "event_id": "auto_as_5b2b6d7949ae8537c46b",
-      "title": "מלכת היופי של ירושלים - בית ליסין",
-      "reason": "no_verified_source_image"
-    },
-    {
       "event_id": "auto_as_55a39d52dc39c68b8b0b",
       "title": "מלכת היופי של ירושלים - תיאטרון בית ליסין",
       "reason": "no_verified_source_image"
@@ -70,16 +65,6 @@
     {
       "event_id": "auto_as_95f92aa282a0c631a783",
       "title": "מחווה ליורגוס דאלארס",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_2233314ddfba8d097c92",
-      "title": "שלומית אהרון חוגגת 60 שנות קריירה",
-      "reason": "no_verified_source_image"
-    },
-    {
-      "event_id": "auto_as_217a68c446bf0db02cd1",
-      "title": "שלום חנוך",
       "reason": "no_verified_source_image"
     },
     {
