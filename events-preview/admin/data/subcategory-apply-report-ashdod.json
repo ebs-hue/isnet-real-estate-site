@@ -1,9 +1,14 @@
 {
   "count_updated": 0,
-  "count_corrected": 0,
+  "count_corrected": 1,
   "count_skipped": 321,
   "updated": [],
-  "corrected": [],
+  "corrected": [
+    {
+      "event_id": "sport_20261013_maccabi_ashdod_m_volleyball",
+      "subcategory": "volleyball"
+    }
+  ],
   "cms_readback_verified": false,
   "public_site_readback_verified": false
 }
