@@ -49,14 +49,16 @@
       "name": "מבלים",
       "domain": "mevalim.co.il",
       "enabled": true,
-      "priority": "supplement_verified_missing_details",
+      "priority": "primary",
       "homepage_url": "https://www.mevalim.co.il/",
       "cities": [
         {
-          "slug": "ashdod"
+          "slug": "ashdod",
+          "url": "https://www.mevalim.co.il/ashdod/"
         },
         {
-          "slug": "rishon-lezion"
+          "slug": "rishon-lezion",
+          "url": "https://www.mevalim.co.il/rishon-lezion/"
         }
       ],
       "collection_status": "source_registered_discovery_not_yet_verified",
