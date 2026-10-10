@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "sources": [
     {
       "id": "friends-hist",
@@ -227,5 +227,77 @@
         "never_publish_to_cms_from_discovery": true
       }
     }
-  ]
+  ],
+  "enrichment_pipeline": {
+    "version": 1,
+    "applies_to": [
+      "ashdod",
+      "rishon-lezion"
+    ],
+    "order": [
+      {
+        "step": 1,
+        "id": "original-source",
+        "purpose": [
+          "event_content",
+          "category",
+          "subcategory",
+          "original_image"
+        ],
+        "stop_for_field_when_verified": true
+      },
+      {
+        "step": 2,
+        "id": "same-production-national-boards",
+        "source_ids": [
+          "friends-hist",
+          "mevalim",
+          "makore",
+          "tickchak-live",
+          "sababa-events",
+          "leaan",
+          "tickchak-home"
+        ],
+        "search_by": [
+          "production_title",
+          "performer",
+          "production_company"
+        ],
+        "allow_other_city_for": [
+          "production_description",
+          "cast",
+          "genre",
+          "category",
+          "subcategory",
+          "image_candidate"
+        ],
+        "never_copy_other_city": [
+          "event_date",
+          "event_time",
+          "venue",
+          "local_ticket_url"
+        ],
+        "only_same_production": true,
+        "stop_for_field_when_verified": true
+      },
+      {
+        "step": 3,
+        "id": "internal-subcategory-image-bank",
+        "map": "events-preview/admin/data/subcategory-image-map.json",
+        "requires_verified_subcategory": true
+      },
+      {
+        "step": 4,
+        "id": "internal-primary-category-image-bank",
+        "map": "events-preview/admin/data/subcategory-image-map.json"
+      }
+    ],
+    "publication_guards": {
+      "source_prose_requires_editorial_rewrite": true,
+      "image_requires_authorized_reuse": true,
+      "never_publish_unverified_external_image": true,
+      "never_overwrite_manually_verified_content": true,
+      "preserve_origin_urls": true
+    }
+  }
 }
