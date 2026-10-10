@@ -53,6 +53,15 @@ function mergeDbRecordWithFreshMedia(e,db){
       else delete merged[key];
     }
   }
+  // Current feed subtype supersedes a stale CMS snapshot, unless an editor locked it.
+  if(db.payload.subcategory_manual_override!==true){
+    if(Object.prototype.hasOwnProperty.call(e,"subcategory")) merged.subcategory=e.subcategory;
+    else delete merged.subcategory;
+    for(const key of ["subcategory_review_status","subcategory_review_confidence"]){
+      if(Object.prototype.hasOwnProperty.call(e,key)) merged[key]=e[key];
+      else delete merged[key];
+    }
+  }
   return merged;
 }
 function artistVideoFor(event,catalog){
