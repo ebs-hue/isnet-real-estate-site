@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "sources": [
     {
       "id": "friends-hist",
@@ -29,6 +29,198 @@
           "ticket_url"
         ],
         "preserve_city_and_date_per_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "mevalim",
+      "name": "מבלים",
+      "domain": "mevalim.co.il",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://www.mevalim.co.il/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "makore",
+      "name": "מה קורה",
+      "domain": "makore.co.il",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://www.makore.co.il/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "tickchak-live",
+      "name": "טיקצ'אק LIVE",
+      "domain": "live.tickchak.co.il",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://live.tickchak.co.il/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "sababa-events",
+      "name": "סבבה אירועים",
+      "domain": "sababa.events",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://sababa.events/he/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "leaan",
+      "name": "לאן",
+      "domain": "leaan.co.il",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://www.leaan.co.il/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
+        "store_origin_urls": true,
+        "do_not_copy_source_prose": true,
+        "images_require_verified_reuse_rights": true,
+        "never_publish_to_cms_from_discovery": true
+      }
+    },
+    {
+      "id": "tickchak-home",
+      "name": "טיקצ'אק",
+      "domain": "home.tickchak.co.il",
+      "enabled": true,
+      "priority": "supplement_verified_missing_details",
+      "homepage_url": "https://home.tickchak.co.il/",
+      "cities": [
+        {
+          "slug": "ashdod"
+        },
+        {
+          "slug": "rishon-lezion"
+        }
+      ],
+      "collection_status": "source_registered_discovery_not_yet_verified",
+      "policy": {
+        "use_for": [
+          "missing_subcategory",
+          "production_description",
+          "cast",
+          "official_event_image_candidate",
+          "missing_occurrence_details"
+        ],
+        "match_same_production_before_merging": true,
+        "confirm_city_date_venue_before_creating_occurrence": true,
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
