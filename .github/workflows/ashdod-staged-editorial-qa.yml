@@ -1,0 +1,36 @@
+name: Ashdod staged editorial copy safety QA
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'events-preview/admin/data/editorial-review-ashdod-*.json'
+      - 'scripts/validate_ashdod_editorial_public_copy.py'
+      - '.github/workflows/ashdod-staged-editorial-qa.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  staged-copy-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check first batch for public-copy leakage
+        run: python scripts/validate_ashdod_editorial_public_copy.py events-preview/admin/data/editorial-review-ashdod-2026-10-10.json
+      - name: Check second batch for public-copy leakage
+        run: python scripts/validate_ashdod_editorial_public_copy.py events-preview/admin/data/editorial-review-ashdod-2026-10-10-batch2.json
+      - name: Confirm publication remains disabled in staged files
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in sorted(Path('events-preview/admin/data').glob('editorial-review-ashdod-2026-10-10*.json')):
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              assert obj.get('publication_enabled') is False, f'Unsafe publication flag: {path}'
+              print(f'{path}: {len(obj.get("events", []))} drafts, publication disabled')
+          PY
