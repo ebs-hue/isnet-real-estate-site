@@ -127,6 +127,11 @@ def mevalim_ticket_extract(soup,page):
              "extraction_method":"ticket_detail_page","publication_status":"candidate_review",
              "image_provenance":"external_ticket_listing_not_license"}]
 
+def authentic_description(value):
+    value=clean(value)
+    if len(value)<100:return None
+    if any(t in value for t in ("מחפשים הופעות","באתר מבלים ריכזנו","כרטיסים במחירים מיוחדים","הופעה עם הלהיטים הגדולים!","הזמן עכשיו לפני שיגמרו","כרטיסים במחירים","עוד הופעה בקטגוריית")):return None
+    return value
 def detail_extract(soup,source,page):
     if source=="mevalim" and (urlparse(page).hostname or "")=="tickets.mevalim.co.il":
         return mevalim_ticket_extract(soup,page)
@@ -145,9 +150,9 @@ def detail_extract(soup,source,page):
             if url not in videos:videos.append(url)
     for row in rows:
         if row.get("image_url") and any(t in row["image_url"].lower() for t in ("big_star.png","logo","placeholder","default-image")):row["image_url"]=None
-        if row.get("description") and ("באתר מבלים ריכזנו" in row["description"] or "מחפשים הופעות" in row["description"]):row["description"]=None
+        row["description"]=authentic_description(row.get("description"))
         if not row.get("image_url") and image and not any(t in image.lower() for t in ("big_star.png","logo","placeholder","default-image")):row["image_url"]=urljoin(page,image)
-        if not row.get("description") and desc:row["description"]=desc
+        if not row.get("description") and desc:row["description"]=authentic_description(desc)
         if not row.get("video_url") and videos:row["video_url"]=videos[0]
         row["detail_page_fetched"]=True
     return rows
@@ -209,7 +214,7 @@ def main():
     repeated_videos={url for url,identities in video_uses.items() if len(identities)>1}
     for row in records:
         if row.get("image_url") and any(x in row["image_url"].lower() for x in ("big_star.png","placeholder","default-image","no-image")):row["image_url"]=None
-        if row.get("description") and any(x in row["description"] for x in ("באתר מבלים ריכזנו","מחפשים הופעות")):row["description"]=None
+        row["description"]=authentic_description(row.get("description"))
         if row.get("video_url") in repeated_videos:
             row["video_candidate_needs_review"]=True
             row["video_url"]=None
