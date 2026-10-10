@@ -25,9 +25,10 @@ def main():
     for s in sources:
         if not s.get("enabled") or not s.get("homepage_url"):
             continue
-        city_pages=[c for c in s.get("cities",[]) if c.get("slug")=="ashdod" and c.get("url")]
+        city_pages=[c for c in s.get("cities",[]) if c.get("slug") in CITIES and c.get("url")]
         url=city_pages[0]["url"] if city_pages else s["homepage_url"]
         city_page=bool(city_pages)
+        city_page_slug=city_pages[0]["slug"] if city_pages else None
         found=[];error=None
         try:
             resp=session.get(url,headers=HEADERS,timeout=20)
@@ -48,18 +49,18 @@ def main():
                 city=next((slug for slug,terms in CITIES.items() if any(term in title or term in context for term in terms)),None)
                 # Ashdod-discovery requires actual city evidence or a city-specific page.
                 # Generic nationwide candidates are useful for enrichment, not city event creation.
-                if not city_page and city!="ashdod":
+                if not city_page and city not in CITIES:
                     continue
                 seen.add(href)
                 image=a.find("img")
                 candidate_image=urljoin(resp.url,image.get("src") or image.get("data-src") or "") if image else None
-                found.append({"source_id":s["id"],"city_hint":"ashdod" if city_page else city,"source_url":href,
+                found.append({"source_id":s["id"],"city_hint":city_page_slug if city_page else city,"source_url":href,
                               "city_evidence":"city_listing_url" if city_page else "card_text",
                               "title_candidate":title,"source_context":context,
                               "image_candidate_url":candidate_image if candidate_image and candidate_image.startswith("https://") else None,
                               "status":"candidate_requires_title_city_date_and_venue_validation",
                               "image_rights_status":"unknown"})
-                if len(found)>=250:break
+
         except Exception as exc:
             error=type(exc).__name__+": "+str(exc)[:180]
         results.extend(found)
