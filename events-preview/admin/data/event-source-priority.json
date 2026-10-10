@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "sources": [
     {
       "id": "friends-hist",
@@ -414,17 +414,18 @@
       "local_venues_missing_event_supplement"
     ],
     "principles": [
-      "A verified Ashdod performance listing is an event discovery candidate with title, occurrence, classification, production image candidate and supporting text.",
-      "Deduplicate by production identity plus local date and time, preserve all source URLs.",
-      "Use local venues to validate venue/date and discover stage performances missing from national boards.",
-      "Other event categories follow their own specialist sources."
+      "National ticket boards supply production and verified city/venue/date/time per specific performance in the same discovery pass.",
+      "Distinguish a show production from each city-specific occurrence; never copy another city's date or venue.",
+      "Deduplicate specific performances across boards before suggesting publication.",
+      "Scan local halls later to find productions or dates not represented in national boards.",
+      "Only apply the national-board stage workflow to the four stage categories; other categories retain their specialist-source workflows."
     ],
     "local_venues": [
       "המשכן לאמנויות הבמה",
       "דיונה",
       "בית יד לבנים"
     ],
-    "publication_mode": "review_candidates_only",
+    "publication_mode": "review_candidates_only_until_verified_pipeline",
     "ticketed_board_authority": {
       "applies_to": [
         "music",
@@ -465,6 +466,51 @@
       "operational_approval": "publisher_approved_use_of_matching_show_images_from_national_ticket_boards",
       "rights_status": "publisher_approval_not_copyright_license",
       "do_not_overwrite_existing_matching_image": true
-    }
+    },
+    "workflow": [
+      {
+        "step": 1,
+        "id": "national_board_city_occurrences",
+        "cities": "all_configured_cities",
+        "categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "capture": [
+          "production_title",
+          "description",
+          "image_candidate",
+          "trailer_url_if_present",
+          "category",
+          "subcategory",
+          "city",
+          "venue",
+          "date",
+          "time",
+          "ticket_url"
+        ],
+        "require_specific_city_and_occurrence": true,
+        "verify_details_before_publication": true
+      },
+      {
+        "step": 2,
+        "id": "deduplicate_and_link",
+        "method": "same_production_and_city_venue_datetime",
+        "preserve_source_urls": true
+      },
+      {
+        "step": 3,
+        "id": "local_venue_gap_scan",
+        "purpose": "discover city venue events absent from national board results",
+        "do_not_require_duplicate_recheck_of_confirmed_listings": true
+      },
+      {
+        "step": 4,
+        "id": "local_enrichment",
+        "purpose": "enhance event cards with local relevant details and correct editorial copy"
+      }
+    ]
   }
 }
