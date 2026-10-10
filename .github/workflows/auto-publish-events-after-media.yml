@@ -56,3 +56,4 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.CMS_SUPABASE_SERVER_KEY || secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python -u scripts/auto_publish_ready_events.py
 # verification-trigger
+# Operator requested run 2026-10-10: auto-publish-events-after-media.yml
