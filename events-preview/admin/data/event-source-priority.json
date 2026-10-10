@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "sources": [
     {
       "id": "friends-hist",
@@ -41,7 +41,8 @@
         ],
         "allow_image_candidate_import": true,
         "require_same_production_identity": true
-      }
+      },
+      "city_discovery_role": "local_stage_source"
     },
     {
       "id": "mevalim",
@@ -172,7 +173,10 @@
       "homepage_url": "https://sababa.events/he/",
       "cities": [
         {
-          "slug": "ashdod"
+          "slug": "ashdod",
+          "url": "https://sababa.events/ashdod/he/category/culture/",
+          "scope": "ashdod-stage-events",
+          "verified_city_page": true
         },
         {
           "slug": "rishon-lezion"
@@ -395,5 +399,31 @@
       "theatre"
     ],
     "stage_board_scope": "Only stage productions in music, standup, kids, theatre. Other categories use relevant primary/specialist sources and taxonomy image bank."
+  },
+  "stage_event_discovery": {
+    "version": 1,
+    "city": "ashdod",
+    "categories": [
+      "music",
+      "standup",
+      "kids",
+      "theatre"
+    ],
+    "source_order": [
+      "national_stage_boards_city_filtered",
+      "local_venues_missing_event_supplement"
+    ],
+    "principles": [
+      "A verified Ashdod performance listing is an event discovery candidate with title, occurrence, classification, production image candidate and supporting text.",
+      "Deduplicate by production identity plus local date and time, preserve all source URLs.",
+      "Use local venues to validate venue/date and discover stage performances missing from national boards.",
+      "Other event categories follow their own specialist sources."
+    ],
+    "local_venues": [
+      "המשכן לאמנויות הבמה",
+      "דיונה",
+      "בית יד לבנים"
+    ],
+    "publication_mode": "review_candidates_only"
   }
 }
