@@ -66,7 +66,7 @@ def listing_rows(html,url,city):
     raw=soup.get_text(" ",strip=True)
     raw=re.sub(r"\s+"," ",raw)
     # Mevalim's event list presents day.month followed by weekday, time, title, venue.
-    pattern=r"(?<!\d)(\d{1,2})\.(\d{1,2})\s+(?:יום\s+)?(?:ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת)\s+(\d{1,2}:\d{2})\s*\\|?\s*"
+    pattern=r"(?<!\d)(\d{1,2})\.(\d{1,2})\s+(?:יום\s+)?(?:ראשון|שני|שלישי|רביעי|חמישי|שישי|שבת)\s+(\d{1,2}:\d{2})\s*[|]?\s*"
     hits=list(re.finditer(pattern,raw))
     output=[]
     for i,m in enumerate(hits):
