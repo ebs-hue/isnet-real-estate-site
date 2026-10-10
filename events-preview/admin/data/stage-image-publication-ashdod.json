@@ -1,14 +1,51 @@
 {
-  "generated_at": "2026-10-10T12:48:19.348434+03:00",
+  "generated_at": "2026-10-10T12:48:59.090000+03:00",
   "publication_enabled": true,
-  "feed_modified": false,
-  "matched_publication_candidates": 0,
+  "feed_modified": true,
+  "matched_publication_candidates": 6,
   "content_policy": "Only true production descriptions may replace existing copy; ticket-sales boilerplate is not accepted.",
-  "published": 0,
+  "published": 6,
   "blocked": {
     "no_exact_title_date_venue_image": 138,
-    "already_matching_production_image": 33,
+    "already_matching_production_image": 27,
     "conflicting_image_sources": 2
   },
-  "images": []
+  "images": [
+    {
+      "event_id": "auto_as_d857a17bf47a6e2337e5",
+      "title": "איתמר וכובע הקסמים",
+      "source": "makore",
+      "image_url": "https://www.makore.co.il/event/%D7%90%D7%99%D7%AA%D7%9E%D7%A8-%D7%95%D7%9B%D7%95%D7%91%D7%A2-%D7%94%D7%A7%D7%A1%D7%9E%D7%99%D7%9D--11cbd8db/opengraph-image"
+    },
+    {
+      "event_id": "evt_45_20261018",
+      "title": "הרפתקה בשכונה - חיפזון וזהירון",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/c91a5db5e60c08dab51912a34f4c7343.jpg"
+    },
+    {
+      "event_id": "auto_as_927802792107d0068f24",
+      "title": "שקרים קטנים קומדיה משפחתית מופרעת",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/2e9e622c92ae0f31de7dd145be142dcb.jpg"
+    },
+    {
+      "event_id": "auto_as_1248203a0850a8e67852",
+      "title": "היי סקול דרמה - האקדמיה למדעי היוטיוב - חנוכה 2026",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/a8a8554ee984452ba5d135953fd4eb5d.jpg"
+    },
+    {
+      "event_id": "auto_as_337345b282aabb14f4ed",
+      "title": "אגדת הטנגו העולמי מרכוס אשלה - Tango Buenos Aires",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/7da3c29be86faf61b23a5c83565103b4.jpg"
+    },
+    {
+      "event_id": "auto_as_3d668279eb3a8887ca1d",
+      "title": "כספיון - התאטרון השחור",
+      "source": "sababa-events",
+      "image_url": "https://pub-0a891185c33b4c5a8db7ede117f7c8e7.r2.dev/haifa-events/bravo/de11ec87313fd2f39353f0d28d07c72d.jpg"
+    }
+  ]
 }
