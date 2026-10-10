@@ -846,16 +846,20 @@ function renderDates(){
   $("calendarPrev").disabled=viewedBoundary<=currentBoundary;
 }
 function renderCategories(){
-  const cats=["music","standup","kids","sport","theatre","lecture","workshop","exhibition","seniors","festival","community","cinema"];
+  const configured=window.publicTaxonomy||[];
+  const preferredOrder=["music","standup","kids","sport","theatre","lecture","conference","exhibition","seniors","festival","community","cinema","tour","food"];
+  const cats=configured.map(c=>c.id).sort((a,b)=>preferredOrder.indexOf(a)-preferredOrder.indexOf(b));
+  // Legacy events can still use workshop; preserve access until feed migration.
+  if(state.events.some(e=>e.category==="workshop")&&!cats.includes("workshop"))cats.push("workshop");
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
   $("categoryGrid").innerHTML=cats.map(c=>{
     const isCinema=c==="cinema";
     const active=isCinema?state.cinemaOpen:state.category===c;
-    const label=isCinema?"קולנוע בראשון לציון":catLabels[c];
+    const label=configured.find(item=>item.id===c)?.label||catLabels[c]||c;
     const countLabel=(counts[c]||0)+" "+(isCinema?"סרטים":"אירועים");
     return '<button class="categoryCard '+(active?"is-active":"")+'" data-cat="'+c+'">'+
-      '<span class="categoryCard__icon">'+catIcons[c]+'</span>'+
+      '<span class="categoryCard__icon">'+(catIcons[c]||"✦")+'</span>'+
       '<span class="categoryCard__copy"><b>'+label+'</b><small>'+countLabel+'</small></span>'+
       '<span class="categoryCard__arrow">←</span>'+
     '</button>';
@@ -1127,6 +1131,7 @@ async function init(){
   state.cinemaUpdatedAt=cinema.updated_at||null;
   state.sportsMeta=sports||{branches:{},teams:[]};
   window.publicTaxonomy=taxonomy.primary_categories||[];
+  for(const item of window.publicTaxonomy)catLabels[item.id]=item.label;
   const requestedCategory=new URLSearchParams(location.search).get("category");
   if(requestedCategory&&Object.prototype.hasOwnProperty.call(catLabels,requestedCategory))state.category=requestedCategory;
   const requestedSub=new URLSearchParams(location.search).get("subcategory");
