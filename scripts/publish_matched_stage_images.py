@@ -29,12 +29,14 @@ def main():
     feed=json.loads(FEED.read_text(encoding="utf-8"))
     collected=json.loads(COLLECT.read_text(encoding="utf-8"))["events"]
     lookup=defaultdict(list)
+    productions=defaultdict(list)
     for row in collected:
         d=str(row.get("date_time") or "")[:10]
         if row.get("city")!="ashdod" or not image_valid(row.get("image_url")):continue
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}",d) or d<str(today):continue
         if not row.get("venue") or not row.get("title"):continue
         lookup[(clean(row["title"]),d)].append(row)
+        productions[clean(row["title"])].append(row)
     result=[];blocked=defaultdict(int)
     for event in feed.get("events",[]):
         if event.get("category") not in CATEGORIES:continue
@@ -45,7 +47,15 @@ def main():
         key=(clean(event.get("title")),d)
         options=[r for r in lookup.get(key,[]) if venue_match(event.get("venue") or event.get("location") or "",r.get("venue"))]
         if not options:
-            blocked["no_exact_title_date_venue_image"]+=1;continue
+            # Reuse production artwork across separate occurrences ONLY with
+            # identical normalized title and compatible venue in the same city.
+            # Never copy the date, venue or ticket URL from the source occurrence.
+            options=[r for r in productions.get(clean(event.get("title")),[])
+                     if venue_match(event.get("venue") or event.get("location") or "",r.get("venue"))]
+            if options:
+                blocked["production_artwork_reuse_matches"]+=1
+        if not options:
+            blocked["no_exact_title_or_venue_image"]+=1;continue
         urls={r["image_url"] for r in options}
         # Different images may still be same production, but publishing only one-source or consensus group is safer.
         by_url=defaultdict(list)
