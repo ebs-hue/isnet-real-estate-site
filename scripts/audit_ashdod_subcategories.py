@@ -138,15 +138,19 @@ def run():
             counts["already_valid"]+=1;continue
         counts["missing_or_invalid"]+=1
         candidate,confidence,evidence,conflict=infer(e,valid)
+        primary_review=next((suggested for current,pattern,suggested in PRIMARY_REVIEW
+                             if current==cat and re.search(pattern,title,re.I)),None)
+        if primary_review:
+            counts["primary_category_review"]+=1
         if e.get("subcategory_manual_override"):
             candidate,confidence,evidence=None,0.0,"manual_lock"
         if candidate:counts["staged_candidate"]+=1
         else:counts["needs_contextual_review"]+=1
         status="suggestion_only" if candidate else "needs_review"
-        if conflict or confidence<0.85:status="needs_review"
+        if conflict or confidence<0.85 or primary_review:status="needs_review"
         findings.append({"event_id":e.get("event_id"),"title":title,"category":cat,"existing_subcategory":sub,
                          "suggested_subcategory":candidate,"confidence":confidence,"evidence_field":evidence,
-                         "conflict":conflict,"status":status})
+                         "conflict":conflict,"primary_category_review_proposed":primary_review,"status":status})
     REPORT.parent.mkdir(parents=True,exist_ok=True)
     REPORT.write_text(json.dumps({"city":"ashdod","publication_enabled":False,"total":len(events),
                       "counts":dict(counts),"events":findings},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
