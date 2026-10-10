@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "sources": [
     {
       "id": "friends-hist",
@@ -32,7 +32,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -64,7 +72,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -96,7 +112,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -128,7 +152,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -160,7 +192,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -192,7 +232,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     },
     {
@@ -224,7 +272,15 @@
         "store_origin_urls": true,
         "do_not_copy_source_prose": true,
         "images_require_verified_reuse_rights": true,
-        "never_publish_to_cms_from_discovery": true
+        "never_publish_to_cms_from_discovery": true,
+        "stage_board_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "allow_image_candidate_import": true,
+        "require_same_production_identity": true
       }
     }
   ],
@@ -279,7 +335,14 @@
           "local_ticket_url"
         ],
         "only_same_production": true,
-        "stop_for_field_when_verified": true
+        "stop_for_field_when_verified": true,
+        "only_primary_categories": [
+          "music",
+          "standup",
+          "kids",
+          "theatre"
+        ],
+        "image_policy": "Allow acquiring official-looking production images as candidates from national listings after verifying show identity, log attribution and source; public use must be licensed or otherwise authorized."
       },
       {
         "step": 3,
@@ -324,6 +387,13 @@
         "registered_primary_category_bank_image"
       ]
     },
-    "rule": "The venue is authoritative for the local occurrence's date, time and place, not automatically preferred for images, description or genre. For each field select the most reliable and complete verified evidence regardless of discovery order."
+    "rule": "The venue is authoritative for the local occurrence's date, time and place, not automatically preferred for images, description or genre. For each field select the most reliable and complete verified evidence regardless of discovery order.",
+    "stage_board_categories": [
+      "music",
+      "standup",
+      "kids",
+      "theatre"
+    ],
+    "stage_board_scope": "Only stage productions in music, standup, kids, theatre. Other categories use relevant primary/specialist sources and taxonomy image bank."
   }
 }
