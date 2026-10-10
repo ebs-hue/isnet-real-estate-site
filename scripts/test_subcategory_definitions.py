@@ -15,6 +15,7 @@ for category in taxonomy["primary_categories"]:
         meta=definitions[cid]["subcategories"][sid]
         assert meta.get("definition") and meta.get("positive_evidence"), f"Missing evidence: {cid}/{sid}"
 from audit_ashdod_subcategories import infer, PRIMARY_REVIEW
+from apply_ashdod_verified_subcategories import verified_subcategory_correction
 valid={g["id"]:{s["id"] for s in g.get("subcategories",[])} for g in taxonomy["primary_categories"]}
 samples=[
     ({"category":"seniors","title":"הזקן והים","description":"סיור חיצוני מודרך של קתדרת אופק"}, "senior-trips"),
@@ -28,4 +29,7 @@ for event,expected in samples:
     candidate,confidence,evidence,conflict=infer(event,valid,definitions)
     assert candidate==expected and confidence>=0.95 and not conflict, (event, candidate, confidence, evidence, conflict)
 assert not any(current=="seniors" and suggested=="community" for current,_,suggested in PRIMARY_REVIEW)
+wrong_assignment={"category":"seniors","subcategory":"senior-workshops","title":"יונתן גת מונארט 2026",
+                  "event_summary":"הרצאה של יונתן גת","long_description":"מנחה סדנאות והרצאות"}
+assert verified_subcategory_correction(wrong_assignment)=="senior-lectures"
 print("PASS: taxonomy coverage and explicit senior activity-format rules")
