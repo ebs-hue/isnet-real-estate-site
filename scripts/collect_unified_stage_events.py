@@ -157,6 +157,11 @@ def detail_extract(soup,source,page):
         row["detail_page_fetched"]=True
     return rows
 
+from event_taxonomy_aliases import collect_alias_candidates, match_label
+TAXONOMY=DATA/"taxonomy.json"
+ALIAS_FILE=DATA/"event-taxonomy-aliases.json"
+ALIAS_REPORT=DATA/"event-taxonomy-alias-review.json"
+
 def main():
     cfg=json.loads(CFG.read_text(encoding="utf-8"))
     records=[];reports=[];seen=set()
@@ -257,6 +262,19 @@ def main():
       "cms_modified":False,"public_site_modified":False,"needs_review":True,
       "counts":{"candidate_records":len(records),"structured_with_schedule":sum(bool(x.get("date_time") and x.get("venue")) for x in records),"with_images":sum(bool(x.get("image_url")) for x in records),"with_videos":sum(bool(x.get("video_url")) for x in records)},
       "source_reports":reports,"quality":quality,"possible_duplicates":possible_duplicates,"events":records}
+    taxonomy=json.loads(TAXONOMY.read_text(encoding="utf-8"))
+    aliases=json.loads(ALIAS_FILE.read_text(encoding="utf-8"))
+    for row in records:
+        label=row.get("source_subcategory") or row.get("source_category")
+        if label:
+            mapping=match_label(str(label),taxonomy,aliases)
+            row["source_taxonomy_mapping_status"]=mapping["status"]
+            if mapping["status"] in ("approved_alias","exact_taxonomy_match"):
+                row["mapped_category"]=mapping["category"]
+                row["mapped_subcategory"]=mapping.get("subcategory")
+    review={"generated_at":output["generated_at"],"scope":"internal_only",
+            "candidates":collect_alias_candidates(records,taxonomy,aliases)}
+    ALIAS_REPORT.write_text(json.dumps(review,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     OUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(output["counts"],ensure_ascii=False))
 if __name__=="__main__":main()
