@@ -192,11 +192,36 @@ def main():
                 except Exception as exc:errors.append(type(exc).__name__+": "+str(exc)[:120])
                 time.sleep(.6)
             reports.append({"source_id":source["id"],"candidates":count,"details_fetched":fetched,"errors":errors[:6]})
+    # Detect overlapping listings without discarding evidence from different sites.
+    from collections import defaultdict,Counter
+    by_occurrence=defaultdict(list)
+    video_uses=defaultdict(set)
+    for row in records:
+        if row.get("video_url"):
+            video_uses[row["video_url"]].add((row.get("title"),row.get("city"),row.get("date_time")))
+        identity=(row.get("city"),clean(row.get("venue")).casefold(),str(row.get("date_time") or "")[:16])
+        if all(identity):by_occurrence[identity].append(row)
+    repeated_videos={url for url,identities in video_uses.items() if len(identities)>1}
+    for row in records:
+        if row.get("video_url") in repeated_videos:
+            row["video_candidate_needs_review"]=True
+            row["video_url"]=None
+    possible_duplicates=[
+        {"city":key[0],"venue":key[1],"date_time":key[2],
+         "events":[{"title":r["title"],"source_id":r["source_id"],"source_url":r["source_url"]} for r in group]}
+        for key,group in by_occurrence.items() if len(group)>1
+    ]
+    quality={"with_description":sum(bool(x.get("description")) for x in records),
+             "with_image":sum(bool(x.get("image_url")) for x in records),
+             "with_ticket_url":sum(bool(x.get("tickets_url")) for x in records),
+             "with_video_after_cross_show_check":sum(bool(x.get("video_url")) for x in records),
+             "video_urls_suppressed_as_shared":len(repeated_videos),
+             "possible_duplicate_occurrence_groups":len(possible_duplicates)}
     output={"generated_at":datetime.now(timezone.utc).isoformat(),
       "scope":{"cities":list(CITIES),"categories":sorted(CATS)},
       "cms_modified":False,"public_site_modified":False,"needs_review":True,
       "counts":{"candidate_records":len(records),"structured_with_schedule":sum(bool(x.get("date_time") and x.get("venue")) for x in records),"with_images":sum(bool(x.get("image_url")) for x in records),"with_videos":sum(bool(x.get("video_url")) for x in records)},
-      "source_reports":reports,"events":records}
+      "source_reports":reports,"quality":quality,"possible_duplicates":possible_duplicates,"events":records}
     OUT.write_text(json.dumps(output,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps(output["counts"],ensure_ascii=False))
 if __name__=="__main__":main()
