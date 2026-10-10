@@ -29,6 +29,7 @@ on:
       - "Share Ashdod event UI with city editions"
       - "Daily city event intake"
       - "Audit existing Ashdod event subcategories"
+      - "Apply verified Ashdod event subcategories"
       - "Refresh Ashdod event source images"
       - "Enrich event content with AI"
     types: [completed]
