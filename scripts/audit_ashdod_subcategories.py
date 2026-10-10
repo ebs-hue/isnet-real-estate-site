@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only subcategory audit and conservative classification suggestions, Ashdod.
+"""Read-only subcategory audit and conservative classification suggestions, Ashdod (initial run).
 
 Does NOT touch the event feed, CMS, publication status or photographs.
 """
