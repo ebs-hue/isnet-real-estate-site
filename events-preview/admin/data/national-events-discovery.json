@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:54:37.020522+00:00",
+  "generated_at": "2026-10-10T07:55:06.701574+00:00",
   "publication_enabled": false,
   "images_authorized": false,
   "cms_modified": false,
@@ -11,7 +11,7 @@
     },
     {
       "source_id": "makore",
-      "found": 2,
+      "found": 4,
       "error": null
     },
     {
@@ -138,9 +138,27 @@
     {
       "source_id": "makore",
       "city_hint": "rishon-lezion",
-      "source_url": "https://www.makore.co.il/event/חגיגה-בחווה-שירי-החיות-שגדלנו-עליהם--52b5bd7c",
-      "title_candidate": "קולנוע ילדים ומשפחה חגיגה בחווה - שירי החיות שגדלנו עליהם 10.10 · 11:00 היכל התרבות, ראשון לציון ‏85 ‏₪",
-      "source_context": "קולנוע ילדים ומשפחה חגיגה בחווה - שירי החיות שגדלנו עליהם 10.10 · 11:00 היכל התרבות, ראשון לציון ‏85 ‏₪",
+      "source_url": "https://www.makore.co.il/event/גמציק-סיור-תיאטרלי-לקטנטנים--7e54ad46",
+      "title_candidate": "ילדים ומשפחה סיור מודרך גמצ'יק - סיור תיאטרלי לקטנטנים 10.10 · 12:45 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏35 ‏₪",
+      "source_context": "ילדים ומשפחה סיור מודרך גמצ'יק - סיור תיאטרלי לקטנטנים 10.10 · 12:45 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏35 ‏₪",
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "makore",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://www.makore.co.il/event/פעילויות-לכל-המשפחה--87870a4a",
+      "title_candidate": "ילדים ומשפחה סיור מודרך פעילויות לכל המשפחה 10.10 · 13:00 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏40 ‏₪",
+      "source_context": "ילדים ומשפחה סיור מודרך פעילויות לכל המשפחה 10.10 · 13:00 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏40 ‏₪",
+      "status": "candidate_requires_title_city_date_and_venue_validation",
+      "image_rights_status": "unknown"
+    },
+    {
+      "source_id": "makore",
+      "city_hint": "rishon-lezion",
+      "source_url": "https://www.makore.co.il/event/כניסה-וסיור-מודרך-לקהל-הרחב--c742c5bf",
+      "title_candidate": "תערוכה סיור מודרך כניסה וסיור מודרך לקהל הרחב 10.10 · 13:15 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏55 ‏₪",
+      "source_context": "תערוכה סיור מודרך כניסה וסיור מודרך לקהל הרחב 10.10 · 13:15 מוזיאון אגם, ראשון לציון ‏0 ‏₪–‏55 ‏₪",
       "status": "candidate_requires_title_city_date_and_venue_validation",
       "image_rights_status": "unknown"
     },
@@ -199,4 +217,4 @@
       "image_rights_status": "unknown"
     }
   ]
-}\n
+}
