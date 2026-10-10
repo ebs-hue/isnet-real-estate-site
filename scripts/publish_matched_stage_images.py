@@ -70,6 +70,18 @@ def main():
         event["image_represents_event"]=True
         event["image_strategy"]="matched_original_stage_production"
         event["thumbnail_ready"]=False
+        # Replace machine-generated event descriptions only with substantive
+        # production copy; do not replace manually locked editorial entries.
+        desc=str(row.get("description") or "").strip()
+        generic=("מחפשים הופעות","באתר מבלים ריכזנו","כרטיסים במחירים מיוחדים",
+                 "הופעה עם הלהיטים הגדולים!","הזמן עכשיו לפני שיגמרו",
+                 "עוד הופעה בקטגוריית")
+        if len(desc)>=100 and not any(x in desc for x in generic) and not event.get("description_manual_override"):
+            event["description"]=desc
+            event["series_description"]=desc
+            event["content_source_url"]=row.get("source_url")
+            event["rich_content_status"]="enriched"
+
     if writable and result:FEED.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     report={"generated_at":datetime.now(ZoneInfo("Asia/Jerusalem")).isoformat(),
       "publication_enabled":writable,"feed_modified":bool(writable and result),
