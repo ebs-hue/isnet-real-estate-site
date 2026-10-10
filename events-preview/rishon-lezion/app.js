@@ -853,7 +853,8 @@ function renderCategories(){
   if(state.events.some(e=>e.category==="workshop")&&!cats.includes("workshop"))cats.push("workshop");
   const counts={};groupEvents(state.events).forEach(e=>counts[e.category]=(counts[e.category]||0)+1);
   if(state.cinema.length)counts.cinema=state.cinema.length;
-  $("categoryGrid").innerHTML=cats.map(c=>{
+  const visibleCats=cats.filter(c=>(counts[c]||0)>0);
+  $("categoryGrid").innerHTML=visibleCats.map(c=>{
     const isCinema=c==="cinema";
     const active=isCinema?state.cinemaOpen:state.category===c;
     const label=configured.find(item=>item.id===c)?.label||catLabels[c]||c;
@@ -863,7 +864,7 @@ function renderCategories(){
       '<span class="categoryCard__copy"><b>'+label+'</b><small>'+countLabel+'</small></span>'+
       '<span class="categoryCard__arrow">←</span>'+
     '</button>';
-    const subs=configured.find(x=>x.id===c)?.subcategories||[];
+    const subs=(configured.find(x=>x.id===c)?.subcategories||[]).filter(sub=>state.events.some(e=>e.category===c&&e.subcategory===sub.id));
     if(!active||isCinema||!subs.length)return '<div class="categoryTile">'+card+'</div>';
     return '<div class="categoryTile">'+card+'<div class="categoryInlineSubtypes"><button data-sub="" class="'+(!state.subcategory?'is-active':'')+'">כל האירועים</button>'+subs.map(sub=>'<button data-sub="'+escapeHtml(sub.id)+'" class="'+(state.subcategory===sub.id?'is-active':'')+'">'+escapeHtml(sub.label)+'</button>').join('')+'</div></div>';
   }).join("");
